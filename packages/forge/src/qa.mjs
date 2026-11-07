@@ -10,6 +10,8 @@ import { Resvg } from '@resvg/resvg-js';
 import { itemOf } from './geo.mjs';
 import { band, SPEC, strokeGeometry } from './render.mjs';
 
+// No system fonts: icons have no text, so skip loading the font database on every render.
+const RASTER = { fitTo: { mode: 'width', value: 32 }, background: '#fff', font: { loadSystemFonts: false } };
 const NAME_RE = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 const LIVE = [2.5, 21.5]; // centre-line live area (warning)
 const CANVAS = [0.75, 23.25]; // hard limit incl. Bold half-stroke
@@ -60,9 +62,10 @@ export function checkFill(svg) {
 
 /** Share of dark pixels at 32px - Fill should never carry less ink than Bold (catches failed boolean ops). */
 export function ink(svg) {
-  const img = new Resvg(svg.replace(/#171729/g, '#000'), { fitTo: { mode: 'width', value: 32 }, background: '#fff' }).render();
+  const img = new Resvg(svg.replace(/#171729/g, '#000'), RASTER).render();
+  const pixels = img.pixels; // a getter that copies the whole buffer on every access
   let sum = 0;
-  for (let i = 0; i < img.pixels.length; i += 4) sum += 255 - img.pixels[i];
+  for (let i = 0; i < pixels.length; i += 4) sum += 255 - pixels[i];
   return sum / (255 * 32 * 32);
 }
 
@@ -78,9 +81,10 @@ export function checkInk(svgs) {
 // a frame (circle + different glyph) are close in the hash but clearly apart in pixels.
 const HASH_SIZE = 16;
 export function fingerprint(svg) {
-  const img = new Resvg(svg.replace(/#171729/g, '#000'), { fitTo: { mode: 'width', value: 32 }, background: '#fff' }).render();
+  const img = new Resvg(svg.replace(/#171729/g, '#000'), RASTER).render();
   const px = new Uint8Array(32 * 32);
-  for (let i = 0; i < px.length; i++) px[i] = 255 - img.pixels[i * 4];
+  const pixels = img.pixels; // read once: each access copies the buffer
+  for (let i = 0; i < px.length; i++) px[i] = 255 - pixels[i * 4];
   const cells = new Float64Array(HASH_SIZE * HASH_SIZE);
   for (let y = 0; y < 32; y++) for (let x = 0; x < 32; x++) cells[(y >> 1) * HASH_SIZE + (x >> 1)] += px[y * 32 + x];
   const mean = cells.reduce((a, c) => a + c, 0) / cells.length;
