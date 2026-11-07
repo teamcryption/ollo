@@ -79,6 +79,10 @@ export default {
   // security
   key: { badges: ['add', 'check'] },
   fingerprint: { badges: ['check', 'close'] },
+  // emoji
+  'face-smile': { badges: ['add'] },
+  // commerce
+  'credit-card': { off: true },
   // time
   alarm: { off: true, badges: ['add', 'check'] },
   timer: { off: true },

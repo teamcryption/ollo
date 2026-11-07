@@ -1,8 +1,8 @@
 import { R, C, L, A, poly, D } from '../src/geo.mjs';
 import { icon, body, line, accent } from '../src/dsl.mjs';
 
-const SHIELD = 'M12 3.4l6.5 2.4a1 1 0 0 1 .6.9v4.8c0 4.3-2.9 7.6-7.1 9.1-4.2-1.5-7.1-4.8-7.1-9.1V6.7a1 1 0 0 1 .6-.9Z';
-const CORNERS = [line('M4 8.5V6.5A2.5 2.5 0 0 1 6.5 4h2'), line('M15.5 4h2A2.5 2.5 0 0 1 20 6.5v2'), line('M20 15.5v2a2.5 2.5 0 0 1-2.5 2.5h-2'), line('M8.5 20h-2A2.5 2.5 0 0 1 4 17.5v-2')];
+export const SHIELD = 'M12 3.4l6.5 2.4a1 1 0 0 1 .6.9v4.8c0 4.3-2.9 7.6-7.1 9.1-4.2-1.5-7.1-4.8-7.1-9.1V6.7a1 1 0 0 1 .6-.9Z';
+export const CORNERS = [line('M4 8.5V6.5A2.5 2.5 0 0 1 6.5 4h2'), line('M15.5 4h2A2.5 2.5 0 0 1 20 6.5v2'), line('M20 15.5v2a2.5 2.5 0 0 1-2.5 2.5h-2'), line('M8.5 20h-2A2.5 2.5 0 0 1 4 17.5v-2')];
 
 export default {
   category: 'security',

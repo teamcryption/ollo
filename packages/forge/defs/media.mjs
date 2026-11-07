@@ -1,7 +1,7 @@
 import { R, C, L, A, poly, D } from '../src/geo.mjs';
 import { icon, body, line, accent } from '../src/dsl.mjs';
 
-const SPEAKER = 'M4 10a1.5 1.5 0 0 1 1.5-1.5H8l4.5-3.8v14.6L8 15.5H5.5A1.5 1.5 0 0 1 4 14Z';
+export const SPEAKER = 'M4 10a1.5 1.5 0 0 1 1.5-1.5H8l4.5-3.8v14.6L8 15.5H5.5A1.5 1.5 0 0 1 4 14Z';
 
 export default {
   category: 'media',
