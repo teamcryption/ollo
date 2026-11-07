@@ -1,0 +1,60 @@
+{
+  "name": "level-up",
+  "title": "Level Up",
+  "category": "gaming",
+  "tags": [
+    "upgrade",
+    "rank up",
+    "progress",
+    "promotion",
+    "xp"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "forge",
+  "family": "level-up",
+  "animation": {
+    "duration": 3000,
+    "loop": true,
+    "source": "generated",
+    "preset": "bounce",
+    "tracks": [
+      {
+        "target": "root",
+        "property": "translateY",
+        "times": [
+          0,
+          0.1,
+          0.22,
+          0.34,
+          0.42,
+          0.5,
+          1
+        ],
+        "values": [
+          0,
+          0,
+          -1,
+          0,
+          -0.35,
+          0,
+          0
+        ],
+        "ease": [
+          "linear",
+          "easeOut",
+          "easeIn",
+          "easeOut",
+          "easeIn",
+          "linear"
+        ]
+      }
+    ]
+  }
+}

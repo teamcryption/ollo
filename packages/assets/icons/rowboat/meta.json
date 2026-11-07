@@ -118,6 +118,38 @@
           "easeIn",
           "linear"
         ]
+      },
+      {
+        "target": 2,
+        "property": "draw",
+        "times": [
+          0,
+          0.18,
+          0.38,
+          0.8,
+          0.933,
+          1
+        ],
+        "values": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "ease": [
+          "linear",
+          "easeInOut",
+          [
+            0.5,
+            0,
+            0.5,
+            1
+          ],
+          "easeIn",
+          "linear"
+        ]
       }
     ]
   }
