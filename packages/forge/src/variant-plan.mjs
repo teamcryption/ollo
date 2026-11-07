@@ -86,6 +86,14 @@ export default {
   // time
   alarm: { off: true, badges: ['add', 'check'] },
   timer: { off: true },
+  history: { mirror: { name: 'time-forward', title: 'Time Forward', tags: ['future', 'forward', 'later', 'fast forward time'] } },
+  // devices (batch 8)
+  webcam: { off: true },
+  monitor: { badges: ['check', 'close'] },
+  tv: { off: true },
+  'usb-drive': { badges: ['check', 'close'] },
+  // development (batch 8)
+  'git-branch': { badges: ['add'] },
 };
 
 export { OBJ, FULL };
