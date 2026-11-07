@@ -81,8 +81,6 @@ export default {
   fingerprint: { badges: ['check', 'close'] },
   // emoji
   'face-smile': { badges: ['add'] },
-  // commerce
-  'credit-card': { off: true },
   // time
   alarm: { off: true, badges: ['add', 'check'] },
   timer: { off: true },
@@ -92,6 +90,10 @@ export default {
   monitor: { badges: ['check', 'close'] },
   tv: { off: true },
   'usb-drive': { badges: ['check', 'close'] },
+  // finance / data / navigation (batch 9)
+  'credit-card': { off: true, badges: ['add', 'check', 'close'] },
+  banknote: { off: true },
+  'money-bag': { badges: ['add'] },
   // development (batch 8)
   'git-branch': { badges: ['add'] },
 };
