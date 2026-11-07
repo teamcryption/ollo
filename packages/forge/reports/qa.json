@@ -1,9 +1,12 @@
 {
-  "generatedAt": "2026-11-07T16:49:54.727Z",
-  "icons": 262,
-  "files": 1310,
+  "generatedAt": "2026-11-07T17:35:33.668Z",
+  "icons": 396,
+  "files": 1980,
   "errors": [],
   "warnings": [
+    "wifi: grid: outside the 3-21 live area (2.10, 5.00, 21.90, 19.00)",
+    "wifi-off: grid: outside the 3-21 live area (2.10, 4.50, 21.90, 19.50)",
+    "gamepad: grid: outside the 3-21 live area (2.15, 7.00, 21.85, 18.22)",
     "dashboard: accent: no floating accent",
     "sliders: accent: no floating accent",
     "close-circle: accent: no floating accent",
@@ -23,12 +26,22 @@
   ],
   "duplicates": [],
   "byCategory": {
+    "actions": 16,
     "arrows": 50,
     "commerce": 24,
     "communication": 26,
+    "data": 12,
+    "development": 13,
+    "devices": 21,
     "files": 51,
+    "finance": 18,
     "interface": 58,
     "media": 25,
+    "navigation": 11,
+    "notifications": 8,
+    "people": 15,
+    "security": 10,
+    "social": 10,
     "time": 16,
     "weather": 12
   }

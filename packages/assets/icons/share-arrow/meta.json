@@ -1,0 +1,59 @@
+{
+  "name": "share-arrow",
+  "title": "Share Out",
+  "category": "actions",
+  "tags": [
+    "export",
+    "send",
+    "share",
+    "upload"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "forge",
+  "family": "share-arrow",
+  "animation": {
+    "duration": 3000,
+    "loop": true,
+    "source": "generated",
+    "preset": "bounce",
+    "tracks": [
+      {
+        "target": "root",
+        "property": "translateY",
+        "times": [
+          0,
+          0.1,
+          0.22,
+          0.34,
+          0.42,
+          0.5,
+          1
+        ],
+        "values": [
+          0,
+          0,
+          -2,
+          0,
+          -0.7,
+          0,
+          0
+        ],
+        "ease": [
+          "linear",
+          "easeOut",
+          "easeIn",
+          "easeOut",
+          "easeIn",
+          "linear"
+        ]
+      }
+    ]
+  }
+}

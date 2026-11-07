@@ -36,7 +36,7 @@ export function checkGeometry(icon, { requireAccent = true } = {}) {
     warnings.push(`grid: outside the 3-21 live area (${[b.left, b.top, b.right, b.bottom].map((v) => v.toFixed(2)).join(', ')})`);
   }
   const accents = icon.els.map((e, i) => [e, i]).filter(([e]) => e.role === 'accent' && !e.badge);
-  if (!accents.length && requireAccent && !icon.noAccent) warnings.push('accent: no floating accent');
+  if (!icon.els.some((e) => e.role === 'accent') && requireAccent && !icon.noAccent) warnings.push('accent: no floating accent');
   const geo = strokeGeometry(icon.els); // after cover cuts - what is actually drawn
   for (const [a, i] of accents) {
     if (!geo[i]) continue;
