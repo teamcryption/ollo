@@ -31,7 +31,7 @@ test('illustrations become full templates', () => {
 });
 
 test('motion compiles and tags targets', () => {
-  const lock = icons.find((i) => i.name === 'lock');
+  const lock = icons.find((i) => i.name === 'lock-open');
   const { svg } = processIcon(lock.svgs.regular, tokens, 'regular');
   const out = animateSvg(svg, lock.animation);
   assert.match(out, /class="m-root"/);

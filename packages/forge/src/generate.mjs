@@ -7,7 +7,8 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { BADGES, withBadge, turnEls, mirrorEls } from './dsl.mjs';
+import { BADGES, CONTAINERS, withBadge, withSlash, inContainer, turnEls, mirrorEls } from './dsl.mjs';
+import PLAN from './variant-plan.mjs';
 import { renderIcon, STYLES } from './render.mjs';
 import { motionFor, turnDir } from './motion.mjs';
 import { checkGeometry, checkFill, checkInk, checkMeta, fingerprint, nearDuplicates } from './qa.mjs';
@@ -27,7 +28,7 @@ const uniq = (a) => [...new Set(a)];
 /** Base definition -> concrete icons (base, direction turns, mirror, variants, badges). */
 export function expand(def, category) {
   const base = { ...def, category, variant: null };
-  const out = [base];
+  const out = def.extend ? [] : [base];
   for (const [dir, deg] of Object.entries(def.turns ?? {})) {
     const from = def.dir;
     if (!from || !def.name.includes(from)) throw new Error(`${def.name}: turns need opts.dir naming the direction word in the name`);
@@ -49,6 +50,24 @@ export function expand(def, category) {
   for (const v of def.variants ?? []) {
     out.push({ ...def, category, ...v, tags: uniq([...(v.tags ?? []), ...def.tags]), variant: { kind: 'variant', of: def.name } });
   }
+  if (def.off) {
+    out.push({
+      ...def, category, anim: 'pop-draw',
+      name: `${def.name}-off`, title: `${def.title} Off`,
+      tags: uniq([...def.tags, 'off', 'disabled']),
+      els: withSlash(def.els), noAccent: true,
+      variant: { kind: 'off', of: def.name },
+    });
+  }
+  for (const k of def.containers ?? []) {
+    out.push({
+      ...def, category,
+      name: `${def.name}-${k}`, title: `${def.title} ${CONTAINERS[k].title}`,
+      tags: uniq([...def.tags, k]),
+      els: inContainer(def.els, k),
+      variant: { kind: 'container', of: def.name, value: k },
+    });
+  }
   for (const id of def.badges ?? []) {
     const b = BADGES[id];
     out.push({
@@ -69,7 +88,11 @@ export async function loadDefs() {
   for (const f of fs.readdirSync(dir).filter((f) => f.endsWith('.mjs')).sort()) {
     const mod = (await import(path.join(dir, f))).default;
     if (ONLY && !ONLY.has(mod.category)) continue;
-    for (const def of mod.icons) all.push(...expand(def, mod.category));
+    for (const def of mod.icons) {
+      const p = PLAN[def.name];
+      const merged = p ? { ...def, ...p, badges: uniq([...(def.badges ?? []), ...(p.badges ?? [])]) } : def;
+      all.push(...expand(merged, mod.category));
+    }
   }
   return all;
 }
@@ -110,11 +133,13 @@ async function main() {
     icon.animation = motionFor(icon.anim, paths);
     hashes.push({ name: icon.name, ...fingerprint(svgs.regular), family: icon.variant?.of ?? icon.name });
   }
-  // Figma-sourced icons take part in the duplicate check too.
+  // Figma-sourced icons take part in the duplicate check too (in their forge family, if a def claims them).
+  const siblingOf = new Map(icons.flatMap((i) => (i.siblings ?? []).map((s) => [s, i.variant?.of ?? i.name])));
+  for (const i of icons) if (i.extend) siblingOf.set(i.variant?.of ?? i.name, i.variant?.of ?? i.name);
   for (const [name, meta] of existing) {
     if (meta.source === 'forge') continue;
     const f = path.join(ICONS_DIR, name, 'regular.svg');
-    if (fs.existsSync(f)) hashes.push({ name, ...fingerprint(fs.readFileSync(f, 'utf8')), family: name });
+    if (fs.existsSync(f)) hashes.push({ name, ...fingerprint(fs.readFileSync(f, 'utf8')), family: siblingOf.get(name) ?? name });
   }
   report.duplicates = nearDuplicates(hashes).map(([a, b, d]) => ({ a, b, distance: d }));
   for (const d of report.duplicates) {

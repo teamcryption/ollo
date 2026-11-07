@@ -1,0 +1,118 @@
+{
+  "name": "lock-open",
+  "title": "Lock Open",
+  "category": "security",
+  "tags": [
+    "unlock",
+    "unlocked",
+    "padlock",
+    "open",
+    "access"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "approved",
+  "figma": {
+    "fileKey": "NqyRMhIekr7P5eCV0kvX4m",
+    "nodeId": "12:269"
+  },
+  "animation": {
+    "duration": 3000,
+    "loop": true,
+    "source": "figma",
+    "tracks": [
+      {
+        "target": "root",
+        "property": "translateX",
+        "times": [
+          0,
+          0.6,
+          0.6267,
+          0.6533,
+          0.68,
+          0.7067,
+          1
+        ],
+        "values": [
+          0,
+          0,
+          -1.2,
+          1.2,
+          -0.8,
+          0,
+          0
+        ],
+        "ease": [
+          "linear",
+          [
+            0.5,
+            0,
+            0.5,
+            1
+          ],
+          [
+            0.5,
+            0,
+            0.5,
+            1
+          ],
+          [
+            0.5,
+            0,
+            0.5,
+            1
+          ],
+          [
+            0.5,
+            0,
+            0.5,
+            1
+          ],
+          "linear"
+        ]
+      },
+      {
+        "target": 1,
+        "property": "translateY",
+        "times": [
+          0,
+          0.1,
+          0.2333,
+          0.5,
+          0.6,
+          1
+        ],
+        "values": [
+          0,
+          0,
+          -2.5,
+          -2.5,
+          0,
+          0
+        ],
+        "ease": [
+          "linear",
+          [
+            0.45,
+            1.45,
+            0.8,
+            1
+          ],
+          [
+            0.5,
+            0,
+            0.5,
+            1
+          ],
+          "easeIn",
+          "linear"
+        ]
+      }
+    ]
+  }
+}

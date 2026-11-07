@@ -67,9 +67,9 @@ export const ICON_DEFAULTS = {
     animation: { ...popAndDraw([1]), source: 'approximated' },
   },
   lock: {
-    title: 'Lock', category: 'security', nodeId: '12:269',
-    tags: ['padlock', 'secure', 'private', 'password'],
-    notes: 'Figma shape is the open (unlocked) padlock - confirm whether the base icon should be closed.',
+    rename: 'lock-open', // the Figma shape is the open padlock; the closed `lock` is drawn in forge
+    title: 'Lock Open', category: 'security', nodeId: '12:269',
+    tags: ['unlock', 'unlocked', 'padlock', 'open', 'access'],
     animation: {
       duration: D, loop: true, source: 'figma',
       tracks: [

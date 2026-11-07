@@ -4,6 +4,7 @@
   "category": "security",
   "tags": [
     "padlock",
+    "locked",
     "secure",
     "private",
     "password"
@@ -15,39 +16,45 @@
     "duotone",
     "fill"
   ],
-  "status": "approved",
-  "figma": {
-    "fileKey": "NqyRMhIekr7P5eCV0kvX4m",
-    "nodeId": "12:269"
-  },
+  "status": "review",
+  "source": "forge",
+  "family": "lock",
   "animation": {
     "duration": 3000,
     "loop": true,
-    "source": "figma",
+    "source": "generated",
+    "preset": "wiggle",
     "tracks": [
       {
         "target": "root",
-        "property": "translateX",
+        "property": "rotate",
+        "origin": [
+          50,
+          50
+        ],
         "times": [
           0,
-          0.6,
-          0.6267,
-          0.6533,
-          0.68,
-          0.7067,
+          0.0667,
+          0.1333,
+          0.2,
+          0.2667,
+          0.3333,
+          0.4,
           1
         ],
         "values": [
           0,
           0,
-          -1.2,
-          1.2,
-          -0.8,
+          -14,
+          12,
+          -8,
+          5,
           0,
           0
         ],
         "ease": [
           "linear",
+          "easeOut",
           [
             0.5,
             0,
@@ -66,53 +73,10 @@
             0.5,
             1
           ],
-          [
-            0.5,
-            0,
-            0.5,
-            1
-          ],
-          "linear"
-        ]
-      },
-      {
-        "target": 1,
-        "property": "translateY",
-        "times": [
-          0,
-          0.1,
-          0.2333,
-          0.5,
-          0.6,
-          1
-        ],
-        "values": [
-          0,
-          0,
-          -2.5,
-          -2.5,
-          0,
-          0
-        ],
-        "ease": [
-          "linear",
-          [
-            0.45,
-            1.45,
-            0.8,
-            1
-          ],
-          [
-            0.5,
-            0,
-            0.5,
-            1
-          ],
-          "easeIn",
+          "easeOut",
           "linear"
         ]
       }
     ]
-  },
-  "notes": "Figma shape is the open (unlocked) padlock - confirm whether the base icon should be closed."
+  }
 }

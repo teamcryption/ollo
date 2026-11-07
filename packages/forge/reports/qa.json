@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-07T17:35:33.668Z",
-  "icons": 396,
-  "files": 1980,
+  "generatedAt": "2026-11-07T17:47:34.434Z",
+  "icons": 502,
+  "files": 2510,
   "errors": [],
   "warnings": [
     "wifi: grid: outside the 3-21 live area (2.10, 5.00, 21.90, 19.00)",
@@ -22,27 +22,34 @@
     "flag: accent: no floating accent",
     "zoom-in: accent: no floating accent",
     "sparkle: accent: no floating accent",
-    "grid-dots: accent: no floating accent"
+    "grid-dots: accent: no floating accent",
+    "duplicate: lock ~ lock-open (shape distance 1px)"
   ],
-  "duplicates": [],
+  "duplicates": [
+    {
+      "a": "lock",
+      "b": "lock-open",
+      "distance": 1
+    }
+  ],
   "byCategory": {
-    "actions": 16,
+    "actions": 25,
     "arrows": 50,
-    "commerce": 24,
-    "communication": 26,
-    "data": 12,
-    "development": 13,
-    "devices": 21,
-    "files": 51,
-    "finance": 18,
-    "interface": 58,
-    "media": 25,
-    "navigation": 11,
+    "commerce": 40,
+    "communication": 41,
+    "data": 15,
+    "development": 22,
+    "devices": 34,
+    "files": 54,
+    "finance": 20,
+    "interface": 66,
+    "media": 31,
+    "navigation": 14,
     "notifications": 8,
-    "people": 15,
-    "security": 10,
+    "people": 23,
+    "security": 17,
     "social": 10,
-    "time": 16,
+    "time": 20,
     "weather": 12
   }
 }

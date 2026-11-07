@@ -7,6 +7,9 @@ const BUBBLE = 'M7 4.5h10A3 3 0 0 1 20 7.5v7a3 3 0 0 1-3 3h-6l-4 3v-3a3 3 0 0 1-
 export default {
   category: 'communication',
   icons: [
+    // The Figma mail is the base; only its variants are drawn here.
+    icon('mail', 'Mail', ['email', 'envelope', 'inbox', 'message'], [body(R(3.5, 5.5, 17, 13, 3)), line('M7.5 9.5l3.3 2.4c.7.5 1.7.5 2.4 0l3.3-2.4')], { extend: true, badges: ['add', 'remove', 'check', 'close', 'alert'] }),
+    icon('mail-open', 'Mail Open', ['email', 'read', 'opened', 'envelope', 'message'], [body('M3.5 10.3 10.8 5a2 2 0 0 1 2.4 0l7.3 5.3v7.2a2.5 2.5 0 0 1-2.5 2.5h-12a2.5 2.5 0 0 1-2.5-2.5Z'), line('M4 10.7l6.8 4.6c.7.5 1.7.5 2.4 0l6.8-4.6')], { noAccent: true, badges: ['check'] }),
     icon('phone', 'Phone', ['call', 'telephone', 'contact', 'mobile'], [body(HANDSET), accent(A(13.2, 10.8, 3, -90, 0))], { anim: 'wiggle', badges: ['add', 'check', 'close'] }),
     icon('phone-call', 'Phone Call', ['calling', 'ringing', 'incoming', 'telephone'], [body(HANDSET), accent(A(13.2, 10.8, 3, -90, 0)), line(A(13.2, 10.8, 6.2, -90, 0))], { anim: 'wiggle' }),
     icon('phone-off', 'Phone Off', ['hang up', 'end call', 'decline', 'mute'], [body(HANDSET), line(L(4.5, 4.5, 19.5, 19.5), { cover: true })], { anim: 'wiggle', noAccent: true }),

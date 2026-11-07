@@ -48,3 +48,15 @@ test('expand derives directions, mirrors and badges with their own names', () =>
   assert.ok(out[1].tags.includes('left') && !out[1].tags.includes('right'));
   assert.equal(withBadge(def.els, 'check').filter((e) => e.badge).length, 2);
 });
+
+test('off and container variants', async () => {
+  const { expand } = await import('../src/generate.mjs');
+  const { icon, body, accent } = await import('../src/dsl.mjs');
+  const { R, L } = await import('../src/geo.mjs');
+  const out = expand(icon('box', 'Box', ['a', 'b', 'c'], [body(R(5, 5, 14, 14, 2)), accent(L(9, 12, 15, 12))], { off: true, containers: ['circle'] }), 'interface');
+  assert.deepEqual(out.map((i) => i.name), ['box', 'box-off', 'box-circle']);
+  assert.equal(out[1].els.at(-1).cover, true);
+  assert.equal(out[2].els[0].role, 'body');
+  const ext = expand(icon('user', 'User', ['a', 'b', 'c'], [body(R(5, 5, 14, 14, 2))], { extend: true, badges: ['add'] }), 'people');
+  assert.deepEqual(ext.map((i) => i.name), ['user-add']);
+});

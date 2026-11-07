@@ -43,6 +43,13 @@ plus `rotateD` / `mirrorD` / `translateD`.
 - `mirror: { name, title, axis }` - undo/redo, trend up/down.
 - `variants: [...]` - hand-drawn siblings (toggle on/off, zoom in/out).
 - `badges: ['add', 'remove', 'check', 'close', 'alert']` - status disc at the bottom right; the base is cut back around it.
+- `off: true` - `<name>-off` with the slash in front (things that can be switched off).
+- `containers: ['circle', 'square']` - the glyph shrunk into a frame (`plus-square`, `pause-circle`).
+- `extend: true` - the base is a Figma icon; only its variants are drawn (`user-add`, `mail-check`).
+- `siblings: ['lock-open']` - a Figma icon that belongs to this family (duplicate check).
+
+Lines a badge or slash would cut down to a stub are dropped. Which icon gets which variant
+lives in `src/variant-plan.mjs`, so the whole library can be audited in one file.
 
 ## Motion presets (`src/motion.mjs`)
 

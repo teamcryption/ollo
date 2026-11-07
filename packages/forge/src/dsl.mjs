@@ -1,6 +1,6 @@
 // The vocabulary icon definitions are written in.
-import { C, L, poly, rotateD, mirrorD, D, itemOf } from './geo.mjs';
-import { SPEC } from './render.mjs';
+import { C, L, R, poly, rotateD, mirrorD, scaleD, D, itemOf } from './geo.mjs';
+import { SPEC, band } from './render.mjs';
 
 export const body = (d, o = {}) => ({ role: 'body', d, ...o });
 export const line = (d, o = {}) => ({ role: 'line', d, ...o });
@@ -15,6 +15,10 @@ export const tint = (d, o = {}) => ({ role: 'tint', d, ...o });
  *                 direction word in the name, rotates the drawing and the motion vector
  *   opts.mirror   { name, title, tags?, axis } - one mirrored twin (undo -> redo)
  *   opts.variants extra hand-written variants [{ name, title, tags, els }]
+ *   opts.off      true -> `<name>-off` with the slash in front
+ *   opts.containers ['circle', 'square'] -> the glyph shrunk into that frame
+ *   opts.extend   the base already exists (a Figma icon): emit only its variants
+ *   opts.siblings names outside this def that belong to the family (duplicate check)
  */
 export const icon = (name, title, tags, els, opts = {}) => ({ name, title, tags, els, ...opts });
 
@@ -30,22 +34,38 @@ export const BADGES = {
 };
 export const BADGE_DISC = C(BX, BY, 4);
 
-// Lines the badge would cut down to a stub (a home bar, a stand) are dropped instead.
+// Lines a cover would cut down to a stub (a home bar, a stand) are dropped instead.
 const MIN_STUB = 1.2;
-function survivesBadge(el) {
+const survives = (zone) => (el) => {
   if (el.role === 'body' || el.role === 'tint') return true;
-  const zone = itemOf(C(BX, BY, 4 + SPEC.coverGap));
   const it = itemOf(el.d);
   const first = it.firstSegment ?? it.children?.[0]?.firstSegment;
   if (it.length < 0.05) return !zone.contains(first.point);
   const cut = it.subtract(zone, { insert: false, trace: false });
   const len = (cut.children ?? [cut]).reduce((a, p) => a + (p.length ?? 0), 0);
   return len >= MIN_STUB;
-}
+};
 
 export function withBadge(els, id) {
   const b = BADGES[id];
-  return [...els.filter(survivesBadge), body(BADGE_DISC, { cover: true, badge: true }), ...b.glyph.map((g, i) => (i === 0 ? accent(g, { badge: true }) : line(g, { badge: true })))];
+  const zone = itemOf(C(BX, BY, 4 + SPEC.coverGap));
+  return [...els.filter(survives(zone)), body(BADGE_DISC, { cover: true, badge: true }), ...b.glyph.map((g, i) => (i === 0 ? accent(g, { badge: true }) : line(g, { badge: true })))];
+}
+
+// ---------- off: the diagonal slash, in front of everything ----------
+export const SLASH = L(4.5, 4.5, 19.5, 19.5);
+export function withSlash(els) {
+  const zone = band(itemOf(SLASH), SPEC.coverGap);
+  return [...els.filter(survives(zone)), line(SLASH, { cover: true })];
+}
+
+// ---------- containers: the glyph shrunk into a circle or a rounded square ----------
+export const CONTAINERS = {
+  circle: { title: 'Circle', shape: C(12, 12, 9) },
+  square: { title: 'Square', shape: R(3, 3, 18, 18, 4.5) },
+};
+export function inContainer(els, kind, scale = 0.6) {
+  return [body(CONTAINERS[kind].shape), ...els.map((e) => ({ ...e, d: scaleD(e.d, scale) }))];
 }
 
 export const turnEls = (els, deg) => els.map((e) => ({ ...e, d: rotateD(e.d, deg) }));

@@ -24,11 +24,12 @@ function writeMeta(dir, base) {
 
 // ---- icons ----
 const icons = JSON.parse(fs.readFileSync(path.join(ASSETS_DIR, 'figma-export/icons.json'), 'utf8'));
-for (const [name, styles] of Object.entries(icons)) {
+for (const [figmaName, styles] of Object.entries(icons)) {
+  const d = ICON_DEFAULTS[figmaName] ?? {};
+  const name = d.rename ?? figmaName; // e.g. the Figma "lock" is the open padlock
   const dir = path.join(ASSETS_DIR, 'icons', name);
   fs.mkdirSync(dir, { recursive: true });
   for (const [style, svg] of Object.entries(styles)) fs.writeFileSync(path.join(dir, `${style}.svg`), svg);
-  const d = ICON_DEFAULTS[name] ?? {};
   writeMeta(dir, {
     name,
     title: d.title ?? name[0].toUpperCase() + name.slice(1),

@@ -7,6 +7,8 @@ const CORNERS = [line('M4 8.5V6.5A2.5 2.5 0 0 1 6.5 4h2'), line('M15.5 4h2A2.5 2
 export default {
   category: 'security',
   icons: [
+    // Closed padlock. The open one is the Figma `lock-open` (same body, shackle lifted).
+    icon('lock', 'Lock', ['padlock', 'locked', 'secure', 'private', 'password'], [line('M8.5 10.5V8a3.5 3.5 0 0 1 7 0v2.5'), body(R(5.5, 10.5, 13, 9.5, 3)), accent(L(12, 14.5, 12, 16))], { anim: 'wiggle', badges: ['check', 'alert'], siblings: ['lock-open'] }),
     icon('shield', 'Shield', ['protection', 'security', 'safe', 'guard', 'defence'], [body(SHIELD), accent(A(12, 11.5, 3.6, 200, 270))], {
       anim: 'pulse',
       variants: [
