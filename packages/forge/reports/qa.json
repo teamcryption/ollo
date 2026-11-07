@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-07T23:45:58.224Z",
-  "icons": 1365,
-  "files": 6825,
+  "generatedAt": "2026-11-07T23:51:41.772Z",
+  "icons": 1372,
+  "files": 6860,
   "errors": [],
   "warnings": [
     "wifi: grid: outside the 3-21 live area (2.10, 5.00, 21.90, 19.00)",
@@ -66,7 +66,7 @@
     "accessibility": 14,
     "actions": 34,
     "ai": 18,
-    "animals": 21,
+    "animals": 24,
     "arrows": 89,
     "buildings": 21,
     "business": 22,
@@ -80,7 +80,7 @@
     "education": 22,
     "emoji": 22,
     "energy": 16,
-    "fashion": 21,
+    "fashion": 23,
     "files": 78,
     "finance": 35,
     "food": 35,
@@ -98,12 +98,12 @@
     "science": 18,
     "security": 26,
     "social": 13,
-    "sports": 29,
+    "sports": 30,
     "text": 32,
     "time": 35,
     "tools": 23,
     "transport": 22,
-    "travel": 28,
+    "travel": 29,
     "weather": 33
   }
 }
