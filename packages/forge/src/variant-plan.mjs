@@ -90,6 +90,9 @@ export default {
   monitor: { badges: ['check', 'close'] },
   tv: { off: true },
   'usb-drive': { badges: ['check', 'close'] },
+  // travel / transport (batch 11)
+  airplane: { off: true },
+  luggage: { badges: ['check', 'close'] },
   // actions / design / text / business (batch 10)
   type: { off: true },
   briefcase: { badges: ['add', 'check'] },

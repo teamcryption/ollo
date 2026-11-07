@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-07T19:07:34.680Z",
-  "icons": 898,
-  "files": 4490,
+  "generatedAt": "2026-11-07T19:11:18.671Z",
+  "icons": 930,
+  "files": 4650,
   "errors": [],
   "warnings": [
     "wifi: grid: outside the 3-21 live area (2.10, 5.00, 21.90, 19.00)",
@@ -59,7 +59,7 @@
     "design": 33,
     "development": 32,
     "devices": 54,
-    "education": 10,
+    "education": 16,
     "emoji": 10,
     "energy": 5,
     "fashion": 5,
@@ -70,7 +70,7 @@
     "health": 11,
     "home": 10,
     "interface": 85,
-    "logistics": 4,
+    "logistics": 11,
     "maps": 11,
     "media": 38,
     "nature": 7,
@@ -84,8 +84,8 @@
     "text": 30,
     "time": 30,
     "tools": 8,
-    "transport": 8,
-    "travel": 9,
+    "transport": 15,
+    "travel": 21,
     "weather": 25
   }
 }
