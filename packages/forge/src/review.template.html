@@ -4,24 +4,26 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=Figtree:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
 <style>
-/* Layout: the Figma icon view (frame 29:2) - top bar, collections sidebar, filter bar, solid icon tiles. Library Jade tokens. */
+/* Layout: the Figma icon view (frame 29:2). 60-30-10: neutral white/grey ground, black type and controls, royal blue only for state. */
 :root{
-  --bg:#F3F6F4; --surface:#FFFFFF; --sunken:#EEF2F0; --line:#DFE6E2; --line-strong:#C9D3CE;
-  --fg:#14201B; --muted:#5D6B64; --brand:#0C7559; --brand-fg:#FFFFFF; --brand-soft:#E3F2EC; --brand-line:#0C7559;
-  --halo:rgba(12,117,89,.18); --toast:#16201C; --toast-fg:#F2F7F4; --warn:#9A5B00;
-  --icon:#171729;
+  --bg:#FFFFFF; --surface:#FFFFFF; --sunken:#F5F5F7; --line:#E8E8EC; --line-strong:#D4D4DA;
+  --fg:#0C0C10; --muted:#6C6C78; --ink-fg:#FFFFFF;
+  --brand:#3A57FF; --brand-fg:#FFFFFF; --brand-soft:#EEF1FF; --brand-line:#3A57FF; --halo:rgba(58,87,255,.18);
+  --toast:#0C0C10; --toast-fg:#FFFFFF; --icon:#0C0C10; --scrim:rgba(12,12,16,.42);
   --f-display:"Bricolage Grotesque","Figtree",system-ui,sans-serif;
   --f-body:"Figtree",system-ui,-apple-system,"Segoe UI",sans-serif;
   --f-mono:"JetBrains Mono",ui-monospace,"SF Mono",Menlo,monospace;
 }
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
-  --bg:#0E1412; --surface:#161E1B; --sunken:#121916; --line:#24302B; --line-strong:#33423B;
-  --fg:#E6EEEA; --muted:#93A39B; --brand:#62D0A6; --brand-fg:#062A1F; --brand-soft:#173329; --brand-line:#62D0A6;
-  --halo:rgba(98,208,166,.22); --toast:#E6EEEA; --toast-fg:#0E1412; --warn:#F2B562; --icon:#E6EEEA; color-scheme:dark}}
+  --bg:#0B0B0E; --surface:#111115; --sunken:#18181D; --line:#24242B; --line-strong:#33333C;
+  --fg:#F3F3F6; --muted:#9B9BA7; --ink-fg:#0B0B0E;
+  --brand:#7088FF; --brand-fg:#0B0B0E; --brand-soft:#181D38; --brand-line:#7088FF; --halo:rgba(112,136,255,.22);
+  --toast:#F3F3F6; --toast-fg:#0B0B0E; --icon:#F3F3F6; --scrim:rgba(0,0,0,.6); color-scheme:dark}}
 :root[data-theme="dark"]{
-  --bg:#0E1412; --surface:#161E1B; --sunken:#121916; --line:#24302B; --line-strong:#33423B;
-  --fg:#E6EEEA; --muted:#93A39B; --brand:#62D0A6; --brand-fg:#062A1F; --brand-soft:#173329; --brand-line:#62D0A6;
-  --halo:rgba(98,208,166,.22); --toast:#E6EEEA; --toast-fg:#0E1412; --warn:#F2B562; --icon:#E6EEEA; color-scheme:dark}
+  --bg:#0B0B0E; --surface:#111115; --sunken:#18181D; --line:#24242B; --line-strong:#33333C;
+  --fg:#F3F3F6; --muted:#9B9BA7; --ink-fg:#0B0B0E;
+  --brand:#7088FF; --brand-fg:#0B0B0E; --brand-soft:#181D38; --brand-line:#7088FF; --halo:rgba(112,136,255,.22);
+  --toast:#F3F3F6; --toast-fg:#0B0B0E; --icon:#F3F3F6; --scrim:rgba(0,0,0,.6); color-scheme:dark}
 *{box-sizing:border-box}
 [hidden]{display:none!important}
 html,body{background:var(--bg)}
@@ -35,10 +37,10 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .top{position:sticky;top:env(safe-area-inset-top,0px);z-index:6;background:var(--surface);border-bottom:1px solid var(--line);
   display:flex;align-items:center;gap:16px;padding-block:10px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
 .logo{display:flex;align-items:center;gap:8px;font:700 20px/1 var(--f-display);letter-spacing:-.01em;white-space:nowrap}
-.logo i{display:grid;place-items:center;width:30px;height:30px;border-radius:8px;background:var(--brand);color:var(--brand-fg);font-style:normal;font-size:15px}
+.logo i{display:grid;place-items:center;width:30px;height:30px;border-radius:8px;background:var(--fg);color:var(--ink-fg);font-style:normal;font-size:15px}
 .modes{display:inline-flex;gap:2px;padding:3px;border-radius:10px;background:var(--sunken);border:1px solid var(--line)}
 .modes button{display:flex;align-items:center;gap:6px;border:0;background:none;padding:6px 12px;border-radius:7px;color:var(--muted);font-weight:500}
-.modes button[aria-pressed="true"]{background:var(--surface);color:var(--fg);box-shadow:0 1px 2px rgba(0,0,0,.08)}
+.modes button[aria-pressed="true"]{background:var(--surface);color:var(--fg);box-shadow:0 0 0 1px var(--line)}
 .modes small{font:10px var(--f-mono);color:var(--muted)}
 .search{flex:1;min-width:0;max-width:460px;display:flex;align-items:center;gap:8px;background:var(--sunken);border:1px solid var(--line);border-radius:10px;padding:8px 12px}
 .search input{border:0;background:none;outline:none;flex:1;min-width:0}
@@ -52,14 +54,14 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .side h3{font:500 11px var(--f-body);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:6px 10px}
 .coll{display:flex;align-items:center;gap:10px;border:0;background:none;text-align:left;padding:8px 10px;border-radius:9px;width:100%}
 .coll:hover{background:var(--sunken)}
-.coll[aria-current="true"]{background:var(--brand-soft);color:var(--brand)}
+.coll[aria-current="true"]{background:var(--sunken);color:var(--fg);font-weight:600}
 .coll svg{flex:none;color:var(--muted)}
-.coll[aria-current="true"] svg{color:var(--brand)}
+.coll[aria-current="true"] svg{color:var(--fg)}
 .coll span{flex:1;min-width:0}
 .coll b{font:500 11px var(--f-mono);color:var(--muted);font-variant-numeric:tabular-nums}
-.coll[aria-current="true"] b{color:var(--brand)}
-.batchnote{margin-top:14px;border-radius:12px;background:var(--brand-soft);padding:14px;font-size:12.5px;color:var(--fg);display:grid;gap:6px}
-.batchnote strong{color:var(--brand);font-weight:600;font-size:13.5px}
+.coll[aria-current="true"] b{color:var(--fg)}
+.batchnote{margin-top:14px;border-radius:12px;background:var(--sunken);padding:14px;font-size:12.5px;color:var(--fg);display:grid;gap:6px}
+.batchnote strong{color:var(--fg);font-weight:600;font-size:13.5px}
 .batchnote .row{display:flex;justify-content:space-between;font:12px var(--f-mono)}
 
 .main{padding-block:28px 96px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));min-width:0;display:grid;gap:20px;align-content:start}
@@ -74,19 +76,22 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 
 .filters{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:10px 12px;display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px}
 .flabel{color:var(--muted);font-size:13px}
+.fg{display:flex;align-items:center;gap:10px;flex-wrap:wrap;min-width:0}
 .chips{display:flex;flex-wrap:wrap;gap:6px}
 .chip{border:1px solid var(--line-strong);background:var(--surface);border-radius:999px;padding:5px 13px;font-weight:500;display:flex;align-items:center;gap:6px}
-.chip[aria-pressed="true"]{border-color:var(--brand-line);color:var(--brand);background:var(--brand-soft);box-shadow:0 0 0 3px var(--halo)}
+.chip{transition:background .15s,border-color .15s}
+.chip:hover{border-color:var(--fg)}
+.chip[aria-pressed="true"]{border-color:var(--fg);color:var(--ink-fg);background:var(--fg)}
 .chip svg{display:none}.chip[aria-pressed="true"] svg{display:block}
 .vr{width:1px;height:24px;background:var(--line)}
 .switch{display:flex;align-items:center;gap:8px;border:0;background:none;padding:0;font-weight:500}
 .switch i{width:38px;height:22px;border-radius:999px;background:var(--line-strong);position:relative;transition:background .2s}
 .switch i::after{content:"";position:absolute;top:3px;left:3px;width:16px;height:16px;border-radius:50%;background:var(--surface);transition:transform .2s}
-.switch[aria-pressed="true"] i{background:var(--brand)}
+.switch[aria-pressed="true"] i{background:var(--fg)}
 .switch[aria-pressed="true"] i::after{transform:translateX(16px)}
 .swatches{display:flex;align-items:center;gap:7px}
 .sw{width:24px;height:24px;border-radius:50%;border:2px solid var(--surface);box-shadow:0 0 0 1px var(--line-strong);padding:0;background:var(--c)}
-.sw[aria-pressed="true"]{box-shadow:0 0 0 2px var(--brand-line)}
+.sw[aria-pressed="true"]{box-shadow:0 0 0 2px var(--fg)}
 .sw.custom{position:relative;overflow:hidden;background:conic-gradient(#e44,#eb3,#4c6,#39e,#a5e,#e44)}
 .sw.custom input{position:absolute;inset:-6px;opacity:0;cursor:pointer}
 select{border:1px solid var(--line-strong);background:var(--surface);border-radius:9px;padding:6px 10px}
@@ -94,15 +99,21 @@ select{border:1px solid var(--line-strong);background:var(--surface);border-radi
 
 /* grid */
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(var(--tile,112px),28vw),1fr));gap:12px}
-.tile{position:relative;aspect-ratio:1;border:1px solid var(--line);background:var(--surface);border-radius:12px;display:grid;place-items:center;color:var(--ic);transition:border-color .15s,background .15s,box-shadow .15s;padding:0}
-.tile svg{display:block;width:var(--px,24px);height:var(--px,24px)}
-.tile.on{border-color:var(--brand-line);background:var(--brand-soft);box-shadow:0 0 0 4px var(--halo)}
+.tile{position:relative;aspect-ratio:1;border:1px solid var(--line);background:var(--sunken);border-radius:12px;display:grid;place-items:center;color:var(--ic);transition:border-color .18s,background .18s;padding:0}
+.tile svg{display:block;width:var(--px,24px);height:var(--px,24px);transition:transform .25s cubic-bezier(.34,1.56,.64,1)}
+.tile:hover{border-color:var(--line-strong);background:var(--surface)}
+.tile:hover svg{transform:scale(1.12)}
+.tile:active svg{transform:scale(.94)}
+.tile.on{border-color:var(--brand-line);background:var(--brand-soft)}
+.tile.on svg{animation:pop .35s cubic-bezier(.34,1.56,.64,1)}
+@keyframes pop{0%{transform:scale(.8)}100%{transform:scale(1)}}
 .tile.on::after{content:"";position:absolute;top:7px;right:7px;width:18px;height:18px;border-radius:50%;background:var(--brand) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 12.5l4 4 8-9'/%3E%3C/svg%3E") center/12px no-repeat}
 .tile .badge{position:absolute;left:8px;top:8px;font:500 9.5px var(--f-mono);letter-spacing:.04em;color:var(--brand);background:var(--brand-soft);border-radius:5px;padding:1px 5px}
 .tile .nm{position:absolute;inset:auto 6px 7px;font-size:11px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-align:center;opacity:.9}
 .more{display:flex;justify-content:center;align-items:center;gap:14px;color:var(--muted)}
 .btn{border:1px solid var(--line-strong);background:var(--surface);border-radius:10px;padding:8px 16px;font-weight:500}
 .btn.primary{background:var(--brand);border-color:var(--brand);color:var(--brand-fg)}
+.btn:hover{border-color:var(--fg)}
 .btn:disabled{opacity:.45;cursor:not-allowed}
 .empty{padding:48px;text-align:center;color:var(--muted);border:1px dashed var(--line-strong);border-radius:14px}
 
@@ -118,16 +129,17 @@ select{border:1px solid var(--line-strong);background:var(--surface);border-radi
 .matrix .tile.on{background:var(--brand-soft)}
 
 /* toast */
-.toast{position:fixed;left:50%;bottom:calc(24px + env(safe-area-inset-bottom,0px));transform:translate(-50%,20px);opacity:0;pointer-events:none;background:var(--toast);color:var(--toast-fg);border-radius:12px;padding:11px 16px;display:flex;align-items:center;gap:10px;font-weight:500;transition:opacity .2s,transform .2s;z-index:30;box-shadow:0 10px 30px rgba(0,0,0,.25);max-width:calc(100% - 32px)}
+.toast{position:fixed;left:50%;bottom:calc(24px + env(safe-area-inset-bottom,0px));transform:translate(-50%,20px);opacity:0;pointer-events:none;background:var(--toast);color:var(--toast-fg);border-radius:12px;padding:11px 16px;display:flex;align-items:center;gap:10px;font-weight:500;transition:opacity .2s,transform .25s cubic-bezier(.34,1.56,.64,1);z-index:30;max-width:calc(100% - 32px)}
 .toast.show{opacity:1;transform:translate(-50%,0)}
 .toast i{width:20px;height:20px;border-radius:50%;background:var(--brand);display:grid;place-items:center;flex:none}
 
 /* download panel */
-.scrim{position:fixed;inset:0;background:rgba(10,16,13,.45);backdrop-filter:blur(3px);z-index:20;display:grid;place-items:center;padding:max(16px,env(safe-area-inset-top,0px)) max(16px,env(safe-area-inset-right,0px)) max(16px,env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px))}
-.dl{width:min(1060px,100%);max-height:100%;overflow:auto;background:var(--surface);border-radius:18px;display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);box-shadow:0 30px 80px rgba(0,0,0,.35)}
+.scrim{position:fixed;inset:0;background:var(--scrim);z-index:20;display:grid;place-items:center;padding:max(16px,env(safe-area-inset-top,0px)) max(16px,env(safe-area-inset-right,0px)) max(16px,env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px))}
+.dl{width:min(1060px,100%);max-height:100%;overflow:auto;background:var(--surface);border:1px solid var(--line);border-radius:18px;display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);animation:rise .28s cubic-bezier(.2,.9,.3,1.2)}
+@keyframes rise{from{transform:translateY(14px) scale(.98);opacity:0}}
 .dl .stage{margin:16px;border-radius:14px;border:1px solid var(--line);display:grid;place-items:center;min-height:380px;background:var(--stage)}
 .dl .stage svg{width:180px;height:180px;color:var(--pc)}
-.dl .panel{padding:22px 22px 18px;display:grid;gap:14px;align-content:start;border-left:1px solid var(--line);background:var(--bg)}
+.dl .panel{padding:22px 22px 18px;display:grid;gap:14px;align-content:start;border-left:1px solid var(--line);background:var(--surface)}
 .crumbs{display:flex;align-items:center;justify-content:space-between;gap:8px;font:500 11px var(--f-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
 .crumbs .nav{display:flex;align-items:center;gap:4px;text-transform:none;letter-spacing:0;font-variant-numeric:tabular-nums}
 .crumbs .nav button{border:0;background:none;width:30px;height:30px;border-radius:8px;display:grid;place-items:center}
@@ -142,7 +154,7 @@ select{border:1px solid var(--line-strong);background:var(--surface);border-radi
 .seg.wide{display:grid;grid-auto-flow:column;grid-auto-columns:1fr;width:100%}
 .seg.dark button[aria-pressed="true"]{background:var(--fg);color:var(--bg)}
 .bgsw{width:26px;height:26px;border-radius:7px;border:1px solid var(--line-strong);background:var(--c);padding:0}
-.bgsw[aria-pressed="true"]{box-shadow:0 0 0 2px var(--brand-line)}
+.bgsw[aria-pressed="true"]{box-shadow:0 0 0 2px var(--fg)}
 .bgsw.clear{background:repeating-conic-gradient(var(--line) 0 25%,var(--surface) 0 50%) 0 0/8px 8px}
 .actions{display:grid;grid-template-columns:1fr 1.6fr;gap:10px}
 .actions .btn{padding:11px 14px;display:flex;align-items:center;justify-content:center;gap:8px}
@@ -161,8 +173,14 @@ select{border:1px solid var(--line-strong);background:var(--surface);border-radi
   .dl .stage{min-height:240px}
   .dl .panel{border-left:0;border-top:1px solid var(--line)}
   .push{margin-left:0}
+  .filters{display:grid;gap:12px}
+  .filters .vr{display:none}
+  .fg{display:grid;grid-template-columns:56px minmax(0,1fr);align-items:center}
+  .fg .switch{grid-column:1/-1}
+  .fg select{justify-self:start}
+  .head .ctrls{width:100%}
 }
-@media (max-width:520px){ .modes small,.modes .lbl{display:none}.opt{grid-template-columns:minmax(0,1fr)} }
+@media (max-width:520px){ .modes small,.modes .lbl{display:none} .tile .nm{display:none}.opt{grid-template-columns:minmax(0,1fr)} }
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
 
@@ -188,14 +206,12 @@ select{border:1px solid var(--line-strong);background:var(--surface);border-radi
       </div>
     </div>
     <div class="filters">
-      <span class="flabel">Style</span>
-      <div class="chips" id="styles" role="group" aria-label="Style"></div>
+      <div class="fg"><span class="flabel">Style</span><div class="chips" id="styles" role="group" aria-label="Style"></div></div>
       <span class="vr"></span>
-      <button class="switch" id="anim" aria-pressed="false"><i></i>Animated</button>
+      <div class="fg"><button class="switch" id="anim" aria-pressed="false"><i></i>Animated</button></div>
       <span class="vr"></span>
-      <span class="flabel">Colour</span>
-      <div class="swatches" id="colours" role="group" aria-label="Icon colour"></div>
-      <div class="push"><span class="flabel">Size</span><select id="size" aria-label="Icon size"><option>16</option><option>20</option><option selected>24</option><option>32</option></select></div>
+      <div class="fg"><span class="flabel">Colour</span><div class="swatches" id="colours" role="group" aria-label="Icon colour"></div></div>
+      <div class="fg push"><span class="flabel">Size</span><select id="size" aria-label="Icon size"><option>16</option><option>20</option><option selected>24</option><option>32</option></select></div>
     </div>
     <div id="view"></div>
     <div class="more" id="more"></div>
@@ -209,7 +225,7 @@ const D = __DATA__;
 const DOT = '\u00b7';
 const STYLES = ['light','regular','bold','fill','duotone'];
 const STYLE_T = {light:'Light',regular:'Regular',bold:'Bold',fill:'Fill',duotone:'Duotone'};
-const COLOURS = [['Ink','auto'],['Jade','#0C7559'],['Blue','#2563C9'],['Red','#C93A2B'],['Amber','#B7791F']];
+const COLOURS = [['Ink','auto'],['Royal blue','#3A57FF'],['Green','#12805C'],['Red','#D93A2B'],['Amber','#C27C0E']];
 const CAT_ICON = {interface:'dashboard',arrows:'arrow-up-right',files:'folder-plain',communication:'message',commerce:'cart',media:'play',weather:'sun',time:'clock',navigation:'home',people:'user',notifications:'bell',actions:'search',social:'heart',security:'lock'};
 const byName = Object.fromEntries(D.icons.map(i => [i.n, i]));
 const catT = Object.fromEntries(D.cats.map(c => [c.id, c.title]));
@@ -237,17 +253,13 @@ function renderSide() {
   $('side').innerHTML = `<h3>Collections</h3>` +
     row('all', 'All icons', D.icons.length, mini('dashboard')) +
     present.map(x => row(x.id, x.title, c[x.id], mini(CAT_ICON[x.id] || 'star'))).join('') +
-    row('animated', 'Animated icons', animated, mini('sparkle')) +
-    `<h3 class="lib">This batch</h3>` +
-    row('new', 'New in batch 1', D.icons.filter(i => i.src === 'new').length, mini('star')) +
-    row('figma', 'From Figma samples', D.icons.filter(i => i.src === 'figma').length, mini('pin')) +
     `<div class="batchnote"><strong>Batch 1 review</strong>
       <div class="row"><span>Icons</span><span>${fmt(D.icons.length)}</span></div>
       <div class="row"><span>SVG files</span><span>${fmt(D.icons.reduce((a, i) => a + Object.keys(i.s).length, 0))}</span></div>
       <div class="row"><span>QA errors</span><span>${D.qa ? D.qa.errors : '-'}</span></div>
       <div class="row"><span>Categories</span><span>${present.length} of ${planned}</span></div>
-      <div class="row"><span>Plan</span><span>${fmt(D.targetConcepts)} × 5</span></div></div>`;
-  $('side').querySelectorAll('[data-coll]').forEach(b => b.onclick = () => { st.coll = b.dataset.coll; st.limit = 120; st.sel = null; if (st.coll === 'animated') st.anim = true; render(); });
+      <div class="row"><span>Plan</span><span>${fmt(D.targetConcepts)} \u00d7 5</span></div></div>`;
+  $('side').querySelectorAll('[data-coll]').forEach(b => b.onclick = () => { st.coll = b.dataset.coll; st.limit = 120; st.sel = null; render(); });
 }
 
 /* ---------- filters ---------- */
@@ -256,7 +268,7 @@ function renderFilters() {
   $('styles').querySelectorAll('[data-style]').forEach(b => b.onclick = () => { st.style = b.dataset.style; save(); render(); });
   const isCustom = st.colour !== 'auto' && !COLOURS.some(c => c[1] === st.colour);
   $('colours').innerHTML = COLOURS.map(([n, c]) => `<button class="sw" style="--c:${c === 'auto' ? 'var(--icon)' : c}" data-c="${c}" aria-label="${n}" aria-pressed="${st.colour === c}"></button>`).join('') +
-    `<label class="sw custom" aria-label="Custom colour" style="${isCustom ? 'box-shadow:0 0 0 2px var(--brand-line)' : ''}"><input id="custom-colour" type="color" value="${isCustom ? st.colour : '#0C7559'}"></label>`;
+    `<label class="sw custom" aria-label="Custom colour" style="${isCustom ? 'box-shadow:0 0 0 2px var(--brand-line)' : ''}"><input id="custom-colour" type="color" value="${isCustom ? st.colour : '#3A57FF'}"></label>`;
   $('colours').querySelectorAll('[data-c]').forEach(b => b.onclick = () => { st.colour = b.dataset.c; save(); render(); });
   $('custom-colour').oninput = (e) => { st.colour = e.target.value; save(); paintColour(); };
   $('custom-colour').onchange = () => render();
@@ -292,7 +304,7 @@ function render() {
   $('sub').textContent = `${fmt(list.length)} icons${st.anim ? ' with motion. Click one to open the download panel.' : ', each in Light, Regular, Bold, Fill and Duotone. Click any icon to copy its SVG.'}`;
   const [tile, px] = TILE[st.tile];
   const shown = list.slice(0, st.limit);
-  if (!list.length) { $('view').innerHTML = `<div class="empty">No icons match “${esc(st.q)}”. Try a shorter word or another collection.</div>`; $('more').innerHTML = ''; return; }
+  if (!list.length) { $('view').innerHTML = `<div class="empty">No icons match \u201c${esc(st.q)}\u201d. Try a shorter word or another collection.</div>`; $('more').innerHTML = ''; return; }
   if (st.view === 'grid') {
     $('view').innerHTML = `<div class="grid" style="--tile:${tile}px;--px:${px}px">` + shown.map(i => {
       const body = st.anim && i.a ? i.a : i.s[st.style];
@@ -326,11 +338,11 @@ function onTile(t) {
 }
 
 /* ---------- download panel ---------- */
-const PANEL_COLOURS = [['Ink','#171729'],['Jade','#0C7559'],['Blue','#2563C9'],['Red','#C93A2B'],['Amber','#B7791F'],['White','#FFFFFF']];
-const PANEL_BG = [['Transparent','clear'],['White','#FFFFFF'],['Mist','#EEF2F0'],['Mint','#E3F2EC'],['Night','#121916']];
+const PANEL_COLOURS = [['Ink','#0C0C10'],['Royal blue','#3A57FF'],['Green','#12805C'],['Red','#D93A2B'],['Amber','#C27C0E'],['White','#FFFFFF']];
+const PANEL_BG = [['Transparent','clear'],['White','#FFFFFF'],['Grey','#F5F5F7'],['Blue tint','#EEF1FF'],['Night','#111115']];
 let P = null;
 function openPanel(name) {
-  P = { name, colour: st.colour === 'auto' ? '#171729' : st.colour, theme: 'light', lines: 'regular', bg: 'clear', format: 'svg', motion: 'animated' };
+  P = { name, colour: st.colour === 'auto' ? '#0C0C10' : st.colour, theme: 'light', lines: 'regular', bg: 'clear', format: 'svg', motion: 'animated' };
   $('scrim').hidden = false; drawPanel();
 }
 function panelList() { return filtered().filter(i => i.a); }
@@ -344,7 +356,7 @@ function drawPanel() {
   const list = panelList();
   const idx = Math.max(0, list.findIndex(x => x.n === P.name));
   const i = list[idx] || byName[P.name];
-  const stage = P.bg === 'clear' ? (P.theme === 'dark' ? '#121916' : '#F3F6F4') : P.bg;
+  const stage = P.bg === 'clear' ? (P.theme === 'dark' ? '#111115' : '#F5F5F7') : P.bg;
   const b = (k, v, label, extra = '') => `<button data-k="${k}" data-v="${v}" aria-pressed="${P[k] === v}"${extra}>${label}</button>`;
   $('scrim').innerHTML = `<div class="dl" role="dialog" aria-modal="true" aria-labelledby="dl-t">
     <div class="stage" style="--stage:${stage}">${panelSvg(i, false).replace('width="24" height="24"', '')}</div>
@@ -362,7 +374,7 @@ function drawPanel() {
       <div class="seg wide dark">${b('motion', 'still', 'Still')}${b('motion', 'animated', 'Animated')}</div>
       <div class="actions"><button class="btn" id="p-copy"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="8" y="8" width="12" height="12" rx="2.5"/><path d="M16 5.5A1.5 1.5 0 0 0 14.5 4h-9A1.5 1.5 0 0 0 4 5.5v9A1.5 1.5 0 0 0 5.5 16"/></svg>Copy</button>
         <button class="btn primary" id="p-dl"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11M7.5 11l4.5 4.5 4.5-4.5M5 19.5h14"/></svg>Download ${P.format === 'png' ? 'PNG' : P.motion === 'animated' ? 'animated SVG' : 'SVG'}</button></div>
-      <p class="note">${P.format === 'png' ? 'PNG is a still frame at 4× (96px). ' : P.motion === 'animated' ? 'Animated SVG plays in browsers, Figma imports the still frame. ' : ''}Lottie and GIF export are the next pipeline step.</p>
+      <p class="note">${P.format === 'png' ? 'PNG is a still frame at 4\u00d7 (96px). ' : P.motion === 'animated' ? 'Animated SVG plays in browsers, Figma imports the still frame. ' : ''}Lottie and GIF export are the next pipeline step.</p>
     </div></div>`;
   const sc = $('scrim');
   sc.querySelectorAll('[data-k]').forEach(el => el.onclick = () => { if (el.disabled) return; P[el.dataset.k] = el.dataset.v; if (P.format === 'png') P.motion = 'still'; drawPanel(); });
@@ -394,7 +406,7 @@ async function download(i) {
 }
 
 /* ---------- wiring ---------- */
-$('anim').onclick = () => { st.anim = !st.anim; if (!st.anim && st.coll === 'animated') st.coll = 'all'; st.limit = 120; render(); };
+$('anim').onclick = () => { st.anim = !st.anim; st.limit = 120; if (st.anim) st.view = 'grid'; render(); };
 $('size').onchange = (e) => { st.size = +e.target.value; render(); };
 $('v-grid').onclick = () => { st.view = 'grid'; render(); };
 $('v-rows').onclick = () => { st.view = 'rows'; st.anim = false; render(); };
