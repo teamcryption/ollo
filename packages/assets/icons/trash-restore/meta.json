@@ -1,0 +1,60 @@
+{
+  "name": "trash-restore",
+  "title": "Restore",
+  "category": "actions",
+  "tags": [
+    "undelete",
+    "recover",
+    "restore",
+    "bin",
+    "undo delete"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "forge",
+  "family": "trash-restore",
+  "animation": {
+    "duration": 3000,
+    "loop": true,
+    "source": "generated",
+    "preset": "bounce",
+    "tracks": [
+      {
+        "target": "root",
+        "property": "translateY",
+        "times": [
+          0,
+          0.1,
+          0.22,
+          0.34,
+          0.42,
+          0.5,
+          1
+        ],
+        "values": [
+          0,
+          0,
+          -1,
+          0,
+          -0.35,
+          0,
+          0
+        ],
+        "ease": [
+          "linear",
+          "easeOut",
+          "easeIn",
+          "easeOut",
+          "easeIn",
+          "linear"
+        ]
+      }
+    ]
+  }
+}

@@ -90,6 +90,10 @@ export default {
   monitor: { badges: ['check', 'close'] },
   tv: { off: true },
   'usb-drive': { badges: ['check', 'close'] },
+  // actions / design / text / business (batch 10)
+  type: { off: true },
+  briefcase: { badges: ['add', 'check'] },
+  'qr-code': { badges: ['check'] },
   // finance / data / navigation (batch 9)
   'credit-card': { off: true, badges: ['add', 'check', 'close'] },
   banknote: { off: true },
