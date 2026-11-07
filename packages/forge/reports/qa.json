@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-07T19:39:25.529Z",
-  "icons": 1146,
-  "files": 5730,
+  "generatedAt": "2026-11-07T19:42:24.171Z",
+  "icons": 1178,
+  "files": 5890,
   "errors": [],
   "warnings": [
     "wifi: grid: outside the 3-21 live area (2.10, 5.00, 21.90, 19.00)",
@@ -77,10 +77,10 @@
     "fashion": 11,
     "files": 69,
     "finance": 32,
-    "food": 21,
+    "food": 29,
     "gaming": 12,
-    "health": 18,
-    "home": 22,
+    "health": 22,
+    "home": 30,
     "interface": 101,
     "logistics": 11,
     "maps": 12,
@@ -92,12 +92,12 @@
     "science": 14,
     "security": 23,
     "social": 11,
-    "sports": 16,
+    "sports": 22,
     "text": 30,
     "time": 32,
     "tools": 15,
     "transport": 15,
-    "travel": 21,
+    "travel": 27,
     "weather": 30
   }
 }
