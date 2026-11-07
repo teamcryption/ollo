@@ -1,0 +1,29 @@
+<svg width="260" height="260" viewBox="0 0 260 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Secure Vault/Duotone">
+<rect width="260" height="260" rx="16" fill="#F7F7FF"/>
+<g id="base">
+<path id="face" d="M130 87.3979L228 143.978L130 200.558L32 143.978L130 87.3979Z" fill="#AC9FFF" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="face_2" d="M228 153.03L130 209.62V200.56L228 143.98V153.03Z" fill="#6B54F5" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="face_3" d="M32 153.03L130 209.62V200.56L32 143.98V153.03Z" fill="#6B54F5" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="vault">
+<path id="face_4" d="M130 63.6338L179 91.9238L130 120.214L81 91.9238L130 63.6338Z" fill="#AC9FFF" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="face_5" d="M179 143.984L130 172.274V120.214L179 91.9243V143.984Z" fill="#6B54F5" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="face_6" d="M81 143.984L130 172.274V120.214L81 91.9243V143.984Z" fill="#6B54F5" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="face_7" d="M114.32 137.189L114 133.729L113.06 130.079L111.54 126.409L109.52 122.919L107.11 119.769L104.41 117.129L101.58 115.119L98.7501 113.859L96.0501 113.389L93.6401 113.749L91.6201 114.909L90.1001 116.829L89.1601 119.389L88.8401 122.479L89.1601 125.939L90.1001 129.589L91.6201 133.259L93.6401 136.749L96.0501 139.899L98.7501 142.539L101.58 144.549L104.41 145.819L107.11 146.279L109.52 145.919L111.54 144.759L113.06 142.849L114 140.279L114.32 137.189Z" fill="#AC9FFF" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="line" d="M91.78 124.176L111.38 135.496" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="line_2" d="M101.58 141.148V118.518" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="line_3" d="M164.3 134.358V118.518" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="line_4" d="M148.62 143.411V127.571" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="shackle">
+<path id="line_5" d="M135.88 63.4248V54.3748L135.73 52.7748L135.3 51.0848L134.6 49.3948L133.67 47.7848L132.55 46.3348L131.31 45.1148L130 44.1848L128.69 43.6048L127.45 43.3848L126.33 43.5548L125.4 44.0848L124.7 44.9748L124.27 46.1548L124.12 47.5848V56.6348M124.12 47.5848V47.5848Z" stroke="#6B54F5" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="padlock">
+<path id="face_8" d="M130 54.5806L151.56 67.0306L130 79.4806L108.44 67.0306L130 54.5806Z" fill="#AC9FFF" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="face_9" d="M151.56 85.1383L130 97.5783V79.4783L151.56 67.0283V85.1383Z" fill="#6B54F5" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="face_10" d="M108.44 85.1383L130 97.5783V79.4783L108.44 67.0283V85.1383Z" fill="#6B54F5" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="line_6" d="M119.22 85.7025V80.0425" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

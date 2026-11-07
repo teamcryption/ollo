@@ -1,0 +1,15 @@
+{
+  "name": "library",
+  "private": true,
+  "packageManager": "pnpm@10.28.0",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build": "turbo run build",
+    "assets:import": "pnpm --filter @library/build import:figma",
+    "assets:validate": "pnpm --filter @library/build validate",
+    "preview": "pnpm --filter @library/build build && echo 'Open packages/build/dist/preview.html'"
+  },
+  "devDependencies": {
+    "turbo": "^2.5.0"
+  }
+}

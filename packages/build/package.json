@@ -1,0 +1,20 @@
+{
+  "name": "@library/build",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Asset pipeline: SVGO clean-up, tokenised SVGs, sprites, PNG, CSS-animated SVG, React codegen, manifest + CDN bundle.",
+  "scripts": {
+    "build": "node src/build.mjs",
+    "validate": "node src/validate.mjs",
+    "import:figma": "node src/import-figma.mjs",
+    "test": "node --test test/*.test.mjs"
+  },
+  "dependencies": {
+    "@resvg/resvg-js": "^2.6.2",
+    "svgo": "^4.0.0"
+  },
+  "devDependencies": {
+    "@library/assets": "workspace:*"
+  }
+}

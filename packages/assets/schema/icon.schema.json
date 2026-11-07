@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "icon.schema.json",
+  "title": "Icon metadata (icons/<name>/meta.json)",
+  "type": "object",
+  "required": ["name", "title", "category", "tags", "styles"],
+  "properties": {
+    "name": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$", "description": "kebab-case id, equals the folder name" },
+    "title": { "type": "string" },
+    "category": { "type": "string" },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "styles": { "type": "array", "items": { "enum": ["light", "regular", "bold", "duotone", "fill"] }, "description": "Each listed style must have <style>.svg next to meta.json" },
+    "status": { "enum": ["draft", "review", "approved"] },
+    "figma": { "type": "object", "properties": { "fileKey": { "type": "string" }, "nodeId": { "type": "string" } } },
+    "animation": { "oneOf": [{ "type": "null" }, { "$ref": "motion.schema.json" }] },
+    "notes": { "type": "string" }
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "name": "mobile-app",
+  "title": "Mobile App",
+  "category": "technology",
+  "tags": [
+    "phone",
+    "mobile",
+    "app",
+    "smartphone",
+    "chat"
+  ],
+  "types": [
+    "stroke",
+    "fill",
+    "duotone"
+  ],
+  "parts": [
+    "base",
+    "phone",
+    "screen-lines",
+    "bubble"
+  ],
+  "status": "approved",
+  "figma": {
+    "fileKey": "NqyRMhIekr7P5eCV0kvX4m",
+    "nodeIds": {
+      "stroke": "8:61",
+      "fill": "8:177",
+      "duotone": "12:644"
+    }
+  },
+  "animation": {
+    "duration": 3200,
+    "loop": true,
+    "source": "approximated",
+    "tracks": [
+      {
+        "target": "phone",
+        "property": "translateY",
+        "times": [
+          0,
+          0.5,
+          1
+        ],
+        "values": [
+          0,
+          -3,
+          0
+        ],
+        "ease": [
+          "easeInOut",
+          "easeInOut"
+        ]
+      },
+      {
+        "target": "screen-lines",
+        "property": "translateY",
+        "times": [
+          0,
+          0.5,
+          1
+        ],
+        "values": [
+          0,
+          -3,
+          0
+        ],
+        "ease": [
+          "easeInOut",
+          "easeInOut"
+        ]
+      },
+      {
+        "target": "screen-lines",
+        "property": "draw",
+        "times": [
+          0,
+          0.1,
+          0.30000000000000004,
+          0.85,
+          0.93,
+          1
+        ],
+        "values": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "ease": [
+          "linear",
+          "easeInOut",
+          "linear",
+          "easeIn",
+          "linear"
+        ]
+      },
+      {
+        "target": "bubble",
+        "property": "scale",
+        "origin": [
+          50,
+          100
+        ],
+        "times": [
+          0,
+          0.35,
+          0.47,
+          0.85,
+          0.93,
+          1
+        ],
+        "values": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "ease": [
+          "linear",
+          [
+            0.45,
+            1.45,
+            0.8,
+            1
+          ],
+          "linear",
+          "easeIn",
+          "linear"
+        ]
+      }
+    ]
+  }
+}

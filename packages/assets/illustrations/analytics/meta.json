@@ -1,0 +1,244 @@
+{
+  "name": "analytics",
+  "title": "Analytics",
+  "category": "business",
+  "tags": [
+    "chart",
+    "statistics",
+    "graph",
+    "report",
+    "growth"
+  ],
+  "types": [
+    "stroke",
+    "fill",
+    "duotone"
+  ],
+  "parts": [
+    "base",
+    "card",
+    "bar-1",
+    "bar-2",
+    "bar-3"
+  ],
+  "status": "approved",
+  "figma": {
+    "fileKey": "NqyRMhIekr7P5eCV0kvX4m",
+    "nodeIds": {
+      "stroke": "8:39",
+      "fill": "8:155",
+      "duotone": "12:622"
+    }
+  },
+  "animation": {
+    "duration": 3200,
+    "loop": true,
+    "source": "approximated",
+    "tracks": [
+      {
+        "target": "bar-1",
+        "property": "translateY",
+        "times": [
+          0,
+          0,
+          0.12,
+          0.17,
+          0.85,
+          0.93,
+          1
+        ],
+        "values": [
+          -16,
+          -16,
+          0,
+          0,
+          0,
+          -16,
+          -16
+        ],
+        "ease": [
+          "linear",
+          [
+            0.45,
+            1.45,
+            0.8,
+            1
+          ],
+          "linear",
+          "linear",
+          "easeIn",
+          "linear"
+        ]
+      },
+      {
+        "target": "bar-1",
+        "property": "opacity",
+        "times": [
+          0,
+          0,
+          0.08,
+          0.85,
+          0.93,
+          1
+        ],
+        "values": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "ease": [
+          "linear",
+          "easeOut",
+          "linear",
+          "easeIn",
+          "linear"
+        ]
+      },
+      {
+        "target": "bar-2",
+        "property": "translateY",
+        "times": [
+          0,
+          0.08,
+          0.2,
+          0.25,
+          0.85,
+          0.93,
+          1
+        ],
+        "values": [
+          -16,
+          -16,
+          0,
+          0,
+          0,
+          -16,
+          -16
+        ],
+        "ease": [
+          "linear",
+          [
+            0.45,
+            1.45,
+            0.8,
+            1
+          ],
+          "linear",
+          "linear",
+          "easeIn",
+          "linear"
+        ]
+      },
+      {
+        "target": "bar-2",
+        "property": "opacity",
+        "times": [
+          0,
+          0.08,
+          0.16,
+          0.85,
+          0.93,
+          1
+        ],
+        "values": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "ease": [
+          "linear",
+          "easeOut",
+          "linear",
+          "easeIn",
+          "linear"
+        ]
+      },
+      {
+        "target": "bar-3",
+        "property": "translateY",
+        "times": [
+          0,
+          0.16,
+          0.28,
+          0.33,
+          0.85,
+          0.93,
+          1
+        ],
+        "values": [
+          -16,
+          -16,
+          0,
+          0,
+          0,
+          -16,
+          -16
+        ],
+        "ease": [
+          "linear",
+          [
+            0.45,
+            1.45,
+            0.8,
+            1
+          ],
+          "linear",
+          "linear",
+          "easeIn",
+          "linear"
+        ]
+      },
+      {
+        "target": "bar-3",
+        "property": "opacity",
+        "times": [
+          0,
+          0.16,
+          0.24,
+          0.85,
+          0.93,
+          1
+        ],
+        "values": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "ease": [
+          "linear",
+          "easeOut",
+          "linear",
+          "easeIn",
+          "linear"
+        ]
+      },
+      {
+        "target": "card",
+        "property": "translateY",
+        "times": [
+          0,
+          0.5,
+          1
+        ],
+        "values": [
+          0,
+          -4,
+          0
+        ],
+        "ease": [
+          "easeInOut",
+          "easeInOut"
+        ]
+      }
+    ]
+  }
+}

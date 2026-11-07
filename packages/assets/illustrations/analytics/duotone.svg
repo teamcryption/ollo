@@ -1,0 +1,31 @@
+<svg width="260" height="260" viewBox="0 0 260 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Analytics/Duotone">
+<rect width="260" height="260" rx="16" fill="#F7F7FF"/>
+<g id="base">
+<path id="face" d="M130 88.4121L228 144.992L130 201.572L32 144.992L130 88.4121Z" fill="#AC9FFF" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="face_2" d="M228 154.044L130 210.634V201.574L228 144.994V154.044Z" fill="#6B54F5" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="face_3" d="M32 154.044L130 210.634V201.574L32 144.994V154.044Z" fill="#6B54F5" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="card">
+<path id="face_4" d="M130 49.3706L165.28 69.7406L139.8 84.4506L104.52 64.0806L130 49.3706Z" fill="#AC9FFF" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="face_5" d="M165.28 72.5702L139.8 87.2802V84.4502L165.28 69.7402V72.5702Z" fill="#6B54F5" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="face_6" d="M104.52 66.912L139.8 87.282V84.452L104.52 64.082V66.912Z" fill="#6B54F5" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="line" d="M114.32 64.082L128.04 65.212L132.94 71.442L155.48 69.742" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="bar-1">
+<path id="face_7" d="M90.8 106.519L106.48 115.569L90.8 124.629L75.12 115.569L90.8 106.519Z" fill="#AC9FFF" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="face_8" d="M106.48 138.202L90.8 147.262V124.622L106.48 115.572V138.202Z" fill="#6B54F5" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="face_9" d="M75.12 138.202L90.8 147.262V124.622L75.12 115.572V138.202Z" fill="#6B54F5" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="bar-2">
+<path id="face_10" d="M114.32 101.992L130 111.042L114.32 120.102L98.64 111.042L114.32 101.992Z" fill="#AC9FFF" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="face_11" d="M130 151.785L114.32 160.835V120.095L130 111.045V151.785Z" fill="#6B54F5" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="face_12" d="M98.64 151.785L114.32 160.835V120.095L98.64 111.045V151.785Z" fill="#6B54F5" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="bar-3">
+<path id="face_13" d="M137.84 97.4653L153.52 106.515L137.84 115.575L122.16 106.515L137.84 97.4653Z" fill="#AC9FFF" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="face_14" d="M153.52 165.369L137.84 174.419V115.569L153.52 106.519V165.369Z" fill="#6B54F5" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="face_15" d="M122.16 165.369L137.84 174.419V115.569L122.16 106.519V165.369Z" fill="#6B54F5" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

@@ -1,0 +1,29 @@
+<svg width="260" height="260" viewBox="0 0 260 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Delivery/Stroke">
+<rect width="260" height="260" rx="16" fill="#F7F7FF"/>
+<g id="base">
+<path id="face" d="M130 77.3789L228 133.959L130 190.539L32 133.959L130 77.3789Z" fill="#F7F7FF" stroke="#171729" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="face_2" d="M228 143.011L130 199.601V190.541L228 133.961V143.011Z" fill="#F7F7FF" stroke="#171729" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="face_3" d="M32 143.011L130 199.601V190.541L32 133.961V143.011Z" fill="#F7F7FF" stroke="#171729" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="parcel-a">
+<path id="face_4" d="M102.56 75.1152L141.76 97.7452L102.56 120.385L63.3601 97.7452L102.56 75.1152Z" fill="#F7F7FF" stroke="#171729" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="face_5" d="M141.76 131.698L102.56 154.328V120.378L141.76 97.748V131.698Z" fill="#F7F7FF" stroke="#171729" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="face_6" d="M63.3601 131.698L102.56 154.328V120.378L63.3601 97.748V131.698Z" fill="#F7F7FF" stroke="#171729" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="line" d="M122.16 86.4316L82.96 109.062V143.012" stroke="#171729" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="parcel-c">
+<path id="face_7" d="M102.56 60.4043L128.04 75.1143L102.56 89.8243L77.0801 75.1143L102.56 60.4043Z" fill="#F7F7FF" stroke="#171729" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="face_8" d="M128.04 97.7452L102.56 112.455V89.8252L128.04 75.1152V97.7452Z" fill="#F7F7FF" stroke="#171729" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="face_9" d="M77.0801 97.7452L102.56 112.455V89.8252L77.0801 75.1152V97.7452Z" fill="#F7F7FF" stroke="#171729" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="line_2" d="M115.3 67.7598L89.8201 82.4698V105.1" stroke="#171729" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="parcel-b">
+<path id="face_10" d="M173.12 95.4849L200.56 111.325L169.2 129.435L141.76 113.595L173.12 95.4849Z" fill="#F7F7FF" stroke="#171729" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="face_11" d="M200.56 136.228L169.2 154.328V129.438L200.56 111.328V136.228Z" fill="#F7F7FF" stroke="#171729" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="face_12" d="M141.76 138.491L169.2 154.331V129.431L141.76 113.591V138.491Z" fill="#F7F7FF" stroke="#171729" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="line_3" d="M186.84 103.406L155.48 121.516" stroke="#171729" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="line_4" d="M184.88 120.381V145.281" stroke="#171729" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

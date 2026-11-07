@@ -1,0 +1,24 @@
+{
+  "name": "calendar",
+  "title": "Calendar",
+  "category": "time",
+  "tags": [
+    "date",
+    "schedule",
+    "event",
+    "planner"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "approved",
+  "figma": {
+    "fileKey": "NqyRMhIekr7P5eCV0kvX4m",
+    "nodeId": "12:372"
+  },
+  "animation": null
+}

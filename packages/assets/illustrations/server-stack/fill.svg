@@ -1,0 +1,38 @@
+<svg width="260" height="260" viewBox="0 0 260 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Server Stack/Fill">
+<rect width="260" height="260" rx="16" fill="#F7F7FF"/>
+<g id="base">
+<path id="face" d="M130 89.1968L228 145.777L130 202.357L32 145.777L130 89.1968Z" fill="#6B54F5" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="face_2" d="M228 154.829L130 211.419V202.359L228 145.779V154.829Z" fill="#6B54F5" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="face_3" d="M32 154.829L130 211.419V202.359L32 145.779V154.829Z" fill="#6B54F5" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="server-1">
+<path id="face_4" d="M130 101.645L179 129.935L130 158.225L81 129.935L130 101.645Z" fill="#6B54F5" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="face_5" d="M179 145.776L130 174.066V158.226L179 129.936V145.776Z" fill="#6B54F5" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="face_6" d="M81 145.776L130 174.066V158.226L81 129.936V145.776Z" fill="#6B54F5" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="line" d="M86.88 141.252L109.42 154.262" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="line_2" d="M118.24 159.358L123.14 162.188" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="line_3" d="M173.12 141.252L150.58 154.262" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="server-2">
+<path id="face_7" d="M130 83.5386L179 111.829L130 140.119L81 111.829L130 83.5386Z" fill="#6B54F5" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="face_8" d="M179 127.67L130 155.96V140.12L179 111.83V127.67Z" fill="#6B54F5" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="face_9" d="M81 127.67L130 155.96V140.12L81 111.83V127.67Z" fill="#6B54F5" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="line_4" d="M86.88 123.146L109.42 136.156" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="line_5" d="M118.24 141.252L123.14 144.082" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="line_6" d="M173.12 123.146L150.58 136.156" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="server-3">
+<path id="face_10" d="M130 65.4321L179 93.7221L130 122.012L81 93.7221L130 65.4321Z" fill="#6B54F5" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="face_11" d="M179 109.563L130 137.853V122.013L179 93.7231V109.563Z" fill="#6B54F5" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="face_12" d="M81 109.563L130 137.853V122.013L81 93.7231V109.563Z" fill="#6B54F5" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="line_7" d="M86.88 105.04L109.42 118.05" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="line_8" d="M118.24 123.146L123.14 125.976" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="line_9" d="M173.12 105.04L150.58 118.05" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="signal">
+<path id="line_10" d="M121.18 53.7314L121.4 51.5914L122.05 49.8214L123.1 48.4914L124.5 47.6914L126.17 47.4414L128.04 47.7614L130 48.6414L131.96 50.0314L133.83 51.8614L135.5 54.0414L136.9 56.4614L137.95 58.9914L138.6 61.5214L138.82 63.9214" stroke="#6B54F5" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="line_11" d="M114.32 49.7759L114.71 45.9759L115.87 42.8159L117.74 40.4559L120.22 39.0259L123.2 38.5859L126.51 39.1559L130 40.7159L133.49 43.1859L136.8 46.4459L139.78 50.3159L142.26 54.6159L144.13 59.1259L145.29 63.6259L145.68 67.8759" stroke="#6B54F5" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

@@ -1,0 +1,29 @@
+<svg width="260" height="260" viewBox="0 0 260 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Mobile App/Fill">
+<rect width="260" height="260" rx="16" fill="#F7F7FF"/>
+<g id="base">
+<path id="face" d="M130 94.6362L228 151.216L130 207.796L32 151.216L130 94.6362Z" fill="#6B54F5" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="face_2" d="M228 160.268L130 216.858V207.798L228 151.218V160.268Z" fill="#6B54F5" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="face_3" d="M32 160.268L130 216.858V207.798L32 151.218V160.268Z" fill="#6B54F5" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="phone">
+<path id="face_4" d="M111.38 43.1465L160.38 71.4365L151.56 76.5265L102.56 48.2365L111.38 43.1465Z" fill="#6B54F5" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="face_5" d="M160.38 161.967L151.56 167.058V76.5275L160.38 71.4375V161.967Z" fill="#6B54F5" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="face_6" d="M102.56 138.769L151.56 167.059V76.5293L102.56 48.2393V138.769Z" fill="#6B54F5" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="face_7" d="M108.44 131.976L145.68 153.486V81.0557L108.44 59.5557V131.976Z" fill="#6B54F5" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="screen-lines">
+<path id="line" d="M114.32 73.1353L139.8 87.8453" pathLength="1" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="line_2" d="M114.32 82.188L131.96 92.368" pathLength="1" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="line_3" d="M114.32 95.7681L139.8 110.478" pathLength="1" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="line_4" d="M114.32 104.821L127.06 112.181" pathLength="1" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+<path id="line_5" d="M120.2 128.585L133.92 136.505" pathLength="1" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 1"/>
+</g>
+<g id="bubble">
+<path id="face_8" d="M139.8 99.1626L157.44 109.343L141.76 118.403L124.12 108.213L139.8 99.1626Z" fill="#6B54F5" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="face_9" d="M157.44 124.058L141.76 133.108V118.398L157.44 109.348V124.058Z" fill="#6B54F5" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="face_10" d="M124.12 122.926L141.76 133.116V118.396L124.12 108.216V122.926Z" fill="#6B54F5" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="line_6" d="M127.06 117.269L136.86 122.929" stroke="#F7F7FF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

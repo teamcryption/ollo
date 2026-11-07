@@ -1,0 +1,23 @@
+{
+  "name": "@library/react",
+  "version": "0.0.0",
+  "description": "React components for the icon & illustration library. Tree-shakeable, one module per asset.",
+  "type": "module",
+  "sideEffects": false,
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": { ".": { "types": "./dist/index.d.ts", "import": "./dist/index.js" } },
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "peerDependencies": { "react": ">=17" },
+  "devDependencies": {
+    "@library/build": "workspace:*",
+    "@types/react": "^18.3.0",
+    "react": "^18.3.1",
+    "typescript": "^5.6.0"
+  }
+}

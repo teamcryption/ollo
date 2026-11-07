@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "illustration.schema.json",
+  "title": "Illustration metadata (illustrations/<name>/meta.json)",
+  "type": "object",
+  "required": ["name", "title", "category", "tags", "types"],
+  "properties": {
+    "name": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+    "title": { "type": "string" },
+    "category": { "type": "string" },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "types": { "type": "array", "items": { "enum": ["stroke", "fill", "duotone"] }, "description": "Each listed type must have <type>.svg next to meta.json" },
+    "parts": { "type": "array", "items": { "type": "string" }, "description": "Named <g id> layers, used as animation targets" },
+    "status": { "enum": ["draft", "review", "approved"] },
+    "figma": { "type": "object" },
+    "animation": { "oneOf": [{ "type": "null" }, { "$ref": "motion.schema.json" }] }
+  }
+}

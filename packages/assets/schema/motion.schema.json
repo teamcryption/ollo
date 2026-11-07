@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "motion.schema.json",
+  "title": "Motion spec - renderer-agnostic keyframes (compiled to CSS-animated SVG now, Lottie/GIF later)",
+  "type": "object",
+  "required": ["duration", "tracks"],
+  "properties": {
+    "duration": { "type": "number", "description": "ms" },
+    "loop": { "type": "boolean", "default": true },
+    "source": { "enum": ["figma", "approximated"], "description": "figma = copied from Figma Motion keyframes; approximated = written from the brief, pending a Figma export" },
+    "tracks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["target", "property", "times", "values"],
+        "properties": {
+          "target": { "description": "'root' (whole asset) | path index in the regular icon SVG (number) | illustration part id (string)" },
+          "property": { "enum": ["scale", "rotate", "translateX", "translateY", "opacity", "draw"], "description": "rotate in degrees, translate in viewBox units, draw = 0..1 path trim" },
+          "origin": { "type": "array", "items": { "type": "number" }, "description": "transform origin in % of the target's box, default [50,50]" },
+          "times": { "type": "array", "items": { "type": "number", "minimum": 0, "maximum": 1 } },
+          "values": { "type": "array", "items": { "type": "number" } },
+          "ease": { "type": "array", "description": "one per segment (times.length - 1): 'linear'|'easeIn'|'easeOut'|'easeInOut' or [x1,y1,x2,y2]" }
+        }
+      }
+    }
+  }
+}

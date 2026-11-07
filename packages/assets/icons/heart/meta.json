@@ -1,0 +1,64 @@
+{
+  "name": "heart",
+  "title": "Heart",
+  "category": "social",
+  "tags": [
+    "like",
+    "love",
+    "favourite",
+    "favorite"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "approved",
+  "figma": {
+    "fileKey": "NqyRMhIekr7P5eCV0kvX4m",
+    "nodeId": "12:191"
+  },
+  "animation": {
+    "duration": 3000,
+    "loop": true,
+    "source": "figma",
+    "tracks": [
+      {
+        "target": "root",
+        "property": "scale",
+        "origin": [
+          50,
+          50
+        ],
+        "times": [
+          0,
+          0.0667,
+          0.15,
+          0.2333,
+          0.3167,
+          0.4333,
+          1
+        ],
+        "values": [
+          1,
+          1,
+          1.25,
+          1,
+          1.15,
+          1,
+          1
+        ],
+        "ease": [
+          "linear",
+          "easeOut",
+          "easeIn",
+          "easeOut",
+          "easeInOut",
+          "linear"
+        ]
+      }
+    ]
+  }
+}

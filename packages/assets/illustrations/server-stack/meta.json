@@ -1,0 +1,253 @@
+{
+  "name": "server-stack",
+  "title": "Server Stack",
+  "category": "technology",
+  "tags": [
+    "server",
+    "hosting",
+    "database",
+    "cloud",
+    "infrastructure"
+  ],
+  "types": [
+    "stroke",
+    "fill",
+    "duotone"
+  ],
+  "parts": [
+    "base",
+    "server-1",
+    "server-2",
+    "server-3",
+    "signal"
+  ],
+  "status": "approved",
+  "figma": {
+    "fileKey": "NqyRMhIekr7P5eCV0kvX4m",
+    "nodeIds": {
+      "stroke": "8:10",
+      "fill": "8:126",
+      "duotone": "12:593"
+    }
+  },
+  "animation": {
+    "duration": 3200,
+    "loop": true,
+    "source": "approximated",
+    "tracks": [
+      {
+        "target": "server-1",
+        "property": "translateY",
+        "times": [
+          0,
+          0,
+          0.12,
+          0.17,
+          0.85,
+          0.93,
+          1
+        ],
+        "values": [
+          -24,
+          -24,
+          0,
+          0,
+          0,
+          -24,
+          -24
+        ],
+        "ease": [
+          "linear",
+          [
+            0.45,
+            1.45,
+            0.8,
+            1
+          ],
+          "linear",
+          "linear",
+          "easeIn",
+          "linear"
+        ]
+      },
+      {
+        "target": "server-1",
+        "property": "opacity",
+        "times": [
+          0,
+          0,
+          0.08,
+          0.85,
+          0.93,
+          1
+        ],
+        "values": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "ease": [
+          "linear",
+          "easeOut",
+          "linear",
+          "easeIn",
+          "linear"
+        ]
+      },
+      {
+        "target": "server-2",
+        "property": "translateY",
+        "times": [
+          0,
+          0.1,
+          0.22,
+          0.27,
+          0.85,
+          0.93,
+          1
+        ],
+        "values": [
+          -24,
+          -24,
+          0,
+          0,
+          0,
+          -24,
+          -24
+        ],
+        "ease": [
+          "linear",
+          [
+            0.45,
+            1.45,
+            0.8,
+            1
+          ],
+          "linear",
+          "linear",
+          "easeIn",
+          "linear"
+        ]
+      },
+      {
+        "target": "server-2",
+        "property": "opacity",
+        "times": [
+          0,
+          0.1,
+          0.18,
+          0.85,
+          0.93,
+          1
+        ],
+        "values": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "ease": [
+          "linear",
+          "easeOut",
+          "linear",
+          "easeIn",
+          "linear"
+        ]
+      },
+      {
+        "target": "server-3",
+        "property": "translateY",
+        "times": [
+          0,
+          0.2,
+          0.32,
+          0.37,
+          0.85,
+          0.93,
+          1
+        ],
+        "values": [
+          -24,
+          -24,
+          0,
+          0,
+          0,
+          -24,
+          -24
+        ],
+        "ease": [
+          "linear",
+          [
+            0.45,
+            1.45,
+            0.8,
+            1
+          ],
+          "linear",
+          "linear",
+          "easeIn",
+          "linear"
+        ]
+      },
+      {
+        "target": "server-3",
+        "property": "opacity",
+        "times": [
+          0,
+          0.2,
+          0.28,
+          0.85,
+          0.93,
+          1
+        ],
+        "values": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "ease": [
+          "linear",
+          "easeOut",
+          "linear",
+          "easeIn",
+          "linear"
+        ]
+      },
+      {
+        "target": "signal",
+        "property": "draw",
+        "times": [
+          0,
+          0.35,
+          0.55,
+          0.85,
+          0.93,
+          1
+        ],
+        "values": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "ease": [
+          "linear",
+          "easeInOut",
+          "linear",
+          "easeIn",
+          "linear"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "@library/assets",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Source SVGs, metadata and design tokens. Source of truth exported from Figma.",
+  "files": ["icons", "illustrations", "tokens.json", "schema"]
+}

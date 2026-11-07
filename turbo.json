@@ -1,0 +1,12 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "tasks": {
+    "build": {
+      "dependsOn": ["^build"],
+      "inputs": ["$TURBO_DEFAULT$", "../assets/icons/**", "../assets/illustrations/**", "../assets/tokens.json"],
+      "outputs": ["dist/**", "src/generated/**"]
+    },
+    "validate": {},
+    "dev": { "cache": false, "persistent": true }
+  }
+}

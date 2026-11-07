@@ -1,0 +1,84 @@
+{
+  "name": "search",
+  "title": "Search",
+  "category": "actions",
+  "tags": [
+    "find",
+    "magnifier",
+    "lookup",
+    "zoom"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "approved",
+  "figma": {
+    "fileKey": "NqyRMhIekr7P5eCV0kvX4m",
+    "nodeId": "12:159"
+  },
+  "animation": {
+    "duration": 3000,
+    "loop": true,
+    "source": "figma",
+    "tracks": [
+      {
+        "target": "root",
+        "property": "translateX",
+        "times": [
+          0,
+          0.0667,
+          0.2333,
+          0.4,
+          0.5333,
+          1
+        ],
+        "values": [
+          0,
+          0,
+          -3,
+          3,
+          0,
+          0
+        ],
+        "ease": [
+          "linear",
+          "easeInOut",
+          "easeInOut",
+          "easeInOut",
+          "linear"
+        ]
+      },
+      {
+        "target": "root",
+        "property": "translateY",
+        "times": [
+          0,
+          0.0667,
+          0.2333,
+          0.4,
+          0.5333,
+          1
+        ],
+        "values": [
+          0,
+          0,
+          -2,
+          -2,
+          0,
+          0
+        ],
+        "ease": [
+          "linear",
+          "easeInOut",
+          "easeInOut",
+          "easeInOut",
+          "linear"
+        ]
+      }
+    ]
+  }
+}
