@@ -1,4 +1,4 @@
-import { R, C, L, D, E, poly, rotateD } from '../src/geo.mjs';
+import { R, C, L, D, E, poly, rotateD, star } from '../src/geo.mjs';
 import { icon, body, line, accent } from '../src/dsl.mjs';
 
 // One face, many expressions: every face is a variant of face-smile so the duplicate check
@@ -26,6 +26,9 @@ export default {
         face('face-cry', 'Crying', ['cry', 'tears', 'upset', 'sob'], [...EYES, line('M15 12.3s-1 1.2-1 1.8a1 1 0 0 0 2 0c0-.6-1-1.8-1-1.8Z'), accent('M8 17a4 4 0 0 1 6 0')]),
         face('face-confused', 'Confused', ['confused', 'unsure', 'puzzled', 'hmm'], [...EYES, accent('M8.5 15.5c1-1 2-1 3.5 0s2.5 1 3.5 0')]),
         face('face-dizzy', 'Dizzy', ['dizzy', 'dead', 'knocked out', 'ko'], [line('M7.8 8.8l2.4 2.4m0-2.4-2.4 2.4'), line('M13.8 8.8l2.4 2.4m0-2.4-2.4 2.4'), accent(C(12, 15.5, 1.5))]),
+        face('face-star-struck', 'Star Struck', ['starry eyed', 'amazed', 'excited', 'wow'], [line(star(9, 10, 1.9, 0.8, 5, 0.1)), line(star(15, 10, 1.9, 0.8, 5, 0.1)), accent('M8.5 14.5a4 4 0 0 0 7 0')]),
+        face('face-sweat', 'Nervous Sweat', ['nervous', 'phew', 'awkward', 'relief'], [...EYES, line('M16 6.3s-1 1.2-1 1.8a1 1 0 0 0 2 0c0-.6-1-1.8-1-1.8Z'), accent('M8.5 14a4 4 0 0 0 7 0')]),
+        face('face-zipped', 'Zipped Mouth', ['secret', 'quiet', 'no comment', 'silence'], [...EYES, accent('M8 15.5h8M10 14.5v2M12 14.5v2M14 14.5v2')]),
         face('face-kiss', 'Kiss', ['kiss', 'love', 'smooch', 'affection'], [...EYES, accent('M11 13.3c1.6 0 1.6 1.6 0 1.6 1.6 0 1.6 1.6 0 1.6')]),
       ],
     }),

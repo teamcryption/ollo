@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-07T23:17:05.178Z",
-  "icons": 1328,
-  "files": 6640,
+  "generatedAt": "2026-11-07T23:21:22.158Z",
+  "icons": 1331,
+  "files": 6655,
   "errors": [],
   "warnings": [
     "wifi: grid: outside the 3-21 live area (2.10, 5.00, 21.90, 19.00)",
@@ -27,6 +27,7 @@
     "duplicate: face-neutral ~ face-confused (shape distance 1px)",
     "duplicate: face-surprised ~ face-sleepy (shape distance 1px)",
     "duplicate: face-sleepy ~ face-kiss (shape distance 1px)",
+    "duplicate: face-love ~ face-star-struck (shape distance 1px)",
     "duplicate: lock ~ lock-open (shape distance 1px)"
   ],
   "duplicates": [
@@ -51,6 +52,11 @@
       "distance": 1
     },
     {
+      "a": "face-love",
+      "b": "face-star-struck",
+      "distance": 1
+    },
+    {
       "a": "lock",
       "b": "lock-open",
       "distance": 1
@@ -72,7 +78,7 @@
     "development": 37,
     "devices": 64,
     "education": 21,
-    "emoji": 19,
+    "emoji": 22,
     "energy": 16,
     "fashion": 18,
     "files": 76,
