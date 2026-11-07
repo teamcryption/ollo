@@ -1,0 +1,59 @@
+{
+  "name": "sun-rain",
+  "title": "Sun Showers",
+  "category": "weather",
+  "tags": [
+    "showers",
+    "mixed weather",
+    "rain",
+    "sunny spells"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "forge",
+  "family": "sun-rain",
+  "animation": {
+    "duration": 3000,
+    "loop": true,
+    "source": "generated",
+    "preset": "bounce",
+    "tracks": [
+      {
+        "target": "root",
+        "property": "translateY",
+        "times": [
+          0,
+          0.1,
+          0.22,
+          0.34,
+          0.42,
+          0.5,
+          1
+        ],
+        "values": [
+          0,
+          0,
+          1,
+          0,
+          0.35,
+          0,
+          0
+        ],
+        "ease": [
+          "linear",
+          "easeOut",
+          "easeIn",
+          "easeOut",
+          "easeIn",
+          "linear"
+        ]
+      }
+    ]
+  }
+}

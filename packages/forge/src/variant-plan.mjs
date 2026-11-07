@@ -48,7 +48,8 @@ export default {
   table: { badges: OBJ },
   // development
   terminal: { badges: ['check', 'close', 'alert'] },
-  bug: { badges: ['check'] },
+  bug: { off: true, badges: ['check'] },
+  flask: { badges: ['check', 'close'] },
   puzzle: { badges: OBJ },
   'package-code': { badges: ['add', 'check'] },
   // devices
