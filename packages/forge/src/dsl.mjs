@@ -41,8 +41,12 @@ const survives = (zone) => (el) => {
   const it = itemOf(el.d);
   const first = it.firstSegment ?? it.children?.[0]?.firstSegment;
   if (it.length < 0.05) return !zone.contains(first.point);
-  const cut = it.subtract(zone, { insert: false, trace: false });
-  const len = (cut.children ?? [cut]).reduce((a, p) => a + (p.length ?? 0), 0);
+  // Open compound paths are cut one child at a time (paper's subtract trips over them).
+  let len = 0;
+  for (const p of [...(it.children ?? [it])]) {
+    const cut = p.clone({ insert: false }).subtract(zone, { insert: false, trace: false });
+    len += (cut.children ?? [cut]).reduce((a, q) => a + (q.length ?? 0), 0);
+  }
   return len >= MIN_STUB;
 };
 

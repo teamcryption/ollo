@@ -82,8 +82,12 @@ export function strokeGeometry(els) {
   return els.map((el, i) => {
     if (el.role === 'tint') return null;
     if (!covers[i]) return el.d;
-    const cut = subtract(itemOf(el.d), covers[i], { trace: false });
-    return cut && cut.pathData ? cut.pathData : '';
+    // Cut child by child: paper's open-path subtract fails on multi-child compounds.
+    const it = itemOf(el.d);
+    return [...(it.children ?? [it])]
+      .map((p) => p.clone({ insert: false }).subtract(covers[i], { insert: false, trace: false }).pathData)
+      .filter(Boolean)
+      .join('');
   });
 }
 

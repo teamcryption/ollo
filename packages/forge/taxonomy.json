@@ -27,7 +27,7 @@
     { "id": "development", "title": "Development & Code", "target": 600, "batch": 2 },
     { "id": "data", "title": "Charts & Data", "target": 375, "batch": 2 },
     { "id": "design", "title": "Design & Editing", "target": 675, "batch": 3 },
-    { "id": "text", "title": "Text & Formatting", "target": 225, "batch": 3 },
+    { "id": "text", "title": "Text & Formatting", "accent": false, "target": 225, "batch": 3 },
     { "id": "business", "title": "Business & Office", "target": 675, "batch": 3 },
     { "id": "education", "title": "Education", "target": 300, "batch": 3 },
     { "id": "maps", "title": "Maps & Location", "target": 300, "batch": 3 },

@@ -226,7 +226,7 @@ const DOT = '\u00b7';
 const STYLES = ['light','regular','bold','fill','duotone'];
 const STYLE_T = {light:'Light',regular:'Regular',bold:'Bold',fill:'Fill',duotone:'Duotone'};
 const COLOURS = [['Ink','auto'],['Royal blue','#3A57FF'],['Green','#12805C'],['Red','#D93A2B'],['Amber','#C27C0E']];
-const CAT_ICON = {interface:'dashboard',arrows:'arrow-up-right',files:'folder-plain',communication:'message',commerce:'cart',media:'play',weather:'sun',time:'clock',navigation:'home',people:'user',notifications:'bell',actions:'search',social:'heart',security:'lock',finance:'banknote',devices:'laptop',development:'code',data:'chart-bar'};
+const CAT_ICON = {interface:'dashboard',arrows:'arrow-up-right',files:'folder-plain',communication:'message',commerce:'cart',media:'play',weather:'sun',time:'clock',navigation:'home',people:'user',notifications:'bell',actions:'search',social:'heart',security:'lock',finance:'banknote',devices:'laptop',development:'code',data:'chart-bar',design:'palette',text:'type',business:'briefcase',education:'graduation-cap',maps:'terrain',travel:'airplane',transport:'car',logistics:'warehouse'};
 const byName = Object.fromEntries(D.icons.map(i => [i.n, i]));
 const catT = Object.fromEntries(D.cats.map(c => [c.id, c.title]));
 const st = { coll:'all', style:'regular', anim:false, colour:'auto', size:24, view:'grid', tile:'M', q:'', limit:120, sel:null };
@@ -253,7 +253,7 @@ function renderSide() {
   $('side').innerHTML = `<h3>Collections</h3>` +
     row('all', 'All icons', D.icons.length, mini('dashboard')) +
     present.map(x => row(x.id, x.title, c[x.id], mini(CAT_ICON[x.id] || 'star'))).join('') +
-    `<div class="batchnote"><strong>Review: batches 1-2</strong>
+    `<div class="batchnote"><strong>Review: batches 1-3</strong>
       <div class="row"><span>Icons</span><span>${fmt(D.icons.length)}</span></div>
       <div class="row"><span>SVG files</span><span>${fmt(D.icons.reduce((a, i) => a + Object.keys(i.s).length, 0))}</span></div>
       <div class="row"><span>QA errors</span><span>${D.qa ? D.qa.errors : '-'}</span></div>

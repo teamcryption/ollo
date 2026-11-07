@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-07T17:47:34.434Z",
-  "icons": 502,
-  "files": 2510,
+  "generatedAt": "2026-11-07T18:10:25.079Z",
+  "icons": 602,
+  "files": 3010,
   "errors": [],
   "warnings": [
     "wifi: grid: outside the 3-21 live area (2.10, 5.00, 21.90, 19.00)",
@@ -35,21 +35,29 @@
   "byCategory": {
     "actions": 25,
     "arrows": 50,
+    "business": 17,
     "commerce": 40,
     "communication": 41,
     "data": 15,
+    "design": 23,
     "development": 22,
     "devices": 34,
+    "education": 10,
     "files": 54,
     "finance": 20,
-    "interface": 66,
+    "interface": 69,
+    "logistics": 4,
+    "maps": 5,
     "media": 31,
     "navigation": 14,
     "notifications": 8,
     "people": 23,
     "security": 17,
     "social": 10,
+    "text": 21,
     "time": 20,
+    "transport": 8,
+    "travel": 9,
     "weather": 12
   }
 }

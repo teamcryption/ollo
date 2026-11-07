@@ -67,6 +67,7 @@ export default {
   pause: { containers: ['circle'] },
   playlist: { badges: ['add', 'check'] },
   // navigation
+  pin: { off: true, badges: ['close', 'alert'] },
   layers: { badges: ['add', 'check'] },
   navigation: { off: true },
   // people
