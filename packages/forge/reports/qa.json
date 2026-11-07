@@ -1,0 +1,35 @@
+{
+  "generatedAt": "2026-11-07T16:49:54.727Z",
+  "icons": 262,
+  "files": 1310,
+  "errors": [],
+  "warnings": [
+    "dashboard: accent: no floating accent",
+    "sliders: accent: no floating accent",
+    "close-circle: accent: no floating accent",
+    "add-circle: accent: no floating accent",
+    "more-horizontal: accent: no floating accent",
+    "more-vertical: accent: no floating accent",
+    "eye-off: accent: no floating accent",
+    "external-link: accent: no floating accent",
+    "download: accent: no floating accent",
+    "upload: accent: no floating accent",
+    "share: accent: no floating accent",
+    "star: accent: no floating accent",
+    "flag: accent: no floating accent",
+    "zoom-in: accent: no floating accent",
+    "sparkle: accent: no floating accent",
+    "grid-dots: accent: no floating accent"
+  ],
+  "duplicates": [],
+  "byCategory": {
+    "arrows": 50,
+    "commerce": 24,
+    "communication": 26,
+    "files": 51,
+    "interface": 58,
+    "media": 25,
+    "time": 16,
+    "weather": 12
+  }
+}

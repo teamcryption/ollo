@@ -1,0 +1,17 @@
+{
+  "name": "@library/forge",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Icon source definitions + generator. One drawing per icon -> Light/Regular/Bold/Duotone/Fill SVGs, badge and direction variants, default motion, and QA.",
+  "scripts": {
+    "generate": "node src/generate.mjs",
+    "qa": "node src/generate.mjs --check",
+    "test": "node --test test/*.test.mjs"
+  },
+  "dependencies": {
+    "@resvg/resvg-js": "^2.6.2",
+    "paper": "0.12.18",
+    "paperjs-offset": "1.0.8"
+  }
+}

@@ -3,7 +3,7 @@
 //   manifest.json                                   every asset + metadata + file paths
 //   icons/svg/<style>/<name>.svg                    24px, currentColor
 //   icons/svg/<style>/<size>/<name>.svg             16/20/24/32 with optical stroke
-//   icons/png/<style>/<size>/<name>@{1,2,3}x.png
+//   icons/png/<style>/<size>/<name>@{1,2,3}x.png   (only with LIB_ICON_PNG=1 / --icon-png)
 //   icons/sprite/<style>.svg                        <symbol id="lib-<name>">
 //   icons/animated/<name>.svg                       CSS-animated SVG (regular style)
 //   illustrations/svg/<type>/<name>.svg             default colours
@@ -23,6 +23,9 @@ import { writePreview } from './preview.mjs';
 
 const t0 = Date.now();
 const SCALES = [1, 2, 3];
+// Icon PNGs are 12 files per style (4 sizes x 3 scales); at library scale that is ~900k files,
+// so they are opt-in here and rendered on demand by the site/CDN. LIB_ICON_PNG=1 restores them.
+const ICON_PNG = process.env.LIB_ICON_PNG === '1' || process.argv.includes('--icon-png');
 const write = (rel, data) => {
   const f = path.join(DIST, rel);
   fs.mkdirSync(path.dirname(f), { recursive: true });
@@ -57,6 +60,7 @@ for (const icon of icons) {
     for (const size of tokens.icon.sizes) {
       const sized = iconAtSize(svg, size, tokens);
       files.sizes[style][size] = write(`icons/svg/${style}/${size}/${icon.name}.svg`, sized);
+      if (!ICON_PNG) continue;
       const coloured = sized.replaceAll('currentColor', tokens.icon.primary);
       files.png[style][size] = SCALES.map((s) => {
         pngCount++;

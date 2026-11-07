@@ -7,6 +7,7 @@ Icons + illustrations (static and animated), one source of truth, three outputs:
 | Path | What |
 |---|---|
 | `packages/assets` | Source of truth. `icons/<name>/{light,regular,bold,duotone,fill}.svg + meta.json`, `illustrations/<name>/{stroke,fill,duotone}.svg + meta.json`, `tokens.json`, JSON schemas, raw Figma exports. |
+| `packages/forge` | Icon source definitions + generator: one drawing per icon -> 5 styles, badge/direction variants, motion presets, QA. See its README. |
 | `packages/build` | The pipeline. Outputs `dist/` (the CDN bundle + `manifest.json` + `preview.html`) and generates `packages/react/src/generated`. |
 | `packages/react` | `@library/react` - tree-shakeable components (`<HomeIcon variant size color strokeWidth />`, `<ServerStackIllustration type primary secondary />`). |
 | `apps/web` | Next.js site (step 2). |

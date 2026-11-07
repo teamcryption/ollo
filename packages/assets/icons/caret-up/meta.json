@@ -1,0 +1,135 @@
+{
+  "name": "caret-up",
+  "title": "Caret Up",
+  "category": "arrows",
+  "tags": [
+    "triangle",
+    "play",
+    "caret",
+    "expand",
+    "up"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "forge",
+  "family": "caret-right",
+  "variant": {
+    "kind": "direction",
+    "of": "caret-right",
+    "value": "up"
+  },
+  "animation": {
+    "duration": 3000,
+    "loop": true,
+    "source": "generated",
+    "preset": "nudge",
+    "tracks": [
+      {
+        "target": "root",
+        "property": "translateX",
+        "times": [
+          0,
+          0.1,
+          0.25,
+          0.4,
+          0.55,
+          0.7,
+          1
+        ],
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "ease": [
+          "linear",
+          [
+            0.5,
+            0,
+            0.5,
+            1
+          ],
+          [
+            0.5,
+            0,
+            0.5,
+            1
+          ],
+          [
+            0.5,
+            0,
+            0.5,
+            1
+          ],
+          [
+            0.5,
+            0,
+            0.5,
+            1
+          ],
+          "linear"
+        ]
+      },
+      {
+        "target": "root",
+        "property": "translateY",
+        "times": [
+          0,
+          0.1,
+          0.25,
+          0.4,
+          0.55,
+          0.7,
+          1
+        ],
+        "values": [
+          0,
+          0,
+          -1.5,
+          0,
+          -1.5,
+          0,
+          0
+        ],
+        "ease": [
+          "linear",
+          [
+            0.5,
+            0,
+            0.5,
+            1
+          ],
+          [
+            0.5,
+            0,
+            0.5,
+            1
+          ],
+          [
+            0.5,
+            0,
+            0.5,
+            1
+          ],
+          [
+            0.5,
+            0,
+            0.5,
+            1
+          ],
+          "linear"
+        ]
+      }
+    ]
+  }
+}

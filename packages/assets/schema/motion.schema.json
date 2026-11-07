@@ -7,7 +7,8 @@
   "properties": {
     "duration": { "type": "number", "description": "ms" },
     "loop": { "type": "boolean", "default": true },
-    "source": { "enum": ["figma", "approximated"], "description": "figma = copied from Figma Motion keyframes; approximated = written from the brief, pending a Figma export" },
+    "source": { "enum": ["figma", "approximated", "generated"], "description": "figma = copied from Figma Motion keyframes; approximated = written from the brief, pending a Figma export; generated = preset applied by @library/forge" },
+    "preset": { "type": "string", "description": "forge motion preset name (generated motion only)" },
     "tracks": {
       "type": "array",
       "items": {
