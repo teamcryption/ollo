@@ -90,6 +90,8 @@ export default {
   monitor: { badges: ['check', 'close'] },
   tv: { off: true },
   'usb-drive': { badges: ['check', 'close'] },
+  // interface (batch 15)
+  'layout-top': { mirror: { name: 'layout-bottom', title: 'Footer Layout', tags: ['layout', 'footer', 'bottom bar', 'page'], axis: 'y' } },
   // travel / transport (batch 11)
   airplane: { off: true },
   luggage: { badges: ['check', 'close'] },
