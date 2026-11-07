@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-07T23:29:38.091Z",
-  "icons": 1341,
-  "files": 6705,
+  "generatedAt": "2026-11-07T23:33:53.696Z",
+  "icons": 1346,
+  "files": 6730,
   "errors": [],
   "warnings": [
     "wifi: grid: outside the 3-21 live area (2.10, 5.00, 21.90, 19.00)",
@@ -81,9 +81,9 @@
     "emoji": 22,
     "energy": 16,
     "fashion": 18,
-    "files": 77,
+    "files": 78,
     "finance": 35,
-    "food": 34,
+    "food": 35,
     "gaming": 17,
     "health": 24,
     "home": 34,
@@ -98,11 +98,11 @@
     "science": 18,
     "security": 26,
     "social": 13,
-    "sports": 26,
+    "sports": 27,
     "text": 32,
     "time": 35,
-    "tools": 17,
-    "transport": 21,
+    "tools": 18,
+    "transport": 22,
     "travel": 28,
     "weather": 33
   }
