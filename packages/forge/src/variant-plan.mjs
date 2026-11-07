@@ -13,6 +13,8 @@ const FULL = ['add', 'remove', 'check', 'close', 'alert'];
 
 export default {
   // interface
+  'layout-sidebar': { mirror: { name: 'layout-sidebar-right', title: 'Sidebar Right', tags: ['layout', 'panel', 'right', 'inspector'] } },
+  filter: { off: true },
   copy: { badges: ['check'] },
   edit: { off: true },
   flag: { badges: ['check', 'close'] },
@@ -32,6 +34,7 @@ export default {
   'contact-card': { badges: OBJ },
   megaphone: { off: true },
   messages: { badges: ['add', 'check'] },
+  message: { off: true },
   'video-call': { off: true },
   // commerce
   bag: { badges: ['close', 'remove'] },

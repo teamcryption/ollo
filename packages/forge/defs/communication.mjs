@@ -1,8 +1,8 @@
 import { R, C, L, A, poly, D } from '../src/geo.mjs';
 import { icon, body, line, accent } from '../src/dsl.mjs';
 
-const HANDSET = 'M8.3 3.8 6.1 4.4A2 2 0 0 0 4.6 6.6c.8 6.8 6 12 12.8 12.8a2 2 0 0 0 2.2-1.5l.6-2.2a1.5 1.5 0 0 0-.9-1.8l-2.6-1.1a1.5 1.5 0 0 0-1.7.4l-1.1 1.3a11 11 0 0 1-4.4-4.4L10.8 9a1.5 1.5 0 0 0 .4-1.7L10.1 4.7a1.5 1.5 0 0 0-1.8-.9Z';
-const BUBBLE = 'M7 4.5h10A3 3 0 0 1 20 7.5v7a3 3 0 0 1-3 3h-6l-4 3v-3a3 3 0 0 1-3-3v-7a3 3 0 0 1 3-3Z';
+export const HANDSET = 'M8.3 3.8 6.1 4.4A2 2 0 0 0 4.6 6.6c.8 6.8 6 12 12.8 12.8a2 2 0 0 0 2.2-1.5l.6-2.2a1.5 1.5 0 0 0-.9-1.8l-2.6-1.1a1.5 1.5 0 0 0-1.7.4l-1.1 1.3a11 11 0 0 1-4.4-4.4L10.8 9a1.5 1.5 0 0 0 .4-1.7L10.1 4.7a1.5 1.5 0 0 0-1.8-.9Z';
+export const BUBBLE = 'M7 4.5h10A3 3 0 0 1 20 7.5v7a3 3 0 0 1-3 3h-6l-4 3v-3a3 3 0 0 1-3-3v-7a3 3 0 0 1 3-3Z';
 
 export default {
   category: 'communication',

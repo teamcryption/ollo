@@ -2,8 +2,8 @@ import { R, C, L, A, poly, D } from '../src/geo.mjs';
 import { icon, body, line, accent } from '../src/dsl.mjs';
 
 // Page with a folded corner, shared by the file family.
-const PAGE = 'M5.5 5.5A2.5 2.5 0 0 1 8 3h5.5L18.5 8v10.5A2.5 2.5 0 0 1 16 21H8a2.5 2.5 0 0 1-2.5-2.5Z';
-const FOLD = 'M13.5 3.2V6.5A1.5 1.5 0 0 0 15 8h3.3';
+export const PAGE = 'M5.5 5.5A2.5 2.5 0 0 1 8 3h5.5L18.5 8v10.5A2.5 2.5 0 0 1 16 21H8a2.5 2.5 0 0 1-2.5-2.5Z';
+export const FOLD = 'M13.5 3.2V6.5A1.5 1.5 0 0 0 15 8h3.3';
 const page = (...inner) => [body(PAGE), line(FOLD), ...inner];
 const FILE_BADGES = ['add', 'remove', 'check', 'close', 'alert'];
 
