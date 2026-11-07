@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-07T18:31:47.023Z",
-  "icons": 653,
-  "files": 3265,
+  "generatedAt": "2026-11-07T18:42:09.762Z",
+  "icons": 711,
+  "files": 3555,
   "errors": [],
   "warnings": [
     "wifi: grid: outside the 3-21 live area (2.10, 5.00, 21.90, 19.00)",
@@ -23,9 +23,21 @@
     "zoom-in: accent: no floating accent",
     "sparkle: accent: no floating accent",
     "grid-dots: accent: no floating accent",
+    "duplicate: face-smile ~ face-wink (shape distance 1px)",
+    "duplicate: face-surprised ~ face-sleepy (shape distance 1px)",
     "duplicate: lock ~ lock-open (shape distance 1px)"
   ],
   "duplicates": [
+    {
+      "a": "face-smile",
+      "b": "face-wink",
+      "distance": 1
+    },
+    {
+      "a": "face-surprised",
+      "b": "face-sleepy",
+      "distance": 1
+    },
     {
       "a": "lock",
       "b": "lock-open",
@@ -33,11 +45,14 @@
     }
   ],
   "byCategory": {
+    "accessibility": 8,
     "actions": 25,
+    "ai": 9,
     "animals": 4,
     "arrows": 50,
     "buildings": 4,
     "business": 17,
+    "celebration": 4,
     "commerce": 40,
     "communication": 41,
     "data": 15,
@@ -45,9 +60,13 @@
     "development": 22,
     "devices": 34,
     "education": 10,
+    "emoji": 9,
+    "energy": 5,
+    "fashion": 5,
     "files": 54,
     "finance": 20,
     "food": 9,
+    "gaming": 5,
     "health": 11,
     "home": 10,
     "interface": 69,
@@ -58,11 +77,13 @@
     "navigation": 14,
     "notifications": 8,
     "people": 23,
+    "science": 5,
     "security": 17,
     "social": 10,
     "sports": 6,
     "text": 21,
     "time": 20,
+    "tools": 8,
     "transport": 8,
     "travel": 9,
     "weather": 12
