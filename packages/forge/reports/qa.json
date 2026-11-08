@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-08T01:50:56.792Z",
-  "icons": 1557,
-  "files": 7785,
+  "generatedAt": "2026-11-08T03:03:23.472Z",
+  "icons": 1565,
+  "files": 7825,
   "errors": [],
   "warnings": [
     "wifi: grid: outside the 3-21 live area (2.10, 5.00, 21.90, 19.00)",
@@ -83,7 +83,7 @@
     "fashion": 26,
     "files": 79,
     "finance": 39,
-    "food": 71,
+    "food": 79,
     "gaming": 25,
     "health": 34,
     "home": 53,
