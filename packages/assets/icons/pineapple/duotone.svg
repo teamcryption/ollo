@@ -2,5 +2,5 @@
 <path d="M7,14.8c0,3.09279 2.23858,5.6 5,5.6c2.76142,0 5,-2.50721 5,-5.6c0,-3.09279 -2.23858,-5.6 -5,-5.6c-2.76142,0 -5,2.50721 -5,5.6z" fill="#171729" fill-opacity="0.25"/>
 <path d="M12 9.2V4M12 9.2 8.5 5.2M12 9.2l3.5-4" stroke="#171729" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
 <path d="M7 14.8A5 5.6 0 1 0 17 14.8A5 5.6 0 1 0 7 14.8Z" stroke="#171729" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
-<path d="M9 11.5l6 6M15 11.5l-6 6" stroke="#171729" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+<path d="M8.5 12.5l1.75 1.5 1.75-1.5 1.75 1.5 1.75-1.5M8.5 16l1.75 1.5 1.75-1.5 1.75 1.5 1.75-1.5" stroke="#171729" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
 </svg>
