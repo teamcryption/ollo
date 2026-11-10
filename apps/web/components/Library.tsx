@@ -511,12 +511,6 @@ export function Library() {
                   <p className="only-tablet">{batchNote}{fmt(list.length)} icons · 5 styles each</p>
                   <p className="only-phone result-count">{fmt(list.length)} icons · 5 styles</p>
                 </div>
-                {animated && (
-                  <button className="btn btn-ghost btn-md only-desktop" onClick={() => setAnimated(false)}>
-                    <UiIcon name="chevron-left" size={20} />
-                    Static icons
-                  </button>
-                )}
                 {!animated && (
                 <div className="segmented only-desktop" aria-label="View">
                   <span className="seg seg-sm" aria-selected="true">
@@ -554,10 +548,12 @@ export function Library() {
 
               {animated ? (
               <div className="filter-bar only-desktop">
-                <span className="filter-label">Motion</span>
                 {motionChips}
                 <span className="divider" />
-                {autoplaySwitch}
+                <span className="switch-pair">
+                  {animatedSwitch}
+                  {autoplaySwitch}
+                </span>
                 <span className="divider" />
                 <span className="filter-label">Colour</span>
                 {swatches}
