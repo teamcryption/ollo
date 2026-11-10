@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-10T14:11:34.133Z",
-  "icons": 2814,
-  "files": 14070,
+  "generatedAt": "2026-11-10T14:18:43.413Z",
+  "icons": 2841,
+  "files": 14205,
   "errors": [],
   "warnings": [
     "wifi: grid: outside the 3-21 live area (2.10, 5.00, 21.90, 19.00)",
@@ -81,7 +81,7 @@
     "emoji": 32,
     "energy": 30,
     "fashion": 48,
-    "files": 96,
+    "files": 123,
     "finance": 82,
     "food": 125,
     "gaming": 51,
