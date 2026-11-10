@@ -1,6 +1,6 @@
 # Cloud batch runbook (icon batches)
 
-How to keep shipping icon batches from a fresh session (cloud or local). Read `HANDOFF.md` sections 1, 7, 8, 9 and 13 first. State on writing: batch 171 shipped, 6,621 icons (bases through `b171.mjs`). Check `git log -1` for the latest batch number; full `tools/ship.sh` every 3rd batch (166, 169, 172, ...).
+How to keep shipping icon batches from a fresh session (cloud or local). Read `HANDOFF.md` sections 1, 7, 8, 9 and 13 first. State on writing: batch 175 shipped, 7,941 icons (bases through `b175.mjs`). Check `git log -1` for the latest batch number; full `tools/ship.sh` every 3rd batch (166, 169, 172, ...).
 
 ## Rules from Abdur
 - Ship batches back to back, **30–40 finished icons each**, without asking between batches. After each batch: republish the preview, post one line ("Batch N complete: X icons, total Y") and start the next.
@@ -40,6 +40,8 @@ git worktree add ../library-web web/ui    # once
 (cd ../library-web && pnpm install)       # once
 cd ../library-web && LIBRARY_ROOT=<path to this repo> node apps/web/scripts/build-preview.mjs /tmp/review-ui
 ```
+Since ~7,900 icons `data/icons/fill.json` exceeds the Artifact 16 MB per-file limit; before publishing run `python3 tools/batch/compact-preview.py /tmp/review-ui/data/icons/fill.json` (rounds the preview copy's path coordinates to 3 decimals; repo SVGs are untouched). Expect duotone/fill to need the same around 11–12k icons; the lasting fix is splitting or compacting in `build-preview.mjs` on `web/ui`.
+
 Publish `/tmp/review-ui/index.html` with `root=/tmp/review-ui`, `url` = the link, and the 8 files the script prints (`data/index.json`, `data/motion.json`, `data/illustrations.json`, `data/icons/{light,regular,bold,duotone,fill}.json`). Do not use `packages/forge/src/review.mjs` (old UI). Never commit to `web/ui` from a batch session.
 
 ## Yield notes
