@@ -386,6 +386,11 @@ export default {
   'images': { badges: ['add', 'check'] },
   'freezer': { off: true },
   'hard-hat': { badges: ['check', 'alert'] },
+  'curve-ahead': { mirror: { name: 'curve-ahead-left', title: 'Curve Ahead Left' } },
+  'side-road': { mirror: { name: 'side-road-left', title: 'Side Road Left' } },
+  'hairpin-curve': { mirror: { name: 'hairpin-curve-left', title: 'Hairpin Curve Left' } },
+  'lane-ends': { mirror: { name: 'lane-ends-left', title: 'Lane Ends Left' } },
+  'steep-grade': { mirror: { name: 'steep-descent', title: 'Steep Descent' } },
 };
 
 export { OBJ, FULL };
