@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-10T14:03:04.837Z",
-  "icons": 2714,
-  "files": 13570,
+  "generatedAt": "2026-11-10T14:06:45.595Z",
+  "icons": 2749,
+  "files": 13745,
   "errors": [],
   "warnings": [
     "wifi: grid: outside the 3-21 live area (2.10, 5.00, 21.90, 19.00)",
@@ -99,7 +99,7 @@
     "security": 85,
     "social": 30,
     "sports": 63,
-    "text": 66,
+    "text": 101,
     "time": 39,
     "tools": 47,
     "transport": 65,
