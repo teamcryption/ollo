@@ -126,6 +126,8 @@ export default {
   'cold-chain': { badges: ['alert'] },
   antivirus: { badges: ['check', 'alert'] },
   'drone-delivery': { badges: ['check'] },
+  // batch 101
+  'network-switch': { badges: ['check', 'alert'] },
 };
 
 export { OBJ, FULL };
