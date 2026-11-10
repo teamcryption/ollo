@@ -188,6 +188,8 @@ export default {
   'boarding-pass': { badges: ['check'] },
   'passport': { badges: ['check'] },
   'luggage-cart': { badges: ['check'] },
+  // batch 118
+  'certificate': { badges: ['check'] },
   // batch 114
   'remote-control': { off: true },
   'bed': { badges: ['check', 'close'] },
