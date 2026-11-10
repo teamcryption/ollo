@@ -377,6 +377,13 @@ export default {
   'route': { badges: ['add', 'check'] },
   'dashboard': { badges: ['add'] },
   'chart-bar': { badges: ['add'] },
+  'cell-tower': { off: true },
+  'traffic-light': { off: true },
+  'hearing-aid': { off: true },
+  'metronome': { off: true },
+  'newspaper': { badges: ['add', 'check'] },
+  'audiobook': { badges: ['add', 'check'] },
+  'images': { badges: ['add', 'check'] },
 };
 
 export { OBJ, FULL };
