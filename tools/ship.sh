@@ -11,8 +11,8 @@ ROOT=$(git rev-parse --show-toplevel)
 REVIEW_DIR=${REVIEW_DIR:-$ROOT/.review}
 cd "$ROOT/packages"
 pnpm --filter @library/build build 2>&1 | tail -1
-pnpm --filter @library/build test 2>&1 | grep -E "^# (pass|fail)"
-(cd forge && node --test test/forge.test.mjs 2>&1 | grep -E "^# (pass|fail)")
+pnpm --filter @library/build test 2>&1 | grep -E "(^# |ℹ )(pass|fail) "
+(cd forge && node --test test/forge.test.mjs 2>&1 | grep -E "(^# |ℹ )(pass|fail) ")
 (cd react && npx tsc --noEmit && echo "tsc ok")
 cd "$ROOT"
 git add -A
