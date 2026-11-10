@@ -188,6 +188,17 @@ export default {
   'boarding-pass': { badges: ['check'] },
   'passport': { badges: ['check'] },
   'luggage-cart': { badges: ['check'] },
+  // batch 113
+  'vending-machine': { off: true },
+  'parking': { off: true },
+  'contact-book': { badges: ['add'] },
+  'hospital-bed': { badges: ['check'] },
+  'lungs': { badges: ['alert'] },
+  'virus': { badges: ['alert'] },
+  'thermometer': { badges: ['alert'] },
+  'smoke-detector': { badges: ['alert'] },
+  'cctv': { badges: ['check'] },
+  'motion-sensor': { badges: ['alert'] },
   // batch 112
   'postcard': { badges: ['add'] },
   'cheque': { badges: ['check', 'close'] },
