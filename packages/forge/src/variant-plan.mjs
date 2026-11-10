@@ -327,6 +327,26 @@ export default {
   'shipping-container': { badges: ['check'] },
   'books': { badges: ['add'] },
   'diploma': { badges: ['check'] },
+  // batch 132: containers for math and currency glyphs
+  'equals': { containers: ['circle', 'square'] },
+  'not-equal': { containers: ['circle', 'square'] },
+  'plus-minus': { containers: ['circle', 'square'] },
+  'asterisk': { containers: ['circle', 'square'] },
+  'approximately': { containers: ['circle', 'square'] },
+  'less-equal': { containers: ['circle', 'square'] },
+  'greater-equal': { containers: ['circle', 'square'] },
+  'pi': { containers: ['circle', 'square'] },
+  'sigma': { containers: ['circle', 'square'] },
+  'percent': { containers: ['square'] },
+  'euro-sign': { containers: ['square'] },
+  'pound-sign': { containers: ['square'] },
+  'yen-sign': { containers: ['square'] },
+  'rupee-sign': { containers: ['square'] },
+  'ruble-sign': { containers: ['square'] },
+  'naira-sign': { containers: ['square'] },
+  'franc-sign': { containers: ['square'] },
+  'peso-sign': { containers: ['square'] },
+  'cent-sign': { containers: ['square'] },
 };
 
 export { OBJ, FULL };
