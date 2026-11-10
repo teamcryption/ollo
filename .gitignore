@@ -5,3 +5,4 @@ dist
 .DS_Store
 packages/react/src/generated
 packages/forge/reports/review.html
+.review/
