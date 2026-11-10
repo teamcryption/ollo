@@ -169,6 +169,25 @@ export default {
   'washing-machine': { off: true },
   'range-hood': { off: true },
   'air-fryer': { off: true },
+  // batch 105
+  'desk-fan': { off: true },
+  'light-switch': { off: true },
+  'extension-cord': { off: true },
+  'heat-pump': { off: true },
+  'synthesizer': { off: true },
+  'boombox': { off: true },
+  'turntable': { off: true },
+  'file-image': { badges: ['check'] },
+  'file-code': { badges: ['check'] },
+  'file-spreadsheet': { badges: ['check'] },
+  'file-presentation': { badges: ['check'] },
+  'folder-image': { badges: ['check'] },
+  'cash-register': { badges: ['check'] },
+  'pos-terminal': { badges: ['check'] },
+  'shopping-list': { badges: ['check'] },
+  'boarding-pass': { badges: ['check'] },
+  'passport': { badges: ['check'] },
+  'luggage-cart': { badges: ['check'] },
 };
 
 export { OBJ, FULL };
