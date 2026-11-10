@@ -1,6 +1,6 @@
 # Cloud batch runbook (icon batches)
 
-How to keep shipping icon batches from a fresh session (cloud or local). Read `HANDOFF.md` sections 1, 7, 8, 9 and 13 first. State on writing: batch 159 shipped (commit `354af373`), 3,599 icons. Next batch: **160** (due a full `tools/ship.sh` build).
+How to keep shipping icon batches from a fresh session (cloud or local). Read `HANDOFF.md` sections 1, 7, 8, 9 and 13 first. State on writing: batch 159 shipped (commit `354af373`), 3,599 icons. Check `git log -1` for the latest batch number; full `tools/ship.sh` every 3rd batch (160, 163, 166, ...).
 
 ## Rules from Abdur
 - Ship batches back to back, **30–40 finished icons each**, without asking between batches. After each batch: republish the preview, post one line ("Batch N complete: X icons, total Y") and start the next.
@@ -12,7 +12,7 @@ How to keep shipping icon batches from a fresh session (cloud or local). Read `H
 source tools/batch/env.sh          # git identity, pnpm via corepack (Linux/macOS)
 pnpm install
 ```
-Commit on `icons/batch-1`. Push after every batch: `git push origin icons/batch-1`.
+Commit on `icons/batch-1`. **Before every batch run `git pull --ff-only origin icons/batch-1`** (batches alternate between the PC session and the cloud session; GitHub is the handover point). Push after every batch: `git push origin icons/batch-1`. Never run two batch sessions at once.
 
 ## The fast loop (one batch)
 All helper scripts are in `tools/batch/`; run them from `packages/forge`.
