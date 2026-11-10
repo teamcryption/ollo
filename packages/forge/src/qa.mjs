@@ -137,11 +137,14 @@ export function shapeDistance(A, B) {
 
 export function nearDuplicates(entries, { hashThreshold = 48, maxShape = 1.5 } = {}) {
   const pairs = [];
-  const seen = new Set();
+  // Pair bitset (n² bits): a Set of string keys overflows V8's Set limit (~16.7M) above ~6,000 icons.
+  const n = entries.length;
+  const seen = new Uint32Array(Math.ceil((n * n) / 32));
   const consider = (i, j) => {
-    const key = i < j ? `${i},${j}` : `${j},${i}`;
-    if (seen.has(key)) return;
-    seen.add(key);
+    const k = i < j ? i * n + j : j * n + i;
+    const bit = 1 << (k & 31);
+    if (seen[k >>> 5] & bit) return;
+    seen[k >>> 5] |= bit;
     if (hamming(entries[i].hash, entries[j].hash) > hashThreshold) return;
     const d = shapeDistance(entries[i], entries[j]);
     if (d <= maxShape) pairs.push([entries[i].name, entries[j].name, Math.round(d * 100) / 100]);
