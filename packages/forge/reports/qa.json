@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-10T11:52:32.348Z",
-  "icons": 2387,
-  "files": 11935,
+  "generatedAt": "2026-11-10T11:56:05.843Z",
+  "icons": 2409,
+  "files": 12045,
   "errors": [],
   "warnings": [
     "wifi: grid: outside the 3-21 live area (2.10, 5.00, 21.90, 19.00)",
@@ -65,7 +65,7 @@
   "byCategory": {
     "accessibility": 20,
     "actions": 43,
-    "ai": 63,
+    "ai": 66,
     "animals": 38,
     "arrows": 90,
     "buildings": 42,
@@ -87,7 +87,7 @@
     "gaming": 47,
     "health": 65,
     "home": 122,
-    "interface": 129,
+    "interface": 140,
     "logistics": 40,
     "maps": 30,
     "media": 87,
@@ -96,7 +96,7 @@
     "notifications": 19,
     "people": 41,
     "science": 38,
-    "security": 66,
+    "security": 74,
     "social": 30,
     "sports": 61,
     "text": 34,
