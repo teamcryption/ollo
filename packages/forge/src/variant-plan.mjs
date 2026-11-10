@@ -188,6 +188,14 @@ export default {
   'boarding-pass': { badges: ['check'] },
   'passport': { badges: ['check'] },
   'luggage-cart': { badges: ['check'] },
+  // batch 112
+  'postcard': { badges: ['add'] },
+  'cheque': { badges: ['check', 'close'] },
+  'donate': { badges: ['check'] },
+  'graduation-cap': { badges: ['check'] },
+  'blister-pack': { badges: ['check'] },
+  'bank': { badges: ['check'] },
+  'xray': { badges: ['check'] },
   // batch 111
   'notepad': { badges: ['add'] },
   'secure-chat': { badges: ['check'] },
