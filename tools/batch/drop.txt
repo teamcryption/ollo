@@ -847,3 +847,17 @@ weather
 wifi
 wifi-off
 zoom-in
+paperclip-alert
+paperclip-bell
+paperclip-bolt
+paperclip-chat
+paperclip-clock
+paperclip-cloud
+paperclip-gear
+paperclip-heart
+paperclip-pin
+paperclip-search
+paperclip-shield
+paperclip-star
+paperclip-user
+paperclip-download
