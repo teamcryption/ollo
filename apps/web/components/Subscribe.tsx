@@ -2,7 +2,7 @@
 // Subscribe page. No Figma frame exists for pricing yet, so it is built from the Design System
 // page: Segment (billing), plan cards with the selected double-layer ring, Badge Type=Pro,
 // black primary buttons, brand blue only for the selected plan and checks.
-// Prices and plan contents are a proposal until Abdur confirms them (PLANS below).
+// Prices and plan contents confirmed by Abdur on 2026-11-10: Free (default) and Pro $8/month or $72/year.
 import { useEffect, useMemo, useState } from 'react';
 import { fmt } from '@/lib/data';
 import { UiIcon } from './ui-icons';
