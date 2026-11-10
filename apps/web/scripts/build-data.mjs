@@ -10,9 +10,11 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { execFileSync } from 'node:child_process';
 
 const here = path.dirname(fileURLToPath(import.meta.url));
-const ROOT = path.resolve(here, '../../..');
+// LIBRARY_ROOT reads assets and git history from another checkout (read-only), e.g. the batch branch.
+const ROOT = process.env.LIBRARY_ROOT ? path.resolve(process.env.LIBRARY_ROOT) : path.resolve(here, '../../..');
 const ASSETS = path.join(ROOT, 'packages/assets');
 const OUT = path.resolve(here, '../public/data');
 const STYLES = ['light', 'regular', 'bold', 'duotone', 'fill'];
@@ -41,6 +43,20 @@ function motionKind(spec) {
   return 'pop';
 }
 
+// Which batch first added each icon, from commit subjects "Icons batch N: ..." (same rule as the
+// review page). Powers "What's new" in the sidebar. No git history: the section is hidden.
+const batchOf = {};
+const batchDate = {};
+try {
+  const log = execFileSync('git', ['log', '--reverse', '--diff-filter=A', '--format=@@%s|%cs', '--name-only', '--', 'packages/assets/icons'], { cwd: ROOT, encoding: 'utf8', maxBuffer: 64 * 1024 * 1024 });
+  let cur = null;
+  for (const ln of log.split('\n')) {
+    if (ln.startsWith('@@')) { const [subj, date] = ln.slice(2).split('|'); const m = subj.match(/batch (\d+)/i); cur = m ? +m[1] : null; if (cur) batchDate[cur] = date; continue; }
+    const m = ln.match(/^packages\/assets\/icons\/([^/]+)\/meta\.json$/);
+    if (m && cur && !(m[1] in batchOf)) batchOf[m[1]] = cur;
+  }
+} catch {}
+
 const iconDir = path.join(ASSETS, 'icons');
 const names = fs.readdirSync(iconDir).filter((n) => fs.existsSync(path.join(iconDir, n, 'meta.json')));
 const order = new Map(taxonomy.categories.map((c, i) => [c.id, i]));
@@ -65,6 +81,7 @@ for (const name of names) {
     g: (meta.tags ?? []).join(' '),
     a: meta.animation ? 1 : 0,
     m: meta.animation ? motionKind(meta.animation) : undefined,
+    b: batchOf[name],
   });
 }
 
@@ -133,6 +150,8 @@ write('index.json', {
   tokens: { icon: tokens.icon, illustration: tokens.illustration },
   categories,
   icons,
+  latest: Math.max(0, ...Object.values(batchOf)),
+  batchDate,
 });
 for (const s of STYLES) write(`icons/${s}.json`, byStyle[s]);
 write('motion.json', motion);

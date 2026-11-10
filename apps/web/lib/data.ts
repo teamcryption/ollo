@@ -11,13 +11,16 @@ export const ICON_STYLES: { id: IconStyle; label: string }[] = [
 ];
 export const ICON_SIZES = [16, 20, 24, 32] as const;
 
-export type IconEntry = { n: string; t: string; c: string; g: string; a: 0 | 1; m?: 'pop' | 'draw' | 'wiggle' | 'pulse' };
+export type IconEntry = { n: string; t: string; c: string; g: string; a: 0 | 1; m?: 'pop' | 'draw' | 'wiggle' | 'pulse'; b?: number };
 export type Category = { id: string; title: string; count: number };
 export type MotionSpec = { duration: number; loop?: boolean; tracks: unknown[] };
 export type Index = {
   total: number;
   categories: Category[];
   icons: IconEntry[];
+  /** Newest icon batch number (0 without git history) and batch → date. */
+  latest: number;
+  batchDate: Record<string, string>;
   tokens: {
     icon: { opticalStroke: Record<string, number | string> };
     illustration: { primary: string; secondary: string; background: string; ink: string };
@@ -33,6 +36,9 @@ export type Illustration = {
   motion: MotionSpec | null;
 };
 
+/** Where the JSON lives: /data/ on the site, data/ next to the published preview page. */
+const DATA = (typeof window !== 'undefined' && (window as unknown as { __OLLO__?: { data?: string } }).__OLLO__?.data) || '/data/';
+
 const cache = new Map<string, Promise<unknown>>();
 function load<T>(url: string): Promise<T> {
   if (!cache.has(url)) {
@@ -46,10 +52,10 @@ function load<T>(url: string): Promise<T> {
   }
   return cache.get(url) as Promise<T>;
 }
-export const loadIndex = () => load<Index>('/data/index.json');
-export const loadStyle = (s: IconStyle) => load<Record<string, string>>(`/data/icons/${s}.json`);
-export const loadMotion = () => load<Record<string, MotionSpec>>('/data/motion.json');
-export const loadIllustrations = () => load<Illustration[]>('/data/illustrations.json');
+export const loadIndex = () => load<Index>(`${DATA}index.json`);
+export const loadStyle = (s: IconStyle) => load<Record<string, string>>(`${DATA}icons/${s}.json`);
+export const loadMotion = () => load<Record<string, MotionSpec>>(`${DATA}motion.json`);
+export const loadIllustrations = () => load<Illustration[]>(`${DATA}illustrations.json`);
 
 /** Every query word must appear in the name, title, tags or category title. */
 export function searchIcons(icons: IconEntry[], query: string, catTitles: Map<string, string>) {

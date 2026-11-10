@@ -47,7 +47,10 @@ export function Library() {
   const [index, setIndex] = useState<Index | null>(null);
   const [svgs, setSvgs] = useState<Record<string, string> | null>(null);
   const [motion, setMotion] = useState<Record<string, MotionSpec> | null>(null);
-  const [collection, setCollection] = useState<string>('all');
+  // The published preview opens on the newest batch (window.__OLLO__.start = 'latest').
+  const [collection, setCollection] = useState<string>(
+    () => (typeof window !== 'undefined' && (window as unknown as { __OLLO__?: { start?: string } }).__OLLO__?.start) || 'all',
+  );
   const [query, setQuery] = useState('');
   const [style, setStyle] = useState<IconStyle>('regular');
   const [animated, setAnimated] = useState(false);
@@ -113,6 +116,10 @@ export function Library() {
     } else if (collection === 'recent') {
       const byName = new Map(items.map((i) => [i.n, i]));
       items = recent.items.map((n) => byName.get(n)).filter(Boolean) as IconEntry[];
+    } else if (collection === 'latest') {
+      items = items.filter((i) => i.b === index.latest);
+    } else if (collection === 'last5') {
+      items = items.filter((i) => i.b && i.b > index.latest - 5).sort((a, b) => (b.b ?? 0) - (a.b ?? 0));
     } else if (collection !== 'all') {
       items = items.filter((i) => i.c === collection);
     }
@@ -160,11 +167,15 @@ export function Library() {
       ? animated
         ? 'Animated icons'
         : 'All icons'
-      : collection === 'favourites'
-        ? 'Favourites'
-        : collection === 'recent'
-          ? 'Recently used'
-          : (catTitles.get(collection) ?? '');
+      : collection === 'latest'
+        ? 'Latest batch'
+        : collection === 'last5'
+          ? 'Last 5 batches'
+          : collection === 'favourites'
+            ? 'Favourites'
+            : collection === 'recent'
+              ? 'Recently used'
+              : (catTitles.get(collection) ?? '');
   const visible = list.slice(0, shown);
   const searchPlaceholder =
     mode === 'icons' ? `Search ${total ? fmt(total) : ''} icons` : `Search ${fmt(ill.items?.length ?? 0)} illustrations`;
@@ -320,7 +331,17 @@ export function Library() {
     </Select>
   );
 
-  const collectionRow = (id: string, label: string, count: number | null, icon?: Parameters<typeof UiIcon>[0]['name']) => (
+  const latest = index?.latest ?? 0;
+  const latestCount = useMemo(() => index?.icons.filter((i) => i.b === latest).length ?? 0, [index, latest]);
+  const last5Count = useMemo(() => index?.icons.filter((i) => i.b && i.b > latest - 5).length ?? 0, [index, latest]);
+  const batchNote =
+    collection === 'latest'
+      ? `Batch ${latest}${index?.batchDate[latest] ? ` · ${index.batchDate[latest]}` : ''} · `
+      : collection === 'last5'
+        ? `Batches ${latest - 4}–${latest} · `
+        : '';
+
+  const collectionRow = (id: string, label: string, count: number | null, icon?: Parameters<typeof UiIcon>[0]['name'], badge?: string) => (
     <button
       key={id}
       className="coll"
@@ -332,6 +353,7 @@ export function Library() {
     >
       {icon && <UiIcon name={icon} size={18} />}
       <span className="coll-label">{label}</span>
+      {badge && <span className="badge-new">{badge}</span>}
       {count !== null && <span className="coll-count">{fmt(count)}</span>}
     </button>
   );
@@ -388,6 +410,13 @@ export function Library() {
           <div className="side-scroll">
           {mode === 'icons' ? (
             <>
+              {latest > 0 && (
+                <>
+                  <p className="side-label">WHAT’S NEW</p>
+                  {collectionRow('latest', `Batch ${latest}`, latestCount, 'sparkle', 'NEW')}
+                  {collectionRow('last5', 'Last 5 batches', last5Count, 'clock')}
+                </>
+              )}
               <p className="side-label">COLLECTIONS</p>
               {collectionRow('all', 'All icons', total, 'grid')}
               {index?.categories.map((c) => collectionRow(c.id, c.title, c.count))}
@@ -425,6 +454,11 @@ export function Library() {
                   <button className="chip" aria-pressed={collection === 'all'} onClick={() => setCollection('all')}>
                     All icons · {fmt(total)}
                   </button>
+                  {latest > 0 && (
+                    <button className="chip" aria-pressed={collection === 'latest'} onClick={() => setCollection('latest')}>
+                      Batch {latest} · {fmt(latestCount)}
+                    </button>
+                  )}
                   {index?.categories.map((c) => (
                     <button
                       key={c.id}
@@ -443,10 +477,10 @@ export function Library() {
                   <h1>{current}</h1>
                   <p className="only-desktop">
                     {animated
-                      ? `${fmt(list.length)} icons with motion. Download as Lottie, .lottie, GIF or animated SVG`
-                      : `${fmt(list.length)} icons${deferredQuery ? ` for “${deferredQuery}”` : ''}, every one in Light, Regular, Bold, Fill and Duotone`}
+                      ? `${batchNote}${fmt(list.length)} icons with motion. Download as Lottie, .lottie, GIF or animated SVG`
+                      : `${batchNote}${fmt(list.length)} icons${deferredQuery ? ` for “${deferredQuery}”` : ''}, every one in Light, Regular, Bold, Fill and Duotone`}
                   </p>
-                  <p className="only-tablet">{fmt(list.length)} icons · 5 styles each</p>
+                  <p className="only-tablet">{batchNote}{fmt(list.length)} icons · 5 styles each</p>
                   <p className="only-phone result-count">{fmt(list.length)} icons · 5 styles</p>
                 </div>
                 {animated && (

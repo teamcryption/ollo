@@ -243,6 +243,27 @@ function Backgrounds({ value, onChange }: { value: IllBackground; onChange: (v: 
   );
 }
 
+/** True on the published preview page, where the artifact viewer blocks file downloads. */
+const isPreview = () => typeof window !== 'undefined' && !!(window as unknown as { __OLLO__?: { preview?: boolean } }).__OLLO__?.preview;
+
+/** Saves a file and returns the toast text. On the preview page it copies to the clipboard instead. */
+async function save(name: string, data: string | Blob, type: string): Promise<string> {
+  if (isPreview()) {
+    if (typeof data === 'string') {
+      return (await copyText(data)) ? `Downloads are off in this preview: ${name} copied to clipboard` : 'Downloads are off in this preview';
+    }
+    if (type === 'image/png') {
+      try {
+        await navigator.clipboard.write([new ClipboardItem({ 'image/png': data })]);
+        return `Downloads are off in this preview: ${name} copied as an image`;
+      } catch {}
+    }
+    return `Downloads are off in this preview. Run the site locally to save ${name}`;
+  }
+  download(name, data, type);
+  return `${name} downloaded`;
+}
+
 function download(name: string, data: string | Blob, type: string) {
   const blob = typeof data === 'string' ? new Blob([data], { type }) : data;
   const url = URL.createObjectURL(blob);
@@ -362,22 +383,23 @@ function IconPanel({
   };
   const doDownload = async () => {
     if (!base || !spec) return;
-    if (format === 'svg') download(`${icon.n}-animated.svg`, exportSvg(), 'image/svg+xml');
-    else if (format === 'lottie') download(`${icon.n}.json`, JSON.stringify(lottie()), 'application/json');
+    let msg = '';
+    if (format === 'svg') msg = await save(`${icon.n}-animated.svg`, exportSvg(), 'image/svg+xml');
+    else if (format === 'lottie') msg = await save(`${icon.n}.json`, JSON.stringify(lottie()), 'application/json');
     else if (format === 'dotlottie') {
       const bytes = toDotLottie(lottie(), { id: icon.n, loop: trigger === 'loop', speed: 1 });
-      download(`${icon.n}.lottie`, new Blob([bytes as BlobPart], { type: 'application/zip' }), 'application/zip');
+      msg = await save(`${icon.n}.lottie`, new Blob([bytes as BlobPart], { type: 'application/zip' }), 'application/zip');
     } else {
       setBusy(true);
       try {
         const svg = base.replace(/currentColor/g, exportHex);
         const gif = await toGif(svg, { ...spec, duration: spec.duration / speed }, { size: Math.max(size, 48) * 2, background: bgHex });
-        download(`${icon.n}.gif`, gif, 'image/gif');
+        msg = await save(`${icon.n}.gif`, gif, 'image/gif');
       } finally {
         setBusy(false);
       }
     }
-    onToast(`${icon.n}.${format === 'svg' ? 'svg' : format === 'lottie' ? 'json' : format === 'dotlottie' ? 'lottie' : 'gif'} downloaded`);
+    onToast(msg);
   };
   const fav = isFavourite(icon.n);
   const desc = `${icon.t} ${MOTION_TEXT[icon.m ?? 'pop']}. ${(timed ? timed.duration / 1000 : 3).toFixed(1).replace('.0', '')}s ${trigger === 'loop' ? 'loop' : 'animation'}, works in Lottie, GIF and animated SVG.`;
@@ -535,14 +557,11 @@ function IllustrationPanel({
 
   const doDownload = async () => {
     if (format === 'lottie') {
-      download(`${item.n}.json`, JSON.stringify(illLottie()), 'application/json');
-      onToast(`${item.n}.json downloaded`);
+      onToast(await save(`${item.n}.json`, JSON.stringify(illLottie()), 'application/json'));
     } else if (format === 'png') {
-      download(`${item.n}.png`, await svgToPng(exportSvg(), 1040), 'image/png');
-      onToast(`${item.n}.png downloaded`);
+      onToast(await save(`${item.n}.png`, await svgToPng(exportSvg(), 1040), 'image/png'));
     } else {
-      download(`${item.n}${motion === 'still' ? '' : `-${motion}`}.svg`, exportSvg(), 'image/svg+xml');
-      onToast(`${item.n}.svg downloaded`);
+      onToast(await save(`${item.n}${motion === 'still' ? '' : `-${motion}`}.svg`, exportSvg(), 'image/svg+xml'));
     }
   };
   const doCopy = async () => {
