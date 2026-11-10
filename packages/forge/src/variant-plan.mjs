@@ -385,6 +385,7 @@ export default {
   'audiobook': { badges: ['add', 'check'] },
   'images': { badges: ['add', 'check'] },
   'freezer': { off: true },
+  'hard-hat': { badges: ['check', 'alert'] },
 };
 
 export { OBJ, FULL };
