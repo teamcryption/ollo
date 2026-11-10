@@ -38,6 +38,7 @@ const css = [
   `@media (prefers-color-scheme: dark) { :root:not([data-theme='light']) {${darkBlock}\n} }`,
   read('globals.css'),
   read('modal.css'),
+  read('subscribe.css'),
 ].join('\n');
 
 const fonts =

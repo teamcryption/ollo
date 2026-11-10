@@ -22,6 +22,7 @@ import { Logo } from './Logo';
 import { UiIcon } from './ui-icons';
 import { IllustrationFilters, IllustrationSidebar, Illustrations, useIllustrationState } from './Illustrations';
 import { DownloadModal, type DownloadTarget } from './DownloadModal';
+import { Subscribe } from './Subscribe';
 import { ANIM_FORMATS, SWATCHES, Select, copyText, type AnimFormat } from './shared';
 
 type Mode = 'icons' | 'illustrations';
@@ -70,6 +71,23 @@ export function Library() {
   const recent = useLocalList('ollo-recent', 60);
   const favourites = useLocalList('ollo-favourites', 500);
   const deferredQuery = useDeferredValue(query);
+  // Views by URL hash so they also work on the published preview page: #subscribe, #pro.
+  const [view, setView] = useState<'library' | 'subscribe' | 'pro'>('library');
+  useEffect(() => {
+    const read = () => {
+      const h = location.hash.slice(1);
+      setView(h === 'subscribe' ? 'subscribe' : h === 'pro' ? 'pro' : 'library');
+      setSheet(null);
+      if (h === 'subscribe' || h === 'pro') window.scrollTo(0, 0);
+    };
+    read();
+    window.addEventListener('hashchange', read);
+    return () => window.removeEventListener('hashchange', read);
+  }, []);
+  const toLibrary = () => {
+    if (location.hash) history.replaceState(null, '', location.pathname + location.search);
+    setView('library');
+  };
   const ill = useIllustrationState();
 
   useEffect(() => {
@@ -186,10 +204,11 @@ export function Library() {
         <button
           key={m}
           role="tab"
-          aria-selected={mode === m}
+          aria-selected={view === 'library' && mode === m}
           className="seg seg-md"
           onClick={() => {
             setMode(m);
+            toLibrary();
             setQuery('');
           }}
         >
@@ -370,7 +389,7 @@ export function Library() {
         <div className="header-center only-desktop">{searchField('search-header')}</div>
         <div className="header-spacer only-compact" />
         <nav className="header-right">
-          <a className="btn btn-ghost btn-sm only-desktop" href="#pricing">
+          <a className="btn btn-ghost btn-sm only-desktop" href="#subscribe" aria-current={view === 'subscribe' ? 'page' : undefined}>
             Pricing
           </a>
           <a className="btn btn-ghost btn-sm only-desktop" href="#docs">
@@ -390,7 +409,7 @@ export function Library() {
           <a className="btn btn-outline btn-md only-desktop" href="#signin">
             Sign in
           </a>
-          <a className="btn btn-primary btn-md only-wide" href="#pro">
+          <a className="btn btn-primary btn-md only-wide" href="#pro" aria-current={view === 'pro' ? 'page' : undefined}>
             <UiIcon name="sparkle" size={20} />
             Get Pro
           </a>
@@ -400,6 +419,15 @@ export function Library() {
         </nav>
       </header>
 
+      {view !== 'library' ? (
+        <Subscribe
+          initialPlan={view === 'pro' ? 'pro' : 'free'}
+          iconCount={total}
+          illustrationCount={ill.items?.length ?? 0}
+          onToast={showToast}
+        />
+      ) : (
+      <>
       <div className="top-controls only-phone">
         {modeSwitch('mode-switch-full')}
         {searchField('search-phone')}
@@ -597,6 +625,9 @@ export function Library() {
         </main>
       </div>
 
+      </>
+      )}
+
       {sheet && (
         <Sheet title={sheet === 'menu' ? 'Menu' : 'Filters'} onClose={() => setSheet(null)}>
           {sheet === 'filters' && mode === 'icons' ? (
@@ -639,7 +670,7 @@ export function Library() {
             <IllustrationFilters s={ill} site={theme} />
           ) : (
             <div className="sheet-menu">
-              <a className="btn btn-ghost btn-md" href="#pricing">
+              <a className="btn btn-ghost btn-md" href="#subscribe" aria-current={view === 'subscribe' ? 'page' : undefined}>
                 Pricing
               </a>
               <a className="btn btn-ghost btn-md" href="#docs">
@@ -659,7 +690,7 @@ export function Library() {
                 <a className="btn btn-outline btn-md" href="#signin">
                   Sign in
                 </a>
-                <a className="btn btn-primary btn-md" href="#pro">
+                <a className="btn btn-primary btn-md" href="#pro" aria-current={view === 'pro' ? 'page' : undefined}>
                   <UiIcon name="sparkle" size={20} />
                   Get Pro
                 </a>

@@ -3,6 +3,7 @@ import { Bricolage_Grotesque, Figtree, JetBrains_Mono } from 'next/font/google';
 import './tokens.css';
 import './globals.css';
 import './modal.css';
+import './subscribe.css';
 
 const bricolage = Bricolage_Grotesque({ subsets: ['latin'], variable: '--font-bricolage', display: 'swap' });
 const figtree = Figtree({ subsets: ['latin'], variable: '--font-figtree', display: 'swap' });
