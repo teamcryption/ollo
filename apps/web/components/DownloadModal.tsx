@@ -24,6 +24,7 @@ import {
   type IllTheme,
 } from '@/lib/illustration';
 import type { Theme } from '@/lib/hooks';
+import { drawSpec, stillSpec, toDotLottie, toGif, toLottie } from '@/lib/export';
 import { UiIcon } from './ui-icons';
 import { ANIM_FORMATS, SWATCHES, copyText, type AnimFormat } from './shared';
 
@@ -350,8 +351,34 @@ function IconPanel({
 
   const comp = `${pascal(icon.n)}Icon`;
   const react = `import { ${comp} } from '@library/react';\n\n<${comp} variant="${stroke}" size={${size}} color="${exportHex}" />`;
-  const ready = format === 'svg';
   const fmtLabel = ANIM_FORMATS.find((f) => f.id === format)!.label;
+  const [busy, setBusy] = useState(false);
+  const bgHex = BACKGROUNDS[bg]?.light ?? null;
+  const lottie = () => toLottie(base!, spec!, { colour: exportHex, size, background: bgHex, speed, name: icon.n });
+  const canCopy = format === 'svg' || format === 'lottie';
+  const doCopy = async () => {
+    const text = format === 'svg' ? exportSvg() : JSON.stringify(lottie());
+    onToast((await copyText(text)) ? `${format === 'svg' ? 'Animated SVG' : 'Lottie JSON'} copied to clipboard` : 'Copy failed');
+  };
+  const doDownload = async () => {
+    if (!base || !spec) return;
+    if (format === 'svg') download(`${icon.n}-animated.svg`, exportSvg(), 'image/svg+xml');
+    else if (format === 'lottie') download(`${icon.n}.json`, JSON.stringify(lottie()), 'application/json');
+    else if (format === 'dotlottie') {
+      const bytes = toDotLottie(lottie(), { id: icon.n, loop: trigger === 'loop', speed: 1 });
+      download(`${icon.n}.lottie`, new Blob([bytes as BlobPart], { type: 'application/zip' }), 'application/zip');
+    } else {
+      setBusy(true);
+      try {
+        const svg = base.replace(/currentColor/g, exportHex);
+        const gif = await toGif(svg, { ...spec, duration: spec.duration / speed }, { size: Math.max(size, 48) * 2, background: bgHex });
+        download(`${icon.n}.gif`, gif, 'image/gif');
+      } finally {
+        setBusy(false);
+      }
+    }
+    onToast(`${icon.n}.${format === 'svg' ? 'svg' : format === 'lottie' ? 'json' : format === 'dotlottie' ? 'lottie' : 'gif'} downloaded`);
+  };
   const fav = isFavourite(icon.n);
   const desc = `${icon.t} ${MOTION_TEXT[icon.m ?? 'pop']}. ${(timed ? timed.duration / 1000 : 3).toFixed(1).replace('.0', '')}s ${trigger === 'loop' ? 'loop' : 'animation'}, works in Lottie, GIF and animated SVG.`;
 
@@ -434,29 +461,22 @@ function IconPanel({
           <Seg
             label="Format"
             value={format}
-            options={ANIM_FORMATS.map((f) => ({ ...f, off: f.id !== 'svg' }))}
+            options={ANIM_FORMATS}
             onChange={setFormat}
           />
-          {!ready && <p className="soon">{fmtLabel} export is coming soon. Animated SVG is ready today.</p>}
           <div className="modal-actions">
             <button
               className="btn btn-outline btn-lg"
-              disabled={!ready}
-              onClick={async () => onToast((await copyText(exportSvg())) ? 'Animated SVG copied to clipboard' : 'Copy failed')}
+              disabled={!canCopy}
+              title={canCopy ? undefined : `${fmtLabel} is a file: use Download`}
+              onClick={doCopy}
             >
               <UiIcon name="copy" size={20} />
               Copy
             </button>
-            <button
-              className="btn btn-primary btn-lg"
-              disabled={!ready}
-              onClick={() => {
-                download(`${icon.n}-animated.svg`, exportSvg(), 'image/svg+xml');
-                onToast(`${icon.n}-animated.svg downloaded`);
-              }}
-            >
+            <button className="btn btn-primary btn-lg" disabled={busy || !base || !spec} onClick={doDownload}>
               <UiIcon name="download" size={20} />
-              Download {fmtLabel}
+              {busy ? 'Rendering GIF…' : `Download ${fmtLabel}`}
             </button>
           </div>
         </div>
@@ -505,12 +525,19 @@ function IllustrationPanel({
   const comp = `${pascal(item.n)}Illustration`;
   const ink = hex ?? (theme === 'dark' ? '#F4F4F5' : '#141416');
   const react = `import { ${comp} } from '@library/react';\n\n<${comp} type="${type}" ink="${ink}" primary="${ink}" />`;
-  const ready = format !== 'lottie';
   const fmtLabel = format === 'svg' ? 'SVG' : format === 'png' ? 'PNG' : 'Lottie';
+  const illLottie = () => {
+    const svg = illustrationSvg(item, { ...opts, motion: 'still' });
+    const spec = motion === 'float' && item.motion ? item.motion : motion === 'draw' ? drawSpec(svg) : stillSpec;
+    return toLottie(svg, spec, { name: item.n });
+  };
   const desc = item.g ? `${item.t} scene, isometric. Tags: ${item.g.split(' ').slice(0, 4).join(', ')}.` : `${item.t} scene, isometric.`;
 
   const doDownload = async () => {
-    if (format === 'png') {
+    if (format === 'lottie') {
+      download(`${item.n}.json`, JSON.stringify(illLottie()), 'application/json');
+      onToast(`${item.n}.json downloaded`);
+    } else if (format === 'png') {
       download(`${item.n}.png`, await svgToPng(exportSvg(), 1040), 'image/png');
       onToast(`${item.n}.png downloaded`);
     } else {
@@ -519,6 +546,10 @@ function IllustrationPanel({
     }
   };
   const doCopy = async () => {
+    if (format === 'lottie') {
+      onToast((await copyText(JSON.stringify(illLottie()))) ? 'Lottie JSON copied to clipboard' : 'Copy failed');
+      return;
+    }
     if (format === 'png') {
       try {
         const blob = await svgToPng(exportSvg(), 1040);
@@ -615,7 +646,7 @@ function IllustrationPanel({
             options={[
               { id: 'svg', label: 'SVG' },
               { id: 'png', label: 'PNG' },
-              { id: 'lottie', label: 'Lottie', off: true },
+              { id: 'lottie', label: 'Lottie' },
             ]}
             onChange={setFormat}
           />
@@ -629,13 +660,12 @@ function IllustrationPanel({
             ]}
             onChange={setMotion}
           />
-          {!ready && <p className="soon">Lottie export is coming soon. SVG (still or animated) and PNG are ready today.</p>}
           <div className="modal-actions">
-            <button className="btn btn-outline btn-lg" disabled={!ready} onClick={doCopy}>
+            <button className="btn btn-outline btn-lg" onClick={doCopy}>
               <UiIcon name="copy" size={20} />
               Copy
             </button>
-            <button className="btn btn-primary btn-lg" disabled={!ready} onClick={doDownload}>
+            <button className="btn btn-primary btn-lg" onClick={doDownload}>
               <UiIcon name="download" size={20} />
               Download {fmtLabel}
             </button>

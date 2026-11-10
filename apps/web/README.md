@@ -11,4 +11,4 @@ pnpm --filter @library/web dev        # http://localhost:3100 (rebuilds data fir
 
 Screens: Icons grid (29:2), Animated icons (35:5939), animated-icon download modal (35:6787), Illustrations (33:4883), illustration download modal (34:4844), tablet 834 (38:10171, 38:11748), phone 390 (36:7773, 36:8623, 37:9601), each in light and dark.
 
-Not built yet: Lottie, .lottie and GIF export (the buttons say so). Animated SVG, SVG and PNG work.
+Exports: animated icons as Lottie JSON, .lottie, GIF and animated SVG; illustrations as SVG (still, Draw, Float), PNG and Lottie. The Lottie/.lottie/frame renderer is `packages/build/src/motion-export.mjs` (shared with the build); GIFs are encoded in the browser with `gifenc`.
