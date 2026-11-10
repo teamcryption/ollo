@@ -108,6 +108,9 @@ select{border:1px solid var(--line-strong);background:var(--surface);border-radi
 .tile.on svg{animation:pop .35s cubic-bezier(.34,1.56,.64,1)}
 @keyframes pop{0%{transform:scale(.8)}100%{transform:scale(1)}}
 .tile.on::after{content:"";position:absolute;top:7px;right:7px;width:18px;height:18px;border-radius:50%;background:var(--brand) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 12.5l4 4 8-9'/%3E%3C/svg%3E") center/12px no-repeat}
+.grid .bhead{grid-column:1/-1;margin:14px 0 2px;font:600 15px var(--f-display);display:flex;gap:10px;align-items:baseline}
+.grid .bhead:first-child{margin-top:0}
+.grid .bhead span{font-weight:400;font-size:13px;color:var(--muted)}
 .tile .badge{position:absolute;left:8px;top:8px;font:500 9.5px var(--f-mono);letter-spacing:.04em;color:var(--brand);background:var(--brand-soft);border-radius:5px;padding:1px 5px}
 .tile .nm{position:absolute;inset:auto 6px 7px;font-size:11px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-align:center;opacity:.9}
 .more{display:flex;justify-content:center;align-items:center;gap:14px;color:var(--muted)}
@@ -241,7 +244,7 @@ function ensure(cats) {
 const SKELETON = '<rect x="5" y="5" width="14" height="14" rx="3" fill="currentColor" opacity=".08" stroke="none"/>';
 const bodyOf = (i, style) => (i.s && i.s[style]) || SKELETON;
 const catT = Object.fromEntries(D.cats.map(c => [c.id, c.title]));
-const st = { coll:'all', style:'regular', anim:false, colour:'auto', size:24, view:'grid', tile:'M', q:'', limit:120, sel:null };
+const st = { coll: D.latest ? 'latest' : 'all', style:'regular', anim:false, colour:'auto', size:24, view:'grid', tile:'M', q:'', limit:120, sel:null };
 try { const s = JSON.parse(localStorage.getItem('lib-review') || '{}'); Object.assign(st, { style: s.style || st.style, colour: s.colour || st.colour, tile: s.tile || st.tile }); } catch {}
 const save = () => { try { localStorage.setItem('lib-review', JSON.stringify({ style: st.style, colour: st.colour, tile: st.tile })); } catch {} };
 const $ = (id) => document.getElementById(id);
@@ -262,10 +265,13 @@ function renderSide() {
   const animated = D.icons.filter(i => i.m).length;
   const row = (id, label, n, icon) => `<button class="coll" data-coll="${id}" aria-current="${st.coll === id}">${icon}<span>${esc(label)}</span><b>${fmt(n)}</b></button>`;
   const planned = D.cats.length;
-  $('side').innerHTML = `<h3>Collections</h3>` +
+  const nLatest = D.icons.filter(i => i.b === D.latest).length;
+  const nRecent = D.icons.filter(i => i.b && i.b > D.latest - 5).length;
+  const news = D.latest ? `<h3>What's new</h3>` + row('latest', 'Latest batch', nLatest, mini('sparkle')) + row('recent', 'Last 5 batches', nRecent, mini('clock')) : '';
+  $('side').innerHTML = news + `<h3>Collections</h3>` +
     row('all', 'All icons', D.icons.length, mini('dashboard')) +
     present.map(x => row(x.id, x.title, c[x.id], mini(CAT_ICON[x.id] || 'star'))).join('') +
-    `<div class="batchnote"><strong>Review: batches 1-5</strong>
+    `<div class="batchnote"><strong>${D.latest ? 'Latest: batch ' + D.latest : 'Review'}</strong>
       <div class="row"><span>Icons</span><span>${fmt(D.icons.length)}</span></div>
       <div class="row"><span>SVG files</span><span>${fmt(D.icons.reduce((a, i) => a + i.k, 0))}</span></div>
       <div class="row"><span>QA errors</span><span>${D.qa ? D.qa.errors : '-'}</span></div>
@@ -295,35 +301,42 @@ function paintColour() { document.documentElement.style.setProperty('--ic', st.c
 /* ---------- list ---------- */
 function filtered() {
   const q = st.q.trim().toLowerCase();
-  return D.icons.filter(i => {
+  const out = D.icons.filter(i => {
+    if (st.coll === 'latest' && i.b !== D.latest) return false;
+    if (st.coll === 'recent' && !(i.b && i.b > D.latest - 5)) return false;
     if (st.coll === 'animated' && !i.m) return false;
     if (st.coll === 'new' && i.src !== 'new') return false;
     if (st.coll === 'figma' && i.src !== 'figma') return false;
-    if (!['all', 'animated', 'new', 'figma'].includes(st.coll) && i.c !== st.coll) return false;
+    if (!['all', 'animated', 'new', 'figma', 'latest', 'recent'].includes(st.coll) && i.c !== st.coll) return false;
     if (st.anim && !i.m) return false;
     if (q && !(i.n.includes(q) || i.t.toLowerCase().includes(q) || i.g.some(t => t.includes(q)))) return false;
     return true;
   });
+  if (st.coll === 'recent') out.sort((a, b) => b.b - a.b || a.n.localeCompare(b.n));
+  return out;
 }
+const fmtDate = (d) => d ? new Date(d + 'T12:00:00').toLocaleDateString('en', { day: 'numeric', month: 'short' }) : '';
 const TILE = { S: [88, 20], M: [112, 24], L: [140, 32] };
 function render() {
   paintColour();
   renderSide();
   renderFilters();
   const list = filtered();
-  const title = st.coll === 'all' ? 'All icons' : st.coll === 'animated' ? 'Animated icons' : st.coll === 'new' ? 'New in batch 1' : st.coll === 'figma' ? 'From Figma samples' : catT[st.coll] || st.coll;
+  const title = st.coll === 'latest' ? `Latest batch (batch ${D.latest})` : st.coll === 'recent' ? `Last 5 batches (${D.latest - 4} to ${D.latest})` : st.coll === 'all' ? 'All icons' : st.coll === 'animated' ? 'Animated icons' : st.coll === 'new' ? 'New in batch 1' : st.coll === 'figma' ? 'From Figma samples' : catT[st.coll] || st.coll;
   $('title').textContent = title;
-  $('sub').textContent = `${fmt(list.length)} icons${st.anim ? ' with motion. Click one to open the download panel.' : ', each in Light, Regular, Bold, Fill and Duotone. Click any icon to copy its SVG.'}`;
+  $('sub').textContent = `${fmt(list.length)} icons${st.coll === 'latest' && D.batchDate[D.latest] ? ' added ' + fmtDate(D.batchDate[D.latest]) : ''}${st.coll === 'recent' ? ', newest batch first' : ''}${st.anim ? ' with motion. Click one to open the download panel.' : ', each in Light, Regular, Bold, Fill and Duotone. Click any icon to copy its SVG.'}`;
   const [tile, px] = TILE[st.tile];
   const shown = list.slice(0, st.limit);
   const pending = ensure(shown.map(i => i.c));
   if (pending) pending.then(() => render());
   if (!list.length) { $('view').innerHTML = `<div class="empty">No icons match \u201c${esc(st.q)}\u201d. Try a shorter word or another collection.</div>`; $('more').innerHTML = ''; return; }
   if (st.view === 'grid') {
+    let lastB = null;
     $('view').innerHTML = `<div class="grid" style="--tile:${tile}px;--px:${px}px">` + shown.map(i => {
+      const hd = st.coll === 'recent' && i.b !== lastB ? `<h2 class="bhead">Batch ${(lastB = i.b)}<span>${fmt(list.filter(x => x.b === i.b).length)} icons${D.batchDate[i.b] ? ' ' + DOT + ' ' + fmtDate(D.batchDate[i.b]) : ''}</span></h2>` : '';
       const style = st.anim && i.m ? 'regular' : st.style;
       const body = st.anim && i.a ? i.a : bodyOf(i, style);
-      return `<button class="tile${st.sel === i.n + ':' + style ? ' on' : ''}" data-n="${i.n}" data-s="${style}" title="${esc(i.t)}" aria-label="${esc(i.t)}${st.anim ? ', open download panel' : ', copy SVG'}">${i.src === 'new' && st.coll === 'all' && false ? '<span class="badge">NEW</span>' : ''}${svgFor(body, style, 24, st.anim && i.m ? ' overflow="visible"' : '')}${st.tile !== 'S' ? `<span class="nm">${esc(i.n)}</span>` : ''}</button>`;
+      return hd + `<button class="tile${st.sel === i.n + ':' + style ? ' on' : ''}" data-n="${i.n}" data-s="${style}" title="${esc(i.t)}" aria-label="${esc(i.t)}${st.anim ? ', open download panel' : ', copy SVG'}">${i.b === D.latest && st.coll !== 'latest' ? '<span class="badge">NEW</span>' : ''}${svgFor(body, style, 24, st.anim && i.m ? ' overflow="visible"' : '')}${st.tile !== 'S' ? `<span class="nm">${esc(i.n)}</span>` : ''}</button>`;
     }).join('') + `</div>`;
   } else {
     $('view').innerHTML = `<div class="matrix"><table><thead><tr><th></th>${STYLES.map(s => `<th>${STYLE_T[s]}</th>`).join('')}</tr></thead><tbody>` + shown.map(i =>
