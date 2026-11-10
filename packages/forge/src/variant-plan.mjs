@@ -17,7 +17,7 @@ export default {
   filter: { off: true },
   copy: { badges: ['check'] },
   edit: { off: true },
-  flag: { badges: ['check', 'close'] },
+  flag: { badges: ['add', 'check', 'close'] },
   link: { off: true },
   star: { badges: ['add', 'remove', 'check'] },
   // actions
@@ -39,11 +39,11 @@ export default {
   // commerce
   bag: { badges: ['close', 'remove'] },
   package: { badges: OBJ },
-  receipt: { badges: ['check', 'close'] },
+  receipt: { badges: ['add', 'check', 'close'] },
   store: { badges: OBJ },
   tag: { badges: OBJ },
   truck: { badges: ['check', 'close'] },
-  gift: { badges: ['check'] },
+  gift: { badges: ['add', 'check'] },
   // data
   table: { badges: OBJ },
   // development
@@ -53,8 +53,8 @@ export default {
   puzzle: { badges: OBJ },
   'package-code': { badges: ['add', 'check'] },
   // devices
-  laptop: { badges: ['check', 'close'] },
-  tablet: { badges: ['check', 'close'] },
+  laptop: { badges: ['check', 'close'], off: true },
+  tablet: { badges: ['check', 'close'], off: true },
   'server-rack': { badges: ['check', 'close', 'alert'] },
   'hard-drive': { badges: ['check', 'alert'] },
   bluetooth: { off: true },
@@ -128,6 +128,23 @@ export default {
   'drone-delivery': { badges: ['check'] },
   // batch 101
   'network-switch': { badges: ['check', 'alert'] },
+  // batch 103: status variants on existing objects
+  coupon: { badges: ['add', 'check'] },
+  'sticky-note': { badges: ['add', 'check'] },
+  report: { badges: ['check', 'alert'] },
+  ticket: { badges: ['add', 'close'] },
+  keyboard: { off: true },
+  mouse: { off: true },
+  radio: { off: true },
+  globe: { off: true },
+  plug: { off: true },
+  cpu: { badges: ['alert'] },
+  coins: { badges: ['add'] },
+  wallet: { badges: ['close'] },
+  kanban: { badges: ['check'] },
+  contract: { badges: ['add'] },
+  invoice: { badges: ['add'] },
+  podcast: { off: true },
 };
 
 export { OBJ, FULL };
