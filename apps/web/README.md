@@ -21,4 +21,4 @@ The review page at https://claude.ai/artifact/FZsFNNvadJTNKkKmesLT2S is this sam
 node apps/web/scripts/build-preview.mjs <out-dir>     # set LIBRARY_ROOT=<checkout> to read another checkout
 ```
 
-Publish `<out-dir>/index.html` to that URL with `root=<out-dir>` and the 8 `data/*` files the script prints. It opens on the newest batch ("What's new" in the sidebar, from `Icons batch N:` commit subjects). Downloads are blocked in the artifact viewer, so there Download copies to the clipboard instead.
+Publish `<out-dir>/index.html` to that URL with `root=<out-dir>` and the 8 `data/*` files the script prints. It opens on the newest batch ("What's new" in the sidebar, from `Icons batch N:` commit subjects). In the artifact viewer, Download goes through the viewer's `downloads` capability: publish once with `capabilities: {downloads: true}` (later publishes that omit `capabilities` keep it). .lottie saves as `<name>-dotlottie.zip` there because the viewer does not allow the .lottie extension. Without the capability, Download copies to the clipboard instead.

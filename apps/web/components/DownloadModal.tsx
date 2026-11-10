@@ -247,8 +247,26 @@ function Backgrounds({ value, onChange }: { value: IllBackground; onChange: (v: 
 const isPreview = () => typeof window !== 'undefined' && !!(window as unknown as { __OLLO__?: { preview?: boolean } }).__OLLO__?.preview;
 
 /** Saves a file and returns the toast text. On the preview page it copies to the clipboard instead. */
+type ViewerDownloads = { save(r: { filename: string; data: string | Blob }): Promise<{ status: string }> };
+type ViewerClaude = { use?: (name: string) => Promise<unknown> };
+
 async function save(name: string, data: string | Blob, type: string): Promise<string> {
   if (isPreview()) {
+    // The artifact viewer saves files through its `downloads` capability (the page must declare it).
+    const claude = (window as unknown as { claude?: ViewerClaude }).claude;
+    const downloads = (await claude?.use?.('downloads').catch(() => null)) as ViewerDownloads | null | undefined;
+    if (downloads) {
+      // .lottie is not on the viewer's extension allowlist; a dotLottie file is a zip.
+      const filename = name.endsWith('.lottie') ? `${name.slice(0, -7)}-dotlottie.zip` : name;
+      try {
+        await downloads.save({ filename, data });
+        return filename === name ? `${name} saved` : `${filename} saved (rename it to .lottie)`;
+      } catch (e) {
+        const code = (e as { code?: string })?.code;
+        if (code === 'declined') return 'Download cancelled';
+        if (code === 'rate_limited') return 'A save is already waiting for you: finish it first';
+      }
+    }
     if (typeof data === 'string') {
       return (await copyText(data)) ? `Downloads are off in this preview: ${name} copied to clipboard` : 'Downloads are off in this preview';
     }
