@@ -1,6 +1,6 @@
 # Cloud batch runbook (icon batches)
 
-How to keep shipping icon batches from a fresh session (cloud or local). Read `HANDOFF.md` sections 1, 7, 8, 9 and 13 first. State on writing: batch 166 shipped, 4,921 icons. Check `git log -1` for the latest batch number; full `tools/ship.sh` every 3rd batch (166, 169, 172, ...).
+How to keep shipping icon batches from a fresh session (cloud or local). Read `HANDOFF.md` sections 1, 7, 8, 9 and 13 first. State on writing: batch 171 shipped, 6,621 icons (bases through `b171.mjs`). Check `git log -1` for the latest batch number; full `tools/ship.sh` every 3rd batch (166, 169, 172, ...).
 
 ## Rules from Abdur
 - Ship batches back to back, **30–40 finished icons each**, without asking between batches. After each batch: republish the preview, post one line ("Batch N complete: X icons, total Y") and start the next.
@@ -43,6 +43,9 @@ cd ../library-web && LIBRARY_ROOT=<path to this repo> node apps/web/scripts/buil
 Publish `/tmp/review-ui/index.html` with `root=/tmp/review-ui`, `url` = the link, and the 8 files the script prints (`data/index.json`, `data/motion.json`, `data/illustrations.json`, `data/icons/{light,regular,bold,duotone,fill}.json`). Do not use `packages/forge/src/review.mjs` (old UI). Never commit to `web/ui` from a batch session.
 
 ## Yield notes
+- Each bulk batch now needs ~20–25 fresh bases (one per row of 15 modifiers). Preview them first on a 5-style sheet; expect to drop ~25% (look-alikes: crystal ball ~ user, fries ~ hand, kettlebell ~ padlock, purse ~ bag).
+- `grep -c` exits 1 when it counts 0, so don't chain `&&` after the `^ D` safety check.
+- Above ~6,000 icons the duplicate check needed a pair bitset (`qa.mjs`, commit `c50cf994`); if generate dies with a RangeError, look there first.
 - Everyday objects are nearly exhausted: new drawings often trip the duplicate check. Combo families (bases x modifiers) and meaningful status variants give the best yield.
 - Small glyphs inside circles/squares/pages often duplicate each other; keep glyphs large and distinct.
 - Bases that read badly as small combos: key (looks like a magnifier), truck (box), coins (database cylinder).
