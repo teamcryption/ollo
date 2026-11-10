@@ -384,6 +384,7 @@ export default {
   'newspaper': { badges: ['add', 'check'] },
   'audiobook': { badges: ['add', 'check'] },
   'images': { badges: ['add', 'check'] },
+  'freezer': { off: true },
 };
 
 export { OBJ, FULL };
