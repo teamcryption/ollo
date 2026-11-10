@@ -114,6 +114,8 @@ export default {
   speaker: { off: true },
   sprinkler: { off: true },
   'ring-light': { off: true },
+  // review and office (batch 97)
+  resume: { badges: ['check'] },
 };
 
 export { OBJ, FULL };
