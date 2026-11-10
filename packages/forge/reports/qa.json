@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-10T06:14:46.718Z",
-  "icons": 1819,
-  "files": 9095,
+  "generatedAt": "2026-11-10T06:25:42.831Z",
+  "icons": 1846,
+  "files": 9230,
   "errors": [],
   "warnings": [
     "wifi: grid: outside the 3-21 live area (2.10, 5.00, 21.90, 19.00)",
@@ -66,13 +66,13 @@
     "accessibility": 16,
     "actions": 34,
     "ai": 18,
-    "animals": 35,
+    "animals": 36,
     "arrows": 90,
     "buildings": 32,
     "business": 43,
     "celebration": 32,
-    "commerce": 54,
-    "communication": 59,
+    "commerce": 56,
+    "communication": 62,
     "data": 30,
     "design": 38,
     "development": 45,
@@ -82,11 +82,11 @@
     "energy": 18,
     "fashion": 42,
     "files": 79,
-    "finance": 39,
+    "finance": 43,
     "food": 107,
     "gaming": 43,
     "health": 44,
-    "home": 70,
+    "home": 85,
     "interface": 113,
     "logistics": 26,
     "maps": 23,
@@ -104,6 +104,6 @@
     "tools": 35,
     "transport": 49,
     "travel": 44,
-    "weather": 39
+    "weather": 41
   }
 }
