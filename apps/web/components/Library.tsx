@@ -56,7 +56,8 @@ export function Library() {
   const [style, setStyle] = useState<IconStyle>('regular');
   const [animated, setAnimated] = useState(false);
   const [motionKind, setMotionKind] = useState<MotionKind>('all');
-  const [autoplay, setAutoplay] = useState(true);
+  // Animated tiles always play (no Autoplay toggle, per Abdur).
+  const autoplay = true;
   const [format, setFormat] = useState<AnimFormat>('lottie');
   const [colour, setColour] = useState('ink');
   const [custom, setCustom] = useState('#3A57FF');
@@ -283,14 +284,6 @@ export function Library() {
     </div>
   );
 
-  const autoplaySwitch = (
-    <button className="switch" role="switch" aria-checked={autoplay} onClick={() => setAutoplay((a) => !a)}>
-      <span className="track" aria-hidden="true">
-        <span className="thumb" />
-      </span>
-      Autoplay
-    </button>
-  );
 
   const formatSelect = (
     <Select label="Format" small value={format} onChange={(v) => setFormat(v as AnimFormat)}>
@@ -550,10 +543,7 @@ export function Library() {
               <div className="filter-bar only-desktop">
                 {motionChips}
                 <span className="divider" />
-                <span className="switch-pair">
-                  {animatedSwitch}
-                  {autoplaySwitch}
-                </span>
+                {animatedSwitch}
                 <span className="divider" />
                 <span className="filter-label">Colour</span>
                 {swatches}
@@ -635,7 +625,6 @@ export function Library() {
                     <span className="filter-label">Motion</span>
                     {motionChips}
                   </div>
-                  <div className="sheet-group">{autoplaySwitch}</div>
                   <div className="sheet-group sheet-row">
                     <span className="filter-label">Format</span>
                     {formatSelect}
