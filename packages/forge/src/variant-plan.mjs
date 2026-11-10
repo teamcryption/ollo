@@ -439,6 +439,7 @@ export default {
   'book-stack': { badges: ['add'] },
   'index-card': { badges: ['add'] },
   'test-strip': { badges: ['check', 'alert'] },
+  'arrow-curve-right': { dir: 'right', turns: { left: 180, up: -90, down: 90 } },
 };
 
 export { OBJ, FULL };
