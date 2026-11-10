@@ -121,6 +121,11 @@ export default {
   'split-bill': { badges: ['check'] },
   // batch 99
   'load-balancer': { badges: ['check', 'alert'] },
+  // batch 100
+  flashcards: { badges: ['add', 'check'] },
+  'cold-chain': { badges: ['alert'] },
+  antivirus: { badges: ['check', 'alert'] },
+  'drone-delivery': { badges: ['check'] },
 };
 
 export { OBJ, FULL };
