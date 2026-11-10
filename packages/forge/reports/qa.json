@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-10T04:31:25.883Z",
-  "icons": 1585,
-  "files": 7925,
+  "generatedAt": "2026-11-10T04:36:10.063Z",
+  "icons": 1592,
+  "files": 7960,
   "errors": [],
   "warnings": [
     "wifi: grid: outside the 3-21 live area (2.10, 5.00, 21.90, 19.00)",
@@ -68,7 +68,7 @@
     "ai": 18,
     "animals": 35,
     "arrows": 90,
-    "buildings": 27,
+    "buildings": 28,
     "business": 29,
     "celebration": 20,
     "commerce": 54,
@@ -102,7 +102,7 @@
     "text": 33,
     "time": 36,
     "tools": 28,
-    "transport": 28,
+    "transport": 34,
     "travel": 36,
     "weather": 37
   }
