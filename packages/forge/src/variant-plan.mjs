@@ -116,6 +116,9 @@ export default {
   'ring-light': { off: true },
   // review and office (batch 97)
   resume: { badges: ['check'] },
+  // batch 98
+  'git-merge': { badges: ['alert'] },
+  'split-bill': { badges: ['check'] },
 };
 
 export { OBJ, FULL };
