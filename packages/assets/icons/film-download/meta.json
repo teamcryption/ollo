@@ -1,0 +1,218 @@
+{
+  "name": "film-download",
+  "title": "Download Film",
+  "category": "media",
+  "tags": [
+    "download",
+    "save",
+    "export",
+    "film",
+    "film"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "forge",
+  "family": "film-download",
+  "animation": {
+    "duration": 3000,
+    "loop": true,
+    "source": "generated",
+    "preset": "pop-draw",
+    "tracks": [
+      {
+        "target": 0,
+        "property": "scale",
+        "origin": [
+          50,
+          50
+        ],
+        "times": [
+          0,
+          0,
+          0.1667,
+          1
+        ],
+        "values": [
+          0.6,
+          0.6,
+          1,
+          1
+        ],
+        "ease": [
+          "linear",
+          [
+            0.45,
+            1.45,
+            0.8,
+            1
+          ],
+          "linear"
+        ]
+      },
+      {
+        "target": 0,
+        "property": "opacity",
+        "times": [
+          0,
+          0,
+          0.1333,
+          0.8,
+          0.9333,
+          1
+        ],
+        "values": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "ease": [
+          "linear",
+          "easeOut",
+          [
+            0.5,
+            0,
+            0.5,
+            1
+          ],
+          "easeIn",
+          "linear"
+        ]
+      },
+      {
+        "target": 2,
+        "property": "scale",
+        "origin": [
+          50,
+          50
+        ],
+        "times": [
+          0,
+          0.04,
+          0.2067,
+          1
+        ],
+        "values": [
+          0.6,
+          0.6,
+          1,
+          1
+        ],
+        "ease": [
+          "linear",
+          [
+            0.45,
+            1.45,
+            0.8,
+            1
+          ],
+          "linear"
+        ]
+      },
+      {
+        "target": 2,
+        "property": "opacity",
+        "times": [
+          0,
+          0.04,
+          0.1733,
+          0.8,
+          0.9333,
+          1
+        ],
+        "values": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "ease": [
+          "linear",
+          "easeOut",
+          [
+            0.5,
+            0,
+            0.5,
+            1
+          ],
+          "easeIn",
+          "linear"
+        ]
+      },
+      {
+        "target": 1,
+        "property": "draw",
+        "times": [
+          0,
+          0.13,
+          0.33,
+          0.8,
+          0.933,
+          1
+        ],
+        "values": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "ease": [
+          "linear",
+          "easeInOut",
+          [
+            0.5,
+            0,
+            0.5,
+            1
+          ],
+          "easeIn",
+          "linear"
+        ]
+      },
+      {
+        "target": 3,
+        "property": "draw",
+        "times": [
+          0,
+          0.18,
+          0.38,
+          0.8,
+          0.933,
+          1
+        ],
+        "values": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "ease": [
+          "linear",
+          "easeInOut",
+          [
+            0.5,
+            0,
+            0.5,
+            1
+          ],
+          "easeIn",
+          "linear"
+        ]
+      }
+    ]
+  }
+}

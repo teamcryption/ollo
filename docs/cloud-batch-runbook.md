@@ -1,6 +1,6 @@
 # Cloud batch runbook (icon batches)
 
-How to keep shipping icon batches from a fresh session (cloud or local). Read `HANDOFF.md` sections 1, 7, 8, 9 and 13 first. State on writing: batch 159 shipped (commit `354af373`), 3,599 icons. Check `git log -1` for the latest batch number; full `tools/ship.sh` every 3rd batch (160, 163, 166, ...).
+How to keep shipping icon batches from a fresh session (cloud or local). Read `HANDOFF.md` sections 1, 7, 8, 9 and 13 first. State on writing: batch 166 shipped, 4,921 icons. Check `git log -1` for the latest batch number; full `tools/ship.sh` every 3rd batch (166, 169, 172, ...).
 
 ## Rules from Abdur
 - Ship batches back to back, **30–40 finished icons each**, without asking between batches. After each batch: republish the preview, post one line ("Batch N complete: X icons, total Y") and start the next.
@@ -23,7 +23,15 @@ All helper scripts are in `tools/batch/`; run them from `packages/forge`.
 5. **Generate + QA**: `node src/generate.mjs > /tmp/gen.log 2>&1; grep -A16 "QA errors" /tmp/gen.log`. Fix or drop offenders (delete the def line; generate removes the icon folder itself).
 6. **Review**: `node tools/sheet.mjs /tmp/sheet.png "a,b,c"` from the repo root, and look at it.
 7. **Safety check before commit**: `git status --short | grep -c "^ D"` must print `0` (anything else means existing icons were deleted).
-8. **Commit**: `node --test test/forge.test.mjs`, then `git add -A && git commit` with subject `Icons batch N: <count> <topics> icons` (exact format; the preview parses `batch N`) and the trailer from `env.sh`. Every 3rd batch (160, 163, 166, ...) run `bash tools/ship.sh "<subject>" "<body>"` instead (full build + build tests + tsc + commit).
+8. **Commit**: `node --test test/forge.test.mjs`, then `git add -A && git commit` with subject `Icons batch N: <count> <topics> icons` (exact format; the preview parses `batch N`) and the trailer from `env.sh`. Every 3rd batch (166, 169, 172, ...) run `bash tools/ship.sh "<subject>" "<body>"` instead (full build + build tests + tsc + commit).
+
+## Bulk batches (300+ icons, current method from batch 162)
+Abdur wants **at least 300 icons per batch**. Use the bulk generator: every unused base x modifier pair, with titles/tags from templates.
+- Bases: `B` in `tools/batch/mods.mjs` plus every `tools/batch/b1NN.mjs` spec (all are auto-imported by `bulk.mjs`). Add new compact bases in a new `b1NN.mjs` (see `b164.mjs`; set `globalThis.BULK_CAT`/`BULK_LABEL` for new bases).
+- Modifiers in `bulk.mjs`: search clock shield gear pin bolt heart star alert user bell cloud chat download pencil (+ lock add check close remove, which mostly fail QA or look cramped). Pairs used up so far: all of these on the bases through b164.
+- Run from `packages/forge`: `BULK_MAX=330 BULK_MODS=<mods> bash ../../tools/batch/runbulk.sh`. It writes defs, generates, drops QA offenders into `tools/batch/drop.txt` and retries.
+- Review: sheet a sample of each modifier (`node tools/sheet.mjs`), drop weak bases by appending their names to `drop.txt` (or the skip list in `bulk.mjs`) and rerun. Never let `^ D` be non-zero.
+- Next yield: draw 25–35 new compact bases per batch (x 3–16, y 3–19, bottom-right kept clear) x 16 modifiers ≈ 300+.
 
 ## Preview (new site UI)
 The preview link is https://claude.ai/artifact/FZsFNNvadJTNKkKmesLT2S (downloads capability already declared; omit `capabilities` when republishing). It is built from the website branch:

@@ -1,0 +1,41 @@
+import { B, combos } from './mods.mjs';
+import './b155.mjs';
+import './b156.mjs';
+Object.assign(B, {
+  pizza: `body(poly([[3, 4.5], [16, 7.5], [6.5, 17]], 1, true)), line('M3.4 7.5 13.5 9.6'), line(D(7, 10.5) + D(9.5, 13) + D(10.5, 10.5))`,
+  passport: `body(R(4, 3.5, 11, 14, 1.5)), line(C(9.5, 9, 2.5)), line('M7 14h5')`,
+  suitcase: `line('M7.5 6.5V5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v1.5'), body(R(4, 6.5, 11, 10, 2)), line('M7 9v5M12 9v5')`,
+  crown: `body(poly([[3, 6], [6.5, 9.5], [9.5, 4.5], [12.5, 9.5], [16, 6], [15, 15], [4, 15]], 0.8, true))`,
+});
+export default combos([
+  ['newspaper', 'gear', 'News Preferences', 'topics, feed settings, personalise, news', 'communication'],
+  ['newspaper', 'bolt', 'Breaking News', 'urgent news, live update, alert, news', 'communication'],
+  ['newspaper', 'shield', 'Fact Checked', 'verified news, trusted source, misinformation, news', 'communication'],
+  ['newspaper', 'heart', 'Saved Articles', 'favourite stories, read later, bookmarks, news', 'communication'],
+  ['megaphone', 'bolt', 'Urgent Announcement', 'important notice, alert, broadcast, announce', 'business'],
+  ['megaphone', 'gear', 'Campaign Settings', 'marketing settings, ad config, campaign, announce', 'business'],
+  ['robot', 'bolt', 'Fast Automation', 'instant automation, quick bot, workflow, robot', 'ai'],
+  ['robot', 'search', 'Find Assistant', 'bot directory, ai helper search, agents, robot', 'ai'],
+  ['plant', 'pin', 'Garden Centre', 'nursery location, plant shop, map, plant', 'nature'],
+  ['plant', 'shield', 'Pest Protection', 'plant protection, healthy plants, care, plant', 'nature'],
+  ['dumbbell', 'heart', 'Healthy Habit', 'fitness love, wellbeing, exercise, fitness', 'sports'],
+  ['dumbbell', 'search', 'Find Workout', 'exercise search, training plan, routine, fitness', 'sports'],
+  ['dumbbell', 'bolt', 'High Intensity', 'hiit, power workout, intense training, fitness', 'sports'],
+  ['flask', 'gear', 'Lab Settings', 'experiment settings, equipment config, lab, flask', 'science'],
+  ['tooth', 'bolt', 'Emergency Dentist', 'urgent dental, toothache, emergency care, tooth', 'health'],
+  ['ship', 'bolt', 'Fast Ferry', 'express boat, speed ferry, quick crossing, boat', 'transport'],
+  ['inbox', 'shield', 'Spam Filter', 'junk protection, safe inbox, filtering, inbox', 'communication'],
+  ['basket', 'bolt', 'Quick Shop', 'express shopping, fast checkout, instant order, basket', 'commerce'],
+  ['piggy', 'star', 'Savings Goal', 'target reached, milestone, savings, piggy bank', 'finance'],
+  ['pizza', 'clock', 'Delivery Time', 'food eta, order tracking, pizza delivery, food', 'food'],
+  ['pizza', 'pin', 'Pizza Nearby', 'pizzeria location, restaurant map, food, pizza', 'food'],
+  ['pizza', 'heart', 'Favourite Food', 'loved meal, order again, favourite, pizza', 'food'],
+  ['passport', 'clock', 'Passport Expiry', 'renewal date, validity, travel documents, passport', 'travel'],
+  ['passport', 'shield', 'Travel Insurance', 'trip cover, protected travel, insurance, passport', 'travel'],
+  ['suitcase', 'pin', 'Baggage Location', 'luggage tracking, bag tag, airport, suitcase', 'travel'],
+  ['suitcase', 'search', 'Lost Luggage', 'missing bag, baggage search, airport, suitcase', 'travel'],
+  ['suitcase', 'lock', 'Luggage Lock', 'tsa lock, secure luggage, travel lock, suitcase', 'travel'],
+  ['crown', 'lock', 'Premium Content', 'members only, exclusive, locked, premium', 'commerce'],
+  ['crown', 'clock', 'Membership Expiry', 'subscription renewal, premium time, plan, premium', 'commerce'],
+  ['crown', 'gear', 'Membership Settings', 'premium settings, subscription, account, premium', 'commerce'],
+]);
