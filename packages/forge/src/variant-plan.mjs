@@ -188,6 +188,12 @@ export default {
   'boarding-pass': { badges: ['check'] },
   'passport': { badges: ['check'] },
   'luggage-cart': { badges: ['check'] },
+  // batch 109
+  'watch-smart': { off: true },
+  'e-reader': { off: true },
+  'flip-phone': { off: true },
+  'inbox': { badges: ['add'] },
+  'calendar-week': { badges: ['add', 'check'] },
   // batch 108
   'atm': { off: true },
   'hot-tub': { off: true },
