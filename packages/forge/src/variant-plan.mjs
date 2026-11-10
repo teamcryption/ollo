@@ -394,6 +394,10 @@ export default {
   'layout-drawer': { mirror: { name: 'layout-drawer-left', title: 'Left Drawer' } },
   'layout-two-thirds': { mirror: { name: 'layout-two-thirds-left', title: 'Two Thirds Left' } },
   'layout-header-sidebar': { mirror: { name: 'layout-header-sidebar-right', title: 'Header and Right Sidebar' } },
+  'cursor': { badges: ['add', 'close', 'check', 'remove', 'alert'] },
+  'form': { badges: ['add', 'check', 'close', 'alert'] },
+  'layout-timeline': { mirror: { name: 'layout-timeline-right', title: 'Timeline Right' } },
+  'layout-header-split': { mirror: { name: 'layout-footer-split', title: 'Footer and Split', axis: 'y' } },
 };
 
 export { OBJ, FULL };

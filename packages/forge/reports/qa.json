@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-10T15:40:20.009Z",
-  "icons": 3162,
-  "files": 15810,
+  "generatedAt": "2026-11-10T15:46:56.906Z",
+  "icons": 3192,
+  "files": 15960,
   "errors": [],
   "warnings": [
     "wifi: grid: outside the 3-21 live area (2.10, 5.00, 21.90, 19.00)",
@@ -87,7 +87,7 @@
     "gaming": 52,
     "health": 80,
     "home": 144,
-    "interface": 255,
+    "interface": 285,
     "logistics": 46,
     "maps": 40,
     "media": 117,
