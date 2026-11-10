@@ -115,7 +115,7 @@ export default {
   sprinkler: { off: true },
   'ring-light': { off: true },
   // review and office (batch 97)
-  resume: { badges: ['check'] },
+  resume: { badges: ['add', 'check'] },
   // batch 98
   'git-merge': { badges: ['alert'] },
   'split-bill': { badges: ['check'] },
@@ -188,6 +188,16 @@ export default {
   'boarding-pass': { badges: ['check'] },
   'passport': { badges: ['check'] },
   'luggage-cart': { badges: ['check'] },
+  // batch 111
+  'notepad': { badges: ['add'] },
+  'secure-chat': { badges: ['check'] },
+  'parcel-tracking': { badges: ['check'] },
+  'parcel-return': { badges: ['check'] },
+  'timesheet': { badges: ['check'] },
+  'code-comment': { badges: ['check'] },
+  'wireframe': { badges: ['check'] },
+  'news-feed': { badges: ['add'] },
+  'comment-thread': { badges: ['add'] },
   // batch 110
   'siren': { off: true },
   'text-to-speech': { off: true },
