@@ -391,6 +391,9 @@ export default {
   'hairpin-curve': { mirror: { name: 'hairpin-curve-left', title: 'Hairpin Curve Left' } },
   'lane-ends': { mirror: { name: 'lane-ends-left', title: 'Lane Ends Left' } },
   'steep-grade': { mirror: { name: 'steep-descent', title: 'Steep Descent' } },
+  'layout-drawer': { mirror: { name: 'layout-drawer-left', title: 'Left Drawer' } },
+  'layout-two-thirds': { mirror: { name: 'layout-two-thirds-left', title: 'Two Thirds Left' } },
+  'layout-header-sidebar': { mirror: { name: 'layout-header-sidebar-right', title: 'Header and Right Sidebar' } },
 };
 
 export { OBJ, FULL };
