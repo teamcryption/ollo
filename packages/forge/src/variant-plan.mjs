@@ -119,6 +119,8 @@ export default {
   // batch 98
   'git-merge': { badges: ['alert'] },
   'split-bill': { badges: ['check'] },
+  // batch 99
+  'load-balancer': { badges: ['check', 'alert'] },
 };
 
 export { OBJ, FULL };

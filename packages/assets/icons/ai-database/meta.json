@@ -1,0 +1,64 @@
+{
+  "name": "ai-database",
+  "title": "AI Knowledge Base",
+  "category": "ai",
+  "tags": [
+    "vector database",
+    "embeddings",
+    "knowledge base",
+    "rag",
+    "ai data"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "forge",
+  "family": "ai-database",
+  "animation": {
+    "duration": 3000,
+    "loop": true,
+    "source": "generated",
+    "preset": "pulse",
+    "tracks": [
+      {
+        "target": "root",
+        "property": "scale",
+        "origin": [
+          50,
+          50
+        ],
+        "times": [
+          0,
+          0.0667,
+          0.15,
+          0.2333,
+          0.3167,
+          0.4333,
+          1
+        ],
+        "values": [
+          1,
+          1,
+          1.18,
+          1,
+          1.1,
+          1,
+          1
+        ],
+        "ease": [
+          "linear",
+          "easeOut",
+          "easeIn",
+          "easeOut",
+          "easeInOut",
+          "linear"
+        ]
+      }
+    ]
+  }
+}
