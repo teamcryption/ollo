@@ -107,6 +107,13 @@ export default {
   'money-bag': { badges: ['add'] },
   // development (batch 8)
   'git-branch': { badges: ['add'] },
+  // household and devices that can be switched off (batch 96)
+  'desk-lamp': { off: true },
+  flashlight: { off: true },
+  doorbell: { off: true },
+  speaker: { off: true },
+  sprinkler: { off: true },
+  'ring-light': { off: true },
 };
 
 export { OBJ, FULL };
