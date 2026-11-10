@@ -19,7 +19,7 @@ export default {
   edit: { off: true },
   flag: { badges: ['add', 'check', 'close'] },
   link: { off: true },
-  star: { badges: ['add', 'remove', 'check'] },
+  star: { badges: ['add', 'remove', 'check'], off: true },
   // actions
   plus: { containers: ['square'] },
   minus: { containers: ['square'] },
@@ -67,7 +67,7 @@ export default {
   // media
   camera: { off: true },
   headphones: { off: true },
-  music: { off: true },
+  music: { off: true, badges: ['add', 'check'] },
   pause: { containers: ['circle'] },
   playlist: { badges: ['add', 'check'] },
   // navigation
@@ -79,7 +79,7 @@ export default {
   'id-badge': { badges: ['check'] },
   // security
   key: { badges: ['add', 'check'] },
-  fingerprint: { badges: ['check', 'close'] },
+  fingerprint: { badges: ['check', 'close'], off: true },
   // emoji
   'face-smile': { badges: ['add'] },
   // time
@@ -88,14 +88,14 @@ export default {
   history: { mirror: { name: 'time-forward', title: 'Time Forward', tags: ['future', 'forward', 'later', 'fast forward time'] } },
   // devices (batch 8)
   webcam: { off: true },
-  monitor: { badges: ['check', 'close'] },
+  monitor: { badges: ['check', 'close'], off: true },
   tv: { off: true },
   'usb-drive': { badges: ['check', 'close'] },
   // people / security (batch 17)
   // interface (batch 15)
   'layout-top': { mirror: { name: 'layout-bottom', title: 'Footer Layout', tags: ['layout', 'footer', 'bottom bar', 'page'], axis: 'y' } },
   // travel / transport (batch 11)
-  airplane: { off: true },
+  airplane: { off: true, badges: ['check'] },
   luggage: { badges: ['check', 'close'] },
   // actions / design / text / business (batch 10)
   type: { off: true },
@@ -364,6 +364,19 @@ export default {
   'pisces': { containers: ['square'] },
   'scorpio': { containers: ['square'] },
   'virgo': { containers: ['square'] },
+  // batch 138: switch-off variants
+  'cloud': { off: true },
+  'vibrate': { off: true },
+  'oven': { off: true },
+  'smartphone': { off: true },
+  'blender': { off: true },
+  'hairdryer': { off: true },
+  'fire': { off: true },
+  'eye-scan': { off: true },
+  'pill': { badges: ['add', 'check'] },
+  'route': { badges: ['add', 'check'] },
+  'dashboard': { badges: ['add'] },
+  'chart-bar': { badges: ['add'] },
 };
 
 export { OBJ, FULL };
