@@ -347,6 +347,23 @@ export default {
   'franc-sign': { containers: ['square'] },
   'peso-sign': { containers: ['square'] },
   'cent-sign': { containers: ['square'] },
+  // batch 134: containers for greek letters
+  'alpha': { containers: ['circle', 'square'] },
+  'mu': { containers: ['circle', 'square'] },
+  'psi': { containers: ['circle', 'square'] },
+  'lambda': { containers: ['circle', 'square'] },
+  'omega': { containers: ['circle', 'square'] },
+  'epsilon': { containers: ['circle', 'square'] },
+  // batch 134: zodiac squares
+  'aries': { containers: ['square'] },
+  'taurus': { containers: ['square'] },
+  'gemini': { containers: ['square'] },
+  'leo': { containers: ['square'] },
+  'libra': { containers: ['square'] },
+  'sagittarius': { containers: ['square'] },
+  'pisces': { containers: ['square'] },
+  'scorpio': { containers: ['square'] },
+  'virgo': { containers: ['square'] },
 };
 
 export { OBJ, FULL };
