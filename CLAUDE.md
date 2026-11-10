@@ -2,6 +2,8 @@
 
 Owner: Abdur Rahman. Read this file first in every session.
 
+**Continuing icon batches (any session, including cloud): follow `docs/cloud-batch-runbook.md`; helper scripts are in `tools/batch/`.**
+
 ## What we're building
 One place for **icons + illustrations** (static and animated), easier to consume than Hugeicons, Lordicon, Flaticon or Liniqo, at a better price. Three ways to use it:
 1. **Website** — browse, search, recolour, resize, then one-click copy or download.
