@@ -24,7 +24,7 @@ for (const ic of icons) {
   const { svgs } = renderIcon(ic.els);
   const q = checkGeometry(ic);
   const col = q.errors.length ? '#c00' : q.warnings.length ? '#b70' : '#333';
-  s += `<text x="6" y="${y + 34}" font-family="sans-serif" font-size="12" fill="${col}">${ic.name}</text>`;
+  s += `<text x="6" y="${y + 34}" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="${col}">${ic.name}</text>`;
   Object.values(svgs).forEach((svg, i) => {
     s += svg.replace('<svg width="24" height="24"', `<svg x="${label + i * cell + 6}" y="${y + 6}" width="${cell - 12}" height="${cell - 12}"`);
   });

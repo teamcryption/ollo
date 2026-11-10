@@ -6,7 +6,7 @@
 //   node src/generate.mjs --only=arrows,files
 import fs from 'node:fs';
 import path from 'node:path';
-import { fileURLToPath } from 'node:url';
+import { fileURLToPath, pathToFileURL } from 'node:url';
 import { BADGES, CONTAINERS, withBadge, withSlash, inContainer, turnEls, mirrorEls } from './dsl.mjs';
 import PLAN from './variant-plan.mjs';
 import { renderIcon, STYLES } from './render.mjs';
@@ -86,7 +86,7 @@ export async function loadDefs() {
   const dir = path.join(ROOT, 'defs');
   const all = [];
   for (const f of fs.readdirSync(dir).filter((f) => f.endsWith('.mjs')).sort()) {
-    const mod = (await import(path.join(dir, f))).default;
+    const mod = (await import(pathToFileURL(path.join(dir, f)).href)).default;
     if (ONLY && !ONLY.has(mod.category)) continue;
     for (const def of mod.icons) {
       const p = PLAN[def.name];
