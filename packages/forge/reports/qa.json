@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-10T04:48:30.746Z",
-  "icons": 1604,
-  "files": 8020,
+  "generatedAt": "2026-11-10T04:52:16.660Z",
+  "icons": 1609,
+  "files": 8045,
   "errors": [],
   "warnings": [
     "wifi: grid: outside the 3-21 live area (2.10, 5.00, 21.90, 19.00)",
@@ -76,7 +76,7 @@
     "data": 30,
     "design": 36,
     "development": 37,
-    "devices": 66,
+    "devices": 70,
     "education": 27,
     "emoji": 22,
     "energy": 17,
@@ -86,7 +86,7 @@
     "food": 82,
     "gaming": 25,
     "health": 34,
-    "home": 53,
+    "home": 54,
     "interface": 112,
     "logistics": 23,
     "maps": 16,
