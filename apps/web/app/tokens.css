@@ -1,0 +1,103 @@
+/* Design tokens, mirrored 1:1 from the Figma variable collections
+   "DS Primitives", "DS Color" (Light / Dark) and "DS Dimensions"
+   (file NqyRMhIekr7P5eCV0kvX4m, page Design System). */
+
+:root {
+  /* Dimensions (4pt grid) */
+  --space-0: 0px; --space-2: 2px; --space-4: 4px; --space-6: 6px; --space-8: 8px;
+  --space-12: 12px; --space-16: 16px; --space-20: 20px; --space-24: 24px; --space-32: 32px;
+  --space-40: 40px; --space-48: 48px; --space-64: 64px; --space-80: 80px;
+  --radius-xs: 4px; --radius-sm: 8px; --radius-md: 12px; --radius-lg: 16px; --radius-xl: 24px; --radius-full: 999px;
+  --size-control-sm: 32px; --size-control-md: 40px; --size-control-lg: 48px;
+
+  /* Elevation */
+  --elevation-1: 0 1px 2px rgba(5, 15, 10, 0.06), 0 1px 3px rgba(5, 15, 10, 0.04);
+  --elevation-3: 0 24px 48px rgba(5, 15, 10, 0.16), 0 8px 16px rgba(5, 15, 10, 0.08);
+
+  /* Type */
+  --font-heading: var(--font-bricolage), 'Bricolage Grotesque', system-ui, sans-serif;
+  --font-body: var(--font-figtree), 'Figtree', system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains), 'JetBrains Mono', ui-monospace, monospace;
+}
+
+/* DS Color · Light */
+:root,
+:root[data-theme='light'] {
+  color-scheme: light;
+  --color-bg-canvas: #f4f4f5;
+  --color-bg-surface: #ffffff;
+  --color-bg-surface-raised: #ffffff;
+  --color-bg-subtle: #f4f4f5;
+  --color-bg-muted: #e9e9eb;
+  --color-bg-hover: #0a0a0b0f;
+  --color-bg-inverse: #141416;
+  --color-bg-inverse-hover: #323236;
+  --color-bg-scrim: #0a0a0b7a;
+  --color-bg-asset-tile: #fafafa;
+  --color-brand-primary: #3a57ff;
+  --color-brand-primary-hover: #2b44e3;
+  --color-brand-primary-subtle: #eef1ff;
+  --color-brand-on-primary: #ffffff;
+  --color-brand-on-primary-subtle: #2235b8;
+  --color-text-primary: #0a0a0b;
+  --color-text-secondary: #4c4c52;
+  --color-text-tertiary: #6a6a70;
+  --color-text-disabled: #bcbcc0;
+  --color-text-brand: #2b44e3;
+  --color-text-inverse: #ffffff;
+  --color-icon-default: #141416;
+  --color-icon-secondary: #6a6a70;
+  --color-border-subtle: #e9e9eb;
+  --color-border-default: #dadadd;
+  --color-border-strong: #bcbcc0;
+  --color-border-focus: #3a57ff;
+  --color-border-grid: #e9e9eb;
+  --color-status-error: #c2362c;
+  --color-status-error-subtle: #fce7e4;
+  --color-accent-pro: #141416;
+  --color-accent-pro-subtle: #e9e9eb;
+  --color-effect-focus-ring: #3a57ff2e;
+  --color-effect-error-ring: #c2362c29;
+  /* Asset ink: icons and illustrations render black on light, white on dark. */
+  --color-asset-ink: #171729;
+}
+
+/* DS Color · Dark */
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --color-bg-canvas: #0a0a0b;
+  --color-bg-surface: #141416;
+  --color-bg-surface-raised: #232326;
+  --color-bg-subtle: #1b1b1e;
+  --color-bg-muted: #323236;
+  --color-bg-hover: #ffffff14;
+  --color-bg-inverse: #f4f4f5;
+  --color-bg-inverse-hover: #dadadd;
+  --color-bg-scrim: #000000a8;
+  --color-bg-asset-tile: #1b1b1e;
+  --color-brand-primary: #3a57ff;
+  --color-brand-primary-hover: #6b80ff;
+  --color-brand-primary-subtle: #0f163d;
+  --color-brand-on-primary: #ffffff;
+  --color-brand-on-primary-subtle: #c0caff;
+  --color-text-primary: #f4f4f5;
+  --color-text-secondary: #bcbcc0;
+  --color-text-tertiary: #8e8e93;
+  --color-text-disabled: #323236;
+  --color-text-brand: #98a8ff;
+  --color-text-inverse: #0a0a0b;
+  --color-icon-default: #e9e9eb;
+  --color-icon-secondary: #8e8e93;
+  --color-border-subtle: #232326;
+  --color-border-default: #323236;
+  --color-border-strong: #4c4c52;
+  --color-border-focus: #6b80ff;
+  --color-border-grid: #1b1b1e;
+  --color-status-error: #f2776c;
+  --color-status-error-subtle: #3d1512;
+  --color-accent-pro: #f4f4f5;
+  --color-accent-pro-subtle: #232326;
+  --color-effect-focus-ring: #6b80ff3d;
+  --color-effect-error-ring: #f2776c38;
+  --color-asset-ink: #f4f4f5;
+}
