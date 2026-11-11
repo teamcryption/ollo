@@ -1,0 +1,37 @@
+import { B } from './mods.mjs';
+Object.assign(B, {
+  'laptop-code': `body(R(4, 4.5, 11, 8, 1.5)), line('M2.5 15h14'), line('M8 7l-1.5 1.5L8 10M11 7l1.5 1.5L11 10')`,
+  'monitor-chart': `body(R(3, 3.5, 13, 9.5, 1.5)), line('M6 10V8M9 10V6.5M12 10V8.5'), line('M9.5 13.2v3M6.5 16.5h6')`,
+  'phone-vibrate': `body(R(6, 3.5, 7, 13.5, 1.5)), line('M8.5 5.5h2'), line('M3.5 7.5v5M15.5 7.5v5')`,
+  'phone-call': `body('M5.5 3.5h2.5l1.2 3.5-1.7 1.2a8 8 0 0 0 4.3 4.3l1.2-1.7 3.5 1.2V14.5a2 2 0 0 1-2 2C8.5 16.5 3.5 11.5 3.5 5.5a2 2 0 0 1 2-2Z')`,
+  'handheld-console': `body(R(4.5, 3, 10, 15, 2)), line(R(6.3, 5, 6.4, 5, 0.6)), line('M7 13.5h2M8 12.5v2'), line(D(11.5, 13) + D(12.5, 14.5))`,
+  'bluetooth': `line('M6 7l7 6.5-3.5 3V4.5l3.5 3L6 14')`,
+  'nfc': `body(R(3.5, 3.5, 12, 14, 2.5)), line('M7 13V8l5 5V8')`,
+  'power-bank': `body(R(5, 3, 9, 15, 2)), line('M10 6.5 8 10h3l-2 3.5'), line('M7.5 15.5h4')`,
+  'projector-screen': `line('M3 4h13M9.5 2.5V4'), body(R(4, 4.2, 11, 9, 0.5)), line('M9.5 13.4V17M7.5 17.5h4')`,
+  'microphone-podcast': `body(R(7, 3, 5, 8, 2.5)), line('M4.5 9a5 5 0 0 0 10 0M9.5 14v3.5M6.5 17.5h6'), line('M7.2 6h1.5M10.3 6h1.5')`,
+  'camera-action': `body(R(3, 6, 10, 9, 2)), line(C(8, 10.5, 2.2)), line('M13.2 9 16 7v7l-2.8-2')`,
+  'e-reader': `body(R(4.5, 3, 10, 15, 1.8)), line(R(6.3, 5, 6.4, 8.5, 0.5)), line('M8.5 15.5h2')`,
+  'folder-open': `body('M3 6a1.5 1.5 0 0 1 1.5-1.5h3.5l1.5 2h5A1.5 1.5 0 0 1 16 8v1H6.5L3 16Z'), body('M6 9.3h11l-3 7.2H3Z')`,
+  'file-zip': `body('M5 3h6.5L15 6.5V17a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1Z'), line('M8 4v1.5M9.5 5.5V7M8 7v1.5M9.5 8.5V10'), body(R(7.5, 11, 3, 3, 0.6))`,
+  'file-image': `body('M5 3h6.5L15 6.5V17a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1Z'), line('M6.5 15.5 9 12.5l1.8 1.8 1.2-1.3 1.5 2.5'), line(C(8, 9, 1))`,
+  'documents-stack': `body('M7 3h6.5L16 5.5V14a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1Z'), line('M4 6v10.5A1.5 1.5 0 0 0 5.5 18H13')`,
+  'inbox-tray': `body('M3.5 9h12v7.5a1.5 1.5 0 0 1-1.5 1.5H5a1.5 1.5 0 0 1-1.5-1.5Z'), line('M3.7 12.5h3l1 1.5h3.6l1-1.5h3'), line('M9.5 2.5v5M7.5 5.5l2 2 2-2')`,
+  'voice-message': `body('M5 4h9a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H8.5L5 17v-3a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2Z'), line('M6.5 9v0M8 7.5v3M9.5 6.5v5M11 7.5v3M12.5 9v0')`,
+  'contact-book': `body(R(4, 3, 11, 15, 1.5)), line('M2.5 6.5h2.5M2.5 10.5h2.5M2.5 14.5h2.5'), body(C(9.5, 8.5, 2)), line('M6.8 14.5a2.8 2.8 0 0 1 5.4 0')`,
+  'business-card': `body(R(2.5, 5, 14, 10, 1.5)), line(C(6.5, 9, 1.5)), line('M4.5 13a2 2 0 0 1 4 0M10.5 8.5h4M10.5 11h3')`,
+  'layout-grid': `body(R(3, 3.5, 6, 6, 1)), body(R(10, 3.5, 6, 6, 1)), body(R(3, 11, 6, 6, 1)), body(R(10, 11, 6, 6, 1))`,
+  'layout-sidebar': `body(R(3, 4, 13, 12.5, 1.5)), line('M7.5 4.2v12.1M4.7 7h1.5M4.7 9.5h1.5')`,
+  'toggle-switch': `body(R(2.5, 6.5, 14, 7.5, 3.75)), line(C(12.75, 10.25, 2.2))`,
+  'checkbox-list': `body(R(3, 4, 4, 4, 0.8)), line('M4 6l.8.8 1.4-1.6'), body(R(3, 12, 4, 4, 0.8)), line('M9.5 6h6.5M9.5 14h6.5')`,
+  'dropdown': `body(R(3, 6.5, 13, 7, 1.5)), line('M5.5 10h4'), line('M11.5 9l1.5 1.5L14.5 9')`,
+  'cursor-click': `body('M6 5l9 3.5-4 1.5-1.5 4Z'), line('M3.5 3.5 2 2M6 2.5V1M2.5 6H1')`,
+  'crop': `line('M5.5 2.5v11h11M2.5 5.5h11v11')`,
+  'eyedropper': `body(rotateD(R(8, 2.5, 3, 4.5, 1.2), 45, 9.5, 10.5)), body(rotateD('M8.5 7.5h2V14l-1 2-1-2Z', 45, 9.5, 10.5)), line(rotateD('M7 7.3h5', 45, 9.5, 10.5))`,
+  'bezier': `line('M3.5 16C5 9 14 12 15.5 5'), body(R(2, 14.5, 3, 3, 0.6)), body(R(14, 3.5, 3, 3, 0.6)), line('M3.5 16 9 9.5'), line(C(9, 9.5, 0.01))`,
+  'shapes': `body(C(6.5, 7, 3.5)), body(R(10, 3.5, 6, 6, 1)), body(poly([[9.5, 11], [14, 17.5], [5, 17.5]], 0.6, true))`,
+  'typography': `line('M3.5 5.5V4h8v1.5M7.5 4v12M5.5 16h4'), line('M11.5 10.5h5M14 10.5V16M13 16h2')`,
+});
+globalThis.BULK_CAT = Object.assign(globalThis.BULK_CAT ?? {}, { 'laptop-code': 'development', 'monitor-chart': 'data', 'phone-vibrate': 'devices', 'phone-call': 'communication', 'handheld-console': 'gaming', bluetooth: 'devices', nfc: 'devices', 'power-bank': 'devices', 'projector-screen': 'business', 'microphone-podcast': 'media', 'camera-action': 'media', 'e-reader': 'devices', 'folder-open': 'files', 'file-zip': 'files', 'file-image': 'files', 'documents-stack': 'files', 'inbox-tray': 'communication', 'voice-message': 'communication', 'contact-book': 'communication', 'business-card': 'business', rss: 'communication', 'layout-grid': 'design', 'layout-sidebar': 'interface', 'toggle-switch': 'interface', 'checkbox-list': 'interface', dropdown: 'interface', 'cursor-click': 'interface', crop: 'design', eyedropper: 'design', bezier: 'design', shapes: 'design', typography: 'text' });
+globalThis.BULK_LABEL = Object.assign(globalThis.BULK_LABEL ?? {}, { nfc: 'NFC', 'e-reader': 'E-reader', 'microphone-podcast': 'Podcast', 'camera-action': 'Action Camera', 'phone-call': 'Call' });
+export default {};
