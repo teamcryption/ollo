@@ -46,7 +46,8 @@ export function groupPaths(svg) {
   return out.join('');
 }
 export const minSvg = (s) => groupPaths(s.replace(num, r).replace(/ d="([^"]*)"/g, (_, d) => ` d="${minPath(d)}"`));
-if (import.meta.url === `file://${process.argv[1]}`) {
+import { pathToFileURL } from "node:url";
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   for (const p of process.argv.slice(2)) {
     const d = JSON.parse(fs.readFileSync(p, 'utf8'));
     const out = Object.fromEntries(Object.entries(d).map(([k, v]) => [k, typeof v === 'string' ? minSvg(v) : v]));

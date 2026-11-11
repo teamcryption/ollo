@@ -1,0 +1,39 @@
+import { icon, body, line, accent } from '../src/dsl.mjs';
+import { R, C, E, L, A, D, poly, star, head, gear, rotateD, translateD, scaleD } from '../src/geo.mjs';
+
+const rot = (els, deg, cx = 12, cy = 12) => els.map((e) => ({ ...e, d: rotateD(e.d, deg, cx, cy) }));
+const spark = (x, y, r) => accent(star(x, y, r, r * 0.32, 4, 0.2));
+
+export default {
+  category: 'home',
+  icons: [
+    icon('fridge-sparkle', 'AI Fridge', ['ai', 'smart', 'magic', 'fridge', 'fridge'], [body(R(5, 3.5, 9, 14, 1.5)), line('M5.2 8.5h8.6M7 5.5v1.5M7 10.5v2.5'), body(star(17, 16.5, 4.6, 1.5, 4, 0.4), { cover: true })], { noAccent: true }),
+    icon('washer-sparkle', 'AI Washer', ['ai', 'smart', 'magic', 'washer', 'washer'], [body(R(4, 3.5, 11, 14, 1.5)), line('M4.2 6.5h10.6'), line(C(9.5, 11.5, 3)), body(star(17, 16.5, 4.6, 1.5, 4, 0.4), { cover: true })], { noAccent: true }),
+    icon('oven-sparkle', 'AI Oven', ['ai', 'smart', 'magic', 'oven', 'oven'], [body(R(4, 4, 11, 13, 1.5)), line(R(6, 8.5, 7, 6, 0.8)), line('M6.5 6.2h1M9 6.2h1'), body(star(17, 16.5, 4.6, 1.5, 4, 0.4), { cover: true })], { noAccent: true }),
+    icon('sofa-sparkle', 'AI Sofa', ['ai', 'smart', 'magic', 'sofa', 'sofa'], [line('M5 9V7a1.5 1.5 0 0 1 1.5-1.5h6A1.5 1.5 0 0 1 14 7v2'), body(R(3, 9, 13, 6, 1.5)), line('M4.5 15v2M14.5 15v2'), body(star(17, 16.5, 4.6, 1.5, 4, 0.4), { cover: true })], { noAccent: true }),
+    icon('lamp-sparkle', 'AI Lamp', ['ai', 'smart', 'magic', 'lamp', 'lamp'], [body('M6 3.5h7l2 6H4Z'), line('M9.5 9.7V17M6 17.5h7'), body(star(17, 16.5, 4.6, 1.5, 4, 0.4), { cover: true })], { noAccent: true }),
+    icon('candle-sparkle', 'AI Candle', ['ai', 'smart', 'magic', 'candle', 'candle'], [line('M9.5 3.5c-1 1.2-1 2.2 0 3 1-.8 1-1.8 0-3Z'), body(R(6.5, 8, 6, 10, 1.2)), body(star(17, 16.5, 4.6, 1.5, 4, 0.4), { cover: true })], { noAccent: true }),
+    icon('door-sparkle', 'AI Door', ['ai', 'smart', 'magic', 'door', 'door'], [body(R(5, 3.5, 9, 14.5, 1.5)), line(D(11.3, 11)), line('M3 18.5h3'), body(star(17, 16.5, 4.6, 1.5, 4, 0.4), { cover: true })], { noAccent: true }),
+    icon('bathtub-sparkle', 'AI Bathtub', ['ai', 'smart', 'magic', 'bathtub', 'bathtub'], [line('M5 10.5V6a2 2 0 0 1 4 0'), body('M3 10.5h13v2.5a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4Z'), line('M5.5 17l-.8 1.5'), body(star(17, 16.5, 4.6, 1.5, 4, 0.4), { cover: true })], { noAccent: true }),
+    icon('lantern-sparkle', 'AI Lantern', ['ai', 'smart', 'magic', 'lantern', 'lantern'], [line('M7.5 4.5a2 2 0 0 1 4 0'), body(R(6, 6.5, 7, 10, 2)), line('M5 6.5h9M5 16.5h9'), line('M9.5 9.5c1 1 1 2 0 3-1-1-1-2 0-3Z'), body(star(17, 16.5, 4.6, 1.5, 4, 0.4), { cover: true })], { noAccent: true }),
+    icon('faucet-sparkle', 'AI Faucet', ['ai', 'smart', 'magic', 'faucet', 'faucet'], [line('M7 7V4.5M5 4.5h4'), body('M3.5 7h7a4 4 0 0 1 4 4v1.5h-3V11a1 1 0 0 0-1-1h-7Z'), line(D(13, 15.5)), body(star(17, 16.5, 4.6, 1.5, 4, 0.4), { cover: true })], { noAccent: true }),
+    icon('broom-sparkle', 'AI Broom', ['ai', 'smart', 'magic', 'broom', 'broom'], [line('M15 3.5 10 9.6'), body('M8.2 8.7l3.5 2.8-2.2 6-6-4.6Z'), line('M6 14.4l1.6-2M8.2 16l1.6-2'), body(star(17, 16.5, 4.6, 1.5, 4, 0.4), { cover: true })], { noAccent: true }),
+    icon('iron-sparkle', 'AI Iron', ['ai', 'smart', 'magic', 'iron', 'iron'], [line('M8 9V6.5h6.5V9'), body('M3 15.5c0-3.6 2.5-6.5 6-6.5h5.5v6.5Z'), line(D(6.5, 12.5)), body(star(17, 16.5, 4.6, 1.5, 4, 0.4), { cover: true })], { noAccent: true }),
+    icon('vase-sparkle', 'AI Vase', ['ai', 'smart', 'magic', 'vase', 'vase'], [body('M7 3.5h5V5c0 1-.5 1.8-1 2.5 2.5 1 4 3 4 6A4.5 4.5 0 0 1 10.5 18h-2A4.5 4.5 0 0 1 4 13.5c0-3 1.5-5 4-6-.5-.7-1-1.5-1-2.5Z'), line('M4.6 12h9.8'), body(star(17, 16.5, 4.6, 1.5, 4, 0.4), { cover: true })], { noAccent: true }),
+    icon('window-sparkle', 'AI Window', ['ai', 'smart', 'magic', 'window', 'window'], [body(R(4, 3.5, 11, 13, 1.5)), line('M9.5 3.7v12.6M4.2 10h10.6'), line('M3 18.5h13'), body(star(17, 16.5, 4.6, 1.5, 4, 0.4), { cover: true })], { noAccent: true }),
+    icon('shower-sparkle', 'AI Shower', ['ai', 'smart', 'magic', 'shower', 'shower'], [line('M4.5 18V6a2.5 2.5 0 0 1 5 0v.8'), body('M6.5 9.5a3 3 0 0 1 6 0Z'), line(D(7.5, 12) + D(9.5, 12.8) + D(11.5, 12) + D(8.5, 15) + D(10.5, 15.5)), body(star(17, 16.5, 4.6, 1.5, 4, 0.4), { cover: true })], { noAccent: true }),
+    icon('blender-sparkle', 'AI Blender', ['ai', 'smart', 'magic', 'blender', 'blender'], [body(poly([[5, 3.5], [14, 3.5], [12.5, 11.5], [6.5, 11.5]], 0.6, true)), line('M7.5 6.5h3'), body(R(5.5, 12.8, 8, 5.2, 1.5)), line(D(9.5, 15.4)), body(star(17, 16.5, 4.6, 1.5, 4, 0.4), { cover: true })], { noAccent: true }),
+    icon('ceiling-light-sparkle', 'AI Ceiling Light', ['ai', 'smart', 'magic', 'ceiling light', 'ceiling-light'], [line('M9.5 3v4.3'), body('M4 13a5.5 5.5 0 0 1 11 0Z'), line('M8 15a1.5 1.5 0 0 0 3 0'), body(star(17, 16.5, 4.6, 1.5, 4, 0.4), { cover: true })], { noAccent: true }),
+    icon('fireplace-sparkle', 'AI Fireplace', ['ai', 'smart', 'magic', 'fireplace', 'fireplace'], [line('M2.5 4h14'), body('M3 18V6h13v12h-3.5v-5a3 3 0 0 0-6 0v5Z'), body(star(17, 16.5, 4.6, 1.5, 4, 0.4), { cover: true })], { noAccent: true }),
+    icon('mop-sparkle', 'AI Mop', ['ai', 'smart', 'magic', 'mop', 'mop'], [line('M13.5 3.5 9 12'), body('M5 12.5h7.5l1 5.5H4Z'), line('M6.5 15v2.8M8.8 15v2.8M11.1 15v2.8'), body(star(17, 16.5, 4.6, 1.5, 4, 0.4), { cover: true })], { noAccent: true }),
+    icon('soap-dispenser-sparkle', 'AI Soap Dispenser', ['ai', 'smart', 'magic', 'soap dispenser', 'soap-dispenser'], [line('M9.5 6V4h3.5'), body(R(8, 6, 3, 2, 0.5)), body(R(5, 8.7, 9, 9.3, 2.2)), line('M7.5 13h4'), body(star(17, 16.5, 4.6, 1.5, 4, 0.4), { cover: true })], { noAccent: true }),
+    icon('pillow-sparkle', 'AI Pillow', ['ai', 'smart', 'magic', 'pillow', 'pillow'], [body('M4 5.5c3.5 1 7.5 1 11 0-1 3.5-1 6.5 0 10-3.5-1-7.5-1-11 0 1-3.5 1-6.5 0-10Z'), body(star(17, 16.5, 4.6, 1.5, 4, 0.4), { cover: true })], { noAccent: true }),
+    icon('microwave-sparkle', 'AI Microwave', ['ai', 'smart', 'magic', 'microwave', 'microwave'], [body(R(3, 4.5, 13, 10.5, 1.5)), line(R(5, 6.5, 6.5, 6.5, 1)), line('M13.8 7v.5M13.8 9.5v.5'), line('M5 17.5v1M14 17.5v1'), body(star(17, 16.5, 4.6, 1.5, 4, 0.4), { cover: true })], { noAccent: true }),
+    icon('house-sparkle', 'AI House', ['ai', 'smart', 'magic', 'house', 'house'], [body('M3.5 9.5 9.5 4l6 5.5V17a1 1 0 0 1-1 1h-10a1 1 0 0 1-1-1Z'), line('M8 18v-4h3v4'), body(star(17, 16.5, 4.6, 1.5, 4, 0.4), { cover: true })], { noAccent: true }),
+    icon('air-conditioner-sparkle', 'AI Air Conditioner', ['ai', 'smart', 'magic', 'air conditioner', 'air-conditioner'], [body(R(3, 5, 13, 6.5, 1.5)), line('M5.5 9h8'), line('M6 14c0 1 1 1.5 1 2.5M9.5 14c0 1 1 1.5 1 2.5'), body(star(17, 16.5, 4.6, 1.5, 4, 0.4), { cover: true })], { noAccent: true }),
+    icon('radiator-sparkle', 'AI Radiator', ['ai', 'smart', 'magic', 'radiator', 'radiator'], [body(R(3.5, 5, 12, 11, 1.5)), line('M6.5 7.5v6M9.5 7.5v6M12.5 7.5v6'), line('M5 16v1.5M14 16v1.5'), body(star(17, 16.5, 4.6, 1.5, 4, 0.4), { cover: true })], { noAccent: true }),
+    icon('toaster-sparkle', 'AI Toaster', ['ai', 'smart', 'magic', 'toaster', 'toaster'], [body(R(3, 8, 13, 9, 2.5)), line('M6.5 8V5.5H9V8M10 8V5.5h2.5V8'), line('M5.5 12.5h4'), body(star(17, 16.5, 4.6, 1.5, 4, 0.4), { cover: true })], { noAccent: true }),
+    icon('stool-sparkle', 'AI Stool', ['ai', 'smart', 'magic', 'stool', 'stool'], [body(R(4, 5, 11, 3, 1.5)), line('M5.5 8.2 4 18M13.5 8.2 15 18M9.5 8.2V18'), line('M5 13.5h9'), body(star(17, 16.5, 4.6, 1.5, 4, 0.4), { cover: true })], { noAccent: true }),
+    icon('curtains-sparkle', 'AI Curtains', ['ai', 'smart', 'magic', 'curtains', 'curtains'], [line('M3 4h13'), body('M4 4.5h4c0 4 0 8.5-1 13H4Z'), body('M15 4.5h-4c0 4 0 8.5 1 13h3Z'), body(star(17, 16.5, 4.6, 1.5, 4, 0.4), { cover: true })], { noAccent: true }),
+  ],
+};

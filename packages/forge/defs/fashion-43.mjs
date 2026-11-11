@@ -1,0 +1,31 @@
+import { icon, body, line, accent } from '../src/dsl.mjs';
+import { R, C, E, L, A, D, poly, star, head, gear, rotateD, translateD, scaleD } from '../src/geo.mjs';
+
+const rot = (els, deg, cx = 12, cy = 12) => els.map((e) => ({ ...e, d: rotateD(e.d, deg, cx, cy) }));
+const spark = (x, y, r) => accent(star(x, y, r, r * 0.32, 4, 0.2));
+
+export default {
+  category: 'fashion',
+  icons: [
+    icon('shirt-sparkle', 'AI Shirt', ['ai', 'smart', 'magic', 'shirt', 'shirt'], [body(poly([[6, 3.5], [13, 3.5], [16, 6.5], [14, 9], [13, 8], [13, 16.5], [6, 16.5], [6, 8], [5, 9], [3, 6.5]], 0.8, true)), body(star(17, 16.5, 4.6, 1.5, 4, 0.4), { cover: true })], { noAccent: true }),
+    icon('scissors-sparkle', 'AI Scissors', ['ai', 'smart', 'magic', 'scissors', 'scissors'], [line('M7.3 11.5 14 4M11.7 11.5 5 4'), body(C(5.5, 14, 2.2)), body(C(13.5, 14, 2.2)), body(star(17, 16.5, 4.6, 1.5, 4, 0.4), { cover: true })], { noAccent: true }),
+    icon('hanger-sparkle', 'AI Hanger', ['ai', 'smart', 'magic', 'hanger', 'hanger'], [line('M9.5 5.5a1.5 1.5 0 1 1 1.5 1.5c-.6 0-1.5.5-1.5 1.5v.5L3.5 13.5h12L9.5 9'), body(star(17, 16.5, 4.6, 1.5, 4, 0.4), { cover: true })], { noAccent: true }),
+    icon('ring-sparkle', 'AI Ring', ['ai', 'smart', 'magic', 'ring', 'ring'], [line(C(9.5, 12.5, 5)), body(poly([[7.5, 3.5], [11.5, 3.5], [12.8, 5.3], [9.5, 7.6], [6.2, 5.3]], 0.6, true)), body(star(17, 16.5, 4.6, 1.5, 4, 0.4), { cover: true })], { noAccent: true }),
+    icon('dress-sparkle', 'AI Dress', ['ai', 'smart', 'magic', 'dress', 'dress'], [body(poly([[7.5, 3.5], [11.5, 3.5], [11, 7.5], [15, 17.5], [4, 17.5], [8, 7.5]], 0.8, true)), line('M8.3 7.6h2.4'), body(star(17, 16.5, 4.6, 1.5, 4, 0.4), { cover: true })], { noAccent: true }),
+    icon('sock-sparkle', 'AI Sock', ['ai', 'smart', 'magic', 'sock', 'sock'], [body('M7 3.5h5v7.5l-3.6 5.3a2.4 2.4 0 0 1-4-2.7L7 10.2Z'), line('M7.2 6.2h4.6'), body(star(17, 16.5, 4.6, 1.5, 4, 0.4), { cover: true })], { noAccent: true }),
+    icon('bowtie-sparkle', 'AI Bow Tie', ['ai', 'smart', 'magic', 'bow tie', 'bowtie'], [body(poly([[3.5, 7], [8.3, 9.3], [8.3, 11.7], [3.5, 14]], 0.8, true)), body(poly([[15.5, 7], [10.7, 9.3], [10.7, 11.7], [15.5, 14]], 0.8, true)), line(D(9.5, 10.5)), body(star(17, 16.5, 4.6, 1.5, 4, 0.4), { cover: true })], { noAccent: true }),
+    icon('lipstick-sparkle', 'AI Lipstick', ['ai', 'smart', 'magic', 'lipstick', 'lipstick'], [body('M7.5 9.5V5.7l4-2.2v6Z'), body(R(6.5, 10.5, 6, 7.5, 1)), body(star(17, 16.5, 4.6, 1.5, 4, 0.4), { cover: true })], { noAccent: true }),
+    icon('perfume-sparkle', 'AI Perfume', ['ai', 'smart', 'magic', 'perfume', 'perfume'], [line('M8.5 5.2V3.5h2'), body(R(7.5, 5.5, 4, 2.3, 0.6)), body(R(4.5, 8.5, 10, 9.5, 2.5)), line('M7.5 12.5h4'), body(star(17, 16.5, 4.6, 1.5, 4, 0.4), { cover: true })], { noAccent: true }),
+    icon('necktie-sparkle', 'AI Tie', ['ai', 'smart', 'magic', 'tie', 'necktie'], [body(poly([[8, 3.5], [11, 3.5], [10.6, 6], [8.4, 6]], 0.5, true)), body(poly([[8.3, 7.2], [10.7, 7.2], [12.5, 15], [9.5, 18], [6.5, 15]], 0.6, true)), body(star(17, 16.5, 4.6, 1.5, 4, 0.4), { cover: true })], { noAccent: true }),
+    icon('baseball-cap-sparkle', 'AI Baseball Cap', ['ai', 'smart', 'magic', 'baseball cap', 'baseball-cap'], [body('M4 12a5.7 5.7 0 0 1 11.4 0Z'), line('M15.5 12.6H6c-1.6 0-2.8.8-3.5 2'), line(D(9.7, 6.8)), body(star(17, 16.5, 4.6, 1.5, 4, 0.4), { cover: true })], { noAccent: true }),
+    icon('skirt-sparkle', 'AI Skirt', ['ai', 'smart', 'magic', 'skirt', 'skirt'], [body(R(5.5, 4, 8, 2.2, 0.6)), body(poly([[6, 7.3], [13, 7.3], [16, 17.5], [3, 17.5]], 0.8, true)), line('M8.3 7.7 7.3 17M10.7 7.7l1 9.3'), body(star(17, 16.5, 4.6, 1.5, 4, 0.4), { cover: true })], { noAccent: true }),
+    icon('shorts-sparkle', 'AI Shorts', ['ai', 'smart', 'magic', 'shorts', 'shorts'], [body(poly([[4.5, 4], [14.5, 4], [15.5, 16.5], [11, 16.5], [9.5, 9.5], [8, 16.5], [3.5, 16.5]], 0.6, true)), line('M4.8 6.5h9.4'), body(star(17, 16.5, 4.6, 1.5, 4, 0.4), { cover: true })], { noAccent: true }),
+    icon('necklace-sparkle', 'AI Necklace', ['ai', 'smart', 'magic', 'necklace', 'necklace'], [line('M4.5 3.5c0 5 2.3 8.5 5 8.5s5-3.5 5-8.5'), body('M9.5 12.6l1.8 2.3-1.8 2.3-1.8-2.3Z'), body(star(17, 16.5, 4.6, 1.5, 4, 0.4), { cover: true })], { noAccent: true }),
+    icon('nail-polish-sparkle', 'AI Nail Polish', ['ai', 'smart', 'magic', 'nail polish', 'nail-polish'], [body(R(8, 3, 3, 6, 1)), body(R(5, 9.5, 9, 8.5, 2.5)), line('M7.5 13.6h4'), body(star(17, 16.5, 4.6, 1.5, 4, 0.4), { cover: true })], { noAccent: true }),
+    icon('comb-sparkle', 'AI Comb', ['ai', 'smart', 'magic', 'comb', 'comb'], [body(R(3, 6, 13, 4, 1.2)), line('M4.5 10.2v4M6.5 10.2v4M8.5 10.2v4M10.5 10.2v4M12.5 10.2v4M14.5 10.2v4'), body(star(17, 16.5, 4.6, 1.5, 4, 0.4), { cover: true })], { noAccent: true }),
+    icon('sneaker-sparkle', 'AI Sneaker', ['ai', 'smart', 'magic', 'sneaker', 'sneaker'], [body('M3 15.5V9.5c0-.6.4-1 1-1h2.5l1.5 2 3 .5c2.5.5 4.5 1.8 4.5 4.5Z'), line('M3.2 13.5h12.1'), body(star(17, 16.5, 4.6, 1.5, 4, 0.4), { cover: true })], { noAccent: true }),
+    icon('top-hat-sparkle', 'AI Top Hat', ['ai', 'smart', 'magic', 'top hat', 'top-hat'], [body(R(6, 4, 7, 9, 1)), line('M3 13.5h13'), line('M6.2 10.5h6.6'), body(star(17, 16.5, 4.6, 1.5, 4, 0.4), { cover: true })], { noAccent: true }),
+    icon('boot-sparkle', 'AI Boot', ['ai', 'smart', 'magic', 'boot', 'boot'], [body('M6 3.5h5v8l4 2.5a1.5 1.5 0 0 1 .8 1.3V17H6Z'), line('M6.2 14.5h9.4'), body(star(17, 16.5, 4.6, 1.5, 4, 0.4), { cover: true })], { noAccent: true }),
+    icon('button-sparkle', 'AI Button', ['ai', 'smart', 'magic', 'button', 'button'], [body(C(9.5, 10.5, 6.5)), line(D(7.8, 8.8) + D(11.2, 8.8) + D(7.8, 12.2) + D(11.2, 12.2)), body(star(17, 16.5, 4.6, 1.5, 4, 0.4), { cover: true })], { noAccent: true }),
+  ],
+};

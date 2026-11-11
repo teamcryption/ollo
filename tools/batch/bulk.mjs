@@ -22,6 +22,12 @@ Object.assign(M, {
   chat: `body('M14.4 12.8h5.3a1.3 1.3 0 0 1 1.3 1.3v3.6a1.3 1.3 0 0 1-1.3 1.3h-3.1l-2.1 1.7V19h-.1a1.3 1.3 0 0 1-1.3-1.3v-3.6a1.3 1.3 0 0 1 1.3-1.3Z', { cover: true })`,
   download: `body(R(13, 12.5, 8, 8, 2), { cover: true }), line('M17 14.6v3.8M15.3 16.8l1.7 1.7 1.7-1.7')`,
   pencil: `body('M13.5 20.7l.6-2.6 4.5-4.5a1.3 1.3 0 0 1 1.9 1.9l-4.5 4.5Z', { cover: true })`,
+  sparkle: `body(star(17, 16.5, 4.6, 1.5, 4, 0.4), { cover: true })`,
+  trash: `body('M14.6 14.6h4.8l-.5 5.9h-3.8Z', { cover: true }), line('M13.8 14.6h6.4M16 14.4v-1.2h2v1.2')`,
+  flag: `body('M14.3 13h6l-1.5 2.2 1.5 2.3h-6Z', { cover: true }), line('M14.3 13v8')`,
+  eye: `body('M12.8 16.5c1.2-2 2.6-3 4.2-3s3 1 4.2 3c-1.2 2-2.6 3-4.2 3s-3-1-4.2-3Z', { cover: true }), line(C(17, 16.5, 1.1))`,
+  tag: `body('M13.5 13h3.8l3.6 3.6-3.9 3.9-3.5-3.5Z', { cover: true }), line(D(15.2, 14.8))`,
+  calendar: `body(R(13, 13.3, 8, 7.2, 1.3), { cover: true }), line('M13.2 15.9h7.6M15 12.4v1.8M19 12.4v1.8')`,
   alert: `body(poly([[17, 11.5], [21.3, 20.5], [12.7, 20.5]], 0.9, true), { cover: true }), line('M17 15v2.3'), line(D(17, 19.1))`,
 });
 
@@ -47,6 +53,12 @@ const T = {
   chat: (l) => [`${l} Chat`, 'chat, support, message'],
   download: (l) => [`Download ${l}`, 'download, save, export'],
   pencil: (l) => [`Edit ${l}`, 'edit, write, modify'],
+  sparkle: (l) => [`AI ${l}`, 'ai, smart, magic'],
+  trash: (l) => [`Delete ${l}`, 'delete, remove, trash'],
+  flag: (l) => [`Report ${l}`, 'report, flag, mark'],
+  eye: (l) => [`View ${l}`, 'view, preview, visible'],
+  tag: (l) => [`${l} Price`, 'price, sale, label'],
+  calendar: (l) => [`${l} Booking`, 'booking, date, appointment'],
   alert: (l) => [`${l} Alert`, 'alert, warning, problem'],
 };
 // category: most common category among existing icons named <base>-*
