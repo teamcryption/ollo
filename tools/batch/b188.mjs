@@ -1,0 +1,35 @@
+import { B } from './mods.mjs';
+Object.assign(B, {
+  'hot-tub': `line('M6 6c-.6-.8.6-1.5 0-2.3M9.5 6c-.6-.8.6-1.5 0-2.3M13 6c-.6-.8.6-1.5 0-2.3'), body(R(3, 8.5, 13, 8.5, 2)), line('M3.2 11.5h12.6')`,
+  'sauna': `body(poly([[3, 9], [9.5, 4], [16, 9], [16, 18], [3, 18]], 0.8, true)), line('M6 12.5c-.6-.8.6-1.5 0-2.3M9.5 12.5c-.6-.8.6-1.5 0-2.3M13 12.5c-.6-.8.6-1.5 0-2.3'), line('M5 15h9')`,
+  'massage-stone': `body(E(9.5, 15, 6, 2.5)), body(E(9.5, 10.5, 4.5, 2)), body(E(9.5, 6.5, 3, 1.5))`,
+  'bath-salt': `body(R(5, 3.5, 9, 2.5, 0.8)), body(R(4.5, 6.8, 10, 11.2, 2)), line(D(7.5, 11) + D(10, 12) + D(11.5, 10) + D(8.5, 14))`,
+  'toilet': `body('M5 3.5h4v6H5Z'), body('M4 10h11a5.5 5.5 0 0 1-5.5 5.5H9l1 2.5H6l1-3.2A5.5 5.5 0 0 1 4 10Z')`,
+  'sink': `line('M9.5 7.5V4.5h3'), body('M3 9h13l-1 3.5a4 4 0 0 1-3.8 2.8H7.8A4 4 0 0 1 4 12.5Z'), line('M9.5 15.5v2.5')`,
+  'bathroom-scale': `body(R(3.5, 4, 12, 13, 2.5)), line('M7 7.5a3.5 3.5 0 0 1 5 0M9.5 7.3 10.5 9')`,
+  'spray-bottle': `body('M6.5 3.5h5v2.5h-5Z'), line('M11.5 4.5h2.5l1.2 1.5'), body('M7 6.5h4l1.5 3V17a1 1 0 0 1-1 1h-5a1 1 0 0 1-1-1V9.5Z')`,
+  'recycle-bin': `line('M4 5.5h11M7.5 5.3V3.5h4v1.8'), body('M5 6.5h9l-1 11.5H6Z'), line('M8 10.5l1.5-1.5 1.5 1.5M11 13.5l-1.5 1.5-1.5-1.5')`,
+  'electric-scooter': `line('M4 4h3M5.5 4l1.5 11.5'), line('M7 15.5h7'), line(C(5.5, 16.5, 1.5) + C(14.5, 16.5, 1.5)), line('M10.5 13l1-2.5h-1.5l1-2.5')`,
+  'car-battery': `line('M6 4.5v2M13 4.5v2'), body(R(3, 6.5, 13, 10, 1.5)), line('M5.5 10h2M6.5 9v2M11.5 10h2')`,
+  'gear-shift': `line('M5 6v8M9.5 6v8M14 6v4h-9'), body(C(5, 5, 1.3)), body(C(9.5, 5, 1.3)), body(C(14, 5, 1.3)), body(C(5, 15, 1.3)), body(C(9.5, 15, 1.3))`,
+  'speedometer': `body('M3 14a6.5 6.5 0 1 1 13 0Z'), line('M9.5 13.5l3-4.5'), line('M5.5 12h1M12.5 12h1M9.5 8.5v1')`,
+  'car-door': `body('M4.5 9 9 4h6v13.5H4.5Z'), line('M5.5 9.3h9.3'), line('M11.5 12h2')`,
+  'license-plate': `body(R(2.5, 6, 14, 8.5, 1.5)), line('M5 10.25h2M8.5 10.25h2M12 10.25h2'), line(D(4, 7.5) + D(15, 7.5))`,
+  'crib': `line('M3 5v13M16 5v13M3 8h13M3 15h13'), line('M6.5 8.2v6.6M9.5 8.2v6.6M12.5 8.2v6.6')`,
+  'diaper': `body('M3 6h13v3c0 4.5-3 8-6.5 8S3 13.5 3 9Z'), line('M3.2 9h12.6'), line('M6 6.2V9M13 6.2V9')`,
+  'bib': `body('M6 3.5a3.5 3.5 0 0 0 7 0h1.5V13a5 5 0 0 1-10 0V3.5Z'), line('M7.5 12.5h4')`,
+  'building-blocks': `body(R(3, 11, 6, 6, 0.8)), body(R(10, 11, 6, 6, 0.8)), body(poly([[9.5, 3.5], [13, 9.5], [6, 9.5]], 0.6, true))`,
+  'stacking-rings': `line('M9.5 3v14'), body(E(9.5, 15.5, 5, 1.6)), body(E(9.5, 12, 4, 1.4)), body(E(9.5, 8.8, 3, 1.2))`,
+  'radio-tower': `line('M9.5 9v9M7 18h5'), body(C(9.5, 7.5, 1.5)), line('M6.2 4.5a4.5 4.5 0 0 0 0 6M12.8 4.5a4.5 4.5 0 0 1 0 6M4 2.8a7.5 7.5 0 0 0 0 9.4M15 2.8a7.5 7.5 0 0 1 0 9.4')`,
+  'telephone-old': `body('M3 7.5c0-2 3-3.5 6.5-3.5S16 5.5 16 7.5V9h-3.5V7.5h-6V9H3Z'), body('M5.5 10h8l1.5 7.5H4Z'), line(C(9.5, 13.5, 1.6))`,
+  'fax': `body(R(3, 8, 13, 9.5, 1.5)), body('M5.5 3.5h6l2 2v2.3h-8Z'), line(D(10.5, 11) + D(13, 11) + D(10.5, 14) + D(13, 14)), line('M5 11h3v4H5Z')`,
+  'mailbox-post': `body('M3.5 5.5h9a3 3 0 0 1 3 3V12h-12Z'), line('M9.5 12.2V18M7 18h5'), line('M12.5 5.7V3.5h2.5')`,
+  'satellite-phone': `body(R(5.5, 6, 8, 12, 1.5)), line('M11.5 6V2.5'), line(R(7.3, 8, 4.4, 3, 0.4)), line(D(7.8, 13.5) + D(9.5, 13.5) + D(11.2, 13.5))`,
+  'birthday-cake': `line('M6.5 7V5M9.5 7V5M12.5 7V5'), body(R(4, 7.5, 11, 4, 1)), body(R(3, 12, 13, 6, 1)), line('M3.2 14.5c1.3.8 2.5.8 3.8 0s2.5-.8 3.8 0 2.5.8 3.8 0')`,
+  'wedding-rings': `line(C(7, 12, 4) + C(12, 12, 4)), body(poly([[6, 5.5], [8, 5.5], [8.8, 6.7], [7, 8.2], [5.2, 6.7]], 0.4, true))`,
+  'bouquet': `body(C(7, 6, 2)), body(C(12, 6, 2)), body(C(9.5, 4.5, 2)), body('M6 9.5h7l-2.5 8.5h-2Z')`,
+  'garland': `line('M3 4.5c3.5 3 9.5 3 13 0'), body(poly([[5, 6.3], [7.5, 7], [6.2, 10]], 0.4, true)), body(poly([[8.3, 7.4], [10.7, 7.4], [9.5, 11]], 0.4, true)), body(poly([[11.5, 7], [14, 6.3], [12.8, 10]], 0.4, true))`,
+});
+globalThis.BULK_CAT = Object.assign(globalThis.BULK_CAT ?? {}, { 'hot-tub': 'travel', 'sauna': 'travel', 'massage-stone': 'health', 'bath-salt': 'health', 'toilet': 'home', 'sink': 'home', 'bathroom-scale': 'health', 'spray-bottle': 'home', 'recycle-bin': 'nature', 'electric-scooter': 'transport', 'car-battery': 'transport', 'gear-shift': 'transport', 'speedometer': 'transport', 'car-door': 'transport', 'license-plate': 'transport', 'crib': 'people', 'diaper': 'people', 'bib': 'people', 'building-blocks': 'gaming', 'stacking-rings': 'gaming', 'radio-tower': 'communication', 'telephone-old': 'communication', 'fax': 'communication', 'mailbox-post': 'communication', 'satellite-phone': 'communication', 'birthday-cake': 'celebration', 'wedding-rings': 'celebration', 'bouquet': 'celebration', 'garland': 'celebration' });
+globalThis.BULK_LABEL = Object.assign(globalThis.BULK_LABEL ?? {}, { 'massage-stone': 'Spa Stones', 'recycle-bin': 'Recycling', 'telephone-old': 'Telephone', 'mailbox-post': 'Mailbox', 'license-plate': 'Licence Plate', 'bathroom-scale': 'Bathroom Scale', 'crib': 'Crib' });
+export default {};
