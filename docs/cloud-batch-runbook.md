@@ -40,7 +40,7 @@ git worktree add ../library-web web/ui    # once
 (cd ../library-web && pnpm install)       # once
 cd ../library-web && LIBRARY_ROOT=<path to this repo> node apps/web/scripts/build-preview.mjs /tmp/review-ui
 ```
-Since ~7,900 icons `data/icons/fill.json` exceeds the Artifact 16 MB per-file limit; before publishing run `python3 tools/batch/compact-preview.py /tmp/review-ui/data/icons/fill.json` (rounds the preview copy's path coordinates to 3 decimals; repo SVGs are untouched). Expect duotone/fill to need the same around 11–12k icons; the lasting fix is splitting or compacting in `build-preview.mjs` on `web/ui`.
+Since ~7,900 icons `data/icons/fill.json` exceeds the Artifact 16 MB per-file limit; before publishing run `node tools/batch/compact-preview.mjs /tmp/review-ui/data/icons/*.json` (2 decimals; or `python3 tools/batch/compact-preview.py` for fill.json) (rounds the preview copy's path coordinates to 3 decimals; repo SVGs are untouched). Expect duotone/fill to need the same around 11–12k icons; the lasting fix is splitting or compacting in `build-preview.mjs` on `web/ui`.
 
 Publish `/tmp/review-ui/index.html` with `root=/tmp/review-ui`, `url` = the link, and the 8 files the script prints (`data/index.json`, `data/motion.json`, `data/illustrations.json`, `data/icons/{light,regular,bold,duotone,fill}.json`). Do not use `packages/forge/src/review.mjs` (old UI). Never commit to `web/ui` from a batch session.
 
