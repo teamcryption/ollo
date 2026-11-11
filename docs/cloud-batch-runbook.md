@@ -1,6 +1,6 @@
 # Cloud batch runbook (icon batches)
 
-How to keep shipping icon batches from a fresh session (cloud or local). Read `HANDOFF.md` sections 1, 7, 8, 9 and 13 first. State on writing: batch 175 shipped, 7,941 icons (bases through `b175.mjs`). Check `git log -1` for the latest batch number; full `tools/ship.sh` every 3rd batch (166, 169, 172, ...).
+How to keep shipping icon batches from a fresh session (cloud or local). Read `HANDOFF.md` sections 1, 7, 8, 9 and 13 first. State on writing: batch 182 shipped, 10,163 icons (bases through `b183.mjs`). **Target from Abdur (2026-11-11): at least 400 icons per batch** (27+ fresh bases x 15 modifiers; draft ~40, about a third get dropped on the 5-style preview). Check `git log -1` for the latest batch number; full `tools/ship.sh` every 3rd batch (166, 169, 172, ...).
 
 ## Rules from Abdur
 - Ship batches back to back, **30–40 finished icons each**, without asking between batches. After each batch: republish the preview, post one line ("Batch N complete: X icons, total Y") and start the next.
@@ -26,12 +26,12 @@ All helper scripts are in `tools/batch/`; run them from `packages/forge`.
 8. **Commit**: `node --test test/forge.test.mjs`, then `git add -A && git commit` with subject `Icons batch N: <count> <topics> icons` (exact format; the preview parses `batch N`) and the trailer from `env.sh`. Every 3rd batch (166, 169, 172, ...) run `bash tools/ship.sh "<subject>" "<body>"` instead (full build + build tests + tsc + commit).
 
 ## Bulk batches (300+ icons, current method from batch 162)
-Abdur wants **at least 300 icons per batch**. Use the bulk generator: every unused base x modifier pair, with titles/tags from templates.
+Abdur wants **at least 400 icons per batch** (raised from 300 on 2026-11-11). Use the bulk generator: every unused base x modifier pair, with titles/tags from templates.
 - Bases: `B` in `tools/batch/mods.mjs` plus every `tools/batch/b1NN.mjs` spec (all are auto-imported by `bulk.mjs`). Add new compact bases in a new `b1NN.mjs` (see `b164.mjs`; set `globalThis.BULK_CAT`/`BULK_LABEL` for new bases).
 - Modifiers in `bulk.mjs`: search clock shield gear pin bolt heart star alert user bell cloud chat download pencil (+ lock add check close remove, which mostly fail QA or look cramped). Pairs used up so far: all of these on the bases through b164.
 - Run from `packages/forge`: `BULK_MAX=330 BULK_MODS=<mods> bash ../../tools/batch/runbulk.sh`. It writes defs, generates, drops QA offenders into `tools/batch/drop.txt` and retries.
 - Review: sheet a sample of each modifier (`node tools/sheet.mjs`), drop weak bases by appending their names to `drop.txt` (or the skip list in `bulk.mjs`) and rerun. Never let `^ D` be non-zero.
-- Next yield: draw 25–35 new compact bases per batch (x 3–16, y 3–19, bottom-right kept clear) x 16 modifiers ≈ 300+.
+- Next yield: draw 25–35 new compact bases per batch (x 3–16, y 3–19, bottom-right kept clear) x 15 modifiers ≈ 400+ (aim for 27+ bases).
 
 ## Preview (new site UI)
 The preview link is https://claude.ai/artifact/FZsFNNvadJTNKkKmesLT2S (downloads capability already declared; omit `capabilities` when republishing). It is built from the website branch:
@@ -41,6 +41,8 @@ git worktree add ../library-web web/ui    # once
 cd ../library-web && LIBRARY_ROOT=<path to this repo> node apps/web/scripts/build-preview.mjs /tmp/review-ui
 ```
 Since ~7,900 icons `data/icons/fill.json` exceeds the Artifact 16 MB per-file limit; before publishing run `node tools/batch/compact-preview.mjs /tmp/review-ui/data/icons/*.json` (2 decimals; or `python3 tools/batch/compact-preview.py` for fill.json) (rounds the preview copy's path coordinates to 3 decimals; repo SVGs are untouched). Expect duotone/fill to need the same around 11–12k icons; the lasting fix is splitting or compacting in `build-preview.mjs` on `web/ui`.
+
+Since ~10,000 icons the eight files total more than the 64 MB one publish can send: publish in two calls to the same `url`, first `index.html` with index/motion/illustrations/bold/duotone/fill, then `index.html` with light/regular.
 
 Publish `/tmp/review-ui/index.html` with `root=/tmp/review-ui`, `url` = the link, and the 8 files the script prints (`data/index.json`, `data/motion.json`, `data/illustrations.json`, `data/icons/{light,regular,bold,duotone,fill}.json`). Do not use `packages/forge/src/review.mjs` (old UI). Never commit to `web/ui` from a batch session.
 

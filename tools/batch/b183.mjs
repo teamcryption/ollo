@@ -1,0 +1,37 @@
+import { B } from './mods.mjs';
+Object.assign(B, {
+  monkey: `body(C(4.5, 9.5, 1.8)), body(C(14.5, 9.5, 1.8)), body(C(9.5, 10, 5)), line('M7 11.5a2.5 2.2 0 0 0 5 0c0-1-1.1-1.6-2.5-1.6S7 10.5 7 11.5Z'), line(D(8, 8) + D(11, 8))`,
+  panda: `body(C(5, 5.3, 1.8)), body(C(14, 5.3, 1.8)), body(C(9.5, 11, 6)), line(E(7.2, 10, 1.2, 1.6) + E(11.8, 10, 1.2, 1.6)), line(D(9.5, 13.2))`,
+  sheep: `body('M5.5 8a2 2 0 0 1 3-1.7 2 2 0 0 1 3 0 2 2 0 0 1 3 1.7 2 2 0 0 1 .5 3.6 2 2 0 0 1-2 2.9 2 2 0 0 1-3 .5 2 2 0 0 1-3-.5 2 2 0 0 1-2-2.9A2 2 0 0 1 5.5 8Z'), line('M7.5 15v3M11.5 15v3')`,
+  dolphin: `body('M3 13c2-5 6.5-8 11-7.5l-1 2c2 1 3 2.5 3 4.5l-2.5-1c-2.5 1.8-6 2.5-10.5 2Z'), line('M7.5 13.3l-1 3 2.5-1.5'), line(D(12.5, 9))`,
+  knife: `body('M4 16.5 13.5 4.5c1.3 1.8.8 4-1 5.8l-6.3 7.2Z'), line('M12 8.8l3.5 3.3')`,
+  harp: `body('M4 18V4.5c2 0 3 1.5 4 3.5s3 4 7 4.5V18Z'), line('M7 8.5V17.5M10 11V17.5M13 12.3V17.5')`,
+  vinyl: `body(C(9.5, 10.5, 6.5)), line(C(9.5, 10.5, 1.6)), line('M5.5 8a4.6 4.6 0 0 1 2.5-2.3')`,
+  'mic-stand': `body(R(7.5, 3, 4, 6, 2)), line('M9.5 9.3v8.5M6.5 18h6'), line('M5.5 7a4 4 0 0 0 8 0')`,
+  tractor: `body('M3.5 13V8.5h3l1-4h4v4H13a2 2 0 0 1 2 2V13Z'), line(C(6.5, 15.5, 2.5)), line(C(13.5, 16, 1.8))`,
+  silo: `body('M5.5 18V8a4 4 0 0 1 8 0v10Z'), line('M5.7 11h7.6M5.7 14.5h7.6'), line('M13.5 18h2.5')`,
+  'desk-lamp': `body('M7 3.5 13 6.5l-2 3.5-6-3Z'), line('M8 8.5 5.5 13l4 4.5'), line('M4 18h8')`,
+  'alarm-clock': `body(C(9.5, 11, 5.8)), line('M9.5 8v3.2l2 1.5'), line('M4 5.5 6 3.8M15 5.5 13 3.8')`,
+  'hot-water-bottle': `body(R(8, 3, 3, 2.5, 0.6)), body('M7 6h5a3.5 3.5 0 0 1 3.5 3.5V15a3 3 0 0 1-3 3h-6a3 3 0 0 1-3-3V9.5A3.5 3.5 0 0 1 7 6Z'), line('M6.5 10.5h6M6.5 13.5h6')`,
+  'smart-speaker': `body('M5 6a4.5 2 0 0 1 9 0v10a4.5 2 0 0 1-9 0Z'), line('M5.2 6.3a4.5 2 0 0 0 8.6 0'), line(D(7.5, 11) + D(9.5, 11.5) + D(11.5, 11))`,
+  'game-cartridge': `body('M4.5 4.5A1.5 1.5 0 0 1 6 3h7a1.5 1.5 0 0 1 1.5 1.5V18h-10Z'), line(R(6.5, 5.5, 6, 5, 0.6)), line('M7 15.5v2.3M9.5 15.5v2.3M12 15.5v2.3')`,
+  'sunglasses': `line('M2.5 8h14'), body('M3 8.2h5.5v2.3a2.7 2.7 0 0 1-5.5 0Z'), body('M10.5 8.2H16v2.3a2.7 2.7 0 0 1-5.5 0Z')`,
+  'beach-ball': `body(C(9.5, 10.5, 6.5)), line('M9.5 4c-2 2-2.5 4.5-1.8 6.5M15.8 9c-2.6-.6-5.2.2-7 1.8M5.2 15.5c1.4-2.2 2.4-3.6 3.4-4.8')`,
+  'sandcastle': `body(poly([[3.5, 18], [3.5, 11], [5.5, 11], [5.5, 8.5], [7.5, 8.5], [7.5, 6], [11.5, 6], [11.5, 8.5], [13.5, 8.5], [13.5, 11], [15.5, 11], [15.5, 18]], 0.5, true)), line('M9.5 6.2V3.5l2 .8-2 .8')`,
+  'luggage-cart': `line('M3.5 4h2l2 11h8.5'), body(R(8.5, 6.5, 6.5, 6.5, 1)), line(C(8.5, 17.3, 1.2) + C(14.5, 17.3, 1.2))`,
+  'heart-monitor': `body(R(3, 4, 13, 10, 1.8)), line('M5 9.5h2.5l1.2-2.5 2 5 1.3-2.5H14'), line('M7 17.5h5M9.5 14.2v3')`,
+  'x-ray': `body(R(3.5, 3.5, 12, 14, 1.8)), line('M9.5 6v9M7 8h5M6.5 10.5h6M7 13h5')`,
+  'petri-dish': `line(E(9.5, 10, 6.5, 3)), body('M3 10v3c0 1.7 2.9 3 6.5 3s6.5-1.3 6.5-3v-3'), line(D(7.5, 9.5) + D(10.5, 10.6) + D(12, 9.2))`,
+  'beaker': `line('M5 3.5h9'), body('M6 3.7h7V16a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2Z'), line('M6.2 10h3M6.2 13h2')`,
+  'cheque': `body(R(3, 5.5, 13, 9, 1.5)), line('M5.5 9h5M5.5 11.5h3M10.5 12c1-1.5 2-1.5 2.5-.5s1.2 1 2-.5')`,
+  'id-badge': `line('M8 3.5h3v2.5H8Z'), body(R(5, 5, 9, 13, 1.5)), line(C(9.5, 10, 1.6)), line('M7 15c.5-1.3 1.3-2 2.5-2s2 .7 2.5 2')`,
+  'loudspeaker': `body('M3.5 8.5h3l5-4v12l-5-4h-3Z'), line('M14 8a3.5 3.5 0 0 1 0 5')`,
+  'rocking-chair': `line('M6 3.5v10M6 9.5h7.5l.5 4M3 15.5c3 2 9 2 13 0'), line('M6.5 13.5h7')`,
+  'coat-rack': `line('M9.5 4.5V17.5M6.5 18h6'), line('M9.5 6.5 6.5 5M9.5 6.5l3-1.5M9.5 9 7 8M9.5 9l2.5-1'), line(D(9.5, 3.5))`,
+  'filing-cabinet': `body(R(4.5, 3, 10, 15, 1.5)), line('M4.7 8h9.6M4.7 13h9.6'), line('M8 5.5h3M8 10.5h3M8 15.5h3')`,
+  'whiteboard': `body(R(3, 3.5, 13, 9, 1.2)), line('M5.5 7l2-1.3 2 1.8 2.5-2.5'), line('M6.5 12.7 5 18M12.5 12.7 14 18')`,
+  'pin-board': `body(R(3, 4, 13, 11, 1.2)), body(R(5, 6, 4, 3.5, 0.5)), line('M11 7h3M11 9.5h3M5.5 12h8'), line('M6.5 15.2 5.5 18M12.5 15.2l1 2.8')`,
+});
+globalThis.BULK_CAT = Object.assign(globalThis.BULK_CAT ?? {}, { 'monkey': 'animals', 'panda': 'animals', 'sheep': 'animals', 'dolphin': 'animals', 'knife': 'food', 'harp': 'media', 'vinyl': 'media', 'mic-stand': 'media', 'tractor': 'transport', 'silo': 'buildings', 'desk-lamp': 'home', 'alarm-clock': 'time', 'hot-water-bottle': 'health', 'smart-speaker': 'devices', 'game-cartridge': 'gaming', 'sunglasses': 'fashion', 'beach-ball': 'sports', 'sandcastle': 'travel', 'luggage-cart': 'travel', 'heart-monitor': 'health', 'x-ray': 'health', 'petri-dish': 'science', 'beaker': 'science', 'cheque': 'finance', 'id-badge': 'business', 'loudspeaker': 'media', 'rocking-chair': 'home', 'coat-rack': 'home', 'filing-cabinet': 'business', 'whiteboard': 'education', 'pin-board': 'business' });
+globalThis.BULK_LABEL = Object.assign(globalThis.BULK_LABEL ?? {}, { 'vinyl': 'Vinyl Record', 'x-ray': 'X-ray', 'cheque': 'Cheque', 'id-badge': 'ID Badge', 'loudspeaker': 'Volume', 'luggage-cart': 'Luggage Trolley' });
+export default {};
