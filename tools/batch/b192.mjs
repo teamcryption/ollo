@@ -1,0 +1,37 @@
+import { B } from './mods.mjs';
+Object.assign(B, {
+  'bank-card-contactless': `body(R(3, 5, 13, 11, 1.5)), line('M8 9a2.5 2.5 0 0 1 0 3M10.5 8a4 4 0 0 1 0 5M13 7a5.5 5.5 0 0 1 0 7')`,
+  'blockchain': `body(R(3, 3, 5, 5, 1)), body(R(11, 3, 5, 5, 1)), body(R(3, 12.5, 5, 5, 1)), body(R(11, 12.5, 5, 5, 1)), line('M8.2 5.5h2.6M5.5 8.2v4.1M13.5 8.2v4.1M8.2 15h2.6')`,
+  'token-coin': `body(C(9.5, 10.5, 6.5)), line(poly([[9.5, 6.5], [12.5, 8.5], [12.5, 12.5], [9.5, 14.5], [6.5, 12.5], [6.5, 8.5]], 0.4, true))`,
+  'discount-badge': `body(star(9.5, 10.5, 7, 5.8, 10, 0.8)), line('M7.3 12.7l4.4-4.4'), line(D(7.5, 8.5) + D(11.5, 12.5))`,
+  'online-shop': `body(R(3, 4, 13, 10, 1.5)), line('M6 14.2v2M13 14.2v2M4.5 17h10'), line('M6.5 7h6l-.8 3.5H7.3Z')`,
+  'return-box': `body(R(3.5, 6, 12, 11.5, 1.2)), line('M3.7 9.5h11.6'), line('M8 13.5h3.5a1.5 1.5 0 0 0 0-3H8M9 12.3l-1.2 1.2L9 14.7')`,
+  'dna-helix': `line('M6 3.5c0 4 7 4 7 7s-7 3-7 7M13 3.5c0 4-7 4-7 7s7 3 7 7'), line('M7.5 6h4M7.5 15h4')`,
+  'book-open': `body('M2.5 5c2.5-1 5-1 7 .5v12c-2-1.5-4.5-1.5-7-.5Z'), body('M16.5 5c-2.5-1-5-1-7 .5v12c2-1.5 4.5-1.5 7-.5Z')`,
+  'library-books': `body(R(3, 4, 3.5, 14, 0.8)), body(R(7.5, 4, 3.5, 14, 0.8)), body(rotateD(R(12, 4.5, 3.5, 13.5, 0.8), -12, 13.75, 18)), line('M3.2 7h3.1M7.7 7h3.1')`,
+  'pencil-ruler': `body(rotateD(R(7.8, 2.5, 3.4, 13, 1), 45, 9.5, 10.5)), body(rotateD(R(7.8, 2.5, 3.4, 13, 1), -45, 9.5, 10.5))`,
+  'math-symbols': `line('M6 3.5v5M3.5 6h5M11 6h5M3.8 13.2l4.4 4.4M8.2 13.2l-4.4 4.4M11 14h5M11 17h5')`,
+  'language': `body(R(3, 3.5, 8.5, 8, 1.5)), line('M5 6h4.5M7.25 5v1M8.5 6c-.5 2-1.8 3.3-3.5 3.8M6 7.5c.5 1 1.3 1.8 2.5 2.2'), body(R(9.5, 9, 7, 8, 1.5)), line('M11.5 15l1.5-4 1.5 4M12 14h2')`,
+  'quiz': `body(R(3.5, 3.5, 12, 14, 2)), line('M7.5 7.5a2 2 0 1 1 2.8 1.8c-.5.3-.8.7-.8 1.2v.7'), line(D(9.5, 13.5))`,
+  'test-tubes': `body('M5 3.5h3v11a1.5 1.5 0 0 1-3 0Z'), body('M11 3.5h3v11a1.5 1.5 0 0 1-3 0Z'), line('M5.2 9h2.6M11.2 11h2.6'), line('M3 17.5h13')`,
+  'highlighter': `body(rotateD(R(7.5, 3, 4, 9, 1), 40, 9.5, 10.5)), body(rotateD('M8 12.3h3l-.5 3h-2Z', 40, 9.5, 10.5)), line('M3.5 18h7')`,
+  'film-reel': `body(C(9.5, 10.5, 6.5)), line(C(9.5, 7, 1.3) + C(9.5, 14, 1.3) + C(6, 10.5, 1.3) + C(13, 10.5, 1.3))`,
+  'donation-box': `body(R(3.5, 8, 12, 10, 1.5)), line('M7 8.2h5'), body('M9.5 6.8C9.2 6.8 7 5.5 7 3.9 7 3.1 7.6 2.5 8.3 2.5c.5 0 .9.3 1.2.7.3-.4.7-.7 1.2-.7.7 0 1.3.6 1.3 1.4 0 1.6-2.2 2.9-2.5 2.9Z'), line('M7 13h5')`,
+  'community': `body(C(9.5, 6, 2.2)), body(C(4.5, 9, 1.8)), body(C(14.5, 9, 1.8)), line('M5.5 17a4 4 0 0 1 8 0M1.8 15a2.8 2.8 0 0 1 4.5-2.2M17.2 15a2.8 2.8 0 0 0-4.5-2.2')`,
+  'firecracker': `body(rotateD(R(7.5, 6, 4, 11, 1), 30, 9.5, 11.5)), line('M12.5 5.5c.5-1 1.5-1.5 2.5-1.5'), line('M15.5 2.5v1M17 4h-1')`,
+  'lantern-chinese': `line('M9.5 2.5V4'), body(R(7, 4, 5, 1.5, 0.5)), body(E(9.5, 10.5, 5.5, 4.8)), body(R(7, 15.5, 5, 1.5, 0.5)), line('M9.5 17.2v1.5M7.5 6.3c-1.3 2.5-1.3 6 0 8.4M11.5 6.3c1.3 2.5 1.3 6 0 8.4')`,
+  'easter-egg': `body('M9.5 3.5c2.8 0 5 4.2 5 8a5 5 0 0 1-10 0c0-3.8 2.2-8 5-8Z'), line('M5.2 10c1.5 1 2.8-1 4.3 0s2.8-1 4.3 0M4.6 13.5c1.6 1 3.2-1 4.9 0s3.3-1 4.9 0')`,
+  'heart-arrow': `body('M9.5 16.5C9.1 16.5 3 13 3 8.5 3 6.5 4.5 5 6.4 5c1.3 0 2.4.7 3.1 1.8.7-1.1 1.8-1.8 3.1-1.8 1.9 0 3.4 1.5 3.4 3.5C16 13 9.9 16.5 9.5 16.5Z'), line('M2.5 15.5 7 11.5M14 6.5l3-2.5M15 4h2v2')`,
+  'champagne-glasses': `body('M3.5 4h4l-.3 3.5a1.7 1.7 0 0 1-3.4 0Z'), body('M11.5 4h4l-.3 3.5a1.7 1.7 0 0 1-3.4 0Z'), line('M5.5 9.3V16M3.5 16.5h4M13.5 9.3V16M11.5 16.5h4')`,
+  'sunset': `line('M2.5 15.5h14M5 18h9'), body('M4 13.5a5.5 5.5 0 0 1 11 0Z'), line('M9.5 4v2.5M3.5 6.5l1.5 1.5M15.5 6.5 14 8')`,
+  'moon-stars': `body('M13 14.5A6 6 0 0 1 7.5 4.5a6.5 6.5 0 1 0 5.5 10Z'), body(star(14, 5, 2.4, 0.9, 4, 0.2))`,
+  'leaf-autumn': `body('M4 15.5C4 9 8 4.5 15.5 4c-.5 7.5-5 11.5-11.5 11.5Z'), line('M4 15.5 10.5 9M7 12.5H5M9 10.5V8.5')`,
+  'cherry-blossom': `body(C(9.5, 6.5, 2.5)), body(C(5.5, 9.5, 2.5)), body(C(13.5, 9.5, 2.5)), body(C(7, 14, 2.5)), body(C(12, 14, 2.5))`,
+  'clover': `body(C(9.5, 6, 2.6)), body(C(6, 9.5, 2.6)), body(C(13, 9.5, 2.6)), line('M9.5 10.5c0 3 1 5.5 3 7.5')`,
+  'at-sign': `line(C(9.5, 10.5, 2.8)), line('M12.3 10.5v1.3a1.9 1.9 0 0 0 3.8 0v-1.3a6.6 6.6 0 1 0-2.7 5.3')`,
+  'rss': `line(D(5, 15.5)), line('M5 10a5.5 5.5 0 0 1 5.5 5.5M5 5a10.5 10.5 0 0 1 10.5 10.5')`,
+  'video-call': `body(R(2.5, 5, 10, 10, 2)), line('M12.7 8.5 16.5 6v8l-3.8-2.5'), body(C(7.5, 8.5, 1.5)), line('M5 13a2.5 2.5 0 0 1 5 0')`,
+});
+globalThis.BULK_CAT = Object.assign(globalThis.BULK_CAT ?? {}, { 'bank-card-contactless': 'finance', blockchain: 'finance', 'token-coin': 'finance', 'discount-badge': 'commerce', 'online-shop': 'commerce', 'return-box': 'logistics', 'dna-helix': 'science', 'book-open': 'education', 'library-books': 'education', 'pencil-ruler': 'design', 'math-symbols': 'education', language: 'education', quiz: 'education', 'test-tubes': 'science', highlighter: 'text', 'film-reel': 'media', 'donation-box': 'people', community: 'people', firecracker: 'celebration', 'lantern-chinese': 'celebration', 'easter-egg': 'celebration', 'heart-arrow': 'celebration', 'champagne-glasses': 'celebration', sunset: 'weather', 'moon-stars': 'weather', 'leaf-autumn': 'nature', 'cherry-blossom': 'nature', clover: 'nature', 'at-sign': 'communication', 'rss': 'communication', 'video-call': 'communication' });
+globalThis.BULK_LABEL = Object.assign(globalThis.BULK_LABEL ?? {}, { 'bank-card-contactless': 'Contactless Card', 'token-coin': 'Token', 'online-shop': 'Online Shop', 'return-box': 'Return' });
+export default {};
