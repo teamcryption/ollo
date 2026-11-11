@@ -1,6 +1,6 @@
 # Cloud batch runbook (icon batches)
 
-How to keep shipping icon batches from a fresh session (cloud or local). Read `HANDOFF.md` sections 1, 7, 8, 9 and 13 first. State on writing: batch 194 shipped, 15207 icons (bases through `b194.mjs`). **Target from Abdur (2026-11-11): at least 400 icons per batch** (27+ fresh bases x 15 modifiers; draft ~40, about a third get dropped on the 5-style preview). Check `git log -1` for the latest batch number; full `tools/ship.sh` every 3rd batch (166, 169, 172, ...).
+How to keep shipping icon batches from a fresh session (cloud or local). Read `HANDOFF.md` sections 1, 7, 8, 9 and 13 first. State on writing: batch 195 shipped, 15582 icons (bases through `b195.mjs`). **Target from Abdur (2026-11-11): at least 400 icons per batch** (27+ fresh bases x 15 modifiers; draft ~40, about a third get dropped on the 5-style preview). Check `git log -1` for the latest batch number; full `tools/ship.sh` every 3rd batch (166, 169, 172, ...).
 
 ## Rules from Abdur
 - Ship batches back to back, **30–40 finished icons each**, without asking between batches. After each batch: republish the preview, post one line ("Batch N complete: X icons, total Y") and start the next.
