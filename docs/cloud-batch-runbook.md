@@ -1,6 +1,6 @@
 # Cloud batch runbook (icon batches)
 
-How to keep shipping icon batches from a fresh session (cloud or local). Read `HANDOFF.md` sections 1, 7, 8, 9 and 13 first. State on writing: batch 187 shipped, 12,271 icons (bases through `b187.mjs`). **Target from Abdur (2026-11-11): at least 400 icons per batch** (27+ fresh bases x 15 modifiers; draft ~40, about a third get dropped on the 5-style preview). Check `git log -1` for the latest batch number; full `tools/ship.sh` every 3rd batch (166, 169, 172, ...).
+How to keep shipping icon batches from a fresh session (cloud or local). Read `HANDOFF.md` sections 1, 7, 8, 9 and 13 first. State on writing: batch 188 shipped, 12,705 icons (bases through `b188.mjs`). **Target from Abdur (2026-11-11): at least 400 icons per batch** (27+ fresh bases x 15 modifiers; draft ~40, about a third get dropped on the 5-style preview). Check `git log -1` for the latest batch number; full `tools/ship.sh` every 3rd batch (166, 169, 172, ...).
 
 ## Rules from Abdur
 - Ship batches back to back, **30–40 finished icons each**, without asking between batches. After each batch: republish the preview, post one line ("Batch N complete: X icons, total Y") and start the next.
@@ -40,7 +40,7 @@ git worktree add ../library-web web/ui    # once
 (cd ../library-web && pnpm install)       # once
 cd ../library-web && LIBRARY_ROOT=<path to this repo> node apps/web/scripts/build-preview.mjs /tmp/review-ui
 ```
-Since ~7,900 icons the icon JSONs approach the Artifact 16 MB per-file limit; before publishing run `node tools/batch/compact-preview.mjs /tmp/review-ui/data/icons/*.json` (preview copy only, repo SVGs untouched): it rounds path coordinates to 2 decimals and minifies path data losslessly (leading zeros and unneeded separators; renders pixel-identical, about 13% smaller). At 10,600 icons fill.json is ~13.5 MB after it, so roughly 4,000 more icons of headroom; after that the lasting fix is splitting fill.json in `build-preview.mjs` on `web/ui`.
+Since ~7,900 icons the icon JSONs approach the Artifact 16 MB per-file limit; before publishing run `node tools/batch/compact-preview.mjs /tmp/review-ui/data/icons/*.json` (preview copy only, repo SVGs untouched): it rounds path coordinates to 2 decimals, minifies path data losslessly (leading zeros and unneeded separators) and wraps runs of paths with identical (inherited) attributes in one `<g>` that carries them (each path stays its own element; steps 2-3 render pixel-identical to rounding alone, also after the site's stroke-width/colour edits). Do not merge paths into one `d`: that changes anti-aliasing where strokes overlap. At 12,700 icons the largest file is fill.json at ~14.0 MB (its icons are single compound paths, so grouping does not shrink it), about four 400-icon batches of headroom; after that the lasting fix is splitting fill.json in `build-preview.mjs` on `web/ui`.
 
 Since ~10,000 icons the eight files total more than the 64 MB one publish can send: publish in two calls to the same `url`, first `index.html` with index/motion/illustrations/bold/duotone/fill, then `index.html` with light/regular.
 

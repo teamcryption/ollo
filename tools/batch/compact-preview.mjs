@@ -19,7 +19,33 @@ export function minPath(d) {
   }
   return out;
 }
-export const minSvg = (s) => s.replace(num, r).replace(/ d="([^"]*)"/g, (_, d) => ` d="${minPath(d)}"`);
+// 3. wraps runs of consecutive <path>s that carry identical attributes in one <g> holding those attributes, so they are
+//    written once (each path stays its own element, so rendering is unchanged; the site's stroke-width/currentColor
+//    regex edits still apply to the <g>). Runs with opacity, style, class, id, transform, clip-path, mask or filter are left as they are.
+const PATH = /<path d="([^"]*)"((?: [a-z-]+="[^"]*")*)\s*\/>/g;
+// Only inherited presentation attributes may move to the <g>; `opacity` (group-level compositing), style, class, id and
+// transform stay on the path, so runs carrying them are never grouped.
+const groupable = (attrs) => attrs !== '' && !/ (opacity|style|class|id|transform|clip-path|mask|filter)="/.test(attrs);
+export function groupPaths(svg) {
+  const out = []; let run = null; let i = 0; let m;
+  const flush = () => {
+    if (!run) return;
+    out.push(run.ds.length > 1 ? `<g${run.attrs}>${run.ds.map((d) => `<path d="${d}"/>`).join('')}</g>` : `<path d="${run.ds[0]}"${run.attrs}/>`);
+    run = null;
+  };
+  PATH.lastIndex = 0;
+  while ((m = PATH.exec(svg))) {
+    const [all, d, attrs] = m;
+    const between = svg.slice(i, m.index);
+    if (run && between === '' && run.attrs === attrs && groupable(attrs)) run.ds.push(d);
+    else { flush(); out.push(between); run = { attrs, ds: [d] }; }
+    i = m.index + all.length;
+  }
+  flush();
+  out.push(svg.slice(i));
+  return out.join('');
+}
+export const minSvg = (s) => groupPaths(s.replace(num, r).replace(/ d="([^"]*)"/g, (_, d) => ` d="${minPath(d)}"`));
 if (import.meta.url === `file://${process.argv[1]}`) {
   for (const p of process.argv.slice(2)) {
     const d = JSON.parse(fs.readFileSync(p, 'utf8'));
