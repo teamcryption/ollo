@@ -1,0 +1,36 @@
+import { B } from './mods.mjs';
+Object.assign(B, {
+  'house-key': `body(poly([[3, 10], [9.5, 4], [16, 10], [16, 18], [3, 18]], 0.8, true)), line(C(9.5, 11.5, 1.5)), line('M9.5 13v3')`,
+  'apartment': `body(R(4, 3, 11, 15, 1)), line('M6.5 6h1.5M11 6h1.5M6.5 9.5h1.5M11 9.5h1.5M6.5 13h1.5M11 13h1.5'), line('M8.5 18v-2.5h2V18')`,
+  'for-sale-sign': `line('M4 18V3.5M4 5h11'), body(R(6, 7, 9, 6, 1)), line('M8 10h5M7 5.2V7M14 5.2V7')`,
+  'smart-home': `body(poly([[3, 10], [9.5, 4], [16, 10], [16, 18], [3, 18]], 0.8, true)), line('M7 12.5a3.5 3.5 0 0 1 5 0M8.3 14a1.6 1.6 0 0 1 2.4 0')`,
+  'moving-box': `body(R(3.5, 6, 12, 11.5, 1)), line('M3.7 9.5h11.6M9.5 6.2v3.1'), line('M5.5 3.5l4 2.5 4-2.5')`,
+  'floor-lamp': `body('M6 3.5h7l1.5 5h-10Z'), line('M9.5 8.7V17M6.5 17.5h6')`,
+  'nightstand': `body(R(4, 6, 11, 11, 1)), line('M4.2 11.5h10.6M8.5 8.7h2M8.5 14.2h2'), line('M5.5 17.2V18.5M13.5 17.2v1.3')`,
+  'dresser': `body(R(3.5, 4, 12, 13, 1)), line('M3.7 8.3h11.6M3.7 12.7h11.6M8.5 6.2h2M8.5 10.5h2M8.5 15h2')`,
+  'armchair': `body('M4 9V7a2.5 2.5 0 0 1 2.5-2.5h6A2.5 2.5 0 0 1 15 7v2'), body('M3 10.5a1.5 1.5 0 0 1 3 0V12h7v-1.5a1.5 1.5 0 0 1 3 0V16H3Z'), line('M4.5 16.2v2M14.5 16.2v2')`,
+  'bar-stool': `body(E(9.5, 5, 4.5, 1.8)), line('M6.5 6.5 5 18M12.5 6.5 14 18M9.5 6.8V18M6 13h7')`,
+  'shower-head': `line('M4 18V8a4 4 0 0 1 4-4h3.5'), body('M10 5.5h5.5a1 1 0 0 1 1 1v.5H9v-.5a1 1 0 0 1 1-1Z'), line(D(10.5, 9.5) + D(12.75, 10.5) + D(15, 9.5) + D(11.5, 12.5) + D(14, 12.5))`,
+  'fuse-box': `body(R(4, 3, 11, 15, 1.2)), line('M7 6.5v3M9.5 6.5v3M12 6.5v3M7 12v3M9.5 12v3M12 12v3')`,
+  'house-number': `body(R(3, 5, 13, 9.5, 1.5)), line('M6 8h1v4M5.5 12h2M10 8h2.5l-2 4')`,
+  'picket-fence': `body(poly([[3, 7], [4.5, 5], [6, 7], [6, 18], [3, 18]], 0.4, true)), body(poly([[8, 7], [9.5, 5], [11, 7], [11, 18], [8, 18]], 0.4, true)), body(poly([[13, 7], [14.5, 5], [16, 7], [16, 18], [13, 18]], 0.4, true)), line('M6.2 10h1.6M11.2 10h1.6M6.2 15h1.6M11.2 15h1.6')`,
+  'clock-history': `body(C(10, 10.5, 6)), line('M10 7.5v3l2 1.5'), line('M3.5 7.5 4 10.5l2.5-1.5')`,
+  'snooze': `body(C(9.5, 11, 5.8)), line('M7.5 9h4l-4 4h4'), line('M4 5.5 6 3.8M15 5.5 13 3.8')`,
+  'milestone': `line('M4 18V3.5'), body('M4.4 4h9l2.5 3-2.5 3h-9Z'), line('M7 7h4')`,
+  'gantt': `body(R(3, 3.5, 13, 14, 1.5)), line('M5.5 7h4M8 10h5M7 13h4M10.5 16h3')`,
+  'workflow': `body(R(2.5, 4, 5, 4, 1)), body(R(11.5, 4, 5, 4, 1)), body(R(7, 13, 5, 4, 1)), line('M7.7 6h3.6M14 8.2V11h-4.5v1.8')`,
+  'roadmap': `line('M4 4.5v13'), body(R(6, 4, 8, 3, 1)), body(R(8, 9, 8, 3, 1)), body(R(6, 14, 6, 3, 1))`,
+  'mountain-sun': `body(poly([[2.5, 17.5], [7.5, 8.5], [10.5, 12.5], [12.5, 10], [16.5, 17.5]], 0.8, true)), line(C(13.5, 5, 1.8))`,
+  'waterfall': `body(R(3, 3.5, 13, 3, 0.8)), line('M5.5 7v7M9.5 7v9M13.5 7v7'), line('M3 17.5c1.3-1 2.7-1 4 0s2.7 1 4 0 2.7-1 4 0')`,
+  'island': `line('M10 13c0-3 .5-5.5 2-7.5M12 5.5C10.5 4 8.5 3.8 6.5 4.5M12 5.5c1.5-1.5 3.5-1.5 5-.5M12 5.5c-1 1-1.5 2.5-1.5 4'), body('M4 14.5a5.5 2.5 0 0 1 11 0Z'), line('M2.5 17.5c1.4-1 2.8-1 4.2 0s2.8 1 4.2 0 2.8-1 4.2 0')`,
+  'desert': `body(C(13.5, 5.5, 2)), line('M2.5 15c3-2.5 6-2.5 8 0s5 2.5 6 1'), line('M6 12.5V7.5M6 9.5H4.5V8M6 10.5h1.5V9.3')`,
+  'cave': `body('M2.5 17.5C3.5 9 6 5 9.5 5s6 4 7 12.5Z'), body('M7 17.5c0-3 1-5 2.5-5s2.5 2 2.5 5Z')`,
+  'forest': `body(poly([[6, 4], [9.5, 12.5], [2.5, 12.5]], 0.6, true)), body(poly([[13, 6], [16.5, 13.5], [9.5, 13.5]], 0.6, true)), line('M6 12.7V17M13 13.7V17M3 17.5h13')`,
+  'thunderstorm': `body('M5 12.5a3 3 0 0 1 .3-6 4 4 0 0 1 7.7-.5 3 3 0 0 1 .5 6.5Z'), line('M9 13.5l-1.5 2.5h2.5L8.5 18.5')`,
+  'heat-wave': `line('M5 5c1.5 1.5 1.5 3 0 4.5s-1.5 3 0 4.5M9.5 5c1.5 1.5 1.5 3 0 4.5s-1.5 3 0 4.5M14 5c1.5 1.5 1.5 3 0 4.5s-1.5 3 0 4.5'), line('M3 17.5h13')`,
+  'macaron': `body(R(3.5, 4.5, 12, 4.5, 2.25)), line('M3.5 10.5h12'), body(R(3.5, 12, 12, 4.5, 2.25))`,
+  'kebab': `line('M9.5 2.5v16'), body(R(6, 5, 7, 3, 1)), body(R(6.5, 9, 6, 3, 1)), body(R(6, 13, 7, 3, 1))`,
+});
+globalThis.BULK_CAT = Object.assign(globalThis.BULK_CAT ?? {}, { 'house-key': 'home', apartment: 'buildings', 'for-sale-sign': 'home', 'smart-home': 'home', 'moving-box': 'home', 'floor-lamp': 'home', nightstand: 'home', dresser: 'home', armchair: 'home', 'bar-stool': 'home', 'shower-head': 'home', 'fuse-box': 'energy', 'house-number': 'home', 'picket-fence': 'home', 'clock-history': 'time', snooze: 'time', milestone: 'business', gantt: 'business', workflow: 'business', roadmap: 'business', 'mountain-sun': 'nature', waterfall: 'nature', island: 'travel', desert: 'nature', cave: 'nature', forest: 'nature', thunderstorm: 'weather', 'heat-wave': 'weather', 'uv-index': 'weather', macaron: 'food', kebab: 'food' });
+globalThis.BULK_LABEL = Object.assign(globalThis.BULK_LABEL ?? {}, { 'for-sale-sign': 'For Sale', 'house-key': 'Home Key', 'moving-box': 'Moving', 'soap-bubbles': 'Bubbles' });
+export default {};
