@@ -1,0 +1,40 @@
+import { B } from './mods.mjs';
+Object.assign(B, {
+  car: `body('M3.5 12.5l1.6-4.3A1.5 1.5 0 0 1 6.5 7.2h6a1.5 1.5 0 0 1 1.4 1l1.6 4.3V16h-12Z'), line('M3.7 12.5h11.6'), line('M5 16v1.5M14 16v1.5')`,
+  calendar: `body(R(3.5, 5, 12, 12.5, 2)), line('M3.7 9h11.6M7 3.5v3M12 3.5v3')`,
+  folder: `body('M3 6.5A1.5 1.5 0 0 1 4.5 5h3.2l1.5 1.8h5.3a1.5 1.5 0 0 1 1.5 1.5v8.2a1.5 1.5 0 0 1-1.5 1.5h-10A1.5 1.5 0 0 1 3 16.5Z')`,
+  mail: `body(R(3, 5.5, 13, 10, 1.8)), line('M3.5 6.5l6 4.5 6-4.5')`,
+  image: `body(R(3, 4.5, 13, 12, 2)), line('M3.5 14l3.5-3.5 3 3 2-2 3.5 3.5'), line(C(12, 8, 1.2))`,
+  file: `body('M5 3.5h6l4 4v10a1.5 1.5 0 0 1-1.5 1.5H5a1.5 1.5 0 0 1-1.5-1.5V5A1.5 1.5 0 0 1 5 3.5Z'), line('M11 3.7V7.5h3.8')`,
+  database: `body(E(9.5, 5.5, 5.5, 2)), line('M4 5.5v10c0 1.1 2.5 2 5.5 2s5.5-.9 5.5-2v-10M4 10.5c0 1.1 2.5 2 5.5 2s5.5-.9 5.5-2')`,
+  tablet: `body(R(4.5, 3.5, 10, 15, 2)), line('M8.5 15.5h2')`,
+  keyboard: `body(R(2.5, 6.5, 14, 8.5, 1.5)), line(D(5, 9) + D(7.5, 9) + D(10, 9) + D(12.5, 9) + D(5, 11.5)), line('M7.5 12.5h4.5')`,
+  discount: `body(star(9.5, 10.5, 7, 5.8, 10, 0.6)), line('M7.3 13l4.4-5'), line(D(7.2, 8.3) + D(11.8, 12.7))`,
+  wallet: `body(R(3, 5.5, 13, 11, 2)), line('M15.8 9h-3.3a1.5 1.5 0 0 0 0 3h3.3')`,
+  ruler: `body(R(3, 7.5, 13, 6, 1.2)), line('M6 7.7V10M9 7.7v3M12 7.7V10')`,
+  burger: `body('M4 9a5.5 4.5 0 0 1 11 0Z'), line('M3.5 11.5h12'), body(R(4, 13.5, 11, 3.5, 1.5))`,
+  house: `body('M3.5 9.5 9.5 4l6 5.5V17a1 1 0 0 1-1 1h-10a1 1 0 0 1-1-1Z'), line('M8 18v-4h3v4')`,
+  office: `body(R(4.5, 3.5, 10, 15, 1)), line('M7.5 7h1M10.5 7h1M7.5 10h1M10.5 10h1M8.5 18.3v-3h2v3')`,
+  skateboard: `body(R(3, 10, 13, 2.6, 1.3)), line(C(6, 15.3, 1.3)), line(C(13, 15.3, 1.3))`,
+  notebook: `body(R(5, 3.5, 10, 15, 1.5)), line('M3.5 6.5h3M3.5 10.5h3M3.5 14.5h3'), line('M8.5 7h4')`,
+  stopwatch: `body(C(9.5, 11.5, 6)), line('M8 3.5h3M9.5 3.6v2'), line('M9.5 11.5V8.5')`,
+  'bowling-pin': `body('M9.5 3.5c1.3 0 2 1 2 2.3 0 1.2-.7 1.8-.7 2.7 0 1 2.2 2.5 2.2 5.5 0 2.5-1.5 4.5-3.5 4.5S6 16.5 6 14c0-3 2.2-4.5 2.2-5.5 0-.9-.7-1.5-.7-2.7 0-1.3.7-2.3 2-2.3Z'), line('M8.2 8.5h2.6')`,
+  sneaker: `body('M3 15.5V9.5c0-.6.4-1 1-1h2.5l1.5 2 3 .5c2.5.5 4.5 1.8 4.5 4.5Z'), line('M3.2 13.5h12.1')`,
+  'air-conditioner': `body(R(3, 5, 13, 6.5, 1.5)), line('M5.5 9h8'), line('M6 14c0 1 1 1.5 1 2.5M9.5 14c0 1 1 1.5 1 2.5')`,
+  radiator: `body(R(3.5, 5, 12, 11, 1.5)), line('M6.5 7.5v6M9.5 7.5v6M12.5 7.5v6'), line('M5 16v1.5M14 16v1.5')`,
+  drone: `line(C(5, 5, 1.8)), line(C(14, 5, 1.8)), body(R(7, 8.5, 5, 4, 1.2)), line('M6.3 6.3l1.2 2.2M12.7 6.3l-1.2 2.2M8 12.5l-1.5 2M11 12.5l1.5 2')`,
+  'vr-headset': `body('M3 8.5A1.5 1.5 0 0 1 4.5 7h10A1.5 1.5 0 0 1 16 8.5v4a1.5 1.5 0 0 1-1.5 1.5h-3L10 12.5 8.5 14h-4A1.5 1.5 0 0 1 3 12.5Z')`,
+  'usb-drive': `line(R(7.5, 3.5, 4, 3.5, 0.6)), body(R(6, 7, 7, 11.5, 1.5)), line('M8.5 5v.5M10.5 5v.5')`,
+  'hard-drive': `body(R(3, 6, 13, 9, 1.8)), line('M5.5 12h4'), line(D(13, 12))`,
+  mailbox: `body('M4 8.5A3.5 3.5 0 0 1 7.5 5h5A3.5 3.5 0 0 1 16 8.5V14H4Z'), line('M9.5 14v4.5'), line('M7.5 8.5v2')`,
+  'top-hat': `body(R(6, 4, 7, 9, 1)), line('M3 13.5h13'), line('M6.2 10.5h6.6')`,
+});
+globalThis.BULK_CAT = Object.assign(globalThis.BULK_CAT ?? {}, {
+  car: 'transport', calendar: 'time', folder: 'files', mail: 'communication', image: 'media', file: 'files', database: 'development',
+  tablet: 'devices', keyboard: 'devices', chair: 'home', discount: 'commerce', wallet: 'finance', ruler: 'tools', 'ice-cream': 'food',
+  house: 'home', office: 'buildings', skateboard: 'sports', notebook: 'education', stopwatch: 'time', 'bowling-pin': 'sports',
+  sneaker: 'fashion', 'air-conditioner': 'home', radiator: 'home', drone: 'devices', 'vr-headset': 'devices', 'usb-drive': 'devices',
+  'hard-drive': 'devices', lighthouse: 'travel', mailbox: 'communication', 'top-hat': 'fashion',
+});
+globalThis.BULK_LABEL = Object.assign(globalThis.BULK_LABEL ?? {}, { discount: 'Discount', image: 'Image', 'vr-headset': 'VR Headset', 'usb-drive': 'USB Drive' });
+export default {};
