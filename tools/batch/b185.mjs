@@ -1,0 +1,35 @@
+import { B } from './mods.mjs';
+Object.assign(B, {
+  rhino: `body('M3 12c0-3 2.5-5 6-5h4l2.5-3v6.5c1 1 1 2.5 0 3.5H6c-2 0-3-.8-3-2Z'), line(D(10.5, 9.5)), line('M5.5 14v3.5M11.5 14v3.5')`,
+  'spider': `body(E(9.5, 12, 3, 3.6)), body(C(9.5, 7.3, 1.8)), line('M6.6 10.5 3.5 8 2.8 5M6.5 12.5H3.5L2.5 14.5M6.8 14.3 4.5 17M12.4 10.5 15.5 8l.7-3M12.5 12.5h3l1 2M12.2 14.3l2.3 2.7')`,
+  lighthouse: `line('M8.5 3.5h2'), body(R(7, 4.5, 5, 3, 0.8)), body(poly([[7.3, 8.3], [11.7, 8.3], [13, 17], [6, 17]], 0.6, true)), line('M6.6 12.5h5.8'), line('M4.5 18h10'), line('M4.8 5 3.5 4.3M14.2 5l1.3-.7')`,
+  'pagoda': `line('M9.5 2.8v1.5'), body(poly([[3, 7.5], [9.5, 4.3], [16, 7.5]], 0.6, true)), body(R(5.5, 8, 8, 3, 0.4)), body(poly([[3, 13.5], [9.5, 11.3], [16, 13.5]], 0.6, true)), body(R(5.5, 14, 8, 4, 0.4))`,
+  'pyramid': `body(poly([[9.5, 4], [16.5, 17.5], [2.5, 17.5]], 0.8, true)), line('M9.5 4.5 12 17.3')`,
+  'ferris-wheel': `line(C(9.5, 9, 5.5)), line(D(9.5, 9)), line('M9.5 3.5v11M4 9h11M5.6 5.1l7.8 7.8M13.4 5.1l-7.8 7.8'), line('M7 18 9.5 9.2 12 18M5.5 18h8')`,
+  'slot-machine': `body(R(3, 5, 11, 13, 1.5)), line(R(5, 8, 7, 4.5, 0.6)), line('M7.3 8.2v4.1M9.7 8.2v4.1'), line('M14.2 9h1.3V5'), body(C(15.5, 4, 1.1)), line('M6 15.5h5')`,
+  'chess-knight': `body('M5.5 15.5h8c0-3-1-5-1-7.5S11 4 8 3.5L7.5 5 5 7.5 4.5 10l2 .5 2.3-1.5c-.5 2.5-2.5 3.5-3.3 6.5Z'), body(R(4, 16.2, 11, 2, 0.6))`,
+  'skyscraper': `body(R(6, 3, 7, 15, 1)), line('M8.3 6h2.4M8.3 9h2.4M8.3 12h2.4'), line('M9.5 15v3'), line('M3.5 18h12')`,
+  'clock-tower': `body(poly([[6, 7], [9.5, 3], [13, 7]], 0.6, true)), body(R(6, 7.5, 7, 10.5, 0.8)), line(C(9.5, 11, 1.8)), line('M9.5 10v1.2l.8.6')`,
+  'tipi': `body(poly([[9.5, 5], [15.5, 18], [3.5, 18]], 0.8, true)), line('M7.3 3 11.7 7.5M11.7 3 7.3 7.5'), line('M8 18l1.5-4.5L11 18')`,
+  'garage': `body(poly([[3, 8.5], [9.5, 4], [16, 8.5], [16, 18], [3, 18]], 0.8, true)), line('M5.5 11h8v7M5.5 18v-7M5.7 13.5h7.6M5.7 16h7.6')`,
+  'fountain': `line('M9.5 13V6.5M9.5 6.5c-1.5-2-3.5-2-4.5 0M9.5 6.5c1.5-2 3.5-2 4.5 0'), body('M3 13h13l-1 3.5a2 2 0 0 1-2 1.5H6a2 2 0 0 1-2-1.5Z')`,
+  'gazebo': `body(poly([[3, 8], [9.5, 3.5], [16, 8]], 0.6, true)), line('M4.5 8.3V18M14.5 8.3V18M9.5 8.3V18'), line('M3.5 13h12')`,
+  'sewing-machine': `body('M3.5 7a2 2 0 0 1 2-2h9a1.5 1.5 0 0 1 1.5 1.5V17H12v-7H6.5V12H3.5Z'), line('M8.5 12.3v2.2'), body(R(3, 16, 13, 2, 0.6))`,
+  'thimble': `body('M5.5 17V9a4 4 0 0 1 8 0v8Z'), line(D(8, 9) + D(11, 9) + D(9.5, 11.5) + D(8, 14) + D(11, 14)), line('M4.5 17.5h10')`,
+  'ruler-triangle': `body(poly([[4, 4], [4, 17], [16, 17]], 0.6, true)), line('M7 11.5v3h3Z'), line('M4.2 7h1.5M4.2 10h1.5M4.2 13h1.5')`,
+  'eraser': `body(rotateD(R(4, 7.5, 11, 6, 1.5), -35, 9.5, 10.5)), line(rotateD('M8.5 7.7v5.6', -35, 9.5, 10.5)), line('M4.5 18h10')`,
+  'pencil-cup': `line('M6.5 9 5.5 3.5M9.5 9V3M12.5 9l1-5.5'), body(poly([[4.5, 9], [14.5, 9], [13.5, 18], [5.5, 18]], 0.8, true))`,
+  'umbrella-closed': `line('M9.5 3v2'), body('M9.5 5 12 13H7Z'), line('M9.5 13.2V16a1.5 1.5 0 0 1-3 0')`,
+  'raincoat': `body('M7 3.5h5l3.5 4-1.5 1.5-1-1V18H6V8l-1 1-1.5-1.5Z'), line('M9.5 6v12'), line('M7 4.5c1 1.5 4 1.5 5 0')`,
+  'snow-globe': `body(C(9.5, 9, 5.5)), line(D(7.5, 7) + D(11, 6.5) + D(9.5, 9.5) + D(7, 11)), body('M4.5 14.5h10l-1 3.5h-8Z')`,
+  'icicles': `line('M3 4.5h13'), line('M4.5 4.7 5.5 11 6.5 4.7M8.5 4.7l1 8.5 1-8.5M12.5 4.7l1 6 1-6')`,
+  'ornament': `line('M9.5 3v2.5'), body(R(8, 5, 3, 2, 0.5)), body(C(9.5, 12, 5)), line('M4.8 11c3 1.5 6.4 1.5 9.4 0')`,
+  'heels': `body('M3 15c0-1.5 1-2.5 2.5-2.5H8c2 0 3-3 5-6 1-1.5 3-1 3 .5V9l-2 1v7.5h-1.5V12L9.5 15.5H3Z')`,
+  'hair-dryer': `body('M3.5 7a3.5 3.5 0 0 1 3.5-3.5h6l2.5 1.5v4L13 10.5H7A3.5 3.5 0 0 1 3.5 7Z'), line(C(7, 7, 1.2)), body(R(8, 11, 3, 7, 1.2))`,
+  'razor': `body(R(4, 3.5, 11, 4, 1.2)), line('M5.5 5.5h8'), body(R(8.3, 8.5, 2.4, 9.5, 1.2))`,
+  'seesaw': `line('M3 9.5 16 5.5'), body('M9.5 7.5 12 14H7Z'), line('M3 15h13'), line(C(4, 7.3, 1.3) + C(15, 3.3, 1.3))`,
+  'slide': `line('M4 18V6h3v12M4 9.5h3M4 13h3'), line('M7 6c3 0 4 2.5 5.5 6s2.5 6 4 6')`,
+});
+globalThis.BULK_CAT = Object.assign(globalThis.BULK_CAT ?? {}, { 'rhino': 'animals', 'spider': 'animals', 'lighthouse': 'buildings', 'pagoda': 'buildings', 'pyramid': 'buildings', 'ferris-wheel': 'celebration', 'slot-machine': 'gaming', 'chess-knight': 'gaming', 'skyscraper': 'buildings', 'clock-tower': 'buildings', 'tipi': 'travel', 'garage': 'buildings', 'fountain': 'buildings', 'gazebo': 'buildings', 'sewing-machine': 'fashion', 'thimble': 'fashion', 'ruler-triangle': 'education', 'eraser': 'education', 'pencil-cup': 'business', 'umbrella-closed': 'weather', 'raincoat': 'fashion', 'snow-globe': 'celebration', 'icicles': 'weather', 'ornament': 'celebration', 'heels': 'fashion', 'hair-dryer': 'fashion', 'razor': 'fashion', 'seesaw': 'people', 'slide': 'people' });
+globalThis.BULK_LABEL = Object.assign(globalThis.BULK_LABEL ?? {}, { 'ruler-triangle': 'Set Square', 'umbrella-closed': 'Umbrella', 'ornament': 'Bauble', 'heels': 'High Heels', 'slide': 'Playground Slide', 'tipi': 'Tipi', 'chess-knight': 'Chess Knight' });
+export default {};
