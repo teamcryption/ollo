@@ -1,2982 +1,2195 @@
 {
-  "generatedAt": "2026-11-12T17:06:37.676Z",
-  "icons": 52843,
-  "files": 264215,
+  "generatedAt": "2026-11-12T17:10:57.227Z",
+  "icons": 53700,
+  "files": 268500,
   "errors": [],
   "warnings": [
-    "environment-hazard-camera: grid: outside the 3-21 live area (3.38, 3.38, 22.00, 20.50)",
-    "satellite-camera: grid: outside the 3-21 live area (3.00, 4.80, 22.00, 20.50)",
-    "prism-camera: grid: outside the 3-21 live area (3.00, 4.04, 22.00, 20.50)",
-    "goggles-camera: grid: outside the 3-21 live area (3.00, 6.60, 22.00, 20.50)",
-    "bunsen-burner-camera: grid: outside the 3-21 live area (5.52, 8.62, 22.00, 20.50)",
-    "galaxy-camera: grid: outside the 3-21 live area (4.08, 4.44, 22.00, 20.50)",
-    "bacteria-camera: grid: outside the 3-21 live area (3.22, 5.88, 22.00, 20.50)",
-    "cell-camera: grid: outside the 3-21 live area (3.36, 4.08, 22.00, 20.50)",
-    "vial-camera: grid: outside the 3-21 live area (6.96, 3.36, 22.00, 20.50)",
-    "asteroid-camera: grid: outside the 3-21 live area (3.72, 4.05, 22.00, 20.50)",
-    "constellation-camera: grid: outside the 3-21 live area (3.58, 6.46, 22.00, 20.50)",
-    "atom-camera: grid: outside the 3-21 live area (4.56, 4.56, 22.00, 20.50)",
-    "motion-sensor-camera: grid: outside the 3-21 live area (6.24, 3.36, 22.00, 20.50)",
-    "keypad-camera: grid: outside the 3-21 live area (4.44, 3.36, 22.00, 20.50)",
-    "antivirus-camera: grid: outside the 3-21 live area (4.80, 3.36, 22.00, 20.50)",
-    "dagger-camera: grid: outside the 3-21 live area (6.24, 3.54, 22.00, 20.50)",
-    "two-factor-camera: grid: outside the 3-21 live area (3.72, 3.00, 22.00, 20.50)",
-    "keyhole-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
-    "high-voltage-camera: grid: outside the 3-21 live area (3.36, 3.83, 22.00, 20.50)",
-    "hot-surface-camera: grid: outside the 3-21 live area (3.36, 3.83, 22.00, 20.50)",
-    "laser-hazard-camera: grid: outside the 3-21 live area (3.36, 3.83, 22.00, 20.50)",
-    "magnetic-field-camera: grid: outside the 3-21 live area (3.36, 3.83, 22.00, 20.50)",
-    "deep-water-camera: grid: outside the 3-21 live area (3.36, 3.83, 22.00, 20.50)",
-    "firewall-camera: grid: outside the 3-21 live area (3.36, 8.26, 22.00, 20.50)",
-    "passkey-camera: grid: outside the 3-21 live area (3.36, 3.94, 22.00, 20.50)",
-    "incognito-camera: grid: outside the 3-21 live area (3.36, 4.00, 22.00, 20.50)",
-    "face-scan-camera: grid: outside the 3-21 live area (3.72, 3.72, 22.00, 20.50)",
-    "otp-camera: grid: outside the 3-21 live area (5.52, 2.64, 22.00, 20.50)",
-    "phishing-camera: grid: outside the 3-21 live area (3.00, 3.36, 22.00, 20.50)",
-    "police-badge-camera: grid: outside the 3-21 live area (4.37, 3.61, 22.00, 20.50)",
-    "lock-camera: grid: outside the 3-21 live area (4.80, 4.08, 22.00, 20.50)",
-    "shield-camera: grid: outside the 3-21 live area (4.37, 3.29, 22.00, 20.50)",
-    "eye-scan-camera: grid: outside the 3-21 live area (3.72, 3.72, 22.00, 20.50)",
-    "qr-scan-camera: grid: outside the 3-21 live area (3.72, 3.72, 22.00, 20.50)",
-    "yoga-mat-camera: grid: outside the 3-21 live area (3.72, 5.52, 22.00, 20.50)",
-    "snowboard-camera: grid: outside the 3-21 live area (4.01, 4.01, 22.00, 20.50)",
-    "punching-bag-camera: grid: outside the 3-21 live area (6.60, 3.00, 22.00, 20.50)",
-    "treadmill-camera: grid: outside the 3-21 live area (3.00, 4.80, 22.00, 20.50)",
-    "oars-camera: grid: outside the 3-21 live area (5.03, 4.79, 22.00, 20.50)",
-    "locker-camera: grid: outside the 3-21 live area (4.08, 3.00, 22.00, 20.50)",
-    "ski-lift-camera: grid: outside the 3-21 live area (3.00, 3.36, 22.00, 20.50)",
-    "ice-axe-camera: grid: outside the 3-21 live area (4.08, 3.73, 22.00, 20.50)",
-    "fish-hook-camera: grid: outside the 3-21 live area (5.16, 3.14, 22.00, 20.50)",
-    "life-ring-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
-    "skis-camera: grid: outside the 3-21 live area (3.36, 3.55, 22.00, 20.50)",
-    "baseball-bat-camera: grid: outside the 3-21 live area (5.08, 3.72, 22.00, 20.50)",
-    "cricket-bat-camera: grid: outside the 3-21 live area (4.92, 4.47, 22.00, 20.50)",
-    "ski-boot-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
-    "soccer-ball-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
-    "table-tennis-camera: grid: outside the 3-21 live area (4.40, 3.00, 22.00, 20.50)"
+    "bowling-camera: grid: outside the 3-21 live area (3.81, 3.36, 22.00, 20.50)",
+    "jump-rope-camera: grid: outside the 3-21 live area (3.72, 3.36, 22.00, 20.50)",
+    "hockey-puck-camera: grid: outside the 3-21 live area (3.72, 5.16, 22.00, 20.50)",
+    "frisbee-camera: grid: outside the 3-21 live area (3.36, 8.40, 22.00, 20.50)",
+    "hurdle-camera: grid: outside the 3-21 live area (3.36, 5.16, 22.00, 20.50)",
+    "football-helmet-camera: grid: outside the 3-21 live area (4.08, 5.65, 22.00, 20.50)",
+    "penalty-cards-camera: grid: outside the 3-21 live area (3.55, 3.75, 22.00, 20.50)",
+    "sports-bottle-camera: grid: outside the 3-21 live area (5.88, 3.36, 22.00, 20.50)",
+    "boxing-ring-camera: grid: outside the 3-21 live area (3.36, 4.44, 22.00, 20.50)",
+    "weight-camera: grid: outside the 3-21 live area (4.31, 4.08, 22.00, 20.50)",
+    "gym-bag-camera: grid: outside the 3-21 live area (3.36, 4.44, 22.00, 20.50)",
+    "golf-tee-camera: grid: outside the 3-21 live area (6.96, 3.36, 22.00, 20.50)",
+    "snorkel-camera: grid: outside the 3-21 live area (3.36, 3.72, 22.00, 20.50)",
+    "oar-camera: grid: outside the 3-21 live area (4.63, 3.68, 22.00, 20.50)",
+    "gym-rings-camera: grid: outside the 3-21 live area (4.08, 3.36, 22.00, 20.50)",
+    "fishing-float-camera: grid: outside the 3-21 live area (5.88, 3.36, 22.00, 20.50)",
+    "goal-net-camera: grid: outside the 3-21 live area (3.36, 5.16, 22.00, 20.50)",
+    "swimming-camera: grid: outside the 3-21 live area (3.36, 5.30, 22.00, 20.50)",
+    "sled-camera: grid: outside the 3-21 live area (3.36, 7.68, 22.00, 20.50)",
+    "fishing-rod-camera: grid: outside the 3-21 live area (3.72, 3.72, 22.00, 20.50)",
+    "baseball-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
+    "kettlebell-camera: grid: outside the 3-21 live area (5.49, 3.36, 22.00, 20.50)",
+    "golf-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
+    "calendar-week-camera: grid: outside the 3-21 live area (3.36, 3.00, 22.00, 20.50)",
+    "alarm-snooze-camera: grid: outside the 3-21 live area (3.07, 3.07, 22.00, 20.50)",
+    "timeline-camera: grid: outside the 3-21 live area (4.44, 3.36, 22.00, 20.50)",
+    "clock-fast-camera: grid: outside the 3-21 live area (3.00, 4.58, 22.00, 20.50)",
+    "planner-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
+    "bedtime-camera: grid: outside the 3-21 live area (4.36, 5.45, 22.00, 20.50)",
+    "calendar-repeat-camera: grid: outside the 3-21 live area (3.36, 3.00, 22.00, 20.50)",
+    "calendar-range-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
+    "sundial-camera: grid: outside the 3-21 live area (3.36, 6.02, 22.00, 20.50)",
+    "calendar-note-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
+    "clock-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
+    "alarm-camera: grid: outside the 3-21 live area (3.07, 3.07, 22.00, 20.50)",
+    "timer-camera: grid: outside the 3-21 live area (3.36, 4.18, 22.00, 20.50)",
+    "history-camera: grid: outside the 3-21 live area (2.95, 3.50, 22.00, 20.50)",
+    "calendar-plain-camera: grid: outside the 3-21 live area (3.36, 3.00, 22.00, 20.50)",
+    "calendar-days-camera: grid: outside the 3-21 live area (3.36, 3.00, 22.00, 20.50)",
+    "jackhammer-camera: grid: outside the 3-21 live area (5.16, 3.72, 22.00, 20.50)",
+    "plumb-bob-camera: grid: outside the 3-21 live area (6.71, 3.00, 22.00, 20.50)",
+    "vise-camera: grid: outside the 3-21 live area (3.36, 8.04, 22.00, 20.50)",
+    "c-clamp-camera: grid: outside the 3-21 live area (4.44, 3.00, 22.00, 20.50)",
+    "glue-gun-camera: grid: outside the 3-21 live area (3.72, 5.52, 22.00, 20.50)",
+    "utility-knife-camera: grid: outside the 3-21 live area (3.64, 5.60, 22.00, 20.50)",
+    "sledgehammer-camera: grid: outside the 3-21 live area (3.76, 3.16, 22.00, 20.50)",
+    "mallet-camera: grid: outside the 3-21 live area (3.72, 3.72, 22.00, 20.50)",
+    "multimeter-camera: grid: outside the 3-21 live area (4.80, 3.00, 22.00, 20.50)",
+    "soldering-iron-camera: grid: outside the 3-21 live area (4.73, 5.15, 22.00, 20.50)"
   ],
   "duplicates": [
     {
-      "a": "vial-sparkle",
-      "b": "vial-upload",
+      "a": "phone-booth-search",
+      "b": "multimeter-search",
       "distance": 1.41
     },
     {
-      "a": "smartphone-cloud",
-      "b": "otp-cloud",
-      "distance": 0
+      "a": "phone-booth-clock",
+      "b": "multimeter-clock",
+      "distance": 1.41
     },
     {
-      "a": "smartphone-chat",
-      "b": "otp-chat",
-      "distance": 0
+      "a": "phone-booth-shield",
+      "b": "multimeter-shield",
+      "distance": 1.41
     },
     {
-      "a": "smartphone-download",
-      "b": "otp-download",
-      "distance": 0
+      "a": "phone-booth-heart",
+      "b": "multimeter-heart",
+      "distance": 1.41
     },
     {
-      "a": "smartphone-pencil",
-      "b": "otp-pencil",
-      "distance": 0
+      "a": "phone-booth-star",
+      "b": "multimeter-star",
+      "distance": 1.41
     },
     {
-      "a": "smartphone-trash",
-      "b": "otp-trash",
-      "distance": 0
+      "a": "phone-booth-user",
+      "b": "multimeter-user",
+      "distance": 1.41
     },
     {
-      "a": "smartphone-calendar",
-      "b": "otp-calendar",
-      "distance": 0
+      "a": "phone-booth-cloud",
+      "b": "multimeter-cloud",
+      "distance": 1.41
     },
     {
-      "a": "smartphone-question",
-      "b": "otp-question",
-      "distance": 0
+      "a": "phone-booth-chat",
+      "b": "multimeter-chat",
+      "distance": 1.41
     },
     {
-      "a": "smartphone-bookmark",
-      "b": "otp-bookmark",
-      "distance": 0
+      "a": "phone-booth-download",
+      "b": "multimeter-download",
+      "distance": 1.41
     },
     {
-      "a": "smartphone-crown",
-      "b": "otp-crown",
-      "distance": 0
+      "a": "phone-booth-pencil",
+      "b": "multimeter-pencil",
+      "distance": 1.41
     },
     {
-      "a": "smartphone-leaf",
-      "b": "otp-leaf",
-      "distance": 0
+      "a": "phone-booth-trash",
+      "b": "multimeter-trash",
+      "distance": 1.41
     },
     {
-      "a": "smartphone-hourglass",
-      "b": "otp-hourglass",
-      "distance": 0
+      "a": "phone-booth-calendar",
+      "b": "multimeter-calendar",
+      "distance": 1.41
     },
     {
-      "a": "smartphone-cursor",
-      "b": "otp-cursor",
-      "distance": 0
+      "a": "phone-booth-question",
+      "b": "multimeter-question",
+      "distance": 1.41
     },
     {
-      "a": "smartphone-camera",
-      "b": "otp-camera",
-      "distance": 0
+      "a": "phone-booth-bookmark",
+      "b": "multimeter-bookmark",
+      "distance": 1.41
     },
     {
-      "a": "smartphone-filter",
-      "b": "otp-filter",
-      "distance": 0
+      "a": "phone-booth-upload",
+      "b": "multimeter-sparkle",
+      "distance": 1.41
     },
     {
-      "a": "smartphone-stats",
-      "b": "otp-stats",
-      "distance": 0
+      "a": "phone-booth-upload",
+      "b": "multimeter-upload",
+      "distance": 1.41
     },
     {
-      "a": "smartphone-checkbox",
-      "b": "otp-checkbox",
-      "distance": 0
+      "a": "phone-booth-crown",
+      "b": "multimeter-crown",
+      "distance": 1.41
     },
     {
-      "a": "gas-flame-search",
-      "b": "firewall-search",
+      "a": "phone-booth-leaf",
+      "b": "multimeter-pencil",
       "distance": 1.41
     },
     {
-      "a": "gas-flame-clock",
-      "b": "firewall-clock",
+      "a": "phone-booth-leaf",
+      "b": "multimeter-leaf",
       "distance": 1.41
     },
     {
-      "a": "gas-flame-shield",
-      "b": "firewall-shield",
+      "a": "phone-booth-trophy",
+      "b": "multimeter-trophy",
       "distance": 1.41
     },
     {
-      "a": "gas-flame-gear",
-      "b": "firewall-gear",
+      "a": "phone-booth-hourglass",
+      "b": "multimeter-hourglass",
       "distance": 1.41
     },
     {
-      "a": "gas-flame-bolt",
-      "b": "firewall-bolt",
+      "a": "phone-booth-camera",
+      "b": "multimeter-camera",
       "distance": 1.41
     },
     {
-      "a": "gas-flame-star",
-      "b": "firewall-star",
+      "a": "phone-booth-filter",
+      "b": "multimeter-filter",
       "distance": 1.41
     },
     {
-      "a": "gas-flame-user",
-      "b": "firewall-user",
+      "a": "phone-booth-stats",
+      "b": "multimeter-stats",
       "distance": 1.41
     },
     {
-      "a": "gas-flame-chat",
-      "b": "firewall-chat",
+      "a": "phone-booth-checkbox",
+      "b": "multimeter-checkbox",
       "distance": 1.41
     },
     {
-      "a": "gas-flame-download",
-      "b": "firewall-download",
+      "a": "nas-search",
+      "b": "multimeter-search",
       "distance": 1.41
     },
     {
-      "a": "gas-flame-sparkle",
-      "b": "firewall-sparkle",
+      "a": "nas-clock",
+      "b": "multimeter-clock",
       "distance": 1.41
     },
     {
-      "a": "gas-flame-sparkle",
-      "b": "firewall-upload",
+      "a": "nas-shield",
+      "b": "multimeter-shield",
       "distance": 1.41
     },
     {
-      "a": "gas-flame-calendar",
-      "b": "firewall-calendar",
+      "a": "nas-gear",
+      "b": "multimeter-gear",
       "distance": 1.41
     },
     {
-      "a": "gas-flame-question",
-      "b": "firewall-question",
+      "a": "nas-star",
+      "b": "multimeter-star",
       "distance": 1.41
     },
     {
-      "a": "gas-flame-bookmark",
-      "b": "firewall-bookmark",
+      "a": "nas-chat",
+      "b": "multimeter-chat",
       "distance": 1.41
     },
     {
-      "a": "gas-flame-trophy",
-      "b": "firewall-trophy",
+      "a": "nas-download",
+      "b": "multimeter-download",
       "distance": 1.41
     },
     {
-      "a": "gas-flame-hourglass",
-      "b": "firewall-hourglass",
+      "a": "nas-calendar",
+      "b": "multimeter-calendar",
       "distance": 1.41
     },
     {
-      "a": "gas-flame-cursor",
-      "b": "firewall-cursor",
+      "a": "nas-question",
+      "b": "multimeter-question",
       "distance": 1.41
     },
     {
-      "a": "gas-flame-camera",
-      "b": "firewall-camera",
+      "a": "nas-crown",
+      "b": "multimeter-crown",
       "distance": 1.41
     },
     {
-      "a": "gas-flame-filter",
-      "b": "firewall-filter",
+      "a": "nas-camera",
+      "b": "multimeter-camera",
       "distance": 1.41
     },
     {
-      "a": "gas-flame-checkbox",
-      "b": "firewall-checkbox",
+      "a": "nas-filter",
+      "b": "multimeter-filter",
       "distance": 1.41
     },
     {
-      "a": "bottle-cap-search",
-      "b": "life-ring-search",
+      "a": "nas-checkbox",
+      "b": "multimeter-checkbox",
       "distance": 1.41
     },
     {
-      "a": "bottle-cap-clock",
-      "b": "life-ring-clock",
+      "a": "captain-hat-search",
+      "b": "hockey-puck-search",
       "distance": 1.41
     },
     {
-      "a": "bottle-cap-shield",
-      "b": "life-ring-shield",
+      "a": "captain-hat-clock",
+      "b": "hockey-puck-clock",
       "distance": 1.41
     },
     {
-      "a": "bottle-cap-gear",
-      "b": "life-ring-gear",
+      "a": "captain-hat-shield",
+      "b": "hockey-puck-shield",
       "distance": 1.41
     },
     {
-      "a": "bottle-cap-heart",
-      "b": "life-ring-heart",
+      "a": "captain-hat-gear",
+      "b": "hockey-puck-gear",
       "distance": 1.41
     },
     {
-      "a": "bottle-cap-user",
-      "b": "life-ring-user",
+      "a": "captain-hat-bolt",
+      "b": "hockey-puck-bolt",
       "distance": 1.41
     },
     {
-      "a": "bottle-cap-chat",
-      "b": "life-ring-chat",
+      "a": "captain-hat-heart",
+      "b": "hockey-puck-heart",
       "distance": 1.41
     },
     {
-      "a": "bottle-cap-download",
-      "b": "life-ring-download",
+      "a": "captain-hat-star",
+      "b": "hockey-puck-star",
       "distance": 1.41
     },
     {
-      "a": "bottle-cap-pencil",
-      "b": "life-ring-pencil",
+      "a": "captain-hat-cloud",
+      "b": "hockey-puck-cloud",
       "distance": 1.41
     },
     {
-      "a": "bottle-cap-trash",
-      "b": "life-ring-trash",
+      "a": "captain-hat-chat",
+      "b": "hockey-puck-chat",
       "distance": 1.41
     },
     {
-      "a": "bottle-cap-calendar",
-      "b": "life-ring-calendar",
+      "a": "captain-hat-download",
+      "b": "hockey-puck-download",
       "distance": 1.41
     },
     {
-      "a": "bottle-cap-question",
-      "b": "life-ring-question",
+      "a": "captain-hat-pencil",
+      "b": "hockey-puck-pencil",
       "distance": 1.41
     },
     {
-      "a": "bottle-cap-bookmark",
-      "b": "life-ring-bookmark",
+      "a": "captain-hat-sparkle",
+      "b": "hockey-puck-upload",
       "distance": 1.41
     },
     {
-      "a": "bottle-cap-crown",
-      "b": "life-ring-crown",
+      "a": "captain-hat-trash",
+      "b": "hockey-puck-trash",
       "distance": 1.41
     },
     {
-      "a": "bottle-cap-trophy",
-      "b": "life-ring-trophy",
+      "a": "captain-hat-calendar",
+      "b": "hockey-puck-calendar",
       "distance": 1.41
     },
     {
-      "a": "bottle-cap-hourglass",
-      "b": "life-ring-hourglass",
+      "a": "captain-hat-question",
+      "b": "hockey-puck-question",
       "distance": 1.41
     },
     {
-      "a": "bottle-cap-cursor",
-      "b": "life-ring-cursor",
+      "a": "captain-hat-bookmark",
+      "b": "hockey-puck-bookmark",
       "distance": 1.41
     },
     {
-      "a": "bottle-cap-camera",
-      "b": "life-ring-camera",
+      "a": "captain-hat-crown",
+      "b": "hockey-puck-crown",
       "distance": 1.41
     },
     {
-      "a": "bottle-cap-filter",
-      "b": "life-ring-filter",
+      "a": "captain-hat-leaf",
+      "b": "hockey-puck-leaf",
       "distance": 1.41
     },
     {
-      "a": "bottle-cap-stats",
-      "b": "life-ring-stats",
+      "a": "captain-hat-hourglass",
+      "b": "hockey-puck-hourglass",
       "distance": 1.41
     },
     {
-      "a": "bottle-cap-checkbox",
-      "b": "life-ring-checkbox",
+      "a": "captain-hat-cursor",
+      "b": "hockey-puck-cursor",
       "distance": 1.41
     },
     {
-      "a": "chocolate-bar-bolt",
-      "b": "keypad-bolt",
+      "a": "captain-hat-camera",
+      "b": "hockey-puck-camera",
       "distance": 1.41
     },
     {
-      "a": "chocolate-bar-heart",
-      "b": "keypad-heart",
+      "a": "captain-hat-filter",
+      "b": "hockey-puck-filter",
       "distance": 1.41
     },
     {
-      "a": "chocolate-bar-user",
-      "b": "keypad-user",
+      "a": "captain-hat-stats",
+      "b": "hockey-puck-stats",
       "distance": 1.41
     },
     {
-      "a": "chocolate-bar-cloud",
-      "b": "keypad-cloud",
+      "a": "captain-hat-checkbox",
+      "b": "hockey-puck-checkbox",
       "distance": 1.41
     },
     {
-      "a": "chocolate-bar-pencil",
-      "b": "keypad-pencil",
-      "distance": 1.41
+      "a": "stove-search",
+      "b": "calendar-range-search",
+      "distance": 1
     },
     {
-      "a": "chocolate-bar-pencil",
-      "b": "keypad-leaf",
-      "distance": 1.41
+      "a": "stove-shield",
+      "b": "calendar-range-shield",
+      "distance": 1
+    },
+    {
+      "a": "stove-star",
+      "b": "calendar-range-star",
+      "distance": 1
+    },
+    {
+      "a": "stove-hourglass",
+      "b": "calendar-range-hourglass",
+      "distance": 1
+    },
+    {
+      "a": "stove-filter",
+      "b": "calendar-range-filter",
+      "distance": 1
     },
     {
-      "a": "chocolate-bar-sparkle",
-      "b": "keypad-sparkle",
+      "a": "meat-thermometer-search",
+      "b": "golf-tee-search",
       "distance": 1.41
     },
     {
-      "a": "chocolate-bar-sparkle",
-      "b": "keypad-upload",
+      "a": "meat-thermometer-clock",
+      "b": "golf-tee-clock",
       "distance": 1.41
     },
     {
-      "a": "chocolate-bar-trash",
-      "b": "keypad-trash",
+      "a": "meat-thermometer-gear",
+      "b": "golf-tee-gear",
       "distance": 1.41
     },
     {
-      "a": "chocolate-bar-bookmark",
-      "b": "keypad-bookmark",
+      "a": "meat-thermometer-bolt",
+      "b": "golf-tee-bolt",
       "distance": 1.41
     },
     {
-      "a": "chocolate-bar-stats",
-      "b": "keypad-stats",
+      "a": "meat-thermometer-heart",
+      "b": "golf-tee-heart",
       "distance": 1.41
     },
     {
-      "a": "rug-shield",
-      "b": "life-ring-shield",
+      "a": "meat-thermometer-star",
+      "b": "golf-tee-star",
       "distance": 1.41
     },
     {
-      "a": "aperture-bolt",
-      "b": "life-ring-bolt",
+      "a": "meat-thermometer-cloud",
+      "b": "golf-tee-cloud",
       "distance": 1.41
     },
     {
-      "a": "aperture-heart",
-      "b": "life-ring-heart",
+      "a": "meat-thermometer-chat",
+      "b": "golf-tee-chat",
       "distance": 1.41
     },
     {
-      "a": "aperture-user",
-      "b": "life-ring-user",
+      "a": "meat-thermometer-download",
+      "b": "golf-tee-download",
       "distance": 1.41
     },
     {
-      "a": "aperture-pencil",
-      "b": "life-ring-pencil",
+      "a": "meat-thermometer-pencil",
+      "b": "golf-tee-pencil",
       "distance": 1.41
     },
     {
-      "a": "aperture-pencil",
-      "b": "life-ring-leaf",
+      "a": "meat-thermometer-trash",
+      "b": "golf-tee-trash",
       "distance": 1.41
     },
     {
-      "a": "aperture-trash",
-      "b": "life-ring-trash",
+      "a": "meat-thermometer-calendar",
+      "b": "golf-tee-calendar",
       "distance": 1.41
     },
     {
-      "a": "aperture-bookmark",
-      "b": "life-ring-bookmark",
+      "a": "meat-thermometer-question",
+      "b": "golf-tee-question",
       "distance": 1.41
     },
     {
-      "a": "aperture-trophy",
-      "b": "life-ring-trophy",
+      "a": "meat-thermometer-bookmark",
+      "b": "golf-tee-bookmark",
       "distance": 1.41
     },
     {
-      "a": "aperture-hourglass",
-      "b": "life-ring-hourglass",
+      "a": "meat-thermometer-crown",
+      "b": "golf-tee-crown",
       "distance": 1.41
     },
     {
-      "a": "aperture-cursor",
-      "b": "life-ring-cursor",
+      "a": "meat-thermometer-leaf",
+      "b": "golf-tee-leaf",
       "distance": 1.41
     },
     {
-      "a": "aperture-filter",
-      "b": "life-ring-filter",
+      "a": "meat-thermometer-hourglass",
+      "b": "golf-tee-hourglass",
       "distance": 1.41
     },
     {
-      "a": "aperture-stats",
-      "b": "life-ring-stats",
+      "a": "meat-thermometer-cursor",
+      "b": "golf-tee-cursor",
       "distance": 1.41
     },
     {
-      "a": "satellite-sparkle",
-      "b": "satellite-upload",
+      "a": "meat-thermometer-camera",
+      "b": "golf-tee-camera",
       "distance": 1.41
     },
     {
-      "a": "goggles-sparkle",
-      "b": "goggles-upload",
+      "a": "meat-thermometer-filter",
+      "b": "golf-tee-filter",
       "distance": 1.41
     },
     {
-      "a": "constellation-pencil",
-      "b": "constellation-leaf",
+      "a": "meat-thermometer-stats",
+      "b": "golf-tee-stats",
       "distance": 1.41
     },
     {
-      "a": "atom-pencil",
-      "b": "atom-leaf",
+      "a": "meat-thermometer-checkbox",
+      "b": "golf-tee-checkbox",
       "distance": 1.41
     },
     {
-      "a": "atom-sparkle",
-      "b": "atom-upload",
+      "a": "browser-bolt",
+      "b": "calendar-range-bolt",
       "distance": 1.41
     },
     {
-      "a": "keypad-pencil",
-      "b": "keypad-leaf",
+      "a": "browser-heart",
+      "b": "calendar-range-heart",
       "distance": 1.41
     },
     {
-      "a": "keypad-sparkle",
-      "b": "keypad-upload",
+      "a": "browser-alert",
+      "b": "calendar-range-alert",
       "distance": 1.41
     },
     {
-      "a": "antivirus-sparkle",
-      "b": "antivirus-upload",
+      "a": "browser-user",
+      "b": "calendar-range-user",
       "distance": 1.41
     },
     {
-      "a": "two-factor-pencil",
-      "b": "two-factor-leaf",
+      "a": "browser-cloud",
+      "b": "calendar-range-cloud",
       "distance": 1.41
     },
     {
-      "a": "two-factor-sparkle",
-      "b": "two-factor-upload",
+      "a": "browser-chat",
+      "b": "calendar-range-chat",
       "distance": 1.41
     },
     {
-      "a": "keyhole-pencil",
-      "b": "keyhole-leaf",
+      "a": "browser-pencil",
+      "b": "calendar-range-pencil",
       "distance": 1.41
     },
     {
-      "a": "high-voltage-search",
-      "b": "hot-surface-search",
-      "distance": 0
+      "a": "browser-sparkle",
+      "b": "calendar-range-sparkle",
+      "distance": 1.41
     },
     {
-      "a": "high-voltage-search",
-      "b": "laser-hazard-search",
-      "distance": 0
+      "a": "browser-sparkle",
+      "b": "calendar-range-upload",
+      "distance": 1.41
     },
     {
-      "a": "high-voltage-search",
-      "b": "magnetic-field-search",
-      "distance": 0
+      "a": "browser-trash",
+      "b": "calendar-range-trash",
+      "distance": 1.41
     },
     {
-      "a": "high-voltage-search",
-      "b": "deep-water-search",
-      "distance": 0
+      "a": "browser-calendar",
+      "b": "calendar-range-calendar",
+      "distance": 1.41
     },
     {
-      "a": "high-voltage-clock",
-      "b": "hot-surface-clock",
-      "distance": 0
+      "a": "browser-bookmark",
+      "b": "calendar-range-bookmark",
+      "distance": 1.41
     },
     {
-      "a": "high-voltage-clock",
-      "b": "laser-hazard-clock",
-      "distance": 0
+      "a": "browser-question",
+      "b": "calendar-range-question",
+      "distance": 1.41
     },
     {
-      "a": "high-voltage-clock",
-      "b": "magnetic-field-clock",
-      "distance": 0
+      "a": "browser-crown",
+      "b": "calendar-range-crown",
+      "distance": 1.41
     },
     {
-      "a": "high-voltage-clock",
-      "b": "deep-water-clock",
-      "distance": 0
+      "a": "browser-pause",
+      "b": "calendar-range-clock",
+      "distance": 1.41
     },
     {
-      "a": "high-voltage-gear",
-      "b": "hot-surface-gear",
-      "distance": 0
+      "a": "browser-leaf",
+      "b": "calendar-range-leaf",
+      "distance": 1.41
     },
     {
-      "a": "high-voltage-gear",
-      "b": "laser-hazard-gear",
-      "distance": 0
+      "a": "browser-trophy",
+      "b": "calendar-range-trophy",
+      "distance": 1.41
     },
     {
-      "a": "high-voltage-gear",
-      "b": "magnetic-field-gear",
-      "distance": 0
+      "a": "browser-cursor",
+      "b": "calendar-range-cursor",
+      "distance": 1.41
     },
     {
-      "a": "high-voltage-gear",
-      "b": "deep-water-gear",
-      "distance": 0
+      "a": "browser-camera",
+      "b": "calendar-range-camera",
+      "distance": 1.41
     },
     {
-      "a": "high-voltage-bolt",
-      "b": "hot-surface-bolt",
-      "distance": 0
+      "a": "browser-stats",
+      "b": "calendar-range-stats",
+      "distance": 1.41
     },
     {
-      "a": "high-voltage-bolt",
-      "b": "laser-hazard-bolt",
-      "distance": 0
+      "a": "browser-checkbox",
+      "b": "calendar-range-checkbox",
+      "distance": 1.41
     },
     {
-      "a": "high-voltage-bolt",
-      "b": "magnetic-field-bolt",
-      "distance": 0
+      "a": "browser-addbox",
+      "b": "calendar-range-download",
+      "distance": 1.41
     },
     {
-      "a": "high-voltage-bolt",
-      "b": "deep-water-bolt",
-      "distance": 0
+      "a": "browser-pricing",
+      "b": "calendar-range-gear",
+      "distance": 1.41
     },
     {
-      "a": "high-voltage-heart",
-      "b": "hot-surface-heart",
-      "distance": 0
+      "a": "cairn-search",
+      "b": "weight-search",
+      "distance": 1.41
     },
     {
-      "a": "high-voltage-heart",
-      "b": "laser-hazard-heart",
-      "distance": 0
+      "a": "cairn-clock",
+      "b": "weight-clock",
+      "distance": 1.41
     },
     {
-      "a": "high-voltage-heart",
-      "b": "magnetic-field-heart",
-      "distance": 0
+      "a": "cairn-shield",
+      "b": "weight-shield",
+      "distance": 1.41
     },
     {
-      "a": "high-voltage-heart",
-      "b": "deep-water-heart",
-      "distance": 0
+      "a": "cairn-gear",
+      "b": "weight-gear",
+      "distance": 1.41
     },
     {
-      "a": "high-voltage-star",
-      "b": "hot-surface-star",
-      "distance": 0
+      "a": "cairn-bolt",
+      "b": "weight-bolt",
+      "distance": 1.41
     },
     {
-      "a": "high-voltage-star",
-      "b": "laser-hazard-star",
-      "distance": 0
+      "a": "cairn-heart",
+      "b": "weight-heart",
+      "distance": 1.41
     },
     {
-      "a": "high-voltage-star",
-      "b": "magnetic-field-star",
-      "distance": 0
+      "a": "cairn-star",
+      "b": "weight-star",
+      "distance": 1.41
     },
     {
-      "a": "high-voltage-star",
-      "b": "deep-water-star",
-      "distance": 0
+      "a": "cairn-cloud",
+      "b": "weight-cloud",
+      "distance": 1.41
     },
     {
-      "a": "high-voltage-cloud",
-      "b": "hot-surface-cloud",
-      "distance": 0
+      "a": "cairn-chat",
+      "b": "weight-chat",
+      "distance": 1.41
     },
     {
-      "a": "high-voltage-cloud",
-      "b": "laser-hazard-cloud",
-      "distance": 0
+      "a": "cairn-download",
+      "b": "weight-download",
+      "distance": 1.41
     },
     {
-      "a": "high-voltage-cloud",
-      "b": "magnetic-field-cloud",
-      "distance": 0
+      "a": "cairn-pencil",
+      "b": "weight-pencil",
+      "distance": 1.41
     },
     {
-      "a": "high-voltage-cloud",
-      "b": "deep-water-cloud",
-      "distance": 0
+      "a": "cairn-trash",
+      "b": "weight-trash",
+      "distance": 1.41
     },
     {
-      "a": "high-voltage-chat",
-      "b": "hot-surface-chat",
-      "distance": 0
+      "a": "cairn-calendar",
+      "b": "weight-calendar",
+      "distance": 1.41
     },
     {
-      "a": "high-voltage-chat",
-      "b": "laser-hazard-chat",
-      "distance": 0
+      "a": "cairn-question",
+      "b": "weight-question",
+      "distance": 1.41
     },
     {
-      "a": "high-voltage-chat",
-      "b": "magnetic-field-chat",
-      "distance": 0
+      "a": "cairn-crown",
+      "b": "weight-crown",
+      "distance": 1.41
     },
     {
-      "a": "high-voltage-chat",
-      "b": "deep-water-chat",
-      "distance": 0
+      "a": "cairn-camera",
+      "b": "weight-camera",
+      "distance": 1.41
     },
     {
-      "a": "high-voltage-download",
-      "b": "hot-surface-download",
-      "distance": 0
+      "a": "cairn-filter",
+      "b": "weight-filter",
+      "distance": 1.41
     },
     {
-      "a": "high-voltage-download",
-      "b": "laser-hazard-download",
-      "distance": 0
+      "a": "cairn-stats",
+      "b": "weight-stats",
+      "distance": 1.41
     },
     {
-      "a": "high-voltage-download",
-      "b": "magnetic-field-download",
-      "distance": 0
+      "a": "cairn-checkbox",
+      "b": "weight-checkbox",
+      "distance": 1.41
     },
     {
-      "a": "high-voltage-download",
-      "b": "deep-water-download",
-      "distance": 0
+      "a": "lock-clock",
+      "b": "kettlebell-clock",
+      "distance": 1.41
     },
     {
-      "a": "high-voltage-pencil",
-      "b": "high-voltage-leaf",
+      "a": "lock-gear",
+      "b": "kettlebell-gear",
       "distance": 1.41
     },
     {
-      "a": "high-voltage-pencil",
-      "b": "hot-surface-pencil",
-      "distance": 0
+      "a": "lock-chat",
+      "b": "kettlebell-chat",
+      "distance": 1.41
     },
     {
-      "a": "high-voltage-pencil",
-      "b": "hot-surface-leaf",
+      "a": "lock-calendar",
+      "b": "kettlebell-calendar",
       "distance": 1.41
     },
     {
-      "a": "high-voltage-pencil",
-      "b": "laser-hazard-pencil",
-      "distance": 0
+      "a": "lock-filter",
+      "b": "kettlebell-filter",
+      "distance": 1.41
     },
     {
-      "a": "high-voltage-pencil",
-      "b": "laser-hazard-leaf",
+      "a": "bowling-pencil",
+      "b": "bowling-leaf",
       "distance": 1.41
     },
     {
-      "a": "high-voltage-pencil",
-      "b": "magnetic-field-pencil",
-      "distance": 0
+      "a": "hurdle-sparkle",
+      "b": "hurdle-upload",
+      "distance": 1.41
     },
     {
-      "a": "high-voltage-pencil",
-      "b": "magnetic-field-leaf",
+      "a": "football-helmet-pencil",
+      "b": "football-helmet-leaf",
       "distance": 1.41
     },
     {
-      "a": "high-voltage-pencil",
-      "b": "deep-water-pencil",
-      "distance": 0
+      "a": "penalty-cards-sparkle",
+      "b": "penalty-cards-upload",
+      "distance": 1.41
     },
     {
-      "a": "high-voltage-pencil",
-      "b": "deep-water-leaf",
+      "a": "sports-bottle-sparkle",
+      "b": "sports-bottle-upload",
       "distance": 1.41
     },
     {
-      "a": "high-voltage-trash",
-      "b": "hot-surface-trash",
-      "distance": 0
+      "a": "boxing-ring-pencil",
+      "b": "boxing-ring-leaf",
+      "distance": 1.41
     },
     {
-      "a": "high-voltage-trash",
-      "b": "laser-hazard-trash",
-      "distance": 0
+      "a": "boxing-ring-sparkle",
+      "b": "boxing-ring-upload",
+      "distance": 1.41
     },
     {
-      "a": "high-voltage-trash",
-      "b": "magnetic-field-trash",
-      "distance": 0
+      "a": "weight-pencil",
+      "b": "weight-leaf",
+      "distance": 1.41
     },
     {
-      "a": "high-voltage-trash",
-      "b": "deep-water-trash",
-      "distance": 0
+      "a": "gym-bag-pencil",
+      "b": "gym-bag-leaf",
+      "distance": 1.41
     },
     {
-      "a": "high-voltage-calendar",
-      "b": "hot-surface-calendar",
-      "distance": 0
+      "a": "gym-rings-pencil",
+      "b": "gym-rings-leaf",
+      "distance": 1.41
     },
     {
-      "a": "high-voltage-calendar",
-      "b": "laser-hazard-calendar",
-      "distance": 0
+      "a": "goal-net-sparkle",
+      "b": "goal-net-upload",
+      "distance": 1.41
     },
     {
-      "a": "high-voltage-calendar",
-      "b": "magnetic-field-calendar",
-      "distance": 0
+      "a": "baseball-pencil",
+      "b": "baseball-leaf",
+      "distance": 1.41
     },
     {
-      "a": "high-voltage-calendar",
-      "b": "deep-water-calendar",
-      "distance": 0
+      "a": "baseball-sparkle",
+      "b": "baseball-upload",
+      "distance": 1.41
     },
     {
-      "a": "high-voltage-question",
-      "b": "hot-surface-question",
-      "distance": 0
+      "a": "golf-pencil",
+      "b": "golf-leaf",
+      "distance": 1.41
     },
     {
-      "a": "high-voltage-question",
-      "b": "laser-hazard-question",
-      "distance": 0
+      "a": "calendar-week-sparkle",
+      "b": "calendar-week-upload",
+      "distance": 1.41
     },
     {
-      "a": "high-voltage-question",
-      "b": "magnetic-field-question",
+      "a": "alarm-snooze-search",
+      "b": "alarm-search",
       "distance": 0
     },
     {
-      "a": "high-voltage-question",
-      "b": "deep-water-question",
+      "a": "alarm-snooze-clock",
+      "b": "alarm-clock",
       "distance": 0
     },
     {
-      "a": "high-voltage-bookmark",
-      "b": "hot-surface-bookmark",
+      "a": "alarm-snooze-shield",
+      "b": "alarm-shield",
       "distance": 0
     },
     {
-      "a": "high-voltage-bookmark",
-      "b": "laser-hazard-bookmark",
+      "a": "alarm-snooze-gear",
+      "b": "alarm-gear",
       "distance": 0
     },
     {
-      "a": "high-voltage-bookmark",
-      "b": "magnetic-field-bookmark",
+      "a": "alarm-snooze-bolt",
+      "b": "alarm-bolt",
       "distance": 0
     },
     {
-      "a": "high-voltage-bookmark",
-      "b": "deep-water-bookmark",
+      "a": "alarm-snooze-heart",
+      "b": "alarm-heart",
       "distance": 0
     },
     {
-      "a": "high-voltage-upload",
-      "b": "hot-surface-upload",
+      "a": "alarm-snooze-star",
+      "b": "alarm-star",
       "distance": 0
     },
     {
-      "a": "high-voltage-upload",
-      "b": "laser-hazard-upload",
+      "a": "alarm-snooze-cloud",
+      "b": "alarm-cloud",
       "distance": 0
     },
     {
-      "a": "high-voltage-upload",
-      "b": "magnetic-field-upload",
+      "a": "alarm-snooze-chat",
+      "b": "alarm-chat",
       "distance": 0
     },
     {
-      "a": "high-voltage-upload",
-      "b": "deep-water-upload",
+      "a": "alarm-snooze-download",
+      "b": "alarm-download",
       "distance": 0
     },
     {
-      "a": "high-voltage-crown",
-      "b": "hot-surface-crown",
+      "a": "alarm-snooze-pencil",
+      "b": "alarm-pencil",
       "distance": 0
     },
     {
-      "a": "high-voltage-crown",
-      "b": "laser-hazard-crown",
+      "a": "alarm-snooze-trash",
+      "b": "alarm-trash",
       "distance": 0
     },
     {
-      "a": "high-voltage-crown",
-      "b": "magnetic-field-crown",
+      "a": "alarm-snooze-calendar",
+      "b": "alarm-calendar",
       "distance": 0
     },
     {
-      "a": "high-voltage-crown",
-      "b": "deep-water-crown",
+      "a": "alarm-snooze-question",
+      "b": "alarm-question",
       "distance": 0
     },
     {
-      "a": "high-voltage-leaf",
-      "b": "hot-surface-pencil",
-      "distance": 1.41
+      "a": "alarm-snooze-bookmark",
+      "b": "alarm-bookmark",
+      "distance": 0
     },
     {
-      "a": "high-voltage-leaf",
-      "b": "hot-surface-leaf",
+      "a": "alarm-snooze-upload",
+      "b": "alarm-upload",
       "distance": 0
     },
     {
-      "a": "high-voltage-leaf",
-      "b": "laser-hazard-pencil",
-      "distance": 1.41
+      "a": "alarm-snooze-crown",
+      "b": "alarm-crown",
+      "distance": 0
     },
     {
-      "a": "high-voltage-leaf",
-      "b": "laser-hazard-leaf",
+      "a": "alarm-snooze-leaf",
+      "b": "alarm-leaf",
       "distance": 0
     },
     {
-      "a": "high-voltage-leaf",
-      "b": "magnetic-field-pencil",
-      "distance": 1.41
+      "a": "alarm-snooze-hourglass",
+      "b": "alarm-hourglass",
+      "distance": 0
     },
     {
-      "a": "high-voltage-leaf",
-      "b": "magnetic-field-leaf",
+      "a": "alarm-snooze-cursor",
+      "b": "alarm-cursor",
       "distance": 0
     },
     {
-      "a": "high-voltage-leaf",
-      "b": "deep-water-pencil",
-      "distance": 1.41
+      "a": "alarm-snooze-camera",
+      "b": "alarm-camera",
+      "distance": 0
     },
     {
-      "a": "high-voltage-leaf",
-      "b": "deep-water-leaf",
+      "a": "alarm-snooze-filter",
+      "b": "alarm-filter",
       "distance": 0
     },
     {
-      "a": "high-voltage-hourglass",
-      "b": "hot-surface-hourglass",
+      "a": "alarm-snooze-stats",
+      "b": "alarm-stats",
       "distance": 0
     },
     {
-      "a": "high-voltage-hourglass",
-      "b": "laser-hazard-hourglass",
+      "a": "alarm-snooze-checkbox",
+      "b": "alarm-checkbox",
       "distance": 0
     },
     {
-      "a": "high-voltage-hourglass",
-      "b": "magnetic-field-hourglass",
-      "distance": 0
+      "a": "timeline-pencil",
+      "b": "timeline-leaf",
+      "distance": 1.41
     },
     {
-      "a": "high-voltage-hourglass",
-      "b": "deep-water-hourglass",
-      "distance": 0
+      "a": "clock-fast-pencil",
+      "b": "clock-fast-leaf",
+      "distance": 1.41
     },
     {
-      "a": "high-voltage-cursor",
-      "b": "hot-surface-cursor",
-      "distance": 0
+      "a": "planner-pencil",
+      "b": "planner-leaf",
+      "distance": 1.41
     },
     {
-      "a": "high-voltage-cursor",
-      "b": "laser-hazard-cursor",
-      "distance": 0
+      "a": "planner-sparkle",
+      "b": "planner-upload",
+      "distance": 1.41
     },
     {
-      "a": "high-voltage-cursor",
-      "b": "magnetic-field-cursor",
-      "distance": 0
+      "a": "calendar-repeat-search",
+      "b": "calendar-range-search",
+      "distance": 1
     },
     {
-      "a": "high-voltage-cursor",
-      "b": "deep-water-cursor",
+      "a": "calendar-repeat-search",
+      "b": "calendar-plain-search",
       "distance": 0
     },
     {
-      "a": "high-voltage-camera",
-      "b": "hot-surface-camera",
-      "distance": 0
+      "a": "calendar-repeat-clock",
+      "b": "calendar-range-clock",
+      "distance": 1
     },
     {
-      "a": "high-voltage-camera",
-      "b": "laser-hazard-camera",
+      "a": "calendar-repeat-clock",
+      "b": "calendar-plain-clock",
       "distance": 0
     },
     {
-      "a": "high-voltage-camera",
-      "b": "magnetic-field-camera",
-      "distance": 0
+      "a": "calendar-repeat-shield",
+      "b": "calendar-range-shield",
+      "distance": 1
     },
     {
-      "a": "high-voltage-camera",
-      "b": "deep-water-camera",
+      "a": "calendar-repeat-shield",
+      "b": "calendar-plain-shield",
       "distance": 0
     },
     {
-      "a": "high-voltage-filter",
-      "b": "hot-surface-filter",
-      "distance": 0
+      "a": "calendar-repeat-gear",
+      "b": "calendar-range-gear",
+      "distance": 1
     },
     {
-      "a": "high-voltage-filter",
-      "b": "laser-hazard-filter",
+      "a": "calendar-repeat-gear",
+      "b": "calendar-plain-gear",
       "distance": 0
     },
     {
-      "a": "high-voltage-filter",
-      "b": "magnetic-field-filter",
-      "distance": 0
+      "a": "calendar-repeat-bolt",
+      "b": "calendar-range-bolt",
+      "distance": 1
     },
     {
-      "a": "high-voltage-filter",
-      "b": "deep-water-filter",
+      "a": "calendar-repeat-bolt",
+      "b": "calendar-plain-bolt",
       "distance": 0
     },
     {
-      "a": "high-voltage-stats",
-      "b": "hot-surface-stats",
-      "distance": 0
+      "a": "calendar-repeat-heart",
+      "b": "calendar-range-heart",
+      "distance": 1
     },
     {
-      "a": "high-voltage-stats",
-      "b": "laser-hazard-stats",
+      "a": "calendar-repeat-heart",
+      "b": "calendar-plain-heart",
       "distance": 0
     },
     {
-      "a": "high-voltage-stats",
-      "b": "magnetic-field-stats",
-      "distance": 0
+      "a": "calendar-repeat-star",
+      "b": "calendar-range-star",
+      "distance": 1
     },
     {
-      "a": "high-voltage-stats",
-      "b": "deep-water-stats",
+      "a": "calendar-repeat-star",
+      "b": "calendar-plain-star",
       "distance": 0
     },
     {
-      "a": "high-voltage-checkbox",
-      "b": "hot-surface-checkbox",
-      "distance": 0
+      "a": "calendar-repeat-user",
+      "b": "calendar-range-user",
+      "distance": 1
     },
     {
-      "a": "high-voltage-checkbox",
-      "b": "laser-hazard-checkbox",
+      "a": "calendar-repeat-user",
+      "b": "calendar-plain-user",
       "distance": 0
     },
     {
-      "a": "high-voltage-checkbox",
-      "b": "magnetic-field-checkbox",
-      "distance": 0
+      "a": "calendar-repeat-cloud",
+      "b": "calendar-range-cloud",
+      "distance": 1
     },
     {
-      "a": "high-voltage-checkbox",
-      "b": "deep-water-checkbox",
+      "a": "calendar-repeat-cloud",
+      "b": "calendar-plain-cloud",
       "distance": 0
     },
     {
-      "a": "hot-surface-search",
-      "b": "laser-hazard-search",
-      "distance": 0
+      "a": "calendar-repeat-chat",
+      "b": "calendar-range-chat",
+      "distance": 1
     },
     {
-      "a": "hot-surface-search",
-      "b": "magnetic-field-search",
+      "a": "calendar-repeat-chat",
+      "b": "calendar-plain-chat",
       "distance": 0
     },
     {
-      "a": "hot-surface-search",
-      "b": "deep-water-search",
-      "distance": 0
+      "a": "calendar-repeat-download",
+      "b": "calendar-range-download",
+      "distance": 1
     },
     {
-      "a": "hot-surface-clock",
-      "b": "laser-hazard-clock",
+      "a": "calendar-repeat-download",
+      "b": "calendar-plain-download",
       "distance": 0
     },
     {
-      "a": "hot-surface-clock",
-      "b": "magnetic-field-clock",
-      "distance": 0
+      "a": "calendar-repeat-pencil",
+      "b": "calendar-range-pencil",
+      "distance": 1
     },
     {
-      "a": "hot-surface-clock",
-      "b": "deep-water-clock",
+      "a": "calendar-repeat-pencil",
+      "b": "calendar-plain-pencil",
       "distance": 0
     },
     {
-      "a": "hot-surface-gear",
-      "b": "laser-hazard-gear",
-      "distance": 0
+      "a": "calendar-repeat-sparkle",
+      "b": "calendar-repeat-upload",
+      "distance": 1.41
     },
     {
-      "a": "hot-surface-gear",
-      "b": "magnetic-field-gear",
-      "distance": 0
+      "a": "calendar-repeat-sparkle",
+      "b": "calendar-range-sparkle",
+      "distance": 1
     },
     {
-      "a": "hot-surface-gear",
-      "b": "deep-water-gear",
-      "distance": 0
+      "a": "calendar-repeat-sparkle",
+      "b": "calendar-range-upload",
+      "distance": 1.41
     },
     {
-      "a": "hot-surface-bolt",
-      "b": "laser-hazard-bolt",
+      "a": "calendar-repeat-sparkle",
+      "b": "calendar-plain-sparkle",
       "distance": 0
     },
     {
-      "a": "hot-surface-bolt",
-      "b": "magnetic-field-bolt",
-      "distance": 0
+      "a": "calendar-repeat-sparkle",
+      "b": "calendar-plain-upload",
+      "distance": 1.41
     },
     {
-      "a": "hot-surface-bolt",
-      "b": "deep-water-bolt",
-      "distance": 0
+      "a": "calendar-repeat-trash",
+      "b": "calendar-range-trash",
+      "distance": 1
     },
     {
-      "a": "hot-surface-heart",
-      "b": "laser-hazard-heart",
+      "a": "calendar-repeat-trash",
+      "b": "calendar-plain-trash",
       "distance": 0
     },
     {
-      "a": "hot-surface-heart",
-      "b": "magnetic-field-heart",
-      "distance": 0
+      "a": "calendar-repeat-calendar",
+      "b": "calendar-range-calendar",
+      "distance": 1
     },
     {
-      "a": "hot-surface-heart",
-      "b": "deep-water-heart",
+      "a": "calendar-repeat-calendar",
+      "b": "calendar-plain-calendar",
       "distance": 0
     },
     {
-      "a": "hot-surface-star",
-      "b": "laser-hazard-star",
-      "distance": 0
+      "a": "calendar-repeat-question",
+      "b": "calendar-range-question",
+      "distance": 1
     },
     {
-      "a": "hot-surface-star",
-      "b": "magnetic-field-star",
+      "a": "calendar-repeat-question",
+      "b": "calendar-plain-question",
       "distance": 0
     },
     {
-      "a": "hot-surface-star",
-      "b": "deep-water-star",
-      "distance": 0
+      "a": "calendar-repeat-bookmark",
+      "b": "calendar-range-bookmark",
+      "distance": 1
     },
     {
-      "a": "hot-surface-cloud",
-      "b": "laser-hazard-cloud",
+      "a": "calendar-repeat-bookmark",
+      "b": "calendar-plain-bookmark",
       "distance": 0
     },
     {
-      "a": "hot-surface-cloud",
-      "b": "magnetic-field-cloud",
-      "distance": 0
+      "a": "calendar-repeat-upload",
+      "b": "calendar-range-sparkle",
+      "distance": 1.41
     },
     {
-      "a": "hot-surface-cloud",
-      "b": "deep-water-cloud",
-      "distance": 0
+      "a": "calendar-repeat-upload",
+      "b": "calendar-range-upload",
+      "distance": 1
     },
     {
-      "a": "hot-surface-chat",
-      "b": "laser-hazard-chat",
-      "distance": 0
+      "a": "calendar-repeat-upload",
+      "b": "calendar-plain-sparkle",
+      "distance": 1.41
     },
     {
-      "a": "hot-surface-chat",
-      "b": "magnetic-field-chat",
+      "a": "calendar-repeat-upload",
+      "b": "calendar-plain-upload",
       "distance": 0
     },
     {
-      "a": "hot-surface-chat",
-      "b": "deep-water-chat",
-      "distance": 0
+      "a": "calendar-repeat-crown",
+      "b": "calendar-range-crown",
+      "distance": 1
     },
     {
-      "a": "hot-surface-download",
-      "b": "laser-hazard-download",
+      "a": "calendar-repeat-crown",
+      "b": "calendar-plain-crown",
       "distance": 0
     },
     {
-      "a": "hot-surface-download",
-      "b": "magnetic-field-download",
-      "distance": 0
+      "a": "calendar-repeat-leaf",
+      "b": "calendar-range-leaf",
+      "distance": 1
     },
     {
-      "a": "hot-surface-download",
-      "b": "deep-water-download",
+      "a": "calendar-repeat-leaf",
+      "b": "calendar-plain-leaf",
       "distance": 0
     },
     {
-      "a": "hot-surface-pencil",
-      "b": "hot-surface-leaf",
-      "distance": 1.41
+      "a": "calendar-repeat-trophy",
+      "b": "calendar-range-trophy",
+      "distance": 1
     },
     {
-      "a": "hot-surface-pencil",
-      "b": "laser-hazard-pencil",
+      "a": "calendar-repeat-trophy",
+      "b": "calendar-plain-trophy",
       "distance": 0
     },
     {
-      "a": "hot-surface-pencil",
-      "b": "laser-hazard-leaf",
-      "distance": 1.41
+      "a": "calendar-repeat-hourglass",
+      "b": "calendar-range-hourglass",
+      "distance": 1
     },
     {
-      "a": "hot-surface-pencil",
-      "b": "magnetic-field-pencil",
+      "a": "calendar-repeat-hourglass",
+      "b": "calendar-plain-hourglass",
       "distance": 0
     },
     {
-      "a": "hot-surface-pencil",
-      "b": "magnetic-field-leaf",
-      "distance": 1.41
+      "a": "calendar-repeat-cursor",
+      "b": "calendar-range-cursor",
+      "distance": 1
     },
     {
-      "a": "hot-surface-pencil",
-      "b": "deep-water-pencil",
+      "a": "calendar-repeat-cursor",
+      "b": "calendar-plain-cursor",
       "distance": 0
     },
     {
-      "a": "hot-surface-pencil",
-      "b": "deep-water-leaf",
-      "distance": 1.41
+      "a": "calendar-repeat-camera",
+      "b": "calendar-range-camera",
+      "distance": 1
     },
     {
-      "a": "hot-surface-trash",
-      "b": "laser-hazard-trash",
+      "a": "calendar-repeat-camera",
+      "b": "calendar-plain-camera",
       "distance": 0
     },
     {
-      "a": "hot-surface-trash",
-      "b": "magnetic-field-trash",
-      "distance": 0
+      "a": "calendar-repeat-filter",
+      "b": "calendar-range-filter",
+      "distance": 1
     },
     {
-      "a": "hot-surface-trash",
-      "b": "deep-water-trash",
+      "a": "calendar-repeat-filter",
+      "b": "calendar-plain-filter",
       "distance": 0
     },
     {
-      "a": "hot-surface-calendar",
-      "b": "laser-hazard-calendar",
-      "distance": 0
+      "a": "calendar-repeat-stats",
+      "b": "calendar-range-stats",
+      "distance": 1
     },
     {
-      "a": "hot-surface-calendar",
-      "b": "magnetic-field-calendar",
+      "a": "calendar-repeat-stats",
+      "b": "calendar-plain-stats",
       "distance": 0
     },
     {
-      "a": "hot-surface-calendar",
-      "b": "deep-water-calendar",
-      "distance": 0
+      "a": "calendar-repeat-checkbox",
+      "b": "calendar-range-checkbox",
+      "distance": 1
     },
     {
-      "a": "hot-surface-question",
-      "b": "laser-hazard-question",
+      "a": "calendar-repeat-checkbox",
+      "b": "calendar-plain-checkbox",
       "distance": 0
     },
     {
-      "a": "hot-surface-question",
-      "b": "magnetic-field-question",
-      "distance": 0
+      "a": "calendar-range-search",
+      "b": "calendar-plain-search",
+      "distance": 1
     },
     {
-      "a": "hot-surface-question",
-      "b": "deep-water-question",
-      "distance": 0
+      "a": "calendar-range-clock",
+      "b": "calendar-plain-clock",
+      "distance": 1
     },
     {
-      "a": "hot-surface-bookmark",
-      "b": "laser-hazard-bookmark",
-      "distance": 0
+      "a": "calendar-range-shield",
+      "b": "calendar-plain-shield",
+      "distance": 1
     },
     {
-      "a": "hot-surface-bookmark",
-      "b": "magnetic-field-bookmark",
-      "distance": 0
+      "a": "calendar-range-gear",
+      "b": "calendar-plain-gear",
+      "distance": 1
     },
     {
-      "a": "hot-surface-bookmark",
-      "b": "deep-water-bookmark",
-      "distance": 0
+      "a": "calendar-range-bolt",
+      "b": "calendar-plain-bolt",
+      "distance": 1
     },
     {
-      "a": "hot-surface-upload",
-      "b": "laser-hazard-upload",
-      "distance": 0
+      "a": "calendar-range-heart",
+      "b": "calendar-plain-heart",
+      "distance": 1
     },
     {
-      "a": "hot-surface-upload",
-      "b": "magnetic-field-upload",
-      "distance": 0
+      "a": "calendar-range-star",
+      "b": "calendar-plain-star",
+      "distance": 1
     },
     {
-      "a": "hot-surface-upload",
-      "b": "deep-water-upload",
-      "distance": 0
+      "a": "calendar-range-alert",
+      "b": "calendar-plain-alert",
+      "distance": 1
     },
     {
-      "a": "hot-surface-crown",
-      "b": "laser-hazard-crown",
-      "distance": 0
+      "a": "calendar-range-user",
+      "b": "calendar-plain-user",
+      "distance": 1
     },
     {
-      "a": "hot-surface-crown",
-      "b": "magnetic-field-crown",
-      "distance": 0
+      "a": "calendar-range-cloud",
+      "b": "calendar-plain-cloud",
+      "distance": 1
     },
     {
-      "a": "hot-surface-crown",
-      "b": "deep-water-crown",
-      "distance": 0
+      "a": "calendar-range-chat",
+      "b": "calendar-plain-chat",
+      "distance": 1
     },
     {
-      "a": "hot-surface-leaf",
-      "b": "laser-hazard-pencil",
-      "distance": 1.41
+      "a": "calendar-range-download",
+      "b": "calendar-plain-download",
+      "distance": 1
     },
     {
-      "a": "hot-surface-leaf",
-      "b": "laser-hazard-leaf",
-      "distance": 0
+      "a": "calendar-range-pencil",
+      "b": "calendar-plain-pencil",
+      "distance": 1
     },
     {
-      "a": "hot-surface-leaf",
-      "b": "magnetic-field-pencil",
+      "a": "calendar-range-sparkle",
+      "b": "calendar-range-upload",
       "distance": 1.41
     },
     {
-      "a": "hot-surface-leaf",
-      "b": "magnetic-field-leaf",
-      "distance": 0
+      "a": "calendar-range-sparkle",
+      "b": "calendar-plain-sparkle",
+      "distance": 1
     },
     {
-      "a": "hot-surface-leaf",
-      "b": "deep-water-pencil",
+      "a": "calendar-range-sparkle",
+      "b": "calendar-plain-upload",
       "distance": 1.41
     },
     {
-      "a": "hot-surface-leaf",
-      "b": "deep-water-leaf",
-      "distance": 0
+      "a": "calendar-range-trash",
+      "b": "calendar-plain-trash",
+      "distance": 1
     },
     {
-      "a": "hot-surface-hourglass",
-      "b": "laser-hazard-hourglass",
-      "distance": 0
+      "a": "calendar-range-calendar",
+      "b": "calendar-plain-calendar",
+      "distance": 1
     },
     {
-      "a": "hot-surface-hourglass",
-      "b": "magnetic-field-hourglass",
-      "distance": 0
+      "a": "calendar-range-question",
+      "b": "calendar-plain-question",
+      "distance": 1
     },
     {
-      "a": "hot-surface-hourglass",
-      "b": "deep-water-hourglass",
-      "distance": 0
+      "a": "calendar-range-bookmark",
+      "b": "calendar-plain-bookmark",
+      "distance": 1
     },
     {
-      "a": "hot-surface-cursor",
-      "b": "laser-hazard-cursor",
-      "distance": 0
+      "a": "calendar-range-upload",
+      "b": "calendar-plain-sparkle",
+      "distance": 1.41
     },
     {
-      "a": "hot-surface-cursor",
-      "b": "magnetic-field-cursor",
-      "distance": 0
+      "a": "calendar-range-upload",
+      "b": "calendar-plain-upload",
+      "distance": 1
     },
     {
-      "a": "hot-surface-cursor",
-      "b": "deep-water-cursor",
-      "distance": 0
+      "a": "calendar-range-crown",
+      "b": "calendar-plain-crown",
+      "distance": 1
     },
     {
-      "a": "hot-surface-camera",
-      "b": "laser-hazard-camera",
-      "distance": 0
+      "a": "calendar-range-leaf",
+      "b": "calendar-plain-leaf",
+      "distance": 1
     },
     {
-      "a": "hot-surface-camera",
-      "b": "magnetic-field-camera",
-      "distance": 0
+      "a": "calendar-range-trophy",
+      "b": "calendar-plain-trophy",
+      "distance": 1
     },
     {
-      "a": "hot-surface-camera",
-      "b": "deep-water-camera",
-      "distance": 0
+      "a": "calendar-range-hourglass",
+      "b": "calendar-plain-hourglass",
+      "distance": 1
     },
     {
-      "a": "hot-surface-filter",
-      "b": "laser-hazard-filter",
-      "distance": 0
+      "a": "calendar-range-cursor",
+      "b": "calendar-plain-cursor",
+      "distance": 1
     },
     {
-      "a": "hot-surface-filter",
-      "b": "magnetic-field-filter",
-      "distance": 0
+      "a": "calendar-range-camera",
+      "b": "calendar-plain-camera",
+      "distance": 1
     },
     {
-      "a": "hot-surface-filter",
-      "b": "deep-water-filter",
-      "distance": 0
+      "a": "calendar-range-filter",
+      "b": "calendar-plain-filter",
+      "distance": 1
     },
     {
-      "a": "hot-surface-stats",
-      "b": "laser-hazard-stats",
-      "distance": 0
+      "a": "calendar-range-stats",
+      "b": "calendar-plain-stats",
+      "distance": 1
     },
     {
-      "a": "hot-surface-stats",
-      "b": "magnetic-field-stats",
-      "distance": 0
+      "a": "calendar-range-checkbox",
+      "b": "calendar-plain-checkbox",
+      "distance": 1
     },
     {
-      "a": "hot-surface-stats",
-      "b": "deep-water-stats",
-      "distance": 0
+      "a": "sundial-pencil",
+      "b": "sundial-leaf",
+      "distance": 1.41
     },
     {
-      "a": "hot-surface-checkbox",
-      "b": "laser-hazard-checkbox",
-      "distance": 0
+      "a": "calendar-note-sparkle",
+      "b": "calendar-note-upload",
+      "distance": 1.41
     },
     {
-      "a": "hot-surface-checkbox",
-      "b": "magnetic-field-checkbox",
-      "distance": 0
+      "a": "clock-pencil",
+      "b": "clock-leaf",
+      "distance": 1.41
     },
     {
-      "a": "hot-surface-checkbox",
-      "b": "deep-water-checkbox",
-      "distance": 0
+      "a": "timer-pencil",
+      "b": "timer-leaf",
+      "distance": 1.41
     },
     {
-      "a": "laser-hazard-search",
-      "b": "magnetic-field-search",
-      "distance": 0
+      "a": "history-pencil",
+      "b": "history-leaf",
+      "distance": 1.41
     },
     {
-      "a": "laser-hazard-search",
-      "b": "deep-water-search",
-      "distance": 0
+      "a": "calendar-plain-sparkle",
+      "b": "calendar-plain-upload",
+      "distance": 1.41
     },
     {
-      "a": "laser-hazard-clock",
-      "b": "magnetic-field-clock",
-      "distance": 0
+      "a": "calendar-days-sparkle",
+      "b": "calendar-days-upload",
+      "distance": 1.41
     },
     {
-      "a": "laser-hazard-clock",
-      "b": "deep-water-clock",
-      "distance": 0
+      "a": "vise-pencil",
+      "b": "vise-leaf",
+      "distance": 1.41
     },
     {
-      "a": "laser-hazard-gear",
-      "b": "magnetic-field-gear",
-      "distance": 0
+      "a": "vise-sparkle",
+      "b": "vise-upload",
+      "distance": 1.41
     },
     {
-      "a": "laser-hazard-gear",
-      "b": "deep-water-gear",
-      "distance": 0
+      "a": "multimeter-pencil",
+      "b": "multimeter-leaf",
+      "distance": 1.41
     },
     {
-      "a": "laser-hazard-bolt",
-      "b": "magnetic-field-bolt",
-      "distance": 0
+      "a": "multimeter-sparkle",
+      "b": "multimeter-upload",
+      "distance": 1.41
     },
     {
-      "a": "laser-hazard-bolt",
-      "b": "deep-water-bolt",
-      "distance": 0
+      "a": "bolt-sparkle",
+      "b": "bolt-upload",
+      "distance": 1.41
     },
     {
-      "a": "laser-hazard-heart",
-      "b": "magnetic-field-heart",
-      "distance": 0
+      "a": "phone-booth-moon",
+      "b": "multimeter-moon",
+      "distance": 1.41
     },
     {
-      "a": "laser-hazard-heart",
-      "b": "deep-water-heart",
-      "distance": 0
+      "a": "phone-booth-fire",
+      "b": "multimeter-fire",
+      "distance": 1.41
     },
     {
-      "a": "laser-hazard-star",
-      "b": "magnetic-field-star",
-      "distance": 0
+      "a": "nas-moon",
+      "b": "multimeter-moon",
+      "distance": 1.41
     },
     {
-      "a": "laser-hazard-star",
-      "b": "deep-water-star",
-      "distance": 0
+      "a": "captain-hat-bell",
+      "b": "hockey-puck-bell",
+      "distance": 1.41
     },
     {
-      "a": "laser-hazard-cloud",
-      "b": "magnetic-field-cloud",
-      "distance": 0
+      "a": "captain-hat-moon",
+      "b": "hockey-puck-moon",
+      "distance": 1.41
     },
     {
-      "a": "laser-hazard-cloud",
-      "b": "deep-water-cloud",
-      "distance": 0
-    },
-    {
-      "a": "laser-hazard-chat",
-      "b": "magnetic-field-chat",
-      "distance": 0
-    },
-    {
-      "a": "laser-hazard-chat",
-      "b": "deep-water-chat",
-      "distance": 0
-    },
-    {
-      "a": "laser-hazard-download",
-      "b": "magnetic-field-download",
-      "distance": 0
-    },
-    {
-      "a": "laser-hazard-download",
-      "b": "deep-water-download",
-      "distance": 0
-    },
-    {
-      "a": "laser-hazard-pencil",
-      "b": "laser-hazard-leaf",
+      "a": "meat-thermometer-bell",
+      "b": "golf-tee-bell",
       "distance": 1.41
-    },
-    {
-      "a": "laser-hazard-pencil",
-      "b": "magnetic-field-pencil",
-      "distance": 0
-    },
-    {
-      "a": "laser-hazard-pencil",
-      "b": "magnetic-field-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "laser-hazard-pencil",
-      "b": "deep-water-pencil",
-      "distance": 0
-    },
-    {
-      "a": "laser-hazard-pencil",
-      "b": "deep-water-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "laser-hazard-trash",
-      "b": "magnetic-field-trash",
-      "distance": 0
-    },
-    {
-      "a": "laser-hazard-trash",
-      "b": "deep-water-trash",
-      "distance": 0
-    },
-    {
-      "a": "laser-hazard-calendar",
-      "b": "magnetic-field-calendar",
-      "distance": 0
-    },
-    {
-      "a": "laser-hazard-calendar",
-      "b": "deep-water-calendar",
-      "distance": 0
-    },
-    {
-      "a": "laser-hazard-question",
-      "b": "magnetic-field-question",
-      "distance": 0
-    },
-    {
-      "a": "laser-hazard-question",
-      "b": "deep-water-question",
-      "distance": 0
-    },
-    {
-      "a": "laser-hazard-bookmark",
-      "b": "magnetic-field-bookmark",
-      "distance": 0
-    },
-    {
-      "a": "laser-hazard-bookmark",
-      "b": "deep-water-bookmark",
-      "distance": 0
-    },
-    {
-      "a": "laser-hazard-upload",
-      "b": "magnetic-field-upload",
-      "distance": 0
-    },
-    {
-      "a": "laser-hazard-upload",
-      "b": "deep-water-upload",
-      "distance": 0
-    },
-    {
-      "a": "laser-hazard-crown",
-      "b": "magnetic-field-crown",
-      "distance": 0
-    },
-    {
-      "a": "laser-hazard-crown",
-      "b": "deep-water-crown",
-      "distance": 0
     },
     {
-      "a": "laser-hazard-leaf",
-      "b": "magnetic-field-pencil",
+      "a": "meat-thermometer-trophy",
+      "b": "golf-tee-trophy",
       "distance": 1.41
-    },
-    {
-      "a": "laser-hazard-leaf",
-      "b": "magnetic-field-leaf",
-      "distance": 0
     },
     {
-      "a": "laser-hazard-leaf",
-      "b": "deep-water-pencil",
+      "a": "browser-moon",
+      "b": "calendar-range-moon",
       "distance": 1.41
-    },
-    {
-      "a": "laser-hazard-leaf",
-      "b": "deep-water-leaf",
-      "distance": 0
-    },
-    {
-      "a": "laser-hazard-hourglass",
-      "b": "magnetic-field-hourglass",
-      "distance": 0
-    },
-    {
-      "a": "laser-hazard-hourglass",
-      "b": "deep-water-hourglass",
-      "distance": 0
-    },
-    {
-      "a": "laser-hazard-cursor",
-      "b": "magnetic-field-cursor",
-      "distance": 0
-    },
-    {
-      "a": "laser-hazard-cursor",
-      "b": "deep-water-cursor",
-      "distance": 0
-    },
-    {
-      "a": "laser-hazard-camera",
-      "b": "magnetic-field-camera",
-      "distance": 0
-    },
-    {
-      "a": "laser-hazard-camera",
-      "b": "deep-water-camera",
-      "distance": 0
-    },
-    {
-      "a": "laser-hazard-filter",
-      "b": "magnetic-field-filter",
-      "distance": 0
-    },
-    {
-      "a": "laser-hazard-filter",
-      "b": "deep-water-filter",
-      "distance": 0
-    },
-    {
-      "a": "laser-hazard-stats",
-      "b": "magnetic-field-stats",
-      "distance": 0
-    },
-    {
-      "a": "laser-hazard-stats",
-      "b": "deep-water-stats",
-      "distance": 0
-    },
-    {
-      "a": "laser-hazard-checkbox",
-      "b": "magnetic-field-checkbox",
-      "distance": 0
-    },
-    {
-      "a": "laser-hazard-checkbox",
-      "b": "deep-water-checkbox",
-      "distance": 0
-    },
-    {
-      "a": "magnetic-field-search",
-      "b": "deep-water-search",
-      "distance": 0
-    },
-    {
-      "a": "magnetic-field-clock",
-      "b": "deep-water-clock",
-      "distance": 0
-    },
-    {
-      "a": "magnetic-field-gear",
-      "b": "deep-water-gear",
-      "distance": 0
-    },
-    {
-      "a": "magnetic-field-bolt",
-      "b": "deep-water-bolt",
-      "distance": 0
-    },
-    {
-      "a": "magnetic-field-heart",
-      "b": "deep-water-heart",
-      "distance": 0
-    },
-    {
-      "a": "magnetic-field-star",
-      "b": "deep-water-star",
-      "distance": 0
-    },
-    {
-      "a": "magnetic-field-cloud",
-      "b": "deep-water-cloud",
-      "distance": 0
-    },
-    {
-      "a": "magnetic-field-chat",
-      "b": "deep-water-chat",
-      "distance": 0
-    },
-    {
-      "a": "magnetic-field-download",
-      "b": "deep-water-download",
-      "distance": 0
     },
     {
-      "a": "magnetic-field-pencil",
-      "b": "magnetic-field-leaf",
+      "a": "cairn-bell",
+      "b": "weight-bell",
       "distance": 1.41
-    },
-    {
-      "a": "magnetic-field-pencil",
-      "b": "deep-water-pencil",
-      "distance": 0
     },
     {
-      "a": "magnetic-field-pencil",
-      "b": "deep-water-leaf",
+      "a": "cairn-moon",
+      "b": "weight-moon",
       "distance": 1.41
-    },
-    {
-      "a": "magnetic-field-trash",
-      "b": "deep-water-trash",
-      "distance": 0
-    },
-    {
-      "a": "magnetic-field-calendar",
-      "b": "deep-water-calendar",
-      "distance": 0
-    },
-    {
-      "a": "magnetic-field-question",
-      "b": "deep-water-question",
-      "distance": 0
-    },
-    {
-      "a": "magnetic-field-bookmark",
-      "b": "deep-water-bookmark",
-      "distance": 0
     },
     {
-      "a": "magnetic-field-upload",
-      "b": "deep-water-upload",
-      "distance": 0
-    },
-    {
-      "a": "magnetic-field-crown",
-      "b": "deep-water-crown",
-      "distance": 0
-    },
-    {
-      "a": "magnetic-field-leaf",
-      "b": "deep-water-pencil",
+      "a": "lock-moon",
+      "b": "kettlebell-moon",
       "distance": 1.41
-    },
-    {
-      "a": "magnetic-field-leaf",
-      "b": "deep-water-leaf",
-      "distance": 0
-    },
-    {
-      "a": "magnetic-field-hourglass",
-      "b": "deep-water-hourglass",
-      "distance": 0
     },
     {
-      "a": "magnetic-field-cursor",
-      "b": "deep-water-cursor",
+      "a": "alarm-snooze-bell",
+      "b": "alarm-bell",
       "distance": 0
     },
     {
-      "a": "magnetic-field-camera",
-      "b": "deep-water-camera",
+      "a": "alarm-snooze-moon",
+      "b": "alarm-moon",
       "distance": 0
     },
     {
-      "a": "magnetic-field-filter",
-      "b": "deep-water-filter",
+      "a": "alarm-snooze-trophy",
+      "b": "alarm-trophy",
       "distance": 0
     },
     {
-      "a": "magnetic-field-stats",
-      "b": "deep-water-stats",
-      "distance": 0
+      "a": "calendar-repeat-moon",
+      "b": "calendar-range-moon",
+      "distance": 1
     },
     {
-      "a": "magnetic-field-checkbox",
-      "b": "deep-water-checkbox",
+      "a": "calendar-repeat-moon",
+      "b": "calendar-plain-moon",
       "distance": 0
-    },
-    {
-      "a": "deep-water-pencil",
-      "b": "deep-water-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "firewall-pencil",
-      "b": "firewall-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "firewall-sparkle",
-      "b": "firewall-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "passkey-pencil",
-      "b": "passkey-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "incognito-sparkle",
-      "b": "incognito-upload",
-      "distance": 1.41
     },
     {
-      "a": "face-scan-pencil",
-      "b": "face-scan-leaf",
-      "distance": 1.41
+      "a": "calendar-range-moon",
+      "b": "calendar-plain-moon",
+      "distance": 1
     },
     {
-      "a": "phishing-sparkle",
-      "b": "phishing-upload",
+      "a": "captain-hat-fire",
+      "b": "hockey-puck-fire",
       "distance": 1.41
     },
     {
-      "a": "lock-pencil",
-      "b": "lock-leaf",
+      "a": "meat-thermometer-fire",
+      "b": "golf-tee-fire",
       "distance": 1.41
     },
     {
-      "a": "eye-scan-pencil",
-      "b": "eye-scan-leaf",
+      "a": "browser-fire",
+      "b": "calendar-range-fire",
       "distance": 1.41
     },
     {
-      "a": "qr-scan-pencil",
-      "b": "qr-scan-leaf",
+      "a": "cairn-fire",
+      "b": "weight-fire",
       "distance": 1.41
     },
     {
-      "a": "qr-scan-sparkle",
-      "b": "qr-scan-upload",
-      "distance": 1.41
+      "a": "alarm-snooze-fire",
+      "b": "alarm-fire",
+      "distance": 0
     },
     {
-      "a": "yoga-mat-pencil",
-      "b": "yoga-mat-leaf",
-      "distance": 1.41
+      "a": "calendar-repeat-fire",
+      "b": "calendar-range-fire",
+      "distance": 1
     },
     {
-      "a": "snowboard-sparkle",
-      "b": "snowboard-upload",
-      "distance": 1.41
+      "a": "calendar-repeat-fire",
+      "b": "calendar-plain-fire",
+      "distance": 0
     },
     {
-      "a": "locker-pencil",
-      "b": "locker-leaf",
-      "distance": 1.41
+      "a": "calendar-range-fire",
+      "b": "calendar-plain-fire",
+      "distance": 1
     },
     {
-      "a": "locker-sparkle",
-      "b": "locker-upload",
+      "a": "captain-hat-pin",
+      "b": "hockey-puck-pin",
       "distance": 1.41
     },
     {
-      "a": "life-ring-pencil",
-      "b": "life-ring-leaf",
+      "a": "captain-hat-user",
+      "b": "hockey-puck-user",
       "distance": 1.41
     },
     {
-      "a": "ski-boot-pencil",
-      "b": "ski-boot-leaf",
+      "a": "captain-hat-sparkle",
+      "b": "hockey-puck-sparkle",
       "distance": 1.41
     },
     {
-      "a": "ski-boot-sparkle",
-      "b": "ski-boot-upload",
+      "a": "captain-hat-flag",
+      "b": "hockey-puck-flag",
       "distance": 1.41
     },
     {
-      "a": "soccer-ball-pencil",
-      "b": "soccer-ball-leaf",
+      "a": "captain-hat-trophy",
+      "b": "hockey-puck-trophy",
       "distance": 1.41
-    },
-    {
-      "a": "smartphone-bell",
-      "b": "otp-bell",
-      "distance": 0
-    },
-    {
-      "a": "smartphone-moon",
-      "b": "otp-moon",
-      "distance": 0
-    },
-    {
-      "a": "smartphone-trophy",
-      "b": "otp-trophy",
-      "distance": 0
     },
     {
-      "a": "gas-flame-moon",
-      "b": "firewall-moon",
+      "a": "meat-thermometer-shield",
+      "b": "golf-tee-shield",
       "distance": 1.41
     },
     {
-      "a": "bottle-cap-moon",
-      "b": "life-ring-moon",
+      "a": "meat-thermometer-pin",
+      "b": "golf-tee-pin",
       "distance": 1.41
-    },
-    {
-      "a": "high-voltage-bell",
-      "b": "hot-surface-bell",
-      "distance": 0
-    },
-    {
-      "a": "high-voltage-bell",
-      "b": "laser-hazard-bell",
-      "distance": 0
-    },
-    {
-      "a": "high-voltage-bell",
-      "b": "magnetic-field-bell",
-      "distance": 0
-    },
-    {
-      "a": "high-voltage-bell",
-      "b": "deep-water-bell",
-      "distance": 0
-    },
-    {
-      "a": "high-voltage-moon",
-      "b": "hot-surface-moon",
-      "distance": 0
-    },
-    {
-      "a": "high-voltage-moon",
-      "b": "laser-hazard-moon",
-      "distance": 0
-    },
-    {
-      "a": "high-voltage-moon",
-      "b": "magnetic-field-moon",
-      "distance": 0
-    },
-    {
-      "a": "high-voltage-moon",
-      "b": "deep-water-moon",
-      "distance": 0
-    },
-    {
-      "a": "high-voltage-trophy",
-      "b": "hot-surface-trophy",
-      "distance": 0
-    },
-    {
-      "a": "high-voltage-trophy",
-      "b": "laser-hazard-trophy",
-      "distance": 0
-    },
-    {
-      "a": "high-voltage-trophy",
-      "b": "magnetic-field-trophy",
-      "distance": 0
-    },
-    {
-      "a": "high-voltage-trophy",
-      "b": "deep-water-trophy",
-      "distance": 0
-    },
-    {
-      "a": "hot-surface-bell",
-      "b": "laser-hazard-bell",
-      "distance": 0
-    },
-    {
-      "a": "hot-surface-bell",
-      "b": "magnetic-field-bell",
-      "distance": 0
-    },
-    {
-      "a": "hot-surface-bell",
-      "b": "deep-water-bell",
-      "distance": 0
-    },
-    {
-      "a": "hot-surface-moon",
-      "b": "laser-hazard-moon",
-      "distance": 0
-    },
-    {
-      "a": "hot-surface-moon",
-      "b": "magnetic-field-moon",
-      "distance": 0
-    },
-    {
-      "a": "hot-surface-moon",
-      "b": "deep-water-moon",
-      "distance": 0
-    },
-    {
-      "a": "hot-surface-trophy",
-      "b": "laser-hazard-trophy",
-      "distance": 0
     },
     {
-      "a": "hot-surface-trophy",
-      "b": "magnetic-field-trophy",
-      "distance": 0
-    },
-    {
-      "a": "hot-surface-trophy",
-      "b": "deep-water-trophy",
-      "distance": 0
-    },
-    {
-      "a": "laser-hazard-bell",
-      "b": "magnetic-field-bell",
-      "distance": 0
-    },
-    {
-      "a": "laser-hazard-bell",
-      "b": "deep-water-bell",
-      "distance": 0
-    },
-    {
-      "a": "laser-hazard-moon",
-      "b": "magnetic-field-moon",
-      "distance": 0
-    },
-    {
-      "a": "laser-hazard-moon",
-      "b": "deep-water-moon",
-      "distance": 0
-    },
-    {
-      "a": "laser-hazard-trophy",
-      "b": "magnetic-field-trophy",
-      "distance": 0
-    },
-    {
-      "a": "laser-hazard-trophy",
-      "b": "deep-water-trophy",
-      "distance": 0
-    },
-    {
-      "a": "magnetic-field-bell",
-      "b": "deep-water-bell",
-      "distance": 0
-    },
-    {
-      "a": "magnetic-field-moon",
-      "b": "deep-water-moon",
-      "distance": 0
-    },
-    {
-      "a": "magnetic-field-trophy",
-      "b": "deep-water-trophy",
-      "distance": 0
-    },
-    {
-      "a": "smartphone-fire",
-      "b": "otp-fire",
-      "distance": 0
-    },
-    {
-      "a": "gas-flame-fire",
-      "b": "firewall-fire",
+      "a": "meat-thermometer-user",
+      "b": "golf-tee-user",
       "distance": 1.41
-    },
-    {
-      "a": "high-voltage-fire",
-      "b": "hot-surface-fire",
-      "distance": 0
-    },
-    {
-      "a": "high-voltage-fire",
-      "b": "laser-hazard-fire",
-      "distance": 0
-    },
-    {
-      "a": "high-voltage-fire",
-      "b": "magnetic-field-fire",
-      "distance": 0
-    },
-    {
-      "a": "high-voltage-fire",
-      "b": "deep-water-fire",
-      "distance": 0
-    },
-    {
-      "a": "hot-surface-fire",
-      "b": "laser-hazard-fire",
-      "distance": 0
-    },
-    {
-      "a": "hot-surface-fire",
-      "b": "magnetic-field-fire",
-      "distance": 0
-    },
-    {
-      "a": "hot-surface-fire",
-      "b": "deep-water-fire",
-      "distance": 0
-    },
-    {
-      "a": "laser-hazard-fire",
-      "b": "magnetic-field-fire",
-      "distance": 0
-    },
-    {
-      "a": "laser-hazard-fire",
-      "b": "deep-water-fire",
-      "distance": 0
-    },
-    {
-      "a": "magnetic-field-fire",
-      "b": "deep-water-fire",
-      "distance": 0
     },
     {
-      "a": "usb-hub-add",
-      "b": "firewall-gear",
+      "a": "meat-thermometer-sparkle",
+      "b": "golf-tee-sparkle",
       "distance": 1.41
     },
     {
-      "a": "usb-hub-close",
-      "b": "firewall-gear",
+      "a": "meat-thermometer-sparkle",
+      "b": "golf-tee-upload",
       "distance": 1.41
     },
     {
-      "a": "gas-flame-bell",
-      "b": "firewall-bell",
+      "a": "meat-thermometer-flag",
+      "b": "golf-tee-flag",
       "distance": 1.41
     },
     {
-      "a": "gas-flame-flag",
-      "b": "firewall-flag",
+      "a": "meat-thermometer-moon",
+      "b": "golf-tee-moon",
       "distance": 1.41
     },
     {
-      "a": "bottle-cap-pin",
-      "b": "life-ring-pin",
+      "a": "browser-pin",
+      "b": "calendar-range-pin",
       "distance": 1.41
     },
     {
-      "a": "bottle-cap-bell",
-      "b": "life-ring-bell",
+      "a": "browser-bell",
+      "b": "calendar-range-bell",
       "distance": 1.41
     },
     {
-      "a": "bottle-cap-flag",
-      "b": "life-ring-flag",
+      "a": "browser-flag",
+      "b": "calendar-range-flag",
       "distance": 1.41
     },
     {
-      "a": "chocolate-bar-pin",
-      "b": "keypad-pin",
+      "a": "cairn-pin",
+      "b": "weight-pin",
       "distance": 1.41
     },
     {
-      "a": "chocolate-bar-bell",
-      "b": "keypad-bell",
+      "a": "cairn-user",
+      "b": "weight-user",
       "distance": 1.41
     },
     {
-      "a": "chocolate-bar-flag",
-      "b": "keypad-flag",
+      "a": "cairn-sparkle",
+      "b": "weight-sparkle",
       "distance": 1.41
     },
     {
-      "a": "chocolate-bar-fire",
-      "b": "keypad-fire",
+      "a": "cairn-sparkle",
+      "b": "weight-upload",
       "distance": 1.41
     },
     {
-      "a": "aperture-pin",
-      "b": "life-ring-pin",
+      "a": "cairn-flag",
+      "b": "weight-flag",
       "distance": 1.41
     },
     {
-      "a": "aperture-bell",
-      "b": "life-ring-bell",
+      "a": "cairn-trophy",
+      "b": "weight-trophy",
       "distance": 1.41
     },
     {
-      "a": "aperture-flag",
-      "b": "life-ring-flag",
+      "a": "lock-shield",
+      "b": "kettlebell-shield",
       "distance": 1.41
     },
     {
-      "a": "environment-hazard-sparkle",
-      "b": "environment-hazard-upload",
+      "a": "lock-pin",
+      "b": "kettlebell-pin",
       "distance": 1.41
     },
     {
-      "a": "prism-sparkle",
-      "b": "prism-upload",
+      "a": "bowling-sparkle",
+      "b": "bowling-upload",
       "distance": 1.41
     },
     {
-      "a": "bunsen-burner-sparkle",
-      "b": "bunsen-burner-upload",
+      "a": "jump-rope-sparkle",
+      "b": "jump-rope-upload",
       "distance": 1.41
     },
     {
-      "a": "galaxy-sparkle",
-      "b": "galaxy-upload",
+      "a": "hockey-puck-sparkle",
+      "b": "hockey-puck-upload",
       "distance": 1.41
     },
     {
-      "a": "bacteria-sparkle",
-      "b": "bacteria-upload",
+      "a": "football-helmet-sparkle",
+      "b": "football-helmet-upload",
       "distance": 1.41
     },
     {
-      "a": "constellation-sparkle",
-      "b": "constellation-upload",
+      "a": "weight-sparkle",
+      "b": "weight-upload",
       "distance": 1.41
     },
     {
-      "a": "dagger-sparkle",
-      "b": "dagger-upload",
+      "a": "gym-bag-sparkle",
+      "b": "gym-bag-upload",
       "distance": 1.41
-    },
-    {
-      "a": "high-voltage-shield",
-      "b": "hot-surface-shield",
-      "distance": 0
-    },
-    {
-      "a": "high-voltage-shield",
-      "b": "laser-hazard-shield",
-      "distance": 0
-    },
-    {
-      "a": "high-voltage-shield",
-      "b": "magnetic-field-shield",
-      "distance": 0
-    },
-    {
-      "a": "high-voltage-shield",
-      "b": "deep-water-shield",
-      "distance": 0
-    },
-    {
-      "a": "high-voltage-pin",
-      "b": "hot-surface-pin",
-      "distance": 0
-    },
-    {
-      "a": "high-voltage-pin",
-      "b": "laser-hazard-pin",
-      "distance": 0
-    },
-    {
-      "a": "high-voltage-pin",
-      "b": "magnetic-field-pin",
-      "distance": 0
-    },
-    {
-      "a": "high-voltage-pin",
-      "b": "deep-water-pin",
-      "distance": 0
-    },
-    {
-      "a": "high-voltage-user",
-      "b": "hot-surface-user",
-      "distance": 0
     },
     {
-      "a": "high-voltage-user",
-      "b": "laser-hazard-user",
-      "distance": 0
-    },
-    {
-      "a": "high-voltage-user",
-      "b": "magnetic-field-user",
-      "distance": 0
-    },
-    {
-      "a": "high-voltage-user",
-      "b": "deep-water-user",
-      "distance": 0
-    },
-    {
-      "a": "high-voltage-sparkle",
-      "b": "high-voltage-upload",
+      "a": "golf-tee-sparkle",
+      "b": "golf-tee-upload",
       "distance": 1.41
-    },
-    {
-      "a": "high-voltage-sparkle",
-      "b": "hot-surface-sparkle",
-      "distance": 0
     },
     {
-      "a": "high-voltage-sparkle",
-      "b": "hot-surface-upload",
+      "a": "snorkel-sparkle",
+      "b": "snorkel-upload",
       "distance": 1.41
-    },
-    {
-      "a": "high-voltage-sparkle",
-      "b": "laser-hazard-sparkle",
-      "distance": 0
     },
     {
-      "a": "high-voltage-sparkle",
-      "b": "laser-hazard-upload",
+      "a": "oar-sparkle",
+      "b": "oar-upload",
       "distance": 1.41
     },
     {
-      "a": "high-voltage-sparkle",
-      "b": "magnetic-field-sparkle",
-      "distance": 0
-    },
-    {
-      "a": "high-voltage-sparkle",
-      "b": "magnetic-field-upload",
+      "a": "fishing-float-sparkle",
+      "b": "fishing-float-upload",
       "distance": 1.41
-    },
-    {
-      "a": "high-voltage-sparkle",
-      "b": "deep-water-sparkle",
-      "distance": 0
     },
     {
-      "a": "high-voltage-sparkle",
-      "b": "deep-water-upload",
+      "a": "swimming-sparkle",
+      "b": "swimming-upload",
       "distance": 1.41
-    },
-    {
-      "a": "high-voltage-flag",
-      "b": "hot-surface-flag",
-      "distance": 0
-    },
-    {
-      "a": "high-voltage-flag",
-      "b": "laser-hazard-flag",
-      "distance": 0
-    },
-    {
-      "a": "high-voltage-flag",
-      "b": "magnetic-field-flag",
-      "distance": 0
-    },
-    {
-      "a": "high-voltage-flag",
-      "b": "deep-water-flag",
-      "distance": 0
     },
     {
-      "a": "high-voltage-upload",
-      "b": "hot-surface-sparkle",
+      "a": "sled-sparkle",
+      "b": "sled-upload",
       "distance": 1.41
     },
     {
-      "a": "high-voltage-upload",
-      "b": "laser-hazard-sparkle",
+      "a": "fishing-rod-sparkle",
+      "b": "fishing-rod-upload",
       "distance": 1.41
     },
     {
-      "a": "high-voltage-upload",
-      "b": "magnetic-field-sparkle",
+      "a": "kettlebell-sparkle",
+      "b": "kettlebell-upload",
       "distance": 1.41
     },
     {
-      "a": "high-voltage-upload",
-      "b": "deep-water-sparkle",
+      "a": "golf-sparkle",
+      "b": "golf-upload",
       "distance": 1.41
-    },
-    {
-      "a": "hot-surface-shield",
-      "b": "laser-hazard-shield",
-      "distance": 0
-    },
-    {
-      "a": "hot-surface-shield",
-      "b": "magnetic-field-shield",
-      "distance": 0
-    },
-    {
-      "a": "hot-surface-shield",
-      "b": "deep-water-shield",
-      "distance": 0
-    },
-    {
-      "a": "hot-surface-pin",
-      "b": "laser-hazard-pin",
-      "distance": 0
-    },
-    {
-      "a": "hot-surface-pin",
-      "b": "magnetic-field-pin",
-      "distance": 0
-    },
-    {
-      "a": "hot-surface-pin",
-      "b": "deep-water-pin",
-      "distance": 0
-    },
-    {
-      "a": "hot-surface-user",
-      "b": "laser-hazard-user",
-      "distance": 0
     },
     {
-      "a": "hot-surface-user",
-      "b": "magnetic-field-user",
-      "distance": 0
-    },
-    {
-      "a": "hot-surface-user",
-      "b": "deep-water-user",
-      "distance": 0
-    },
-    {
-      "a": "hot-surface-sparkle",
-      "b": "hot-surface-upload",
+      "a": "timeline-sparkle",
+      "b": "timeline-upload",
       "distance": 1.41
-    },
-    {
-      "a": "hot-surface-sparkle",
-      "b": "laser-hazard-sparkle",
-      "distance": 0
     },
     {
-      "a": "hot-surface-sparkle",
-      "b": "laser-hazard-upload",
+      "a": "bedtime-sparkle",
+      "b": "bedtime-upload",
       "distance": 1.41
-    },
-    {
-      "a": "hot-surface-sparkle",
-      "b": "magnetic-field-sparkle",
-      "distance": 0
     },
     {
-      "a": "hot-surface-sparkle",
-      "b": "magnetic-field-upload",
+      "a": "sundial-sparkle",
+      "b": "sundial-upload",
       "distance": 1.41
-    },
-    {
-      "a": "hot-surface-sparkle",
-      "b": "deep-water-sparkle",
-      "distance": 0
     },
     {
-      "a": "hot-surface-sparkle",
-      "b": "deep-water-upload",
+      "a": "jackhammer-sparkle",
+      "b": "jackhammer-upload",
       "distance": 1.41
-    },
-    {
-      "a": "hot-surface-flag",
-      "b": "laser-hazard-flag",
-      "distance": 0
-    },
-    {
-      "a": "hot-surface-flag",
-      "b": "magnetic-field-flag",
-      "distance": 0
-    },
-    {
-      "a": "hot-surface-flag",
-      "b": "deep-water-flag",
-      "distance": 0
     },
     {
-      "a": "hot-surface-upload",
-      "b": "laser-hazard-sparkle",
+      "a": "glue-gun-sparkle",
+      "b": "glue-gun-upload",
       "distance": 1.41
     },
     {
-      "a": "hot-surface-upload",
-      "b": "magnetic-field-sparkle",
+      "a": "utility-knife-sparkle",
+      "b": "utility-knife-upload",
       "distance": 1.41
     },
     {
-      "a": "hot-surface-upload",
-      "b": "deep-water-sparkle",
+      "a": "mallet-sparkle",
+      "b": "mallet-upload",
       "distance": 1.41
-    },
-    {
-      "a": "laser-hazard-shield",
-      "b": "magnetic-field-shield",
-      "distance": 0
-    },
-    {
-      "a": "laser-hazard-shield",
-      "b": "deep-water-shield",
-      "distance": 0
-    },
-    {
-      "a": "laser-hazard-pin",
-      "b": "magnetic-field-pin",
-      "distance": 0
-    },
-    {
-      "a": "laser-hazard-pin",
-      "b": "deep-water-pin",
-      "distance": 0
-    },
-    {
-      "a": "laser-hazard-user",
-      "b": "magnetic-field-user",
-      "distance": 0
     },
     {
-      "a": "laser-hazard-user",
-      "b": "deep-water-user",
-      "distance": 0
-    },
-    {
-      "a": "laser-hazard-sparkle",
-      "b": "laser-hazard-upload",
+      "a": "soldering-iron-sparkle",
+      "b": "soldering-iron-upload",
       "distance": 1.41
     },
     {
-      "a": "laser-hazard-sparkle",
-      "b": "magnetic-field-sparkle",
-      "distance": 0
-    },
-    {
-      "a": "laser-hazard-sparkle",
-      "b": "magnetic-field-upload",
+      "a": "phone-booth-pin",
+      "b": "multimeter-pin",
       "distance": 1.41
-    },
-    {
-      "a": "laser-hazard-sparkle",
-      "b": "deep-water-sparkle",
-      "distance": 0
     },
     {
-      "a": "laser-hazard-sparkle",
-      "b": "deep-water-upload",
+      "a": "phone-booth-bell",
+      "b": "multimeter-bell",
       "distance": 1.41
     },
     {
-      "a": "laser-hazard-flag",
-      "b": "magnetic-field-flag",
+      "a": "alarm-snooze-pin",
+      "b": "alarm-pin",
       "distance": 0
     },
     {
-      "a": "laser-hazard-flag",
-      "b": "deep-water-flag",
+      "a": "alarm-snooze-sparkle",
+      "b": "alarm-sparkle",
       "distance": 0
-    },
-    {
-      "a": "laser-hazard-upload",
-      "b": "magnetic-field-sparkle",
-      "distance": 1.41
     },
     {
-      "a": "laser-hazard-upload",
-      "b": "deep-water-sparkle",
-      "distance": 1.41
+      "a": "calendar-repeat-pin",
+      "b": "calendar-range-pin",
+      "distance": 1
     },
     {
-      "a": "magnetic-field-shield",
-      "b": "deep-water-shield",
+      "a": "calendar-repeat-pin",
+      "b": "calendar-plain-pin",
       "distance": 0
     },
     {
-      "a": "magnetic-field-pin",
-      "b": "deep-water-pin",
-      "distance": 0
+      "a": "calendar-repeat-bell",
+      "b": "calendar-range-bell",
+      "distance": 1
     },
     {
-      "a": "magnetic-field-user",
-      "b": "deep-water-user",
+      "a": "calendar-repeat-bell",
+      "b": "calendar-plain-bell",
       "distance": 0
-    },
-    {
-      "a": "magnetic-field-sparkle",
-      "b": "magnetic-field-upload",
-      "distance": 1.41
     },
     {
-      "a": "magnetic-field-sparkle",
-      "b": "deep-water-sparkle",
-      "distance": 0
+      "a": "calendar-range-pin",
+      "b": "calendar-plain-pin",
+      "distance": 1
     },
     {
-      "a": "magnetic-field-sparkle",
-      "b": "deep-water-upload",
-      "distance": 1.41
+      "a": "calendar-range-bell",
+      "b": "calendar-plain-bell",
+      "distance": 1
     },
     {
-      "a": "magnetic-field-flag",
-      "b": "deep-water-flag",
+      "a": "alarm-snooze-user",
+      "b": "alarm-user",
       "distance": 0
-    },
-    {
-      "a": "magnetic-field-upload",
-      "b": "deep-water-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "deep-water-sparkle",
-      "b": "deep-water-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "face-scan-sparkle",
-      "b": "face-scan-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "police-badge-sparkle",
-      "b": "police-badge-upload",
-      "distance": 1.41
     },
     {
-      "a": "lock-sparkle",
-      "b": "lock-upload",
+      "a": "phone-booth-flag",
+      "b": "multimeter-flag",
       "distance": 1.41
     },
     {
-      "a": "eye-scan-sparkle",
-      "b": "eye-scan-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "treadmill-sparkle",
-      "b": "treadmill-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "oars-sparkle",
-      "b": "oars-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "ski-lift-sparkle",
-      "b": "ski-lift-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "ice-axe-sparkle",
-      "b": "ice-axe-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "skis-sparkle",
-      "b": "skis-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "baseball-bat-sparkle",
-      "b": "baseball-bat-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "cricket-bat-sparkle",
-      "b": "cricket-bat-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "smartphone-sparkle",
-      "b": "otp-sparkle",
+      "a": "alarm-snooze-flag",
+      "b": "alarm-flag",
       "distance": 0
     },
     {
-      "a": "smartphone-user",
-      "b": "otp-user",
-      "distance": 0
+      "a": "calendar-repeat-flag",
+      "b": "calendar-range-flag",
+      "distance": 1
     },
     {
-      "a": "smartphone-flag",
-      "b": "otp-flag",
+      "a": "calendar-repeat-flag",
+      "b": "calendar-plain-flag",
       "distance": 0
-    },
-    {
-      "a": "punching-bag-sparkle",
-      "b": "punching-bag-upload",
-      "distance": 1.41
     },
     {
-      "a": "fish-hook-sparkle",
-      "b": "fish-hook-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "smartphone-sparkle",
-      "b": "otp-upload",
-      "distance": 1.41
+      "a": "calendar-range-flag",
+      "b": "calendar-plain-flag",
+      "distance": 1
     },
     {
-      "a": "otp-sparkle",
-      "b": "otp-upload",
+      "a": "c-clamp-sparkle",
+      "b": "c-clamp-upload",
       "distance": 1.41
     },
     {
-      "a": "motion-sensor-sparkle",
-      "b": "motion-sensor-upload",
+      "a": "plumb-bob-sparkle",
+      "b": "plumb-bob-upload",
       "distance": 1.41
     },
     {
-      "a": "table-tennis-sparkle",
-      "b": "table-tennis-upload",
+      "a": "sledgehammer-sparkle",
+      "b": "sledgehammer-upload",
       "distance": 1.41
     }
   ],
   "dropped": [
-    "goggles-gear",
-    "goggles-bolt",
-    "goggles-sparkle",
-    "firewall-gear",
-    "firewall-bolt",
-    "firewall-sparkle",
-    "firewall-cursor",
-    "snowboard-gear",
-    "snowboard-bolt",
-    "snowboard-sparkle",
-    "snowboard-cursor",
-    "snowboard-stats",
-    "vial-upload",
-    "otp-cloud",
-    "otp-chat",
-    "otp-download",
-    "otp-pencil",
-    "otp-trash",
-    "otp-calendar",
-    "otp-question",
-    "otp-bookmark",
-    "otp-crown",
-    "otp-leaf",
-    "otp-hourglass",
-    "otp-cursor",
-    "otp-camera",
-    "otp-filter",
-    "otp-stats",
-    "otp-checkbox",
-    "firewall-search",
-    "firewall-clock",
-    "firewall-shield",
-    "firewall-star",
-    "firewall-user",
-    "firewall-chat",
-    "firewall-download",
-    "firewall-upload",
-    "firewall-calendar",
-    "firewall-question",
-    "firewall-bookmark",
-    "firewall-trophy",
-    "firewall-hourglass",
-    "firewall-camera",
-    "firewall-filter",
-    "firewall-checkbox",
-    "life-ring-search",
-    "life-ring-clock",
-    "life-ring-shield",
-    "life-ring-gear",
-    "life-ring-heart",
-    "life-ring-user",
-    "life-ring-chat",
-    "life-ring-download",
-    "life-ring-pencil",
-    "life-ring-trash",
-    "life-ring-calendar",
-    "life-ring-question",
-    "life-ring-bookmark",
-    "life-ring-crown",
-    "life-ring-trophy",
-    "life-ring-hourglass",
-    "life-ring-cursor",
-    "life-ring-camera",
-    "life-ring-filter",
-    "life-ring-stats",
-    "life-ring-checkbox",
-    "keypad-bolt",
-    "keypad-heart",
-    "keypad-user",
-    "keypad-cloud",
-    "keypad-pencil",
-    "keypad-leaf",
-    "keypad-sparkle",
-    "keypad-upload",
-    "keypad-trash",
-    "keypad-bookmark",
-    "keypad-stats",
-    "life-ring-bolt",
-    "life-ring-leaf",
-    "satellite-upload",
-    "constellation-leaf",
-    "atom-leaf",
-    "atom-upload",
-    "antivirus-upload",
-    "two-factor-leaf",
-    "two-factor-upload",
-    "keyhole-leaf",
-    "hot-surface-search",
-    "laser-hazard-search",
-    "magnetic-field-search",
-    "deep-water-search",
-    "hot-surface-clock",
-    "laser-hazard-clock",
-    "magnetic-field-clock",
-    "deep-water-clock",
-    "hot-surface-gear",
-    "laser-hazard-gear",
-    "magnetic-field-gear",
-    "deep-water-gear",
-    "hot-surface-bolt",
-    "laser-hazard-bolt",
-    "magnetic-field-bolt",
-    "deep-water-bolt",
-    "hot-surface-heart",
-    "laser-hazard-heart",
-    "magnetic-field-heart",
-    "deep-water-heart",
-    "hot-surface-star",
-    "laser-hazard-star",
-    "magnetic-field-star",
-    "deep-water-star",
-    "hot-surface-cloud",
-    "laser-hazard-cloud",
-    "magnetic-field-cloud",
-    "deep-water-cloud",
-    "hot-surface-chat",
-    "laser-hazard-chat",
-    "magnetic-field-chat",
-    "deep-water-chat",
-    "hot-surface-download",
-    "laser-hazard-download",
-    "magnetic-field-download",
-    "deep-water-download",
-    "high-voltage-leaf",
-    "hot-surface-pencil",
-    "hot-surface-leaf",
-    "laser-hazard-pencil",
-    "laser-hazard-leaf",
-    "magnetic-field-pencil",
-    "magnetic-field-leaf",
-    "deep-water-pencil",
-    "deep-water-leaf",
-    "hot-surface-trash",
-    "laser-hazard-trash",
-    "magnetic-field-trash",
-    "deep-water-trash",
-    "hot-surface-calendar",
-    "laser-hazard-calendar",
-    "magnetic-field-calendar",
-    "deep-water-calendar",
-    "hot-surface-question",
-    "laser-hazard-question",
-    "magnetic-field-question",
-    "deep-water-question",
-    "hot-surface-bookmark",
-    "laser-hazard-bookmark",
-    "magnetic-field-bookmark",
-    "deep-water-bookmark",
-    "hot-surface-upload",
-    "laser-hazard-upload",
-    "magnetic-field-upload",
-    "deep-water-upload",
-    "hot-surface-crown",
-    "laser-hazard-crown",
-    "magnetic-field-crown",
-    "deep-water-crown",
-    "hot-surface-hourglass",
-    "laser-hazard-hourglass",
-    "magnetic-field-hourglass",
-    "deep-water-hourglass",
-    "hot-surface-cursor",
-    "laser-hazard-cursor",
-    "magnetic-field-cursor",
-    "deep-water-cursor",
-    "hot-surface-camera",
-    "laser-hazard-camera",
-    "magnetic-field-camera",
-    "deep-water-camera",
-    "hot-surface-filter",
-    "laser-hazard-filter",
-    "magnetic-field-filter",
-    "deep-water-filter",
-    "hot-surface-stats",
-    "laser-hazard-stats",
-    "magnetic-field-stats",
-    "deep-water-stats",
-    "hot-surface-checkbox",
-    "laser-hazard-checkbox",
-    "magnetic-field-checkbox",
-    "deep-water-checkbox",
-    "firewall-leaf",
-    "passkey-leaf",
-    "incognito-upload",
-    "face-scan-leaf",
-    "phishing-upload",
-    "lock-leaf",
-    "eye-scan-leaf",
-    "qr-scan-leaf",
-    "qr-scan-upload",
-    "yoga-mat-leaf",
-    "locker-leaf",
-    "locker-upload",
-    "ski-boot-leaf",
-    "ski-boot-upload",
-    "soccer-ball-leaf",
-    "otp-bell",
-    "otp-moon",
-    "otp-trophy",
-    "firewall-moon",
-    "life-ring-moon",
-    "hot-surface-bell",
-    "laser-hazard-bell",
-    "magnetic-field-bell",
-    "deep-water-bell",
-    "hot-surface-moon",
-    "laser-hazard-moon",
-    "magnetic-field-moon",
-    "deep-water-moon",
-    "hot-surface-trophy",
-    "laser-hazard-trophy",
-    "magnetic-field-trophy",
-    "deep-water-trophy",
-    "otp-fire",
-    "firewall-fire",
-    "hot-surface-fire",
-    "laser-hazard-fire",
-    "magnetic-field-fire",
-    "deep-water-fire",
-    "firewall-bell",
-    "firewall-flag",
-    "life-ring-pin",
-    "life-ring-bell",
-    "life-ring-flag",
-    "keypad-pin",
-    "keypad-bell",
-    "keypad-flag",
-    "keypad-fire",
-    "environment-hazard-upload",
-    "prism-upload",
-    "bunsen-burner-upload",
-    "galaxy-upload",
-    "bacteria-upload",
-    "constellation-upload",
-    "dagger-upload",
-    "hot-surface-shield",
-    "laser-hazard-shield",
-    "magnetic-field-shield",
-    "deep-water-shield",
-    "hot-surface-pin",
-    "laser-hazard-pin",
-    "magnetic-field-pin",
-    "deep-water-pin",
-    "hot-surface-user",
-    "laser-hazard-user",
-    "magnetic-field-user",
-    "deep-water-user",
-    "high-voltage-upload",
-    "hot-surface-sparkle",
-    "laser-hazard-sparkle",
-    "magnetic-field-sparkle",
-    "deep-water-sparkle",
-    "hot-surface-flag",
-    "laser-hazard-flag",
-    "magnetic-field-flag",
-    "deep-water-flag",
-    "face-scan-upload",
-    "police-badge-upload",
-    "lock-upload",
-    "eye-scan-upload",
-    "treadmill-upload",
-    "oars-upload",
-    "ski-lift-upload",
-    "ice-axe-upload",
-    "skis-upload",
-    "baseball-bat-upload",
-    "cricket-bat-upload",
-    "otp-sparkle",
-    "otp-user",
-    "otp-flag",
-    "punching-bag-upload",
-    "fish-hook-upload",
-    "otp-upload",
-    "motion-sensor-upload",
-    "table-tennis-upload"
+    "multimeter-search",
+    "multimeter-clock",
+    "multimeter-shield",
+    "multimeter-heart",
+    "multimeter-star",
+    "multimeter-user",
+    "multimeter-cloud",
+    "multimeter-chat",
+    "multimeter-download",
+    "multimeter-pencil",
+    "multimeter-trash",
+    "multimeter-calendar",
+    "multimeter-question",
+    "multimeter-bookmark",
+    "multimeter-sparkle",
+    "multimeter-upload",
+    "multimeter-crown",
+    "multimeter-leaf",
+    "multimeter-trophy",
+    "multimeter-hourglass",
+    "multimeter-camera",
+    "multimeter-filter",
+    "multimeter-stats",
+    "multimeter-checkbox",
+    "multimeter-gear",
+    "hockey-puck-search",
+    "hockey-puck-clock",
+    "hockey-puck-shield",
+    "hockey-puck-gear",
+    "hockey-puck-bolt",
+    "hockey-puck-heart",
+    "hockey-puck-star",
+    "hockey-puck-cloud",
+    "hockey-puck-chat",
+    "hockey-puck-download",
+    "hockey-puck-pencil",
+    "hockey-puck-upload",
+    "hockey-puck-trash",
+    "hockey-puck-calendar",
+    "hockey-puck-question",
+    "hockey-puck-bookmark",
+    "hockey-puck-crown",
+    "hockey-puck-leaf",
+    "hockey-puck-hourglass",
+    "hockey-puck-cursor",
+    "hockey-puck-camera",
+    "hockey-puck-filter",
+    "hockey-puck-stats",
+    "hockey-puck-checkbox",
+    "calendar-range-search",
+    "calendar-range-shield",
+    "calendar-range-star",
+    "calendar-range-hourglass",
+    "calendar-range-filter",
+    "golf-tee-search",
+    "golf-tee-clock",
+    "golf-tee-gear",
+    "golf-tee-bolt",
+    "golf-tee-heart",
+    "golf-tee-star",
+    "golf-tee-cloud",
+    "golf-tee-chat",
+    "golf-tee-download",
+    "golf-tee-pencil",
+    "golf-tee-trash",
+    "golf-tee-calendar",
+    "golf-tee-question",
+    "golf-tee-bookmark",
+    "golf-tee-crown",
+    "golf-tee-leaf",
+    "golf-tee-hourglass",
+    "golf-tee-cursor",
+    "golf-tee-camera",
+    "golf-tee-filter",
+    "golf-tee-stats",
+    "golf-tee-checkbox",
+    "calendar-range-bolt",
+    "calendar-range-heart",
+    "calendar-range-alert",
+    "calendar-range-user",
+    "calendar-range-cloud",
+    "calendar-range-chat",
+    "calendar-range-pencil",
+    "calendar-range-sparkle",
+    "calendar-range-upload",
+    "calendar-range-trash",
+    "calendar-range-calendar",
+    "calendar-range-bookmark",
+    "calendar-range-question",
+    "calendar-range-crown",
+    "calendar-range-clock",
+    "calendar-range-leaf",
+    "calendar-range-trophy",
+    "calendar-range-cursor",
+    "calendar-range-camera",
+    "calendar-range-stats",
+    "calendar-range-checkbox",
+    "calendar-range-download",
+    "calendar-range-gear",
+    "weight-search",
+    "weight-clock",
+    "weight-shield",
+    "weight-gear",
+    "weight-bolt",
+    "weight-heart",
+    "weight-star",
+    "weight-cloud",
+    "weight-chat",
+    "weight-download",
+    "weight-pencil",
+    "weight-trash",
+    "weight-calendar",
+    "weight-question",
+    "weight-crown",
+    "weight-camera",
+    "weight-filter",
+    "weight-stats",
+    "weight-checkbox",
+    "kettlebell-clock",
+    "kettlebell-gear",
+    "kettlebell-chat",
+    "kettlebell-calendar",
+    "kettlebell-filter",
+    "bowling-leaf",
+    "hurdle-upload",
+    "football-helmet-leaf",
+    "penalty-cards-upload",
+    "sports-bottle-upload",
+    "boxing-ring-leaf",
+    "boxing-ring-upload",
+    "gym-bag-leaf",
+    "gym-rings-leaf",
+    "goal-net-upload",
+    "baseball-leaf",
+    "baseball-upload",
+    "golf-leaf",
+    "calendar-week-upload",
+    "alarm-search",
+    "alarm-clock",
+    "alarm-shield",
+    "alarm-gear",
+    "alarm-bolt",
+    "alarm-heart",
+    "alarm-star",
+    "alarm-cloud",
+    "alarm-chat",
+    "alarm-download",
+    "alarm-pencil",
+    "alarm-trash",
+    "alarm-calendar",
+    "alarm-question",
+    "alarm-bookmark",
+    "alarm-upload",
+    "alarm-crown",
+    "alarm-leaf",
+    "alarm-hourglass",
+    "alarm-cursor",
+    "alarm-camera",
+    "alarm-filter",
+    "alarm-stats",
+    "alarm-checkbox",
+    "timeline-leaf",
+    "clock-fast-leaf",
+    "planner-leaf",
+    "planner-upload",
+    "calendar-plain-search",
+    "calendar-plain-clock",
+    "calendar-plain-shield",
+    "calendar-plain-gear",
+    "calendar-plain-bolt",
+    "calendar-plain-heart",
+    "calendar-plain-star",
+    "calendar-plain-user",
+    "calendar-plain-cloud",
+    "calendar-plain-chat",
+    "calendar-plain-download",
+    "calendar-plain-pencil",
+    "calendar-repeat-upload",
+    "calendar-plain-sparkle",
+    "calendar-plain-upload",
+    "calendar-plain-trash",
+    "calendar-plain-calendar",
+    "calendar-plain-question",
+    "calendar-plain-bookmark",
+    "calendar-plain-crown",
+    "calendar-plain-leaf",
+    "calendar-plain-trophy",
+    "calendar-plain-hourglass",
+    "calendar-plain-cursor",
+    "calendar-plain-camera",
+    "calendar-plain-filter",
+    "calendar-plain-stats",
+    "calendar-plain-checkbox",
+    "sundial-leaf",
+    "calendar-note-upload",
+    "clock-leaf",
+    "timer-leaf",
+    "history-leaf",
+    "calendar-days-upload",
+    "vise-leaf",
+    "vise-upload",
+    "bolt-upload",
+    "multimeter-moon",
+    "multimeter-fire",
+    "hockey-puck-bell",
+    "hockey-puck-moon",
+    "golf-tee-bell",
+    "golf-tee-trophy",
+    "calendar-range-moon",
+    "weight-bell",
+    "weight-moon",
+    "kettlebell-moon",
+    "alarm-bell",
+    "alarm-moon",
+    "alarm-trophy",
+    "calendar-plain-moon",
+    "hockey-puck-fire",
+    "golf-tee-fire",
+    "calendar-range-fire",
+    "weight-fire",
+    "alarm-fire",
+    "calendar-plain-fire",
+    "hockey-puck-pin",
+    "hockey-puck-user",
+    "hockey-puck-sparkle",
+    "hockey-puck-flag",
+    "hockey-puck-trophy",
+    "golf-tee-shield",
+    "golf-tee-pin",
+    "golf-tee-user",
+    "golf-tee-sparkle",
+    "golf-tee-upload",
+    "golf-tee-flag",
+    "golf-tee-moon",
+    "calendar-range-pin",
+    "calendar-range-bell",
+    "calendar-range-flag",
+    "weight-pin",
+    "weight-user",
+    "weight-sparkle",
+    "weight-upload",
+    "weight-flag",
+    "weight-trophy",
+    "kettlebell-shield",
+    "kettlebell-pin",
+    "bowling-upload",
+    "jump-rope-upload",
+    "football-helmet-upload",
+    "gym-bag-upload",
+    "snorkel-upload",
+    "oar-upload",
+    "fishing-float-upload",
+    "swimming-upload",
+    "sled-upload",
+    "fishing-rod-upload",
+    "kettlebell-upload",
+    "golf-upload",
+    "timeline-upload",
+    "bedtime-upload",
+    "sundial-upload",
+    "jackhammer-upload",
+    "glue-gun-upload",
+    "utility-knife-upload",
+    "mallet-upload",
+    "soldering-iron-upload",
+    "multimeter-pin",
+    "multimeter-bell",
+    "alarm-pin",
+    "alarm-sparkle",
+    "calendar-plain-pin",
+    "calendar-plain-bell",
+    "alarm-user",
+    "multimeter-flag",
+    "alarm-flag",
+    "calendar-plain-flag",
+    "c-clamp-upload",
+    "plumb-bob-upload",
+    "sledgehammer-upload"
   ],
   "byCategory": {
     "accessibility": 53,
@@ -3011,13 +2224,13 @@
     "navigation": 35,
     "notifications": 50,
     "people": 1093,
-    "science": 1532,
-    "security": 911,
+    "science": 1349,
+    "security": 749,
     "social": 160,
-    "sports": 2104,
+    "sports": 2590,
     "text": 334,
-    "time": 239,
-    "tools": 1351,
+    "time": 646,
+    "tools": 1656,
     "transport": 1551,
     "travel": 1277,
     "weather": 550

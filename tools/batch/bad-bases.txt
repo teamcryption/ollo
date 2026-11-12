@@ -555,3 +555,15 @@ treadmill
 table-tennis
 cricket-bat
 prism
+clock
+clock-fast
+timeline
+kettlebell
+frisbee
+sled
+fishing-float
+oar
+sundial
+penalty-cards
+weight
+history
