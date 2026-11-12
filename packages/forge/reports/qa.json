@@ -1,1904 +1,1215 @@
 {
-  "generatedAt": "2026-11-12T16:45:33.754Z",
-  "icons": 49774,
-  "files": 248870,
+  "generatedAt": "2026-11-12T16:50:56.452Z",
+  "icons": 50080,
+  "files": 250400,
   "errors": [],
   "warnings": [
-    "toilet-paper-camera: grid: outside the 3-21 live area (3.36, 4.80, 22.00, 20.50)",
-    "umbrella-stand-camera: grid: outside the 3-21 live area (5.45, 2.78, 22.00, 20.50)",
-    "food-processor-camera: grid: outside the 3-21 live area (4.44, 3.36, 22.00, 20.50)",
-    "coffee-grinder-camera: grid: outside the 3-21 live area (5.16, 3.22, 22.00, 20.50)",
-    "deep-fryer-camera: grid: outside the 3-21 live area (3.72, 5.52, 22.00, 20.50)",
-    "dishwasher-camera: grid: outside the 3-21 live area (4.44, 3.36, 22.00, 20.50)",
-    "freezer-camera: grid: outside the 3-21 live area (3.36, 6.60, 22.00, 20.50)",
-    "kitchen-scale-camera: grid: outside the 3-21 live area (3.72, 7.32, 22.00, 20.50)",
-    "meat-thermometer-camera: grid: outside the 3-21 live area (6.24, 3.36, 22.00, 20.50)",
-    "hand-blender-camera: grid: outside the 3-21 live area (7.32, 3.36, 22.00, 20.50)",
-    "fence-camera: grid: outside the 3-21 live area (3.36, 3.91, 22.00, 20.50)",
-    "washing-machine-camera: grid: outside the 3-21 live area (4.08, 3.00, 22.00, 20.50)",
-    "scan-text-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
-    "spinner-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
-    "slider-camera: grid: outside the 3-21 live area (3.36, 7.46, 22.00, 20.50)",
-    "tabs-camera: grid: outside the 3-21 live area (3.36, 3.72, 22.00, 20.50)",
-    "columns-camera: grid: outside the 3-21 live area (3.36, 3.72, 22.00, 20.50)",
-    "layout-top-camera: grid: outside the 3-21 live area (3.36, 3.72, 22.00, 20.50)",
-    "minimize-camera: grid: outside the 3-21 live area (3.72, 3.72, 22.00, 20.50)",
-    "sort-ascending-camera: grid: outside the 3-21 live area (3.72, 4.44, 22.00, 20.50)",
-    "tooltip-camera: grid: outside the 3-21 live area (3.36, 3.72, 22.00, 20.50)",
-    "circle-dashed-camera: grid: outside the 3-21 live area (3.42, 3.42, 22.00, 20.50)",
-    "list-tree-camera: grid: outside the 3-21 live area (5.16, 3.72, 22.00, 20.50)",
-    "radio-button-camera: grid: outside the 3-21 live area (3.36, 4.44, 22.00, 20.50)",
-    "skeleton-loader-camera: grid: outside the 3-21 live area (3.36, 4.08, 22.00, 20.50)",
-    "command-palette-camera: grid: outside the 3-21 live area (3.36, 3.72, 22.00, 20.50)",
-    "progress-ring-camera: grid: outside the 3-21 live area (3.72, 3.72, 22.00, 20.50)",
-    "split-button-camera: grid: outside the 3-21 live area (3.00, 6.60, 22.00, 20.50)",
-    "number-input-camera: grid: outside the 3-21 live area (3.00, 6.60, 22.00, 20.50)",
-    "mega-menu-camera: grid: outside the 3-21 live area (3.36, 3.72, 22.00, 20.50)",
-    "layout-columns-3-camera: grid: outside the 3-21 live area (3.36, 4.08, 22.00, 20.50)",
-    "layout-rows-2-camera: grid: outside the 3-21 live area (3.36, 4.08, 22.00, 20.50)",
-    "layout-rows-3-camera: grid: outside the 3-21 live area (3.36, 4.08, 22.00, 20.50)",
-    "layout-cards-camera: grid: outside the 3-21 live area (3.36, 4.08, 22.00, 20.50)",
-    "layout-gallery-camera: grid: outside the 3-21 live area (3.36, 4.08, 22.00, 20.50)",
-    "layout-hero-camera: grid: outside the 3-21 live area (3.36, 4.08, 22.00, 20.50)",
-    "layout-drawer-camera: grid: outside the 3-21 live area (3.36, 4.08, 22.00, 20.50)",
-    "layout-centered-camera: grid: outside the 3-21 live area (3.36, 4.08, 22.00, 20.50)",
-    "layout-feed-camera: grid: outside the 3-21 live area (3.36, 4.08, 22.00, 20.50)",
-    "layout-timeline-camera: grid: outside the 3-21 live area (3.36, 4.08, 22.00, 20.50)",
-    "layout-carousel-camera: grid: outside the 3-21 live area (3.36, 4.08, 22.00, 20.50)",
-    "window-maximize-camera: grid: outside the 3-21 live area (3.36, 4.08, 22.00, 20.50)",
-    "window-restore-camera: grid: outside the 3-21 live area (3.36, 4.08, 22.00, 20.50)",
-    "layout-two-thirds-camera: grid: outside the 3-21 live area (3.36, 4.08, 22.00, 20.50)",
-    "layout-header-sidebar-camera: grid: outside the 3-21 live area (3.36, 4.08, 22.00, 20.50)",
-    "layout-header-split-camera: grid: outside the 3-21 live area (3.36, 4.08, 22.00, 20.50)",
-    "cursor-zoom-camera: grid: outside the 3-21 live area (4.60, 3.91, 22.00, 20.50)",
-    "cursor-wait-camera: grid: outside the 3-21 live area (4.60, 3.91, 22.00, 20.50)"
+    "conveyor-belt-camera: grid: outside the 3-21 live area (3.00, 4.80, 22.00, 20.50)",
+    "shipping-crate-camera: grid: outside the 3-21 live area (3.72, 4.44, 22.00, 20.50)",
+    "tape-roll-camera: grid: outside the 3-21 live area (3.36, 4.08, 22.00, 20.50)",
+    "scaffolding-camera: grid: outside the 3-21 live area (4.44, 3.36, 22.00, 20.50)",
+    "parcel-tracking-camera: grid: outside the 3-21 live area (3.00, 4.08, 22.00, 20.50)",
+    "parcel-return-camera: grid: outside the 3-21 live area (3.36, 3.00, 22.00, 20.50)",
+    "cold-chain-camera: grid: outside the 3-21 live area (3.00, 3.72, 22.00, 20.50)",
+    "drone-delivery-camera: grid: outside the 3-21 live area (3.00, 3.72, 22.00, 20.50)",
+    "bubble-wrap-camera: grid: outside the 3-21 live area (3.36, 4.08, 22.00, 20.50)",
+    "keep-dry-camera: grid: outside the 3-21 live area (4.08, 3.36, 22.00, 20.50)",
+    "shelves-camera: grid: outside the 3-21 live area (3.72, 3.36, 22.00, 20.50)",
+    "parcel-scale-camera: grid: outside the 3-21 live area (3.36, 3.72, 22.00, 20.50)",
+    "box-open-camera: grid: outside the 3-21 live area (3.00, 5.52, 22.00, 20.50)",
+    "crane-camera: grid: outside the 3-21 live area (3.36, 3.72, 22.00, 20.50)",
+    "shipping-label-camera: grid: outside the 3-21 live area (3.72, 3.36, 22.00, 20.50)",
+    "this-side-up-camera: grid: outside the 3-21 live area (4.82, 6.44, 22.00, 20.50)",
+    "container-ship-camera: grid: outside the 3-21 live area (3.00, 4.44, 22.00, 20.50)",
+    "fragile-camera: grid: outside the 3-21 live area (6.24, 3.36, 22.00, 20.50)",
+    "pallet-jack-camera: grid: outside the 3-21 live area (3.36, 4.44, 22.00, 20.50)",
+    "crane-hook-camera: grid: outside the 3-21 live area (5.16, 3.00, 22.00, 20.50)",
+    "cement-mixer-camera: grid: outside the 3-21 live area (3.00, 5.92, 22.00, 20.50)",
+    "boxes-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
+    "shipping-container-camera: grid: outside the 3-21 live area (3.00, 5.52, 22.00, 20.50)",
+    "bus-shelter-camera: grid: outside the 3-21 live area (3.36, 3.72, 22.00, 20.50)",
+    "bike-rack-camera: grid: outside the 3-21 live area (3.36, 5.88, 22.00, 20.50)",
+    "pier-camera: grid: outside the 3-21 live area (3.00, 7.68, 22.00, 20.50)",
+    "crossroads-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
+    "geofence-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
+    "area-camera: grid: outside the 3-21 live area (3.29, 2.93, 22.00, 20.50)",
+    "scale-bar-camera: grid: outside the 3-21 live area (3.36, 8.04, 22.00, 20.50)",
+    "map-marked-camera: grid: outside the 3-21 live area (3.36, 3.84, 22.00, 20.50)",
+    "compass-rose-camera: grid: outside the 3-21 live area (3.28, 3.28, 22.00, 20.50)",
+    "north-arrow-camera: grid: outside the 3-21 live area (5.99, 3.52, 22.00, 20.50)",
+    "summit-camera: grid: outside the 3-21 live area (3.15, 3.36, 22.00, 20.50)",
+    "picnic-table-camera: grid: outside the 3-21 live area (3.00, 5.88, 22.00, 20.50)",
+    "lamp-post-camera: grid: outside the 3-21 live area (6.96, 3.36, 22.00, 20.50)",
+    "directions-sign-camera: grid: outside the 3-21 live area (3.61, 3.61, 22.00, 20.50)",
+    "terrain-camera: grid: outside the 3-21 live area (3.19, 6.85, 22.00, 20.50)",
+    "distance-camera: grid: outside the 3-21 live area (3.36, 3.72, 22.00, 20.50)",
+    "radar-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
+    "audiobook-camera: grid: outside the 3-21 live area (4.44, 4.08, 22.00, 20.50)",
+    "livestream-camera: grid: outside the 3-21 live area (3.00, 4.44, 22.00, 20.50)",
+    "turntable-camera: grid: outside the 3-21 live area (3.00, 4.08, 22.00, 20.50)",
+    "theater-masks-camera: grid: outside the 3-21 live area (3.75, 3.20, 22.00, 20.50)",
+    "stage-curtain-camera: grid: outside the 3-21 live area (3.00, 3.36, 22.00, 20.50)",
+    "film-strip-camera: grid: outside the 3-21 live area (4.44, 3.00, 22.00, 20.50)",
+    "tuning-fork-camera: grid: outside the 3-21 live area (7.32, 3.36, 22.00, 20.50)",
+    "tambourine-camera: grid: outside the 3-21 live area (3.72, 3.72, 22.00, 20.50)",
+    "triangle-instrument-camera: grid: outside the 3-21 live area (3.72, 3.00, 22.00, 20.50)"
   ],
   "duplicates": [
     {
+      "a": "notepad-search",
+      "b": "shipping-label-search",
+      "distance": 1.41
+    },
+    {
+      "a": "notepad-clock",
+      "b": "shipping-label-clock",
+      "distance": 1.41
+    },
+    {
+      "a": "notepad-shield",
+      "b": "shipping-label-shield",
+      "distance": 1.41
+    },
+    {
+      "a": "notepad-gear",
+      "b": "shipping-label-gear",
+      "distance": 1.41
+    },
+    {
+      "a": "notepad-heart",
+      "b": "shipping-label-heart",
+      "distance": 1.41
+    },
+    {
+      "a": "notepad-alert",
+      "b": "shipping-label-alert",
+      "distance": 1.41
+    },
+    {
+      "a": "notepad-user",
+      "b": "shipping-label-user",
+      "distance": 1.41
+    },
+    {
+      "a": "notepad-cloud",
+      "b": "shipping-label-cloud",
+      "distance": 1.41
+    },
+    {
+      "a": "notepad-chat",
+      "b": "shipping-label-chat",
+      "distance": 1.41
+    },
+    {
+      "a": "notepad-download",
+      "b": "shipping-label-download",
+      "distance": 1.41
+    },
+    {
+      "a": "notepad-pencil",
+      "b": "shipping-label-pencil",
+      "distance": 1.41
+    },
+    {
+      "a": "notepad-trash",
+      "b": "shipping-label-trash",
+      "distance": 1.41
+    },
+    {
+      "a": "notepad-calendar",
+      "b": "shipping-label-calendar",
+      "distance": 1.41
+    },
+    {
+      "a": "notepad-question",
+      "b": "shipping-label-question",
+      "distance": 1.41
+    },
+    {
+      "a": "notepad-bookmark",
+      "b": "shipping-label-bookmark",
+      "distance": 1.41
+    },
+    {
+      "a": "notepad-crown",
+      "b": "shipping-label-crown",
+      "distance": 1.41
+    },
+    {
+      "a": "notepad-trophy",
+      "b": "shipping-label-trophy",
+      "distance": 1.41
+    },
+    {
+      "a": "notepad-hourglass",
+      "b": "shipping-label-hourglass",
+      "distance": 1.41
+    },
+    {
+      "a": "notepad-cursor",
+      "b": "shipping-label-cursor",
+      "distance": 1.41
+    },
+    {
+      "a": "notepad-camera",
+      "b": "shipping-label-camera",
+      "distance": 1.41
+    },
+    {
+      "a": "notepad-filter",
+      "b": "shipping-label-filter",
+      "distance": 1.41
+    },
+    {
+      "a": "notepad-stats",
+      "b": "shipping-label-stats",
+      "distance": 1.41
+    },
+    {
+      "a": "notepad-checkbox",
+      "b": "shipping-label-checkbox",
+      "distance": 1.41
+    },
+    {
       "a": "barcode-search",
-      "b": "fence-search",
+      "b": "bubble-wrap-search",
       "distance": 1.41
     },
     {
       "a": "barcode-clock",
-      "b": "fence-clock",
+      "b": "bubble-wrap-clock",
       "distance": 1.41
     },
     {
       "a": "barcode-shield",
-      "b": "fence-shield",
-      "distance": 1.41
-    },
-    {
-      "a": "barcode-shield",
-      "b": "layout-timeline-shield",
+      "b": "bubble-wrap-shield",
       "distance": 1.41
     },
     {
       "a": "barcode-gear",
-      "b": "fence-gear",
+      "b": "bubble-wrap-gear",
       "distance": 1.41
     },
     {
       "a": "barcode-gear",
-      "b": "fence-stats",
+      "b": "bubble-wrap-stats",
       "distance": 1.41
     },
     {
       "a": "barcode-bolt",
-      "b": "fence-bolt",
+      "b": "bubble-wrap-bolt",
       "distance": 1.41
     },
     {
       "a": "barcode-heart",
-      "b": "fence-heart",
+      "b": "bubble-wrap-heart",
       "distance": 1.41
     },
     {
       "a": "barcode-star",
-      "b": "fence-star",
+      "b": "bubble-wrap-star",
       "distance": 1.41
     },
     {
-      "a": "barcode-cloud",
-      "b": "fence-cloud",
+      "a": "barcode-user",
+      "b": "bubble-wrap-user",
       "distance": 1.41
     },
     {
       "a": "barcode-chat",
-      "b": "fence-chat",
+      "b": "bubble-wrap-chat",
       "distance": 1.41
     },
     {
       "a": "barcode-download",
-      "b": "fence-download",
+      "b": "bubble-wrap-download",
       "distance": 1.41
     },
     {
       "a": "barcode-pencil",
-      "b": "fence-pencil",
+      "b": "bubble-wrap-pencil",
       "distance": 1.41
     },
     {
-      "a": "barcode-sparkle",
-      "b": "fence-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "barcode-sparkle",
-      "b": "fence-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "barcode-trash",
-      "b": "fence-trash",
+      "a": "barcode-pencil",
+      "b": "bubble-wrap-leaf",
       "distance": 1.41
     },
     {
       "a": "barcode-calendar",
-      "b": "fence-calendar",
+      "b": "bubble-wrap-calendar",
       "distance": 1.41
     },
     {
       "a": "barcode-question",
-      "b": "fence-question",
+      "b": "bubble-wrap-question",
       "distance": 1.41
     },
     {
       "a": "barcode-crown",
-      "b": "fence-crown",
+      "b": "bubble-wrap-crown",
+      "distance": 1.41
+    },
+    {
+      "a": "barcode-hourglass",
+      "b": "bubble-wrap-hourglass",
       "distance": 1.41
     },
     {
       "a": "barcode-trophy",
-      "b": "fence-trophy",
-      "distance": 1.41
-    },
-    {
-      "a": "barcode-cursor",
-      "b": "fence-cursor",
+      "b": "bubble-wrap-trophy",
       "distance": 1.41
     },
     {
       "a": "barcode-camera",
-      "b": "fence-camera",
+      "b": "bubble-wrap-camera",
       "distance": 1.41
     },
     {
       "a": "barcode-filter",
-      "b": "fence-filter",
+      "b": "bubble-wrap-filter",
       "distance": 1.41
     },
     {
       "a": "barcode-stats",
-      "b": "fence-stats",
+      "b": "bubble-wrap-stats",
       "distance": 1.41
     },
     {
       "a": "barcode-bulb",
-      "b": "fence-trophy",
+      "b": "bubble-wrap-trophy",
       "distance": 1.41
     },
     {
       "a": "barcode-checkbox",
-      "b": "fence-checkbox",
+      "b": "bubble-wrap-checkbox",
       "distance": 1.41
     },
     {
-      "a": "credit-card-search",
-      "b": "window-maximize-search",
-      "distance": 1
-    },
-    {
-      "a": "credit-card-clock",
-      "b": "window-maximize-clock",
+      "a": "newsletter-bolt",
+      "b": "bubble-wrap-bolt",
       "distance": 1.41
     },
     {
-      "a": "credit-card-shield",
-      "b": "window-maximize-shield",
+      "a": "newsletter-bolt",
+      "b": "shipping-label-bolt",
       "distance": 1
     },
     {
-      "a": "credit-card-gear",
-      "b": "window-maximize-gear",
+      "a": "newsletter-star",
+      "b": "bubble-wrap-star",
       "distance": 1.41
     },
     {
-      "a": "credit-card-bolt",
-      "b": "window-maximize-bolt",
+      "a": "newsletter-star",
+      "b": "shipping-label-star",
+      "distance": 1
+    },
+    {
+      "a": "newsletter-sparkle",
+      "b": "bubble-wrap-sparkle",
       "distance": 1.41
     },
     {
-      "a": "credit-card-heart",
-      "b": "window-maximize-heart",
+      "a": "newsletter-sparkle",
+      "b": "bubble-wrap-upload",
       "distance": 1.41
     },
     {
-      "a": "credit-card-star",
-      "b": "window-maximize-star",
+      "a": "newsletter-sparkle",
+      "b": "shipping-label-sparkle",
       "distance": 1
     },
     {
-      "a": "credit-card-user",
-      "b": "window-maximize-user",
-      "distance": 1
-    },
-    {
-      "a": "credit-card-cloud",
-      "b": "window-maximize-cloud",
+      "a": "newsletter-sparkle",
+      "b": "shipping-label-upload",
       "distance": 1.41
     },
     {
-      "a": "credit-card-chat",
-      "b": "window-maximize-chat",
-      "distance": 1
-    },
-    {
-      "a": "credit-card-download",
-      "b": "window-maximize-download",
-      "distance": 1
-    },
-    {
-      "a": "credit-card-pencil",
-      "b": "window-maximize-pencil",
-      "distance": 1
-    },
-    {
-      "a": "credit-card-pencil",
-      "b": "window-maximize-leaf",
+      "a": "newsletter-leaf",
+      "b": "bubble-wrap-leaf",
       "distance": 1.41
     },
     {
-      "a": "credit-card-sparkle",
-      "b": "window-maximize-upload",
+      "a": "newsletter-leaf",
+      "b": "shipping-label-pencil",
       "distance": 1.41
     },
     {
-      "a": "credit-card-trash",
-      "b": "window-maximize-trash",
+      "a": "newsletter-leaf",
+      "b": "shipping-label-leaf",
       "distance": 1
     },
     {
-      "a": "credit-card-calendar",
-      "b": "window-maximize-calendar",
+      "a": "power-plant-search",
+      "b": "bike-rack-search",
       "distance": 1
     },
     {
-      "a": "credit-card-question",
-      "b": "window-maximize-question",
+      "a": "power-plant-clock",
+      "b": "bike-rack-clock",
       "distance": 1
     },
     {
-      "a": "credit-card-bookmark",
-      "b": "window-maximize-bookmark",
+      "a": "power-plant-shield",
+      "b": "bike-rack-shield",
       "distance": 1
     },
     {
-      "a": "credit-card-crown",
-      "b": "window-maximize-crown",
+      "a": "power-plant-gear",
+      "b": "bike-rack-gear",
       "distance": 1
     },
     {
-      "a": "credit-card-trophy",
-      "b": "window-maximize-trophy",
+      "a": "power-plant-bolt",
+      "b": "bike-rack-bolt",
       "distance": 1
     },
     {
-      "a": "credit-card-hourglass",
-      "b": "window-maximize-hourglass",
+      "a": "power-plant-heart",
+      "b": "bike-rack-heart",
+      "distance": 1
+    },
+    {
+      "a": "power-plant-star",
+      "b": "bike-rack-star",
+      "distance": 1
+    },
+    {
+      "a": "power-plant-user",
+      "b": "bike-rack-user",
+      "distance": 1
+    },
+    {
+      "a": "power-plant-cloud",
+      "b": "bike-rack-cloud",
+      "distance": 1
+    },
+    {
+      "a": "power-plant-chat",
+      "b": "bike-rack-chat",
+      "distance": 1
+    },
+    {
+      "a": "power-plant-download",
+      "b": "bike-rack-download",
+      "distance": 1
+    },
+    {
+      "a": "power-plant-pencil",
+      "b": "bike-rack-pencil",
+      "distance": 1
+    },
+    {
+      "a": "power-plant-pencil",
+      "b": "bike-rack-leaf",
       "distance": 1.41
     },
     {
-      "a": "credit-card-cursor",
-      "b": "window-maximize-cursor",
+      "a": "power-plant-trash",
+      "b": "bike-rack-trash",
       "distance": 1
     },
     {
-      "a": "credit-card-camera",
-      "b": "window-maximize-camera",
+      "a": "power-plant-calendar",
+      "b": "bike-rack-calendar",
       "distance": 1
     },
     {
-      "a": "credit-card-filter",
-      "b": "window-maximize-filter",
-      "distance": 1.41
-    },
-    {
-      "a": "credit-card-checkbox",
-      "b": "window-maximize-checkbox",
+      "a": "power-plant-question",
+      "b": "bike-rack-question",
       "distance": 1
     },
     {
-      "a": "index-card-search",
-      "b": "command-palette-search",
+      "a": "power-plant-bookmark",
+      "b": "bike-rack-bookmark",
       "distance": 1
     },
     {
-      "a": "index-card-clock",
-      "b": "command-palette-clock",
-      "distance": 1.41
-    },
-    {
-      "a": "index-card-shield",
-      "b": "command-palette-shield",
+      "a": "power-plant-crown",
+      "b": "bike-rack-crown",
       "distance": 1
     },
     {
-      "a": "index-card-gear",
-      "b": "command-palette-gear",
-      "distance": 1.41
-    },
-    {
-      "a": "index-card-bolt",
-      "b": "command-palette-bolt",
-      "distance": 1.41
-    },
-    {
-      "a": "index-card-heart",
-      "b": "command-palette-heart",
-      "distance": 1.41
-    },
-    {
-      "a": "index-card-star",
-      "b": "command-palette-star",
+      "a": "power-plant-trophy",
+      "b": "bike-rack-trophy",
       "distance": 1
     },
     {
-      "a": "index-card-user",
-      "b": "command-palette-user",
+      "a": "power-plant-hourglass",
+      "b": "bike-rack-hourglass",
       "distance": 1
     },
     {
-      "a": "index-card-chat",
-      "b": "command-palette-chat",
+      "a": "power-plant-cursor",
+      "b": "bike-rack-cursor",
       "distance": 1
     },
     {
-      "a": "index-card-download",
-      "b": "command-palette-download",
+      "a": "power-plant-camera",
+      "b": "bike-rack-camera",
       "distance": 1
     },
     {
-      "a": "index-card-pencil",
-      "b": "command-palette-pencil",
-      "distance": 1.41
-    },
-    {
-      "a": "index-card-pencil",
-      "b": "command-palette-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "index-card-sparkle",
-      "b": "command-palette-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "index-card-sparkle",
-      "b": "command-palette-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "index-card-trash",
-      "b": "command-palette-trash",
+      "a": "power-plant-filter",
+      "b": "bike-rack-filter",
       "distance": 1
     },
     {
-      "a": "index-card-calendar",
-      "b": "command-palette-calendar",
+      "a": "power-plant-stats",
+      "b": "bike-rack-stats",
       "distance": 1
     },
     {
-      "a": "index-card-question",
-      "b": "command-palette-question",
+      "a": "power-plant-checkbox",
+      "b": "bike-rack-checkbox",
       "distance": 1
     },
     {
-      "a": "index-card-bookmark",
-      "b": "command-palette-bookmark",
-      "distance": 1
-    },
-    {
-      "a": "index-card-crown",
-      "b": "command-palette-crown",
-      "distance": 1
-    },
-    {
-      "a": "index-card-trophy",
-      "b": "command-palette-trophy",
-      "distance": 1
-    },
-    {
-      "a": "index-card-hourglass",
-      "b": "command-palette-hourglass",
-      "distance": 1.41
-    },
-    {
-      "a": "index-card-cursor",
-      "b": "command-palette-cursor",
-      "distance": 1
-    },
-    {
-      "a": "index-card-camera",
-      "b": "command-palette-camera",
-      "distance": 1
-    },
-    {
-      "a": "index-card-filter",
-      "b": "command-palette-filter",
-      "distance": 1.41
-    },
-    {
-      "a": "index-card-checkbox",
-      "b": "command-palette-checkbox",
-      "distance": 1
-    },
-    {
-      "a": "card-search",
-      "b": "layout-rows-2-search",
-      "distance": 1
-    },
-    {
-      "a": "card-heart",
-      "b": "layout-rows-2-heart",
-      "distance": 1
-    },
-    {
-      "a": "card-user",
-      "b": "layout-rows-2-user",
-      "distance": 1
-    },
-    {
-      "a": "card-cloud",
-      "b": "layout-rows-2-cloud",
-      "distance": 1
-    },
-    {
-      "a": "card-chat",
-      "b": "layout-rows-2-chat",
-      "distance": 1
-    },
-    {
-      "a": "card-download",
-      "b": "layout-rows-2-download",
-      "distance": 1
-    },
-    {
-      "a": "card-pencil",
-      "b": "layout-rows-2-pencil",
-      "distance": 1.41
-    },
-    {
-      "a": "card-sparkle",
-      "b": "layout-rows-2-sparkle",
-      "distance": 1
-    },
-    {
-      "a": "card-sparkle",
-      "b": "layout-rows-2-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "card-trash",
-      "b": "layout-rows-2-trash",
-      "distance": 1
-    },
-    {
-      "a": "card-calendar",
-      "b": "layout-rows-2-calendar",
-      "distance": 1
-    },
-    {
-      "a": "card-bookmark",
-      "b": "layout-rows-2-bookmark",
-      "distance": 1
-    },
-    {
-      "a": "card-question",
-      "b": "layout-rows-2-question",
-      "distance": 1
-    },
-    {
-      "a": "card-crown",
-      "b": "layout-rows-2-crown",
-      "distance": 1
-    },
-    {
-      "a": "card-pause",
-      "b": "layout-rows-2-clock",
-      "distance": 1.41
-    },
-    {
-      "a": "card-hourglass",
-      "b": "layout-rows-2-hourglass",
-      "distance": 1
-    },
-    {
-      "a": "card-trophy",
-      "b": "layout-rows-2-trophy",
-      "distance": 1
-    },
-    {
-      "a": "card-cursor",
-      "b": "layout-rows-2-cursor",
-      "distance": 1
-    },
-    {
-      "a": "card-camera",
-      "b": "layout-rows-2-camera",
-      "distance": 1
-    },
-    {
-      "a": "card-filter",
-      "b": "layout-rows-2-filter",
-      "distance": 1
-    },
-    {
-      "a": "card-stats",
-      "b": "layout-rows-2-stats",
-      "distance": 1
-    },
-    {
-      "a": "card-checkbox",
-      "b": "layout-rows-2-checkbox",
-      "distance": 1
-    },
-    {
-      "a": "card-pricing",
-      "b": "layout-rows-2-gear",
+      "a": "blister-pack-search",
+      "b": "bubble-wrap-search",
       "distance": 1.41
     },
     {
       "a": "blister-pack-shield",
-      "b": "layout-timeline-shield",
+      "b": "bubble-wrap-shield",
       "distance": 1.41
     },
     {
-      "a": "spice-jar-search",
-      "b": "doorbell-search",
+      "a": "blister-pack-heart",
+      "b": "bubble-wrap-heart",
       "distance": 1.41
     },
     {
-      "a": "spice-jar-clock",
-      "b": "doorbell-clock",
+      "a": "blister-pack-star",
+      "b": "bubble-wrap-star",
       "distance": 1.41
     },
     {
-      "a": "spice-jar-shield",
-      "b": "doorbell-shield",
+      "a": "blister-pack-user",
+      "b": "bubble-wrap-user",
       "distance": 1.41
     },
     {
-      "a": "spice-jar-gear",
-      "b": "doorbell-gear",
+      "a": "blister-pack-cloud",
+      "b": "bubble-wrap-cloud",
       "distance": 1.41
     },
     {
-      "a": "spice-jar-bolt",
-      "b": "doorbell-bolt",
+      "a": "blister-pack-chat",
+      "b": "bubble-wrap-chat",
       "distance": 1.41
     },
     {
-      "a": "spice-jar-heart",
-      "b": "doorbell-heart",
+      "a": "blister-pack-download",
+      "b": "bubble-wrap-download",
       "distance": 1.41
     },
     {
-      "a": "spice-jar-star",
-      "b": "doorbell-star",
+      "a": "blister-pack-pencil",
+      "b": "bubble-wrap-pencil",
       "distance": 1.41
     },
     {
-      "a": "spice-jar-user",
-      "b": "doorbell-user",
+      "a": "blister-pack-pencil",
+      "b": "bubble-wrap-leaf",
       "distance": 1.41
     },
     {
-      "a": "spice-jar-cloud",
-      "b": "doorbell-cloud",
+      "a": "blister-pack-sparkle",
+      "b": "bubble-wrap-upload",
       "distance": 1.41
     },
     {
-      "a": "spice-jar-chat",
-      "b": "doorbell-chat",
+      "a": "blister-pack-trash",
+      "b": "bubble-wrap-trash",
       "distance": 1.41
     },
     {
-      "a": "spice-jar-download",
-      "b": "doorbell-download",
+      "a": "blister-pack-flag",
+      "b": "bubble-wrap-flag",
       "distance": 1.41
     },
     {
-      "a": "spice-jar-pencil",
-      "b": "doorbell-pencil",
+      "a": "blister-pack-calendar",
+      "b": "bubble-wrap-calendar",
       "distance": 1.41
     },
     {
-      "a": "spice-jar-sparkle",
-      "b": "doorbell-sparkle",
+      "a": "blister-pack-question",
+      "b": "bubble-wrap-question",
       "distance": 1.41
     },
     {
-      "a": "spice-jar-sparkle",
-      "b": "doorbell-upload",
+      "a": "blister-pack-bookmark",
+      "b": "bubble-wrap-bookmark",
       "distance": 1.41
     },
     {
-      "a": "spice-jar-trash",
-      "b": "doorbell-trash",
+      "a": "blister-pack-crown",
+      "b": "bubble-wrap-crown",
       "distance": 1.41
     },
     {
-      "a": "spice-jar-calendar",
-      "b": "doorbell-calendar",
+      "a": "blister-pack-trophy",
+      "b": "bubble-wrap-trophy",
       "distance": 1.41
     },
     {
-      "a": "spice-jar-question",
-      "b": "doorbell-question",
+      "a": "blister-pack-hourglass",
+      "b": "bubble-wrap-hourglass",
       "distance": 1.41
     },
     {
-      "a": "spice-jar-bookmark",
-      "b": "doorbell-bookmark",
+      "a": "blister-pack-camera",
+      "b": "bubble-wrap-camera",
       "distance": 1.41
     },
     {
-      "a": "spice-jar-crown",
-      "b": "doorbell-crown",
+      "a": "blister-pack-filter",
+      "b": "bubble-wrap-filter",
       "distance": 1.41
     },
     {
-      "a": "spice-jar-leaf",
-      "b": "doorbell-leaf",
+      "a": "blister-pack-stats",
+      "b": "bubble-wrap-stats",
       "distance": 1.41
     },
     {
-      "a": "spice-jar-trophy",
-      "b": "doorbell-trophy",
+      "a": "blister-pack-checkbox",
+      "b": "bubble-wrap-checkbox",
       "distance": 1.41
     },
     {
-      "a": "spice-jar-hourglass",
-      "b": "doorbell-hourglass",
+      "a": "conveyor-belt-gear",
+      "b": "conveyor-belt-stats",
       "distance": 1.41
     },
     {
-      "a": "spice-jar-cursor",
-      "b": "doorbell-cursor",
+      "a": "conveyor-belt-pencil",
+      "b": "conveyor-belt-leaf",
       "distance": 1.41
     },
     {
-      "a": "spice-jar-filter",
-      "b": "doorbell-filter",
+      "a": "conveyor-belt-sparkle",
+      "b": "conveyor-belt-upload",
       "distance": 1.41
     },
     {
-      "a": "spice-jar-stats",
-      "b": "doorbell-stats",
+      "a": "shipping-crate-pencil",
+      "b": "shipping-crate-leaf",
       "distance": 1.41
     },
     {
-      "a": "spice-jar-checkbox",
-      "b": "doorbell-checkbox",
+      "a": "shipping-crate-sparkle",
+      "b": "shipping-crate-upload",
       "distance": 1.41
     },
     {
-      "a": "toilet-paper-pencil",
-      "b": "toilet-paper-leaf",
+      "a": "tape-roll-pencil",
+      "b": "tape-roll-leaf",
       "distance": 1.41
     },
     {
-      "a": "food-processor-pencil",
-      "b": "food-processor-leaf",
+      "a": "tape-roll-sparkle",
+      "b": "tape-roll-upload",
       "distance": 1.41
     },
     {
-      "a": "food-processor-sparkle",
-      "b": "food-processor-upload",
+      "a": "scaffolding-pencil",
+      "b": "scaffolding-leaf",
       "distance": 1.41
     },
     {
-      "a": "coffee-grinder-sparkle",
-      "b": "coffee-grinder-upload",
+      "a": "scaffolding-sparkle",
+      "b": "scaffolding-upload",
       "distance": 1.41
     },
     {
-      "a": "dishwasher-pencil",
-      "b": "dishwasher-leaf",
+      "a": "parcel-tracking-sparkle",
+      "b": "parcel-tracking-upload",
       "distance": 1.41
     },
     {
-      "a": "dishwasher-sparkle",
-      "b": "dishwasher-upload",
+      "a": "parcel-return-sparkle",
+      "b": "parcel-return-upload",
       "distance": 1.41
     },
     {
-      "a": "freezer-pencil",
-      "b": "freezer-leaf",
+      "a": "cold-chain-sparkle",
+      "b": "cold-chain-upload",
       "distance": 1.41
     },
     {
-      "a": "kitchen-scale-pencil",
-      "b": "kitchen-scale-leaf",
+      "a": "drone-delivery-sparkle",
+      "b": "drone-delivery-upload",
       "distance": 1.41
     },
     {
-      "a": "kitchen-scale-sparkle",
-      "b": "kitchen-scale-upload",
+      "a": "bubble-wrap-gear",
+      "b": "bubble-wrap-stats",
       "distance": 1.41
     },
     {
-      "a": "doorbell-sparkle",
-      "b": "doorbell-upload",
+      "a": "bubble-wrap-pencil",
+      "b": "bubble-wrap-leaf",
       "distance": 1.41
     },
     {
-      "a": "fence-gear",
-      "b": "fence-stats",
+      "a": "bubble-wrap-sparkle",
+      "b": "bubble-wrap-upload",
       "distance": 1.41
     },
     {
-      "a": "fence-pencil",
-      "b": "fence-leaf",
+      "a": "shelves-pencil",
+      "b": "shelves-leaf",
       "distance": 1.41
     },
     {
-      "a": "fence-sparkle",
-      "b": "fence-upload",
+      "a": "shelves-sparkle",
+      "b": "shelves-upload",
       "distance": 1.41
     },
     {
-      "a": "washing-machine-pencil",
-      "b": "washing-machine-leaf",
+      "a": "parcel-scale-sparkle",
+      "b": "parcel-scale-upload",
       "distance": 1.41
     },
     {
-      "a": "washing-machine-sparkle",
-      "b": "washing-machine-upload",
+      "a": "box-open-pencil",
+      "b": "box-open-leaf",
       "distance": 1.41
     },
     {
-      "a": "tabs-pencil",
-      "b": "tabs-leaf",
+      "a": "shipping-label-pencil",
+      "b": "shipping-label-leaf",
       "distance": 1.41
     },
     {
-      "a": "columns-pencil",
-      "b": "columns-leaf",
+      "a": "shipping-label-sparkle",
+      "b": "shipping-label-upload",
       "distance": 1.41
     },
     {
-      "a": "columns-sparkle",
-      "b": "columns-upload",
+      "a": "container-ship-pencil",
+      "b": "container-ship-leaf",
       "distance": 1.41
     },
     {
-      "a": "layout-top-search",
-      "b": "window-maximize-search",
+      "a": "container-ship-sparkle",
+      "b": "container-ship-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "cement-mixer-pencil",
+      "b": "cement-mixer-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "cement-mixer-sparkle",
+      "b": "cement-mixer-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "boxes-pencil",
+      "b": "boxes-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "boxes-sparkle",
+      "b": "boxes-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "shipping-container-pencil",
+      "b": "shipping-container-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "shipping-container-sparkle",
+      "b": "shipping-container-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "bus-shelter-pencil",
+      "b": "bus-shelter-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "bus-shelter-sparkle",
+      "b": "bus-shelter-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "bike-rack-pencil",
+      "b": "bike-rack-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "pier-sparkle",
+      "b": "pier-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "geofence-gear",
+      "b": "geofence-stats",
+      "distance": 1.41
+    },
+    {
+      "a": "geofence-pencil",
+      "b": "geofence-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "area-sparkle",
+      "b": "area-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "map-marked-pencil",
+      "b": "map-marked-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "compass-rose-sparkle",
+      "b": "compass-rose-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "summit-pencil",
+      "b": "summit-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "picnic-table-pencil",
+      "b": "picnic-table-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "picnic-table-sparkle",
+      "b": "picnic-table-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "terrain-pencil",
+      "b": "terrain-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "radar-pencil",
+      "b": "radar-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "livestream-sparkle",
+      "b": "livestream-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "turntable-pencil",
+      "b": "turntable-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "turntable-sparkle",
+      "b": "turntable-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "theater-masks-pencil",
+      "b": "theater-masks-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "stage-curtain-pencil",
+      "b": "stage-curtain-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "stage-curtain-sparkle",
+      "b": "stage-curtain-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "film-strip-pencil",
+      "b": "film-strip-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "film-strip-sparkle",
+      "b": "film-strip-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "tambourine-sparkle",
+      "b": "tambourine-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "bongo-sparkle",
+      "b": "bongo-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "notepad-moon",
+      "b": "shipping-label-moon",
+      "distance": 1.41
+    },
+    {
+      "a": "notepad-fire",
+      "b": "shipping-label-fire",
+      "distance": 1.41
+    },
+    {
+      "a": "power-plant-bell",
+      "b": "bike-rack-bell",
       "distance": 1
     },
     {
-      "a": "layout-top-clock",
-      "b": "window-maximize-clock",
+      "a": "power-plant-moon",
+      "b": "bike-rack-moon",
       "distance": 1
     },
     {
-      "a": "layout-top-shield",
-      "b": "window-maximize-shield",
+      "a": "power-plant-fire",
+      "b": "bike-rack-fire",
       "distance": 1
-    },
-    {
-      "a": "layout-top-gear",
-      "b": "window-maximize-gear",
-      "distance": 1
-    },
-    {
-      "a": "layout-top-bolt",
-      "b": "window-maximize-bolt",
-      "distance": 1
-    },
-    {
-      "a": "layout-top-heart",
-      "b": "window-maximize-heart",
-      "distance": 1
-    },
-    {
-      "a": "layout-top-star",
-      "b": "window-maximize-star",
-      "distance": 1
-    },
-    {
-      "a": "layout-top-user",
-      "b": "window-maximize-user",
-      "distance": 1
-    },
-    {
-      "a": "layout-top-cloud",
-      "b": "window-maximize-cloud",
-      "distance": 1.41
-    },
-    {
-      "a": "layout-top-chat",
-      "b": "window-maximize-chat",
-      "distance": 1
-    },
-    {
-      "a": "layout-top-download",
-      "b": "window-maximize-download",
-      "distance": 1
-    },
-    {
-      "a": "layout-top-pencil",
-      "b": "layout-top-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "layout-top-pencil",
-      "b": "window-maximize-pencil",
-      "distance": 1
-    },
-    {
-      "a": "layout-top-pencil",
-      "b": "window-maximize-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "layout-top-sparkle",
-      "b": "layout-top-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "layout-top-sparkle",
-      "b": "window-maximize-sparkle",
-      "distance": 1
-    },
-    {
-      "a": "layout-top-sparkle",
-      "b": "window-maximize-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "layout-top-trash",
-      "b": "window-maximize-trash",
-      "distance": 1
-    },
-    {
-      "a": "layout-top-calendar",
-      "b": "window-maximize-calendar",
-      "distance": 1
-    },
-    {
-      "a": "layout-top-question",
-      "b": "window-maximize-question",
-      "distance": 1
-    },
-    {
-      "a": "layout-top-bookmark",
-      "b": "window-maximize-bookmark",
-      "distance": 1
-    },
-    {
-      "a": "layout-top-upload",
-      "b": "window-maximize-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "layout-top-upload",
-      "b": "window-maximize-upload",
-      "distance": 1
-    },
-    {
-      "a": "layout-top-crown",
-      "b": "window-maximize-crown",
-      "distance": 1
-    },
-    {
-      "a": "layout-top-leaf",
-      "b": "window-maximize-pencil",
-      "distance": 1.41
-    },
-    {
-      "a": "layout-top-leaf",
-      "b": "window-maximize-leaf",
-      "distance": 1
-    },
-    {
-      "a": "layout-top-trophy",
-      "b": "window-maximize-trophy",
-      "distance": 1
-    },
-    {
-      "a": "layout-top-hourglass",
-      "b": "window-maximize-hourglass",
-      "distance": 1
-    },
-    {
-      "a": "layout-top-cursor",
-      "b": "window-maximize-cursor",
-      "distance": 1
-    },
-    {
-      "a": "layout-top-camera",
-      "b": "window-maximize-camera",
-      "distance": 1
-    },
-    {
-      "a": "layout-top-filter",
-      "b": "window-maximize-filter",
-      "distance": 1
-    },
-    {
-      "a": "layout-top-stats",
-      "b": "window-maximize-stats",
-      "distance": 1.41
-    },
-    {
-      "a": "layout-top-checkbox",
-      "b": "window-maximize-checkbox",
-      "distance": 1
-    },
-    {
-      "a": "sort-ascending-gear",
-      "b": "sort-ascending-stats",
-      "distance": 1.41
-    },
-    {
-      "a": "skeleton-loader-pencil",
-      "b": "skeleton-loader-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "skeleton-loader-sparkle",
-      "b": "skeleton-loader-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "command-palette-pencil",
-      "b": "command-palette-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "command-palette-sparkle",
-      "b": "command-palette-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "number-input-sparkle",
-      "b": "number-input-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "mega-menu-pencil",
-      "b": "mega-menu-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "mega-menu-sparkle",
-      "b": "mega-menu-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "layout-columns-3-pencil",
-      "b": "layout-columns-3-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "layout-columns-3-sparkle",
-      "b": "layout-columns-3-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "layout-rows-2-pencil",
-      "b": "layout-rows-2-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "layout-rows-2-sparkle",
-      "b": "layout-rows-2-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "layout-rows-3-pencil",
-      "b": "layout-rows-3-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "layout-rows-3-sparkle",
-      "b": "layout-rows-3-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "layout-cards-gear",
-      "b": "layout-cards-stats",
-      "distance": 1.41
-    },
-    {
-      "a": "layout-cards-pencil",
-      "b": "layout-cards-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "layout-cards-sparkle",
-      "b": "layout-cards-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "layout-gallery-pencil",
-      "b": "layout-gallery-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "layout-gallery-sparkle",
-      "b": "layout-gallery-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "layout-hero-pencil",
-      "b": "layout-hero-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "layout-hero-sparkle",
-      "b": "layout-hero-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "layout-drawer-pencil",
-      "b": "layout-drawer-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "layout-drawer-sparkle",
-      "b": "layout-drawer-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "layout-centered-pencil",
-      "b": "layout-centered-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "layout-centered-sparkle",
-      "b": "layout-centered-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "layout-feed-gear",
-      "b": "layout-feed-stats",
-      "distance": 1.41
-    },
-    {
-      "a": "layout-feed-pencil",
-      "b": "layout-feed-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "layout-feed-sparkle",
-      "b": "layout-feed-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "layout-timeline-pencil",
-      "b": "layout-timeline-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "layout-timeline-sparkle",
-      "b": "layout-timeline-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "layout-carousel-gear",
-      "b": "layout-carousel-stats",
-      "distance": 1.41
-    },
-    {
-      "a": "layout-carousel-pencil",
-      "b": "layout-carousel-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "layout-carousel-sparkle",
-      "b": "layout-carousel-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "window-maximize-pencil",
-      "b": "window-maximize-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "window-maximize-sparkle",
-      "b": "window-maximize-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "window-restore-sparkle",
-      "b": "window-restore-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "layout-two-thirds-pencil",
-      "b": "layout-two-thirds-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "layout-two-thirds-sparkle",
-      "b": "layout-two-thirds-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "layout-header-sidebar-pencil",
-      "b": "layout-header-sidebar-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "layout-header-sidebar-sparkle",
-      "b": "layout-header-sidebar-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "layout-header-split-pencil",
-      "b": "layout-header-split-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "layout-header-split-sparkle",
-      "b": "layout-header-split-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "cursor-zoom-search",
-      "b": "cursor-wait-search",
-      "distance": 1
-    },
-    {
-      "a": "cursor-zoom-search",
-      "b": "cursor-help-search",
-      "distance": 1
-    },
-    {
-      "a": "cursor-zoom-chat",
-      "b": "cursor-wait-chat",
-      "distance": 1
-    },
-    {
-      "a": "cursor-zoom-chat",
-      "b": "cursor-help-chat",
-      "distance": 1
-    },
-    {
-      "a": "cursor-zoom-download",
-      "b": "cursor-wait-download",
-      "distance": 1
-    },
-    {
-      "a": "cursor-zoom-download",
-      "b": "cursor-help-download",
-      "distance": 1
-    },
-    {
-      "a": "cursor-zoom-pencil",
-      "b": "cursor-zoom-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "cursor-zoom-question",
-      "b": "cursor-wait-question",
-      "distance": 1
-    },
-    {
-      "a": "cursor-zoom-question",
-      "b": "cursor-help-question",
-      "distance": 1
-    },
-    {
-      "a": "cursor-zoom-bookmark",
-      "b": "cursor-wait-bookmark",
-      "distance": 1
-    },
-    {
-      "a": "cursor-zoom-hourglass",
-      "b": "cursor-wait-hourglass",
-      "distance": 1.41
-    },
-    {
-      "a": "cursor-zoom-hourglass",
-      "b": "cursor-help-hourglass",
-      "distance": 1.41
-    },
-    {
-      "a": "cursor-zoom-cursor",
-      "b": "cursor-wait-cursor",
-      "distance": 1.41
-    },
-    {
-      "a": "cursor-zoom-cursor",
-      "b": "cursor-help-cursor",
-      "distance": 1.41
-    },
-    {
-      "a": "cursor-zoom-checkbox",
-      "b": "cursor-wait-checkbox",
-      "distance": 1
-    },
-    {
-      "a": "cursor-wait-search",
-      "b": "cursor-help-search",
-      "distance": 0
-    },
-    {
-      "a": "cursor-wait-clock",
-      "b": "cursor-help-clock",
-      "distance": 1.41
-    },
-    {
-      "a": "cursor-wait-gear",
-      "b": "cursor-help-gear",
-      "distance": 1.41
-    },
-    {
-      "a": "cursor-wait-bolt",
-      "b": "cursor-help-bolt",
-      "distance": 1
-    },
-    {
-      "a": "cursor-wait-heart",
-      "b": "cursor-help-heart",
-      "distance": 1.41
-    },
-    {
-      "a": "cursor-wait-star",
-      "b": "cursor-help-star",
-      "distance": 1
-    },
-    {
-      "a": "cursor-wait-alert",
-      "b": "cursor-help-alert",
-      "distance": 1
-    },
-    {
-      "a": "cursor-wait-cloud",
-      "b": "cursor-help-cloud",
-      "distance": 1
-    },
-    {
-      "a": "cursor-wait-chat",
-      "b": "cursor-help-chat",
-      "distance": 0
-    },
-    {
-      "a": "cursor-wait-download",
-      "b": "cursor-help-download",
-      "distance": 0
-    },
-    {
-      "a": "cursor-wait-pencil",
-      "b": "cursor-wait-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "cursor-wait-pencil",
-      "b": "cursor-help-pencil",
-      "distance": 1
-    },
-    {
-      "a": "cursor-wait-pencil",
-      "b": "cursor-help-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "cursor-wait-trash",
-      "b": "cursor-help-trash",
-      "distance": 1
-    },
-    {
-      "a": "cursor-wait-calendar",
-      "b": "cursor-help-calendar",
-      "distance": 1
-    },
-    {
-      "a": "cursor-wait-question",
-      "b": "cursor-help-question",
-      "distance": 0
-    },
-    {
-      "a": "cursor-wait-upload",
-      "b": "cursor-help-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "cursor-wait-crown",
-      "b": "cursor-help-crown",
-      "distance": 1
-    },
-    {
-      "a": "cursor-wait-leaf",
-      "b": "cursor-help-leaf",
-      "distance": 1
-    },
-    {
-      "a": "cursor-wait-hourglass",
-      "b": "cursor-help-hourglass",
-      "distance": 0
-    },
-    {
-      "a": "cursor-wait-cursor",
-      "b": "cursor-help-cursor",
-      "distance": 0
-    },
-    {
-      "a": "credit-card-bell",
-      "b": "window-maximize-bell",
-      "distance": 1
-    },
-    {
-      "a": "credit-card-moon",
-      "b": "window-maximize-moon",
-      "distance": 1
-    },
-    {
-      "a": "index-card-moon",
-      "b": "command-palette-moon",
-      "distance": 1
-    },
-    {
-      "a": "card-bell",
-      "b": "layout-rows-2-bell",
-      "distance": 1
-    },
-    {
-      "a": "card-moon",
-      "b": "layout-rows-2-moon",
-      "distance": 1
-    },
-    {
-      "a": "spice-jar-moon",
-      "b": "doorbell-moon",
-      "distance": 1.41
-    },
-    {
-      "a": "layout-top-bell",
-      "b": "window-maximize-bell",
-      "distance": 1
-    },
-    {
-      "a": "layout-top-moon",
-      "b": "window-maximize-moon",
-      "distance": 1
-    },
-    {
-      "a": "cursor-zoom-trophy",
-      "b": "cursor-wait-trophy",
-      "distance": 1
-    },
-    {
-      "a": "cursor-zoom-trophy",
-      "b": "cursor-help-trophy",
-      "distance": 1
-    },
-    {
-      "a": "cursor-wait-bell",
-      "b": "cursor-help-bell",
-      "distance": 1.41
-    },
-    {
-      "a": "cursor-wait-moon",
-      "b": "cursor-help-moon",
-      "distance": 1.41
-    },
-    {
-      "a": "cursor-wait-trophy",
-      "b": "cursor-help-trophy",
-      "distance": 0
-    },
-    {
-      "a": "credit-card-fire",
-      "b": "window-maximize-fire",
-      "distance": 1.41
-    },
-    {
-      "a": "spice-jar-fire",
-      "b": "doorbell-fire",
-      "distance": 1.41
-    },
-    {
-      "a": "layout-top-fire",
-      "b": "window-maximize-fire",
-      "distance": 1
-    },
-    {
-      "a": "cursor-wait-fire",
-      "b": "cursor-help-fire",
-      "distance": 1.41
     },
     {
       "a": "barcode-pin",
-      "b": "fence-pin",
+      "b": "bubble-wrap-pin",
       "distance": 1.41
     },
     {
       "a": "barcode-bell",
-      "b": "fence-bell",
-      "distance": 1.41
-    },
-    {
-      "a": "barcode-flag",
-      "b": "fence-flag",
+      "b": "bubble-wrap-bell",
       "distance": 1.41
     },
     {
       "a": "barcode-moon",
-      "b": "fence-moon",
+      "b": "bubble-wrap-moon",
       "distance": 1.41
     },
     {
-      "a": "credit-card-pin",
-      "b": "window-maximize-pin",
+      "a": "power-plant-pin",
+      "b": "bike-rack-pin",
       "distance": 1
     },
     {
-      "a": "credit-card-flag",
-      "b": "window-maximize-flag",
+      "a": "power-plant-sparkle",
+      "b": "bike-rack-sparkle",
+      "distance": 1.41
+    },
+    {
+      "a": "power-plant-flag",
+      "b": "bike-rack-flag",
       "distance": 1
     },
     {
-      "a": "index-card-pin",
-      "b": "command-palette-pin",
-      "distance": 1
-    },
-    {
-      "a": "index-card-bell",
-      "b": "command-palette-bell",
+      "a": "blister-pack-pin",
+      "b": "bubble-wrap-pin",
       "distance": 1.41
     },
     {
-      "a": "index-card-flag",
-      "b": "command-palette-flag",
-      "distance": 1
-    },
-    {
-      "a": "index-card-fire",
-      "b": "command-palette-fire",
+      "a": "blister-pack-bell",
+      "b": "bubble-wrap-bell",
       "distance": 1.41
     },
     {
-      "a": "card-pin",
-      "b": "layout-rows-2-pin",
+      "a": "blister-pack-moon",
+      "b": "bubble-wrap-moon",
       "distance": 1.41
     },
     {
-      "a": "card-flag",
-      "b": "layout-rows-2-flag",
-      "distance": 1
-    },
-    {
-      "a": "spice-jar-pin",
-      "b": "doorbell-pin",
+      "a": "keep-dry-sparkle",
+      "b": "keep-dry-upload",
       "distance": 1.41
     },
     {
-      "a": "spice-jar-bell",
-      "b": "doorbell-bell",
+      "a": "box-open-sparkle",
+      "b": "box-open-upload",
       "distance": 1.41
     },
     {
-      "a": "spice-jar-flag",
-      "b": "doorbell-flag",
+      "a": "crane-sparkle",
+      "b": "crane-upload",
       "distance": 1.41
     },
     {
-      "a": "toilet-paper-sparkle",
-      "b": "toilet-paper-upload",
+      "a": "this-side-up-sparkle",
+      "b": "this-side-up-upload",
       "distance": 1.41
     },
     {
-      "a": "deep-fryer-sparkle",
-      "b": "deep-fryer-upload",
+      "a": "pallet-jack-sparkle",
+      "b": "pallet-jack-upload",
       "distance": 1.41
     },
     {
-      "a": "freezer-sparkle",
-      "b": "freezer-upload",
+      "a": "bike-rack-sparkle",
+      "b": "bike-rack-upload",
       "distance": 1.41
     },
     {
-      "a": "meat-thermometer-sparkle",
-      "b": "meat-thermometer-upload",
+      "a": "crossroads-sparkle",
+      "b": "crossroads-upload",
       "distance": 1.41
     },
     {
-      "a": "hand-blender-sparkle",
-      "b": "hand-blender-upload",
+      "a": "geofence-sparkle",
+      "b": "geofence-upload",
       "distance": 1.41
     },
     {
-      "a": "spinner-sparkle",
-      "b": "spinner-upload",
+      "a": "scale-bar-sparkle",
+      "b": "scale-bar-upload",
       "distance": 1.41
     },
     {
-      "a": "slider-sparkle",
-      "b": "slider-upload",
+      "a": "map-marked-sparkle",
+      "b": "map-marked-upload",
       "distance": 1.41
     },
     {
-      "a": "tabs-sparkle",
-      "b": "tabs-upload",
+      "a": "north-arrow-sparkle",
+      "b": "north-arrow-upload",
       "distance": 1.41
     },
     {
-      "a": "layout-top-pin",
-      "b": "window-maximize-pin",
-      "distance": 1
-    },
-    {
-      "a": "layout-top-flag",
-      "b": "window-maximize-flag",
-      "distance": 1
-    },
-    {
-      "a": "minimize-sparkle",
-      "b": "minimize-upload",
+      "a": "directions-sign-sparkle",
+      "b": "directions-sign-upload",
       "distance": 1.41
     },
     {
-      "a": "sort-ascending-sparkle",
-      "b": "sort-ascending-upload",
+      "a": "terrain-sparkle",
+      "b": "terrain-upload",
       "distance": 1.41
     },
     {
-      "a": "tooltip-sparkle",
-      "b": "tooltip-upload",
+      "a": "distance-sparkle",
+      "b": "distance-upload",
       "distance": 1.41
     },
     {
-      "a": "radio-button-sparkle",
-      "b": "radio-button-upload",
+      "a": "audiobook-sparkle",
+      "b": "audiobook-upload",
       "distance": 1.41
     },
     {
-      "a": "split-button-sparkle",
-      "b": "split-button-upload",
+      "a": "theater-masks-sparkle",
+      "b": "theater-masks-upload",
       "distance": 1.41
     },
     {
-      "a": "cursor-zoom-shield",
-      "b": "cursor-wait-shield",
-      "distance": 1
-    },
-    {
-      "a": "cursor-zoom-shield",
-      "b": "cursor-help-shield",
-      "distance": 1
-    },
-    {
-      "a": "cursor-zoom-pin",
-      "b": "cursor-wait-pin",
-      "distance": 1
-    },
-    {
-      "a": "cursor-zoom-sparkle",
-      "b": "cursor-zoom-upload",
+      "a": "tuning-fork-sparkle",
+      "b": "tuning-fork-upload",
       "distance": 1.41
     },
     {
-      "a": "cursor-zoom-flag",
-      "b": "cursor-wait-flag",
-      "distance": 1
-    },
-    {
-      "a": "cursor-zoom-flag",
-      "b": "cursor-help-flag",
-      "distance": 1
-    },
-    {
-      "a": "cursor-wait-shield",
-      "b": "cursor-help-shield",
-      "distance": 0
-    },
-    {
-      "a": "cursor-wait-user",
-      "b": "cursor-help-user",
-      "distance": 1
-    },
-    {
-      "a": "cursor-wait-sparkle",
-      "b": "cursor-wait-upload",
+      "a": "notepad-pin",
+      "b": "shipping-label-pin",
       "distance": 1.41
     },
     {
-      "a": "cursor-wait-sparkle",
-      "b": "cursor-help-sparkle",
-      "distance": 1
-    },
-    {
-      "a": "cursor-wait-sparkle",
-      "b": "cursor-help-upload",
+      "a": "notepad-bell",
+      "b": "shipping-label-bell",
       "distance": 1.41
     },
     {
-      "a": "cursor-wait-flag",
-      "b": "cursor-help-flag",
-      "distance": 0
-    },
-    {
-      "a": "cursor-wait-upload",
-      "b": "cursor-help-sparkle",
+      "a": "notepad-flag",
+      "b": "shipping-label-flag",
       "distance": 1.41
     },
     {
-      "a": "umbrella-stand-sparkle",
-      "b": "umbrella-stand-upload",
+      "a": "crane-hook-sparkle",
+      "b": "crane-hook-upload",
       "distance": 1.41
     },
     {
-      "a": "scan-text-sparkle",
-      "b": "scan-text-upload",
+      "a": "summit-sparkle",
+      "b": "summit-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "lamp-post-sparkle",
+      "b": "lamp-post-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "triangle-instrument-sparkle",
+      "b": "triangle-instrument-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "fragile-sparkle",
+      "b": "fragile-upload",
       "distance": 1.41
     }
   ],
   "dropped": [
-    "fence-search",
-    "fence-clock",
-    "fence-shield",
-    "layout-timeline-shield",
-    "fence-gear",
-    "fence-stats",
-    "fence-bolt",
-    "fence-heart",
-    "fence-star",
-    "fence-cloud",
-    "fence-chat",
-    "fence-download",
-    "fence-pencil",
-    "fence-sparkle",
-    "fence-upload",
-    "fence-trash",
-    "fence-calendar",
-    "fence-question",
-    "fence-crown",
-    "fence-trophy",
-    "fence-cursor",
-    "fence-camera",
-    "fence-filter",
-    "fence-checkbox",
-    "window-maximize-search",
-    "window-maximize-clock",
-    "window-maximize-shield",
-    "window-maximize-gear",
-    "window-maximize-bolt",
-    "window-maximize-heart",
-    "window-maximize-star",
-    "window-maximize-user",
-    "window-maximize-cloud",
-    "window-maximize-chat",
-    "window-maximize-download",
-    "window-maximize-pencil",
-    "window-maximize-leaf",
-    "window-maximize-upload",
-    "window-maximize-trash",
-    "window-maximize-calendar",
-    "window-maximize-question",
-    "window-maximize-bookmark",
-    "window-maximize-crown",
-    "window-maximize-trophy",
-    "window-maximize-hourglass",
-    "window-maximize-cursor",
-    "window-maximize-camera",
-    "window-maximize-filter",
-    "window-maximize-checkbox",
-    "command-palette-search",
-    "command-palette-clock",
-    "command-palette-shield",
-    "command-palette-gear",
-    "command-palette-bolt",
-    "command-palette-heart",
-    "command-palette-star",
-    "command-palette-user",
-    "command-palette-chat",
-    "command-palette-download",
-    "command-palette-pencil",
-    "command-palette-leaf",
-    "command-palette-sparkle",
-    "command-palette-upload",
-    "command-palette-trash",
-    "command-palette-calendar",
-    "command-palette-question",
-    "command-palette-bookmark",
-    "command-palette-crown",
-    "command-palette-trophy",
-    "command-palette-hourglass",
-    "command-palette-cursor",
-    "command-palette-camera",
-    "command-palette-filter",
-    "command-palette-checkbox",
-    "layout-rows-2-search",
-    "layout-rows-2-heart",
-    "layout-rows-2-user",
-    "layout-rows-2-cloud",
-    "layout-rows-2-chat",
-    "layout-rows-2-download",
-    "layout-rows-2-pencil",
-    "layout-rows-2-sparkle",
-    "layout-rows-2-upload",
-    "layout-rows-2-trash",
-    "layout-rows-2-calendar",
-    "layout-rows-2-bookmark",
-    "layout-rows-2-question",
-    "layout-rows-2-crown",
-    "layout-rows-2-clock",
-    "layout-rows-2-hourglass",
-    "layout-rows-2-trophy",
-    "layout-rows-2-cursor",
-    "layout-rows-2-camera",
-    "layout-rows-2-filter",
-    "layout-rows-2-stats",
-    "layout-rows-2-checkbox",
-    "layout-rows-2-gear",
-    "doorbell-search",
-    "doorbell-clock",
-    "doorbell-shield",
-    "doorbell-gear",
-    "doorbell-bolt",
-    "doorbell-heart",
-    "doorbell-star",
-    "doorbell-user",
-    "doorbell-cloud",
-    "doorbell-chat",
-    "doorbell-download",
-    "doorbell-pencil",
-    "doorbell-sparkle",
-    "doorbell-upload",
-    "doorbell-trash",
-    "doorbell-calendar",
-    "doorbell-question",
-    "doorbell-bookmark",
-    "doorbell-crown",
-    "doorbell-leaf",
-    "doorbell-trophy",
-    "doorbell-hourglass",
-    "doorbell-cursor",
-    "doorbell-filter",
-    "doorbell-stats",
-    "doorbell-checkbox",
-    "toilet-paper-leaf",
-    "food-processor-leaf",
-    "food-processor-upload",
-    "coffee-grinder-upload",
-    "dishwasher-leaf",
-    "dishwasher-upload",
-    "freezer-leaf",
-    "kitchen-scale-leaf",
-    "kitchen-scale-upload",
-    "washing-machine-leaf",
-    "washing-machine-upload",
-    "tabs-leaf",
-    "columns-leaf",
-    "columns-upload",
-    "layout-top-leaf",
-    "layout-top-upload",
-    "window-maximize-sparkle",
-    "window-maximize-stats",
-    "sort-ascending-stats",
-    "skeleton-loader-leaf",
-    "skeleton-loader-upload",
-    "number-input-upload",
-    "mega-menu-leaf",
-    "mega-menu-upload",
-    "layout-columns-3-leaf",
-    "layout-columns-3-upload",
-    "layout-rows-3-leaf",
-    "layout-rows-3-upload",
-    "layout-cards-stats",
-    "layout-cards-leaf",
-    "layout-cards-upload",
-    "layout-gallery-leaf",
-    "layout-gallery-upload",
-    "layout-hero-leaf",
-    "layout-hero-upload",
-    "layout-drawer-leaf",
-    "layout-drawer-upload",
-    "layout-centered-leaf",
-    "layout-centered-upload",
-    "layout-feed-stats",
-    "layout-feed-leaf",
-    "layout-feed-upload",
-    "layout-timeline-leaf",
-    "layout-timeline-upload",
-    "layout-carousel-stats",
-    "layout-carousel-leaf",
-    "layout-carousel-upload",
-    "window-restore-upload",
-    "layout-two-thirds-leaf",
-    "layout-two-thirds-upload",
-    "layout-header-sidebar-leaf",
-    "layout-header-sidebar-upload",
-    "layout-header-split-leaf",
-    "layout-header-split-upload",
-    "cursor-wait-search",
-    "cursor-help-search",
-    "cursor-wait-chat",
-    "cursor-help-chat",
-    "cursor-wait-download",
-    "cursor-help-download",
-    "cursor-zoom-leaf",
-    "cursor-wait-question",
-    "cursor-help-question",
-    "cursor-wait-bookmark",
-    "cursor-wait-hourglass",
-    "cursor-help-hourglass",
-    "cursor-wait-cursor",
-    "cursor-help-cursor",
-    "cursor-wait-checkbox",
-    "cursor-help-clock",
-    "cursor-help-gear",
-    "cursor-help-bolt",
-    "cursor-help-heart",
-    "cursor-help-star",
-    "cursor-help-alert",
-    "cursor-help-cloud",
-    "cursor-wait-leaf",
-    "cursor-help-pencil",
-    "cursor-help-leaf",
-    "cursor-help-trash",
-    "cursor-help-calendar",
-    "cursor-help-upload",
-    "cursor-help-crown",
-    "window-maximize-bell",
-    "window-maximize-moon",
-    "command-palette-moon",
-    "layout-rows-2-bell",
-    "layout-rows-2-moon",
-    "doorbell-moon",
-    "cursor-wait-trophy",
-    "cursor-help-trophy",
-    "cursor-help-bell",
-    "cursor-help-moon",
-    "window-maximize-fire",
-    "doorbell-fire",
-    "cursor-help-fire",
-    "fence-pin",
-    "fence-bell",
-    "fence-flag",
-    "fence-moon",
-    "window-maximize-pin",
-    "window-maximize-flag",
-    "command-palette-pin",
-    "command-palette-bell",
-    "command-palette-flag",
-    "command-palette-fire",
-    "layout-rows-2-pin",
-    "layout-rows-2-flag",
-    "doorbell-pin",
-    "doorbell-bell",
-    "doorbell-flag",
-    "toilet-paper-upload",
-    "deep-fryer-upload",
-    "freezer-upload",
-    "meat-thermometer-upload",
-    "hand-blender-upload",
-    "spinner-upload",
-    "slider-upload",
-    "tabs-upload",
-    "minimize-upload",
-    "sort-ascending-upload",
-    "tooltip-upload",
-    "radio-button-upload",
-    "split-button-upload",
-    "cursor-wait-shield",
-    "cursor-help-shield",
-    "cursor-wait-pin",
-    "cursor-zoom-upload",
-    "cursor-wait-flag",
-    "cursor-help-flag",
-    "cursor-help-user",
-    "cursor-wait-upload",
-    "cursor-help-sparkle",
-    "umbrella-stand-upload",
-    "scan-text-upload"
+    "shipping-label-search",
+    "shipping-label-clock",
+    "shipping-label-shield",
+    "shipping-label-gear",
+    "shipping-label-heart",
+    "shipping-label-alert",
+    "shipping-label-user",
+    "shipping-label-cloud",
+    "shipping-label-chat",
+    "shipping-label-download",
+    "shipping-label-pencil",
+    "shipping-label-trash",
+    "shipping-label-calendar",
+    "shipping-label-question",
+    "shipping-label-bookmark",
+    "shipping-label-crown",
+    "shipping-label-trophy",
+    "shipping-label-hourglass",
+    "shipping-label-cursor",
+    "shipping-label-camera",
+    "shipping-label-filter",
+    "shipping-label-stats",
+    "shipping-label-checkbox",
+    "bubble-wrap-search",
+    "bubble-wrap-clock",
+    "bubble-wrap-shield",
+    "bubble-wrap-gear",
+    "bubble-wrap-stats",
+    "bubble-wrap-bolt",
+    "bubble-wrap-heart",
+    "bubble-wrap-star",
+    "bubble-wrap-user",
+    "bubble-wrap-chat",
+    "bubble-wrap-download",
+    "bubble-wrap-pencil",
+    "bubble-wrap-leaf",
+    "bubble-wrap-calendar",
+    "bubble-wrap-question",
+    "bubble-wrap-crown",
+    "bubble-wrap-hourglass",
+    "bubble-wrap-trophy",
+    "bubble-wrap-camera",
+    "bubble-wrap-filter",
+    "bubble-wrap-checkbox",
+    "shipping-label-bolt",
+    "shipping-label-star",
+    "bubble-wrap-sparkle",
+    "bubble-wrap-upload",
+    "shipping-label-sparkle",
+    "shipping-label-upload",
+    "shipping-label-leaf",
+    "bike-rack-search",
+    "bike-rack-clock",
+    "bike-rack-shield",
+    "bike-rack-gear",
+    "bike-rack-bolt",
+    "bike-rack-heart",
+    "bike-rack-star",
+    "bike-rack-user",
+    "bike-rack-cloud",
+    "bike-rack-chat",
+    "bike-rack-download",
+    "bike-rack-pencil",
+    "bike-rack-leaf",
+    "bike-rack-trash",
+    "bike-rack-calendar",
+    "bike-rack-question",
+    "bike-rack-bookmark",
+    "bike-rack-crown",
+    "bike-rack-trophy",
+    "bike-rack-hourglass",
+    "bike-rack-cursor",
+    "bike-rack-camera",
+    "bike-rack-filter",
+    "bike-rack-stats",
+    "bike-rack-checkbox",
+    "bubble-wrap-cloud",
+    "bubble-wrap-trash",
+    "bubble-wrap-flag",
+    "bubble-wrap-bookmark",
+    "conveyor-belt-stats",
+    "conveyor-belt-leaf",
+    "conveyor-belt-upload",
+    "shipping-crate-leaf",
+    "shipping-crate-upload",
+    "tape-roll-leaf",
+    "tape-roll-upload",
+    "scaffolding-leaf",
+    "scaffolding-upload",
+    "parcel-tracking-upload",
+    "parcel-return-upload",
+    "cold-chain-upload",
+    "drone-delivery-upload",
+    "shelves-leaf",
+    "shelves-upload",
+    "parcel-scale-upload",
+    "box-open-leaf",
+    "container-ship-leaf",
+    "container-ship-upload",
+    "cement-mixer-leaf",
+    "cement-mixer-upload",
+    "boxes-leaf",
+    "boxes-upload",
+    "shipping-container-leaf",
+    "shipping-container-upload",
+    "bus-shelter-leaf",
+    "bus-shelter-upload",
+    "pier-upload",
+    "geofence-stats",
+    "geofence-leaf",
+    "area-upload",
+    "map-marked-leaf",
+    "compass-rose-upload",
+    "summit-leaf",
+    "picnic-table-leaf",
+    "picnic-table-upload",
+    "terrain-leaf",
+    "radar-leaf",
+    "livestream-upload",
+    "turntable-leaf",
+    "turntable-upload",
+    "theater-masks-leaf",
+    "stage-curtain-leaf",
+    "stage-curtain-upload",
+    "film-strip-leaf",
+    "film-strip-upload",
+    "tambourine-upload",
+    "bongo-upload",
+    "shipping-label-moon",
+    "shipping-label-fire",
+    "bike-rack-bell",
+    "bike-rack-moon",
+    "bike-rack-fire",
+    "bubble-wrap-pin",
+    "bubble-wrap-bell",
+    "bubble-wrap-moon",
+    "bike-rack-pin",
+    "bike-rack-sparkle",
+    "bike-rack-flag",
+    "keep-dry-upload",
+    "box-open-upload",
+    "crane-upload",
+    "this-side-up-upload",
+    "pallet-jack-upload",
+    "crossroads-upload",
+    "geofence-upload",
+    "scale-bar-upload",
+    "map-marked-upload",
+    "north-arrow-upload",
+    "directions-sign-upload",
+    "terrain-upload",
+    "distance-upload",
+    "audiobook-upload",
+    "theater-masks-upload",
+    "tuning-fork-upload",
+    "shipping-label-pin",
+    "shipping-label-bell",
+    "shipping-label-flag",
+    "crane-hook-upload",
+    "summit-upload",
+    "lamp-post-upload",
+    "triangle-instrument-upload",
+    "fragile-upload"
   ],
   "byCategory": {
     "accessibility": 53,
@@ -1924,11 +1235,11 @@
     "food": 5298,
     "gaming": 1939,
     "health": 1991,
-    "home": 4012,
-    "interface": 2329,
-    "logistics": 475,
-    "maps": 319,
-    "media": 1358,
+    "home": 3981,
+    "interface": 1324,
+    "logistics": 1124,
+    "maps": 809,
+    "media": 1656,
     "nature": 1629,
     "navigation": 35,
     "notifications": 50,

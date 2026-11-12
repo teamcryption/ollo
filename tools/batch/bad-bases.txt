@@ -485,3 +485,17 @@ split-button
 tabs
 tooltip
 window-restore
+tape-roll
+this-side-up
+crossroads
+area
+scale-bar
+distance
+north-arrow
+lamp-post
+audiobook
+livestream
+triangle-instrument
+keep-dry
+cold-chain
+bike-rack
