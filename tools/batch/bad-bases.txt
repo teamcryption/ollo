@@ -427,3 +427,12 @@ olive
 torch
 jack-o-lantern
 sushi
+level-up
+crystal-ball
+defibrillator
+kidney
+contact-lens
+walker
+inhaler
+marbles
+blood-bag
