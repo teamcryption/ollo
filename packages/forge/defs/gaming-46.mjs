@@ -1,0 +1,27 @@
+import { icon, body, line, accent } from '../src/dsl.mjs';
+import { R, C, E, L, A, D, poly, star, head, gear, rotateD, translateD, scaleD } from '../src/geo.mjs';
+
+const rot = (els, deg, cx = 12, cy = 12) => els.map((e) => ({ ...e, d: rotateD(e.d, deg, cx, cy) }));
+const spark = (x, y, r) => accent(star(x, y, r, r * 0.32, 4, 0.2));
+
+export default {
+  category: 'gaming',
+  icons: [
+    icon('gamepad-flag', 'Report Game', ['report', 'flag', 'mark', 'game', 'gamepad'], [body('M6 7h7a3 3 0 0 1 3 3v2.5a2.5 2.5 0 0 1-4.3 1.7L10.5 13h-2l-1.2 1.2A2.5 2.5 0 0 1 3 12.5V10a3 3 0 0 1 3-3Z'), line('M6.5 10h2M7.5 9v2'), body('M14.3 13h6l-1.5 2.2 1.5 2.3h-6Z', { cover: true }), line('M14.3 13v8')], { noAccent: true }),
+    icon('dice-flag', 'Report Dice', ['report', 'flag', 'mark', 'dice', 'dice'], [body(R(3.5, 4.5, 12, 12, 2.5)), line(D(6.8, 7.8) + D(9.5, 10.5) + D(12.2, 13.2) + D(12.2, 7.8) + D(6.8, 13.2)), body('M14.3 13h6l-1.5 2.2 1.5 2.3h-6Z', { cover: true }), line('M14.3 13v8')], { noAccent: true }),
+    icon('pawn-flag', 'Report Chess', ['report', 'flag', 'mark', 'chess', 'pawn'], [line(C(9.5, 5.5, 2)), body('M7.5 9h4l-.8 1.5c0 2 .8 3.5 2.3 5h-7c1.5-1.5 2.3-3 2.3-5Z'), line('M4.5 18h10'), body('M14.3 13h6l-1.5 2.2 1.5 2.3h-6Z', { cover: true }), line('M14.3 13v8')], { noAccent: true }),
+    icon('joystick-flag', 'Report Joystick', ['report', 'flag', 'mark', 'joystick', 'joystick'], [body(C(9.5, 5.8, 2.5)), line('M9.5 8.5v4.8'), body(R(3.5, 13.5, 12, 4.5, 1.5)), line('M5.8 15.75h1'), body('M14.3 13h6l-1.5 2.2 1.5 2.3h-6Z', { cover: true }), line('M14.3 13v8')], { noAccent: true }),
+    icon('playing-card-flag', 'Report Playing Card', ['report', 'flag', 'mark', 'playing card', 'playing-card'], [body(R(4.5, 3.5, 10, 14, 1.8)), line('M9.5 7.5c1.5 1.4 2.8 2.4 2.8 3.6a1.4 1.4 0 0 1-2.5.9l.4 1.5H8.8l.4-1.5a1.4 1.4 0 0 1-2.5-.9c0-1.2 1.3-2.2 2.8-3.6Z'), body('M14.3 13h6l-1.5 2.2 1.5 2.3h-6Z', { cover: true }), line('M14.3 13v8')], { noAccent: true }),
+    icon('domino-flag', 'Report Domino', ['report', 'flag', 'mark', 'domino', 'domino'], [body(R(5.5, 3, 8, 15.5, 2)), line('M5.7 10.75h7.6'), line(D(8, 5.8) + D(9.5, 7.3) + D(11, 8.8) + D(8, 13.5) + D(11, 13.5)), body('M14.3 13h6l-1.5 2.2 1.5 2.3h-6Z', { cover: true }), line('M14.3 13v8')], { noAccent: true }),
+    icon('sword-flag', 'Report Sword', ['report', 'flag', 'mark', 'sword', 'sword'], [body(rotateD('M8.6 2.8h1.8l.4 9.7H8.2Z', 45, 9.5, 10.5)), line(rotateD('M6.3 12.9h6.4', 45, 9.5, 10.5)), line(rotateD('M9.5 13.2v3.6', 45, 9.5, 10.5)), body('M14.3 13h6l-1.5 2.2 1.5 2.3h-6Z', { cover: true }), line('M14.3 13v8')], { noAccent: true }),
+    icon('treasure-chest-flag', 'Report Treasure Chest', ['report', 'flag', 'mark', 'treasure chest', 'treasure-chest'], [body('M3.5 9V7.5a3 3 0 0 1 3-3h6a3 3 0 0 1 3 3V9Z'), body(R(3.5, 10.2, 12, 7.8, 1.2)), line('M9.5 11.8v2.2'), body('M14.3 13h6l-1.5 2.2 1.5 2.3h-6Z', { cover: true }), line('M14.3 13v8')], { noAccent: true }),
+    icon('bomb-flag', 'Report Bomb', ['report', 'flag', 'mark', 'bomb', 'bomb'], [line('M12.3 8.2c.5-1.5 1.5-2.5 3-3'), body(C(8.5, 12.3, 5.5)), line('M6 10.2a3 3 0 0 1 2-2'), line('M16 3v1.2M17.3 4.5h-1.2'), body('M14.3 13h6l-1.5 2.2 1.5 2.3h-6Z', { cover: true }), line('M14.3 13v8')], { noAccent: true }),
+    icon('potion-flag', 'Report Potion', ['report', 'flag', 'mark', 'potion', 'potion'], [line('M7.5 3.5h4'), line('M8 7.7V4h3v3.7'), body(C(9.5, 12.5, 5)), line('M5 12.5h9'), body('M14.3 13h6l-1.5 2.2 1.5 2.3h-6Z', { cover: true }), line('M14.3 13v8')], { noAccent: true }),
+    icon('teddy-flag', 'Report Teddy Bear', ['report', 'flag', 'mark', 'teddy bear', 'teddy'], [body(C(5.5, 5, 1.8)), body(C(13.5, 5, 1.8)), body(C(9.5, 10, 5)), line(E(9.5, 12, 2, 1.5)), line(D(7.5, 8.8) + D(11.5, 8.8)), body('M14.3 13h6l-1.5 2.2 1.5 2.3h-6Z', { cover: true }), line('M14.3 13v8')], { noAccent: true }),
+    icon('spinning-top-flag', 'Report Spinning Top', ['report', 'flag', 'mark', 'spinning top', 'spinning-top'], [line('M9.5 5.5V3'), body('M4 9a5.5 3.5 0 0 1 11 0Z'), body('M3.5 10.2h12l-6 7.8Z'), body('M14.3 13h6l-1.5 2.2 1.5 2.3h-6Z', { cover: true }), line('M14.3 13v8')], { noAccent: true }),
+    icon('lego-brick-flag', 'Report Toy Brick', ['report', 'flag', 'mark', 'toy brick', 'lego-brick'], [body(R(5, 4, 3, 2.5, 0.6)), body(R(11, 4, 3, 2.5, 0.6)), body(R(3.5, 7, 12, 8, 1.2)), body('M14.3 13h6l-1.5 2.2 1.5 2.3h-6Z', { cover: true }), line('M14.3 13v8')], { noAccent: true }),
+    icon('rook-flag', 'Report Rook', ['report', 'flag', 'mark', 'rook', 'rook'], [body(poly([[5, 4], [7, 4], [7, 5.5], [8.5, 5.5], [8.5, 4], [10.5, 4], [10.5, 5.5], [12, 5.5], [12, 4], [14, 4], [14, 8], [12.5, 9], [13, 14.5], [6, 14.5], [6.5, 9], [5, 8]], 0.4, true)), body(R(4, 15.5, 11, 2.5, 0.8)), body('M14.3 13h6l-1.5 2.2 1.5 2.3h-6Z', { cover: true }), line('M14.3 13v8')], { noAccent: true }),
+    icon('yoyo-flag', 'Report Yo-yo', ['report', 'flag', 'mark', 'yo-yo', 'yoyo'], [line('M9.5 3v4'), body(C(9.5, 12, 5.5)), line(C(9.5, 12, 1.6)), body('M14.3 13h6l-1.5 2.2 1.5 2.3h-6Z', { cover: true }), line('M14.3 13v8')], { noAccent: true }),
+    icon('game-cartridge-flag', 'Report Game Cartridge', ['report', 'flag', 'mark', 'game cartridge', 'game-cartridge'], [body('M4.5 4.5A1.5 1.5 0 0 1 6 3h7a1.5 1.5 0 0 1 1.5 1.5V18h-10Z'), line(R(6.5, 5.5, 6, 5, 0.6)), line('M7 15.5v2.3M9.5 15.5v2.3M12 15.5v2.3'), body('M14.3 13h6l-1.5 2.2 1.5 2.3h-6Z', { cover: true }), line('M14.3 13v8')], { noAccent: true }),
+  ],
+};
