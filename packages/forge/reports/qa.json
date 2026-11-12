@@ -1,1215 +1,926 @@
 {
-  "generatedAt": "2026-11-12T16:50:56.452Z",
-  "icons": 50080,
-  "files": 250400,
+  "generatedAt": "2026-11-12T16:56:20.818Z",
+  "icons": 51112,
+  "files": 255560,
   "errors": [],
   "warnings": [
-    "conveyor-belt-camera: grid: outside the 3-21 live area (3.00, 4.80, 22.00, 20.50)",
-    "shipping-crate-camera: grid: outside the 3-21 live area (3.72, 4.44, 22.00, 20.50)",
-    "tape-roll-camera: grid: outside the 3-21 live area (3.36, 4.08, 22.00, 20.50)",
-    "scaffolding-camera: grid: outside the 3-21 live area (4.44, 3.36, 22.00, 20.50)",
-    "parcel-tracking-camera: grid: outside the 3-21 live area (3.00, 4.08, 22.00, 20.50)",
-    "parcel-return-camera: grid: outside the 3-21 live area (3.36, 3.00, 22.00, 20.50)",
-    "cold-chain-camera: grid: outside the 3-21 live area (3.00, 3.72, 22.00, 20.50)",
-    "drone-delivery-camera: grid: outside the 3-21 live area (3.00, 3.72, 22.00, 20.50)",
-    "bubble-wrap-camera: grid: outside the 3-21 live area (3.36, 4.08, 22.00, 20.50)",
-    "keep-dry-camera: grid: outside the 3-21 live area (4.08, 3.36, 22.00, 20.50)",
-    "shelves-camera: grid: outside the 3-21 live area (3.72, 3.36, 22.00, 20.50)",
-    "parcel-scale-camera: grid: outside the 3-21 live area (3.36, 3.72, 22.00, 20.50)",
-    "box-open-camera: grid: outside the 3-21 live area (3.00, 5.52, 22.00, 20.50)",
-    "crane-camera: grid: outside the 3-21 live area (3.36, 3.72, 22.00, 20.50)",
-    "shipping-label-camera: grid: outside the 3-21 live area (3.72, 3.36, 22.00, 20.50)",
-    "this-side-up-camera: grid: outside the 3-21 live area (4.82, 6.44, 22.00, 20.50)",
-    "container-ship-camera: grid: outside the 3-21 live area (3.00, 4.44, 22.00, 20.50)",
-    "fragile-camera: grid: outside the 3-21 live area (6.24, 3.36, 22.00, 20.50)",
-    "pallet-jack-camera: grid: outside the 3-21 live area (3.36, 4.44, 22.00, 20.50)",
-    "crane-hook-camera: grid: outside the 3-21 live area (5.16, 3.00, 22.00, 20.50)",
-    "cement-mixer-camera: grid: outside the 3-21 live area (3.00, 5.92, 22.00, 20.50)",
-    "boxes-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
-    "shipping-container-camera: grid: outside the 3-21 live area (3.00, 5.52, 22.00, 20.50)",
-    "bus-shelter-camera: grid: outside the 3-21 live area (3.36, 3.72, 22.00, 20.50)",
-    "bike-rack-camera: grid: outside the 3-21 live area (3.36, 5.88, 22.00, 20.50)",
-    "pier-camera: grid: outside the 3-21 live area (3.00, 7.68, 22.00, 20.50)",
-    "crossroads-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
-    "geofence-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
-    "area-camera: grid: outside the 3-21 live area (3.29, 2.93, 22.00, 20.50)",
-    "scale-bar-camera: grid: outside the 3-21 live area (3.36, 8.04, 22.00, 20.50)",
-    "map-marked-camera: grid: outside the 3-21 live area (3.36, 3.84, 22.00, 20.50)",
-    "compass-rose-camera: grid: outside the 3-21 live area (3.28, 3.28, 22.00, 20.50)",
-    "north-arrow-camera: grid: outside the 3-21 live area (5.99, 3.52, 22.00, 20.50)",
-    "summit-camera: grid: outside the 3-21 live area (3.15, 3.36, 22.00, 20.50)",
-    "picnic-table-camera: grid: outside the 3-21 live area (3.00, 5.88, 22.00, 20.50)",
-    "lamp-post-camera: grid: outside the 3-21 live area (6.96, 3.36, 22.00, 20.50)",
-    "directions-sign-camera: grid: outside the 3-21 live area (3.61, 3.61, 22.00, 20.50)",
-    "terrain-camera: grid: outside the 3-21 live area (3.19, 6.85, 22.00, 20.50)",
-    "distance-camera: grid: outside the 3-21 live area (3.36, 3.72, 22.00, 20.50)",
-    "radar-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
-    "audiobook-camera: grid: outside the 3-21 live area (4.44, 4.08, 22.00, 20.50)",
-    "livestream-camera: grid: outside the 3-21 live area (3.00, 4.44, 22.00, 20.50)",
-    "turntable-camera: grid: outside the 3-21 live area (3.00, 4.08, 22.00, 20.50)",
-    "theater-masks-camera: grid: outside the 3-21 live area (3.75, 3.20, 22.00, 20.50)",
-    "stage-curtain-camera: grid: outside the 3-21 live area (3.00, 3.36, 22.00, 20.50)",
-    "film-strip-camera: grid: outside the 3-21 live area (4.44, 3.00, 22.00, 20.50)",
-    "tuning-fork-camera: grid: outside the 3-21 live area (7.32, 3.36, 22.00, 20.50)",
-    "tambourine-camera: grid: outside the 3-21 live area (3.72, 3.72, 22.00, 20.50)",
-    "triangle-instrument-camera: grid: outside the 3-21 live area (3.72, 3.00, 22.00, 20.50)"
+    "bongo-camera: grid: outside the 3-21 live area (3.44, 6.60, 22.00, 20.50)",
+    "gong-camera: grid: outside the 3-21 live area (3.72, 4.08, 22.00, 20.50)",
+    "synthesizer-camera: grid: outside the 3-21 live area (3.36, 5.16, 22.00, 20.50)",
+    "knob-camera: grid: outside the 3-21 live area (5.16, 5.16, 22.00, 20.50)",
+    "fast-forward-camera: grid: outside the 3-21 live area (3.72, 6.14, 22.00, 20.50)",
+    "disc-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
+    "cast-camera: grid: outside the 3-21 live area (3.36, 3.72, 22.00, 20.50)",
+    "slow-motion-camera: grid: outside the 3-21 live area (8.04, 5.47, 22.00, 20.50)",
+    "djembe-camera: grid: outside the 3-21 live area (5.16, 3.36, 22.00, 20.50)",
+    "sharp-sign-camera: grid: outside the 3-21 live area (4.80, 4.08, 22.00, 20.50)",
+    "flat-sign-camera: grid: outside the 3-21 live area (6.60, 3.36, 22.00, 20.50)",
+    "natural-sign-camera: grid: outside the 3-21 live area (6.96, 3.72, 22.00, 20.50)",
+    "bass-clef-camera: grid: outside the 3-21 live area (4.30, 3.72, 22.00, 20.50)",
+    "playback-speed-camera: grid: outside the 3-21 live area (4.08, 6.96, 22.00, 20.50)",
+    "repeat-one-camera: grid: outside the 3-21 live area (4.80, 4.44, 22.00, 20.50)",
+    "podcast-camera: grid: outside the 3-21 live area (4.08, 3.36, 22.00, 20.50)",
+    "album-camera: grid: outside the 3-21 live area (3.00, 3.72, 22.00, 20.50)",
+    "screen-record-camera: grid: outside the 3-21 live area (3.00, 3.72, 22.00, 20.50)",
+    "piano-keys-camera: grid: outside the 3-21 live area (3.00, 4.44, 22.00, 20.50)",
+    "subtitles-camera: grid: outside the 3-21 live area (3.36, 4.44, 22.00, 20.50)",
+    "aperture-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
+    "tv-retro-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
+    "maracas-camera: grid: outside the 3-21 live area (3.60, 5.07, 22.00, 20.50)",
+    "play-camera: grid: outside the 3-21 live area (6.60, 4.99, 22.00, 20.50)",
+    "pause-camera: grid: outside the 3-21 live area (5.52, 4.44, 22.00, 20.50)",
+    "stop-camera: grid: outside the 3-21 live area (4.80, 4.80, 22.00, 20.50)",
+    "record-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
+    "skip-forward-camera: grid: outside the 3-21 live area (4.44, 5.61, 22.00, 20.50)",
+    "images-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
+    "volume-camera: grid: outside the 3-21 live area (3.72, 4.22, 22.00, 20.50)",
+    "volume-low-camera: grid: outside the 3-21 live area (3.72, 4.22, 22.00, 20.50)",
+    "playlist-camera: grid: outside the 3-21 live area (3.72, 5.52, 22.00, 20.50)",
+    "mic-studio-camera: grid: outside the 3-21 live area (5.16, 3.00, 22.00, 20.50)",
+    "scarecrow-camera: grid: outside the 3-21 live area (3.36, 3.00, 22.00, 20.50)",
+    "tsunami-camera: grid: outside the 3-21 live area (3.36, 4.80, 22.00, 20.50)",
+    "rose-camera: grid: outside the 3-21 live area (5.88, 4.92, 22.00, 20.50)",
+    "fern-camera: grid: outside the 3-21 live area (4.44, 3.36, 22.00, 20.50)",
+    "terrarium-camera: grid: outside the 3-21 live area (3.36, 4.44, 22.00, 20.50)",
+    "compost-bin-camera: grid: outside the 3-21 live area (3.72, 4.44, 22.00, 20.50)",
+    "bonsai-camera: grid: outside the 3-21 live area (4.30, 3.43, 22.00, 20.50)",
+    "iceberg-camera: grid: outside the 3-21 live area (3.00, 3.60, 22.00, 20.50)",
+    "hills-camera: grid: outside the 3-21 live area (3.36, 8.73, 22.00, 20.50)",
+    "bird-feeder-camera: grid: outside the 3-21 live area (4.41, 3.00, 22.00, 20.50)",
+    "dandelion-camera: grid: outside the 3-21 live area (5.88, 3.36, 22.00, 20.50)",
+    "lavender-camera: grid: outside the 3-21 live area (6.24, 3.00, 22.00, 20.50)",
+    "kelp-camera: grid: outside the 3-21 live area (6.10, 3.36, 22.00, 20.50)",
+    "herb-camera: grid: outside the 3-21 live area (5.16, 4.80, 22.00, 20.50)",
+    "log-pile-camera: grid: outside the 3-21 live area (3.72, 5.16, 22.00, 20.50)",
+    "spider-web-camera: grid: outside the 3-21 live area (3.00, 3.00, 22.00, 20.50)",
+    "pine-tree-camera: grid: outside the 3-21 live area (4.60, 3.17, 22.00, 20.50)"
   ],
   "duplicates": [
     {
-      "a": "notepad-search",
-      "b": "shipping-label-search",
+      "a": "mic-studio-sparkle",
+      "b": "mic-studio-upload",
       "distance": 1.41
     },
     {
-      "a": "notepad-clock",
-      "b": "shipping-label-clock",
+      "a": "mixer-board-search",
+      "b": "synthesizer-search",
       "distance": 1.41
     },
     {
-      "a": "notepad-shield",
-      "b": "shipping-label-shield",
+      "a": "mixer-board-shield",
+      "b": "synthesizer-shield",
       "distance": 1.41
     },
     {
-      "a": "notepad-gear",
-      "b": "shipping-label-gear",
+      "a": "mixer-board-chat",
+      "b": "synthesizer-chat",
       "distance": 1.41
     },
     {
-      "a": "notepad-heart",
-      "b": "shipping-label-heart",
+      "a": "mixer-board-download",
+      "b": "synthesizer-download",
       "distance": 1.41
     },
     {
-      "a": "notepad-alert",
-      "b": "shipping-label-alert",
+      "a": "mixer-board-calendar",
+      "b": "synthesizer-calendar",
       "distance": 1.41
     },
     {
-      "a": "notepad-user",
-      "b": "shipping-label-user",
+      "a": "mixer-board-question",
+      "b": "synthesizer-question",
       "distance": 1.41
     },
     {
-      "a": "notepad-cloud",
-      "b": "shipping-label-cloud",
+      "a": "mixer-board-trophy",
+      "b": "synthesizer-trophy",
       "distance": 1.41
     },
     {
-      "a": "notepad-chat",
-      "b": "shipping-label-chat",
+      "a": "mixer-board-hourglass",
+      "b": "synthesizer-hourglass",
       "distance": 1.41
     },
     {
-      "a": "notepad-download",
-      "b": "shipping-label-download",
+      "a": "mixer-board-cursor",
+      "b": "synthesizer-cursor",
       "distance": 1.41
     },
     {
-      "a": "notepad-pencil",
-      "b": "shipping-label-pencil",
+      "a": "mixer-board-filter",
+      "b": "synthesizer-filter",
       "distance": 1.41
     },
     {
-      "a": "notepad-trash",
-      "b": "shipping-label-trash",
+      "a": "mixer-board-checkbox",
+      "b": "synthesizer-checkbox",
       "distance": 1.41
     },
     {
-      "a": "notepad-calendar",
-      "b": "shipping-label-calendar",
-      "distance": 1.41
-    },
-    {
-      "a": "notepad-question",
-      "b": "shipping-label-question",
-      "distance": 1.41
-    },
-    {
-      "a": "notepad-bookmark",
-      "b": "shipping-label-bookmark",
-      "distance": 1.41
-    },
-    {
-      "a": "notepad-crown",
-      "b": "shipping-label-crown",
-      "distance": 1.41
-    },
-    {
-      "a": "notepad-trophy",
-      "b": "shipping-label-trophy",
-      "distance": 1.41
-    },
-    {
-      "a": "notepad-hourglass",
-      "b": "shipping-label-hourglass",
-      "distance": 1.41
-    },
-    {
-      "a": "notepad-cursor",
-      "b": "shipping-label-cursor",
-      "distance": 1.41
-    },
-    {
-      "a": "notepad-camera",
-      "b": "shipping-label-camera",
-      "distance": 1.41
-    },
-    {
-      "a": "notepad-filter",
-      "b": "shipping-label-filter",
-      "distance": 1.41
-    },
-    {
-      "a": "notepad-stats",
-      "b": "shipping-label-stats",
-      "distance": 1.41
-    },
-    {
-      "a": "notepad-checkbox",
-      "b": "shipping-label-checkbox",
-      "distance": 1.41
-    },
-    {
-      "a": "barcode-search",
-      "b": "bubble-wrap-search",
-      "distance": 1.41
-    },
-    {
-      "a": "barcode-clock",
-      "b": "bubble-wrap-clock",
-      "distance": 1.41
-    },
-    {
-      "a": "barcode-shield",
-      "b": "bubble-wrap-shield",
-      "distance": 1.41
-    },
-    {
-      "a": "barcode-gear",
-      "b": "bubble-wrap-gear",
-      "distance": 1.41
-    },
-    {
-      "a": "barcode-gear",
-      "b": "bubble-wrap-stats",
-      "distance": 1.41
-    },
-    {
-      "a": "barcode-bolt",
-      "b": "bubble-wrap-bolt",
-      "distance": 1.41
-    },
-    {
-      "a": "barcode-heart",
-      "b": "bubble-wrap-heart",
-      "distance": 1.41
-    },
-    {
-      "a": "barcode-star",
-      "b": "bubble-wrap-star",
-      "distance": 1.41
-    },
-    {
-      "a": "barcode-user",
-      "b": "bubble-wrap-user",
-      "distance": 1.41
-    },
-    {
-      "a": "barcode-chat",
-      "b": "bubble-wrap-chat",
-      "distance": 1.41
-    },
-    {
-      "a": "barcode-download",
-      "b": "bubble-wrap-download",
-      "distance": 1.41
-    },
-    {
-      "a": "barcode-pencil",
-      "b": "bubble-wrap-pencil",
-      "distance": 1.41
-    },
-    {
-      "a": "barcode-pencil",
-      "b": "bubble-wrap-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "barcode-calendar",
-      "b": "bubble-wrap-calendar",
-      "distance": 1.41
-    },
-    {
-      "a": "barcode-question",
-      "b": "bubble-wrap-question",
-      "distance": 1.41
-    },
-    {
-      "a": "barcode-crown",
-      "b": "bubble-wrap-crown",
-      "distance": 1.41
-    },
-    {
-      "a": "barcode-hourglass",
-      "b": "bubble-wrap-hourglass",
-      "distance": 1.41
-    },
-    {
-      "a": "barcode-trophy",
-      "b": "bubble-wrap-trophy",
-      "distance": 1.41
-    },
-    {
-      "a": "barcode-camera",
-      "b": "bubble-wrap-camera",
-      "distance": 1.41
-    },
-    {
-      "a": "barcode-filter",
-      "b": "bubble-wrap-filter",
-      "distance": 1.41
-    },
-    {
-      "a": "barcode-stats",
-      "b": "bubble-wrap-stats",
-      "distance": 1.41
-    },
-    {
-      "a": "barcode-bulb",
-      "b": "bubble-wrap-trophy",
-      "distance": 1.41
-    },
-    {
-      "a": "barcode-checkbox",
-      "b": "bubble-wrap-checkbox",
-      "distance": 1.41
-    },
-    {
-      "a": "newsletter-bolt",
-      "b": "bubble-wrap-bolt",
-      "distance": 1.41
-    },
-    {
-      "a": "newsletter-bolt",
-      "b": "shipping-label-bolt",
+      "a": "video-lesson-search",
+      "b": "screen-record-search",
       "distance": 1
     },
     {
-      "a": "newsletter-star",
-      "b": "bubble-wrap-star",
-      "distance": 1.41
-    },
-    {
-      "a": "newsletter-star",
-      "b": "shipping-label-star",
+      "a": "video-lesson-clock",
+      "b": "screen-record-clock",
       "distance": 1
     },
     {
-      "a": "newsletter-sparkle",
-      "b": "bubble-wrap-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "newsletter-sparkle",
-      "b": "bubble-wrap-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "newsletter-sparkle",
-      "b": "shipping-label-sparkle",
+      "a": "video-lesson-shield",
+      "b": "screen-record-shield",
       "distance": 1
     },
     {
-      "a": "newsletter-sparkle",
-      "b": "shipping-label-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "newsletter-leaf",
-      "b": "bubble-wrap-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "newsletter-leaf",
-      "b": "shipping-label-pencil",
-      "distance": 1.41
-    },
-    {
-      "a": "newsletter-leaf",
-      "b": "shipping-label-leaf",
+      "a": "video-lesson-gear",
+      "b": "screen-record-gear",
       "distance": 1
     },
     {
-      "a": "power-plant-search",
-      "b": "bike-rack-search",
+      "a": "video-lesson-bolt",
+      "b": "screen-record-bolt",
       "distance": 1
     },
     {
-      "a": "power-plant-clock",
-      "b": "bike-rack-clock",
+      "a": "video-lesson-heart",
+      "b": "screen-record-heart",
       "distance": 1
     },
     {
-      "a": "power-plant-shield",
-      "b": "bike-rack-shield",
+      "a": "video-lesson-star",
+      "b": "screen-record-star",
       "distance": 1
     },
     {
-      "a": "power-plant-gear",
-      "b": "bike-rack-gear",
+      "a": "video-lesson-alert",
+      "b": "screen-record-alert",
       "distance": 1
     },
     {
-      "a": "power-plant-bolt",
-      "b": "bike-rack-bolt",
+      "a": "video-lesson-user",
+      "b": "screen-record-user",
       "distance": 1
     },
     {
-      "a": "power-plant-heart",
-      "b": "bike-rack-heart",
+      "a": "video-lesson-cloud",
+      "b": "screen-record-cloud",
       "distance": 1
     },
     {
-      "a": "power-plant-star",
-      "b": "bike-rack-star",
+      "a": "video-lesson-chat",
+      "b": "screen-record-chat",
       "distance": 1
     },
     {
-      "a": "power-plant-user",
-      "b": "bike-rack-user",
+      "a": "video-lesson-download",
+      "b": "screen-record-download",
       "distance": 1
     },
     {
-      "a": "power-plant-cloud",
-      "b": "bike-rack-cloud",
+      "a": "video-lesson-pencil",
+      "b": "screen-record-pencil",
       "distance": 1
     },
     {
-      "a": "power-plant-chat",
-      "b": "bike-rack-chat",
+      "a": "video-lesson-sparkle",
+      "b": "screen-record-sparkle",
       "distance": 1
     },
     {
-      "a": "power-plant-download",
-      "b": "bike-rack-download",
+      "a": "video-lesson-calendar",
+      "b": "screen-record-calendar",
       "distance": 1
     },
     {
-      "a": "power-plant-pencil",
-      "b": "bike-rack-pencil",
+      "a": "video-lesson-question",
+      "b": "screen-record-question",
       "distance": 1
     },
     {
-      "a": "power-plant-pencil",
-      "b": "bike-rack-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "power-plant-trash",
-      "b": "bike-rack-trash",
+      "a": "video-lesson-bookmark",
+      "b": "screen-record-bookmark",
       "distance": 1
     },
     {
-      "a": "power-plant-calendar",
-      "b": "bike-rack-calendar",
+      "a": "video-lesson-leaf",
+      "b": "screen-record-leaf",
       "distance": 1
     },
     {
-      "a": "power-plant-question",
-      "b": "bike-rack-question",
+      "a": "video-lesson-trophy",
+      "b": "screen-record-trophy",
       "distance": 1
     },
     {
-      "a": "power-plant-bookmark",
-      "b": "bike-rack-bookmark",
+      "a": "video-lesson-hourglass",
+      "b": "screen-record-hourglass",
       "distance": 1
     },
     {
-      "a": "power-plant-crown",
-      "b": "bike-rack-crown",
+      "a": "video-lesson-cursor",
+      "b": "screen-record-cursor",
       "distance": 1
     },
     {
-      "a": "power-plant-trophy",
-      "b": "bike-rack-trophy",
+      "a": "video-lesson-camera",
+      "b": "screen-record-camera",
       "distance": 1
     },
     {
-      "a": "power-plant-hourglass",
-      "b": "bike-rack-hourglass",
+      "a": "video-lesson-filter",
+      "b": "screen-record-filter",
       "distance": 1
     },
     {
-      "a": "power-plant-cursor",
-      "b": "bike-rack-cursor",
+      "a": "video-lesson-stats",
+      "b": "screen-record-stats",
       "distance": 1
     },
     {
-      "a": "power-plant-camera",
-      "b": "bike-rack-camera",
+      "a": "video-lesson-checkbox",
+      "b": "screen-record-checkbox",
       "distance": 1
     },
     {
-      "a": "power-plant-filter",
-      "b": "bike-rack-filter",
+      "a": "bottle-cap-search",
+      "b": "record-search",
+      "distance": 1.41
+    },
+    {
+      "a": "bottle-cap-clock",
+      "b": "record-clock",
+      "distance": 1.41
+    },
+    {
+      "a": "bottle-cap-shield",
+      "b": "record-shield",
+      "distance": 1.41
+    },
+    {
+      "a": "bottle-cap-gear",
+      "b": "record-gear",
+      "distance": 1.41
+    },
+    {
+      "a": "bottle-cap-heart",
+      "b": "record-heart",
+      "distance": 1.41
+    },
+    {
+      "a": "bottle-cap-user",
+      "b": "record-user",
+      "distance": 1.41
+    },
+    {
+      "a": "bottle-cap-chat",
+      "b": "record-chat",
+      "distance": 1.41
+    },
+    {
+      "a": "bottle-cap-download",
+      "b": "record-download",
+      "distance": 1.41
+    },
+    {
+      "a": "bottle-cap-pencil",
+      "b": "record-pencil",
+      "distance": 1.41
+    },
+    {
+      "a": "bottle-cap-trash",
+      "b": "record-trash",
+      "distance": 1.41
+    },
+    {
+      "a": "bottle-cap-calendar",
+      "b": "record-calendar",
+      "distance": 1.41
+    },
+    {
+      "a": "bottle-cap-question",
+      "b": "record-question",
+      "distance": 1.41
+    },
+    {
+      "a": "bottle-cap-bookmark",
+      "b": "record-bookmark",
+      "distance": 1.41
+    },
+    {
+      "a": "bottle-cap-crown",
+      "b": "record-crown",
+      "distance": 1.41
+    },
+    {
+      "a": "bottle-cap-trophy",
+      "b": "record-trophy",
+      "distance": 1.41
+    },
+    {
+      "a": "bottle-cap-hourglass",
+      "b": "record-hourglass",
+      "distance": 1.41
+    },
+    {
+      "a": "bottle-cap-cursor",
+      "b": "record-cursor",
+      "distance": 1.41
+    },
+    {
+      "a": "bottle-cap-camera",
+      "b": "record-camera",
+      "distance": 1.41
+    },
+    {
+      "a": "bottle-cap-filter",
+      "b": "record-filter",
+      "distance": 1.41
+    },
+    {
+      "a": "bottle-cap-stats",
+      "b": "record-stats",
+      "distance": 1.41
+    },
+    {
+      "a": "bottle-cap-checkbox",
+      "b": "record-checkbox",
+      "distance": 1.41
+    },
+    {
+      "a": "bongo-pencil",
+      "b": "bongo-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "gong-pencil",
+      "b": "gong-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "gong-sparkle",
+      "b": "gong-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "synthesizer-pencil",
+      "b": "synthesizer-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "synthesizer-sparkle",
+      "b": "synthesizer-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "disc-search",
+      "b": "soccer-search",
+      "distance": 1.41
+    },
+    {
+      "a": "disc-clock",
+      "b": "soccer-clock",
+      "distance": 1.41
+    },
+    {
+      "a": "disc-shield",
+      "b": "soccer-shield",
+      "distance": 1.41
+    },
+    {
+      "a": "disc-gear",
+      "b": "soccer-gear",
+      "distance": 1.41
+    },
+    {
+      "a": "disc-star",
+      "b": "soccer-star",
+      "distance": 1.41
+    },
+    {
+      "a": "disc-cloud",
+      "b": "soccer-cloud",
+      "distance": 1.41
+    },
+    {
+      "a": "disc-chat",
+      "b": "soccer-chat",
+      "distance": 1.41
+    },
+    {
+      "a": "disc-download",
+      "b": "soccer-download",
+      "distance": 1.41
+    },
+    {
+      "a": "disc-pencil",
+      "b": "disc-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "disc-pencil",
+      "b": "soccer-pencil",
+      "distance": 1.41
+    },
+    {
+      "a": "disc-calendar",
+      "b": "soccer-calendar",
+      "distance": 1.41
+    },
+    {
+      "a": "disc-question",
+      "b": "soccer-question",
+      "distance": 1.41
+    },
+    {
+      "a": "disc-upload",
+      "b": "soccer-sparkle",
+      "distance": 1.41
+    },
+    {
+      "a": "disc-crown",
+      "b": "soccer-crown",
+      "distance": 1.41
+    },
+    {
+      "a": "disc-leaf",
+      "b": "soccer-pencil",
+      "distance": 1.41
+    },
+    {
+      "a": "disc-camera",
+      "b": "soccer-camera",
+      "distance": 1.41
+    },
+    {
+      "a": "disc-checkbox",
+      "b": "soccer-checkbox",
+      "distance": 1.41
+    },
+    {
+      "a": "cast-pencil",
+      "b": "cast-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "album-pencil",
+      "b": "album-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "piano-keys-gear",
+      "b": "piano-keys-stats",
+      "distance": 1.41
+    },
+    {
+      "a": "piano-keys-pencil",
+      "b": "piano-keys-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "piano-keys-sparkle",
+      "b": "piano-keys-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "subtitles-gear",
+      "b": "subtitles-stats",
+      "distance": 1.41
+    },
+    {
+      "a": "subtitles-pencil",
+      "b": "subtitles-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "subtitles-sparkle",
+      "b": "subtitles-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "aperture-pencil",
+      "b": "aperture-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "tv-retro-pencil",
+      "b": "tv-retro-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "tv-retro-sparkle",
+      "b": "tv-retro-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "maracas-sparkle",
+      "b": "maracas-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "record-pencil",
+      "b": "record-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "images-sparkle",
+      "b": "images-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "playlist-pencil",
+      "b": "playlist-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "terrarium-pencil",
+      "b": "terrarium-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "compost-bin-pencil",
+      "b": "compost-bin-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "bonsai-sparkle",
+      "b": "bonsai-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "iceberg-sparkle",
+      "b": "iceberg-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "hills-pencil",
+      "b": "hills-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "bird-feeder-pencil",
+      "b": "bird-feeder-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "bird-feeder-sparkle",
+      "b": "bird-feeder-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "herb-sparkle",
+      "b": "herb-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "log-pile-pencil",
+      "b": "log-pile-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "log-pile-sparkle",
+      "b": "log-pile-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "spider-web-sparkle",
+      "b": "spider-web-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "video-lesson-bell",
+      "b": "screen-record-bell",
       "distance": 1
     },
     {
-      "a": "power-plant-stats",
-      "b": "bike-rack-stats",
+      "a": "video-lesson-moon",
+      "b": "screen-record-moon",
       "distance": 1
     },
     {
-      "a": "power-plant-checkbox",
-      "b": "bike-rack-checkbox",
+      "a": "bottle-cap-moon",
+      "b": "record-moon",
+      "distance": 1.41
+    },
+    {
+      "a": "disc-moon",
+      "b": "soccer-moon",
+      "distance": 1.41
+    },
+    {
+      "a": "video-lesson-fire",
+      "b": "screen-record-fire",
       "distance": 1
     },
     {
-      "a": "blister-pack-search",
-      "b": "bubble-wrap-search",
-      "distance": 1.41
-    },
-    {
-      "a": "blister-pack-shield",
-      "b": "bubble-wrap-shield",
-      "distance": 1.41
-    },
-    {
-      "a": "blister-pack-heart",
-      "b": "bubble-wrap-heart",
-      "distance": 1.41
-    },
-    {
-      "a": "blister-pack-star",
-      "b": "bubble-wrap-star",
-      "distance": 1.41
-    },
-    {
-      "a": "blister-pack-user",
-      "b": "bubble-wrap-user",
-      "distance": 1.41
-    },
-    {
-      "a": "blister-pack-cloud",
-      "b": "bubble-wrap-cloud",
-      "distance": 1.41
-    },
-    {
-      "a": "blister-pack-chat",
-      "b": "bubble-wrap-chat",
-      "distance": 1.41
-    },
-    {
-      "a": "blister-pack-download",
-      "b": "bubble-wrap-download",
-      "distance": 1.41
-    },
-    {
-      "a": "blister-pack-pencil",
-      "b": "bubble-wrap-pencil",
-      "distance": 1.41
-    },
-    {
-      "a": "blister-pack-pencil",
-      "b": "bubble-wrap-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "blister-pack-sparkle",
-      "b": "bubble-wrap-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "blister-pack-trash",
-      "b": "bubble-wrap-trash",
-      "distance": 1.41
-    },
-    {
-      "a": "blister-pack-flag",
-      "b": "bubble-wrap-flag",
-      "distance": 1.41
-    },
-    {
-      "a": "blister-pack-calendar",
-      "b": "bubble-wrap-calendar",
-      "distance": 1.41
-    },
-    {
-      "a": "blister-pack-question",
-      "b": "bubble-wrap-question",
-      "distance": 1.41
-    },
-    {
-      "a": "blister-pack-bookmark",
-      "b": "bubble-wrap-bookmark",
-      "distance": 1.41
-    },
-    {
-      "a": "blister-pack-crown",
-      "b": "bubble-wrap-crown",
-      "distance": 1.41
-    },
-    {
-      "a": "blister-pack-trophy",
-      "b": "bubble-wrap-trophy",
-      "distance": 1.41
-    },
-    {
-      "a": "blister-pack-hourglass",
-      "b": "bubble-wrap-hourglass",
-      "distance": 1.41
-    },
-    {
-      "a": "blister-pack-camera",
-      "b": "bubble-wrap-camera",
-      "distance": 1.41
-    },
-    {
-      "a": "blister-pack-filter",
-      "b": "bubble-wrap-filter",
-      "distance": 1.41
-    },
-    {
-      "a": "blister-pack-stats",
-      "b": "bubble-wrap-stats",
-      "distance": 1.41
-    },
-    {
-      "a": "blister-pack-checkbox",
-      "b": "bubble-wrap-checkbox",
-      "distance": 1.41
-    },
-    {
-      "a": "conveyor-belt-gear",
-      "b": "conveyor-belt-stats",
-      "distance": 1.41
-    },
-    {
-      "a": "conveyor-belt-pencil",
-      "b": "conveyor-belt-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "conveyor-belt-sparkle",
-      "b": "conveyor-belt-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "shipping-crate-pencil",
-      "b": "shipping-crate-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "shipping-crate-sparkle",
-      "b": "shipping-crate-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "tape-roll-pencil",
-      "b": "tape-roll-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "tape-roll-sparkle",
-      "b": "tape-roll-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "scaffolding-pencil",
-      "b": "scaffolding-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "scaffolding-sparkle",
-      "b": "scaffolding-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "parcel-tracking-sparkle",
-      "b": "parcel-tracking-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "parcel-return-sparkle",
-      "b": "parcel-return-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "cold-chain-sparkle",
-      "b": "cold-chain-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "drone-delivery-sparkle",
-      "b": "drone-delivery-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "bubble-wrap-gear",
-      "b": "bubble-wrap-stats",
-      "distance": 1.41
-    },
-    {
-      "a": "bubble-wrap-pencil",
-      "b": "bubble-wrap-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "bubble-wrap-sparkle",
-      "b": "bubble-wrap-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "shelves-pencil",
-      "b": "shelves-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "shelves-sparkle",
-      "b": "shelves-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "parcel-scale-sparkle",
-      "b": "parcel-scale-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "box-open-pencil",
-      "b": "box-open-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "shipping-label-pencil",
-      "b": "shipping-label-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "shipping-label-sparkle",
-      "b": "shipping-label-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "container-ship-pencil",
-      "b": "container-ship-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "container-ship-sparkle",
-      "b": "container-ship-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "cement-mixer-pencil",
-      "b": "cement-mixer-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "cement-mixer-sparkle",
-      "b": "cement-mixer-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "boxes-pencil",
-      "b": "boxes-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "boxes-sparkle",
-      "b": "boxes-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "shipping-container-pencil",
-      "b": "shipping-container-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "shipping-container-sparkle",
-      "b": "shipping-container-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "bus-shelter-pencil",
-      "b": "bus-shelter-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "bus-shelter-sparkle",
-      "b": "bus-shelter-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "bike-rack-pencil",
-      "b": "bike-rack-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "pier-sparkle",
-      "b": "pier-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "geofence-gear",
-      "b": "geofence-stats",
-      "distance": 1.41
-    },
-    {
-      "a": "geofence-pencil",
-      "b": "geofence-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "area-sparkle",
-      "b": "area-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "map-marked-pencil",
-      "b": "map-marked-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "compass-rose-sparkle",
-      "b": "compass-rose-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "summit-pencil",
-      "b": "summit-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "picnic-table-pencil",
-      "b": "picnic-table-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "picnic-table-sparkle",
-      "b": "picnic-table-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "terrain-pencil",
-      "b": "terrain-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "radar-pencil",
-      "b": "radar-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "livestream-sparkle",
-      "b": "livestream-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "turntable-pencil",
-      "b": "turntable-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "turntable-sparkle",
-      "b": "turntable-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "theater-masks-pencil",
-      "b": "theater-masks-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "stage-curtain-pencil",
-      "b": "stage-curtain-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "stage-curtain-sparkle",
-      "b": "stage-curtain-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "film-strip-pencil",
-      "b": "film-strip-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "film-strip-sparkle",
-      "b": "film-strip-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "tambourine-sparkle",
-      "b": "tambourine-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "bongo-sparkle",
-      "b": "bongo-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "notepad-moon",
-      "b": "shipping-label-moon",
-      "distance": 1.41
-    },
-    {
-      "a": "notepad-fire",
-      "b": "shipping-label-fire",
-      "distance": 1.41
-    },
-    {
-      "a": "power-plant-bell",
-      "b": "bike-rack-bell",
+      "a": "video-lesson-pin",
+      "b": "screen-record-pin",
       "distance": 1
     },
     {
-      "a": "power-plant-moon",
-      "b": "bike-rack-moon",
+      "a": "video-lesson-flag",
+      "b": "screen-record-flag",
       "distance": 1
     },
     {
-      "a": "power-plant-fire",
-      "b": "bike-rack-fire",
-      "distance": 1
-    },
-    {
-      "a": "barcode-pin",
-      "b": "bubble-wrap-pin",
+      "a": "bottle-cap-pin",
+      "b": "record-pin",
       "distance": 1.41
     },
     {
-      "a": "barcode-bell",
-      "b": "bubble-wrap-bell",
+      "a": "bottle-cap-bell",
+      "b": "record-bell",
       "distance": 1.41
     },
     {
-      "a": "barcode-moon",
-      "b": "bubble-wrap-moon",
+      "a": "bottle-cap-flag",
+      "b": "record-flag",
       "distance": 1.41
     },
     {
-      "a": "power-plant-pin",
-      "b": "bike-rack-pin",
-      "distance": 1
-    },
-    {
-      "a": "power-plant-sparkle",
-      "b": "bike-rack-sparkle",
+      "a": "knob-sparkle",
+      "b": "knob-upload",
       "distance": 1.41
     },
     {
-      "a": "power-plant-flag",
-      "b": "bike-rack-flag",
-      "distance": 1
-    },
-    {
-      "a": "blister-pack-pin",
-      "b": "bubble-wrap-pin",
+      "a": "fast-forward-sparkle",
+      "b": "fast-forward-upload",
       "distance": 1.41
     },
     {
-      "a": "blister-pack-bell",
-      "b": "bubble-wrap-bell",
+      "a": "cast-sparkle",
+      "b": "cast-upload",
       "distance": 1.41
     },
     {
-      "a": "blister-pack-moon",
-      "b": "bubble-wrap-moon",
+      "a": "slow-motion-sparkle",
+      "b": "slow-motion-upload",
       "distance": 1.41
     },
     {
-      "a": "keep-dry-sparkle",
-      "b": "keep-dry-upload",
+      "a": "djembe-sparkle",
+      "b": "djembe-upload",
       "distance": 1.41
     },
     {
-      "a": "box-open-sparkle",
-      "b": "box-open-upload",
+      "a": "sharp-sign-sparkle",
+      "b": "sharp-sign-upload",
       "distance": 1.41
     },
     {
-      "a": "crane-sparkle",
-      "b": "crane-upload",
+      "a": "flat-sign-sparkle",
+      "b": "flat-sign-upload",
       "distance": 1.41
     },
     {
-      "a": "this-side-up-sparkle",
-      "b": "this-side-up-upload",
+      "a": "natural-sign-sparkle",
+      "b": "natural-sign-upload",
       "distance": 1.41
     },
     {
-      "a": "pallet-jack-sparkle",
-      "b": "pallet-jack-upload",
+      "a": "bass-clef-sparkle",
+      "b": "bass-clef-upload",
       "distance": 1.41
     },
     {
-      "a": "bike-rack-sparkle",
-      "b": "bike-rack-upload",
+      "a": "playback-speed-sparkle",
+      "b": "playback-speed-upload",
       "distance": 1.41
     },
     {
-      "a": "crossroads-sparkle",
-      "b": "crossroads-upload",
+      "a": "repeat-one-sparkle",
+      "b": "repeat-one-upload",
       "distance": 1.41
     },
     {
-      "a": "geofence-sparkle",
-      "b": "geofence-upload",
+      "a": "podcast-sparkle",
+      "b": "podcast-upload",
       "distance": 1.41
     },
     {
-      "a": "scale-bar-sparkle",
-      "b": "scale-bar-upload",
+      "a": "play-sparkle",
+      "b": "play-upload",
       "distance": 1.41
     },
     {
-      "a": "map-marked-sparkle",
-      "b": "map-marked-upload",
+      "a": "pause-sparkle",
+      "b": "pause-upload",
       "distance": 1.41
     },
     {
-      "a": "north-arrow-sparkle",
-      "b": "north-arrow-upload",
+      "a": "stop-sparkle",
+      "b": "stop-upload",
       "distance": 1.41
     },
     {
-      "a": "directions-sign-sparkle",
-      "b": "directions-sign-upload",
+      "a": "skip-forward-sparkle",
+      "b": "skip-forward-upload",
       "distance": 1.41
     },
     {
-      "a": "terrain-sparkle",
-      "b": "terrain-upload",
+      "a": "volume-low-sparkle",
+      "b": "volume-low-upload",
       "distance": 1.41
     },
     {
-      "a": "distance-sparkle",
-      "b": "distance-upload",
+      "a": "tsunami-sparkle",
+      "b": "tsunami-upload",
       "distance": 1.41
     },
     {
-      "a": "audiobook-sparkle",
-      "b": "audiobook-upload",
+      "a": "rose-sparkle",
+      "b": "rose-upload",
       "distance": 1.41
     },
     {
-      "a": "theater-masks-sparkle",
-      "b": "theater-masks-upload",
+      "a": "fern-sparkle",
+      "b": "fern-upload",
       "distance": 1.41
     },
     {
-      "a": "tuning-fork-sparkle",
-      "b": "tuning-fork-upload",
+      "a": "terrarium-sparkle",
+      "b": "terrarium-upload",
       "distance": 1.41
     },
     {
-      "a": "notepad-pin",
-      "b": "shipping-label-pin",
+      "a": "compost-bin-sparkle",
+      "b": "compost-bin-upload",
       "distance": 1.41
     },
     {
-      "a": "notepad-bell",
-      "b": "shipping-label-bell",
+      "a": "hills-sparkle",
+      "b": "hills-upload",
       "distance": 1.41
     },
     {
-      "a": "notepad-flag",
-      "b": "shipping-label-flag",
+      "a": "dandelion-sparkle",
+      "b": "dandelion-upload",
       "distance": 1.41
     },
     {
-      "a": "crane-hook-sparkle",
-      "b": "crane-hook-upload",
+      "a": "kelp-sparkle",
+      "b": "kelp-upload",
       "distance": 1.41
     },
     {
-      "a": "summit-sparkle",
-      "b": "summit-upload",
+      "a": "lavender-sparkle",
+      "b": "lavender-upload",
       "distance": 1.41
     },
     {
-      "a": "lamp-post-sparkle",
-      "b": "lamp-post-upload",
+      "a": "pine-tree-sparkle",
+      "b": "pine-tree-upload",
       "distance": 1.41
     },
     {
-      "a": "triangle-instrument-sparkle",
-      "b": "triangle-instrument-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "fragile-sparkle",
-      "b": "fragile-upload",
+      "a": "scarecrow-sparkle",
+      "b": "scarecrow-upload",
       "distance": 1.41
     }
   ],
   "dropped": [
-    "shipping-label-search",
-    "shipping-label-clock",
-    "shipping-label-shield",
-    "shipping-label-gear",
-    "shipping-label-heart",
-    "shipping-label-alert",
-    "shipping-label-user",
-    "shipping-label-cloud",
-    "shipping-label-chat",
-    "shipping-label-download",
-    "shipping-label-pencil",
-    "shipping-label-trash",
-    "shipping-label-calendar",
-    "shipping-label-question",
-    "shipping-label-bookmark",
-    "shipping-label-crown",
-    "shipping-label-trophy",
-    "shipping-label-hourglass",
-    "shipping-label-cursor",
-    "shipping-label-camera",
-    "shipping-label-filter",
-    "shipping-label-stats",
-    "shipping-label-checkbox",
-    "bubble-wrap-search",
-    "bubble-wrap-clock",
-    "bubble-wrap-shield",
-    "bubble-wrap-gear",
-    "bubble-wrap-stats",
-    "bubble-wrap-bolt",
-    "bubble-wrap-heart",
-    "bubble-wrap-star",
-    "bubble-wrap-user",
-    "bubble-wrap-chat",
-    "bubble-wrap-download",
-    "bubble-wrap-pencil",
-    "bubble-wrap-leaf",
-    "bubble-wrap-calendar",
-    "bubble-wrap-question",
-    "bubble-wrap-crown",
-    "bubble-wrap-hourglass",
-    "bubble-wrap-trophy",
-    "bubble-wrap-camera",
-    "bubble-wrap-filter",
-    "bubble-wrap-checkbox",
-    "shipping-label-bolt",
-    "shipping-label-star",
-    "bubble-wrap-sparkle",
-    "bubble-wrap-upload",
-    "shipping-label-sparkle",
-    "shipping-label-upload",
-    "shipping-label-leaf",
-    "bike-rack-search",
-    "bike-rack-clock",
-    "bike-rack-shield",
-    "bike-rack-gear",
-    "bike-rack-bolt",
-    "bike-rack-heart",
-    "bike-rack-star",
-    "bike-rack-user",
-    "bike-rack-cloud",
-    "bike-rack-chat",
-    "bike-rack-download",
-    "bike-rack-pencil",
-    "bike-rack-leaf",
-    "bike-rack-trash",
-    "bike-rack-calendar",
-    "bike-rack-question",
-    "bike-rack-bookmark",
-    "bike-rack-crown",
-    "bike-rack-trophy",
-    "bike-rack-hourglass",
-    "bike-rack-cursor",
-    "bike-rack-camera",
-    "bike-rack-filter",
-    "bike-rack-stats",
-    "bike-rack-checkbox",
-    "bubble-wrap-cloud",
-    "bubble-wrap-trash",
-    "bubble-wrap-flag",
-    "bubble-wrap-bookmark",
-    "conveyor-belt-stats",
-    "conveyor-belt-leaf",
-    "conveyor-belt-upload",
-    "shipping-crate-leaf",
-    "shipping-crate-upload",
-    "tape-roll-leaf",
-    "tape-roll-upload",
-    "scaffolding-leaf",
-    "scaffolding-upload",
-    "parcel-tracking-upload",
-    "parcel-return-upload",
-    "cold-chain-upload",
-    "drone-delivery-upload",
-    "shelves-leaf",
-    "shelves-upload",
-    "parcel-scale-upload",
-    "box-open-leaf",
-    "container-ship-leaf",
-    "container-ship-upload",
-    "cement-mixer-leaf",
-    "cement-mixer-upload",
-    "boxes-leaf",
-    "boxes-upload",
-    "shipping-container-leaf",
-    "shipping-container-upload",
-    "bus-shelter-leaf",
-    "bus-shelter-upload",
-    "pier-upload",
-    "geofence-stats",
-    "geofence-leaf",
-    "area-upload",
-    "map-marked-leaf",
-    "compass-rose-upload",
-    "summit-leaf",
-    "picnic-table-leaf",
-    "picnic-table-upload",
-    "terrain-leaf",
-    "radar-leaf",
-    "livestream-upload",
-    "turntable-leaf",
-    "turntable-upload",
-    "theater-masks-leaf",
-    "stage-curtain-leaf",
-    "stage-curtain-upload",
-    "film-strip-leaf",
-    "film-strip-upload",
-    "tambourine-upload",
-    "bongo-upload",
-    "shipping-label-moon",
-    "shipping-label-fire",
-    "bike-rack-bell",
-    "bike-rack-moon",
-    "bike-rack-fire",
-    "bubble-wrap-pin",
-    "bubble-wrap-bell",
-    "bubble-wrap-moon",
-    "bike-rack-pin",
-    "bike-rack-sparkle",
-    "bike-rack-flag",
-    "keep-dry-upload",
-    "box-open-upload",
-    "crane-upload",
-    "this-side-up-upload",
-    "pallet-jack-upload",
-    "crossroads-upload",
-    "geofence-upload",
-    "scale-bar-upload",
-    "map-marked-upload",
-    "north-arrow-upload",
-    "directions-sign-upload",
-    "terrain-upload",
-    "distance-upload",
-    "audiobook-upload",
-    "theater-masks-upload",
-    "tuning-fork-upload",
-    "shipping-label-pin",
-    "shipping-label-bell",
-    "shipping-label-flag",
-    "crane-hook-upload",
-    "summit-upload",
-    "lamp-post-upload",
-    "triangle-instrument-upload",
-    "fragile-upload"
+    "log-pile-bolt",
+    "mic-studio-upload",
+    "synthesizer-search",
+    "synthesizer-shield",
+    "synthesizer-chat",
+    "synthesizer-download",
+    "synthesizer-calendar",
+    "synthesizer-question",
+    "synthesizer-trophy",
+    "synthesizer-hourglass",
+    "synthesizer-cursor",
+    "synthesizer-filter",
+    "synthesizer-checkbox",
+    "screen-record-search",
+    "screen-record-clock",
+    "screen-record-shield",
+    "screen-record-gear",
+    "screen-record-bolt",
+    "screen-record-heart",
+    "screen-record-star",
+    "screen-record-alert",
+    "screen-record-user",
+    "screen-record-cloud",
+    "screen-record-chat",
+    "screen-record-download",
+    "screen-record-pencil",
+    "screen-record-sparkle",
+    "screen-record-calendar",
+    "screen-record-question",
+    "screen-record-bookmark",
+    "screen-record-leaf",
+    "screen-record-trophy",
+    "screen-record-hourglass",
+    "screen-record-cursor",
+    "screen-record-camera",
+    "screen-record-filter",
+    "screen-record-stats",
+    "screen-record-checkbox",
+    "record-search",
+    "record-clock",
+    "record-shield",
+    "record-gear",
+    "record-heart",
+    "record-user",
+    "record-chat",
+    "record-download",
+    "record-pencil",
+    "record-trash",
+    "record-calendar",
+    "record-question",
+    "record-bookmark",
+    "record-crown",
+    "record-trophy",
+    "record-hourglass",
+    "record-cursor",
+    "record-camera",
+    "record-filter",
+    "record-stats",
+    "record-checkbox",
+    "bongo-leaf",
+    "gong-leaf",
+    "gong-upload",
+    "synthesizer-leaf",
+    "synthesizer-upload",
+    "disc-search",
+    "disc-clock",
+    "disc-shield",
+    "disc-gear",
+    "disc-star",
+    "disc-cloud",
+    "disc-chat",
+    "disc-download",
+    "disc-leaf",
+    "disc-pencil",
+    "disc-calendar",
+    "disc-question",
+    "disc-upload",
+    "disc-crown",
+    "disc-camera",
+    "disc-checkbox",
+    "cast-leaf",
+    "album-leaf",
+    "piano-keys-stats",
+    "piano-keys-leaf",
+    "piano-keys-upload",
+    "subtitles-stats",
+    "subtitles-leaf",
+    "subtitles-upload",
+    "aperture-leaf",
+    "tv-retro-leaf",
+    "tv-retro-upload",
+    "maracas-upload",
+    "images-upload",
+    "playlist-leaf",
+    "terrarium-leaf",
+    "compost-bin-leaf",
+    "bonsai-upload",
+    "iceberg-upload",
+    "hills-leaf",
+    "bird-feeder-leaf",
+    "bird-feeder-upload",
+    "herb-upload",
+    "log-pile-leaf",
+    "log-pile-upload",
+    "spider-web-upload",
+    "screen-record-bell",
+    "screen-record-moon",
+    "record-moon",
+    "disc-moon",
+    "screen-record-fire",
+    "screen-record-pin",
+    "screen-record-flag",
+    "record-pin",
+    "record-bell",
+    "record-flag",
+    "knob-upload",
+    "fast-forward-upload",
+    "cast-upload",
+    "slow-motion-upload",
+    "djembe-upload",
+    "sharp-sign-upload",
+    "flat-sign-upload",
+    "natural-sign-upload",
+    "bass-clef-upload",
+    "playback-speed-upload",
+    "repeat-one-upload",
+    "podcast-upload",
+    "play-upload",
+    "pause-upload",
+    "stop-upload",
+    "skip-forward-upload",
+    "volume-low-upload",
+    "tsunami-upload",
+    "rose-upload",
+    "fern-upload",
+    "terrarium-upload",
+    "compost-bin-upload",
+    "hills-upload",
+    "dandelion-upload",
+    "kelp-upload",
+    "lavender-upload",
+    "pine-tree-upload",
+    "scarecrow-upload"
   ],
   "byCategory": {
     "accessibility": 53,
@@ -1237,10 +948,10 @@
     "health": 1991,
     "home": 3981,
     "interface": 1324,
-    "logistics": 1124,
-    "maps": 809,
-    "media": 1656,
-    "nature": 1629,
+    "logistics": 1001,
+    "maps": 622,
+    "media": 2488,
+    "nature": 2159,
     "navigation": 35,
     "notifications": 50,
     "people": 779,
