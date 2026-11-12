@@ -6,3 +6,4 @@ dist
 packages/react/src/generated
 packages/forge/reports/review.html
 .review/
+packages/forge/reports/fp-cache.json

@@ -10,14 +10,14 @@ const ICONS = ROOT + 'packages/assets/icons';
 const [cmd, arg, outArg] = process.argv.slice(2);
 let s = fs.readFileSync(PLAN, 'utf8'); const nl = s.includes('\r\n') ? '\r\n' : '\n';
 const BADGES = ['add', 'check', 'close'];
-const SKIP_CATS = new Set(['arrows', 'text', 'emoji', 'navigation', 'accessibility', 'actions', 'social', 'notifications', 'weather']);
+const SKIP_CATS = new Set(['design', 'data', 'development', 'arrows', 'text', 'emoji', 'navigation', 'accessibility', 'actions', 'social', 'notifications', 'weather']);
 const MODS = 'search clock shield gear pin bolt heart star alert user bell cloud chat download pencil sparkle trash flag calendar question bookmark upload crown moon leaf fire trophy hourglass cursor camera filter stats checkbox lock add check close remove off notice pricing addbox bulb wifi percent tag eye truck music key pause play'.split(' ');
 if (cmd === 'pick') {
   const plan = (await import(pathToFileURL(PLAN).href + '?t=' + Date.now())).default;
   const names = fs.readdirSync(ICONS); const has = new Set(names); const pick = [];
   for (const n of names) {
     if (pick.length >= +arg) break;
-    if (plan[n] || MODS.some((m) => n.endsWith('-' + m))) continue;
+    if (plan[n] || n.startsWith('no-') || MODS.some((m) => n.endsWith('-' + m))) continue;
     let meta; try { meta = JSON.parse(fs.readFileSync(`${ICONS}/${n}/meta.json`, 'utf8')); } catch { continue; }
     if (meta.source !== 'forge' || meta.variant || SKIP_CATS.has(meta.category)) continue;
     if (BADGES.some((b) => has.has(`${n}-${b}`))) continue;
