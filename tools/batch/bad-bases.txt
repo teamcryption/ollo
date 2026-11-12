@@ -567,3 +567,14 @@ sundial
 penalty-cards
 weight
 history
+gold-pan
+measuring-wheel
+tape-measure
+squeegee
+paint-scraper
+speed-bump
+curve-ahead
+steep-grade
+kick-scooter
+convertible
+snowmobile
