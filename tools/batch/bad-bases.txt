@@ -578,3 +578,14 @@ steep-grade
 kick-scooter
 convertible
 snowmobile
+hairpin-curve
+flood-zone
+lane-ends
+carabiner
+hot-spring
+kayak-paddle
+travel-pillow
+sleep-mask
+oxygen-tank
+moon-phase
+sunscreen
