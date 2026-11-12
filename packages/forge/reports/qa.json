@@ -1,3932 +1,2982 @@
 {
-  "generatedAt": "2026-11-12T17:01:42.083Z",
-  "icons": 51927,
-  "files": 259635,
+  "generatedAt": "2026-11-12T17:06:37.676Z",
+  "icons": 52843,
+  "files": 264215,
   "errors": [],
   "warnings": [
-    "seedling-camera: grid: outside the 3-21 live area (4.44, 4.44, 22.00, 20.50)",
-    "cocoon-camera: grid: outside the 3-21 live area (5.16, 3.72, 22.00, 20.50)",
-    "honeycomb-camera: grid: outside the 3-21 live area (3.96, 4.26, 22.00, 20.50)",
-    "river-camera: grid: outside the 3-21 live area (5.88, 3.36, 22.00, 20.50)",
-    "cairn-camera: grid: outside the 3-21 live area (4.08, 4.80, 22.00, 20.50)",
-    "wood-log-camera: grid: outside the 3-21 live area (3.36, 6.24, 22.00, 20.50)",
-    "tree-stump-camera: grid: outside the 3-21 live area (3.36, 5.88, 22.00, 20.50)",
-    "bamboo-camera: grid: outside the 3-21 live area (5.52, 3.36, 22.00, 20.50)",
-    "sunflower-camera: grid: outside the 3-21 live area (5.36, 3.20, 22.00, 20.50)",
-    "succulent-camera: grid: outside the 3-21 live area (5.16, 5.88, 22.00, 20.50)",
-    "coral-camera: grid: outside the 3-21 live area (4.80, 4.08, 22.00, 20.50)",
-    "potted-plant-camera: grid: outside the 3-21 live area (5.88, 3.72, 22.00, 20.50)",
-    "avatar-group-camera: grid: outside the 3-21 live area (3.00, 6.60, 22.00, 20.50)",
-    "gender-neutral-camera: grid: outside the 3-21 live area (5.52, 3.36, 22.00, 20.50)",
-    "sippy-cup-camera: grid: outside the 3-21 live area (4.80, 3.36, 22.00, 20.50)",
-    "baby-monitor-camera: grid: outside the 3-21 live area (5.16, 3.72, 22.00, 20.50)",
-    "user-tie-camera: grid: outside the 3-21 live area (4.79, 4.08, 22.00, 20.50)",
-    "user-headset-camera: grid: outside the 3-21 live area (4.79, 2.64, 22.00, 20.50)",
-    "family-camera: grid: outside the 3-21 live area (4.08, 3.50, 22.00, 20.50)",
-    "user-voice-camera: grid: outside the 3-21 live area (3.36, 4.08, 22.00, 20.50)",
-    "walking-camera: grid: outside the 3-21 live area (6.60, 2.78, 22.00, 20.50)",
-    "hand-raised-camera: grid: outside the 3-21 live area (4.32, 3.54, 22.00, 20.50)",
-    "hand-wave-camera: grid: outside the 3-21 live area (4.31, 3.81, 22.00, 20.50)",
-    "hand-grab-camera: grid: outside the 3-21 live area (4.06, 5.88, 22.00, 20.50)",
-    "student-camera: grid: outside the 3-21 live area (4.70, 3.48, 22.00, 20.50)",
-    "user-edit-camera: grid: outside the 3-21 live area (2.99, 4.08, 22.00, 20.50)",
-    "user-group-camera: grid: outside the 3-21 live area (2.71, 4.58, 22.00, 20.50)",
-    "oscilloscope-camera: grid: outside the 3-21 live area (3.00, 4.08, 22.00, 20.50)",
-    "weather-balloon-camera: grid: outside the 3-21 live area (5.52, 3.00, 22.00, 20.50)",
-    "lunar-lander-camera: grid: outside the 3-21 live area (3.36, 4.08, 22.00, 20.50)",
-    "mars-rover-camera: grid: outside the 3-21 live area (3.72, 3.72, 22.00, 20.50)",
-    "pipette-camera: grid: outside the 3-21 live area (7.68, 3.00, 22.00, 20.50)",
-    "test-tube-rack-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
-    "spring-camera: grid: outside the 3-21 live area (6.60, 3.36, 22.00, 20.50)",
-    "pulley-camera: grid: outside the 3-21 live area (7.32, 3.00, 22.00, 20.50)",
-    "pendulum-camera: grid: outside the 3-21 live area (4.44, 3.36, 22.00, 20.50)",
-    "lens-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
-    "crystal-camera: grid: outside the 3-21 live area (5.07, 3.52, 22.00, 20.50)",
-    "saturn-camera: grid: outside the 3-21 live area (3.35, 5.52, 22.00, 20.50)",
-    "orbit-camera: grid: outside the 3-21 live area (3.72, 3.72, 22.00, 20.50)",
-    "periscope-camera: grid: outside the 3-21 live area (4.08, 3.36, 22.00, 20.50)",
-    "round-bottom-flask-camera: grid: outside the 3-21 live area (5.16, 3.36, 22.00, 20.50)",
-    "graduated-cylinder-camera: grid: outside the 3-21 live area (5.16, 3.36, 22.00, 20.50)",
-    "periodic-table-camera: grid: outside the 3-21 live area (3.36, 3.72, 22.00, 20.50)",
-    "flammable-camera: grid: outside the 3-21 live area (3.38, 3.38, 22.00, 20.50)",
-    "explosive-camera: grid: outside the 3-21 live area (3.38, 3.38, 22.00, 20.50)",
-    "toxic-camera: grid: outside the 3-21 live area (3.38, 3.38, 22.00, 20.50)",
-    "oxidizer-camera: grid: outside the 3-21 live area (3.38, 3.38, 22.00, 20.50)",
-    "corrosive-camera: grid: outside the 3-21 live area (3.38, 3.38, 22.00, 20.50)",
-    "health-hazard-camera: grid: outside the 3-21 live area (3.38, 3.38, 22.00, 20.50)"
+    "environment-hazard-camera: grid: outside the 3-21 live area (3.38, 3.38, 22.00, 20.50)",
+    "satellite-camera: grid: outside the 3-21 live area (3.00, 4.80, 22.00, 20.50)",
+    "prism-camera: grid: outside the 3-21 live area (3.00, 4.04, 22.00, 20.50)",
+    "goggles-camera: grid: outside the 3-21 live area (3.00, 6.60, 22.00, 20.50)",
+    "bunsen-burner-camera: grid: outside the 3-21 live area (5.52, 8.62, 22.00, 20.50)",
+    "galaxy-camera: grid: outside the 3-21 live area (4.08, 4.44, 22.00, 20.50)",
+    "bacteria-camera: grid: outside the 3-21 live area (3.22, 5.88, 22.00, 20.50)",
+    "cell-camera: grid: outside the 3-21 live area (3.36, 4.08, 22.00, 20.50)",
+    "vial-camera: grid: outside the 3-21 live area (6.96, 3.36, 22.00, 20.50)",
+    "asteroid-camera: grid: outside the 3-21 live area (3.72, 4.05, 22.00, 20.50)",
+    "constellation-camera: grid: outside the 3-21 live area (3.58, 6.46, 22.00, 20.50)",
+    "atom-camera: grid: outside the 3-21 live area (4.56, 4.56, 22.00, 20.50)",
+    "motion-sensor-camera: grid: outside the 3-21 live area (6.24, 3.36, 22.00, 20.50)",
+    "keypad-camera: grid: outside the 3-21 live area (4.44, 3.36, 22.00, 20.50)",
+    "antivirus-camera: grid: outside the 3-21 live area (4.80, 3.36, 22.00, 20.50)",
+    "dagger-camera: grid: outside the 3-21 live area (6.24, 3.54, 22.00, 20.50)",
+    "two-factor-camera: grid: outside the 3-21 live area (3.72, 3.00, 22.00, 20.50)",
+    "keyhole-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
+    "high-voltage-camera: grid: outside the 3-21 live area (3.36, 3.83, 22.00, 20.50)",
+    "hot-surface-camera: grid: outside the 3-21 live area (3.36, 3.83, 22.00, 20.50)",
+    "laser-hazard-camera: grid: outside the 3-21 live area (3.36, 3.83, 22.00, 20.50)",
+    "magnetic-field-camera: grid: outside the 3-21 live area (3.36, 3.83, 22.00, 20.50)",
+    "deep-water-camera: grid: outside the 3-21 live area (3.36, 3.83, 22.00, 20.50)",
+    "firewall-camera: grid: outside the 3-21 live area (3.36, 8.26, 22.00, 20.50)",
+    "passkey-camera: grid: outside the 3-21 live area (3.36, 3.94, 22.00, 20.50)",
+    "incognito-camera: grid: outside the 3-21 live area (3.36, 4.00, 22.00, 20.50)",
+    "face-scan-camera: grid: outside the 3-21 live area (3.72, 3.72, 22.00, 20.50)",
+    "otp-camera: grid: outside the 3-21 live area (5.52, 2.64, 22.00, 20.50)",
+    "phishing-camera: grid: outside the 3-21 live area (3.00, 3.36, 22.00, 20.50)",
+    "police-badge-camera: grid: outside the 3-21 live area (4.37, 3.61, 22.00, 20.50)",
+    "lock-camera: grid: outside the 3-21 live area (4.80, 4.08, 22.00, 20.50)",
+    "shield-camera: grid: outside the 3-21 live area (4.37, 3.29, 22.00, 20.50)",
+    "eye-scan-camera: grid: outside the 3-21 live area (3.72, 3.72, 22.00, 20.50)",
+    "qr-scan-camera: grid: outside the 3-21 live area (3.72, 3.72, 22.00, 20.50)",
+    "yoga-mat-camera: grid: outside the 3-21 live area (3.72, 5.52, 22.00, 20.50)",
+    "snowboard-camera: grid: outside the 3-21 live area (4.01, 4.01, 22.00, 20.50)",
+    "punching-bag-camera: grid: outside the 3-21 live area (6.60, 3.00, 22.00, 20.50)",
+    "treadmill-camera: grid: outside the 3-21 live area (3.00, 4.80, 22.00, 20.50)",
+    "oars-camera: grid: outside the 3-21 live area (5.03, 4.79, 22.00, 20.50)",
+    "locker-camera: grid: outside the 3-21 live area (4.08, 3.00, 22.00, 20.50)",
+    "ski-lift-camera: grid: outside the 3-21 live area (3.00, 3.36, 22.00, 20.50)",
+    "ice-axe-camera: grid: outside the 3-21 live area (4.08, 3.73, 22.00, 20.50)",
+    "fish-hook-camera: grid: outside the 3-21 live area (5.16, 3.14, 22.00, 20.50)",
+    "life-ring-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
+    "skis-camera: grid: outside the 3-21 live area (3.36, 3.55, 22.00, 20.50)",
+    "baseball-bat-camera: grid: outside the 3-21 live area (5.08, 3.72, 22.00, 20.50)",
+    "cricket-bat-camera: grid: outside the 3-21 live area (4.92, 4.47, 22.00, 20.50)",
+    "ski-boot-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
+    "soccer-ball-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
+    "table-tennis-camera: grid: outside the 3-21 live area (4.40, 3.00, 22.00, 20.50)"
   ],
   "duplicates": [
     {
-      "a": "weather-balloon-sparkle",
-      "b": "weather-balloon-upload",
+      "a": "vial-sparkle",
+      "b": "vial-upload",
       "distance": 1.41
     },
     {
-      "a": "pipette-sparkle",
-      "b": "pipette-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "lemon-slice-search",
-      "b": "avatar-group-search",
-      "distance": 1.41
-    },
-    {
-      "a": "lemon-slice-clock",
-      "b": "avatar-group-clock",
-      "distance": 1.41
-    },
-    {
-      "a": "lemon-slice-shield",
-      "b": "avatar-group-shield",
-      "distance": 1.41
-    },
-    {
-      "a": "lemon-slice-gear",
-      "b": "avatar-group-gear",
-      "distance": 1.41
-    },
-    {
-      "a": "lemon-slice-bolt",
-      "b": "avatar-group-bolt",
-      "distance": 1.41
-    },
-    {
-      "a": "lemon-slice-heart",
-      "b": "avatar-group-heart",
-      "distance": 1.41
-    },
-    {
-      "a": "lemon-slice-star",
-      "b": "avatar-group-star",
-      "distance": 1.41
-    },
-    {
-      "a": "lemon-slice-user",
-      "b": "avatar-group-user",
-      "distance": 1.41
-    },
-    {
-      "a": "lemon-slice-cloud",
-      "b": "avatar-group-cloud",
-      "distance": 1.41
-    },
-    {
-      "a": "lemon-slice-chat",
-      "b": "avatar-group-chat",
-      "distance": 1.41
-    },
-    {
-      "a": "lemon-slice-download",
-      "b": "avatar-group-download",
-      "distance": 1.41
-    },
-    {
-      "a": "lemon-slice-pencil",
-      "b": "avatar-group-pencil",
-      "distance": 1.41
-    },
-    {
-      "a": "lemon-slice-bookmark",
-      "b": "avatar-group-bookmark",
-      "distance": 1.41
-    },
-    {
-      "a": "lemon-slice-question",
-      "b": "avatar-group-question",
-      "distance": 1.41
-    },
-    {
-      "a": "lemon-slice-calendar",
-      "b": "avatar-group-calendar",
-      "distance": 1.41
-    },
-    {
-      "a": "lemon-slice-sparkle",
-      "b": "avatar-group-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "lemon-slice-sparkle",
-      "b": "avatar-group-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "lemon-slice-crown",
-      "b": "avatar-group-crown",
-      "distance": 1.41
-    },
-    {
-      "a": "lemon-slice-hourglass",
-      "b": "avatar-group-hourglass",
-      "distance": 1.41
-    },
-    {
-      "a": "lemon-slice-trophy",
-      "b": "avatar-group-trophy",
-      "distance": 1.41
-    },
-    {
-      "a": "lemon-slice-leaf",
-      "b": "avatar-group-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "lemon-slice-cursor",
-      "b": "avatar-group-cursor",
-      "distance": 1.41
-    },
-    {
-      "a": "lemon-slice-camera",
-      "b": "avatar-group-camera",
-      "distance": 1.41
-    },
-    {
-      "a": "lemon-slice-filter",
-      "b": "avatar-group-filter",
-      "distance": 1.41
-    },
-    {
-      "a": "lemon-slice-stats",
-      "b": "avatar-group-stats",
-      "distance": 1.41
-    },
-    {
-      "a": "lemon-slice-checkbox",
-      "b": "avatar-group-checkbox",
-      "distance": 1.41
-    },
-    {
-      "a": "lemon-slice-trash",
-      "b": "avatar-group-trash",
-      "distance": 1.41
-    },
-    {
-      "a": "poker-chip-bolt",
-      "b": "orbit-bolt",
-      "distance": 1.41
-    },
-    {
-      "a": "poker-chip-star",
-      "b": "orbit-star",
-      "distance": 1.41
-    },
-    {
-      "a": "plant-pot-search",
-      "b": "potted-plant-search",
-      "distance": 1.41
-    },
-    {
-      "a": "plant-pot-clock",
-      "b": "potted-plant-clock",
-      "distance": 1.41
-    },
-    {
-      "a": "plant-pot-shield",
-      "b": "potted-plant-shield",
-      "distance": 1
-    },
-    {
-      "a": "plant-pot-gear",
-      "b": "potted-plant-gear",
-      "distance": 1.41
-    },
-    {
-      "a": "plant-pot-bolt",
-      "b": "potted-plant-bolt",
-      "distance": 1.41
-    },
-    {
-      "a": "plant-pot-heart",
-      "b": "potted-plant-heart",
-      "distance": 1.41
-    },
-    {
-      "a": "plant-pot-star",
-      "b": "potted-plant-star",
-      "distance": 1.41
-    },
-    {
-      "a": "plant-pot-cloud",
-      "b": "potted-plant-cloud",
-      "distance": 1.41
-    },
-    {
-      "a": "plant-pot-chat",
-      "b": "potted-plant-chat",
-      "distance": 1.41
-    },
-    {
-      "a": "plant-pot-download",
-      "b": "potted-plant-download",
-      "distance": 1.41
-    },
-    {
-      "a": "plant-pot-pencil",
-      "b": "potted-plant-pencil",
-      "distance": 1.41
-    },
-    {
-      "a": "plant-pot-trash",
-      "b": "potted-plant-trash",
-      "distance": 1.41
-    },
-    {
-      "a": "plant-pot-calendar",
-      "b": "potted-plant-calendar",
-      "distance": 1.41
-    },
-    {
-      "a": "plant-pot-question",
-      "b": "potted-plant-question",
-      "distance": 1.41
-    },
-    {
-      "a": "plant-pot-crown",
-      "b": "potted-plant-crown",
-      "distance": 1.41
-    },
-    {
-      "a": "plant-pot-leaf",
-      "b": "potted-plant-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "plant-pot-hourglass",
-      "b": "potted-plant-hourglass",
-      "distance": 1.41
-    },
-    {
-      "a": "plant-pot-cursor",
-      "b": "potted-plant-cursor",
-      "distance": 1.41
-    },
-    {
-      "a": "plant-pot-camera",
-      "b": "potted-plant-camera",
-      "distance": 1.41
-    },
-    {
-      "a": "plant-pot-filter",
-      "b": "potted-plant-filter",
-      "distance": 1.41
-    },
-    {
-      "a": "plant-pot-stats",
-      "b": "potted-plant-stats",
-      "distance": 1.41
-    },
-    {
-      "a": "plant-pot-checkbox",
-      "b": "potted-plant-checkbox",
-      "distance": 1.41
-    },
-    {
-      "a": "honeycomb-sparkle",
-      "b": "honeycomb-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "cairn-pencil",
-      "b": "cairn-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "wood-log-search",
-      "b": "avatar-group-search",
-      "distance": 1.41
-    },
-    {
-      "a": "wood-log-clock",
-      "b": "avatar-group-clock",
-      "distance": 1.41
-    },
-    {
-      "a": "wood-log-gear",
-      "b": "avatar-group-gear",
-      "distance": 1.41
-    },
-    {
-      "a": "wood-log-bolt",
-      "b": "avatar-group-bolt",
-      "distance": 1.41
-    },
-    {
-      "a": "wood-log-heart",
-      "b": "avatar-group-heart",
-      "distance": 1.41
-    },
-    {
-      "a": "wood-log-star",
-      "b": "avatar-group-star",
-      "distance": 1.41
-    },
-    {
-      "a": "wood-log-user",
-      "b": "avatar-group-user",
-      "distance": 1.41
-    },
-    {
-      "a": "wood-log-cloud",
-      "b": "avatar-group-cloud",
-      "distance": 1.41
-    },
-    {
-      "a": "wood-log-chat",
-      "b": "avatar-group-chat",
-      "distance": 1.41
-    },
-    {
-      "a": "wood-log-download",
-      "b": "avatar-group-download",
-      "distance": 1.41
-    },
-    {
-      "a": "wood-log-pencil",
-      "b": "avatar-group-pencil",
-      "distance": 1.41
-    },
-    {
-      "a": "wood-log-trash",
-      "b": "avatar-group-trash",
-      "distance": 1.41
-    },
-    {
-      "a": "wood-log-calendar",
-      "b": "avatar-group-calendar",
-      "distance": 1.41
-    },
-    {
-      "a": "wood-log-question",
-      "b": "avatar-group-question",
-      "distance": 1.41
+      "a": "smartphone-cloud",
+      "b": "otp-cloud",
+      "distance": 0
     },
     {
-      "a": "wood-log-upload",
-      "b": "avatar-group-sparkle",
-      "distance": 1.41
+      "a": "smartphone-chat",
+      "b": "otp-chat",
+      "distance": 0
     },
     {
-      "a": "wood-log-upload",
-      "b": "avatar-group-upload",
-      "distance": 1.41
+      "a": "smartphone-download",
+      "b": "otp-download",
+      "distance": 0
     },
     {
-      "a": "wood-log-crown",
-      "b": "avatar-group-crown",
-      "distance": 1.41
+      "a": "smartphone-pencil",
+      "b": "otp-pencil",
+      "distance": 0
     },
     {
-      "a": "wood-log-leaf",
-      "b": "avatar-group-leaf",
-      "distance": 1.41
+      "a": "smartphone-trash",
+      "b": "otp-trash",
+      "distance": 0
     },
     {
-      "a": "wood-log-hourglass",
-      "b": "avatar-group-hourglass",
-      "distance": 1.41
+      "a": "smartphone-calendar",
+      "b": "otp-calendar",
+      "distance": 0
     },
     {
-      "a": "wood-log-cursor",
-      "b": "avatar-group-cursor",
-      "distance": 1.41
+      "a": "smartphone-question",
+      "b": "otp-question",
+      "distance": 0
     },
     {
-      "a": "wood-log-camera",
-      "b": "avatar-group-camera",
-      "distance": 1.41
+      "a": "smartphone-bookmark",
+      "b": "otp-bookmark",
+      "distance": 0
     },
     {
-      "a": "wood-log-filter",
-      "b": "avatar-group-filter",
-      "distance": 1.41
+      "a": "smartphone-crown",
+      "b": "otp-crown",
+      "distance": 0
     },
     {
-      "a": "wood-log-stats",
-      "b": "avatar-group-stats",
-      "distance": 1.41
+      "a": "smartphone-leaf",
+      "b": "otp-leaf",
+      "distance": 0
     },
     {
-      "a": "wood-log-checkbox",
-      "b": "avatar-group-checkbox",
-      "distance": 1.41
+      "a": "smartphone-hourglass",
+      "b": "otp-hourglass",
+      "distance": 0
     },
     {
-      "a": "tree-stump-pencil",
-      "b": "tree-stump-leaf",
-      "distance": 1.41
+      "a": "smartphone-cursor",
+      "b": "otp-cursor",
+      "distance": 0
     },
     {
-      "a": "tree-stump-sparkle",
-      "b": "tree-stump-upload",
-      "distance": 1.41
+      "a": "smartphone-camera",
+      "b": "otp-camera",
+      "distance": 0
     },
     {
-      "a": "bamboo-sparkle",
-      "b": "bamboo-upload",
-      "distance": 1.41
+      "a": "smartphone-filter",
+      "b": "otp-filter",
+      "distance": 0
     },
     {
-      "a": "sunflower-sparkle",
-      "b": "sunflower-upload",
-      "distance": 1.41
+      "a": "smartphone-stats",
+      "b": "otp-stats",
+      "distance": 0
     },
     {
-      "a": "avatar-group-sparkle",
-      "b": "avatar-group-upload",
-      "distance": 1.41
+      "a": "smartphone-checkbox",
+      "b": "otp-checkbox",
+      "distance": 0
     },
     {
-      "a": "sippy-cup-search",
-      "b": "hand-raised-search",
+      "a": "gas-flame-search",
+      "b": "firewall-search",
       "distance": 1.41
     },
     {
-      "a": "sippy-cup-clock",
-      "b": "hand-raised-clock",
+      "a": "gas-flame-clock",
+      "b": "firewall-clock",
       "distance": 1.41
     },
     {
-      "a": "sippy-cup-shield",
-      "b": "hand-raised-shield",
+      "a": "gas-flame-shield",
+      "b": "firewall-shield",
       "distance": 1.41
     },
     {
-      "a": "sippy-cup-gear",
-      "b": "hand-raised-gear",
+      "a": "gas-flame-gear",
+      "b": "firewall-gear",
       "distance": 1.41
     },
     {
-      "a": "sippy-cup-bolt",
-      "b": "hand-raised-bolt",
+      "a": "gas-flame-bolt",
+      "b": "firewall-bolt",
       "distance": 1.41
     },
     {
-      "a": "sippy-cup-heart",
-      "b": "hand-raised-heart",
+      "a": "gas-flame-star",
+      "b": "firewall-star",
       "distance": 1.41
     },
     {
-      "a": "sippy-cup-star",
-      "b": "hand-raised-star",
+      "a": "gas-flame-user",
+      "b": "firewall-user",
       "distance": 1.41
     },
     {
-      "a": "sippy-cup-user",
-      "b": "hand-raised-user",
+      "a": "gas-flame-chat",
+      "b": "firewall-chat",
       "distance": 1.41
     },
     {
-      "a": "sippy-cup-cloud",
-      "b": "hand-raised-cloud",
+      "a": "gas-flame-download",
+      "b": "firewall-download",
       "distance": 1.41
     },
     {
-      "a": "sippy-cup-chat",
-      "b": "hand-raised-chat",
+      "a": "gas-flame-sparkle",
+      "b": "firewall-sparkle",
       "distance": 1.41
     },
     {
-      "a": "sippy-cup-download",
-      "b": "hand-raised-download",
+      "a": "gas-flame-sparkle",
+      "b": "firewall-upload",
       "distance": 1.41
     },
     {
-      "a": "sippy-cup-pencil",
-      "b": "hand-raised-pencil",
+      "a": "gas-flame-calendar",
+      "b": "firewall-calendar",
       "distance": 1.41
     },
     {
-      "a": "sippy-cup-sparkle",
-      "b": "sippy-cup-upload",
+      "a": "gas-flame-question",
+      "b": "firewall-question",
       "distance": 1.41
     },
     {
-      "a": "sippy-cup-sparkle",
-      "b": "hand-raised-sparkle",
+      "a": "gas-flame-bookmark",
+      "b": "firewall-bookmark",
       "distance": 1.41
     },
     {
-      "a": "sippy-cup-trash",
-      "b": "hand-raised-trash",
+      "a": "gas-flame-trophy",
+      "b": "firewall-trophy",
       "distance": 1.41
     },
     {
-      "a": "sippy-cup-calendar",
-      "b": "hand-raised-calendar",
+      "a": "gas-flame-hourglass",
+      "b": "firewall-hourglass",
       "distance": 1.41
     },
     {
-      "a": "sippy-cup-question",
-      "b": "hand-raised-question",
+      "a": "gas-flame-cursor",
+      "b": "firewall-cursor",
       "distance": 1.41
     },
     {
-      "a": "sippy-cup-bookmark",
-      "b": "hand-raised-bookmark",
+      "a": "gas-flame-camera",
+      "b": "firewall-camera",
       "distance": 1.41
     },
     {
-      "a": "sippy-cup-upload",
-      "b": "hand-raised-sparkle",
+      "a": "gas-flame-filter",
+      "b": "firewall-filter",
       "distance": 1.41
     },
     {
-      "a": "sippy-cup-upload",
-      "b": "hand-raised-upload",
+      "a": "gas-flame-checkbox",
+      "b": "firewall-checkbox",
       "distance": 1.41
     },
     {
-      "a": "sippy-cup-crown",
-      "b": "hand-raised-crown",
+      "a": "bottle-cap-search",
+      "b": "life-ring-search",
       "distance": 1.41
     },
     {
-      "a": "sippy-cup-leaf",
-      "b": "hand-raised-leaf",
+      "a": "bottle-cap-clock",
+      "b": "life-ring-clock",
       "distance": 1.41
     },
     {
-      "a": "sippy-cup-trophy",
-      "b": "hand-raised-trophy",
+      "a": "bottle-cap-shield",
+      "b": "life-ring-shield",
       "distance": 1.41
     },
     {
-      "a": "sippy-cup-hourglass",
-      "b": "hand-raised-hourglass",
+      "a": "bottle-cap-gear",
+      "b": "life-ring-gear",
       "distance": 1.41
     },
     {
-      "a": "sippy-cup-cursor",
-      "b": "hand-raised-cursor",
+      "a": "bottle-cap-heart",
+      "b": "life-ring-heart",
       "distance": 1.41
     },
     {
-      "a": "sippy-cup-camera",
-      "b": "hand-raised-camera",
+      "a": "bottle-cap-user",
+      "b": "life-ring-user",
       "distance": 1.41
     },
     {
-      "a": "sippy-cup-filter",
-      "b": "hand-raised-filter",
+      "a": "bottle-cap-chat",
+      "b": "life-ring-chat",
       "distance": 1.41
     },
     {
-      "a": "sippy-cup-stats",
-      "b": "hand-raised-stats",
+      "a": "bottle-cap-download",
+      "b": "life-ring-download",
       "distance": 1.41
     },
     {
-      "a": "sippy-cup-checkbox",
-      "b": "hand-raised-checkbox",
+      "a": "bottle-cap-pencil",
+      "b": "life-ring-pencil",
       "distance": 1.41
     },
     {
-      "a": "baby-monitor-sparkle",
-      "b": "baby-monitor-upload",
+      "a": "bottle-cap-trash",
+      "b": "life-ring-trash",
       "distance": 1.41
     },
     {
-      "a": "user-tie-pencil",
-      "b": "user-tie-leaf",
+      "a": "bottle-cap-calendar",
+      "b": "life-ring-calendar",
       "distance": 1.41
     },
     {
-      "a": "user-headset-pencil",
-      "b": "user-headset-leaf",
+      "a": "bottle-cap-question",
+      "b": "life-ring-question",
       "distance": 1.41
     },
     {
-      "a": "user-headset-sparkle",
-      "b": "user-headset-upload",
+      "a": "bottle-cap-bookmark",
+      "b": "life-ring-bookmark",
       "distance": 1.41
     },
     {
-      "a": "family-pencil",
-      "b": "family-leaf",
+      "a": "bottle-cap-crown",
+      "b": "life-ring-crown",
       "distance": 1.41
     },
     {
-      "a": "student-sparkle",
-      "b": "student-upload",
+      "a": "bottle-cap-trophy",
+      "b": "life-ring-trophy",
       "distance": 1.41
     },
     {
-      "a": "user-edit-sparkle",
-      "b": "user-edit-upload",
+      "a": "bottle-cap-hourglass",
+      "b": "life-ring-hourglass",
       "distance": 1.41
     },
     {
-      "a": "user-group-sparkle",
-      "b": "user-group-upload",
+      "a": "bottle-cap-cursor",
+      "b": "life-ring-cursor",
       "distance": 1.41
     },
     {
-      "a": "oscilloscope-gear",
-      "b": "oscilloscope-stats",
+      "a": "bottle-cap-camera",
+      "b": "life-ring-camera",
       "distance": 1.41
     },
     {
-      "a": "oscilloscope-pencil",
-      "b": "oscilloscope-leaf",
+      "a": "bottle-cap-filter",
+      "b": "life-ring-filter",
       "distance": 1.41
     },
     {
-      "a": "oscilloscope-sparkle",
-      "b": "oscilloscope-upload",
+      "a": "bottle-cap-stats",
+      "b": "life-ring-stats",
       "distance": 1.41
     },
     {
-      "a": "mars-rover-pencil",
-      "b": "mars-rover-leaf",
+      "a": "bottle-cap-checkbox",
+      "b": "life-ring-checkbox",
       "distance": 1.41
     },
     {
-      "a": "mars-rover-sparkle",
-      "b": "mars-rover-upload",
+      "a": "chocolate-bar-bolt",
+      "b": "keypad-bolt",
       "distance": 1.41
     },
     {
-      "a": "test-tube-rack-pencil",
-      "b": "test-tube-rack-leaf",
+      "a": "chocolate-bar-heart",
+      "b": "keypad-heart",
       "distance": 1.41
     },
     {
-      "a": "test-tube-rack-sparkle",
-      "b": "test-tube-rack-upload",
+      "a": "chocolate-bar-user",
+      "b": "keypad-user",
       "distance": 1.41
     },
     {
-      "a": "spring-sparkle",
-      "b": "spring-upload",
+      "a": "chocolate-bar-cloud",
+      "b": "keypad-cloud",
       "distance": 1.41
     },
     {
-      "a": "pendulum-pencil",
-      "b": "pendulum-leaf",
+      "a": "chocolate-bar-pencil",
+      "b": "keypad-pencil",
       "distance": 1.41
     },
     {
-      "a": "crystal-sparkle",
-      "b": "crystal-upload",
+      "a": "chocolate-bar-pencil",
+      "b": "keypad-leaf",
       "distance": 1.41
     },
     {
-      "a": "saturn-sparkle",
-      "b": "saturn-upload",
+      "a": "chocolate-bar-sparkle",
+      "b": "keypad-sparkle",
       "distance": 1.41
     },
     {
-      "a": "graduated-cylinder-sparkle",
-      "b": "graduated-cylinder-upload",
+      "a": "chocolate-bar-sparkle",
+      "b": "keypad-upload",
       "distance": 1.41
     },
     {
-      "a": "periodic-table-pencil",
-      "b": "periodic-table-leaf",
+      "a": "chocolate-bar-trash",
+      "b": "keypad-trash",
       "distance": 1.41
     },
     {
-      "a": "periodic-table-sparkle",
-      "b": "periodic-table-upload",
+      "a": "chocolate-bar-bookmark",
+      "b": "keypad-bookmark",
       "distance": 1.41
-    },
-    {
-      "a": "flammable-search",
-      "b": "explosive-search",
-      "distance": 0
-    },
-    {
-      "a": "flammable-search",
-      "b": "toxic-search",
-      "distance": 0
-    },
-    {
-      "a": "flammable-search",
-      "b": "oxidizer-search",
-      "distance": 0
-    },
-    {
-      "a": "flammable-search",
-      "b": "corrosive-search",
-      "distance": 0
-    },
-    {
-      "a": "flammable-search",
-      "b": "health-hazard-search",
-      "distance": 0
-    },
-    {
-      "a": "flammable-search",
-      "b": "environment-hazard-search",
-      "distance": 0
-    },
-    {
-      "a": "flammable-clock",
-      "b": "explosive-clock",
-      "distance": 0
-    },
-    {
-      "a": "flammable-clock",
-      "b": "toxic-clock",
-      "distance": 0
-    },
-    {
-      "a": "flammable-clock",
-      "b": "oxidizer-clock",
-      "distance": 0
-    },
-    {
-      "a": "flammable-clock",
-      "b": "corrosive-clock",
-      "distance": 0
-    },
-    {
-      "a": "flammable-clock",
-      "b": "health-hazard-clock",
-      "distance": 0
-    },
-    {
-      "a": "flammable-clock",
-      "b": "environment-hazard-clock",
-      "distance": 0
-    },
-    {
-      "a": "flammable-gear",
-      "b": "explosive-gear",
-      "distance": 0
-    },
-    {
-      "a": "flammable-gear",
-      "b": "toxic-gear",
-      "distance": 0
-    },
-    {
-      "a": "flammable-gear",
-      "b": "oxidizer-gear",
-      "distance": 0
-    },
-    {
-      "a": "flammable-gear",
-      "b": "corrosive-gear",
-      "distance": 0
-    },
-    {
-      "a": "flammable-gear",
-      "b": "health-hazard-gear",
-      "distance": 0
-    },
-    {
-      "a": "flammable-bolt",
-      "b": "explosive-bolt",
-      "distance": 0
-    },
-    {
-      "a": "flammable-bolt",
-      "b": "toxic-bolt",
-      "distance": 0
-    },
-    {
-      "a": "flammable-bolt",
-      "b": "oxidizer-bolt",
-      "distance": 0
-    },
-    {
-      "a": "flammable-bolt",
-      "b": "corrosive-bolt",
-      "distance": 0
-    },
-    {
-      "a": "flammable-bolt",
-      "b": "health-hazard-bolt",
-      "distance": 0
-    },
-    {
-      "a": "flammable-heart",
-      "b": "explosive-heart",
-      "distance": 0
-    },
-    {
-      "a": "flammable-heart",
-      "b": "toxic-heart",
-      "distance": 0
-    },
-    {
-      "a": "flammable-heart",
-      "b": "oxidizer-heart",
-      "distance": 0
-    },
-    {
-      "a": "flammable-heart",
-      "b": "corrosive-heart",
-      "distance": 0
-    },
-    {
-      "a": "flammable-heart",
-      "b": "health-hazard-heart",
-      "distance": 0
-    },
-    {
-      "a": "flammable-star",
-      "b": "explosive-star",
-      "distance": 0
-    },
-    {
-      "a": "flammable-star",
-      "b": "toxic-star",
-      "distance": 0
-    },
-    {
-      "a": "flammable-star",
-      "b": "oxidizer-star",
-      "distance": 0
-    },
-    {
-      "a": "flammable-star",
-      "b": "corrosive-star",
-      "distance": 0
-    },
-    {
-      "a": "flammable-star",
-      "b": "health-hazard-star",
-      "distance": 0
-    },
-    {
-      "a": "flammable-cloud",
-      "b": "explosive-cloud",
-      "distance": 0
-    },
-    {
-      "a": "flammable-cloud",
-      "b": "toxic-cloud",
-      "distance": 0
-    },
-    {
-      "a": "flammable-cloud",
-      "b": "oxidizer-cloud",
-      "distance": 0
-    },
-    {
-      "a": "flammable-cloud",
-      "b": "corrosive-cloud",
-      "distance": 0
-    },
-    {
-      "a": "flammable-cloud",
-      "b": "health-hazard-cloud",
-      "distance": 0
-    },
-    {
-      "a": "flammable-chat",
-      "b": "explosive-chat",
-      "distance": 0
-    },
-    {
-      "a": "flammable-chat",
-      "b": "toxic-chat",
-      "distance": 0
-    },
-    {
-      "a": "flammable-chat",
-      "b": "oxidizer-chat",
-      "distance": 0
-    },
-    {
-      "a": "flammable-chat",
-      "b": "corrosive-chat",
-      "distance": 0
-    },
-    {
-      "a": "flammable-chat",
-      "b": "health-hazard-chat",
-      "distance": 0
-    },
-    {
-      "a": "flammable-download",
-      "b": "explosive-download",
-      "distance": 0
-    },
-    {
-      "a": "flammable-download",
-      "b": "toxic-download",
-      "distance": 0
-    },
-    {
-      "a": "flammable-download",
-      "b": "oxidizer-download",
-      "distance": 0
-    },
-    {
-      "a": "flammable-download",
-      "b": "corrosive-download",
-      "distance": 0
-    },
-    {
-      "a": "flammable-download",
-      "b": "health-hazard-download",
-      "distance": 0
-    },
-    {
-      "a": "flammable-pencil",
-      "b": "explosive-pencil",
-      "distance": 0
-    },
-    {
-      "a": "flammable-pencil",
-      "b": "toxic-pencil",
-      "distance": 0
-    },
-    {
-      "a": "flammable-pencil",
-      "b": "oxidizer-pencil",
-      "distance": 0
-    },
-    {
-      "a": "flammable-pencil",
-      "b": "corrosive-pencil",
-      "distance": 0
-    },
-    {
-      "a": "flammable-pencil",
-      "b": "health-hazard-pencil",
-      "distance": 0
-    },
-    {
-      "a": "flammable-trash",
-      "b": "explosive-trash",
-      "distance": 0
-    },
-    {
-      "a": "flammable-trash",
-      "b": "toxic-trash",
-      "distance": 0
-    },
-    {
-      "a": "flammable-trash",
-      "b": "oxidizer-trash",
-      "distance": 0
-    },
-    {
-      "a": "flammable-trash",
-      "b": "corrosive-trash",
-      "distance": 0
-    },
-    {
-      "a": "flammable-trash",
-      "b": "health-hazard-trash",
-      "distance": 0
-    },
-    {
-      "a": "flammable-calendar",
-      "b": "explosive-calendar",
-      "distance": 0
-    },
-    {
-      "a": "flammable-calendar",
-      "b": "toxic-calendar",
-      "distance": 0
-    },
-    {
-      "a": "flammable-calendar",
-      "b": "oxidizer-calendar",
-      "distance": 0
-    },
-    {
-      "a": "flammable-calendar",
-      "b": "corrosive-calendar",
-      "distance": 0
-    },
-    {
-      "a": "flammable-calendar",
-      "b": "health-hazard-calendar",
-      "distance": 0
-    },
-    {
-      "a": "flammable-question",
-      "b": "explosive-question",
-      "distance": 0
-    },
-    {
-      "a": "flammable-question",
-      "b": "toxic-question",
-      "distance": 0
-    },
-    {
-      "a": "flammable-question",
-      "b": "oxidizer-question",
-      "distance": 0
-    },
-    {
-      "a": "flammable-question",
-      "b": "corrosive-question",
-      "distance": 0
-    },
-    {
-      "a": "flammable-question",
-      "b": "health-hazard-question",
-      "distance": 0
-    },
-    {
-      "a": "flammable-bookmark",
-      "b": "explosive-bookmark",
-      "distance": 0
-    },
-    {
-      "a": "flammable-bookmark",
-      "b": "toxic-bookmark",
-      "distance": 0
-    },
-    {
-      "a": "flammable-bookmark",
-      "b": "oxidizer-bookmark",
-      "distance": 0
-    },
-    {
-      "a": "flammable-bookmark",
-      "b": "corrosive-bookmark",
-      "distance": 0
-    },
-    {
-      "a": "flammable-bookmark",
-      "b": "health-hazard-bookmark",
-      "distance": 0
-    },
-    {
-      "a": "flammable-upload",
-      "b": "explosive-upload",
-      "distance": 0
-    },
-    {
-      "a": "flammable-upload",
-      "b": "toxic-upload",
-      "distance": 0
-    },
-    {
-      "a": "flammable-upload",
-      "b": "oxidizer-upload",
-      "distance": 0
-    },
-    {
-      "a": "flammable-upload",
-      "b": "corrosive-upload",
-      "distance": 0
-    },
-    {
-      "a": "flammable-upload",
-      "b": "health-hazard-upload",
-      "distance": 0
-    },
-    {
-      "a": "flammable-crown",
-      "b": "explosive-crown",
-      "distance": 0
     },
     {
-      "a": "flammable-crown",
-      "b": "toxic-crown",
-      "distance": 0
+      "a": "chocolate-bar-stats",
+      "b": "keypad-stats",
+      "distance": 1.41
     },
     {
-      "a": "flammable-crown",
-      "b": "oxidizer-crown",
-      "distance": 0
+      "a": "rug-shield",
+      "b": "life-ring-shield",
+      "distance": 1.41
     },
     {
-      "a": "flammable-crown",
-      "b": "corrosive-crown",
-      "distance": 0
+      "a": "aperture-bolt",
+      "b": "life-ring-bolt",
+      "distance": 1.41
     },
     {
-      "a": "flammable-crown",
-      "b": "health-hazard-crown",
-      "distance": 0
+      "a": "aperture-heart",
+      "b": "life-ring-heart",
+      "distance": 1.41
     },
     {
-      "a": "flammable-leaf",
-      "b": "explosive-leaf",
-      "distance": 0
+      "a": "aperture-user",
+      "b": "life-ring-user",
+      "distance": 1.41
     },
     {
-      "a": "flammable-leaf",
-      "b": "toxic-leaf",
-      "distance": 0
+      "a": "aperture-pencil",
+      "b": "life-ring-pencil",
+      "distance": 1.41
     },
     {
-      "a": "flammable-leaf",
-      "b": "oxidizer-leaf",
-      "distance": 0
+      "a": "aperture-pencil",
+      "b": "life-ring-leaf",
+      "distance": 1.41
     },
     {
-      "a": "flammable-leaf",
-      "b": "corrosive-leaf",
-      "distance": 0
+      "a": "aperture-trash",
+      "b": "life-ring-trash",
+      "distance": 1.41
     },
     {
-      "a": "flammable-leaf",
-      "b": "health-hazard-leaf",
-      "distance": 0
+      "a": "aperture-bookmark",
+      "b": "life-ring-bookmark",
+      "distance": 1.41
     },
     {
-      "a": "flammable-hourglass",
-      "b": "explosive-hourglass",
-      "distance": 0
+      "a": "aperture-trophy",
+      "b": "life-ring-trophy",
+      "distance": 1.41
     },
     {
-      "a": "flammable-hourglass",
-      "b": "toxic-hourglass",
-      "distance": 0
+      "a": "aperture-hourglass",
+      "b": "life-ring-hourglass",
+      "distance": 1.41
     },
     {
-      "a": "flammable-hourglass",
-      "b": "oxidizer-hourglass",
-      "distance": 0
+      "a": "aperture-cursor",
+      "b": "life-ring-cursor",
+      "distance": 1.41
     },
     {
-      "a": "flammable-hourglass",
-      "b": "corrosive-hourglass",
-      "distance": 0
+      "a": "aperture-filter",
+      "b": "life-ring-filter",
+      "distance": 1.41
     },
     {
-      "a": "flammable-hourglass",
-      "b": "health-hazard-hourglass",
-      "distance": 0
+      "a": "aperture-stats",
+      "b": "life-ring-stats",
+      "distance": 1.41
     },
     {
-      "a": "flammable-cursor",
-      "b": "explosive-cursor",
-      "distance": 0
+      "a": "satellite-sparkle",
+      "b": "satellite-upload",
+      "distance": 1.41
     },
     {
-      "a": "flammable-cursor",
-      "b": "toxic-cursor",
-      "distance": 0
+      "a": "goggles-sparkle",
+      "b": "goggles-upload",
+      "distance": 1.41
     },
     {
-      "a": "flammable-cursor",
-      "b": "oxidizer-cursor",
-      "distance": 0
+      "a": "constellation-pencil",
+      "b": "constellation-leaf",
+      "distance": 1.41
     },
     {
-      "a": "flammable-cursor",
-      "b": "corrosive-cursor",
-      "distance": 0
+      "a": "atom-pencil",
+      "b": "atom-leaf",
+      "distance": 1.41
     },
     {
-      "a": "flammable-cursor",
-      "b": "health-hazard-cursor",
-      "distance": 0
+      "a": "atom-sparkle",
+      "b": "atom-upload",
+      "distance": 1.41
     },
     {
-      "a": "flammable-camera",
-      "b": "explosive-camera",
-      "distance": 0
+      "a": "keypad-pencil",
+      "b": "keypad-leaf",
+      "distance": 1.41
     },
     {
-      "a": "flammable-camera",
-      "b": "toxic-camera",
-      "distance": 0
+      "a": "keypad-sparkle",
+      "b": "keypad-upload",
+      "distance": 1.41
     },
     {
-      "a": "flammable-camera",
-      "b": "oxidizer-camera",
-      "distance": 0
+      "a": "antivirus-sparkle",
+      "b": "antivirus-upload",
+      "distance": 1.41
     },
     {
-      "a": "flammable-camera",
-      "b": "corrosive-camera",
-      "distance": 0
+      "a": "two-factor-pencil",
+      "b": "two-factor-leaf",
+      "distance": 1.41
     },
     {
-      "a": "flammable-camera",
-      "b": "health-hazard-camera",
-      "distance": 0
+      "a": "two-factor-sparkle",
+      "b": "two-factor-upload",
+      "distance": 1.41
     },
     {
-      "a": "flammable-filter",
-      "b": "explosive-filter",
-      "distance": 0
+      "a": "keyhole-pencil",
+      "b": "keyhole-leaf",
+      "distance": 1.41
     },
     {
-      "a": "flammable-filter",
-      "b": "toxic-filter",
+      "a": "high-voltage-search",
+      "b": "hot-surface-search",
       "distance": 0
     },
     {
-      "a": "flammable-filter",
-      "b": "oxidizer-filter",
+      "a": "high-voltage-search",
+      "b": "laser-hazard-search",
       "distance": 0
     },
     {
-      "a": "flammable-filter",
-      "b": "corrosive-filter",
+      "a": "high-voltage-search",
+      "b": "magnetic-field-search",
       "distance": 0
     },
     {
-      "a": "flammable-filter",
-      "b": "health-hazard-filter",
+      "a": "high-voltage-search",
+      "b": "deep-water-search",
       "distance": 0
     },
     {
-      "a": "flammable-stats",
-      "b": "explosive-stats",
+      "a": "high-voltage-clock",
+      "b": "hot-surface-clock",
       "distance": 0
     },
     {
-      "a": "flammable-stats",
-      "b": "toxic-stats",
+      "a": "high-voltage-clock",
+      "b": "laser-hazard-clock",
       "distance": 0
     },
     {
-      "a": "flammable-stats",
-      "b": "oxidizer-stats",
+      "a": "high-voltage-clock",
+      "b": "magnetic-field-clock",
       "distance": 0
     },
     {
-      "a": "flammable-stats",
-      "b": "corrosive-stats",
+      "a": "high-voltage-clock",
+      "b": "deep-water-clock",
       "distance": 0
     },
     {
-      "a": "flammable-stats",
-      "b": "health-hazard-stats",
+      "a": "high-voltage-gear",
+      "b": "hot-surface-gear",
       "distance": 0
     },
     {
-      "a": "flammable-checkbox",
-      "b": "explosive-checkbox",
+      "a": "high-voltage-gear",
+      "b": "laser-hazard-gear",
       "distance": 0
     },
     {
-      "a": "flammable-checkbox",
-      "b": "toxic-checkbox",
+      "a": "high-voltage-gear",
+      "b": "magnetic-field-gear",
       "distance": 0
     },
     {
-      "a": "flammable-checkbox",
-      "b": "oxidizer-checkbox",
+      "a": "high-voltage-gear",
+      "b": "deep-water-gear",
       "distance": 0
     },
     {
-      "a": "flammable-checkbox",
-      "b": "corrosive-checkbox",
+      "a": "high-voltage-bolt",
+      "b": "hot-surface-bolt",
       "distance": 0
     },
     {
-      "a": "flammable-checkbox",
-      "b": "health-hazard-checkbox",
+      "a": "high-voltage-bolt",
+      "b": "laser-hazard-bolt",
       "distance": 0
     },
     {
-      "a": "explosive-search",
-      "b": "toxic-search",
+      "a": "high-voltage-bolt",
+      "b": "magnetic-field-bolt",
       "distance": 0
     },
     {
-      "a": "explosive-search",
-      "b": "oxidizer-search",
+      "a": "high-voltage-bolt",
+      "b": "deep-water-bolt",
       "distance": 0
     },
     {
-      "a": "explosive-search",
-      "b": "corrosive-search",
+      "a": "high-voltage-heart",
+      "b": "hot-surface-heart",
       "distance": 0
     },
     {
-      "a": "explosive-search",
-      "b": "health-hazard-search",
+      "a": "high-voltage-heart",
+      "b": "laser-hazard-heart",
       "distance": 0
     },
     {
-      "a": "explosive-search",
-      "b": "environment-hazard-search",
+      "a": "high-voltage-heart",
+      "b": "magnetic-field-heart",
       "distance": 0
     },
     {
-      "a": "explosive-clock",
-      "b": "toxic-clock",
+      "a": "high-voltage-heart",
+      "b": "deep-water-heart",
       "distance": 0
     },
     {
-      "a": "explosive-clock",
-      "b": "oxidizer-clock",
+      "a": "high-voltage-star",
+      "b": "hot-surface-star",
       "distance": 0
     },
     {
-      "a": "explosive-clock",
-      "b": "corrosive-clock",
+      "a": "high-voltage-star",
+      "b": "laser-hazard-star",
       "distance": 0
     },
     {
-      "a": "explosive-clock",
-      "b": "health-hazard-clock",
+      "a": "high-voltage-star",
+      "b": "magnetic-field-star",
       "distance": 0
     },
     {
-      "a": "explosive-clock",
-      "b": "environment-hazard-clock",
+      "a": "high-voltage-star",
+      "b": "deep-water-star",
       "distance": 0
     },
     {
-      "a": "explosive-gear",
-      "b": "toxic-gear",
+      "a": "high-voltage-cloud",
+      "b": "hot-surface-cloud",
       "distance": 0
     },
     {
-      "a": "explosive-gear",
-      "b": "oxidizer-gear",
+      "a": "high-voltage-cloud",
+      "b": "laser-hazard-cloud",
       "distance": 0
     },
     {
-      "a": "explosive-gear",
-      "b": "corrosive-gear",
+      "a": "high-voltage-cloud",
+      "b": "magnetic-field-cloud",
       "distance": 0
     },
     {
-      "a": "explosive-gear",
-      "b": "health-hazard-gear",
+      "a": "high-voltage-cloud",
+      "b": "deep-water-cloud",
       "distance": 0
     },
     {
-      "a": "explosive-bolt",
-      "b": "toxic-bolt",
+      "a": "high-voltage-chat",
+      "b": "hot-surface-chat",
       "distance": 0
     },
     {
-      "a": "explosive-bolt",
-      "b": "oxidizer-bolt",
+      "a": "high-voltage-chat",
+      "b": "laser-hazard-chat",
       "distance": 0
     },
     {
-      "a": "explosive-bolt",
-      "b": "corrosive-bolt",
+      "a": "high-voltage-chat",
+      "b": "magnetic-field-chat",
       "distance": 0
     },
     {
-      "a": "explosive-bolt",
-      "b": "health-hazard-bolt",
+      "a": "high-voltage-chat",
+      "b": "deep-water-chat",
       "distance": 0
     },
     {
-      "a": "explosive-heart",
-      "b": "toxic-heart",
+      "a": "high-voltage-download",
+      "b": "hot-surface-download",
       "distance": 0
     },
     {
-      "a": "explosive-heart",
-      "b": "oxidizer-heart",
+      "a": "high-voltage-download",
+      "b": "laser-hazard-download",
       "distance": 0
     },
     {
-      "a": "explosive-heart",
-      "b": "corrosive-heart",
+      "a": "high-voltage-download",
+      "b": "magnetic-field-download",
       "distance": 0
     },
     {
-      "a": "explosive-heart",
-      "b": "health-hazard-heart",
+      "a": "high-voltage-download",
+      "b": "deep-water-download",
       "distance": 0
     },
     {
-      "a": "explosive-star",
-      "b": "toxic-star",
-      "distance": 0
+      "a": "high-voltage-pencil",
+      "b": "high-voltage-leaf",
+      "distance": 1.41
     },
     {
-      "a": "explosive-star",
-      "b": "oxidizer-star",
+      "a": "high-voltage-pencil",
+      "b": "hot-surface-pencil",
       "distance": 0
     },
     {
-      "a": "explosive-star",
-      "b": "corrosive-star",
-      "distance": 0
+      "a": "high-voltage-pencil",
+      "b": "hot-surface-leaf",
+      "distance": 1.41
     },
     {
-      "a": "explosive-star",
-      "b": "health-hazard-star",
+      "a": "high-voltage-pencil",
+      "b": "laser-hazard-pencil",
       "distance": 0
     },
     {
-      "a": "explosive-cloud",
-      "b": "toxic-cloud",
-      "distance": 0
+      "a": "high-voltage-pencil",
+      "b": "laser-hazard-leaf",
+      "distance": 1.41
     },
     {
-      "a": "explosive-cloud",
-      "b": "oxidizer-cloud",
+      "a": "high-voltage-pencil",
+      "b": "magnetic-field-pencil",
       "distance": 0
     },
     {
-      "a": "explosive-cloud",
-      "b": "corrosive-cloud",
-      "distance": 0
+      "a": "high-voltage-pencil",
+      "b": "magnetic-field-leaf",
+      "distance": 1.41
     },
     {
-      "a": "explosive-cloud",
-      "b": "health-hazard-cloud",
+      "a": "high-voltage-pencil",
+      "b": "deep-water-pencil",
       "distance": 0
     },
     {
-      "a": "explosive-chat",
-      "b": "toxic-chat",
-      "distance": 0
+      "a": "high-voltage-pencil",
+      "b": "deep-water-leaf",
+      "distance": 1.41
     },
     {
-      "a": "explosive-chat",
-      "b": "oxidizer-chat",
+      "a": "high-voltage-trash",
+      "b": "hot-surface-trash",
       "distance": 0
     },
     {
-      "a": "explosive-chat",
-      "b": "corrosive-chat",
+      "a": "high-voltage-trash",
+      "b": "laser-hazard-trash",
       "distance": 0
     },
     {
-      "a": "explosive-chat",
-      "b": "health-hazard-chat",
+      "a": "high-voltage-trash",
+      "b": "magnetic-field-trash",
       "distance": 0
     },
     {
-      "a": "explosive-download",
-      "b": "toxic-download",
+      "a": "high-voltage-trash",
+      "b": "deep-water-trash",
       "distance": 0
     },
     {
-      "a": "explosive-download",
-      "b": "oxidizer-download",
+      "a": "high-voltage-calendar",
+      "b": "hot-surface-calendar",
       "distance": 0
     },
     {
-      "a": "explosive-download",
-      "b": "corrosive-download",
+      "a": "high-voltage-calendar",
+      "b": "laser-hazard-calendar",
       "distance": 0
     },
     {
-      "a": "explosive-download",
-      "b": "health-hazard-download",
+      "a": "high-voltage-calendar",
+      "b": "magnetic-field-calendar",
       "distance": 0
     },
     {
-      "a": "explosive-pencil",
-      "b": "toxic-pencil",
+      "a": "high-voltage-calendar",
+      "b": "deep-water-calendar",
       "distance": 0
     },
     {
-      "a": "explosive-pencil",
-      "b": "oxidizer-pencil",
+      "a": "high-voltage-question",
+      "b": "hot-surface-question",
       "distance": 0
     },
     {
-      "a": "explosive-pencil",
-      "b": "corrosive-pencil",
+      "a": "high-voltage-question",
+      "b": "laser-hazard-question",
       "distance": 0
     },
     {
-      "a": "explosive-pencil",
-      "b": "health-hazard-pencil",
+      "a": "high-voltage-question",
+      "b": "magnetic-field-question",
       "distance": 0
     },
     {
-      "a": "explosive-trash",
-      "b": "toxic-trash",
+      "a": "high-voltage-question",
+      "b": "deep-water-question",
       "distance": 0
     },
     {
-      "a": "explosive-trash",
-      "b": "oxidizer-trash",
+      "a": "high-voltage-bookmark",
+      "b": "hot-surface-bookmark",
       "distance": 0
     },
     {
-      "a": "explosive-trash",
-      "b": "corrosive-trash",
+      "a": "high-voltage-bookmark",
+      "b": "laser-hazard-bookmark",
       "distance": 0
     },
     {
-      "a": "explosive-trash",
-      "b": "health-hazard-trash",
+      "a": "high-voltage-bookmark",
+      "b": "magnetic-field-bookmark",
       "distance": 0
     },
     {
-      "a": "explosive-calendar",
-      "b": "toxic-calendar",
+      "a": "high-voltage-bookmark",
+      "b": "deep-water-bookmark",
       "distance": 0
     },
     {
-      "a": "explosive-calendar",
-      "b": "oxidizer-calendar",
+      "a": "high-voltage-upload",
+      "b": "hot-surface-upload",
       "distance": 0
     },
     {
-      "a": "explosive-calendar",
-      "b": "corrosive-calendar",
+      "a": "high-voltage-upload",
+      "b": "laser-hazard-upload",
       "distance": 0
     },
     {
-      "a": "explosive-calendar",
-      "b": "health-hazard-calendar",
+      "a": "high-voltage-upload",
+      "b": "magnetic-field-upload",
       "distance": 0
     },
     {
-      "a": "explosive-question",
-      "b": "toxic-question",
+      "a": "high-voltage-upload",
+      "b": "deep-water-upload",
       "distance": 0
     },
     {
-      "a": "explosive-question",
-      "b": "oxidizer-question",
+      "a": "high-voltage-crown",
+      "b": "hot-surface-crown",
       "distance": 0
     },
     {
-      "a": "explosive-question",
-      "b": "corrosive-question",
+      "a": "high-voltage-crown",
+      "b": "laser-hazard-crown",
       "distance": 0
     },
     {
-      "a": "explosive-question",
-      "b": "health-hazard-question",
+      "a": "high-voltage-crown",
+      "b": "magnetic-field-crown",
       "distance": 0
     },
     {
-      "a": "explosive-bookmark",
-      "b": "toxic-bookmark",
+      "a": "high-voltage-crown",
+      "b": "deep-water-crown",
       "distance": 0
     },
     {
-      "a": "explosive-bookmark",
-      "b": "oxidizer-bookmark",
-      "distance": 0
+      "a": "high-voltage-leaf",
+      "b": "hot-surface-pencil",
+      "distance": 1.41
     },
     {
-      "a": "explosive-bookmark",
-      "b": "corrosive-bookmark",
+      "a": "high-voltage-leaf",
+      "b": "hot-surface-leaf",
       "distance": 0
     },
     {
-      "a": "explosive-bookmark",
-      "b": "health-hazard-bookmark",
-      "distance": 0
+      "a": "high-voltage-leaf",
+      "b": "laser-hazard-pencil",
+      "distance": 1.41
     },
     {
-      "a": "explosive-upload",
-      "b": "toxic-upload",
+      "a": "high-voltage-leaf",
+      "b": "laser-hazard-leaf",
       "distance": 0
     },
     {
-      "a": "explosive-upload",
-      "b": "oxidizer-upload",
-      "distance": 0
+      "a": "high-voltage-leaf",
+      "b": "magnetic-field-pencil",
+      "distance": 1.41
     },
     {
-      "a": "explosive-upload",
-      "b": "corrosive-upload",
+      "a": "high-voltage-leaf",
+      "b": "magnetic-field-leaf",
       "distance": 0
     },
     {
-      "a": "explosive-upload",
-      "b": "health-hazard-upload",
-      "distance": 0
+      "a": "high-voltage-leaf",
+      "b": "deep-water-pencil",
+      "distance": 1.41
     },
     {
-      "a": "explosive-crown",
-      "b": "toxic-crown",
+      "a": "high-voltage-leaf",
+      "b": "deep-water-leaf",
       "distance": 0
     },
     {
-      "a": "explosive-crown",
-      "b": "oxidizer-crown",
+      "a": "high-voltage-hourglass",
+      "b": "hot-surface-hourglass",
       "distance": 0
     },
     {
-      "a": "explosive-crown",
-      "b": "corrosive-crown",
+      "a": "high-voltage-hourglass",
+      "b": "laser-hazard-hourglass",
       "distance": 0
     },
     {
-      "a": "explosive-crown",
-      "b": "health-hazard-crown",
+      "a": "high-voltage-hourglass",
+      "b": "magnetic-field-hourglass",
       "distance": 0
     },
     {
-      "a": "explosive-leaf",
-      "b": "toxic-leaf",
+      "a": "high-voltage-hourglass",
+      "b": "deep-water-hourglass",
       "distance": 0
     },
     {
-      "a": "explosive-leaf",
-      "b": "oxidizer-leaf",
+      "a": "high-voltage-cursor",
+      "b": "hot-surface-cursor",
       "distance": 0
     },
     {
-      "a": "explosive-leaf",
-      "b": "corrosive-leaf",
+      "a": "high-voltage-cursor",
+      "b": "laser-hazard-cursor",
       "distance": 0
     },
     {
-      "a": "explosive-leaf",
-      "b": "health-hazard-leaf",
+      "a": "high-voltage-cursor",
+      "b": "magnetic-field-cursor",
       "distance": 0
     },
     {
-      "a": "explosive-hourglass",
-      "b": "toxic-hourglass",
+      "a": "high-voltage-cursor",
+      "b": "deep-water-cursor",
       "distance": 0
     },
     {
-      "a": "explosive-hourglass",
-      "b": "oxidizer-hourglass",
+      "a": "high-voltage-camera",
+      "b": "hot-surface-camera",
       "distance": 0
     },
     {
-      "a": "explosive-hourglass",
-      "b": "corrosive-hourglass",
+      "a": "high-voltage-camera",
+      "b": "laser-hazard-camera",
       "distance": 0
     },
     {
-      "a": "explosive-hourglass",
-      "b": "health-hazard-hourglass",
+      "a": "high-voltage-camera",
+      "b": "magnetic-field-camera",
       "distance": 0
     },
     {
-      "a": "explosive-cursor",
-      "b": "toxic-cursor",
+      "a": "high-voltage-camera",
+      "b": "deep-water-camera",
       "distance": 0
     },
     {
-      "a": "explosive-cursor",
-      "b": "oxidizer-cursor",
+      "a": "high-voltage-filter",
+      "b": "hot-surface-filter",
       "distance": 0
     },
     {
-      "a": "explosive-cursor",
-      "b": "corrosive-cursor",
+      "a": "high-voltage-filter",
+      "b": "laser-hazard-filter",
       "distance": 0
     },
     {
-      "a": "explosive-cursor",
-      "b": "health-hazard-cursor",
+      "a": "high-voltage-filter",
+      "b": "magnetic-field-filter",
       "distance": 0
     },
     {
-      "a": "explosive-camera",
-      "b": "toxic-camera",
+      "a": "high-voltage-filter",
+      "b": "deep-water-filter",
       "distance": 0
     },
     {
-      "a": "explosive-camera",
-      "b": "oxidizer-camera",
+      "a": "high-voltage-stats",
+      "b": "hot-surface-stats",
       "distance": 0
     },
     {
-      "a": "explosive-camera",
-      "b": "corrosive-camera",
+      "a": "high-voltage-stats",
+      "b": "laser-hazard-stats",
       "distance": 0
     },
     {
-      "a": "explosive-camera",
-      "b": "health-hazard-camera",
+      "a": "high-voltage-stats",
+      "b": "magnetic-field-stats",
       "distance": 0
     },
     {
-      "a": "explosive-filter",
-      "b": "toxic-filter",
+      "a": "high-voltage-stats",
+      "b": "deep-water-stats",
       "distance": 0
     },
     {
-      "a": "explosive-filter",
-      "b": "oxidizer-filter",
+      "a": "high-voltage-checkbox",
+      "b": "hot-surface-checkbox",
       "distance": 0
     },
     {
-      "a": "explosive-filter",
-      "b": "corrosive-filter",
+      "a": "high-voltage-checkbox",
+      "b": "laser-hazard-checkbox",
       "distance": 0
     },
     {
-      "a": "explosive-filter",
-      "b": "health-hazard-filter",
+      "a": "high-voltage-checkbox",
+      "b": "magnetic-field-checkbox",
       "distance": 0
     },
     {
-      "a": "explosive-stats",
-      "b": "toxic-stats",
+      "a": "high-voltage-checkbox",
+      "b": "deep-water-checkbox",
       "distance": 0
     },
     {
-      "a": "explosive-stats",
-      "b": "oxidizer-stats",
+      "a": "hot-surface-search",
+      "b": "laser-hazard-search",
       "distance": 0
     },
     {
-      "a": "explosive-stats",
-      "b": "corrosive-stats",
+      "a": "hot-surface-search",
+      "b": "magnetic-field-search",
       "distance": 0
     },
     {
-      "a": "explosive-stats",
-      "b": "health-hazard-stats",
+      "a": "hot-surface-search",
+      "b": "deep-water-search",
       "distance": 0
     },
     {
-      "a": "explosive-checkbox",
-      "b": "toxic-checkbox",
+      "a": "hot-surface-clock",
+      "b": "laser-hazard-clock",
       "distance": 0
     },
     {
-      "a": "explosive-checkbox",
-      "b": "oxidizer-checkbox",
+      "a": "hot-surface-clock",
+      "b": "magnetic-field-clock",
       "distance": 0
     },
     {
-      "a": "explosive-checkbox",
-      "b": "corrosive-checkbox",
+      "a": "hot-surface-clock",
+      "b": "deep-water-clock",
       "distance": 0
     },
     {
-      "a": "explosive-checkbox",
-      "b": "health-hazard-checkbox",
+      "a": "hot-surface-gear",
+      "b": "laser-hazard-gear",
       "distance": 0
     },
     {
-      "a": "toxic-search",
-      "b": "oxidizer-search",
+      "a": "hot-surface-gear",
+      "b": "magnetic-field-gear",
       "distance": 0
     },
     {
-      "a": "toxic-search",
-      "b": "corrosive-search",
+      "a": "hot-surface-gear",
+      "b": "deep-water-gear",
       "distance": 0
     },
     {
-      "a": "toxic-search",
-      "b": "health-hazard-search",
+      "a": "hot-surface-bolt",
+      "b": "laser-hazard-bolt",
       "distance": 0
     },
     {
-      "a": "toxic-search",
-      "b": "environment-hazard-search",
+      "a": "hot-surface-bolt",
+      "b": "magnetic-field-bolt",
       "distance": 0
     },
     {
-      "a": "toxic-clock",
-      "b": "oxidizer-clock",
+      "a": "hot-surface-bolt",
+      "b": "deep-water-bolt",
       "distance": 0
     },
     {
-      "a": "toxic-clock",
-      "b": "corrosive-clock",
+      "a": "hot-surface-heart",
+      "b": "laser-hazard-heart",
       "distance": 0
     },
     {
-      "a": "toxic-clock",
-      "b": "health-hazard-clock",
+      "a": "hot-surface-heart",
+      "b": "magnetic-field-heart",
       "distance": 0
     },
     {
-      "a": "toxic-clock",
-      "b": "environment-hazard-clock",
+      "a": "hot-surface-heart",
+      "b": "deep-water-heart",
       "distance": 0
     },
     {
-      "a": "toxic-gear",
-      "b": "oxidizer-gear",
+      "a": "hot-surface-star",
+      "b": "laser-hazard-star",
       "distance": 0
     },
     {
-      "a": "toxic-gear",
-      "b": "corrosive-gear",
+      "a": "hot-surface-star",
+      "b": "magnetic-field-star",
       "distance": 0
     },
     {
-      "a": "toxic-gear",
-      "b": "health-hazard-gear",
+      "a": "hot-surface-star",
+      "b": "deep-water-star",
       "distance": 0
     },
     {
-      "a": "toxic-bolt",
-      "b": "oxidizer-bolt",
+      "a": "hot-surface-cloud",
+      "b": "laser-hazard-cloud",
       "distance": 0
     },
     {
-      "a": "toxic-bolt",
-      "b": "corrosive-bolt",
+      "a": "hot-surface-cloud",
+      "b": "magnetic-field-cloud",
       "distance": 0
     },
     {
-      "a": "toxic-bolt",
-      "b": "health-hazard-bolt",
+      "a": "hot-surface-cloud",
+      "b": "deep-water-cloud",
       "distance": 0
     },
     {
-      "a": "toxic-heart",
-      "b": "oxidizer-heart",
+      "a": "hot-surface-chat",
+      "b": "laser-hazard-chat",
       "distance": 0
     },
     {
-      "a": "toxic-heart",
-      "b": "corrosive-heart",
+      "a": "hot-surface-chat",
+      "b": "magnetic-field-chat",
       "distance": 0
     },
     {
-      "a": "toxic-heart",
-      "b": "health-hazard-heart",
+      "a": "hot-surface-chat",
+      "b": "deep-water-chat",
       "distance": 0
     },
     {
-      "a": "toxic-star",
-      "b": "oxidizer-star",
+      "a": "hot-surface-download",
+      "b": "laser-hazard-download",
       "distance": 0
     },
     {
-      "a": "toxic-star",
-      "b": "corrosive-star",
+      "a": "hot-surface-download",
+      "b": "magnetic-field-download",
       "distance": 0
     },
     {
-      "a": "toxic-star",
-      "b": "health-hazard-star",
+      "a": "hot-surface-download",
+      "b": "deep-water-download",
       "distance": 0
     },
     {
-      "a": "toxic-cloud",
-      "b": "oxidizer-cloud",
-      "distance": 0
+      "a": "hot-surface-pencil",
+      "b": "hot-surface-leaf",
+      "distance": 1.41
     },
     {
-      "a": "toxic-cloud",
-      "b": "corrosive-cloud",
+      "a": "hot-surface-pencil",
+      "b": "laser-hazard-pencil",
       "distance": 0
     },
     {
-      "a": "toxic-cloud",
-      "b": "health-hazard-cloud",
-      "distance": 0
+      "a": "hot-surface-pencil",
+      "b": "laser-hazard-leaf",
+      "distance": 1.41
     },
     {
-      "a": "toxic-chat",
-      "b": "oxidizer-chat",
+      "a": "hot-surface-pencil",
+      "b": "magnetic-field-pencil",
       "distance": 0
     },
     {
-      "a": "toxic-chat",
-      "b": "corrosive-chat",
-      "distance": 0
+      "a": "hot-surface-pencil",
+      "b": "magnetic-field-leaf",
+      "distance": 1.41
     },
     {
-      "a": "toxic-chat",
-      "b": "health-hazard-chat",
+      "a": "hot-surface-pencil",
+      "b": "deep-water-pencil",
       "distance": 0
     },
     {
-      "a": "toxic-download",
-      "b": "oxidizer-download",
-      "distance": 0
+      "a": "hot-surface-pencil",
+      "b": "deep-water-leaf",
+      "distance": 1.41
     },
     {
-      "a": "toxic-download",
-      "b": "corrosive-download",
+      "a": "hot-surface-trash",
+      "b": "laser-hazard-trash",
       "distance": 0
     },
     {
-      "a": "toxic-download",
-      "b": "health-hazard-download",
+      "a": "hot-surface-trash",
+      "b": "magnetic-field-trash",
       "distance": 0
     },
     {
-      "a": "toxic-pencil",
-      "b": "oxidizer-pencil",
+      "a": "hot-surface-trash",
+      "b": "deep-water-trash",
       "distance": 0
     },
     {
-      "a": "toxic-pencil",
-      "b": "corrosive-pencil",
+      "a": "hot-surface-calendar",
+      "b": "laser-hazard-calendar",
       "distance": 0
     },
     {
-      "a": "toxic-pencil",
-      "b": "health-hazard-pencil",
+      "a": "hot-surface-calendar",
+      "b": "magnetic-field-calendar",
       "distance": 0
     },
     {
-      "a": "toxic-trash",
-      "b": "oxidizer-trash",
+      "a": "hot-surface-calendar",
+      "b": "deep-water-calendar",
       "distance": 0
     },
     {
-      "a": "toxic-trash",
-      "b": "corrosive-trash",
+      "a": "hot-surface-question",
+      "b": "laser-hazard-question",
       "distance": 0
     },
     {
-      "a": "toxic-trash",
-      "b": "health-hazard-trash",
+      "a": "hot-surface-question",
+      "b": "magnetic-field-question",
       "distance": 0
     },
     {
-      "a": "toxic-calendar",
-      "b": "oxidizer-calendar",
+      "a": "hot-surface-question",
+      "b": "deep-water-question",
       "distance": 0
     },
     {
-      "a": "toxic-calendar",
-      "b": "corrosive-calendar",
+      "a": "hot-surface-bookmark",
+      "b": "laser-hazard-bookmark",
       "distance": 0
     },
     {
-      "a": "toxic-calendar",
-      "b": "health-hazard-calendar",
+      "a": "hot-surface-bookmark",
+      "b": "magnetic-field-bookmark",
       "distance": 0
     },
     {
-      "a": "toxic-question",
-      "b": "oxidizer-question",
+      "a": "hot-surface-bookmark",
+      "b": "deep-water-bookmark",
       "distance": 0
     },
     {
-      "a": "toxic-question",
-      "b": "corrosive-question",
+      "a": "hot-surface-upload",
+      "b": "laser-hazard-upload",
       "distance": 0
     },
     {
-      "a": "toxic-question",
-      "b": "health-hazard-question",
+      "a": "hot-surface-upload",
+      "b": "magnetic-field-upload",
       "distance": 0
     },
     {
-      "a": "toxic-bookmark",
-      "b": "oxidizer-bookmark",
+      "a": "hot-surface-upload",
+      "b": "deep-water-upload",
       "distance": 0
     },
     {
-      "a": "toxic-bookmark",
-      "b": "corrosive-bookmark",
+      "a": "hot-surface-crown",
+      "b": "laser-hazard-crown",
       "distance": 0
     },
     {
-      "a": "toxic-bookmark",
-      "b": "health-hazard-bookmark",
+      "a": "hot-surface-crown",
+      "b": "magnetic-field-crown",
       "distance": 0
     },
     {
-      "a": "toxic-upload",
-      "b": "oxidizer-upload",
+      "a": "hot-surface-crown",
+      "b": "deep-water-crown",
       "distance": 0
     },
     {
-      "a": "toxic-upload",
-      "b": "corrosive-upload",
-      "distance": 0
+      "a": "hot-surface-leaf",
+      "b": "laser-hazard-pencil",
+      "distance": 1.41
     },
     {
-      "a": "toxic-upload",
-      "b": "health-hazard-upload",
+      "a": "hot-surface-leaf",
+      "b": "laser-hazard-leaf",
       "distance": 0
     },
     {
-      "a": "toxic-crown",
-      "b": "oxidizer-crown",
-      "distance": 0
+      "a": "hot-surface-leaf",
+      "b": "magnetic-field-pencil",
+      "distance": 1.41
     },
     {
-      "a": "toxic-crown",
-      "b": "corrosive-crown",
+      "a": "hot-surface-leaf",
+      "b": "magnetic-field-leaf",
       "distance": 0
     },
     {
-      "a": "toxic-crown",
-      "b": "health-hazard-crown",
-      "distance": 0
+      "a": "hot-surface-leaf",
+      "b": "deep-water-pencil",
+      "distance": 1.41
     },
     {
-      "a": "toxic-leaf",
-      "b": "oxidizer-leaf",
+      "a": "hot-surface-leaf",
+      "b": "deep-water-leaf",
       "distance": 0
     },
     {
-      "a": "toxic-leaf",
-      "b": "corrosive-leaf",
+      "a": "hot-surface-hourglass",
+      "b": "laser-hazard-hourglass",
       "distance": 0
     },
     {
-      "a": "toxic-leaf",
-      "b": "health-hazard-leaf",
+      "a": "hot-surface-hourglass",
+      "b": "magnetic-field-hourglass",
       "distance": 0
     },
     {
-      "a": "toxic-hourglass",
-      "b": "oxidizer-hourglass",
+      "a": "hot-surface-hourglass",
+      "b": "deep-water-hourglass",
       "distance": 0
     },
     {
-      "a": "toxic-hourglass",
-      "b": "corrosive-hourglass",
+      "a": "hot-surface-cursor",
+      "b": "laser-hazard-cursor",
       "distance": 0
     },
     {
-      "a": "toxic-hourglass",
-      "b": "health-hazard-hourglass",
+      "a": "hot-surface-cursor",
+      "b": "magnetic-field-cursor",
       "distance": 0
     },
     {
-      "a": "toxic-cursor",
-      "b": "oxidizer-cursor",
+      "a": "hot-surface-cursor",
+      "b": "deep-water-cursor",
       "distance": 0
     },
     {
-      "a": "toxic-cursor",
-      "b": "corrosive-cursor",
+      "a": "hot-surface-camera",
+      "b": "laser-hazard-camera",
       "distance": 0
     },
     {
-      "a": "toxic-cursor",
-      "b": "health-hazard-cursor",
+      "a": "hot-surface-camera",
+      "b": "magnetic-field-camera",
       "distance": 0
     },
     {
-      "a": "toxic-camera",
-      "b": "oxidizer-camera",
+      "a": "hot-surface-camera",
+      "b": "deep-water-camera",
       "distance": 0
     },
     {
-      "a": "toxic-camera",
-      "b": "corrosive-camera",
+      "a": "hot-surface-filter",
+      "b": "laser-hazard-filter",
       "distance": 0
     },
     {
-      "a": "toxic-camera",
-      "b": "health-hazard-camera",
+      "a": "hot-surface-filter",
+      "b": "magnetic-field-filter",
       "distance": 0
     },
     {
-      "a": "toxic-filter",
-      "b": "oxidizer-filter",
+      "a": "hot-surface-filter",
+      "b": "deep-water-filter",
       "distance": 0
     },
     {
-      "a": "toxic-filter",
-      "b": "corrosive-filter",
+      "a": "hot-surface-stats",
+      "b": "laser-hazard-stats",
       "distance": 0
     },
     {
-      "a": "toxic-filter",
-      "b": "health-hazard-filter",
+      "a": "hot-surface-stats",
+      "b": "magnetic-field-stats",
       "distance": 0
     },
     {
-      "a": "toxic-stats",
-      "b": "oxidizer-stats",
+      "a": "hot-surface-stats",
+      "b": "deep-water-stats",
       "distance": 0
     },
     {
-      "a": "toxic-stats",
-      "b": "corrosive-stats",
+      "a": "hot-surface-checkbox",
+      "b": "laser-hazard-checkbox",
       "distance": 0
     },
     {
-      "a": "toxic-stats",
-      "b": "health-hazard-stats",
+      "a": "hot-surface-checkbox",
+      "b": "magnetic-field-checkbox",
       "distance": 0
     },
     {
-      "a": "toxic-checkbox",
-      "b": "oxidizer-checkbox",
+      "a": "hot-surface-checkbox",
+      "b": "deep-water-checkbox",
       "distance": 0
     },
     {
-      "a": "toxic-checkbox",
-      "b": "corrosive-checkbox",
+      "a": "laser-hazard-search",
+      "b": "magnetic-field-search",
       "distance": 0
     },
     {
-      "a": "toxic-checkbox",
-      "b": "health-hazard-checkbox",
+      "a": "laser-hazard-search",
+      "b": "deep-water-search",
       "distance": 0
     },
     {
-      "a": "oxidizer-search",
-      "b": "corrosive-search",
+      "a": "laser-hazard-clock",
+      "b": "magnetic-field-clock",
       "distance": 0
     },
     {
-      "a": "oxidizer-search",
-      "b": "health-hazard-search",
+      "a": "laser-hazard-clock",
+      "b": "deep-water-clock",
       "distance": 0
     },
     {
-      "a": "oxidizer-search",
-      "b": "environment-hazard-search",
+      "a": "laser-hazard-gear",
+      "b": "magnetic-field-gear",
       "distance": 0
     },
     {
-      "a": "oxidizer-clock",
-      "b": "corrosive-clock",
+      "a": "laser-hazard-gear",
+      "b": "deep-water-gear",
       "distance": 0
     },
     {
-      "a": "oxidizer-clock",
-      "b": "health-hazard-clock",
+      "a": "laser-hazard-bolt",
+      "b": "magnetic-field-bolt",
       "distance": 0
     },
     {
-      "a": "oxidizer-clock",
-      "b": "environment-hazard-clock",
+      "a": "laser-hazard-bolt",
+      "b": "deep-water-bolt",
       "distance": 0
     },
     {
-      "a": "oxidizer-gear",
-      "b": "corrosive-gear",
+      "a": "laser-hazard-heart",
+      "b": "magnetic-field-heart",
       "distance": 0
     },
     {
-      "a": "oxidizer-gear",
-      "b": "health-hazard-gear",
+      "a": "laser-hazard-heart",
+      "b": "deep-water-heart",
       "distance": 0
     },
     {
-      "a": "oxidizer-bolt",
-      "b": "corrosive-bolt",
+      "a": "laser-hazard-star",
+      "b": "magnetic-field-star",
       "distance": 0
     },
     {
-      "a": "oxidizer-bolt",
-      "b": "health-hazard-bolt",
+      "a": "laser-hazard-star",
+      "b": "deep-water-star",
       "distance": 0
     },
     {
-      "a": "oxidizer-heart",
-      "b": "corrosive-heart",
+      "a": "laser-hazard-cloud",
+      "b": "magnetic-field-cloud",
       "distance": 0
     },
     {
-      "a": "oxidizer-heart",
-      "b": "health-hazard-heart",
+      "a": "laser-hazard-cloud",
+      "b": "deep-water-cloud",
       "distance": 0
     },
     {
-      "a": "oxidizer-star",
-      "b": "corrosive-star",
+      "a": "laser-hazard-chat",
+      "b": "magnetic-field-chat",
       "distance": 0
     },
     {
-      "a": "oxidizer-star",
-      "b": "health-hazard-star",
+      "a": "laser-hazard-chat",
+      "b": "deep-water-chat",
       "distance": 0
     },
     {
-      "a": "oxidizer-cloud",
-      "b": "corrosive-cloud",
+      "a": "laser-hazard-download",
+      "b": "magnetic-field-download",
       "distance": 0
     },
     {
-      "a": "oxidizer-cloud",
-      "b": "health-hazard-cloud",
+      "a": "laser-hazard-download",
+      "b": "deep-water-download",
       "distance": 0
     },
     {
-      "a": "oxidizer-chat",
-      "b": "corrosive-chat",
-      "distance": 0
+      "a": "laser-hazard-pencil",
+      "b": "laser-hazard-leaf",
+      "distance": 1.41
     },
     {
-      "a": "oxidizer-chat",
-      "b": "health-hazard-chat",
+      "a": "laser-hazard-pencil",
+      "b": "magnetic-field-pencil",
       "distance": 0
     },
     {
-      "a": "oxidizer-download",
-      "b": "corrosive-download",
-      "distance": 0
+      "a": "laser-hazard-pencil",
+      "b": "magnetic-field-leaf",
+      "distance": 1.41
     },
     {
-      "a": "oxidizer-download",
-      "b": "health-hazard-download",
+      "a": "laser-hazard-pencil",
+      "b": "deep-water-pencil",
       "distance": 0
     },
     {
-      "a": "oxidizer-pencil",
-      "b": "corrosive-pencil",
-      "distance": 0
+      "a": "laser-hazard-pencil",
+      "b": "deep-water-leaf",
+      "distance": 1.41
     },
     {
-      "a": "oxidizer-pencil",
-      "b": "health-hazard-pencil",
+      "a": "laser-hazard-trash",
+      "b": "magnetic-field-trash",
       "distance": 0
     },
     {
-      "a": "oxidizer-trash",
-      "b": "corrosive-trash",
+      "a": "laser-hazard-trash",
+      "b": "deep-water-trash",
       "distance": 0
     },
     {
-      "a": "oxidizer-trash",
-      "b": "health-hazard-trash",
+      "a": "laser-hazard-calendar",
+      "b": "magnetic-field-calendar",
       "distance": 0
     },
     {
-      "a": "oxidizer-calendar",
-      "b": "corrosive-calendar",
+      "a": "laser-hazard-calendar",
+      "b": "deep-water-calendar",
       "distance": 0
     },
     {
-      "a": "oxidizer-calendar",
-      "b": "health-hazard-calendar",
+      "a": "laser-hazard-question",
+      "b": "magnetic-field-question",
       "distance": 0
     },
     {
-      "a": "oxidizer-question",
-      "b": "corrosive-question",
+      "a": "laser-hazard-question",
+      "b": "deep-water-question",
       "distance": 0
     },
     {
-      "a": "oxidizer-question",
-      "b": "health-hazard-question",
+      "a": "laser-hazard-bookmark",
+      "b": "magnetic-field-bookmark",
       "distance": 0
     },
     {
-      "a": "oxidizer-bookmark",
-      "b": "corrosive-bookmark",
+      "a": "laser-hazard-bookmark",
+      "b": "deep-water-bookmark",
       "distance": 0
     },
     {
-      "a": "oxidizer-bookmark",
-      "b": "health-hazard-bookmark",
+      "a": "laser-hazard-upload",
+      "b": "magnetic-field-upload",
       "distance": 0
     },
     {
-      "a": "oxidizer-upload",
-      "b": "corrosive-upload",
+      "a": "laser-hazard-upload",
+      "b": "deep-water-upload",
       "distance": 0
     },
     {
-      "a": "oxidizer-upload",
-      "b": "health-hazard-upload",
+      "a": "laser-hazard-crown",
+      "b": "magnetic-field-crown",
       "distance": 0
     },
     {
-      "a": "oxidizer-crown",
-      "b": "corrosive-crown",
+      "a": "laser-hazard-crown",
+      "b": "deep-water-crown",
       "distance": 0
     },
     {
-      "a": "oxidizer-crown",
-      "b": "health-hazard-crown",
-      "distance": 0
+      "a": "laser-hazard-leaf",
+      "b": "magnetic-field-pencil",
+      "distance": 1.41
     },
     {
-      "a": "oxidizer-leaf",
-      "b": "corrosive-leaf",
+      "a": "laser-hazard-leaf",
+      "b": "magnetic-field-leaf",
       "distance": 0
     },
     {
-      "a": "oxidizer-leaf",
-      "b": "health-hazard-leaf",
-      "distance": 0
+      "a": "laser-hazard-leaf",
+      "b": "deep-water-pencil",
+      "distance": 1.41
     },
     {
-      "a": "oxidizer-hourglass",
-      "b": "corrosive-hourglass",
+      "a": "laser-hazard-leaf",
+      "b": "deep-water-leaf",
       "distance": 0
     },
     {
-      "a": "oxidizer-hourglass",
-      "b": "health-hazard-hourglass",
+      "a": "laser-hazard-hourglass",
+      "b": "magnetic-field-hourglass",
       "distance": 0
     },
     {
-      "a": "oxidizer-cursor",
-      "b": "corrosive-cursor",
+      "a": "laser-hazard-hourglass",
+      "b": "deep-water-hourglass",
       "distance": 0
     },
     {
-      "a": "oxidizer-cursor",
-      "b": "health-hazard-cursor",
+      "a": "laser-hazard-cursor",
+      "b": "magnetic-field-cursor",
       "distance": 0
     },
     {
-      "a": "oxidizer-camera",
-      "b": "corrosive-camera",
+      "a": "laser-hazard-cursor",
+      "b": "deep-water-cursor",
       "distance": 0
     },
     {
-      "a": "oxidizer-camera",
-      "b": "health-hazard-camera",
+      "a": "laser-hazard-camera",
+      "b": "magnetic-field-camera",
       "distance": 0
     },
     {
-      "a": "oxidizer-filter",
-      "b": "corrosive-filter",
+      "a": "laser-hazard-camera",
+      "b": "deep-water-camera",
       "distance": 0
     },
     {
-      "a": "oxidizer-filter",
-      "b": "health-hazard-filter",
+      "a": "laser-hazard-filter",
+      "b": "magnetic-field-filter",
       "distance": 0
     },
     {
-      "a": "oxidizer-stats",
-      "b": "corrosive-stats",
+      "a": "laser-hazard-filter",
+      "b": "deep-water-filter",
       "distance": 0
     },
     {
-      "a": "oxidizer-stats",
-      "b": "health-hazard-stats",
+      "a": "laser-hazard-stats",
+      "b": "magnetic-field-stats",
       "distance": 0
     },
     {
-      "a": "oxidizer-checkbox",
-      "b": "corrosive-checkbox",
+      "a": "laser-hazard-stats",
+      "b": "deep-water-stats",
       "distance": 0
     },
     {
-      "a": "oxidizer-checkbox",
-      "b": "health-hazard-checkbox",
+      "a": "laser-hazard-checkbox",
+      "b": "magnetic-field-checkbox",
       "distance": 0
     },
     {
-      "a": "corrosive-search",
-      "b": "health-hazard-search",
+      "a": "laser-hazard-checkbox",
+      "b": "deep-water-checkbox",
       "distance": 0
     },
     {
-      "a": "corrosive-search",
-      "b": "environment-hazard-search",
+      "a": "magnetic-field-search",
+      "b": "deep-water-search",
       "distance": 0
     },
     {
-      "a": "corrosive-clock",
-      "b": "health-hazard-clock",
+      "a": "magnetic-field-clock",
+      "b": "deep-water-clock",
       "distance": 0
     },
     {
-      "a": "corrosive-clock",
-      "b": "environment-hazard-clock",
+      "a": "magnetic-field-gear",
+      "b": "deep-water-gear",
       "distance": 0
     },
     {
-      "a": "corrosive-gear",
-      "b": "health-hazard-gear",
+      "a": "magnetic-field-bolt",
+      "b": "deep-water-bolt",
       "distance": 0
     },
     {
-      "a": "corrosive-bolt",
-      "b": "health-hazard-bolt",
+      "a": "magnetic-field-heart",
+      "b": "deep-water-heart",
       "distance": 0
     },
     {
-      "a": "corrosive-heart",
-      "b": "health-hazard-heart",
+      "a": "magnetic-field-star",
+      "b": "deep-water-star",
       "distance": 0
     },
     {
-      "a": "corrosive-star",
-      "b": "health-hazard-star",
+      "a": "magnetic-field-cloud",
+      "b": "deep-water-cloud",
       "distance": 0
     },
     {
-      "a": "corrosive-cloud",
-      "b": "health-hazard-cloud",
+      "a": "magnetic-field-chat",
+      "b": "deep-water-chat",
       "distance": 0
     },
     {
-      "a": "corrosive-chat",
-      "b": "health-hazard-chat",
+      "a": "magnetic-field-download",
+      "b": "deep-water-download",
       "distance": 0
     },
     {
-      "a": "corrosive-download",
-      "b": "health-hazard-download",
-      "distance": 0
+      "a": "magnetic-field-pencil",
+      "b": "magnetic-field-leaf",
+      "distance": 1.41
     },
     {
-      "a": "corrosive-pencil",
-      "b": "health-hazard-pencil",
+      "a": "magnetic-field-pencil",
+      "b": "deep-water-pencil",
       "distance": 0
     },
     {
-      "a": "corrosive-trash",
-      "b": "health-hazard-trash",
-      "distance": 0
+      "a": "magnetic-field-pencil",
+      "b": "deep-water-leaf",
+      "distance": 1.41
     },
     {
-      "a": "corrosive-calendar",
-      "b": "health-hazard-calendar",
+      "a": "magnetic-field-trash",
+      "b": "deep-water-trash",
       "distance": 0
     },
     {
-      "a": "corrosive-question",
-      "b": "health-hazard-question",
+      "a": "magnetic-field-calendar",
+      "b": "deep-water-calendar",
       "distance": 0
     },
     {
-      "a": "corrosive-bookmark",
-      "b": "health-hazard-bookmark",
+      "a": "magnetic-field-question",
+      "b": "deep-water-question",
       "distance": 0
     },
     {
-      "a": "corrosive-upload",
-      "b": "health-hazard-upload",
+      "a": "magnetic-field-bookmark",
+      "b": "deep-water-bookmark",
       "distance": 0
     },
     {
-      "a": "corrosive-crown",
-      "b": "health-hazard-crown",
+      "a": "magnetic-field-upload",
+      "b": "deep-water-upload",
       "distance": 0
     },
     {
-      "a": "corrosive-leaf",
-      "b": "health-hazard-leaf",
+      "a": "magnetic-field-crown",
+      "b": "deep-water-crown",
       "distance": 0
     },
     {
-      "a": "corrosive-hourglass",
-      "b": "health-hazard-hourglass",
-      "distance": 0
+      "a": "magnetic-field-leaf",
+      "b": "deep-water-pencil",
+      "distance": 1.41
     },
     {
-      "a": "corrosive-cursor",
-      "b": "health-hazard-cursor",
+      "a": "magnetic-field-leaf",
+      "b": "deep-water-leaf",
       "distance": 0
     },
     {
-      "a": "corrosive-camera",
-      "b": "health-hazard-camera",
+      "a": "magnetic-field-hourglass",
+      "b": "deep-water-hourglass",
       "distance": 0
     },
     {
-      "a": "corrosive-filter",
-      "b": "health-hazard-filter",
+      "a": "magnetic-field-cursor",
+      "b": "deep-water-cursor",
       "distance": 0
     },
     {
-      "a": "corrosive-stats",
-      "b": "health-hazard-stats",
+      "a": "magnetic-field-camera",
+      "b": "deep-water-camera",
       "distance": 0
     },
     {
-      "a": "corrosive-checkbox",
-      "b": "health-hazard-checkbox",
+      "a": "magnetic-field-filter",
+      "b": "deep-water-filter",
       "distance": 0
     },
     {
-      "a": "health-hazard-search",
-      "b": "environment-hazard-search",
+      "a": "magnetic-field-stats",
+      "b": "deep-water-stats",
       "distance": 0
     },
     {
-      "a": "health-hazard-clock",
-      "b": "environment-hazard-clock",
+      "a": "magnetic-field-checkbox",
+      "b": "deep-water-checkbox",
       "distance": 0
     },
     {
-      "a": "lemon-slice-bell",
-      "b": "avatar-group-bell",
+      "a": "deep-water-pencil",
+      "b": "deep-water-leaf",
       "distance": 1.41
     },
     {
-      "a": "lemon-slice-moon",
-      "b": "avatar-group-moon",
+      "a": "firewall-pencil",
+      "b": "firewall-leaf",
       "distance": 1.41
     },
     {
-      "a": "plant-pot-bell",
-      "b": "potted-plant-bell",
+      "a": "firewall-sparkle",
+      "b": "firewall-upload",
       "distance": 1.41
     },
     {
-      "a": "plant-pot-moon",
-      "b": "potted-plant-moon",
+      "a": "passkey-pencil",
+      "b": "passkey-leaf",
       "distance": 1.41
     },
     {
-      "a": "wood-log-bell",
-      "b": "avatar-group-bell",
+      "a": "incognito-sparkle",
+      "b": "incognito-upload",
       "distance": 1.41
     },
     {
-      "a": "wood-log-moon",
-      "b": "avatar-group-moon",
+      "a": "face-scan-pencil",
+      "b": "face-scan-leaf",
       "distance": 1.41
     },
     {
-      "a": "sippy-cup-bell",
-      "b": "hand-raised-bell",
+      "a": "phishing-sparkle",
+      "b": "phishing-upload",
       "distance": 1.41
     },
     {
-      "a": "sippy-cup-moon",
-      "b": "hand-raised-moon",
+      "a": "lock-pencil",
+      "b": "lock-leaf",
       "distance": 1.41
-    },
-    {
-      "a": "flammable-bell",
-      "b": "explosive-bell",
-      "distance": 0
-    },
-    {
-      "a": "flammable-bell",
-      "b": "toxic-bell",
-      "distance": 0
     },
     {
-      "a": "flammable-bell",
-      "b": "oxidizer-bell",
-      "distance": 0
+      "a": "eye-scan-pencil",
+      "b": "eye-scan-leaf",
+      "distance": 1.41
     },
     {
-      "a": "flammable-bell",
-      "b": "corrosive-bell",
-      "distance": 0
+      "a": "qr-scan-pencil",
+      "b": "qr-scan-leaf",
+      "distance": 1.41
     },
     {
-      "a": "flammable-bell",
-      "b": "health-hazard-bell",
-      "distance": 0
+      "a": "qr-scan-sparkle",
+      "b": "qr-scan-upload",
+      "distance": 1.41
     },
     {
-      "a": "flammable-moon",
-      "b": "explosive-moon",
-      "distance": 0
+      "a": "yoga-mat-pencil",
+      "b": "yoga-mat-leaf",
+      "distance": 1.41
     },
     {
-      "a": "flammable-moon",
-      "b": "toxic-moon",
-      "distance": 0
+      "a": "snowboard-sparkle",
+      "b": "snowboard-upload",
+      "distance": 1.41
     },
     {
-      "a": "flammable-moon",
-      "b": "oxidizer-moon",
-      "distance": 0
+      "a": "locker-pencil",
+      "b": "locker-leaf",
+      "distance": 1.41
     },
     {
-      "a": "flammable-moon",
-      "b": "corrosive-moon",
-      "distance": 0
+      "a": "locker-sparkle",
+      "b": "locker-upload",
+      "distance": 1.41
     },
     {
-      "a": "flammable-moon",
-      "b": "health-hazard-moon",
-      "distance": 0
+      "a": "life-ring-pencil",
+      "b": "life-ring-leaf",
+      "distance": 1.41
     },
     {
-      "a": "flammable-trophy",
-      "b": "explosive-trophy",
-      "distance": 0
+      "a": "ski-boot-pencil",
+      "b": "ski-boot-leaf",
+      "distance": 1.41
     },
     {
-      "a": "flammable-trophy",
-      "b": "toxic-trophy",
-      "distance": 0
+      "a": "ski-boot-sparkle",
+      "b": "ski-boot-upload",
+      "distance": 1.41
     },
     {
-      "a": "flammable-trophy",
-      "b": "oxidizer-trophy",
-      "distance": 0
+      "a": "soccer-ball-pencil",
+      "b": "soccer-ball-leaf",
+      "distance": 1.41
     },
     {
-      "a": "flammable-trophy",
-      "b": "corrosive-trophy",
+      "a": "smartphone-bell",
+      "b": "otp-bell",
       "distance": 0
     },
     {
-      "a": "flammable-trophy",
-      "b": "health-hazard-trophy",
+      "a": "smartphone-moon",
+      "b": "otp-moon",
       "distance": 0
     },
     {
-      "a": "explosive-bell",
-      "b": "toxic-bell",
+      "a": "smartphone-trophy",
+      "b": "otp-trophy",
       "distance": 0
     },
     {
-      "a": "explosive-bell",
-      "b": "oxidizer-bell",
-      "distance": 0
+      "a": "gas-flame-moon",
+      "b": "firewall-moon",
+      "distance": 1.41
     },
     {
-      "a": "explosive-bell",
-      "b": "corrosive-bell",
-      "distance": 0
+      "a": "bottle-cap-moon",
+      "b": "life-ring-moon",
+      "distance": 1.41
     },
     {
-      "a": "explosive-bell",
-      "b": "health-hazard-bell",
+      "a": "high-voltage-bell",
+      "b": "hot-surface-bell",
       "distance": 0
     },
     {
-      "a": "explosive-moon",
-      "b": "toxic-moon",
+      "a": "high-voltage-bell",
+      "b": "laser-hazard-bell",
       "distance": 0
     },
     {
-      "a": "explosive-moon",
-      "b": "oxidizer-moon",
+      "a": "high-voltage-bell",
+      "b": "magnetic-field-bell",
       "distance": 0
     },
     {
-      "a": "explosive-moon",
-      "b": "corrosive-moon",
+      "a": "high-voltage-bell",
+      "b": "deep-water-bell",
       "distance": 0
     },
     {
-      "a": "explosive-moon",
-      "b": "health-hazard-moon",
+      "a": "high-voltage-moon",
+      "b": "hot-surface-moon",
       "distance": 0
     },
     {
-      "a": "explosive-trophy",
-      "b": "toxic-trophy",
+      "a": "high-voltage-moon",
+      "b": "laser-hazard-moon",
       "distance": 0
     },
     {
-      "a": "explosive-trophy",
-      "b": "oxidizer-trophy",
+      "a": "high-voltage-moon",
+      "b": "magnetic-field-moon",
       "distance": 0
     },
     {
-      "a": "explosive-trophy",
-      "b": "corrosive-trophy",
+      "a": "high-voltage-moon",
+      "b": "deep-water-moon",
       "distance": 0
     },
     {
-      "a": "explosive-trophy",
-      "b": "health-hazard-trophy",
+      "a": "high-voltage-trophy",
+      "b": "hot-surface-trophy",
       "distance": 0
     },
     {
-      "a": "toxic-bell",
-      "b": "oxidizer-bell",
+      "a": "high-voltage-trophy",
+      "b": "laser-hazard-trophy",
       "distance": 0
     },
     {
-      "a": "toxic-bell",
-      "b": "corrosive-bell",
+      "a": "high-voltage-trophy",
+      "b": "magnetic-field-trophy",
       "distance": 0
     },
     {
-      "a": "toxic-bell",
-      "b": "health-hazard-bell",
+      "a": "high-voltage-trophy",
+      "b": "deep-water-trophy",
       "distance": 0
     },
     {
-      "a": "toxic-moon",
-      "b": "oxidizer-moon",
+      "a": "hot-surface-bell",
+      "b": "laser-hazard-bell",
       "distance": 0
     },
     {
-      "a": "toxic-moon",
-      "b": "corrosive-moon",
+      "a": "hot-surface-bell",
+      "b": "magnetic-field-bell",
       "distance": 0
     },
     {
-      "a": "toxic-moon",
-      "b": "health-hazard-moon",
+      "a": "hot-surface-bell",
+      "b": "deep-water-bell",
       "distance": 0
     },
     {
-      "a": "toxic-trophy",
-      "b": "oxidizer-trophy",
+      "a": "hot-surface-moon",
+      "b": "laser-hazard-moon",
       "distance": 0
     },
     {
-      "a": "toxic-trophy",
-      "b": "corrosive-trophy",
+      "a": "hot-surface-moon",
+      "b": "magnetic-field-moon",
       "distance": 0
     },
     {
-      "a": "toxic-trophy",
-      "b": "health-hazard-trophy",
+      "a": "hot-surface-moon",
+      "b": "deep-water-moon",
       "distance": 0
     },
     {
-      "a": "oxidizer-bell",
-      "b": "corrosive-bell",
+      "a": "hot-surface-trophy",
+      "b": "laser-hazard-trophy",
       "distance": 0
     },
     {
-      "a": "oxidizer-bell",
-      "b": "health-hazard-bell",
+      "a": "hot-surface-trophy",
+      "b": "magnetic-field-trophy",
       "distance": 0
     },
     {
-      "a": "oxidizer-moon",
-      "b": "corrosive-moon",
+      "a": "hot-surface-trophy",
+      "b": "deep-water-trophy",
       "distance": 0
     },
     {
-      "a": "oxidizer-moon",
-      "b": "health-hazard-moon",
+      "a": "laser-hazard-bell",
+      "b": "magnetic-field-bell",
       "distance": 0
     },
     {
-      "a": "oxidizer-trophy",
-      "b": "corrosive-trophy",
+      "a": "laser-hazard-bell",
+      "b": "deep-water-bell",
       "distance": 0
     },
     {
-      "a": "oxidizer-trophy",
-      "b": "health-hazard-trophy",
+      "a": "laser-hazard-moon",
+      "b": "magnetic-field-moon",
       "distance": 0
     },
     {
-      "a": "corrosive-bell",
-      "b": "health-hazard-bell",
+      "a": "laser-hazard-moon",
+      "b": "deep-water-moon",
       "distance": 0
     },
     {
-      "a": "corrosive-moon",
-      "b": "health-hazard-moon",
+      "a": "laser-hazard-trophy",
+      "b": "magnetic-field-trophy",
       "distance": 0
     },
     {
-      "a": "corrosive-trophy",
-      "b": "health-hazard-trophy",
+      "a": "laser-hazard-trophy",
+      "b": "deep-water-trophy",
       "distance": 0
-    },
-    {
-      "a": "lemon-slice-fire",
-      "b": "avatar-group-fire",
-      "distance": 1.41
-    },
-    {
-      "a": "plant-pot-fire",
-      "b": "potted-plant-fire",
-      "distance": 1.41
     },
     {
-      "a": "sippy-cup-fire",
-      "b": "hand-raised-fire",
-      "distance": 1.41
-    },
-    {
-      "a": "flammable-fire",
-      "b": "explosive-fire",
+      "a": "magnetic-field-bell",
+      "b": "deep-water-bell",
       "distance": 0
     },
     {
-      "a": "flammable-fire",
-      "b": "toxic-fire",
+      "a": "magnetic-field-moon",
+      "b": "deep-water-moon",
       "distance": 0
     },
     {
-      "a": "flammable-fire",
-      "b": "oxidizer-fire",
+      "a": "magnetic-field-trophy",
+      "b": "deep-water-trophy",
       "distance": 0
     },
     {
-      "a": "flammable-fire",
-      "b": "corrosive-fire",
+      "a": "smartphone-fire",
+      "b": "otp-fire",
       "distance": 0
     },
     {
-      "a": "flammable-fire",
-      "b": "health-hazard-fire",
-      "distance": 0
+      "a": "gas-flame-fire",
+      "b": "firewall-fire",
+      "distance": 1.41
     },
     {
-      "a": "explosive-fire",
-      "b": "toxic-fire",
+      "a": "high-voltage-fire",
+      "b": "hot-surface-fire",
       "distance": 0
     },
     {
-      "a": "explosive-fire",
-      "b": "oxidizer-fire",
+      "a": "high-voltage-fire",
+      "b": "laser-hazard-fire",
       "distance": 0
     },
     {
-      "a": "explosive-fire",
-      "b": "corrosive-fire",
+      "a": "high-voltage-fire",
+      "b": "magnetic-field-fire",
       "distance": 0
     },
     {
-      "a": "explosive-fire",
-      "b": "health-hazard-fire",
+      "a": "high-voltage-fire",
+      "b": "deep-water-fire",
       "distance": 0
     },
     {
-      "a": "toxic-fire",
-      "b": "oxidizer-fire",
+      "a": "hot-surface-fire",
+      "b": "laser-hazard-fire",
       "distance": 0
     },
     {
-      "a": "toxic-fire",
-      "b": "corrosive-fire",
+      "a": "hot-surface-fire",
+      "b": "magnetic-field-fire",
       "distance": 0
     },
     {
-      "a": "toxic-fire",
-      "b": "health-hazard-fire",
+      "a": "hot-surface-fire",
+      "b": "deep-water-fire",
       "distance": 0
     },
     {
-      "a": "oxidizer-fire",
-      "b": "corrosive-fire",
+      "a": "laser-hazard-fire",
+      "b": "magnetic-field-fire",
       "distance": 0
     },
     {
-      "a": "oxidizer-fire",
-      "b": "health-hazard-fire",
+      "a": "laser-hazard-fire",
+      "b": "deep-water-fire",
       "distance": 0
     },
     {
-      "a": "corrosive-fire",
-      "b": "health-hazard-fire",
+      "a": "magnetic-field-fire",
+      "b": "deep-water-fire",
       "distance": 0
-    },
-    {
-      "a": "lemon-slice-pin",
-      "b": "avatar-group-pin",
-      "distance": 1.41
     },
     {
-      "a": "lemon-slice-flag",
-      "b": "avatar-group-flag",
+      "a": "usb-hub-add",
+      "b": "firewall-gear",
       "distance": 1.41
     },
     {
-      "a": "plant-pot-pin",
-      "b": "potted-plant-pin",
+      "a": "usb-hub-close",
+      "b": "firewall-gear",
       "distance": 1.41
     },
     {
-      "a": "plant-pot-user",
-      "b": "potted-plant-user",
+      "a": "gas-flame-bell",
+      "b": "firewall-bell",
       "distance": 1.41
     },
     {
-      "a": "plant-pot-sparkle",
-      "b": "potted-plant-sparkle",
+      "a": "gas-flame-flag",
+      "b": "firewall-flag",
       "distance": 1.41
     },
     {
-      "a": "plant-pot-sparkle",
-      "b": "potted-plant-upload",
+      "a": "bottle-cap-pin",
+      "b": "life-ring-pin",
       "distance": 1.41
     },
     {
-      "a": "plant-pot-flag",
-      "b": "potted-plant-flag",
+      "a": "bottle-cap-bell",
+      "b": "life-ring-bell",
       "distance": 1.41
     },
     {
-      "a": "seedling-sparkle",
-      "b": "seedling-upload",
+      "a": "bottle-cap-flag",
+      "b": "life-ring-flag",
       "distance": 1.41
     },
     {
-      "a": "cocoon-sparkle",
-      "b": "cocoon-upload",
+      "a": "chocolate-bar-pin",
+      "b": "keypad-pin",
       "distance": 1.41
     },
     {
-      "a": "river-sparkle",
-      "b": "river-upload",
+      "a": "chocolate-bar-bell",
+      "b": "keypad-bell",
       "distance": 1.41
     },
     {
-      "a": "cairn-sparkle",
-      "b": "cairn-upload",
+      "a": "chocolate-bar-flag",
+      "b": "keypad-flag",
       "distance": 1.41
     },
     {
-      "a": "wood-log-pin",
-      "b": "avatar-group-pin",
+      "a": "chocolate-bar-fire",
+      "b": "keypad-fire",
       "distance": 1.41
     },
     {
-      "a": "wood-log-sparkle",
-      "b": "wood-log-upload",
+      "a": "aperture-pin",
+      "b": "life-ring-pin",
       "distance": 1.41
     },
     {
-      "a": "wood-log-sparkle",
-      "b": "avatar-group-sparkle",
+      "a": "aperture-bell",
+      "b": "life-ring-bell",
       "distance": 1.41
     },
     {
-      "a": "wood-log-sparkle",
-      "b": "avatar-group-upload",
+      "a": "aperture-flag",
+      "b": "life-ring-flag",
       "distance": 1.41
     },
     {
-      "a": "wood-log-flag",
-      "b": "avatar-group-flag",
+      "a": "environment-hazard-sparkle",
+      "b": "environment-hazard-upload",
       "distance": 1.41
     },
     {
-      "a": "succulent-sparkle",
-      "b": "succulent-upload",
+      "a": "prism-sparkle",
+      "b": "prism-upload",
       "distance": 1.41
     },
     {
-      "a": "coral-sparkle",
-      "b": "coral-upload",
+      "a": "bunsen-burner-sparkle",
+      "b": "bunsen-burner-upload",
       "distance": 1.41
     },
     {
-      "a": "potted-plant-sparkle",
-      "b": "potted-plant-upload",
+      "a": "galaxy-sparkle",
+      "b": "galaxy-upload",
       "distance": 1.41
     },
     {
-      "a": "gender-neutral-sparkle",
-      "b": "gender-neutral-upload",
+      "a": "bacteria-sparkle",
+      "b": "bacteria-upload",
       "distance": 1.41
     },
     {
-      "a": "sippy-cup-pin",
-      "b": "hand-raised-pin",
+      "a": "constellation-sparkle",
+      "b": "constellation-upload",
       "distance": 1.41
     },
     {
-      "a": "sippy-cup-flag",
-      "b": "hand-raised-flag",
+      "a": "dagger-sparkle",
+      "b": "dagger-upload",
       "distance": 1.41
-    },
-    {
-      "a": "user-tie-sparkle",
-      "b": "user-tie-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "family-sparkle",
-      "b": "family-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "user-voice-sparkle",
-      "b": "user-voice-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "lunar-lander-sparkle",
-      "b": "lunar-lander-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "lens-sparkle",
-      "b": "lens-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "flammable-shield",
-      "b": "explosive-shield",
-      "distance": 0
-    },
-    {
-      "a": "flammable-shield",
-      "b": "toxic-shield",
-      "distance": 0
-    },
-    {
-      "a": "flammable-shield",
-      "b": "oxidizer-shield",
-      "distance": 0
     },
     {
-      "a": "flammable-shield",
-      "b": "corrosive-shield",
+      "a": "high-voltage-shield",
+      "b": "hot-surface-shield",
       "distance": 0
     },
     {
-      "a": "flammable-shield",
-      "b": "health-hazard-shield",
+      "a": "high-voltage-shield",
+      "b": "laser-hazard-shield",
       "distance": 0
     },
     {
-      "a": "flammable-shield",
-      "b": "environment-hazard-shield",
+      "a": "high-voltage-shield",
+      "b": "magnetic-field-shield",
       "distance": 0
     },
     {
-      "a": "flammable-pin",
-      "b": "explosive-pin",
+      "a": "high-voltage-shield",
+      "b": "deep-water-shield",
       "distance": 0
     },
     {
-      "a": "flammable-pin",
-      "b": "toxic-pin",
+      "a": "high-voltage-pin",
+      "b": "hot-surface-pin",
       "distance": 0
     },
     {
-      "a": "flammable-pin",
-      "b": "oxidizer-pin",
+      "a": "high-voltage-pin",
+      "b": "laser-hazard-pin",
       "distance": 0
     },
     {
-      "a": "flammable-pin",
-      "b": "corrosive-pin",
+      "a": "high-voltage-pin",
+      "b": "magnetic-field-pin",
       "distance": 0
     },
     {
-      "a": "flammable-pin",
-      "b": "health-hazard-pin",
+      "a": "high-voltage-pin",
+      "b": "deep-water-pin",
       "distance": 0
     },
     {
-      "a": "flammable-user",
-      "b": "explosive-user",
+      "a": "high-voltage-user",
+      "b": "hot-surface-user",
       "distance": 0
     },
     {
-      "a": "flammable-user",
-      "b": "toxic-user",
+      "a": "high-voltage-user",
+      "b": "laser-hazard-user",
       "distance": 0
     },
     {
-      "a": "flammable-user",
-      "b": "oxidizer-user",
+      "a": "high-voltage-user",
+      "b": "magnetic-field-user",
       "distance": 0
-    },
-    {
-      "a": "flammable-user",
-      "b": "corrosive-user",
-      "distance": 0
-    },
-    {
-      "a": "flammable-user",
-      "b": "health-hazard-user",
-      "distance": 0
-    },
-    {
-      "a": "flammable-sparkle",
-      "b": "flammable-upload",
-      "distance": 1.41
     },
     {
-      "a": "flammable-sparkle",
-      "b": "explosive-sparkle",
+      "a": "high-voltage-user",
+      "b": "deep-water-user",
       "distance": 0
     },
     {
-      "a": "flammable-sparkle",
-      "b": "explosive-upload",
+      "a": "high-voltage-sparkle",
+      "b": "high-voltage-upload",
       "distance": 1.41
     },
     {
-      "a": "flammable-sparkle",
-      "b": "toxic-sparkle",
+      "a": "high-voltage-sparkle",
+      "b": "hot-surface-sparkle",
       "distance": 0
     },
     {
-      "a": "flammable-sparkle",
-      "b": "toxic-upload",
+      "a": "high-voltage-sparkle",
+      "b": "hot-surface-upload",
       "distance": 1.41
     },
     {
-      "a": "flammable-sparkle",
-      "b": "oxidizer-sparkle",
+      "a": "high-voltage-sparkle",
+      "b": "laser-hazard-sparkle",
       "distance": 0
     },
     {
-      "a": "flammable-sparkle",
-      "b": "oxidizer-upload",
+      "a": "high-voltage-sparkle",
+      "b": "laser-hazard-upload",
       "distance": 1.41
     },
     {
-      "a": "flammable-sparkle",
-      "b": "corrosive-sparkle",
+      "a": "high-voltage-sparkle",
+      "b": "magnetic-field-sparkle",
       "distance": 0
     },
     {
-      "a": "flammable-sparkle",
-      "b": "corrosive-upload",
+      "a": "high-voltage-sparkle",
+      "b": "magnetic-field-upload",
       "distance": 1.41
     },
     {
-      "a": "flammable-sparkle",
-      "b": "health-hazard-sparkle",
+      "a": "high-voltage-sparkle",
+      "b": "deep-water-sparkle",
       "distance": 0
     },
     {
-      "a": "flammable-sparkle",
-      "b": "health-hazard-upload",
+      "a": "high-voltage-sparkle",
+      "b": "deep-water-upload",
       "distance": 1.41
-    },
-    {
-      "a": "flammable-flag",
-      "b": "explosive-flag",
-      "distance": 0
     },
     {
-      "a": "flammable-flag",
-      "b": "toxic-flag",
+      "a": "high-voltage-flag",
+      "b": "hot-surface-flag",
       "distance": 0
     },
     {
-      "a": "flammable-flag",
-      "b": "oxidizer-flag",
+      "a": "high-voltage-flag",
+      "b": "laser-hazard-flag",
       "distance": 0
     },
     {
-      "a": "flammable-flag",
-      "b": "corrosive-flag",
+      "a": "high-voltage-flag",
+      "b": "magnetic-field-flag",
       "distance": 0
     },
     {
-      "a": "flammable-flag",
-      "b": "health-hazard-flag",
+      "a": "high-voltage-flag",
+      "b": "deep-water-flag",
       "distance": 0
     },
     {
-      "a": "flammable-upload",
-      "b": "explosive-sparkle",
+      "a": "high-voltage-upload",
+      "b": "hot-surface-sparkle",
       "distance": 1.41
     },
     {
-      "a": "flammable-upload",
-      "b": "toxic-sparkle",
+      "a": "high-voltage-upload",
+      "b": "laser-hazard-sparkle",
       "distance": 1.41
     },
     {
-      "a": "flammable-upload",
-      "b": "oxidizer-sparkle",
+      "a": "high-voltage-upload",
+      "b": "magnetic-field-sparkle",
       "distance": 1.41
     },
     {
-      "a": "flammable-upload",
-      "b": "corrosive-sparkle",
+      "a": "high-voltage-upload",
+      "b": "deep-water-sparkle",
       "distance": 1.41
-    },
-    {
-      "a": "flammable-upload",
-      "b": "health-hazard-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "explosive-shield",
-      "b": "toxic-shield",
-      "distance": 0
-    },
-    {
-      "a": "explosive-shield",
-      "b": "oxidizer-shield",
-      "distance": 0
-    },
-    {
-      "a": "explosive-shield",
-      "b": "corrosive-shield",
-      "distance": 0
     },
     {
-      "a": "explosive-shield",
-      "b": "health-hazard-shield",
+      "a": "hot-surface-shield",
+      "b": "laser-hazard-shield",
       "distance": 0
     },
     {
-      "a": "explosive-shield",
-      "b": "environment-hazard-shield",
+      "a": "hot-surface-shield",
+      "b": "magnetic-field-shield",
       "distance": 0
     },
     {
-      "a": "explosive-pin",
-      "b": "toxic-pin",
+      "a": "hot-surface-shield",
+      "b": "deep-water-shield",
       "distance": 0
     },
     {
-      "a": "explosive-pin",
-      "b": "oxidizer-pin",
+      "a": "hot-surface-pin",
+      "b": "laser-hazard-pin",
       "distance": 0
     },
     {
-      "a": "explosive-pin",
-      "b": "corrosive-pin",
+      "a": "hot-surface-pin",
+      "b": "magnetic-field-pin",
       "distance": 0
     },
     {
-      "a": "explosive-pin",
-      "b": "health-hazard-pin",
+      "a": "hot-surface-pin",
+      "b": "deep-water-pin",
       "distance": 0
     },
     {
-      "a": "explosive-user",
-      "b": "toxic-user",
+      "a": "hot-surface-user",
+      "b": "laser-hazard-user",
       "distance": 0
     },
     {
-      "a": "explosive-user",
-      "b": "oxidizer-user",
+      "a": "hot-surface-user",
+      "b": "magnetic-field-user",
       "distance": 0
     },
     {
-      "a": "explosive-user",
-      "b": "corrosive-user",
+      "a": "hot-surface-user",
+      "b": "deep-water-user",
       "distance": 0
     },
     {
-      "a": "explosive-user",
-      "b": "health-hazard-user",
-      "distance": 0
-    },
-    {
-      "a": "explosive-sparkle",
-      "b": "explosive-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "explosive-sparkle",
-      "b": "toxic-sparkle",
-      "distance": 0
-    },
-    {
-      "a": "explosive-sparkle",
-      "b": "toxic-upload",
+      "a": "hot-surface-sparkle",
+      "b": "hot-surface-upload",
       "distance": 1.41
     },
     {
-      "a": "explosive-sparkle",
-      "b": "oxidizer-sparkle",
+      "a": "hot-surface-sparkle",
+      "b": "laser-hazard-sparkle",
       "distance": 0
     },
     {
-      "a": "explosive-sparkle",
-      "b": "oxidizer-upload",
+      "a": "hot-surface-sparkle",
+      "b": "laser-hazard-upload",
       "distance": 1.41
     },
     {
-      "a": "explosive-sparkle",
-      "b": "corrosive-sparkle",
+      "a": "hot-surface-sparkle",
+      "b": "magnetic-field-sparkle",
       "distance": 0
     },
     {
-      "a": "explosive-sparkle",
-      "b": "corrosive-upload",
+      "a": "hot-surface-sparkle",
+      "b": "magnetic-field-upload",
       "distance": 1.41
     },
     {
-      "a": "explosive-sparkle",
-      "b": "health-hazard-sparkle",
+      "a": "hot-surface-sparkle",
+      "b": "deep-water-sparkle",
       "distance": 0
     },
     {
-      "a": "explosive-sparkle",
-      "b": "health-hazard-upload",
+      "a": "hot-surface-sparkle",
+      "b": "deep-water-upload",
       "distance": 1.41
-    },
-    {
-      "a": "explosive-flag",
-      "b": "toxic-flag",
-      "distance": 0
     },
     {
-      "a": "explosive-flag",
-      "b": "oxidizer-flag",
+      "a": "hot-surface-flag",
+      "b": "laser-hazard-flag",
       "distance": 0
     },
     {
-      "a": "explosive-flag",
-      "b": "corrosive-flag",
+      "a": "hot-surface-flag",
+      "b": "magnetic-field-flag",
       "distance": 0
     },
     {
-      "a": "explosive-flag",
-      "b": "health-hazard-flag",
+      "a": "hot-surface-flag",
+      "b": "deep-water-flag",
       "distance": 0
     },
     {
-      "a": "explosive-upload",
-      "b": "toxic-sparkle",
+      "a": "hot-surface-upload",
+      "b": "laser-hazard-sparkle",
       "distance": 1.41
     },
     {
-      "a": "explosive-upload",
-      "b": "oxidizer-sparkle",
+      "a": "hot-surface-upload",
+      "b": "magnetic-field-sparkle",
       "distance": 1.41
     },
     {
-      "a": "explosive-upload",
-      "b": "corrosive-sparkle",
+      "a": "hot-surface-upload",
+      "b": "deep-water-sparkle",
       "distance": 1.41
-    },
-    {
-      "a": "explosive-upload",
-      "b": "health-hazard-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "toxic-shield",
-      "b": "oxidizer-shield",
-      "distance": 0
-    },
-    {
-      "a": "toxic-shield",
-      "b": "corrosive-shield",
-      "distance": 0
-    },
-    {
-      "a": "toxic-shield",
-      "b": "health-hazard-shield",
-      "distance": 0
     },
     {
-      "a": "toxic-shield",
-      "b": "environment-hazard-shield",
+      "a": "laser-hazard-shield",
+      "b": "magnetic-field-shield",
       "distance": 0
     },
     {
-      "a": "toxic-pin",
-      "b": "oxidizer-pin",
+      "a": "laser-hazard-shield",
+      "b": "deep-water-shield",
       "distance": 0
     },
     {
-      "a": "toxic-pin",
-      "b": "corrosive-pin",
+      "a": "laser-hazard-pin",
+      "b": "magnetic-field-pin",
       "distance": 0
     },
     {
-      "a": "toxic-pin",
-      "b": "health-hazard-pin",
+      "a": "laser-hazard-pin",
+      "b": "deep-water-pin",
       "distance": 0
     },
     {
-      "a": "toxic-user",
-      "b": "oxidizer-user",
+      "a": "laser-hazard-user",
+      "b": "magnetic-field-user",
       "distance": 0
-    },
-    {
-      "a": "toxic-user",
-      "b": "corrosive-user",
-      "distance": 0
-    },
-    {
-      "a": "toxic-user",
-      "b": "health-hazard-user",
-      "distance": 0
-    },
-    {
-      "a": "toxic-sparkle",
-      "b": "toxic-upload",
-      "distance": 1.41
     },
     {
-      "a": "toxic-sparkle",
-      "b": "oxidizer-sparkle",
+      "a": "laser-hazard-user",
+      "b": "deep-water-user",
       "distance": 0
     },
     {
-      "a": "toxic-sparkle",
-      "b": "oxidizer-upload",
+      "a": "laser-hazard-sparkle",
+      "b": "laser-hazard-upload",
       "distance": 1.41
     },
     {
-      "a": "toxic-sparkle",
-      "b": "corrosive-sparkle",
+      "a": "laser-hazard-sparkle",
+      "b": "magnetic-field-sparkle",
       "distance": 0
     },
     {
-      "a": "toxic-sparkle",
-      "b": "corrosive-upload",
+      "a": "laser-hazard-sparkle",
+      "b": "magnetic-field-upload",
       "distance": 1.41
     },
     {
-      "a": "toxic-sparkle",
-      "b": "health-hazard-sparkle",
+      "a": "laser-hazard-sparkle",
+      "b": "deep-water-sparkle",
       "distance": 0
     },
     {
-      "a": "toxic-sparkle",
-      "b": "health-hazard-upload",
+      "a": "laser-hazard-sparkle",
+      "b": "deep-water-upload",
       "distance": 1.41
-    },
-    {
-      "a": "toxic-flag",
-      "b": "oxidizer-flag",
-      "distance": 0
     },
     {
-      "a": "toxic-flag",
-      "b": "corrosive-flag",
+      "a": "laser-hazard-flag",
+      "b": "magnetic-field-flag",
       "distance": 0
     },
     {
-      "a": "toxic-flag",
-      "b": "health-hazard-flag",
+      "a": "laser-hazard-flag",
+      "b": "deep-water-flag",
       "distance": 0
     },
     {
-      "a": "toxic-upload",
-      "b": "oxidizer-sparkle",
+      "a": "laser-hazard-upload",
+      "b": "magnetic-field-sparkle",
       "distance": 1.41
     },
     {
-      "a": "toxic-upload",
-      "b": "corrosive-sparkle",
+      "a": "laser-hazard-upload",
+      "b": "deep-water-sparkle",
       "distance": 1.41
     },
     {
-      "a": "toxic-upload",
-      "b": "health-hazard-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "oxidizer-shield",
-      "b": "corrosive-shield",
+      "a": "magnetic-field-shield",
+      "b": "deep-water-shield",
       "distance": 0
     },
     {
-      "a": "oxidizer-shield",
-      "b": "health-hazard-shield",
+      "a": "magnetic-field-pin",
+      "b": "deep-water-pin",
       "distance": 0
     },
     {
-      "a": "oxidizer-shield",
-      "b": "environment-hazard-shield",
+      "a": "magnetic-field-user",
+      "b": "deep-water-user",
       "distance": 0
     },
     {
-      "a": "oxidizer-pin",
-      "b": "corrosive-pin",
-      "distance": 0
+      "a": "magnetic-field-sparkle",
+      "b": "magnetic-field-upload",
+      "distance": 1.41
     },
     {
-      "a": "oxidizer-pin",
-      "b": "health-hazard-pin",
+      "a": "magnetic-field-sparkle",
+      "b": "deep-water-sparkle",
       "distance": 0
     },
     {
-      "a": "oxidizer-user",
-      "b": "corrosive-user",
-      "distance": 0
+      "a": "magnetic-field-sparkle",
+      "b": "deep-water-upload",
+      "distance": 1.41
     },
     {
-      "a": "oxidizer-user",
-      "b": "health-hazard-user",
+      "a": "magnetic-field-flag",
+      "b": "deep-water-flag",
       "distance": 0
     },
     {
-      "a": "oxidizer-sparkle",
-      "b": "oxidizer-upload",
+      "a": "magnetic-field-upload",
+      "b": "deep-water-sparkle",
       "distance": 1.41
-    },
-    {
-      "a": "oxidizer-sparkle",
-      "b": "corrosive-sparkle",
-      "distance": 0
     },
     {
-      "a": "oxidizer-sparkle",
-      "b": "corrosive-upload",
+      "a": "deep-water-sparkle",
+      "b": "deep-water-upload",
       "distance": 1.41
     },
     {
-      "a": "oxidizer-sparkle",
-      "b": "health-hazard-sparkle",
-      "distance": 0
+      "a": "face-scan-sparkle",
+      "b": "face-scan-upload",
+      "distance": 1.41
     },
     {
-      "a": "oxidizer-sparkle",
-      "b": "health-hazard-upload",
+      "a": "police-badge-sparkle",
+      "b": "police-badge-upload",
       "distance": 1.41
     },
     {
-      "a": "oxidizer-flag",
-      "b": "corrosive-flag",
-      "distance": 0
+      "a": "lock-sparkle",
+      "b": "lock-upload",
+      "distance": 1.41
     },
     {
-      "a": "oxidizer-flag",
-      "b": "health-hazard-flag",
-      "distance": 0
+      "a": "eye-scan-sparkle",
+      "b": "eye-scan-upload",
+      "distance": 1.41
     },
     {
-      "a": "oxidizer-upload",
-      "b": "corrosive-sparkle",
+      "a": "treadmill-sparkle",
+      "b": "treadmill-upload",
       "distance": 1.41
     },
     {
-      "a": "oxidizer-upload",
-      "b": "health-hazard-sparkle",
+      "a": "oars-sparkle",
+      "b": "oars-upload",
       "distance": 1.41
     },
     {
-      "a": "corrosive-shield",
-      "b": "health-hazard-shield",
-      "distance": 0
+      "a": "ski-lift-sparkle",
+      "b": "ski-lift-upload",
+      "distance": 1.41
     },
     {
-      "a": "corrosive-shield",
-      "b": "environment-hazard-shield",
-      "distance": 0
+      "a": "ice-axe-sparkle",
+      "b": "ice-axe-upload",
+      "distance": 1.41
     },
     {
-      "a": "corrosive-pin",
-      "b": "health-hazard-pin",
-      "distance": 0
+      "a": "skis-sparkle",
+      "b": "skis-upload",
+      "distance": 1.41
     },
     {
-      "a": "corrosive-user",
-      "b": "health-hazard-user",
-      "distance": 0
+      "a": "baseball-bat-sparkle",
+      "b": "baseball-bat-upload",
+      "distance": 1.41
     },
     {
-      "a": "corrosive-sparkle",
-      "b": "corrosive-upload",
+      "a": "cricket-bat-sparkle",
+      "b": "cricket-bat-upload",
       "distance": 1.41
     },
     {
-      "a": "corrosive-sparkle",
-      "b": "health-hazard-sparkle",
+      "a": "smartphone-sparkle",
+      "b": "otp-sparkle",
       "distance": 0
     },
     {
-      "a": "corrosive-sparkle",
-      "b": "health-hazard-upload",
-      "distance": 1.41
+      "a": "smartphone-user",
+      "b": "otp-user",
+      "distance": 0
     },
     {
-      "a": "corrosive-flag",
-      "b": "health-hazard-flag",
+      "a": "smartphone-flag",
+      "b": "otp-flag",
       "distance": 0
     },
     {
-      "a": "corrosive-upload",
-      "b": "health-hazard-sparkle",
+      "a": "punching-bag-sparkle",
+      "b": "punching-bag-upload",
       "distance": 1.41
-    },
-    {
-      "a": "health-hazard-shield",
-      "b": "environment-hazard-shield",
-      "distance": 0
     },
     {
-      "a": "health-hazard-sparkle",
-      "b": "health-hazard-upload",
+      "a": "fish-hook-sparkle",
+      "b": "fish-hook-upload",
       "distance": 1.41
     },
     {
-      "a": "pulley-sparkle",
-      "b": "pulley-upload",
+      "a": "smartphone-sparkle",
+      "b": "otp-upload",
       "distance": 1.41
     },
     {
-      "a": "walking-sparkle",
-      "b": "walking-upload",
+      "a": "otp-sparkle",
+      "b": "otp-upload",
       "distance": 1.41
     },
     {
-      "a": "pendulum-sparkle",
-      "b": "pendulum-upload",
+      "a": "motion-sensor-sparkle",
+      "b": "motion-sensor-upload",
       "distance": 1.41
     },
     {
-      "a": "periscope-sparkle",
-      "b": "periscope-upload",
+      "a": "table-tennis-sparkle",
+      "b": "table-tennis-upload",
       "distance": 1.41
     }
   ],
   "dropped": [
-    "periodic-table-gear",
-    "periodic-table-bolt",
-    "periodic-table-sparkle",
-    "periodic-table-calendar",
-    "periodic-table-moon",
-    "periodic-table-leaf",
-    "periodic-table-cursor",
-    "periodic-table-filter",
-    "periodic-table-stats",
-    "weather-balloon-upload",
-    "pipette-upload",
-    "avatar-group-search",
-    "avatar-group-clock",
-    "avatar-group-shield",
-    "avatar-group-gear",
-    "avatar-group-bolt",
-    "avatar-group-heart",
-    "avatar-group-star",
-    "avatar-group-user",
-    "avatar-group-cloud",
-    "avatar-group-chat",
-    "avatar-group-download",
-    "avatar-group-pencil",
-    "avatar-group-bookmark",
-    "avatar-group-question",
-    "avatar-group-calendar",
-    "avatar-group-sparkle",
-    "avatar-group-upload",
-    "avatar-group-crown",
-    "avatar-group-hourglass",
-    "avatar-group-trophy",
-    "avatar-group-leaf",
-    "avatar-group-cursor",
-    "avatar-group-camera",
-    "avatar-group-filter",
-    "avatar-group-stats",
-    "avatar-group-checkbox",
-    "avatar-group-trash",
-    "orbit-bolt",
-    "orbit-star",
-    "potted-plant-search",
-    "potted-plant-clock",
-    "potted-plant-shield",
-    "potted-plant-gear",
-    "potted-plant-bolt",
-    "potted-plant-heart",
-    "potted-plant-star",
-    "potted-plant-cloud",
-    "potted-plant-chat",
-    "potted-plant-download",
-    "potted-plant-pencil",
-    "potted-plant-trash",
-    "potted-plant-calendar",
-    "potted-plant-question",
-    "potted-plant-crown",
-    "potted-plant-leaf",
-    "potted-plant-hourglass",
-    "potted-plant-cursor",
-    "potted-plant-camera",
-    "potted-plant-filter",
-    "potted-plant-stats",
-    "potted-plant-checkbox",
-    "honeycomb-upload",
-    "cairn-leaf",
-    "tree-stump-leaf",
-    "tree-stump-upload",
-    "bamboo-upload",
-    "sunflower-upload",
-    "hand-raised-search",
-    "hand-raised-clock",
-    "hand-raised-shield",
-    "hand-raised-gear",
-    "hand-raised-bolt",
-    "hand-raised-heart",
-    "hand-raised-star",
-    "hand-raised-user",
-    "hand-raised-cloud",
-    "hand-raised-chat",
-    "hand-raised-download",
-    "hand-raised-pencil",
-    "sippy-cup-upload",
-    "hand-raised-sparkle",
-    "hand-raised-trash",
-    "hand-raised-calendar",
-    "hand-raised-question",
-    "hand-raised-bookmark",
-    "hand-raised-crown",
-    "hand-raised-leaf",
-    "hand-raised-trophy",
-    "hand-raised-hourglass",
-    "hand-raised-cursor",
-    "hand-raised-camera",
-    "hand-raised-filter",
-    "hand-raised-stats",
-    "hand-raised-checkbox",
-    "baby-monitor-upload",
-    "user-tie-leaf",
-    "user-headset-leaf",
-    "user-headset-upload",
-    "family-leaf",
-    "student-upload",
-    "user-edit-upload",
-    "user-group-upload",
-    "oscilloscope-stats",
-    "oscilloscope-leaf",
-    "oscilloscope-upload",
-    "mars-rover-leaf",
-    "mars-rover-upload",
-    "test-tube-rack-leaf",
-    "test-tube-rack-upload",
-    "spring-upload",
-    "pendulum-leaf",
-    "crystal-upload",
-    "saturn-upload",
-    "graduated-cylinder-upload",
-    "explosive-search",
-    "toxic-search",
-    "oxidizer-search",
-    "corrosive-search",
-    "health-hazard-search",
-    "environment-hazard-search",
-    "explosive-clock",
-    "toxic-clock",
-    "oxidizer-clock",
-    "corrosive-clock",
-    "health-hazard-clock",
-    "environment-hazard-clock",
-    "explosive-gear",
-    "toxic-gear",
-    "oxidizer-gear",
-    "corrosive-gear",
-    "health-hazard-gear",
-    "explosive-bolt",
-    "toxic-bolt",
-    "oxidizer-bolt",
-    "corrosive-bolt",
-    "health-hazard-bolt",
-    "explosive-heart",
-    "toxic-heart",
-    "oxidizer-heart",
-    "corrosive-heart",
-    "health-hazard-heart",
-    "explosive-star",
-    "toxic-star",
-    "oxidizer-star",
-    "corrosive-star",
-    "health-hazard-star",
-    "explosive-cloud",
-    "toxic-cloud",
-    "oxidizer-cloud",
-    "corrosive-cloud",
-    "health-hazard-cloud",
-    "explosive-chat",
-    "toxic-chat",
-    "oxidizer-chat",
-    "corrosive-chat",
-    "health-hazard-chat",
-    "explosive-download",
-    "toxic-download",
-    "oxidizer-download",
-    "corrosive-download",
-    "health-hazard-download",
-    "explosive-pencil",
-    "toxic-pencil",
-    "oxidizer-pencil",
-    "corrosive-pencil",
-    "health-hazard-pencil",
-    "explosive-trash",
-    "toxic-trash",
-    "oxidizer-trash",
-    "corrosive-trash",
-    "health-hazard-trash",
-    "explosive-calendar",
-    "toxic-calendar",
-    "oxidizer-calendar",
-    "corrosive-calendar",
-    "health-hazard-calendar",
-    "explosive-question",
-    "toxic-question",
-    "oxidizer-question",
-    "corrosive-question",
-    "health-hazard-question",
-    "explosive-bookmark",
-    "toxic-bookmark",
-    "oxidizer-bookmark",
-    "corrosive-bookmark",
-    "health-hazard-bookmark",
-    "explosive-upload",
-    "toxic-upload",
-    "oxidizer-upload",
-    "corrosive-upload",
-    "health-hazard-upload",
-    "explosive-crown",
-    "toxic-crown",
-    "oxidizer-crown",
-    "corrosive-crown",
-    "health-hazard-crown",
-    "explosive-leaf",
-    "toxic-leaf",
-    "oxidizer-leaf",
-    "corrosive-leaf",
-    "health-hazard-leaf",
-    "explosive-hourglass",
-    "toxic-hourglass",
-    "oxidizer-hourglass",
-    "corrosive-hourglass",
-    "health-hazard-hourglass",
-    "explosive-cursor",
-    "toxic-cursor",
-    "oxidizer-cursor",
-    "corrosive-cursor",
-    "health-hazard-cursor",
-    "explosive-camera",
-    "toxic-camera",
-    "oxidizer-camera",
-    "corrosive-camera",
-    "health-hazard-camera",
-    "explosive-filter",
-    "toxic-filter",
-    "oxidizer-filter",
-    "corrosive-filter",
-    "health-hazard-filter",
-    "explosive-stats",
-    "toxic-stats",
-    "oxidizer-stats",
-    "corrosive-stats",
-    "health-hazard-stats",
-    "explosive-checkbox",
-    "toxic-checkbox",
-    "oxidizer-checkbox",
-    "corrosive-checkbox",
-    "health-hazard-checkbox",
-    "avatar-group-bell",
-    "avatar-group-moon",
-    "potted-plant-bell",
-    "potted-plant-moon",
-    "hand-raised-bell",
-    "hand-raised-moon",
-    "explosive-bell",
-    "toxic-bell",
-    "oxidizer-bell",
-    "corrosive-bell",
-    "health-hazard-bell",
-    "explosive-moon",
-    "toxic-moon",
-    "oxidizer-moon",
-    "corrosive-moon",
-    "health-hazard-moon",
-    "explosive-trophy",
-    "toxic-trophy",
-    "oxidizer-trophy",
-    "corrosive-trophy",
-    "health-hazard-trophy",
-    "avatar-group-fire",
-    "potted-plant-fire",
-    "hand-raised-fire",
-    "explosive-fire",
-    "toxic-fire",
-    "oxidizer-fire",
-    "corrosive-fire",
-    "health-hazard-fire",
-    "avatar-group-pin",
-    "avatar-group-flag",
-    "potted-plant-pin",
-    "potted-plant-user",
-    "potted-plant-sparkle",
-    "potted-plant-upload",
-    "potted-plant-flag",
-    "seedling-upload",
-    "cocoon-upload",
-    "river-upload",
-    "cairn-upload",
-    "wood-log-upload",
-    "succulent-upload",
-    "coral-upload",
-    "gender-neutral-upload",
-    "hand-raised-pin",
-    "hand-raised-flag",
-    "user-tie-upload",
-    "family-upload",
-    "user-voice-upload",
-    "lunar-lander-upload",
-    "lens-upload",
-    "explosive-shield",
-    "toxic-shield",
-    "oxidizer-shield",
-    "corrosive-shield",
-    "health-hazard-shield",
-    "environment-hazard-shield",
-    "explosive-pin",
-    "toxic-pin",
-    "oxidizer-pin",
-    "corrosive-pin",
-    "health-hazard-pin",
-    "explosive-user",
-    "toxic-user",
-    "oxidizer-user",
-    "corrosive-user",
-    "health-hazard-user",
-    "flammable-upload",
-    "explosive-sparkle",
-    "toxic-sparkle",
-    "oxidizer-sparkle",
-    "corrosive-sparkle",
-    "health-hazard-sparkle",
-    "explosive-flag",
-    "toxic-flag",
-    "oxidizer-flag",
-    "corrosive-flag",
-    "health-hazard-flag",
-    "pulley-upload",
-    "walking-upload",
-    "pendulum-upload",
-    "periscope-upload"
+    "goggles-gear",
+    "goggles-bolt",
+    "goggles-sparkle",
+    "firewall-gear",
+    "firewall-bolt",
+    "firewall-sparkle",
+    "firewall-cursor",
+    "snowboard-gear",
+    "snowboard-bolt",
+    "snowboard-sparkle",
+    "snowboard-cursor",
+    "snowboard-stats",
+    "vial-upload",
+    "otp-cloud",
+    "otp-chat",
+    "otp-download",
+    "otp-pencil",
+    "otp-trash",
+    "otp-calendar",
+    "otp-question",
+    "otp-bookmark",
+    "otp-crown",
+    "otp-leaf",
+    "otp-hourglass",
+    "otp-cursor",
+    "otp-camera",
+    "otp-filter",
+    "otp-stats",
+    "otp-checkbox",
+    "firewall-search",
+    "firewall-clock",
+    "firewall-shield",
+    "firewall-star",
+    "firewall-user",
+    "firewall-chat",
+    "firewall-download",
+    "firewall-upload",
+    "firewall-calendar",
+    "firewall-question",
+    "firewall-bookmark",
+    "firewall-trophy",
+    "firewall-hourglass",
+    "firewall-camera",
+    "firewall-filter",
+    "firewall-checkbox",
+    "life-ring-search",
+    "life-ring-clock",
+    "life-ring-shield",
+    "life-ring-gear",
+    "life-ring-heart",
+    "life-ring-user",
+    "life-ring-chat",
+    "life-ring-download",
+    "life-ring-pencil",
+    "life-ring-trash",
+    "life-ring-calendar",
+    "life-ring-question",
+    "life-ring-bookmark",
+    "life-ring-crown",
+    "life-ring-trophy",
+    "life-ring-hourglass",
+    "life-ring-cursor",
+    "life-ring-camera",
+    "life-ring-filter",
+    "life-ring-stats",
+    "life-ring-checkbox",
+    "keypad-bolt",
+    "keypad-heart",
+    "keypad-user",
+    "keypad-cloud",
+    "keypad-pencil",
+    "keypad-leaf",
+    "keypad-sparkle",
+    "keypad-upload",
+    "keypad-trash",
+    "keypad-bookmark",
+    "keypad-stats",
+    "life-ring-bolt",
+    "life-ring-leaf",
+    "satellite-upload",
+    "constellation-leaf",
+    "atom-leaf",
+    "atom-upload",
+    "antivirus-upload",
+    "two-factor-leaf",
+    "two-factor-upload",
+    "keyhole-leaf",
+    "hot-surface-search",
+    "laser-hazard-search",
+    "magnetic-field-search",
+    "deep-water-search",
+    "hot-surface-clock",
+    "laser-hazard-clock",
+    "magnetic-field-clock",
+    "deep-water-clock",
+    "hot-surface-gear",
+    "laser-hazard-gear",
+    "magnetic-field-gear",
+    "deep-water-gear",
+    "hot-surface-bolt",
+    "laser-hazard-bolt",
+    "magnetic-field-bolt",
+    "deep-water-bolt",
+    "hot-surface-heart",
+    "laser-hazard-heart",
+    "magnetic-field-heart",
+    "deep-water-heart",
+    "hot-surface-star",
+    "laser-hazard-star",
+    "magnetic-field-star",
+    "deep-water-star",
+    "hot-surface-cloud",
+    "laser-hazard-cloud",
+    "magnetic-field-cloud",
+    "deep-water-cloud",
+    "hot-surface-chat",
+    "laser-hazard-chat",
+    "magnetic-field-chat",
+    "deep-water-chat",
+    "hot-surface-download",
+    "laser-hazard-download",
+    "magnetic-field-download",
+    "deep-water-download",
+    "high-voltage-leaf",
+    "hot-surface-pencil",
+    "hot-surface-leaf",
+    "laser-hazard-pencil",
+    "laser-hazard-leaf",
+    "magnetic-field-pencil",
+    "magnetic-field-leaf",
+    "deep-water-pencil",
+    "deep-water-leaf",
+    "hot-surface-trash",
+    "laser-hazard-trash",
+    "magnetic-field-trash",
+    "deep-water-trash",
+    "hot-surface-calendar",
+    "laser-hazard-calendar",
+    "magnetic-field-calendar",
+    "deep-water-calendar",
+    "hot-surface-question",
+    "laser-hazard-question",
+    "magnetic-field-question",
+    "deep-water-question",
+    "hot-surface-bookmark",
+    "laser-hazard-bookmark",
+    "magnetic-field-bookmark",
+    "deep-water-bookmark",
+    "hot-surface-upload",
+    "laser-hazard-upload",
+    "magnetic-field-upload",
+    "deep-water-upload",
+    "hot-surface-crown",
+    "laser-hazard-crown",
+    "magnetic-field-crown",
+    "deep-water-crown",
+    "hot-surface-hourglass",
+    "laser-hazard-hourglass",
+    "magnetic-field-hourglass",
+    "deep-water-hourglass",
+    "hot-surface-cursor",
+    "laser-hazard-cursor",
+    "magnetic-field-cursor",
+    "deep-water-cursor",
+    "hot-surface-camera",
+    "laser-hazard-camera",
+    "magnetic-field-camera",
+    "deep-water-camera",
+    "hot-surface-filter",
+    "laser-hazard-filter",
+    "magnetic-field-filter",
+    "deep-water-filter",
+    "hot-surface-stats",
+    "laser-hazard-stats",
+    "magnetic-field-stats",
+    "deep-water-stats",
+    "hot-surface-checkbox",
+    "laser-hazard-checkbox",
+    "magnetic-field-checkbox",
+    "deep-water-checkbox",
+    "firewall-leaf",
+    "passkey-leaf",
+    "incognito-upload",
+    "face-scan-leaf",
+    "phishing-upload",
+    "lock-leaf",
+    "eye-scan-leaf",
+    "qr-scan-leaf",
+    "qr-scan-upload",
+    "yoga-mat-leaf",
+    "locker-leaf",
+    "locker-upload",
+    "ski-boot-leaf",
+    "ski-boot-upload",
+    "soccer-ball-leaf",
+    "otp-bell",
+    "otp-moon",
+    "otp-trophy",
+    "firewall-moon",
+    "life-ring-moon",
+    "hot-surface-bell",
+    "laser-hazard-bell",
+    "magnetic-field-bell",
+    "deep-water-bell",
+    "hot-surface-moon",
+    "laser-hazard-moon",
+    "magnetic-field-moon",
+    "deep-water-moon",
+    "hot-surface-trophy",
+    "laser-hazard-trophy",
+    "magnetic-field-trophy",
+    "deep-water-trophy",
+    "otp-fire",
+    "firewall-fire",
+    "hot-surface-fire",
+    "laser-hazard-fire",
+    "magnetic-field-fire",
+    "deep-water-fire",
+    "firewall-bell",
+    "firewall-flag",
+    "life-ring-pin",
+    "life-ring-bell",
+    "life-ring-flag",
+    "keypad-pin",
+    "keypad-bell",
+    "keypad-flag",
+    "keypad-fire",
+    "environment-hazard-upload",
+    "prism-upload",
+    "bunsen-burner-upload",
+    "galaxy-upload",
+    "bacteria-upload",
+    "constellation-upload",
+    "dagger-upload",
+    "hot-surface-shield",
+    "laser-hazard-shield",
+    "magnetic-field-shield",
+    "deep-water-shield",
+    "hot-surface-pin",
+    "laser-hazard-pin",
+    "magnetic-field-pin",
+    "deep-water-pin",
+    "hot-surface-user",
+    "laser-hazard-user",
+    "magnetic-field-user",
+    "deep-water-user",
+    "high-voltage-upload",
+    "hot-surface-sparkle",
+    "laser-hazard-sparkle",
+    "magnetic-field-sparkle",
+    "deep-water-sparkle",
+    "hot-surface-flag",
+    "laser-hazard-flag",
+    "magnetic-field-flag",
+    "deep-water-flag",
+    "face-scan-upload",
+    "police-badge-upload",
+    "lock-upload",
+    "eye-scan-upload",
+    "treadmill-upload",
+    "oars-upload",
+    "ski-lift-upload",
+    "ice-axe-upload",
+    "skis-upload",
+    "baseball-bat-upload",
+    "cricket-bat-upload",
+    "otp-sparkle",
+    "otp-user",
+    "otp-flag",
+    "punching-bag-upload",
+    "fish-hook-upload",
+    "otp-upload",
+    "motion-sensor-upload",
+    "table-tennis-upload"
   ],
   "byCategory": {
     "accessibility": 53,
@@ -3957,14 +3007,14 @@
     "logistics": 1001,
     "maps": 622,
     "media": 1967,
-    "nature": 2372,
+    "nature": 2279,
     "navigation": 35,
     "notifications": 50,
-    "people": 1186,
-    "science": 1349,
-    "security": 416,
+    "people": 1093,
+    "science": 1532,
+    "security": 911,
     "social": 160,
-    "sports": 1640,
+    "sports": 2104,
     "text": 334,
     "time": 239,
     "tools": 1351,
