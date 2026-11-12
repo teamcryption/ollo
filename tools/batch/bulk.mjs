@@ -3,7 +3,7 @@
 import { B, M, combos } from './mods.mjs';
 import fs from 'node:fs';
 const here = new URL('.', import.meta.url);
-for (const f of fs.readdirSync(here).filter((f) => /^b1\d\d[a-z]?\.mjs$/.test(f))) await import(new URL(f, here).href);
+for (const f of fs.readdirSync(here).filter((f) => /^b\d{3}[a-z]?\.mjs$/.test(f))) await import(new URL(f, here).href);
 import { fileURLToPath } from 'node:url';
 const ICONS = fileURLToPath(new URL('../../packages/assets/icons', import.meta.url));
 const names = fs.readdirSync(ICONS);
