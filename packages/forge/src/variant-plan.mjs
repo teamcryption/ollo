@@ -589,9 +589,9 @@ export default {
   'binoculars': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'biofuel': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'bird': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'bird-bath': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'bird-bath': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'bird-feeder': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'birdcage': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'birdcage': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'birdhouse': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'blend': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'blood-bag': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
@@ -611,7 +611,7 @@ export default {
   'bottle-cap': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'bottle-opener': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'bow-arrow': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'bow-tie': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'bow-tie': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'bowl': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'bowling': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'box-plot': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
@@ -1321,7 +1321,7 @@ export default {
   'pier': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'pig': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'pillow': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'pine-cone': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'pine-cone': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'pine-tree': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'pineapple': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'pinwheel': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
@@ -1505,7 +1505,7 @@ export default {
   'sofa': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'soldering-iron': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'sort-ascending': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'sound-wave': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'sound-wave': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'soup': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'spark-plug': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'sparkle': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
@@ -1581,7 +1581,7 @@ export default {
   'tape-roll': { badges: ['check', 'remove', 'alert'] }, // vb
   'target': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'tea-bag': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'tea-cup': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'tea-cup': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'teapot': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'telegraph': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'telescope': { badges: ['add', 'check', 'close', 'remove'] }, // vb

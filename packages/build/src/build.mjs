@@ -123,7 +123,10 @@ write('manifest.json', JSON.stringify(lean, null, 2));
 
 // ---------- React + preview ----------
 const reactCount = generateReact({ icons, illustrations, tokens });
-writePreview(manifest, path.join(DIST, 'preview.html'));
+// The single-file preview embeds every style at every size; above a few thousand icons that exceeds V8's maximum
+// string length, so it shows a sample (it is a pipeline check; the site has the full browser).
+const PREVIEW_MAX = 1500;
+writePreview({ ...manifest, icons: manifest.icons.slice(0, PREVIEW_MAX) }, path.join(DIST, 'preview.html'));
 
 console.log(
   `Built ${icons.length} icons (${icons.reduce((n, i) => n + Object.keys(i.svgs).length, 0)} styles), ` +

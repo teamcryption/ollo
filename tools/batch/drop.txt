@@ -16550,3 +16550,9 @@ square-root-check
 square-root-close
 square-root-remove
 square-root-alert
+bird-bath-alert
+birdcage-alert
+bow-tie-alert
+pine-cone-alert
+sound-wave-alert
+tea-cup-alert
