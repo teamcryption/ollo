@@ -1,718 +1,779 @@
 {
-  "generatedAt": "2026-11-12T16:08:52.279Z",
-  "icons": 42871,
-  "files": 214355,
+  "generatedAt": "2026-11-12T16:13:06.684Z",
+  "icons": 43437,
+  "files": 217185,
   "errors": [],
   "warnings": [
-    "trackpad-camera: grid: outside the 3-21 live area (3.72, 4.08, 22.00, 20.50)",
-    "usb-c-port-camera: grid: outside the 3-21 live area (3.72, 7.32, 22.00, 20.50)",
-    "robot-vacuum-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
-    "fitness-tracker-camera: grid: outside the 3-21 live area (6.24, 3.36, 22.00, 20.50)",
-    "ssd-camera: grid: outside the 3-21 live area (3.00, 6.60, 22.00, 20.50)",
-    "cooling-fan-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
-    "rotary-phone-camera: grid: outside the 3-21 live area (3.36, 5.88, 22.00, 20.50)",
-    "smartphone-camera: grid: outside the 3-21 live area (5.52, 2.64, 22.00, 20.50)",
-    "watch-smart-camera: grid: outside the 3-21 live area (5.52, 3.36, 22.00, 20.50)",
-    "marker-camera: grid: outside the 3-21 live area (4.78, 3.97, 22.00, 20.50)",
-    "index-card-camera: grid: outside the 3-21 live area (3.00, 4.44, 22.00, 20.50)",
-    "book-stack-camera: grid: outside the 3-21 live area (3.72, 4.08, 22.00, 20.50)",
-    "atlas-camera: grid: outside the 3-21 live area (4.44, 3.36, 22.00, 20.50)",
-    "lunch-tray-camera: grid: outside the 3-21 live area (3.36, 4.80, 22.00, 20.50)",
-    "report-card-camera: grid: outside the 3-21 live area (4.08, 3.36, 22.00, 20.50)",
-    "flashcards-camera: grid: outside the 3-21 live area (3.00, 3.09, 22.00, 20.50)",
-    "asterisk-camera: grid: outside the 3-21 live area (4.80, 4.08, 22.00, 20.50)",
-    "pi-camera: grid: outside the 3-21 live area (4.08, 6.24, 22.00, 20.50)",
-    "sigma-camera: grid: outside the 3-21 live area (5.16, 4.44, 22.00, 20.50)",
-    "integral-camera: grid: outside the 3-21 live area (6.96, 3.73, 22.00, 20.50)",
-    "square-root-camera: grid: outside the 3-21 live area (3.36, 4.08, 22.00, 20.50)",
-    "plus-minus-camera: grid: outside the 3-21 live area (6.24, 3.72, 22.00, 20.50)",
-    "divide-camera: grid: outside the 3-21 live area (4.44, 4.44, 22.00, 20.50)",
-    "equals-camera: grid: outside the 3-21 live area (4.44, 7.32, 22.00, 20.50)",
-    "not-equal-camera: grid: outside the 3-21 live area (4.44, 4.08, 22.00, 20.50)",
-    "approximately-camera: grid: outside the 3-21 live area (4.44, 6.60, 22.00, 20.50)",
-    "angle-camera: grid: outside the 3-21 live area (4.44, 4.44, 22.00, 20.50)",
-    "perpendicular-camera: grid: outside the 3-21 live area (4.08, 4.44, 22.00, 20.50)",
-    "parallel-camera: grid: outside the 3-21 live area (5.16, 4.44, 22.00, 20.50)",
-    "less-equal-camera: grid: outside the 3-21 live area (5.88, 4.08, 22.00, 20.50)",
-    "greater-equal-camera: grid: outside the 3-21 live area (5.88, 4.08, 22.00, 20.50)",
-    "lambda-camera: grid: outside the 3-21 live area (5.16, 4.08, 22.00, 20.50)",
-    "omega-camera: grid: outside the 3-21 live area (4.08, 3.85, 22.00, 20.50)",
-    "alpha-camera: grid: outside the 3-21 live area (5.52, 5.16, 22.00, 20.50)",
-    "beta-camera: grid: outside the 3-21 live area (6.60, 4.08, 22.00, 20.50)",
-    "theta-camera: grid: outside the 3-21 live area (5.88, 3.72, 22.00, 20.50)",
-    "mu-camera: grid: outside the 3-21 live area (6.24, 5.52, 22.00, 20.50)",
-    "phi-camera: grid: outside the 3-21 live area (5.16, 3.36, 22.00, 20.50)",
-    "psi-camera: grid: outside the 3-21 live area (5.16, 3.72, 22.00, 20.50)",
-    "epsilon-camera: grid: outside the 3-21 live area (5.88, 4.80, 22.00, 20.50)",
-    "for-all-camera: grid: outside the 3-21 live area (4.80, 4.08, 22.00, 20.50)",
-    "exists-camera: grid: outside the 3-21 live area (5.52, 4.44, 22.00, 20.50)",
-    "therefore-camera: grid: outside the 3-21 live area (4.37, 4.37, 22.00, 20.50)",
-    "element-of-camera: grid: outside the 3-21 live area (4.80, 4.80, 22.00, 20.50)",
-    "subset-camera: grid: outside the 3-21 live area (4.80, 4.80, 22.00, 20.50)",
-    "chalkboard-camera: grid: outside the 3-21 live area (3.00, 3.36, 22.00, 20.50)",
-    "letter-block-camera: grid: outside the 3-21 live area (3.72, 3.72, 22.00, 20.50)"
+    "teacher-camera: grid: outside the 3-21 live area (3.00, 3.36, 22.00, 20.50)",
+    "desk-globe-camera: grid: outside the 3-21 live area (4.37, 3.36, 22.00, 20.50)",
+    "grade-camera: grid: outside the 3-21 live area (3.72, 4.57, 22.00, 20.50)",
+    "set-square-camera: grid: outside the 3-21 live area (3.72, 3.96, 22.00, 20.50)",
+    "glue-camera: grid: outside the 3-21 live area (6.60, 3.36, 22.00, 20.50)",
+    "diploma-camera: grid: outside the 3-21 live area (3.36, 5.88, 22.00, 20.50)",
+    "pencil-case-camera: grid: outside the 3-21 live area (3.00, 3.00, 22.00, 20.50)",
+    "graduation-cap-camera: grid: outside the 3-21 live area (3.61, 4.21, 22.00, 20.50)",
+    "exam-camera: grid: outside the 3-21 live area (4.08, 3.00, 22.00, 20.50)",
+    "drafting-compass-camera: grid: outside the 3-21 live area (5.16, 3.00, 22.00, 20.50)",
+    "video-lesson-camera: grid: outside the 3-21 live area (3.00, 3.72, 22.00, 20.50)",
+    "generator-camera: grid: outside the 3-21 live area (3.36, 4.44, 22.00, 20.50)",
+    "biofuel-camera: grid: outside the 3-21 live area (5.16, 3.36, 22.00, 20.50)",
+    "cooling-tower-camera: grid: outside the 3-21 live area (5.16, 6.60, 22.00, 20.50)",
+    "fuel-gauge-camera: grid: outside the 3-21 live area (3.72, 5.88, 22.00, 20.50)",
+    "coal-camera: grid: outside the 3-21 live area (3.50, 5.61, 22.00, 20.50)",
+    "gas-flame-camera: grid: outside the 3-21 live area (3.72, 7.32, 22.00, 20.50)",
+    "radiation-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
+    "pylon-camera: grid: outside the 3-21 live area (4.44, 3.72, 22.00, 20.50)",
+    "green-energy-camera: grid: outside the 3-21 live area (4.44, 4.08, 22.00, 20.50)",
+    "oil-barrel-camera: grid: outside the 3-21 live area (5.16, 3.36, 22.00, 20.50)",
+    "power-plant-camera: grid: outside the 3-21 live area (4.08, 6.96, 22.00, 20.50)",
+    "energy-meter-camera: grid: outside the 3-21 live area (4.08, 3.00, 22.00, 20.50)",
+    "hydro-power-camera: grid: outside the 3-21 live area (3.72, 4.44, 22.00, 20.50)",
+    "heat-pump-camera: grid: outside the 3-21 live area (3.36, 4.80, 22.00, 20.50)",
+    "power-strip-camera: grid: outside the 3-21 live area (3.36, 6.96, 22.00, 20.50)",
+    "jerrycan-camera: grid: outside the 3-21 live area (4.08, 3.58, 22.00, 20.50)",
+    "lightbulb-eco-camera: grid: outside the 3-21 live area (5.45, 3.27, 22.00, 20.50)",
+    "dam-camera: grid: outside the 3-21 live area (3.36, 3.72, 22.00, 20.50)",
+    "utility-pole-camera: grid: outside the 3-21 live area (4.44, 3.36, 22.00, 20.50)",
+    "recycle-camera: grid: outside the 3-21 live area (4.58, 3.97, 22.00, 20.50)",
+    "ev-charger-camera: grid: outside the 3-21 live area (3.72, 3.36, 22.00, 20.50)",
+    "power-socket-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
+    "beanie-camera: grid: outside the 3-21 live area (4.08, 3.36, 22.00, 20.50)",
+    "hoodie-camera: grid: outside the 3-21 live area (3.72, 3.00, 22.00, 20.50)",
+    "jacket-camera: grid: outside the 3-21 live area (3.72, 3.72, 22.00, 20.50)",
+    "scarf-camera: grid: outside the 3-21 live area (4.80, 3.36, 22.00, 20.50)",
+    "high-heel-camera: grid: outside the 3-21 live area (3.72, 6.24, 22.00, 20.50)",
+    "belt-camera: grid: outside the 3-21 live area (3.00, 6.24, 22.00, 20.50)",
+    "earring-camera: grid: outside the 3-21 live area (7.18, 3.29, 22.00, 20.50)",
+    "vest-camera: grid: outside the 3-21 live area (4.44, 3.36, 22.00, 20.50)",
+    "swimsuit-camera: grid: outside the 3-21 live area (5.88, 3.36, 22.00, 20.50)",
+    "bucket-hat-camera: grid: outside the 3-21 live area (3.36, 3.72, 22.00, 20.50)",
+    "sandal-camera: grid: outside the 3-21 live area (5.16, 3.36, 22.00, 20.50)",
+    "tiara-camera: grid: outside the 3-21 live area (3.72, 6.96, 22.00, 20.50)",
+    "thread-spool-camera: grid: outside the 3-21 live area (5.16, 3.36, 22.00, 20.50)",
+    "tank-top-camera: grid: outside the 3-21 live area (4.80, 3.36, 22.00, 20.50)",
+    "captain-hat-camera: grid: outside the 3-21 live area (3.72, 5.16, 22.00, 20.50)",
+    "sun-hat-camera: grid: outside the 3-21 live area (3.00, 6.60, 22.00, 20.50)",
+    "makeup-brush-camera: grid: outside the 3-21 live area (5.80, 3.38, 22.00, 20.50)"
   ],
   "duplicates": [
     {
-      "a": "watch-smart-sparkle",
-      "b": "watch-smart-upload",
+      "a": "hoodie-sparkle",
+      "b": "hoodie-upload",
       "distance": 1.41
     },
     {
-      "a": "watch-gear",
-      "b": "watch-smart-gear",
-      "distance": 1.41
-    },
-    {
-      "a": "watch-bolt",
-      "b": "watch-smart-bolt",
-      "distance": 1.41
-    },
-    {
-      "a": "watch-search",
-      "b": "watch-smart-search",
+      "a": "phone-booth-search",
+      "b": "thread-spool-search",
       "distance": 1
     },
     {
-      "a": "watch-clock",
-      "b": "watch-smart-clock",
+      "a": "phone-booth-clock",
+      "b": "thread-spool-clock",
       "distance": 1
     },
     {
-      "a": "watch-shield",
-      "b": "watch-smart-shield",
+      "a": "phone-booth-shield",
+      "b": "thread-spool-shield",
+      "distance": 1.41
+    },
+    {
+      "a": "phone-booth-heart",
+      "b": "thread-spool-heart",
       "distance": 1
     },
     {
-      "a": "watch-star",
-      "b": "watch-smart-star",
-      "distance": 1.41
-    },
-    {
-      "a": "watch-alert",
-      "b": "watch-smart-alert",
-      "distance": 1.41
-    },
-    {
-      "a": "watch-cloud",
-      "b": "watch-smart-cloud",
+      "a": "phone-booth-star",
+      "b": "thread-spool-star",
       "distance": 1
     },
     {
-      "a": "watch-chat",
-      "b": "watch-smart-chat",
+      "a": "phone-booth-chat",
+      "b": "thread-spool-chat",
       "distance": 1
     },
     {
-      "a": "watch-download",
-      "b": "watch-smart-download",
+      "a": "phone-booth-download",
+      "b": "thread-spool-download",
       "distance": 1
     },
     {
-      "a": "watch-pencil",
-      "b": "watch-smart-pencil",
+      "a": "phone-booth-trash",
+      "b": "thread-spool-trash",
       "distance": 1.41
     },
     {
-      "a": "watch-trash",
-      "b": "watch-smart-trash",
-      "distance": 1.41
-    },
-    {
-      "a": "watch-calendar",
-      "b": "watch-smart-calendar",
+      "a": "phone-booth-calendar",
+      "b": "thread-spool-calendar",
       "distance": 1
     },
     {
-      "a": "watch-bookmark",
-      "b": "watch-smart-bookmark",
-      "distance": 1.41
-    },
-    {
-      "a": "watch-question",
-      "b": "watch-smart-question",
+      "a": "phone-booth-question",
+      "b": "thread-spool-question",
       "distance": 1
     },
     {
-      "a": "watch-crown",
-      "b": "watch-smart-crown",
+      "a": "phone-booth-bookmark",
+      "b": "thread-spool-bookmark",
       "distance": 1
     },
     {
-      "a": "watch-leaf",
-      "b": "watch-smart-leaf",
+      "a": "phone-booth-upload",
+      "b": "thread-spool-sparkle",
       "distance": 1.41
     },
     {
-      "a": "watch-hourglass",
-      "b": "watch-smart-hourglass",
-      "distance": 1.41
-    },
-    {
-      "a": "watch-cursor",
-      "b": "watch-smart-cursor",
-      "distance": 1.41
-    },
-    {
-      "a": "watch-camera",
-      "b": "watch-smart-camera",
-      "distance": 1.41
-    },
-    {
-      "a": "watch-filter",
-      "b": "watch-smart-filter",
-      "distance": 1.41
-    },
-    {
-      "a": "watch-stats",
-      "b": "watch-smart-stats",
+      "a": "phone-booth-upload",
+      "b": "thread-spool-upload",
       "distance": 1
     },
     {
-      "a": "watch-checkbox",
-      "b": "watch-smart-checkbox",
+      "a": "phone-booth-trophy",
+      "b": "thread-spool-trophy",
       "distance": 1
     },
     {
-      "a": "trackpad-pencil",
-      "b": "trackpad-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "trackpad-sparkle",
-      "b": "trackpad-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "robot-vacuum-pencil",
-      "b": "robot-vacuum-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "fitness-tracker-clock",
-      "b": "watch-smart-clock",
-      "distance": 1.41
-    },
-    {
-      "a": "fitness-tracker-gear",
-      "b": "watch-smart-gear",
-      "distance": 1.41
-    },
-    {
-      "a": "fitness-tracker-bolt",
-      "b": "watch-smart-bolt",
-      "distance": 1.41
-    },
-    {
-      "a": "fitness-tracker-heart",
-      "b": "watch-smart-heart",
-      "distance": 1.41
-    },
-    {
-      "a": "fitness-tracker-cloud",
-      "b": "watch-smart-cloud",
-      "distance": 1.41
-    },
-    {
-      "a": "fitness-tracker-pencil",
-      "b": "watch-smart-pencil",
-      "distance": 1.41
-    },
-    {
-      "a": "fitness-tracker-trash",
-      "b": "watch-smart-trash",
-      "distance": 1.41
-    },
-    {
-      "a": "fitness-tracker-upload",
-      "b": "watch-smart-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "fitness-tracker-leaf",
-      "b": "watch-smart-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "fitness-tracker-hourglass",
-      "b": "watch-smart-hourglass",
-      "distance": 1.41
-    },
-    {
-      "a": "fitness-tracker-cursor",
-      "b": "watch-smart-cursor",
-      "distance": 1.41
-    },
-    {
-      "a": "fitness-tracker-filter",
-      "b": "watch-smart-filter",
-      "distance": 1.41
-    },
-    {
-      "a": "fitness-tracker-stats",
-      "b": "watch-smart-stats",
-      "distance": 1.41
-    },
-    {
-      "a": "ssd-sparkle",
-      "b": "ssd-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "cooling-fan-gear",
-      "b": "cooling-fan-stats",
-      "distance": 1.41
-    },
-    {
-      "a": "cooling-fan-sparkle",
-      "b": "cooling-fan-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "rotary-phone-pencil",
-      "b": "rotary-phone-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "rotary-phone-sparkle",
-      "b": "rotary-phone-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "watch-smart-heart",
-      "b": "watch-heart",
-      "distance": 1.41
-    },
-    {
-      "a": "index-card-pencil",
-      "b": "index-card-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "index-card-sparkle",
-      "b": "index-card-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "book-stack-pencil",
-      "b": "book-stack-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "book-stack-sparkle",
-      "b": "book-stack-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "atlas-pencil",
-      "b": "atlas-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "atlas-sparkle",
-      "b": "atlas-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "lunch-tray-gear",
-      "b": "lunch-tray-stats",
-      "distance": 1.41
-    },
-    {
-      "a": "lunch-tray-pencil",
-      "b": "lunch-tray-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "lunch-tray-sparkle",
-      "b": "lunch-tray-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "report-card-pencil",
-      "b": "report-card-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "report-card-sparkle",
-      "b": "report-card-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "flashcards-sparkle",
-      "b": "flashcards-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "angle-pencil",
-      "b": "angle-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "perpendicular-pencil",
-      "b": "perpendicular-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "alpha-pencil",
-      "b": "alpha-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "therefore-pencil",
-      "b": "therefore-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "chalkboard-sparkle",
-      "b": "chalkboard-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "letter-block-pencil",
-      "b": "letter-block-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "letter-block-sparkle",
-      "b": "letter-block-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "watch-bell",
-      "b": "watch-smart-bell",
-      "distance": 1.41
-    },
-    {
-      "a": "watch-moon",
-      "b": "watch-smart-moon",
-      "distance": 1.41
-    },
-    {
-      "a": "watch-trophy",
-      "b": "watch-smart-trophy",
-      "distance": 1.41
-    },
-    {
-      "a": "fitness-tracker-bell",
-      "b": "watch-smart-bell",
-      "distance": 1.41
-    },
-    {
-      "a": "fitness-tracker-trophy",
-      "b": "watch-smart-trophy",
-      "distance": 1.41
-    },
-    {
-      "a": "fitness-tracker-fire",
-      "b": "watch-smart-fire",
-      "distance": 1.41
-    },
-    {
-      "a": "usb-c-port-sparkle",
-      "b": "usb-c-port-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "fitness-tracker-sparkle",
-      "b": "fitness-tracker-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "marker-sparkle",
-      "b": "marker-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "asterisk-sparkle",
-      "b": "asterisk-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "pi-sparkle",
-      "b": "pi-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "sigma-sparkle",
-      "b": "sigma-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "integral-sparkle",
-      "b": "integral-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "square-root-sparkle",
-      "b": "square-root-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "plus-minus-sparkle",
-      "b": "plus-minus-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "divide-sparkle",
-      "b": "divide-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "equals-sparkle",
-      "b": "equals-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "not-equal-sparkle",
-      "b": "not-equal-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "approximately-sparkle",
-      "b": "approximately-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "angle-sparkle",
-      "b": "angle-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "perpendicular-sparkle",
-      "b": "perpendicular-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "parallel-sparkle",
-      "b": "parallel-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "less-equal-sparkle",
-      "b": "less-equal-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "greater-equal-sparkle",
-      "b": "greater-equal-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "lambda-sparkle",
-      "b": "lambda-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "omega-sparkle",
-      "b": "omega-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "alpha-sparkle",
-      "b": "alpha-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "beta-sparkle",
-      "b": "beta-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "theta-sparkle",
-      "b": "theta-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "mu-sparkle",
-      "b": "mu-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "phi-sparkle",
-      "b": "phi-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "psi-sparkle",
-      "b": "psi-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "epsilon-sparkle",
-      "b": "epsilon-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "for-all-sparkle",
-      "b": "for-all-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "exists-sparkle",
-      "b": "exists-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "therefore-sparkle",
-      "b": "therefore-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "element-of-sparkle",
-      "b": "element-of-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "subset-sparkle",
-      "b": "subset-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "watch-pin",
-      "b": "watch-smart-pin",
-      "distance": 1.41
-    },
-    {
-      "a": "watch-sparkle",
-      "b": "watch-smart-sparkle",
+      "a": "phone-booth-hourglass",
+      "b": "thread-spool-hourglass",
       "distance": 1
     },
     {
-      "a": "fitness-tracker-pin",
-      "b": "watch-smart-pin",
+      "a": "phone-booth-camera",
+      "b": "thread-spool-camera",
+      "distance": 1
+    },
+    {
+      "a": "phone-booth-filter",
+      "b": "thread-spool-filter",
+      "distance": 1
+    },
+    {
+      "a": "phone-booth-checkbox",
+      "b": "thread-spool-checkbox",
+      "distance": 1
+    },
+    {
+      "a": "greek-column-search",
+      "b": "thread-spool-search",
       "distance": 1.41
     },
     {
-      "a": "fitness-tracker-sparkle",
-      "b": "watch-smart-sparkle",
+      "a": "greek-column-clock",
+      "b": "thread-spool-clock",
       "distance": 1.41
     },
     {
-      "a": "fitness-tracker-user",
-      "b": "watch-smart-user",
+      "a": "greek-column-shield",
+      "b": "thread-spool-shield",
       "distance": 1.41
     },
     {
-      "a": "watch-flag",
-      "b": "watch-smart-flag",
+      "a": "greek-column-gear",
+      "b": "thread-spool-gear",
       "distance": 1.41
     },
     {
-      "a": "fitness-tracker-flag",
-      "b": "watch-smart-flag",
+      "a": "greek-column-user",
+      "b": "thread-spool-user",
       "distance": 1.41
     },
     {
-      "a": "fitness-tracker-shield",
-      "b": "watch-smart-shield",
+      "a": "greek-column-chat",
+      "b": "thread-spool-chat",
       "distance": 1.41
     },
     {
-      "a": "watch-user",
-      "b": "watch-smart-user",
+      "a": "greek-column-download",
+      "b": "thread-spool-download",
       "distance": 1.41
     },
     {
-      "a": "smartphone-sparkle",
-      "b": "smartphone-upload",
+      "a": "greek-column-calendar",
+      "b": "thread-spool-calendar",
+      "distance": 1.41
+    },
+    {
+      "a": "greek-column-question",
+      "b": "thread-spool-question",
+      "distance": 1.41
+    },
+    {
+      "a": "greek-column-trophy",
+      "b": "thread-spool-trophy",
+      "distance": 1.41
+    },
+    {
+      "a": "greek-column-hourglass",
+      "b": "thread-spool-hourglass",
+      "distance": 1.41
+    },
+    {
+      "a": "greek-column-cursor",
+      "b": "thread-spool-cursor",
+      "distance": 1.41
+    },
+    {
+      "a": "greek-column-filter",
+      "b": "thread-spool-filter",
+      "distance": 1.41
+    },
+    {
+      "a": "greek-column-checkbox",
+      "b": "thread-spool-checkbox",
+      "distance": 1.41
+    },
+    {
+      "a": "cap-search",
+      "b": "graduation-cap-search",
+      "distance": 1.41
+    },
+    {
+      "a": "cap-clock",
+      "b": "graduation-cap-clock",
+      "distance": 1.41
+    },
+    {
+      "a": "cap-shield",
+      "b": "graduation-cap-shield",
+      "distance": 1.41
+    },
+    {
+      "a": "cap-user",
+      "b": "graduation-cap-user",
+      "distance": 1.41
+    },
+    {
+      "a": "cap-chat",
+      "b": "graduation-cap-chat",
+      "distance": 1.41
+    },
+    {
+      "a": "cap-download",
+      "b": "graduation-cap-download",
+      "distance": 1.41
+    },
+    {
+      "a": "cap-bookmark",
+      "b": "graduation-cap-bookmark",
+      "distance": 1.41
+    },
+    {
+      "a": "cap-question",
+      "b": "graduation-cap-question",
+      "distance": 1.41
+    },
+    {
+      "a": "cap-hourglass",
+      "b": "graduation-cap-hourglass",
+      "distance": 1.41
+    },
+    {
+      "a": "cap-cursor",
+      "b": "graduation-cap-cursor",
+      "distance": 1.41
+    },
+    {
+      "a": "cap-checkbox",
+      "b": "graduation-cap-checkbox",
+      "distance": 1.41
+    },
+    {
+      "a": "teacher-sparkle",
+      "b": "teacher-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "desk-globe-sparkle",
+      "b": "desk-globe-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "set-square-pencil",
+      "b": "set-square-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "pencil-case-pencil",
+      "b": "pencil-case-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "exam-pencil",
+      "b": "exam-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "exam-sparkle",
+      "b": "exam-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "video-lesson-sparkle",
+      "b": "video-lesson-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "generator-gear",
+      "b": "generator-stats",
+      "distance": 1.41
+    },
+    {
+      "a": "generator-pencil",
+      "b": "generator-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "generator-sparkle",
+      "b": "generator-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "gas-flame-pencil",
+      "b": "gas-flame-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "gas-flame-sparkle",
+      "b": "gas-flame-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "radiation-pencil",
+      "b": "radiation-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "pylon-sparkle",
+      "b": "pylon-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "oil-barrel-sparkle",
+      "b": "oil-barrel-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "power-plant-pencil",
+      "b": "power-plant-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "power-plant-sparkle",
+      "b": "power-plant-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "energy-meter-pencil",
+      "b": "energy-meter-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "energy-meter-sparkle",
+      "b": "energy-meter-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "heat-pump-gear",
+      "b": "heat-pump-stats",
+      "distance": 1.41
+    },
+    {
+      "a": "heat-pump-pencil",
+      "b": "heat-pump-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "heat-pump-sparkle",
+      "b": "heat-pump-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "jerrycan-pencil",
+      "b": "jerrycan-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "ev-charger-sparkle",
+      "b": "ev-charger-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "power-socket-pencil",
+      "b": "power-socket-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "beanie-pencil",
+      "b": "beanie-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "beanie-sparkle",
+      "b": "beanie-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "jacket-pencil",
+      "b": "jacket-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "jacket-sparkle",
+      "b": "jacket-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "scarf-sparkle",
+      "b": "scarf-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "high-heel-pencil",
+      "b": "high-heel-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "belt-sparkle",
+      "b": "belt-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "vest-pencil",
+      "b": "vest-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "tiara-pencil",
+      "b": "tiara-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "thread-spool-pencil",
+      "b": "thread-spool-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "thread-spool-sparkle",
+      "b": "thread-spool-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "tank-top-pencil",
+      "b": "tank-top-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "captain-hat-sparkle",
+      "b": "captain-hat-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "phone-booth-moon",
+      "b": "thread-spool-moon",
+      "distance": 1
+    },
+    {
+      "a": "greek-column-moon",
+      "b": "thread-spool-moon",
+      "distance": 1.41
+    },
+    {
+      "a": "cap-bell",
+      "b": "graduation-cap-bell",
+      "distance": 1.41
+    },
+    {
+      "a": "cap-moon",
+      "b": "graduation-cap-moon",
+      "distance": 1.41
+    },
+    {
+      "a": "cap-trophy",
+      "b": "graduation-cap-trophy",
+      "distance": 1.41
+    },
+    {
+      "a": "phone-booth-pin",
+      "b": "thread-spool-pin",
+      "distance": 1
+    },
+    {
+      "a": "phone-booth-bell",
+      "b": "thread-spool-bell",
+      "distance": 1
+    },
+    {
+      "a": "phone-booth-flag",
+      "b": "thread-spool-flag",
+      "distance": 1
+    },
+    {
+      "a": "greek-column-pin",
+      "b": "thread-spool-pin",
+      "distance": 1.41
+    },
+    {
+      "a": "greek-column-bell",
+      "b": "thread-spool-bell",
+      "distance": 1.41
+    },
+    {
+      "a": "greek-column-flag",
+      "b": "thread-spool-flag",
+      "distance": 1.41
+    },
+    {
+      "a": "cap-pin",
+      "b": "graduation-cap-pin",
+      "distance": 1.41
+    },
+    {
+      "a": "grade-sparkle",
+      "b": "grade-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "set-square-sparkle",
+      "b": "set-square-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "glue-sparkle",
+      "b": "glue-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "diploma-sparkle",
+      "b": "diploma-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "graduation-cap-sparkle",
+      "b": "graduation-cap-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "biofuel-sparkle",
+      "b": "biofuel-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "cooling-tower-sparkle",
+      "b": "cooling-tower-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "fuel-gauge-sparkle",
+      "b": "fuel-gauge-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "coal-sparkle",
+      "b": "coal-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "green-energy-sparkle",
+      "b": "green-energy-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "hydro-power-sparkle",
+      "b": "hydro-power-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "power-strip-sparkle",
+      "b": "power-strip-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "jerrycan-sparkle",
+      "b": "jerrycan-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "lightbulb-eco-sparkle",
+      "b": "lightbulb-eco-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "dam-sparkle",
+      "b": "dam-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "utility-pole-sparkle",
+      "b": "utility-pole-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "recycle-sparkle",
+      "b": "recycle-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "high-heel-sparkle",
+      "b": "high-heel-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "vest-sparkle",
+      "b": "vest-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "swimsuit-sparkle",
+      "b": "swimsuit-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "sandal-sparkle",
+      "b": "sandal-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "tiara-sparkle",
+      "b": "tiara-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "tank-top-sparkle",
+      "b": "tank-top-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "sun-hat-sparkle",
+      "b": "sun-hat-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "makeup-brush-sparkle",
+      "b": "makeup-brush-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "drafting-compass-sparkle",
+      "b": "drafting-compass-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "earring-sparkle",
+      "b": "earring-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "power-socket-sparkle",
+      "b": "power-socket-upload",
       "distance": 1.41
     }
   ],
   "dropped": [
-    "watch-smart-upload",
-    "watch-smart-gear",
-    "watch-smart-bolt",
-    "watch-smart-search",
-    "watch-smart-clock",
-    "watch-smart-shield",
-    "watch-smart-star",
-    "watch-smart-alert",
-    "watch-smart-cloud",
-    "watch-smart-chat",
-    "watch-smart-download",
-    "watch-smart-pencil",
-    "watch-smart-trash",
-    "watch-smart-calendar",
-    "watch-smart-bookmark",
-    "watch-smart-question",
-    "watch-smart-crown",
-    "watch-smart-leaf",
-    "watch-smart-hourglass",
-    "watch-smart-cursor",
-    "watch-smart-camera",
-    "watch-smart-filter",
-    "watch-smart-stats",
-    "watch-smart-checkbox",
-    "trackpad-leaf",
-    "trackpad-upload",
-    "robot-vacuum-leaf",
-    "watch-smart-heart",
-    "ssd-upload",
-    "cooling-fan-stats",
-    "cooling-fan-upload",
-    "rotary-phone-leaf",
-    "rotary-phone-upload",
-    "index-card-leaf",
-    "index-card-upload",
-    "book-stack-leaf",
-    "book-stack-upload",
-    "atlas-leaf",
-    "atlas-upload",
-    "lunch-tray-stats",
-    "lunch-tray-leaf",
-    "lunch-tray-upload",
-    "report-card-leaf",
-    "report-card-upload",
-    "flashcards-upload",
-    "angle-leaf",
-    "perpendicular-leaf",
-    "alpha-leaf",
-    "therefore-leaf",
-    "chalkboard-upload",
-    "letter-block-leaf",
-    "letter-block-upload",
-    "watch-smart-bell",
-    "watch-smart-moon",
-    "watch-smart-trophy",
-    "watch-smart-fire",
-    "usb-c-port-upload",
-    "fitness-tracker-upload",
-    "marker-upload",
-    "asterisk-upload",
-    "pi-upload",
-    "sigma-upload",
-    "integral-upload",
-    "square-root-upload",
-    "plus-minus-upload",
-    "divide-upload",
-    "equals-upload",
-    "not-equal-upload",
-    "approximately-upload",
-    "angle-upload",
-    "perpendicular-upload",
-    "parallel-upload",
-    "less-equal-upload",
-    "greater-equal-upload",
-    "lambda-upload",
-    "omega-upload",
-    "alpha-upload",
-    "beta-upload",
-    "theta-upload",
-    "mu-upload",
-    "phi-upload",
-    "psi-upload",
-    "epsilon-upload",
-    "for-all-upload",
-    "exists-upload",
-    "therefore-upload",
-    "element-of-upload",
-    "subset-upload",
-    "watch-smart-pin",
-    "watch-smart-sparkle",
-    "watch-smart-user",
-    "watch-smart-flag",
-    "smartphone-upload"
+    "hoodie-upload",
+    "thread-spool-search",
+    "thread-spool-clock",
+    "thread-spool-shield",
+    "thread-spool-heart",
+    "thread-spool-star",
+    "thread-spool-chat",
+    "thread-spool-download",
+    "thread-spool-trash",
+    "thread-spool-calendar",
+    "thread-spool-question",
+    "thread-spool-bookmark",
+    "thread-spool-sparkle",
+    "thread-spool-upload",
+    "thread-spool-trophy",
+    "thread-spool-hourglass",
+    "thread-spool-camera",
+    "thread-spool-filter",
+    "thread-spool-checkbox",
+    "thread-spool-gear",
+    "thread-spool-user",
+    "thread-spool-cursor",
+    "graduation-cap-search",
+    "graduation-cap-clock",
+    "graduation-cap-shield",
+    "graduation-cap-user",
+    "graduation-cap-chat",
+    "graduation-cap-download",
+    "graduation-cap-bookmark",
+    "graduation-cap-question",
+    "graduation-cap-hourglass",
+    "graduation-cap-cursor",
+    "graduation-cap-checkbox",
+    "teacher-upload",
+    "desk-globe-upload",
+    "set-square-leaf",
+    "pencil-case-leaf",
+    "exam-leaf",
+    "exam-upload",
+    "video-lesson-upload",
+    "generator-stats",
+    "generator-leaf",
+    "generator-upload",
+    "gas-flame-leaf",
+    "gas-flame-upload",
+    "radiation-leaf",
+    "pylon-upload",
+    "oil-barrel-upload",
+    "power-plant-leaf",
+    "power-plant-upload",
+    "energy-meter-leaf",
+    "energy-meter-upload",
+    "heat-pump-stats",
+    "heat-pump-leaf",
+    "heat-pump-upload",
+    "jerrycan-leaf",
+    "ev-charger-upload",
+    "power-socket-leaf",
+    "beanie-leaf",
+    "beanie-upload",
+    "jacket-leaf",
+    "jacket-upload",
+    "scarf-upload",
+    "high-heel-leaf",
+    "belt-upload",
+    "vest-leaf",
+    "tiara-leaf",
+    "thread-spool-leaf",
+    "tank-top-leaf",
+    "captain-hat-upload",
+    "thread-spool-moon",
+    "graduation-cap-bell",
+    "graduation-cap-moon",
+    "graduation-cap-trophy",
+    "thread-spool-pin",
+    "thread-spool-bell",
+    "thread-spool-flag",
+    "graduation-cap-pin",
+    "grade-upload",
+    "set-square-upload",
+    "glue-upload",
+    "diploma-upload",
+    "graduation-cap-upload",
+    "biofuel-upload",
+    "cooling-tower-upload",
+    "fuel-gauge-upload",
+    "coal-upload",
+    "green-energy-upload",
+    "hydro-power-upload",
+    "power-strip-upload",
+    "jerrycan-upload",
+    "lightbulb-eco-upload",
+    "dam-upload",
+    "utility-pole-upload",
+    "recycle-upload",
+    "high-heel-upload",
+    "vest-upload",
+    "swimsuit-upload",
+    "sandal-upload",
+    "tiara-upload",
+    "tank-top-upload",
+    "sun-hat-upload",
+    "makeup-brush-upload",
+    "drafting-compass-upload",
+    "earring-upload",
+    "power-socket-upload"
   ],
   "byCategory": {
     "accessibility": 53,
@@ -728,11 +789,11 @@
     "data": 520,
     "design": 825,
     "development": 615,
-    "devices": 2058,
-    "education": 1987,
+    "devices": 2027,
+    "education": 1391,
     "emoji": 72,
-    "energy": 359,
-    "fashion": 1253,
+    "energy": 1033,
+    "fashion": 1759,
     "files": 511,
     "finance": 847,
     "food": 4056,

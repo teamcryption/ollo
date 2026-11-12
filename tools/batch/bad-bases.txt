@@ -207,3 +207,9 @@ type
 usb-c-port
 variable
 vote
+grade
+exam
+cooling-tower
+coal
+jerrycan
+sandal
