@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-12T12:36:43.106Z",
-  "icons": 31874,
-  "files": 159370,
+  "generatedAt": "2026-11-12T13:23:02.883Z",
+  "icons": 32998,
+  "files": 164990,
   "errors": [],
   "warnings": [
     "wheelchair-camera: grid: outside the 3-21 live area (3.51, 2.60, 22.00, 20.50)",
@@ -83,7 +83,6 @@
     "beehive-camera: grid: outside the 3-21 live area (3.50, 5.50, 22.00, 20.50)",
     "bear-camera: grid: outside the 3-21 live area (3.50, 4.40, 22.00, 20.50)",
     "chick-camera: grid: outside the 3-21 live area (4.50, 6.00, 22.00, 20.50)",
-    "snake-camera: grid: outside the 3-21 live area (4.00, 7.10, 22.00, 20.50)",
     "nest-camera: grid: outside the 3-21 live area (3.50, 8.00, 22.00, 20.50)",
     "factory-camera: grid: outside the 3-21 live area (3.00, 4.50, 22.00, 20.50)",
     "castle-camera: grid: outside the 3-21 live area (3.50, 5.50, 22.00, 20.50)",
@@ -809,7 +808,6 @@
     "checkbox-list-camera: grid: outside the 3-21 live area (3.00, 4.00, 22.00, 20.50)",
     "dropdown-camera: grid: outside the 3-21 live area (3.00, 6.50, 22.00, 20.50)",
     "eye-closed-camera: grid: outside the 3-21 live area (3.50, 9.50, 22.00, 20.50)",
-    "infinity-camera: grid: outside the 3-21 live area (3.00, 8.00, 22.00, 20.50)",
     "dashboard: accent: no floating accent",
     "sliders: accent: no floating accent",
     "close-circle: accent: no floating accent",
@@ -1244,24 +1242,14 @@
     "duplicate: face-surprised ~ face-sleepy (shape distance 1px)",
     "duplicate: face-sleepy ~ face-kiss (shape distance 1px)",
     "duplicate: face-love ~ face-star-struck (shape distance 1px)",
-    "duplicate: lock ~ lock-open (shape distance 1px)"
+    "duplicate: lock ~ lock-open (shape distance 1px)",
+    "duplicate: candy-cane-check ~ candy-cane-close (shape distance 1.41px)",
+    "duplicate: bedtime-add ~ bedtime-check (shape distance 1px)",
+    "duplicate: bedtime-add ~ bedtime-close (shape distance 1.41px)",
+    "duplicate: bedtime-check ~ bedtime-close (shape distance 1.41px)",
+    "duplicate: bib-check ~ bib-close (shape distance 1.41px)"
   ],
   "duplicates": [
-    {
-      "a": "nest-pencil",
-      "b": "nest-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "bear-sparkle",
-      "b": "bear-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "elevator-pencil",
-      "b": "elevator-leaf",
-      "distance": 1.41
-    },
     {
       "a": "face-smile",
       "b": "face-wink",
@@ -1288,424 +1276,211 @@
       "distance": 1
     },
     {
-      "a": "bowtie-search",
-      "b": "infinity-search",
-      "distance": 1.41
-    },
-    {
-      "a": "bowtie-clock",
-      "b": "infinity-clock",
-      "distance": 1.41
-    },
-    {
-      "a": "bowtie-gear",
-      "b": "infinity-gear",
-      "distance": 1.41
-    },
-    {
-      "a": "bowtie-bolt",
-      "b": "infinity-bolt",
-      "distance": 1.41
-    },
-    {
-      "a": "bowtie-heart",
-      "b": "infinity-heart",
-      "distance": 1.41
-    },
-    {
-      "a": "bowtie-star",
-      "b": "infinity-star",
-      "distance": 1.41
-    },
-    {
-      "a": "bowtie-alert",
-      "b": "infinity-alert",
-      "distance": 1.41
-    },
-    {
-      "a": "bowtie-cloud",
-      "b": "infinity-cloud",
-      "distance": 1.41
-    },
-    {
-      "a": "bowtie-chat",
-      "b": "infinity-chat",
-      "distance": 1.41
-    },
-    {
-      "a": "bowtie-download",
-      "b": "infinity-download",
-      "distance": 1.41
-    },
-    {
-      "a": "bowtie-pencil",
-      "b": "infinity-pencil",
-      "distance": 1.41
-    },
-    {
-      "a": "bowtie-pencil",
-      "b": "infinity-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "bowtie-trash",
-      "b": "infinity-trash",
-      "distance": 1.41
-    },
-    {
-      "a": "bowtie-calendar",
-      "b": "infinity-calendar",
-      "distance": 1.41
-    },
-    {
-      "a": "bowtie-bookmark",
-      "b": "infinity-bookmark",
-      "distance": 1.41
-    },
-    {
-      "a": "bowtie-question",
-      "b": "infinity-question",
-      "distance": 1.41
-    },
-    {
-      "a": "bowtie-crown",
-      "b": "infinity-crown",
-      "distance": 1.41
-    },
-    {
-      "a": "bowtie-hourglass",
-      "b": "infinity-hourglass",
-      "distance": 1.41
-    },
-    {
-      "a": "bowtie-cursor",
-      "b": "infinity-cursor",
-      "distance": 1.41
-    },
-    {
-      "a": "bowtie-camera",
-      "b": "infinity-camera",
-      "distance": 1.41
-    },
-    {
-      "a": "bowtie-filter",
-      "b": "infinity-filter",
-      "distance": 1.41
-    },
-    {
-      "a": "bowtie-stats",
-      "b": "infinity-stats",
-      "distance": 1.41
-    },
-    {
-      "a": "bowtie-checkbox",
-      "b": "infinity-checkbox",
-      "distance": 1.41
-    },
-    {
-      "a": "glasses-search",
-      "b": "infinity-search",
-      "distance": 1.41
-    },
-    {
-      "a": "glasses-heart",
-      "b": "infinity-heart",
-      "distance": 1.41
-    },
-    {
-      "a": "glasses-star",
-      "b": "infinity-star",
-      "distance": 1.41
-    },
-    {
-      "a": "glasses-chat",
-      "b": "infinity-chat",
-      "distance": 1.41
-    },
-    {
-      "a": "glasses-download",
-      "b": "infinity-download",
-      "distance": 1.41
-    },
-    {
-      "a": "glasses-pencil",
-      "b": "infinity-pencil",
-      "distance": 1.41
-    },
-    {
-      "a": "glasses-pencil",
-      "b": "infinity-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "glasses-calendar",
-      "b": "infinity-calendar",
-      "distance": 1.41
-    },
-    {
-      "a": "glasses-upload",
-      "b": "infinity-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "glasses-bookmark",
-      "b": "infinity-bookmark",
-      "distance": 1.41
-    },
-    {
-      "a": "glasses-question",
-      "b": "infinity-question",
-      "distance": 1.41
-    },
-    {
-      "a": "glasses-crown",
-      "b": "infinity-crown",
-      "distance": 1.41
-    },
-    {
-      "a": "glasses-camera",
-      "b": "infinity-camera",
-      "distance": 1.41
-    },
-    {
-      "a": "glasses-filter",
-      "b": "infinity-filter",
-      "distance": 1.41
-    },
-    {
-      "a": "glasses-stats",
-      "b": "infinity-stats",
-      "distance": 1.41
-    },
-    {
-      "a": "glasses-checkbox",
-      "b": "infinity-checkbox",
-      "distance": 1.41
-    },
-    {
-      "a": "rock-pencil",
-      "b": "rock-leaf",
-      "distance": 1.41
-    },
-    {
       "a": "lock",
       "b": "lock-open",
       "distance": 1
     },
     {
-      "a": "bowtie-bell",
-      "b": "infinity-bell",
+      "a": "candy-cane-check",
+      "b": "candy-cane-close",
       "distance": 1.41
     },
     {
-      "a": "bowtie-moon",
-      "b": "infinity-moon",
+      "a": "at-sign-add",
+      "b": "chart-donut-add",
       "distance": 1.41
     },
     {
-      "a": "bowtie-trophy",
-      "b": "infinity-trophy",
+      "a": "at-sign-check",
+      "b": "chart-donut-check",
       "distance": 1.41
     },
     {
-      "a": "glasses-bell",
-      "b": "infinity-bell",
+      "a": "at-sign-close",
+      "b": "chart-donut-close",
       "distance": 1.41
     },
     {
-      "a": "glasses-moon",
-      "b": "infinity-moon",
+      "a": "cursor-zoom-add",
+      "b": "cursor-wait-add",
+      "distance": 0
+    },
+    {
+      "a": "cursor-zoom-add",
+      "b": "cursor-help-add",
+      "distance": 0
+    },
+    {
+      "a": "cursor-zoom-check",
+      "b": "cursor-wait-check",
+      "distance": 0
+    },
+    {
+      "a": "cursor-zoom-check",
+      "b": "cursor-help-check",
+      "distance": 0
+    },
+    {
+      "a": "cursor-zoom-close",
+      "b": "cursor-wait-close",
+      "distance": 0
+    },
+    {
+      "a": "cursor-zoom-close",
+      "b": "cursor-help-close",
+      "distance": 0
+    },
+    {
+      "a": "cursor-wait-add",
+      "b": "cursor-help-add",
+      "distance": 0
+    },
+    {
+      "a": "cursor-wait-check",
+      "b": "cursor-help-check",
+      "distance": 0
+    },
+    {
+      "a": "cursor-wait-close",
+      "b": "cursor-help-close",
+      "distance": 0
+    },
+    {
+      "a": "bedtime-add",
+      "b": "bedtime-check",
+      "distance": 1
+    },
+    {
+      "a": "bedtime-add",
+      "b": "bedtime-close",
       "distance": 1.41
     },
     {
-      "a": "bowtie-fire",
-      "b": "infinity-fire",
+      "a": "bedtime-check",
+      "b": "bedtime-close",
       "distance": 1.41
     },
     {
-      "a": "glasses-fire",
-      "b": "infinity-fire",
+      "a": "database-backup-add",
+      "b": "database-add",
+      "distance": 0
+    },
+    {
+      "a": "database-backup-check",
+      "b": "database-check",
+      "distance": 0
+    },
+    {
+      "a": "database-backup-close",
+      "b": "database-close",
+      "distance": 0
+    },
+    {
+      "a": "bib-check",
+      "b": "bib-close",
       "distance": 1.41
     },
     {
-      "a": "snake-sparkle",
-      "b": "snake-upload",
+      "a": "cursor-zoom-add",
+      "b": "cursor-gear",
       "distance": 1.41
     },
     {
-      "a": "nest-sparkle",
-      "b": "nest-upload",
+      "a": "cursor-zoom-close",
+      "b": "cursor-gear",
       "distance": 1.41
     },
     {
-      "a": "escalator-sparkle",
-      "b": "escalator-upload",
+      "a": "cursor-wait-add",
+      "b": "cursor-gear",
       "distance": 1.41
     },
     {
-      "a": "bowtie-shield",
-      "b": "infinity-shield",
+      "a": "cursor-wait-close",
+      "b": "cursor-gear",
       "distance": 1.41
     },
     {
-      "a": "bowtie-pin",
-      "b": "infinity-pin",
+      "a": "cursor-gear",
+      "b": "cursor-help-add",
       "distance": 1.41
     },
     {
-      "a": "bowtie-user",
-      "b": "infinity-user",
+      "a": "cursor-gear",
+      "b": "cursor-help-close",
       "distance": 1.41
     },
     {
-      "a": "bowtie-sparkle",
-      "b": "infinity-sparkle",
+      "a": "calendar-week-add",
+      "b": "calendar-note-add",
       "distance": 1.41
     },
     {
-      "a": "bowtie-sparkle",
-      "b": "infinity-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "bowtie-flag",
-      "b": "infinity-flag",
-      "distance": 1.41
-    },
-    {
-      "a": "glasses-pin",
-      "b": "infinity-pin",
-      "distance": 1.41
-    },
-    {
-      "a": "glasses-user",
-      "b": "infinity-user",
-      "distance": 1.41
-    },
-    {
-      "a": "glasses-sparkle",
-      "b": "infinity-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "glasses-sparkle",
-      "b": "infinity-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "infinity-sparkle",
-      "b": "infinity-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "grass-sparkle",
-      "b": "grass-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "rock-sparkle",
-      "b": "rock-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "trowel-sparkle",
-      "b": "trowel-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "bus-stop-sparkle",
-      "b": "bus-stop-upload",
+      "a": "calendar-week-check",
+      "b": "calendar-note-check",
       "distance": 1.41
     }
   ],
   "dropped": [
-    "nest-leaf",
-    "bear-upload",
-    "elevator-leaf",
-    "infinity-search",
-    "infinity-clock",
-    "infinity-gear",
-    "infinity-bolt",
-    "infinity-heart",
-    "infinity-star",
-    "infinity-alert",
-    "infinity-cloud",
-    "infinity-chat",
-    "infinity-download",
-    "infinity-pencil",
-    "infinity-leaf",
-    "infinity-trash",
-    "infinity-calendar",
-    "infinity-bookmark",
-    "infinity-question",
-    "infinity-crown",
-    "infinity-hourglass",
-    "infinity-cursor",
-    "infinity-camera",
-    "infinity-filter",
-    "infinity-stats",
-    "infinity-checkbox",
-    "infinity-upload",
-    "rock-leaf",
-    "infinity-bell",
-    "infinity-moon",
-    "infinity-trophy",
-    "infinity-fire",
-    "snake-upload",
-    "nest-upload",
-    "escalator-upload",
-    "infinity-shield",
-    "infinity-pin",
-    "infinity-user",
-    "infinity-sparkle",
-    "infinity-flag",
-    "grass-upload",
-    "rock-upload",
-    "trowel-upload",
-    "bus-stop-upload"
+    "chart-donut-add",
+    "chart-donut-check",
+    "chart-donut-close",
+    "cursor-wait-add",
+    "cursor-help-add",
+    "cursor-wait-check",
+    "cursor-help-check",
+    "cursor-wait-close",
+    "cursor-help-close",
+    "database-backup-add",
+    "database-backup-check",
+    "database-backup-close",
+    "cursor-zoom-add",
+    "cursor-zoom-close",
+    "calendar-note-add",
+    "calendar-note-check"
   ],
   "byCategory": {
     "accessibility": 53,
     "actions": 44,
-    "ai": 278,
-    "animals": 1379,
+    "ai": 446,
+    "animals": 1386,
     "arrows": 121,
-    "buildings": 908,
-    "business": 988,
-    "celebration": 856,
-    "commerce": 923,
-    "communication": 958,
-    "data": 345,
-    "design": 716,
-    "development": 518,
-    "devices": 1136,
-    "education": 682,
+    "buildings": 950,
+    "business": 997,
+    "celebration": 895,
+    "commerce": 926,
+    "communication": 964,
+    "data": 441,
+    "design": 752,
+    "development": 557,
+    "devices": 1145,
+    "education": 700,
     "emoji": 72,
-    "energy": 256,
-    "fashion": 1021,
-    "files": 383,
-    "finance": 763,
-    "food": 3492,
-    "gaming": 796,
-    "health": 1127,
-    "home": 2158,
-    "interface": 890,
-    "logistics": 396,
-    "maps": 189,
-    "media": 1165,
-    "nature": 1356,
+    "energy": 268,
+    "fashion": 1057,
+    "files": 386,
+    "finance": 772,
+    "food": 3621,
+    "gaming": 838,
+    "health": 1157,
+    "home": 2236,
+    "interface": 939,
+    "logistics": 420,
+    "maps": 210,
+    "media": 1177,
+    "nature": 1398,
     "navigation": 35,
     "notifications": 50,
-    "people": 698,
-    "science": 585,
-    "security": 357,
+    "people": 710,
+    "science": 615,
+    "security": 360,
     "social": 160,
-    "sports": 1344,
+    "sports": 1383,
     "text": 334,
-    "time": 194,
-    "tools": 1156,
-    "transport": 1280,
-    "travel": 1118,
+    "time": 207,
+    "tools": 1177,
+    "transport": 1316,
+    "travel": 1157,
     "weather": 550
   }
 }
