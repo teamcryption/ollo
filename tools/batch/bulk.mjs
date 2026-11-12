@@ -47,7 +47,7 @@ Object.assign(M, {
   camera: `body('M13 15.2a1.2 1.2 0 0 1 1.2-1.2h1.2l.8-1.2h2.6l.8 1.2h1.2a1.2 1.2 0 0 1 1.2 1.2v4.1a1.2 1.2 0 0 1-1.2 1.2h-5.6a1.2 1.2 0 0 1-1.2-1.2Z', { cover: true }), line(C(17, 17.2, 1.4))`,
   filter: `body(poly([[13, 13], [21, 13], [18, 16.8], [18, 20.5], [16, 19.5], [16, 16.8]], 0.5, true), { cover: true })`,
   stats: `body(R(13.3, 16.8, 2.2, 3.7, 0.6), { cover: true }), body(R(15.9, 14.8, 2.2, 5.7, 0.6), { cover: true }), body(R(18.5, 12.5, 2.2, 8, 0.6), { cover: true })`,
-  truck: `body(R(12.8, 13.8, 5.4, 4.8, 0.7), { cover: true }), body('M18.2 15.2h1.6l1.2 1.6v1.8h-2.8Z', { cover: true }), line(D(14.6, 19.9) + D(19.3, 19.9))`,
+  truck_disabled: `body(R(12.8, 13.8, 5.4, 4.8, 0.7), { cover: true }), body('M18.2 15.2h1.6l1.2 1.6v1.8h-2.8Z', { cover: true }), line(D(14.6, 19.9) + D(19.3, 19.9))`,
   bulb: `body('M17 12.3a3.4 3.4 0 0 1 2 6.1v.8h-4v-.8a3.4 3.4 0 0 1 2-6.1Z', { cover: true }), line('M15.6 20.7h2.8')`,
   alert: `body(poly([[17, 11.5], [21.3, 20.5], [12.7, 20.5]], 0.9, true), { cover: true }), line('M17 15v2.3'), line(D(17, 19.1))`,
 });
