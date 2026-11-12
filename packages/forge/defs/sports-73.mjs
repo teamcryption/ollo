@@ -1,0 +1,24 @@
+import { icon, body, line, accent } from '../src/dsl.mjs';
+import { R, C, E, L, A, D, poly, star, head, gear, rotateD, translateD, scaleD } from '../src/geo.mjs';
+
+const rot = (els, deg, cx = 12, cy = 12) => els.map((e) => ({ ...e, d: rotateD(e.d, deg, cx, cy) }));
+const spark = (x, y, r) => accent(star(x, y, r, r * 0.32, 4, 0.2));
+
+export default {
+  category: 'sports',
+  icons: [
+    icon('trophy-bulb', 'Trophy Ideas', ['idea', 'tip', 'insight', 'trophy', 'trophy'], [body('M5.5 4h8v3.5a4 4 0 0 1-8 0Z'), line('M5.5 5.5H4a1.5 1.5 0 0 0 0 3h1.7M13.5 5.5H15a1.5 1.5 0 0 1 0 3h-1.7M9.5 11.5V15'), body(R(6.5, 15.5, 6, 2.5, 0.8)), body('M17 12.3a3.4 3.4 0 0 1 2 6.1v.8h-4v-.8a3.4 3.4 0 0 1 2-6.1Z', { cover: true }), line('M15.6 20.7h2.8')], { noAccent: true }),
+    icon('whistle-bulb', 'Whistle Ideas', ['idea', 'tip', 'insight', 'whistle', 'whistle'], [line('M5.6 9.4 4 6'), body('M8.5 8.5h7V12h-3.4A3.8 3.8 0 1 1 8.5 8.5Z'), line(D(8.3, 12.3)), body('M17 12.3a3.4 3.4 0 0 1 2 6.1v.8h-4v-.8a3.4 3.4 0 0 1 2-6.1Z', { cover: true }), line('M15.6 20.7h2.8')], { noAccent: true }),
+    icon('podium-bulb', 'Podium Ideas', ['idea', 'tip', 'insight', 'podium', 'podium'], [body(poly([[3, 18], [3, 12], [7, 12], [7, 8.5], [12, 8.5], [12, 14], [16, 14], [16, 18]], 0.6, true)), line('M9.5 10.5v2'), body('M17 12.3a3.4 3.4 0 0 1 2 6.1v.8h-4v-.8a3.4 3.4 0 0 1 2-6.1Z', { cover: true }), line('M15.6 20.7h2.8')], { noAccent: true }),
+    icon('tennis-ball-bulb', 'Tennis Ball Ideas', ['idea', 'tip', 'insight', 'tennis ball', 'tennis-ball'], [body(C(9.5, 10.5, 6.5)), line('M5 5.8c2.5 2.5 2.5 7 0 9.5M14 5.8c-2.5 2.5-2.5 7 0 9.5'), body('M17 12.3a3.4 3.4 0 0 1 2 6.1v.8h-4v-.8a3.4 3.4 0 0 1 2-6.1Z', { cover: true }), line('M15.6 20.7h2.8')], { noAccent: true }),
+    icon('skateboard-bulb', 'Skateboard Ideas', ['idea', 'tip', 'insight', 'skateboard', 'skateboard'], [body(R(3, 10, 13, 2.6, 1.3)), line(C(6, 15.3, 1.3)), line(C(13, 15.3, 1.3)), body('M17 12.3a3.4 3.4 0 0 1 2 6.1v.8h-4v-.8a3.4 3.4 0 0 1 2-6.1Z', { cover: true }), line('M15.6 20.7h2.8')], { noAccent: true }),
+    icon('bowling-pin-bulb', 'Bowling Pin Ideas', ['idea', 'tip', 'insight', 'bowling pin', 'bowling-pin'], [body('M9.5 3.5c1.3 0 2 1 2 2.3 0 1.2-.7 1.8-.7 2.7 0 1 2.2 2.5 2.2 5.5 0 2.5-1.5 4.5-3.5 4.5S6 16.5 6 14c0-3 2.2-4.5 2.2-5.5 0-.9-.7-1.5-.7-2.7 0-1.3.7-2.3 2-2.3Z'), line('M8.2 8.5h2.6'), body('M17 12.3a3.4 3.4 0 0 1 2 6.1v.8h-4v-.8a3.4 3.4 0 0 1 2-6.1Z', { cover: true }), line('M15.6 20.7h2.8')], { noAccent: true }),
+    icon('basketball-bulb', 'Basketball Ideas', ['idea', 'tip', 'insight', 'basketball', 'basketball'], [body(C(9.5, 10.5, 6.5)), line('M3 10.5h13M9.5 4v13'), line('M5 5.5c2 2.5 2 7.5 0 10M14 5.5c-2 2.5-2 7.5 0 10'), body('M17 12.3a3.4 3.4 0 0 1 2 6.1v.8h-4v-.8a3.4 3.4 0 0 1 2-6.1Z', { cover: true }), line('M15.6 20.7h2.8')], { noAccent: true }),
+    icon('roller-skate-bulb', 'Roller Skate Ideas', ['idea', 'tip', 'insight', 'roller skate', 'roller-skate'], [body('M5 3.5h4v6l4.5 1.5a2 2 0 0 1 1.5 2V15H5Z'), line('M5.2 6.5h3.6'), line(C(6.8, 17, 1.3) + C(12.8, 17, 1.3)), body('M17 12.3a3.4 3.4 0 0 1 2 6.1v.8h-4v-.8a3.4 3.4 0 0 1 2-6.1Z', { cover: true }), line('M15.6 20.7h2.8')], { noAccent: true }),
+    icon('pool-ladder-bulb', 'Pool Ladder Ideas', ['idea', 'tip', 'insight', 'pool ladder', 'pool-ladder'], [line('M6 18V6a2 2 0 0 1 4 0M12 18V6a2 2 0 0 1 4 0M6.2 11h5.6M6.2 15h5.6'), body('M17 12.3a3.4 3.4 0 0 1 2 6.1v.8h-4v-.8a3.4 3.4 0 0 1 2-6.1Z', { cover: true }), line('M15.6 20.7h2.8')], { noAccent: true }),
+    icon('climbing-wall-bulb', 'Climbing Wall Ideas', ['idea', 'tip', 'insight', 'climbing wall', 'climbing-wall'], [body(R(3.5, 3.5, 12, 14.5, 1.5)), line(D(6.5, 7) + D(11, 6) + D(8.5, 10.5) + D(12.5, 12) + D(6.5, 14.5)), body('M17 12.3a3.4 3.4 0 0 1 2 6.1v.8h-4v-.8a3.4 3.4 0 0 1 2-6.1Z', { cover: true }), line('M15.6 20.7h2.8')], { noAccent: true }),
+    icon('fishing-hook-bulb', 'Fishing Hook Ideas', ['idea', 'tip', 'insight', 'fishing hook', 'fishing-hook'], [line('M12 3.5v10a3.5 3.5 0 0 1-7 0v-1.5l1.8 1.3'), line(C(12, 3.5, 0.01)), line('M10.5 3.5h3'), body('M17 12.3a3.4 3.4 0 0 1 2 6.1v.8h-4v-.8a3.4 3.4 0 0 1 2-6.1Z', { cover: true }), line('M15.6 20.7h2.8')], { noAccent: true }),
+    icon('bike-helmet-filter', 'Filter Helmet', ['filter', 'sort', 'refine', 'helmet', 'bike-helmet'], [body('M3 13a6.5 6.5 0 0 1 13 0Z'), line('M3 13h13'), line('M7 7.5l1.5 2.5M11 7l.5 3M14 15.5 15 13'), body(poly([[13, 13], [21, 13], [18, 16.8], [18, 20.5], [16, 19.5], [16, 16.8]], 0.5, true), { cover: true })], { noAccent: true }),
+    icon('shuttlecock-filter', 'Filter Shuttlecock', ['filter', 'sort', 'refine', 'shuttlecock', 'shuttlecock'], [body('M7 13.5h5l2.5-9.5h-10Z'), line('M7.6 9h3.8'), body(C(9.5, 15.8, 2)), body(poly([[13, 13], [21, 13], [18, 16.8], [18, 20.5], [16, 19.5], [16, 16.8]], 0.5, true), { cover: true })], { noAccent: true }),
+  ],
+};

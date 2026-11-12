@@ -49,6 +49,11 @@ Object.assign(M, {
   stats: `body(R(13.3, 16.8, 2.2, 3.7, 0.6), { cover: true }), body(R(15.9, 14.8, 2.2, 5.7, 0.6), { cover: true }), body(R(18.5, 12.5, 2.2, 8, 0.6), { cover: true })`,
   truck_disabled: `body(R(12.8, 13.8, 5.4, 4.8, 0.7), { cover: true }), body('M18.2 15.2h1.6l1.2 1.6v1.8h-2.8Z', { cover: true }), line(D(14.6, 19.9) + D(19.3, 19.9))`,
   bulb: `body('M17 12.3a3.4 3.4 0 0 1 2 6.1v.8h-4v-.8a3.4 3.4 0 0 1 2-6.1Z', { cover: true }), line('M15.6 20.7h2.8')`,
+  checkbox: `body(R(13, 12.5, 8, 8, 2), { cover: true }), line('M15.2 16.6l1.3 1.3 2.4-2.6')`,
+  addbox: `body(R(13, 12.5, 8, 8, 2), { cover: true }), line('M17 14.6v3.8M15.1 16.5h3.8')`,
+  notice: `body(R(13, 12.5, 8, 8, 2), { cover: true }), line('M17 14.5v2.6'), line(D(17, 18.6))`,
+  pricing: `body(R(13, 12.5, 8, 8, 2), { cover: true }), line('M17 14v5M18.3 15.1c-.3-.4-.8-.6-1.3-.6-.7 0-1.3.4-1.3 1s.6.9 1.3 1 1.3.4 1.3 1-.6 1-1.3 1c-.6 0-1.1-.2-1.4-.6')`,
+  play: `body(R(13, 12.5, 8, 8, 2), { cover: true }), line('M16 14.8v3.4l2.8-1.7Z')`,
   alert: `body(poly([[17, 11.5], [21.3, 20.5], [12.7, 20.5]], 0.9, true), { cover: true }), line('M17 15v2.3'), line(D(17, 19.1))`,
 });
 
@@ -101,6 +106,11 @@ const T = {
   stats: (l) => [`${l} Analytics`, 'analytics, stats, report'],
   truck: (l) => [`${l} Delivery`, 'delivery, shipping, truck'],
   bulb: (l) => [`${l} Ideas`, 'idea, tip, insight'],
+  checkbox: (l) => [`Approve ${l}`, 'approve, check, verified'],
+  addbox: (l) => [`New ${l}`, 'new, add, create'],
+  notice: (l) => [`${l} Notice`, 'notice, important, attention'],
+  pricing: (l) => [`${l} Pricing`, 'pricing, cost, money'],
+  play: (l) => [`Play ${l}`, 'play, start, video'],
   alert: (l) => [`${l} Alert`, 'alert, warning, problem'],
 };
 // category: most common category among existing icons named <base>-*

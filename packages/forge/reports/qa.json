@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-12T11:22:56.867Z",
-  "icons": 29592,
-  "files": 147960,
+  "generatedAt": "2026-11-12T11:37:05.735Z",
+  "icons": 29678,
+  "files": 148390,
   "errors": [],
   "warnings": [
     "wheelchair-camera: grid: outside the 3-21 live area (3.51, 2.60, 22.00, 20.50)",
@@ -77,7 +77,7 @@
     "caterpillar-camera: grid: outside the 3-21 live area (2.50, 6.50, 22.00, 20.50)",
     "dragonfly-filter: grid: outside the 3-21 live area (1.50, 3.00, 20.81, 20.35)",
     "dragonfly-stats: grid: outside the 3-21 live area (1.50, 3.00, 20.70, 20.50)",
-    "dragonfly-truck: grid: outside the 3-21 live area (1.50, 3.00, 21.00, 19.90)",
+    "dragonfly-bulb: grid: outside the 3-21 live area (1.50, 3.00, 20.33, 20.70)",
     "factory-camera: grid: outside the 3-21 live area (3.00, 4.50, 22.00, 20.50)",
     "castle-camera: grid: outside the 3-21 live area (3.50, 5.50, 22.00, 20.50)",
     "street-lamp-camera: grid: outside the 3-21 live area (4.50, 3.50, 22.00, 20.50)",
@@ -157,7 +157,7 @@
     "signature-camera: grid: outside the 3-21 live area (3.50, 6.75, 22.00, 20.50)",
     "gavel-filter: grid: outside the 3-21 live area (3.00, 1.53, 20.81, 20.35)",
     "gavel-stats: grid: outside the 3-21 live area (3.00, 1.53, 20.70, 20.50)",
-    "gavel-truck: grid: outside the 3-21 live area (3.00, 1.53, 21.00, 19.90)",
+    "gavel-bulb: grid: outside the 3-21 live area (3.00, 1.53, 20.33, 20.70)",
     "party-hat-search: grid: outside the 3-21 live area (4.72, 2.10, 21.00, 20.00)",
     "party-hat-clock: grid: outside the 3-21 live area (4.72, 2.10, 21.00, 20.50)",
     "party-hat-shield: grid: outside the 3-21 live area (4.72, 2.10, 20.80, 20.80)",
@@ -208,7 +208,7 @@
     "champagne-glasses-camera: grid: outside the 3-21 live area (3.50, 4.00, 22.00, 20.50)",
     "party-hat-filter: grid: outside the 3-21 live area (4.72, 2.10, 20.81, 20.35)",
     "party-hat-stats: grid: outside the 3-21 live area (4.72, 2.10, 20.70, 20.50)",
-    "party-hat-truck: grid: outside the 3-21 live area (4.72, 2.10, 21.00, 19.90)",
+    "party-hat-bulb: grid: outside the 3-21 live area (4.72, 2.10, 20.33, 20.70)",
     "bag-camera: grid: outside the 3-21 live area (3.90, 4.00, 22.00, 20.50)",
     "cart-camera: grid: outside the 3-21 live area (3.00, 4.50, 22.00, 20.50)",
     "gift-camera: grid: outside the 3-21 live area (3.00, 5.38, 22.00, 20.50)",
@@ -292,7 +292,7 @@
     "contact-book-camera: grid: outside the 3-21 live area (2.50, 3.00, 22.00, 20.50)",
     "radio-tower-filter: grid: outside the 3-21 live area (2.34, 2.80, 20.81, 20.35)",
     "radio-tower-stats: grid: outside the 3-21 live area (2.34, 2.80, 20.70, 20.50)",
-    "radio-tower-truck: grid: outside the 3-21 live area (2.34, 2.80, 21.00, 19.90)",
+    "radio-tower-bulb: grid: outside the 3-21 live area (2.34, 2.80, 20.33, 20.70)",
     "dashboard-camera: grid: outside the 3-21 live area (3.00, 4.00, 22.00, 20.50)",
     "chart-camera: grid: outside the 3-21 live area (3.00, 4.00, 22.00, 20.50)",
     "table-camera: grid: outside the 3-21 live area (3.00, 4.50, 22.00, 20.50)",
@@ -337,7 +337,7 @@
     "shapes-camera: grid: outside the 3-21 live area (3.00, 3.50, 22.00, 20.50)",
     "bezier-filter: grid: outside the 3-21 live area (2.00, 3.50, 20.81, 20.35)",
     "bezier-stats: grid: outside the 3-21 live area (2.00, 3.50, 20.70, 20.50)",
-    "bezier-truck: grid: outside the 3-21 live area (2.00, 3.50, 21.00, 19.90)",
+    "bezier-bulb: grid: outside the 3-21 live area (2.00, 3.50, 20.33, 20.70)",
     "laptop-camera: grid: outside the 3-21 live area (3.00, 5.00, 22.00, 20.50)",
     "code-camera: grid: outside the 3-21 live area (3.00, 4.00, 22.00, 20.50)",
     "branch-camera: grid: outside the 3-21 live area (3.20, 3.20, 22.00, 20.50)",
@@ -598,7 +598,7 @@
     "pie-camera: grid: outside the 3-21 live area (3.00, 7.50, 22.00, 20.50)",
     "fried-egg-filter: grid: outside the 3-21 live area (1.92, 4.06, 20.81, 20.35)",
     "fried-egg-stats: grid: outside the 3-21 live area (1.92, 4.06, 20.70, 20.50)",
-    "fried-egg-truck: grid: outside the 3-21 live area (1.92, 4.06, 21.00, 19.90)",
+    "fried-egg-bulb: grid: outside the 3-21 live area (1.92, 4.06, 20.33, 20.70)",
     "gamepad-camera: grid: outside the 3-21 live area (3.00, 7.00, 22.00, 20.50)",
     "dice-camera: grid: outside the 3-21 live area (3.50, 4.50, 22.00, 20.50)",
     "pawn-camera: grid: outside the 3-21 live area (4.50, 3.50, 22.00, 20.50)",
@@ -681,7 +681,7 @@
     "ambulance-camera: grid: outside the 3-21 live area (3.00, 7.00, 22.00, 20.50)",
     "ribbon-filter: grid: outside the 3-21 live area (5.00, 2.20, 20.81, 20.35)",
     "ribbon-stats: grid: outside the 3-21 live area (5.00, 2.20, 20.70, 20.50)",
-    "ribbon-truck: grid: outside the 3-21 live area (5.00, 2.20, 21.00, 19.90)",
+    "ribbon-bulb: grid: outside the 3-21 live area (5.00, 2.20, 20.33, 20.70)",
     "humidifier-bookmark: grid: outside the 3-21 live area (4.50, 1.70, 19.50, 20.50)",
     "humidifier-question: grid: outside the 3-21 live area (4.50, 1.70, 21.00, 20.50)",
     "humidifier-calendar: grid: outside the 3-21 live area (4.50, 1.70, 21.00, 20.50)",
@@ -756,7 +756,7 @@
     "sponge-camera: grid: outside the 3-21 live area (3.50, 7.00, 22.00, 20.50)",
     "humidifier-filter: grid: outside the 3-21 live area (4.50, 1.70, 20.81, 20.35)",
     "humidifier-stats: grid: outside the 3-21 live area (4.50, 1.70, 20.70, 20.50)",
-    "humidifier-truck: grid: outside the 3-21 live area (4.50, 1.70, 21.00, 19.90)",
+    "humidifier-bulb: grid: outside the 3-21 live area (4.50, 1.70, 20.33, 20.70)",
     "flag-camera: grid: outside the 3-21 live area (4.50, 4.00, 22.00, 20.50)",
     "bookmark-camera: grid: outside the 3-21 live area (4.00, 3.50, 22.00, 20.50)",
     "link-camera: grid: outside the 3-21 live area (4.50, 4.50, 22.00, 20.50)",
@@ -852,7 +852,7 @@
     "trumpet-camera: grid: outside the 3-21 live area (3.00, 6.00, 22.00, 20.50)",
     "clapperboard-filter: grid: outside the 3-21 live area (3.00, 2.30, 20.81, 20.35)",
     "clapperboard-stats: grid: outside the 3-21 live area (3.00, 2.30, 20.70, 20.50)",
-    "clapperboard-truck: grid: outside the 3-21 live area (3.00, 2.30, 21.00, 19.90)",
+    "clapperboard-bulb: grid: outside the 3-21 live area (3.00, 2.30, 20.33, 20.70)",
     "plant-camera: grid: outside the 3-21 live area (5.00, 4.50, 22.00, 20.50)",
     "mountain-camera: grid: outside the 3-21 live area (2.75, 7.35, 22.00, 20.50)",
     "leaf-camera: grid: outside the 3-21 live area (4.00, 4.00, 22.00, 20.50)",
@@ -967,8 +967,10 @@
     "seesaw-stats: grid: outside the 3-21 live area (2.70, 2.00, 20.70, 20.50)",
     "community-stats: grid: outside the 3-21 live area (1.80, 3.80, 20.70, 20.50)",
     "person-walking-stats: grid: outside the 3-21 live area (6.50, 2.20, 20.70, 20.50)",
-    "seesaw-truck: grid: outside the 3-21 live area (2.70, 2.00, 21.00, 19.90)",
-    "community-truck: grid: outside the 3-21 live area (1.80, 3.80, 21.00, 19.90)",
+    "seesaw-bulb: grid: outside the 3-21 live area (2.70, 2.00, 20.33, 20.70)",
+    "community-bulb: grid: outside the 3-21 live area (1.80, 3.80, 20.33, 20.70)",
+    "person-walking-bulb: grid: outside the 3-21 live area (6.50, 2.20, 20.33, 20.70)",
+    "person-walking-filter: grid: outside the 3-21 live area (6.50, 2.20, 20.81, 20.35)",
     "flask-camera: grid: outside the 3-21 live area (2.83, 3.50, 22.00, 20.50)",
     "dna-camera: grid: outside the 3-21 live area (6.00, 3.50, 22.00, 20.50)",
     "magnet-camera: grid: outside the 3-21 live area (4.50, 4.00, 22.00, 20.50)",
@@ -1035,8 +1037,7 @@
     "checkered-flag-camera: grid: outside the 3-21 live area (4.00, 3.00, 22.00, 20.50)",
     "bike-helmet-camera: grid: outside the 3-21 live area (3.00, 6.50, 22.00, 20.50)",
     "shuttlecock-camera: grid: outside the 3-21 live area (4.50, 4.00, 22.00, 20.50)",
-    "barbell-stats: grid: outside the 3-21 live area (1.80, 6.50, 20.70, 20.50)",
-    "barbell-truck: grid: outside the 3-21 live area (1.80, 6.50, 21.00, 19.90)",
+    "barbell-bulb: grid: outside the 3-21 live area (1.80, 6.50, 20.33, 20.70)",
     "fountain-pen-camera: grid: outside the 3-21 live area (5.00, 3.50, 22.00, 20.50)",
     "scroll-camera: grid: outside the 3-21 live area (3.50, 3.00, 22.00, 20.50)",
     "typewriter-camera: grid: outside the 3-21 live area (3.50, 3.00, 22.00, 20.50)",
@@ -1172,6 +1173,8 @@
     "thunderstorm-camera: grid: outside the 3-21 live area (2.15, 3.30, 22.00, 20.50)",
     "heat-wave-camera: grid: outside the 3-21 live area (3.00, 5.00, 22.00, 20.50)",
     "thunderstorm-stats: grid: outside the 3-21 live area (2.15, 3.30, 20.70, 20.50)",
+    "thunderstorm-bulb: grid: outside the 3-21 live area (2.15, 3.30, 20.33, 20.70)",
+    "thunderstorm-filter: grid: outside the 3-21 live area (2.15, 3.30, 20.81, 20.35)",
     "duplicate: face-smile ~ face-wink (shape distance 1px)",
     "duplicate: face-neutral ~ face-confused (shape distance 1px)",
     "duplicate: face-surprised ~ face-sleepy (shape distance 1px)",
@@ -1181,63 +1184,778 @@
   ],
   "duplicates": [
     {
-      "a": "voice-assistant-stats",
-      "b": "dollar-coin-stats",
+      "a": "wheelchair-trophy",
+      "b": "wheelchair-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "turtle-trophy",
+      "b": "turtle-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "spray-can-trophy",
+      "b": "spray-can-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "globe-stand-trophy",
+      "b": "globe-stand-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "nail-polish-trophy",
+      "b": "nail-polish-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "lollipop-trophy",
+      "b": "lollipop-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "broccoli-trophy",
+      "b": "broccoli-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "ketchup-trophy",
+      "b": "ketchup-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "hot-sauce-trophy",
+      "b": "hot-sauce-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "wine-bottle-trophy",
+      "b": "wine-bottle-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "ear-trophy",
+      "b": "ear-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "hot-water-bottle-trophy",
+      "b": "hot-water-bottle-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "mic-trophy",
+      "b": "mic-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "mic-stand-trophy",
+      "b": "mic-stand-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "microphone-podcast-trophy",
+      "b": "microphone-podcast-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "tree-trophy",
+      "b": "tree-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "astronaut-trophy",
+      "b": "astronaut-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "bucket-trophy",
+      "b": "bucket-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "backpack-trophy",
+      "b": "backpack-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "hot-air-balloon-trophy",
+      "b": "hot-air-balloon-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "umbrella-beach-trophy",
+      "b": "umbrella-beach-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "pregnant-trophy",
+      "b": "pregnant-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "robot-arm-trophy",
+      "b": "robot-arm-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "neural-net-trophy",
+      "b": "neural-net-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "voice-assistant-bulb",
+      "b": "dollar-coin-trophy",
+      "distance": 1.41
+    },
+    {
+      "a": "voice-assistant-bulb",
+      "b": "dollar-coin-bulb",
       "distance": 1
     },
     {
-      "a": "voice-assistant-truck",
-      "b": "dollar-coin-truck",
-      "distance": 1
-    },
-    {
-      "a": "whale-gear",
-      "b": "whale-stats",
+      "a": "butterfly-trophy",
+      "b": "butterfly-bulb",
       "distance": 1.41
     },
     {
-      "a": "camel-gear",
-      "b": "camel-stats",
+      "a": "rabbit-trophy",
+      "b": "rabbit-bulb",
       "distance": 1.41
     },
     {
-      "a": "caterpillar-gear",
-      "b": "caterpillar-stats",
+      "a": "bone-trophy",
+      "b": "bone-bulb",
       "distance": 1.41
     },
     {
-      "a": "garage-gear",
-      "b": "garage-stats",
+      "a": "owl-trophy",
+      "b": "owl-bulb",
       "distance": 1.41
     },
     {
-      "a": "igloo-stats",
-      "b": "protractor-stats",
+      "a": "frog-trophy",
+      "b": "frog-bulb",
       "distance": 1.41
     },
     {
-      "a": "online-shop-gear",
-      "b": "online-shop-stats",
+      "a": "doghouse-trophy",
+      "b": "doghouse-bulb",
       "distance": 1.41
     },
     {
-      "a": "discount-stats",
-      "b": "discount-badge-stats",
-      "distance": 1
-    },
-    {
-      "a": "discount-truck",
-      "b": "discount-badge-truck",
-      "distance": 1
-    },
-    {
-      "a": "receipt-truck",
-      "b": "passport-truck",
+      "a": "koala-trophy",
+      "b": "koala-bulb",
       "distance": 1.41
     },
     {
-      "a": "printer-gear",
-      "b": "printer-stats",
+      "a": "pig-trophy",
+      "b": "pig-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "monkey-trophy",
+      "b": "monkey-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "panda-trophy",
+      "b": "panda-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "dragonfly-trophy",
+      "b": "dragonfly-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "factory-trophy",
+      "b": "factory-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "castle-trophy",
+      "b": "castle-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "barn-trophy",
+      "b": "barn-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "windmill-trophy",
+      "b": "windmill-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "fire-hydrant-trophy",
+      "b": "fire-hydrant-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "office-trophy",
+      "b": "office-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "brick-trophy",
+      "b": "brick-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "lighthouse-trophy",
+      "b": "lighthouse-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "pagoda-trophy",
+      "b": "pagoda-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "skyscraper-trophy",
+      "b": "skyscraper-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "clock-tower-trophy",
+      "b": "clock-tower-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "gazebo-trophy",
+      "b": "gazebo-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "exit-sign-trophy",
+      "b": "exit-sign-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "brick-wall-trophy",
+      "b": "brick-wall-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "blueprint-trophy",
+      "b": "blueprint-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "apartment-trophy",
+      "b": "apartment-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "igloo-filter",
+      "b": "protractor-filter",
+      "distance": 1.41
+    },
+    {
+      "a": "briefcase-trophy",
+      "b": "briefcase-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "clipboard-trophy",
+      "b": "clipboard-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "contract-trophy",
+      "b": "contract-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "target-trophy",
+      "b": "target-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "gavel-trophy",
+      "b": "gavel-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "id-badge-trophy",
+      "b": "id-badge-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "filing-cabinet-trophy",
+      "b": "filing-cabinet-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "pin-board-trophy",
+      "b": "pin-board-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "ballot-box-trophy",
+      "b": "ballot-box-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "binder-trophy",
+      "b": "binder-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "kanban-trophy",
+      "b": "kanban-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "clipboard-list-trophy",
+      "b": "clipboard-list-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "projector-screen-trophy",
+      "b": "projector-screen-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "gantt-trophy",
+      "b": "gantt-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "workflow-trophy",
+      "b": "workflow-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "roadmap-trophy",
+      "b": "roadmap-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "kite-trophy",
+      "b": "kite-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "skull-trophy",
+      "b": "skull-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "witch-hat-trophy",
+      "b": "witch-hat-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "party-hat-trophy",
+      "b": "party-hat-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "ferris-wheel-trophy",
+      "b": "ferris-wheel-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "snow-globe-trophy",
+      "b": "snow-globe-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "birthday-cake-trophy",
+      "b": "birthday-cake-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "wedding-rings-trophy",
+      "b": "wedding-rings-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "easter-egg-trophy",
+      "b": "easter-egg-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "heart-arrow-trophy",
+      "b": "heart-arrow-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "gift-trophy",
+      "b": "gift-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "store-trophy",
+      "b": "store-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "basket-trophy",
+      "b": "basket-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "qr-code-trophy",
+      "b": "qr-code-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "receipt-trophy",
+      "b": "receipt-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "barcode-scanner-trophy",
+      "b": "barcode-scanner-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "pos-terminal-trophy",
+      "b": "pos-terminal-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "hanging-sign-trophy",
+      "b": "hanging-sign-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "gift-card-trophy",
+      "b": "gift-card-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "coupon-trophy",
+      "b": "coupon-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "online-shop-trophy",
+      "b": "online-shop-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "receipt-long-trophy",
+      "b": "receipt-long-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "vending-machine-trophy",
+      "b": "vending-machine-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "marketplace-trophy",
+      "b": "marketplace-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "loyalty-card-trophy",
+      "b": "loyalty-card-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "gift-bulb",
+      "b": "gift-heart",
+      "distance": 1.41
+    },
+    {
+      "a": "newspaper-trophy",
+      "b": "newspaper-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "mail-trophy",
+      "b": "mail-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "envelope-open-trophy",
+      "b": "envelope-open-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "postcard-trophy",
+      "b": "postcard-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "radio-tower-trophy",
+      "b": "radio-tower-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "telephone-old-trophy",
+      "b": "telephone-old-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "mailbox-post-trophy",
+      "b": "mailbox-post-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "satellite-phone-trophy",
+      "b": "satellite-phone-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "at-sign-trophy",
+      "b": "at-sign-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "inbox-tray-trophy",
+      "b": "inbox-tray-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "voice-message-trophy",
+      "b": "voice-message-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "contact-book-trophy",
+      "b": "contact-book-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "dashboard-trophy",
+      "b": "dashboard-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "table-trophy",
+      "b": "table-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "flowchart-trophy",
+      "b": "flowchart-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "monitor-chart-trophy",
+      "b": "monitor-chart-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "yarn-trophy",
+      "b": "yarn-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "paint-roller-trophy",
+      "b": "paint-roller-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "spool-trophy",
+      "b": "spool-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "cube-trophy",
+      "b": "cube-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "layers-trophy",
+      "b": "layers-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "paint-bucket-trophy",
+      "b": "paint-bucket-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "paint-tube-trophy",
+      "b": "paint-tube-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "picture-frame-trophy",
+      "b": "picture-frame-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "pen-tool-trophy",
+      "b": "pen-tool-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "paint-can-trophy",
+      "b": "paint-can-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "pencil-ruler-trophy",
+      "b": "pencil-ruler-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "shapes-trophy",
+      "b": "shapes-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "code-trophy",
+      "b": "code-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "branch-trophy",
+      "b": "branch-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "terminal-trophy",
+      "b": "terminal-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "server-trophy",
+      "b": "server-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "database-trophy",
+      "b": "database-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "server-rack-trophy",
+      "b": "server-rack-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "api-trophy",
+      "b": "api-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "laptop-code-trophy",
+      "b": "laptop-code-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "monitor-trophy",
+      "b": "monitor-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "sd-card-trophy",
+      "b": "sd-card-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "cpu-trophy",
+      "b": "cpu-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "remote-trophy",
+      "b": "remote-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "projector-trophy",
+      "b": "projector-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "ram-trophy",
+      "b": "ram-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "ethernet-trophy",
+      "b": "ethernet-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "drone-trophy",
+      "b": "drone-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "webcam-trophy",
+      "b": "webcam-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "graphics-card-trophy",
+      "b": "graphics-card-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "touchscreen-trophy",
+      "b": "touchscreen-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "phone-vibrate-trophy",
+      "b": "phone-vibrate-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "nfc-trophy",
+      "b": "nfc-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "power-bank-trophy",
+      "b": "power-bank-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "e-reader-trophy",
+      "b": "e-reader-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "book-trophy",
+      "b": "book-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "school-trophy",
+      "b": "school-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "notebook-trophy",
+      "b": "notebook-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "whiteboard-trophy",
+      "b": "whiteboard-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "bookshelf-trophy",
+      "b": "bookshelf-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "test-paper-trophy",
+      "b": "test-paper-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "book-open-trophy",
+      "b": "book-open-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "quiz-trophy",
+      "b": "quiz-bulb",
       "distance": 1.41
     },
     {
@@ -1266,88 +1984,983 @@
       "distance": 1
     },
     {
-      "a": "banknote-gear",
-      "b": "banknote-stats",
+      "a": "solar-panel-trophy",
+      "b": "solar-panel-bulb",
       "distance": 1.41
     },
     {
-      "a": "token-coin-truck",
-      "b": "hex-nut-truck",
+      "a": "perfume-trophy",
+      "b": "perfume-bulb",
       "distance": 1.41
     },
     {
-      "a": "croissant-gear",
-      "b": "croissant-stats",
+      "a": "skirt-trophy",
+      "b": "skirt-bulb",
       "distance": 1.41
     },
     {
-      "a": "whisk-stats",
-      "b": "screwdriver-stats",
+      "a": "shorts-trophy",
+      "b": "shorts-bulb",
       "distance": 1.41
     },
     {
-      "a": "cinnamon-roll-stats",
-      "b": "fossil-stats",
+      "a": "glove-trophy",
+      "b": "glove-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "raincoat-trophy",
+      "b": "raincoat-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "hair-dryer-trophy",
+      "b": "hair-dryer-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "razor-trophy",
+      "b": "razor-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "trousers-trophy",
+      "b": "trousers-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "floppy-trophy",
+      "b": "floppy-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "archive-trophy",
+      "b": "archive-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "folder-open-trophy",
+      "b": "folder-open-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "file-zip-trophy",
+      "b": "file-zip-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "file-image-trophy",
+      "b": "file-image-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "documents-stack-trophy",
+      "b": "documents-stack-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "bank-trophy",
+      "b": "bank-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "invoice-trophy",
+      "b": "invoice-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "card-trophy",
+      "b": "card-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "atm-trophy",
+      "b": "atm-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "calculator-trophy",
+      "b": "calculator-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "safe-trophy",
+      "b": "safe-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "banknote-trophy",
+      "b": "banknote-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "wallet-trophy",
+      "b": "wallet-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "dollar-coin-trophy",
+      "b": "dollar-coin-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "candlestick-trophy",
+      "b": "candlestick-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "vault-door-trophy",
+      "b": "vault-door-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "money-bag-trophy",
+      "b": "money-bag-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "ledger-trophy",
+      "b": "ledger-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "tip-jar-trophy",
+      "b": "tip-jar-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "bank-card-contactless-trophy",
+      "b": "bank-card-contactless-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "blockchain-trophy",
+      "b": "blockchain-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "token-coin-trophy",
+      "b": "token-coin-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "token-coin-trophy",
+      "b": "hex-nut-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "pizza-trophy",
+      "b": "pizza-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "burger-trophy",
+      "b": "burger-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "popcorn-trophy",
+      "b": "popcorn-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "grapes-trophy",
+      "b": "grapes-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "soda-trophy",
+      "b": "soda-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "chef-hat-trophy",
+      "b": "chef-hat-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "milk-trophy",
+      "b": "milk-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "avocado-trophy",
+      "b": "avocado-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "pot-trophy",
+      "b": "pot-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "hotdog-trophy",
+      "b": "hotdog-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "honey-trophy",
+      "b": "honey-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "teacup-trophy",
+      "b": "teacup-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "fried-egg-trophy",
+      "b": "fried-egg-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "thermos-trophy",
+      "b": "thermos-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "water-bottle-trophy",
+      "b": "water-bottle-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "measuring-cup-trophy",
+      "b": "measuring-cup-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "jar-trophy",
+      "b": "jar-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "sushi-roll-trophy",
+      "b": "sushi-roll-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "donut-trophy",
+      "b": "donut-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "ice-cream-cone-trophy",
+      "b": "ice-cream-cone-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "waffle-trophy",
+      "b": "waffle-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "cake-slice-trophy",
+      "b": "cake-slice-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "french-press-trophy",
+      "b": "french-press-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "apron-trophy",
+      "b": "apron-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "tongs-trophy",
+      "b": "tongs-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "lemon-slice-trophy",
+      "b": "lemon-slice-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "spaghetti-trophy",
+      "b": "spaghetti-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "milkshake-trophy",
+      "b": "milkshake-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "juice-box-trophy",
+      "b": "juice-box-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "chocolate-trophy",
+      "b": "chocolate-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "macaron-trophy",
+      "b": "macaron-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "kebab-trophy",
+      "b": "kebab-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "coffee-to-go-trophy",
+      "b": "coffee-to-go-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "cinnamon-roll-bulb",
+      "b": "fossil-trophy",
+      "distance": 1.41
+    },
+    {
+      "a": "cinnamon-roll-bulb",
+      "b": "fossil-bulb",
       "distance": 0
     },
     {
-      "a": "taco-truck",
-      "b": "rainbow-truck",
+      "a": "cinnamon-roll-filter",
+      "b": "fossil-filter",
+      "distance": 0
+    },
+    {
+      "a": "playing-card-trophy",
+      "b": "playing-card-bulb",
       "distance": 1.41
     },
     {
-      "a": "whisk-truck",
-      "b": "screwdriver-truck",
+      "a": "domino-trophy",
+      "b": "domino-bulb",
       "distance": 1.41
     },
     {
-      "a": "lamp-stats",
-      "b": "floor-lamp-stats",
+      "a": "treasure-chest-trophy",
+      "b": "treasure-chest-bulb",
       "distance": 1.41
     },
     {
-      "a": "wardrobe-stats",
-      "b": "cupboard-stats",
+      "a": "teddy-trophy",
+      "b": "teddy-bulb",
       "distance": 1.41
     },
     {
-      "a": "video-doorbell-stats",
-      "b": "do-not-disturb-stats",
+      "a": "spinning-top-trophy",
+      "b": "spinning-top-bulb",
       "distance": 1.41
     },
     {
-      "a": "lamp-truck",
-      "b": "floor-lamp-truck",
+      "a": "lego-brick-trophy",
+      "b": "lego-brick-bulb",
       "distance": 1.41
     },
     {
-      "a": "wardrobe-truck",
-      "b": "cupboard-truck",
+      "a": "rook-trophy",
+      "b": "rook-bulb",
       "distance": 1.41
     },
     {
-      "a": "video-doorbell-truck",
-      "b": "do-not-disturb-truck",
+      "a": "game-cartridge-trophy",
+      "b": "game-cartridge-bulb",
       "distance": 1.41
     },
     {
-      "a": "toggle-gear",
-      "b": "toggle-stats",
+      "a": "slot-machine-trophy",
+      "b": "slot-machine-bulb",
       "distance": 1.41
     },
     {
-      "a": "headphones-gear",
-      "b": "headphones-stats",
+      "a": "chess-knight-trophy",
+      "b": "chess-knight-bulb",
       "distance": 1.41
     },
     {
-      "a": "greenhouse-gear",
-      "b": "greenhouse-stats",
+      "a": "treasure-map-trophy",
+      "b": "treasure-map-bulb",
       "distance": 1.41
     },
     {
-      "a": "forest-gear",
-      "b": "forest-stats",
+      "a": "handheld-console-trophy",
+      "b": "handheld-console-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "hospital-trophy",
+      "b": "hospital-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "bandage-trophy",
+      "b": "bandage-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "brain-trophy",
+      "b": "brain-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "pill-bottle-trophy",
+      "b": "pill-bottle-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "heart-monitor-trophy",
+      "b": "heart-monitor-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "x-ray-trophy",
+      "b": "x-ray-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "massage-stone-trophy",
+      "b": "massage-stone-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "bath-salt-trophy",
+      "b": "bath-salt-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "pill-blister-trophy",
+      "b": "pill-blister-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "iv-drip-trophy",
+      "b": "iv-drip-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "lungs-trophy",
+      "b": "lungs-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "heart-pulse-trophy",
+      "b": "heart-pulse-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "hospital-bed-trophy",
+      "b": "hospital-bed-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "fridge-trophy",
+      "b": "fridge-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "washer-trophy",
+      "b": "washer-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "oven-trophy",
+      "b": "oven-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "sofa-trophy",
+      "b": "sofa-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "lantern-trophy",
+      "b": "lantern-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "vase-trophy",
+      "b": "vase-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "window-trophy",
+      "b": "window-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "blender-trophy",
+      "b": "blender-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "wardrobe-trophy",
+      "b": "wardrobe-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "wardrobe-trophy",
+      "b": "cupboard-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "microwave-trophy",
+      "b": "microwave-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "air-conditioner-trophy",
+      "b": "air-conditioner-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "toaster-trophy",
+      "b": "toaster-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "stool-trophy",
+      "b": "stool-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "laundry-basket-trophy",
+      "b": "laundry-basket-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "intercom-trophy",
+      "b": "intercom-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "toilet-trophy",
+      "b": "toilet-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "smart-lock-trophy",
+      "b": "smart-lock-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "video-doorbell-trophy",
+      "b": "video-doorbell-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "video-doorbell-trophy",
+      "b": "do-not-disturb-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "air-purifier-trophy",
+      "b": "air-purifier-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "humidifier-trophy",
+      "b": "humidifier-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "rice-cooker-trophy",
+      "b": "rice-cooker-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "house-key-trophy",
+      "b": "house-key-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "for-sale-sign-trophy",
+      "b": "for-sale-sign-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "smart-home-trophy",
+      "b": "smart-home-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "moving-box-trophy",
+      "b": "moving-box-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "nightstand-trophy",
+      "b": "nightstand-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "dresser-trophy",
+      "b": "dresser-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "armchair-trophy",
+      "b": "armchair-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "bar-stool-trophy",
+      "b": "bar-stool-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "house-number-trophy",
+      "b": "house-number-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "picket-fence-trophy",
+      "b": "picket-fence-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "wardrobe-bulb",
+      "b": "cupboard-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "video-doorbell-bulb",
+      "b": "do-not-disturb-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "flag-trophy",
+      "b": "flag-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "idcard-trophy",
+      "b": "idcard-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "firstaid-trophy",
+      "b": "firstaid-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "browser-trophy",
+      "b": "browser-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "sticky-note-trophy",
+      "b": "sticky-note-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "layout-sidebar-trophy",
+      "b": "layout-sidebar-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "crate-trophy",
+      "b": "crate-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "conveyor-trophy",
+      "b": "conveyor-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "forklift-trophy",
+      "b": "forklift-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "pallet-trophy",
+      "b": "pallet-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "cargo-ship-trophy",
+      "b": "cargo-ship-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "return-box-trophy",
+      "b": "return-box-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "warehouse-trophy",
+      "b": "warehouse-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "map-trophy",
+      "b": "map-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "compass-trophy",
+      "b": "compass-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "globe-trophy",
+      "b": "globe-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "signpost-trophy",
+      "b": "signpost-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "camera-trophy",
+      "b": "camera-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "drum-trophy",
+      "b": "drum-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "clapperboard-trophy",
+      "b": "clapperboard-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "cassette-trophy",
+      "b": "cassette-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "metronome-trophy",
+      "b": "metronome-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "boombox-trophy",
+      "b": "boombox-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "polaroid-trophy",
+      "b": "polaroid-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "image-trophy",
+      "b": "image-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "tripod-trophy",
+      "b": "tripod-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "harp-trophy",
+      "b": "harp-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "vinyl-trophy",
+      "b": "vinyl-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "spotlight-trophy",
+      "b": "spotlight-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "record-player-trophy",
+      "b": "record-player-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "equalizer-trophy",
+      "b": "equalizer-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "xylophone-trophy",
+      "b": "xylophone-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "music-stand-trophy",
+      "b": "music-stand-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "cd-trophy",
+      "b": "cd-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "camera-action-trophy",
+      "b": "camera-action-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "film-reel-bulb",
+      "b": "hex-nut-trophy",
+      "distance": 1.41
+    },
+    {
+      "a": "film-reel-bulb",
+      "b": "hex-nut-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "cactus-trophy",
+      "b": "cactus-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "mushroom-trophy",
+      "b": "mushroom-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "birdhouse-trophy",
+      "b": "birdhouse-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "pinecone-trophy",
+      "b": "pinecone-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "lotus-trophy",
+      "b": "lotus-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "acorn-trophy",
+      "b": "acorn-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "recycle-bin-trophy",
+      "b": "recycle-bin-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "garden-hose-trophy",
+      "b": "garden-hose-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "flower-pot-trophy",
+      "b": "flower-pot-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "greenhouse-trophy",
+      "b": "greenhouse-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "firewood-trophy",
+      "b": "firewood-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "leaf-autumn-trophy",
+      "b": "leaf-autumn-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "cherry-blossom-trophy",
+      "b": "cherry-blossom-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "waterfall-trophy",
+      "b": "waterfall-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "forest-trophy",
+      "b": "forest-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "stroller-trophy",
+      "b": "stroller-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "swing-trophy",
+      "b": "swing-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "seesaw-trophy",
+      "b": "seesaw-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "diaper-trophy",
+      "b": "diaper-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "donation-box-trophy",
+      "b": "donation-box-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "community-trophy",
+      "b": "community-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "user-circle-trophy",
+      "b": "user-circle-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "couple-trophy",
+      "b": "couple-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "magnet-trophy",
+      "b": "magnet-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "planet-trophy",
+      "b": "planet-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "lab-coat-trophy",
+      "b": "lab-coat-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "molecule-trophy",
+      "b": "molecule-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "fossil-trophy",
+      "b": "fossil-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "test-tubes-trophy",
+      "b": "test-tubes-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "key-card-trophy",
+      "b": "key-card-bulb",
       "distance": 1.41
     },
     {
@@ -1356,116 +2969,2847 @@
       "distance": 1
     },
     {
-      "a": "tennis-ball-gear",
-      "b": "tennis-ball-stats",
+      "a": "thumbs-up-trophy",
+      "b": "thumbs-up-bulb",
       "distance": 1.41
     },
     {
-      "a": "scoreboard-gear",
-      "b": "scoreboard-stats",
+      "a": "wave-hand-trophy",
+      "b": "wave-hand-bulb",
       "distance": 1.41
     },
     {
-      "a": "stadium-gear",
-      "b": "stadium-stats",
+      "a": "peace-hand-trophy",
+      "b": "peace-hand-bulb",
       "distance": 1.41
     },
     {
-      "a": "dumbbell-stats",
-      "b": "barbell-stats",
+      "a": "soccer-trophy",
+      "b": "soccer-bulb",
       "distance": 1.41
     },
     {
-      "a": "dumbbell-truck",
-      "b": "barbell-truck",
+      "a": "parachute-trophy",
+      "b": "parachute-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "basketball-hoop-trophy",
+      "b": "basketball-hoop-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "goal-trophy",
+      "b": "goal-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "beach-ball-trophy",
+      "b": "beach-ball-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "jersey-trophy",
+      "b": "jersey-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "scoreboard-trophy",
+      "b": "scoreboard-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "tennis-racket-trophy",
+      "b": "tennis-racket-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "rugby-ball-trophy",
+      "b": "rugby-ball-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "volleyball-trophy",
+      "b": "volleyball-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "stadium-trophy",
+      "b": "stadium-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "checkered-flag-trophy",
+      "b": "checkered-flag-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "shuttlecock-trophy",
+      "b": "shuttlecock-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "scroll-trophy",
+      "b": "scroll-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "calendar-trophy",
+      "b": "calendar-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "snooze-trophy",
+      "b": "snooze-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "flashlight-trophy",
+      "b": "flashlight-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "hex-nut-trophy",
+      "b": "hex-nut-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "hard-hat-trophy",
+      "b": "hard-hat-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "spirit-level-trophy",
+      "b": "spirit-level-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "pipe-trophy",
+      "b": "pipe-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "safety-vest-trophy",
+      "b": "safety-vest-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "sawhorse-trophy",
+      "b": "sawhorse-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "workbench-trophy",
+      "b": "workbench-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "excavator-trophy",
+      "b": "excavator-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "bus-trophy",
+      "b": "bus-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "parking-trophy",
+      "b": "parking-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "traffic-cone-trophy",
+      "b": "traffic-cone-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "helicopter-trophy",
+      "b": "helicopter-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "tram-trophy",
+      "b": "tram-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "cable-car-trophy",
+      "b": "cable-car-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "steering-wheel-trophy",
+      "b": "steering-wheel-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "rv-trophy",
+      "b": "rv-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "tollbooth-trophy",
+      "b": "tollbooth-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "car-battery-trophy",
+      "b": "car-battery-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "gear-shift-trophy",
+      "b": "gear-shift-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "car-door-trophy",
+      "b": "car-door-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "camper-trailer-trophy",
+      "b": "camper-trailer-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "ferry-trophy",
+      "b": "ferry-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "car-side-trophy",
+      "b": "car-side-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "van-trophy",
+      "b": "van-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "airplane-trophy",
+      "b": "airplane-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "passport-trophy",
+      "b": "passport-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "lifebuoy-trophy",
+      "b": "lifebuoy-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "sailboat-trophy",
+      "b": "sailboat-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "binoculars-trophy",
+      "b": "binoculars-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "hammock-trophy",
+      "b": "hammock-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "life-jacket-trophy",
+      "b": "life-jacket-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "tipi-trophy",
+      "b": "tipi-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "hot-tub-trophy",
+      "b": "hot-tub-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "sauna-trophy",
+      "b": "sauna-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "boarding-pass-trophy",
+      "b": "boarding-pass-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "island-trophy",
+      "b": "island-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "airport-trophy",
+      "b": "airport-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "snowflake-trophy",
+      "b": "snowflake-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "icicles-trophy",
+      "b": "icicles-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "wind-sock-trophy",
+      "b": "wind-sock-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "flood-trophy",
+      "b": "flood-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "sunset-trophy",
+      "b": "sunset-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "rss-trophy",
+      "b": "rss-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "trend-trophy",
+      "b": "trend-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "rolling-pin-trophy",
+      "b": "rolling-pin-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "spoon-trophy",
+      "b": "spoon-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "fork-trophy",
+      "b": "fork-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "plunger-trophy",
+      "b": "plunger-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "trumpet-trophy",
+      "b": "trumpet-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "brush-trophy",
+      "b": "brush-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "shovel-trophy",
+      "b": "shovel-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "robot-trophy",
+      "b": "robot-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-trophy",
+      "b": "fish-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "cat-trophy",
+      "b": "cat-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "bird-trophy",
+      "b": "bird-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "whale-trophy",
+      "b": "whale-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "duck-trophy",
+      "b": "duck-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "ladybug-trophy",
+      "b": "ladybug-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "fox-trophy",
+      "b": "fox-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "shark-trophy",
+      "b": "shark-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "crab-trophy",
+      "b": "crab-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "hedgehog-trophy",
+      "b": "hedgehog-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "elephant-trophy",
+      "b": "elephant-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "sheep-trophy",
+      "b": "sheep-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "camel-trophy",
+      "b": "camel-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "rhino-trophy",
+      "b": "rhino-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "caterpillar-trophy",
+      "b": "caterpillar-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "street-lamp-trophy",
+      "b": "street-lamp-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "stairs-trophy",
+      "b": "stairs-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "bench-trophy",
+      "b": "bench-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "silo-trophy",
+      "b": "silo-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "fountain-trophy",
+      "b": "fountain-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "igloo-bulb",
+      "b": "protractor-trophy",
+      "distance": 1.41
+    },
+    {
+      "a": "igloo-bulb",
+      "b": "protractor-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "megaphone-trophy",
+      "b": "megaphone-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "milestone-trophy",
+      "b": "milestone-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "signature-trophy",
+      "b": "signature-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "balloon-trophy",
+      "b": "balloon-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "snowman-trophy",
+      "b": "snowman-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "ghost-trophy",
+      "b": "ghost-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "party-popper-trophy",
+      "b": "party-popper-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "champagne-trophy",
+      "b": "champagne-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "firework-trophy",
+      "b": "firework-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "garland-trophy",
+      "b": "garland-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "bag-trophy",
+      "b": "bag-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "ticket-trophy",
+      "b": "ticket-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "crown-trophy",
+      "b": "crown-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "diamond-trophy",
+      "b": "diamond-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "discount-badge-trophy",
+      "b": "discount-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "discount-badge-trophy",
+      "b": "discount-badge-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "discount-bulb",
+      "b": "discount-badge-bulb",
+      "distance": 1
+    },
+    {
+      "a": "message-trophy",
+      "b": "message-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "phone-trophy",
+      "b": "phone-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "inbox-trophy",
+      "b": "inbox-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "satellite-dish-trophy",
+      "b": "satellite-dish-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "antenna-trophy",
+      "b": "antenna-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "paper-plane-trophy",
+      "b": "paper-plane-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "mailbox-trophy",
+      "b": "mailbox-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "antenna-tower-trophy",
+      "b": "antenna-tower-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "gauge-trophy",
+      "b": "gauge-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "funnel-trophy",
+      "b": "funnel-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "palette-trophy",
+      "b": "palette-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "crayon-trophy",
+      "b": "crayon-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "easel-trophy",
+      "b": "easel-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "magic-wand-trophy",
+      "b": "magic-wand-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "eyedropper-trophy",
+      "b": "eyedropper-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "bezier-trophy",
+      "b": "bezier-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "laptop-trophy",
+      "b": "laptop-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "bug-trophy",
+      "b": "bug-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "variable-trophy",
+      "b": "variable-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "wifi-trophy",
+      "b": "wifi-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "watch-trophy",
+      "b": "watch-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "battery-trophy",
+      "b": "battery-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "router-trophy",
+      "b": "router-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "mouse-trophy",
+      "b": "mouse-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "tablet-trophy",
+      "b": "tablet-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "keyboard-trophy",
+      "b": "keyboard-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "vr-headset-trophy",
+      "b": "vr-headset-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "usb-drive-trophy",
+      "b": "usb-drive-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "hard-drive-trophy",
+      "b": "hard-drive-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "smart-speaker-trophy",
+      "b": "smart-speaker-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "bluetooth-trophy",
+      "b": "bluetooth-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "cap-trophy",
+      "b": "cap-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "protractor-trophy",
+      "b": "protractor-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "ruler-triangle-trophy",
+      "b": "ruler-triangle-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "eraser-trophy",
+      "b": "eraser-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "math-symbols-trophy",
+      "b": "math-symbols-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "plug-trophy",
+      "b": "plug-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "socket-trophy",
+      "b": "socket-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "shirt-trophy",
+      "b": "shirt-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "scissors-trophy",
+      "b": "scissors-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "hanger-trophy",
+      "b": "hanger-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "ring-trophy",
+      "b": "ring-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "dress-trophy",
+      "b": "dress-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "sock-trophy",
+      "b": "sock-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "bowtie-trophy",
+      "b": "bowtie-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "baseball-cap-trophy",
+      "b": "baseball-cap-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "necklace-trophy",
+      "b": "necklace-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "sneaker-trophy",
+      "b": "sneaker-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "top-hat-trophy",
+      "b": "top-hat-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "boot-trophy",
+      "b": "boot-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "button-trophy",
+      "b": "button-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "sunglasses-trophy",
+      "b": "sunglasses-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "thimble-trophy",
+      "b": "thimble-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "heels-trophy",
+      "b": "heels-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "cowboy-hat-trophy",
+      "b": "cowboy-hat-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "paperclip-trophy",
+      "b": "paperclip-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "folder-trophy",
+      "b": "folder-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "file-trophy",
+      "b": "file-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "piggy-trophy",
+      "b": "piggy-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "gold-bar-trophy",
+      "b": "gold-bar-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "coffee-trophy",
+      "b": "coffee-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "restaurant-trophy",
+      "b": "restaurant-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "cake-trophy",
+      "b": "cake-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "water-trophy",
+      "b": "water-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "wine-trophy",
+      "b": "wine-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "apple-trophy",
+      "b": "apple-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "carrot-trophy",
+      "b": "carrot-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "egg-trophy",
+      "b": "egg-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "teapot-trophy",
+      "b": "teapot-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "watermelon-trophy",
+      "b": "watermelon-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "bread-trophy",
+      "b": "bread-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "cheese-trophy",
+      "b": "cheese-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "bowl-trophy",
+      "b": "bowl-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "pear-trophy",
+      "b": "pear-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "strawberry-trophy",
+      "b": "strawberry-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "banana-trophy",
+      "b": "banana-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "candy-trophy",
+      "b": "candy-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "salt-shaker-trophy",
+      "b": "salt-shaker-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "popsicle-trophy",
+      "b": "popsicle-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "dumpling-trophy",
+      "b": "dumpling-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "barbecue-trophy",
+      "b": "barbecue-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "cookie-trophy",
+      "b": "cookie-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "ladle-trophy",
+      "b": "ladle-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "taco-trophy",
+      "b": "taco-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "taco-trophy",
+      "b": "rainbow-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "cherry-trophy",
+      "b": "cherry-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "glass-trophy",
+      "b": "glass-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "whisk-trophy",
+      "b": "whisk-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "whisk-trophy",
+      "b": "screwdriver-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "onigiri-trophy",
+      "b": "onigiri-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "peanut-trophy",
+      "b": "peanut-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "coffee-bean-trophy",
+      "b": "coffee-bean-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "ice-cube-trophy",
+      "b": "ice-cube-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "knife-trophy",
+      "b": "knife-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "chopsticks-trophy",
+      "b": "chopsticks-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "skewer-trophy",
+      "b": "skewer-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "mug-trophy",
+      "b": "mug-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "wine-glass-trophy",
+      "b": "wine-glass-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "colander-trophy",
+      "b": "colander-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "mixing-bowl-trophy",
+      "b": "mixing-bowl-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "egg-cracked-trophy",
+      "b": "egg-cracked-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "tomato-trophy",
+      "b": "tomato-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "potato-trophy",
+      "b": "potato-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "serving-cloche-trophy",
+      "b": "serving-cloche-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "croissant-trophy",
+      "b": "croissant-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "eggplant-trophy",
+      "b": "eggplant-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "pancakes-trophy",
+      "b": "pancakes-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "pie-trophy",
+      "b": "pie-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "taco-bulb",
+      "b": "rainbow-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "whisk-bulb",
+      "b": "screwdriver-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "gamepad-trophy",
+      "b": "gamepad-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "dice-trophy",
+      "b": "dice-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "pawn-trophy",
+      "b": "pawn-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "joystick-trophy",
+      "b": "joystick-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "sword-trophy",
+      "b": "sword-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "potion-trophy",
+      "b": "potion-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "tooth-trophy",
+      "b": "tooth-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "syringe-trophy",
+      "b": "syringe-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "glasses-trophy",
+      "b": "glasses-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "toothbrush-trophy",
+      "b": "toothbrush-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "mortar-trophy",
+      "b": "mortar-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "toothpaste-trophy",
+      "b": "toothpaste-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "stethoscope-trophy",
+      "b": "stethoscope-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "crutch-trophy",
+      "b": "crutch-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "bathroom-scale-trophy",
+      "b": "bathroom-scale-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "scalpel-trophy",
+      "b": "scalpel-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "mask-medical-trophy",
+      "b": "mask-medical-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "pharmacy-cross-trophy",
+      "b": "pharmacy-cross-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "ambulance-trophy",
+      "b": "ambulance-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "lamp-trophy",
+      "b": "lamp-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "lamp-trophy",
+      "b": "floor-lamp-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "door-trophy",
+      "b": "door-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "faucet-trophy",
+      "b": "faucet-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "broom-trophy",
+      "b": "broom-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "iron-trophy",
+      "b": "iron-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "shower-trophy",
+      "b": "shower-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "mop-trophy",
+      "b": "mop-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "soap-dispenser-trophy",
+      "b": "soap-dispenser-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "pillow-trophy",
+      "b": "pillow-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "house-trophy",
+      "b": "house-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "soap-bar-trophy",
+      "b": "soap-bar-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "desk-lamp-trophy",
+      "b": "desk-lamp-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "rocking-chair-trophy",
+      "b": "rocking-chair-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "coat-rack-trophy",
+      "b": "coat-rack-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "sink-trophy",
+      "b": "sink-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "oven-mitt-trophy",
+      "b": "oven-mitt-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "shower-head-trophy",
+      "b": "shower-head-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "trash-bag-trophy",
+      "b": "trash-bag-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "sponge-trophy",
+      "b": "sponge-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "lamp-bulb",
+      "b": "floor-lamp-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "bookmark-trophy",
+      "b": "bookmark-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "link-trophy",
+      "b": "link-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "trash-trophy",
+      "b": "trash-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "edit-trophy",
+      "b": "edit-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "hourglass-trophy",
+      "b": "hourglass-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "pushpin-trophy",
+      "b": "pushpin-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "power-trophy",
+      "b": "power-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "list-trophy",
+      "b": "list-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "toggle-trophy",
+      "b": "toggle-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "toggle-switch-trophy",
+      "b": "toggle-switch-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "checkbox-list-trophy",
+      "b": "checkbox-list-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "dropdown-trophy",
+      "b": "dropdown-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "package-trophy",
+      "b": "package-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "headphones-trophy",
+      "b": "headphones-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "tv-trophy",
+      "b": "tv-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "guitar-trophy",
+      "b": "guitar-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "soundwave-trophy",
+      "b": "soundwave-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "loudspeaker-trophy",
+      "b": "loudspeaker-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "drumsticks-trophy",
+      "b": "drumsticks-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "mountain-trophy",
+      "b": "mountain-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "leaf-trophy",
+      "b": "leaf-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "flower-trophy",
+      "b": "flower-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "flame-trophy",
+      "b": "flame-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "feather-trophy",
+      "b": "feather-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "pine-trophy",
+      "b": "pine-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "tulip-trophy",
+      "b": "tulip-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "sprout-trophy",
+      "b": "sprout-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "waves-trophy",
+      "b": "waves-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "mountain-flag-trophy",
+      "b": "mountain-flag-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "birdbath-trophy",
+      "b": "birdbath-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "mountain-sun-trophy",
+      "b": "mountain-sun-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "desert-trophy",
+      "b": "desert-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "cave-trophy",
+      "b": "cave-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "wheat-trophy",
+      "b": "wheat-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "bell-trophy",
+      "b": "bell-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "user-trophy",
+      "b": "user-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "lips-trophy",
+      "b": "lips-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "bib-trophy",
+      "b": "bib-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "flask-trophy",
+      "b": "flask-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "telescope-trophy",
+      "b": "telescope-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "ufo-trophy",
+      "b": "ufo-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "comet-trophy",
+      "b": "comet-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "microscope-trophy",
+      "b": "microscope-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "petri-dish-trophy",
+      "b": "petri-dish-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "beaker-trophy",
+      "b": "beaker-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "dna-helix-trophy",
+      "b": "dna-helix-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "eye-trophy",
+      "b": "eye-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "cctv-trophy",
+      "b": "cctv-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "password-trophy",
+      "b": "password-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "hashtag-trophy",
+      "b": "hashtag-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "bike-trophy",
+      "b": "bike-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "dumbbell-trophy",
+      "b": "dumbbell-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "dumbbell-trophy",
+      "b": "barbell-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "pool-trophy",
+      "b": "pool-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "medal-trophy",
+      "b": "medal-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "surfboard-trophy",
+      "b": "surfboard-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "bow-arrow-trophy",
+      "b": "bow-arrow-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "ski-trophy",
+      "b": "ski-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "curling-stone-trophy",
+      "b": "curling-stone-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "hockey-stick-trophy",
+      "b": "hockey-stick-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "jet-ski-trophy",
+      "b": "jet-ski-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "surf-wave-trophy",
+      "b": "surf-wave-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "swimmer-trophy",
+      "b": "swimmer-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "bike-helmet-trophy",
+      "b": "bike-helmet-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "dumbbell-bulb",
+      "b": "barbell-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "highlighter-trophy",
+      "b": "highlighter-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "stopwatch-trophy",
+      "b": "stopwatch-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "alarm-clock-trophy",
+      "b": "alarm-clock-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "clock-history-trophy",
+      "b": "clock-history-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "wrench-trophy",
+      "b": "wrench-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "hammer-trophy",
+      "b": "hammer-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "axe-trophy",
+      "b": "axe-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "ladder-trophy",
+      "b": "ladder-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "ruler-trophy",
+      "b": "ruler-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "pickaxe-trophy",
+      "b": "pickaxe-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "nail-trophy",
+      "b": "nail-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "valve-trophy",
+      "b": "valve-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "lawn-mower-trophy",
+      "b": "lawn-mower-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "chisel-trophy",
+      "b": "chisel-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "ladder-step-trophy",
+      "b": "ladder-step-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "bulldozer-trophy",
+      "b": "bulldozer-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "drill-trophy",
+      "b": "drill-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "stop-sign-trophy",
+      "b": "stop-sign-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "submarine-trophy",
+      "b": "submarine-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "road-trophy",
+      "b": "road-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "car-trophy",
+      "b": "car-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "electric-scooter-trophy",
+      "b": "electric-scooter-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "license-plate-trophy",
+      "b": "license-plate-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "pickup-truck-trophy",
+      "b": "pickup-truck-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "airship-trophy",
+      "b": "airship-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "bed-trophy",
+      "b": "bed-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "tent-trophy",
+      "b": "tent-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "ship-trophy",
+      "b": "ship-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "umbrella-trophy",
+      "b": "umbrella-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "anchor-trophy",
+      "b": "anchor-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "palm-tree-trophy",
+      "b": "palm-tree-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "campfire-trophy",
+      "b": "campfire-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "service-bell-trophy",
+      "b": "service-bell-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "sandcastle-trophy",
+      "b": "sandcastle-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "luggage-cart-trophy",
+      "b": "luggage-cart-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "water-canteen-trophy",
+      "b": "water-canteen-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "airplane-seat-trophy",
+      "b": "airplane-seat-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "sunrise-trophy",
+      "b": "sunrise-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "thunderstorm-trophy",
+      "b": "thunderstorm-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "heat-wave-trophy",
+      "b": "heat-wave-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "sickle-trophy",
+      "b": "sickle-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "wind-trophy",
+      "b": "wind-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "rocket-trophy",
+      "b": "rocket-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "pencil-cup-trophy",
+      "b": "pencil-cup-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "ornament-trophy",
+      "b": "ornament-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "stamp-trophy",
+      "b": "stamp-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "network-trophy",
+      "b": "network-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "circuit-trophy",
+      "b": "circuit-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "wind-turbine-trophy",
+      "b": "wind-turbine-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "onion-trophy",
+      "b": "onion-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "yoyo-trophy",
+      "b": "yoyo-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "blood-drop-trophy",
+      "b": "blood-drop-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "ceiling-light-trophy",
+      "b": "ceiling-light-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "baby-trophy",
+      "b": "baby-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "siren-trophy",
+      "b": "siren-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "buoy-trophy",
+      "b": "buoy-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "umbrella-closed-trophy",
+      "b": "umbrella-closed-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "wildfire-trophy",
+      "b": "wildfire-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "meditation-trophy",
+      "b": "meditation-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "spatula-trophy",
+      "b": "spatula-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "thermometer-trophy",
+      "b": "thermometer-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "volcano-trophy",
+      "b": "volcano-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "giraffe-trophy",
+      "b": "giraffe-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "crop-trophy",
+      "b": "crop-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "lightbulb-trophy",
+      "b": "lightbulb-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "sitemap-trophy",
+      "b": "sitemap-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "ribbon-trophy",
+      "b": "ribbon-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "juice-trophy",
+      "b": "juice-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "cocktail-trophy",
+      "b": "cocktail-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "firecracker-trophy",
+      "b": "firecracker-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "bomb-trophy",
+      "b": "bomb-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "tag-trophy",
+      "b": "tag-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "price-up-trophy",
+      "b": "price-up-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "walkie-talkie-trophy",
+      "b": "walkie-talkie-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "pennant-trophy",
+      "b": "pennant-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "git-merge-trophy",
+      "b": "git-merge-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "pull-request-trophy",
+      "b": "pull-request-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "bubble-tea-trophy",
+      "b": "bubble-tea-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "match-trophy",
+      "b": "match-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "person-raising-hand-trophy",
+      "b": "person-raising-hand-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "hook-trophy",
+      "b": "hook-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "hotel-key-trophy",
+      "b": "hotel-key-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "test-tube-trophy",
+      "b": "test-tube-bulb",
       "distance": 1.41
     }
   ],
   "dropped": [
-    "cursor-click-stats",
-    "cursor-click-truck",
-    "moon-stats",
-    "moon-truck",
-    "speaking-head-stats",
-    "moon-stars-stats",
-    "moon-stars-truck",
-    "dollar-coin-stats",
-    "dollar-coin-truck",
-    "whale-stats",
-    "camel-stats",
-    "caterpillar-stats",
-    "garage-stats",
-    "protractor-stats",
-    "online-shop-stats",
-    "discount-badge-stats",
-    "discount-badge-truck",
-    "passport-truck",
-    "printer-stats",
-    "banknote-stats",
-    "hex-nut-truck",
-    "croissant-stats",
-    "screwdriver-stats",
-    "fossil-stats",
-    "rainbow-truck",
-    "screwdriver-truck",
-    "floor-lamp-stats",
-    "cupboard-stats",
-    "do-not-disturb-stats",
-    "floor-lamp-truck",
-    "cupboard-truck",
-    "do-not-disturb-truck",
-    "toggle-stats",
-    "headphones-stats",
-    "greenhouse-stats",
-    "forest-stats",
-    "tennis-ball-stats",
-    "scoreboard-stats",
-    "stadium-stats",
-    "barbell-stats",
-    "barbell-truck"
+    "cursor-click-bulb",
+    "moon-bulb",
+    "speaking-head-bulb",
+    "speaking-head-filter",
+    "moon-stars-bulb",
+    "wheelchair-bulb",
+    "turtle-bulb",
+    "spray-can-bulb",
+    "globe-stand-bulb",
+    "nail-polish-bulb",
+    "lollipop-bulb",
+    "broccoli-bulb",
+    "ketchup-bulb",
+    "hot-sauce-bulb",
+    "wine-bottle-bulb",
+    "ear-bulb",
+    "hot-water-bottle-bulb",
+    "mic-bulb",
+    "mic-stand-bulb",
+    "microphone-podcast-bulb",
+    "tree-bulb",
+    "astronaut-bulb",
+    "bucket-bulb",
+    "backpack-bulb",
+    "hot-air-balloon-bulb",
+    "umbrella-beach-bulb",
+    "pregnant-bulb",
+    "robot-arm-bulb",
+    "neural-net-bulb",
+    "voice-assistant-bulb",
+    "butterfly-bulb",
+    "rabbit-bulb",
+    "bone-bulb",
+    "owl-bulb",
+    "frog-bulb",
+    "doghouse-bulb",
+    "koala-bulb",
+    "pig-bulb",
+    "monkey-bulb",
+    "panda-bulb",
+    "dragonfly-bulb",
+    "factory-bulb",
+    "castle-bulb",
+    "barn-bulb",
+    "windmill-bulb",
+    "fire-hydrant-bulb",
+    "office-bulb",
+    "brick-bulb",
+    "lighthouse-bulb",
+    "pagoda-bulb",
+    "skyscraper-bulb",
+    "clock-tower-bulb",
+    "gazebo-bulb",
+    "exit-sign-bulb",
+    "brick-wall-bulb",
+    "blueprint-bulb",
+    "apartment-bulb",
+    "igloo-filter",
+    "briefcase-bulb",
+    "clipboard-bulb",
+    "contract-bulb",
+    "target-bulb",
+    "gavel-bulb",
+    "id-badge-bulb",
+    "filing-cabinet-bulb",
+    "pin-board-bulb",
+    "ballot-box-bulb",
+    "binder-bulb",
+    "kanban-bulb",
+    "clipboard-list-bulb",
+    "projector-screen-bulb",
+    "gantt-bulb",
+    "workflow-bulb",
+    "roadmap-bulb",
+    "kite-bulb",
+    "skull-bulb",
+    "witch-hat-bulb",
+    "party-hat-bulb",
+    "ferris-wheel-bulb",
+    "snow-globe-bulb",
+    "birthday-cake-bulb",
+    "wedding-rings-bulb",
+    "easter-egg-bulb",
+    "heart-arrow-bulb",
+    "gift-bulb",
+    "store-bulb",
+    "basket-bulb",
+    "qr-code-bulb",
+    "receipt-bulb",
+    "barcode-scanner-bulb",
+    "pos-terminal-bulb",
+    "hanging-sign-bulb",
+    "gift-card-bulb",
+    "coupon-bulb",
+    "online-shop-bulb",
+    "receipt-long-bulb",
+    "vending-machine-bulb",
+    "marketplace-bulb",
+    "loyalty-card-bulb",
+    "newspaper-bulb",
+    "mail-bulb",
+    "envelope-open-bulb",
+    "postcard-bulb",
+    "radio-tower-bulb",
+    "telephone-old-bulb",
+    "mailbox-post-bulb",
+    "satellite-phone-bulb",
+    "at-sign-bulb",
+    "inbox-tray-bulb",
+    "voice-message-bulb",
+    "contact-book-bulb",
+    "dashboard-bulb",
+    "table-bulb",
+    "flowchart-bulb",
+    "monitor-chart-bulb",
+    "yarn-bulb",
+    "paint-roller-bulb",
+    "spool-bulb",
+    "cube-bulb",
+    "layers-bulb",
+    "paint-bucket-bulb",
+    "paint-tube-bulb",
+    "picture-frame-bulb",
+    "pen-tool-bulb",
+    "paint-can-bulb",
+    "pencil-ruler-bulb",
+    "shapes-bulb",
+    "code-bulb",
+    "branch-bulb",
+    "terminal-bulb",
+    "server-bulb",
+    "database-bulb",
+    "server-rack-bulb",
+    "api-bulb",
+    "laptop-code-bulb",
+    "monitor-bulb",
+    "sd-card-bulb",
+    "cpu-bulb",
+    "remote-bulb",
+    "projector-bulb",
+    "ram-bulb",
+    "ethernet-bulb",
+    "drone-bulb",
+    "webcam-bulb",
+    "graphics-card-bulb",
+    "touchscreen-bulb",
+    "phone-vibrate-bulb",
+    "nfc-bulb",
+    "power-bank-bulb",
+    "e-reader-bulb",
+    "book-bulb",
+    "school-bulb",
+    "notebook-bulb",
+    "whiteboard-bulb",
+    "bookshelf-bulb",
+    "test-paper-bulb",
+    "book-open-bulb",
+    "quiz-bulb",
+    "solar-panel-bulb",
+    "perfume-bulb",
+    "skirt-bulb",
+    "shorts-bulb",
+    "glove-bulb",
+    "raincoat-bulb",
+    "hair-dryer-bulb",
+    "razor-bulb",
+    "trousers-bulb",
+    "floppy-bulb",
+    "archive-bulb",
+    "folder-open-bulb",
+    "file-zip-bulb",
+    "file-image-bulb",
+    "documents-stack-bulb",
+    "bank-bulb",
+    "invoice-bulb",
+    "card-bulb",
+    "atm-bulb",
+    "calculator-bulb",
+    "safe-bulb",
+    "banknote-bulb",
+    "wallet-bulb",
+    "dollar-coin-bulb",
+    "candlestick-bulb",
+    "vault-door-bulb",
+    "money-bag-bulb",
+    "ledger-bulb",
+    "tip-jar-bulb",
+    "bank-card-contactless-bulb",
+    "blockchain-bulb",
+    "token-coin-bulb",
+    "hex-nut-bulb",
+    "pizza-bulb",
+    "burger-bulb",
+    "popcorn-bulb",
+    "grapes-bulb",
+    "soda-bulb",
+    "chef-hat-bulb",
+    "milk-bulb",
+    "avocado-bulb",
+    "pot-bulb",
+    "hotdog-bulb",
+    "honey-bulb",
+    "teacup-bulb",
+    "fried-egg-bulb",
+    "thermos-bulb",
+    "water-bottle-bulb",
+    "measuring-cup-bulb",
+    "jar-bulb",
+    "sushi-roll-bulb",
+    "donut-bulb",
+    "ice-cream-cone-bulb",
+    "waffle-bulb",
+    "cake-slice-bulb",
+    "french-press-bulb",
+    "apron-bulb",
+    "tongs-bulb",
+    "lemon-slice-bulb",
+    "spaghetti-bulb",
+    "milkshake-bulb",
+    "juice-box-bulb",
+    "chocolate-bulb",
+    "macaron-bulb",
+    "kebab-bulb",
+    "coffee-to-go-bulb",
+    "cinnamon-roll-bulb",
+    "cinnamon-roll-filter",
+    "playing-card-bulb",
+    "domino-bulb",
+    "treasure-chest-bulb",
+    "teddy-bulb",
+    "spinning-top-bulb",
+    "lego-brick-bulb",
+    "rook-bulb",
+    "game-cartridge-bulb",
+    "slot-machine-bulb",
+    "chess-knight-bulb",
+    "treasure-map-bulb",
+    "handheld-console-bulb",
+    "hospital-bulb",
+    "bandage-bulb",
+    "brain-bulb",
+    "pill-bottle-bulb",
+    "heart-monitor-bulb",
+    "x-ray-bulb",
+    "massage-stone-bulb",
+    "bath-salt-bulb",
+    "pill-blister-bulb",
+    "iv-drip-bulb",
+    "lungs-bulb",
+    "heart-pulse-bulb",
+    "hospital-bed-bulb",
+    "fridge-bulb",
+    "washer-bulb",
+    "oven-bulb",
+    "sofa-bulb",
+    "lantern-bulb",
+    "vase-bulb",
+    "window-bulb",
+    "blender-bulb",
+    "wardrobe-bulb",
+    "cupboard-bulb",
+    "microwave-bulb",
+    "air-conditioner-bulb",
+    "toaster-bulb",
+    "stool-bulb",
+    "laundry-basket-bulb",
+    "intercom-bulb",
+    "toilet-bulb",
+    "smart-lock-bulb",
+    "video-doorbell-bulb",
+    "do-not-disturb-bulb",
+    "air-purifier-bulb",
+    "humidifier-bulb",
+    "rice-cooker-bulb",
+    "house-key-bulb",
+    "for-sale-sign-bulb",
+    "smart-home-bulb",
+    "moving-box-bulb",
+    "nightstand-bulb",
+    "dresser-bulb",
+    "armchair-bulb",
+    "bar-stool-bulb",
+    "house-number-bulb",
+    "picket-fence-bulb",
+    "flag-bulb",
+    "idcard-bulb",
+    "firstaid-bulb",
+    "browser-bulb",
+    "sticky-note-bulb",
+    "layout-sidebar-bulb",
+    "crate-bulb",
+    "conveyor-bulb",
+    "forklift-bulb",
+    "pallet-bulb",
+    "cargo-ship-bulb",
+    "return-box-bulb",
+    "warehouse-bulb",
+    "map-bulb",
+    "compass-bulb",
+    "globe-bulb",
+    "signpost-bulb",
+    "camera-bulb",
+    "drum-bulb",
+    "clapperboard-bulb",
+    "cassette-bulb",
+    "metronome-bulb",
+    "boombox-bulb",
+    "polaroid-bulb",
+    "image-bulb",
+    "tripod-bulb",
+    "harp-bulb",
+    "vinyl-bulb",
+    "spotlight-bulb",
+    "record-player-bulb",
+    "equalizer-bulb",
+    "xylophone-bulb",
+    "music-stand-bulb",
+    "cd-bulb",
+    "camera-action-bulb",
+    "film-reel-bulb",
+    "cactus-bulb",
+    "mushroom-bulb",
+    "birdhouse-bulb",
+    "pinecone-bulb",
+    "lotus-bulb",
+    "acorn-bulb",
+    "recycle-bin-bulb",
+    "garden-hose-bulb",
+    "flower-pot-bulb",
+    "greenhouse-bulb",
+    "firewood-bulb",
+    "leaf-autumn-bulb",
+    "cherry-blossom-bulb",
+    "waterfall-bulb",
+    "forest-bulb",
+    "stroller-bulb",
+    "swing-bulb",
+    "seesaw-bulb",
+    "diaper-bulb",
+    "donation-box-bulb",
+    "community-bulb",
+    "user-circle-bulb",
+    "couple-bulb",
+    "magnet-bulb",
+    "planet-bulb",
+    "lab-coat-bulb",
+    "molecule-bulb",
+    "fossil-bulb",
+    "test-tubes-bulb",
+    "key-card-bulb",
+    "thumbs-up-bulb",
+    "wave-hand-bulb",
+    "peace-hand-bulb",
+    "soccer-bulb",
+    "parachute-bulb",
+    "basketball-hoop-bulb",
+    "goal-bulb",
+    "beach-ball-bulb",
+    "jersey-bulb",
+    "scoreboard-bulb",
+    "tennis-racket-bulb",
+    "rugby-ball-bulb",
+    "volleyball-bulb",
+    "stadium-bulb",
+    "checkered-flag-bulb",
+    "shuttlecock-bulb",
+    "scroll-bulb",
+    "calendar-bulb",
+    "snooze-bulb",
+    "flashlight-bulb",
+    "hard-hat-bulb",
+    "spirit-level-bulb",
+    "pipe-bulb",
+    "safety-vest-bulb",
+    "sawhorse-bulb",
+    "workbench-bulb",
+    "excavator-bulb",
+    "bus-bulb",
+    "parking-bulb",
+    "traffic-cone-bulb",
+    "helicopter-bulb",
+    "tram-bulb",
+    "cable-car-bulb",
+    "steering-wheel-bulb",
+    "rv-bulb",
+    "tollbooth-bulb",
+    "car-battery-bulb",
+    "gear-shift-bulb",
+    "car-door-bulb",
+    "camper-trailer-bulb",
+    "ferry-bulb",
+    "car-side-bulb",
+    "van-bulb",
+    "airplane-bulb",
+    "passport-bulb",
+    "lifebuoy-bulb",
+    "sailboat-bulb",
+    "binoculars-bulb",
+    "hammock-bulb",
+    "life-jacket-bulb",
+    "tipi-bulb",
+    "hot-tub-bulb",
+    "sauna-bulb",
+    "boarding-pass-bulb",
+    "island-bulb",
+    "airport-bulb",
+    "snowflake-bulb",
+    "icicles-bulb",
+    "wind-sock-bulb",
+    "flood-bulb",
+    "sunset-bulb",
+    "rss-bulb",
+    "trend-bulb",
+    "rolling-pin-bulb",
+    "spoon-bulb",
+    "fork-bulb",
+    "plunger-bulb",
+    "trumpet-bulb",
+    "brush-bulb",
+    "shovel-bulb",
+    "robot-bulb",
+    "fish-bulb",
+    "cat-bulb",
+    "bird-bulb",
+    "whale-bulb",
+    "duck-bulb",
+    "ladybug-bulb",
+    "fox-bulb",
+    "shark-bulb",
+    "crab-bulb",
+    "hedgehog-bulb",
+    "elephant-bulb",
+    "sheep-bulb",
+    "camel-bulb",
+    "rhino-bulb",
+    "caterpillar-bulb",
+    "street-lamp-bulb",
+    "stairs-bulb",
+    "bench-bulb",
+    "silo-bulb",
+    "fountain-bulb",
+    "igloo-bulb",
+    "megaphone-bulb",
+    "milestone-bulb",
+    "signature-bulb",
+    "balloon-bulb",
+    "snowman-bulb",
+    "ghost-bulb",
+    "party-popper-bulb",
+    "champagne-bulb",
+    "firework-bulb",
+    "garland-bulb",
+    "bag-bulb",
+    "ticket-bulb",
+    "crown-bulb",
+    "diamond-bulb",
+    "discount-bulb",
+    "discount-badge-bulb",
+    "message-bulb",
+    "phone-bulb",
+    "inbox-bulb",
+    "satellite-dish-bulb",
+    "antenna-bulb",
+    "paper-plane-bulb",
+    "mailbox-bulb",
+    "antenna-tower-bulb",
+    "gauge-bulb",
+    "funnel-bulb",
+    "palette-bulb",
+    "crayon-bulb",
+    "easel-bulb",
+    "magic-wand-bulb",
+    "eyedropper-bulb",
+    "bezier-bulb",
+    "laptop-bulb",
+    "bug-bulb",
+    "variable-bulb",
+    "wifi-bulb",
+    "watch-bulb",
+    "battery-bulb",
+    "router-bulb",
+    "mouse-bulb",
+    "tablet-bulb",
+    "keyboard-bulb",
+    "vr-headset-bulb",
+    "usb-drive-bulb",
+    "hard-drive-bulb",
+    "smart-speaker-bulb",
+    "bluetooth-bulb",
+    "cap-bulb",
+    "protractor-bulb",
+    "ruler-triangle-bulb",
+    "eraser-bulb",
+    "math-symbols-bulb",
+    "plug-bulb",
+    "socket-bulb",
+    "shirt-bulb",
+    "scissors-bulb",
+    "hanger-bulb",
+    "ring-bulb",
+    "dress-bulb",
+    "sock-bulb",
+    "bowtie-bulb",
+    "baseball-cap-bulb",
+    "necklace-bulb",
+    "sneaker-bulb",
+    "top-hat-bulb",
+    "boot-bulb",
+    "button-bulb",
+    "sunglasses-bulb",
+    "thimble-bulb",
+    "heels-bulb",
+    "cowboy-hat-bulb",
+    "paperclip-bulb",
+    "folder-bulb",
+    "file-bulb",
+    "piggy-bulb",
+    "gold-bar-bulb",
+    "coffee-bulb",
+    "restaurant-bulb",
+    "cake-bulb",
+    "water-bulb",
+    "wine-bulb",
+    "apple-bulb",
+    "carrot-bulb",
+    "egg-bulb",
+    "teapot-bulb",
+    "watermelon-bulb",
+    "bread-bulb",
+    "cheese-bulb",
+    "bowl-bulb",
+    "pear-bulb",
+    "strawberry-bulb",
+    "banana-bulb",
+    "candy-bulb",
+    "salt-shaker-bulb",
+    "popsicle-bulb",
+    "dumpling-bulb",
+    "barbecue-bulb",
+    "cookie-bulb",
+    "ladle-bulb",
+    "taco-bulb",
+    "rainbow-bulb",
+    "cherry-bulb",
+    "glass-bulb",
+    "whisk-bulb",
+    "screwdriver-bulb",
+    "onigiri-bulb",
+    "peanut-bulb",
+    "coffee-bean-bulb",
+    "ice-cube-bulb",
+    "knife-bulb",
+    "chopsticks-bulb",
+    "skewer-bulb",
+    "mug-bulb",
+    "wine-glass-bulb",
+    "colander-bulb",
+    "mixing-bowl-bulb",
+    "egg-cracked-bulb",
+    "tomato-bulb",
+    "potato-bulb",
+    "serving-cloche-bulb",
+    "croissant-bulb",
+    "eggplant-bulb",
+    "pancakes-bulb",
+    "pie-bulb",
+    "gamepad-bulb",
+    "dice-bulb",
+    "pawn-bulb",
+    "joystick-bulb",
+    "sword-bulb",
+    "potion-bulb",
+    "tooth-bulb",
+    "syringe-bulb",
+    "glasses-bulb",
+    "toothbrush-bulb",
+    "mortar-bulb",
+    "toothpaste-bulb",
+    "stethoscope-bulb",
+    "crutch-bulb",
+    "bathroom-scale-bulb",
+    "scalpel-bulb",
+    "mask-medical-bulb",
+    "pharmacy-cross-bulb",
+    "ambulance-bulb",
+    "lamp-bulb",
+    "floor-lamp-bulb",
+    "door-bulb",
+    "faucet-bulb",
+    "broom-bulb",
+    "iron-bulb",
+    "shower-bulb",
+    "mop-bulb",
+    "soap-dispenser-bulb",
+    "pillow-bulb",
+    "house-bulb",
+    "soap-bar-bulb",
+    "desk-lamp-bulb",
+    "rocking-chair-bulb",
+    "coat-rack-bulb",
+    "sink-bulb",
+    "oven-mitt-bulb",
+    "shower-head-bulb",
+    "trash-bag-bulb",
+    "sponge-bulb",
+    "bookmark-bulb",
+    "link-bulb",
+    "trash-bulb",
+    "edit-bulb",
+    "hourglass-bulb",
+    "pushpin-bulb",
+    "power-bulb",
+    "list-bulb",
+    "toggle-bulb",
+    "toggle-switch-bulb",
+    "checkbox-list-bulb",
+    "dropdown-bulb",
+    "package-bulb",
+    "headphones-bulb",
+    "tv-bulb",
+    "guitar-bulb",
+    "soundwave-bulb",
+    "loudspeaker-bulb",
+    "drumsticks-bulb",
+    "mountain-bulb",
+    "leaf-bulb",
+    "flower-bulb",
+    "flame-bulb",
+    "feather-bulb",
+    "pine-bulb",
+    "tulip-bulb",
+    "sprout-bulb",
+    "waves-bulb",
+    "mountain-flag-bulb",
+    "birdbath-bulb",
+    "mountain-sun-bulb",
+    "desert-bulb",
+    "cave-bulb",
+    "wheat-bulb",
+    "bell-bulb",
+    "user-bulb",
+    "lips-bulb",
+    "bib-bulb",
+    "flask-bulb",
+    "telescope-bulb",
+    "ufo-bulb",
+    "comet-bulb",
+    "microscope-bulb",
+    "petri-dish-bulb",
+    "beaker-bulb",
+    "dna-helix-bulb",
+    "eye-bulb",
+    "cctv-bulb",
+    "password-bulb",
+    "hashtag-bulb",
+    "bike-bulb",
+    "dumbbell-bulb",
+    "barbell-bulb",
+    "pool-bulb",
+    "medal-bulb",
+    "surfboard-bulb",
+    "bow-arrow-bulb",
+    "ski-bulb",
+    "curling-stone-bulb",
+    "hockey-stick-bulb",
+    "jet-ski-bulb",
+    "surf-wave-bulb",
+    "swimmer-bulb",
+    "bike-helmet-bulb",
+    "highlighter-bulb",
+    "stopwatch-bulb",
+    "alarm-clock-bulb",
+    "clock-history-bulb",
+    "wrench-bulb",
+    "hammer-bulb",
+    "axe-bulb",
+    "ladder-bulb",
+    "ruler-bulb",
+    "pickaxe-bulb",
+    "nail-bulb",
+    "valve-bulb",
+    "lawn-mower-bulb",
+    "chisel-bulb",
+    "ladder-step-bulb",
+    "bulldozer-bulb",
+    "drill-bulb",
+    "stop-sign-bulb",
+    "submarine-bulb",
+    "road-bulb",
+    "car-bulb",
+    "electric-scooter-bulb",
+    "license-plate-bulb",
+    "pickup-truck-bulb",
+    "airship-bulb",
+    "bed-bulb",
+    "tent-bulb",
+    "ship-bulb",
+    "umbrella-bulb",
+    "anchor-bulb",
+    "palm-tree-bulb",
+    "campfire-bulb",
+    "service-bell-bulb",
+    "sandcastle-bulb",
+    "luggage-cart-bulb",
+    "water-canteen-bulb",
+    "airplane-seat-bulb",
+    "sunrise-bulb",
+    "thunderstorm-bulb",
+    "heat-wave-bulb",
+    "sickle-bulb",
+    "wind-bulb",
+    "rocket-bulb",
+    "pencil-cup-bulb",
+    "ornament-bulb",
+    "stamp-bulb",
+    "network-bulb",
+    "circuit-bulb",
+    "wind-turbine-bulb",
+    "onion-bulb",
+    "yoyo-bulb",
+    "blood-drop-bulb",
+    "ceiling-light-bulb",
+    "baby-bulb",
+    "siren-bulb",
+    "buoy-bulb",
+    "umbrella-closed-bulb",
+    "wildfire-bulb",
+    "meditation-bulb",
+    "spatula-bulb",
+    "thermometer-bulb",
+    "volcano-bulb",
+    "giraffe-bulb",
+    "crop-bulb",
+    "lightbulb-bulb",
+    "sitemap-bulb",
+    "ribbon-bulb",
+    "juice-bulb",
+    "cocktail-bulb",
+    "firecracker-bulb",
+    "bomb-bulb",
+    "tag-bulb",
+    "price-up-bulb",
+    "walkie-talkie-bulb",
+    "pennant-bulb",
+    "git-merge-bulb",
+    "pull-request-bulb",
+    "bubble-tea-bulb",
+    "match-bulb",
+    "person-raising-hand-bulb",
+    "hook-bulb",
+    "hotel-key-bulb",
+    "test-tube-bulb"
   ],
   "byCategory": {
-    "accessibility": 53,
+    "accessibility": 52,
     "actions": 44,
-    "ai": 262,
-    "animals": 1209,
+    "ai": 258,
+    "animals": 1181,
     "arrows": 121,
-    "buildings": 778,
-    "business": 941,
-    "celebration": 760,
-    "commerce": 868,
-    "communication": 915,
-    "data": 330,
-    "design": 690,
-    "development": 495,
-    "devices": 1081,
-    "education": 651,
+    "buildings": 757,
+    "business": 921,
+    "celebration": 741,
+    "commerce": 858,
+    "communication": 892,
+    "data": 323,
+    "design": 670,
+    "development": 480,
+    "devices": 1054,
+    "education": 637,
     "emoji": 41,
-    "energy": 216,
-    "fashion": 989,
-    "files": 367,
-    "finance": 736,
-    "food": 3291,
-    "gaming": 744,
-    "health": 1082,
-    "home": 1979,
-    "interface": 839,
-    "logistics": 341,
-    "maps": 183,
-    "media": 1123,
-    "nature": 1198,
+    "energy": 212,
+    "fashion": 967,
+    "files": 358,
+    "finance": 717,
+    "food": 3213,
+    "gaming": 724,
+    "health": 1054,
+    "home": 1932,
+    "interface": 821,
+    "logistics": 335,
+    "maps": 179,
+    "media": 1096,
+    "nature": 1177,
     "navigation": 35,
-    "notifications": 51,
-    "people": 638,
-    "science": 572,
-    "security": 347,
-    "social": 147,
-    "sports": 1225,
-    "text": 294,
-    "time": 188,
-    "tools": 1023,
-    "transport": 1149,
-    "travel": 1044,
-    "weather": 511
+    "notifications": 50,
+    "people": 640,
+    "science": 556,
+    "security": 342,
+    "social": 149,
+    "sports": 1202,
+    "text": 292,
+    "time": 183,
+    "tools": 1003,
+    "transport": 1137,
+    "travel": 1018,
+    "weather": 504
   }
 }
