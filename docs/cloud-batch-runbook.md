@@ -56,3 +56,9 @@ Publish `/tmp/review-ui/index.html` with `root=/tmp/review-ui`, `url` = the link
 - Small glyphs inside circles/squares/pages often duplicate each other; keep glyphs large and distinct.
 - Bases that read badly as small combos: key (looks like a magnifier), truck (box), coins (database cylinder).
 - "No" signs: draw the slash over the glyph (no `cover`), or it cuts the glyph apart.
+
+## Single-pass bulk runner (from batch 201)
+- `bash ../../tools/batch/runbulk1.sh` (from `packages/forge`, same env as runbulk.sh): one generate pass with `DROP_FILE`; QA offenders among the new icons are dropped and written to `drop.txt` instead of blocking the write (~9 min per 1,500 candidates at 30k icons).
+- Good badges (33): search clock shield gear pin bolt heart star alert user bell cloud chat download pencil sparkle trash flag calendar question bookmark upload crown moon leaf fire trophy hourglass cursor camera filter stats checkbox. Failing or unreadable (disabled/avoid): eye tag wifi percent plus pause music key truck lock add check close remove; bulb/addbox/notice/pricing mostly fail as look-alikes.
+- After batch 215 all good badges are used on all bases. More icons now come from new bases in `tools/batch/b2NN.mjs` (each new base x 33 badges ~ 30 icons). Review one sample per new base; drop weak bases (append their combo names to drop.txt, delete their def lines and icon folders).
+- Preview: compact-preview.mjs then `split-preview.mjs <dir> 12`; publish in 3 calls (index+illustrations+motion parts+duotone parts / fill parts+light parts / regular+bold parts), each under 64 MB. The account allows 200 artifact file uploads per day.
