@@ -38,6 +38,10 @@ Object.assign(M, {
   moon: `body('M20.5 18.7A4 4 0 0 1 16 12.6a4.2 4.2 0 1 0 4.5 6.1Z', { cover: true })`,
   pause: `body(R(13.5, 13, 2.8, 7.5, 1), { cover: true }), body(R(17.7, 13, 2.8, 7.5, 1), { cover: true })`,
   leaf: `body('M13 20.5c0-4.5 3-7.5 8-8 .3 5-2.7 8-8 8Z', { cover: true }), line('M13.6 19.9 17.5 16')`,
+  hourglass: `body(poly([[13.5, 12.5], [20.5, 12.5], [17.6, 16.5], [20.5, 20.5], [13.5, 20.5], [16.4, 16.5]], 0.6, true), { cover: true })`,
+  trophy: `body('M14 12.8h6v2.7a3 3 0 0 1-6 0Z', { cover: true }), line('M17 18.5v1.7M15 20.6h4M14 13.8h-1v.6a1.6 1.6 0 0 0 1.4 1.6M20 13.8h1v.6a1.6 1.6 0 0 1-1.4 1.6')`,
+  music: `body(C(15.2, 19, 1.8), { cover: true }), body(R(16.2, 12.4, 1.5, 6.6, 0.5), { cover: true }), body('M16.5 12.4l3.8 1v2l-3.8-1Z', { cover: true })`,
+  fire: `body('M17 12c2 1.8 3.6 3.6 3.6 5.6a3.6 3.6 0 0 1-7.2 0c0-1.4.7-2.5 1.6-3.4.2 1 .7 1.7 1.4 1.9-.3-1.7.1-3 .6-4.1Z', { cover: true })`,
   alert: `body(poly([[17, 11.5], [21.3, 20.5], [12.7, 20.5]], 0.9, true), { cover: true }), line('M17 15v2.3'), line(D(17, 19.1))`,
 });
 
@@ -79,6 +83,10 @@ const T = {
   moon: (l) => [`${l} Night Mode`, 'night, dark mode, sleep'],
   pause: (l) => [`Pause ${l}`, 'pause, hold, stop'],
   leaf: (l) => [`Eco ${l}`, 'eco, green, sustainable'],
+  hourglass: (l) => [`${l} Timer`, 'timer, waiting, countdown'],
+  trophy: (l) => [`${l} Award`, 'award, winner, achievement'],
+  music: (l) => [`${l} Audio`, 'audio, music, sound'],
+  fire: (l) => [`Trending ${l}`, 'trending, hot, popular'],
   alert: (l) => [`${l} Alert`, 'alert, warning, problem'],
 };
 // category: most common category among existing icons named <base>-*
