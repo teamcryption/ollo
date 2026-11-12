@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-12T07:00:13.041Z",
-  "icons": 17792,
-  "files": 88960,
+  "generatedAt": "2026-11-12T07:16:33.303Z",
+  "icons": 18392,
+  "files": 91960,
   "errors": [],
   "warnings": [
     "dragonfly-search: grid: outside the 3-21 live area (1.50, 3.00, 21.00, 20.00)",
@@ -19,6 +19,7 @@
     "dragonfly-chat: grid: outside the 3-21 live area (1.50, 3.00, 21.00, 20.70)",
     "dragonfly-download: grid: outside the 3-21 live area (1.50, 3.00, 21.00, 20.50)",
     "dragonfly-pencil: grid: outside the 3-21 live area (1.50, 3.00, 20.89, 20.70)",
+    "dragonfly-upload: grid: outside the 3-21 live area (1.50, 3.00, 20.60, 20.50)",
     "gavel-search: grid: outside the 3-21 live area (3.00, 1.53, 21.00, 20.00)",
     "gavel-clock: grid: outside the 3-21 live area (3.00, 1.53, 21.00, 20.50)",
     "gavel-shield: grid: outside the 3-21 live area (3.00, 1.53, 20.80, 20.80)",
@@ -34,6 +35,7 @@
     "gavel-chat: grid: outside the 3-21 live area (3.00, 1.53, 21.00, 20.70)",
     "gavel-download: grid: outside the 3-21 live area (3.00, 1.53, 21.00, 20.50)",
     "gavel-pencil: grid: outside the 3-21 live area (3.00, 1.53, 20.89, 20.70)",
+    "gavel-upload: grid: outside the 3-21 live area (3.00, 1.53, 20.60, 20.50)",
     "party-hat-search: grid: outside the 3-21 live area (4.72, 2.10, 21.00, 20.00)",
     "party-hat-clock: grid: outside the 3-21 live area (4.72, 2.10, 21.00, 20.50)",
     "party-hat-shield: grid: outside the 3-21 live area (4.72, 2.10, 20.80, 20.80)",
@@ -49,6 +51,7 @@
     "party-hat-chat: grid: outside the 3-21 live area (4.72, 2.10, 21.00, 20.70)",
     "party-hat-download: grid: outside the 3-21 live area (4.72, 2.10, 21.00, 20.50)",
     "party-hat-pencil: grid: outside the 3-21 live area (4.72, 2.10, 20.89, 20.70)",
+    "party-hat-upload: grid: outside the 3-21 live area (4.72, 2.10, 20.60, 20.50)",
     "radio-tower-search: grid: outside the 3-21 live area (2.34, 2.80, 21.00, 20.00)",
     "radio-tower-clock: grid: outside the 3-21 live area (2.34, 2.80, 21.00, 20.50)",
     "radio-tower-shield: grid: outside the 3-21 live area (2.34, 2.80, 20.80, 20.80)",
@@ -82,6 +85,7 @@
     "fried-egg-chat: grid: outside the 3-21 live area (1.92, 4.06, 21.00, 20.70)",
     "fried-egg-download: grid: outside the 3-21 live area (1.92, 4.06, 21.00, 20.50)",
     "fried-egg-pencil: grid: outside the 3-21 live area (1.92, 4.06, 20.89, 20.70)",
+    "fried-egg-upload: grid: outside the 3-21 live area (1.92, 4.06, 20.60, 20.50)",
     "ribbon-search: grid: outside the 3-21 live area (5.00, 2.20, 21.00, 20.00)",
     "ribbon-clock: grid: outside the 3-21 live area (5.00, 2.20, 21.00, 20.50)",
     "ribbon-shield: grid: outside the 3-21 live area (5.00, 2.20, 20.80, 20.80)",
@@ -97,6 +101,7 @@
     "ribbon-chat: grid: outside the 3-21 live area (5.00, 2.20, 21.00, 20.70)",
     "ribbon-download: grid: outside the 3-21 live area (5.00, 2.20, 21.00, 20.50)",
     "ribbon-pencil: grid: outside the 3-21 live area (5.00, 2.20, 20.89, 20.70)",
+    "ribbon-upload: grid: outside the 3-21 live area (5.00, 2.20, 20.60, 20.50)",
     "dashboard: accent: no floating accent",
     "sliders: accent: no floating accent",
     "close-circle: accent: no floating accent",
@@ -114,6 +119,7 @@
     "sparkle: accent: no floating accent",
     "grid-dots: accent: no floating accent",
     "clapperboard-pencil: grid: outside the 3-21 live area (3.00, 2.30, 20.89, 20.70)",
+    "clapperboard-upload: grid: outside the 3-21 live area (3.00, 2.30, 20.60, 20.50)",
     "seesaw-search: grid: outside the 3-21 live area (2.70, 2.00, 21.00, 20.00)",
     "seesaw-clock: grid: outside the 3-21 live area (2.70, 2.00, 21.00, 20.50)",
     "seesaw-shield: grid: outside the 3-21 live area (2.70, 2.00, 20.80, 20.80)",
@@ -129,6 +135,7 @@
     "seesaw-chat: grid: outside the 3-21 live area (2.70, 2.00, 21.00, 20.70)",
     "seesaw-download: grid: outside the 3-21 live area (2.70, 2.00, 21.00, 20.50)",
     "seesaw-pencil: grid: outside the 3-21 live area (2.70, 2.00, 20.89, 20.70)",
+    "seesaw-upload: grid: outside the 3-21 live area (2.70, 2.00, 20.60, 20.50)",
     "duplicate: face-smile ~ face-wink (shape distance 1px)",
     "duplicate: face-neutral ~ face-confused (shape distance 1px)",
     "duplicate: face-surprised ~ face-sleepy (shape distance 1px)",
@@ -137,6 +144,291 @@
     "duplicate: lock ~ lock-open (shape distance 1px)"
   ],
   "duplicates": [
+    {
+      "a": "spray-can-sparkle",
+      "b": "spray-can-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "drawing-compass-sparkle",
+      "b": "drawing-compass-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "nail-polish-sparkle",
+      "b": "nail-polish-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "lollipop-sparkle",
+      "b": "lollipop-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "broccoli-sparkle",
+      "b": "broccoli-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "thermometer-sparkle",
+      "b": "thermometer-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "ear-sparkle",
+      "b": "ear-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "mic-sparkle",
+      "b": "mic-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "tree-sparkle",
+      "b": "tree-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "traffic-light-sparkle",
+      "b": "traffic-light-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "hot-air-balloon-sparkle",
+      "b": "hot-air-balloon-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-sparkle",
+      "b": "paw-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "butterfly-sparkle",
+      "b": "butterfly-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "rabbit-sparkle",
+      "b": "rabbit-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "owl-sparkle",
+      "b": "owl-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "frog-sparkle",
+      "b": "frog-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "jellyfish-sparkle",
+      "b": "jellyfish-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "horseshoe-sparkle",
+      "b": "horseshoe-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "factory-sparkle",
+      "b": "factory-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "brick-sparkle",
+      "b": "brick-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "briefcase-sparkle",
+      "b": "briefcase-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "clipboard-sparkle",
+      "b": "clipboard-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "contract-sparkle",
+      "b": "contract-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "rocket-sparkle",
+      "b": "rocket-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "target-sparkle",
+      "b": "target-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "presentation-sparkle",
+      "b": "presentation-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "kite-sparkle",
+      "b": "kite-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "witch-hat-sparkle",
+      "b": "witch-hat-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "store-sparkle",
+      "b": "store-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "diamond-sparkle",
+      "b": "diamond-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "barcode-sparkle",
+      "b": "barcode-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "qr-code-sparkle",
+      "b": "qr-code-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "receipt-sparkle",
+      "b": "receipt-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "newspaper-sparkle",
+      "b": "newspaper-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "mail-sparkle",
+      "b": "mail-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "envelope-open-sparkle",
+      "b": "envelope-open-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "postcard-sparkle",
+      "b": "postcard-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "signal-sparkle",
+      "b": "signal-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "dashboard-sparkle",
+      "b": "dashboard-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "table-sparkle",
+      "b": "table-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "pie-chart-sparkle",
+      "b": "pie-chart-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "yarn-sparkle",
+      "b": "yarn-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "paint-roller-sparkle",
+      "b": "paint-roller-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "easel-sparkle",
+      "b": "easel-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "cube-sparkle",
+      "b": "cube-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "layers-sparkle",
+      "b": "layers-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "branch-sparkle",
+      "b": "branch-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "terminal-sparkle",
+      "b": "terminal-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "printer-sparkle",
+      "b": "printer-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "cpu-sparkle",
+      "b": "cpu-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "remote-sparkle",
+      "b": "remote-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "projector-sparkle",
+      "b": "projector-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "ethernet-sparkle",
+      "b": "ethernet-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "earbuds-sparkle",
+      "b": "earbuds-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "drone-sparkle",
+      "b": "drone-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "book-sparkle",
+      "b": "book-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "school-sparkle",
+      "b": "school-upload",
+      "distance": 1.41
+    },
     {
       "a": "face-smile",
       "b": "face-wink",
@@ -163,53 +455,1775 @@
       "distance": 1
     },
     {
+      "a": "ev-sparkle",
+      "b": "ev-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "solar-panel-sparkle",
+      "b": "solar-panel-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "skirt-sparkle",
+      "b": "skirt-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "shorts-sparkle",
+      "b": "shorts-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "comb-sparkle",
+      "b": "comb-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "top-hat-sparkle",
+      "b": "top-hat-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "floppy-sparkle",
+      "b": "floppy-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "invoice-sparkle",
+      "b": "invoice-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "card-sparkle",
+      "b": "card-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "atm-sparkle",
+      "b": "atm-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "safe-sparkle",
+      "b": "safe-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "banknote-sparkle",
+      "b": "banknote-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "wallet-sparkle",
+      "b": "wallet-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "dollar-coin-sparkle",
+      "b": "dollar-coin-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "candlestick-sparkle",
+      "b": "candlestick-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "pizza-sparkle",
+      "b": "pizza-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "pumpkin-sparkle",
+      "b": "pumpkin-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "grapes-sparkle",
+      "b": "grapes-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "chef-hat-sparkle",
+      "b": "chef-hat-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "avocado-sparkle",
+      "b": "avocado-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "beer-sparkle",
+      "b": "beer-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "hotdog-sparkle",
+      "b": "hotdog-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "honey-sparkle",
+      "b": "honey-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "teacup-sparkle",
+      "b": "teacup-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "thermos-sparkle",
+      "b": "thermos-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "water-bottle-sparkle",
+      "b": "water-bottle-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "whisk-upload",
+      "b": "screwdriver-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "playing-card-sparkle",
+      "b": "playing-card-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "hospital-sparkle",
+      "b": "hospital-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "bandage-sparkle",
+      "b": "bandage-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "brain-sparkle",
+      "b": "brain-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "fridge-sparkle",
+      "b": "fridge-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "washer-sparkle",
+      "b": "washer-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "oven-sparkle",
+      "b": "oven-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "lantern-sparkle",
+      "b": "lantern-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "vase-sparkle",
+      "b": "vase-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "fireplace-sparkle",
+      "b": "fireplace-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "microwave-sparkle",
+      "b": "microwave-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "air-conditioner-sparkle",
+      "b": "air-conditioner-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "radiator-sparkle",
+      "b": "radiator-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "toaster-sparkle",
+      "b": "toaster-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "stool-sparkle",
+      "b": "stool-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "curtains-sparkle",
+      "b": "curtains-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "idcard-sparkle",
+      "b": "idcard-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "firstaid-sparkle",
+      "b": "firstaid-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "browser-sparkle",
+      "b": "browser-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "crate-sparkle",
+      "b": "crate-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "map-sparkle",
+      "b": "map-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "compass-sparkle",
+      "b": "compass-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "globe-sparkle",
+      "b": "globe-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "signpost-sparkle",
+      "b": "signpost-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "film-sparkle",
+      "b": "film-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "camera-sparkle",
+      "b": "camera-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "drum-sparkle",
+      "b": "drum-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "radio-sparkle",
+      "b": "radio-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "cassette-sparkle",
+      "b": "cassette-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "piano-sparkle",
+      "b": "piano-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "boombox-sparkle",
+      "b": "boombox-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "polaroid-sparkle",
+      "b": "polaroid-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "mushroom-sparkle",
+      "b": "mushroom-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "seashell-sparkle",
+      "b": "seashell-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "lotus-sparkle",
+      "b": "lotus-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "swing-sparkle",
+      "b": "swing-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "planet-sparkle",
+      "b": "planet-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "fire-extinguisher-sparkle",
+      "b": "fire-extinguisher-upload",
+      "distance": 1.41
+    },
+    {
       "a": "lock",
       "b": "lock-open",
       "distance": 1
+    },
+    {
+      "a": "trophy-sparkle",
+      "b": "trophy-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "bike-sparkle",
+      "b": "bike-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "soccer-sparkle",
+      "b": "soccer-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "parachute-sparkle",
+      "b": "parachute-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "basketball-hoop-sparkle",
+      "b": "basketball-hoop-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "tennis-ball-sparkle",
+      "b": "tennis-ball-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "basketball-sparkle",
+      "b": "basketball-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "calendar-sparkle",
+      "b": "calendar-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "toolbox-sparkle",
+      "b": "toolbox-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "flashlight-sparkle",
+      "b": "flashlight-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "wheelbarrow-sparkle",
+      "b": "wheelbarrow-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "hex-nut-sparkle",
+      "b": "hex-nut-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "screw-sparkle",
+      "b": "screw-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "bus-sparkle",
+      "b": "bus-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "fuel-sparkle",
+      "b": "fuel-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "parking-sparkle",
+      "b": "parking-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "traffic-cone-sparkle",
+      "b": "traffic-cone-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "helicopter-sparkle",
+      "b": "helicopter-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "tram-sparkle",
+      "b": "tram-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "cable-car-sparkle",
+      "b": "cable-car-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "airplane-sparkle",
+      "b": "airplane-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "passport-sparkle",
+      "b": "passport-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "suitcase-sparkle",
+      "b": "suitcase-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "lifebuoy-sparkle",
+      "b": "lifebuoy-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "sailboat-sparkle",
+      "b": "sailboat-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "snowflake-sparkle",
+      "b": "snowflake-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "robot-sparkle",
+      "b": "robot-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-sparkle",
+      "b": "fish-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "bird-sparkle",
+      "b": "bird-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "bone-sparkle",
+      "b": "bone-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "duck-sparkle",
+      "b": "duck-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "ladybug-sparkle",
+      "b": "ladybug-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "fox-sparkle",
+      "b": "fox-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "shark-sparkle",
+      "b": "shark-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "octopus-sparkle",
+      "b": "octopus-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "street-lamp-sparkle",
+      "b": "street-lamp-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "bench-sparkle",
+      "b": "bench-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "balloon-sparkle",
+      "b": "balloon-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "snowman-sparkle",
+      "b": "snowman-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "ghost-sparkle",
+      "b": "ghost-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "party-popper-sparkle",
+      "b": "party-popper-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "champagne-sparkle",
+      "b": "champagne-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "firework-sparkle",
+      "b": "firework-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "bag-sparkle",
+      "b": "bag-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "cart-sparkle",
+      "b": "cart-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "ticket-sparkle",
+      "b": "ticket-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "basket-sparkle",
+      "b": "basket-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "crown-sparkle",
+      "b": "crown-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "discount-sparkle",
+      "b": "discount-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "percent-sparkle",
+      "b": "percent-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "message-sparkle",
+      "b": "message-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "phone-sparkle",
+      "b": "phone-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "inbox-sparkle",
+      "b": "inbox-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "satellite-dish-sparkle",
+      "b": "satellite-dish-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "antenna-sparkle",
+      "b": "antenna-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "paper-plane-sparkle",
+      "b": "paper-plane-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "mailbox-sparkle",
+      "b": "mailbox-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "gauge-sparkle",
+      "b": "gauge-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "funnel-sparkle",
+      "b": "funnel-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "crayon-sparkle",
+      "b": "crayon-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "magic-wand-sparkle",
+      "b": "magic-wand-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "bug-sparkle",
+      "b": "bug-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "wifi-sparkle",
+      "b": "wifi-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "watch-sparkle",
+      "b": "watch-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "battery-sparkle",
+      "b": "battery-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "router-sparkle",
+      "b": "router-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "mouse-sparkle",
+      "b": "mouse-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "keyboard-sparkle",
+      "b": "keyboard-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "vr-headset-sparkle",
+      "b": "vr-headset-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "usb-drive-sparkle",
+      "b": "usb-drive-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "hard-drive-sparkle",
+      "b": "hard-drive-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "webcam-sparkle",
+      "b": "webcam-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "cap-sparkle",
+      "b": "cap-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "protractor-sparkle",
+      "b": "protractor-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "plug-sparkle",
+      "b": "plug-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "socket-sparkle",
+      "b": "socket-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "shirt-sparkle",
+      "b": "shirt-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "scissors-sparkle",
+      "b": "scissors-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "hanger-sparkle",
+      "b": "hanger-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "ring-sparkle",
+      "b": "ring-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "dress-sparkle",
+      "b": "dress-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "sock-sparkle",
+      "b": "sock-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "bowtie-sparkle",
+      "b": "bowtie-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "lipstick-sparkle",
+      "b": "lipstick-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "necktie-sparkle",
+      "b": "necktie-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "baseball-cap-sparkle",
+      "b": "baseball-cap-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "necklace-sparkle",
+      "b": "necklace-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "sneaker-sparkle",
+      "b": "sneaker-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "boot-sparkle",
+      "b": "boot-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "button-sparkle",
+      "b": "button-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "paperclip-sparkle",
+      "b": "paperclip-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "umbrella-sparkle",
+      "b": "umbrella-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "trend-sparkle",
+      "b": "trend-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "coffee-sparkle",
+      "b": "coffee-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "apple-sparkle",
+      "b": "apple-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "carrot-sparkle",
+      "b": "carrot-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "egg-sparkle",
+      "b": "egg-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "teapot-sparkle",
+      "b": "teapot-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "watermelon-sparkle",
+      "b": "watermelon-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "bread-sparkle",
+      "b": "bread-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "cheese-sparkle",
+      "b": "cheese-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "pear-sparkle",
+      "b": "pear-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "strawberry-sparkle",
+      "b": "strawberry-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "banana-sparkle",
+      "b": "banana-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "candy-sparkle",
+      "b": "candy-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "chili-sparkle",
+      "b": "chili-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "popsicle-sparkle",
+      "b": "popsicle-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "dumpling-sparkle",
+      "b": "dumpling-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "rolling-pin-sparkle",
+      "b": "rolling-pin-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "barbecue-sparkle",
+      "b": "barbecue-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "cookie-sparkle",
+      "b": "cookie-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "ladle-sparkle",
+      "b": "ladle-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "taco-sparkle",
+      "b": "taco-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "cherry-sparkle",
+      "b": "cherry-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "glass-sparkle",
+      "b": "glass-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "onigiri-sparkle",
+      "b": "onigiri-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "peanut-sparkle",
+      "b": "peanut-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "coffee-bean-sparkle",
+      "b": "coffee-bean-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "gamepad-sparkle",
+      "b": "gamepad-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "dice-sparkle",
+      "b": "dice-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "sword-sparkle",
+      "b": "sword-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "potion-sparkle",
+      "b": "potion-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "lego-brick-sparkle",
+      "b": "lego-brick-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "tooth-sparkle",
+      "b": "tooth-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "syringe-sparkle",
+      "b": "syringe-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "toothbrush-sparkle",
+      "b": "toothbrush-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "mortar-sparkle",
+      "b": "mortar-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "stethoscope-sparkle",
+      "b": "stethoscope-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "sofa-sparkle",
+      "b": "sofa-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "lamp-sparkle",
+      "b": "lamp-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "candle-sparkle",
+      "b": "candle-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "bathtub-sparkle",
+      "b": "bathtub-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "faucet-sparkle",
+      "b": "faucet-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "broom-sparkle",
+      "b": "broom-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "iron-sparkle",
+      "b": "iron-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "shower-sparkle",
+      "b": "shower-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "pillow-sparkle",
+      "b": "pillow-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "flag-sparkle",
+      "b": "flag-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "bookmark-sparkle",
+      "b": "bookmark-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "link-sparkle",
+      "b": "link-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "edit-sparkle",
+      "b": "edit-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "hourglass-sparkle",
+      "b": "hourglass-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "pushpin-sparkle",
+      "b": "pushpin-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "power-sparkle",
+      "b": "power-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "list-sparkle",
+      "b": "list-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "toggle-sparkle",
+      "b": "toggle-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "package-sparkle",
+      "b": "package-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "headphones-sparkle",
+      "b": "headphones-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "tv-sparkle",
+      "b": "tv-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "guitar-sparkle",
+      "b": "guitar-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "soundwave-sparkle",
+      "b": "soundwave-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "mountain-sparkle",
+      "b": "mountain-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "leaf-sparkle",
+      "b": "leaf-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "sun-sparkle",
+      "b": "sun-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "flower-sparkle",
+      "b": "flower-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "flame-sparkle",
+      "b": "flame-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "feather-sparkle",
+      "b": "feather-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "pine-sparkle",
+      "b": "pine-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "tulip-sparkle",
+      "b": "tulip-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "waves-sparkle",
+      "b": "waves-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "bell-sparkle",
+      "b": "bell-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "users-sparkle",
+      "b": "users-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "user-sparkle",
+      "b": "user-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "baby-bottle-sparkle",
+      "b": "baby-bottle-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "flask-sparkle",
+      "b": "flask-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "dna-sparkle",
+      "b": "dna-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "telescope-sparkle",
+      "b": "telescope-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "ufo-sparkle",
+      "b": "ufo-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "comet-sparkle",
+      "b": "comet-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "cctv-sparkle",
+      "b": "cctv-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "fingerprint-sparkle",
+      "b": "fingerprint-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "password-sparkle",
+      "b": "password-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "dumbbell-sparkle",
+      "b": "dumbbell-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "pool-sparkle",
+      "b": "pool-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "medal-sparkle",
+      "b": "medal-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "whistle-sparkle",
+      "b": "whistle-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "surfboard-sparkle",
+      "b": "surfboard-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "bowling-pin-sparkle",
+      "b": "bowling-pin-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "bow-arrow-sparkle",
+      "b": "bow-arrow-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "fountain-pen-sparkle",
+      "b": "fountain-pen-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "stopwatch-sparkle",
+      "b": "stopwatch-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "wrench-sparkle",
+      "b": "wrench-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "brush-sparkle",
+      "b": "brush-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "hammer-sparkle",
+      "b": "hammer-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "axe-sparkle",
+      "b": "axe-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "shovel-sparkle",
+      "b": "shovel-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "pickaxe-sparkle",
+      "b": "pickaxe-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "train-sparkle",
+      "b": "train-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "taxi-sparkle",
+      "b": "taxi-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "stop-sign-sparkle",
+      "b": "stop-sign-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "submarine-sparkle",
+      "b": "submarine-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "road-sparkle",
+      "b": "road-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "car-sparkle",
+      "b": "car-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "bed-sparkle",
+      "b": "bed-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "tent-sparkle",
+      "b": "tent-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "ship-sparkle",
+      "b": "ship-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "anchor-sparkle",
+      "b": "anchor-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "campfire-sparkle",
+      "b": "campfire-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "service-bell-sparkle",
+      "b": "service-bell-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "rainbow-sparkle",
+      "b": "rainbow-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "wind-sparkle",
+      "b": "wind-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "wind-turbine-sparkle",
+      "b": "wind-turbine-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "onion-sparkle",
+      "b": "onion-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "spatula-sparkle",
+      "b": "spatula-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "test-tube-sparkle",
+      "b": "test-tube-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "volcano-sparkle",
+      "b": "volcano-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "lightbulb-sparkle",
+      "b": "lightbulb-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "bomb-sparkle",
+      "b": "bomb-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "tag-sparkle",
+      "b": "tag-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "pennant-sparkle",
+      "b": "pennant-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "cocktail-sparkle",
+      "b": "cocktail-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "hook-sparkle",
+      "b": "hook-upload",
+      "distance": 1.41
     }
   ],
+  "dropped": [
+    "moon-upload",
+    "spray-can-upload",
+    "drawing-compass-upload",
+    "nail-polish-upload",
+    "lollipop-upload",
+    "broccoli-upload",
+    "thermometer-upload",
+    "ear-upload",
+    "mic-upload",
+    "tree-upload",
+    "traffic-light-upload",
+    "hot-air-balloon-upload",
+    "paw-upload",
+    "butterfly-upload",
+    "rabbit-upload",
+    "owl-upload",
+    "frog-upload",
+    "jellyfish-upload",
+    "horseshoe-upload",
+    "factory-upload",
+    "brick-upload",
+    "briefcase-upload",
+    "clipboard-upload",
+    "contract-upload",
+    "rocket-upload",
+    "target-upload",
+    "presentation-upload",
+    "kite-upload",
+    "witch-hat-upload",
+    "store-upload",
+    "diamond-upload",
+    "barcode-upload",
+    "qr-code-upload",
+    "receipt-upload",
+    "newspaper-upload",
+    "mail-upload",
+    "envelope-open-upload",
+    "postcard-upload",
+    "signal-upload",
+    "dashboard-upload",
+    "table-upload",
+    "pie-chart-upload",
+    "yarn-upload",
+    "paint-roller-upload",
+    "easel-upload",
+    "cube-upload",
+    "layers-upload",
+    "branch-upload",
+    "terminal-upload",
+    "printer-upload",
+    "cpu-upload",
+    "remote-upload",
+    "projector-upload",
+    "ethernet-upload",
+    "earbuds-upload",
+    "drone-upload",
+    "book-upload",
+    "school-upload",
+    "ev-upload",
+    "solar-panel-upload",
+    "skirt-upload",
+    "shorts-upload",
+    "comb-upload",
+    "top-hat-upload",
+    "floppy-upload",
+    "invoice-upload",
+    "card-upload",
+    "atm-upload",
+    "safe-upload",
+    "banknote-upload",
+    "wallet-upload",
+    "dollar-coin-upload",
+    "candlestick-upload",
+    "pizza-upload",
+    "pumpkin-upload",
+    "grapes-upload",
+    "chef-hat-upload",
+    "avocado-upload",
+    "beer-upload",
+    "hotdog-upload",
+    "honey-upload",
+    "teacup-upload",
+    "thermos-upload",
+    "water-bottle-upload",
+    "screwdriver-upload",
+    "playing-card-upload",
+    "hospital-upload",
+    "bandage-upload",
+    "brain-upload",
+    "fridge-upload",
+    "washer-upload",
+    "oven-upload",
+    "lantern-upload",
+    "vase-upload",
+    "fireplace-upload",
+    "microwave-upload",
+    "air-conditioner-upload",
+    "radiator-upload",
+    "toaster-upload",
+    "stool-upload",
+    "curtains-upload",
+    "idcard-upload",
+    "firstaid-upload",
+    "browser-upload",
+    "crate-upload",
+    "map-upload",
+    "compass-upload",
+    "globe-upload",
+    "signpost-upload",
+    "film-upload",
+    "camera-upload",
+    "drum-upload",
+    "radio-upload",
+    "cassette-upload",
+    "piano-upload",
+    "boombox-upload",
+    "polaroid-upload",
+    "mushroom-upload",
+    "seashell-upload",
+    "lotus-upload",
+    "swing-upload",
+    "planet-upload",
+    "fire-extinguisher-upload",
+    "trophy-upload",
+    "bike-upload",
+    "soccer-upload",
+    "parachute-upload",
+    "basketball-hoop-upload",
+    "tennis-ball-upload",
+    "basketball-upload",
+    "calendar-upload",
+    "toolbox-upload",
+    "flashlight-upload",
+    "wheelbarrow-upload",
+    "hex-nut-upload",
+    "screw-upload",
+    "bus-upload",
+    "fuel-upload",
+    "parking-upload",
+    "traffic-cone-upload",
+    "helicopter-upload",
+    "tram-upload",
+    "cable-car-upload",
+    "airplane-upload",
+    "passport-upload",
+    "suitcase-upload",
+    "lifebuoy-upload",
+    "sailboat-upload",
+    "snowflake-upload",
+    "robot-upload",
+    "fish-upload",
+    "bird-upload",
+    "bone-upload",
+    "duck-upload",
+    "ladybug-upload",
+    "fox-upload",
+    "shark-upload",
+    "octopus-upload",
+    "street-lamp-upload",
+    "bench-upload",
+    "balloon-upload",
+    "snowman-upload",
+    "ghost-upload",
+    "party-popper-upload",
+    "champagne-upload",
+    "firework-upload",
+    "bag-upload",
+    "cart-upload",
+    "ticket-upload",
+    "basket-upload",
+    "crown-upload",
+    "discount-upload",
+    "percent-upload",
+    "message-upload",
+    "phone-upload",
+    "inbox-upload",
+    "satellite-dish-upload",
+    "antenna-upload",
+    "paper-plane-upload",
+    "mailbox-upload",
+    "gauge-upload",
+    "funnel-upload",
+    "crayon-upload",
+    "magic-wand-upload",
+    "bug-upload",
+    "wifi-upload",
+    "watch-upload",
+    "battery-upload",
+    "router-upload",
+    "mouse-upload",
+    "keyboard-upload",
+    "vr-headset-upload",
+    "usb-drive-upload",
+    "hard-drive-upload",
+    "webcam-upload",
+    "cap-upload",
+    "protractor-upload",
+    "plug-upload",
+    "socket-upload",
+    "shirt-upload",
+    "scissors-upload",
+    "hanger-upload",
+    "ring-upload",
+    "dress-upload",
+    "sock-upload",
+    "bowtie-upload",
+    "lipstick-upload",
+    "necktie-upload",
+    "baseball-cap-upload",
+    "necklace-upload",
+    "sneaker-upload",
+    "boot-upload",
+    "button-upload",
+    "paperclip-upload",
+    "umbrella-upload",
+    "trend-upload",
+    "coffee-upload",
+    "apple-upload",
+    "carrot-upload",
+    "egg-upload",
+    "teapot-upload",
+    "watermelon-upload",
+    "bread-upload",
+    "cheese-upload",
+    "pear-upload",
+    "strawberry-upload",
+    "banana-upload",
+    "candy-upload",
+    "chili-upload",
+    "popsicle-upload",
+    "dumpling-upload",
+    "rolling-pin-upload",
+    "barbecue-upload",
+    "cookie-upload",
+    "ladle-upload",
+    "taco-upload",
+    "cherry-upload",
+    "glass-upload",
+    "onigiri-upload",
+    "peanut-upload",
+    "coffee-bean-upload",
+    "gamepad-upload",
+    "dice-upload",
+    "sword-upload",
+    "potion-upload",
+    "lego-brick-upload",
+    "tooth-upload",
+    "syringe-upload",
+    "toothbrush-upload",
+    "mortar-upload",
+    "stethoscope-upload",
+    "sofa-upload",
+    "lamp-upload",
+    "candle-upload",
+    "bathtub-upload",
+    "faucet-upload",
+    "broom-upload",
+    "iron-upload",
+    "shower-upload",
+    "pillow-upload",
+    "flag-upload",
+    "bookmark-upload",
+    "link-upload",
+    "edit-upload",
+    "hourglass-upload",
+    "pushpin-upload",
+    "power-upload",
+    "list-upload",
+    "toggle-upload",
+    "package-upload",
+    "headphones-upload",
+    "tv-upload",
+    "guitar-upload",
+    "soundwave-upload",
+    "mountain-upload",
+    "leaf-upload",
+    "sun-upload",
+    "flower-upload",
+    "flame-upload",
+    "feather-upload",
+    "pine-upload",
+    "tulip-upload",
+    "waves-upload",
+    "bell-upload",
+    "users-upload",
+    "user-upload",
+    "baby-bottle-upload",
+    "flask-upload",
+    "dna-upload",
+    "telescope-upload",
+    "ufo-upload",
+    "comet-upload",
+    "cctv-upload",
+    "fingerprint-upload",
+    "password-upload",
+    "dumbbell-upload",
+    "pool-upload",
+    "medal-upload",
+    "whistle-upload",
+    "surfboard-upload",
+    "bowling-pin-upload",
+    "bow-arrow-upload",
+    "fountain-pen-upload",
+    "stopwatch-upload",
+    "wrench-upload",
+    "brush-upload",
+    "hammer-upload",
+    "axe-upload",
+    "shovel-upload",
+    "pickaxe-upload",
+    "train-upload",
+    "taxi-upload",
+    "stop-sign-upload",
+    "submarine-upload",
+    "road-upload",
+    "car-upload",
+    "bed-upload",
+    "tent-upload",
+    "ship-upload",
+    "anchor-upload",
+    "campfire-upload",
+    "service-bell-upload",
+    "rainbow-upload",
+    "wind-upload",
+    "wind-turbine-upload",
+    "onion-upload",
+    "spatula-upload",
+    "test-tube-upload",
+    "volcano-upload",
+    "lightbulb-upload",
+    "bomb-upload",
+    "tag-upload",
+    "pennant-upload",
+    "cocktail-upload",
+    "hook-upload"
+  ],
   "byCategory": {
-    "accessibility": 38,
+    "accessibility": 39,
     "actions": 44,
-    "ai": 169,
-    "animals": 705,
+    "ai": 170,
+    "animals": 727,
     "arrows": 121,
-    "buildings": 445,
-    "business": 548,
-    "celebration": 436,
-    "commerce": 519,
-    "communication": 537,
+    "buildings": 461,
+    "business": 556,
+    "celebration": 442,
+    "commerce": 525,
+    "communication": 540,
     "data": 211,
-    "design": 396,
-    "development": 292,
-    "devices": 688,
-    "education": 405,
+    "design": 402,
+    "development": 296,
+    "devices": 696,
+    "education": 413,
     "emoji": 41,
     "energy": 139,
-    "fashion": 589,
-    "files": 245,
-    "finance": 459,
-    "food": 1892,
-    "gaming": 444,
-    "health": 629,
-    "home": 1151,
-    "interface": 607,
-    "logistics": 205,
+    "fashion": 598,
+    "files": 246,
+    "finance": 467,
+    "food": 1929,
+    "gaming": 456,
+    "health": 637,
+    "home": 1167,
+    "interface": 609,
+    "logistics": 210,
     "maps": 119,
-    "media": 661,
-    "nature": 699,
+    "media": 672,
+    "nature": 706,
     "navigation": 35,
     "notifications": 38,
-    "people": 353,
-    "science": 345,
-    "security": 239,
-    "social": 95,
-    "sports": 711,
-    "text": 223,
-    "time": 121,
-    "tools": 608,
-    "transport": 696,
-    "travel": 602,
-    "weather": 292
+    "people": 357,
+    "science": 353,
+    "security": 243,
+    "social": 96,
+    "sports": 722,
+    "text": 225,
+    "time": 122,
+    "tools": 618,
+    "transport": 701,
+    "travel": 613,
+    "weather": 295
   }
 }

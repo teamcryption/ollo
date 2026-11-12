@@ -28,6 +28,12 @@ Object.assign(M, {
   eye: `body('M12.8 16.5c1.2-2 2.6-3 4.2-3s3 1 4.2 3c-1.2 2-2.6 3-4.2 3s-3-1-4.2-3Z', { cover: true }), line(C(17, 16.5, 1.1))`,
   tag: `body('M13.5 13h3.8l3.6 3.6-3.9 3.9-3.5-3.5Z', { cover: true }), line(D(15.2, 14.8))`,
   calendar: `body(R(13, 13.3, 8, 7.2, 1.3), { cover: true }), line('M13.2 15.9h7.6M15 12.4v1.8M19 12.4v1.8')`,
+  plus: `body(poly([[16, 12.5], [18, 12.5], [18, 15.5], [21, 15.5], [21, 17.5], [18, 17.5], [18, 20.5], [16, 20.5], [16, 17.5], [13, 17.5], [13, 15.5], [16, 15.5]], 0.5, true), { cover: true })`,
+  upload: `body(poly([[17, 12.3], [20.8, 16.3], [18.5, 16.3], [18.5, 20.5], [15.5, 20.5], [15.5, 16.3], [13.2, 16.3]], 0.5, true), { cover: true })`,
+  wifi: `body('M17 20.5 13 15.6a6 6 0 0 1 8 0Z', { cover: true }), line('M14.6 14.2a4 4 0 0 1 4.8 0')`,
+  percent: `body(R(13, 12.5, 8, 8, 2), { cover: true }), line('M15.2 18.3l3.6-3.6'), line(D(15.4, 14.7) + D(18.6, 18.1))`,
+  bookmark: `body('M14.5 12.5h5v8l-2.5-1.8-2.5 1.8Z', { cover: true })`,
+  question: `body(R(13, 12.5, 8, 8, 2), { cover: true }), line('M15.7 15.4a1.3 1.3 0 1 1 1.9 1.2c-.4.2-.6.5-.6.9'), line(D(17, 18.9))`,
   alert: `body(poly([[17, 11.5], [21.3, 20.5], [12.7, 20.5]], 0.9, true), { cover: true }), line('M17 15v2.3'), line(D(17, 19.1))`,
 });
 
@@ -59,6 +65,12 @@ const T = {
   eye: (l) => [`View ${l}`, 'view, preview, visible'],
   tag: (l) => [`${l} Price`, 'price, sale, label'],
   calendar: (l) => [`${l} Booking`, 'booking, date, appointment'],
+  plus: (l) => [`Add ${l}`, 'add, new, plus'],
+  upload: (l) => [`Upload ${l}`, 'upload, send, export'],
+  wifi: (l) => [`Connected ${l}`, 'wireless, smart, connected'],
+  percent: (l) => [`${l} Sale`, 'sale, discount, offer'],
+  bookmark: (l) => [`Save ${l}`, 'save, bookmark, later'],
+  question: (l) => [`${l} Help`, 'help, question, support'],
   alert: (l) => [`${l} Alert`, 'alert, warning, problem'],
 };
 // category: most common category among existing icons named <base>-*

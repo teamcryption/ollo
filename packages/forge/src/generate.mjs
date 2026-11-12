@@ -109,7 +109,7 @@ function readExisting() {
 
 async function main() {
   const t0 = Date.now();
-  const icons = await loadDefs();
+  let icons = await loadDefs();
   const existing = readExisting();
   const report = { generatedAt: new Date().toISOString(), icons: icons.length, files: icons.length * STYLES.length, errors: [], warnings: [], duplicates: [] };
   const seen = new Set();
@@ -147,6 +147,29 @@ async function main() {
     const fb = hashes.find((h) => h.name === d.b).family;
     // Within one family (e.g. arrow-left vs arrow-left-circle) it's a warning; across families, an error.
     (fa === fb || fa === d.b || fb === d.a ? report.warnings : report.errors).push(`duplicate: ${d.a} ~ ${d.b} (shape distance ${d.distance}px)`);
+  }
+
+  // DROP_FILE: names that may be dropped (this batch's new icons). Errors that involve one of them drop that icon
+  // instead of blocking the whole write; anything else still blocks. DROPPED_OUT receives the dropped names.
+  const DROPPABLE = process.env.DROP_FILE ? new Set(fs.readFileSync(process.env.DROP_FILE, 'utf8').split(/\s+/).filter(Boolean)) : null;
+  if (DROPPABLE && report.errors.length) {
+    const dropped = new Set(); const rest = [];
+    for (const e of report.errors) {
+      let m = e.match(/^duplicate: (\S+) ~ (\S+)/);
+      if (m) {
+        if (dropped.has(m[1]) || dropped.has(m[2])) continue;
+        if (DROPPABLE.has(m[2])) { dropped.add(m[2]); continue; }
+        if (DROPPABLE.has(m[1])) { dropped.add(m[1]); continue; }
+        rest.push(e); continue;
+      }
+      m = e.match(/^(\S+): /);
+      if (m && DROPPABLE.has(m[1])) { dropped.add(m[1]); continue; }
+      rest.push(e);
+    }
+    report.errors = rest; report.dropped = [...dropped];
+    icons = icons.filter((i) => !dropped.has(i.name));
+    if (process.env.DROPPED_OUT) fs.writeFileSync(process.env.DROPPED_OUT, [...dropped].join('\n') + '\n');
+    console.log(`dropped ${dropped.size} new icons with QA errors`);
   }
 
   if (!CHECK && !report.errors.length) {
