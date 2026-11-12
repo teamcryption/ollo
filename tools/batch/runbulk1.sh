@@ -9,7 +9,7 @@ node $T/writebatch.mjs defs $T/bulk.mjs | tail -1
 NEWDEFS=$(git ls-files --others --exclude-standard defs)
 grep -ohE "icon\('[a-z0-9-]+'" $NEWDEFS | sed "s/icon('//; s/'//" > /tmp/bulk-new.txt
 echo "candidates $(wc -l < /tmp/bulk-new.txt)"
-DROP_FILE=/tmp/bulk-new.txt DROPPED_OUT=/tmp/bulk-dropped.txt node src/generate.mjs > /tmp/gen.log 2>&1; RC=$?
+FAST=1 DROP_FILE=/tmp/bulk-new.txt DROPPED_OUT=/tmp/bulk-dropped.txt node src/generate.mjs > /tmp/gen.log 2>&1; RC=$?
 grep -a "^dropped" /tmp/gen.log
 if [ -s /tmp/bulk-dropped.txt ]; then
   cat /tmp/bulk-dropped.txt >> $BULK_DROP

@@ -126,7 +126,8 @@ const mods = (process.env.BULK_MODS ?? 'search,clock,shield,gear,pin,lock,bolt,h
 const max = +(process.env.BULK_MAX ?? 250);
 const drop = new Set(process.env.BULK_DROP && fs.existsSync(process.env.BULK_DROP) ? fs.readFileSync(process.env.BULK_DROP, 'utf8').split(/\s+/).filter(Boolean) : []);
 const rows = [];
-outer: for (const m of mods) for (const b of Object.keys(B)) {
+const pairs = process.env.BULK_ORDER === 'base' ? Object.keys(B).flatMap((b) => mods.map((m) => [m, b])) : mods.flatMap((m) => Object.keys(B).map((b) => [m, b]));
+outer: for (const [m, b] of pairs) {
   const name = `${b}-${m}`;
   if (['key', 'coins', 'truck', 'puzzle', 'pill'].includes(b) || b === m || (b === 'users' && m === 'user') || (b === 'message' && m === 'chat')) continue;
   if (taken.has(name.replace(/-/g, '')) || drop.has(name)) continue;

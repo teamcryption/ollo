@@ -1,0 +1,6 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    { "name": "icon-preview", "runtimeExecutable": "node", "runtimeArgs": ["C:/Users/USER/AppData/Local/Temp/claude/0349416d1332255d/54f7c798-f69b-4734-bd71-74c3ece070bc/scratchpad/serve.mjs", "C:/Users/USER/AppData/Local/Temp/claude/0349416d1332255d/54f7c798-f69b-4734-bd71-74c3ece070bc/scratchpad/review-ui", "4173"], "port": 4173 }
+  ]
+}

@@ -1,0 +1,12 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4.08,8.04l2.88,0l0,-3.96c0,-0.39765 0.32235,-0.72 0.72,-0.72h3.24c0.39765,0 0.72,0.32235 0.72,0.72l0,1.8h3.24c0.39765,0 0.72,0.32235 0.72,0.72l0,5.28374c-0.78976,0.43868 -1.49173,0.951 -2.06599,1.52527c-0.61091,0.61091 -1.13368,1.35882 -1.55593,2.19099l-1.05808,0c0,0 0,0 0,0h-3.24c-0.13114,0 -0.2541,-0.03506 -0.36,-0.09632c-0.1059,0.06126 -0.22886,0.09632 -0.36,0.09632h-2.88c-0.39765,0 -0.72,-0.32235 -0.72,-0.72v-6.12c0,-0.39765 0.32235,-0.72 0.72,-0.72zM13,20.5c0,-4.5 3,-7.5 8,-8c0.3,5 -2.7,8 -8,8z" fill="#171729" fill-opacity="0.25"/>
+<path d="M4.08,8.04h2.88c0.39765,0 0.72,0.32235 0.72,0.72v6.12c0,0.39765 -0.32235,0.72 -0.72,0.72h-2.88c-0.39765,0 -0.72,-0.32235 -0.72,-0.72v-6.12c0,-0.39765 0.32235,-0.72 0.72,-0.72z" stroke="#171729" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+<path d="M11.97808,15.6l-1.05808,0c-0.39765,0 -0.72,-0.32235 -0.72,-0.72v-8.28c0,-0.39765 0.32235,-0.72 0.72,-0.72h3.96c0.39765,0 0.72,0.32235 0.72,0.72l0,5.28374" stroke="#171729" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+<path d="M7.68,3.36h3.24c0.39765,0 0.72,0.32235 0.72,0.72v10.8c0,0.39765 -0.32235,0.72 -0.72,0.72h-3.24c-0.39765,0 -0.72,-0.32235 -0.72,-0.72v-10.8c0,-0.39765 0.32235,-0.72 0.72,-0.72z" stroke="#171729" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+<path d="M9.3,6.24h0.0072" stroke="#171729" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+<path d="M9.3,8.76h0.0072" stroke="#171729" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+<path d="M12.9,8.76h0.0072" stroke="#171729" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+<path d="M12.9,11.28h0.0072" stroke="#171729" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+<path d="M13 20.5c0-4.5 3-7.5 8-8 .3 5-2.7 8-8 8Z" stroke="#171729" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+<path d="M13.6 19.9 17.5 16" stroke="#171729" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+</svg>
