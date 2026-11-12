@@ -1,1274 +1,1297 @@
 {
-  "generatedAt": "2026-11-12T16:31:53.674Z",
-  "icons": 47561,
-  "files": 237805,
+  "generatedAt": "2026-11-12T16:39:50.908Z",
+  "icons": 48705,
+  "files": 243525,
   "errors": [],
   "warnings": [
-    "cannon-camera: grid: outside the 3-21 live area (3.53, 5.25, 22.00, 20.50)",
-    "tic-tac-toe-camera: grid: outside the 3-21 live area (3.72, 3.72, 22.00, 20.50)",
-    "boomerang-camera: grid: outside the 3-21 live area (3.94, 4.00, 22.00, 20.50)",
-    "dice-d20-camera: grid: outside the 3-21 live area (3.99, 3.14, 22.00, 20.50)",
-    "marbles-camera: grid: outside the 3-21 live area (4.08, 4.80, 22.00, 20.50)",
-    "suit-diamond-camera: grid: outside the 3-21 live area (5.13, 3.79, 22.00, 20.50)",
-    "suit-club-camera: grid: outside the 3-21 live area (4.08, 4.08, 22.00, 20.50)",
-    "dice-six-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
-    "jack-in-box-camera: grid: outside the 3-21 live area (4.44, 2.86, 22.00, 20.50)",
-    "level-up-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
-    "crystal-ball-camera: grid: outside the 3-21 live area (4.58, 3.14, 22.00, 20.50)",
-    "chess-rook-camera: grid: outside the 3-21 live area (5.16, 3.72, 22.00, 20.50)",
-    "poker-chip-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
-    "chess-king-camera: grid: outside the 3-21 live area (5.16, 3.36, 22.00, 20.50)",
-    "chess-queen-camera: grid: outside the 3-21 live area (5.16, 3.72, 22.00, 20.50)",
-    "dart-camera: grid: outside the 3-21 live area (5.15, 5.15, 22.00, 20.50)",
-    "chess-pawn-camera: grid: outside the 3-21 live area (5.16, 3.72, 22.00, 20.50)",
-    "playing-cards-camera: grid: outside the 3-21 live area (3.16, 4.49, 22.00, 20.50)",
-    "mri-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
-    "walker-camera: grid: outside the 3-21 live area (4.44, 5.88, 22.00, 20.50)",
-    "eye-drops-camera: grid: outside the 3-21 live area (6.96, 3.00, 22.00, 20.50)",
-    "blood-bag-camera: grid: outside the 3-21 live area (5.16, 3.00, 22.00, 20.50)",
-    "defibrillator-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
-    "glucose-meter-camera: grid: outside the 3-21 live area (3.36, 3.00, 22.00, 20.50)",
-    "hearing-aid-camera: grid: outside the 3-21 live area (5.09, 3.36, 22.00, 20.50)",
-    "eye-chart-camera: grid: outside the 3-21 live area (4.44, 3.00, 22.00, 20.50)",
-    "blister-pack-camera: grid: outside the 3-21 live area (3.72, 3.36, 22.00, 20.50)",
-    "stretcher-camera: grid: outside the 3-21 live area (3.36, 6.24, 22.00, 20.50)",
-    "ice-pack-camera: grid: outside the 3-21 live area (3.72, 4.44, 22.00, 20.50)",
-    "kidney-camera: grid: outside the 3-21 live area (4.80, 3.72, 22.00, 20.50)",
-    "medicine-cup-camera: grid: outside the 3-21 live area (5.25, 4.80, 22.00, 20.50)",
-    "stomach-camera: grid: outside the 3-21 live area (4.54, 3.36, 22.00, 20.50)",
-    "mouth-camera: grid: outside the 3-21 live area (3.36, 6.24, 22.00, 20.50)",
-    "inhaler-camera: grid: outside the 3-21 live area (3.72, 3.36, 22.00, 20.50)",
-    "contact-lens-camera: grid: outside the 3-21 live area (3.72, 5.52, 22.00, 20.50)",
-    "face-mask-camera: grid: outside the 3-21 live area (3.00, 5.88, 22.00, 20.50)",
-    "tweezers-camera: grid: outside the 3-21 live area (6.60, 3.36, 22.00, 20.50)",
-    "otoscope-camera: grid: outside the 3-21 live area (6.60, 5.16, 22.00, 20.50)",
-    "test-strip-camera: grid: outside the 3-21 live area (3.36, 6.96, 22.00, 20.50)",
-    "cigarette-camera: grid: outside the 3-21 live area (3.36, 10.20, 22.00, 20.50)",
-    "sanitizer-camera: grid: outside the 3-21 live area (5.88, 3.36, 22.00, 20.50)",
-    "medical-chart-camera: grid: outside the 3-21 live area (4.44, 3.00, 22.00, 20.50)",
-    "soap-camera: grid: outside the 3-21 live area (3.36, 3.72, 22.00, 20.50)",
-    "shampoo-camera: grid: outside the 3-21 live area (5.52, 4.08, 22.00, 20.50)",
-    "awareness-ribbon-camera: grid: outside the 3-21 live area (6.96, 4.48, 22.00, 20.50)",
-    "mortar-pestle-camera: grid: outside the 3-21 live area (3.36, 3.89, 22.00, 20.50)",
-    "blood-pressure-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
-    "medical-cross-camera: grid: outside the 3-21 live area (3.72, 3.72, 22.00, 20.50)",
-    "pulse-camera: grid: outside the 3-21 live area (3.00, 6.76, 22.00, 20.50)",
-    "towel-camera: grid: outside the 3-21 live area (3.36, 4.80, 22.00, 20.50)"
+    "clothespin-camera: grid: outside the 3-21 live area (5.09, 3.43, 22.00, 20.50)",
+    "dustpan-camera: grid: outside the 3-21 live area (3.48, 3.36, 22.00, 20.50)",
+    "gate-camera: grid: outside the 3-21 live area (3.36, 4.08, 22.00, 20.50)",
+    "rug-camera: grid: outside the 3-21 live area (4.44, 3.00, 22.00, 20.50)",
+    "desk-fan-camera: grid: outside the 3-21 live area (5.11, 3.00, 22.00, 20.50)",
+    "key-ring-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
+    "window-blinds-camera: grid: outside the 3-21 live area (3.00, 3.36, 22.00, 20.50)",
+    "ironing-board-camera: grid: outside the 3-21 live area (3.36, 6.96, 22.00, 20.50)",
+    "yarn-ball-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
+    "pacifier-camera: grid: outside the 3-21 live area (4.08, 3.29, 22.00, 20.50)",
+    "stove-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
+    "plant-pot-camera: grid: outside the 3-21 live area (5.52, 3.36, 22.00, 20.50)",
+    "ceiling-fan-camera: grid: outside the 3-21 live area (3.36, 3.00, 22.00, 20.50)",
+    "kettle-camera: grid: outside the 3-21 live area (3.36, 4.80, 22.00, 20.50)",
+    "smoke-detector-camera: grid: outside the 3-21 live area (3.00, 4.08, 22.00, 20.50)",
+    "laundry-detergent-camera: grid: outside the 3-21 live area (5.16, 3.36, 22.00, 20.50)",
+    "clothesline-camera: grid: outside the 3-21 live area (3.36, 4.80, 22.00, 20.50)",
+    "chandelier-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
+    "extension-cord-camera: grid: outside the 3-21 live area (3.36, 5.16, 22.00, 20.50)",
+    "tissue-box-camera: grid: outside the 3-21 live area (3.72, 3.36, 22.00, 20.50)",
+    "pipe-elbow-camera: grid: outside the 3-21 live area (3.36, 5.16, 22.00, 20.50)",
+    "water-valve-camera: grid: outside the 3-21 live area (3.36, 3.94, 22.00, 20.50)",
+    "bunk-bed-camera: grid: outside the 3-21 live area (4.08, 3.36, 22.00, 20.50)",
+    "range-hood-camera: grid: outside the 3-21 live area (3.98, 3.00, 22.00, 20.50)",
+    "air-fryer-camera: grid: outside the 3-21 live area (4.44, 3.00, 22.00, 20.50)",
+    "juicer-camera: grid: outside the 3-21 live area (3.36, 5.16, 22.00, 20.50)",
+    "hand-mixer-camera: grid: outside the 3-21 live area (4.44, 4.08, 22.00, 20.50)",
+    "cradle-camera: grid: outside the 3-21 live area (3.36, 3.00, 22.00, 20.50)",
+    "paper-towel-camera: grid: outside the 3-21 live area (3.36, 3.72, 22.00, 20.50)",
+    "sieve-camera: grid: outside the 3-21 live area (3.36, 7.68, 22.00, 20.50)",
+    "spice-jar-camera: grid: outside the 3-21 live area (5.52, 3.36, 22.00, 20.50)",
+    "pendant-lamp-camera: grid: outside the 3-21 live area (4.44, 3.00, 22.00, 20.50)",
+    "peeler-camera: grid: outside the 3-21 live area (5.88, 3.72, 22.00, 20.50)",
+    "storage-box-camera: grid: outside the 3-21 live area (3.36, 4.80, 22.00, 20.50)",
+    "high-chair-camera: grid: outside the 3-21 live area (4.44, 3.36, 22.00, 20.50)",
+    "crib-mobile-camera: grid: outside the 3-21 live area (4.44, 3.36, 22.00, 20.50)",
+    "clothes-rack-camera: grid: outside the 3-21 live area (3.36, 4.08, 22.00, 20.50)",
+    "wall-shelf-camera: grid: outside the 3-21 live area (3.36, 5.52, 22.00, 20.50)",
+    "coat-hook-camera: grid: outside the 3-21 live area (3.36, 4.44, 22.00, 20.50)",
+    "bottle-opener-camera: grid: outside the 3-21 live area (6.24, 3.36, 22.00, 20.50)",
+    "candle-holder-camera: grid: outside the 3-21 live area (4.44, 7.18, 22.00, 20.50)",
+    "chair-camera: grid: outside the 3-21 live area (5.88, 3.36, 22.00, 20.50)",
+    "dining-table-camera: grid: outside the 3-21 live area (3.00, 6.60, 22.00, 20.50)",
+    "mirror-camera: grid: outside the 3-21 live area (5.16, 3.00, 22.00, 20.50)",
+    "windchime-camera: grid: outside the 3-21 live area (4.44, 3.36, 22.00, 20.50)",
+    "dreamcatcher-camera: grid: outside the 3-21 live area (5.52, 3.36, 22.00, 20.50)",
+    "dish-rack-camera: grid: outside the 3-21 live area (3.36, 5.16, 22.00, 20.50)",
+    "compost-camera: grid: outside the 3-21 live area (3.72, 5.16, 22.00, 20.50)",
+    "urn-camera: grid: outside the 3-21 live area (4.44, 3.36, 22.00, 20.50)",
+    "bookend-camera: grid: outside the 3-21 live area (4.08, 4.44, 22.00, 20.50)"
   ],
   "duplicates": [
     {
-      "a": "jack-in-box-pencil",
-      "b": "jack-in-box-leaf",
+      "a": "ring-light-search",
+      "b": "desk-fan-search",
       "distance": 1.41
     },
     {
-      "a": "jack-in-box-sparkle",
-      "b": "jack-in-box-upload",
+      "a": "ring-light-clock",
+      "b": "desk-fan-clock",
       "distance": 1.41
     },
     {
-      "a": "defibrillator-sparkle",
-      "b": "defibrillator-upload",
+      "a": "ring-light-shield",
+      "b": "desk-fan-shield",
       "distance": 1.41
     },
     {
-      "a": "ice-pack-sparkle",
-      "b": "ice-pack-upload",
+      "a": "ring-light-gear",
+      "b": "desk-fan-gear",
       "distance": 1.41
     },
     {
-      "a": "network-switch-search",
-      "b": "test-strip-search",
-      "distance": 1
+      "a": "ring-light-pin",
+      "b": "desk-fan-pin",
+      "distance": 1.41
+    },
+    {
+      "a": "ring-light-bolt",
+      "b": "desk-fan-bolt",
+      "distance": 1.41
+    },
+    {
+      "a": "ring-light-star",
+      "b": "desk-fan-star",
+      "distance": 1.41
+    },
+    {
+      "a": "ring-light-alert",
+      "b": "desk-fan-alert",
+      "distance": 1.41
     },
     {
-      "a": "network-switch-clock",
-      "b": "test-strip-clock",
-      "distance": 1
+      "a": "ring-light-user",
+      "b": "desk-fan-user",
+      "distance": 1.41
     },
     {
-      "a": "network-switch-shield",
-      "b": "test-strip-shield",
-      "distance": 1
+      "a": "ring-light-bell",
+      "b": "desk-fan-bell",
+      "distance": 1.41
     },
     {
-      "a": "network-switch-gear",
-      "b": "test-strip-gear",
-      "distance": 1
+      "a": "ring-light-cloud",
+      "b": "desk-fan-cloud",
+      "distance": 1.41
     },
     {
-      "a": "network-switch-bolt",
-      "b": "test-strip-bolt",
+      "a": "ring-light-chat",
+      "b": "desk-fan-chat",
       "distance": 1.41
     },
     {
-      "a": "network-switch-heart",
-      "b": "test-strip-heart",
-      "distance": 1
+      "a": "ring-light-download",
+      "b": "desk-fan-download",
+      "distance": 1.41
     },
     {
-      "a": "network-switch-star",
-      "b": "test-strip-star",
-      "distance": 1
+      "a": "ring-light-pencil",
+      "b": "desk-fan-pencil",
+      "distance": 1.41
     },
     {
-      "a": "network-switch-user",
-      "b": "test-strip-user",
-      "distance": 1
+      "a": "ring-light-sparkle",
+      "b": "desk-fan-sparkle",
+      "distance": 1.41
     },
     {
-      "a": "network-switch-cloud",
-      "b": "test-strip-cloud",
-      "distance": 1
+      "a": "ring-light-sparkle",
+      "b": "desk-fan-upload",
+      "distance": 1.41
     },
     {
-      "a": "network-switch-chat",
-      "b": "test-strip-chat",
-      "distance": 1
+      "a": "ring-light-trash",
+      "b": "desk-fan-trash",
+      "distance": 1.41
     },
     {
-      "a": "network-switch-download",
-      "b": "test-strip-download",
-      "distance": 1
+      "a": "ring-light-flag",
+      "b": "desk-fan-flag",
+      "distance": 1.41
     },
     {
-      "a": "network-switch-pencil",
-      "b": "test-strip-pencil",
-      "distance": 1
+      "a": "ring-light-calendar",
+      "b": "desk-fan-calendar",
+      "distance": 1.41
     },
     {
-      "a": "network-switch-sparkle",
-      "b": "test-strip-sparkle",
-      "distance": 1
+      "a": "ring-light-question",
+      "b": "desk-fan-question",
+      "distance": 1.41
     },
     {
-      "a": "network-switch-sparkle",
-      "b": "test-strip-upload",
+      "a": "ring-light-bookmark",
+      "b": "desk-fan-bookmark",
       "distance": 1.41
     },
     {
-      "a": "network-switch-trash",
-      "b": "test-strip-trash",
+      "a": "ring-light-crown",
+      "b": "desk-fan-crown",
       "distance": 1.41
     },
     {
-      "a": "network-switch-calendar",
-      "b": "test-strip-calendar",
-      "distance": 1
+      "a": "ring-light-moon",
+      "b": "desk-fan-moon",
+      "distance": 1.41
     },
     {
-      "a": "network-switch-question",
-      "b": "test-strip-question",
-      "distance": 1
+      "a": "ring-light-leaf",
+      "b": "desk-fan-leaf",
+      "distance": 1.41
     },
     {
-      "a": "network-switch-bookmark",
-      "b": "test-strip-bookmark",
-      "distance": 1
+      "a": "ring-light-fire",
+      "b": "desk-fan-fire",
+      "distance": 1.41
     },
     {
-      "a": "network-switch-crown",
-      "b": "test-strip-crown",
+      "a": "ring-light-trophy",
+      "b": "desk-fan-trophy",
       "distance": 1.41
     },
     {
-      "a": "network-switch-leaf",
-      "b": "test-strip-leaf",
-      "distance": 1
+      "a": "ring-light-hourglass",
+      "b": "desk-fan-hourglass",
+      "distance": 1.41
     },
     {
-      "a": "network-switch-trophy",
-      "b": "test-strip-trophy",
-      "distance": 1
+      "a": "ring-light-cursor",
+      "b": "desk-fan-cursor",
+      "distance": 1.41
     },
     {
-      "a": "network-switch-hourglass",
-      "b": "test-strip-hourglass",
-      "distance": 1
+      "a": "ring-light-camera",
+      "b": "desk-fan-camera",
+      "distance": 1.41
     },
     {
-      "a": "network-switch-cursor",
-      "b": "test-strip-cursor",
-      "distance": 1
+      "a": "ring-light-filter",
+      "b": "desk-fan-filter",
+      "distance": 1.41
     },
     {
-      "a": "network-switch-camera",
-      "b": "test-strip-camera",
+      "a": "ring-light-stats",
+      "b": "desk-fan-stats",
       "distance": 1.41
     },
     {
-      "a": "network-switch-filter",
-      "b": "test-strip-filter",
-      "distance": 1
+      "a": "ring-light-checkbox",
+      "b": "desk-fan-checkbox",
+      "distance": 1.41
     },
     {
-      "a": "network-switch-stats",
-      "b": "test-strip-stats",
-      "distance": 1
+      "a": "desk-fan-sparkle",
+      "b": "desk-fan-upload",
+      "distance": 1.41
     },
     {
-      "a": "network-switch-checkbox",
-      "b": "test-strip-checkbox",
-      "distance": 1
+      "a": "mirror-sparkle",
+      "b": "mirror-upload",
+      "distance": 1.41
     },
     {
-      "a": "lemon-slice-search",
-      "b": "test-strip-search",
+      "a": "lightbulb-heart",
+      "b": "mirror-heart",
       "distance": 1.41
     },
     {
-      "a": "lemon-slice-clock",
-      "b": "test-strip-clock",
+      "a": "lightbulb-star",
+      "b": "mirror-star",
       "distance": 1.41
     },
     {
-      "a": "lemon-slice-shield",
-      "b": "test-strip-shield",
+      "a": "lightbulb-bolt",
+      "b": "mirror-bolt",
       "distance": 1.41
     },
     {
-      "a": "lemon-slice-gear",
-      "b": "test-strip-gear",
+      "a": "lightbulb-cloud",
+      "b": "mirror-cloud",
       "distance": 1.41
     },
     {
-      "a": "lemon-slice-bolt",
-      "b": "test-strip-bolt",
+      "a": "lightbulb-pencil",
+      "b": "mirror-pencil",
       "distance": 1.41
     },
     {
-      "a": "lemon-slice-heart",
-      "b": "test-strip-heart",
+      "a": "lightbulb-trash",
+      "b": "mirror-trash",
       "distance": 1.41
     },
     {
-      "a": "lemon-slice-star",
-      "b": "test-strip-star",
+      "a": "lightbulb-calendar",
+      "b": "mirror-calendar",
       "distance": 1.41
     },
     {
-      "a": "lemon-slice-user",
-      "b": "test-strip-user",
+      "a": "lightbulb-bookmark",
+      "b": "mirror-bookmark",
       "distance": 1.41
     },
     {
-      "a": "lemon-slice-cloud",
-      "b": "test-strip-cloud",
+      "a": "lightbulb-crown",
+      "b": "mirror-crown",
       "distance": 1.41
     },
     {
-      "a": "lemon-slice-chat",
-      "b": "test-strip-chat",
+      "a": "lightbulb-leaf",
+      "b": "mirror-leaf",
       "distance": 1.41
     },
     {
-      "a": "lemon-slice-download",
-      "b": "test-strip-download",
+      "a": "lightbulb-camera",
+      "b": "mirror-camera",
       "distance": 1.41
     },
     {
-      "a": "lemon-slice-pencil",
-      "b": "test-strip-pencil",
+      "a": "lightbulb-stats",
+      "b": "mirror-stats",
       "distance": 1.41
     },
     {
-      "a": "lemon-slice-bookmark",
-      "b": "test-strip-bookmark",
+      "a": "ring-light-heart",
+      "b": "desk-fan-heart",
       "distance": 1.41
     },
     {
-      "a": "lemon-slice-question",
-      "b": "test-strip-question",
+      "a": "remote-control-shield",
+      "b": "bottle-opener-shield",
       "distance": 1.41
     },
     {
-      "a": "lemon-slice-calendar",
-      "b": "test-strip-calendar",
+      "a": "lightbulb-eco-clock",
+      "b": "mirror-clock",
       "distance": 1.41
     },
     {
-      "a": "lemon-slice-sparkle",
-      "b": "test-strip-sparkle",
+      "a": "lightbulb-eco-gear",
+      "b": "mirror-gear",
       "distance": 1.41
     },
     {
-      "a": "lemon-slice-sparkle",
-      "b": "test-strip-upload",
+      "a": "lightbulb-eco-bolt",
+      "b": "mirror-bolt",
       "distance": 1.41
     },
     {
-      "a": "lemon-slice-crown",
-      "b": "test-strip-crown",
+      "a": "lightbulb-eco-heart",
+      "b": "mirror-heart",
       "distance": 1.41
     },
     {
-      "a": "lemon-slice-hourglass",
-      "b": "test-strip-hourglass",
+      "a": "lightbulb-eco-star",
+      "b": "mirror-star",
       "distance": 1.41
     },
     {
-      "a": "lemon-slice-trophy",
-      "b": "test-strip-trophy",
+      "a": "lightbulb-eco-cloud",
+      "b": "mirror-cloud",
       "distance": 1.41
     },
     {
-      "a": "lemon-slice-leaf",
-      "b": "test-strip-leaf",
+      "a": "lightbulb-eco-pencil",
+      "b": "mirror-pencil",
       "distance": 1.41
     },
     {
-      "a": "lemon-slice-cursor",
-      "b": "test-strip-cursor",
+      "a": "lightbulb-eco-trash",
+      "b": "mirror-trash",
       "distance": 1.41
     },
     {
-      "a": "lemon-slice-camera",
-      "b": "test-strip-camera",
+      "a": "lightbulb-eco-calendar",
+      "b": "mirror-calendar",
       "distance": 1.41
     },
     {
-      "a": "lemon-slice-filter",
-      "b": "test-strip-filter",
+      "a": "lightbulb-eco-bookmark",
+      "b": "mirror-bookmark",
       "distance": 1.41
     },
     {
-      "a": "lemon-slice-stats",
-      "b": "test-strip-stats",
+      "a": "lightbulb-eco-crown",
+      "b": "mirror-crown",
       "distance": 1.41
     },
     {
-      "a": "lemon-slice-checkbox",
-      "b": "test-strip-checkbox",
+      "a": "lightbulb-eco-leaf",
+      "b": "mirror-leaf",
       "distance": 1.41
     },
     {
-      "a": "lemon-slice-trash",
-      "b": "test-strip-trash",
+      "a": "lightbulb-eco-camera",
+      "b": "mirror-camera",
       "distance": 1.41
     },
     {
-      "a": "bottle-cap-search",
-      "b": "poker-chip-search",
+      "a": "lightbulb-eco-stats",
+      "b": "mirror-stats",
       "distance": 1.41
     },
     {
-      "a": "bottle-cap-clock",
-      "b": "poker-chip-clock",
+      "a": "handbag-search",
+      "b": "tissue-box-search",
       "distance": 1.41
     },
     {
-      "a": "bottle-cap-shield",
-      "b": "poker-chip-shield",
+      "a": "handbag-clock",
+      "b": "tissue-box-clock",
       "distance": 1.41
     },
     {
-      "a": "bottle-cap-gear",
-      "b": "poker-chip-gear",
+      "a": "handbag-shield",
+      "b": "tissue-box-shield",
       "distance": 1.41
     },
     {
-      "a": "bottle-cap-heart",
-      "b": "poker-chip-heart",
+      "a": "handbag-gear",
+      "b": "tissue-box-gear",
       "distance": 1.41
     },
     {
-      "a": "bottle-cap-user",
-      "b": "poker-chip-user",
+      "a": "handbag-bolt",
+      "b": "tissue-box-bolt",
       "distance": 1.41
     },
     {
-      "a": "bottle-cap-cloud",
-      "b": "poker-chip-cloud",
+      "a": "handbag-heart",
+      "b": "tissue-box-heart",
       "distance": 1.41
     },
     {
-      "a": "bottle-cap-chat",
-      "b": "poker-chip-chat",
+      "a": "handbag-star",
+      "b": "tissue-box-star",
       "distance": 1.41
     },
     {
-      "a": "bottle-cap-download",
-      "b": "poker-chip-download",
+      "a": "handbag-cloud",
+      "b": "tissue-box-cloud",
       "distance": 1.41
     },
     {
-      "a": "bottle-cap-pencil",
-      "b": "poker-chip-pencil",
+      "a": "handbag-chat",
+      "b": "tissue-box-chat",
       "distance": 1.41
     },
     {
-      "a": "bottle-cap-pencil",
-      "b": "poker-chip-leaf",
+      "a": "handbag-download",
+      "b": "tissue-box-download",
       "distance": 1.41
     },
     {
-      "a": "bottle-cap-trash",
-      "b": "poker-chip-trash",
+      "a": "handbag-pencil",
+      "b": "tissue-box-pencil",
       "distance": 1.41
     },
     {
-      "a": "bottle-cap-calendar",
-      "b": "poker-chip-calendar",
+      "a": "handbag-pencil",
+      "b": "tissue-box-leaf",
       "distance": 1.41
     },
     {
-      "a": "bottle-cap-question",
-      "b": "poker-chip-question",
+      "a": "handbag-trash",
+      "b": "tissue-box-trash",
       "distance": 1.41
     },
     {
-      "a": "bottle-cap-bookmark",
-      "b": "poker-chip-bookmark",
+      "a": "handbag-calendar",
+      "b": "tissue-box-calendar",
       "distance": 1.41
     },
     {
-      "a": "bottle-cap-crown",
-      "b": "poker-chip-crown",
+      "a": "handbag-question",
+      "b": "tissue-box-question",
       "distance": 1.41
     },
     {
-      "a": "bottle-cap-trophy",
-      "b": "poker-chip-trophy",
+      "a": "handbag-bookmark",
+      "b": "tissue-box-bookmark",
       "distance": 1.41
     },
     {
-      "a": "bottle-cap-hourglass",
-      "b": "poker-chip-hourglass",
+      "a": "handbag-crown",
+      "b": "tissue-box-crown",
       "distance": 1.41
     },
     {
-      "a": "bottle-cap-cursor",
-      "b": "poker-chip-cursor",
+      "a": "handbag-hourglass",
+      "b": "tissue-box-hourglass",
       "distance": 1.41
     },
     {
-      "a": "bottle-cap-camera",
-      "b": "poker-chip-camera",
+      "a": "handbag-cursor",
+      "b": "tissue-box-cursor",
       "distance": 1.41
     },
     {
-      "a": "bottle-cap-filter",
-      "b": "poker-chip-filter",
+      "a": "handbag-camera",
+      "b": "tissue-box-camera",
       "distance": 1.41
     },
     {
-      "a": "bottle-cap-stats",
-      "b": "poker-chip-stats",
+      "a": "handbag-filter",
+      "b": "tissue-box-filter",
       "distance": 1.41
     },
     {
-      "a": "bottle-cap-checkbox",
-      "b": "poker-chip-checkbox",
+      "a": "handbag-stats",
+      "b": "tissue-box-stats",
       "distance": 1.41
     },
     {
-      "a": "soup-search",
-      "b": "mortar-pestle-search",
+      "a": "handbag-checkbox",
+      "b": "tissue-box-checkbox",
       "distance": 1.41
     },
     {
-      "a": "soup-clock",
-      "b": "mortar-pestle-clock",
+      "a": "lightbulb-gear",
+      "b": "mirror-gear",
       "distance": 1.41
     },
     {
-      "a": "soup-gear",
-      "b": "mortar-pestle-gear",
+      "a": "lightbulb-clock",
+      "b": "mirror-clock",
       "distance": 1.41
     },
     {
-      "a": "soup-heart",
-      "b": "mortar-pestle-heart",
+      "a": "dustpan-pencil",
+      "b": "dustpan-leaf",
       "distance": 1.41
     },
     {
-      "a": "soup-chat",
-      "b": "mortar-pestle-chat",
+      "a": "gate-gear",
+      "b": "gate-stats",
       "distance": 1.41
     },
     {
-      "a": "soup-download",
-      "b": "mortar-pestle-download",
+      "a": "gate-pencil",
+      "b": "gate-leaf",
       "distance": 1.41
     },
     {
-      "a": "soup-pencil",
-      "b": "mortar-pestle-pencil",
+      "a": "gate-sparkle",
+      "b": "gate-upload",
       "distance": 1.41
     },
     {
-      "a": "soup-pencil",
-      "b": "mortar-pestle-leaf",
+      "a": "rug-pencil",
+      "b": "rug-leaf",
       "distance": 1.41
     },
     {
-      "a": "soup-trash",
-      "b": "mortar-pestle-trash",
+      "a": "rug-sparkle",
+      "b": "rug-upload",
       "distance": 1.41
     },
     {
-      "a": "soup-calendar",
-      "b": "mortar-pestle-calendar",
+      "a": "key-ring-pencil",
+      "b": "key-ring-leaf",
       "distance": 1.41
     },
     {
-      "a": "soup-question",
-      "b": "mortar-pestle-question",
+      "a": "window-blinds-pencil",
+      "b": "window-blinds-leaf",
       "distance": 1.41
     },
     {
-      "a": "soup-bookmark",
-      "b": "mortar-pestle-bookmark",
+      "a": "window-blinds-sparkle",
+      "b": "window-blinds-upload",
       "distance": 1.41
     },
     {
-      "a": "soup-upload",
-      "b": "mortar-pestle-upload",
+      "a": "yarn-ball-pencil",
+      "b": "yarn-ball-leaf",
       "distance": 1.41
     },
     {
-      "a": "soup-crown",
-      "b": "mortar-pestle-crown",
+      "a": "yarn-ball-sparkle",
+      "b": "yarn-ball-upload",
       "distance": 1.41
     },
     {
-      "a": "soup-hourglass",
-      "b": "mortar-pestle-hourglass",
+      "a": "pacifier-sparkle",
+      "b": "pacifier-upload",
       "distance": 1.41
     },
     {
-      "a": "soup-cursor",
-      "b": "mortar-pestle-cursor",
+      "a": "stove-clock",
+      "b": "browser-pause",
       "distance": 1.41
     },
     {
-      "a": "soup-camera",
-      "b": "mortar-pestle-camera",
+      "a": "stove-gear",
+      "b": "browser-pricing",
       "distance": 1.41
     },
     {
-      "a": "soup-filter",
-      "b": "mortar-pestle-filter",
+      "a": "stove-bolt",
+      "b": "browser-bolt",
       "distance": 1.41
     },
     {
-      "a": "soup-stats",
-      "b": "mortar-pestle-stats",
+      "a": "stove-heart",
+      "b": "browser-heart",
       "distance": 1.41
     },
     {
-      "a": "soup-checkbox",
-      "b": "mortar-pestle-checkbox",
+      "a": "stove-alert",
+      "b": "browser-alert",
       "distance": 1.41
     },
     {
-      "a": "milk-carton-search",
-      "b": "sanitizer-search",
+      "a": "stove-user",
+      "b": "browser-user",
       "distance": 1.41
     },
     {
-      "a": "milk-carton-clock",
-      "b": "sanitizer-clock",
+      "a": "stove-cloud",
+      "b": "browser-cloud",
       "distance": 1.41
     },
     {
-      "a": "milk-carton-gear",
-      "b": "sanitizer-gear",
+      "a": "stove-chat",
+      "b": "browser-chat",
       "distance": 1.41
     },
     {
-      "a": "milk-carton-bolt",
-      "b": "sanitizer-bolt",
+      "a": "stove-download",
+      "b": "browser-addbox",
       "distance": 1.41
     },
     {
-      "a": "milk-carton-heart",
-      "b": "sanitizer-heart",
+      "a": "stove-pencil",
+      "b": "browser-pencil",
       "distance": 1.41
     },
     {
-      "a": "milk-carton-star",
-      "b": "sanitizer-star",
+      "a": "stove-sparkle",
+      "b": "stove-upload",
       "distance": 1.41
     },
     {
-      "a": "milk-carton-cloud",
-      "b": "sanitizer-cloud",
+      "a": "stove-sparkle",
+      "b": "browser-sparkle",
       "distance": 1.41
     },
     {
-      "a": "milk-carton-chat",
-      "b": "sanitizer-chat",
+      "a": "stove-trash",
+      "b": "browser-trash",
       "distance": 1.41
     },
     {
-      "a": "milk-carton-download",
-      "b": "sanitizer-download",
+      "a": "stove-calendar",
+      "b": "browser-calendar",
       "distance": 1.41
     },
     {
-      "a": "milk-carton-pencil",
-      "b": "sanitizer-pencil",
+      "a": "stove-question",
+      "b": "browser-question",
       "distance": 1.41
     },
     {
-      "a": "milk-carton-trash",
-      "b": "sanitizer-trash",
+      "a": "stove-bookmark",
+      "b": "browser-bookmark",
       "distance": 1.41
     },
     {
-      "a": "milk-carton-calendar",
-      "b": "sanitizer-calendar",
+      "a": "stove-upload",
+      "b": "browser-sparkle",
       "distance": 1.41
     },
     {
-      "a": "milk-carton-question",
-      "b": "sanitizer-question",
+      "a": "stove-crown",
+      "b": "browser-crown",
       "distance": 1.41
     },
     {
-      "a": "milk-carton-bookmark",
-      "b": "sanitizer-bookmark",
+      "a": "stove-leaf",
+      "b": "browser-leaf",
       "distance": 1.41
     },
     {
-      "a": "milk-carton-crown",
-      "b": "sanitizer-crown",
+      "a": "stove-trophy",
+      "b": "browser-trophy",
       "distance": 1.41
     },
     {
-      "a": "milk-carton-leaf",
-      "b": "sanitizer-leaf",
+      "a": "stove-cursor",
+      "b": "browser-cursor",
       "distance": 1.41
     },
     {
-      "a": "milk-carton-hourglass",
-      "b": "sanitizer-hourglass",
+      "a": "stove-camera",
+      "b": "browser-camera",
       "distance": 1.41
     },
     {
-      "a": "milk-carton-cursor",
-      "b": "sanitizer-cursor",
+      "a": "stove-stats",
+      "b": "browser-stats",
       "distance": 1.41
     },
     {
-      "a": "milk-carton-camera",
-      "b": "sanitizer-camera",
+      "a": "stove-checkbox",
+      "b": "browser-checkbox",
       "distance": 1.41
     },
     {
-      "a": "milk-carton-filter",
-      "b": "sanitizer-filter",
+      "a": "kettle-gear",
+      "b": "kettle-stats",
       "distance": 1.41
     },
     {
-      "a": "milk-carton-stats",
-      "b": "sanitizer-stats",
+      "a": "kettle-pencil",
+      "b": "kettle-leaf",
       "distance": 1.41
     },
     {
-      "a": "milk-carton-checkbox",
-      "b": "sanitizer-checkbox",
+      "a": "laundry-detergent-pencil",
+      "b": "laundry-detergent-leaf",
       "distance": 1.41
     },
     {
-      "a": "tic-tac-toe-pencil",
-      "b": "tic-tac-toe-leaf",
+      "a": "clothesline-sparkle",
+      "b": "clothesline-upload",
       "distance": 1.41
     },
     {
-      "a": "tic-tac-toe-sparkle",
-      "b": "tic-tac-toe-upload",
+      "a": "extension-cord-pencil",
+      "b": "extension-cord-leaf",
       "distance": 1.41
     },
     {
-      "a": "dice-d20-pencil",
-      "b": "dice-d20-leaf",
+      "a": "tissue-box-pencil",
+      "b": "tissue-box-leaf",
       "distance": 1.41
     },
     {
-      "a": "marbles-pencil",
-      "b": "marbles-leaf",
+      "a": "water-valve-pencil",
+      "b": "water-valve-leaf",
       "distance": 1.41
     },
     {
-      "a": "suit-club-sparkle",
-      "b": "suit-club-upload",
+      "a": "water-valve-sparkle",
+      "b": "water-valve-upload",
       "distance": 1.41
     },
     {
-      "a": "dice-six-pencil",
-      "b": "dice-six-leaf",
+      "a": "bunk-bed-pencil",
+      "b": "bunk-bed-leaf",
       "distance": 1.41
     },
     {
-      "a": "level-up-sparkle",
-      "b": "level-up-upload",
+      "a": "bunk-bed-sparkle",
+      "b": "bunk-bed-upload",
       "distance": 1.41
     },
     {
-      "a": "chess-rook-sparkle",
-      "b": "chess-rook-upload",
+      "a": "air-fryer-pencil",
+      "b": "air-fryer-leaf",
       "distance": 1.41
     },
     {
-      "a": "poker-chip-pencil",
-      "b": "poker-chip-leaf",
+      "a": "air-fryer-sparkle",
+      "b": "air-fryer-upload",
       "distance": 1.41
     },
     {
-      "a": "playing-cards-pencil",
-      "b": "playing-cards-leaf",
+      "a": "juicer-pencil",
+      "b": "juicer-leaf",
       "distance": 1.41
     },
     {
-      "a": "playing-cards-sparkle",
-      "b": "playing-cards-upload",
+      "a": "cradle-pencil",
+      "b": "cradle-leaf",
       "distance": 1.41
     },
     {
-      "a": "mri-sparkle",
-      "b": "mri-upload",
+      "a": "cradle-sparkle",
+      "b": "cradle-upload",
       "distance": 1.41
     },
     {
-      "a": "walker-pencil",
-      "b": "walker-leaf",
+      "a": "paper-towel-pencil",
+      "b": "paper-towel-leaf",
       "distance": 1.41
     },
     {
-      "a": "defibrillator-pencil",
-      "b": "defibrillator-leaf",
+      "a": "paper-towel-sparkle",
+      "b": "paper-towel-upload",
       "distance": 1.41
     },
     {
-      "a": "glucose-meter-sparkle",
-      "b": "glucose-meter-upload",
+      "a": "spice-jar-sparkle",
+      "b": "spice-jar-upload",
       "distance": 1.41
     },
     {
-      "a": "eye-chart-pencil",
-      "b": "eye-chart-leaf",
+      "a": "storage-box-sparkle",
+      "b": "storage-box-upload",
       "distance": 1.41
     },
     {
-      "a": "eye-chart-sparkle",
-      "b": "eye-chart-upload",
+      "a": "high-chair-sparkle",
+      "b": "high-chair-upload",
       "distance": 1.41
     },
     {
-      "a": "blister-pack-pencil",
-      "b": "blister-pack-leaf",
+      "a": "clothes-rack-pencil",
+      "b": "clothes-rack-leaf",
       "distance": 1.41
     },
     {
-      "a": "blister-pack-sparkle",
-      "b": "blister-pack-upload",
+      "a": "clothes-rack-sparkle",
+      "b": "clothes-rack-upload",
       "distance": 1.41
     },
     {
-      "a": "stretcher-pencil",
-      "b": "stretcher-leaf",
+      "a": "candle-holder-pencil",
+      "b": "candle-holder-leaf",
       "distance": 1.41
     },
     {
-      "a": "stretcher-sparkle",
-      "b": "stretcher-upload",
+      "a": "dining-table-pencil",
+      "b": "dining-table-leaf",
       "distance": 1.41
     },
     {
-      "a": "test-strip-sparkle",
-      "b": "test-strip-upload",
+      "a": "windchime-sparkle",
+      "b": "windchime-upload",
       "distance": 1.41
     },
     {
-      "a": "medical-chart-pencil",
-      "b": "medical-chart-leaf",
+      "a": "dreamcatcher-sparkle",
+      "b": "dreamcatcher-upload",
       "distance": 1.41
     },
     {
-      "a": "soap-pencil",
-      "b": "soap-leaf",
+      "a": "dish-rack-pencil",
+      "b": "dish-rack-leaf",
       "distance": 1.41
     },
     {
-      "a": "network-switch-moon",
-      "b": "test-strip-moon",
-      "distance": 1
+      "a": "dish-rack-sparkle",
+      "b": "dish-rack-upload",
+      "distance": 1.41
     },
     {
-      "a": "lemon-slice-bell",
-      "b": "test-strip-bell",
+      "a": "compost-pencil",
+      "b": "compost-leaf",
       "distance": 1.41
     },
     {
-      "a": "lemon-slice-moon",
-      "b": "test-strip-moon",
+      "a": "bookend-pencil",
+      "b": "bookend-leaf",
       "distance": 1.41
     },
     {
-      "a": "bottle-cap-moon",
-      "b": "poker-chip-moon",
+      "a": "bookend-sparkle",
+      "b": "bookend-upload",
       "distance": 1.41
     },
     {
-      "a": "soup-bell",
-      "b": "mortar-pestle-bell",
+      "a": "lightbulb-bell",
+      "b": "mirror-bell",
       "distance": 1.41
     },
     {
-      "a": "soup-moon",
-      "b": "mortar-pestle-moon",
+      "a": "lightbulb-moon",
+      "b": "mirror-moon",
       "distance": 1.41
     },
     {
-      "a": "milk-carton-bell",
-      "b": "sanitizer-bell",
+      "a": "lightbulb-trophy",
+      "b": "mirror-trophy",
       "distance": 1.41
     },
     {
-      "a": "milk-carton-moon",
-      "b": "sanitizer-moon",
+      "a": "lightbulb-eco-bell",
+      "b": "mirror-bell",
       "distance": 1.41
     },
     {
-      "a": "milk-carton-trophy",
-      "b": "sanitizer-trophy",
+      "a": "lightbulb-eco-moon",
+      "b": "mirror-moon",
       "distance": 1.41
     },
     {
-      "a": "network-switch-fire",
-      "b": "test-strip-fire",
-      "distance": 1
+      "a": "handbag-bell",
+      "b": "tissue-box-bell",
+      "distance": 1.41
     },
     {
-      "a": "lemon-slice-fire",
-      "b": "test-strip-fire",
+      "a": "handbag-moon",
+      "b": "tissue-box-moon",
       "distance": 1.41
     },
     {
-      "a": "soup-fire",
-      "b": "mortar-pestle-fire",
+      "a": "handbag-trophy",
+      "b": "tissue-box-trophy",
       "distance": 1.41
     },
     {
-      "a": "milk-carton-fire",
-      "b": "sanitizer-fire",
+      "a": "stove-moon",
+      "b": "browser-moon",
       "distance": 1.41
     },
     {
-      "a": "network-switch-pin",
-      "b": "test-strip-pin",
-      "distance": 1
+      "a": "lightbulb-fire",
+      "b": "mirror-fire",
+      "distance": 1.41
     },
     {
-      "a": "network-switch-bell",
-      "b": "test-strip-bell",
-      "distance": 1
+      "a": "lightbulb-eco-fire",
+      "b": "mirror-fire",
+      "distance": 1.41
     },
     {
-      "a": "network-switch-flag",
-      "b": "test-strip-flag",
-      "distance": 1
+      "a": "handbag-fire",
+      "b": "tissue-box-fire",
+      "distance": 1.41
     },
     {
-      "a": "lemon-slice-pin",
-      "b": "test-strip-pin",
+      "a": "stove-fire",
+      "b": "browser-fire",
       "distance": 1.41
     },
     {
-      "a": "lemon-slice-flag",
-      "b": "test-strip-flag",
+      "a": "handbag-pin",
+      "b": "tissue-box-pin",
       "distance": 1.41
     },
     {
-      "a": "bottle-cap-pin",
-      "b": "poker-chip-pin",
+      "a": "handbag-user",
+      "b": "tissue-box-user",
       "distance": 1.41
     },
     {
-      "a": "bottle-cap-bell",
-      "b": "poker-chip-bell",
+      "a": "handbag-sparkle",
+      "b": "tissue-box-sparkle",
       "distance": 1.41
     },
     {
-      "a": "bottle-cap-flag",
-      "b": "poker-chip-flag",
+      "a": "handbag-sparkle",
+      "b": "tissue-box-upload",
       "distance": 1.41
     },
     {
-      "a": "soup-shield",
-      "b": "mortar-pestle-shield",
+      "a": "handbag-flag",
+      "b": "tissue-box-flag",
       "distance": 1.41
     },
     {
-      "a": "soup-pin",
-      "b": "mortar-pestle-pin",
+      "a": "clothespin-sparkle",
+      "b": "clothespin-upload",
       "distance": 1.41
     },
     {
-      "a": "soup-user",
-      "b": "mortar-pestle-user",
+      "a": "dustpan-sparkle",
+      "b": "dustpan-upload",
       "distance": 1.41
     },
     {
-      "a": "soup-sparkle",
-      "b": "mortar-pestle-sparkle",
+      "a": "ironing-board-sparkle",
+      "b": "ironing-board-upload",
       "distance": 1.41
     },
     {
-      "a": "soup-flag",
-      "b": "mortar-pestle-flag",
+      "a": "stove-pin",
+      "b": "browser-pin",
       "distance": 1.41
     },
     {
-      "a": "soup-trophy",
-      "b": "mortar-pestle-trophy",
+      "a": "stove-bell",
+      "b": "browser-bell",
       "distance": 1.41
     },
     {
-      "a": "cannon-sparkle",
-      "b": "cannon-upload",
+      "a": "stove-flag",
+      "b": "browser-flag",
       "distance": 1.41
     },
     {
-      "a": "boomerang-sparkle",
-      "b": "boomerang-upload",
+      "a": "plant-pot-sparkle",
+      "b": "plant-pot-upload",
       "distance": 1.41
     },
     {
-      "a": "suit-diamond-sparkle",
-      "b": "suit-diamond-upload",
+      "a": "kettle-sparkle",
+      "b": "kettle-upload",
       "distance": 1.41
     },
     {
-      "a": "chess-king-sparkle",
-      "b": "chess-king-upload",
+      "a": "smoke-detector-sparkle",
+      "b": "smoke-detector-upload",
       "distance": 1.41
     },
     {
-      "a": "chess-queen-sparkle",
-      "b": "chess-queen-upload",
+      "a": "laundry-detergent-sparkle",
+      "b": "laundry-detergent-upload",
       "distance": 1.41
     },
     {
-      "a": "dart-sparkle",
-      "b": "dart-upload",
+      "a": "chandelier-sparkle",
+      "b": "chandelier-upload",
       "distance": 1.41
     },
     {
-      "a": "chess-pawn-sparkle",
-      "b": "chess-pawn-upload",
+      "a": "extension-cord-sparkle",
+      "b": "extension-cord-upload",
       "distance": 1.41
     },
     {
-      "a": "hearing-aid-sparkle",
-      "b": "hearing-aid-upload",
+      "a": "tissue-box-sparkle",
+      "b": "tissue-box-upload",
       "distance": 1.41
     },
     {
-      "a": "medicine-cup-sparkle",
-      "b": "medicine-cup-upload",
+      "a": "pipe-elbow-sparkle",
+      "b": "pipe-elbow-upload",
       "distance": 1.41
     },
     {
-      "a": "mouth-sparkle",
-      "b": "mouth-upload",
+      "a": "hand-mixer-sparkle",
+      "b": "hand-mixer-upload",
       "distance": 1.41
     },
     {
-      "a": "inhaler-sparkle",
-      "b": "inhaler-upload",
+      "a": "sieve-sparkle",
+      "b": "sieve-upload",
       "distance": 1.41
     },
     {
-      "a": "face-mask-sparkle",
-      "b": "face-mask-upload",
+      "a": "peeler-sparkle",
+      "b": "peeler-upload",
       "distance": 1.41
     },
     {
-      "a": "tweezers-sparkle",
-      "b": "tweezers-upload",
+      "a": "crib-mobile-sparkle",
+      "b": "crib-mobile-upload",
       "distance": 1.41
     },
     {
-      "a": "otoscope-sparkle",
-      "b": "otoscope-upload",
+      "a": "wall-shelf-sparkle",
+      "b": "wall-shelf-upload",
       "distance": 1.41
     },
     {
-      "a": "soap-sparkle",
-      "b": "soap-upload",
+      "a": "coat-hook-sparkle",
+      "b": "coat-hook-upload",
       "distance": 1.41
     },
     {
-      "a": "shampoo-sparkle",
-      "b": "shampoo-upload",
+      "a": "bottle-opener-sparkle",
+      "b": "bottle-opener-upload",
       "distance": 1.41
     },
     {
-      "a": "awareness-ribbon-sparkle",
-      "b": "awareness-ribbon-upload",
+      "a": "candle-holder-sparkle",
+      "b": "candle-holder-upload",
       "distance": 1.41
     },
     {
-      "a": "blood-pressure-sparkle",
-      "b": "blood-pressure-upload",
+      "a": "chair-sparkle",
+      "b": "chair-upload",
       "distance": 1.41
     },
     {
-      "a": "medical-cross-sparkle",
-      "b": "medical-cross-upload",
+      "a": "dining-table-sparkle",
+      "b": "dining-table-upload",
       "distance": 1.41
     },
     {
-      "a": "pulse-sparkle",
-      "b": "pulse-upload",
+      "a": "compost-sparkle",
+      "b": "compost-upload",
       "distance": 1.41
     },
     {
-      "a": "towel-sparkle",
-      "b": "towel-upload",
+      "a": "lightbulb-shield",
+      "b": "mirror-shield",
       "distance": 1.41
     },
     {
-      "a": "milk-carton-pin",
-      "b": "sanitizer-pin",
+      "a": "lightbulb-pin",
+      "b": "mirror-pin",
       "distance": 1.41
     },
     {
-      "a": "milk-carton-sparkle",
-      "b": "sanitizer-sparkle",
+      "a": "lightbulb-sparkle",
+      "b": "mirror-sparkle",
       "distance": 1.41
     },
     {
-      "a": "milk-carton-user",
-      "b": "sanitizer-user",
+      "a": "lightbulb-eco-shield",
+      "b": "mirror-shield",
       "distance": 1.41
     },
     {
-      "a": "milk-carton-flag",
-      "b": "sanitizer-flag",
+      "a": "lightbulb-eco-pin",
+      "b": "mirror-pin",
       "distance": 1.41
     },
     {
-      "a": "crystal-ball-sparkle",
-      "b": "crystal-ball-upload",
+      "a": "lightbulb-eco-sparkle",
+      "b": "mirror-sparkle",
       "distance": 1.41
     },
     {
-      "a": "milk-carton-shield",
-      "b": "sanitizer-shield",
+      "a": "lightbulb-user",
+      "b": "mirror-user",
       "distance": 1.41
     },
     {
-      "a": "eye-drops-sparkle",
-      "b": "eye-drops-upload",
+      "a": "lightbulb-eco-user",
+      "b": "mirror-user",
       "distance": 1.41
     },
     {
-      "a": "blood-bag-sparkle",
-      "b": "blood-bag-upload",
+      "a": "ceiling-fan-sparkle",
+      "b": "ceiling-fan-upload",
       "distance": 1.41
     },
     {
-      "a": "dice-six-sparkle",
-      "b": "dice-six-upload",
+      "a": "pendant-lamp-sparkle",
+      "b": "pendant-lamp-upload",
       "distance": 1.41
     },
     {
-      "a": "medical-chart-sparkle",
-      "b": "medical-chart-upload",
+      "a": "urn-sparkle",
+      "b": "urn-upload",
       "distance": 1.41
     },
     {
-      "a": "sanitizer-sparkle",
-      "b": "sanitizer-upload",
+      "a": "range-hood-sparkle",
+      "b": "range-hood-upload",
       "distance": 1.41
     },
     {
-      "a": "milk-carton-sparkle",
-      "b": "sanitizer-upload",
+      "a": "lightbulb-eco-sparkle",
+      "b": "mirror-upload",
       "distance": 1.41
     }
   ],
   "dropped": [
-    "blister-pack-gear",
-    "blister-pack-bolt",
-    "blister-pack-cursor",
-    "clothespin-bolt",
-    "jack-in-box-leaf",
-    "jack-in-box-upload",
-    "defibrillator-upload",
-    "ice-pack-upload",
-    "test-strip-search",
-    "test-strip-clock",
-    "test-strip-shield",
-    "test-strip-gear",
-    "test-strip-bolt",
-    "test-strip-heart",
-    "test-strip-star",
-    "test-strip-user",
-    "test-strip-cloud",
-    "test-strip-chat",
-    "test-strip-download",
-    "test-strip-pencil",
-    "test-strip-sparkle",
-    "test-strip-upload",
-    "test-strip-trash",
-    "test-strip-calendar",
-    "test-strip-question",
-    "test-strip-bookmark",
-    "test-strip-crown",
-    "test-strip-leaf",
-    "test-strip-trophy",
-    "test-strip-hourglass",
-    "test-strip-cursor",
-    "test-strip-camera",
-    "test-strip-filter",
-    "test-strip-stats",
-    "test-strip-checkbox",
-    "poker-chip-search",
-    "poker-chip-clock",
-    "poker-chip-shield",
-    "poker-chip-gear",
-    "poker-chip-heart",
-    "poker-chip-user",
-    "poker-chip-cloud",
-    "poker-chip-chat",
-    "poker-chip-download",
-    "poker-chip-pencil",
-    "poker-chip-leaf",
-    "poker-chip-trash",
-    "poker-chip-calendar",
-    "poker-chip-question",
-    "poker-chip-bookmark",
-    "poker-chip-crown",
-    "poker-chip-trophy",
-    "poker-chip-hourglass",
-    "poker-chip-cursor",
-    "poker-chip-camera",
-    "poker-chip-filter",
-    "poker-chip-stats",
-    "poker-chip-checkbox",
-    "mortar-pestle-search",
-    "mortar-pestle-clock",
-    "mortar-pestle-gear",
-    "mortar-pestle-heart",
-    "mortar-pestle-chat",
-    "mortar-pestle-download",
-    "mortar-pestle-pencil",
-    "mortar-pestle-leaf",
-    "mortar-pestle-trash",
-    "mortar-pestle-calendar",
-    "mortar-pestle-question",
-    "mortar-pestle-bookmark",
-    "mortar-pestle-upload",
-    "mortar-pestle-crown",
-    "mortar-pestle-hourglass",
-    "mortar-pestle-cursor",
-    "mortar-pestle-camera",
-    "mortar-pestle-filter",
-    "mortar-pestle-stats",
-    "mortar-pestle-checkbox",
-    "sanitizer-search",
-    "sanitizer-clock",
-    "sanitizer-gear",
-    "sanitizer-bolt",
-    "sanitizer-heart",
-    "sanitizer-star",
-    "sanitizer-cloud",
-    "sanitizer-chat",
-    "sanitizer-download",
-    "sanitizer-pencil",
-    "sanitizer-trash",
-    "sanitizer-calendar",
-    "sanitizer-question",
-    "sanitizer-bookmark",
-    "sanitizer-crown",
-    "sanitizer-leaf",
-    "sanitizer-hourglass",
-    "sanitizer-cursor",
-    "sanitizer-camera",
-    "sanitizer-filter",
-    "sanitizer-stats",
-    "sanitizer-checkbox",
-    "tic-tac-toe-leaf",
-    "tic-tac-toe-upload",
-    "dice-d20-leaf",
-    "marbles-leaf",
-    "suit-club-upload",
-    "dice-six-leaf",
-    "level-up-upload",
-    "chess-rook-upload",
-    "playing-cards-leaf",
-    "playing-cards-upload",
-    "mri-upload",
-    "walker-leaf",
-    "defibrillator-leaf",
-    "glucose-meter-upload",
-    "eye-chart-leaf",
-    "eye-chart-upload",
-    "blister-pack-leaf",
-    "blister-pack-upload",
-    "stretcher-leaf",
-    "stretcher-upload",
-    "medical-chart-leaf",
-    "soap-leaf",
-    "test-strip-moon",
-    "test-strip-bell",
-    "poker-chip-moon",
-    "mortar-pestle-bell",
-    "mortar-pestle-moon",
-    "sanitizer-bell",
-    "sanitizer-moon",
-    "sanitizer-trophy",
-    "test-strip-fire",
-    "mortar-pestle-fire",
-    "sanitizer-fire",
-    "test-strip-pin",
-    "test-strip-flag",
-    "poker-chip-pin",
-    "poker-chip-bell",
-    "poker-chip-flag",
-    "mortar-pestle-shield",
-    "mortar-pestle-pin",
-    "mortar-pestle-user",
-    "mortar-pestle-sparkle",
-    "mortar-pestle-flag",
-    "mortar-pestle-trophy",
-    "cannon-upload",
-    "boomerang-upload",
-    "suit-diamond-upload",
-    "chess-king-upload",
-    "chess-queen-upload",
-    "dart-upload",
-    "chess-pawn-upload",
-    "hearing-aid-upload",
-    "medicine-cup-upload",
-    "mouth-upload",
-    "inhaler-upload",
-    "face-mask-upload",
-    "tweezers-upload",
-    "otoscope-upload",
-    "soap-upload",
-    "shampoo-upload",
-    "awareness-ribbon-upload",
-    "blood-pressure-upload",
-    "medical-cross-upload",
-    "pulse-upload",
-    "towel-upload",
-    "sanitizer-pin",
-    "sanitizer-sparkle",
-    "sanitizer-user",
-    "sanitizer-flag",
-    "crystal-ball-upload",
-    "sanitizer-shield",
-    "eye-drops-upload",
-    "blood-bag-upload",
-    "dice-six-upload",
-    "medical-chart-upload",
-    "sanitizer-upload"
+    "desk-fan-search",
+    "desk-fan-clock",
+    "desk-fan-shield",
+    "desk-fan-gear",
+    "desk-fan-pin",
+    "desk-fan-bolt",
+    "desk-fan-star",
+    "desk-fan-alert",
+    "desk-fan-user",
+    "desk-fan-bell",
+    "desk-fan-cloud",
+    "desk-fan-chat",
+    "desk-fan-download",
+    "desk-fan-pencil",
+    "desk-fan-sparkle",
+    "desk-fan-upload",
+    "desk-fan-trash",
+    "desk-fan-flag",
+    "desk-fan-calendar",
+    "desk-fan-question",
+    "desk-fan-bookmark",
+    "desk-fan-crown",
+    "desk-fan-moon",
+    "desk-fan-leaf",
+    "desk-fan-fire",
+    "desk-fan-trophy",
+    "desk-fan-hourglass",
+    "desk-fan-cursor",
+    "desk-fan-camera",
+    "desk-fan-filter",
+    "desk-fan-stats",
+    "desk-fan-checkbox",
+    "mirror-upload",
+    "mirror-heart",
+    "mirror-star",
+    "mirror-bolt",
+    "mirror-cloud",
+    "mirror-pencil",
+    "mirror-trash",
+    "mirror-calendar",
+    "mirror-bookmark",
+    "mirror-crown",
+    "mirror-leaf",
+    "mirror-camera",
+    "mirror-stats",
+    "desk-fan-heart",
+    "bottle-opener-shield",
+    "mirror-clock",
+    "mirror-gear",
+    "tissue-box-search",
+    "tissue-box-clock",
+    "tissue-box-shield",
+    "tissue-box-gear",
+    "tissue-box-bolt",
+    "tissue-box-heart",
+    "tissue-box-star",
+    "tissue-box-cloud",
+    "tissue-box-chat",
+    "tissue-box-download",
+    "tissue-box-pencil",
+    "tissue-box-leaf",
+    "tissue-box-trash",
+    "tissue-box-calendar",
+    "tissue-box-question",
+    "tissue-box-bookmark",
+    "tissue-box-crown",
+    "tissue-box-hourglass",
+    "tissue-box-cursor",
+    "tissue-box-camera",
+    "tissue-box-filter",
+    "tissue-box-stats",
+    "tissue-box-checkbox",
+    "dustpan-leaf",
+    "gate-stats",
+    "gate-leaf",
+    "gate-upload",
+    "rug-leaf",
+    "rug-upload",
+    "key-ring-leaf",
+    "window-blinds-leaf",
+    "window-blinds-upload",
+    "yarn-ball-leaf",
+    "yarn-ball-upload",
+    "pacifier-upload",
+    "stove-clock",
+    "stove-gear",
+    "stove-bolt",
+    "stove-heart",
+    "stove-alert",
+    "stove-user",
+    "stove-cloud",
+    "stove-chat",
+    "stove-download",
+    "stove-pencil",
+    "stove-upload",
+    "stove-sparkle",
+    "stove-trash",
+    "stove-calendar",
+    "stove-question",
+    "stove-bookmark",
+    "stove-crown",
+    "stove-leaf",
+    "stove-trophy",
+    "stove-cursor",
+    "stove-camera",
+    "stove-stats",
+    "stove-checkbox",
+    "kettle-stats",
+    "kettle-leaf",
+    "laundry-detergent-leaf",
+    "clothesline-upload",
+    "extension-cord-leaf",
+    "water-valve-leaf",
+    "water-valve-upload",
+    "bunk-bed-leaf",
+    "bunk-bed-upload",
+    "air-fryer-leaf",
+    "air-fryer-upload",
+    "juicer-leaf",
+    "cradle-leaf",
+    "cradle-upload",
+    "paper-towel-leaf",
+    "paper-towel-upload",
+    "spice-jar-upload",
+    "storage-box-upload",
+    "high-chair-upload",
+    "clothes-rack-leaf",
+    "clothes-rack-upload",
+    "candle-holder-leaf",
+    "dining-table-leaf",
+    "windchime-upload",
+    "dreamcatcher-upload",
+    "dish-rack-leaf",
+    "dish-rack-upload",
+    "compost-leaf",
+    "bookend-leaf",
+    "bookend-upload",
+    "mirror-bell",
+    "mirror-moon",
+    "mirror-trophy",
+    "tissue-box-bell",
+    "tissue-box-moon",
+    "tissue-box-trophy",
+    "stove-moon",
+    "mirror-fire",
+    "tissue-box-fire",
+    "stove-fire",
+    "tissue-box-pin",
+    "tissue-box-user",
+    "tissue-box-sparkle",
+    "tissue-box-upload",
+    "tissue-box-flag",
+    "clothespin-upload",
+    "dustpan-upload",
+    "ironing-board-upload",
+    "stove-pin",
+    "stove-bell",
+    "stove-flag",
+    "plant-pot-upload",
+    "kettle-upload",
+    "smoke-detector-upload",
+    "laundry-detergent-upload",
+    "chandelier-upload",
+    "extension-cord-upload",
+    "pipe-elbow-upload",
+    "hand-mixer-upload",
+    "sieve-upload",
+    "peeler-upload",
+    "crib-mobile-upload",
+    "wall-shelf-upload",
+    "coat-hook-upload",
+    "bottle-opener-upload",
+    "candle-holder-upload",
+    "chair-upload",
+    "dining-table-upload",
+    "compost-upload",
+    "mirror-shield",
+    "mirror-pin",
+    "mirror-sparkle",
+    "mirror-user",
+    "ceiling-fan-upload",
+    "pendant-lamp-upload",
+    "urn-upload",
+    "range-hood-upload"
   ],
   "byCategory": {
     "accessibility": 53,
@@ -1292,9 +1315,9 @@
     "files": 560,
     "finance": 1663,
     "food": 5298,
-    "gaming": 2032,
-    "health": 2178,
-    "home": 2606,
+    "gaming": 1939,
+    "health": 1991,
+    "home": 4022,
     "interface": 1324,
     "logistics": 475,
     "maps": 319,

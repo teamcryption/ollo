@@ -436,3 +436,15 @@ walker
 inhaler
 marbles
 blood-bag
+key-ring
+ceiling-fan
+smoke-detector
+sieve
+chair
+mirror
+compost
+urn
+bookend
+peeler
+dish-rack
+ironing-board
