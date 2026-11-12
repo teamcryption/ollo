@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-12T07:46:40.380Z",
-  "icons": 20639,
-  "files": 103195,
+  "generatedAt": "2026-11-12T07:57:28.871Z",
+  "icons": 21908,
+  "files": 109540,
   "errors": [],
   "warnings": [
     "dragonfly-search: grid: outside the 3-21 live area (1.50, 3.00, 21.00, 20.00)",
@@ -23,7 +23,7 @@
     "dragonfly-bookmark: grid: outside the 3-21 live area (1.50, 3.00, 19.50, 20.50)",
     "dragonfly-question: grid: outside the 3-21 live area (1.50, 3.00, 21.00, 20.50)",
     "dragonfly-calendar: grid: outside the 3-21 live area (1.50, 3.00, 21.00, 20.50)",
-    "dragonfly-sparkle: grid: outside the 3-21 live area (1.50, 3.00, 21.41, 20.91)",
+    "dragonfly-crown: grid: outside the 3-21 live area (1.50, 3.00, 21.00, 20.00)",
     "gavel-search: grid: outside the 3-21 live area (3.00, 1.53, 21.00, 20.00)",
     "gavel-clock: grid: outside the 3-21 live area (3.00, 1.53, 21.00, 20.50)",
     "gavel-shield: grid: outside the 3-21 live area (3.00, 1.53, 20.80, 20.80)",
@@ -42,6 +42,8 @@
     "gavel-upload: grid: outside the 3-21 live area (3.00, 1.53, 20.60, 20.50)",
     "gavel-bookmark: grid: outside the 3-21 live area (3.00, 1.53, 19.50, 20.50)",
     "gavel-question: grid: outside the 3-21 live area (3.00, 1.53, 21.00, 20.50)",
+    "gavel-crown: grid: outside the 3-21 live area (3.00, 1.53, 21.00, 20.00)",
+    "gavel-moon: grid: outside the 3-21 live area (3.00, 1.53, 20.50, 20.92)",
     "party-hat-search: grid: outside the 3-21 live area (4.72, 2.10, 21.00, 20.00)",
     "party-hat-clock: grid: outside the 3-21 live area (4.72, 2.10, 21.00, 20.50)",
     "party-hat-shield: grid: outside the 3-21 live area (4.72, 2.10, 20.80, 20.80)",
@@ -60,6 +62,8 @@
     "party-hat-upload: grid: outside the 3-21 live area (4.72, 2.10, 20.60, 20.50)",
     "party-hat-bookmark: grid: outside the 3-21 live area (4.72, 2.10, 19.50, 20.50)",
     "party-hat-question: grid: outside the 3-21 live area (4.72, 2.10, 21.00, 20.50)",
+    "party-hat-crown: grid: outside the 3-21 live area (4.72, 2.10, 21.00, 20.00)",
+    "party-hat-moon: grid: outside the 3-21 live area (4.72, 2.10, 20.50, 20.92)",
     "radio-tower-search: grid: outside the 3-21 live area (2.34, 2.80, 21.00, 20.00)",
     "radio-tower-clock: grid: outside the 3-21 live area (2.34, 2.80, 21.00, 20.50)",
     "radio-tower-shield: grid: outside the 3-21 live area (2.34, 2.80, 20.80, 20.80)",
@@ -79,10 +83,12 @@
     "radio-tower-question: grid: outside the 3-21 live area (2.34, 2.80, 21.00, 20.50)",
     "radio-tower-calendar: grid: outside the 3-21 live area (2.34, 2.80, 21.00, 20.50)",
     "radio-tower-sparkle: grid: outside the 3-21 live area (2.34, 2.80, 21.41, 20.91)",
+    "radio-tower-crown: grid: outside the 3-21 live area (2.34, 2.80, 21.00, 20.00)",
     "bezier-bookmark: grid: outside the 3-21 live area (2.00, 3.50, 19.50, 20.50)",
     "bezier-question: grid: outside the 3-21 live area (2.00, 3.50, 21.00, 20.50)",
     "bezier-calendar: grid: outside the 3-21 live area (2.00, 3.50, 21.00, 20.50)",
     "bezier-sparkle: grid: outside the 3-21 live area (2.00, 3.50, 21.41, 20.91)",
+    "bezier-crown: grid: outside the 3-21 live area (2.00, 3.50, 21.00, 20.00)",
     "wifi: grid: outside the 3-21 live area (2.10, 5.00, 21.90, 19.00)",
     "wifi-off: grid: outside the 3-21 live area (2.10, 4.50, 21.90, 19.50)",
     "gamepad: grid: outside the 3-21 live area (2.15, 7.00, 21.85, 18.22)",
@@ -104,6 +110,8 @@
     "fried-egg-upload: grid: outside the 3-21 live area (1.92, 4.06, 20.60, 20.50)",
     "fried-egg-bookmark: grid: outside the 3-21 live area (1.92, 4.06, 19.50, 20.50)",
     "fried-egg-question: grid: outside the 3-21 live area (1.92, 4.06, 21.00, 20.50)",
+    "fried-egg-crown: grid: outside the 3-21 live area (1.92, 4.06, 21.00, 20.00)",
+    "fried-egg-moon: grid: outside the 3-21 live area (1.92, 4.06, 20.50, 20.92)",
     "ribbon-search: grid: outside the 3-21 live area (5.00, 2.20, 21.00, 20.00)",
     "ribbon-clock: grid: outside the 3-21 live area (5.00, 2.20, 21.00, 20.50)",
     "ribbon-shield: grid: outside the 3-21 live area (5.00, 2.20, 20.80, 20.80)",
@@ -122,10 +130,13 @@
     "ribbon-upload: grid: outside the 3-21 live area (5.00, 2.20, 20.60, 20.50)",
     "ribbon-bookmark: grid: outside the 3-21 live area (5.00, 2.20, 19.50, 20.50)",
     "ribbon-question: grid: outside the 3-21 live area (5.00, 2.20, 21.00, 20.50)",
+    "ribbon-crown: grid: outside the 3-21 live area (5.00, 2.20, 21.00, 20.00)",
+    "ribbon-moon: grid: outside the 3-21 live area (5.00, 2.20, 20.50, 20.92)",
     "humidifier-bookmark: grid: outside the 3-21 live area (4.50, 1.70, 19.50, 20.50)",
     "humidifier-question: grid: outside the 3-21 live area (4.50, 1.70, 21.00, 20.50)",
     "humidifier-calendar: grid: outside the 3-21 live area (4.50, 1.70, 21.00, 20.50)",
     "humidifier-sparkle: grid: outside the 3-21 live area (4.50, 1.70, 21.41, 20.91)",
+    "humidifier-crown: grid: outside the 3-21 live area (4.50, 1.70, 21.00, 20.00)",
     "dashboard: accent: no floating accent",
     "sliders: accent: no floating accent",
     "close-circle: accent: no floating accent",
@@ -146,6 +157,8 @@
     "clapperboard-upload: grid: outside the 3-21 live area (3.00, 2.30, 20.60, 20.50)",
     "clapperboard-bookmark: grid: outside the 3-21 live area (3.00, 2.30, 19.50, 20.50)",
     "clapperboard-question: grid: outside the 3-21 live area (3.00, 2.30, 21.00, 20.50)",
+    "clapperboard-crown: grid: outside the 3-21 live area (3.00, 2.30, 21.00, 20.00)",
+    "clapperboard-moon: grid: outside the 3-21 live area (3.00, 2.30, 20.50, 20.92)",
     "seesaw-search: grid: outside the 3-21 live area (2.70, 2.00, 21.00, 20.00)",
     "seesaw-clock: grid: outside the 3-21 live area (2.70, 2.00, 21.00, 20.50)",
     "seesaw-shield: grid: outside the 3-21 live area (2.70, 2.00, 20.80, 20.80)",
@@ -171,16 +184,17 @@
     "seesaw-calendar: grid: outside the 3-21 live area (2.70, 2.00, 21.00, 20.50)",
     "community-calendar: grid: outside the 3-21 live area (1.80, 3.80, 21.00, 20.50)",
     "person-walking-calendar: grid: outside the 3-21 live area (6.50, 2.20, 21.00, 20.50)",
-    "seesaw-sparkle: grid: outside the 3-21 live area (2.70, 2.00, 21.41, 20.91)",
     "community-sparkle: grid: outside the 3-21 live area (1.80, 3.80, 21.41, 20.91)",
     "person-walking-sparkle: grid: outside the 3-21 live area (6.50, 2.20, 21.41, 20.91)",
-    "barbell-question: grid: outside the 3-21 live area (1.80, 6.50, 21.00, 20.50)",
-    "barbell-calendar: grid: outside the 3-21 live area (1.80, 6.50, 21.00, 20.50)",
-    "barbell-sparkle: grid: outside the 3-21 live area (1.80, 6.50, 21.41, 20.91)",
+    "seesaw-crown: grid: outside the 3-21 live area (2.70, 2.00, 21.00, 20.00)",
+    "community-crown: grid: outside the 3-21 live area (1.80, 3.80, 21.00, 20.00)",
+    "person-walking-crown: grid: outside the 3-21 live area (6.50, 2.20, 21.00, 20.00)",
+    "barbell-crown: grid: outside the 3-21 live area (1.80, 6.50, 21.00, 20.00)",
     "thunderstorm-bookmark: grid: outside the 3-21 live area (2.15, 3.30, 19.50, 20.50)",
     "thunderstorm-question: grid: outside the 3-21 live area (2.15, 3.30, 21.00, 20.50)",
     "thunderstorm-calendar: grid: outside the 3-21 live area (2.15, 3.30, 21.00, 20.50)",
     "thunderstorm-sparkle: grid: outside the 3-21 live area (2.15, 3.30, 21.41, 20.91)",
+    "thunderstorm-crown: grid: outside the 3-21 live area (2.15, 3.30, 21.00, 20.00)",
     "duplicate: face-smile ~ face-wink (shape distance 1px)",
     "duplicate: face-neutral ~ face-confused (shape distance 1px)",
     "duplicate: face-surprised ~ face-sleepy (shape distance 1px)",
@@ -190,118 +204,18 @@
   ],
   "duplicates": [
     {
-      "a": "wheelchair-upload",
-      "b": "wheelchair-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "robot-arm-upload",
-      "b": "robot-arm-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "voice-assistant-question",
-      "b": "dollar-coin-question",
+      "a": "voice-assistant-crown",
+      "b": "dollar-coin-crown",
       "distance": 1
     },
     {
-      "a": "voice-assistant-calendar",
-      "b": "dollar-coin-calendar",
-      "distance": 1
-    },
-    {
-      "a": "pig-upload",
-      "b": "pig-sparkle",
+      "a": "igloo-crown",
+      "b": "protractor-crown",
       "distance": 1.41
     },
     {
-      "a": "panda-upload",
-      "b": "panda-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "spider-upload",
-      "b": "spider-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "bird-cage-upload",
-      "b": "bird-cage-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "dragonfly-upload",
-      "b": "dragonfly-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "gazebo-upload",
-      "b": "gazebo-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "exit-sign-upload",
-      "b": "exit-sign-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "igloo-question",
-      "b": "protractor-question",
-      "distance": 1.41
-    },
-    {
-      "a": "igloo-calendar",
-      "b": "protractor-calendar",
-      "distance": 1.41
-    },
-    {
-      "a": "pin-board-upload",
-      "b": "pin-board-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "discount-calendar",
-      "b": "discount-badge-calendar",
-      "distance": 1
-    },
-    {
-      "a": "barcode-scanner-upload",
-      "b": "barcode-scanner-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "hanging-sign-upload",
-      "b": "hanging-sign-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "gift-card-upload",
-      "b": "gift-card-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "discount-question",
-      "b": "discount-badge-question",
-      "distance": 1
-    },
-    {
-      "a": "paint-tube-upload",
-      "b": "paint-tube-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "pen-tool-upload",
-      "b": "pen-tool-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "graphics-card-upload",
-      "b": "graphics-card-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "whiteboard-upload",
-      "b": "whiteboard-sparkle",
+      "a": "receipt-crown",
+      "b": "passport-crown",
       "distance": 1.41
     },
     {
@@ -330,193 +244,38 @@
       "distance": 1
     },
     {
-      "a": "glove-upload",
-      "b": "glove-sparkle",
+      "a": "taco-crown",
+      "b": "rainbow-crown",
       "distance": 1.41
     },
     {
-      "a": "hair-dryer-upload",
-      "b": "hair-dryer-sparkle",
+      "a": "whisk-crown",
+      "b": "screwdriver-crown",
       "distance": 1.41
     },
     {
-      "a": "razor-upload",
-      "b": "razor-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "cheque-upload",
-      "b": "cheque-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "vault-door-upload",
-      "b": "vault-door-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "money-bag-upload",
-      "b": "money-bag-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "sushi-roll-upload",
-      "b": "sushi-roll-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "donut-upload",
-      "b": "donut-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "ice-cream-cone-upload",
-      "b": "ice-cream-cone-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "waffle-upload",
-      "b": "waffle-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "cake-slice-upload",
-      "b": "cake-slice-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "whisk-question",
-      "b": "screwdriver-question",
-      "distance": 1.41
-    },
-    {
-      "a": "cinnamon-roll-question",
-      "b": "fossil-question",
+      "a": "cinnamon-roll-crown",
+      "b": "fossil-crown",
       "distance": 0
     },
     {
-      "a": "cinnamon-roll-calendar",
-      "b": "fossil-calendar",
-      "distance": 0
-    },
-    {
-      "a": "cinnamon-roll-sparkle",
-      "b": "fossil-upload",
+      "a": "lamp-crown",
+      "b": "floor-lamp-crown",
       "distance": 1.41
     },
     {
-      "a": "cinnamon-roll-sparkle",
-      "b": "fossil-sparkle",
-      "distance": 0
-    },
-    {
-      "a": "chess-knight-upload",
-      "b": "chess-knight-sparkle",
+      "a": "wardrobe-crown",
+      "b": "cupboard-crown",
       "distance": 1.41
     },
     {
-      "a": "treasure-map-upload",
-      "b": "treasure-map-sparkle",
+      "a": "video-doorbell-crown",
+      "b": "do-not-disturb-crown",
       "distance": 1.41
     },
     {
-      "a": "heart-monitor-upload",
-      "b": "heart-monitor-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "x-ray-upload",
-      "b": "x-ray-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "lamp-calendar",
-      "b": "floor-lamp-calendar",
-      "distance": 1.41
-    },
-    {
-      "a": "lamp-question",
-      "b": "floor-lamp-question",
-      "distance": 1.41
-    },
-    {
-      "a": "video-doorbell-question",
-      "b": "do-not-disturb-question",
-      "distance": 1.41
-    },
-    {
-      "a": "video-doorbell-calendar",
-      "b": "do-not-disturb-calendar",
-      "distance": 1.41
-    },
-    {
-      "a": "video-doorbell-sparkle",
-      "b": "do-not-disturb-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "forklift-upload",
-      "b": "forklift-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "pallet-upload",
-      "b": "pallet-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "container-upload",
-      "b": "container-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "cargo-ship-upload",
-      "b": "cargo-ship-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "tripod-upload",
-      "b": "tripod-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "record-player-upload",
-      "b": "record-player-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "equalizer-upload",
-      "b": "equalizer-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "film-reel-question",
-      "b": "hex-nut-question",
-      "distance": 1.41
-    },
-    {
-      "a": "film-reel-calendar",
-      "b": "hex-nut-calendar",
-      "distance": 1.41
-    },
-    {
-      "a": "seesaw-upload",
-      "b": "seesaw-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "molecule-upload",
-      "b": "molecule-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "fossil-upload",
-      "b": "fossil-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "siren-upload",
-      "b": "siren-sparkle",
+      "a": "film-reel-crown",
+      "b": "hex-nut-crown",
       "distance": 1.41
     },
     {
@@ -525,491 +284,94 @@
       "distance": 1
     },
     {
-      "a": "dumbbell-calendar",
-      "b": "barbell-calendar",
+      "a": "dumbbell-crown",
+      "b": "barbell-crown",
       "distance": 1.41
     },
     {
-      "a": "beach-ball-upload",
-      "b": "beach-ball-sparkle",
+      "a": "receipt-moon",
+      "b": "passport-moon",
       "distance": 1.41
     },
     {
-      "a": "pool-ladder-upload",
-      "b": "pool-ladder-sparkle",
+      "a": "taco-moon",
+      "b": "rainbow-moon",
       "distance": 1.41
     },
     {
-      "a": "dumbbell-question",
-      "b": "barbell-question",
+      "a": "whisk-moon",
+      "b": "screwdriver-moon",
       "distance": 1.41
     },
     {
-      "a": "steering-wheel-upload",
-      "b": "steering-wheel-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "tractor-upload",
-      "b": "tractor-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "tollbooth-upload",
-      "b": "tollbooth-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "hammock-upload",
-      "b": "hammock-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "luggage-cart-upload",
-      "b": "luggage-cart-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "ship-wheel-upload",
-      "b": "ship-wheel-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "icicles-upload",
-      "b": "icicles-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "igloo-sparkle",
-      "b": "protractor-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "discount-sparkle",
-      "b": "discount-badge-sparkle",
-      "distance": 1
-    },
-    {
-      "a": "lamp-sparkle",
-      "b": "floor-lamp-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "dumbbell-sparkle",
-      "b": "barbell-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "voice-assistant-sparkle",
-      "b": "dollar-coin-sparkle",
-      "distance": 1
-    },
-    {
-      "a": "hedgehog-upload",
-      "b": "hedgehog-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "elephant-upload",
-      "b": "elephant-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "dolphin-upload",
-      "b": "dolphin-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "camel-upload",
-      "b": "camel-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "rhino-upload",
-      "b": "rhino-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "caterpillar-upload",
-      "b": "caterpillar-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "pyramid-upload",
-      "b": "pyramid-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "antenna-tower-upload",
-      "b": "antenna-tower-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "smart-speaker-upload",
-      "b": "smart-speaker-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "ruler-triangle-upload",
-      "b": "ruler-triangle-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "sunglasses-upload",
-      "b": "sunglasses-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "heels-upload",
-      "b": "heels-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "gold-bar-upload",
-      "b": "gold-bar-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "ice-cube-upload",
-      "b": "ice-cube-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "garlic-upload",
-      "b": "garlic-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "knife-upload",
-      "b": "knife-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "spoon-upload",
-      "b": "spoon-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "fork-upload",
-      "b": "fork-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "chopsticks-upload",
-      "b": "chopsticks-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "skewer-upload",
-      "b": "skewer-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "crutch-upload",
-      "b": "crutch-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "soap-bar-upload",
-      "b": "soap-bar-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "desk-lamp-upload",
-      "b": "desk-lamp-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "rocking-chair-upload",
-      "b": "rocking-chair-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "vinyl-upload",
-      "b": "vinyl-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "mountain-flag-upload",
-      "b": "mountain-flag-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "slide-upload",
-      "b": "slide-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "petri-dish-upload",
-      "b": "petri-dish-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "beaker-upload",
-      "b": "beaker-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "face-id-upload",
-      "b": "face-id-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "ski-upload",
-      "b": "ski-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "hockey-stick-upload",
-      "b": "hockey-stick-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "jet-ski-upload",
-      "b": "jet-ski-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "alarm-clock-upload",
-      "b": "alarm-clock-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "nail-upload",
-      "b": "nail-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "valve-upload",
-      "b": "valve-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "sickle-upload",
-      "b": "sickle-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "ornament-upload",
-      "b": "ornament-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "circuit-upload",
-      "b": "circuit-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "yoyo-upload",
-      "b": "yoyo-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "violin-upload",
-      "b": "violin-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "buoy-upload",
-      "b": "buoy-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "umbrella-closed-upload",
-      "b": "umbrella-closed-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "giraffe-upload",
-      "b": "giraffe-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "deer-upload",
-      "b": "deer-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "match-upload",
-      "b": "match-sparkle",
+      "a": "wardrobe-moon",
+      "b": "cupboard-moon",
       "distance": 1.41
     }
   ],
   "dropped": [
-    "cursor-click-question",
-    "cursor-click-calendar",
-    "cursor-click-sparkle",
-    "speaking-head-question",
-    "speaking-head-calendar",
-    "speaking-head-sparkle",
-    "moon-stars-question",
-    "moon-stars-calendar",
-    "moon-stars-sparkle",
-    "wheelchair-sparkle",
-    "robot-arm-sparkle",
-    "voice-assistant-question",
-    "voice-assistant-calendar",
-    "pig-sparkle",
-    "panda-sparkle",
-    "spider-sparkle",
-    "bird-cage-sparkle",
-    "dragonfly-sparkle",
-    "gazebo-sparkle",
-    "exit-sign-sparkle",
-    "igloo-question",
-    "igloo-calendar",
-    "pin-board-sparkle",
-    "discount-badge-calendar",
-    "barcode-scanner-sparkle",
-    "hanging-sign-sparkle",
-    "gift-card-sparkle",
-    "discount-badge-question",
-    "paint-tube-sparkle",
-    "pen-tool-sparkle",
-    "graphics-card-sparkle",
-    "whiteboard-sparkle",
-    "glove-sparkle",
-    "hair-dryer-sparkle",
-    "razor-sparkle",
-    "cheque-sparkle",
-    "vault-door-sparkle",
-    "money-bag-sparkle",
-    "sushi-roll-sparkle",
-    "donut-sparkle",
-    "ice-cream-cone-sparkle",
-    "waffle-sparkle",
-    "cake-slice-sparkle",
-    "whisk-question",
-    "fossil-question",
-    "fossil-calendar",
-    "cinnamon-roll-sparkle",
-    "chess-knight-sparkle",
-    "treasure-map-sparkle",
-    "heart-monitor-sparkle",
-    "x-ray-sparkle",
-    "floor-lamp-calendar",
-    "floor-lamp-question",
-    "do-not-disturb-question",
-    "do-not-disturb-calendar",
-    "do-not-disturb-sparkle",
-    "forklift-sparkle",
-    "pallet-sparkle",
-    "container-sparkle",
-    "cargo-ship-sparkle",
-    "tripod-sparkle",
-    "record-player-sparkle",
-    "equalizer-sparkle",
-    "film-reel-question",
-    "film-reel-calendar",
-    "seesaw-sparkle",
-    "molecule-sparkle",
-    "fossil-sparkle",
-    "siren-sparkle",
-    "barbell-calendar",
-    "beach-ball-sparkle",
-    "pool-ladder-sparkle",
-    "barbell-question",
-    "steering-wheel-sparkle",
-    "tractor-sparkle",
-    "tollbooth-sparkle",
-    "hammock-sparkle",
-    "luggage-cart-sparkle",
-    "ship-wheel-sparkle",
-    "icicles-sparkle",
-    "igloo-sparkle",
-    "discount-badge-sparkle",
-    "floor-lamp-sparkle",
-    "barbell-sparkle",
-    "voice-assistant-sparkle",
-    "hedgehog-sparkle",
-    "elephant-sparkle",
-    "dolphin-sparkle",
-    "camel-sparkle",
-    "rhino-sparkle",
-    "caterpillar-sparkle",
-    "pyramid-sparkle",
-    "antenna-tower-sparkle",
-    "smart-speaker-sparkle",
-    "ruler-triangle-sparkle",
-    "sunglasses-sparkle",
-    "heels-sparkle",
-    "gold-bar-sparkle",
-    "ice-cube-sparkle",
-    "garlic-sparkle",
-    "knife-sparkle",
-    "spoon-sparkle",
-    "fork-sparkle",
-    "chopsticks-sparkle",
-    "skewer-sparkle",
-    "crutch-sparkle",
-    "soap-bar-sparkle",
-    "desk-lamp-sparkle",
-    "rocking-chair-sparkle",
-    "vinyl-sparkle",
-    "mountain-flag-sparkle",
-    "slide-sparkle",
-    "petri-dish-sparkle",
-    "beaker-sparkle",
-    "face-id-sparkle",
-    "ski-sparkle",
-    "hockey-stick-sparkle",
-    "jet-ski-sparkle",
-    "alarm-clock-sparkle",
-    "nail-sparkle",
-    "valve-sparkle",
-    "sickle-sparkle",
-    "ornament-sparkle",
-    "circuit-sparkle",
-    "yoyo-sparkle",
-    "violin-sparkle",
-    "buoy-sparkle",
-    "umbrella-closed-sparkle",
-    "giraffe-sparkle",
-    "deer-sparkle",
-    "match-sparkle"
+    "cursor-click-crown",
+    "moon-crown",
+    "speaking-head-crown",
+    "moon-stars-crown",
+    "dollar-coin-crown",
+    "protractor-crown",
+    "passport-crown",
+    "rainbow-crown",
+    "screwdriver-crown",
+    "fossil-crown",
+    "floor-lamp-crown",
+    "cupboard-crown",
+    "do-not-disturb-crown",
+    "hex-nut-crown",
+    "barbell-crown",
+    "passport-moon",
+    "rainbow-moon",
+    "screwdriver-moon",
+    "cupboard-moon"
   ],
   "byCategory": {
-    "accessibility": 42,
+    "accessibility": 44,
     "actions": 44,
-    "ai": 192,
-    "animals": 820,
+    "ai": 200,
+    "animals": 889,
     "arrows": 121,
-    "buildings": 531,
-    "business": 647,
-    "celebration": 511,
-    "commerce": 597,
-    "communication": 620,
-    "data": 235,
-    "design": 464,
-    "development": 339,
-    "devices": 768,
-    "education": 468,
+    "buildings": 566,
+    "business": 688,
+    "celebration": 545,
+    "commerce": 639,
+    "communication": 663,
+    "data": 250,
+    "design": 496,
+    "development": 362,
+    "devices": 821,
+    "education": 493,
     "emoji": 41,
-    "energy": 153,
-    "fashion": 673,
-    "files": 271,
-    "finance": 524,
-    "food": 2207,
-    "gaming": 513,
-    "health": 738,
-    "home": 1345,
-    "interface": 652,
-    "logistics": 240,
-    "maps": 131,
-    "media": 767,
-    "nature": 815,
+    "energy": 164,
+    "fashion": 725,
+    "files": 285,
+    "finance": 557,
+    "food": 2386,
+    "gaming": 551,
+    "health": 789,
+    "home": 1440,
+    "interface": 684,
+    "logistics": 252,
+    "maps": 140,
+    "media": 824,
+    "nature": 871,
     "navigation": 35,
-    "notifications": 40,
-    "people": 427,
-    "science": 396,
-    "security": 263,
-    "social": 110,
-    "sports": 829,
-    "text": 240,
-    "time": 137,
-    "tools": 704,
-    "transport": 804,
-    "travel": 706,
-    "weather": 348
+    "notifications": 42,
+    "people": 454,
+    "science": 423,
+    "security": 276,
+    "social": 115,
+    "sports": 888,
+    "text": 248,
+    "time": 145,
+    "tools": 753,
+    "transport": 856,
+    "travel": 758,
+    "weather": 366
   }
 }

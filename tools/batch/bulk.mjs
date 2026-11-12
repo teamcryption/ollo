@@ -34,6 +34,10 @@ Object.assign(M, {
   percent: `body(R(13, 12.5, 8, 8, 2), { cover: true }), line('M15.2 18.3l3.6-3.6'), line(D(15.4, 14.7) + D(18.6, 18.1))`,
   bookmark: `body('M14.5 12.5h5v8l-2.5-1.8-2.5 1.8Z', { cover: true })`,
   question: `body(R(13, 12.5, 8, 8, 2), { cover: true }), line('M15.7 15.4a1.3 1.3 0 1 1 1.9 1.2c-.4.2-.6.5-.6.9'), line(D(17, 18.9))`,
+  crown: `body(poly([[13, 20], [13, 14], [15.3, 16.3], [17, 13], [18.7, 16.3], [21, 14], [21, 20]], 0.6, true), { cover: true })`,
+  moon: `body('M20.5 18.7A4 4 0 0 1 16 12.6a4.2 4.2 0 1 0 4.5 6.1Z', { cover: true })`,
+  pause: `body(R(13.5, 13, 2.8, 7.5, 1), { cover: true }), body(R(17.7, 13, 2.8, 7.5, 1), { cover: true })`,
+  leaf: `body('M13 20.5c0-4.5 3-7.5 8-8 .3 5-2.7 8-8 8Z', { cover: true }), line('M13.6 19.9 17.5 16')`,
   alert: `body(poly([[17, 11.5], [21.3, 20.5], [12.7, 20.5]], 0.9, true), { cover: true }), line('M17 15v2.3'), line(D(17, 19.1))`,
 });
 
@@ -71,6 +75,10 @@ const T = {
   percent: (l) => [`${l} Sale`, 'sale, discount, offer'],
   bookmark: (l) => [`Save ${l}`, 'save, bookmark, later'],
   question: (l) => [`${l} Help`, 'help, question, support'],
+  crown: (l) => [`Premium ${l}`, 'premium, pro, vip'],
+  moon: (l) => [`${l} Night Mode`, 'night, dark mode, sleep'],
+  pause: (l) => [`Pause ${l}`, 'pause, hold, stop'],
+  leaf: (l) => [`Eco ${l}`, 'eco, green, sustainable'],
   alert: (l) => [`${l} Alert`, 'alert, warning, problem'],
 };
 // category: most common category among existing icons named <base>-*
