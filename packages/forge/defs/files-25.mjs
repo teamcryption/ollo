@@ -1,0 +1,23 @@
+import { icon, body, line, accent } from '../src/dsl.mjs';
+import { R, C, E, L, A, D, poly, star, head, gear, rotateD, translateD, scaleD } from '../src/geo.mjs';
+
+const rot = (els, deg, cx = 12, cy = 12) => els.map((e) => ({ ...e, d: rotateD(e.d, deg, cx, cy) }));
+const spark = (x, y, r) => accent(star(x, y, r, r * 0.32, 4, 0.2));
+
+export default {
+  category: 'files',
+  icons: [
+    icon('folder-open-question', 'Folder Open Help', ['help', 'question', 'support', 'folder open', 'folder-open'], [body('M3 6a1.5 1.5 0 0 1 1.5-1.5h3.5l1.5 2h5A1.5 1.5 0 0 1 16 8v1H6.5L3 16Z'), body('M6 9.3h11l-3 7.2H3Z'), body(R(13, 12.5, 8, 8, 2), { cover: true }), line('M15.7 15.4a1.3 1.3 0 1 1 1.9 1.2c-.4.2-.6.5-.6.9'), line(D(17, 18.9))], { noAccent: true }),
+    icon('file-zip-question', 'File Zip Help', ['help', 'question', 'support', 'file zip', 'file-zip'], [body('M5 3h6.5L15 6.5V17a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1Z'), line('M8 4v1.5M9.5 5.5V7M8 7v1.5M9.5 8.5V10'), body(R(7.5, 11, 3, 3, 0.6)), body(R(13, 12.5, 8, 8, 2), { cover: true }), line('M15.7 15.4a1.3 1.3 0 1 1 1.9 1.2c-.4.2-.6.5-.6.9'), line(D(17, 18.9))], { noAccent: true }),
+    icon('file-image-question', 'File Image Help', ['help', 'question', 'support', 'file image', 'file-image'], [body('M5 3h6.5L15 6.5V17a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1Z'), line('M6.5 15.5 9 12.5l1.8 1.8 1.2-1.3 1.5 2.5'), line(C(8, 9, 1)), body(R(13, 12.5, 8, 8, 2), { cover: true }), line('M15.7 15.4a1.3 1.3 0 1 1 1.9 1.2c-.4.2-.6.5-.6.9'), line(D(17, 18.9))], { noAccent: true }),
+    icon('documents-stack-question', 'Documents Stack Help', ['help', 'question', 'support', 'documents stack', 'documents-stack'], [body('M7 3h6.5L16 5.5V14a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1Z'), line('M4 6v10.5A1.5 1.5 0 0 0 5.5 18H13'), body(R(13, 12.5, 8, 8, 2), { cover: true }), line('M15.7 15.4a1.3 1.3 0 1 1 1.9 1.2c-.4.2-.6.5-.6.9'), line(D(17, 18.9))], { noAccent: true }),
+    icon('folder-open-calendar', 'Folder Open Booking', ['booking', 'date', 'appointment', 'folder open', 'folder-open'], [body('M3 6a1.5 1.5 0 0 1 1.5-1.5h3.5l1.5 2h5A1.5 1.5 0 0 1 16 8v1H6.5L3 16Z'), body('M6 9.3h11l-3 7.2H3Z'), body(R(13, 13.3, 8, 7.2, 1.3), { cover: true }), line('M13.2 15.9h7.6M15 12.4v1.8M19 12.4v1.8')], { noAccent: true }),
+    icon('file-zip-calendar', 'File Zip Booking', ['booking', 'date', 'appointment', 'file zip', 'file-zip'], [body('M5 3h6.5L15 6.5V17a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1Z'), line('M8 4v1.5M9.5 5.5V7M8 7v1.5M9.5 8.5V10'), body(R(7.5, 11, 3, 3, 0.6)), body(R(13, 13.3, 8, 7.2, 1.3), { cover: true }), line('M13.2 15.9h7.6M15 12.4v1.8M19 12.4v1.8')], { noAccent: true }),
+    icon('file-image-calendar', 'File Image Booking', ['booking', 'date', 'appointment', 'file image', 'file-image'], [body('M5 3h6.5L15 6.5V17a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1Z'), line('M6.5 15.5 9 12.5l1.8 1.8 1.2-1.3 1.5 2.5'), line(C(8, 9, 1)), body(R(13, 13.3, 8, 7.2, 1.3), { cover: true }), line('M13.2 15.9h7.6M15 12.4v1.8M19 12.4v1.8')], { noAccent: true }),
+    icon('documents-stack-calendar', 'Documents Stack Booking', ['booking', 'date', 'appointment', 'documents stack', 'documents-stack'], [body('M7 3h6.5L16 5.5V14a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1Z'), line('M4 6v10.5A1.5 1.5 0 0 0 5.5 18H13'), body(R(13, 13.3, 8, 7.2, 1.3), { cover: true }), line('M13.2 15.9h7.6M15 12.4v1.8M19 12.4v1.8')], { noAccent: true }),
+    icon('folder-open-sparkle', 'AI Folder Open', ['ai', 'smart', 'magic', 'folder open', 'folder-open'], [body('M3 6a1.5 1.5 0 0 1 1.5-1.5h3.5l1.5 2h5A1.5 1.5 0 0 1 16 8v1H6.5L3 16Z'), body('M6 9.3h11l-3 7.2H3Z'), body(star(17, 16.5, 4.6, 1.5, 4, 0.4), { cover: true })], { noAccent: true }),
+    icon('file-zip-sparkle', 'AI File Zip', ['ai', 'smart', 'magic', 'file zip', 'file-zip'], [body('M5 3h6.5L15 6.5V17a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1Z'), line('M8 4v1.5M9.5 5.5V7M8 7v1.5M9.5 8.5V10'), body(R(7.5, 11, 3, 3, 0.6)), body(star(17, 16.5, 4.6, 1.5, 4, 0.4), { cover: true })], { noAccent: true }),
+    icon('file-image-sparkle', 'AI File Image', ['ai', 'smart', 'magic', 'file image', 'file-image'], [body('M5 3h6.5L15 6.5V17a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1Z'), line('M6.5 15.5 9 12.5l1.8 1.8 1.2-1.3 1.5 2.5'), line(C(8, 9, 1)), body(star(17, 16.5, 4.6, 1.5, 4, 0.4), { cover: true })], { noAccent: true }),
+    icon('documents-stack-sparkle', 'AI Documents Stack', ['ai', 'smart', 'magic', 'documents stack', 'documents-stack'], [body('M7 3h6.5L16 5.5V14a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1Z'), line('M4 6v10.5A1.5 1.5 0 0 0 5.5 18H13'), body(star(17, 16.5, 4.6, 1.5, 4, 0.4), { cover: true })], { noAccent: true }),
+  ],
+};
