@@ -1,54 +1,10 @@
 {
-  "generatedAt": "2026-11-12T14:00:18.524Z",
-  "icons": 37964,
-  "files": 189820,
+  "generatedAt": "2026-11-12T14:03:06.742Z",
+  "icons": 37816,
+  "files": 189080,
   "errors": [],
-  "warnings": [
-    "wifi-remove: grid: outside the 3-21 live area (2.10, 5.00, 21.90, 21.00)",
-    "duplicate: spider-web-add ~ spider-web-remove (shape distance 1.41px)",
-    "duplicate: spider-web-add ~ spider-web-alert (shape distance 1.41px)",
-    "duplicate: spider-web-check ~ spider-web-remove (shape distance 1px)",
-    "duplicate: spider-web-check ~ spider-web-alert (shape distance 1px)",
-    "duplicate: spider-web-close ~ spider-web-remove (shape distance 1.41px)",
-    "duplicate: spider-web-close ~ spider-web-alert (shape distance 1.41px)",
-    "duplicate: spider-web-remove ~ spider-web-alert (shape distance 1.41px)"
-  ],
+  "warnings": [],
   "duplicates": [
-    {
-      "a": "spider-web-add",
-      "b": "spider-web-remove",
-      "distance": 1.41
-    },
-    {
-      "a": "spider-web-add",
-      "b": "spider-web-alert",
-      "distance": 1.41
-    },
-    {
-      "a": "spider-web-check",
-      "b": "spider-web-remove",
-      "distance": 1
-    },
-    {
-      "a": "spider-web-check",
-      "b": "spider-web-alert",
-      "distance": 1
-    },
-    {
-      "a": "spider-web-close",
-      "b": "spider-web-remove",
-      "distance": 1.41
-    },
-    {
-      "a": "spider-web-close",
-      "b": "spider-web-alert",
-      "distance": 1.41
-    },
-    {
-      "a": "spider-web-remove",
-      "b": "spider-web-alert",
-      "distance": 1.41
-    },
     {
       "a": "arcade-remove",
       "b": "handheld-console-remove",
@@ -64,42 +20,42 @@
     "ai": 572,
     "animals": 1535,
     "arrows": 121,
-    "buildings": 1086,
+    "buildings": 1089,
     "business": 1113,
-    "celebration": 1020,
-    "commerce": 947,
+    "celebration": 1021,
+    "commerce": 942,
     "communication": 1015,
     "data": 520,
     "design": 825,
-    "development": 620,
-    "devices": 1279,
-    "education": 849,
+    "development": 615,
+    "devices": 1264,
+    "education": 799,
     "emoji": 72,
-    "energy": 358,
-    "fashion": 1253,
+    "energy": 359,
+    "fashion": 1254,
     "files": 511,
-    "finance": 851,
-    "food": 4088,
-    "gaming": 1030,
+    "finance": 847,
+    "food": 4057,
+    "gaming": 1025,
     "health": 1305,
-    "home": 2557,
-    "interface": 1328,
+    "home": 2563,
+    "interface": 1324,
     "logistics": 475,
     "maps": 319,
-    "media": 1363,
-    "nature": 1638,
+    "media": 1359,
+    "nature": 1631,
     "navigation": 35,
     "notifications": 50,
     "people": 779,
     "science": 804,
-    "security": 421,
+    "security": 416,
     "social": 160,
-    "sports": 1653,
+    "sports": 1640,
     "text": 334,
     "time": 239,
-    "tools": 1349,
-    "transport": 1555,
-    "travel": 1287,
+    "tools": 1351,
+    "transport": 1551,
+    "travel": 1277,
     "weather": 550
   }
 }
