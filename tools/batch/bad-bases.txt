@@ -4,3 +4,12 @@ cashback
 diya
 vote
 confetti
+eject
+postmark
+cable
+key-add
+key-capslock
+key-check
+key-clock
+key-option
+key-space
