@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-12T12:19:28.097Z",
-  "icons": 32021,
-  "files": 160105,
+  "generatedAt": "2026-11-12T12:36:43.106Z",
+  "icons": 31874,
+  "files": 159370,
   "errors": [],
   "warnings": [
     "wheelchair-camera: grid: outside the 3-21 live area (3.51, 2.60, 22.00, 20.50)",
@@ -81,6 +81,10 @@
     "dragonfly-trash: grid: outside the 3-21 live area (1.50, 3.00, 20.20, 20.50)",
     "dragonfly-flag: grid: outside the 3-21 live area (1.50, 3.00, 20.30, 21.00)",
     "beehive-camera: grid: outside the 3-21 live area (3.50, 5.50, 22.00, 20.50)",
+    "bear-camera: grid: outside the 3-21 live area (3.50, 4.40, 22.00, 20.50)",
+    "chick-camera: grid: outside the 3-21 live area (4.50, 6.00, 22.00, 20.50)",
+    "snake-camera: grid: outside the 3-21 live area (4.00, 7.10, 22.00, 20.50)",
+    "nest-camera: grid: outside the 3-21 live area (3.50, 8.00, 22.00, 20.50)",
     "factory-camera: grid: outside the 3-21 live area (3.00, 4.50, 22.00, 20.50)",
     "castle-camera: grid: outside the 3-21 live area (3.50, 5.50, 22.00, 20.50)",
     "street-lamp-camera: grid: outside the 3-21 live area (4.50, 3.50, 22.00, 20.50)",
@@ -106,6 +110,8 @@
     "apartment-camera: grid: outside the 3-21 live area (4.00, 3.00, 22.00, 20.50)",
     "igloo-camera: grid: outside the 3-21 live area (3.00, 9.50, 22.00, 20.50)",
     "monument-camera: grid: outside the 3-21 live area (4.50, 4.00, 22.00, 20.50)",
+    "escalator-camera: grid: outside the 3-21 live area (3.00, 4.70, 22.00, 20.50)",
+    "elevator-camera: grid: outside the 3-21 live area (4.00, 3.50, 22.00, 20.50)",
     "gavel-search: grid: outside the 3-21 live area (3.00, 1.53, 21.00, 20.00)",
     "gavel-clock: grid: outside the 3-21 live area (3.00, 1.53, 21.00, 20.50)",
     "gavel-shield: grid: outside the 3-21 live area (3.00, 1.53, 20.80, 20.80)",
@@ -301,7 +307,6 @@
     "radio-tower-checkbox: grid: outside the 3-21 live area (2.34, 2.80, 21.00, 20.50)",
     "radio-tower-trash: grid: outside the 3-21 live area (2.34, 2.80, 20.20, 20.50)",
     "radio-tower-flag: grid: outside the 3-21 live area (2.34, 2.80, 20.30, 21.00)",
-    "radio-tower-upload: grid: outside the 3-21 live area (2.34, 2.80, 20.60, 20.50)",
     "dashboard-camera: grid: outside the 3-21 live area (3.00, 4.00, 22.00, 20.50)",
     "chart-camera: grid: outside the 3-21 live area (3.00, 4.00, 22.00, 20.50)",
     "table-camera: grid: outside the 3-21 live area (3.00, 4.50, 22.00, 20.50)",
@@ -351,7 +356,6 @@
     "bezier-pricing: grid: outside the 3-21 live area (2.00, 3.50, 21.00, 20.50)",
     "bezier-trash: grid: outside the 3-21 live area (2.00, 3.50, 20.20, 20.50)",
     "bezier-flag: grid: outside the 3-21 live area (2.00, 3.50, 20.30, 21.00)",
-    "bezier-upload: grid: outside the 3-21 live area (2.00, 3.50, 20.60, 20.50)",
     "laptop-camera: grid: outside the 3-21 live area (3.00, 5.00, 22.00, 20.50)",
     "code-camera: grid: outside the 3-21 live area (3.00, 4.00, 22.00, 20.50)",
     "branch-camera: grid: outside the 3-21 live area (3.20, 3.20, 22.00, 20.50)",
@@ -418,7 +422,6 @@
     "math-symbols-camera: grid: outside the 3-21 live area (3.50, 3.50, 22.00, 20.50)",
     "language-camera: grid: outside the 3-21 live area (3.00, 3.50, 22.00, 20.50)",
     "quiz-camera: grid: outside the 3-21 live area (3.50, 3.50, 22.00, 20.50)",
-    "abacus-camera: grid: outside the 3-21 live area (3.50, 4.00, 22.00, 20.50)",
     "smiley-camera: grid: outside the 3-21 live area (3.00, 4.00, 22.00, 20.50)",
     "plug-camera: grid: outside the 3-21 live area (5.00, 3.50, 22.00, 20.50)",
     "ev-camera: grid: outside the 3-21 live area (4.00, 4.00, 22.00, 20.50)",
@@ -617,12 +620,9 @@
     "fried-egg-filter: grid: outside the 3-21 live area (1.92, 4.06, 20.81, 20.35)",
     "fried-egg-stats: grid: outside the 3-21 live area (1.92, 4.06, 20.70, 20.50)",
     "fried-egg-checkbox: grid: outside the 3-21 live area (1.92, 4.06, 21.00, 20.50)",
-    "cutting-board-camera: grid: outside the 3-21 live area (3.00, 6.00, 22.00, 20.50)",
-    "tea-bag-camera: grid: outside the 3-21 live area (7.00, 3.50, 22.00, 20.50)",
     "baguette-camera: grid: outside the 3-21 live area (3.60, 5.60, 22.00, 20.50)",
     "steak-camera: grid: outside the 3-21 live area (4.00, 5.00, 22.00, 20.50)",
     "bento-camera: grid: outside the 3-21 live area (3.00, 5.00, 22.00, 20.50)",
-    "milk-can-camera: grid: outside the 3-21 live area (6.50, 4.50, 22.00, 20.50)",
     "gamepad-camera: grid: outside the 3-21 live area (3.00, 7.00, 22.00, 20.50)",
     "dice-camera: grid: outside the 3-21 live area (3.50, 4.50, 22.00, 20.50)",
     "pawn-camera: grid: outside the 3-21 live area (4.50, 3.50, 22.00, 20.50)",
@@ -645,6 +645,7 @@
     "building-blocks-camera: grid: outside the 3-21 live area (3.00, 3.76, 22.00, 20.50)",
     "stacking-rings-camera: grid: outside the 3-21 live area (4.50, 3.00, 22.00, 20.50)",
     "handheld-console-camera: grid: outside the 3-21 live area (4.50, 3.00, 22.00, 20.50)",
+    "arcade-camera: grid: outside the 3-21 live area (5.00, 3.50, 22.00, 20.50)",
     "ribbon-search: grid: outside the 3-21 live area (5.00, 2.20, 21.00, 20.00)",
     "ribbon-clock: grid: outside the 3-21 live area (5.00, 2.20, 21.00, 20.50)",
     "ribbon-shield: grid: outside the 3-21 live area (5.00, 2.20, 20.80, 20.80)",
@@ -786,11 +787,9 @@
     "humidifier-trash: grid: outside the 3-21 live area (4.50, 1.70, 20.20, 20.50)",
     "humidifier-flag: grid: outside the 3-21 live area (4.50, 1.70, 20.30, 21.00)",
     "humidifier-upload: grid: outside the 3-21 live area (4.50, 1.70, 20.60, 20.50)",
-    "thermostat-camera: grid: outside the 3-21 live area (4.50, 4.00, 22.00, 20.50)",
     "light-switch-camera: grid: outside the 3-21 live area (5.00, 3.50, 22.00, 20.50)",
     "blinds-camera: grid: outside the 3-21 live area (3.50, 4.00, 22.00, 20.50)",
     "vacuum-camera: grid: outside the 3-21 live area (5.50, 4.50, 22.00, 20.50)",
-    "doormat-camera: grid: outside the 3-21 live area (3.00, 9.00, 22.00, 20.50)",
     "flag-camera: grid: outside the 3-21 live area (4.50, 4.00, 22.00, 20.50)",
     "bookmark-camera: grid: outside the 3-21 live area (4.00, 3.50, 22.00, 20.50)",
     "link-camera: grid: outside the 3-21 live area (4.50, 4.50, 22.00, 20.50)",
@@ -810,6 +809,7 @@
     "checkbox-list-camera: grid: outside the 3-21 live area (3.00, 4.00, 22.00, 20.50)",
     "dropdown-camera: grid: outside the 3-21 live area (3.00, 6.50, 22.00, 20.50)",
     "eye-closed-camera: grid: outside the 3-21 live area (3.50, 9.50, 22.00, 20.50)",
+    "infinity-camera: grid: outside the 3-21 live area (3.00, 8.00, 22.00, 20.50)",
     "dashboard: accent: no floating accent",
     "sliders: accent: no floating accent",
     "close-circle: accent: no floating accent",
@@ -836,6 +836,7 @@
     "parcel-locker-camera: grid: outside the 3-21 live area (3.00, 3.50, 22.00, 20.50)",
     "return-box-camera: grid: outside the 3-21 live area (3.50, 6.00, 22.00, 20.50)",
     "warehouse-camera: grid: outside the 3-21 live area (3.00, 4.00, 22.00, 20.50)",
+    "barrel-camera: grid: outside the 3-21 live area (5.00, 4.00, 22.00, 20.50)",
     "map-camera: grid: outside the 3-21 live area (3.50, 4.16, 22.00, 20.50)",
     "compass-camera: grid: outside the 3-21 live area (3.00, 4.00, 22.00, 20.50)",
     "globe-camera: grid: outside the 3-21 live area (3.00, 4.00, 22.00, 20.50)",
@@ -890,7 +891,6 @@
     "clapperboard-checkbox: grid: outside the 3-21 live area (3.00, 2.30, 21.00, 20.50)",
     "clapperboard-addbox: grid: outside the 3-21 live area (3.00, 2.30, 21.00, 20.50)",
     "clapperboard-pricing: grid: outside the 3-21 live area (3.00, 2.30, 21.00, 20.50)",
-    "harmonica-camera: grid: outside the 3-21 live area (3.00, 8.00, 22.00, 20.50)",
     "plant-camera: grid: outside the 3-21 live area (5.00, 4.50, 22.00, 20.50)",
     "mountain-camera: grid: outside the 3-21 live area (2.75, 7.35, 22.00, 20.50)",
     "leaf-camera: grid: outside the 3-21 live area (4.00, 4.00, 22.00, 20.50)",
@@ -929,8 +929,8 @@
     "wheat-camera: grid: outside the 3-21 live area (6.50, 5.00, 22.00, 20.50)",
     "rake-camera: grid: outside the 3-21 live area (5.00, 3.50, 22.00, 20.50)",
     "bush-camera: grid: outside the 3-21 live area (2.93, 6.63, 22.00, 20.50)",
-    "hay-bale-camera: grid: outside the 3-21 live area (3.00, 8.00, 22.00, 20.50)",
-    "seed-packet-camera: grid: outside the 3-21 live area (5.00, 4.00, 22.00, 20.50)",
+    "grass-camera: grid: outside the 3-21 live area (3.00, 8.00, 22.00, 20.50)",
+    "rock-camera: grid: outside the 3-21 live area (4.00, 8.00, 22.00, 20.50)",
     "bell-camera: grid: outside the 3-21 live area (3.50, 3.50, 22.00, 20.50)",
     "seesaw-search: grid: outside the 3-21 live area (2.70, 2.00, 21.00, 20.00)",
     "seesaw-clock: grid: outside the 3-21 live area (2.70, 2.00, 21.00, 20.50)",
@@ -1022,7 +1022,6 @@
     "seesaw-flag: grid: outside the 3-21 live area (2.70, 2.00, 20.30, 21.00)",
     "community-flag: grid: outside the 3-21 live area (1.80, 3.80, 20.30, 21.00)",
     "person-walking-flag: grid: outside the 3-21 live area (6.50, 2.20, 20.30, 21.00)",
-    "community-upload: grid: outside the 3-21 live area (1.80, 3.80, 20.60, 20.50)",
     "person-walking-upload: grid: outside the 3-21 live area (6.50, 2.20, 20.60, 20.50)",
     "flask-camera: grid: outside the 3-21 live area (2.83, 3.50, 22.00, 20.50)",
     "dna-camera: grid: outside the 3-21 live area (6.00, 3.50, 22.00, 20.50)",
@@ -1090,9 +1089,6 @@
     "checkered-flag-camera: grid: outside the 3-21 live area (4.00, 3.00, 22.00, 20.50)",
     "bike-helmet-camera: grid: outside the 3-21 live area (3.00, 6.50, 22.00, 20.50)",
     "shuttlecock-camera: grid: outside the 3-21 live area (4.50, 4.00, 22.00, 20.50)",
-    "barbell-trash: grid: outside the 3-21 live area (1.80, 6.50, 20.20, 20.50)",
-    "barbell-flag: grid: outside the 3-21 live area (1.80, 6.50, 20.30, 21.00)",
-    "barbell-upload: grid: outside the 3-21 live area (1.80, 6.50, 20.60, 20.50)",
     "ice-skate-camera: grid: outside the 3-21 live area (4.00, 4.00, 22.00, 20.50)",
     "boxing-glove-camera: grid: outside the 3-21 live area (5.00, 4.50, 22.00, 20.50)",
     "fountain-pen-camera: grid: outside the 3-21 live area (5.00, 3.50, 22.00, 20.50)",
@@ -1138,6 +1134,7 @@
     "drill-camera: grid: outside the 3-21 live area (4.00, 6.00, 22.00, 20.50)",
     "glue-stick-camera: grid: outside the 3-21 live area (6.00, 4.00, 22.00, 20.50)",
     "pitchfork-camera: grid: outside the 3-21 live area (6.50, 3.50, 22.00, 20.50)",
+    "trowel-camera: grid: outside the 3-21 live area (5.27, 4.30, 22.00, 20.50)",
     "bus-camera: grid: outside the 3-21 live area (4.00, 3.50, 22.00, 20.50)",
     "train-camera: grid: outside the 3-21 live area (4.50, 3.50, 22.00, 20.50)",
     "fuel-camera: grid: outside the 3-21 live area (4.00, 4.00, 22.00, 20.50)",
@@ -1173,7 +1170,7 @@
     "motorbike-camera: grid: outside the 3-21 live area (2.50, 7.00, 22.00, 20.50)",
     "airship-camera: grid: outside the 3-21 live area (3.00, 6.00, 22.00, 20.50)",
     "parking-meter-camera: grid: outside the 3-21 live area (6.00, 3.50, 22.00, 20.50)",
-    "tunnel-camera: grid: outside the 3-21 live area (3.00, 4.50, 22.00, 20.50)",
+    "bus-stop-camera: grid: outside the 3-21 live area (5.00, 5.00, 22.00, 20.50)",
     "airplane-camera: grid: outside the 3-21 live area (3.30, 3.50, 22.00, 20.50)",
     "bed-camera: grid: outside the 3-21 live area (3.00, 6.00, 22.00, 20.50)",
     "tent-camera: grid: outside the 3-21 live area (3.25, 4.35, 22.00, 20.50)",
@@ -1242,7 +1239,6 @@
     "thunderstorm-pricing: grid: outside the 3-21 live area (2.15, 3.30, 21.00, 20.50)",
     "thunderstorm-trash: grid: outside the 3-21 live area (2.15, 3.30, 20.20, 20.50)",
     "thunderstorm-flag: grid: outside the 3-21 live area (2.15, 3.30, 20.30, 21.00)",
-    "thunderstorm-upload: grid: outside the 3-21 live area (2.15, 3.30, 20.60, 20.50)",
     "duplicate: face-smile ~ face-wink (shape distance 1px)",
     "duplicate: face-neutral ~ face-confused (shape distance 1px)",
     "duplicate: face-surprised ~ face-sleepy (shape distance 1px)",
@@ -1252,413 +1248,18 @@
   ],
   "duplicates": [
     {
-      "a": "microphone-podcast-sparkle",
-      "b": "microphone-podcast-upload",
+      "a": "nest-pencil",
+      "b": "nest-leaf",
       "distance": 1.41
     },
     {
-      "a": "pregnant-sparkle",
-      "b": "pregnant-upload",
+      "a": "bear-sparkle",
+      "b": "bear-upload",
       "distance": 1.41
     },
     {
-      "a": "neural-net-sparkle",
-      "b": "neural-net-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "chip-ai-sparkle",
-      "b": "chip-ai-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "voice-assistant-trash",
-      "b": "dollar-coin-trash",
-      "distance": 1
-    },
-    {
-      "a": "voice-assistant-upload",
-      "b": "dollar-coin-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "doghouse-search",
-      "b": "tunnel-search",
-      "distance": 1.41
-    },
-    {
-      "a": "doghouse-clock",
-      "b": "tunnel-clock",
-      "distance": 1.41
-    },
-    {
-      "a": "doghouse-shield",
-      "b": "tunnel-shield",
-      "distance": 1.41
-    },
-    {
-      "a": "doghouse-gear",
-      "b": "tunnel-gear",
-      "distance": 1.41
-    },
-    {
-      "a": "doghouse-heart",
-      "b": "tunnel-heart",
-      "distance": 1.41
-    },
-    {
-      "a": "doghouse-star",
-      "b": "tunnel-star",
-      "distance": 1.41
-    },
-    {
-      "a": "doghouse-alert",
-      "b": "tunnel-alert",
-      "distance": 1.41
-    },
-    {
-      "a": "doghouse-user",
-      "b": "tunnel-user",
-      "distance": 1.41
-    },
-    {
-      "a": "doghouse-cloud",
-      "b": "tunnel-cloud",
-      "distance": 1.41
-    },
-    {
-      "a": "doghouse-chat",
-      "b": "tunnel-chat",
-      "distance": 1.41
-    },
-    {
-      "a": "doghouse-download",
-      "b": "tunnel-download",
-      "distance": 1.41
-    },
-    {
-      "a": "doghouse-pencil",
-      "b": "tunnel-pencil",
-      "distance": 1.41
-    },
-    {
-      "a": "doghouse-sparkle",
-      "b": "tunnel-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "doghouse-calendar",
-      "b": "tunnel-calendar",
-      "distance": 1.41
-    },
-    {
-      "a": "doghouse-upload",
-      "b": "tunnel-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "doghouse-question",
-      "b": "tunnel-question",
-      "distance": 1.41
-    },
-    {
-      "a": "doghouse-crown",
-      "b": "tunnel-crown",
-      "distance": 1.41
-    },
-    {
-      "a": "doghouse-hourglass",
-      "b": "tunnel-hourglass",
-      "distance": 1.41
-    },
-    {
-      "a": "doghouse-camera",
-      "b": "tunnel-camera",
-      "distance": 1.41
-    },
-    {
-      "a": "doghouse-filter",
-      "b": "tunnel-filter",
-      "distance": 1.41
-    },
-    {
-      "a": "doghouse-stats",
-      "b": "tunnel-stats",
-      "distance": 1.41
-    },
-    {
-      "a": "doghouse-checkbox",
-      "b": "tunnel-checkbox",
-      "distance": 1.41
-    },
-    {
-      "a": "beehive-search",
-      "b": "hex-nut-search",
-      "distance": 1.41
-    },
-    {
-      "a": "beehive-clock",
-      "b": "hex-nut-clock",
-      "distance": 1.41
-    },
-    {
-      "a": "beehive-shield",
-      "b": "hex-nut-shield",
-      "distance": 1.41
-    },
-    {
-      "a": "beehive-gear",
-      "b": "hex-nut-gear",
-      "distance": 1.41
-    },
-    {
-      "a": "beehive-heart",
-      "b": "hex-nut-heart",
-      "distance": 1.41
-    },
-    {
-      "a": "beehive-star",
-      "b": "hex-nut-star",
-      "distance": 1.41
-    },
-    {
-      "a": "beehive-cloud",
-      "b": "hex-nut-cloud",
-      "distance": 1.41
-    },
-    {
-      "a": "beehive-pencil",
-      "b": "beehive-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "beehive-sparkle",
-      "b": "beehive-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "beehive-sparkle",
-      "b": "hex-nut-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "beehive-trash",
-      "b": "hex-nut-trash",
-      "distance": 1.41
-    },
-    {
-      "a": "beehive-upload",
-      "b": "hex-nut-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "beehive-trophy",
-      "b": "hex-nut-trophy",
-      "distance": 1.41
-    },
-    {
-      "a": "blueprint-sparkle",
-      "b": "blueprint-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "igloo-trash",
-      "b": "protractor-trash",
-      "distance": 1.41
-    },
-    {
-      "a": "paper-shredder-sparkle",
-      "b": "paper-shredder-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "kanban-sparkle",
-      "b": "kanban-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "projector-screen-sparkle",
-      "b": "projector-screen-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "business-card-sparkle",
-      "b": "business-card-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "workflow-sparkle",
-      "b": "workflow-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "roadmap-sparkle",
-      "b": "roadmap-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "wedding-rings-sparkle",
-      "b": "wedding-rings-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "easter-egg-sparkle",
-      "b": "easter-egg-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "carnival-mask-pencil",
-      "b": "carnival-mask-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "stocking-pencil",
-      "b": "stocking-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "discount-trash",
-      "b": "discount-badge-trash",
-      "distance": 1
-    },
-    {
-      "a": "coupon-sparkle",
-      "b": "coupon-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "online-shop-sparkle",
-      "b": "online-shop-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "receipt-long-sparkle",
-      "b": "receipt-long-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "price-up-sparkle",
-      "b": "price-up-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "loyalty-card-sparkle",
-      "b": "loyalty-card-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "radio-tower-sparkle",
-      "b": "radio-tower-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "telephone-old-sparkle",
-      "b": "telephone-old-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "fax-sparkle",
-      "b": "fax-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "mailbox-post-sparkle",
-      "b": "mailbox-post-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "at-sign-sparkle",
-      "b": "at-sign-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "video-call-sparkle",
-      "b": "video-call-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "voice-message-sparkle",
-      "b": "voice-message-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "monitor-chart-sparkle",
-      "b": "monitor-chart-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "layout-grid-sparkle",
-      "b": "layout-grid-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "shapes-sparkle",
-      "b": "shapes-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "api-sparkle",
-      "b": "api-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "laptop-code-sparkle",
-      "b": "laptop-code-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "ram-trash",
-      "b": "container-trash",
-      "distance": 1.41
-    },
-    {
-      "a": "phone-vibrate-sparkle",
-      "b": "phone-vibrate-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "nfc-sparkle",
-      "b": "nfc-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "printer-3d-pencil",
-      "b": "printer-3d-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "printer-3d-sparkle",
-      "b": "printer-3d-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "book-open-sparkle",
-      "b": "book-open-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "language-sparkle",
-      "b": "language-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "quiz-sparkle",
-      "b": "quiz-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "abacus-pencil",
-      "b": "abacus-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "abacus-sparkle",
-      "b": "abacus-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "smiley-pencil",
-      "b": "smiley-leaf",
+      "a": "elevator-pencil",
+      "b": "elevator-leaf",
       "distance": 1.41
     },
     {
@@ -1687,848 +1288,203 @@
       "distance": 1
     },
     {
-      "a": "folder-open-sparkle",
-      "b": "folder-open-upload",
+      "a": "bowtie-search",
+      "b": "infinity-search",
       "distance": 1.41
     },
     {
-      "a": "tip-jar-sparkle",
-      "b": "tip-jar-upload",
+      "a": "bowtie-clock",
+      "b": "infinity-clock",
       "distance": 1.41
     },
     {
-      "a": "token-coin-sparkle",
-      "b": "token-coin-upload",
+      "a": "bowtie-gear",
+      "b": "infinity-gear",
       "distance": 1.41
     },
     {
-      "a": "token-coin-trash",
-      "b": "hex-nut-trash",
+      "a": "bowtie-bolt",
+      "b": "infinity-bolt",
       "distance": 1.41
     },
     {
-      "a": "salt-shaker-search",
-      "b": "milk-can-search",
+      "a": "bowtie-heart",
+      "b": "infinity-heart",
       "distance": 1.41
     },
     {
-      "a": "salt-shaker-clock",
-      "b": "milk-can-clock",
+      "a": "bowtie-star",
+      "b": "infinity-star",
       "distance": 1.41
     },
     {
-      "a": "salt-shaker-shield",
-      "b": "milk-can-shield",
+      "a": "bowtie-alert",
+      "b": "infinity-alert",
       "distance": 1.41
     },
     {
-      "a": "salt-shaker-gear",
-      "b": "milk-can-gear",
+      "a": "bowtie-cloud",
+      "b": "infinity-cloud",
       "distance": 1.41
     },
     {
-      "a": "salt-shaker-bolt",
-      "b": "milk-can-bolt",
+      "a": "bowtie-chat",
+      "b": "infinity-chat",
       "distance": 1.41
     },
     {
-      "a": "salt-shaker-heart",
-      "b": "milk-can-heart",
+      "a": "bowtie-download",
+      "b": "infinity-download",
       "distance": 1.41
     },
     {
-      "a": "salt-shaker-star",
-      "b": "milk-can-star",
+      "a": "bowtie-pencil",
+      "b": "infinity-pencil",
       "distance": 1.41
     },
     {
-      "a": "salt-shaker-cloud",
-      "b": "milk-can-cloud",
+      "a": "bowtie-pencil",
+      "b": "infinity-leaf",
       "distance": 1.41
     },
     {
-      "a": "salt-shaker-chat",
-      "b": "milk-can-chat",
+      "a": "bowtie-trash",
+      "b": "infinity-trash",
       "distance": 1.41
     },
     {
-      "a": "salt-shaker-download",
-      "b": "milk-can-download",
+      "a": "bowtie-calendar",
+      "b": "infinity-calendar",
       "distance": 1.41
     },
     {
-      "a": "salt-shaker-pencil",
-      "b": "milk-can-pencil",
+      "a": "bowtie-bookmark",
+      "b": "infinity-bookmark",
       "distance": 1.41
     },
     {
-      "a": "macaron-search",
-      "b": "thermostat-search",
+      "a": "bowtie-question",
+      "b": "infinity-question",
       "distance": 1.41
     },
     {
-      "a": "macaron-clock",
-      "b": "thermostat-clock",
+      "a": "bowtie-crown",
+      "b": "infinity-crown",
       "distance": 1.41
     },
     {
-      "a": "macaron-shield",
-      "b": "thermostat-shield",
+      "a": "bowtie-hourglass",
+      "b": "infinity-hourglass",
       "distance": 1.41
     },
     {
-      "a": "macaron-gear",
-      "b": "thermostat-gear",
+      "a": "bowtie-cursor",
+      "b": "infinity-cursor",
       "distance": 1.41
     },
     {
-      "a": "macaron-bolt",
-      "b": "thermostat-bolt",
+      "a": "bowtie-camera",
+      "b": "infinity-camera",
       "distance": 1.41
     },
     {
-      "a": "macaron-heart",
-      "b": "thermostat-heart",
+      "a": "bowtie-filter",
+      "b": "infinity-filter",
       "distance": 1.41
     },
     {
-      "a": "macaron-star",
-      "b": "thermostat-star",
+      "a": "bowtie-stats",
+      "b": "infinity-stats",
       "distance": 1.41
     },
     {
-      "a": "macaron-alert",
-      "b": "thermostat-alert",
+      "a": "bowtie-checkbox",
+      "b": "infinity-checkbox",
       "distance": 1.41
     },
     {
-      "a": "macaron-user",
-      "b": "thermostat-user",
+      "a": "glasses-search",
+      "b": "infinity-search",
       "distance": 1.41
     },
     {
-      "a": "macaron-cloud",
-      "b": "thermostat-cloud",
+      "a": "glasses-heart",
+      "b": "infinity-heart",
       "distance": 1.41
     },
     {
-      "a": "macaron-chat",
-      "b": "thermostat-chat",
+      "a": "glasses-star",
+      "b": "infinity-star",
       "distance": 1.41
     },
     {
-      "a": "macaron-download",
-      "b": "thermostat-download",
+      "a": "glasses-chat",
+      "b": "infinity-chat",
       "distance": 1.41
     },
     {
-      "a": "macaron-pencil",
-      "b": "thermostat-pencil",
+      "a": "glasses-download",
+      "b": "infinity-download",
       "distance": 1.41
     },
     {
-      "a": "macaron-pencil",
-      "b": "thermostat-leaf",
+      "a": "glasses-pencil",
+      "b": "infinity-pencil",
       "distance": 1.41
     },
     {
-      "a": "salt-shaker-calendar",
-      "b": "milk-can-calendar",
+      "a": "glasses-pencil",
+      "b": "infinity-leaf",
       "distance": 1.41
     },
     {
-      "a": "salt-shaker-upload",
-      "b": "milk-can-upload",
+      "a": "glasses-calendar",
+      "b": "infinity-calendar",
       "distance": 1.41
     },
     {
-      "a": "salt-shaker-bookmark",
-      "b": "milk-can-bookmark",
+      "a": "glasses-upload",
+      "b": "infinity-upload",
       "distance": 1.41
     },
     {
-      "a": "macaron-bookmark",
-      "b": "thermostat-bookmark",
+      "a": "glasses-bookmark",
+      "b": "infinity-bookmark",
       "distance": 1.41
     },
     {
-      "a": "salt-shaker-question",
-      "b": "milk-can-question",
+      "a": "glasses-question",
+      "b": "infinity-question",
       "distance": 1.41
     },
     {
-      "a": "macaron-question",
-      "b": "thermostat-question",
+      "a": "glasses-crown",
+      "b": "infinity-crown",
       "distance": 1.41
     },
     {
-      "a": "macaron-calendar",
-      "b": "thermostat-calendar",
+      "a": "glasses-camera",
+      "b": "infinity-camera",
       "distance": 1.41
     },
     {
-      "a": "french-press-sparkle",
-      "b": "french-press-upload",
+      "a": "glasses-filter",
+      "b": "infinity-filter",
       "distance": 1.41
     },
     {
-      "a": "lemon-slice-sparkle",
-      "b": "lemon-slice-upload",
+      "a": "glasses-stats",
+      "b": "infinity-stats",
       "distance": 1.41
     },
     {
-      "a": "spaghetti-sparkle",
-      "b": "spaghetti-upload",
+      "a": "glasses-checkbox",
+      "b": "infinity-checkbox",
       "distance": 1.41
     },
     {
-      "a": "milkshake-sparkle",
-      "b": "milkshake-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "macaron-sparkle",
-      "b": "macaron-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "macaron-sparkle",
-      "b": "thermostat-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "macaron-sparkle",
-      "b": "thermostat-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "kebab-sparkle",
-      "b": "kebab-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "salt-shaker-crown",
-      "b": "milk-can-crown",
-      "distance": 1.41
-    },
-    {
-      "a": "macaron-crown",
-      "b": "thermostat-crown",
-      "distance": 1.41
-    },
-    {
-      "a": "salt-shaker-leaf",
-      "b": "milk-can-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "salt-shaker-hourglass",
-      "b": "milk-can-hourglass",
-      "distance": 1.41
-    },
-    {
-      "a": "macaron-hourglass",
-      "b": "thermostat-hourglass",
-      "distance": 1.41
-    },
-    {
-      "a": "macaron-trophy",
-      "b": "thermostat-trophy",
-      "distance": 1.41
-    },
-    {
-      "a": "salt-shaker-cursor",
-      "b": "milk-can-cursor",
-      "distance": 1.41
-    },
-    {
-      "a": "macaron-cursor",
-      "b": "thermostat-cursor",
-      "distance": 1.41
-    },
-    {
-      "a": "salt-shaker-camera",
-      "b": "milk-can-camera",
-      "distance": 1.41
-    },
-    {
-      "a": "macaron-camera",
-      "b": "thermostat-camera",
-      "distance": 1.41
-    },
-    {
-      "a": "salt-shaker-filter",
-      "b": "milk-can-filter",
-      "distance": 1.41
-    },
-    {
-      "a": "salt-shaker-stats",
-      "b": "milk-can-stats",
-      "distance": 1.41
-    },
-    {
-      "a": "macaron-stats",
-      "b": "thermostat-stats",
-      "distance": 1.41
-    },
-    {
-      "a": "macaron-filter",
-      "b": "thermostat-filter",
-      "distance": 1.41
-    },
-    {
-      "a": "salt-shaker-checkbox",
-      "b": "milk-can-checkbox",
-      "distance": 1.41
-    },
-    {
-      "a": "macaron-checkbox",
-      "b": "thermostat-checkbox",
-      "distance": 1.41
-    },
-    {
-      "a": "macaron-pricing",
-      "b": "thermostat-gear",
-      "distance": 1.41
-    },
-    {
-      "a": "cutting-board-pencil",
-      "b": "cutting-board-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "steak-pencil",
-      "b": "steak-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "bento-sparkle",
-      "b": "bento-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "macaron-trash",
-      "b": "thermostat-trash",
-      "distance": 1.41
-    },
-    {
-      "a": "cinnamon-roll-trash",
-      "b": "fossil-trash",
-      "distance": 0
-    },
-    {
-      "a": "macaron-upload",
-      "b": "thermostat-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "macaron-upload",
-      "b": "thermostat-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "cinnamon-roll-upload",
-      "b": "fossil-upload",
-      "distance": 0
-    },
-    {
-      "a": "building-blocks-sparkle",
-      "b": "building-blocks-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "stacking-rings-sparkle",
-      "b": "stacking-rings-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "pill-bottle-search",
-      "b": "seed-packet-search",
-      "distance": 1.41
-    },
-    {
-      "a": "pill-bottle-clock",
-      "b": "seed-packet-clock",
-      "distance": 1.41
-    },
-    {
-      "a": "pill-bottle-shield",
-      "b": "seed-packet-shield",
-      "distance": 1.41
-    },
-    {
-      "a": "pill-bottle-gear",
-      "b": "seed-packet-gear",
-      "distance": 1.41
-    },
-    {
-      "a": "pill-bottle-bolt",
-      "b": "seed-packet-bolt",
-      "distance": 1.41
-    },
-    {
-      "a": "pill-bottle-heart",
-      "b": "seed-packet-heart",
-      "distance": 1.41
-    },
-    {
-      "a": "pill-bottle-star",
-      "b": "seed-packet-star",
-      "distance": 1.41
-    },
-    {
-      "a": "pill-bottle-user",
-      "b": "seed-packet-user",
-      "distance": 1.41
-    },
-    {
-      "a": "pill-bottle-cloud",
-      "b": "seed-packet-cloud",
-      "distance": 1.41
-    },
-    {
-      "a": "pill-bottle-chat",
-      "b": "seed-packet-chat",
-      "distance": 1.41
-    },
-    {
-      "a": "pill-bottle-download",
-      "b": "seed-packet-download",
-      "distance": 1.41
-    },
-    {
-      "a": "pill-bottle-pencil",
-      "b": "seed-packet-pencil",
-      "distance": 1.41
-    },
-    {
-      "a": "pill-bottle-sparkle",
-      "b": "seed-packet-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "pill-bottle-trash",
-      "b": "seed-packet-trash",
-      "distance": 1.41
-    },
-    {
-      "a": "pill-bottle-calendar",
-      "b": "seed-packet-calendar",
-      "distance": 1.41
-    },
-    {
-      "a": "pill-bottle-upload",
-      "b": "seed-packet-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "pill-bottle-bookmark",
-      "b": "seed-packet-bookmark",
-      "distance": 1.41
-    },
-    {
-      "a": "pill-bottle-question",
-      "b": "seed-packet-question",
-      "distance": 1.41
-    },
-    {
-      "a": "massage-stone-sparkle",
-      "b": "massage-stone-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "pill-blister-sparkle",
-      "b": "pill-blister-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "iv-drip-sparkle",
-      "b": "iv-drip-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "virus-sparkle",
-      "b": "virus-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "hospital-bed-sparkle",
-      "b": "hospital-bed-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "pill-bottle-crown",
-      "b": "seed-packet-crown",
-      "distance": 1.41
-    },
-    {
-      "a": "pill-bottle-leaf",
-      "b": "seed-packet-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "pill-bottle-trophy",
-      "b": "seed-packet-trophy",
-      "distance": 1.41
-    },
-    {
-      "a": "pill-bottle-cursor",
-      "b": "seed-packet-cursor",
-      "distance": 1.41
-    },
-    {
-      "a": "pill-bottle-camera",
-      "b": "seed-packet-camera",
-      "distance": 1.41
-    },
-    {
-      "a": "pill-bottle-filter",
-      "b": "seed-packet-filter",
-      "distance": 1.41
-    },
-    {
-      "a": "pill-bottle-stats",
-      "b": "seed-packet-stats",
-      "distance": 1.41
-    },
-    {
-      "a": "pill-bottle-checkbox",
-      "b": "seed-packet-checkbox",
-      "distance": 1.41
-    },
-    {
-      "a": "lamp-trash",
-      "b": "floor-lamp-trash",
-      "distance": 1.41
-    },
-    {
-      "a": "spray-bottle-sparkle",
-      "b": "spray-bottle-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "video-doorbell-sparkle",
-      "b": "video-doorbell-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "video-doorbell-sparkle",
-      "b": "do-not-disturb-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "rice-cooker-sparkle",
-      "b": "rice-cooker-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "for-sale-sign-sparkle",
-      "b": "for-sale-sign-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "moving-box-sparkle",
-      "b": "moving-box-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "nightstand-sparkle",
-      "b": "nightstand-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "armchair-sparkle",
-      "b": "armchair-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "bar-stool-sparkle",
-      "b": "bar-stool-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "house-number-sparkle",
-      "b": "house-number-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "picket-fence-sparkle",
-      "b": "picket-fence-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "thermostat-pencil",
-      "b": "thermostat-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "blinds-pencil",
-      "b": "blinds-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "vacuum-pencil",
-      "b": "vacuum-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "doormat-pencil",
-      "b": "doormat-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "thermostat-sparkle",
-      "b": "thermostat-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "light-switch-sparkle",
-      "b": "light-switch-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "video-doorbell-upload",
-      "b": "do-not-disturb-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "layout-sidebar-sparkle",
-      "b": "layout-sidebar-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "eye-closed-pencil",
-      "b": "eye-closed-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "return-box-sparkle",
-      "b": "return-box-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "route-sparkle",
-      "b": "route-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "xylophone-sparkle",
-      "b": "xylophone-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "music-stand-sparkle",
-      "b": "music-stand-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "cd-sparkle",
-      "b": "cd-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "film-reel-sparkle",
-      "b": "film-reel-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "camera-action-sparkle",
-      "b": "camera-action-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "harmonica-search",
-      "b": "spirit-level-search",
-      "distance": 1
-    },
-    {
-      "a": "harmonica-clock",
-      "b": "spirit-level-clock",
-      "distance": 1
-    },
-    {
-      "a": "harmonica-gear",
-      "b": "spirit-level-gear",
-      "distance": 1
-    },
-    {
-      "a": "harmonica-bolt",
-      "b": "spirit-level-bolt",
-      "distance": 1
-    },
-    {
-      "a": "harmonica-heart",
-      "b": "spirit-level-heart",
-      "distance": 1
-    },
-    {
-      "a": "harmonica-star",
-      "b": "spirit-level-star",
-      "distance": 1
-    },
-    {
-      "a": "harmonica-alert",
-      "b": "spirit-level-alert",
-      "distance": 1
-    },
-    {
-      "a": "harmonica-chat",
-      "b": "spirit-level-chat",
-      "distance": 1
-    },
-    {
-      "a": "harmonica-download",
-      "b": "spirit-level-download",
-      "distance": 1
-    },
-    {
-      "a": "harmonica-pencil",
-      "b": "spirit-level-pencil",
-      "distance": 1
-    },
-    {
-      "a": "film-reel-trash",
-      "b": "hex-nut-trash",
-      "distance": 1.41
-    },
-    {
-      "a": "harmonica-trash",
-      "b": "spirit-level-trash",
-      "distance": 1
-    },
-    {
-      "a": "harmonica-calendar",
-      "b": "spirit-level-calendar",
-      "distance": 1
-    },
-    {
-      "a": "harmonica-question",
-      "b": "spirit-level-question",
-      "distance": 1
-    },
-    {
-      "a": "harmonica-upload",
-      "b": "spirit-level-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "harmonica-upload",
-      "b": "spirit-level-upload",
-      "distance": 1
-    },
-    {
-      "a": "harmonica-crown",
-      "b": "spirit-level-crown",
-      "distance": 1
-    },
-    {
-      "a": "harmonica-leaf",
-      "b": "spirit-level-pencil",
-      "distance": 1.41
-    },
-    {
-      "a": "harmonica-hourglass",
-      "b": "spirit-level-hourglass",
-      "distance": 1
-    },
-    {
-      "a": "harmonica-cursor",
-      "b": "spirit-level-cursor",
-      "distance": 1
-    },
-    {
-      "a": "harmonica-camera",
-      "b": "spirit-level-camera",
-      "distance": 1
-    },
-    {
-      "a": "harmonica-filter",
-      "b": "spirit-level-filter",
-      "distance": 1
-    },
-    {
-      "a": "harmonica-stats",
-      "b": "spirit-level-stats",
-      "distance": 1
-    },
-    {
-      "a": "harmonica-checkbox",
-      "b": "spirit-level-checkbox",
-      "distance": 1
-    },
-    {
-      "a": "garden-hose-sparkle",
-      "b": "garden-hose-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "firewood-sparkle",
-      "b": "firewood-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "leaf-autumn-sparkle",
-      "b": "leaf-autumn-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "cherry-blossom-sparkle",
-      "b": "cherry-blossom-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "clover-sparkle",
-      "b": "clover-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "bush-pencil",
-      "b": "bush-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "hay-bale-pencil",
-      "b": "hay-bale-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "crib-sparkle",
-      "b": "crib-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "diaper-sparkle",
-      "b": "diaper-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "bib-sparkle",
-      "b": "bib-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "community-sparkle",
-      "b": "community-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "user-circle-sparkle",
-      "b": "user-circle-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "couple-sparkle",
-      "b": "couple-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "person-presenting-sparkle",
-      "b": "person-presenting-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "test-tubes-sparkle",
-      "b": "test-tubes-upload",
+      "a": "rock-pencil",
+      "b": "rock-leaf",
       "distance": 1.41
     },
     {
@@ -2537,1272 +1493,184 @@
       "distance": 1
     },
     {
-      "a": "thumbs-up-sparkle",
-      "b": "thumbs-up-upload",
+      "a": "bowtie-bell",
+      "b": "infinity-bell",
       "distance": 1.41
     },
     {
-      "a": "wave-hand-sparkle",
-      "b": "wave-hand-upload",
+      "a": "bowtie-moon",
+      "b": "infinity-moon",
       "distance": 1.41
     },
     {
-      "a": "peace-hand-sparkle",
-      "b": "peace-hand-upload",
+      "a": "bowtie-trophy",
+      "b": "infinity-trophy",
       "distance": 1.41
     },
     {
-      "a": "dumbbell-trash",
-      "b": "barbell-trash",
+      "a": "glasses-bell",
+      "b": "infinity-bell",
       "distance": 1.41
     },
     {
-      "a": "scoreboard-sparkle",
-      "b": "scoreboard-upload",
+      "a": "glasses-moon",
+      "b": "infinity-moon",
       "distance": 1.41
     },
     {
-      "a": "tennis-racket-sparkle",
-      "b": "tennis-racket-upload",
+      "a": "bowtie-fire",
+      "b": "infinity-fire",
       "distance": 1.41
     },
     {
-      "a": "volleyball-sparkle",
-      "b": "volleyball-upload",
+      "a": "glasses-fire",
+      "b": "infinity-fire",
       "distance": 1.41
     },
     {
-      "a": "stadium-sparkle",
-      "b": "stadium-upload",
+      "a": "snake-sparkle",
+      "b": "snake-upload",
       "distance": 1.41
     },
     {
-      "a": "checkered-flag-sparkle",
-      "b": "checkered-flag-upload",
+      "a": "nest-sparkle",
+      "b": "nest-upload",
       "distance": 1.41
     },
     {
-      "a": "shuttlecock-sparkle",
-      "b": "shuttlecock-upload",
+      "a": "escalator-sparkle",
+      "b": "escalator-upload",
       "distance": 1.41
     },
     {
-      "a": "snooze-sparkle",
-      "b": "snooze-upload",
+      "a": "bowtie-shield",
+      "b": "infinity-shield",
       "distance": 1.41
     },
     {
-      "a": "sawhorse-sparkle",
-      "b": "sawhorse-upload",
+      "a": "bowtie-pin",
+      "b": "infinity-pin",
       "distance": 1.41
     },
     {
-      "a": "workbench-sparkle",
-      "b": "workbench-upload",
+      "a": "bowtie-user",
+      "b": "infinity-user",
       "distance": 1.41
     },
     {
-      "a": "toolbox-open-sparkle",
-      "b": "toolbox-open-upload",
+      "a": "bowtie-sparkle",
+      "b": "infinity-sparkle",
       "distance": 1.41
     },
     {
-      "a": "excavator-sparkle",
-      "b": "excavator-upload",
+      "a": "bowtie-sparkle",
+      "b": "infinity-upload",
       "distance": 1.41
     },
     {
-      "a": "gear-shift-sparkle",
-      "b": "gear-shift-upload",
+      "a": "bowtie-flag",
+      "b": "infinity-flag",
       "distance": 1.41
     },
     {
-      "a": "car-door-sparkle",
-      "b": "car-door-upload",
+      "a": "glasses-pin",
+      "b": "infinity-pin",
       "distance": 1.41
     },
     {
-      "a": "food-truck-sparkle",
-      "b": "food-truck-upload",
+      "a": "glasses-user",
+      "b": "infinity-user",
       "distance": 1.41
     },
     {
-      "a": "camper-trailer-sparkle",
-      "b": "camper-trailer-upload",
+      "a": "glasses-sparkle",
+      "b": "infinity-sparkle",
       "distance": 1.41
     },
     {
-      "a": "ferry-sparkle",
-      "b": "ferry-upload",
+      "a": "glasses-sparkle",
+      "b": "infinity-upload",
       "distance": 1.41
     },
     {
-      "a": "car-side-sparkle",
-      "b": "car-side-upload",
+      "a": "infinity-sparkle",
+      "b": "infinity-upload",
       "distance": 1.41
     },
     {
-      "a": "van-sparkle",
-      "b": "van-upload",
+      "a": "grass-sparkle",
+      "b": "grass-upload",
       "distance": 1.41
     },
     {
-      "a": "hot-tub-sparkle",
-      "b": "hot-tub-upload",
+      "a": "rock-sparkle",
+      "b": "rock-upload",
       "distance": 1.41
     },
     {
-      "a": "boarding-pass-sparkle",
-      "b": "boarding-pass-upload",
+      "a": "trowel-sparkle",
+      "b": "trowel-upload",
       "distance": 1.41
     },
     {
-      "a": "island-sparkle",
-      "b": "island-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "airport-sparkle",
-      "b": "airport-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "hotel-pencil",
-      "b": "hotel-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "barometer-sparkle",
-      "b": "barometer-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "wind-sock-sparkle",
-      "b": "wind-sock-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "flood-sparkle",
-      "b": "flood-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "doghouse-bell",
-      "b": "tunnel-bell",
-      "distance": 1.41
-    },
-    {
-      "a": "doghouse-moon",
-      "b": "tunnel-moon",
-      "distance": 1.41
-    },
-    {
-      "a": "beehive-moon",
-      "b": "hex-nut-moon",
-      "distance": 1.41
-    },
-    {
-      "a": "salt-shaker-bell",
-      "b": "milk-can-bell",
-      "distance": 1.41
-    },
-    {
-      "a": "salt-shaker-moon",
-      "b": "milk-can-moon",
-      "distance": 1.41
-    },
-    {
-      "a": "salt-shaker-trophy",
-      "b": "milk-can-trophy",
-      "distance": 1.41
-    },
-    {
-      "a": "macaron-moon",
-      "b": "thermostat-moon",
-      "distance": 1.41
-    },
-    {
-      "a": "pill-bottle-moon",
-      "b": "seed-packet-moon",
-      "distance": 1.41
-    },
-    {
-      "a": "harmonica-bell",
-      "b": "spirit-level-bell",
-      "distance": 1
-    },
-    {
-      "a": "harmonica-moon",
-      "b": "spirit-level-moon",
-      "distance": 1
-    },
-    {
-      "a": "doghouse-fire",
-      "b": "tunnel-fire",
-      "distance": 1.41
-    },
-    {
-      "a": "salt-shaker-fire",
-      "b": "milk-can-fire",
-      "distance": 1.41
-    },
-    {
-      "a": "pill-bottle-fire",
-      "b": "seed-packet-fire",
-      "distance": 1.41
-    },
-    {
-      "a": "harmonica-fire",
-      "b": "spirit-level-fire",
-      "distance": 1
-    },
-    {
-      "a": "voice-assistant-flag",
-      "b": "dollar-coin-flag",
-      "distance": 1
-    },
-    {
-      "a": "doghouse-pin",
-      "b": "tunnel-pin",
-      "distance": 1.41
-    },
-    {
-      "a": "beehive-pin",
-      "b": "hex-nut-pin",
-      "distance": 1.41
-    },
-    {
-      "a": "beehive-bell",
-      "b": "hex-nut-bell",
-      "distance": 1.41
-    },
-    {
-      "a": "beehive-flag",
-      "b": "hex-nut-flag",
-      "distance": 1.41
-    },
-    {
-      "a": "igloo-flag",
-      "b": "protractor-flag",
-      "distance": 1.41
-    },
-    {
-      "a": "igloo-upload",
-      "b": "protractor-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "desk-sparkle",
-      "b": "desk-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "milestone-sparkle",
-      "b": "milestone-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "signature-sparkle",
-      "b": "signature-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "garland-sparkle",
-      "b": "garland-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "carnival-mask-sparkle",
-      "b": "carnival-mask-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "stocking-sparkle",
-      "b": "stocking-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "discount-sparkle",
-      "b": "discount-badge-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "discount-flag",
-      "b": "discount-badge-flag",
-      "distance": 1
-    },
-    {
-      "a": "rss-sparkle",
-      "b": "rss-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "phone-call-sparkle",
-      "b": "phone-call-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "eyedropper-sparkle",
-      "b": "eyedropper-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "bezier-sparkle",
-      "b": "bezier-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "variable-sparkle",
-      "b": "variable-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "ram-flag",
-      "b": "container-flag",
-      "distance": 1.41
-    },
-    {
-      "a": "bluetooth-sparkle",
-      "b": "bluetooth-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "smiley-sparkle",
-      "b": "smiley-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "gas-cylinder-sparkle",
-      "b": "gas-cylinder-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "salt-shaker-pin",
-      "b": "milk-can-pin",
-      "distance": 1.41
-    },
-    {
-      "a": "salt-shaker-user",
-      "b": "milk-can-user",
-      "distance": 1.41
-    },
-    {
-      "a": "macaron-pin",
-      "b": "thermostat-pin",
-      "distance": 1.41
-    },
-    {
-      "a": "macaron-bell",
-      "b": "thermostat-bell",
-      "distance": 1.41
-    },
-    {
-      "a": "salt-shaker-sparkle",
-      "b": "milk-can-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "salt-shaker-sparkle",
-      "b": "milk-can-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "salt-shaker-flag",
-      "b": "milk-can-flag",
-      "distance": 1.41
-    },
-    {
-      "a": "mug-sparkle",
-      "b": "mug-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "wine-glass-sparkle",
-      "b": "wine-glass-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "tomato-sparkle",
-      "b": "tomato-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "serving-cloche-sparkle",
-      "b": "serving-cloche-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "croissant-sparkle",
-      "b": "croissant-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "eggplant-sparkle",
-      "b": "eggplant-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "pancakes-sparkle",
-      "b": "pancakes-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "pie-sparkle",
-      "b": "pie-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "macaron-fire",
-      "b": "thermostat-fire",
-      "distance": 1.41
-    },
-    {
-      "a": "cutting-board-sparkle",
-      "b": "cutting-board-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "tea-bag-sparkle",
-      "b": "tea-bag-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "baguette-sparkle",
-      "b": "baguette-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "milk-can-sparkle",
-      "b": "milk-can-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "macaron-flag",
-      "b": "thermostat-flag",
-      "distance": 1.41
-    },
-    {
-      "a": "cinnamon-roll-flag",
-      "b": "fossil-flag",
-      "distance": 0
-    },
-    {
-      "a": "pill-bottle-pin",
-      "b": "seed-packet-pin",
-      "distance": 1.41
-    },
-    {
-      "a": "pill-bottle-bell",
-      "b": "seed-packet-bell",
-      "distance": 1.41
-    },
-    {
-      "a": "pill-bottle-flag",
-      "b": "seed-packet-flag",
-      "distance": 1.41
-    },
-    {
-      "a": "bathroom-scale-sparkle",
-      "b": "bathroom-scale-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "scalpel-sparkle",
-      "b": "scalpel-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "mask-medical-sparkle",
-      "b": "mask-medical-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "pharmacy-cross-sparkle",
-      "b": "pharmacy-cross-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "ambulance-sparkle",
-      "b": "ambulance-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "lamp-sparkle",
-      "b": "floor-lamp-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "lamp-flag",
-      "b": "floor-lamp-flag",
-      "distance": 1.41
-    },
-    {
-      "a": "sink-sparkle",
-      "b": "sink-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "plunger-sparkle",
-      "b": "plunger-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "sponge-sparkle",
-      "b": "sponge-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "doormat-sparkle",
-      "b": "doormat-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "toggle-switch-sparkle",
-      "b": "toggle-switch-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "checkbox-list-sparkle",
-      "b": "checkbox-list-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "drumsticks-sparkle",
-      "b": "drumsticks-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "trumpet-sparkle",
-      "b": "trumpet-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "harmonica-pin",
-      "b": "spirit-level-pin",
-      "distance": 1
-    },
-    {
-      "a": "harmonica-user",
-      "b": "spirit-level-user",
-      "distance": 1
-    },
-    {
-      "a": "harmonica-sparkle",
-      "b": "harmonica-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "harmonica-sparkle",
-      "b": "spirit-level-sparkle",
-      "distance": 1
-    },
-    {
-      "a": "film-reel-flag",
-      "b": "hex-nut-flag",
-      "distance": 1.41
-    },
-    {
-      "a": "harmonica-flag",
-      "b": "spirit-level-flag",
-      "distance": 1
-    },
-    {
-      "a": "harmonica-trophy",
-      "b": "spirit-level-trophy",
-      "distance": 1
-    },
-    {
-      "a": "birdbath-sparkle",
-      "b": "birdbath-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "mountain-sun-sparkle",
-      "b": "mountain-sun-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "desert-sparkle",
-      "b": "desert-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "cave-sparkle",
-      "b": "cave-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "wheat-sparkle",
-      "b": "wheat-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "rake-sparkle",
-      "b": "rake-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "bush-sparkle",
-      "b": "bush-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "dna-helix-sparkle",
-      "b": "dna-helix-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "dumbbell-sparkle",
-      "b": "barbell-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "dumbbell-flag",
-      "b": "barbell-flag",
-      "distance": 1.41
-    },
-    {
-      "a": "fishing-hook-sparkle",
-      "b": "fishing-hook-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "swimmer-sparkle",
-      "b": "swimmer-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "bike-helmet-sparkle",
-      "b": "bike-helmet-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "ice-skate-sparkle",
-      "b": "ice-skate-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "boxing-glove-sparkle",
-      "b": "boxing-glove-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "highlighter-sparkle",
-      "b": "highlighter-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "typography-sparkle",
-      "b": "typography-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "quote-sparkle",
-      "b": "quote-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "clock-history-sparkle",
-      "b": "clock-history-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "lawn-mower-sparkle",
-      "b": "lawn-mower-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "chisel-sparkle",
-      "b": "chisel-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "ladder-step-sparkle",
-      "b": "ladder-step-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "bulldozer-sparkle",
-      "b": "bulldozer-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "drill-sparkle",
-      "b": "drill-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "glue-stick-sparkle",
-      "b": "glue-stick-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "pitchfork-sparkle",
-      "b": "pitchfork-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "electric-scooter-sparkle",
-      "b": "electric-scooter-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "car-battery-sparkle",
-      "b": "car-battery-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "speedometer-sparkle",
-      "b": "speedometer-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "license-plate-sparkle",
-      "b": "license-plate-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "pickup-truck-sparkle",
-      "b": "pickup-truck-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "motorbike-sparkle",
-      "b": "motorbike-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "airship-sparkle",
-      "b": "airship-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "parking-meter-sparkle",
-      "b": "parking-meter-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "water-canteen-sparkle",
-      "b": "water-canteen-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "airplane-seat-sparkle",
-      "b": "airplane-seat-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "fog-sparkle",
-      "b": "fog-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "earthquake-sparkle",
-      "b": "earthquake-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "thunderstorm-sparkle",
-      "b": "thunderstorm-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "heat-wave-sparkle",
-      "b": "heat-wave-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "video-doorbell-flag",
-      "b": "do-not-disturb-flag",
-      "distance": 1.41
-    },
-    {
-      "a": "blood-drop-sparkle",
-      "b": "blood-drop-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "baby-sparkle",
-      "b": "baby-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "wildfire-sparkle",
-      "b": "wildfire-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "meditation-sparkle",
-      "b": "meditation-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "magic-sparkles-sparkle",
-      "b": "magic-sparkles-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "person-raising-hand-sparkle",
-      "b": "person-raising-hand-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "crop-sparkle",
-      "b": "crop-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "firecracker-sparkle",
-      "b": "firecracker-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "git-merge-sparkle",
-      "b": "git-merge-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "pull-request-sparkle",
-      "b": "pull-request-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "elderly-sparkle",
-      "b": "elderly-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "hotel-key-sparkle",
-      "b": "hotel-key-upload",
+      "a": "bus-stop-sparkle",
+      "b": "bus-stop-upload",
       "distance": 1.41
     }
   ],
   "dropped": [
-    "cursor-click-trash",
-    "cursor-click-flag",
-    "cursor-click-upload",
-    "speaking-head-trash",
-    "speaking-head-flag",
-    "speaking-head-upload",
-    "moon-stars-trash",
-    "moon-stars-flag",
-    "moon-stars-upload",
-    "microphone-podcast-upload",
-    "pregnant-upload",
-    "neural-net-upload",
-    "chip-ai-upload",
-    "voice-assistant-trash",
-    "voice-assistant-upload",
-    "tunnel-search",
-    "tunnel-clock",
-    "tunnel-shield",
-    "tunnel-gear",
-    "tunnel-heart",
-    "tunnel-star",
-    "tunnel-alert",
-    "tunnel-user",
-    "tunnel-cloud",
-    "tunnel-chat",
-    "tunnel-download",
-    "tunnel-pencil",
-    "tunnel-sparkle",
-    "tunnel-calendar",
-    "tunnel-upload",
-    "tunnel-question",
-    "tunnel-crown",
-    "tunnel-hourglass",
-    "tunnel-camera",
-    "tunnel-filter",
-    "tunnel-stats",
-    "tunnel-checkbox",
-    "beehive-search",
-    "beehive-clock",
-    "beehive-shield",
-    "beehive-gear",
-    "beehive-heart",
-    "beehive-star",
-    "beehive-cloud",
-    "beehive-leaf",
-    "beehive-upload",
-    "beehive-sparkle",
-    "beehive-trash",
-    "beehive-trophy",
-    "blueprint-upload",
-    "igloo-trash",
-    "paper-shredder-upload",
-    "kanban-upload",
-    "projector-screen-upload",
-    "business-card-upload",
-    "workflow-upload",
-    "roadmap-upload",
-    "wedding-rings-upload",
-    "easter-egg-upload",
-    "carnival-mask-leaf",
-    "stocking-leaf",
-    "discount-badge-trash",
-    "coupon-upload",
-    "online-shop-upload",
-    "receipt-long-upload",
-    "price-up-upload",
-    "loyalty-card-upload",
-    "radio-tower-upload",
-    "telephone-old-upload",
-    "fax-upload",
-    "mailbox-post-upload",
-    "at-sign-upload",
-    "video-call-upload",
-    "voice-message-upload",
-    "monitor-chart-upload",
-    "layout-grid-upload",
-    "shapes-upload",
-    "api-upload",
-    "laptop-code-upload",
-    "container-trash",
-    "phone-vibrate-upload",
-    "nfc-upload",
-    "printer-3d-leaf",
-    "printer-3d-upload",
-    "book-open-upload",
-    "language-upload",
-    "quiz-upload",
-    "abacus-leaf",
-    "abacus-upload",
-    "smiley-leaf",
-    "folder-open-upload",
-    "tip-jar-upload",
-    "token-coin-upload",
-    "token-coin-trash",
-    "milk-can-search",
-    "milk-can-clock",
-    "milk-can-shield",
-    "milk-can-gear",
-    "milk-can-bolt",
-    "milk-can-heart",
-    "milk-can-star",
-    "milk-can-cloud",
-    "milk-can-chat",
-    "milk-can-download",
-    "milk-can-pencil",
-    "thermostat-search",
-    "thermostat-clock",
-    "thermostat-shield",
-    "thermostat-gear",
-    "thermostat-bolt",
-    "thermostat-heart",
-    "thermostat-star",
-    "thermostat-alert",
-    "thermostat-user",
-    "thermostat-cloud",
-    "thermostat-chat",
-    "thermostat-download",
-    "thermostat-pencil",
-    "thermostat-leaf",
-    "milk-can-calendar",
-    "milk-can-upload",
-    "milk-can-bookmark",
-    "thermostat-bookmark",
-    "milk-can-question",
-    "thermostat-question",
-    "thermostat-calendar",
-    "french-press-upload",
-    "lemon-slice-upload",
-    "spaghetti-upload",
-    "milkshake-upload",
-    "macaron-upload",
-    "thermostat-sparkle",
-    "thermostat-upload",
-    "kebab-upload",
-    "milk-can-crown",
-    "thermostat-crown",
-    "milk-can-leaf",
-    "milk-can-hourglass",
-    "thermostat-hourglass",
-    "thermostat-trophy",
-    "milk-can-cursor",
-    "thermostat-cursor",
-    "milk-can-camera",
-    "thermostat-camera",
-    "milk-can-filter",
-    "milk-can-stats",
-    "thermostat-stats",
-    "thermostat-filter",
-    "milk-can-checkbox",
-    "thermostat-checkbox",
-    "cutting-board-leaf",
-    "steak-leaf",
-    "bento-upload",
-    "thermostat-trash",
-    "fossil-trash",
-    "cinnamon-roll-upload",
-    "building-blocks-upload",
-    "stacking-rings-upload",
-    "seed-packet-search",
-    "seed-packet-clock",
-    "seed-packet-shield",
-    "seed-packet-gear",
-    "seed-packet-bolt",
-    "seed-packet-heart",
-    "seed-packet-star",
-    "seed-packet-user",
-    "seed-packet-cloud",
-    "seed-packet-chat",
-    "seed-packet-download",
-    "seed-packet-pencil",
-    "seed-packet-sparkle",
-    "seed-packet-trash",
-    "seed-packet-calendar",
-    "seed-packet-upload",
-    "seed-packet-bookmark",
-    "seed-packet-question",
-    "massage-stone-upload",
-    "pill-blister-upload",
-    "iv-drip-upload",
-    "virus-upload",
-    "hospital-bed-upload",
-    "seed-packet-crown",
-    "seed-packet-leaf",
-    "seed-packet-trophy",
-    "seed-packet-cursor",
-    "seed-packet-camera",
-    "seed-packet-filter",
-    "seed-packet-stats",
-    "seed-packet-checkbox",
-    "floor-lamp-trash",
-    "spray-bottle-upload",
-    "video-doorbell-upload",
-    "do-not-disturb-upload",
-    "rice-cooker-upload",
-    "for-sale-sign-upload",
-    "moving-box-upload",
-    "nightstand-upload",
-    "armchair-upload",
-    "bar-stool-upload",
-    "house-number-upload",
-    "picket-fence-upload",
-    "blinds-leaf",
-    "vacuum-leaf",
-    "doormat-leaf",
-    "light-switch-upload",
-    "layout-sidebar-upload",
-    "eye-closed-leaf",
-    "return-box-upload",
-    "route-upload",
-    "xylophone-upload",
-    "music-stand-upload",
-    "cd-upload",
-    "film-reel-upload",
-    "camera-action-upload",
-    "harmonica-search",
-    "harmonica-clock",
-    "harmonica-gear",
-    "harmonica-bolt",
-    "harmonica-heart",
-    "harmonica-star",
-    "harmonica-alert",
-    "harmonica-chat",
-    "harmonica-download",
-    "harmonica-pencil",
-    "film-reel-trash",
-    "harmonica-trash",
-    "harmonica-calendar",
-    "harmonica-question",
-    "harmonica-upload",
-    "harmonica-crown",
-    "harmonica-leaf",
-    "harmonica-hourglass",
-    "harmonica-cursor",
-    "harmonica-camera",
-    "harmonica-filter",
-    "harmonica-stats",
-    "harmonica-checkbox",
-    "garden-hose-upload",
-    "firewood-upload",
-    "leaf-autumn-upload",
-    "cherry-blossom-upload",
-    "clover-upload",
-    "bush-leaf",
-    "hay-bale-leaf",
-    "crib-upload",
-    "diaper-upload",
-    "bib-upload",
-    "community-upload",
-    "user-circle-upload",
-    "couple-upload",
-    "person-presenting-upload",
-    "test-tubes-upload",
-    "thumbs-up-upload",
-    "wave-hand-upload",
-    "peace-hand-upload",
-    "barbell-trash",
-    "scoreboard-upload",
-    "tennis-racket-upload",
-    "volleyball-upload",
-    "stadium-upload",
-    "checkered-flag-upload",
-    "shuttlecock-upload",
-    "snooze-upload",
-    "sawhorse-upload",
-    "workbench-upload",
-    "toolbox-open-upload",
-    "excavator-upload",
-    "gear-shift-upload",
-    "car-door-upload",
-    "food-truck-upload",
-    "camper-trailer-upload",
-    "ferry-upload",
-    "car-side-upload",
-    "van-upload",
-    "hot-tub-upload",
-    "boarding-pass-upload",
-    "island-upload",
-    "airport-upload",
-    "hotel-leaf",
-    "barometer-upload",
-    "wind-sock-upload",
-    "flood-upload",
-    "tunnel-bell",
-    "tunnel-moon",
-    "beehive-moon",
-    "milk-can-bell",
-    "milk-can-moon",
-    "milk-can-trophy",
-    "thermostat-moon",
-    "seed-packet-moon",
-    "harmonica-bell",
-    "harmonica-moon",
-    "tunnel-fire",
-    "milk-can-fire",
-    "seed-packet-fire",
-    "harmonica-fire",
-    "voice-assistant-flag",
-    "tunnel-pin",
-    "beehive-pin",
-    "beehive-bell",
-    "beehive-flag",
-    "igloo-flag",
-    "igloo-upload",
-    "desk-upload",
-    "milestone-upload",
-    "signature-upload",
-    "garland-upload",
-    "carnival-mask-upload",
-    "stocking-upload",
-    "discount-badge-upload",
-    "discount-badge-flag",
-    "rss-upload",
-    "phone-call-upload",
-    "eyedropper-upload",
-    "bezier-upload",
-    "variable-upload",
-    "container-flag",
-    "bluetooth-upload",
-    "smiley-upload",
-    "gas-cylinder-upload",
-    "milk-can-pin",
-    "milk-can-user",
-    "thermostat-pin",
-    "thermostat-bell",
-    "milk-can-sparkle",
-    "milk-can-flag",
-    "mug-upload",
-    "wine-glass-upload",
-    "tomato-upload",
-    "serving-cloche-upload",
-    "croissant-upload",
-    "eggplant-upload",
-    "pancakes-upload",
-    "pie-upload",
-    "thermostat-fire",
-    "cutting-board-upload",
-    "tea-bag-upload",
-    "baguette-upload",
-    "thermostat-flag",
-    "fossil-flag",
-    "seed-packet-pin",
-    "seed-packet-bell",
-    "seed-packet-flag",
-    "bathroom-scale-upload",
-    "scalpel-upload",
-    "mask-medical-upload",
-    "pharmacy-cross-upload",
-    "ambulance-upload",
-    "floor-lamp-upload",
-    "floor-lamp-flag",
-    "sink-upload",
-    "plunger-upload",
-    "sponge-upload",
-    "doormat-upload",
-    "toggle-switch-upload",
-    "checkbox-list-upload",
-    "drumsticks-upload",
-    "trumpet-upload",
-    "harmonica-pin",
-    "harmonica-user",
-    "harmonica-sparkle",
-    "film-reel-flag",
-    "harmonica-flag",
-    "harmonica-trophy",
-    "birdbath-upload",
-    "mountain-sun-upload",
-    "desert-upload",
-    "cave-upload",
-    "wheat-upload",
-    "rake-upload",
-    "bush-upload",
-    "dna-helix-upload",
-    "barbell-upload",
-    "barbell-flag",
-    "fishing-hook-upload",
-    "swimmer-upload",
-    "bike-helmet-upload",
-    "ice-skate-upload",
-    "boxing-glove-upload",
-    "highlighter-upload",
-    "typography-upload",
-    "quote-upload",
-    "clock-history-upload",
-    "lawn-mower-upload",
-    "chisel-upload",
-    "ladder-step-upload",
-    "bulldozer-upload",
-    "drill-upload",
-    "glue-stick-upload",
-    "pitchfork-upload",
-    "electric-scooter-upload",
-    "car-battery-upload",
-    "speedometer-upload",
-    "license-plate-upload",
-    "pickup-truck-upload",
-    "motorbike-upload",
-    "airship-upload",
-    "parking-meter-upload",
-    "water-canteen-upload",
-    "airplane-seat-upload",
-    "fog-upload",
-    "earthquake-upload",
-    "thunderstorm-upload",
-    "heat-wave-upload",
-    "do-not-disturb-flag",
-    "blood-drop-upload",
-    "baby-upload",
-    "wildfire-upload",
-    "meditation-upload",
-    "magic-sparkles-upload",
-    "person-raising-hand-upload",
-    "crop-upload",
-    "firecracker-upload",
-    "git-merge-upload",
-    "pull-request-upload",
-    "elderly-upload",
-    "hotel-key-upload"
+    "nest-leaf",
+    "bear-upload",
+    "elevator-leaf",
+    "infinity-search",
+    "infinity-clock",
+    "infinity-gear",
+    "infinity-bolt",
+    "infinity-heart",
+    "infinity-star",
+    "infinity-alert",
+    "infinity-cloud",
+    "infinity-chat",
+    "infinity-download",
+    "infinity-pencil",
+    "infinity-leaf",
+    "infinity-trash",
+    "infinity-calendar",
+    "infinity-bookmark",
+    "infinity-question",
+    "infinity-crown",
+    "infinity-hourglass",
+    "infinity-cursor",
+    "infinity-camera",
+    "infinity-filter",
+    "infinity-stats",
+    "infinity-checkbox",
+    "infinity-upload",
+    "rock-leaf",
+    "infinity-bell",
+    "infinity-moon",
+    "infinity-trophy",
+    "infinity-fire",
+    "snake-upload",
+    "nest-upload",
+    "escalator-upload",
+    "infinity-shield",
+    "infinity-pin",
+    "infinity-user",
+    "infinity-sparkle",
+    "infinity-flag",
+    "grass-upload",
+    "rock-upload",
+    "trowel-upload",
+    "bus-stop-upload"
   ],
   "byCategory": {
     "accessibility": 53,
     "actions": 44,
     "ai": 278,
-    "animals": 1251,
+    "animals": 1379,
     "arrows": 121,
-    "buildings": 844,
+    "buildings": 908,
     "business": 988,
     "celebration": 856,
     "commerce": 923,
@@ -3811,21 +1679,21 @@
     "design": 716,
     "development": 518,
     "devices": 1136,
-    "education": 713,
+    "education": 682,
     "emoji": 72,
     "energy": 256,
     "fashion": 1021,
     "files": 383,
     "finance": 763,
-    "food": 3557,
-    "gaming": 763,
+    "food": 3492,
+    "gaming": 796,
     "health": 1127,
-    "home": 2189,
+    "home": 2158,
     "interface": 890,
-    "logistics": 363,
+    "logistics": 396,
     "maps": 189,
     "media": 1165,
-    "nature": 1325,
+    "nature": 1356,
     "navigation": 35,
     "notifications": 50,
     "people": 698,
@@ -3835,8 +1703,8 @@
     "sports": 1344,
     "text": 334,
     "time": 194,
-    "tools": 1124,
-    "transport": 1248,
+    "tools": 1156,
+    "transport": 1280,
     "travel": 1118,
     "weather": 550
   }
