@@ -1,926 +1,3932 @@
 {
-  "generatedAt": "2026-11-12T16:56:20.818Z",
-  "icons": 51112,
-  "files": 255560,
+  "generatedAt": "2026-11-12T17:01:42.083Z",
+  "icons": 51927,
+  "files": 259635,
   "errors": [],
   "warnings": [
-    "bongo-camera: grid: outside the 3-21 live area (3.44, 6.60, 22.00, 20.50)",
-    "gong-camera: grid: outside the 3-21 live area (3.72, 4.08, 22.00, 20.50)",
-    "synthesizer-camera: grid: outside the 3-21 live area (3.36, 5.16, 22.00, 20.50)",
-    "knob-camera: grid: outside the 3-21 live area (5.16, 5.16, 22.00, 20.50)",
-    "fast-forward-camera: grid: outside the 3-21 live area (3.72, 6.14, 22.00, 20.50)",
-    "disc-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
-    "cast-camera: grid: outside the 3-21 live area (3.36, 3.72, 22.00, 20.50)",
-    "slow-motion-camera: grid: outside the 3-21 live area (8.04, 5.47, 22.00, 20.50)",
-    "djembe-camera: grid: outside the 3-21 live area (5.16, 3.36, 22.00, 20.50)",
-    "sharp-sign-camera: grid: outside the 3-21 live area (4.80, 4.08, 22.00, 20.50)",
-    "flat-sign-camera: grid: outside the 3-21 live area (6.60, 3.36, 22.00, 20.50)",
-    "natural-sign-camera: grid: outside the 3-21 live area (6.96, 3.72, 22.00, 20.50)",
-    "bass-clef-camera: grid: outside the 3-21 live area (4.30, 3.72, 22.00, 20.50)",
-    "playback-speed-camera: grid: outside the 3-21 live area (4.08, 6.96, 22.00, 20.50)",
-    "repeat-one-camera: grid: outside the 3-21 live area (4.80, 4.44, 22.00, 20.50)",
-    "podcast-camera: grid: outside the 3-21 live area (4.08, 3.36, 22.00, 20.50)",
-    "album-camera: grid: outside the 3-21 live area (3.00, 3.72, 22.00, 20.50)",
-    "screen-record-camera: grid: outside the 3-21 live area (3.00, 3.72, 22.00, 20.50)",
-    "piano-keys-camera: grid: outside the 3-21 live area (3.00, 4.44, 22.00, 20.50)",
-    "subtitles-camera: grid: outside the 3-21 live area (3.36, 4.44, 22.00, 20.50)",
-    "aperture-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
-    "tv-retro-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
-    "maracas-camera: grid: outside the 3-21 live area (3.60, 5.07, 22.00, 20.50)",
-    "play-camera: grid: outside the 3-21 live area (6.60, 4.99, 22.00, 20.50)",
-    "pause-camera: grid: outside the 3-21 live area (5.52, 4.44, 22.00, 20.50)",
-    "stop-camera: grid: outside the 3-21 live area (4.80, 4.80, 22.00, 20.50)",
-    "record-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
-    "skip-forward-camera: grid: outside the 3-21 live area (4.44, 5.61, 22.00, 20.50)",
-    "images-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
-    "volume-camera: grid: outside the 3-21 live area (3.72, 4.22, 22.00, 20.50)",
-    "volume-low-camera: grid: outside the 3-21 live area (3.72, 4.22, 22.00, 20.50)",
-    "playlist-camera: grid: outside the 3-21 live area (3.72, 5.52, 22.00, 20.50)",
-    "mic-studio-camera: grid: outside the 3-21 live area (5.16, 3.00, 22.00, 20.50)",
-    "scarecrow-camera: grid: outside the 3-21 live area (3.36, 3.00, 22.00, 20.50)",
-    "tsunami-camera: grid: outside the 3-21 live area (3.36, 4.80, 22.00, 20.50)",
-    "rose-camera: grid: outside the 3-21 live area (5.88, 4.92, 22.00, 20.50)",
-    "fern-camera: grid: outside the 3-21 live area (4.44, 3.36, 22.00, 20.50)",
-    "terrarium-camera: grid: outside the 3-21 live area (3.36, 4.44, 22.00, 20.50)",
-    "compost-bin-camera: grid: outside the 3-21 live area (3.72, 4.44, 22.00, 20.50)",
-    "bonsai-camera: grid: outside the 3-21 live area (4.30, 3.43, 22.00, 20.50)",
-    "iceberg-camera: grid: outside the 3-21 live area (3.00, 3.60, 22.00, 20.50)",
-    "hills-camera: grid: outside the 3-21 live area (3.36, 8.73, 22.00, 20.50)",
-    "bird-feeder-camera: grid: outside the 3-21 live area (4.41, 3.00, 22.00, 20.50)",
-    "dandelion-camera: grid: outside the 3-21 live area (5.88, 3.36, 22.00, 20.50)",
-    "lavender-camera: grid: outside the 3-21 live area (6.24, 3.00, 22.00, 20.50)",
-    "kelp-camera: grid: outside the 3-21 live area (6.10, 3.36, 22.00, 20.50)",
-    "herb-camera: grid: outside the 3-21 live area (5.16, 4.80, 22.00, 20.50)",
-    "log-pile-camera: grid: outside the 3-21 live area (3.72, 5.16, 22.00, 20.50)",
-    "spider-web-camera: grid: outside the 3-21 live area (3.00, 3.00, 22.00, 20.50)",
-    "pine-tree-camera: grid: outside the 3-21 live area (4.60, 3.17, 22.00, 20.50)"
+    "seedling-camera: grid: outside the 3-21 live area (4.44, 4.44, 22.00, 20.50)",
+    "cocoon-camera: grid: outside the 3-21 live area (5.16, 3.72, 22.00, 20.50)",
+    "honeycomb-camera: grid: outside the 3-21 live area (3.96, 4.26, 22.00, 20.50)",
+    "river-camera: grid: outside the 3-21 live area (5.88, 3.36, 22.00, 20.50)",
+    "cairn-camera: grid: outside the 3-21 live area (4.08, 4.80, 22.00, 20.50)",
+    "wood-log-camera: grid: outside the 3-21 live area (3.36, 6.24, 22.00, 20.50)",
+    "tree-stump-camera: grid: outside the 3-21 live area (3.36, 5.88, 22.00, 20.50)",
+    "bamboo-camera: grid: outside the 3-21 live area (5.52, 3.36, 22.00, 20.50)",
+    "sunflower-camera: grid: outside the 3-21 live area (5.36, 3.20, 22.00, 20.50)",
+    "succulent-camera: grid: outside the 3-21 live area (5.16, 5.88, 22.00, 20.50)",
+    "coral-camera: grid: outside the 3-21 live area (4.80, 4.08, 22.00, 20.50)",
+    "potted-plant-camera: grid: outside the 3-21 live area (5.88, 3.72, 22.00, 20.50)",
+    "avatar-group-camera: grid: outside the 3-21 live area (3.00, 6.60, 22.00, 20.50)",
+    "gender-neutral-camera: grid: outside the 3-21 live area (5.52, 3.36, 22.00, 20.50)",
+    "sippy-cup-camera: grid: outside the 3-21 live area (4.80, 3.36, 22.00, 20.50)",
+    "baby-monitor-camera: grid: outside the 3-21 live area (5.16, 3.72, 22.00, 20.50)",
+    "user-tie-camera: grid: outside the 3-21 live area (4.79, 4.08, 22.00, 20.50)",
+    "user-headset-camera: grid: outside the 3-21 live area (4.79, 2.64, 22.00, 20.50)",
+    "family-camera: grid: outside the 3-21 live area (4.08, 3.50, 22.00, 20.50)",
+    "user-voice-camera: grid: outside the 3-21 live area (3.36, 4.08, 22.00, 20.50)",
+    "walking-camera: grid: outside the 3-21 live area (6.60, 2.78, 22.00, 20.50)",
+    "hand-raised-camera: grid: outside the 3-21 live area (4.32, 3.54, 22.00, 20.50)",
+    "hand-wave-camera: grid: outside the 3-21 live area (4.31, 3.81, 22.00, 20.50)",
+    "hand-grab-camera: grid: outside the 3-21 live area (4.06, 5.88, 22.00, 20.50)",
+    "student-camera: grid: outside the 3-21 live area (4.70, 3.48, 22.00, 20.50)",
+    "user-edit-camera: grid: outside the 3-21 live area (2.99, 4.08, 22.00, 20.50)",
+    "user-group-camera: grid: outside the 3-21 live area (2.71, 4.58, 22.00, 20.50)",
+    "oscilloscope-camera: grid: outside the 3-21 live area (3.00, 4.08, 22.00, 20.50)",
+    "weather-balloon-camera: grid: outside the 3-21 live area (5.52, 3.00, 22.00, 20.50)",
+    "lunar-lander-camera: grid: outside the 3-21 live area (3.36, 4.08, 22.00, 20.50)",
+    "mars-rover-camera: grid: outside the 3-21 live area (3.72, 3.72, 22.00, 20.50)",
+    "pipette-camera: grid: outside the 3-21 live area (7.68, 3.00, 22.00, 20.50)",
+    "test-tube-rack-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
+    "spring-camera: grid: outside the 3-21 live area (6.60, 3.36, 22.00, 20.50)",
+    "pulley-camera: grid: outside the 3-21 live area (7.32, 3.00, 22.00, 20.50)",
+    "pendulum-camera: grid: outside the 3-21 live area (4.44, 3.36, 22.00, 20.50)",
+    "lens-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
+    "crystal-camera: grid: outside the 3-21 live area (5.07, 3.52, 22.00, 20.50)",
+    "saturn-camera: grid: outside the 3-21 live area (3.35, 5.52, 22.00, 20.50)",
+    "orbit-camera: grid: outside the 3-21 live area (3.72, 3.72, 22.00, 20.50)",
+    "periscope-camera: grid: outside the 3-21 live area (4.08, 3.36, 22.00, 20.50)",
+    "round-bottom-flask-camera: grid: outside the 3-21 live area (5.16, 3.36, 22.00, 20.50)",
+    "graduated-cylinder-camera: grid: outside the 3-21 live area (5.16, 3.36, 22.00, 20.50)",
+    "periodic-table-camera: grid: outside the 3-21 live area (3.36, 3.72, 22.00, 20.50)",
+    "flammable-camera: grid: outside the 3-21 live area (3.38, 3.38, 22.00, 20.50)",
+    "explosive-camera: grid: outside the 3-21 live area (3.38, 3.38, 22.00, 20.50)",
+    "toxic-camera: grid: outside the 3-21 live area (3.38, 3.38, 22.00, 20.50)",
+    "oxidizer-camera: grid: outside the 3-21 live area (3.38, 3.38, 22.00, 20.50)",
+    "corrosive-camera: grid: outside the 3-21 live area (3.38, 3.38, 22.00, 20.50)",
+    "health-hazard-camera: grid: outside the 3-21 live area (3.38, 3.38, 22.00, 20.50)"
   ],
   "duplicates": [
     {
-      "a": "mic-studio-sparkle",
-      "b": "mic-studio-upload",
+      "a": "weather-balloon-sparkle",
+      "b": "weather-balloon-upload",
       "distance": 1.41
     },
     {
-      "a": "mixer-board-search",
-      "b": "synthesizer-search",
+      "a": "pipette-sparkle",
+      "b": "pipette-upload",
       "distance": 1.41
     },
     {
-      "a": "mixer-board-shield",
-      "b": "synthesizer-shield",
+      "a": "lemon-slice-search",
+      "b": "avatar-group-search",
       "distance": 1.41
     },
     {
-      "a": "mixer-board-chat",
-      "b": "synthesizer-chat",
+      "a": "lemon-slice-clock",
+      "b": "avatar-group-clock",
       "distance": 1.41
     },
     {
-      "a": "mixer-board-download",
-      "b": "synthesizer-download",
+      "a": "lemon-slice-shield",
+      "b": "avatar-group-shield",
       "distance": 1.41
     },
     {
-      "a": "mixer-board-calendar",
-      "b": "synthesizer-calendar",
+      "a": "lemon-slice-gear",
+      "b": "avatar-group-gear",
       "distance": 1.41
     },
     {
-      "a": "mixer-board-question",
-      "b": "synthesizer-question",
+      "a": "lemon-slice-bolt",
+      "b": "avatar-group-bolt",
       "distance": 1.41
     },
     {
-      "a": "mixer-board-trophy",
-      "b": "synthesizer-trophy",
+      "a": "lemon-slice-heart",
+      "b": "avatar-group-heart",
       "distance": 1.41
     },
     {
-      "a": "mixer-board-hourglass",
-      "b": "synthesizer-hourglass",
+      "a": "lemon-slice-star",
+      "b": "avatar-group-star",
       "distance": 1.41
     },
     {
-      "a": "mixer-board-cursor",
-      "b": "synthesizer-cursor",
+      "a": "lemon-slice-user",
+      "b": "avatar-group-user",
       "distance": 1.41
     },
     {
-      "a": "mixer-board-filter",
-      "b": "synthesizer-filter",
+      "a": "lemon-slice-cloud",
+      "b": "avatar-group-cloud",
       "distance": 1.41
     },
     {
-      "a": "mixer-board-checkbox",
-      "b": "synthesizer-checkbox",
+      "a": "lemon-slice-chat",
+      "b": "avatar-group-chat",
       "distance": 1.41
     },
     {
-      "a": "video-lesson-search",
-      "b": "screen-record-search",
+      "a": "lemon-slice-download",
+      "b": "avatar-group-download",
+      "distance": 1.41
+    },
+    {
+      "a": "lemon-slice-pencil",
+      "b": "avatar-group-pencil",
+      "distance": 1.41
+    },
+    {
+      "a": "lemon-slice-bookmark",
+      "b": "avatar-group-bookmark",
+      "distance": 1.41
+    },
+    {
+      "a": "lemon-slice-question",
+      "b": "avatar-group-question",
+      "distance": 1.41
+    },
+    {
+      "a": "lemon-slice-calendar",
+      "b": "avatar-group-calendar",
+      "distance": 1.41
+    },
+    {
+      "a": "lemon-slice-sparkle",
+      "b": "avatar-group-sparkle",
+      "distance": 1.41
+    },
+    {
+      "a": "lemon-slice-sparkle",
+      "b": "avatar-group-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "lemon-slice-crown",
+      "b": "avatar-group-crown",
+      "distance": 1.41
+    },
+    {
+      "a": "lemon-slice-hourglass",
+      "b": "avatar-group-hourglass",
+      "distance": 1.41
+    },
+    {
+      "a": "lemon-slice-trophy",
+      "b": "avatar-group-trophy",
+      "distance": 1.41
+    },
+    {
+      "a": "lemon-slice-leaf",
+      "b": "avatar-group-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "lemon-slice-cursor",
+      "b": "avatar-group-cursor",
+      "distance": 1.41
+    },
+    {
+      "a": "lemon-slice-camera",
+      "b": "avatar-group-camera",
+      "distance": 1.41
+    },
+    {
+      "a": "lemon-slice-filter",
+      "b": "avatar-group-filter",
+      "distance": 1.41
+    },
+    {
+      "a": "lemon-slice-stats",
+      "b": "avatar-group-stats",
+      "distance": 1.41
+    },
+    {
+      "a": "lemon-slice-checkbox",
+      "b": "avatar-group-checkbox",
+      "distance": 1.41
+    },
+    {
+      "a": "lemon-slice-trash",
+      "b": "avatar-group-trash",
+      "distance": 1.41
+    },
+    {
+      "a": "poker-chip-bolt",
+      "b": "orbit-bolt",
+      "distance": 1.41
+    },
+    {
+      "a": "poker-chip-star",
+      "b": "orbit-star",
+      "distance": 1.41
+    },
+    {
+      "a": "plant-pot-search",
+      "b": "potted-plant-search",
+      "distance": 1.41
+    },
+    {
+      "a": "plant-pot-clock",
+      "b": "potted-plant-clock",
+      "distance": 1.41
+    },
+    {
+      "a": "plant-pot-shield",
+      "b": "potted-plant-shield",
       "distance": 1
     },
     {
-      "a": "video-lesson-clock",
-      "b": "screen-record-clock",
-      "distance": 1
+      "a": "plant-pot-gear",
+      "b": "potted-plant-gear",
+      "distance": 1.41
+    },
+    {
+      "a": "plant-pot-bolt",
+      "b": "potted-plant-bolt",
+      "distance": 1.41
+    },
+    {
+      "a": "plant-pot-heart",
+      "b": "potted-plant-heart",
+      "distance": 1.41
+    },
+    {
+      "a": "plant-pot-star",
+      "b": "potted-plant-star",
+      "distance": 1.41
+    },
+    {
+      "a": "plant-pot-cloud",
+      "b": "potted-plant-cloud",
+      "distance": 1.41
+    },
+    {
+      "a": "plant-pot-chat",
+      "b": "potted-plant-chat",
+      "distance": 1.41
+    },
+    {
+      "a": "plant-pot-download",
+      "b": "potted-plant-download",
+      "distance": 1.41
+    },
+    {
+      "a": "plant-pot-pencil",
+      "b": "potted-plant-pencil",
+      "distance": 1.41
+    },
+    {
+      "a": "plant-pot-trash",
+      "b": "potted-plant-trash",
+      "distance": 1.41
+    },
+    {
+      "a": "plant-pot-calendar",
+      "b": "potted-plant-calendar",
+      "distance": 1.41
+    },
+    {
+      "a": "plant-pot-question",
+      "b": "potted-plant-question",
+      "distance": 1.41
+    },
+    {
+      "a": "plant-pot-crown",
+      "b": "potted-plant-crown",
+      "distance": 1.41
+    },
+    {
+      "a": "plant-pot-leaf",
+      "b": "potted-plant-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "plant-pot-hourglass",
+      "b": "potted-plant-hourglass",
+      "distance": 1.41
+    },
+    {
+      "a": "plant-pot-cursor",
+      "b": "potted-plant-cursor",
+      "distance": 1.41
+    },
+    {
+      "a": "plant-pot-camera",
+      "b": "potted-plant-camera",
+      "distance": 1.41
+    },
+    {
+      "a": "plant-pot-filter",
+      "b": "potted-plant-filter",
+      "distance": 1.41
+    },
+    {
+      "a": "plant-pot-stats",
+      "b": "potted-plant-stats",
+      "distance": 1.41
+    },
+    {
+      "a": "plant-pot-checkbox",
+      "b": "potted-plant-checkbox",
+      "distance": 1.41
+    },
+    {
+      "a": "honeycomb-sparkle",
+      "b": "honeycomb-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "cairn-pencil",
+      "b": "cairn-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "wood-log-search",
+      "b": "avatar-group-search",
+      "distance": 1.41
+    },
+    {
+      "a": "wood-log-clock",
+      "b": "avatar-group-clock",
+      "distance": 1.41
+    },
+    {
+      "a": "wood-log-gear",
+      "b": "avatar-group-gear",
+      "distance": 1.41
+    },
+    {
+      "a": "wood-log-bolt",
+      "b": "avatar-group-bolt",
+      "distance": 1.41
+    },
+    {
+      "a": "wood-log-heart",
+      "b": "avatar-group-heart",
+      "distance": 1.41
+    },
+    {
+      "a": "wood-log-star",
+      "b": "avatar-group-star",
+      "distance": 1.41
+    },
+    {
+      "a": "wood-log-user",
+      "b": "avatar-group-user",
+      "distance": 1.41
+    },
+    {
+      "a": "wood-log-cloud",
+      "b": "avatar-group-cloud",
+      "distance": 1.41
+    },
+    {
+      "a": "wood-log-chat",
+      "b": "avatar-group-chat",
+      "distance": 1.41
+    },
+    {
+      "a": "wood-log-download",
+      "b": "avatar-group-download",
+      "distance": 1.41
+    },
+    {
+      "a": "wood-log-pencil",
+      "b": "avatar-group-pencil",
+      "distance": 1.41
+    },
+    {
+      "a": "wood-log-trash",
+      "b": "avatar-group-trash",
+      "distance": 1.41
+    },
+    {
+      "a": "wood-log-calendar",
+      "b": "avatar-group-calendar",
+      "distance": 1.41
+    },
+    {
+      "a": "wood-log-question",
+      "b": "avatar-group-question",
+      "distance": 1.41
+    },
+    {
+      "a": "wood-log-upload",
+      "b": "avatar-group-sparkle",
+      "distance": 1.41
+    },
+    {
+      "a": "wood-log-upload",
+      "b": "avatar-group-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "wood-log-crown",
+      "b": "avatar-group-crown",
+      "distance": 1.41
+    },
+    {
+      "a": "wood-log-leaf",
+      "b": "avatar-group-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "wood-log-hourglass",
+      "b": "avatar-group-hourglass",
+      "distance": 1.41
+    },
+    {
+      "a": "wood-log-cursor",
+      "b": "avatar-group-cursor",
+      "distance": 1.41
+    },
+    {
+      "a": "wood-log-camera",
+      "b": "avatar-group-camera",
+      "distance": 1.41
+    },
+    {
+      "a": "wood-log-filter",
+      "b": "avatar-group-filter",
+      "distance": 1.41
+    },
+    {
+      "a": "wood-log-stats",
+      "b": "avatar-group-stats",
+      "distance": 1.41
+    },
+    {
+      "a": "wood-log-checkbox",
+      "b": "avatar-group-checkbox",
+      "distance": 1.41
+    },
+    {
+      "a": "tree-stump-pencil",
+      "b": "tree-stump-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "tree-stump-sparkle",
+      "b": "tree-stump-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "bamboo-sparkle",
+      "b": "bamboo-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "sunflower-sparkle",
+      "b": "sunflower-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "avatar-group-sparkle",
+      "b": "avatar-group-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "sippy-cup-search",
+      "b": "hand-raised-search",
+      "distance": 1.41
+    },
+    {
+      "a": "sippy-cup-clock",
+      "b": "hand-raised-clock",
+      "distance": 1.41
+    },
+    {
+      "a": "sippy-cup-shield",
+      "b": "hand-raised-shield",
+      "distance": 1.41
+    },
+    {
+      "a": "sippy-cup-gear",
+      "b": "hand-raised-gear",
+      "distance": 1.41
+    },
+    {
+      "a": "sippy-cup-bolt",
+      "b": "hand-raised-bolt",
+      "distance": 1.41
+    },
+    {
+      "a": "sippy-cup-heart",
+      "b": "hand-raised-heart",
+      "distance": 1.41
+    },
+    {
+      "a": "sippy-cup-star",
+      "b": "hand-raised-star",
+      "distance": 1.41
+    },
+    {
+      "a": "sippy-cup-user",
+      "b": "hand-raised-user",
+      "distance": 1.41
+    },
+    {
+      "a": "sippy-cup-cloud",
+      "b": "hand-raised-cloud",
+      "distance": 1.41
+    },
+    {
+      "a": "sippy-cup-chat",
+      "b": "hand-raised-chat",
+      "distance": 1.41
+    },
+    {
+      "a": "sippy-cup-download",
+      "b": "hand-raised-download",
+      "distance": 1.41
+    },
+    {
+      "a": "sippy-cup-pencil",
+      "b": "hand-raised-pencil",
+      "distance": 1.41
+    },
+    {
+      "a": "sippy-cup-sparkle",
+      "b": "sippy-cup-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "sippy-cup-sparkle",
+      "b": "hand-raised-sparkle",
+      "distance": 1.41
+    },
+    {
+      "a": "sippy-cup-trash",
+      "b": "hand-raised-trash",
+      "distance": 1.41
+    },
+    {
+      "a": "sippy-cup-calendar",
+      "b": "hand-raised-calendar",
+      "distance": 1.41
+    },
+    {
+      "a": "sippy-cup-question",
+      "b": "hand-raised-question",
+      "distance": 1.41
+    },
+    {
+      "a": "sippy-cup-bookmark",
+      "b": "hand-raised-bookmark",
+      "distance": 1.41
+    },
+    {
+      "a": "sippy-cup-upload",
+      "b": "hand-raised-sparkle",
+      "distance": 1.41
+    },
+    {
+      "a": "sippy-cup-upload",
+      "b": "hand-raised-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "sippy-cup-crown",
+      "b": "hand-raised-crown",
+      "distance": 1.41
+    },
+    {
+      "a": "sippy-cup-leaf",
+      "b": "hand-raised-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "sippy-cup-trophy",
+      "b": "hand-raised-trophy",
+      "distance": 1.41
+    },
+    {
+      "a": "sippy-cup-hourglass",
+      "b": "hand-raised-hourglass",
+      "distance": 1.41
+    },
+    {
+      "a": "sippy-cup-cursor",
+      "b": "hand-raised-cursor",
+      "distance": 1.41
+    },
+    {
+      "a": "sippy-cup-camera",
+      "b": "hand-raised-camera",
+      "distance": 1.41
+    },
+    {
+      "a": "sippy-cup-filter",
+      "b": "hand-raised-filter",
+      "distance": 1.41
+    },
+    {
+      "a": "sippy-cup-stats",
+      "b": "hand-raised-stats",
+      "distance": 1.41
+    },
+    {
+      "a": "sippy-cup-checkbox",
+      "b": "hand-raised-checkbox",
+      "distance": 1.41
+    },
+    {
+      "a": "baby-monitor-sparkle",
+      "b": "baby-monitor-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "user-tie-pencil",
+      "b": "user-tie-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "user-headset-pencil",
+      "b": "user-headset-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "user-headset-sparkle",
+      "b": "user-headset-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "family-pencil",
+      "b": "family-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "student-sparkle",
+      "b": "student-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "user-edit-sparkle",
+      "b": "user-edit-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "user-group-sparkle",
+      "b": "user-group-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "oscilloscope-gear",
+      "b": "oscilloscope-stats",
+      "distance": 1.41
+    },
+    {
+      "a": "oscilloscope-pencil",
+      "b": "oscilloscope-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "oscilloscope-sparkle",
+      "b": "oscilloscope-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "mars-rover-pencil",
+      "b": "mars-rover-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "mars-rover-sparkle",
+      "b": "mars-rover-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "test-tube-rack-pencil",
+      "b": "test-tube-rack-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "test-tube-rack-sparkle",
+      "b": "test-tube-rack-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "spring-sparkle",
+      "b": "spring-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "pendulum-pencil",
+      "b": "pendulum-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "crystal-sparkle",
+      "b": "crystal-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "saturn-sparkle",
+      "b": "saturn-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "graduated-cylinder-sparkle",
+      "b": "graduated-cylinder-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "periodic-table-pencil",
+      "b": "periodic-table-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "periodic-table-sparkle",
+      "b": "periodic-table-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "flammable-search",
+      "b": "explosive-search",
+      "distance": 0
+    },
+    {
+      "a": "flammable-search",
+      "b": "toxic-search",
+      "distance": 0
+    },
+    {
+      "a": "flammable-search",
+      "b": "oxidizer-search",
+      "distance": 0
+    },
+    {
+      "a": "flammable-search",
+      "b": "corrosive-search",
+      "distance": 0
+    },
+    {
+      "a": "flammable-search",
+      "b": "health-hazard-search",
+      "distance": 0
+    },
+    {
+      "a": "flammable-search",
+      "b": "environment-hazard-search",
+      "distance": 0
+    },
+    {
+      "a": "flammable-clock",
+      "b": "explosive-clock",
+      "distance": 0
+    },
+    {
+      "a": "flammable-clock",
+      "b": "toxic-clock",
+      "distance": 0
+    },
+    {
+      "a": "flammable-clock",
+      "b": "oxidizer-clock",
+      "distance": 0
+    },
+    {
+      "a": "flammable-clock",
+      "b": "corrosive-clock",
+      "distance": 0
+    },
+    {
+      "a": "flammable-clock",
+      "b": "health-hazard-clock",
+      "distance": 0
+    },
+    {
+      "a": "flammable-clock",
+      "b": "environment-hazard-clock",
+      "distance": 0
+    },
+    {
+      "a": "flammable-gear",
+      "b": "explosive-gear",
+      "distance": 0
+    },
+    {
+      "a": "flammable-gear",
+      "b": "toxic-gear",
+      "distance": 0
+    },
+    {
+      "a": "flammable-gear",
+      "b": "oxidizer-gear",
+      "distance": 0
+    },
+    {
+      "a": "flammable-gear",
+      "b": "corrosive-gear",
+      "distance": 0
+    },
+    {
+      "a": "flammable-gear",
+      "b": "health-hazard-gear",
+      "distance": 0
+    },
+    {
+      "a": "flammable-bolt",
+      "b": "explosive-bolt",
+      "distance": 0
+    },
+    {
+      "a": "flammable-bolt",
+      "b": "toxic-bolt",
+      "distance": 0
+    },
+    {
+      "a": "flammable-bolt",
+      "b": "oxidizer-bolt",
+      "distance": 0
+    },
+    {
+      "a": "flammable-bolt",
+      "b": "corrosive-bolt",
+      "distance": 0
+    },
+    {
+      "a": "flammable-bolt",
+      "b": "health-hazard-bolt",
+      "distance": 0
+    },
+    {
+      "a": "flammable-heart",
+      "b": "explosive-heart",
+      "distance": 0
+    },
+    {
+      "a": "flammable-heart",
+      "b": "toxic-heart",
+      "distance": 0
+    },
+    {
+      "a": "flammable-heart",
+      "b": "oxidizer-heart",
+      "distance": 0
+    },
+    {
+      "a": "flammable-heart",
+      "b": "corrosive-heart",
+      "distance": 0
+    },
+    {
+      "a": "flammable-heart",
+      "b": "health-hazard-heart",
+      "distance": 0
+    },
+    {
+      "a": "flammable-star",
+      "b": "explosive-star",
+      "distance": 0
+    },
+    {
+      "a": "flammable-star",
+      "b": "toxic-star",
+      "distance": 0
+    },
+    {
+      "a": "flammable-star",
+      "b": "oxidizer-star",
+      "distance": 0
+    },
+    {
+      "a": "flammable-star",
+      "b": "corrosive-star",
+      "distance": 0
+    },
+    {
+      "a": "flammable-star",
+      "b": "health-hazard-star",
+      "distance": 0
+    },
+    {
+      "a": "flammable-cloud",
+      "b": "explosive-cloud",
+      "distance": 0
+    },
+    {
+      "a": "flammable-cloud",
+      "b": "toxic-cloud",
+      "distance": 0
+    },
+    {
+      "a": "flammable-cloud",
+      "b": "oxidizer-cloud",
+      "distance": 0
+    },
+    {
+      "a": "flammable-cloud",
+      "b": "corrosive-cloud",
+      "distance": 0
+    },
+    {
+      "a": "flammable-cloud",
+      "b": "health-hazard-cloud",
+      "distance": 0
+    },
+    {
+      "a": "flammable-chat",
+      "b": "explosive-chat",
+      "distance": 0
+    },
+    {
+      "a": "flammable-chat",
+      "b": "toxic-chat",
+      "distance": 0
+    },
+    {
+      "a": "flammable-chat",
+      "b": "oxidizer-chat",
+      "distance": 0
+    },
+    {
+      "a": "flammable-chat",
+      "b": "corrosive-chat",
+      "distance": 0
+    },
+    {
+      "a": "flammable-chat",
+      "b": "health-hazard-chat",
+      "distance": 0
+    },
+    {
+      "a": "flammable-download",
+      "b": "explosive-download",
+      "distance": 0
+    },
+    {
+      "a": "flammable-download",
+      "b": "toxic-download",
+      "distance": 0
+    },
+    {
+      "a": "flammable-download",
+      "b": "oxidizer-download",
+      "distance": 0
+    },
+    {
+      "a": "flammable-download",
+      "b": "corrosive-download",
+      "distance": 0
+    },
+    {
+      "a": "flammable-download",
+      "b": "health-hazard-download",
+      "distance": 0
+    },
+    {
+      "a": "flammable-pencil",
+      "b": "explosive-pencil",
+      "distance": 0
+    },
+    {
+      "a": "flammable-pencil",
+      "b": "toxic-pencil",
+      "distance": 0
+    },
+    {
+      "a": "flammable-pencil",
+      "b": "oxidizer-pencil",
+      "distance": 0
+    },
+    {
+      "a": "flammable-pencil",
+      "b": "corrosive-pencil",
+      "distance": 0
+    },
+    {
+      "a": "flammable-pencil",
+      "b": "health-hazard-pencil",
+      "distance": 0
+    },
+    {
+      "a": "flammable-trash",
+      "b": "explosive-trash",
+      "distance": 0
+    },
+    {
+      "a": "flammable-trash",
+      "b": "toxic-trash",
+      "distance": 0
+    },
+    {
+      "a": "flammable-trash",
+      "b": "oxidizer-trash",
+      "distance": 0
+    },
+    {
+      "a": "flammable-trash",
+      "b": "corrosive-trash",
+      "distance": 0
+    },
+    {
+      "a": "flammable-trash",
+      "b": "health-hazard-trash",
+      "distance": 0
+    },
+    {
+      "a": "flammable-calendar",
+      "b": "explosive-calendar",
+      "distance": 0
+    },
+    {
+      "a": "flammable-calendar",
+      "b": "toxic-calendar",
+      "distance": 0
+    },
+    {
+      "a": "flammable-calendar",
+      "b": "oxidizer-calendar",
+      "distance": 0
+    },
+    {
+      "a": "flammable-calendar",
+      "b": "corrosive-calendar",
+      "distance": 0
+    },
+    {
+      "a": "flammable-calendar",
+      "b": "health-hazard-calendar",
+      "distance": 0
+    },
+    {
+      "a": "flammable-question",
+      "b": "explosive-question",
+      "distance": 0
+    },
+    {
+      "a": "flammable-question",
+      "b": "toxic-question",
+      "distance": 0
+    },
+    {
+      "a": "flammable-question",
+      "b": "oxidizer-question",
+      "distance": 0
+    },
+    {
+      "a": "flammable-question",
+      "b": "corrosive-question",
+      "distance": 0
+    },
+    {
+      "a": "flammable-question",
+      "b": "health-hazard-question",
+      "distance": 0
+    },
+    {
+      "a": "flammable-bookmark",
+      "b": "explosive-bookmark",
+      "distance": 0
+    },
+    {
+      "a": "flammable-bookmark",
+      "b": "toxic-bookmark",
+      "distance": 0
+    },
+    {
+      "a": "flammable-bookmark",
+      "b": "oxidizer-bookmark",
+      "distance": 0
+    },
+    {
+      "a": "flammable-bookmark",
+      "b": "corrosive-bookmark",
+      "distance": 0
+    },
+    {
+      "a": "flammable-bookmark",
+      "b": "health-hazard-bookmark",
+      "distance": 0
+    },
+    {
+      "a": "flammable-upload",
+      "b": "explosive-upload",
+      "distance": 0
+    },
+    {
+      "a": "flammable-upload",
+      "b": "toxic-upload",
+      "distance": 0
+    },
+    {
+      "a": "flammable-upload",
+      "b": "oxidizer-upload",
+      "distance": 0
+    },
+    {
+      "a": "flammable-upload",
+      "b": "corrosive-upload",
+      "distance": 0
+    },
+    {
+      "a": "flammable-upload",
+      "b": "health-hazard-upload",
+      "distance": 0
+    },
+    {
+      "a": "flammable-crown",
+      "b": "explosive-crown",
+      "distance": 0
+    },
+    {
+      "a": "flammable-crown",
+      "b": "toxic-crown",
+      "distance": 0
+    },
+    {
+      "a": "flammable-crown",
+      "b": "oxidizer-crown",
+      "distance": 0
+    },
+    {
+      "a": "flammable-crown",
+      "b": "corrosive-crown",
+      "distance": 0
+    },
+    {
+      "a": "flammable-crown",
+      "b": "health-hazard-crown",
+      "distance": 0
+    },
+    {
+      "a": "flammable-leaf",
+      "b": "explosive-leaf",
+      "distance": 0
+    },
+    {
+      "a": "flammable-leaf",
+      "b": "toxic-leaf",
+      "distance": 0
+    },
+    {
+      "a": "flammable-leaf",
+      "b": "oxidizer-leaf",
+      "distance": 0
+    },
+    {
+      "a": "flammable-leaf",
+      "b": "corrosive-leaf",
+      "distance": 0
+    },
+    {
+      "a": "flammable-leaf",
+      "b": "health-hazard-leaf",
+      "distance": 0
+    },
+    {
+      "a": "flammable-hourglass",
+      "b": "explosive-hourglass",
+      "distance": 0
+    },
+    {
+      "a": "flammable-hourglass",
+      "b": "toxic-hourglass",
+      "distance": 0
+    },
+    {
+      "a": "flammable-hourglass",
+      "b": "oxidizer-hourglass",
+      "distance": 0
+    },
+    {
+      "a": "flammable-hourglass",
+      "b": "corrosive-hourglass",
+      "distance": 0
+    },
+    {
+      "a": "flammable-hourglass",
+      "b": "health-hazard-hourglass",
+      "distance": 0
+    },
+    {
+      "a": "flammable-cursor",
+      "b": "explosive-cursor",
+      "distance": 0
+    },
+    {
+      "a": "flammable-cursor",
+      "b": "toxic-cursor",
+      "distance": 0
+    },
+    {
+      "a": "flammable-cursor",
+      "b": "oxidizer-cursor",
+      "distance": 0
+    },
+    {
+      "a": "flammable-cursor",
+      "b": "corrosive-cursor",
+      "distance": 0
+    },
+    {
+      "a": "flammable-cursor",
+      "b": "health-hazard-cursor",
+      "distance": 0
+    },
+    {
+      "a": "flammable-camera",
+      "b": "explosive-camera",
+      "distance": 0
+    },
+    {
+      "a": "flammable-camera",
+      "b": "toxic-camera",
+      "distance": 0
+    },
+    {
+      "a": "flammable-camera",
+      "b": "oxidizer-camera",
+      "distance": 0
+    },
+    {
+      "a": "flammable-camera",
+      "b": "corrosive-camera",
+      "distance": 0
+    },
+    {
+      "a": "flammable-camera",
+      "b": "health-hazard-camera",
+      "distance": 0
+    },
+    {
+      "a": "flammable-filter",
+      "b": "explosive-filter",
+      "distance": 0
+    },
+    {
+      "a": "flammable-filter",
+      "b": "toxic-filter",
+      "distance": 0
+    },
+    {
+      "a": "flammable-filter",
+      "b": "oxidizer-filter",
+      "distance": 0
+    },
+    {
+      "a": "flammable-filter",
+      "b": "corrosive-filter",
+      "distance": 0
+    },
+    {
+      "a": "flammable-filter",
+      "b": "health-hazard-filter",
+      "distance": 0
+    },
+    {
+      "a": "flammable-stats",
+      "b": "explosive-stats",
+      "distance": 0
+    },
+    {
+      "a": "flammable-stats",
+      "b": "toxic-stats",
+      "distance": 0
+    },
+    {
+      "a": "flammable-stats",
+      "b": "oxidizer-stats",
+      "distance": 0
+    },
+    {
+      "a": "flammable-stats",
+      "b": "corrosive-stats",
+      "distance": 0
+    },
+    {
+      "a": "flammable-stats",
+      "b": "health-hazard-stats",
+      "distance": 0
+    },
+    {
+      "a": "flammable-checkbox",
+      "b": "explosive-checkbox",
+      "distance": 0
+    },
+    {
+      "a": "flammable-checkbox",
+      "b": "toxic-checkbox",
+      "distance": 0
+    },
+    {
+      "a": "flammable-checkbox",
+      "b": "oxidizer-checkbox",
+      "distance": 0
+    },
+    {
+      "a": "flammable-checkbox",
+      "b": "corrosive-checkbox",
+      "distance": 0
+    },
+    {
+      "a": "flammable-checkbox",
+      "b": "health-hazard-checkbox",
+      "distance": 0
+    },
+    {
+      "a": "explosive-search",
+      "b": "toxic-search",
+      "distance": 0
+    },
+    {
+      "a": "explosive-search",
+      "b": "oxidizer-search",
+      "distance": 0
+    },
+    {
+      "a": "explosive-search",
+      "b": "corrosive-search",
+      "distance": 0
+    },
+    {
+      "a": "explosive-search",
+      "b": "health-hazard-search",
+      "distance": 0
+    },
+    {
+      "a": "explosive-search",
+      "b": "environment-hazard-search",
+      "distance": 0
+    },
+    {
+      "a": "explosive-clock",
+      "b": "toxic-clock",
+      "distance": 0
+    },
+    {
+      "a": "explosive-clock",
+      "b": "oxidizer-clock",
+      "distance": 0
+    },
+    {
+      "a": "explosive-clock",
+      "b": "corrosive-clock",
+      "distance": 0
+    },
+    {
+      "a": "explosive-clock",
+      "b": "health-hazard-clock",
+      "distance": 0
+    },
+    {
+      "a": "explosive-clock",
+      "b": "environment-hazard-clock",
+      "distance": 0
+    },
+    {
+      "a": "explosive-gear",
+      "b": "toxic-gear",
+      "distance": 0
+    },
+    {
+      "a": "explosive-gear",
+      "b": "oxidizer-gear",
+      "distance": 0
+    },
+    {
+      "a": "explosive-gear",
+      "b": "corrosive-gear",
+      "distance": 0
+    },
+    {
+      "a": "explosive-gear",
+      "b": "health-hazard-gear",
+      "distance": 0
+    },
+    {
+      "a": "explosive-bolt",
+      "b": "toxic-bolt",
+      "distance": 0
+    },
+    {
+      "a": "explosive-bolt",
+      "b": "oxidizer-bolt",
+      "distance": 0
+    },
+    {
+      "a": "explosive-bolt",
+      "b": "corrosive-bolt",
+      "distance": 0
+    },
+    {
+      "a": "explosive-bolt",
+      "b": "health-hazard-bolt",
+      "distance": 0
+    },
+    {
+      "a": "explosive-heart",
+      "b": "toxic-heart",
+      "distance": 0
+    },
+    {
+      "a": "explosive-heart",
+      "b": "oxidizer-heart",
+      "distance": 0
+    },
+    {
+      "a": "explosive-heart",
+      "b": "corrosive-heart",
+      "distance": 0
+    },
+    {
+      "a": "explosive-heart",
+      "b": "health-hazard-heart",
+      "distance": 0
+    },
+    {
+      "a": "explosive-star",
+      "b": "toxic-star",
+      "distance": 0
+    },
+    {
+      "a": "explosive-star",
+      "b": "oxidizer-star",
+      "distance": 0
+    },
+    {
+      "a": "explosive-star",
+      "b": "corrosive-star",
+      "distance": 0
+    },
+    {
+      "a": "explosive-star",
+      "b": "health-hazard-star",
+      "distance": 0
+    },
+    {
+      "a": "explosive-cloud",
+      "b": "toxic-cloud",
+      "distance": 0
+    },
+    {
+      "a": "explosive-cloud",
+      "b": "oxidizer-cloud",
+      "distance": 0
+    },
+    {
+      "a": "explosive-cloud",
+      "b": "corrosive-cloud",
+      "distance": 0
+    },
+    {
+      "a": "explosive-cloud",
+      "b": "health-hazard-cloud",
+      "distance": 0
+    },
+    {
+      "a": "explosive-chat",
+      "b": "toxic-chat",
+      "distance": 0
+    },
+    {
+      "a": "explosive-chat",
+      "b": "oxidizer-chat",
+      "distance": 0
+    },
+    {
+      "a": "explosive-chat",
+      "b": "corrosive-chat",
+      "distance": 0
+    },
+    {
+      "a": "explosive-chat",
+      "b": "health-hazard-chat",
+      "distance": 0
+    },
+    {
+      "a": "explosive-download",
+      "b": "toxic-download",
+      "distance": 0
+    },
+    {
+      "a": "explosive-download",
+      "b": "oxidizer-download",
+      "distance": 0
+    },
+    {
+      "a": "explosive-download",
+      "b": "corrosive-download",
+      "distance": 0
+    },
+    {
+      "a": "explosive-download",
+      "b": "health-hazard-download",
+      "distance": 0
+    },
+    {
+      "a": "explosive-pencil",
+      "b": "toxic-pencil",
+      "distance": 0
+    },
+    {
+      "a": "explosive-pencil",
+      "b": "oxidizer-pencil",
+      "distance": 0
+    },
+    {
+      "a": "explosive-pencil",
+      "b": "corrosive-pencil",
+      "distance": 0
+    },
+    {
+      "a": "explosive-pencil",
+      "b": "health-hazard-pencil",
+      "distance": 0
+    },
+    {
+      "a": "explosive-trash",
+      "b": "toxic-trash",
+      "distance": 0
+    },
+    {
+      "a": "explosive-trash",
+      "b": "oxidizer-trash",
+      "distance": 0
+    },
+    {
+      "a": "explosive-trash",
+      "b": "corrosive-trash",
+      "distance": 0
+    },
+    {
+      "a": "explosive-trash",
+      "b": "health-hazard-trash",
+      "distance": 0
+    },
+    {
+      "a": "explosive-calendar",
+      "b": "toxic-calendar",
+      "distance": 0
+    },
+    {
+      "a": "explosive-calendar",
+      "b": "oxidizer-calendar",
+      "distance": 0
+    },
+    {
+      "a": "explosive-calendar",
+      "b": "corrosive-calendar",
+      "distance": 0
+    },
+    {
+      "a": "explosive-calendar",
+      "b": "health-hazard-calendar",
+      "distance": 0
+    },
+    {
+      "a": "explosive-question",
+      "b": "toxic-question",
+      "distance": 0
+    },
+    {
+      "a": "explosive-question",
+      "b": "oxidizer-question",
+      "distance": 0
+    },
+    {
+      "a": "explosive-question",
+      "b": "corrosive-question",
+      "distance": 0
+    },
+    {
+      "a": "explosive-question",
+      "b": "health-hazard-question",
+      "distance": 0
+    },
+    {
+      "a": "explosive-bookmark",
+      "b": "toxic-bookmark",
+      "distance": 0
+    },
+    {
+      "a": "explosive-bookmark",
+      "b": "oxidizer-bookmark",
+      "distance": 0
+    },
+    {
+      "a": "explosive-bookmark",
+      "b": "corrosive-bookmark",
+      "distance": 0
+    },
+    {
+      "a": "explosive-bookmark",
+      "b": "health-hazard-bookmark",
+      "distance": 0
+    },
+    {
+      "a": "explosive-upload",
+      "b": "toxic-upload",
+      "distance": 0
+    },
+    {
+      "a": "explosive-upload",
+      "b": "oxidizer-upload",
+      "distance": 0
+    },
+    {
+      "a": "explosive-upload",
+      "b": "corrosive-upload",
+      "distance": 0
+    },
+    {
+      "a": "explosive-upload",
+      "b": "health-hazard-upload",
+      "distance": 0
+    },
+    {
+      "a": "explosive-crown",
+      "b": "toxic-crown",
+      "distance": 0
+    },
+    {
+      "a": "explosive-crown",
+      "b": "oxidizer-crown",
+      "distance": 0
+    },
+    {
+      "a": "explosive-crown",
+      "b": "corrosive-crown",
+      "distance": 0
+    },
+    {
+      "a": "explosive-crown",
+      "b": "health-hazard-crown",
+      "distance": 0
+    },
+    {
+      "a": "explosive-leaf",
+      "b": "toxic-leaf",
+      "distance": 0
+    },
+    {
+      "a": "explosive-leaf",
+      "b": "oxidizer-leaf",
+      "distance": 0
+    },
+    {
+      "a": "explosive-leaf",
+      "b": "corrosive-leaf",
+      "distance": 0
+    },
+    {
+      "a": "explosive-leaf",
+      "b": "health-hazard-leaf",
+      "distance": 0
+    },
+    {
+      "a": "explosive-hourglass",
+      "b": "toxic-hourglass",
+      "distance": 0
+    },
+    {
+      "a": "explosive-hourglass",
+      "b": "oxidizer-hourglass",
+      "distance": 0
+    },
+    {
+      "a": "explosive-hourglass",
+      "b": "corrosive-hourglass",
+      "distance": 0
+    },
+    {
+      "a": "explosive-hourglass",
+      "b": "health-hazard-hourglass",
+      "distance": 0
+    },
+    {
+      "a": "explosive-cursor",
+      "b": "toxic-cursor",
+      "distance": 0
+    },
+    {
+      "a": "explosive-cursor",
+      "b": "oxidizer-cursor",
+      "distance": 0
+    },
+    {
+      "a": "explosive-cursor",
+      "b": "corrosive-cursor",
+      "distance": 0
+    },
+    {
+      "a": "explosive-cursor",
+      "b": "health-hazard-cursor",
+      "distance": 0
+    },
+    {
+      "a": "explosive-camera",
+      "b": "toxic-camera",
+      "distance": 0
+    },
+    {
+      "a": "explosive-camera",
+      "b": "oxidizer-camera",
+      "distance": 0
+    },
+    {
+      "a": "explosive-camera",
+      "b": "corrosive-camera",
+      "distance": 0
+    },
+    {
+      "a": "explosive-camera",
+      "b": "health-hazard-camera",
+      "distance": 0
+    },
+    {
+      "a": "explosive-filter",
+      "b": "toxic-filter",
+      "distance": 0
+    },
+    {
+      "a": "explosive-filter",
+      "b": "oxidizer-filter",
+      "distance": 0
+    },
+    {
+      "a": "explosive-filter",
+      "b": "corrosive-filter",
+      "distance": 0
+    },
+    {
+      "a": "explosive-filter",
+      "b": "health-hazard-filter",
+      "distance": 0
+    },
+    {
+      "a": "explosive-stats",
+      "b": "toxic-stats",
+      "distance": 0
+    },
+    {
+      "a": "explosive-stats",
+      "b": "oxidizer-stats",
+      "distance": 0
+    },
+    {
+      "a": "explosive-stats",
+      "b": "corrosive-stats",
+      "distance": 0
+    },
+    {
+      "a": "explosive-stats",
+      "b": "health-hazard-stats",
+      "distance": 0
+    },
+    {
+      "a": "explosive-checkbox",
+      "b": "toxic-checkbox",
+      "distance": 0
+    },
+    {
+      "a": "explosive-checkbox",
+      "b": "oxidizer-checkbox",
+      "distance": 0
+    },
+    {
+      "a": "explosive-checkbox",
+      "b": "corrosive-checkbox",
+      "distance": 0
+    },
+    {
+      "a": "explosive-checkbox",
+      "b": "health-hazard-checkbox",
+      "distance": 0
+    },
+    {
+      "a": "toxic-search",
+      "b": "oxidizer-search",
+      "distance": 0
+    },
+    {
+      "a": "toxic-search",
+      "b": "corrosive-search",
+      "distance": 0
+    },
+    {
+      "a": "toxic-search",
+      "b": "health-hazard-search",
+      "distance": 0
+    },
+    {
+      "a": "toxic-search",
+      "b": "environment-hazard-search",
+      "distance": 0
+    },
+    {
+      "a": "toxic-clock",
+      "b": "oxidizer-clock",
+      "distance": 0
+    },
+    {
+      "a": "toxic-clock",
+      "b": "corrosive-clock",
+      "distance": 0
+    },
+    {
+      "a": "toxic-clock",
+      "b": "health-hazard-clock",
+      "distance": 0
+    },
+    {
+      "a": "toxic-clock",
+      "b": "environment-hazard-clock",
+      "distance": 0
+    },
+    {
+      "a": "toxic-gear",
+      "b": "oxidizer-gear",
+      "distance": 0
+    },
+    {
+      "a": "toxic-gear",
+      "b": "corrosive-gear",
+      "distance": 0
+    },
+    {
+      "a": "toxic-gear",
+      "b": "health-hazard-gear",
+      "distance": 0
+    },
+    {
+      "a": "toxic-bolt",
+      "b": "oxidizer-bolt",
+      "distance": 0
+    },
+    {
+      "a": "toxic-bolt",
+      "b": "corrosive-bolt",
+      "distance": 0
+    },
+    {
+      "a": "toxic-bolt",
+      "b": "health-hazard-bolt",
+      "distance": 0
+    },
+    {
+      "a": "toxic-heart",
+      "b": "oxidizer-heart",
+      "distance": 0
+    },
+    {
+      "a": "toxic-heart",
+      "b": "corrosive-heart",
+      "distance": 0
+    },
+    {
+      "a": "toxic-heart",
+      "b": "health-hazard-heart",
+      "distance": 0
+    },
+    {
+      "a": "toxic-star",
+      "b": "oxidizer-star",
+      "distance": 0
+    },
+    {
+      "a": "toxic-star",
+      "b": "corrosive-star",
+      "distance": 0
+    },
+    {
+      "a": "toxic-star",
+      "b": "health-hazard-star",
+      "distance": 0
+    },
+    {
+      "a": "toxic-cloud",
+      "b": "oxidizer-cloud",
+      "distance": 0
+    },
+    {
+      "a": "toxic-cloud",
+      "b": "corrosive-cloud",
+      "distance": 0
+    },
+    {
+      "a": "toxic-cloud",
+      "b": "health-hazard-cloud",
+      "distance": 0
+    },
+    {
+      "a": "toxic-chat",
+      "b": "oxidizer-chat",
+      "distance": 0
+    },
+    {
+      "a": "toxic-chat",
+      "b": "corrosive-chat",
+      "distance": 0
+    },
+    {
+      "a": "toxic-chat",
+      "b": "health-hazard-chat",
+      "distance": 0
+    },
+    {
+      "a": "toxic-download",
+      "b": "oxidizer-download",
+      "distance": 0
+    },
+    {
+      "a": "toxic-download",
+      "b": "corrosive-download",
+      "distance": 0
+    },
+    {
+      "a": "toxic-download",
+      "b": "health-hazard-download",
+      "distance": 0
+    },
+    {
+      "a": "toxic-pencil",
+      "b": "oxidizer-pencil",
+      "distance": 0
+    },
+    {
+      "a": "toxic-pencil",
+      "b": "corrosive-pencil",
+      "distance": 0
+    },
+    {
+      "a": "toxic-pencil",
+      "b": "health-hazard-pencil",
+      "distance": 0
+    },
+    {
+      "a": "toxic-trash",
+      "b": "oxidizer-trash",
+      "distance": 0
+    },
+    {
+      "a": "toxic-trash",
+      "b": "corrosive-trash",
+      "distance": 0
+    },
+    {
+      "a": "toxic-trash",
+      "b": "health-hazard-trash",
+      "distance": 0
+    },
+    {
+      "a": "toxic-calendar",
+      "b": "oxidizer-calendar",
+      "distance": 0
+    },
+    {
+      "a": "toxic-calendar",
+      "b": "corrosive-calendar",
+      "distance": 0
+    },
+    {
+      "a": "toxic-calendar",
+      "b": "health-hazard-calendar",
+      "distance": 0
+    },
+    {
+      "a": "toxic-question",
+      "b": "oxidizer-question",
+      "distance": 0
+    },
+    {
+      "a": "toxic-question",
+      "b": "corrosive-question",
+      "distance": 0
+    },
+    {
+      "a": "toxic-question",
+      "b": "health-hazard-question",
+      "distance": 0
+    },
+    {
+      "a": "toxic-bookmark",
+      "b": "oxidizer-bookmark",
+      "distance": 0
+    },
+    {
+      "a": "toxic-bookmark",
+      "b": "corrosive-bookmark",
+      "distance": 0
+    },
+    {
+      "a": "toxic-bookmark",
+      "b": "health-hazard-bookmark",
+      "distance": 0
+    },
+    {
+      "a": "toxic-upload",
+      "b": "oxidizer-upload",
+      "distance": 0
+    },
+    {
+      "a": "toxic-upload",
+      "b": "corrosive-upload",
+      "distance": 0
+    },
+    {
+      "a": "toxic-upload",
+      "b": "health-hazard-upload",
+      "distance": 0
+    },
+    {
+      "a": "toxic-crown",
+      "b": "oxidizer-crown",
+      "distance": 0
+    },
+    {
+      "a": "toxic-crown",
+      "b": "corrosive-crown",
+      "distance": 0
+    },
+    {
+      "a": "toxic-crown",
+      "b": "health-hazard-crown",
+      "distance": 0
+    },
+    {
+      "a": "toxic-leaf",
+      "b": "oxidizer-leaf",
+      "distance": 0
+    },
+    {
+      "a": "toxic-leaf",
+      "b": "corrosive-leaf",
+      "distance": 0
+    },
+    {
+      "a": "toxic-leaf",
+      "b": "health-hazard-leaf",
+      "distance": 0
+    },
+    {
+      "a": "toxic-hourglass",
+      "b": "oxidizer-hourglass",
+      "distance": 0
+    },
+    {
+      "a": "toxic-hourglass",
+      "b": "corrosive-hourglass",
+      "distance": 0
+    },
+    {
+      "a": "toxic-hourglass",
+      "b": "health-hazard-hourglass",
+      "distance": 0
+    },
+    {
+      "a": "toxic-cursor",
+      "b": "oxidizer-cursor",
+      "distance": 0
+    },
+    {
+      "a": "toxic-cursor",
+      "b": "corrosive-cursor",
+      "distance": 0
+    },
+    {
+      "a": "toxic-cursor",
+      "b": "health-hazard-cursor",
+      "distance": 0
+    },
+    {
+      "a": "toxic-camera",
+      "b": "oxidizer-camera",
+      "distance": 0
+    },
+    {
+      "a": "toxic-camera",
+      "b": "corrosive-camera",
+      "distance": 0
+    },
+    {
+      "a": "toxic-camera",
+      "b": "health-hazard-camera",
+      "distance": 0
+    },
+    {
+      "a": "toxic-filter",
+      "b": "oxidizer-filter",
+      "distance": 0
+    },
+    {
+      "a": "toxic-filter",
+      "b": "corrosive-filter",
+      "distance": 0
+    },
+    {
+      "a": "toxic-filter",
+      "b": "health-hazard-filter",
+      "distance": 0
+    },
+    {
+      "a": "toxic-stats",
+      "b": "oxidizer-stats",
+      "distance": 0
+    },
+    {
+      "a": "toxic-stats",
+      "b": "corrosive-stats",
+      "distance": 0
+    },
+    {
+      "a": "toxic-stats",
+      "b": "health-hazard-stats",
+      "distance": 0
+    },
+    {
+      "a": "toxic-checkbox",
+      "b": "oxidizer-checkbox",
+      "distance": 0
+    },
+    {
+      "a": "toxic-checkbox",
+      "b": "corrosive-checkbox",
+      "distance": 0
+    },
+    {
+      "a": "toxic-checkbox",
+      "b": "health-hazard-checkbox",
+      "distance": 0
+    },
+    {
+      "a": "oxidizer-search",
+      "b": "corrosive-search",
+      "distance": 0
+    },
+    {
+      "a": "oxidizer-search",
+      "b": "health-hazard-search",
+      "distance": 0
+    },
+    {
+      "a": "oxidizer-search",
+      "b": "environment-hazard-search",
+      "distance": 0
+    },
+    {
+      "a": "oxidizer-clock",
+      "b": "corrosive-clock",
+      "distance": 0
+    },
+    {
+      "a": "oxidizer-clock",
+      "b": "health-hazard-clock",
+      "distance": 0
+    },
+    {
+      "a": "oxidizer-clock",
+      "b": "environment-hazard-clock",
+      "distance": 0
+    },
+    {
+      "a": "oxidizer-gear",
+      "b": "corrosive-gear",
+      "distance": 0
+    },
+    {
+      "a": "oxidizer-gear",
+      "b": "health-hazard-gear",
+      "distance": 0
+    },
+    {
+      "a": "oxidizer-bolt",
+      "b": "corrosive-bolt",
+      "distance": 0
+    },
+    {
+      "a": "oxidizer-bolt",
+      "b": "health-hazard-bolt",
+      "distance": 0
+    },
+    {
+      "a": "oxidizer-heart",
+      "b": "corrosive-heart",
+      "distance": 0
+    },
+    {
+      "a": "oxidizer-heart",
+      "b": "health-hazard-heart",
+      "distance": 0
+    },
+    {
+      "a": "oxidizer-star",
+      "b": "corrosive-star",
+      "distance": 0
+    },
+    {
+      "a": "oxidizer-star",
+      "b": "health-hazard-star",
+      "distance": 0
+    },
+    {
+      "a": "oxidizer-cloud",
+      "b": "corrosive-cloud",
+      "distance": 0
+    },
+    {
+      "a": "oxidizer-cloud",
+      "b": "health-hazard-cloud",
+      "distance": 0
+    },
+    {
+      "a": "oxidizer-chat",
+      "b": "corrosive-chat",
+      "distance": 0
+    },
+    {
+      "a": "oxidizer-chat",
+      "b": "health-hazard-chat",
+      "distance": 0
+    },
+    {
+      "a": "oxidizer-download",
+      "b": "corrosive-download",
+      "distance": 0
+    },
+    {
+      "a": "oxidizer-download",
+      "b": "health-hazard-download",
+      "distance": 0
+    },
+    {
+      "a": "oxidizer-pencil",
+      "b": "corrosive-pencil",
+      "distance": 0
+    },
+    {
+      "a": "oxidizer-pencil",
+      "b": "health-hazard-pencil",
+      "distance": 0
+    },
+    {
+      "a": "oxidizer-trash",
+      "b": "corrosive-trash",
+      "distance": 0
+    },
+    {
+      "a": "oxidizer-trash",
+      "b": "health-hazard-trash",
+      "distance": 0
+    },
+    {
+      "a": "oxidizer-calendar",
+      "b": "corrosive-calendar",
+      "distance": 0
+    },
+    {
+      "a": "oxidizer-calendar",
+      "b": "health-hazard-calendar",
+      "distance": 0
+    },
+    {
+      "a": "oxidizer-question",
+      "b": "corrosive-question",
+      "distance": 0
+    },
+    {
+      "a": "oxidizer-question",
+      "b": "health-hazard-question",
+      "distance": 0
+    },
+    {
+      "a": "oxidizer-bookmark",
+      "b": "corrosive-bookmark",
+      "distance": 0
+    },
+    {
+      "a": "oxidizer-bookmark",
+      "b": "health-hazard-bookmark",
+      "distance": 0
+    },
+    {
+      "a": "oxidizer-upload",
+      "b": "corrosive-upload",
+      "distance": 0
+    },
+    {
+      "a": "oxidizer-upload",
+      "b": "health-hazard-upload",
+      "distance": 0
+    },
+    {
+      "a": "oxidizer-crown",
+      "b": "corrosive-crown",
+      "distance": 0
+    },
+    {
+      "a": "oxidizer-crown",
+      "b": "health-hazard-crown",
+      "distance": 0
+    },
+    {
+      "a": "oxidizer-leaf",
+      "b": "corrosive-leaf",
+      "distance": 0
+    },
+    {
+      "a": "oxidizer-leaf",
+      "b": "health-hazard-leaf",
+      "distance": 0
+    },
+    {
+      "a": "oxidizer-hourglass",
+      "b": "corrosive-hourglass",
+      "distance": 0
+    },
+    {
+      "a": "oxidizer-hourglass",
+      "b": "health-hazard-hourglass",
+      "distance": 0
+    },
+    {
+      "a": "oxidizer-cursor",
+      "b": "corrosive-cursor",
+      "distance": 0
+    },
+    {
+      "a": "oxidizer-cursor",
+      "b": "health-hazard-cursor",
+      "distance": 0
+    },
+    {
+      "a": "oxidizer-camera",
+      "b": "corrosive-camera",
+      "distance": 0
+    },
+    {
+      "a": "oxidizer-camera",
+      "b": "health-hazard-camera",
+      "distance": 0
+    },
+    {
+      "a": "oxidizer-filter",
+      "b": "corrosive-filter",
+      "distance": 0
+    },
+    {
+      "a": "oxidizer-filter",
+      "b": "health-hazard-filter",
+      "distance": 0
+    },
+    {
+      "a": "oxidizer-stats",
+      "b": "corrosive-stats",
+      "distance": 0
+    },
+    {
+      "a": "oxidizer-stats",
+      "b": "health-hazard-stats",
+      "distance": 0
+    },
+    {
+      "a": "oxidizer-checkbox",
+      "b": "corrosive-checkbox",
+      "distance": 0
+    },
+    {
+      "a": "oxidizer-checkbox",
+      "b": "health-hazard-checkbox",
+      "distance": 0
     },
     {
-      "a": "video-lesson-shield",
-      "b": "screen-record-shield",
-      "distance": 1
+      "a": "corrosive-search",
+      "b": "health-hazard-search",
+      "distance": 0
     },
     {
-      "a": "video-lesson-gear",
-      "b": "screen-record-gear",
-      "distance": 1
+      "a": "corrosive-search",
+      "b": "environment-hazard-search",
+      "distance": 0
     },
     {
-      "a": "video-lesson-bolt",
-      "b": "screen-record-bolt",
-      "distance": 1
+      "a": "corrosive-clock",
+      "b": "health-hazard-clock",
+      "distance": 0
     },
     {
-      "a": "video-lesson-heart",
-      "b": "screen-record-heart",
-      "distance": 1
+      "a": "corrosive-clock",
+      "b": "environment-hazard-clock",
+      "distance": 0
     },
     {
-      "a": "video-lesson-star",
-      "b": "screen-record-star",
-      "distance": 1
+      "a": "corrosive-gear",
+      "b": "health-hazard-gear",
+      "distance": 0
     },
     {
-      "a": "video-lesson-alert",
-      "b": "screen-record-alert",
-      "distance": 1
+      "a": "corrosive-bolt",
+      "b": "health-hazard-bolt",
+      "distance": 0
     },
     {
-      "a": "video-lesson-user",
-      "b": "screen-record-user",
-      "distance": 1
+      "a": "corrosive-heart",
+      "b": "health-hazard-heart",
+      "distance": 0
     },
     {
-      "a": "video-lesson-cloud",
-      "b": "screen-record-cloud",
-      "distance": 1
+      "a": "corrosive-star",
+      "b": "health-hazard-star",
+      "distance": 0
     },
     {
-      "a": "video-lesson-chat",
-      "b": "screen-record-chat",
-      "distance": 1
+      "a": "corrosive-cloud",
+      "b": "health-hazard-cloud",
+      "distance": 0
     },
     {
-      "a": "video-lesson-download",
-      "b": "screen-record-download",
-      "distance": 1
+      "a": "corrosive-chat",
+      "b": "health-hazard-chat",
+      "distance": 0
     },
     {
-      "a": "video-lesson-pencil",
-      "b": "screen-record-pencil",
-      "distance": 1
+      "a": "corrosive-download",
+      "b": "health-hazard-download",
+      "distance": 0
     },
     {
-      "a": "video-lesson-sparkle",
-      "b": "screen-record-sparkle",
-      "distance": 1
+      "a": "corrosive-pencil",
+      "b": "health-hazard-pencil",
+      "distance": 0
     },
     {
-      "a": "video-lesson-calendar",
-      "b": "screen-record-calendar",
-      "distance": 1
+      "a": "corrosive-trash",
+      "b": "health-hazard-trash",
+      "distance": 0
     },
     {
-      "a": "video-lesson-question",
-      "b": "screen-record-question",
-      "distance": 1
+      "a": "corrosive-calendar",
+      "b": "health-hazard-calendar",
+      "distance": 0
     },
     {
-      "a": "video-lesson-bookmark",
-      "b": "screen-record-bookmark",
-      "distance": 1
+      "a": "corrosive-question",
+      "b": "health-hazard-question",
+      "distance": 0
     },
     {
-      "a": "video-lesson-leaf",
-      "b": "screen-record-leaf",
-      "distance": 1
+      "a": "corrosive-bookmark",
+      "b": "health-hazard-bookmark",
+      "distance": 0
     },
     {
-      "a": "video-lesson-trophy",
-      "b": "screen-record-trophy",
-      "distance": 1
+      "a": "corrosive-upload",
+      "b": "health-hazard-upload",
+      "distance": 0
     },
     {
-      "a": "video-lesson-hourglass",
-      "b": "screen-record-hourglass",
-      "distance": 1
+      "a": "corrosive-crown",
+      "b": "health-hazard-crown",
+      "distance": 0
     },
     {
-      "a": "video-lesson-cursor",
-      "b": "screen-record-cursor",
-      "distance": 1
+      "a": "corrosive-leaf",
+      "b": "health-hazard-leaf",
+      "distance": 0
     },
     {
-      "a": "video-lesson-camera",
-      "b": "screen-record-camera",
-      "distance": 1
+      "a": "corrosive-hourglass",
+      "b": "health-hazard-hourglass",
+      "distance": 0
     },
     {
-      "a": "video-lesson-filter",
-      "b": "screen-record-filter",
-      "distance": 1
+      "a": "corrosive-cursor",
+      "b": "health-hazard-cursor",
+      "distance": 0
     },
     {
-      "a": "video-lesson-stats",
-      "b": "screen-record-stats",
-      "distance": 1
+      "a": "corrosive-camera",
+      "b": "health-hazard-camera",
+      "distance": 0
     },
     {
-      "a": "video-lesson-checkbox",
-      "b": "screen-record-checkbox",
-      "distance": 1
+      "a": "corrosive-filter",
+      "b": "health-hazard-filter",
+      "distance": 0
     },
     {
-      "a": "bottle-cap-search",
-      "b": "record-search",
-      "distance": 1.41
+      "a": "corrosive-stats",
+      "b": "health-hazard-stats",
+      "distance": 0
     },
     {
-      "a": "bottle-cap-clock",
-      "b": "record-clock",
-      "distance": 1.41
+      "a": "corrosive-checkbox",
+      "b": "health-hazard-checkbox",
+      "distance": 0
     },
     {
-      "a": "bottle-cap-shield",
-      "b": "record-shield",
-      "distance": 1.41
+      "a": "health-hazard-search",
+      "b": "environment-hazard-search",
+      "distance": 0
     },
     {
-      "a": "bottle-cap-gear",
-      "b": "record-gear",
-      "distance": 1.41
+      "a": "health-hazard-clock",
+      "b": "environment-hazard-clock",
+      "distance": 0
     },
     {
-      "a": "bottle-cap-heart",
-      "b": "record-heart",
+      "a": "lemon-slice-bell",
+      "b": "avatar-group-bell",
       "distance": 1.41
     },
     {
-      "a": "bottle-cap-user",
-      "b": "record-user",
+      "a": "lemon-slice-moon",
+      "b": "avatar-group-moon",
       "distance": 1.41
     },
     {
-      "a": "bottle-cap-chat",
-      "b": "record-chat",
+      "a": "plant-pot-bell",
+      "b": "potted-plant-bell",
       "distance": 1.41
     },
     {
-      "a": "bottle-cap-download",
-      "b": "record-download",
+      "a": "plant-pot-moon",
+      "b": "potted-plant-moon",
       "distance": 1.41
     },
     {
-      "a": "bottle-cap-pencil",
-      "b": "record-pencil",
+      "a": "wood-log-bell",
+      "b": "avatar-group-bell",
       "distance": 1.41
     },
     {
-      "a": "bottle-cap-trash",
-      "b": "record-trash",
+      "a": "wood-log-moon",
+      "b": "avatar-group-moon",
       "distance": 1.41
     },
     {
-      "a": "bottle-cap-calendar",
-      "b": "record-calendar",
+      "a": "sippy-cup-bell",
+      "b": "hand-raised-bell",
       "distance": 1.41
     },
     {
-      "a": "bottle-cap-question",
-      "b": "record-question",
+      "a": "sippy-cup-moon",
+      "b": "hand-raised-moon",
       "distance": 1.41
     },
     {
-      "a": "bottle-cap-bookmark",
-      "b": "record-bookmark",
-      "distance": 1.41
+      "a": "flammable-bell",
+      "b": "explosive-bell",
+      "distance": 0
     },
     {
-      "a": "bottle-cap-crown",
-      "b": "record-crown",
-      "distance": 1.41
+      "a": "flammable-bell",
+      "b": "toxic-bell",
+      "distance": 0
     },
     {
-      "a": "bottle-cap-trophy",
-      "b": "record-trophy",
-      "distance": 1.41
+      "a": "flammable-bell",
+      "b": "oxidizer-bell",
+      "distance": 0
     },
     {
-      "a": "bottle-cap-hourglass",
-      "b": "record-hourglass",
-      "distance": 1.41
+      "a": "flammable-bell",
+      "b": "corrosive-bell",
+      "distance": 0
     },
     {
-      "a": "bottle-cap-cursor",
-      "b": "record-cursor",
-      "distance": 1.41
+      "a": "flammable-bell",
+      "b": "health-hazard-bell",
+      "distance": 0
     },
     {
-      "a": "bottle-cap-camera",
-      "b": "record-camera",
-      "distance": 1.41
+      "a": "flammable-moon",
+      "b": "explosive-moon",
+      "distance": 0
     },
     {
-      "a": "bottle-cap-filter",
-      "b": "record-filter",
-      "distance": 1.41
+      "a": "flammable-moon",
+      "b": "toxic-moon",
+      "distance": 0
     },
     {
-      "a": "bottle-cap-stats",
-      "b": "record-stats",
-      "distance": 1.41
+      "a": "flammable-moon",
+      "b": "oxidizer-moon",
+      "distance": 0
     },
     {
-      "a": "bottle-cap-checkbox",
-      "b": "record-checkbox",
-      "distance": 1.41
+      "a": "flammable-moon",
+      "b": "corrosive-moon",
+      "distance": 0
     },
     {
-      "a": "bongo-pencil",
-      "b": "bongo-leaf",
-      "distance": 1.41
+      "a": "flammable-moon",
+      "b": "health-hazard-moon",
+      "distance": 0
     },
     {
-      "a": "gong-pencil",
-      "b": "gong-leaf",
-      "distance": 1.41
+      "a": "flammable-trophy",
+      "b": "explosive-trophy",
+      "distance": 0
     },
     {
-      "a": "gong-sparkle",
-      "b": "gong-upload",
-      "distance": 1.41
+      "a": "flammable-trophy",
+      "b": "toxic-trophy",
+      "distance": 0
     },
     {
-      "a": "synthesizer-pencil",
-      "b": "synthesizer-leaf",
-      "distance": 1.41
+      "a": "flammable-trophy",
+      "b": "oxidizer-trophy",
+      "distance": 0
     },
     {
-      "a": "synthesizer-sparkle",
-      "b": "synthesizer-upload",
-      "distance": 1.41
+      "a": "flammable-trophy",
+      "b": "corrosive-trophy",
+      "distance": 0
     },
     {
-      "a": "disc-search",
-      "b": "soccer-search",
-      "distance": 1.41
+      "a": "flammable-trophy",
+      "b": "health-hazard-trophy",
+      "distance": 0
     },
     {
-      "a": "disc-clock",
-      "b": "soccer-clock",
-      "distance": 1.41
+      "a": "explosive-bell",
+      "b": "toxic-bell",
+      "distance": 0
+    },
+    {
+      "a": "explosive-bell",
+      "b": "oxidizer-bell",
+      "distance": 0
+    },
+    {
+      "a": "explosive-bell",
+      "b": "corrosive-bell",
+      "distance": 0
+    },
+    {
+      "a": "explosive-bell",
+      "b": "health-hazard-bell",
+      "distance": 0
+    },
+    {
+      "a": "explosive-moon",
+      "b": "toxic-moon",
+      "distance": 0
+    },
+    {
+      "a": "explosive-moon",
+      "b": "oxidizer-moon",
+      "distance": 0
+    },
+    {
+      "a": "explosive-moon",
+      "b": "corrosive-moon",
+      "distance": 0
+    },
+    {
+      "a": "explosive-moon",
+      "b": "health-hazard-moon",
+      "distance": 0
+    },
+    {
+      "a": "explosive-trophy",
+      "b": "toxic-trophy",
+      "distance": 0
+    },
+    {
+      "a": "explosive-trophy",
+      "b": "oxidizer-trophy",
+      "distance": 0
+    },
+    {
+      "a": "explosive-trophy",
+      "b": "corrosive-trophy",
+      "distance": 0
+    },
+    {
+      "a": "explosive-trophy",
+      "b": "health-hazard-trophy",
+      "distance": 0
+    },
+    {
+      "a": "toxic-bell",
+      "b": "oxidizer-bell",
+      "distance": 0
+    },
+    {
+      "a": "toxic-bell",
+      "b": "corrosive-bell",
+      "distance": 0
+    },
+    {
+      "a": "toxic-bell",
+      "b": "health-hazard-bell",
+      "distance": 0
+    },
+    {
+      "a": "toxic-moon",
+      "b": "oxidizer-moon",
+      "distance": 0
+    },
+    {
+      "a": "toxic-moon",
+      "b": "corrosive-moon",
+      "distance": 0
+    },
+    {
+      "a": "toxic-moon",
+      "b": "health-hazard-moon",
+      "distance": 0
+    },
+    {
+      "a": "toxic-trophy",
+      "b": "oxidizer-trophy",
+      "distance": 0
+    },
+    {
+      "a": "toxic-trophy",
+      "b": "corrosive-trophy",
+      "distance": 0
+    },
+    {
+      "a": "toxic-trophy",
+      "b": "health-hazard-trophy",
+      "distance": 0
+    },
+    {
+      "a": "oxidizer-bell",
+      "b": "corrosive-bell",
+      "distance": 0
+    },
+    {
+      "a": "oxidizer-bell",
+      "b": "health-hazard-bell",
+      "distance": 0
+    },
+    {
+      "a": "oxidizer-moon",
+      "b": "corrosive-moon",
+      "distance": 0
+    },
+    {
+      "a": "oxidizer-moon",
+      "b": "health-hazard-moon",
+      "distance": 0
+    },
+    {
+      "a": "oxidizer-trophy",
+      "b": "corrosive-trophy",
+      "distance": 0
+    },
+    {
+      "a": "oxidizer-trophy",
+      "b": "health-hazard-trophy",
+      "distance": 0
+    },
+    {
+      "a": "corrosive-bell",
+      "b": "health-hazard-bell",
+      "distance": 0
+    },
+    {
+      "a": "corrosive-moon",
+      "b": "health-hazard-moon",
+      "distance": 0
+    },
+    {
+      "a": "corrosive-trophy",
+      "b": "health-hazard-trophy",
+      "distance": 0
     },
     {
-      "a": "disc-shield",
-      "b": "soccer-shield",
+      "a": "lemon-slice-fire",
+      "b": "avatar-group-fire",
       "distance": 1.41
     },
     {
-      "a": "disc-gear",
-      "b": "soccer-gear",
+      "a": "plant-pot-fire",
+      "b": "potted-plant-fire",
       "distance": 1.41
     },
     {
-      "a": "disc-star",
-      "b": "soccer-star",
+      "a": "sippy-cup-fire",
+      "b": "hand-raised-fire",
       "distance": 1.41
+    },
+    {
+      "a": "flammable-fire",
+      "b": "explosive-fire",
+      "distance": 0
+    },
+    {
+      "a": "flammable-fire",
+      "b": "toxic-fire",
+      "distance": 0
+    },
+    {
+      "a": "flammable-fire",
+      "b": "oxidizer-fire",
+      "distance": 0
+    },
+    {
+      "a": "flammable-fire",
+      "b": "corrosive-fire",
+      "distance": 0
+    },
+    {
+      "a": "flammable-fire",
+      "b": "health-hazard-fire",
+      "distance": 0
+    },
+    {
+      "a": "explosive-fire",
+      "b": "toxic-fire",
+      "distance": 0
+    },
+    {
+      "a": "explosive-fire",
+      "b": "oxidizer-fire",
+      "distance": 0
+    },
+    {
+      "a": "explosive-fire",
+      "b": "corrosive-fire",
+      "distance": 0
+    },
+    {
+      "a": "explosive-fire",
+      "b": "health-hazard-fire",
+      "distance": 0
+    },
+    {
+      "a": "toxic-fire",
+      "b": "oxidizer-fire",
+      "distance": 0
+    },
+    {
+      "a": "toxic-fire",
+      "b": "corrosive-fire",
+      "distance": 0
+    },
+    {
+      "a": "toxic-fire",
+      "b": "health-hazard-fire",
+      "distance": 0
+    },
+    {
+      "a": "oxidizer-fire",
+      "b": "corrosive-fire",
+      "distance": 0
+    },
+    {
+      "a": "oxidizer-fire",
+      "b": "health-hazard-fire",
+      "distance": 0
+    },
+    {
+      "a": "corrosive-fire",
+      "b": "health-hazard-fire",
+      "distance": 0
     },
     {
-      "a": "disc-cloud",
-      "b": "soccer-cloud",
+      "a": "lemon-slice-pin",
+      "b": "avatar-group-pin",
       "distance": 1.41
     },
     {
-      "a": "disc-chat",
-      "b": "soccer-chat",
+      "a": "lemon-slice-flag",
+      "b": "avatar-group-flag",
       "distance": 1.41
     },
     {
-      "a": "disc-download",
-      "b": "soccer-download",
+      "a": "plant-pot-pin",
+      "b": "potted-plant-pin",
       "distance": 1.41
     },
     {
-      "a": "disc-pencil",
-      "b": "disc-leaf",
+      "a": "plant-pot-user",
+      "b": "potted-plant-user",
       "distance": 1.41
     },
     {
-      "a": "disc-pencil",
-      "b": "soccer-pencil",
+      "a": "plant-pot-sparkle",
+      "b": "potted-plant-sparkle",
       "distance": 1.41
     },
     {
-      "a": "disc-calendar",
-      "b": "soccer-calendar",
+      "a": "plant-pot-sparkle",
+      "b": "potted-plant-upload",
       "distance": 1.41
     },
     {
-      "a": "disc-question",
-      "b": "soccer-question",
+      "a": "plant-pot-flag",
+      "b": "potted-plant-flag",
       "distance": 1.41
     },
     {
-      "a": "disc-upload",
-      "b": "soccer-sparkle",
+      "a": "seedling-sparkle",
+      "b": "seedling-upload",
       "distance": 1.41
     },
     {
-      "a": "disc-crown",
-      "b": "soccer-crown",
+      "a": "cocoon-sparkle",
+      "b": "cocoon-upload",
       "distance": 1.41
     },
     {
-      "a": "disc-leaf",
-      "b": "soccer-pencil",
+      "a": "river-sparkle",
+      "b": "river-upload",
       "distance": 1.41
     },
     {
-      "a": "disc-camera",
-      "b": "soccer-camera",
+      "a": "cairn-sparkle",
+      "b": "cairn-upload",
       "distance": 1.41
     },
     {
-      "a": "disc-checkbox",
-      "b": "soccer-checkbox",
+      "a": "wood-log-pin",
+      "b": "avatar-group-pin",
       "distance": 1.41
     },
     {
-      "a": "cast-pencil",
-      "b": "cast-leaf",
+      "a": "wood-log-sparkle",
+      "b": "wood-log-upload",
       "distance": 1.41
     },
     {
-      "a": "album-pencil",
-      "b": "album-leaf",
+      "a": "wood-log-sparkle",
+      "b": "avatar-group-sparkle",
       "distance": 1.41
     },
     {
-      "a": "piano-keys-gear",
-      "b": "piano-keys-stats",
+      "a": "wood-log-sparkle",
+      "b": "avatar-group-upload",
       "distance": 1.41
     },
     {
-      "a": "piano-keys-pencil",
-      "b": "piano-keys-leaf",
+      "a": "wood-log-flag",
+      "b": "avatar-group-flag",
       "distance": 1.41
     },
     {
-      "a": "piano-keys-sparkle",
-      "b": "piano-keys-upload",
+      "a": "succulent-sparkle",
+      "b": "succulent-upload",
       "distance": 1.41
     },
     {
-      "a": "subtitles-gear",
-      "b": "subtitles-stats",
+      "a": "coral-sparkle",
+      "b": "coral-upload",
       "distance": 1.41
     },
     {
-      "a": "subtitles-pencil",
-      "b": "subtitles-leaf",
+      "a": "potted-plant-sparkle",
+      "b": "potted-plant-upload",
       "distance": 1.41
     },
     {
-      "a": "subtitles-sparkle",
-      "b": "subtitles-upload",
+      "a": "gender-neutral-sparkle",
+      "b": "gender-neutral-upload",
       "distance": 1.41
     },
     {
-      "a": "aperture-pencil",
-      "b": "aperture-leaf",
+      "a": "sippy-cup-pin",
+      "b": "hand-raised-pin",
       "distance": 1.41
     },
     {
-      "a": "tv-retro-pencil",
-      "b": "tv-retro-leaf",
+      "a": "sippy-cup-flag",
+      "b": "hand-raised-flag",
       "distance": 1.41
     },
     {
-      "a": "tv-retro-sparkle",
-      "b": "tv-retro-upload",
+      "a": "user-tie-sparkle",
+      "b": "user-tie-upload",
       "distance": 1.41
     },
     {
-      "a": "maracas-sparkle",
-      "b": "maracas-upload",
+      "a": "family-sparkle",
+      "b": "family-upload",
       "distance": 1.41
     },
     {
-      "a": "record-pencil",
-      "b": "record-leaf",
+      "a": "user-voice-sparkle",
+      "b": "user-voice-upload",
       "distance": 1.41
     },
     {
-      "a": "images-sparkle",
-      "b": "images-upload",
+      "a": "lunar-lander-sparkle",
+      "b": "lunar-lander-upload",
       "distance": 1.41
     },
     {
-      "a": "playlist-pencil",
-      "b": "playlist-leaf",
+      "a": "lens-sparkle",
+      "b": "lens-upload",
       "distance": 1.41
+    },
+    {
+      "a": "flammable-shield",
+      "b": "explosive-shield",
+      "distance": 0
+    },
+    {
+      "a": "flammable-shield",
+      "b": "toxic-shield",
+      "distance": 0
+    },
+    {
+      "a": "flammable-shield",
+      "b": "oxidizer-shield",
+      "distance": 0
+    },
+    {
+      "a": "flammable-shield",
+      "b": "corrosive-shield",
+      "distance": 0
+    },
+    {
+      "a": "flammable-shield",
+      "b": "health-hazard-shield",
+      "distance": 0
+    },
+    {
+      "a": "flammable-shield",
+      "b": "environment-hazard-shield",
+      "distance": 0
+    },
+    {
+      "a": "flammable-pin",
+      "b": "explosive-pin",
+      "distance": 0
+    },
+    {
+      "a": "flammable-pin",
+      "b": "toxic-pin",
+      "distance": 0
+    },
+    {
+      "a": "flammable-pin",
+      "b": "oxidizer-pin",
+      "distance": 0
+    },
+    {
+      "a": "flammable-pin",
+      "b": "corrosive-pin",
+      "distance": 0
+    },
+    {
+      "a": "flammable-pin",
+      "b": "health-hazard-pin",
+      "distance": 0
+    },
+    {
+      "a": "flammable-user",
+      "b": "explosive-user",
+      "distance": 0
+    },
+    {
+      "a": "flammable-user",
+      "b": "toxic-user",
+      "distance": 0
+    },
+    {
+      "a": "flammable-user",
+      "b": "oxidizer-user",
+      "distance": 0
+    },
+    {
+      "a": "flammable-user",
+      "b": "corrosive-user",
+      "distance": 0
+    },
+    {
+      "a": "flammable-user",
+      "b": "health-hazard-user",
+      "distance": 0
     },
     {
-      "a": "terrarium-pencil",
-      "b": "terrarium-leaf",
+      "a": "flammable-sparkle",
+      "b": "flammable-upload",
       "distance": 1.41
+    },
+    {
+      "a": "flammable-sparkle",
+      "b": "explosive-sparkle",
+      "distance": 0
     },
     {
-      "a": "compost-bin-pencil",
-      "b": "compost-bin-leaf",
+      "a": "flammable-sparkle",
+      "b": "explosive-upload",
       "distance": 1.41
+    },
+    {
+      "a": "flammable-sparkle",
+      "b": "toxic-sparkle",
+      "distance": 0
     },
     {
-      "a": "bonsai-sparkle",
-      "b": "bonsai-upload",
+      "a": "flammable-sparkle",
+      "b": "toxic-upload",
       "distance": 1.41
+    },
+    {
+      "a": "flammable-sparkle",
+      "b": "oxidizer-sparkle",
+      "distance": 0
     },
     {
-      "a": "iceberg-sparkle",
-      "b": "iceberg-upload",
+      "a": "flammable-sparkle",
+      "b": "oxidizer-upload",
       "distance": 1.41
+    },
+    {
+      "a": "flammable-sparkle",
+      "b": "corrosive-sparkle",
+      "distance": 0
     },
     {
-      "a": "hills-pencil",
-      "b": "hills-leaf",
+      "a": "flammable-sparkle",
+      "b": "corrosive-upload",
       "distance": 1.41
+    },
+    {
+      "a": "flammable-sparkle",
+      "b": "health-hazard-sparkle",
+      "distance": 0
     },
     {
-      "a": "bird-feeder-pencil",
-      "b": "bird-feeder-leaf",
+      "a": "flammable-sparkle",
+      "b": "health-hazard-upload",
       "distance": 1.41
+    },
+    {
+      "a": "flammable-flag",
+      "b": "explosive-flag",
+      "distance": 0
+    },
+    {
+      "a": "flammable-flag",
+      "b": "toxic-flag",
+      "distance": 0
+    },
+    {
+      "a": "flammable-flag",
+      "b": "oxidizer-flag",
+      "distance": 0
+    },
+    {
+      "a": "flammable-flag",
+      "b": "corrosive-flag",
+      "distance": 0
+    },
+    {
+      "a": "flammable-flag",
+      "b": "health-hazard-flag",
+      "distance": 0
     },
     {
-      "a": "bird-feeder-sparkle",
-      "b": "bird-feeder-upload",
+      "a": "flammable-upload",
+      "b": "explosive-sparkle",
       "distance": 1.41
     },
     {
-      "a": "herb-sparkle",
-      "b": "herb-upload",
+      "a": "flammable-upload",
+      "b": "toxic-sparkle",
       "distance": 1.41
     },
     {
-      "a": "log-pile-pencil",
-      "b": "log-pile-leaf",
+      "a": "flammable-upload",
+      "b": "oxidizer-sparkle",
       "distance": 1.41
     },
     {
-      "a": "log-pile-sparkle",
-      "b": "log-pile-upload",
+      "a": "flammable-upload",
+      "b": "corrosive-sparkle",
       "distance": 1.41
     },
     {
-      "a": "spider-web-sparkle",
-      "b": "spider-web-upload",
+      "a": "flammable-upload",
+      "b": "health-hazard-sparkle",
       "distance": 1.41
     },
     {
-      "a": "video-lesson-bell",
-      "b": "screen-record-bell",
-      "distance": 1
+      "a": "explosive-shield",
+      "b": "toxic-shield",
+      "distance": 0
     },
     {
-      "a": "video-lesson-moon",
-      "b": "screen-record-moon",
-      "distance": 1
+      "a": "explosive-shield",
+      "b": "oxidizer-shield",
+      "distance": 0
     },
     {
-      "a": "bottle-cap-moon",
-      "b": "record-moon",
-      "distance": 1.41
+      "a": "explosive-shield",
+      "b": "corrosive-shield",
+      "distance": 0
     },
     {
-      "a": "disc-moon",
-      "b": "soccer-moon",
-      "distance": 1.41
+      "a": "explosive-shield",
+      "b": "health-hazard-shield",
+      "distance": 0
     },
     {
-      "a": "video-lesson-fire",
-      "b": "screen-record-fire",
-      "distance": 1
+      "a": "explosive-shield",
+      "b": "environment-hazard-shield",
+      "distance": 0
     },
     {
-      "a": "video-lesson-pin",
-      "b": "screen-record-pin",
-      "distance": 1
+      "a": "explosive-pin",
+      "b": "toxic-pin",
+      "distance": 0
     },
     {
-      "a": "video-lesson-flag",
-      "b": "screen-record-flag",
-      "distance": 1
+      "a": "explosive-pin",
+      "b": "oxidizer-pin",
+      "distance": 0
     },
     {
-      "a": "bottle-cap-pin",
-      "b": "record-pin",
-      "distance": 1.41
+      "a": "explosive-pin",
+      "b": "corrosive-pin",
+      "distance": 0
     },
     {
-      "a": "bottle-cap-bell",
-      "b": "record-bell",
-      "distance": 1.41
+      "a": "explosive-pin",
+      "b": "health-hazard-pin",
+      "distance": 0
+    },
+    {
+      "a": "explosive-user",
+      "b": "toxic-user",
+      "distance": 0
+    },
+    {
+      "a": "explosive-user",
+      "b": "oxidizer-user",
+      "distance": 0
+    },
+    {
+      "a": "explosive-user",
+      "b": "corrosive-user",
+      "distance": 0
+    },
+    {
+      "a": "explosive-user",
+      "b": "health-hazard-user",
+      "distance": 0
     },
     {
-      "a": "bottle-cap-flag",
-      "b": "record-flag",
+      "a": "explosive-sparkle",
+      "b": "explosive-upload",
       "distance": 1.41
+    },
+    {
+      "a": "explosive-sparkle",
+      "b": "toxic-sparkle",
+      "distance": 0
     },
     {
-      "a": "knob-sparkle",
-      "b": "knob-upload",
+      "a": "explosive-sparkle",
+      "b": "toxic-upload",
       "distance": 1.41
+    },
+    {
+      "a": "explosive-sparkle",
+      "b": "oxidizer-sparkle",
+      "distance": 0
     },
     {
-      "a": "fast-forward-sparkle",
-      "b": "fast-forward-upload",
+      "a": "explosive-sparkle",
+      "b": "oxidizer-upload",
       "distance": 1.41
+    },
+    {
+      "a": "explosive-sparkle",
+      "b": "corrosive-sparkle",
+      "distance": 0
     },
     {
-      "a": "cast-sparkle",
-      "b": "cast-upload",
+      "a": "explosive-sparkle",
+      "b": "corrosive-upload",
       "distance": 1.41
+    },
+    {
+      "a": "explosive-sparkle",
+      "b": "health-hazard-sparkle",
+      "distance": 0
     },
     {
-      "a": "slow-motion-sparkle",
-      "b": "slow-motion-upload",
+      "a": "explosive-sparkle",
+      "b": "health-hazard-upload",
       "distance": 1.41
+    },
+    {
+      "a": "explosive-flag",
+      "b": "toxic-flag",
+      "distance": 0
+    },
+    {
+      "a": "explosive-flag",
+      "b": "oxidizer-flag",
+      "distance": 0
+    },
+    {
+      "a": "explosive-flag",
+      "b": "corrosive-flag",
+      "distance": 0
+    },
+    {
+      "a": "explosive-flag",
+      "b": "health-hazard-flag",
+      "distance": 0
     },
     {
-      "a": "djembe-sparkle",
-      "b": "djembe-upload",
+      "a": "explosive-upload",
+      "b": "toxic-sparkle",
       "distance": 1.41
     },
     {
-      "a": "sharp-sign-sparkle",
-      "b": "sharp-sign-upload",
+      "a": "explosive-upload",
+      "b": "oxidizer-sparkle",
       "distance": 1.41
     },
     {
-      "a": "flat-sign-sparkle",
-      "b": "flat-sign-upload",
+      "a": "explosive-upload",
+      "b": "corrosive-sparkle",
       "distance": 1.41
     },
     {
-      "a": "natural-sign-sparkle",
-      "b": "natural-sign-upload",
+      "a": "explosive-upload",
+      "b": "health-hazard-sparkle",
       "distance": 1.41
+    },
+    {
+      "a": "toxic-shield",
+      "b": "oxidizer-shield",
+      "distance": 0
+    },
+    {
+      "a": "toxic-shield",
+      "b": "corrosive-shield",
+      "distance": 0
+    },
+    {
+      "a": "toxic-shield",
+      "b": "health-hazard-shield",
+      "distance": 0
+    },
+    {
+      "a": "toxic-shield",
+      "b": "environment-hazard-shield",
+      "distance": 0
+    },
+    {
+      "a": "toxic-pin",
+      "b": "oxidizer-pin",
+      "distance": 0
+    },
+    {
+      "a": "toxic-pin",
+      "b": "corrosive-pin",
+      "distance": 0
+    },
+    {
+      "a": "toxic-pin",
+      "b": "health-hazard-pin",
+      "distance": 0
+    },
+    {
+      "a": "toxic-user",
+      "b": "oxidizer-user",
+      "distance": 0
+    },
+    {
+      "a": "toxic-user",
+      "b": "corrosive-user",
+      "distance": 0
+    },
+    {
+      "a": "toxic-user",
+      "b": "health-hazard-user",
+      "distance": 0
     },
     {
-      "a": "bass-clef-sparkle",
-      "b": "bass-clef-upload",
+      "a": "toxic-sparkle",
+      "b": "toxic-upload",
       "distance": 1.41
+    },
+    {
+      "a": "toxic-sparkle",
+      "b": "oxidizer-sparkle",
+      "distance": 0
     },
     {
-      "a": "playback-speed-sparkle",
-      "b": "playback-speed-upload",
+      "a": "toxic-sparkle",
+      "b": "oxidizer-upload",
       "distance": 1.41
+    },
+    {
+      "a": "toxic-sparkle",
+      "b": "corrosive-sparkle",
+      "distance": 0
     },
     {
-      "a": "repeat-one-sparkle",
-      "b": "repeat-one-upload",
+      "a": "toxic-sparkle",
+      "b": "corrosive-upload",
       "distance": 1.41
+    },
+    {
+      "a": "toxic-sparkle",
+      "b": "health-hazard-sparkle",
+      "distance": 0
     },
     {
-      "a": "podcast-sparkle",
-      "b": "podcast-upload",
+      "a": "toxic-sparkle",
+      "b": "health-hazard-upload",
       "distance": 1.41
+    },
+    {
+      "a": "toxic-flag",
+      "b": "oxidizer-flag",
+      "distance": 0
+    },
+    {
+      "a": "toxic-flag",
+      "b": "corrosive-flag",
+      "distance": 0
+    },
+    {
+      "a": "toxic-flag",
+      "b": "health-hazard-flag",
+      "distance": 0
     },
     {
-      "a": "play-sparkle",
-      "b": "play-upload",
+      "a": "toxic-upload",
+      "b": "oxidizer-sparkle",
       "distance": 1.41
     },
     {
-      "a": "pause-sparkle",
-      "b": "pause-upload",
+      "a": "toxic-upload",
+      "b": "corrosive-sparkle",
       "distance": 1.41
     },
     {
-      "a": "stop-sparkle",
-      "b": "stop-upload",
+      "a": "toxic-upload",
+      "b": "health-hazard-sparkle",
       "distance": 1.41
+    },
+    {
+      "a": "oxidizer-shield",
+      "b": "corrosive-shield",
+      "distance": 0
+    },
+    {
+      "a": "oxidizer-shield",
+      "b": "health-hazard-shield",
+      "distance": 0
+    },
+    {
+      "a": "oxidizer-shield",
+      "b": "environment-hazard-shield",
+      "distance": 0
+    },
+    {
+      "a": "oxidizer-pin",
+      "b": "corrosive-pin",
+      "distance": 0
+    },
+    {
+      "a": "oxidizer-pin",
+      "b": "health-hazard-pin",
+      "distance": 0
+    },
+    {
+      "a": "oxidizer-user",
+      "b": "corrosive-user",
+      "distance": 0
+    },
+    {
+      "a": "oxidizer-user",
+      "b": "health-hazard-user",
+      "distance": 0
     },
     {
-      "a": "skip-forward-sparkle",
-      "b": "skip-forward-upload",
+      "a": "oxidizer-sparkle",
+      "b": "oxidizer-upload",
       "distance": 1.41
+    },
+    {
+      "a": "oxidizer-sparkle",
+      "b": "corrosive-sparkle",
+      "distance": 0
     },
     {
-      "a": "volume-low-sparkle",
-      "b": "volume-low-upload",
+      "a": "oxidizer-sparkle",
+      "b": "corrosive-upload",
       "distance": 1.41
+    },
+    {
+      "a": "oxidizer-sparkle",
+      "b": "health-hazard-sparkle",
+      "distance": 0
     },
     {
-      "a": "tsunami-sparkle",
-      "b": "tsunami-upload",
+      "a": "oxidizer-sparkle",
+      "b": "health-hazard-upload",
       "distance": 1.41
+    },
+    {
+      "a": "oxidizer-flag",
+      "b": "corrosive-flag",
+      "distance": 0
+    },
+    {
+      "a": "oxidizer-flag",
+      "b": "health-hazard-flag",
+      "distance": 0
     },
     {
-      "a": "rose-sparkle",
-      "b": "rose-upload",
+      "a": "oxidizer-upload",
+      "b": "corrosive-sparkle",
       "distance": 1.41
     },
     {
-      "a": "fern-sparkle",
-      "b": "fern-upload",
+      "a": "oxidizer-upload",
+      "b": "health-hazard-sparkle",
       "distance": 1.41
+    },
+    {
+      "a": "corrosive-shield",
+      "b": "health-hazard-shield",
+      "distance": 0
+    },
+    {
+      "a": "corrosive-shield",
+      "b": "environment-hazard-shield",
+      "distance": 0
+    },
+    {
+      "a": "corrosive-pin",
+      "b": "health-hazard-pin",
+      "distance": 0
+    },
+    {
+      "a": "corrosive-user",
+      "b": "health-hazard-user",
+      "distance": 0
     },
     {
-      "a": "terrarium-sparkle",
-      "b": "terrarium-upload",
+      "a": "corrosive-sparkle",
+      "b": "corrosive-upload",
       "distance": 1.41
+    },
+    {
+      "a": "corrosive-sparkle",
+      "b": "health-hazard-sparkle",
+      "distance": 0
     },
     {
-      "a": "compost-bin-sparkle",
-      "b": "compost-bin-upload",
+      "a": "corrosive-sparkle",
+      "b": "health-hazard-upload",
       "distance": 1.41
+    },
+    {
+      "a": "corrosive-flag",
+      "b": "health-hazard-flag",
+      "distance": 0
     },
     {
-      "a": "hills-sparkle",
-      "b": "hills-upload",
+      "a": "corrosive-upload",
+      "b": "health-hazard-sparkle",
       "distance": 1.41
+    },
+    {
+      "a": "health-hazard-shield",
+      "b": "environment-hazard-shield",
+      "distance": 0
     },
     {
-      "a": "dandelion-sparkle",
-      "b": "dandelion-upload",
+      "a": "health-hazard-sparkle",
+      "b": "health-hazard-upload",
       "distance": 1.41
     },
     {
-      "a": "kelp-sparkle",
-      "b": "kelp-upload",
+      "a": "pulley-sparkle",
+      "b": "pulley-upload",
       "distance": 1.41
     },
     {
-      "a": "lavender-sparkle",
-      "b": "lavender-upload",
+      "a": "walking-sparkle",
+      "b": "walking-upload",
       "distance": 1.41
     },
     {
-      "a": "pine-tree-sparkle",
-      "b": "pine-tree-upload",
+      "a": "pendulum-sparkle",
+      "b": "pendulum-upload",
       "distance": 1.41
     },
     {
-      "a": "scarecrow-sparkle",
-      "b": "scarecrow-upload",
+      "a": "periscope-sparkle",
+      "b": "periscope-upload",
       "distance": 1.41
     }
   ],
   "dropped": [
-    "log-pile-bolt",
-    "mic-studio-upload",
-    "synthesizer-search",
-    "synthesizer-shield",
-    "synthesizer-chat",
-    "synthesizer-download",
-    "synthesizer-calendar",
-    "synthesizer-question",
-    "synthesizer-trophy",
-    "synthesizer-hourglass",
-    "synthesizer-cursor",
-    "synthesizer-filter",
-    "synthesizer-checkbox",
-    "screen-record-search",
-    "screen-record-clock",
-    "screen-record-shield",
-    "screen-record-gear",
-    "screen-record-bolt",
-    "screen-record-heart",
-    "screen-record-star",
-    "screen-record-alert",
-    "screen-record-user",
-    "screen-record-cloud",
-    "screen-record-chat",
-    "screen-record-download",
-    "screen-record-pencil",
-    "screen-record-sparkle",
-    "screen-record-calendar",
-    "screen-record-question",
-    "screen-record-bookmark",
-    "screen-record-leaf",
-    "screen-record-trophy",
-    "screen-record-hourglass",
-    "screen-record-cursor",
-    "screen-record-camera",
-    "screen-record-filter",
-    "screen-record-stats",
-    "screen-record-checkbox",
-    "record-search",
-    "record-clock",
-    "record-shield",
-    "record-gear",
-    "record-heart",
-    "record-user",
-    "record-chat",
-    "record-download",
-    "record-pencil",
-    "record-trash",
-    "record-calendar",
-    "record-question",
-    "record-bookmark",
-    "record-crown",
-    "record-trophy",
-    "record-hourglass",
-    "record-cursor",
-    "record-camera",
-    "record-filter",
-    "record-stats",
-    "record-checkbox",
-    "bongo-leaf",
-    "gong-leaf",
-    "gong-upload",
-    "synthesizer-leaf",
-    "synthesizer-upload",
-    "disc-search",
-    "disc-clock",
-    "disc-shield",
-    "disc-gear",
-    "disc-star",
-    "disc-cloud",
-    "disc-chat",
-    "disc-download",
-    "disc-leaf",
-    "disc-pencil",
-    "disc-calendar",
-    "disc-question",
-    "disc-upload",
-    "disc-crown",
-    "disc-camera",
-    "disc-checkbox",
-    "cast-leaf",
-    "album-leaf",
-    "piano-keys-stats",
-    "piano-keys-leaf",
-    "piano-keys-upload",
-    "subtitles-stats",
-    "subtitles-leaf",
-    "subtitles-upload",
-    "aperture-leaf",
-    "tv-retro-leaf",
-    "tv-retro-upload",
-    "maracas-upload",
-    "images-upload",
-    "playlist-leaf",
-    "terrarium-leaf",
-    "compost-bin-leaf",
-    "bonsai-upload",
-    "iceberg-upload",
-    "hills-leaf",
-    "bird-feeder-leaf",
-    "bird-feeder-upload",
-    "herb-upload",
-    "log-pile-leaf",
-    "log-pile-upload",
-    "spider-web-upload",
-    "screen-record-bell",
-    "screen-record-moon",
-    "record-moon",
-    "disc-moon",
-    "screen-record-fire",
-    "screen-record-pin",
-    "screen-record-flag",
-    "record-pin",
-    "record-bell",
-    "record-flag",
-    "knob-upload",
-    "fast-forward-upload",
-    "cast-upload",
-    "slow-motion-upload",
-    "djembe-upload",
-    "sharp-sign-upload",
-    "flat-sign-upload",
-    "natural-sign-upload",
-    "bass-clef-upload",
-    "playback-speed-upload",
-    "repeat-one-upload",
-    "podcast-upload",
-    "play-upload",
-    "pause-upload",
-    "stop-upload",
-    "skip-forward-upload",
-    "volume-low-upload",
-    "tsunami-upload",
-    "rose-upload",
-    "fern-upload",
-    "terrarium-upload",
-    "compost-bin-upload",
-    "hills-upload",
-    "dandelion-upload",
-    "kelp-upload",
-    "lavender-upload",
-    "pine-tree-upload",
-    "scarecrow-upload"
+    "periodic-table-gear",
+    "periodic-table-bolt",
+    "periodic-table-sparkle",
+    "periodic-table-calendar",
+    "periodic-table-moon",
+    "periodic-table-leaf",
+    "periodic-table-cursor",
+    "periodic-table-filter",
+    "periodic-table-stats",
+    "weather-balloon-upload",
+    "pipette-upload",
+    "avatar-group-search",
+    "avatar-group-clock",
+    "avatar-group-shield",
+    "avatar-group-gear",
+    "avatar-group-bolt",
+    "avatar-group-heart",
+    "avatar-group-star",
+    "avatar-group-user",
+    "avatar-group-cloud",
+    "avatar-group-chat",
+    "avatar-group-download",
+    "avatar-group-pencil",
+    "avatar-group-bookmark",
+    "avatar-group-question",
+    "avatar-group-calendar",
+    "avatar-group-sparkle",
+    "avatar-group-upload",
+    "avatar-group-crown",
+    "avatar-group-hourglass",
+    "avatar-group-trophy",
+    "avatar-group-leaf",
+    "avatar-group-cursor",
+    "avatar-group-camera",
+    "avatar-group-filter",
+    "avatar-group-stats",
+    "avatar-group-checkbox",
+    "avatar-group-trash",
+    "orbit-bolt",
+    "orbit-star",
+    "potted-plant-search",
+    "potted-plant-clock",
+    "potted-plant-shield",
+    "potted-plant-gear",
+    "potted-plant-bolt",
+    "potted-plant-heart",
+    "potted-plant-star",
+    "potted-plant-cloud",
+    "potted-plant-chat",
+    "potted-plant-download",
+    "potted-plant-pencil",
+    "potted-plant-trash",
+    "potted-plant-calendar",
+    "potted-plant-question",
+    "potted-plant-crown",
+    "potted-plant-leaf",
+    "potted-plant-hourglass",
+    "potted-plant-cursor",
+    "potted-plant-camera",
+    "potted-plant-filter",
+    "potted-plant-stats",
+    "potted-plant-checkbox",
+    "honeycomb-upload",
+    "cairn-leaf",
+    "tree-stump-leaf",
+    "tree-stump-upload",
+    "bamboo-upload",
+    "sunflower-upload",
+    "hand-raised-search",
+    "hand-raised-clock",
+    "hand-raised-shield",
+    "hand-raised-gear",
+    "hand-raised-bolt",
+    "hand-raised-heart",
+    "hand-raised-star",
+    "hand-raised-user",
+    "hand-raised-cloud",
+    "hand-raised-chat",
+    "hand-raised-download",
+    "hand-raised-pencil",
+    "sippy-cup-upload",
+    "hand-raised-sparkle",
+    "hand-raised-trash",
+    "hand-raised-calendar",
+    "hand-raised-question",
+    "hand-raised-bookmark",
+    "hand-raised-crown",
+    "hand-raised-leaf",
+    "hand-raised-trophy",
+    "hand-raised-hourglass",
+    "hand-raised-cursor",
+    "hand-raised-camera",
+    "hand-raised-filter",
+    "hand-raised-stats",
+    "hand-raised-checkbox",
+    "baby-monitor-upload",
+    "user-tie-leaf",
+    "user-headset-leaf",
+    "user-headset-upload",
+    "family-leaf",
+    "student-upload",
+    "user-edit-upload",
+    "user-group-upload",
+    "oscilloscope-stats",
+    "oscilloscope-leaf",
+    "oscilloscope-upload",
+    "mars-rover-leaf",
+    "mars-rover-upload",
+    "test-tube-rack-leaf",
+    "test-tube-rack-upload",
+    "spring-upload",
+    "pendulum-leaf",
+    "crystal-upload",
+    "saturn-upload",
+    "graduated-cylinder-upload",
+    "explosive-search",
+    "toxic-search",
+    "oxidizer-search",
+    "corrosive-search",
+    "health-hazard-search",
+    "environment-hazard-search",
+    "explosive-clock",
+    "toxic-clock",
+    "oxidizer-clock",
+    "corrosive-clock",
+    "health-hazard-clock",
+    "environment-hazard-clock",
+    "explosive-gear",
+    "toxic-gear",
+    "oxidizer-gear",
+    "corrosive-gear",
+    "health-hazard-gear",
+    "explosive-bolt",
+    "toxic-bolt",
+    "oxidizer-bolt",
+    "corrosive-bolt",
+    "health-hazard-bolt",
+    "explosive-heart",
+    "toxic-heart",
+    "oxidizer-heart",
+    "corrosive-heart",
+    "health-hazard-heart",
+    "explosive-star",
+    "toxic-star",
+    "oxidizer-star",
+    "corrosive-star",
+    "health-hazard-star",
+    "explosive-cloud",
+    "toxic-cloud",
+    "oxidizer-cloud",
+    "corrosive-cloud",
+    "health-hazard-cloud",
+    "explosive-chat",
+    "toxic-chat",
+    "oxidizer-chat",
+    "corrosive-chat",
+    "health-hazard-chat",
+    "explosive-download",
+    "toxic-download",
+    "oxidizer-download",
+    "corrosive-download",
+    "health-hazard-download",
+    "explosive-pencil",
+    "toxic-pencil",
+    "oxidizer-pencil",
+    "corrosive-pencil",
+    "health-hazard-pencil",
+    "explosive-trash",
+    "toxic-trash",
+    "oxidizer-trash",
+    "corrosive-trash",
+    "health-hazard-trash",
+    "explosive-calendar",
+    "toxic-calendar",
+    "oxidizer-calendar",
+    "corrosive-calendar",
+    "health-hazard-calendar",
+    "explosive-question",
+    "toxic-question",
+    "oxidizer-question",
+    "corrosive-question",
+    "health-hazard-question",
+    "explosive-bookmark",
+    "toxic-bookmark",
+    "oxidizer-bookmark",
+    "corrosive-bookmark",
+    "health-hazard-bookmark",
+    "explosive-upload",
+    "toxic-upload",
+    "oxidizer-upload",
+    "corrosive-upload",
+    "health-hazard-upload",
+    "explosive-crown",
+    "toxic-crown",
+    "oxidizer-crown",
+    "corrosive-crown",
+    "health-hazard-crown",
+    "explosive-leaf",
+    "toxic-leaf",
+    "oxidizer-leaf",
+    "corrosive-leaf",
+    "health-hazard-leaf",
+    "explosive-hourglass",
+    "toxic-hourglass",
+    "oxidizer-hourglass",
+    "corrosive-hourglass",
+    "health-hazard-hourglass",
+    "explosive-cursor",
+    "toxic-cursor",
+    "oxidizer-cursor",
+    "corrosive-cursor",
+    "health-hazard-cursor",
+    "explosive-camera",
+    "toxic-camera",
+    "oxidizer-camera",
+    "corrosive-camera",
+    "health-hazard-camera",
+    "explosive-filter",
+    "toxic-filter",
+    "oxidizer-filter",
+    "corrosive-filter",
+    "health-hazard-filter",
+    "explosive-stats",
+    "toxic-stats",
+    "oxidizer-stats",
+    "corrosive-stats",
+    "health-hazard-stats",
+    "explosive-checkbox",
+    "toxic-checkbox",
+    "oxidizer-checkbox",
+    "corrosive-checkbox",
+    "health-hazard-checkbox",
+    "avatar-group-bell",
+    "avatar-group-moon",
+    "potted-plant-bell",
+    "potted-plant-moon",
+    "hand-raised-bell",
+    "hand-raised-moon",
+    "explosive-bell",
+    "toxic-bell",
+    "oxidizer-bell",
+    "corrosive-bell",
+    "health-hazard-bell",
+    "explosive-moon",
+    "toxic-moon",
+    "oxidizer-moon",
+    "corrosive-moon",
+    "health-hazard-moon",
+    "explosive-trophy",
+    "toxic-trophy",
+    "oxidizer-trophy",
+    "corrosive-trophy",
+    "health-hazard-trophy",
+    "avatar-group-fire",
+    "potted-plant-fire",
+    "hand-raised-fire",
+    "explosive-fire",
+    "toxic-fire",
+    "oxidizer-fire",
+    "corrosive-fire",
+    "health-hazard-fire",
+    "avatar-group-pin",
+    "avatar-group-flag",
+    "potted-plant-pin",
+    "potted-plant-user",
+    "potted-plant-sparkle",
+    "potted-plant-upload",
+    "potted-plant-flag",
+    "seedling-upload",
+    "cocoon-upload",
+    "river-upload",
+    "cairn-upload",
+    "wood-log-upload",
+    "succulent-upload",
+    "coral-upload",
+    "gender-neutral-upload",
+    "hand-raised-pin",
+    "hand-raised-flag",
+    "user-tie-upload",
+    "family-upload",
+    "user-voice-upload",
+    "lunar-lander-upload",
+    "lens-upload",
+    "explosive-shield",
+    "toxic-shield",
+    "oxidizer-shield",
+    "corrosive-shield",
+    "health-hazard-shield",
+    "environment-hazard-shield",
+    "explosive-pin",
+    "toxic-pin",
+    "oxidizer-pin",
+    "corrosive-pin",
+    "health-hazard-pin",
+    "explosive-user",
+    "toxic-user",
+    "oxidizer-user",
+    "corrosive-user",
+    "health-hazard-user",
+    "flammable-upload",
+    "explosive-sparkle",
+    "toxic-sparkle",
+    "oxidizer-sparkle",
+    "corrosive-sparkle",
+    "health-hazard-sparkle",
+    "explosive-flag",
+    "toxic-flag",
+    "oxidizer-flag",
+    "corrosive-flag",
+    "health-hazard-flag",
+    "pulley-upload",
+    "walking-upload",
+    "pendulum-upload",
+    "periscope-upload"
   ],
   "byCategory": {
     "accessibility": 53,
@@ -950,12 +3956,12 @@
     "interface": 1324,
     "logistics": 1001,
     "maps": 622,
-    "media": 2488,
-    "nature": 2159,
+    "media": 1967,
+    "nature": 2372,
     "navigation": 35,
     "notifications": 50,
-    "people": 779,
-    "science": 804,
+    "people": 1186,
+    "science": 1349,
     "security": 416,
     "social": 160,
     "sports": 1640,

@@ -526,3 +526,15 @@ hills
 terrarium
 compost-bin
 playback-speed
+river
+coral
+gender-neutral
+weather-balloon
+lens
+orbit
+flammable
+pendulum
+cocoon
+periscope
+user-edit
+user-voice
