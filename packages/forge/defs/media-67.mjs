@@ -1,0 +1,28 @@
+import { icon, body, line, accent } from '../src/dsl.mjs';
+import { R, C, E, L, A, D, poly, star, head, gear, rotateD, translateD, scaleD } from '../src/geo.mjs';
+
+const rot = (els, deg, cx = 12, cy = 12) => els.map((e) => ({ ...e, d: rotateD(e.d, deg, cx, cy) }));
+const spark = (x, y, r) => accent(star(x, y, r, r * 0.32, 4, 0.2));
+
+export default {
+  category: 'media',
+  icons: [
+    icon('camera-pause', 'Pause Camera', ['pause', 'hold', 'stop', 'camera', 'camera'], [body(R(3, 6.5, 13, 10, 2)), line('M7 6.5 8 4.5h3l1 2'), line(C(9.5, 11.5, 2.5)), body(R(13.5, 13, 2.8, 7.5, 1), { cover: true }), body(R(17.7, 13, 2.8, 7.5, 1), { cover: true })], { noAccent: true }),
+    icon('music-pause', 'Pause Music', ['pause', 'hold', 'stop', 'music', 'music'], [line('M8 15.5V5.5l7-2v9.5'), body(C(6, 15.5, 2)), body(C(13, 13, 2)), body(R(13.5, 13, 2.8, 7.5, 1), { cover: true }), body(R(17.7, 13, 2.8, 7.5, 1), { cover: true })], { noAccent: true }),
+    icon('radio-pause', 'Pause Radio', ['pause', 'hold', 'stop', 'radio', 'radio'], [line('M5 7 12.5 3.5'), body(R(3, 7, 13, 10, 2)), line(C(7.5, 12, 2.2)), line('M12 10h1.5M12 12.5h1.5'), body(R(13.5, 13, 2.8, 7.5, 1), { cover: true }), body(R(17.7, 13, 2.8, 7.5, 1), { cover: true })], { noAccent: true }),
+    icon('clapperboard-pause', 'Pause Clapperboard', ['pause', 'hold', 'stop', 'clapperboard', 'clapperboard'], [body(rotateD(R(3.5, 5, 12, 2.6, 0.6), -14, 3.5, 7.6)), body(R(3.5, 8.8, 12, 8.7, 1.5)), line('M3.7 11.6h11.6'), body(R(13.5, 13, 2.8, 7.5, 1), { cover: true }), body(R(17.7, 13, 2.8, 7.5, 1), { cover: true })], { noAccent: true }),
+    icon('image-pause', 'Pause Image', ['pause', 'hold', 'stop', 'image', 'image'], [body(R(3, 4.5, 13, 12, 2)), line('M3.5 14l3.5-3.5 3 3 2-2 3.5 3.5'), line(C(12, 8, 1.2)), body(R(13.5, 13, 2.8, 7.5, 1), { cover: true }), body(R(17.7, 13, 2.8, 7.5, 1), { cover: true })], { noAccent: true }),
+    icon('headphones-leaf', 'Eco Headphones', ['eco', 'green', 'sustainable', 'headphones', 'headphones'], [line('M4 13v-3a5.5 5.5 0 0 1 11 0v3'), body(R(3, 12, 3, 5, 1.2)), body(R(13, 12, 3, 5, 1.2)), body('M13 20.5c0-4.5 3-7.5 8-8 .3 5-2.7 8-8 8Z', { cover: true }), line('M13.6 19.9 17.5 16')], { noAccent: true }),
+    icon('mic-leaf', 'Eco Mic', ['eco', 'green', 'sustainable', 'mic', 'mic'], [body(R(6.5, 3, 6, 9, 3)), line('M4.5 9.5a5 5 0 0 0 10 0M9.5 14.5V17'), body('M13 20.5c0-4.5 3-7.5 8-8 .3 5-2.7 8-8 8Z', { cover: true }), line('M13.6 19.9 17.5 16')], { noAccent: true }),
+    icon('camera-leaf', 'Eco Camera', ['eco', 'green', 'sustainable', 'camera', 'camera'], [body(R(3, 6.5, 13, 10, 2)), line('M7 6.5 8 4.5h3l1 2'), line(C(9.5, 11.5, 2.5)), body('M13 20.5c0-4.5 3-7.5 8-8 .3 5-2.7 8-8 8Z', { cover: true }), line('M13.6 19.9 17.5 16')], { noAccent: true }),
+    icon('guitar-leaf', 'Eco Guitar', ['eco', 'green', 'sustainable', 'guitar', 'guitar'], [line('M10.5 8.5 15.5 3.5'), body('M8.7 7.3a2.6 2.6 0 0 1 3.7 3.7c-.6.6-1 1.1-.9 2a3.6 3.6 0 1 1-4.8-4.8c.9.1 1.4-.3 2-.9Z'), line(D(7.6, 13)), body('M13 20.5c0-4.5 3-7.5 8-8 .3 5-2.7 8-8 8Z', { cover: true }), line('M13.6 19.9 17.5 16')], { noAccent: true }),
+    icon('radio-leaf', 'Eco Radio', ['eco', 'green', 'sustainable', 'radio', 'radio'], [line('M5 7 12.5 3.5'), body(R(3, 7, 13, 10, 2)), line(C(7.5, 12, 2.2)), line('M12 10h1.5M12 12.5h1.5'), body('M13 20.5c0-4.5 3-7.5 8-8 .3 5-2.7 8-8 8Z', { cover: true }), line('M13.6 19.9 17.5 16')], { noAccent: true }),
+    icon('piano-leaf', 'Eco Piano', ['eco', 'green', 'sustainable', 'piano', 'piano'], [body(R(3, 4, 13, 12, 1.5)), line('M3.2 9h12.6'), line('M6.5 9.2v6.6M9.5 9.2v6.6M12.5 9.2v6.6'), body('M13 20.5c0-4.5 3-7.5 8-8 .3 5-2.7 8-8 8Z', { cover: true }), line('M13.6 19.9 17.5 16')], { noAccent: true }),
+    icon('boombox-leaf', 'Eco Boombox', ['eco', 'green', 'sustainable', 'boombox', 'boombox'], [line('M6 6V4h7v2'), body(R(3, 6, 13, 10, 2)), line(C(6.8, 11, 2) + C(12.2, 11, 2)), body('M13 20.5c0-4.5 3-7.5 8-8 .3 5-2.7 8-8 8Z', { cover: true }), line('M13.6 19.9 17.5 16')], { noAccent: true }),
+    icon('soundwave-leaf', 'Eco Audio', ['eco', 'green', 'sustainable', 'audio', 'soundwave'], [line('M3.5 10v1M6 7.5v6M8.5 5v11M11 7.5v6M13.5 9v3M16 10v1'), body('M13 20.5c0-4.5 3-7.5 8-8 .3 5-2.7 8-8 8Z', { cover: true }), line('M13.6 19.9 17.5 16')], { noAccent: true }),
+    icon('tripod-leaf', 'Eco Tripod', ['eco', 'green', 'sustainable', 'tripod', 'tripod'], [body(R(5.5, 3.5, 8, 5, 1.2)), line(C(9.5, 6, 1.2)), line('M9.5 8.7V18M9.5 8.7 4.5 18M9.5 8.7l5 9.3'), body('M13 20.5c0-4.5 3-7.5 8-8 .3 5-2.7 8-8 8Z', { cover: true }), line('M13.6 19.9 17.5 16')], { noAccent: true }),
+    icon('violin-leaf', 'Eco Violin', ['eco', 'green', 'sustainable', 'violin', 'violin'], [line('M9.5 3v5'), body('M9.5 7.5c1.8 0 3 .8 3 2.2 0 .8-.6 1.3-.6 1.8s1.1 1.2 1.1 2.7c0 2.2-1.6 3.3-3.5 3.3S6 16.4 6 14.2c0-1.5 1.1-2.2 1.1-2.7s-.6-1-.6-1.8c0-1.4 1.2-2.2 3-2.2Z'), line('M9.5 10.5v5'), body('M13 20.5c0-4.5 3-7.5 8-8 .3 5-2.7 8-8 8Z', { cover: true }), line('M13.6 19.9 17.5 16')], { noAccent: true }),
+    icon('mic-stand-leaf', 'Eco Mic Stand', ['eco', 'green', 'sustainable', 'mic stand', 'mic-stand'], [body(R(7.5, 3, 4, 6, 2)), line('M9.5 9.3v8.5M6.5 18h6'), line('M5.5 7a4 4 0 0 0 8 0'), body('M13 20.5c0-4.5 3-7.5 8-8 .3 5-2.7 8-8 8Z', { cover: true }), line('M13.6 19.9 17.5 16')], { noAccent: true }),
+    icon('loudspeaker-leaf', 'Eco Volume', ['eco', 'green', 'sustainable', 'volume', 'loudspeaker'], [body('M3.5 8.5h3l5-4v12l-5-4h-3Z'), line('M14 8a3.5 3.5 0 0 1 0 5'), body('M13 20.5c0-4.5 3-7.5 8-8 .3 5-2.7 8-8 8Z', { cover: true }), line('M13.6 19.9 17.5 16')], { noAccent: true }),
+  ],
+};
