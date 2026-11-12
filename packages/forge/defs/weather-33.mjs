@@ -1,0 +1,30 @@
+import { icon, body, line, accent } from '../src/dsl.mjs';
+import { R, C, E, L, A, D, poly, star, head, gear, rotateD, translateD, scaleD } from '../src/geo.mjs';
+
+const rot = (els, deg, cx = 12, cy = 12) => els.map((e) => ({ ...e, d: rotateD(e.d, deg, cx, cy) }));
+const spark = (x, y, r) => accent(star(x, y, r, r * 0.32, 4, 0.2));
+
+export default {
+  category: 'weather',
+  icons: [
+    icon('snowflake-bookmark', 'Save Snowflake', ['save', 'bookmark', 'later', 'snowflake', 'snowflake'], [line('M9.5 3.5v14M3.4 7l12.2 7M3.4 14l12.2-7'), line('M7.8 4.7l1.7 1.6 1.7-1.6M7.8 16.3l1.7-1.6 1.7 1.6'), body('M14.5 12.5h5v8l-2.5-1.8-2.5 1.8Z', { cover: true })], { noAccent: true }),
+    icon('rainbow-bookmark', 'Save Rainbow', ['save', 'bookmark', 'later', 'rainbow', 'rainbow'], [line('M3 15.5a6.5 6.5 0 0 1 13 0'), line('M5.5 15.5a4 4 0 0 1 8 0'), line('M8 15.5a1.5 1.5 0 0 1 3 0'), body('M14.5 12.5h5v8l-2.5-1.8-2.5 1.8Z', { cover: true })], { noAccent: true }),
+    icon('sunrise-bookmark', 'Save Sunrise', ['save', 'bookmark', 'later', 'sunrise', 'sunrise'], [line('M9.5 4v2M3.5 8.5l1.4 1M15.5 8.5l-1.4 1'), body('M4.5 13.5a5 5 0 0 1 10 0Z'), line('M2.5 16.5h14'), body('M14.5 12.5h5v8l-2.5-1.8-2.5 1.8Z', { cover: true })], { noAccent: true }),
+    icon('wind-bookmark', 'Save Wind', ['save', 'bookmark', 'later', 'wind', 'wind'], [line('M3 8h9a2.5 2.5 0 1 0-2.5-2.5M3 12h11.5a2.5 2.5 0 1 1-2.5 2.5M3 16h5'), body('M14.5 12.5h5v8l-2.5-1.8-2.5 1.8Z', { cover: true })], { noAccent: true }),
+    icon('umbrella-closed-bookmark', 'Save Umbrella', ['save', 'bookmark', 'later', 'umbrella', 'umbrella-closed'], [line('M9.5 3v2'), body('M9.5 5 12 13H7Z'), line('M9.5 13.2V16a1.5 1.5 0 0 1-3 0'), body('M14.5 12.5h5v8l-2.5-1.8-2.5 1.8Z', { cover: true })], { noAccent: true }),
+    icon('icicles-bookmark', 'Save Icicles', ['save', 'bookmark', 'later', 'icicles', 'icicles'], [line('M3 4.5h13'), line('M4.5 4.7 5.5 11 6.5 4.7M8.5 4.7l1 8.5 1-8.5M12.5 4.7l1 6 1-6'), body('M14.5 12.5h5v8l-2.5-1.8-2.5 1.8Z', { cover: true })], { noAccent: true }),
+    icon('rain-gauge-bookmark', 'Save Rain Gauge', ['save', 'bookmark', 'later', 'rain gauge', 'rain-gauge'], [body('M6.5 3.5h6l-1 14.5h-4Z'), line('M7.5 7h2M7.5 10h2M7.5 13h2'), line('M5 18.5h9'), body('M14.5 12.5h5v8l-2.5-1.8-2.5 1.8Z', { cover: true })], { noAccent: true }),
+    icon('barometer-bookmark', 'Save Barometer', ['save', 'bookmark', 'later', 'barometer', 'barometer'], [body(C(9.5, 10.5, 6.5)), line('M9.5 10.5l3-3'), line('M5.5 11.5h1M12.5 11.5h1M9.5 6v1'), body(C(9.5, 10.5, 1)), body('M14.5 12.5h5v8l-2.5-1.8-2.5 1.8Z', { cover: true })], { noAccent: true }),
+    icon('wind-sock-bookmark', 'Save Windsock', ['save', 'bookmark', 'later', 'windsock', 'wind-sock'], [line('M4 18V3'), body(poly([[4.4, 4], [15, 5.5], [15, 9.5], [4.4, 11]], 0.6, true)), line('M8 4.6v5.8M11.5 5v5'), body('M14.5 12.5h5v8l-2.5-1.8-2.5 1.8Z', { cover: true })], { noAccent: true }),
+    icon('fog-bookmark', 'Save Fog', ['save', 'bookmark', 'later', 'fog', 'fog'], [line('M3 7h13M5 10.5h11M3 14h9M7 17.5h9'), body('M14.5 12.5h5v8l-2.5-1.8-2.5 1.8Z', { cover: true })], { noAccent: true }),
+    icon('earthquake-bookmark', 'Save Earthquake', ['save', 'bookmark', 'later', 'earthquake', 'earthquake'], [line('M2.5 10.5h3l1.5-4 2 8 2-10 2 9 1.5-3h2.5'), body('M14.5 12.5h5v8l-2.5-1.8-2.5 1.8Z', { cover: true })], { noAccent: true }),
+    icon('flood-bookmark', 'Save Flood', ['save', 'bookmark', 'later', 'flood', 'flood'], [body(poly([[4, 9.5], [9.5, 4.5], [15, 9.5], [15, 13], [4, 13]], 0.6, true)), line('M3 15.5c1.3-1 2.7-1 4 0s2.7 1 4 0 2.7-1 4 0M3 18c1.3-1 2.7-1 4 0s2.7 1 4 0 2.7-1 4 0'), body('M14.5 12.5h5v8l-2.5-1.8-2.5 1.8Z', { cover: true })], { noAccent: true }),
+    icon('wildfire-bookmark', 'Save Wildfire', ['save', 'bookmark', 'later', 'wildfire', 'wildfire'], [body('M9.5 3c2.5 2.5 4 4.5 4 7a4 4 0 0 1-8 0c0-1.5.6-2.6 1.5-3.6.2 1 .7 1.6 1.3 1.8-.3-1.9.2-3.6 1.2-5.2Z'), line('M3 17.5l2.5-3 2 2 2-3 2 2 2-3 2.5 5'), body('M14.5 12.5h5v8l-2.5-1.8-2.5 1.8Z', { cover: true })], { noAccent: true }),
+    icon('sunset-bookmark', 'Save Sunset', ['save', 'bookmark', 'later', 'sunset', 'sunset'], [line('M2.5 15.5h14M5 18h9'), body('M4 13.5a5.5 5.5 0 0 1 11 0Z'), line('M9.5 4v2.5M3.5 6.5l1.5 1.5M15.5 6.5 14 8'), body('M14.5 12.5h5v8l-2.5-1.8-2.5 1.8Z', { cover: true })], { noAccent: true }),
+    icon('thunderstorm-bookmark', 'Save Thunderstorm', ['save', 'bookmark', 'later', 'thunderstorm', 'thunderstorm'], [body('M5 12.5a3 3 0 0 1 .3-6 4 4 0 0 1 7.7-.5 3 3 0 0 1 .5 6.5Z'), line('M9 13.5l-1.5 2.5h2.5L8.5 18.5'), body('M14.5 12.5h5v8l-2.5-1.8-2.5 1.8Z', { cover: true })], { noAccent: true }),
+    icon('heat-wave-bookmark', 'Save Heat Wave', ['save', 'bookmark', 'later', 'heat wave', 'heat-wave'], [line('M5 5c1.5 1.5 1.5 3 0 4.5s-1.5 3 0 4.5M9.5 5c1.5 1.5 1.5 3 0 4.5s-1.5 3 0 4.5M14 5c1.5 1.5 1.5 3 0 4.5s-1.5 3 0 4.5'), line('M3 17.5h13'), body('M14.5 12.5h5v8l-2.5-1.8-2.5 1.8Z', { cover: true })], { noAccent: true }),
+    icon('snowflake-question', 'Snowflake Help', ['help', 'question', 'support', 'snowflake', 'snowflake'], [line('M9.5 3.5v14M3.4 7l12.2 7M3.4 14l12.2-7'), line('M7.8 4.7l1.7 1.6 1.7-1.6M7.8 16.3l1.7-1.6 1.7 1.6'), body(R(13, 12.5, 8, 8, 2), { cover: true }), line('M15.7 15.4a1.3 1.3 0 1 1 1.9 1.2c-.4.2-.6.5-.6.9'), line(D(17, 18.9))], { noAccent: true }),
+    icon('sunrise-question', 'Sunrise Help', ['help', 'question', 'support', 'sunrise', 'sunrise'], [line('M9.5 4v2M3.5 8.5l1.4 1M15.5 8.5l-1.4 1'), body('M4.5 13.5a5 5 0 0 1 10 0Z'), line('M2.5 16.5h14'), body(R(13, 12.5, 8, 8, 2), { cover: true }), line('M15.7 15.4a1.3 1.3 0 1 1 1.9 1.2c-.4.2-.6.5-.6.9'), line(D(17, 18.9))], { noAccent: true }),
+    icon('wind-question', 'Wind Help', ['help', 'question', 'support', 'wind', 'wind'], [line('M3 8h9a2.5 2.5 0 1 0-2.5-2.5M3 12h11.5a2.5 2.5 0 1 1-2.5 2.5M3 16h5'), body(R(13, 12.5, 8, 8, 2), { cover: true }), line('M15.7 15.4a1.3 1.3 0 1 1 1.9 1.2c-.4.2-.6.5-.6.9'), line(D(17, 18.9))], { noAccent: true }),
+  ],
+};
