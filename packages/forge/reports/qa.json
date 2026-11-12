@@ -1,1029 +1,718 @@
 {
-  "generatedAt": "2026-11-12T16:04:41.448Z",
-  "icons": 41716,
-  "files": 208580,
+  "generatedAt": "2026-11-12T16:08:52.279Z",
+  "icons": 42871,
+  "files": 214355,
   "errors": [],
   "warnings": [
-    "market-stall-camera: grid: outside the 3-21 live area (3.36, 3.72, 22.00, 20.50)",
-    "gumball-machine-camera: grid: outside the 3-21 live area (5.52, 3.00, 22.00, 20.50)",
-    "credit-card-camera: grid: outside the 3-21 live area (3.00, 4.80, 22.00, 20.50)",
-    "telegraph-camera: grid: outside the 3-21 live area (3.36, 8.40, 22.00, 20.50)",
-    "postmark-camera: grid: outside the 3-21 live area (3.72, 6.24, 22.00, 20.50)",
-    "phone-incoming-camera: grid: outside the 3-21 live area (4.14, 3.54, 22.00, 20.50)",
-    "message-image-camera: grid: outside the 3-21 live area (3.72, 4.08, 22.00, 20.50)",
-    "newsletter-camera: grid: outside the 3-21 live area (3.72, 3.36, 22.00, 20.50)",
-    "mail-forward-camera: grid: outside the 3-21 live area (3.00, 3.36, 22.00, 20.50)",
-    "outbox-camera: grid: outside the 3-21 live area (3.36, 10.20, 22.00, 20.50)",
-    "letter-camera: grid: outside the 3-21 live area (3.36, 4.08, 22.00, 20.50)",
-    "pager-camera: grid: outside the 3-21 live area (3.36, 4.44, 22.00, 20.50)",
-    "message-quote-camera: grid: outside the 3-21 live area (3.72, 4.08, 22.00, 20.50)",
-    "cell-tower-camera: grid: outside the 3-21 live area (4.44, 3.35, 22.00, 20.50)",
-    "billboard-camera: grid: outside the 3-21 live area (3.00, 3.72, 22.00, 20.50)",
-    "mail-open-camera: grid: outside the 3-21 live area (3.36, 4.15, 22.00, 20.50)",
-    "message-dots-camera: grid: outside the 3-21 live area (3.72, 4.08, 22.00, 20.50)",
-    "messages-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
-    "send-camera: grid: outside the 3-21 live area (4.12, 3.95, 22.00, 20.50)",
-    "voicemail-camera: grid: outside the 3-21 live area (3.58, 7.18, 22.00, 20.50)",
-    "broadcast-camera: grid: outside the 3-21 live area (5.15, 5.88, 22.00, 20.50)",
-    "contact-card-camera: grid: outside the 3-21 live area (3.00, 4.44, 22.00, 20.50)",
-    "hdmi-cable-camera: grid: outside the 3-21 live area (5.52, 3.36, 22.00, 20.50)",
-    "flip-phone-camera: grid: outside the 3-21 live area (5.88, 3.00, 22.00, 20.50)",
-    "ring-light-camera: grid: outside the 3-21 live area (5.16, 3.00, 22.00, 20.50)",
-    "mixer-board-camera: grid: outside the 3-21 live area (3.00, 4.44, 22.00, 20.50)",
-    "usb-hub-camera: grid: outside the 3-21 live area (3.36, 7.32, 22.00, 20.50)",
-    "receipt-printer-camera: grid: outside the 3-21 live area (3.72, 3.72, 22.00, 20.50)",
-    "dashcam-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
-    "trackball-camera: grid: outside the 3-21 live area (3.72, 6.60, 22.00, 20.50)",
-    "nas-camera: grid: outside the 3-21 live area (4.44, 3.36, 22.00, 20.50)",
-    "film-roll-camera: grid: outside the 3-21 live area (3.72, 3.72, 22.00, 20.50)",
-    "network-switch-camera: grid: outside the 3-21 live area (3.00, 6.60, 22.00, 20.50)",
-    "key-capslock-camera: grid: outside the 3-21 live area (4.08, 3.72, 22.00, 20.50)",
-    "key-option-camera: grid: outside the 3-21 live area (3.72, 5.88, 22.00, 20.50)",
-    "key-space-camera: grid: outside the 3-21 live area (4.08, 9.48, 22.00, 20.50)",
-    "eject-camera: grid: outside the 3-21 live area (4.44, 4.71, 22.00, 20.50)",
-    "computer-tower-camera: grid: outside the 3-21 live area (5.88, 3.00, 22.00, 20.50)",
-    "headset-camera: grid: outside the 3-21 live area (3.36, 4.08, 22.00, 20.50)",
-    "sim-card-camera: grid: outside the 3-21 live area (5.16, 3.00, 22.00, 20.50)",
-    "remote-control-camera: grid: outside the 3-21 live area (6.60, 3.00, 22.00, 20.50)",
-    "tablet-landscape-camera: grid: outside the 3-21 live area (3.00, 4.80, 22.00, 20.50)",
-    "scanner-camera: grid: outside the 3-21 live area (3.00, 4.80, 22.00, 20.50)",
-    "dual-monitor-camera: grid: outside the 3-21 live area (3.00, 3.72, 22.00, 20.50)",
-    "tablet-pen-camera: grid: outside the 3-21 live area (3.72, 3.00, 22.00, 20.50)",
-    "cable-camera: grid: outside the 3-21 live area (4.80, 3.72, 22.00, 20.50)"
+    "trackpad-camera: grid: outside the 3-21 live area (3.72, 4.08, 22.00, 20.50)",
+    "usb-c-port-camera: grid: outside the 3-21 live area (3.72, 7.32, 22.00, 20.50)",
+    "robot-vacuum-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
+    "fitness-tracker-camera: grid: outside the 3-21 live area (6.24, 3.36, 22.00, 20.50)",
+    "ssd-camera: grid: outside the 3-21 live area (3.00, 6.60, 22.00, 20.50)",
+    "cooling-fan-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
+    "rotary-phone-camera: grid: outside the 3-21 live area (3.36, 5.88, 22.00, 20.50)",
+    "smartphone-camera: grid: outside the 3-21 live area (5.52, 2.64, 22.00, 20.50)",
+    "watch-smart-camera: grid: outside the 3-21 live area (5.52, 3.36, 22.00, 20.50)",
+    "marker-camera: grid: outside the 3-21 live area (4.78, 3.97, 22.00, 20.50)",
+    "index-card-camera: grid: outside the 3-21 live area (3.00, 4.44, 22.00, 20.50)",
+    "book-stack-camera: grid: outside the 3-21 live area (3.72, 4.08, 22.00, 20.50)",
+    "atlas-camera: grid: outside the 3-21 live area (4.44, 3.36, 22.00, 20.50)",
+    "lunch-tray-camera: grid: outside the 3-21 live area (3.36, 4.80, 22.00, 20.50)",
+    "report-card-camera: grid: outside the 3-21 live area (4.08, 3.36, 22.00, 20.50)",
+    "flashcards-camera: grid: outside the 3-21 live area (3.00, 3.09, 22.00, 20.50)",
+    "asterisk-camera: grid: outside the 3-21 live area (4.80, 4.08, 22.00, 20.50)",
+    "pi-camera: grid: outside the 3-21 live area (4.08, 6.24, 22.00, 20.50)",
+    "sigma-camera: grid: outside the 3-21 live area (5.16, 4.44, 22.00, 20.50)",
+    "integral-camera: grid: outside the 3-21 live area (6.96, 3.73, 22.00, 20.50)",
+    "square-root-camera: grid: outside the 3-21 live area (3.36, 4.08, 22.00, 20.50)",
+    "plus-minus-camera: grid: outside the 3-21 live area (6.24, 3.72, 22.00, 20.50)",
+    "divide-camera: grid: outside the 3-21 live area (4.44, 4.44, 22.00, 20.50)",
+    "equals-camera: grid: outside the 3-21 live area (4.44, 7.32, 22.00, 20.50)",
+    "not-equal-camera: grid: outside the 3-21 live area (4.44, 4.08, 22.00, 20.50)",
+    "approximately-camera: grid: outside the 3-21 live area (4.44, 6.60, 22.00, 20.50)",
+    "angle-camera: grid: outside the 3-21 live area (4.44, 4.44, 22.00, 20.50)",
+    "perpendicular-camera: grid: outside the 3-21 live area (4.08, 4.44, 22.00, 20.50)",
+    "parallel-camera: grid: outside the 3-21 live area (5.16, 4.44, 22.00, 20.50)",
+    "less-equal-camera: grid: outside the 3-21 live area (5.88, 4.08, 22.00, 20.50)",
+    "greater-equal-camera: grid: outside the 3-21 live area (5.88, 4.08, 22.00, 20.50)",
+    "lambda-camera: grid: outside the 3-21 live area (5.16, 4.08, 22.00, 20.50)",
+    "omega-camera: grid: outside the 3-21 live area (4.08, 3.85, 22.00, 20.50)",
+    "alpha-camera: grid: outside the 3-21 live area (5.52, 5.16, 22.00, 20.50)",
+    "beta-camera: grid: outside the 3-21 live area (6.60, 4.08, 22.00, 20.50)",
+    "theta-camera: grid: outside the 3-21 live area (5.88, 3.72, 22.00, 20.50)",
+    "mu-camera: grid: outside the 3-21 live area (6.24, 5.52, 22.00, 20.50)",
+    "phi-camera: grid: outside the 3-21 live area (5.16, 3.36, 22.00, 20.50)",
+    "psi-camera: grid: outside the 3-21 live area (5.16, 3.72, 22.00, 20.50)",
+    "epsilon-camera: grid: outside the 3-21 live area (5.88, 4.80, 22.00, 20.50)",
+    "for-all-camera: grid: outside the 3-21 live area (4.80, 4.08, 22.00, 20.50)",
+    "exists-camera: grid: outside the 3-21 live area (5.52, 4.44, 22.00, 20.50)",
+    "therefore-camera: grid: outside the 3-21 live area (4.37, 4.37, 22.00, 20.50)",
+    "element-of-camera: grid: outside the 3-21 live area (4.80, 4.80, 22.00, 20.50)",
+    "subset-camera: grid: outside the 3-21 live area (4.80, 4.80, 22.00, 20.50)",
+    "chalkboard-camera: grid: outside the 3-21 live area (3.00, 3.36, 22.00, 20.50)",
+    "letter-block-camera: grid: outside the 3-21 live area (3.72, 3.72, 22.00, 20.50)"
   ],
   "duplicates": [
     {
-      "a": "gumball-machine-sparkle",
-      "b": "gumball-machine-upload",
+      "a": "watch-smart-sparkle",
+      "b": "watch-smart-upload",
       "distance": 1.41
     },
     {
-      "a": "ring-light-sparkle",
-      "b": "ring-light-upload",
+      "a": "watch-gear",
+      "b": "watch-smart-gear",
       "distance": 1.41
     },
     {
-      "a": "notepad-search",
-      "b": "newsletter-search",
+      "a": "watch-bolt",
+      "b": "watch-smart-bolt",
       "distance": 1.41
     },
     {
-      "a": "notepad-clock",
-      "b": "newsletter-clock",
-      "distance": 1.41
-    },
-    {
-      "a": "notepad-shield",
-      "b": "newsletter-shield",
-      "distance": 1.41
-    },
-    {
-      "a": "notepad-gear",
-      "b": "newsletter-gear",
-      "distance": 1.41
-    },
-    {
-      "a": "notepad-heart",
-      "b": "newsletter-heart",
-      "distance": 1.41
-    },
-    {
-      "a": "notepad-alert",
-      "b": "newsletter-alert",
-      "distance": 1.41
-    },
-    {
-      "a": "notepad-user",
-      "b": "newsletter-user",
-      "distance": 1.41
-    },
-    {
-      "a": "notepad-cloud",
-      "b": "newsletter-cloud",
-      "distance": 1.41
-    },
-    {
-      "a": "notepad-chat",
-      "b": "newsletter-chat",
-      "distance": 1.41
-    },
-    {
-      "a": "notepad-download",
-      "b": "newsletter-download",
-      "distance": 1.41
-    },
-    {
-      "a": "notepad-pencil",
-      "b": "newsletter-pencil",
-      "distance": 1.41
-    },
-    {
-      "a": "notepad-trash",
-      "b": "newsletter-trash",
-      "distance": 1.41
-    },
-    {
-      "a": "notepad-calendar",
-      "b": "newsletter-calendar",
-      "distance": 1.41
-    },
-    {
-      "a": "notepad-question",
-      "b": "newsletter-question",
-      "distance": 1.41
-    },
-    {
-      "a": "notepad-bookmark",
-      "b": "newsletter-bookmark",
-      "distance": 1.41
-    },
-    {
-      "a": "notepad-crown",
-      "b": "newsletter-crown",
-      "distance": 1.41
-    },
-    {
-      "a": "notepad-trophy",
-      "b": "newsletter-trophy",
-      "distance": 1.41
-    },
-    {
-      "a": "notepad-hourglass",
-      "b": "newsletter-hourglass",
-      "distance": 1.41
-    },
-    {
-      "a": "notepad-cursor",
-      "b": "newsletter-cursor",
-      "distance": 1.41
-    },
-    {
-      "a": "notepad-camera",
-      "b": "newsletter-camera",
-      "distance": 1.41
-    },
-    {
-      "a": "notepad-filter",
-      "b": "newsletter-filter",
-      "distance": 1.41
-    },
-    {
-      "a": "notepad-stats",
-      "b": "newsletter-stats",
-      "distance": 1.41
-    },
-    {
-      "a": "notepad-checkbox",
-      "b": "newsletter-checkbox",
-      "distance": 1.41
-    },
-    {
-      "a": "water-cooler-search",
-      "b": "computer-tower-search",
-      "distance": 1.41
-    },
-    {
-      "a": "water-cooler-clock",
-      "b": "computer-tower-clock",
-      "distance": 1.41
-    },
-    {
-      "a": "water-cooler-shield",
-      "b": "computer-tower-shield",
-      "distance": 1.41
-    },
-    {
-      "a": "water-cooler-gear",
-      "b": "computer-tower-gear",
-      "distance": 1.41
-    },
-    {
-      "a": "water-cooler-bolt",
-      "b": "computer-tower-bolt",
-      "distance": 1.41
-    },
-    {
-      "a": "water-cooler-heart",
-      "b": "computer-tower-heart",
-      "distance": 1.41
-    },
-    {
-      "a": "water-cooler-star",
-      "b": "computer-tower-star",
-      "distance": 1.41
-    },
-    {
-      "a": "water-cooler-user",
-      "b": "computer-tower-user",
-      "distance": 1.41
-    },
-    {
-      "a": "water-cooler-cloud",
-      "b": "computer-tower-cloud",
-      "distance": 1.41
-    },
-    {
-      "a": "water-cooler-chat",
-      "b": "computer-tower-chat",
-      "distance": 1.41
-    },
-    {
-      "a": "water-cooler-download",
-      "b": "computer-tower-download",
-      "distance": 1.41
-    },
-    {
-      "a": "water-cooler-pencil",
-      "b": "computer-tower-pencil",
-      "distance": 1.41
-    },
-    {
-      "a": "water-cooler-trash",
-      "b": "computer-tower-trash",
-      "distance": 1.41
-    },
-    {
-      "a": "water-cooler-calendar",
-      "b": "computer-tower-calendar",
-      "distance": 1.41
-    },
-    {
-      "a": "water-cooler-question",
-      "b": "computer-tower-question",
-      "distance": 1.41
-    },
-    {
-      "a": "water-cooler-bookmark",
-      "b": "computer-tower-bookmark",
-      "distance": 1.41
-    },
-    {
-      "a": "water-cooler-crown",
-      "b": "computer-tower-crown",
-      "distance": 1.41
-    },
-    {
-      "a": "water-cooler-leaf",
-      "b": "computer-tower-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "water-cooler-trophy",
-      "b": "computer-tower-trophy",
-      "distance": 1.41
-    },
-    {
-      "a": "water-cooler-hourglass",
-      "b": "computer-tower-hourglass",
-      "distance": 1.41
-    },
-    {
-      "a": "water-cooler-cursor",
-      "b": "computer-tower-cursor",
-      "distance": 1.41
-    },
-    {
-      "a": "water-cooler-camera",
-      "b": "computer-tower-camera",
-      "distance": 1.41
-    },
-    {
-      "a": "water-cooler-filter",
-      "b": "computer-tower-filter",
-      "distance": 1.41
-    },
-    {
-      "a": "water-cooler-stats",
-      "b": "computer-tower-stats",
-      "distance": 1.41
-    },
-    {
-      "a": "water-cooler-checkbox",
-      "b": "computer-tower-checkbox",
-      "distance": 1.41
-    },
-    {
-      "a": "market-stall-pencil",
-      "b": "market-stall-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "market-stall-sparkle",
-      "b": "market-stall-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "credit-card-gear",
-      "b": "credit-card-stats",
-      "distance": 1.41
-    },
-    {
-      "a": "credit-card-pencil",
-      "b": "credit-card-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "credit-card-sparkle",
-      "b": "credit-card-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "phone-clock",
-      "b": "phone-incoming-clock",
+      "a": "watch-search",
+      "b": "watch-smart-search",
       "distance": 1
     },
     {
-      "a": "phone-heart",
-      "b": "phone-incoming-heart",
+      "a": "watch-clock",
+      "b": "watch-smart-clock",
       "distance": 1
     },
     {
-      "a": "phone-gear",
-      "b": "phone-incoming-gear",
+      "a": "watch-shield",
+      "b": "watch-smart-shield",
       "distance": 1
     },
     {
-      "a": "phone-search",
-      "b": "phone-incoming-search",
+      "a": "watch-star",
+      "b": "watch-smart-star",
+      "distance": 1.41
+    },
+    {
+      "a": "watch-alert",
+      "b": "watch-smart-alert",
+      "distance": 1.41
+    },
+    {
+      "a": "watch-cloud",
+      "b": "watch-smart-cloud",
       "distance": 1
     },
     {
-      "a": "phone-star",
-      "b": "phone-incoming-star",
+      "a": "watch-chat",
+      "b": "watch-smart-chat",
       "distance": 1
     },
     {
-      "a": "phone-bolt",
-      "b": "phone-incoming-bolt",
+      "a": "watch-download",
+      "b": "watch-smart-download",
       "distance": 1
     },
     {
-      "a": "phone-cloud",
-      "b": "phone-incoming-cloud",
+      "a": "watch-pencil",
+      "b": "watch-smart-pencil",
+      "distance": 1.41
+    },
+    {
+      "a": "watch-trash",
+      "b": "watch-smart-trash",
+      "distance": 1.41
+    },
+    {
+      "a": "watch-calendar",
+      "b": "watch-smart-calendar",
       "distance": 1
     },
     {
-      "a": "phone-chat",
-      "b": "phone-incoming-chat",
+      "a": "watch-bookmark",
+      "b": "watch-smart-bookmark",
+      "distance": 1.41
+    },
+    {
+      "a": "watch-question",
+      "b": "watch-smart-question",
       "distance": 1
     },
     {
-      "a": "phone-download",
-      "b": "phone-incoming-download",
+      "a": "watch-crown",
+      "b": "watch-smart-crown",
       "distance": 1
     },
     {
-      "a": "phone-pencil",
-      "b": "phone-incoming-pencil",
+      "a": "watch-leaf",
+      "b": "watch-smart-leaf",
       "distance": 1.41
     },
     {
-      "a": "phone-pencil",
-      "b": "phone-incoming-leaf",
+      "a": "watch-hourglass",
+      "b": "watch-smart-hourglass",
       "distance": 1.41
     },
     {
-      "a": "phone-trash",
-      "b": "phone-incoming-trash",
+      "a": "watch-cursor",
+      "b": "watch-smart-cursor",
+      "distance": 1.41
+    },
+    {
+      "a": "watch-camera",
+      "b": "watch-smart-camera",
+      "distance": 1.41
+    },
+    {
+      "a": "watch-filter",
+      "b": "watch-smart-filter",
+      "distance": 1.41
+    },
+    {
+      "a": "watch-stats",
+      "b": "watch-smart-stats",
       "distance": 1
     },
     {
-      "a": "phone-calendar",
-      "b": "phone-incoming-calendar",
+      "a": "watch-checkbox",
+      "b": "watch-smart-checkbox",
       "distance": 1
     },
     {
-      "a": "phone-bookmark",
-      "b": "phone-incoming-bookmark",
+      "a": "trackpad-pencil",
+      "b": "trackpad-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "trackpad-sparkle",
+      "b": "trackpad-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "robot-vacuum-pencil",
+      "b": "robot-vacuum-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "fitness-tracker-clock",
+      "b": "watch-smart-clock",
+      "distance": 1.41
+    },
+    {
+      "a": "fitness-tracker-gear",
+      "b": "watch-smart-gear",
+      "distance": 1.41
+    },
+    {
+      "a": "fitness-tracker-bolt",
+      "b": "watch-smart-bolt",
+      "distance": 1.41
+    },
+    {
+      "a": "fitness-tracker-heart",
+      "b": "watch-smart-heart",
+      "distance": 1.41
+    },
+    {
+      "a": "fitness-tracker-cloud",
+      "b": "watch-smart-cloud",
+      "distance": 1.41
+    },
+    {
+      "a": "fitness-tracker-pencil",
+      "b": "watch-smart-pencil",
+      "distance": 1.41
+    },
+    {
+      "a": "fitness-tracker-trash",
+      "b": "watch-smart-trash",
+      "distance": 1.41
+    },
+    {
+      "a": "fitness-tracker-upload",
+      "b": "watch-smart-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "fitness-tracker-leaf",
+      "b": "watch-smart-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "fitness-tracker-hourglass",
+      "b": "watch-smart-hourglass",
+      "distance": 1.41
+    },
+    {
+      "a": "fitness-tracker-cursor",
+      "b": "watch-smart-cursor",
+      "distance": 1.41
+    },
+    {
+      "a": "fitness-tracker-filter",
+      "b": "watch-smart-filter",
+      "distance": 1.41
+    },
+    {
+      "a": "fitness-tracker-stats",
+      "b": "watch-smart-stats",
+      "distance": 1.41
+    },
+    {
+      "a": "ssd-sparkle",
+      "b": "ssd-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "cooling-fan-gear",
+      "b": "cooling-fan-stats",
+      "distance": 1.41
+    },
+    {
+      "a": "cooling-fan-sparkle",
+      "b": "cooling-fan-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "rotary-phone-pencil",
+      "b": "rotary-phone-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "rotary-phone-sparkle",
+      "b": "rotary-phone-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "watch-smart-heart",
+      "b": "watch-heart",
+      "distance": 1.41
+    },
+    {
+      "a": "index-card-pencil",
+      "b": "index-card-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "index-card-sparkle",
+      "b": "index-card-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "book-stack-pencil",
+      "b": "book-stack-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "book-stack-sparkle",
+      "b": "book-stack-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "atlas-pencil",
+      "b": "atlas-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "atlas-sparkle",
+      "b": "atlas-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "lunch-tray-gear",
+      "b": "lunch-tray-stats",
+      "distance": 1.41
+    },
+    {
+      "a": "lunch-tray-pencil",
+      "b": "lunch-tray-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "lunch-tray-sparkle",
+      "b": "lunch-tray-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "report-card-pencil",
+      "b": "report-card-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "report-card-sparkle",
+      "b": "report-card-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "flashcards-sparkle",
+      "b": "flashcards-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "angle-pencil",
+      "b": "angle-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "perpendicular-pencil",
+      "b": "perpendicular-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "alpha-pencil",
+      "b": "alpha-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "therefore-pencil",
+      "b": "therefore-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "chalkboard-sparkle",
+      "b": "chalkboard-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "letter-block-pencil",
+      "b": "letter-block-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "letter-block-sparkle",
+      "b": "letter-block-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "watch-bell",
+      "b": "watch-smart-bell",
+      "distance": 1.41
+    },
+    {
+      "a": "watch-moon",
+      "b": "watch-smart-moon",
+      "distance": 1.41
+    },
+    {
+      "a": "watch-trophy",
+      "b": "watch-smart-trophy",
+      "distance": 1.41
+    },
+    {
+      "a": "fitness-tracker-bell",
+      "b": "watch-smart-bell",
+      "distance": 1.41
+    },
+    {
+      "a": "fitness-tracker-trophy",
+      "b": "watch-smart-trophy",
+      "distance": 1.41
+    },
+    {
+      "a": "fitness-tracker-fire",
+      "b": "watch-smart-fire",
+      "distance": 1.41
+    },
+    {
+      "a": "usb-c-port-sparkle",
+      "b": "usb-c-port-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "fitness-tracker-sparkle",
+      "b": "fitness-tracker-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "marker-sparkle",
+      "b": "marker-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "asterisk-sparkle",
+      "b": "asterisk-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "pi-sparkle",
+      "b": "pi-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "sigma-sparkle",
+      "b": "sigma-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "integral-sparkle",
+      "b": "integral-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "square-root-sparkle",
+      "b": "square-root-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "plus-minus-sparkle",
+      "b": "plus-minus-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "divide-sparkle",
+      "b": "divide-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "equals-sparkle",
+      "b": "equals-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "not-equal-sparkle",
+      "b": "not-equal-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "approximately-sparkle",
+      "b": "approximately-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "angle-sparkle",
+      "b": "angle-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "perpendicular-sparkle",
+      "b": "perpendicular-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "parallel-sparkle",
+      "b": "parallel-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "less-equal-sparkle",
+      "b": "less-equal-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "greater-equal-sparkle",
+      "b": "greater-equal-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "lambda-sparkle",
+      "b": "lambda-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "omega-sparkle",
+      "b": "omega-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "alpha-sparkle",
+      "b": "alpha-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "beta-sparkle",
+      "b": "beta-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "theta-sparkle",
+      "b": "theta-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "mu-sparkle",
+      "b": "mu-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "phi-sparkle",
+      "b": "phi-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "psi-sparkle",
+      "b": "psi-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "epsilon-sparkle",
+      "b": "epsilon-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "for-all-sparkle",
+      "b": "for-all-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "exists-sparkle",
+      "b": "exists-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "therefore-sparkle",
+      "b": "therefore-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "element-of-sparkle",
+      "b": "element-of-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "subset-sparkle",
+      "b": "subset-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "watch-pin",
+      "b": "watch-smart-pin",
+      "distance": 1.41
+    },
+    {
+      "a": "watch-sparkle",
+      "b": "watch-smart-sparkle",
       "distance": 1
     },
     {
-      "a": "phone-question",
-      "b": "phone-incoming-question",
-      "distance": 1
-    },
-    {
-      "a": "phone-crown",
-      "b": "phone-incoming-crown",
-      "distance": 1
-    },
-    {
-      "a": "phone-hourglass",
-      "b": "phone-incoming-hourglass",
-      "distance": 1
-    },
-    {
-      "a": "phone-cursor",
-      "b": "phone-incoming-cursor",
-      "distance": 1
-    },
-    {
-      "a": "phone-camera",
-      "b": "phone-incoming-camera",
-      "distance": 1
-    },
-    {
-      "a": "phone-filter",
-      "b": "phone-incoming-filter",
-      "distance": 1
-    },
-    {
-      "a": "phone-stats",
-      "b": "phone-incoming-stats",
-      "distance": 1.41
-    },
-    {
-      "a": "phone-checkbox",
-      "b": "phone-incoming-checkbox",
-      "distance": 1
-    },
-    {
-      "a": "phone-pricing",
-      "b": "phone-incoming-gear",
-      "distance": 1.41
-    },
-    {
-      "a": "telegraph-pencil",
-      "b": "telegraph-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "phone-incoming-pencil",
-      "b": "phone-incoming-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "message-image-pencil",
-      "b": "message-image-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "message-image-sparkle",
-      "b": "message-image-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "newsletter-pencil",
-      "b": "newsletter-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "newsletter-sparkle",
-      "b": "newsletter-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "letter-sparkle",
-      "b": "letter-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "pager-pencil",
-      "b": "pager-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "pager-sparkle",
-      "b": "pager-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "message-quote-pencil",
-      "b": "message-quote-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "billboard-sparkle",
-      "b": "billboard-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "mail-open-pencil",
-      "b": "mail-open-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "message-dots-pencil",
-      "b": "message-dots-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "messages-pencil",
-      "b": "messages-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "messages-sparkle",
-      "b": "messages-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "contact-card-pencil",
-      "b": "contact-card-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "contact-card-sparkle",
-      "b": "contact-card-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "flip-phone-sparkle",
-      "b": "flip-phone-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "mixer-board-gear",
-      "b": "mixer-board-stats",
-      "distance": 1.41
-    },
-    {
-      "a": "mixer-board-pencil",
-      "b": "mixer-board-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "mixer-board-sparkle",
-      "b": "mixer-board-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "receipt-printer-pencil",
-      "b": "receipt-printer-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "receipt-printer-sparkle",
-      "b": "receipt-printer-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "dashcam-sparkle",
-      "b": "dashcam-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "trackball-pencil",
-      "b": "trackball-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "nas-pencil",
-      "b": "nas-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "nas-sparkle",
-      "b": "nas-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "film-roll-sparkle",
-      "b": "film-roll-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "network-switch-sparkle",
-      "b": "network-switch-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "eject-pencil",
-      "b": "eject-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "headset-pencil",
-      "b": "headset-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "sim-card-sparkle",
-      "b": "sim-card-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "tablet-landscape-gear",
-      "b": "tablet-landscape-stats",
-      "distance": 1.41
-    },
-    {
-      "a": "tablet-landscape-pencil",
-      "b": "tablet-landscape-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "scanner-pencil",
-      "b": "scanner-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "dual-monitor-sparkle",
-      "b": "dual-monitor-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "tablet-pen-gear",
-      "b": "tablet-pen-stats",
-      "distance": 1.41
-    },
-    {
-      "a": "tablet-pen-pencil",
-      "b": "tablet-pen-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "tablet-pen-sparkle",
-      "b": "tablet-pen-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "notepad-moon",
-      "b": "newsletter-moon",
-      "distance": 1.41
-    },
-    {
-      "a": "notepad-fire",
-      "b": "newsletter-fire",
-      "distance": 1.41
-    },
-    {
-      "a": "water-cooler-bell",
-      "b": "computer-tower-bell",
-      "distance": 1.41
-    },
-    {
-      "a": "water-cooler-moon",
-      "b": "computer-tower-moon",
-      "distance": 1.41
-    },
-    {
-      "a": "phone-bell",
-      "b": "phone-incoming-bell",
-      "distance": 1
-    },
-    {
-      "a": "phone-moon",
-      "b": "phone-incoming-moon",
-      "distance": 1
-    },
-    {
-      "a": "phone-trophy",
-      "b": "phone-incoming-trophy",
-      "distance": 1
-    },
-    {
-      "a": "water-cooler-fire",
-      "b": "computer-tower-fire",
-      "distance": 1.41
-    },
-    {
-      "a": "phone-lock",
-      "b": "phone-incoming-fire",
-      "distance": 1.41
-    },
-    {
-      "a": "phone-shield",
-      "b": "phone-incoming-shield",
-      "distance": 1
-    },
-    {
-      "a": "phone-pin",
-      "b": "phone-incoming-pin",
-      "distance": 1
-    },
-    {
-      "a": "phone-user",
-      "b": "phone-incoming-user",
-      "distance": 1
-    },
-    {
-      "a": "phone-sparkle",
-      "b": "phone-incoming-sparkle",
-      "distance": 1
-    },
-    {
-      "a": "phone-sparkle",
-      "b": "phone-incoming-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "phone-flag",
-      "b": "phone-incoming-flag",
-      "distance": 1
-    },
-    {
-      "a": "telegraph-sparkle",
-      "b": "telegraph-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "postmark-sparkle",
-      "b": "postmark-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "phone-incoming-sparkle",
-      "b": "phone-incoming-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "outbox-sparkle",
-      "b": "outbox-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "message-quote-sparkle",
-      "b": "message-quote-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "cell-tower-sparkle",
-      "b": "cell-tower-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "mail-open-sparkle",
-      "b": "mail-open-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "message-dots-sparkle",
-      "b": "message-dots-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "send-sparkle",
-      "b": "send-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "voicemail-sparkle",
-      "b": "voicemail-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "broadcast-sparkle",
-      "b": "broadcast-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "usb-hub-sparkle",
-      "b": "usb-hub-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "trackball-sparkle",
-      "b": "trackball-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "key-capslock-sparkle",
-      "b": "key-capslock-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "key-option-sparkle",
-      "b": "key-option-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "key-space-sparkle",
-      "b": "key-space-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "eject-sparkle",
-      "b": "eject-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "tablet-landscape-sparkle",
-      "b": "tablet-landscape-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "scanner-sparkle",
-      "b": "scanner-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "cable-sparkle",
-      "b": "cable-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "notepad-pin",
-      "b": "newsletter-pin",
-      "distance": 1.41
-    },
-    {
-      "a": "notepad-bell",
-      "b": "newsletter-bell",
-      "distance": 1.41
-    },
-    {
-      "a": "water-cooler-pin",
-      "b": "computer-tower-pin",
+      "a": "fitness-tracker-pin",
+      "b": "watch-smart-pin",
       "distance": 1.41
     },
     {
-      "a": "water-cooler-sparkle",
-      "b": "computer-tower-sparkle",
+      "a": "fitness-tracker-sparkle",
+      "b": "watch-smart-sparkle",
       "distance": 1.41
     },
     {
-      "a": "notepad-flag",
-      "b": "newsletter-flag",
+      "a": "fitness-tracker-user",
+      "b": "watch-smart-user",
       "distance": 1.41
     },
     {
-      "a": "water-cooler-flag",
-      "b": "computer-tower-flag",
+      "a": "watch-flag",
+      "b": "watch-smart-flag",
       "distance": 1.41
     },
     {
-      "a": "computer-tower-sparkle",
-      "b": "computer-tower-upload",
+      "a": "fitness-tracker-flag",
+      "b": "watch-smart-flag",
       "distance": 1.41
     },
     {
-      "a": "hdmi-cable-sparkle",
-      "b": "hdmi-cable-upload",
+      "a": "fitness-tracker-shield",
+      "b": "watch-smart-shield",
       "distance": 1.41
     },
     {
-      "a": "remote-control-sparkle",
-      "b": "remote-control-upload",
+      "a": "watch-user",
+      "b": "watch-smart-user",
       "distance": 1.41
     },
     {
-      "a": "mail-forward-sparkle",
-      "b": "mail-forward-upload",
+      "a": "smartphone-sparkle",
+      "b": "smartphone-upload",
       "distance": 1.41
     }
   ],
   "dropped": [
-    "usb-hub-gear",
-    "usb-hub-bolt",
-    "usb-hub-sparkle",
-    "usb-hub-cursor",
-    "gumball-machine-upload",
-    "ring-light-upload",
-    "newsletter-search",
-    "newsletter-clock",
-    "newsletter-shield",
-    "newsletter-gear",
-    "newsletter-heart",
-    "newsletter-alert",
-    "newsletter-user",
-    "newsletter-cloud",
-    "newsletter-chat",
-    "newsletter-download",
-    "newsletter-pencil",
-    "newsletter-trash",
-    "newsletter-calendar",
-    "newsletter-question",
-    "newsletter-bookmark",
-    "newsletter-crown",
-    "newsletter-trophy",
-    "newsletter-hourglass",
-    "newsletter-cursor",
-    "newsletter-camera",
-    "newsletter-filter",
-    "newsletter-stats",
-    "newsletter-checkbox",
-    "computer-tower-search",
-    "computer-tower-clock",
-    "computer-tower-shield",
-    "computer-tower-gear",
-    "computer-tower-bolt",
-    "computer-tower-heart",
-    "computer-tower-star",
-    "computer-tower-user",
-    "computer-tower-cloud",
-    "computer-tower-chat",
-    "computer-tower-download",
-    "computer-tower-pencil",
-    "computer-tower-trash",
-    "computer-tower-calendar",
-    "computer-tower-question",
-    "computer-tower-bookmark",
-    "computer-tower-crown",
-    "computer-tower-leaf",
-    "computer-tower-trophy",
-    "computer-tower-hourglass",
-    "computer-tower-cursor",
-    "computer-tower-camera",
-    "computer-tower-filter",
-    "computer-tower-stats",
-    "computer-tower-checkbox",
-    "market-stall-leaf",
-    "market-stall-upload",
-    "credit-card-stats",
-    "credit-card-leaf",
-    "credit-card-upload",
-    "phone-incoming-clock",
-    "phone-incoming-heart",
-    "phone-incoming-gear",
-    "phone-incoming-search",
-    "phone-incoming-star",
-    "phone-incoming-bolt",
-    "phone-incoming-cloud",
-    "phone-incoming-chat",
-    "phone-incoming-download",
-    "phone-incoming-pencil",
-    "phone-incoming-leaf",
-    "phone-incoming-trash",
-    "phone-incoming-calendar",
-    "phone-incoming-bookmark",
-    "phone-incoming-question",
-    "phone-incoming-crown",
-    "phone-incoming-hourglass",
-    "phone-incoming-cursor",
-    "phone-incoming-camera",
-    "phone-incoming-filter",
-    "phone-incoming-stats",
-    "phone-incoming-checkbox",
-    "telegraph-leaf",
-    "message-image-leaf",
-    "message-image-upload",
-    "newsletter-upload",
-    "letter-upload",
-    "pager-leaf",
-    "pager-upload",
-    "message-quote-leaf",
-    "billboard-upload",
-    "mail-open-leaf",
-    "message-dots-leaf",
-    "messages-leaf",
-    "messages-upload",
-    "contact-card-leaf",
-    "contact-card-upload",
-    "flip-phone-upload",
-    "mixer-board-stats",
-    "mixer-board-leaf",
-    "mixer-board-upload",
-    "receipt-printer-leaf",
-    "receipt-printer-upload",
-    "dashcam-upload",
-    "trackball-leaf",
-    "nas-leaf",
-    "nas-upload",
-    "film-roll-upload",
-    "network-switch-upload",
-    "eject-leaf",
-    "headset-leaf",
-    "sim-card-upload",
-    "tablet-landscape-stats",
-    "tablet-landscape-leaf",
-    "scanner-leaf",
-    "dual-monitor-upload",
-    "tablet-pen-stats",
-    "tablet-pen-leaf",
-    "tablet-pen-upload",
-    "newsletter-moon",
-    "newsletter-fire",
-    "computer-tower-bell",
-    "computer-tower-moon",
-    "phone-incoming-bell",
-    "phone-incoming-moon",
-    "phone-incoming-trophy",
-    "computer-tower-fire",
-    "phone-incoming-fire",
-    "phone-incoming-shield",
-    "phone-incoming-pin",
-    "phone-incoming-user",
-    "phone-incoming-sparkle",
-    "phone-incoming-upload",
-    "phone-incoming-flag",
-    "telegraph-upload",
-    "postmark-upload",
-    "outbox-upload",
-    "message-quote-upload",
-    "cell-tower-upload",
-    "mail-open-upload",
-    "message-dots-upload",
-    "send-upload",
-    "voicemail-upload",
-    "broadcast-upload",
-    "trackball-upload",
-    "key-capslock-upload",
-    "key-option-upload",
-    "key-space-upload",
-    "eject-upload",
-    "tablet-landscape-upload",
-    "scanner-upload",
-    "cable-upload",
-    "newsletter-pin",
-    "newsletter-bell",
-    "computer-tower-pin",
-    "computer-tower-sparkle",
-    "newsletter-flag",
-    "computer-tower-flag",
-    "hdmi-cable-upload",
-    "remote-control-upload",
-    "mail-forward-upload"
+    "watch-smart-upload",
+    "watch-smart-gear",
+    "watch-smart-bolt",
+    "watch-smart-search",
+    "watch-smart-clock",
+    "watch-smart-shield",
+    "watch-smart-star",
+    "watch-smart-alert",
+    "watch-smart-cloud",
+    "watch-smart-chat",
+    "watch-smart-download",
+    "watch-smart-pencil",
+    "watch-smart-trash",
+    "watch-smart-calendar",
+    "watch-smart-bookmark",
+    "watch-smart-question",
+    "watch-smart-crown",
+    "watch-smart-leaf",
+    "watch-smart-hourglass",
+    "watch-smart-cursor",
+    "watch-smart-camera",
+    "watch-smart-filter",
+    "watch-smart-stats",
+    "watch-smart-checkbox",
+    "trackpad-leaf",
+    "trackpad-upload",
+    "robot-vacuum-leaf",
+    "watch-smart-heart",
+    "ssd-upload",
+    "cooling-fan-stats",
+    "cooling-fan-upload",
+    "rotary-phone-leaf",
+    "rotary-phone-upload",
+    "index-card-leaf",
+    "index-card-upload",
+    "book-stack-leaf",
+    "book-stack-upload",
+    "atlas-leaf",
+    "atlas-upload",
+    "lunch-tray-stats",
+    "lunch-tray-leaf",
+    "lunch-tray-upload",
+    "report-card-leaf",
+    "report-card-upload",
+    "flashcards-upload",
+    "angle-leaf",
+    "perpendicular-leaf",
+    "alpha-leaf",
+    "therefore-leaf",
+    "chalkboard-upload",
+    "letter-block-leaf",
+    "letter-block-upload",
+    "watch-smart-bell",
+    "watch-smart-moon",
+    "watch-smart-trophy",
+    "watch-smart-fire",
+    "usb-c-port-upload",
+    "fitness-tracker-upload",
+    "marker-upload",
+    "asterisk-upload",
+    "pi-upload",
+    "sigma-upload",
+    "integral-upload",
+    "square-root-upload",
+    "plus-minus-upload",
+    "divide-upload",
+    "equals-upload",
+    "not-equal-upload",
+    "approximately-upload",
+    "angle-upload",
+    "perpendicular-upload",
+    "parallel-upload",
+    "less-equal-upload",
+    "greater-equal-upload",
+    "lambda-upload",
+    "omega-upload",
+    "alpha-upload",
+    "beta-upload",
+    "theta-upload",
+    "mu-upload",
+    "phi-upload",
+    "psi-upload",
+    "epsilon-upload",
+    "for-all-upload",
+    "exists-upload",
+    "therefore-upload",
+    "element-of-upload",
+    "subset-upload",
+    "watch-smart-pin",
+    "watch-smart-sparkle",
+    "watch-smart-user",
+    "watch-smart-flag",
+    "smartphone-upload"
   ],
   "byCategory": {
     "accessibility": 53,
@@ -1035,12 +724,12 @@
     "business": 1787,
     "celebration": 1577,
     "commerce": 1126,
-    "communication": 1546,
+    "communication": 1515,
     "data": 520,
     "design": 825,
     "development": 615,
-    "devices": 1993,
-    "education": 799,
+    "devices": 2058,
+    "education": 1987,
     "emoji": 72,
     "energy": 359,
     "fashion": 1253,
