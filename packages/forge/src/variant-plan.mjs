@@ -440,606 +440,606 @@ export default {
   'index-card': { badges: ['add'] },
   'test-strip': { badges: ['check', 'alert'] },
   'arrow-curve-right': { dir: 'right', turns: { left: 180, up: -90, down: 90 } },
-  'abacus': { badges: ['add', 'check', 'close'] }, // vb
-  'accordion': { badges: ['add', 'check', 'close'] }, // vb
-  'acorn': { badges: ['add', 'check', 'close'] }, // vb
-  'add-circle': { badges: ['add', 'check', 'close'] }, // vb
-  'ai-agent': { badges: ['add', 'check', 'close'] }, // vb
-  'ai-airplane': { badges: ['add', 'check', 'close'] }, // vb
-  'ai-bag': { badges: ['add', 'check', 'close'] }, // vb
-  'ai-book': { badges: ['add', 'check', 'close'] }, // vb
-  'ai-briefcase': { badges: ['add', 'check', 'close'] }, // vb
-  'ai-browser': { badges: ['add', 'check', 'close'] }, // vb
-  'ai-bug': { badges: ['add', 'check', 'close'] }, // vb
-  'ai-building': { badges: ['add', 'check', 'close'] }, // vb
-  'ai-calculator': { badges: ['add', 'check', 'close'] }, // vb
-  'ai-car': { badges: ['add', 'check', 'close'] }, // vb
-  'ai-cart': { badges: ['add', 'check', 'close'] }, // vb
-  'ai-chart': { badges: ['add', 'check', 'close'] }, // vb
-  'ai-clipboard': { badges: ['add', 'check', 'close'] }, // vb
-  'ai-code': { badges: ['add', 'check', 'close'] }, // vb
-  'ai-contract': { badges: ['add', 'check', 'close'] }, // vb
-  'ai-cube': { badges: ['add', 'check', 'close'] }, // vb
-  'ai-dashboard': { badges: ['add', 'check', 'close'] }, // vb
-  'ai-database': { badges: ['add', 'check', 'close'] }, // vb
-  'ai-document': { badges: ['add', 'check', 'close'] }, // vb
-  'ai-fine-tune': { badges: ['add', 'check', 'close'] }, // vb
-  'ai-flask': { badges: ['add', 'check', 'close'] }, // vb
-  'ai-folder': { badges: ['add', 'check', 'close'] }, // vb
-  'ai-form': { badges: ['add', 'check', 'close'] }, // vb
-  'ai-gift': { badges: ['add', 'check', 'close'] }, // vb
-  'ai-graduation': { badges: ['add', 'check', 'close'] }, // vb
-  'ai-graph': { badges: ['add', 'check', 'close'] }, // vb
-  'ai-home': { badges: ['add', 'check', 'close'] }, // vb
-  'ai-id': { badges: ['add', 'check', 'close'] }, // vb
-  'ai-idea': { badges: ['add', 'check', 'close'] }, // vb
-  'ai-image': { badges: ['add', 'check', 'close'] }, // vb
-  'ai-inbox': { badges: ['add', 'check', 'close'] }, // vb
-  'ai-laptop': { badges: ['add', 'check', 'close'] }, // vb
-  'ai-mail': { badges: ['add', 'check', 'close'] }, // vb
-  'ai-map': { badges: ['add', 'check', 'close'] }, // vb
-  'ai-model': { badges: ['add', 'check', 'close'] }, // vb
-  'ai-news': { badges: ['add', 'check', 'close'] }, // vb
-  'ai-notes': { badges: ['add', 'check', 'close'] }, // vb
-  'ai-package': { badges: ['add', 'check', 'close'] }, // vb
-  'ai-palette': { badges: ['add', 'check', 'close'] }, // vb
-  'ai-pen': { badges: ['add', 'check', 'close'] }, // vb
-  'ai-phone': { badges: ['add', 'check', 'close'] }, // vb
-  'ai-plant': { badges: ['add', 'check', 'close'] }, // vb
-  'ai-presentation': { badges: ['add', 'check', 'close'] }, // vb
-  'ai-receipt': { badges: ['add', 'check', 'close'] }, // vb
-  'ai-scan': { badges: ['add', 'check', 'close'] }, // vb
-  'ai-server': { badges: ['add', 'check', 'close'] }, // vb
-  'ai-sheet': { badges: ['add', 'check', 'close'] }, // vb
-  'ai-summary': { badges: ['add', 'check', 'close'] }, // vb
-  'ai-support': { badges: ['add', 'check', 'close'] }, // vb
-  'ai-target': { badges: ['add', 'check', 'close'] }, // vb
-  'ai-terminal': { badges: ['add', 'check', 'close'] }, // vb
-  'ai-translate': { badges: ['add', 'check', 'close'] }, // vb
-  'ai-video': { badges: ['add', 'check', 'close'] }, // vb
-  'ai-vision': { badges: ['add', 'check', 'close'] }, // vb
-  'ai-voice': { badges: ['add', 'check', 'close'] }, // vb
-  'ai-wallet': { badges: ['add', 'check', 'close'] }, // vb
-  'ai-write': { badges: ['add', 'check', 'close'] }, // vb
-  'air-conditioner': { badges: ['add', 'check', 'close'] }, // vb
-  'airplane-landing': { badges: ['add', 'check', 'close'] }, // vb
-  'airplane-takeoff': { badges: ['add', 'check', 'close'] }, // vb
-  'airship': { badges: ['add', 'check', 'close'] }, // vb
-  'alarm-snooze': { badges: ['add', 'check', 'close'] }, // vb
-  'align-object-left': { badges: ['add', 'check', 'close'] }, // vb
-  'ambulance': { badges: ['add', 'check', 'close'] }, // vb
-  'anchor': { badges: ['add', 'check', 'close'] }, // vb
-  'anchor-point': { badges: ['add', 'check', 'close'] }, // vb
-  'angle': { badges: ['add', 'check', 'close'] }, // vb
-  'ant': { badges: ['add', 'check', 'close'] }, // vb
-  'antenna': { badges: ['add', 'check', 'close'] }, // vb
-  'anvil': { badges: ['add', 'check', 'close'] }, // vb
-  'aperture': { badges: ['add', 'check', 'close'] }, // vb
-  'api': { badges: ['add', 'check', 'close'] }, // vb
-  'apple': { badges: ['add', 'check', 'close'] }, // vb
-  'apron': { badges: ['add', 'check', 'close'] }, // vb
-  'arcade': { badges: ['add', 'check', 'close'] }, // vb
-  'arch': { badges: ['add', 'check', 'close'] }, // vb
-  'area': { badges: ['add', 'check', 'close'] }, // vb
-  'armchair': { badges: ['add', 'check', 'close'] }, // vb
-  'aspect-ratio': { badges: ['add', 'check', 'close'] }, // vb
-  'asteroid': { badges: ['add', 'check', 'close'] }, // vb
-  'astronaut': { badges: ['add', 'check', 'close'] }, // vb
-  'at-sign': { badges: ['add', 'check', 'close'] }, // vb
-  'atlas': { badges: ['add', 'check', 'close'] }, // vb
-  'atom': { badges: ['add', 'check', 'close'] }, // vb
-  'atv': { badges: ['add', 'check', 'close'] }, // vb
-  'automation': { badges: ['add', 'check', 'close'] }, // vb
-  'avatar-group': { badges: ['add', 'check', 'close'] }, // vb
-  'avocado': { badges: ['add', 'check', 'close'] }, // vb
-  'awareness-ribbon': { badges: ['add', 'check', 'close'] }, // vb
-  'axe': { badges: ['add', 'check', 'close'] }, // vb
-  'baby': { badges: ['add', 'check', 'close'] }, // vb
-  'baby-bottle': { badges: ['add', 'check', 'close'] }, // vb
-  'baby-monitor': { badges: ['add', 'check', 'close'] }, // vb
-  'bacon': { badges: ['add', 'check', 'close'] }, // vb
-  'bacteria': { badges: ['add', 'check', 'close'] }, // vb
-  'bagel': { badges: ['add', 'check', 'close'] }, // vb
-  'baggage-claim': { badges: ['add', 'check', 'close'] }, // vb
-  'baguette': { badges: ['add', 'check', 'close'] }, // vb
-  'balloon': { badges: ['add', 'check', 'close'] }, // vb
-  'bamboo': { badges: ['add', 'check', 'close'] }, // vb
-  'banana': { badges: ['add', 'check', 'close'] }, // vb
-  'bandage': { badges: ['add', 'check', 'close'] }, // vb
-  'banknotes': { badges: ['add', 'check', 'close'] }, // vb
-  'bao': { badges: ['add', 'check', 'close'] }, // vb
-  'bar-stool': { badges: ['add', 'check', 'close'] }, // vb
-  'barbell': { badges: ['add', 'check', 'close'] }, // vb
-  'barber-pole': { badges: ['add', 'check', 'close'] }, // vb
-  'barcode-scanner': { badges: ['add', 'check', 'close'] }, // vb
-  'barn': { badges: ['add', 'check', 'close'] }, // vb
-  'baseball': { badges: ['add', 'check', 'close'] }, // vb
-  'baseball-bat': { badges: ['add', 'check', 'close'] }, // vb
-  'basketball': { badges: ['add', 'check', 'close'] }, // vb
-  'basketball-hoop': { badges: ['add', 'check', 'close'] }, // vb
-  'bass-clef': { badges: ['add', 'check', 'close'] }, // vb
-  'bat': { badges: ['add', 'check', 'close'] }, // vb
-  'bathroom-scale': { badges: ['add', 'check', 'close'] }, // vb
-  'bathtub': { badges: ['add', 'check', 'close'] }, // vb
-  'battery': { badges: ['add', 'check', 'close'] }, // vb
-  'battery-aa': { badges: ['add', 'check', 'close'] }, // vb
-  'bauble': { badges: ['add', 'check', 'close'] }, // vb
-  'bbq-grill': { badges: ['add', 'check', 'close'] }, // vb
-  'beach-ball': { badges: ['add', 'check', 'close'] }, // vb
-  'beach-umbrella': { badges: ['add', 'check', 'close'] }, // vb
-  'beaker': { badges: ['add', 'check', 'close'] }, // vb
-  'beanie': { badges: ['add', 'check', 'close'] }, // vb
-  'bedtime': { badges: ['add', 'check', 'close'] }, // vb
-  'bee': { badges: ['add', 'check', 'close'] }, // vb
-  'beehive': { badges: ['add', 'check', 'close'] }, // vb
-  'beer-mug': { badges: ['add', 'check', 'close'] }, // vb
-  'bell-pepper': { badges: ['add', 'check', 'close'] }, // vb
-  'belt': { badges: ['add', 'check', 'close'] }, // vb
-  'bench': { badges: ['add', 'check', 'close'] }, // vb
-  'bento': { badges: ['add', 'check', 'close'] }, // vb
-  'beta': { badges: ['add', 'check', 'close'] }, // vb
-  'bezier-curve': { badges: ['add', 'check', 'close'] }, // vb
-  'bib': { badges: ['add', 'check', 'close'] }, // vb
-  'bicycle': { badges: ['add', 'check', 'close'] }, // vb
-  'bike-helmet': { badges: ['add', 'check', 'close'] }, // vb
-  'bike-rack': { badges: ['add', 'check', 'close'] }, // vb
-  'billboard': { badges: ['add', 'check', 'close'] }, // vb
-  'binary': { badges: ['add', 'check', 'close'] }, // vb
-  'binary-tree': { badges: ['add', 'check', 'close'] }, // vb
-  'binder-clip': { badges: ['add', 'check', 'close'] }, // vb
-  'binoculars': { badges: ['add', 'check', 'close'] }, // vb
-  'biofuel': { badges: ['add', 'check', 'close'] }, // vb
-  'bird': { badges: ['add', 'check', 'close'] }, // vb
-  'bird-bath': { badges: ['add', 'check', 'close'] }, // vb
-  'bird-feeder': { badges: ['add', 'check', 'close'] }, // vb
-  'birdcage': { badges: ['add', 'check', 'close'] }, // vb
-  'birdhouse': { badges: ['add', 'check', 'close'] }, // vb
-  'blend': { badges: ['add', 'check', 'close'] }, // vb
-  'blood-bag': { badges: ['add', 'check', 'close'] }, // vb
-  'blood-drop': { badges: ['add', 'check', 'close'] }, // vb
-  'blueprint': { badges: ['add', 'check', 'close'] }, // vb
-  'bolt': { badges: ['add', 'check', 'close'] }, // vb
-  'bomb': { badges: ['add', 'check', 'close'] }, // vb
-  'bone': { badges: ['add', 'check', 'close'] }, // vb
-  'bongo': { badges: ['add', 'check', 'close'] }, // vb
-  'bonsai': { badges: ['add', 'check', 'close'] }, // vb
-  'book-open': { badges: ['add', 'check', 'close'] }, // vb
-  'bookend': { badges: ['add', 'check', 'close'] }, // vb
-  'bookshelf': { badges: ['add', 'check', 'close'] }, // vb
-  'boomerang': { badges: ['add', 'check', 'close'] }, // vb
-  'boot': { badges: ['add', 'check', 'close'] }, // vb
-  'bottle': { badges: ['add', 'check', 'close'] }, // vb
-  'bottle-cap': { badges: ['add', 'check', 'close'] }, // vb
-  'bottle-opener': { badges: ['add', 'check', 'close'] }, // vb
-  'bow-arrow': { badges: ['add', 'check', 'close'] }, // vb
-  'bow-tie': { badges: ['add', 'check', 'close'] }, // vb
-  'bowl': { badges: ['add', 'check', 'close'] }, // vb
-  'bowling': { badges: ['add', 'check', 'close'] }, // vb
-  'box-plot': { badges: ['add', 'check', 'close'] }, // vb
-  'boxing-glove': { badges: ['add', 'check', 'close'] }, // vb
-  'boxing-ring': { badges: ['add', 'check', 'close'] }, // vb
-  'braces': { badges: ['add', 'check', 'close'] }, // vb
-  'brackets': { badges: ['add', 'check', 'close'] }, // vb
-  'brain': { badges: ['add', 'check', 'close'] }, // vb
-  'branch': { badges: ['add', 'check', 'close'] }, // vb
-  'bread': { badges: ['add', 'check', 'close'] }, // vb
-  'breadboard': { badges: ['add', 'check', 'close'] }, // vb
-  'breadcrumb': { badges: ['add', 'check', 'close'] }, // vb
-  'breakpoint': { badges: ['add', 'check', 'close'] }, // vb
-  'brick-wall': { badges: ['add', 'check', 'close'] }, // vb
-  'bricks': { badges: ['add', 'check', 'close'] }, // vb
-  'bridge': { badges: ['add', 'check', 'close'] }, // vb
-  'bring-to-front': { badges: ['add', 'check', 'close'] }, // vb
-  'broccoli': { badges: ['add', 'check', 'close'] }, // vb
-  'broom': { badges: ['add', 'check', 'close'] }, // vb
-  'brush': { badges: ['add', 'check', 'close'] }, // vb
-  'bubble-tea': { badges: ['add', 'check', 'close'] }, // vb
-  'bubble-wrap': { badges: ['add', 'check', 'close'] }, // vb
-  'bucket': { badges: ['add', 'check', 'close'] }, // vb
-  'bucket-hat': { badges: ['add', 'check', 'close'] }, // vb
-  'bucket-spade': { badges: ['add', 'check', 'close'] }, // vb
-  'building': { badges: ['add', 'check', 'close'] }, // vb
-  'bull': { badges: ['add', 'check', 'close'] }, // vb
-  'bulldozer': { badges: ['add', 'check', 'close'] }, // vb
-  'bunk-bed': { badges: ['add', 'check', 'close'] }, // vb
-  'bunsen-burner': { badges: ['add', 'check', 'close'] }, // vb
-  'bunting': { badges: ['add', 'check', 'close'] }, // vb
-  'buoy': { badges: ['add', 'check', 'close'] }, // vb
-  'burger': { badges: ['add', 'check', 'close'] }, // vb
-  'bus': { badges: ['add', 'check', 'close'] }, // vb
-  'bus-shelter': { badges: ['add', 'check', 'close'] }, // vb
-  'bus-stop': { badges: ['add', 'check', 'close'] }, // vb
-  'butter': { badges: ['add', 'check', 'close'] }, // vb
-  'butterfly': { badges: ['add', 'check', 'close'] }, // vb
-  'button': { badges: ['add', 'check', 'close'] }, // vb
-  'c-clamp': { badges: ['add', 'check', 'close'] }, // vb
-  'cable': { badges: ['add', 'check', 'close'] }, // vb
-  'cable-car': { badges: ['add', 'check', 'close'] }, // vb
-  'cactus': { badges: ['add', 'check', 'close'] }, // vb
-  'cairn': { badges: ['add', 'check', 'close'] }, // vb
-  'cake': { badges: ['add', 'check', 'close'] }, // vb
-  'cake-slice': { badges: ['add', 'check', 'close'] }, // vb
-  'calculator': { badges: ['add', 'check', 'close'] }, // vb
-  'calendar-note': { badges: ['close'] }, // vb
-  'calendar-repeat': { badges: ['add', 'check', 'close'] }, // vb
-  'campfire': { badges: ['add', 'check', 'close'] }, // vb
-  'camping-stove': { badges: ['add', 'check', 'close'] }, // vb
-  'candelabra': { badges: ['add', 'check', 'close'] }, // vb
-  'candle': { badges: ['add', 'check', 'close'] }, // vb
-  'candle-holder': { badges: ['add', 'check', 'close'] }, // vb
-  'candy': { badges: ['add', 'check', 'close'] }, // vb
-  'candy-cane': { badges: ['add', 'check', 'close'] }, // vb
-  'cannon': { badges: ['add', 'check', 'close'] }, // vb
-  'cap': { badges: ['add', 'check', 'close'] }, // vb
-  'capacitor': { badges: ['add', 'check', 'close'] }, // vb
-  'captain-hat': { badges: ['add', 'check', 'close'] }, // vb
-  'car': { badges: ['add', 'check', 'close'] }, // vb
-  'car-door': { badges: ['add', 'check', 'close'] }, // vb
-  'car-seat': { badges: ['add', 'check', 'close'] }, // vb
-  'car-wash': { badges: ['add', 'check', 'close'] }, // vb
-  'carabiner': { badges: ['add', 'check', 'close'] }, // vb
-  'caravan': { badges: ['add', 'check', 'close'] }, // vb
-  'carousel': { badges: ['add', 'check', 'close'] }, // vb
-  'carrot': { badges: ['add', 'check', 'close'] }, // vb
-  'cashback': { badges: ['add', 'check', 'close'] }, // vb
-  'cassette': { badges: ['add', 'check', 'close'] }, // vb
-  'castle': { badges: ['add', 'check', 'close'] }, // vb
-  'cat': { badges: ['add', 'check', 'close'] }, // vb
-  'caterpillar': { badges: ['add', 'check', 'close'] }, // vb
-  'cauldron': { badges: ['add', 'check', 'close'] }, // vb
-  'caution-tape': { badges: ['add', 'check', 'close'] }, // vb
-  'cave': { badges: ['add', 'check', 'close'] }, // vb
-  'ceiling-fan': { badges: ['add', 'check', 'close'] }, // vb
-  'cell': { badges: ['add', 'check', 'close'] }, // vb
-  'cement-bag': { badges: ['add', 'check', 'close'] }, // vb
-  'cement-mixer': { badges: ['add', 'check', 'close'] }, // vb
-  'center-object': { badges: ['add', 'check', 'close'] }, // vb
-  'chair': { badges: ['add', 'check', 'close'] }, // vb
-  'chalkboard': { badges: ['add', 'check', 'close'] }, // vb
-  'champagne': { badges: ['add', 'check', 'close'] }, // vb
-  'chandelier': { badges: ['add', 'check', 'close'] }, // vb
-  'chapel': { badges: ['add', 'check', 'close'] }, // vb
-  'chart-area': { badges: ['add', 'check', 'close'] }, // vb
-  'chart-area-stacked': { badges: ['add', 'check', 'close'] }, // vb
-  'chart-bar-horizontal': { badges: ['add', 'check', 'close'] }, // vb
-  'chart-bubble': { badges: ['add', 'check', 'close'] }, // vb
-  'chart-candles': { badges: ['add', 'check', 'close'] }, // vb
-  'chart-coin': { badges: ['add', 'check', 'close'] }, // vb
-  'chart-decline': { badges: ['add', 'check', 'close'] }, // vb
-  'chart-dumbbell': { badges: ['add', 'check', 'close'] }, // vb
-  'chart-forecast': { badges: ['add', 'check', 'close'] }, // vb
-  'chart-gantt': { badges: ['add', 'check', 'close'] }, // vb
-  'chart-grouped': { badges: ['add', 'check', 'close'] }, // vb
-  'chart-growth': { badges: ['add', 'check', 'close'] }, // vb
-  'chart-histogram': { badges: ['add', 'check', 'close'] }, // vb
-  'chart-line-multi': { badges: ['add', 'check', 'close'] }, // vb
-  'chart-lollipop': { badges: ['add', 'check', 'close'] }, // vb
-  'chart-mixed': { badges: ['add', 'check', 'close'] }, // vb
-  'chart-points': { badges: ['add', 'check', 'close'] }, // vb
-  'chart-polar': { badges: ['add', 'check', 'close'] }, // vb
-  'chart-pyramid': { badges: ['add', 'check', 'close'] }, // vb
-  'chart-radar': { badges: ['add', 'check', 'close'] }, // vb
-  'chart-range': { badges: ['add', 'check', 'close'] }, // vb
-  'chart-sankey': { badges: ['add', 'check', 'close'] }, // vb
-  'chart-scatter': { badges: ['add', 'check', 'close'] }, // vb
-  'chart-slope': { badges: ['add', 'check', 'close'] }, // vb
-  'chart-spline': { badges: ['add', 'check', 'close'] }, // vb
-  'chart-stacked': { badges: ['add', 'check', 'close'] }, // vb
-  'chart-step': { badges: ['add', 'check', 'close'] }, // vb
-  'chart-sunburst': { badges: ['add', 'check', 'close'] }, // vb
-  'chart-treemap': { badges: ['add', 'check', 'close'] }, // vb
-  'chart-waterfall': { badges: ['add', 'check', 'close'] }, // vb
-  'check-circle': { badges: ['add', 'check', 'close'] }, // vb
-  'checkbox': { badges: ['add', 'check', 'close'] }, // vb
-  'cheers': { badges: ['add', 'check', 'close'] }, // vb
-  'cheese': { badges: ['add', 'check', 'close'] }, // vb
-  'chef-hat': { badges: ['add', 'check', 'close'] }, // vb
-  'cherries': { badges: ['add', 'check', 'close'] }, // vb
-  'cherry': { badges: ['add', 'check', 'close'] }, // vb
-  'chess-bishop': { badges: ['add', 'check', 'close'] }, // vb
-  'chess-king': { badges: ['add', 'check', 'close'] }, // vb
-  'chess-knight': { badges: ['add', 'check', 'close'] }, // vb
-  'chess-pawn': { badges: ['add', 'check', 'close'] }, // vb
-  'chess-queen': { badges: ['add', 'check', 'close'] }, // vb
-  'chess-rook': { badges: ['add', 'check', 'close'] }, // vb
-  'chili': { badges: ['add', 'check', 'close'] }, // vb
-  'chip': { badges: ['add', 'check', 'close'] }, // vb
-  'chisel': { badges: ['add', 'check', 'close'] }, // vb
-  'chocolate-bar': { badges: ['add', 'check', 'close'] }, // vb
-  'chopsticks': { badges: ['add', 'check', 'close'] }, // vb
-  'christmas-tree': { badges: ['add', 'check', 'close'] }, // vb
-  'church': { badges: ['add', 'check', 'close'] }, // vb
-  'cigarette': { badges: ['add', 'check', 'close'] }, // vb
-  'circle-dashed': { badges: ['add', 'check', 'close'] }, // vb
-  'circuit-board': { badges: ['add', 'check', 'close'] }, // vb
-  'circus-tent': { badges: ['add', 'check', 'close'] }, // vb
-  'citrus': { badges: ['add', 'check', 'close'] }, // vb
-  'city': { badges: ['add', 'check', 'close'] }, // vb
-  'claw-machine': { badges: ['add', 'check', 'close'] }, // vb
-  'clipboard-list': { badges: ['add', 'check', 'close'] }, // vb
-  'cloche': { badges: ['add', 'check', 'close'] }, // vb
-  'clock-fast': { badges: ['add', 'check', 'close'] }, // vb
-  'clock-tower': { badges: ['add', 'check', 'close'] }, // vb
-  'close-circle': { badges: ['add', 'check', 'close'] }, // vb
-  'clothes-rack': { badges: ['add', 'check', 'close'] }, // vb
-  'clothesline': { badges: ['add', 'check', 'close'] }, // vb
-  'clothespin': { badges: ['add', 'check', 'close'] }, // vb
-  'cloud-sync': { badges: ['add', 'check', 'close'] }, // vb
-  'clover': { badges: ['add', 'check', 'close'] }, // vb
-  'coal': { badges: ['add', 'check', 'close'] }, // vb
-  'coat-hook': { badges: ['add', 'check', 'close'] }, // vb
-  'coat-rack': { badges: ['add', 'check', 'close'] }, // vb
-  'cocktail': { badges: ['add', 'check', 'close'] }, // vb
-  'cocoon': { badges: ['add', 'check', 'close'] }, // vb
-  'code': { badges: ['add', 'check', 'close'] }, // vb
-  'code-window': { badges: ['add', 'check', 'close'] }, // vb
-  'coffee': { badges: ['add', 'check', 'close'] }, // vb
-  'coffee-bean': { badges: ['add', 'check', 'close'] }, // vb
-  'coffee-grinder': { badges: ['add', 'check', 'close'] }, // vb
-  'coffee-machine': { badges: ['add', 'check', 'close'] }, // vb
-  'coffee-to-go': { badges: ['add', 'check', 'close'] }, // vb
-  'coffin': { badges: ['add', 'check', 'close'] }, // vb
-  'colander': { badges: ['add', 'check', 'close'] }, // vb
-  'color-input': { badges: ['add', 'check', 'close'] }, // vb
-  'color-picker': { badges: ['add', 'check', 'close'] }, // vb
-  'columns': { badges: ['add', 'check', 'close'] }, // vb
-  'comb': { badges: ['add', 'check', 'close'] }, // vb
-  'command': { badges: ['add', 'check', 'close'] }, // vb
-  'command-palette': { badges: ['add', 'check', 'close'] }, // vb
-  'compass-rose': { badges: ['add', 'check', 'close'] }, // vb
-  'compost': { badges: ['add', 'check', 'close'] }, // vb
-  'compost-bin': { badges: ['add', 'check', 'close'] }, // vb
-  'confetti': { badges: ['add', 'check', 'close'] }, // vb
-  'constellation': { badges: ['add', 'check', 'close'] }, // vb
-  'contact-lens': { badges: ['add', 'check', 'close'] }, // vb
-  'container-ship': { badges: ['add', 'check', 'close'] }, // vb
-  'context-menu': { badges: ['add', 'check', 'close'] }, // vb
-  'convertible': { badges: ['add', 'check', 'close'] }, // vb
-  'conveyor': { badges: ['add', 'check', 'close'] }, // vb
-  'conveyor-belt': { badges: ['add', 'check', 'close'] }, // vb
-  'cookie': { badges: ['add', 'check', 'close'] }, // vb
-  'cookie-jar': { badges: ['add', 'check', 'close'] }, // vb
-  'cooking-pot': { badges: ['add', 'check', 'close'] }, // vb
-  'cooling-tower': { badges: ['add', 'check', 'close'] }, // vb
-  'coral': { badges: ['add', 'check', 'close'] }, // vb
-  'corkscrew': { badges: ['add', 'check', 'close'] }, // vb
-  'corn': { badges: ['add', 'check', 'close'] }, // vb
-  'corner-radius': { badges: ['add', 'check', 'close'] }, // vb
-  'corrosive': { badges: ['add', 'check', 'close'] }, // vb
-  'cottage': { badges: ['add', 'check', 'close'] }, // vb
-  'cow': { badges: ['add', 'check', 'close'] }, // vb
-  'cowboy-hat': { badges: ['add', 'check', 'close'] }, // vb
-  'crab': { badges: ['add', 'check', 'close'] }, // vb
-  'cradle': { badges: ['add', 'check', 'close'] }, // vb
-  'crane': { badges: ['add', 'check', 'close'] }, // vb
-  'crane-hook': { badges: ['add', 'check', 'close'] }, // vb
-  'crayon': { badges: ['add', 'check', 'close'] }, // vb
-  'crib': { badges: ['add', 'check', 'close'] }, // vb
-  'crib-mobile': { badges: ['add', 'check', 'close'] }, // vb
-  'cricket-bat': { badges: ['add', 'check', 'close'] }, // vb
-  'croissant': { badges: ['add', 'check', 'close'] }, // vb
-  'crop': { badges: ['add', 'check', 'close'] }, // vb
-  'crossroads': { badges: ['add', 'check', 'close'] }, // vb
-  'crown': { badges: ['add', 'check', 'close'] }, // vb
-  'crutch': { badges: ['add', 'check', 'close'] }, // vb
-  'crystal': { badges: ['add', 'check', 'close'] }, // vb
-  'crystal-ball': { badges: ['add', 'check', 'close'] }, // vb
-  'cupcake': { badges: ['add', 'check', 'close'] }, // vb
-  'curling-stone': { badges: ['add', 'check', 'close'] }, // vb
-  'cursor-click': { badges: ['add', 'check', 'close'] }, // vb
-  'cursor-col-resize': { badges: ['add', 'check', 'close'] }, // vb
-  'cursor-zoom': { badges: ['check'] }, // vb
-  'curtains': { badges: ['add', 'check', 'close'] }, // vb
-  'cutting-board': { badges: ['add', 'check', 'close'] }, // vb
-  'dagger': { badges: ['add', 'check', 'close'] }, // vb
-  'dam': { badges: ['add', 'check', 'close'] }, // vb
-  'dandelion': { badges: ['add', 'check', 'close'] }, // vb
-  'dart': { badges: ['add', 'check', 'close'] }, // vb
-  'dashboard-gauge': { badges: ['add', 'check', 'close'] }, // vb
-  'dead-end': { badges: ['add', 'check', 'close'] }, // vb
-  'deep-fryer': { badges: ['add', 'check', 'close'] }, // vb
-  'deep-water': { badges: ['add', 'check', 'close'] }, // vb
-  'defibrillator': { badges: ['add', 'check', 'close'] }, // vb
-  'desert': { badges: ['add', 'check', 'close'] }, // vb
-  'desk-globe': { badges: ['add', 'check', 'close'] }, // vb
-  'desk-phone': { badges: ['add', 'check', 'close'] }, // vb
-  'diamond': { badges: ['add', 'check', 'close'] }, // vb
-  'dice': { badges: ['add', 'check', 'close'] }, // vb
-  'dice-d20': { badges: ['add', 'check', 'close'] }, // vb
-  'diff': { badges: ['add', 'check', 'close'] }, // vb
-  'dining-table': { badges: ['add', 'check', 'close'] }, // vb
-  'diode': { badges: ['add', 'check', 'close'] }, // vb
-  'directions-sign': { badges: ['add', 'check', 'close'] }, // vb
-  'disc': { badges: ['add', 'check', 'close'] }, // vb
-  'disco-ball': { badges: ['add', 'check', 'close'] }, // vb
-  'dish-rack': { badges: ['add', 'check', 'close'] }, // vb
-  'dishwasher': { badges: ['add', 'check', 'close'] }, // vb
-  'distance': { badges: ['add', 'check', 'close'] }, // vb
-  'distribute-horizontal': { badges: ['add', 'check', 'close'] }, // vb
-  'divide': { badges: ['add', 'check', 'close'] }, // vb
-  'diving-mask': { badges: ['add', 'check', 'close'] }, // vb
-  'diya': { badges: ['add', 'check', 'close'] }, // vb
-  'djembe': { badges: ['add', 'check', 'close'] }, // vb
-  'dock': { badges: ['add', 'check', 'close'] }, // vb
-  'dog': { badges: ['add', 'check', 'close'] }, // vb
-  'dog-bowl': { badges: ['add', 'check', 'close'] }, // vb
-  'doghouse': { badges: ['add', 'check', 'close'] }, // vb
-  'dollar-circle': { badges: ['add', 'check', 'close'] }, // vb
-  'dollar-sign': { badges: ['add', 'check', 'close'] }, // vb
-  'domino': { badges: ['add', 'check', 'close'] }, // vb
-  'donut': { badges: ['add', 'check', 'close'] }, // vb
-  'door': { badges: ['add', 'check', 'close'] }, // vb
-  'download': { badges: ['add', 'check', 'close'] }, // vb
-  'drafting-compass': { badges: ['add', 'check', 'close'] }, // vb
-  'drag-drop': { badges: ['add', 'check', 'close'] }, // vb
-  'dragonfly': { badges: ['add', 'check', 'close'] }, // vb
-  'drawing-compass': { badges: ['add', 'check', 'close'] }, // vb
-  'dreamcatcher': { badges: ['add', 'check', 'close'] }, // vb
-  'dress': { badges: ['add', 'check', 'close'] }, // vb
-  'dresser': { badges: ['add', 'check', 'close'] }, // vb
-  'drill': { badges: ['add', 'check', 'close'] }, // vb
-  'drone': { badges: ['add', 'check', 'close'] }, // vb
-  'dropdown': { badges: ['add', 'check', 'close'] }, // vb
-  'dropdown-menu': { badges: ['add', 'check', 'close'] }, // vb
-  'drum': { badges: ['add', 'check', 'close'] }, // vb
-  'drumstick': { badges: ['add', 'check', 'close'] }, // vb
-  'duck': { badges: ['add', 'check', 'close'] }, // vb
-  'dumbbell': { badges: ['add', 'check', 'close'] }, // vb
-  'dumpling': { badges: ['add', 'check', 'close'] }, // vb
-  'dustpan': { badges: ['add', 'check', 'close'] }, // vb
-  'earbuds': { badges: ['add', 'check', 'close'] }, // vb
-  'earring': { badges: ['add', 'check', 'close'] }, // vb
-  'earthquake': { badges: ['add', 'check', 'close'] }, // vb
-  'easel': { badges: ['add', 'check', 'close'] }, // vb
-  'easter-egg': { badges: ['add', 'check', 'close'] }, // vb
-  'egg-cracked': { badges: ['add', 'check', 'close'] }, // vb
-  'egg-fried': { badges: ['add', 'check', 'close'] }, // vb
-  'eggplant': { badges: ['add', 'check', 'close'] }, // vb
-  'eject': { badges: ['add', 'check', 'close'] }, // vb
-  'elderly': { badges: ['add', 'check', 'close'] }, // vb
-  'element-of': { badges: ['add', 'check', 'close'] }, // vb
-  'environment-hazard': { badges: ['add', 'check', 'close'] }, // vb
-  'equalizer': { badges: ['add', 'check', 'close'] }, // vb
-  'eraser': { badges: ['add', 'check', 'close'] }, // vb
-  'escalator': { badges: ['add', 'check', 'close'] }, // vb
-  'ethernet': { badges: ['add', 'check', 'close'] }, // vb
-  'euro-circle': { badges: ['add', 'check', 'close'] }, // vb
-  'excavator': { badges: ['add', 'check', 'close'] }, // vb
-  'exchange': { badges: ['add', 'check', 'close'] }, // vb
-  'exclude': { badges: ['add', 'check', 'close'] }, // vb
-  'exists': { badges: ['add', 'check', 'close'] }, // vb
-  'explosive': { badges: ['add', 'check', 'close'] }, // vb
-  'external-link': { badges: ['add', 'check', 'close'] }, // vb
-  'eye-chart': { badges: ['add', 'check', 'close'] }, // vb
-  'eye-drops': { badges: ['add', 'check', 'close'] }, // vb
-  'face-cream': { badges: ['add', 'check', 'close'] }, // vb
-  'face-mask': { badges: ['add', 'check', 'close'] }, // vb
-  'fast-forward': { badges: ['add', 'check', 'close'] }, // vb
-  'faucet': { badges: ['add', 'check', 'close'] }, // vb
-  'feather': { badges: ['add', 'check', 'close'] }, // vb
-  'fence': { badges: ['add', 'check', 'close'] }, // vb
-  'fern': { badges: ['add', 'check', 'close'] }, // vb
-  'ferris-wheel': { badges: ['add', 'check', 'close'] }, // vb
-  'ferry': { badges: ['add', 'check', 'close'] }, // vb
-  'file-audio': { badges: ['add', 'check', 'close'] }, // vb
-  'file-chart': { badges: ['add', 'check', 'close'] }, // vb
-  'file-diff': { badges: ['add', 'check', 'close'] }, // vb
-  'file-dollar': { badges: ['add', 'check', 'close'] }, // vb
-  'file-font': { badges: ['add', 'check', 'close'] }, // vb
-  'file-input': { badges: ['add', 'check', 'close'] }, // vb
-  'file-json': { badges: ['add', 'check', 'close'] }, // vb
-  'file-link': { badges: ['add', 'check', 'close'] }, // vb
-  'file-log': { badges: ['add', 'check', 'close'] }, // vb
-  'file-pen': { badges: ['add', 'check', 'close'] }, // vb
-  'file-signature': { badges: ['add', 'check', 'close'] }, // vb
-  'file-sync': { badges: ['add', 'check', 'close'] }, // vb
-  'file-terminal': { badges: ['add', 'check', 'close'] }, // vb
-  'file-video': { badges: ['add', 'check', 'close'] }, // vb
-  'filing-cabinet': { badges: ['add', 'check', 'close'] }, // vb
-  'fill-stroke': { badges: ['add', 'close'] }, // vb
-  'film-reel': { badges: ['add', 'check', 'close'] }, // vb
-  'film-roll': { badges: ['add', 'check', 'close'] }, // vb
-  'film-strip': { badges: ['add', 'check', 'close'] }, // vb
-  'fire-hydrant': { badges: ['add', 'check', 'close'] }, // vb
-  'firecracker': { badges: ['add', 'check', 'close'] }, // vb
-  'fireplace': { badges: ['add', 'check', 'close'] }, // vb
-  'fireworks': { badges: ['add', 'check', 'close'] }, // vb
-  'fish': { badges: ['add', 'check', 'close'] }, // vb
-  'fish-hook': { badges: ['add', 'check', 'close'] }, // vb
-  'fishbowl': { badges: ['add', 'check', 'close'] }, // vb
-  'fishing-boat': { badges: ['add', 'check', 'close'] }, // vb
-  'fishing-float': { badges: ['add', 'check', 'close'] }, // vb
-  'fishing-rod': { badges: ['add', 'check', 'close'] }, // vb
-  'fitness-tracker': { badges: ['add', 'check', 'close'] }, // vb
-  'flammable': { badges: ['add', 'check', 'close'] }, // vb
-  'flat-sign': { badges: ['add', 'check', 'close'] }, // vb
-  'flip-flops': { badges: ['add', 'check', 'close'] }, // vb
-  'flip-horizontal': { badges: ['add', 'check', 'close'] }, // vb
-  'flipchart': { badges: ['add', 'check', 'close'] }, // vb
-  'flood': { badges: ['add', 'check', 'close'] }, // vb
-  'flood-zone': { badges: ['add', 'check', 'close'] }, // vb
-  'flower': { badges: ['add', 'check', 'close'] }, // vb
-  'folder-chart': { badges: ['add', 'check', 'close'] }, // vb
-  'folder-code': { badges: ['add', 'check', 'close'] }, // vb
-  'folder-dollar': { badges: ['add', 'check', 'close'] }, // vb
-  'folder-globe': { badges: ['add', 'check', 'close'] }, // vb
-  'folder-link': { badges: ['add', 'check', 'close'] }, // vb
-  'folder-mail': { badges: ['add', 'check', 'close'] }, // vb
-  'folder-open': { badges: ['add', 'check', 'close'] }, // vb
-  'folder-sync': { badges: ['add', 'check', 'close'] }, // vb
-  'folder-terminal': { badges: ['add', 'check', 'close'] }, // vb
-  'folder-tree': { badges: ['add', 'check', 'close'] }, // vb
-  'folder-video': { badges: ['add', 'check', 'close'] }, // vb
-  'food-processor': { badges: ['add', 'check', 'close'] }, // vb
-  'football-helmet': { badges: ['add', 'check', 'close'] }, // vb
-  'for-all': { badges: ['add', 'check', 'close'] }, // vb
-  'forest': { badges: ['add', 'check', 'close'] }, // vb
-  'forklift': { badges: ['add', 'check', 'close'] }, // vb
-  'fossil': { badges: ['add', 'check', 'close'] }, // vb
-  'fountain': { badges: ['add', 'check', 'close'] }, // vb
-  'fountain-pen': { badges: ['add', 'check', 'close'] }, // vb
-  'fox': { badges: ['add', 'check', 'close'] }, // vb
-  'fragile': { badges: ['add', 'check', 'close'] }, // vb
-  'frame': { badges: ['add', 'check', 'close'] }, // vb
-  'french-press': { badges: ['add', 'check', 'close'] }, // vb
-  'fries': { badges: ['add', 'check', 'close'] }, // vb
-  'frisbee': { badges: ['add', 'check', 'close'] }, // vb
-  'frog': { badges: ['add', 'check', 'close'] }, // vb
-  'frying-pan': { badges: ['add', 'check', 'close'] }, // vb
-  'fuel-gauge': { badges: ['add', 'check', 'close'] }, // vb
-  'function': { badges: ['add', 'check', 'close'] }, // vb
-  'funicular': { badges: ['add', 'check', 'close'] }, // vb
-  'funnel-chart': { badges: ['add', 'check', 'close'] }, // vb
-  'fuse': { badges: ['add', 'check', 'close'] }, // vb
-  'galaxy': { badges: ['add', 'check', 'close'] }, // vb
-  'game-cartridge': { badges: ['add', 'check', 'close'] }, // vb
-  'gamepad': { badges: ['add', 'check', 'close'] }, // vb
-  'garlic': { badges: ['add', 'check', 'close'] }, // vb
-  'gas-cylinder': { badges: ['add', 'check', 'close'] }, // vb
-  'gas-flame': { badges: ['add', 'check', 'close'] }, // vb
-  'gate': { badges: ['add', 'check', 'close'] }, // vb
-  'gavel': { badges: ['add', 'check', 'close'] }, // vb
-  'gazebo': { badges: ['add', 'check', 'close'] }, // vb
-  'gear-shift': { badges: ['add', 'check', 'close'] }, // vb
-  'gender-female': { badges: ['add', 'check', 'close'] }, // vb
-  'gender-male': { badges: ['add', 'check', 'close'] }, // vb
-  'gender-neutral': { badges: ['add', 'check', 'close'] }, // vb
-  'generator': { badges: ['add', 'check', 'close'] }, // vb
-  'geofence': { badges: ['add', 'check', 'close'] }, // vb
-  'gift-bow': { badges: ['add', 'check', 'close'] }, // vb
-  'gingerbread': { badges: ['add', 'check', 'close'] }, // vb
-  'git-compare': { badges: ['add', 'check', 'close'] }, // vb
-  'git-fork': { badges: ['add', 'check', 'close'] }, // vb
-  'glass-water': { badges: ['add', 'check', 'close'] }, // vb
-  'glasses': { badges: ['add', 'check', 'close'] }, // vb
-  'glove': { badges: ['add', 'check', 'close'] }, // vb
-  'glucose-meter': { badges: ['add', 'check', 'close'] }, // vb
-  'glue': { badges: ['add', 'check', 'close'] }, // vb
-  'glue-gun': { badges: ['add', 'check', 'close'] }, // vb
-  'glue-stick': { badges: ['add', 'check', 'close'] }, // vb
-  'go-kart': { badges: ['add', 'check', 'close'] }, // vb
-  'goal-net': { badges: ['add', 'check', 'close'] }, // vb
-  'goblet': { badges: ['add', 'check', 'close'] }, // vb
-  'goggles': { badges: ['add', 'check', 'close'] }, // vb
-  'gold-bars': { badges: ['add', 'check', 'close'] }, // vb
-  'gold-pan': { badges: ['add', 'check', 'close'] }, // vb
-  'golf': { badges: ['add', 'check', 'close'] }, // vb
-  'golf-cart': { badges: ['add', 'check', 'close'] }, // vb
-  'golf-tee': { badges: ['add', 'check', 'close'] }, // vb
-  'gong': { badges: ['add', 'check', 'close'] }, // vb
-  'grade': { badges: ['add', 'check', 'close'] }, // vb
-  'graduated-cylinder': { badges: ['add', 'check', 'close'] }, // vb
-  'grapes': { badges: ['add', 'check', 'close'] }, // vb
-  'grass': { badges: ['add', 'check', 'close'] }, // vb
-  'grater': { badges: ['add', 'check', 'close'] }, // vb
-  'gravy-boat': { badges: ['add', 'check', 'close'] }, // vb
-  'greek-column': { badges: ['add', 'check', 'close'] }, // vb
-  'green-energy': { badges: ['add', 'check', 'close'] }, // vb
-  'greenhouse': { badges: ['add', 'check', 'close'] }, // vb
-  'grid-dots': { badges: ['add', 'check', 'close'] }, // vb
-  'grip-vertical': { badges: ['add', 'check', 'close'] }, // vb
-  'group-objects': { badges: ['add', 'check', 'close'] }, // vb
-  'guitar': { badges: ['add', 'check', 'close'] }, // vb
+  'abacus': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'accordion': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'acorn': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'add-circle': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-agent': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-airplane': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-bag': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-book': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-briefcase': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-browser': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-bug': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-building': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-calculator': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-car': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-cart': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-chart': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-clipboard': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-code': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-contract': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-cube': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-dashboard': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-database': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-document': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-fine-tune': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-flask': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-folder': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-form': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-gift': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-graduation': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-graph': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-home': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-id': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-idea': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-image': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-inbox': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-laptop': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-mail': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-map': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-model': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-news': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-notes': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-package': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-palette': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-pen': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-phone': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-plant': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-presentation': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-receipt': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-scan': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-server': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-sheet': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-summary': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-support': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-target': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-terminal': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-translate': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-video': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-vision': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-voice': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-wallet': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-write': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'air-conditioner': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'airplane-landing': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'airplane-takeoff': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'airship': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'alarm-snooze': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'align-object-left': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ambulance': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'anchor': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'anchor-point': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'angle': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ant': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'antenna': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'anvil': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'aperture': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'api': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'apple': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'apron': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'arcade': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'arch': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'area': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'armchair': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'aspect-ratio': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'asteroid': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'astronaut': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'at-sign': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'atlas': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'atom': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'atv': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'automation': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'avatar-group': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'avocado': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'awareness-ribbon': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'axe': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'baby': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'baby-bottle': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'baby-monitor': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'bacon': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'bacteria': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'bagel': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'baggage-claim': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'baguette': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'balloon': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'bamboo': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'banana': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'bandage': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'banknotes': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'bao': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'bar-stool': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'barbell': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'barber-pole': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'barcode-scanner': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'barn': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'baseball': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'baseball-bat': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'basketball': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'basketball-hoop': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'bass-clef': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'bat': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'bathroom-scale': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'bathtub': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'battery': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'battery-aa': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'bauble': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'bbq-grill': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'beach-ball': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'beach-umbrella': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'beaker': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'beanie': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'bedtime': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'bee': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'beehive': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'beer-mug': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'bell-pepper': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'belt': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'bench': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'bento': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'beta': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'bezier-curve': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'bib': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'bicycle': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'bike-helmet': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'bike-rack': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'billboard': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'binary': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'binary-tree': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'binder-clip': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'binoculars': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'biofuel': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'bird': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'bird-bath': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'bird-feeder': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'birdcage': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'birdhouse': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'blend': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'blood-bag': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'blood-drop': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'blueprint': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'bolt': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'bomb': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'bone': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'bongo': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'bonsai': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'book-open': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'bookend': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'bookshelf': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'boomerang': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'boot': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'bottle': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'bottle-cap': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'bottle-opener': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'bow-arrow': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'bow-tie': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'bowl': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'bowling': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'box-plot': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'boxing-glove': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'boxing-ring': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'braces': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'brackets': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'brain': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'branch': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'bread': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'breadboard': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'breadcrumb': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'breakpoint': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'brick-wall': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'bricks': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'bridge': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'bring-to-front': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'broccoli': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'broom': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'brush': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'bubble-tea': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'bubble-wrap': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'bucket': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'bucket-hat': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'bucket-spade': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'building': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'bull': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'bulldozer': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'bunk-bed': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'bunsen-burner': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'bunting': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'buoy': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'burger': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'bus': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'bus-shelter': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'bus-stop': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'butter': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'butterfly': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'button': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'c-clamp': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'cable': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'cable-car': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'cactus': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'cairn': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'cake': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'cake-slice': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'calculator': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'calendar-note': { badges: ['close', 'remove', 'alert'] }, // vb
+  'calendar-repeat': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'campfire': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'camping-stove': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'candelabra': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'candle': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'candle-holder': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'candy': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'candy-cane': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'cannon': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'cap': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'capacitor': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'captain-hat': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'car': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'car-door': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'car-seat': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'car-wash': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'carabiner': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'caravan': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'carousel': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'carrot': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'cashback': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'cassette': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'castle': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'cat': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'caterpillar': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'cauldron': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'caution-tape': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'cave': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'ceiling-fan': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'cell': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'cement-bag': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'cement-mixer': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'center-object': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'chair': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'chalkboard': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'champagne': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'chandelier': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'chapel': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'chart-area': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'chart-area-stacked': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'chart-bar-horizontal': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'chart-bubble': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'chart-candles': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'chart-coin': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'chart-decline': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'chart-dumbbell': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'chart-forecast': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'chart-gantt': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'chart-grouped': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'chart-growth': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'chart-histogram': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'chart-line-multi': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'chart-lollipop': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'chart-mixed': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'chart-points': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'chart-polar': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'chart-pyramid': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'chart-radar': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'chart-range': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'chart-sankey': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'chart-scatter': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'chart-slope': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'chart-spline': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'chart-stacked': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'chart-step': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'chart-sunburst': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'chart-treemap': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'chart-waterfall': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'check-circle': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'checkbox': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'cheers': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'cheese': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'chef-hat': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'cherries': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'cherry': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'chess-bishop': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'chess-king': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'chess-knight': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'chess-pawn': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'chess-queen': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'chess-rook': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'chili': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'chip': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'chisel': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'chocolate-bar': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'chopsticks': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'christmas-tree': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'church': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'cigarette': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'circle-dashed': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'circuit-board': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'circus-tent': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'citrus': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'city': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'claw-machine': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'clipboard-list': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'cloche': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'clock-fast': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'clock-tower': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'close-circle': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'clothes-rack': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'clothesline': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'clothespin': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'cloud-sync': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'clover': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'coal': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'coat-hook': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'coat-rack': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'cocktail': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'cocoon': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'code': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'code-window': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'coffee': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'coffee-bean': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'coffee-grinder': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'coffee-machine': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'coffee-to-go': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'coffin': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'colander': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'color-input': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'color-picker': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'columns': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'comb': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'command': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'command-palette': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'compass-rose': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'compost': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'compost-bin': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'confetti': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'constellation': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'contact-lens': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'container-ship': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'context-menu': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'convertible': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'conveyor': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'conveyor-belt': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'cookie': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'cookie-jar': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'cooking-pot': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'cooling-tower': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'coral': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'corkscrew': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'corn': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'corner-radius': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'corrosive': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'cottage': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'cow': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'cowboy-hat': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'crab': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'cradle': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'crane': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'crane-hook': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'crayon': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'crib': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'crib-mobile': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'cricket-bat': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'croissant': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'crop': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'crossroads': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'crown': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'crutch': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'crystal': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'crystal-ball': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'cupcake': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'curling-stone': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'cursor-click': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'cursor-col-resize': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'cursor-zoom': { badges: ['check', 'remove', 'alert'] }, // vb
+  'curtains': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'cutting-board': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'dagger': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'dam': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'dandelion': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'dart': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'dashboard-gauge': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'dead-end': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'deep-fryer': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'deep-water': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'defibrillator': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'desert': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'desk-globe': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'desk-phone': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'diamond': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'dice': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'dice-d20': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'diff': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'dining-table': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'diode': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'directions-sign': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'disc': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'disco-ball': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'dish-rack': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'dishwasher': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'distance': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'distribute-horizontal': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'divide': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'diving-mask': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'diya': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'djembe': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'dock': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'dog': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'dog-bowl': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'doghouse': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'dollar-circle': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'dollar-sign': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'domino': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'donut': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'door': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'download': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'drafting-compass': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'drag-drop': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'dragonfly': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'drawing-compass': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'dreamcatcher': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'dress': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'dresser': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'drill': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'drone': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'dropdown': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'dropdown-menu': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'drum': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'drumstick': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'duck': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'dumbbell': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'dumpling': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'dustpan': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'earbuds': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'earring': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'earthquake': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'easel': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'easter-egg': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'egg-cracked': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'egg-fried': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'eggplant': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'eject': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'elderly': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'element-of': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'environment-hazard': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'equalizer': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'eraser': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'escalator': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'ethernet': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'euro-circle': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'excavator': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'exchange': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'exclude': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'exists': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'explosive': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'external-link': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'eye-chart': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'eye-drops': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'face-cream': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'face-mask': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'fast-forward': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'faucet': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'feather': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'fence': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'fern': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ferris-wheel': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'ferry': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'file-audio': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'file-chart': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'file-diff': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'file-dollar': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'file-font': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'file-input': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'file-json': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'file-link': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'file-log': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'file-pen': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'file-signature': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'file-sync': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'file-terminal': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'file-video': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'filing-cabinet': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'fill-stroke': { badges: ['add', 'close', 'remove', 'alert'] }, // vb
+  'film-reel': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'film-roll': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'film-strip': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'fire-hydrant': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'firecracker': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'fireplace': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'fireworks': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'fish': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'fish-hook': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'fishbowl': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'fishing-boat': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'fishing-float': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'fishing-rod': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'fitness-tracker': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'flammable': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'flat-sign': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'flip-flops': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'flip-horizontal': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'flipchart': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'flood': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'flood-zone': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'flower': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'folder-chart': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'folder-code': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'folder-dollar': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'folder-globe': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'folder-link': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'folder-mail': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'folder-open': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'folder-sync': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'folder-terminal': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'folder-tree': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'folder-video': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'food-processor': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'football-helmet': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'for-all': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'forest': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'forklift': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'fossil': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'fountain': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'fountain-pen': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'fox': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'fragile': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'frame': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'french-press': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'fries': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'frisbee': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'frog': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'frying-pan': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'fuel-gauge': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'function': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'funicular': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'funnel-chart': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'fuse': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'galaxy': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'game-cartridge': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'gamepad': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'garlic': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'gas-cylinder': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'gas-flame': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'gate': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'gavel': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'gazebo': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'gear-shift': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'gender-female': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'gender-male': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'gender-neutral': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'generator': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'geofence': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'gift-bow': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'gingerbread': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'git-compare': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'git-fork': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'glass-water': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'glasses': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'glove': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'glucose-meter': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'glue': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'glue-gun': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'glue-stick': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'go-kart': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'goal-net': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'goblet': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'goggles': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'gold-bars': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'gold-pan': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'golf': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'golf-cart': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'golf-tee': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'gong': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'grade': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'graduated-cylinder': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'grapes': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'grass': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'grater': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'gravy-boat': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'greek-column': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'green-energy': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'greenhouse': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'grid-dots': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'grip-vertical': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'group-objects': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'guitar': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'gumball-machine': { badges: ['add', 'check', 'close'] }, // vb
   'gym-bag': { badges: ['add', 'check', 'close'] }, // vb
   'gym-rings': { badges: ['add', 'check', 'close'] }, // vb

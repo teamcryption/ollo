@@ -197,6 +197,8 @@ async function main() {
 
   if (!CHECK && !report.errors.length) {
     const keep = new Set(icons.map((i) => i.name));
+    // Never delete an existing icon because a new icon with the same name was dropped in this run.
+    for (const n of report.dropped ?? []) keep.add(n);
     for (const [name, meta] of existing) {
       if (meta.source === 'forge' && !keep.has(name) && (!ONLY || ONLY.has(meta.category))) fs.rmSync(path.join(ICONS_DIR, name), { recursive: true });
     }

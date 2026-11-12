@@ -31,11 +31,14 @@ if (cmd === 'pick') {
   console.log('picked', pick.length, 'icons ->', pick.length * BADGES.length, 'variants');
 } else if (cmd === 'extend') {
   // extend <count> <outFile>: adds remove + alert to the next <count> vb lines that do not have them yet.
-  const extra = ['remove', 'alert']; const names = []; let left = +arg;
+  const has = new Set(fs.readdirSync(ICONS)); const names = []; let left = +arg;
   s = s.split(nl).map((l) => {
     const m = l.match(/^  '([^']+)': \{ badges: \[([^\]]*)\] \}, \/\/ vb$/); if (!m || left <= 0 || m[2].includes('remove')) return l;
+    // never reuse a name that already exists (e.g. a bulk combo `<base>-alert`): dropping it would delete the original
+    const extra = ['remove', 'alert'].filter((b) => !has.has(`${m[1]}-${b}`) && !m[2].includes(`'${b}'`));
+    if (!extra.length) return l;
     left--; extra.forEach((b) => names.push(`${m[1]}-${b}`));
-    return `  '${m[1]}': { badges: [${m[2]}, 'remove', 'alert'] }, // vb`;
+    return `  '${m[1]}': { badges: [${m[2]}${extra.map((b) => `, '${b}'`).join('')}] }, // vb`;
   }).join(nl);
   fs.writeFileSync(PLAN, s); fs.writeFileSync(outArg, names.join('\n') + '\n');
   console.log('extended', names.length / 2, 'icons ->', names.length, 'variants');
