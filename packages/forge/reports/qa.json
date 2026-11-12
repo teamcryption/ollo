@@ -1,25 +1,24 @@
 {
-  "generatedAt": "2026-11-12T13:52:07.776Z",
-  "icons": 35803,
-  "files": 179015,
+  "generatedAt": "2026-11-12T13:55:30.907Z",
+  "icons": 35800,
+  "files": 179000,
   "errors": [],
   "warnings": [
-    "duplicate: wall-shelf-check ~ wall-shelf-close (shape distance 1.41px)",
-    "duplicate: plumb-bob-check ~ plumb-bob-close (shape distance 1.41px)",
-    "duplicate: spider-web-add ~ spider-web-check (shape distance 1px)",
-    "duplicate: spider-web-add ~ spider-web-close (shape distance 1.41px)",
-    "duplicate: spider-web-check ~ spider-web-close (shape distance 1.41px)",
-    "duplicate: seashell-add ~ seashell-check (shape distance 1px)",
-    "duplicate: seashell-check ~ seashell-close (shape distance 1.41px)",
-    "duplicate: shuttlecock-check ~ shuttlecock-close (shape distance 1.41px)",
-    "duplicate: snowplow-check ~ snowplow-close (shape distance 1.41px)",
-    "duplicate: van-add ~ van-check (shape distance 1px)",
-    "duplicate: van-check ~ van-close (shape distance 1.41px)"
+    "wifi-add: grid: outside the 3-21 live area (2.10, 5.00, 21.90, 21.00)",
+    "wifi-check: grid: outside the 3-21 live area (2.10, 5.00, 21.90, 21.00)",
+    "wifi-close: grid: outside the 3-21 live area (2.10, 5.00, 21.90, 21.00)",
+    "duplicate: witch-hat-add ~ witch-hat-check (shape distance 1.41px)",
+    "duplicate: witch-hat-check ~ witch-hat-close (shape distance 1.41px)"
   ],
   "duplicates": [
     {
-      "a": "at-sign-add",
-      "b": "chart-donut-add",
+      "a": "witch-hat-add",
+      "b": "witch-hat-check",
+      "distance": 1.41
+    },
+    {
+      "a": "witch-hat-check",
+      "b": "witch-hat-close",
       "distance": 1.41
     },
     {
@@ -29,98 +28,13 @@
     },
     {
       "a": "at-sign-check",
-      "b": "chart-donut-check",
-      "distance": 1.41
-    },
-    {
-      "a": "at-sign-check",
       "b": "nut-check",
       "distance": 1
     },
     {
       "a": "at-sign-close",
-      "b": "chart-donut-close",
-      "distance": 1.41
-    },
-    {
-      "a": "at-sign-close",
       "b": "nut-close",
       "distance": 1
-    },
-    {
-      "a": "chart-donut-add",
-      "b": "nut-add",
-      "distance": 1.41
-    },
-    {
-      "a": "chart-donut-check",
-      "b": "nut-check",
-      "distance": 1.41
-    },
-    {
-      "a": "chart-donut-close",
-      "b": "nut-close",
-      "distance": 1.41
-    },
-    {
-      "a": "subtract-add",
-      "b": "fill-stroke-add",
-      "distance": 1
-    },
-    {
-      "a": "subtract-check",
-      "b": "copy-check",
-      "distance": 1.41
-    },
-    {
-      "a": "subtract-close",
-      "b": "fill-stroke-close",
-      "distance": 1
-    },
-    {
-      "a": "gradient-add",
-      "b": "dice-six-add",
-      "distance": 1
-    },
-    {
-      "a": "gradient-add",
-      "b": "checkbox-add",
-      "distance": 1.41
-    },
-    {
-      "a": "gradient-add",
-      "b": "resize-corner-add",
-      "distance": 0
-    },
-    {
-      "a": "gradient-check",
-      "b": "dice-six-check",
-      "distance": 1
-    },
-    {
-      "a": "gradient-check",
-      "b": "checkbox-check",
-      "distance": 1.41
-    },
-    {
-      "a": "gradient-check",
-      "b": "resize-corner-check",
-      "distance": 0
-    },
-    {
-      "a": "gradient-close",
-      "b": "dice-six-close",
-      "distance": 1
-    },
-    {
-      "a": "gradient-close",
-      "b": "checkbox-close",
-      "distance": 1.41
-    },
-    {
-      "a": "gradient-close",
-      "b": "resize-corner-close",
-      "distance": 0
     },
     {
       "a": "kiwi-add",
@@ -198,11 +112,6 @@
       "distance": 1
     },
     {
-      "a": "wall-shelf-check",
-      "b": "wall-shelf-close",
-      "distance": 1.41
-    },
-    {
       "a": "cursor-zoom-check",
       "b": "cursor-wait-check",
       "distance": 0
@@ -273,41 +182,6 @@
       "distance": 1.41
     },
     {
-      "a": "plumb-bob-check",
-      "b": "plumb-bob-close",
-      "distance": 1.41
-    },
-    {
-      "a": "scan-barcode-check",
-      "b": "qr-scan-check",
-      "distance": 1.41
-    },
-    {
-      "a": "at-sign-gear",
-      "b": "tape-roll-add",
-      "distance": 1.41
-    },
-    {
-      "a": "at-sign-gear",
-      "b": "tape-roll-close",
-      "distance": 1.41
-    },
-    {
-      "a": "database-backup-add",
-      "b": "database-add",
-      "distance": 0
-    },
-    {
-      "a": "database-backup-check",
-      "b": "database-check",
-      "distance": 0
-    },
-    {
-      "a": "database-backup-close",
-      "b": "database-close",
-      "distance": 0
-    },
-    {
       "a": "bottle-cap-add",
       "b": "life-buoy-add",
       "distance": 1.41
@@ -343,76 +217,6 @@
       "distance": 1.41
     },
     {
-      "a": "spider-web-add",
-      "b": "spider-web-check",
-      "distance": 1
-    },
-    {
-      "a": "spider-web-add",
-      "b": "spider-web-close",
-      "distance": 1.41
-    },
-    {
-      "a": "spider-web-check",
-      "b": "spider-web-close",
-      "distance": 1.41
-    },
-    {
-      "a": "seashell-add",
-      "b": "seashell-check",
-      "distance": 1
-    },
-    {
-      "a": "seashell-check",
-      "b": "seashell-close",
-      "distance": 1.41
-    },
-    {
-      "a": "no-littering-add",
-      "b": "no-u-turn-add",
-      "distance": 1.41
-    },
-    {
-      "a": "no-littering-check",
-      "b": "no-u-turn-check",
-      "distance": 1.41
-    },
-    {
-      "a": "no-littering-close",
-      "b": "no-u-turn-close",
-      "distance": 1.41
-    },
-    {
-      "a": "shuttlecock-check",
-      "b": "shuttlecock-close",
-      "distance": 1.41
-    },
-    {
-      "a": "snowplow-check",
-      "b": "snowplow-close",
-      "distance": 1.41
-    },
-    {
-      "a": "van-add",
-      "b": "van-check",
-      "distance": 1
-    },
-    {
-      "a": "van-check",
-      "b": "van-close",
-      "distance": 1.41
-    },
-    {
-      "a": "gradient-check",
-      "b": "tablet-check",
-      "distance": 1.41
-    },
-    {
-      "a": "gradient-close",
-      "b": "tablet-close",
-      "distance": 1.41
-    },
-    {
       "a": "tablet-check",
       "b": "resize-corner-check",
       "distance": 1.41
@@ -424,21 +228,9 @@
     }
   ],
   "dropped": [
-    "chart-donut-add",
     "nut-add",
-    "chart-donut-check",
     "nut-check",
-    "chart-donut-close",
     "nut-close",
-    "subtract-add",
-    "subtract-check",
-    "subtract-close",
-    "dice-six-add",
-    "gradient-add",
-    "dice-six-check",
-    "gradient-check",
-    "dice-six-close",
-    "gradient-close",
     "play-circle-add",
     "play-circle-check",
     "play-circle-close",
@@ -448,6 +240,9 @@
     "tape-measure-add",
     "tape-measure-check",
     "tape-measure-close",
+    "dice-six-add",
+    "dice-six-check",
+    "dice-six-close",
     "cursor-wait-check",
     "cursor-help-check",
     "cursor-help-add",
@@ -461,63 +256,54 @@
     "magnetic-field-add",
     "magnetic-field-check",
     "magnetic-field-close",
-    "scan-barcode-check",
-    "tape-roll-add",
-    "tape-roll-close",
-    "database-backup-add",
-    "database-backup-check",
-    "database-backup-close",
     "life-buoy-add",
     "life-buoy-check",
     "life-buoy-close",
     "cursor-wait-add",
-    "cursor-wait-close",
-    "no-u-turn-add",
-    "no-u-turn-check",
-    "no-u-turn-close"
+    "cursor-wait-close"
   ],
   "byCategory": {
     "accessibility": 53,
     "actions": 44,
-    "ai": 452,
-    "animals": 1473,
+    "ai": 455,
+    "animals": 1476,
     "arrows": 121,
-    "buildings": 1013,
+    "buildings": 1025,
     "business": 1069,
-    "celebration": 958,
+    "celebration": 964,
     "commerce": 937,
     "communication": 994,
-    "data": 459,
-    "design": 838,
-    "development": 593,
+    "data": 450,
+    "design": 784,
+    "development": 581,
     "devices": 1229,
     "education": 787,
     "emoji": 72,
-    "energy": 316,
-    "fashion": 1174,
+    "energy": 319,
+    "fashion": 1177,
     "files": 461,
-    "finance": 811,
-    "food": 3876,
+    "finance": 820,
+    "food": 3894,
     "gaming": 945,
-    "health": 1244,
-    "home": 2410,
-    "interface": 1149,
+    "health": 1241,
+    "home": 2422,
+    "interface": 1158,
     "logistics": 445,
     "maps": 273,
     "media": 1291,
-    "nature": 1539,
+    "nature": 1545,
     "navigation": 35,
     "notifications": 50,
-    "people": 752,
-    "science": 720,
-    "security": 399,
+    "people": 749,
+    "science": 723,
+    "security": 396,
     "social": 160,
-    "sports": 1542,
+    "sports": 1545,
     "text": 334,
     "time": 222,
-    "tools": 1273,
+    "tools": 1285,
     "transport": 1460,
-    "travel": 1229,
+    "travel": 1226,
     "weather": 550
   }
 }

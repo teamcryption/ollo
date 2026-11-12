@@ -10,6 +10,7 @@ const ICONS = ROOT + 'packages/assets/icons';
 const [cmd, arg, outArg] = process.argv.slice(2);
 let s = fs.readFileSync(PLAN, 'utf8'); const nl = s.includes('\r\n') ? '\r\n' : '\n';
 const BADGES = ['add', 'check', 'close'];
+const ALLB = ['add', 'check', 'close', 'remove', 'alert'];
 const SKIP_CATS = new Set(['design', 'data', 'development', 'arrows', 'text', 'emoji', 'navigation', 'accessibility', 'actions', 'social', 'notifications', 'weather']);
 const MODS = 'search clock shield gear pin bolt heart star alert user bell cloud chat download pencil sparkle trash flag calendar question bookmark upload crown moon leaf fire trophy hourglass cursor camera filter stats checkbox lock add check close remove off notice pricing addbox bulb wifi percent tag eye truck music key pause play'.split(' ');
 if (cmd === 'pick') {
@@ -28,10 +29,20 @@ if (cmd === 'pick') {
   s = s.slice(0, i) + lines.join(nl) + nl + s.slice(i); fs.writeFileSync(PLAN, s);
   fs.writeFileSync(outArg, pick.flatMap((n) => BADGES.map((b) => `${n}-${b}`)).join('\n') + '\n');
   console.log('picked', pick.length, 'icons ->', pick.length * BADGES.length, 'variants');
+} else if (cmd === 'extend') {
+  // extend <count> <outFile>: adds remove + alert to the next <count> vb lines that do not have them yet.
+  const extra = ['remove', 'alert']; const names = []; let left = +arg;
+  s = s.split(nl).map((l) => {
+    const m = l.match(/^  '([^']+)': \{ badges: \[([^\]]*)\] \}, \/\/ vb$/); if (!m || left <= 0 || m[2].includes('remove')) return l;
+    left--; extra.forEach((b) => names.push(`${m[1]}-${b}`));
+    return `  '${m[1]}': { badges: [${m[2]}, 'remove', 'alert'] }, // vb`;
+  }).join(nl);
+  fs.writeFileSync(PLAN, s); fs.writeFileSync(outArg, names.join('\n') + '\n');
+  console.log('extended', names.length / 2, 'icons ->', names.length, 'variants');
 } else if (cmd === 'prune') {
   const dropped = fs.existsSync(arg) ? fs.readFileSync(arg, 'utf8').split(/\s+/).filter(Boolean) : [];
   const byName = {};
-  for (const d of dropped) { const b = BADGES.find((x) => d.endsWith('-' + x)); if (b) (byName[d.slice(0, -b.length - 1)] ??= new Set()).add(b); }
+  for (const d of dropped) { const b = ALLB.find((x) => d.endsWith('-' + x)); if (b) (byName[d.slice(0, -b.length - 1)] ??= new Set()).add(b); }
   let n = 0;
   s = s.split(nl).flatMap((l) => {
     const m = l.match(/^  '([^']+)': \{ badges: \[([^\]]*)\] \}, \/\/ vb$/); if (!m || !byName[m[1]]) return [l];

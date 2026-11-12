@@ -1720,6 +1720,52 @@ export default {
   'watchtower': { badges: ['add', 'check', 'close'] }, // vb
   'water-cooler': { badges: ['add', 'check', 'close'] }, // vb
   'water-tower': { badges: ['add', 'check', 'close'] }, // vb
+  'slider': { badges: ['add', 'check', 'close'] }, // vb
+  'square-root': { badges: ['add', 'check', 'close'] }, // vb
+  'subset': { badges: ['add', 'check', 'close'] }, // vb
+  'water-valve': { badges: ['add', 'check', 'close'] }, // vb
+  'water-well': { badges: ['add', 'check', 'close'] }, // vb
+  'watering-can': { badges: ['add', 'check', 'close'] }, // vb
+  'watermelon': { badges: ['add', 'check', 'close'] }, // vb
+  'waveform': { badges: ['add', 'check', 'close'] }, // vb
+  'waves': { badges: ['add', 'check', 'close'] }, // vb
+  'weather-balloon': { badges: ['add', 'check', 'close'] }, // vb
+  'wedding-cake': { badges: ['add', 'check', 'close'] }, // vb
+  'weight': { badges: ['add', 'check', 'close'] }, // vb
+  'well': { badges: ['add', 'check', 'close'] }, // vb
+  'whale': { badges: ['add', 'check', 'close'] }, // vb
+  'whale-tail': { badges: ['add', 'check', 'close'] }, // vb
+  'wheat': { badges: ['add', 'check', 'close'] }, // vb
+  'wheelbarrow': { badges: ['add', 'check', 'close'] }, // vb
+  'whisk': { badges: ['add', 'check', 'close'] }, // vb
+  'whistle': { badges: ['add', 'check', 'close'] }, // vb
+  'wifi': { badges: ['add', 'check', 'close'] }, // vb
+  'wildfire': { badges: ['add', 'check', 'close'] }, // vb
+  'wind-turbine': { badges: ['add', 'check', 'close'] }, // vb
+  'windchime': { badges: ['add', 'check', 'close'] }, // vb
+  'windmill': { badges: ['add', 'check', 'close'] }, // vb
+  'window-blinds': { badges: ['add', 'check', 'close'] }, // vb
+  'window-maximize': { badges: ['add', 'check', 'close'] }, // vb
+  'window-restore': { badges: ['add', 'check', 'close'] }, // vb
+  'wine-barrel': { badges: ['add', 'check', 'close'] }, // vb
+  'wine-bottle': { badges: ['add', 'check', 'close'] }, // vb
+  'wine-glass': { badges: ['add', 'check', 'close'] }, // vb
+  'witch-hat': { badges: ['add', 'check', 'close'] }, // vb
+  'won-circle': { badges: ['add', 'check', 'close'] }, // vb
+  'won-sign': { badges: ['add', 'check', 'close'] }, // vb
+  'wood-log': { badges: ['add', 'check', 'close'] }, // vb
+  'workbench': { badges: ['add', 'check', 'close'] }, // vb
+  'wrench': { badges: ['add', 'check', 'close'] }, // vb
+  'xylophone': { badges: ['add', 'check', 'close'] }, // vb
+  'y-junction': { badges: ['add', 'check', 'close'] }, // vb
+  'yacht': { badges: ['add', 'check', 'close'] }, // vb
+  'yarn': { badges: ['add', 'check', 'close'] }, // vb
+  'yarn-ball': { badges: ['add', 'check', 'close'] }, // vb
+  'yen-circle': { badges: ['add', 'check', 'close'] }, // vb
+  'yield-ahead': { badges: ['add', 'check', 'close'] }, // vb
+  'yoga-mat': { badges: ['add', 'check', 'close'] }, // vb
+  'yurt': { badges: ['add', 'check', 'close'] }, // vb
+  'zoom-in': { badges: ['add', 'check', 'close'] }, // vb
 };
 
 export { OBJ, FULL };
