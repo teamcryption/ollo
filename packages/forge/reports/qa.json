@@ -1,749 +1,636 @@
 {
-  "generatedAt": "2026-11-12T15:55:43.439Z",
-  "icons": 39109,
-  "files": 195545,
+  "generatedAt": "2026-11-12T15:59:38.871Z",
+  "icons": 40498,
+  "files": 202490,
   "errors": [],
   "warnings": [
-    "fishbowl-camera: grid: outside the 3-21 live area (4.22, 4.08, 22.00, 20.50)",
-    "shark-fin-camera: grid: outside the 3-21 live area (3.00, 4.08, 22.00, 20.50)",
-    "ant-camera: grid: outside the 3-21 live area (3.50, 4.08, 22.00, 20.50)",
-    "bull-camera: grid: outside the 3-21 live area (3.72, 4.08, 22.00, 20.50)",
-    "whale-tail-camera: grid: outside the 3-21 live area (3.00, 4.70, 22.00, 20.50)",
-    "starfish-camera: grid: outside the 3-21 live area (4.10, 4.19, 22.00, 20.50)",
-    "seagull-camera: grid: outside the 3-21 live area (3.36, 6.75, 22.00, 20.50)",
-    "dog-camera: grid: outside the 3-21 live area (3.03, 4.44, 22.00, 20.50)",
-    "bee-camera: grid: outside the 3-21 live area (4.80, 3.00, 22.00, 20.50)",
-    "dog-bowl-camera: grid: outside the 3-21 live area (3.72, 8.58, 22.00, 20.50)",
-    "pet-carrier-camera: grid: outside the 3-21 live area (3.36, 5.16, 22.00, 20.50)",
-    "penguin-camera: grid: outside the 3-21 live area (5.16, 3.00, 22.00, 20.50)",
-    "bat-camera: grid: outside the 3-21 live area (3.00, 5.52, 22.00, 20.50)",
-    "cow-camera: grid: outside the 3-21 live area (3.14, 3.00, 22.00, 20.50)",
-    "scaffold-camera: grid: outside the 3-21 live area (4.44, 3.36, 22.00, 20.50)",
-    "manhole-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
-    "well-camera: grid: outside the 3-21 live area (4.06, 3.54, 22.00, 20.50)",
-    "yurt-camera: grid: outside the 3-21 live area (3.36, 5.16, 22.00, 20.50)",
-    "log-cabin-camera: grid: outside the 3-21 live area (3.36, 3.95, 22.00, 20.50)",
-    "phone-booth-camera: grid: outside the 3-21 live area (5.52, 3.36, 22.00, 20.50)",
-    "cottage-camera: grid: outside the 3-21 live area (3.72, 3.96, 22.00, 20.50)",
-    "arch-camera: grid: outside the 3-21 live area (3.72, 3.00, 22.00, 20.50)",
-    "water-well-camera: grid: outside the 3-21 live area (3.72, 3.72, 22.00, 20.50)",
-    "greek-column-camera: grid: outside the 3-21 live area (4.44, 3.72, 22.00, 20.50)",
-    "chapel-camera: grid: outside the 3-21 live area (4.80, 3.00, 22.00, 20.50)",
-    "mosque-camera: grid: outside the 3-21 live area (3.36, 5.88, 22.00, 20.50)",
-    "bridge-camera: grid: outside the 3-21 live area (3.00, 4.44, 22.00, 20.50)",
-    "city-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
-    "bricks-camera: grid: outside the 3-21 live area (3.36, 4.80, 22.00, 20.50)",
-    "cement-bag-camera: grid: outside the 3-21 live area (4.44, 3.72, 22.00, 20.50)",
-    "i-beam-camera: grid: outside the 3-21 live area (4.44, 3.72, 22.00, 20.50)",
-    "observatory-camera: grid: outside the 3-21 live area (3.72, 5.52, 22.00, 20.50)",
-    "hut-camera: grid: outside the 3-21 live area (3.54, 3.52, 22.00, 20.50)",
-    "church-camera: grid: outside the 3-21 live area (5.16, 3.00, 22.00, 20.50)",
-    "water-tower-camera: grid: outside the 3-21 live area (4.80, 3.36, 22.00, 20.50)",
-    "university-camera: grid: outside the 3-21 live area (3.36, 3.00, 22.00, 20.50)",
-    "building-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
-    "meeting-table-camera: grid: outside the 3-21 live area (3.00, 3.72, 22.00, 20.50)",
-    "lectern-camera: grid: outside the 3-21 live area (4.59, 3.00, 22.00, 20.50)",
-    "flipchart-camera: grid: outside the 3-21 live area (3.36, 3.72, 22.00, 20.50)"
+    "turnstile-camera: grid: outside the 3-21 live area (3.36, 4.44, 22.00, 20.50)",
+    "tape-dispenser-camera: grid: outside the 3-21 live area (3.36, 6.60, 22.00, 20.50)",
+    "binder-clip-camera: grid: outside the 3-21 live area (4.22, 3.36, 22.00, 20.50)",
+    "letter-tray-camera: grid: outside the 3-21 live area (3.36, 4.08, 22.00, 20.50)",
+    "pen-holder-camera: grid: outside the 3-21 live area (5.88, 3.36, 22.00, 20.50)",
+    "notepad-camera: grid: outside the 3-21 live area (4.08, 3.00, 22.00, 20.50)",
+    "resume-camera: grid: outside the 3-21 live area (4.44, 3.00, 22.00, 20.50)",
+    "priority-matrix-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
+    "desk-phone-camera: grid: outside the 3-21 live area (3.36, 4.44, 22.00, 20.50)",
+    "timesheet-camera: grid: outside the 3-21 live area (3.72, 3.36, 22.00, 20.50)",
+    "label-maker-camera: grid: outside the 3-21 live area (4.44, 3.72, 22.00, 20.50)",
+    "vote-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
+    "strategy-camera: grid: outside the 3-21 live area (3.72, 3.72, 22.00, 20.50)",
+    "meeting-camera: grid: outside the 3-21 live area (5.16, 3.29, 22.00, 20.50)",
+    "stapler-camera: grid: outside the 3-21 live area (3.36, 6.12, 22.00, 20.50)",
+    "lanyard-camera: grid: outside the 3-21 live area (5.88, 3.00, 22.00, 20.50)",
+    "org-chart-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
+    "swivel-chair-camera: grid: outside the 3-21 live area (4.80, 3.00, 22.00, 20.50)",
+    "water-cooler-camera: grid: outside the 3-21 live area (5.52, 3.36, 22.00, 20.50)",
+    "bulletin-board-camera: grid: outside the 3-21 live area (3.00, 3.72, 22.00, 20.50)",
+    "report-camera: grid: outside the 3-21 live area (4.08, 3.00, 22.00, 20.50)",
+    "certificate-camera: grid: outside the 3-21 live area (3.36, 4.08, 22.00, 20.50)",
+    "circus-tent-camera: grid: outside the 3-21 live area (3.36, 3.00, 22.00, 20.50)",
+    "candy-cane-camera: grid: outside the 3-21 live area (5.52, 3.36, 22.00, 20.50)",
+    "bauble-camera: grid: outside the 3-21 live area (4.44, 3.72, 22.00, 20.50)",
+    "cauldron-camera: grid: outside the 3-21 live area (3.36, 8.04, 22.00, 20.50)",
+    "santa-hat-camera: grid: outside the 3-21 live area (3.36, 4.80, 22.00, 20.50)",
+    "sleigh-camera: grid: outside the 3-21 live area (3.36, 5.88, 22.00, 20.50)",
+    "red-envelope-camera: grid: outside the 3-21 live area (5.16, 3.36, 22.00, 20.50)",
+    "diya-camera: grid: outside the 3-21 live area (3.36, 11.28, 22.00, 20.50)",
+    "rabbit-hat-camera: grid: outside the 3-21 live area (3.36, 3.19, 22.00, 20.50)",
+    "confetti-camera: grid: outside the 3-21 live area (3.72, 4.34, 22.00, 20.50)",
+    "disco-ball-camera: grid: outside the 3-21 live area (4.44, 3.36, 22.00, 20.50)",
+    "gift-bow-camera: grid: outside the 3-21 live area (4.08, 6.86, 22.00, 20.50)",
+    "bunting-camera: grid: outside the 3-21 live area (3.00, 6.96, 22.00, 20.50)",
+    "paper-lantern-camera: grid: outside the 3-21 live area (4.44, 3.36, 22.00, 20.50)",
+    "cheers-camera: grid: outside the 3-21 live area (3.20, 3.36, 22.00, 20.50)",
+    "masquerade-mask-camera: grid: outside the 3-21 live area (3.36, 6.96, 22.00, 20.50)",
+    "candelabra-camera: grid: outside the 3-21 live area (5.16, 6.60, 22.00, 20.50)",
+    "rosette-camera: grid: outside the 3-21 live area (5.31, 3.24, 22.00, 20.50)",
+    "wedding-cake-camera: grid: outside the 3-21 live area (3.72, 3.36, 22.00, 20.50)",
+    "fireworks-camera: grid: outside the 3-21 live area (4.08, 4.08, 22.00, 20.50)",
+    "christmas-tree-camera: grid: outside the 3-21 live area (4.23, 3.53, 22.00, 20.50)",
+    "scan-barcode-camera: grid: outside the 3-21 live area (3.72, 3.72, 22.00, 20.50)",
+    "shopping-list-camera: grid: outside the 3-21 live area (4.44, 3.36, 22.00, 20.50)",
+    "product-return-camera: grid: outside the 3-21 live area (7.68, 7.32, 22.00, 20.50)",
+    "cashback-camera: grid: outside the 3-21 live area (3.72, 3.72, 22.00, 20.50)"
   ],
   "duplicates": [
     {
-      "a": "arch-pencil",
-      "b": "arch-leaf",
+      "a": "vote-sparkle",
+      "b": "vote-upload",
       "distance": 1.41
     },
     {
-      "a": "arch-sparkle",
-      "b": "arch-upload",
+      "a": "tape-dispenser-pencil",
+      "b": "tape-dispenser-leaf",
       "distance": 1.41
     },
     {
-      "a": "shark-fin-pencil",
-      "b": "shark-fin-leaf",
+      "a": "tape-dispenser-sparkle",
+      "b": "tape-dispenser-upload",
       "distance": 1.41
     },
     {
-      "a": "whale-tail-pencil",
-      "b": "whale-tail-leaf",
+      "a": "binder-clip-pencil",
+      "b": "binder-clip-leaf",
       "distance": 1.41
     },
     {
-      "a": "whale-tail-sparkle",
-      "b": "whale-tail-upload",
+      "a": "binder-clip-sparkle",
+      "b": "binder-clip-upload",
       "distance": 1.41
     },
     {
-      "a": "dog-sparkle",
-      "b": "dog-upload",
+      "a": "letter-tray-pencil",
+      "b": "letter-tray-leaf",
       "distance": 1.41
     },
     {
-      "a": "bee-sparkle",
-      "b": "bee-upload",
+      "a": "letter-tray-sparkle",
+      "b": "letter-tray-upload",
       "distance": 1.41
     },
     {
-      "a": "dog-bowl-pencil",
-      "b": "dog-bowl-leaf",
+      "a": "notepad-pencil",
+      "b": "notepad-leaf",
       "distance": 1.41
     },
     {
-      "a": "pet-carrier-pencil",
-      "b": "pet-carrier-leaf",
+      "a": "notepad-sparkle",
+      "b": "notepad-upload",
       "distance": 1.41
     },
     {
-      "a": "pet-carrier-sparkle",
-      "b": "pet-carrier-upload",
+      "a": "resume-pencil",
+      "b": "resume-leaf",
       "distance": 1.41
     },
     {
-      "a": "cow-sparkle",
-      "b": "cow-upload",
+      "a": "resume-sparkle",
+      "b": "resume-upload",
       "distance": 1.41
     },
     {
-      "a": "scaffold-pencil",
-      "b": "scaffold-leaf",
+      "a": "priority-matrix-sparkle",
+      "b": "priority-matrix-upload",
       "distance": 1.41
     },
     {
-      "a": "scaffold-sparkle",
-      "b": "scaffold-upload",
+      "a": "desk-phone-pencil",
+      "b": "desk-phone-leaf",
       "distance": 1.41
     },
     {
-      "a": "manhole-pencil",
-      "b": "manhole-leaf",
+      "a": "desk-phone-sparkle",
+      "b": "desk-phone-upload",
       "distance": 1.41
     },
     {
-      "a": "manhole-sparkle",
-      "b": "manhole-upload",
+      "a": "timesheet-gear",
+      "b": "timesheet-stats",
       "distance": 1.41
     },
     {
-      "a": "well-pencil",
-      "b": "well-leaf",
+      "a": "timesheet-pencil",
+      "b": "timesheet-leaf",
       "distance": 1.41
     },
     {
-      "a": "well-sparkle",
-      "b": "well-upload",
+      "a": "timesheet-sparkle",
+      "b": "timesheet-upload",
       "distance": 1.41
     },
     {
-      "a": "yurt-search",
-      "b": "observatory-search",
-      "distance": 1
-    },
-    {
-      "a": "yurt-shield",
-      "b": "observatory-shield",
+      "a": "label-maker-sparkle",
+      "b": "label-maker-upload",
       "distance": 1.41
     },
     {
-      "a": "yurt-gear",
-      "b": "observatory-gear",
+      "a": "meeting-sparkle",
+      "b": "meeting-upload",
       "distance": 1.41
     },
     {
-      "a": "yurt-bolt",
-      "b": "observatory-bolt",
+      "a": "stapler-pencil",
+      "b": "stapler-leaf",
       "distance": 1.41
     },
     {
-      "a": "yurt-heart",
-      "b": "observatory-heart",
+      "a": "stapler-sparkle",
+      "b": "stapler-upload",
       "distance": 1.41
     },
     {
-      "a": "yurt-star",
-      "b": "observatory-star",
+      "a": "org-chart-sparkle",
+      "b": "org-chart-upload",
       "distance": 1.41
-    },
-    {
-      "a": "yurt-user",
-      "b": "observatory-user",
-      "distance": 1
     },
     {
-      "a": "yurt-cloud",
-      "b": "observatory-cloud",
+      "a": "swivel-chair-sparkle",
+      "b": "swivel-chair-upload",
       "distance": 1.41
     },
     {
-      "a": "yurt-pencil",
-      "b": "observatory-pencil",
+      "a": "bulletin-board-gear",
+      "b": "bulletin-board-stats",
       "distance": 1.41
     },
     {
-      "a": "yurt-sparkle",
-      "b": "yurt-upload",
+      "a": "bulletin-board-pencil",
+      "b": "bulletin-board-leaf",
       "distance": 1.41
     },
     {
-      "a": "yurt-sparkle",
-      "b": "observatory-sparkle",
+      "a": "bulletin-board-sparkle",
+      "b": "bulletin-board-upload",
       "distance": 1.41
     },
     {
-      "a": "yurt-sparkle",
-      "b": "observatory-upload",
+      "a": "report-pencil",
+      "b": "report-leaf",
       "distance": 1.41
     },
     {
-      "a": "yurt-trash",
-      "b": "observatory-trash",
+      "a": "report-sparkle",
+      "b": "report-upload",
       "distance": 1.41
     },
     {
-      "a": "yurt-calendar",
-      "b": "observatory-calendar",
+      "a": "certificate-pencil",
+      "b": "certificate-leaf",
       "distance": 1.41
     },
     {
-      "a": "yurt-upload",
-      "b": "observatory-sparkle",
+      "a": "certificate-sparkle",
+      "b": "certificate-upload",
       "distance": 1.41
     },
     {
-      "a": "yurt-upload",
-      "b": "observatory-upload",
+      "a": "circus-tent-sparkle",
+      "b": "circus-tent-upload",
       "distance": 1.41
     },
     {
-      "a": "yurt-crown",
-      "b": "observatory-crown",
+      "a": "bauble-search",
+      "b": "water-search",
       "distance": 1.41
     },
     {
-      "a": "yurt-leaf",
-      "b": "observatory-pencil",
+      "a": "bauble-clock",
+      "b": "water-clock",
       "distance": 1.41
     },
     {
-      "a": "yurt-leaf",
-      "b": "observatory-leaf",
+      "a": "bauble-gear",
+      "b": "water-gear",
       "distance": 1.41
     },
     {
-      "a": "yurt-cursor",
-      "b": "observatory-cursor",
+      "a": "bauble-bolt",
+      "b": "water-bolt",
       "distance": 1.41
     },
     {
-      "a": "yurt-filter",
-      "b": "observatory-filter",
+      "a": "bauble-heart",
+      "b": "water-heart",
       "distance": 1.41
     },
     {
-      "a": "yurt-stats",
-      "b": "observatory-stats",
+      "a": "bauble-star",
+      "b": "water-star",
       "distance": 1.41
     },
     {
-      "a": "log-cabin-pencil",
-      "b": "log-cabin-leaf",
+      "a": "bauble-cloud",
+      "b": "water-cloud",
       "distance": 1.41
     },
     {
-      "a": "log-cabin-sparkle",
-      "b": "log-cabin-upload",
+      "a": "bauble-chat",
+      "b": "water-chat",
       "distance": 1.41
     },
     {
-      "a": "phone-booth-sparkle",
-      "b": "phone-booth-upload",
+      "a": "bauble-download",
+      "b": "water-download",
       "distance": 1.41
     },
     {
-      "a": "cottage-pencil",
-      "b": "cottage-leaf",
+      "a": "bauble-pencil",
+      "b": "water-pencil",
       "distance": 1.41
     },
     {
-      "a": "water-well-pencil",
-      "b": "water-well-leaf",
+      "a": "bauble-trash",
+      "b": "water-trash",
       "distance": 1.41
     },
     {
-      "a": "greek-column-pencil",
-      "b": "greek-column-leaf",
+      "a": "bauble-calendar",
+      "b": "water-calendar",
       "distance": 1.41
     },
     {
-      "a": "greek-column-sparkle",
-      "b": "greek-column-upload",
+      "a": "bauble-question",
+      "b": "water-question",
       "distance": 1.41
-    },
-    {
-      "a": "chapel-search",
-      "b": "church-search",
-      "distance": 1
-    },
-    {
-      "a": "chapel-clock",
-      "b": "church-clock",
-      "distance": 1
-    },
-    {
-      "a": "chapel-shield",
-      "b": "church-shield",
-      "distance": 1
-    },
-    {
-      "a": "chapel-gear",
-      "b": "church-gear",
-      "distance": 1
-    },
-    {
-      "a": "chapel-bolt",
-      "b": "church-bolt",
-      "distance": 1
     },
     {
-      "a": "chapel-heart",
-      "b": "church-heart",
-      "distance": 1
-    },
-    {
-      "a": "chapel-star",
-      "b": "church-star",
-      "distance": 1
-    },
-    {
-      "a": "chapel-cloud",
-      "b": "church-cloud",
-      "distance": 1
-    },
-    {
-      "a": "chapel-chat",
-      "b": "church-chat",
-      "distance": 1
-    },
-    {
-      "a": "chapel-download",
-      "b": "church-download",
-      "distance": 1
-    },
-    {
-      "a": "chapel-pencil",
-      "b": "chapel-leaf",
+      "a": "bauble-bookmark",
+      "b": "water-bookmark",
       "distance": 1.41
     },
     {
-      "a": "chapel-pencil",
-      "b": "church-pencil",
-      "distance": 1
-    },
-    {
-      "a": "chapel-pencil",
-      "b": "church-leaf",
+      "a": "bauble-upload",
+      "b": "water-upload",
       "distance": 1.41
-    },
-    {
-      "a": "chapel-trash",
-      "b": "church-trash",
-      "distance": 1
     },
     {
-      "a": "chapel-calendar",
-      "b": "church-calendar",
-      "distance": 1
-    },
-    {
-      "a": "chapel-question",
-      "b": "church-question",
-      "distance": 1
-    },
-    {
-      "a": "chapel-bookmark",
-      "b": "church-bookmark",
-      "distance": 1
-    },
-    {
-      "a": "chapel-upload",
-      "b": "church-upload",
-      "distance": 1
-    },
-    {
-      "a": "chapel-crown",
-      "b": "church-crown",
-      "distance": 1
-    },
-    {
-      "a": "chapel-leaf",
-      "b": "church-leaf",
-      "distance": 1
-    },
-    {
-      "a": "chapel-hourglass",
-      "b": "church-hourglass",
-      "distance": 1
-    },
-    {
-      "a": "chapel-cursor",
-      "b": "church-cursor",
-      "distance": 1
+      "a": "bauble-crown",
+      "b": "water-crown",
+      "distance": 1.41
     },
     {
-      "a": "chapel-camera",
-      "b": "church-camera",
-      "distance": 1
+      "a": "bauble-leaf",
+      "b": "water-leaf",
+      "distance": 1.41
     },
     {
-      "a": "chapel-filter",
-      "b": "church-filter",
-      "distance": 1
+      "a": "bauble-hourglass",
+      "b": "water-hourglass",
+      "distance": 1.41
     },
     {
-      "a": "chapel-stats",
-      "b": "church-stats",
-      "distance": 1
+      "a": "bauble-cursor",
+      "b": "water-cursor",
+      "distance": 1.41
     },
     {
-      "a": "chapel-checkbox",
-      "b": "church-checkbox",
-      "distance": 1
+      "a": "bauble-camera",
+      "b": "water-camera",
+      "distance": 1.41
     },
     {
-      "a": "mosque-pencil",
-      "b": "mosque-leaf",
+      "a": "bauble-stats",
+      "b": "water-stats",
       "distance": 1.41
     },
     {
-      "a": "mosque-sparkle",
-      "b": "mosque-upload",
+      "a": "bauble-checkbox",
+      "b": "water-checkbox",
       "distance": 1.41
     },
     {
-      "a": "bridge-sparkle",
-      "b": "bridge-upload",
+      "a": "santa-hat-sparkle",
+      "b": "santa-hat-upload",
       "distance": 1.41
     },
     {
-      "a": "city-sparkle",
-      "b": "city-upload",
+      "a": "sleigh-gear",
+      "b": "sleigh-stats",
       "distance": 1.41
     },
     {
-      "a": "bricks-pencil",
-      "b": "bricks-leaf",
+      "a": "sleigh-pencil",
+      "b": "sleigh-leaf",
       "distance": 1.41
     },
     {
-      "a": "bricks-sparkle",
-      "b": "bricks-upload",
+      "a": "diya-pencil",
+      "b": "diya-leaf",
       "distance": 1.41
     },
     {
-      "a": "cement-bag-sparkle",
-      "b": "cement-bag-upload",
+      "a": "rabbit-hat-pencil",
+      "b": "rabbit-hat-leaf",
       "distance": 1.41
     },
     {
-      "a": "i-beam-pencil",
-      "b": "i-beam-leaf",
+      "a": "rabbit-hat-sparkle",
+      "b": "rabbit-hat-upload",
       "distance": 1.41
     },
     {
-      "a": "i-beam-sparkle",
-      "b": "i-beam-upload",
+      "a": "confetti-pencil",
+      "b": "confetti-leaf",
       "distance": 1.41
     },
     {
-      "a": "observatory-pencil",
-      "b": "observatory-leaf",
+      "a": "paper-lantern-sparkle",
+      "b": "paper-lantern-upload",
       "distance": 1.41
     },
     {
-      "a": "observatory-sparkle",
-      "b": "observatory-upload",
+      "a": "masquerade-mask-pencil",
+      "b": "masquerade-mask-leaf",
       "distance": 1.41
     },
     {
-      "a": "hut-pencil",
-      "b": "hut-leaf",
+      "a": "masquerade-mask-sparkle",
+      "b": "masquerade-mask-upload",
       "distance": 1.41
     },
     {
-      "a": "hut-sparkle",
-      "b": "hut-upload",
+      "a": "wedding-cake-pencil",
+      "b": "wedding-cake-leaf",
       "distance": 1.41
     },
     {
-      "a": "water-tower-sparkle",
-      "b": "water-tower-upload",
+      "a": "wedding-cake-sparkle",
+      "b": "wedding-cake-upload",
       "distance": 1.41
     },
     {
-      "a": "university-pencil",
-      "b": "university-leaf",
+      "a": "scan-barcode-pencil",
+      "b": "scan-barcode-leaf",
       "distance": 1.41
     },
     {
-      "a": "university-sparkle",
-      "b": "university-upload",
+      "a": "shopping-list-pencil",
+      "b": "shopping-list-leaf",
       "distance": 1.41
     },
     {
-      "a": "building-pencil",
-      "b": "building-leaf",
+      "a": "shopping-list-sparkle",
+      "b": "shopping-list-upload",
       "distance": 1.41
     },
     {
-      "a": "building-sparkle",
-      "b": "building-upload",
+      "a": "cashback-pencil",
+      "b": "cashback-leaf",
       "distance": 1.41
     },
     {
-      "a": "meeting-table-sparkle",
-      "b": "meeting-table-upload",
+      "a": "bauble-bell",
+      "b": "water-bell",
       "distance": 1.41
     },
     {
-      "a": "flipchart-sparkle",
-      "b": "flipchart-upload",
+      "a": "bauble-trophy",
+      "b": "water-trophy",
       "distance": 1.41
     },
     {
-      "a": "chapel-bell",
-      "b": "church-bell",
-      "distance": 1
+      "a": "pen-holder-sparkle",
+      "b": "pen-holder-upload",
+      "distance": 1.41
     },
     {
-      "a": "chapel-moon",
-      "b": "church-moon",
-      "distance": 1
+      "a": "strategy-sparkle",
+      "b": "strategy-upload",
+      "distance": 1.41
     },
     {
-      "a": "chapel-trophy",
-      "b": "church-trophy",
-      "distance": 1
+      "a": "candy-cane-sparkle",
+      "b": "candy-cane-upload",
+      "distance": 1.41
     },
     {
-      "a": "yurt-fire",
-      "b": "observatory-fire",
-      "distance": 1
+      "a": "bauble-shield",
+      "b": "water-shield",
+      "distance": 1.41
     },
     {
-      "a": "chapel-fire",
-      "b": "church-fire",
-      "distance": 1
+      "a": "bauble-pin",
+      "b": "water-pin",
+      "distance": 1.41
     },
     {
-      "a": "shark-fin-sparkle",
-      "b": "shark-fin-upload",
+      "a": "bauble-user",
+      "b": "water-user",
       "distance": 1.41
     },
     {
-      "a": "ant-sparkle",
-      "b": "ant-upload",
+      "a": "bauble-sparkle",
+      "b": "water-sparkle",
       "distance": 1.41
     },
     {
-      "a": "bull-sparkle",
-      "b": "bull-upload",
+      "a": "bauble-flag",
+      "b": "water-flag",
       "distance": 1.41
     },
     {
-      "a": "starfish-sparkle",
-      "b": "starfish-upload",
+      "a": "bauble-moon",
+      "b": "water-moon",
       "distance": 1.41
     },
     {
-      "a": "seagull-sparkle",
-      "b": "seagull-upload",
+      "a": "cauldron-sparkle",
+      "b": "cauldron-upload",
       "distance": 1.41
     },
     {
-      "a": "dog-bowl-sparkle",
-      "b": "dog-bowl-upload",
+      "a": "sleigh-sparkle",
+      "b": "sleigh-upload",
       "distance": 1.41
     },
     {
-      "a": "bat-sparkle",
-      "b": "bat-upload",
+      "a": "diya-sparkle",
+      "b": "diya-upload",
       "distance": 1.41
     },
     {
-      "a": "yurt-pin",
-      "b": "observatory-pin",
-      "distance": 1
+      "a": "confetti-sparkle",
+      "b": "confetti-upload",
+      "distance": 1.41
     },
     {
-      "a": "yurt-flag",
-      "b": "observatory-flag",
+      "a": "gift-bow-sparkle",
+      "b": "gift-bow-upload",
       "distance": 1.41
     },
     {
-      "a": "cottage-sparkle",
-      "b": "cottage-upload",
+      "a": "bunting-sparkle",
+      "b": "bunting-upload",
       "distance": 1.41
     },
     {
-      "a": "lectern-sparkle",
-      "b": "lectern-upload",
+      "a": "cheers-sparkle",
+      "b": "cheers-upload",
       "distance": 1.41
     },
     {
-      "a": "turnstile-sparkle",
-      "b": "turnstile-upload",
+      "a": "candelabra-sparkle",
+      "b": "candelabra-upload",
       "distance": 1.41
     },
     {
-      "a": "chapel-pin",
-      "b": "church-pin",
-      "distance": 1
+      "a": "rosette-sparkle",
+      "b": "rosette-upload",
+      "distance": 1.41
     },
     {
-      "a": "chapel-sparkle",
-      "b": "church-sparkle",
-      "distance": 1
+      "a": "fireworks-sparkle",
+      "b": "fireworks-upload",
+      "distance": 1.41
     },
     {
-      "a": "chapel-user",
-      "b": "church-user",
-      "distance": 1
+      "a": "christmas-tree-sparkle",
+      "b": "christmas-tree-upload",
+      "distance": 1.41
     },
     {
-      "a": "chapel-flag",
-      "b": "church-flag",
-      "distance": 1
+      "a": "scan-barcode-sparkle",
+      "b": "scan-barcode-upload",
+      "distance": 1.41
     },
     {
-      "a": "chapel-sparkle",
-      "b": "chapel-upload",
+      "a": "product-return-sparkle",
+      "b": "product-return-upload",
       "distance": 1.41
     },
     {
-      "a": "chapel-sparkle",
-      "b": "church-upload",
+      "a": "lanyard-sparkle",
+      "b": "lanyard-upload",
       "distance": 1.41
     },
     {
-      "a": "chapel-upload",
-      "b": "church-sparkle",
+      "a": "water-cooler-sparkle",
+      "b": "water-cooler-upload",
       "distance": 1.41
     },
     {
-      "a": "church-sparkle",
-      "b": "church-upload",
+      "a": "red-envelope-sparkle",
+      "b": "red-envelope-upload",
       "distance": 1.41
     }
   ],
   "dropped": [
-    "phone-booth-gear",
-    "phone-booth-bolt",
-    "phone-booth-sparkle",
-    "phone-booth-cursor",
-    "arch-leaf",
-    "arch-upload",
-    "shark-fin-leaf",
-    "whale-tail-leaf",
-    "whale-tail-upload",
-    "dog-upload",
-    "bee-upload",
-    "dog-bowl-leaf",
-    "pet-carrier-leaf",
-    "pet-carrier-upload",
-    "cow-upload",
-    "scaffold-leaf",
-    "scaffold-upload",
-    "manhole-leaf",
-    "manhole-upload",
-    "well-leaf",
-    "well-upload",
-    "observatory-search",
-    "observatory-shield",
-    "observatory-gear",
-    "observatory-bolt",
-    "observatory-heart",
-    "observatory-star",
-    "observatory-user",
-    "observatory-cloud",
-    "observatory-pencil",
-    "yurt-upload",
-    "observatory-sparkle",
-    "observatory-upload",
-    "observatory-trash",
-    "observatory-calendar",
-    "observatory-crown",
-    "observatory-leaf",
-    "observatory-cursor",
-    "observatory-filter",
-    "observatory-stats",
-    "log-cabin-leaf",
-    "log-cabin-upload",
-    "cottage-leaf",
-    "water-well-leaf",
-    "greek-column-leaf",
-    "greek-column-upload",
-    "church-search",
-    "church-clock",
-    "church-shield",
-    "church-gear",
-    "church-bolt",
-    "church-heart",
-    "church-star",
-    "church-cloud",
-    "church-chat",
-    "church-download",
-    "chapel-leaf",
-    "church-pencil",
-    "church-leaf",
-    "church-trash",
-    "church-calendar",
-    "church-question",
-    "church-bookmark",
-    "church-upload",
-    "church-crown",
-    "church-hourglass",
-    "church-cursor",
-    "church-camera",
-    "church-filter",
-    "church-stats",
-    "church-checkbox",
-    "mosque-leaf",
-    "mosque-upload",
-    "bridge-upload",
-    "city-upload",
-    "bricks-leaf",
-    "bricks-upload",
-    "cement-bag-upload",
-    "i-beam-leaf",
-    "i-beam-upload",
-    "hut-leaf",
-    "hut-upload",
-    "water-tower-upload",
-    "university-leaf",
-    "university-upload",
-    "building-leaf",
-    "building-upload",
-    "meeting-table-upload",
-    "flipchart-upload",
-    "church-bell",
-    "church-moon",
-    "church-trophy",
-    "observatory-fire",
-    "church-fire",
-    "shark-fin-upload",
-    "ant-upload",
-    "bull-upload",
-    "starfish-upload",
-    "seagull-upload",
-    "dog-bowl-upload",
-    "bat-upload",
-    "observatory-pin",
-    "observatory-flag",
-    "cottage-upload",
-    "lectern-upload",
-    "turnstile-upload",
-    "church-pin",
-    "church-sparkle",
-    "church-user",
-    "church-flag",
-    "chapel-upload"
+    "vote-upload",
+    "tape-dispenser-leaf",
+    "tape-dispenser-upload",
+    "binder-clip-leaf",
+    "binder-clip-upload",
+    "letter-tray-leaf",
+    "letter-tray-upload",
+    "notepad-leaf",
+    "notepad-upload",
+    "resume-leaf",
+    "resume-upload",
+    "priority-matrix-upload",
+    "desk-phone-leaf",
+    "desk-phone-upload",
+    "timesheet-stats",
+    "timesheet-leaf",
+    "timesheet-upload",
+    "label-maker-upload",
+    "meeting-upload",
+    "stapler-leaf",
+    "stapler-upload",
+    "org-chart-upload",
+    "swivel-chair-upload",
+    "bulletin-board-stats",
+    "bulletin-board-leaf",
+    "bulletin-board-upload",
+    "report-leaf",
+    "report-upload",
+    "certificate-leaf",
+    "certificate-upload",
+    "circus-tent-upload",
+    "bauble-search",
+    "bauble-clock",
+    "bauble-gear",
+    "bauble-bolt",
+    "bauble-heart",
+    "bauble-star",
+    "bauble-cloud",
+    "bauble-chat",
+    "bauble-download",
+    "bauble-pencil",
+    "bauble-trash",
+    "bauble-calendar",
+    "bauble-question",
+    "bauble-bookmark",
+    "bauble-upload",
+    "bauble-crown",
+    "bauble-leaf",
+    "bauble-hourglass",
+    "bauble-cursor",
+    "bauble-camera",
+    "bauble-stats",
+    "bauble-checkbox",
+    "santa-hat-upload",
+    "sleigh-stats",
+    "sleigh-leaf",
+    "diya-leaf",
+    "rabbit-hat-leaf",
+    "rabbit-hat-upload",
+    "confetti-leaf",
+    "paper-lantern-upload",
+    "masquerade-mask-leaf",
+    "masquerade-mask-upload",
+    "wedding-cake-leaf",
+    "wedding-cake-upload",
+    "scan-barcode-leaf",
+    "shopping-list-leaf",
+    "shopping-list-upload",
+    "cashback-leaf",
+    "bauble-bell",
+    "bauble-trophy",
+    "pen-holder-upload",
+    "strategy-upload",
+    "candy-cane-upload",
+    "bauble-shield",
+    "bauble-pin",
+    "bauble-user",
+    "bauble-sparkle",
+    "bauble-flag",
+    "bauble-moon",
+    "cauldron-upload",
+    "sleigh-upload",
+    "diya-upload",
+    "confetti-upload",
+    "gift-bow-upload",
+    "bunting-upload",
+    "cheers-upload",
+    "candelabra-upload",
+    "rosette-upload",
+    "fireworks-upload",
+    "christmas-tree-upload",
+    "scan-barcode-upload",
+    "product-return-upload",
+    "lanyard-upload",
+    "water-cooler-upload",
+    "red-envelope-upload"
   ],
   "byCategory": {
     "accessibility": 53,
@@ -752,9 +639,9 @@
     "animals": 1968,
     "arrows": 121,
     "buildings": 1728,
-    "business": 1229,
-    "celebration": 1021,
-    "commerce": 942,
+    "business": 1882,
+    "celebration": 1637,
+    "commerce": 1077,
     "communication": 1015,
     "data": 520,
     "design": 825,

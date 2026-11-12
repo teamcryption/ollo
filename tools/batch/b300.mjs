@@ -8,13 +8,14 @@ const ROOT = fileURLToPath(new URL('../../packages/forge/', import.meta.url));
 const { scaleD } = await import(pathToFileURL(ROOT + 'src/geo.mjs').href);
 const SKIP_CATS = new Set(['ai', 'arrows', 'text', 'emoji', 'navigation', 'accessibility', 'actions', 'design', 'data', 'development', 'notifications', 'social']);
 const MODS = 'search clock shield gear pin bolt heart star alert user bell cloud chat download pencil sparkle trash flag calendar question bookmark upload crown moon leaf fire trophy hourglass cursor camera filter stats checkbox lock add check close remove off notice pricing addbox bulb wifi percent tag eye truck music key pause play'.split(' ');
+const BAD = new Set(fs.readFileSync(new URL('./bad-bases.txt', import.meta.url), 'utf8').split(/\s+/).filter(Boolean));
 const cat = {}; const label = {}; let n = 0;
 for (const f of fs.readdirSync(ROOT + 'defs').filter((x) => x.endsWith('.mjs')).sort()) {
   const mod = (await import(pathToFileURL(ROOT + 'defs/' + f).href)).default;
   if (SKIP_CATS.has(mod.category)) continue;
   for (const def of mod.icons) {
     const k = def.name;
-    if (B[k] || k.startsWith('no-') || k.startsWith('ai-') || MODS.some((m) => k.endsWith('-' + m)) || def.extend) continue;
+    if (B[k] || BAD.has(k) || k.startsWith('no-') || k.startsWith('ai-') || MODS.some((m) => k.endsWith('-' + m)) || def.extend) continue;
     const els = (def.els ?? []).filter((e) => e.role === 'body' || e.role === 'line');
     if (!els.length || els.length > 8) continue;
     try {
