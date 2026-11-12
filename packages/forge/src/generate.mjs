@@ -114,8 +114,30 @@ async function main() {
   const report = { generatedAt: new Date().toISOString(), icons: icons.length, files: icons.length * STYLES.length, errors: [], warnings: [], duplicates: [] };
   const seen = new Set();
   const hashes = [];
+  // FAST=1 with DROP_FILE: only the icons named in DROP_FILE (this batch) are rendered and checked; every other
+  // existing icon is left as it is on disk and joins the duplicate check through a cached fingerprint
+  // (reports/fp-cache.json, keyed by regular.svg size + mtime). Duplicate pairs are only searched around new icons.
+  const NEW = process.env.FAST && process.env.DROP_FILE ? new Set(fs.readFileSync(process.env.DROP_FILE, 'utf8').split(/\s+/).filter(Boolean)) : null;
+  const CACHE_FILE = path.join(ROOT, 'reports', 'fp-cache.json');
+  const fpCache = NEW && fs.existsSync(CACHE_FILE) ? JSON.parse(fs.readFileSync(CACHE_FILE, 'utf8')) : {};
+  let cacheDirty = false;
+  const cachedFp = (name) => {
+    const f = path.join(ICONS_DIR, name, 'regular.svg');
+    const st = fs.statSync(f); const key = `${st.size}:${Math.round(st.mtimeMs)}`;
+    const c = fpCache[name];
+    if (c && c.k === key) return { hash: Uint32Array.from(c.h), px: new Uint8Array(Buffer.from(c.p, 'base64')) };
+    const fp = fingerprint(fs.readFileSync(f, 'utf8'));
+    fpCache[name] = { k: key, h: [...fp.hash], p: Buffer.from(fp.px).toString('base64') }; cacheDirty = true;
+    return fp;
+  };
 
   for (const icon of icons) {
+    if (NEW && !NEW.has(icon.name) && existing.has(icon.name) && fs.existsSync(path.join(ICONS_DIR, icon.name, 'regular.svg'))) {
+      if (seen.has(icon.name)) report.errors.push(`${icon.name}: duplicate name`);
+      seen.add(icon.name); icon.skip = true;
+      hashes.push({ name: icon.name, ...cachedFp(icon.name), family: icon.variant?.of ?? icon.name });
+      continue;
+    }
     const where = icon.name;
     const err = (m) => report.errors.push(`${where}: ${m}`);
     if (seen.has(icon.name)) err('duplicate name');
@@ -139,9 +161,10 @@ async function main() {
   for (const [name, meta] of existing) {
     if (meta.source === 'forge') continue;
     const f = path.join(ICONS_DIR, name, 'regular.svg');
-    if (fs.existsSync(f)) hashes.push({ name, ...fingerprint(fs.readFileSync(f, 'utf8')), family: siblingOf.get(name) ?? name });
+    if (fs.existsSync(f)) hashes.push({ name, ...(NEW ? cachedFp(name) : fingerprint(fs.readFileSync(f, 'utf8'))), family: siblingOf.get(name) ?? name });
   }
-  report.duplicates = nearDuplicates(hashes).map(([a, b, d]) => ({ a, b, distance: d }));
+  if (NEW && cacheDirty) { fs.mkdirSync(path.dirname(CACHE_FILE), { recursive: true }); fs.writeFileSync(CACHE_FILE, JSON.stringify(fpCache)); }
+  report.duplicates = nearDuplicates(hashes, NEW ? { focus: NEW } : undefined).map(([a, b, d]) => ({ a, b, distance: d }));
   for (const d of report.duplicates) {
     const fa = hashes.find((h) => h.name === d.a).family;
     const fb = hashes.find((h) => h.name === d.b).family;
@@ -178,6 +201,7 @@ async function main() {
       if (meta.source === 'forge' && !keep.has(name) && (!ONLY || ONLY.has(meta.category))) fs.rmSync(path.join(ICONS_DIR, name), { recursive: true });
     }
     for (const icon of icons) {
+      if (icon.skip) continue;
       const dir = path.join(ICONS_DIR, icon.name);
       fs.mkdirSync(dir, { recursive: true });
       for (const s of STYLES) fs.writeFileSync(path.join(dir, `${s}.svg`), icon.svgs[s]);

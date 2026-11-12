@@ -135,12 +135,14 @@ export function shapeDistance(A, B) {
   return Math.max(directed(A.px, B.dt), directed(B.px, A.dt));
 }
 
-export function nearDuplicates(entries, { hashThreshold = 48, maxShape = 1.5 } = {}) {
+export function nearDuplicates(entries, { hashThreshold = 48, maxShape = 1.5, focus = null } = {}) {
   const pairs = [];
   // Pair bitset (n² bits): a Set of string keys overflows V8's Set limit (~16.7M) above ~6,000 icons.
   const n = entries.length;
   const seen = new Uint32Array(Math.ceil((n * n) / 32));
   const consider = (i, j) => {
+    // focus: only pairs that involve at least one of these names (fast batch mode: new icons vs everything).
+    if (focus && !focus.has(entries[i].name) && !focus.has(entries[j].name)) return;
     const k = i < j ? i * n + j : j * n + i;
     const bit = 1 << (k & 31);
     if (seen[k >>> 5] & bit) return;

@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-12T13:23:02.883Z",
-  "icons": 32998,
-  "files": 164990,
+  "generatedAt": "2026-11-12T13:36:41.992Z",
+  "icons": 34332,
+  "files": 171660,
   "errors": [],
   "warnings": [
     "wheelchair-camera: grid: outside the 3-21 live area (3.51, 2.60, 22.00, 20.50)",
@@ -404,6 +404,9 @@
     "wifi: grid: outside the 3-21 live area (2.10, 5.00, 21.90, 19.00)",
     "wifi-off: grid: outside the 3-21 live area (2.10, 4.50, 21.90, 19.50)",
     "gamepad: grid: outside the 3-21 live area (2.15, 7.00, 21.85, 18.22)",
+    "gamepad-add: grid: outside the 3-21 live area (2.15, 7.00, 21.85, 21.00)",
+    "gamepad-check: grid: outside the 3-21 live area (2.15, 7.00, 21.85, 21.00)",
+    "gamepad-close: grid: outside the 3-21 live area (2.15, 7.00, 21.85, 21.00)",
     "book-camera: grid: outside the 3-21 live area (3.00, 4.00, 22.00, 20.50)",
     "school-camera: grid: outside the 3-21 live area (3.00, 2.80, 22.00, 20.50)",
     "cap-camera: grid: outside the 3-21 live area (2.77, 4.63, 22.00, 20.50)",
@@ -1244,10 +1247,15 @@
     "duplicate: face-love ~ face-star-struck (shape distance 1px)",
     "duplicate: lock ~ lock-open (shape distance 1px)",
     "duplicate: candy-cane-check ~ candy-cane-close (shape distance 1.41px)",
+    "duplicate: guitar-add ~ guitar-check (shape distance 1px)",
+    "duplicate: guitar-check ~ guitar-close (shape distance 1.41px)",
+    "duplicate: flammable-check ~ flammable-close (shape distance 1.41px)",
     "duplicate: bedtime-add ~ bedtime-check (shape distance 1px)",
     "duplicate: bedtime-add ~ bedtime-close (shape distance 1.41px)",
     "duplicate: bedtime-check ~ bedtime-close (shape distance 1.41px)",
-    "duplicate: bib-check ~ bib-close (shape distance 1.41px)"
+    "duplicate: heatmap ~ heatmap-add (shape distance 1.41px)",
+    "duplicate: bib-check ~ bib-close (shape distance 1.41px)",
+    "duplicate: no-fires-check ~ no-fires-close (shape distance 1.41px)"
   ],
   "duplicates": [
     {
@@ -1301,14 +1309,69 @@
       "distance": 1.41
     },
     {
-      "a": "cursor-zoom-add",
-      "b": "cursor-wait-add",
-      "distance": 0
+      "a": "gradient-add",
+      "b": "dice-six-add",
+      "distance": 1
     },
     {
-      "a": "cursor-zoom-add",
-      "b": "cursor-help-add",
-      "distance": 0
+      "a": "gradient-add",
+      "b": "checkbox-add",
+      "distance": 1.41
+    },
+    {
+      "a": "gradient-check",
+      "b": "dice-six-check",
+      "distance": 1
+    },
+    {
+      "a": "gradient-check",
+      "b": "checkbox-check",
+      "distance": 1.41
+    },
+    {
+      "a": "gradient-close",
+      "b": "dice-six-close",
+      "distance": 1
+    },
+    {
+      "a": "gradient-close",
+      "b": "checkbox-close",
+      "distance": 1.41
+    },
+    {
+      "a": "fill-stroke-check",
+      "b": "copy-check",
+      "distance": 1.41
+    },
+    {
+      "a": "bagel-add",
+      "b": "eye-add",
+      "distance": 1.41
+    },
+    {
+      "a": "bagel-check",
+      "b": "eye-check",
+      "distance": 1.41
+    },
+    {
+      "a": "bagel-close",
+      "b": "eye-close",
+      "distance": 1.41
+    },
+    {
+      "a": "dice-six-add",
+      "b": "checkbox-add",
+      "distance": 1.41
+    },
+    {
+      "a": "dice-six-check",
+      "b": "checkbox-check",
+      "distance": 1.41
+    },
+    {
+      "a": "dice-six-close",
+      "b": "checkbox-close",
+      "distance": 1.41
     },
     {
       "a": "cursor-zoom-check",
@@ -1318,16 +1381,6 @@
     {
       "a": "cursor-zoom-check",
       "b": "cursor-help-check",
-      "distance": 0
-    },
-    {
-      "a": "cursor-zoom-close",
-      "b": "cursor-wait-close",
-      "distance": 0
-    },
-    {
-      "a": "cursor-zoom-close",
-      "b": "cursor-help-close",
       "distance": 0
     },
     {
@@ -1346,6 +1399,36 @@
       "distance": 0
     },
     {
+      "a": "guitar-add",
+      "b": "guitar-check",
+      "distance": 1
+    },
+    {
+      "a": "guitar-check",
+      "b": "guitar-close",
+      "distance": 1.41
+    },
+    {
+      "a": "flammable-check",
+      "b": "flammable-close",
+      "distance": 1.41
+    },
+    {
+      "a": "hot-surface-add",
+      "b": "magnetic-field-add",
+      "distance": 1.41
+    },
+    {
+      "a": "hot-surface-check",
+      "b": "magnetic-field-check",
+      "distance": 1.41
+    },
+    {
+      "a": "hot-surface-close",
+      "b": "magnetic-field-close",
+      "distance": 1.41
+    },
+    {
       "a": "bedtime-add",
       "b": "bedtime-check",
       "distance": 1
@@ -1358,6 +1441,11 @@
     {
       "a": "bedtime-check",
       "b": "bedtime-close",
+      "distance": 1.41
+    },
+    {
+      "a": "heatmap",
+      "b": "heatmap-add",
       "distance": 1.41
     },
     {
@@ -1376,18 +1464,23 @@
       "distance": 0
     },
     {
+      "a": "bottle-cap-add",
+      "b": "life-buoy-add",
+      "distance": 1.41
+    },
+    {
+      "a": "bottle-cap-check",
+      "b": "life-buoy-check",
+      "distance": 1.41
+    },
+    {
+      "a": "bottle-cap-close",
+      "b": "life-buoy-close",
+      "distance": 1.41
+    },
+    {
       "a": "bib-check",
       "b": "bib-close",
-      "distance": 1.41
-    },
-    {
-      "a": "cursor-zoom-add",
-      "b": "cursor-gear",
-      "distance": 1.41
-    },
-    {
-      "a": "cursor-zoom-close",
-      "b": "cursor-gear",
       "distance": 1.41
     },
     {
@@ -1411,13 +1504,23 @@
       "distance": 1.41
     },
     {
-      "a": "calendar-week-add",
-      "b": "calendar-note-add",
+      "a": "no-fires-check",
+      "b": "no-fires-close",
       "distance": 1.41
     },
     {
-      "a": "calendar-week-check",
-      "b": "calendar-note-check",
+      "a": "gradient-check",
+      "b": "tablet-check",
+      "distance": 1.41
+    },
+    {
+      "a": "gradient-close",
+      "b": "tablet-close",
+      "distance": 1.41
+    },
+    {
+      "a": "arcade-check",
+      "b": "handheld-console-check",
       "distance": 1.41
     }
   ],
@@ -1425,62 +1528,75 @@
     "chart-donut-add",
     "chart-donut-check",
     "chart-donut-close",
-    "cursor-wait-add",
-    "cursor-help-add",
+    "dice-six-add",
+    "gradient-add",
+    "dice-six-check",
+    "gradient-check",
+    "dice-six-close",
+    "gradient-close",
+    "fill-stroke-check",
+    "eye-add",
+    "eye-check",
+    "eye-close",
     "cursor-wait-check",
     "cursor-help-check",
-    "cursor-wait-close",
+    "cursor-help-add",
     "cursor-help-close",
+    "magnetic-field-add",
+    "magnetic-field-check",
+    "magnetic-field-close",
     "database-backup-add",
     "database-backup-check",
     "database-backup-close",
-    "cursor-zoom-add",
-    "cursor-zoom-close",
-    "calendar-note-add",
-    "calendar-note-check"
+    "life-buoy-add",
+    "life-buoy-check",
+    "life-buoy-close",
+    "cursor-wait-add",
+    "cursor-wait-close",
+    "handheld-console-check"
   ],
   "byCategory": {
     "accessibility": 53,
     "actions": 44,
-    "ai": 446,
-    "animals": 1386,
+    "ai": 449,
+    "animals": 1425,
     "arrows": 121,
-    "buildings": 950,
-    "business": 997,
-    "celebration": 895,
-    "commerce": 926,
-    "communication": 964,
-    "data": 441,
-    "design": 752,
-    "development": 557,
-    "devices": 1145,
-    "education": 700,
+    "buildings": 977,
+    "business": 1027,
+    "celebration": 922,
+    "commerce": 935,
+    "communication": 979,
+    "data": 450,
+    "design": 784,
+    "development": 581,
+    "devices": 1190,
+    "education": 754,
     "emoji": 72,
-    "energy": 268,
-    "fashion": 1057,
-    "files": 386,
-    "finance": 772,
-    "food": 3621,
-    "gaming": 838,
-    "health": 1157,
-    "home": 2236,
-    "interface": 939,
-    "logistics": 420,
-    "maps": 210,
-    "media": 1177,
-    "nature": 1398,
+    "energy": 292,
+    "fashion": 1111,
+    "files": 458,
+    "finance": 796,
+    "food": 3747,
+    "gaming": 876,
+    "health": 1202,
+    "home": 2320,
+    "interface": 1035,
+    "logistics": 432,
+    "maps": 234,
+    "media": 1231,
+    "nature": 1467,
     "navigation": 35,
     "notifications": 50,
-    "people": 710,
-    "science": 615,
-    "security": 360,
+    "people": 731,
+    "science": 654,
+    "security": 384,
     "social": 160,
-    "sports": 1383,
+    "sports": 1458,
     "text": 334,
-    "time": 207,
-    "tools": 1177,
-    "transport": 1316,
-    "travel": 1157,
+    "time": 210,
+    "tools": 1210,
+    "transport": 1370,
+    "travel": 1193,
     "weather": 550
   }
 }
