@@ -21,7 +21,7 @@ for (const f of fs.readdirSync(ROOT + 'defs').filter((x) => x.endsWith('.mjs')).
     try {
       B[k] = els.map((e) => `${e.role}('${scaleD(e.d, 0.72, 3, 3)}')`).join(', ');
     } catch { continue; }
-    cat[k] = mod.category; label[k] = def.title; n++;
+    cat[k] = mod.category; label[k] = def.title.replace(/'/g, '’'); n++;
   }
 }
 globalThis.BULK_CAT = Object.assign(globalThis.BULK_CAT ?? {}, cat);

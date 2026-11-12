@@ -1,4412 +1,1056 @@
 {
-  "generatedAt": "2026-11-12T16:20:33.748Z",
-  "icons": 45324,
-  "files": 226620,
+  "generatedAt": "2026-11-12T16:26:44.738Z",
+  "icons": 46311,
+  "files": 231555,
   "errors": [],
   "warnings": [
-    "naira-sign-camera: grid: outside the 3-21 live area (4.08, 4.08, 22.00, 20.50)",
-    "franc-sign-camera: grid: outside the 3-21 live area (5.16, 4.08, 22.00, 20.50)",
-    "cent-sign-camera: grid: outside the 3-21 live area (6.99, 4.44, 22.00, 20.50)",
-    "peso-sign-camera: grid: outside the 3-21 live area (5.16, 4.08, 22.00, 20.50)",
-    "yen-circle-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
-    "rupee-circle-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
-    "percent-circle-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
-    "send-money-camera: grid: outside the 3-21 live area (3.00, 3.36, 22.00, 20.50)",
-    "mortgage-camera: grid: outside the 3-21 live area (3.72, 3.72, 22.00, 20.50)",
-    "won-circle-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
-    "loan-camera: grid: outside the 3-21 live area (3.00, 10.63, 22.00, 20.50)",
-    "credit-score-camera: grid: outside the 3-21 live area (3.72, 6.60, 22.00, 20.50)",
-    "donate-camera: grid: outside the 3-21 live area (3.00, 10.63, 22.00, 20.50)",
-    "gold-bars-camera: grid: outside the 3-21 live area (3.46, 9.12, 22.00, 20.50)",
-    "vault-camera: grid: outside the 3-21 live area (3.36, 3.72, 22.00, 20.50)",
-    "tax-camera: grid: outside the 3-21 live area (4.80, 3.00, 22.00, 20.50)",
-    "hand-coins-camera: grid: outside the 3-21 live area (3.36, 3.72, 22.00, 20.50)",
-    "coin-purse-camera: grid: outside the 3-21 live area (3.72, 3.86, 22.00, 20.50)",
-    "sale-sign-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
-    "banknotes-camera: grid: outside the 3-21 live area (2.64, 3.72, 22.00, 20.50)",
-    "piggy-bank-camera: grid: outside the 3-21 live area (4.44, 5.88, 22.00, 20.50)",
-    "dollar-circle-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
-    "euro-circle-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
-    "pound-circle-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
-    "chart-coin-camera: grid: outside the 3-21 live area (3.36, 5.38, 22.00, 20.50)",
-    "receipt-tax-camera: grid: outside the 3-21 live area (5.16, 3.36, 22.00, 20.50)",
-    "card-swipe-camera: grid: outside the 3-21 live area (5.16, 3.00, 22.00, 20.50)",
-    "exchange-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
-    "honey-jar-camera: grid: outside the 3-21 live area (4.44, 4.08, 22.00, 20.50)",
-    "pineapple-camera: grid: outside the 3-21 live area (5.88, 3.72, 22.00, 20.50)",
-    "stand-mixer-camera: grid: outside the 3-21 live area (4.44, 3.72, 22.00, 20.50)",
-    "mason-jar-camera: grid: outside the 3-21 live area (4.44, 3.36, 22.00, 20.50)",
-    "soda-can-camera: grid: outside the 3-21 live area (5.88, 3.00, 22.00, 20.50)",
-    "lemon-camera: grid: outside the 3-21 live area (3.87, 5.12, 22.00, 20.50)",
-    "peas-camera: grid: outside the 3-21 live area (3.51, 5.10, 22.00, 20.50)",
-    "peach-camera: grid: outside the 3-21 live area (3.72, 3.63, 22.00, 20.50)",
-    "hot-chocolate-camera: grid: outside the 3-21 live area (4.08, 7.32, 22.00, 20.50)",
-    "saucepan-camera: grid: outside the 3-21 live area (3.00, 8.04, 22.00, 20.50)",
-    "cooking-pot-camera: grid: outside the 3-21 live area (3.00, 4.08, 22.00, 20.50)",
-    "corkscrew-camera: grid: outside the 3-21 live area (4.08, 3.36, 22.00, 20.50)",
-    "pizza-cutter-camera: grid: outside the 3-21 live area (3.36, 3.97, 22.00, 20.50)",
-    "kiwi-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
-    "bacon-camera: grid: outside the 3-21 live area (3.36, 4.80, 22.00, 20.50)",
-    "drumstick-camera: grid: outside the 3-21 live area (3.71, 3.71, 22.00, 20.50)",
-    "egg-fried-camera: grid: outside the 3-21 live area (3.38, 3.36, 22.00, 20.50)",
-    "noodles-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
-    "cherries-camera: grid: outside the 3-21 live area (3.72, 2.96, 22.00, 20.50)",
-    "soda-cup-camera: grid: outside the 3-21 live area (4.44, 3.36, 22.00, 20.50)",
-    "beer-mug-camera: grid: outside the 3-21 live area (4.44, 3.21, 22.00, 20.50)"
+    "bottle-cap-camera: grid: outside the 3-21 live area (3.38, 3.37, 22.00, 20.50)",
+    "takeout-box-camera: grid: outside the 3-21 live area (4.44, 3.00, 22.00, 20.50)",
+    "cloche-camera: grid: outside the 3-21 live area (3.00, 3.58, 22.00, 20.50)",
+    "sundae-camera: grid: outside the 3-21 live area (4.44, 5.88, 22.00, 20.50)",
+    "wine-barrel-camera: grid: outside the 3-21 live area (3.72, 3.36, 22.00, 20.50)",
+    "cookie-jar-camera: grid: outside the 3-21 live area (4.44, 2.78, 22.00, 20.50)",
+    "steamer-camera: grid: outside the 3-21 live area (3.72, 5.88, 22.00, 20.50)",
+    "bao-camera: grid: outside the 3-21 live area (3.36, 5.88, 22.00, 20.50)",
+    "salad-camera: grid: outside the 3-21 live area (3.36, 4.80, 22.00, 20.50)",
+    "soup-camera: grid: outside the 3-21 live area (3.36, 4.08, 22.00, 20.50)",
+    "honey-dipper-camera: grid: outside the 3-21 live area (6.42, 4.18, 22.00, 20.50)",
+    "chocolate-bar-camera: grid: outside the 3-21 live area (4.44, 3.36, 22.00, 20.50)",
+    "pudding-camera: grid: outside the 3-21 live area (3.36, 6.24, 22.00, 20.50)",
+    "bagel-camera: grid: outside the 3-21 live area (3.36, 5.16, 22.00, 20.50)",
+    "rice-bowl-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
+    "milk-carton-camera: grid: outside the 3-21 live area (5.88, 3.72, 22.00, 20.50)",
+    "moka-pot-camera: grid: outside the 3-21 live area (4.44, 3.72, 22.00, 20.50)",
+    "butter-camera: grid: outside the 3-21 live area (3.36, 6.60, 22.00, 20.50)",
+    "olive-camera: grid: outside the 3-21 live area (5.16, 3.36, 22.00, 20.50)",
+    "bell-pepper-camera: grid: outside the 3-21 live area (4.21, 3.36, 22.00, 20.50)",
+    "gravy-boat-camera: grid: outside the 3-21 live area (3.00, 6.96, 22.00, 20.50)",
+    "fries-camera: grid: outside the 3-21 live area (5.16, 3.36, 22.00, 20.50)",
+    "citrus-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
+    "ice-tray-camera: grid: outside the 3-21 live area (3.36, 6.60, 22.00, 20.50)",
+    "glass-water-camera: grid: outside the 3-21 live area (5.58, 3.72, 22.00, 20.50)",
+    "pitcher-camera: grid: outside the 3-21 live area (5.52, 3.72, 22.00, 20.50)",
+    "sushi-camera: grid: outside the 3-21 live area (4.44, 5.16, 22.00, 20.50)",
+    "frying-pan-camera: grid: outside the 3-21 live area (3.36, 4.80, 22.00, 20.50)",
+    "corn-camera: grid: outside the 3-21 live area (5.16, 3.36, 22.00, 20.50)",
+    "ice-cream-camera: grid: outside the 3-21 live area (5.88, 5.16, 22.00, 20.50)",
+    "bottle-camera: grid: outside the 3-21 live area (6.60, 4.08, 22.00, 20.50)",
+    "chess-bishop-camera: grid: outside the 3-21 live area (5.16, 3.72, 22.00, 20.50)",
+    "pinwheel-camera: grid: outside the 3-21 live area (5.52, 4.08, 22.00, 20.50)",
+    "rocking-horse-camera: grid: outside the 3-21 live area (3.36, 4.51, 22.00, 20.50)",
+    "roller-coaster-camera: grid: outside the 3-21 live area (3.00, 5.88, 22.00, 20.50)",
+    "unicycle-camera: grid: outside the 3-21 live area (6.60, 3.72, 22.00, 20.50)",
+    "claw-machine-camera: grid: outside the 3-21 live area (4.44, 3.00, 22.00, 20.50)",
+    "suit-spade-camera: grid: outside the 3-21 live area (4.44, 3.36, 22.00, 20.50)",
+    "slingshot-camera: grid: outside the 3-21 live area (6.24, 4.44, 22.00, 20.50)",
+    "toy-brick-camera: grid: outside the 3-21 live area (3.36, 5.88, 22.00, 20.50)",
+    "tombstone-camera: grid: outside the 3-21 live area (3.36, 3.00, 22.00, 20.50)",
+    "coffin-camera: grid: outside the 3-21 live area (5.60, 3.00, 22.00, 20.50)",
+    "spell-book-camera: grid: outside the 3-21 live area (4.44, 3.00, 22.00, 20.50)",
+    "knight-helmet-camera: grid: outside the 3-21 live area (4.80, 3.72, 22.00, 20.50)",
+    "watchtower-camera: grid: outside the 3-21 live area (5.16, 3.36, 22.00, 20.50)",
+    "throne-camera: grid: outside the 3-21 live area (4.44, 3.36, 22.00, 20.50)",
+    "torch-camera: grid: outside the 3-21 live area (6.96, 10.20, 22.00, 20.50)",
+    "message-bottle-camera: grid: outside the 3-21 live area (3.25, 6.42, 22.00, 20.50)",
+    "jack-o-lantern-camera: grid: outside the 3-21 live area (3.36, 3.00, 22.00, 20.50)",
+    "goblet-camera: grid: outside the 3-21 live area (5.88, 3.72, 22.00, 20.50)"
   ],
   "duplicates": [
     {
-      "a": "soda-can-sparkle",
-      "b": "soda-can-upload",
+      "a": "takeout-box-search",
+      "b": "cookie-jar-search",
       "distance": 1.41
     },
     {
-      "a": "naira-sign-sparkle",
-      "b": "naira-sign-upload",
+      "a": "takeout-box-clock",
+      "b": "cookie-jar-clock",
       "distance": 1.41
     },
     {
-      "a": "yen-circle-search",
-      "b": "rupee-circle-search",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-search",
-      "b": "won-circle-search",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-search",
-      "b": "dollar-circle-search",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-search",
-      "b": "euro-circle-search",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-search",
-      "b": "pound-circle-search",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-search",
-      "b": "egg-fried-search",
-      "distance": 1.41
-    },
-    {
-      "a": "yen-circle-clock",
-      "b": "rupee-circle-clock",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-clock",
-      "b": "won-circle-clock",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-clock",
-      "b": "dollar-circle-clock",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-clock",
-      "b": "euro-circle-clock",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-clock",
-      "b": "pound-circle-clock",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-clock",
-      "b": "egg-fried-clock",
-      "distance": 1.41
-    },
-    {
-      "a": "yen-circle-gear",
-      "b": "rupee-circle-gear",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-gear",
-      "b": "won-circle-gear",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-gear",
-      "b": "dollar-circle-gear",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-gear",
-      "b": "euro-circle-gear",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-gear",
-      "b": "pound-circle-gear",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-gear",
-      "b": "egg-fried-gear",
-      "distance": 1.41
-    },
-    {
-      "a": "yen-circle-bolt",
-      "b": "rupee-circle-bolt",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-bolt",
-      "b": "won-circle-bolt",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-bolt",
-      "b": "dollar-circle-bolt",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-bolt",
-      "b": "euro-circle-bolt",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-bolt",
-      "b": "pound-circle-bolt",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-bolt",
-      "b": "egg-fried-bolt",
-      "distance": 1.41
-    },
-    {
-      "a": "yen-circle-heart",
-      "b": "rupee-circle-heart",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-heart",
-      "b": "won-circle-heart",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-heart",
-      "b": "dollar-circle-heart",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-heart",
-      "b": "euro-circle-heart",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-heart",
-      "b": "pound-circle-heart",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-heart",
-      "b": "egg-fried-heart",
-      "distance": 1.41
-    },
-    {
-      "a": "yen-circle-star",
-      "b": "rupee-circle-star",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-star",
-      "b": "won-circle-star",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-star",
-      "b": "dollar-circle-star",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-star",
-      "b": "euro-circle-star",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-star",
-      "b": "pound-circle-star",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-star",
-      "b": "egg-fried-star",
-      "distance": 1.41
-    },
-    {
-      "a": "yen-circle-cloud",
-      "b": "rupee-circle-cloud",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-cloud",
-      "b": "won-circle-cloud",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-cloud",
-      "b": "dollar-circle-cloud",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-cloud",
-      "b": "euro-circle-cloud",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-cloud",
-      "b": "pound-circle-cloud",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-cloud",
-      "b": "egg-fried-cloud",
-      "distance": 1.41
-    },
-    {
-      "a": "yen-circle-chat",
-      "b": "rupee-circle-chat",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-chat",
-      "b": "won-circle-chat",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-chat",
-      "b": "dollar-circle-chat",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-chat",
-      "b": "euro-circle-chat",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-chat",
-      "b": "pound-circle-chat",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-chat",
-      "b": "egg-fried-chat",
-      "distance": 1.41
-    },
-    {
-      "a": "yen-circle-download",
-      "b": "rupee-circle-download",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-download",
-      "b": "won-circle-download",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-download",
-      "b": "dollar-circle-download",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-download",
-      "b": "euro-circle-download",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-download",
-      "b": "pound-circle-download",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-download",
-      "b": "egg-fried-download",
-      "distance": 1.41
-    },
-    {
-      "a": "yen-circle-pencil",
-      "b": "yen-circle-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "yen-circle-pencil",
-      "b": "rupee-circle-pencil",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-pencil",
-      "b": "rupee-circle-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "yen-circle-pencil",
-      "b": "won-circle-pencil",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-pencil",
-      "b": "won-circle-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "yen-circle-pencil",
-      "b": "dollar-circle-pencil",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-pencil",
-      "b": "dollar-circle-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "yen-circle-pencil",
-      "b": "euro-circle-pencil",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-pencil",
-      "b": "euro-circle-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "yen-circle-pencil",
-      "b": "pound-circle-pencil",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-pencil",
-      "b": "pound-circle-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "yen-circle-pencil",
-      "b": "egg-fried-pencil",
-      "distance": 1.41
-    },
-    {
-      "a": "yen-circle-pencil",
-      "b": "egg-fried-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "yen-circle-trash",
-      "b": "rupee-circle-trash",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-trash",
-      "b": "won-circle-trash",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-trash",
-      "b": "dollar-circle-trash",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-trash",
-      "b": "euro-circle-trash",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-trash",
-      "b": "pound-circle-trash",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-trash",
-      "b": "egg-fried-trash",
-      "distance": 1.41
-    },
-    {
-      "a": "yen-circle-calendar",
-      "b": "rupee-circle-calendar",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-calendar",
-      "b": "won-circle-calendar",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-calendar",
-      "b": "dollar-circle-calendar",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-calendar",
-      "b": "euro-circle-calendar",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-calendar",
-      "b": "pound-circle-calendar",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-calendar",
-      "b": "egg-fried-calendar",
-      "distance": 1.41
-    },
-    {
-      "a": "yen-circle-question",
-      "b": "rupee-circle-question",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-question",
-      "b": "won-circle-question",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-question",
-      "b": "dollar-circle-question",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-question",
-      "b": "euro-circle-question",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-question",
-      "b": "pound-circle-question",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-question",
-      "b": "egg-fried-question",
-      "distance": 1.41
-    },
-    {
-      "a": "yen-circle-bookmark",
-      "b": "rupee-circle-bookmark",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-bookmark",
-      "b": "won-circle-bookmark",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-bookmark",
-      "b": "dollar-circle-bookmark",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-bookmark",
-      "b": "euro-circle-bookmark",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-bookmark",
-      "b": "pound-circle-bookmark",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-bookmark",
-      "b": "egg-fried-bookmark",
-      "distance": 1.41
-    },
-    {
-      "a": "yen-circle-upload",
-      "b": "rupee-circle-upload",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-upload",
-      "b": "won-circle-upload",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-upload",
-      "b": "dollar-circle-upload",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-upload",
-      "b": "euro-circle-upload",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-upload",
-      "b": "pound-circle-upload",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-upload",
-      "b": "egg-fried-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "yen-circle-crown",
-      "b": "rupee-circle-crown",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-crown",
-      "b": "won-circle-crown",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-crown",
-      "b": "dollar-circle-crown",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-crown",
-      "b": "euro-circle-crown",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-crown",
-      "b": "pound-circle-crown",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-crown",
-      "b": "egg-fried-crown",
-      "distance": 1.41
-    },
-    {
-      "a": "yen-circle-leaf",
-      "b": "rupee-circle-pencil",
-      "distance": 1.41
-    },
-    {
-      "a": "yen-circle-leaf",
-      "b": "rupee-circle-leaf",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-leaf",
-      "b": "won-circle-pencil",
-      "distance": 1.41
-    },
-    {
-      "a": "yen-circle-leaf",
-      "b": "won-circle-leaf",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-leaf",
-      "b": "dollar-circle-pencil",
-      "distance": 1.41
-    },
-    {
-      "a": "yen-circle-leaf",
-      "b": "dollar-circle-leaf",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-leaf",
-      "b": "euro-circle-pencil",
-      "distance": 1.41
-    },
-    {
-      "a": "yen-circle-leaf",
-      "b": "euro-circle-leaf",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-leaf",
-      "b": "pound-circle-pencil",
-      "distance": 1.41
-    },
-    {
-      "a": "yen-circle-leaf",
-      "b": "pound-circle-leaf",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-leaf",
-      "b": "egg-fried-pencil",
-      "distance": 1.41
-    },
-    {
-      "a": "yen-circle-leaf",
-      "b": "egg-fried-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "yen-circle-hourglass",
-      "b": "rupee-circle-hourglass",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-hourglass",
-      "b": "won-circle-hourglass",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-hourglass",
-      "b": "dollar-circle-hourglass",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-hourglass",
-      "b": "euro-circle-hourglass",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-hourglass",
-      "b": "pound-circle-hourglass",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-hourglass",
-      "b": "egg-fried-hourglass",
-      "distance": 1.41
-    },
-    {
-      "a": "yen-circle-cursor",
-      "b": "rupee-circle-cursor",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-cursor",
-      "b": "won-circle-cursor",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-cursor",
-      "b": "dollar-circle-cursor",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-cursor",
-      "b": "euro-circle-cursor",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-cursor",
-      "b": "pound-circle-cursor",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-cursor",
-      "b": "egg-fried-cursor",
-      "distance": 1.41
-    },
-    {
-      "a": "yen-circle-camera",
-      "b": "rupee-circle-camera",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-camera",
-      "b": "won-circle-camera",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-camera",
-      "b": "dollar-circle-camera",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-camera",
-      "b": "euro-circle-camera",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-camera",
-      "b": "pound-circle-camera",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-camera",
-      "b": "egg-fried-camera",
-      "distance": 1.41
-    },
-    {
-      "a": "yen-circle-filter",
-      "b": "rupee-circle-filter",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-filter",
-      "b": "won-circle-filter",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-filter",
-      "b": "dollar-circle-filter",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-filter",
-      "b": "euro-circle-filter",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-filter",
-      "b": "pound-circle-filter",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-filter",
-      "b": "egg-fried-filter",
-      "distance": 1.41
-    },
-    {
-      "a": "yen-circle-stats",
-      "b": "rupee-circle-stats",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-stats",
-      "b": "won-circle-stats",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-stats",
-      "b": "dollar-circle-stats",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-stats",
-      "b": "euro-circle-stats",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-stats",
-      "b": "pound-circle-stats",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-stats",
-      "b": "egg-fried-stats",
-      "distance": 1.41
-    },
-    {
-      "a": "yen-circle-checkbox",
-      "b": "rupee-circle-checkbox",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-checkbox",
-      "b": "won-circle-checkbox",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-checkbox",
-      "b": "dollar-circle-checkbox",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-checkbox",
-      "b": "euro-circle-checkbox",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-checkbox",
-      "b": "pound-circle-checkbox",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-checkbox",
-      "b": "egg-fried-checkbox",
-      "distance": 1.41
-    },
-    {
-      "a": "rupee-circle-search",
-      "b": "won-circle-search",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-search",
-      "b": "dollar-circle-search",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-search",
-      "b": "euro-circle-search",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-search",
-      "b": "pound-circle-search",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-search",
-      "b": "egg-fried-search",
-      "distance": 1.41
-    },
-    {
-      "a": "rupee-circle-clock",
-      "b": "won-circle-clock",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-clock",
-      "b": "dollar-circle-clock",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-clock",
-      "b": "euro-circle-clock",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-clock",
-      "b": "pound-circle-clock",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-clock",
-      "b": "egg-fried-clock",
-      "distance": 1.41
-    },
-    {
-      "a": "rupee-circle-gear",
-      "b": "won-circle-gear",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-gear",
-      "b": "dollar-circle-gear",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-gear",
-      "b": "euro-circle-gear",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-gear",
-      "b": "pound-circle-gear",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-gear",
-      "b": "egg-fried-gear",
-      "distance": 1.41
-    },
-    {
-      "a": "rupee-circle-bolt",
-      "b": "won-circle-bolt",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-bolt",
-      "b": "dollar-circle-bolt",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-bolt",
-      "b": "euro-circle-bolt",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-bolt",
-      "b": "pound-circle-bolt",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-bolt",
-      "b": "egg-fried-bolt",
-      "distance": 1.41
-    },
-    {
-      "a": "rupee-circle-heart",
-      "b": "won-circle-heart",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-heart",
-      "b": "dollar-circle-heart",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-heart",
-      "b": "euro-circle-heart",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-heart",
-      "b": "pound-circle-heart",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-heart",
-      "b": "egg-fried-heart",
-      "distance": 1.41
-    },
-    {
-      "a": "rupee-circle-star",
-      "b": "won-circle-star",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-star",
-      "b": "dollar-circle-star",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-star",
-      "b": "euro-circle-star",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-star",
-      "b": "pound-circle-star",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-star",
-      "b": "egg-fried-star",
-      "distance": 1.41
-    },
-    {
-      "a": "rupee-circle-cloud",
-      "b": "won-circle-cloud",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-cloud",
-      "b": "dollar-circle-cloud",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-cloud",
-      "b": "euro-circle-cloud",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-cloud",
-      "b": "pound-circle-cloud",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-cloud",
-      "b": "egg-fried-cloud",
-      "distance": 1.41
-    },
-    {
-      "a": "rupee-circle-chat",
-      "b": "won-circle-chat",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-chat",
-      "b": "dollar-circle-chat",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-chat",
-      "b": "euro-circle-chat",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-chat",
-      "b": "pound-circle-chat",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-chat",
-      "b": "egg-fried-chat",
-      "distance": 1.41
-    },
-    {
-      "a": "rupee-circle-download",
-      "b": "won-circle-download",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-download",
-      "b": "dollar-circle-download",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-download",
-      "b": "euro-circle-download",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-download",
-      "b": "pound-circle-download",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-download",
-      "b": "egg-fried-download",
-      "distance": 1.41
-    },
-    {
-      "a": "rupee-circle-pencil",
-      "b": "rupee-circle-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "rupee-circle-pencil",
-      "b": "won-circle-pencil",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-pencil",
-      "b": "won-circle-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "rupee-circle-pencil",
-      "b": "dollar-circle-pencil",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-pencil",
-      "b": "dollar-circle-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "rupee-circle-pencil",
-      "b": "euro-circle-pencil",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-pencil",
-      "b": "euro-circle-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "rupee-circle-pencil",
-      "b": "pound-circle-pencil",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-pencil",
-      "b": "pound-circle-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "rupee-circle-pencil",
-      "b": "egg-fried-pencil",
-      "distance": 1.41
-    },
-    {
-      "a": "rupee-circle-pencil",
-      "b": "egg-fried-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "rupee-circle-trash",
-      "b": "won-circle-trash",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-trash",
-      "b": "dollar-circle-trash",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-trash",
-      "b": "euro-circle-trash",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-trash",
-      "b": "pound-circle-trash",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-trash",
-      "b": "egg-fried-trash",
-      "distance": 1.41
-    },
-    {
-      "a": "rupee-circle-calendar",
-      "b": "won-circle-calendar",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-calendar",
-      "b": "dollar-circle-calendar",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-calendar",
-      "b": "euro-circle-calendar",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-calendar",
-      "b": "pound-circle-calendar",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-calendar",
-      "b": "egg-fried-calendar",
-      "distance": 1.41
-    },
-    {
-      "a": "rupee-circle-question",
-      "b": "won-circle-question",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-question",
-      "b": "dollar-circle-question",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-question",
-      "b": "euro-circle-question",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-question",
-      "b": "pound-circle-question",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-question",
-      "b": "egg-fried-question",
-      "distance": 1.41
-    },
-    {
-      "a": "rupee-circle-bookmark",
-      "b": "won-circle-bookmark",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-bookmark",
-      "b": "dollar-circle-bookmark",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-bookmark",
-      "b": "euro-circle-bookmark",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-bookmark",
-      "b": "pound-circle-bookmark",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-bookmark",
-      "b": "egg-fried-bookmark",
-      "distance": 1.41
-    },
-    {
-      "a": "rupee-circle-upload",
-      "b": "won-circle-upload",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-upload",
-      "b": "dollar-circle-upload",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-upload",
-      "b": "euro-circle-upload",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-upload",
-      "b": "pound-circle-upload",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-upload",
-      "b": "egg-fried-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "rupee-circle-crown",
-      "b": "won-circle-crown",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-crown",
-      "b": "dollar-circle-crown",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-crown",
-      "b": "euro-circle-crown",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-crown",
-      "b": "pound-circle-crown",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-crown",
-      "b": "egg-fried-crown",
-      "distance": 1.41
-    },
-    {
-      "a": "rupee-circle-leaf",
-      "b": "won-circle-pencil",
-      "distance": 1.41
-    },
-    {
-      "a": "rupee-circle-leaf",
-      "b": "won-circle-leaf",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-leaf",
-      "b": "dollar-circle-pencil",
-      "distance": 1.41
-    },
-    {
-      "a": "rupee-circle-leaf",
-      "b": "dollar-circle-leaf",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-leaf",
-      "b": "euro-circle-pencil",
-      "distance": 1.41
-    },
-    {
-      "a": "rupee-circle-leaf",
-      "b": "euro-circle-leaf",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-leaf",
-      "b": "pound-circle-pencil",
+      "a": "takeout-box-shield",
+      "b": "cookie-jar-shield",
       "distance": 1.41
-    },
-    {
-      "a": "rupee-circle-leaf",
-      "b": "pound-circle-leaf",
-      "distance": 0
     },
     {
-      "a": "rupee-circle-leaf",
-      "b": "egg-fried-pencil",
+      "a": "takeout-box-pin",
+      "b": "cookie-jar-pin",
       "distance": 1.41
     },
     {
-      "a": "rupee-circle-leaf",
-      "b": "egg-fried-leaf",
+      "a": "takeout-box-user",
+      "b": "cookie-jar-user",
       "distance": 1.41
-    },
-    {
-      "a": "rupee-circle-hourglass",
-      "b": "won-circle-hourglass",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-hourglass",
-      "b": "dollar-circle-hourglass",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-hourglass",
-      "b": "euro-circle-hourglass",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-hourglass",
-      "b": "pound-circle-hourglass",
-      "distance": 0
     },
     {
-      "a": "rupee-circle-hourglass",
-      "b": "egg-fried-hourglass",
+      "a": "takeout-box-bell",
+      "b": "cookie-jar-bell",
       "distance": 1.41
-    },
-    {
-      "a": "rupee-circle-cursor",
-      "b": "won-circle-cursor",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-cursor",
-      "b": "dollar-circle-cursor",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-cursor",
-      "b": "euro-circle-cursor",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-cursor",
-      "b": "pound-circle-cursor",
-      "distance": 0
     },
     {
-      "a": "rupee-circle-cursor",
-      "b": "egg-fried-cursor",
+      "a": "takeout-box-chat",
+      "b": "cookie-jar-chat",
       "distance": 1.41
-    },
-    {
-      "a": "rupee-circle-camera",
-      "b": "won-circle-camera",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-camera",
-      "b": "dollar-circle-camera",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-camera",
-      "b": "euro-circle-camera",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-camera",
-      "b": "pound-circle-camera",
-      "distance": 0
     },
     {
-      "a": "rupee-circle-camera",
-      "b": "egg-fried-camera",
+      "a": "takeout-box-flag",
+      "b": "cookie-jar-flag",
       "distance": 1.41
-    },
-    {
-      "a": "rupee-circle-filter",
-      "b": "won-circle-filter",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-filter",
-      "b": "dollar-circle-filter",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-filter",
-      "b": "euro-circle-filter",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-filter",
-      "b": "pound-circle-filter",
-      "distance": 0
     },
     {
-      "a": "rupee-circle-filter",
-      "b": "egg-fried-filter",
+      "a": "takeout-box-bookmark",
+      "b": "cookie-jar-bookmark",
       "distance": 1.41
-    },
-    {
-      "a": "rupee-circle-stats",
-      "b": "won-circle-stats",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-stats",
-      "b": "dollar-circle-stats",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-stats",
-      "b": "euro-circle-stats",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-stats",
-      "b": "pound-circle-stats",
-      "distance": 0
     },
     {
-      "a": "rupee-circle-stats",
-      "b": "egg-fried-stats",
+      "a": "takeout-box-crown",
+      "b": "cookie-jar-crown",
       "distance": 1.41
-    },
-    {
-      "a": "rupee-circle-checkbox",
-      "b": "won-circle-checkbox",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-checkbox",
-      "b": "dollar-circle-checkbox",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-checkbox",
-      "b": "euro-circle-checkbox",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-checkbox",
-      "b": "pound-circle-checkbox",
-      "distance": 0
     },
     {
-      "a": "rupee-circle-checkbox",
-      "b": "egg-fried-checkbox",
+      "a": "takeout-box-moon",
+      "b": "cookie-jar-moon",
       "distance": 1.41
     },
     {
-      "a": "percent-circle-pencil",
-      "b": "percent-circle-leaf",
+      "a": "takeout-box-trophy",
+      "b": "cookie-jar-trophy",
       "distance": 1.41
     },
     {
-      "a": "mortgage-pencil",
-      "b": "mortgage-leaf",
+      "a": "takeout-box-hourglass",
+      "b": "cookie-jar-hourglass",
       "distance": 1.41
-    },
-    {
-      "a": "won-circle-search",
-      "b": "dollar-circle-search",
-      "distance": 0
-    },
-    {
-      "a": "won-circle-search",
-      "b": "euro-circle-search",
-      "distance": 0
-    },
-    {
-      "a": "won-circle-search",
-      "b": "pound-circle-search",
-      "distance": 0
     },
     {
-      "a": "won-circle-search",
-      "b": "egg-fried-search",
+      "a": "takeout-box-cursor",
+      "b": "cookie-jar-cursor",
       "distance": 1.41
-    },
-    {
-      "a": "won-circle-clock",
-      "b": "dollar-circle-clock",
-      "distance": 0
-    },
-    {
-      "a": "won-circle-clock",
-      "b": "euro-circle-clock",
-      "distance": 0
-    },
-    {
-      "a": "won-circle-clock",
-      "b": "pound-circle-clock",
-      "distance": 0
     },
     {
-      "a": "won-circle-clock",
-      "b": "egg-fried-clock",
+      "a": "takeout-box-filter",
+      "b": "cookie-jar-filter",
       "distance": 1.41
-    },
-    {
-      "a": "won-circle-gear",
-      "b": "dollar-circle-gear",
-      "distance": 0
-    },
-    {
-      "a": "won-circle-gear",
-      "b": "euro-circle-gear",
-      "distance": 0
-    },
-    {
-      "a": "won-circle-gear",
-      "b": "pound-circle-gear",
-      "distance": 0
     },
     {
-      "a": "won-circle-gear",
-      "b": "egg-fried-gear",
+      "a": "takeout-box-checkbox",
+      "b": "cookie-jar-checkbox",
       "distance": 1.41
-    },
-    {
-      "a": "won-circle-bolt",
-      "b": "dollar-circle-bolt",
-      "distance": 0
-    },
-    {
-      "a": "won-circle-bolt",
-      "b": "euro-circle-bolt",
-      "distance": 0
-    },
-    {
-      "a": "won-circle-bolt",
-      "b": "pound-circle-bolt",
-      "distance": 0
     },
     {
-      "a": "won-circle-bolt",
-      "b": "egg-fried-bolt",
+      "a": "cookie-jar-pencil",
+      "b": "cookie-jar-leaf",
       "distance": 1.41
-    },
-    {
-      "a": "won-circle-heart",
-      "b": "dollar-circle-heart",
-      "distance": 0
-    },
-    {
-      "a": "won-circle-heart",
-      "b": "euro-circle-heart",
-      "distance": 0
-    },
-    {
-      "a": "won-circle-heart",
-      "b": "pound-circle-heart",
-      "distance": 0
     },
     {
-      "a": "won-circle-heart",
-      "b": "egg-fried-heart",
+      "a": "cookie-jar-sparkle",
+      "b": "cookie-jar-upload",
       "distance": 1.41
-    },
-    {
-      "a": "won-circle-star",
-      "b": "dollar-circle-star",
-      "distance": 0
-    },
-    {
-      "a": "won-circle-star",
-      "b": "euro-circle-star",
-      "distance": 0
-    },
-    {
-      "a": "won-circle-star",
-      "b": "pound-circle-star",
-      "distance": 0
     },
     {
-      "a": "won-circle-star",
-      "b": "egg-fried-star",
+      "a": "tombstone-sparkle",
+      "b": "tombstone-upload",
       "distance": 1.41
-    },
-    {
-      "a": "won-circle-cloud",
-      "b": "dollar-circle-cloud",
-      "distance": 0
-    },
-    {
-      "a": "won-circle-cloud",
-      "b": "euro-circle-cloud",
-      "distance": 0
-    },
-    {
-      "a": "won-circle-cloud",
-      "b": "pound-circle-cloud",
-      "distance": 0
     },
     {
-      "a": "won-circle-cloud",
-      "b": "egg-fried-cloud",
+      "a": "network-switch-search",
+      "b": "ice-tray-search",
       "distance": 1.41
-    },
-    {
-      "a": "won-circle-chat",
-      "b": "dollar-circle-chat",
-      "distance": 0
-    },
-    {
-      "a": "won-circle-chat",
-      "b": "euro-circle-chat",
-      "distance": 0
-    },
-    {
-      "a": "won-circle-chat",
-      "b": "pound-circle-chat",
-      "distance": 0
     },
     {
-      "a": "won-circle-chat",
-      "b": "egg-fried-chat",
+      "a": "network-switch-clock",
+      "b": "ice-tray-clock",
       "distance": 1.41
-    },
-    {
-      "a": "won-circle-download",
-      "b": "dollar-circle-download",
-      "distance": 0
-    },
-    {
-      "a": "won-circle-download",
-      "b": "euro-circle-download",
-      "distance": 0
-    },
-    {
-      "a": "won-circle-download",
-      "b": "pound-circle-download",
-      "distance": 0
     },
     {
-      "a": "won-circle-download",
-      "b": "egg-fried-download",
+      "a": "network-switch-shield",
+      "b": "ice-tray-shield",
       "distance": 1.41
     },
     {
-      "a": "won-circle-pencil",
-      "b": "won-circle-leaf",
+      "a": "network-switch-gear",
+      "b": "ice-tray-gear",
       "distance": 1.41
-    },
-    {
-      "a": "won-circle-pencil",
-      "b": "dollar-circle-pencil",
-      "distance": 0
     },
     {
-      "a": "won-circle-pencil",
-      "b": "dollar-circle-leaf",
+      "a": "network-switch-bolt",
+      "b": "ice-tray-bolt",
       "distance": 1.41
-    },
-    {
-      "a": "won-circle-pencil",
-      "b": "euro-circle-pencil",
-      "distance": 0
     },
     {
-      "a": "won-circle-pencil",
-      "b": "euro-circle-leaf",
+      "a": "network-switch-heart",
+      "b": "ice-tray-heart",
       "distance": 1.41
-    },
-    {
-      "a": "won-circle-pencil",
-      "b": "pound-circle-pencil",
-      "distance": 0
     },
     {
-      "a": "won-circle-pencil",
-      "b": "pound-circle-leaf",
+      "a": "network-switch-star",
+      "b": "ice-tray-star",
       "distance": 1.41
     },
     {
-      "a": "won-circle-pencil",
-      "b": "egg-fried-pencil",
+      "a": "network-switch-user",
+      "b": "ice-tray-user",
       "distance": 1.41
     },
     {
-      "a": "won-circle-pencil",
-      "b": "egg-fried-leaf",
+      "a": "network-switch-cloud",
+      "b": "ice-tray-cloud",
       "distance": 1.41
-    },
-    {
-      "a": "won-circle-trash",
-      "b": "dollar-circle-trash",
-      "distance": 0
-    },
-    {
-      "a": "won-circle-trash",
-      "b": "euro-circle-trash",
-      "distance": 0
-    },
-    {
-      "a": "won-circle-trash",
-      "b": "pound-circle-trash",
-      "distance": 0
     },
     {
-      "a": "won-circle-trash",
-      "b": "egg-fried-trash",
+      "a": "network-switch-chat",
+      "b": "ice-tray-chat",
       "distance": 1.41
-    },
-    {
-      "a": "won-circle-calendar",
-      "b": "dollar-circle-calendar",
-      "distance": 0
-    },
-    {
-      "a": "won-circle-calendar",
-      "b": "euro-circle-calendar",
-      "distance": 0
-    },
-    {
-      "a": "won-circle-calendar",
-      "b": "pound-circle-calendar",
-      "distance": 0
     },
     {
-      "a": "won-circle-calendar",
-      "b": "egg-fried-calendar",
+      "a": "network-switch-download",
+      "b": "ice-tray-download",
       "distance": 1.41
-    },
-    {
-      "a": "won-circle-question",
-      "b": "dollar-circle-question",
-      "distance": 0
-    },
-    {
-      "a": "won-circle-question",
-      "b": "euro-circle-question",
-      "distance": 0
-    },
-    {
-      "a": "won-circle-question",
-      "b": "pound-circle-question",
-      "distance": 0
     },
     {
-      "a": "won-circle-question",
-      "b": "egg-fried-question",
+      "a": "network-switch-pencil",
+      "b": "ice-tray-pencil",
       "distance": 1.41
-    },
-    {
-      "a": "won-circle-bookmark",
-      "b": "dollar-circle-bookmark",
-      "distance": 0
-    },
-    {
-      "a": "won-circle-bookmark",
-      "b": "euro-circle-bookmark",
-      "distance": 0
-    },
-    {
-      "a": "won-circle-bookmark",
-      "b": "pound-circle-bookmark",
-      "distance": 0
     },
     {
-      "a": "won-circle-bookmark",
-      "b": "egg-fried-bookmark",
+      "a": "network-switch-sparkle",
+      "b": "ice-tray-sparkle",
       "distance": 1.41
-    },
-    {
-      "a": "won-circle-upload",
-      "b": "dollar-circle-upload",
-      "distance": 0
-    },
-    {
-      "a": "won-circle-upload",
-      "b": "euro-circle-upload",
-      "distance": 0
-    },
-    {
-      "a": "won-circle-upload",
-      "b": "pound-circle-upload",
-      "distance": 0
     },
     {
-      "a": "won-circle-upload",
-      "b": "egg-fried-upload",
+      "a": "network-switch-sparkle",
+      "b": "ice-tray-upload",
       "distance": 1.41
-    },
-    {
-      "a": "won-circle-crown",
-      "b": "dollar-circle-crown",
-      "distance": 0
-    },
-    {
-      "a": "won-circle-crown",
-      "b": "euro-circle-crown",
-      "distance": 0
-    },
-    {
-      "a": "won-circle-crown",
-      "b": "pound-circle-crown",
-      "distance": 0
     },
     {
-      "a": "won-circle-crown",
-      "b": "egg-fried-crown",
+      "a": "network-switch-trash",
+      "b": "ice-tray-trash",
       "distance": 1.41
     },
     {
-      "a": "won-circle-leaf",
-      "b": "dollar-circle-pencil",
+      "a": "network-switch-calendar",
+      "b": "ice-tray-calendar",
       "distance": 1.41
-    },
-    {
-      "a": "won-circle-leaf",
-      "b": "dollar-circle-leaf",
-      "distance": 0
     },
     {
-      "a": "won-circle-leaf",
-      "b": "euro-circle-pencil",
+      "a": "network-switch-question",
+      "b": "ice-tray-question",
       "distance": 1.41
-    },
-    {
-      "a": "won-circle-leaf",
-      "b": "euro-circle-leaf",
-      "distance": 0
     },
     {
-      "a": "won-circle-leaf",
-      "b": "pound-circle-pencil",
+      "a": "network-switch-bookmark",
+      "b": "ice-tray-bookmark",
       "distance": 1.41
-    },
-    {
-      "a": "won-circle-leaf",
-      "b": "pound-circle-leaf",
-      "distance": 0
     },
     {
-      "a": "won-circle-leaf",
-      "b": "egg-fried-pencil",
+      "a": "network-switch-crown",
+      "b": "ice-tray-crown",
       "distance": 1.41
     },
     {
-      "a": "won-circle-leaf",
-      "b": "egg-fried-leaf",
+      "a": "network-switch-leaf",
+      "b": "ice-tray-leaf",
       "distance": 1.41
-    },
-    {
-      "a": "won-circle-hourglass",
-      "b": "dollar-circle-hourglass",
-      "distance": 0
-    },
-    {
-      "a": "won-circle-hourglass",
-      "b": "euro-circle-hourglass",
-      "distance": 0
-    },
-    {
-      "a": "won-circle-hourglass",
-      "b": "pound-circle-hourglass",
-      "distance": 0
     },
     {
-      "a": "won-circle-hourglass",
-      "b": "egg-fried-hourglass",
+      "a": "network-switch-trophy",
+      "b": "ice-tray-trophy",
       "distance": 1.41
-    },
-    {
-      "a": "won-circle-cursor",
-      "b": "dollar-circle-cursor",
-      "distance": 0
-    },
-    {
-      "a": "won-circle-cursor",
-      "b": "euro-circle-cursor",
-      "distance": 0
-    },
-    {
-      "a": "won-circle-cursor",
-      "b": "pound-circle-cursor",
-      "distance": 0
     },
     {
-      "a": "won-circle-cursor",
-      "b": "egg-fried-cursor",
+      "a": "network-switch-hourglass",
+      "b": "ice-tray-hourglass",
       "distance": 1.41
-    },
-    {
-      "a": "won-circle-camera",
-      "b": "dollar-circle-camera",
-      "distance": 0
-    },
-    {
-      "a": "won-circle-camera",
-      "b": "euro-circle-camera",
-      "distance": 0
-    },
-    {
-      "a": "won-circle-camera",
-      "b": "pound-circle-camera",
-      "distance": 0
     },
     {
-      "a": "won-circle-camera",
-      "b": "egg-fried-camera",
+      "a": "network-switch-cursor",
+      "b": "ice-tray-cursor",
       "distance": 1.41
-    },
-    {
-      "a": "won-circle-filter",
-      "b": "dollar-circle-filter",
-      "distance": 0
-    },
-    {
-      "a": "won-circle-filter",
-      "b": "euro-circle-filter",
-      "distance": 0
-    },
-    {
-      "a": "won-circle-filter",
-      "b": "pound-circle-filter",
-      "distance": 0
     },
     {
-      "a": "won-circle-filter",
-      "b": "egg-fried-filter",
+      "a": "network-switch-camera",
+      "b": "ice-tray-camera",
       "distance": 1.41
-    },
-    {
-      "a": "won-circle-stats",
-      "b": "dollar-circle-stats",
-      "distance": 0
-    },
-    {
-      "a": "won-circle-stats",
-      "b": "euro-circle-stats",
-      "distance": 0
-    },
-    {
-      "a": "won-circle-stats",
-      "b": "pound-circle-stats",
-      "distance": 0
     },
     {
-      "a": "won-circle-stats",
-      "b": "egg-fried-stats",
+      "a": "network-switch-filter",
+      "b": "ice-tray-filter",
       "distance": 1.41
-    },
-    {
-      "a": "won-circle-checkbox",
-      "b": "dollar-circle-checkbox",
-      "distance": 0
-    },
-    {
-      "a": "won-circle-checkbox",
-      "b": "euro-circle-checkbox",
-      "distance": 0
-    },
-    {
-      "a": "won-circle-checkbox",
-      "b": "pound-circle-checkbox",
-      "distance": 0
     },
     {
-      "a": "won-circle-checkbox",
-      "b": "egg-fried-checkbox",
+      "a": "network-switch-stats",
+      "b": "ice-tray-stats",
       "distance": 1.41
-    },
-    {
-      "a": "loan-search",
-      "b": "donate-search",
-      "distance": 0
-    },
-    {
-      "a": "loan-clock",
-      "b": "donate-clock",
-      "distance": 0
-    },
-    {
-      "a": "loan-gear",
-      "b": "donate-gear",
-      "distance": 0
-    },
-    {
-      "a": "loan-bolt",
-      "b": "donate-bolt",
-      "distance": 0
-    },
-    {
-      "a": "loan-heart",
-      "b": "donate-heart",
-      "distance": 0
-    },
-    {
-      "a": "loan-star",
-      "b": "donate-star",
-      "distance": 0
-    },
-    {
-      "a": "loan-cloud",
-      "b": "donate-cloud",
-      "distance": 0
-    },
-    {
-      "a": "loan-chat",
-      "b": "donate-chat",
-      "distance": 0
-    },
-    {
-      "a": "loan-download",
-      "b": "donate-download",
-      "distance": 0
     },
     {
-      "a": "loan-pencil",
-      "b": "loan-leaf",
+      "a": "network-switch-checkbox",
+      "b": "ice-tray-checkbox",
       "distance": 1.41
-    },
-    {
-      "a": "loan-pencil",
-      "b": "donate-pencil",
-      "distance": 0
     },
     {
-      "a": "loan-pencil",
-      "b": "donate-leaf",
+      "a": "coin-purse-search",
+      "b": "cookie-jar-search",
       "distance": 1.41
-    },
-    {
-      "a": "loan-trash",
-      "b": "donate-trash",
-      "distance": 0
-    },
-    {
-      "a": "loan-calendar",
-      "b": "donate-calendar",
-      "distance": 0
-    },
-    {
-      "a": "loan-question",
-      "b": "donate-question",
-      "distance": 0
-    },
-    {
-      "a": "loan-bookmark",
-      "b": "donate-bookmark",
-      "distance": 0
-    },
-    {
-      "a": "loan-upload",
-      "b": "donate-upload",
-      "distance": 0
-    },
-    {
-      "a": "loan-crown",
-      "b": "donate-crown",
-      "distance": 0
     },
     {
-      "a": "loan-leaf",
-      "b": "donate-pencil",
+      "a": "coin-purse-clock",
+      "b": "cookie-jar-clock",
       "distance": 1.41
-    },
-    {
-      "a": "loan-leaf",
-      "b": "donate-leaf",
-      "distance": 0
-    },
-    {
-      "a": "loan-hourglass",
-      "b": "donate-hourglass",
-      "distance": 0
-    },
-    {
-      "a": "loan-cursor",
-      "b": "donate-cursor",
-      "distance": 0
-    },
-    {
-      "a": "loan-camera",
-      "b": "donate-camera",
-      "distance": 0
-    },
-    {
-      "a": "loan-filter",
-      "b": "donate-filter",
-      "distance": 0
-    },
-    {
-      "a": "loan-stats",
-      "b": "donate-stats",
-      "distance": 0
-    },
-    {
-      "a": "loan-checkbox",
-      "b": "donate-checkbox",
-      "distance": 0
     },
     {
-      "a": "donate-pencil",
-      "b": "donate-leaf",
+      "a": "coin-purse-shield",
+      "b": "cookie-jar-shield",
       "distance": 1.41
     },
     {
-      "a": "gold-bars-pencil",
-      "b": "gold-bars-leaf",
+      "a": "coin-purse-gear",
+      "b": "cookie-jar-gear",
       "distance": 1.41
     },
     {
-      "a": "vault-gear",
-      "b": "vault-stats",
+      "a": "coin-purse-heart",
+      "b": "cookie-jar-heart",
       "distance": 1.41
     },
     {
-      "a": "vault-pencil",
-      "b": "vault-leaf",
+      "a": "coin-purse-user",
+      "b": "cookie-jar-user",
       "distance": 1.41
     },
     {
-      "a": "vault-sparkle",
-      "b": "vault-upload",
+      "a": "coin-purse-cloud",
+      "b": "cookie-jar-cloud",
       "distance": 1.41
     },
     {
-      "a": "tax-pencil",
-      "b": "tax-leaf",
+      "a": "coin-purse-chat",
+      "b": "cookie-jar-chat",
       "distance": 1.41
     },
     {
-      "a": "hand-coins-pencil",
-      "b": "hand-coins-leaf",
+      "a": "coin-purse-download",
+      "b": "cookie-jar-download",
       "distance": 1.41
     },
     {
       "a": "coin-purse-pencil",
-      "b": "coin-purse-leaf",
+      "b": "cookie-jar-pencil",
       "distance": 1.41
     },
     {
-      "a": "sale-sign-pencil",
-      "b": "sale-sign-leaf",
+      "a": "coin-purse-pencil",
+      "b": "cookie-jar-leaf",
       "distance": 1.41
     },
     {
-      "a": "banknotes-sparkle",
-      "b": "banknotes-upload",
+      "a": "coin-purse-trash",
+      "b": "cookie-jar-trash",
       "distance": 1.41
     },
     {
-      "a": "dollar-circle-search",
-      "b": "euro-circle-search",
-      "distance": 0
-    },
-    {
-      "a": "dollar-circle-search",
-      "b": "pound-circle-search",
-      "distance": 0
-    },
-    {
-      "a": "dollar-circle-search",
-      "b": "egg-fried-search",
-      "distance": 1.41
-    },
-    {
-      "a": "dollar-circle-clock",
-      "b": "euro-circle-clock",
-      "distance": 0
-    },
-    {
-      "a": "dollar-circle-clock",
-      "b": "pound-circle-clock",
-      "distance": 0
-    },
-    {
-      "a": "dollar-circle-clock",
-      "b": "egg-fried-clock",
-      "distance": 1.41
-    },
-    {
-      "a": "dollar-circle-gear",
-      "b": "euro-circle-gear",
-      "distance": 0
-    },
-    {
-      "a": "dollar-circle-gear",
-      "b": "pound-circle-gear",
-      "distance": 0
-    },
-    {
-      "a": "dollar-circle-gear",
-      "b": "egg-fried-gear",
-      "distance": 1.41
-    },
-    {
-      "a": "dollar-circle-bolt",
-      "b": "euro-circle-bolt",
-      "distance": 0
-    },
-    {
-      "a": "dollar-circle-bolt",
-      "b": "pound-circle-bolt",
-      "distance": 0
-    },
-    {
-      "a": "dollar-circle-bolt",
-      "b": "egg-fried-bolt",
-      "distance": 1.41
-    },
-    {
-      "a": "dollar-circle-heart",
-      "b": "euro-circle-heart",
-      "distance": 0
-    },
-    {
-      "a": "dollar-circle-heart",
-      "b": "pound-circle-heart",
-      "distance": 0
-    },
-    {
-      "a": "dollar-circle-heart",
-      "b": "egg-fried-heart",
-      "distance": 1.41
-    },
-    {
-      "a": "dollar-circle-star",
-      "b": "euro-circle-star",
-      "distance": 0
-    },
-    {
-      "a": "dollar-circle-star",
-      "b": "pound-circle-star",
-      "distance": 0
-    },
-    {
-      "a": "dollar-circle-star",
-      "b": "egg-fried-star",
-      "distance": 1.41
-    },
-    {
-      "a": "dollar-circle-cloud",
-      "b": "euro-circle-cloud",
-      "distance": 0
-    },
-    {
-      "a": "dollar-circle-cloud",
-      "b": "pound-circle-cloud",
-      "distance": 0
-    },
-    {
-      "a": "dollar-circle-cloud",
-      "b": "egg-fried-cloud",
-      "distance": 1.41
-    },
-    {
-      "a": "dollar-circle-chat",
-      "b": "euro-circle-chat",
-      "distance": 0
-    },
-    {
-      "a": "dollar-circle-chat",
-      "b": "pound-circle-chat",
-      "distance": 0
-    },
-    {
-      "a": "dollar-circle-chat",
-      "b": "egg-fried-chat",
-      "distance": 1.41
-    },
-    {
-      "a": "dollar-circle-download",
-      "b": "euro-circle-download",
-      "distance": 0
-    },
-    {
-      "a": "dollar-circle-download",
-      "b": "pound-circle-download",
-      "distance": 0
-    },
-    {
-      "a": "dollar-circle-download",
-      "b": "egg-fried-download",
-      "distance": 1.41
-    },
-    {
-      "a": "dollar-circle-pencil",
-      "b": "dollar-circle-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "dollar-circle-pencil",
-      "b": "euro-circle-pencil",
-      "distance": 0
-    },
-    {
-      "a": "dollar-circle-pencil",
-      "b": "euro-circle-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "dollar-circle-pencil",
-      "b": "pound-circle-pencil",
-      "distance": 0
-    },
-    {
-      "a": "dollar-circle-pencil",
-      "b": "pound-circle-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "dollar-circle-pencil",
-      "b": "egg-fried-pencil",
-      "distance": 1.41
-    },
-    {
-      "a": "dollar-circle-pencil",
-      "b": "egg-fried-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "dollar-circle-trash",
-      "b": "euro-circle-trash",
-      "distance": 0
-    },
-    {
-      "a": "dollar-circle-trash",
-      "b": "pound-circle-trash",
-      "distance": 0
-    },
-    {
-      "a": "dollar-circle-trash",
-      "b": "egg-fried-trash",
-      "distance": 1.41
-    },
-    {
-      "a": "dollar-circle-calendar",
-      "b": "euro-circle-calendar",
-      "distance": 0
-    },
-    {
-      "a": "dollar-circle-calendar",
-      "b": "pound-circle-calendar",
-      "distance": 0
-    },
-    {
-      "a": "dollar-circle-calendar",
-      "b": "egg-fried-calendar",
-      "distance": 1.41
-    },
-    {
-      "a": "dollar-circle-question",
-      "b": "euro-circle-question",
-      "distance": 0
-    },
-    {
-      "a": "dollar-circle-question",
-      "b": "pound-circle-question",
-      "distance": 0
-    },
-    {
-      "a": "dollar-circle-question",
-      "b": "egg-fried-question",
-      "distance": 1.41
-    },
-    {
-      "a": "dollar-circle-bookmark",
-      "b": "euro-circle-bookmark",
-      "distance": 0
-    },
-    {
-      "a": "dollar-circle-bookmark",
-      "b": "pound-circle-bookmark",
-      "distance": 0
-    },
-    {
-      "a": "dollar-circle-bookmark",
-      "b": "egg-fried-bookmark",
+      "a": "coin-purse-calendar",
+      "b": "cookie-jar-calendar",
       "distance": 1.41
-    },
-    {
-      "a": "dollar-circle-upload",
-      "b": "euro-circle-upload",
-      "distance": 0
-    },
-    {
-      "a": "dollar-circle-upload",
-      "b": "pound-circle-upload",
-      "distance": 0
     },
     {
-      "a": "dollar-circle-upload",
-      "b": "egg-fried-upload",
+      "a": "coin-purse-question",
+      "b": "cookie-jar-question",
       "distance": 1.41
-    },
-    {
-      "a": "dollar-circle-crown",
-      "b": "euro-circle-crown",
-      "distance": 0
-    },
-    {
-      "a": "dollar-circle-crown",
-      "b": "pound-circle-crown",
-      "distance": 0
     },
     {
-      "a": "dollar-circle-crown",
-      "b": "egg-fried-crown",
+      "a": "coin-purse-bookmark",
+      "b": "cookie-jar-bookmark",
       "distance": 1.41
     },
     {
-      "a": "dollar-circle-leaf",
-      "b": "euro-circle-pencil",
+      "a": "coin-purse-crown",
+      "b": "cookie-jar-crown",
       "distance": 1.41
-    },
-    {
-      "a": "dollar-circle-leaf",
-      "b": "euro-circle-leaf",
-      "distance": 0
     },
     {
-      "a": "dollar-circle-leaf",
-      "b": "pound-circle-pencil",
+      "a": "coin-purse-trophy",
+      "b": "cookie-jar-trophy",
       "distance": 1.41
-    },
-    {
-      "a": "dollar-circle-leaf",
-      "b": "pound-circle-leaf",
-      "distance": 0
     },
     {
-      "a": "dollar-circle-leaf",
-      "b": "egg-fried-pencil",
+      "a": "coin-purse-hourglass",
+      "b": "cookie-jar-hourglass",
       "distance": 1.41
     },
     {
-      "a": "dollar-circle-leaf",
-      "b": "egg-fried-leaf",
+      "a": "coin-purse-cursor",
+      "b": "cookie-jar-cursor",
       "distance": 1.41
-    },
-    {
-      "a": "dollar-circle-hourglass",
-      "b": "euro-circle-hourglass",
-      "distance": 0
-    },
-    {
-      "a": "dollar-circle-hourglass",
-      "b": "pound-circle-hourglass",
-      "distance": 0
     },
     {
-      "a": "dollar-circle-hourglass",
-      "b": "egg-fried-hourglass",
+      "a": "coin-purse-camera",
+      "b": "cookie-jar-camera",
       "distance": 1.41
-    },
-    {
-      "a": "dollar-circle-cursor",
-      "b": "euro-circle-cursor",
-      "distance": 0
-    },
-    {
-      "a": "dollar-circle-cursor",
-      "b": "pound-circle-cursor",
-      "distance": 0
     },
     {
-      "a": "dollar-circle-cursor",
-      "b": "egg-fried-cursor",
+      "a": "coin-purse-filter",
+      "b": "cookie-jar-filter",
       "distance": 1.41
-    },
-    {
-      "a": "dollar-circle-camera",
-      "b": "euro-circle-camera",
-      "distance": 0
-    },
-    {
-      "a": "dollar-circle-camera",
-      "b": "pound-circle-camera",
-      "distance": 0
     },
     {
-      "a": "dollar-circle-camera",
-      "b": "egg-fried-camera",
+      "a": "coin-purse-stats",
+      "b": "cookie-jar-stats",
       "distance": 1.41
-    },
-    {
-      "a": "dollar-circle-filter",
-      "b": "euro-circle-filter",
-      "distance": 0
-    },
-    {
-      "a": "dollar-circle-filter",
-      "b": "pound-circle-filter",
-      "distance": 0
     },
     {
-      "a": "dollar-circle-filter",
-      "b": "egg-fried-filter",
+      "a": "coin-purse-checkbox",
+      "b": "cookie-jar-checkbox",
       "distance": 1.41
-    },
-    {
-      "a": "dollar-circle-stats",
-      "b": "euro-circle-stats",
-      "distance": 0
-    },
-    {
-      "a": "dollar-circle-stats",
-      "b": "pound-circle-stats",
-      "distance": 0
     },
     {
-      "a": "dollar-circle-stats",
-      "b": "egg-fried-stats",
+      "a": "lemon-slice-search",
+      "b": "ice-tray-search",
       "distance": 1.41
-    },
-    {
-      "a": "dollar-circle-checkbox",
-      "b": "euro-circle-checkbox",
-      "distance": 0
-    },
-    {
-      "a": "dollar-circle-checkbox",
-      "b": "pound-circle-checkbox",
-      "distance": 0
     },
     {
-      "a": "dollar-circle-checkbox",
-      "b": "egg-fried-checkbox",
+      "a": "lemon-slice-clock",
+      "b": "ice-tray-clock",
       "distance": 1.41
-    },
-    {
-      "a": "euro-circle-search",
-      "b": "pound-circle-search",
-      "distance": 0
     },
     {
-      "a": "euro-circle-search",
-      "b": "egg-fried-search",
+      "a": "lemon-slice-shield",
+      "b": "ice-tray-shield",
       "distance": 1.41
-    },
-    {
-      "a": "euro-circle-clock",
-      "b": "pound-circle-clock",
-      "distance": 0
     },
     {
-      "a": "euro-circle-clock",
-      "b": "egg-fried-clock",
+      "a": "lemon-slice-gear",
+      "b": "ice-tray-gear",
       "distance": 1.41
-    },
-    {
-      "a": "euro-circle-gear",
-      "b": "pound-circle-gear",
-      "distance": 0
     },
     {
-      "a": "euro-circle-gear",
-      "b": "egg-fried-gear",
+      "a": "lemon-slice-bolt",
+      "b": "ice-tray-bolt",
       "distance": 1.41
-    },
-    {
-      "a": "euro-circle-bolt",
-      "b": "pound-circle-bolt",
-      "distance": 0
     },
     {
-      "a": "euro-circle-bolt",
-      "b": "egg-fried-bolt",
+      "a": "lemon-slice-heart",
+      "b": "ice-tray-heart",
       "distance": 1.41
-    },
-    {
-      "a": "euro-circle-heart",
-      "b": "pound-circle-heart",
-      "distance": 0
     },
     {
-      "a": "euro-circle-heart",
-      "b": "egg-fried-heart",
+      "a": "lemon-slice-star",
+      "b": "ice-tray-star",
       "distance": 1.41
-    },
-    {
-      "a": "euro-circle-star",
-      "b": "pound-circle-star",
-      "distance": 0
     },
     {
-      "a": "euro-circle-star",
-      "b": "egg-fried-star",
+      "a": "lemon-slice-user",
+      "b": "ice-tray-user",
       "distance": 1.41
-    },
-    {
-      "a": "euro-circle-cloud",
-      "b": "pound-circle-cloud",
-      "distance": 0
     },
     {
-      "a": "euro-circle-cloud",
-      "b": "egg-fried-cloud",
+      "a": "lemon-slice-cloud",
+      "b": "ice-tray-cloud",
       "distance": 1.41
-    },
-    {
-      "a": "euro-circle-chat",
-      "b": "pound-circle-chat",
-      "distance": 0
     },
     {
-      "a": "euro-circle-chat",
-      "b": "egg-fried-chat",
+      "a": "lemon-slice-chat",
+      "b": "ice-tray-chat",
       "distance": 1.41
-    },
-    {
-      "a": "euro-circle-download",
-      "b": "pound-circle-download",
-      "distance": 0
     },
     {
-      "a": "euro-circle-download",
-      "b": "egg-fried-download",
+      "a": "lemon-slice-download",
+      "b": "ice-tray-download",
       "distance": 1.41
     },
     {
-      "a": "euro-circle-pencil",
-      "b": "euro-circle-leaf",
+      "a": "lemon-slice-pencil",
+      "b": "ice-tray-pencil",
       "distance": 1.41
-    },
-    {
-      "a": "euro-circle-pencil",
-      "b": "pound-circle-pencil",
-      "distance": 0
     },
     {
-      "a": "euro-circle-pencil",
-      "b": "pound-circle-leaf",
+      "a": "lemon-slice-bookmark",
+      "b": "ice-tray-bookmark",
       "distance": 1.41
     },
     {
-      "a": "euro-circle-pencil",
-      "b": "egg-fried-pencil",
+      "a": "lemon-slice-question",
+      "b": "ice-tray-question",
       "distance": 1.41
     },
     {
-      "a": "euro-circle-pencil",
-      "b": "egg-fried-leaf",
+      "a": "lemon-slice-calendar",
+      "b": "ice-tray-calendar",
       "distance": 1.41
-    },
-    {
-      "a": "euro-circle-trash",
-      "b": "pound-circle-trash",
-      "distance": 0
     },
     {
-      "a": "euro-circle-trash",
-      "b": "egg-fried-trash",
+      "a": "lemon-slice-sparkle",
+      "b": "ice-tray-sparkle",
       "distance": 1.41
-    },
-    {
-      "a": "euro-circle-calendar",
-      "b": "pound-circle-calendar",
-      "distance": 0
     },
     {
-      "a": "euro-circle-calendar",
-      "b": "egg-fried-calendar",
+      "a": "lemon-slice-sparkle",
+      "b": "ice-tray-upload",
       "distance": 1.41
-    },
-    {
-      "a": "euro-circle-question",
-      "b": "pound-circle-question",
-      "distance": 0
     },
     {
-      "a": "euro-circle-question",
-      "b": "egg-fried-question",
+      "a": "lemon-slice-crown",
+      "b": "ice-tray-crown",
       "distance": 1.41
-    },
-    {
-      "a": "euro-circle-bookmark",
-      "b": "pound-circle-bookmark",
-      "distance": 0
     },
     {
-      "a": "euro-circle-bookmark",
-      "b": "egg-fried-bookmark",
+      "a": "lemon-slice-hourglass",
+      "b": "ice-tray-hourglass",
       "distance": 1.41
-    },
-    {
-      "a": "euro-circle-upload",
-      "b": "pound-circle-upload",
-      "distance": 0
     },
     {
-      "a": "euro-circle-upload",
-      "b": "egg-fried-upload",
+      "a": "lemon-slice-trophy",
+      "b": "ice-tray-trophy",
       "distance": 1.41
-    },
-    {
-      "a": "euro-circle-crown",
-      "b": "pound-circle-crown",
-      "distance": 0
     },
     {
-      "a": "euro-circle-crown",
-      "b": "egg-fried-crown",
+      "a": "lemon-slice-leaf",
+      "b": "ice-tray-leaf",
       "distance": 1.41
     },
     {
-      "a": "euro-circle-leaf",
-      "b": "pound-circle-pencil",
+      "a": "lemon-slice-cursor",
+      "b": "ice-tray-cursor",
       "distance": 1.41
-    },
-    {
-      "a": "euro-circle-leaf",
-      "b": "pound-circle-leaf",
-      "distance": 0
     },
     {
-      "a": "euro-circle-leaf",
-      "b": "egg-fried-pencil",
+      "a": "lemon-slice-camera",
+      "b": "ice-tray-camera",
       "distance": 1.41
     },
     {
-      "a": "euro-circle-leaf",
-      "b": "egg-fried-leaf",
+      "a": "lemon-slice-filter",
+      "b": "ice-tray-filter",
       "distance": 1.41
-    },
-    {
-      "a": "euro-circle-hourglass",
-      "b": "pound-circle-hourglass",
-      "distance": 0
     },
     {
-      "a": "euro-circle-hourglass",
-      "b": "egg-fried-hourglass",
+      "a": "lemon-slice-stats",
+      "b": "ice-tray-stats",
       "distance": 1.41
-    },
-    {
-      "a": "euro-circle-cursor",
-      "b": "pound-circle-cursor",
-      "distance": 0
     },
     {
-      "a": "euro-circle-cursor",
-      "b": "egg-fried-cursor",
+      "a": "lemon-slice-checkbox",
+      "b": "ice-tray-checkbox",
       "distance": 1.41
-    },
-    {
-      "a": "euro-circle-camera",
-      "b": "pound-circle-camera",
-      "distance": 0
     },
     {
-      "a": "euro-circle-camera",
-      "b": "egg-fried-camera",
+      "a": "lemon-slice-trash",
+      "b": "ice-tray-trash",
       "distance": 1.41
-    },
-    {
-      "a": "euro-circle-filter",
-      "b": "pound-circle-filter",
-      "distance": 0
     },
     {
-      "a": "euro-circle-filter",
-      "b": "egg-fried-filter",
+      "a": "bottle-cap-pencil",
+      "b": "bottle-cap-leaf",
       "distance": 1.41
-    },
-    {
-      "a": "euro-circle-stats",
-      "b": "pound-circle-stats",
-      "distance": 0
     },
     {
-      "a": "euro-circle-stats",
-      "b": "egg-fried-stats",
+      "a": "takeout-box-gear",
+      "b": "cookie-jar-gear",
       "distance": 1.41
-    },
-    {
-      "a": "euro-circle-checkbox",
-      "b": "pound-circle-checkbox",
-      "distance": 0
     },
     {
-      "a": "euro-circle-checkbox",
-      "b": "egg-fried-checkbox",
+      "a": "takeout-box-download",
+      "b": "cookie-jar-download",
       "distance": 1.41
     },
     {
-      "a": "pound-circle-search",
-      "b": "egg-fried-search",
+      "a": "takeout-box-calendar",
+      "b": "cookie-jar-calendar",
       "distance": 1.41
     },
     {
-      "a": "pound-circle-clock",
-      "b": "egg-fried-clock",
+      "a": "takeout-box-question",
+      "b": "cookie-jar-question",
       "distance": 1.41
     },
     {
-      "a": "pound-circle-gear",
-      "b": "egg-fried-gear",
+      "a": "takeout-box-camera",
+      "b": "cookie-jar-camera",
       "distance": 1.41
     },
     {
-      "a": "pound-circle-bolt",
-      "b": "egg-fried-bolt",
+      "a": "cloche-pencil",
+      "b": "cloche-leaf",
       "distance": 1.41
     },
     {
-      "a": "pound-circle-heart",
-      "b": "egg-fried-heart",
+      "a": "wine-barrel-pencil",
+      "b": "wine-barrel-leaf",
       "distance": 1.41
     },
     {
-      "a": "pound-circle-star",
-      "b": "egg-fried-star",
+      "a": "wine-barrel-sparkle",
+      "b": "wine-barrel-upload",
       "distance": 1.41
     },
     {
-      "a": "pound-circle-cloud",
-      "b": "egg-fried-cloud",
+      "a": "steamer-pencil",
+      "b": "steamer-leaf",
       "distance": 1.41
     },
     {
-      "a": "pound-circle-chat",
-      "b": "egg-fried-chat",
+      "a": "bao-pencil",
+      "b": "bao-leaf",
       "distance": 1.41
     },
     {
-      "a": "pound-circle-download",
-      "b": "egg-fried-download",
+      "a": "salad-pencil",
+      "b": "salad-leaf",
       "distance": 1.41
     },
     {
-      "a": "pound-circle-pencil",
-      "b": "pound-circle-leaf",
+      "a": "soup-pencil",
+      "b": "soup-leaf",
       "distance": 1.41
     },
     {
-      "a": "pound-circle-pencil",
-      "b": "egg-fried-pencil",
+      "a": "chocolate-bar-pencil",
+      "b": "chocolate-bar-leaf",
       "distance": 1.41
     },
     {
-      "a": "pound-circle-pencil",
-      "b": "egg-fried-leaf",
+      "a": "chocolate-bar-sparkle",
+      "b": "chocolate-bar-upload",
       "distance": 1.41
     },
     {
-      "a": "pound-circle-trash",
-      "b": "egg-fried-trash",
+      "a": "moka-pot-sparkle",
+      "b": "moka-pot-upload",
       "distance": 1.41
     },
     {
-      "a": "pound-circle-calendar",
-      "b": "egg-fried-calendar",
+      "a": "butter-pencil",
+      "b": "butter-leaf",
       "distance": 1.41
     },
     {
-      "a": "pound-circle-question",
-      "b": "egg-fried-question",
+      "a": "citrus-pencil",
+      "b": "citrus-leaf",
       "distance": 1.41
     },
     {
-      "a": "pound-circle-bookmark",
-      "b": "egg-fried-bookmark",
+      "a": "citrus-sparkle",
+      "b": "citrus-upload",
       "distance": 1.41
     },
     {
-      "a": "pound-circle-upload",
-      "b": "egg-fried-upload",
+      "a": "ice-tray-sparkle",
+      "b": "ice-tray-upload",
       "distance": 1.41
     },
     {
-      "a": "pound-circle-crown",
-      "b": "egg-fried-crown",
+      "a": "pitcher-pencil",
+      "b": "pitcher-leaf",
       "distance": 1.41
     },
     {
-      "a": "pound-circle-leaf",
-      "b": "egg-fried-pencil",
+      "a": "corn-sparkle",
+      "b": "corn-upload",
       "distance": 1.41
     },
     {
-      "a": "pound-circle-leaf",
-      "b": "egg-fried-leaf",
+      "a": "rocking-horse-pencil",
+      "b": "rocking-horse-leaf",
       "distance": 1.41
     },
     {
-      "a": "pound-circle-hourglass",
-      "b": "egg-fried-hourglass",
+      "a": "claw-machine-pencil",
+      "b": "claw-machine-leaf",
       "distance": 1.41
     },
     {
-      "a": "pound-circle-cursor",
-      "b": "egg-fried-cursor",
+      "a": "claw-machine-sparkle",
+      "b": "claw-machine-upload",
       "distance": 1.41
     },
     {
-      "a": "pound-circle-camera",
-      "b": "egg-fried-camera",
+      "a": "toy-brick-pencil",
+      "b": "toy-brick-leaf",
       "distance": 1.41
     },
     {
-      "a": "pound-circle-filter",
-      "b": "egg-fried-filter",
+      "a": "spell-book-pencil",
+      "b": "spell-book-leaf",
       "distance": 1.41
     },
     {
-      "a": "pound-circle-stats",
-      "b": "egg-fried-stats",
+      "a": "spell-book-sparkle",
+      "b": "spell-book-upload",
       "distance": 1.41
     },
     {
-      "a": "pound-circle-checkbox",
-      "b": "egg-fried-checkbox",
+      "a": "knight-helmet-pencil",
+      "b": "knight-helmet-leaf",
       "distance": 1.41
     },
     {
-      "a": "card-swipe-sparkle",
-      "b": "card-swipe-upload",
+      "a": "throne-sparkle",
+      "b": "throne-upload",
       "distance": 1.41
     },
     {
-      "a": "exchange-pencil",
-      "b": "exchange-leaf",
+      "a": "network-switch-moon",
+      "b": "ice-tray-moon",
       "distance": 1.41
     },
     {
-      "a": "honey-jar-pencil",
-      "b": "honey-jar-leaf",
+      "a": "coin-purse-bell",
+      "b": "cookie-jar-bell",
       "distance": 1.41
     },
     {
-      "a": "pineapple-sparkle",
-      "b": "pineapple-upload",
+      "a": "coin-purse-moon",
+      "b": "cookie-jar-moon",
       "distance": 1.41
     },
     {
-      "a": "stand-mixer-pencil",
-      "b": "stand-mixer-leaf",
+      "a": "lemon-slice-moon",
+      "b": "ice-tray-moon",
       "distance": 1.41
     },
     {
-      "a": "stand-mixer-sparkle",
-      "b": "stand-mixer-upload",
+      "a": "network-switch-fire",
+      "b": "ice-tray-fire",
       "distance": 1.41
     },
     {
-      "a": "mason-jar-pencil",
-      "b": "mason-jar-leaf",
+      "a": "coin-purse-fire",
+      "b": "cookie-jar-fire",
       "distance": 1.41
     },
     {
-      "a": "mason-jar-sparkle",
-      "b": "mason-jar-upload",
+      "a": "lemon-slice-fire",
+      "b": "ice-tray-fire",
       "distance": 1.41
     },
     {
-      "a": "peas-sparkle",
-      "b": "peas-upload",
+      "a": "network-switch-pin",
+      "b": "ice-tray-pin",
       "distance": 1.41
     },
     {
-      "a": "peach-pencil",
-      "b": "peach-leaf",
+      "a": "network-switch-bell",
+      "b": "ice-tray-bell",
       "distance": 1.41
     },
     {
-      "a": "cooking-pot-pencil",
-      "b": "cooking-pot-leaf",
+      "a": "network-switch-flag",
+      "b": "ice-tray-flag",
       "distance": 1.41
     },
     {
-      "a": "kiwi-pencil",
-      "b": "kiwi-leaf",
+      "a": "lemon-slice-pin",
+      "b": "ice-tray-pin",
       "distance": 1.41
     },
     {
-      "a": "bacon-pencil",
-      "b": "bacon-leaf",
+      "a": "lemon-slice-bell",
+      "b": "ice-tray-bell",
       "distance": 1.41
     },
     {
-      "a": "bacon-sparkle",
-      "b": "bacon-upload",
+      "a": "lemon-slice-flag",
+      "b": "ice-tray-flag",
       "distance": 1.41
     },
     {
-      "a": "drumstick-pencil",
-      "b": "drumstick-leaf",
+      "a": "cloche-sparkle",
+      "b": "cloche-upload",
       "distance": 1.41
     },
     {
-      "a": "egg-fried-pencil",
-      "b": "egg-fried-leaf",
+      "a": "sundae-sparkle",
+      "b": "sundae-upload",
       "distance": 1.41
     },
     {
-      "a": "cherries-pencil",
-      "b": "cherries-leaf",
+      "a": "bao-sparkle",
+      "b": "bao-upload",
       "distance": 1.41
     },
     {
-      "a": "cherries-sparkle",
-      "b": "cherries-upload",
+      "a": "honey-dipper-sparkle",
+      "b": "honey-dipper-upload",
       "distance": 1.41
     },
     {
-      "a": "beer-mug-sparkle",
-      "b": "beer-mug-upload",
+      "a": "pudding-sparkle",
+      "b": "pudding-upload",
       "distance": 1.41
-    },
-    {
-      "a": "yen-circle-bell",
-      "b": "rupee-circle-bell",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-bell",
-      "b": "won-circle-bell",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-bell",
-      "b": "dollar-circle-bell",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-bell",
-      "b": "euro-circle-bell",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-bell",
-      "b": "pound-circle-bell",
-      "distance": 0
     },
     {
-      "a": "yen-circle-bell",
-      "b": "egg-fried-bell",
+      "a": "milk-carton-sparkle",
+      "b": "milk-carton-upload",
       "distance": 1.41
-    },
-    {
-      "a": "yen-circle-moon",
-      "b": "rupee-circle-moon",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-moon",
-      "b": "won-circle-moon",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-moon",
-      "b": "dollar-circle-moon",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-moon",
-      "b": "euro-circle-moon",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-moon",
-      "b": "pound-circle-moon",
-      "distance": 0
     },
     {
-      "a": "yen-circle-moon",
-      "b": "egg-fried-moon",
+      "a": "butter-sparkle",
+      "b": "butter-upload",
       "distance": 1.41
-    },
-    {
-      "a": "yen-circle-trophy",
-      "b": "rupee-circle-trophy",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-trophy",
-      "b": "won-circle-trophy",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-trophy",
-      "b": "dollar-circle-trophy",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-trophy",
-      "b": "euro-circle-trophy",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-trophy",
-      "b": "pound-circle-trophy",
-      "distance": 0
     },
     {
-      "a": "yen-circle-trophy",
-      "b": "egg-fried-trophy",
+      "a": "olive-sparkle",
+      "b": "olive-upload",
       "distance": 1.41
-    },
-    {
-      "a": "rupee-circle-bell",
-      "b": "won-circle-bell",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-bell",
-      "b": "dollar-circle-bell",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-bell",
-      "b": "euro-circle-bell",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-bell",
-      "b": "pound-circle-bell",
-      "distance": 0
     },
     {
-      "a": "rupee-circle-bell",
-      "b": "egg-fried-bell",
+      "a": "bell-pepper-sparkle",
+      "b": "bell-pepper-upload",
       "distance": 1.41
-    },
-    {
-      "a": "rupee-circle-moon",
-      "b": "won-circle-moon",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-moon",
-      "b": "dollar-circle-moon",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-moon",
-      "b": "euro-circle-moon",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-moon",
-      "b": "pound-circle-moon",
-      "distance": 0
     },
     {
-      "a": "rupee-circle-moon",
-      "b": "egg-fried-moon",
+      "a": "gravy-boat-sparkle",
+      "b": "gravy-boat-upload",
       "distance": 1.41
-    },
-    {
-      "a": "rupee-circle-trophy",
-      "b": "won-circle-trophy",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-trophy",
-      "b": "dollar-circle-trophy",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-trophy",
-      "b": "euro-circle-trophy",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-trophy",
-      "b": "pound-circle-trophy",
-      "distance": 0
     },
     {
-      "a": "rupee-circle-trophy",
-      "b": "egg-fried-trophy",
+      "a": "fries-sparkle",
+      "b": "fries-upload",
       "distance": 1.41
-    },
-    {
-      "a": "won-circle-bell",
-      "b": "dollar-circle-bell",
-      "distance": 0
-    },
-    {
-      "a": "won-circle-bell",
-      "b": "euro-circle-bell",
-      "distance": 0
-    },
-    {
-      "a": "won-circle-bell",
-      "b": "pound-circle-bell",
-      "distance": 0
     },
     {
-      "a": "won-circle-bell",
-      "b": "egg-fried-bell",
+      "a": "glass-water-sparkle",
+      "b": "glass-water-upload",
       "distance": 1.41
-    },
-    {
-      "a": "won-circle-moon",
-      "b": "dollar-circle-moon",
-      "distance": 0
-    },
-    {
-      "a": "won-circle-moon",
-      "b": "euro-circle-moon",
-      "distance": 0
-    },
-    {
-      "a": "won-circle-moon",
-      "b": "pound-circle-moon",
-      "distance": 0
     },
     {
-      "a": "won-circle-moon",
-      "b": "egg-fried-moon",
+      "a": "pitcher-sparkle",
+      "b": "pitcher-upload",
       "distance": 1.41
-    },
-    {
-      "a": "won-circle-trophy",
-      "b": "dollar-circle-trophy",
-      "distance": 0
-    },
-    {
-      "a": "won-circle-trophy",
-      "b": "euro-circle-trophy",
-      "distance": 0
-    },
-    {
-      "a": "won-circle-trophy",
-      "b": "pound-circle-trophy",
-      "distance": 0
-    },
-    {
-      "a": "won-circle-trophy",
-      "b": "egg-fried-trophy",
-      "distance": 1.41
-    },
-    {
-      "a": "loan-bell",
-      "b": "donate-bell",
-      "distance": 0
-    },
-    {
-      "a": "loan-moon",
-      "b": "donate-moon",
-      "distance": 0
-    },
-    {
-      "a": "loan-trophy",
-      "b": "donate-trophy",
-      "distance": 0
-    },
-    {
-      "a": "dollar-circle-bell",
-      "b": "euro-circle-bell",
-      "distance": 0
-    },
-    {
-      "a": "dollar-circle-bell",
-      "b": "pound-circle-bell",
-      "distance": 0
-    },
-    {
-      "a": "dollar-circle-bell",
-      "b": "egg-fried-bell",
-      "distance": 1.41
-    },
-    {
-      "a": "dollar-circle-moon",
-      "b": "euro-circle-moon",
-      "distance": 0
-    },
-    {
-      "a": "dollar-circle-moon",
-      "b": "pound-circle-moon",
-      "distance": 0
-    },
-    {
-      "a": "dollar-circle-moon",
-      "b": "egg-fried-moon",
-      "distance": 1.41
-    },
-    {
-      "a": "dollar-circle-trophy",
-      "b": "euro-circle-trophy",
-      "distance": 0
-    },
-    {
-      "a": "dollar-circle-trophy",
-      "b": "pound-circle-trophy",
-      "distance": 0
-    },
-    {
-      "a": "dollar-circle-trophy",
-      "b": "egg-fried-trophy",
-      "distance": 1.41
-    },
-    {
-      "a": "euro-circle-bell",
-      "b": "pound-circle-bell",
-      "distance": 0
-    },
-    {
-      "a": "euro-circle-bell",
-      "b": "egg-fried-bell",
-      "distance": 1.41
-    },
-    {
-      "a": "euro-circle-moon",
-      "b": "pound-circle-moon",
-      "distance": 0
-    },
-    {
-      "a": "euro-circle-moon",
-      "b": "egg-fried-moon",
-      "distance": 1.41
-    },
-    {
-      "a": "euro-circle-trophy",
-      "b": "pound-circle-trophy",
-      "distance": 0
-    },
-    {
-      "a": "euro-circle-trophy",
-      "b": "egg-fried-trophy",
-      "distance": 1.41
-    },
-    {
-      "a": "pound-circle-bell",
-      "b": "egg-fried-bell",
-      "distance": 1.41
-    },
-    {
-      "a": "pound-circle-moon",
-      "b": "egg-fried-moon",
-      "distance": 1.41
-    },
-    {
-      "a": "pound-circle-trophy",
-      "b": "egg-fried-trophy",
-      "distance": 1.41
-    },
-    {
-      "a": "yen-circle-fire",
-      "b": "rupee-circle-fire",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-fire",
-      "b": "won-circle-fire",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-fire",
-      "b": "dollar-circle-fire",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-fire",
-      "b": "euro-circle-fire",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-fire",
-      "b": "pound-circle-fire",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-fire",
-      "b": "egg-fried-fire",
-      "distance": 1.41
-    },
-    {
-      "a": "rupee-circle-fire",
-      "b": "won-circle-fire",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-fire",
-      "b": "dollar-circle-fire",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-fire",
-      "b": "euro-circle-fire",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-fire",
-      "b": "pound-circle-fire",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-fire",
-      "b": "egg-fried-fire",
-      "distance": 1.41
-    },
-    {
-      "a": "won-circle-fire",
-      "b": "dollar-circle-fire",
-      "distance": 0
-    },
-    {
-      "a": "won-circle-fire",
-      "b": "euro-circle-fire",
-      "distance": 0
-    },
-    {
-      "a": "won-circle-fire",
-      "b": "pound-circle-fire",
-      "distance": 0
-    },
-    {
-      "a": "won-circle-fire",
-      "b": "egg-fried-fire",
-      "distance": 1.41
-    },
-    {
-      "a": "loan-fire",
-      "b": "donate-fire",
-      "distance": 0
-    },
-    {
-      "a": "dollar-circle-fire",
-      "b": "euro-circle-fire",
-      "distance": 0
-    },
-    {
-      "a": "dollar-circle-fire",
-      "b": "pound-circle-fire",
-      "distance": 0
-    },
-    {
-      "a": "dollar-circle-fire",
-      "b": "egg-fried-fire",
-      "distance": 1.41
-    },
-    {
-      "a": "euro-circle-fire",
-      "b": "pound-circle-fire",
-      "distance": 0
-    },
-    {
-      "a": "euro-circle-fire",
-      "b": "egg-fried-fire",
-      "distance": 1.41
-    },
-    {
-      "a": "pound-circle-fire",
-      "b": "egg-fried-fire",
-      "distance": 1.41
-    },
-    {
-      "a": "franc-sign-sparkle",
-      "b": "franc-sign-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "cent-sign-sparkle",
-      "b": "cent-sign-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "peso-sign-sparkle",
-      "b": "peso-sign-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "yen-circle-shield",
-      "b": "rupee-circle-shield",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-shield",
-      "b": "won-circle-shield",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-shield",
-      "b": "dollar-circle-shield",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-shield",
-      "b": "euro-circle-shield",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-shield",
-      "b": "pound-circle-shield",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-shield",
-      "b": "egg-fried-shield",
-      "distance": 1.41
-    },
-    {
-      "a": "yen-circle-pin",
-      "b": "rupee-circle-pin",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-pin",
-      "b": "won-circle-pin",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-pin",
-      "b": "dollar-circle-pin",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-pin",
-      "b": "euro-circle-pin",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-pin",
-      "b": "pound-circle-pin",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-pin",
-      "b": "egg-fried-pin",
-      "distance": 1.41
-    },
-    {
-      "a": "yen-circle-user",
-      "b": "rupee-circle-user",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-user",
-      "b": "won-circle-user",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-user",
-      "b": "dollar-circle-user",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-user",
-      "b": "euro-circle-user",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-user",
-      "b": "pound-circle-user",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-user",
-      "b": "egg-fried-user",
-      "distance": 1.41
-    },
-    {
-      "a": "yen-circle-sparkle",
-      "b": "rupee-circle-sparkle",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-sparkle",
-      "b": "won-circle-sparkle",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-sparkle",
-      "b": "dollar-circle-sparkle",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-sparkle",
-      "b": "euro-circle-sparkle",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-sparkle",
-      "b": "pound-circle-sparkle",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-sparkle",
-      "b": "egg-fried-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "yen-circle-flag",
-      "b": "rupee-circle-flag",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-flag",
-      "b": "won-circle-flag",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-flag",
-      "b": "dollar-circle-flag",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-flag",
-      "b": "euro-circle-flag",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-flag",
-      "b": "pound-circle-flag",
-      "distance": 0
-    },
-    {
-      "a": "yen-circle-flag",
-      "b": "egg-fried-flag",
-      "distance": 1.41
-    },
-    {
-      "a": "rupee-circle-shield",
-      "b": "won-circle-shield",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-shield",
-      "b": "dollar-circle-shield",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-shield",
-      "b": "euro-circle-shield",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-shield",
-      "b": "pound-circle-shield",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-shield",
-      "b": "egg-fried-shield",
-      "distance": 1.41
-    },
-    {
-      "a": "rupee-circle-pin",
-      "b": "won-circle-pin",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-pin",
-      "b": "dollar-circle-pin",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-pin",
-      "b": "euro-circle-pin",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-pin",
-      "b": "pound-circle-pin",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-pin",
-      "b": "egg-fried-pin",
-      "distance": 1.41
-    },
-    {
-      "a": "rupee-circle-user",
-      "b": "won-circle-user",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-user",
-      "b": "dollar-circle-user",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-user",
-      "b": "euro-circle-user",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-user",
-      "b": "pound-circle-user",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-user",
-      "b": "egg-fried-user",
-      "distance": 1.41
-    },
-    {
-      "a": "rupee-circle-sparkle",
-      "b": "won-circle-sparkle",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-sparkle",
-      "b": "dollar-circle-sparkle",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-sparkle",
-      "b": "euro-circle-sparkle",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-sparkle",
-      "b": "pound-circle-sparkle",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-sparkle",
-      "b": "egg-fried-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "rupee-circle-flag",
-      "b": "won-circle-flag",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-flag",
-      "b": "dollar-circle-flag",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-flag",
-      "b": "euro-circle-flag",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-flag",
-      "b": "pound-circle-flag",
-      "distance": 0
-    },
-    {
-      "a": "rupee-circle-flag",
-      "b": "egg-fried-flag",
-      "distance": 1.41
-    },
-    {
-      "a": "mortgage-sparkle",
-      "b": "mortgage-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "won-circle-shield",
-      "b": "dollar-circle-shield",
-      "distance": 0
-    },
-    {
-      "a": "won-circle-shield",
-      "b": "euro-circle-shield",
-      "distance": 0
-    },
-    {
-      "a": "won-circle-shield",
-      "b": "pound-circle-shield",
-      "distance": 0
-    },
-    {
-      "a": "won-circle-shield",
-      "b": "egg-fried-shield",
-      "distance": 1.41
-    },
-    {
-      "a": "won-circle-pin",
-      "b": "dollar-circle-pin",
-      "distance": 0
-    },
-    {
-      "a": "won-circle-pin",
-      "b": "euro-circle-pin",
-      "distance": 0
-    },
-    {
-      "a": "won-circle-pin",
-      "b": "pound-circle-pin",
-      "distance": 0
-    },
-    {
-      "a": "won-circle-pin",
-      "b": "egg-fried-pin",
-      "distance": 1.41
-    },
-    {
-      "a": "won-circle-user",
-      "b": "dollar-circle-user",
-      "distance": 0
-    },
-    {
-      "a": "won-circle-user",
-      "b": "euro-circle-user",
-      "distance": 0
-    },
-    {
-      "a": "won-circle-user",
-      "b": "pound-circle-user",
-      "distance": 0
-    },
-    {
-      "a": "won-circle-user",
-      "b": "egg-fried-user",
-      "distance": 1.41
-    },
-    {
-      "a": "won-circle-sparkle",
-      "b": "dollar-circle-sparkle",
-      "distance": 0
-    },
-    {
-      "a": "won-circle-sparkle",
-      "b": "euro-circle-sparkle",
-      "distance": 0
-    },
-    {
-      "a": "won-circle-sparkle",
-      "b": "pound-circle-sparkle",
-      "distance": 0
-    },
-    {
-      "a": "won-circle-sparkle",
-      "b": "egg-fried-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "won-circle-flag",
-      "b": "dollar-circle-flag",
-      "distance": 0
-    },
-    {
-      "a": "won-circle-flag",
-      "b": "euro-circle-flag",
-      "distance": 0
-    },
-    {
-      "a": "won-circle-flag",
-      "b": "pound-circle-flag",
-      "distance": 0
-    },
-    {
-      "a": "won-circle-flag",
-      "b": "egg-fried-flag",
-      "distance": 1.41
-    },
-    {
-      "a": "loan-shield",
-      "b": "donate-shield",
-      "distance": 0
-    },
-    {
-      "a": "loan-pin",
-      "b": "donate-pin",
-      "distance": 0
-    },
-    {
-      "a": "loan-user",
-      "b": "donate-user",
-      "distance": 0
-    },
-    {
-      "a": "loan-sparkle",
-      "b": "loan-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "loan-sparkle",
-      "b": "donate-sparkle",
-      "distance": 0
-    },
-    {
-      "a": "loan-sparkle",
-      "b": "donate-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "loan-flag",
-      "b": "donate-flag",
-      "distance": 0
-    },
-    {
-      "a": "loan-upload",
-      "b": "donate-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "credit-score-sparkle",
-      "b": "credit-score-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "donate-sparkle",
-      "b": "donate-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "coin-purse-sparkle",
-      "b": "coin-purse-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "sale-sign-sparkle",
-      "b": "sale-sign-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "piggy-bank-sparkle",
-      "b": "piggy-bank-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "dollar-circle-shield",
-      "b": "euro-circle-shield",
-      "distance": 0
-    },
-    {
-      "a": "dollar-circle-shield",
-      "b": "pound-circle-shield",
-      "distance": 0
-    },
-    {
-      "a": "dollar-circle-shield",
-      "b": "egg-fried-shield",
-      "distance": 1.41
-    },
-    {
-      "a": "dollar-circle-pin",
-      "b": "euro-circle-pin",
-      "distance": 0
-    },
-    {
-      "a": "dollar-circle-pin",
-      "b": "pound-circle-pin",
-      "distance": 0
-    },
-    {
-      "a": "dollar-circle-pin",
-      "b": "egg-fried-pin",
-      "distance": 1.41
-    },
-    {
-      "a": "dollar-circle-user",
-      "b": "euro-circle-user",
-      "distance": 0
-    },
-    {
-      "a": "dollar-circle-user",
-      "b": "pound-circle-user",
-      "distance": 0
-    },
-    {
-      "a": "dollar-circle-user",
-      "b": "egg-fried-user",
-      "distance": 1.41
-    },
-    {
-      "a": "dollar-circle-sparkle",
-      "b": "euro-circle-sparkle",
-      "distance": 0
-    },
-    {
-      "a": "dollar-circle-sparkle",
-      "b": "pound-circle-sparkle",
-      "distance": 0
-    },
-    {
-      "a": "dollar-circle-sparkle",
-      "b": "egg-fried-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "dollar-circle-flag",
-      "b": "euro-circle-flag",
-      "distance": 0
-    },
-    {
-      "a": "dollar-circle-flag",
-      "b": "pound-circle-flag",
-      "distance": 0
-    },
-    {
-      "a": "dollar-circle-flag",
-      "b": "egg-fried-flag",
-      "distance": 1.41
-    },
-    {
-      "a": "euro-circle-shield",
-      "b": "pound-circle-shield",
-      "distance": 0
-    },
-    {
-      "a": "euro-circle-shield",
-      "b": "egg-fried-shield",
-      "distance": 1.41
-    },
-    {
-      "a": "euro-circle-pin",
-      "b": "pound-circle-pin",
-      "distance": 0
-    },
-    {
-      "a": "euro-circle-pin",
-      "b": "egg-fried-pin",
-      "distance": 1.41
-    },
-    {
-      "a": "euro-circle-user",
-      "b": "pound-circle-user",
-      "distance": 0
-    },
-    {
-      "a": "euro-circle-user",
-      "b": "egg-fried-user",
-      "distance": 1.41
-    },
-    {
-      "a": "euro-circle-sparkle",
-      "b": "pound-circle-sparkle",
-      "distance": 0
-    },
-    {
-      "a": "euro-circle-sparkle",
-      "b": "egg-fried-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "euro-circle-flag",
-      "b": "pound-circle-flag",
-      "distance": 0
     },
     {
-      "a": "euro-circle-flag",
-      "b": "egg-fried-flag",
+      "a": "frying-pan-sparkle",
+      "b": "frying-pan-upload",
       "distance": 1.41
     },
     {
-      "a": "pound-circle-shield",
-      "b": "egg-fried-shield",
+      "a": "ice-cream-sparkle",
+      "b": "ice-cream-upload",
       "distance": 1.41
     },
     {
-      "a": "pound-circle-pin",
-      "b": "egg-fried-pin",
+      "a": "bottle-sparkle",
+      "b": "bottle-upload",
       "distance": 1.41
     },
     {
-      "a": "pound-circle-user",
-      "b": "egg-fried-user",
+      "a": "chess-bishop-sparkle",
+      "b": "chess-bishop-upload",
       "distance": 1.41
     },
     {
-      "a": "pound-circle-sparkle",
-      "b": "egg-fried-sparkle",
+      "a": "pinwheel-sparkle",
+      "b": "pinwheel-upload",
       "distance": 1.41
     },
     {
-      "a": "pound-circle-flag",
-      "b": "egg-fried-flag",
+      "a": "rocking-horse-sparkle",
+      "b": "rocking-horse-upload",
       "distance": 1.41
     },
     {
-      "a": "chart-coin-sparkle",
-      "b": "chart-coin-upload",
+      "a": "roller-coaster-sparkle",
+      "b": "roller-coaster-upload",
       "distance": 1.41
     },
     {
-      "a": "exchange-sparkle",
-      "b": "exchange-upload",
+      "a": "unicycle-sparkle",
+      "b": "unicycle-upload",
       "distance": 1.41
     },
     {
-      "a": "honey-jar-sparkle",
-      "b": "honey-jar-upload",
+      "a": "suit-spade-sparkle",
+      "b": "suit-spade-upload",
       "distance": 1.41
     },
     {
-      "a": "lemon-sparkle",
-      "b": "lemon-upload",
+      "a": "slingshot-sparkle",
+      "b": "slingshot-upload",
       "distance": 1.41
     },
     {
-      "a": "hot-chocolate-sparkle",
-      "b": "hot-chocolate-upload",
+      "a": "toy-brick-sparkle",
+      "b": "toy-brick-upload",
       "distance": 1.41
     },
     {
-      "a": "saucepan-sparkle",
-      "b": "saucepan-upload",
+      "a": "knight-helmet-sparkle",
+      "b": "knight-helmet-upload",
       "distance": 1.41
     },
     {
-      "a": "cooking-pot-sparkle",
-      "b": "cooking-pot-upload",
+      "a": "torch-sparkle",
+      "b": "torch-upload",
       "distance": 1.41
     },
     {
-      "a": "pizza-cutter-sparkle",
-      "b": "pizza-cutter-upload",
+      "a": "message-bottle-sparkle",
+      "b": "message-bottle-upload",
       "distance": 1.41
     },
     {
-      "a": "drumstick-sparkle",
-      "b": "drumstick-upload",
+      "a": "goblet-sparkle",
+      "b": "goblet-upload",
       "distance": 1.41
     },
     {
-      "a": "soda-cup-sparkle",
-      "b": "soda-cup-upload",
+      "a": "coin-purse-pin",
+      "b": "cookie-jar-pin",
       "distance": 1.41
     },
     {
-      "a": "receipt-tax-sparkle",
-      "b": "receipt-tax-upload",
+      "a": "coin-purse-flag",
+      "b": "cookie-jar-flag",
       "distance": 1.41
     },
     {
-      "a": "corkscrew-sparkle",
-      "b": "corkscrew-upload",
+      "a": "jack-o-lantern-sparkle",
+      "b": "jack-o-lantern-upload",
       "distance": 1.41
     },
     {
-      "a": "send-money-sparkle",
-      "b": "send-money-upload",
+      "a": "coffin-sparkle",
+      "b": "coffin-upload",
       "distance": 1.41
     },
     {
-      "a": "tax-sparkle",
-      "b": "tax-upload",
+      "a": "watchtower-sparkle",
+      "b": "watchtower-upload",
       "distance": 1.41
     }
   ],
   "dropped": [
-    "soda-can-upload",
-    "naira-sign-upload",
-    "rupee-circle-search",
-    "won-circle-search",
-    "dollar-circle-search",
-    "euro-circle-search",
-    "pound-circle-search",
-    "egg-fried-search",
-    "rupee-circle-clock",
-    "won-circle-clock",
-    "dollar-circle-clock",
-    "euro-circle-clock",
-    "pound-circle-clock",
-    "egg-fried-clock",
-    "rupee-circle-gear",
-    "won-circle-gear",
-    "dollar-circle-gear",
-    "euro-circle-gear",
-    "pound-circle-gear",
-    "egg-fried-gear",
-    "rupee-circle-bolt",
-    "won-circle-bolt",
-    "dollar-circle-bolt",
-    "euro-circle-bolt",
-    "pound-circle-bolt",
-    "egg-fried-bolt",
-    "rupee-circle-heart",
-    "won-circle-heart",
-    "dollar-circle-heart",
-    "euro-circle-heart",
-    "pound-circle-heart",
-    "egg-fried-heart",
-    "rupee-circle-star",
-    "won-circle-star",
-    "dollar-circle-star",
-    "euro-circle-star",
-    "pound-circle-star",
-    "egg-fried-star",
-    "rupee-circle-cloud",
-    "won-circle-cloud",
-    "dollar-circle-cloud",
-    "euro-circle-cloud",
-    "pound-circle-cloud",
-    "egg-fried-cloud",
-    "rupee-circle-chat",
-    "won-circle-chat",
-    "dollar-circle-chat",
-    "euro-circle-chat",
-    "pound-circle-chat",
-    "egg-fried-chat",
-    "rupee-circle-download",
-    "won-circle-download",
-    "dollar-circle-download",
-    "euro-circle-download",
-    "pound-circle-download",
-    "egg-fried-download",
-    "yen-circle-leaf",
-    "rupee-circle-pencil",
-    "rupee-circle-leaf",
-    "won-circle-pencil",
-    "won-circle-leaf",
-    "dollar-circle-pencil",
-    "dollar-circle-leaf",
-    "euro-circle-pencil",
-    "euro-circle-leaf",
-    "pound-circle-pencil",
-    "pound-circle-leaf",
-    "egg-fried-pencil",
-    "egg-fried-leaf",
-    "rupee-circle-trash",
-    "won-circle-trash",
-    "dollar-circle-trash",
-    "euro-circle-trash",
-    "pound-circle-trash",
-    "egg-fried-trash",
-    "rupee-circle-calendar",
-    "won-circle-calendar",
-    "dollar-circle-calendar",
-    "euro-circle-calendar",
-    "pound-circle-calendar",
-    "egg-fried-calendar",
-    "rupee-circle-question",
-    "won-circle-question",
-    "dollar-circle-question",
-    "euro-circle-question",
-    "pound-circle-question",
-    "egg-fried-question",
-    "rupee-circle-bookmark",
-    "won-circle-bookmark",
-    "dollar-circle-bookmark",
-    "euro-circle-bookmark",
-    "pound-circle-bookmark",
-    "egg-fried-bookmark",
-    "rupee-circle-upload",
-    "won-circle-upload",
-    "dollar-circle-upload",
-    "euro-circle-upload",
-    "pound-circle-upload",
-    "egg-fried-upload",
-    "rupee-circle-crown",
-    "won-circle-crown",
-    "dollar-circle-crown",
-    "euro-circle-crown",
-    "pound-circle-crown",
-    "egg-fried-crown",
-    "rupee-circle-hourglass",
-    "won-circle-hourglass",
-    "dollar-circle-hourglass",
-    "euro-circle-hourglass",
-    "pound-circle-hourglass",
-    "egg-fried-hourglass",
-    "rupee-circle-cursor",
-    "won-circle-cursor",
-    "dollar-circle-cursor",
-    "euro-circle-cursor",
-    "pound-circle-cursor",
-    "egg-fried-cursor",
-    "rupee-circle-camera",
-    "won-circle-camera",
-    "dollar-circle-camera",
-    "euro-circle-camera",
-    "pound-circle-camera",
-    "egg-fried-camera",
-    "rupee-circle-filter",
-    "won-circle-filter",
-    "dollar-circle-filter",
-    "euro-circle-filter",
-    "pound-circle-filter",
-    "egg-fried-filter",
-    "rupee-circle-stats",
-    "won-circle-stats",
-    "dollar-circle-stats",
-    "euro-circle-stats",
-    "pound-circle-stats",
-    "egg-fried-stats",
-    "rupee-circle-checkbox",
-    "won-circle-checkbox",
-    "dollar-circle-checkbox",
-    "euro-circle-checkbox",
-    "pound-circle-checkbox",
-    "egg-fried-checkbox",
-    "percent-circle-leaf",
-    "mortgage-leaf",
-    "donate-search",
-    "donate-clock",
-    "donate-gear",
-    "donate-bolt",
-    "donate-heart",
-    "donate-star",
-    "donate-cloud",
-    "donate-chat",
-    "donate-download",
-    "loan-leaf",
-    "donate-pencil",
-    "donate-leaf",
-    "donate-trash",
-    "donate-calendar",
-    "donate-question",
-    "donate-bookmark",
-    "donate-upload",
-    "donate-crown",
-    "donate-hourglass",
-    "donate-cursor",
-    "donate-camera",
-    "donate-filter",
-    "donate-stats",
-    "donate-checkbox",
-    "gold-bars-leaf",
-    "vault-stats",
-    "vault-leaf",
-    "vault-upload",
-    "tax-leaf",
-    "hand-coins-leaf",
-    "coin-purse-leaf",
-    "sale-sign-leaf",
-    "banknotes-upload",
-    "card-swipe-upload",
-    "exchange-leaf",
-    "honey-jar-leaf",
-    "pineapple-upload",
-    "stand-mixer-leaf",
-    "stand-mixer-upload",
-    "mason-jar-leaf",
-    "mason-jar-upload",
-    "peas-upload",
-    "peach-leaf",
-    "cooking-pot-leaf",
-    "kiwi-leaf",
-    "bacon-leaf",
-    "bacon-upload",
-    "drumstick-leaf",
-    "cherries-leaf",
-    "cherries-upload",
-    "beer-mug-upload",
-    "rupee-circle-bell",
-    "won-circle-bell",
-    "dollar-circle-bell",
-    "euro-circle-bell",
-    "pound-circle-bell",
-    "egg-fried-bell",
-    "rupee-circle-moon",
-    "won-circle-moon",
-    "dollar-circle-moon",
-    "euro-circle-moon",
-    "pound-circle-moon",
-    "egg-fried-moon",
-    "rupee-circle-trophy",
-    "won-circle-trophy",
-    "dollar-circle-trophy",
-    "euro-circle-trophy",
-    "pound-circle-trophy",
-    "egg-fried-trophy",
-    "donate-bell",
-    "donate-moon",
-    "donate-trophy",
-    "rupee-circle-fire",
-    "won-circle-fire",
-    "dollar-circle-fire",
-    "euro-circle-fire",
-    "pound-circle-fire",
-    "egg-fried-fire",
-    "donate-fire",
-    "franc-sign-upload",
-    "cent-sign-upload",
-    "peso-sign-upload",
-    "rupee-circle-shield",
-    "won-circle-shield",
-    "dollar-circle-shield",
-    "euro-circle-shield",
-    "pound-circle-shield",
-    "egg-fried-shield",
-    "rupee-circle-pin",
-    "won-circle-pin",
-    "dollar-circle-pin",
-    "euro-circle-pin",
-    "pound-circle-pin",
-    "egg-fried-pin",
-    "rupee-circle-user",
-    "won-circle-user",
-    "dollar-circle-user",
-    "euro-circle-user",
-    "pound-circle-user",
-    "egg-fried-user",
-    "rupee-circle-sparkle",
-    "won-circle-sparkle",
-    "dollar-circle-sparkle",
-    "euro-circle-sparkle",
-    "pound-circle-sparkle",
-    "egg-fried-sparkle",
-    "rupee-circle-flag",
-    "won-circle-flag",
-    "dollar-circle-flag",
-    "euro-circle-flag",
-    "pound-circle-flag",
-    "egg-fried-flag",
-    "mortgage-upload",
-    "donate-shield",
-    "donate-pin",
-    "donate-user",
-    "loan-upload",
-    "donate-sparkle",
-    "donate-flag",
-    "credit-score-upload",
-    "coin-purse-upload",
-    "sale-sign-upload",
-    "piggy-bank-upload",
-    "chart-coin-upload",
-    "exchange-upload",
-    "honey-jar-upload",
-    "lemon-upload",
-    "hot-chocolate-upload",
-    "saucepan-upload",
-    "cooking-pot-upload",
-    "pizza-cutter-upload",
-    "drumstick-upload",
-    "soda-cup-upload",
-    "receipt-tax-upload",
-    "corkscrew-upload",
-    "send-money-upload",
-    "tax-upload"
+    "citrus-gear",
+    "citrus-pin",
+    "citrus-bolt",
+    "citrus-heart",
+    "citrus-star",
+    "citrus-pencil",
+    "citrus-sparkle",
+    "citrus-trash",
+    "citrus-flag",
+    "citrus-calendar",
+    "citrus-upload",
+    "citrus-moon",
+    "citrus-leaf",
+    "citrus-hourglass",
+    "citrus-cursor",
+    "citrus-filter",
+    "citrus-stats",
+    "ice-tray-gear",
+    "ice-tray-bolt",
+    "ice-tray-sparkle",
+    "ice-tray-leaf",
+    "ice-tray-cursor",
+    "ice-tray-stats",
+    "corn-sparkle",
+    "corn-cursor",
+    "cookie-jar-search",
+    "cookie-jar-clock",
+    "cookie-jar-shield",
+    "cookie-jar-pin",
+    "cookie-jar-user",
+    "cookie-jar-bell",
+    "cookie-jar-chat",
+    "cookie-jar-flag",
+    "cookie-jar-bookmark",
+    "cookie-jar-crown",
+    "cookie-jar-moon",
+    "cookie-jar-trophy",
+    "cookie-jar-hourglass",
+    "cookie-jar-cursor",
+    "cookie-jar-filter",
+    "cookie-jar-checkbox",
+    "cookie-jar-leaf",
+    "cookie-jar-upload",
+    "tombstone-upload",
+    "ice-tray-search",
+    "ice-tray-clock",
+    "ice-tray-shield",
+    "ice-tray-heart",
+    "ice-tray-star",
+    "ice-tray-user",
+    "ice-tray-cloud",
+    "ice-tray-chat",
+    "ice-tray-download",
+    "ice-tray-pencil",
+    "ice-tray-upload",
+    "ice-tray-trash",
+    "ice-tray-calendar",
+    "ice-tray-question",
+    "ice-tray-bookmark",
+    "ice-tray-crown",
+    "ice-tray-trophy",
+    "ice-tray-hourglass",
+    "ice-tray-camera",
+    "ice-tray-filter",
+    "ice-tray-checkbox",
+    "cookie-jar-gear",
+    "cookie-jar-heart",
+    "cookie-jar-cloud",
+    "cookie-jar-download",
+    "cookie-jar-pencil",
+    "cookie-jar-trash",
+    "cookie-jar-calendar",
+    "cookie-jar-question",
+    "cookie-jar-camera",
+    "cookie-jar-stats",
+    "bottle-cap-leaf",
+    "cloche-leaf",
+    "wine-barrel-leaf",
+    "wine-barrel-upload",
+    "steamer-leaf",
+    "bao-leaf",
+    "salad-leaf",
+    "soup-leaf",
+    "chocolate-bar-leaf",
+    "chocolate-bar-upload",
+    "moka-pot-upload",
+    "butter-leaf",
+    "pitcher-leaf",
+    "rocking-horse-leaf",
+    "claw-machine-leaf",
+    "claw-machine-upload",
+    "toy-brick-leaf",
+    "spell-book-leaf",
+    "spell-book-upload",
+    "knight-helmet-leaf",
+    "throne-upload",
+    "ice-tray-moon",
+    "ice-tray-fire",
+    "cookie-jar-fire",
+    "ice-tray-pin",
+    "ice-tray-bell",
+    "ice-tray-flag",
+    "cloche-upload",
+    "sundae-upload",
+    "bao-upload",
+    "honey-dipper-upload",
+    "pudding-upload",
+    "milk-carton-upload",
+    "butter-upload",
+    "olive-upload",
+    "bell-pepper-upload",
+    "gravy-boat-upload",
+    "fries-upload",
+    "glass-water-upload",
+    "pitcher-upload",
+    "frying-pan-upload",
+    "ice-cream-upload",
+    "bottle-upload",
+    "chess-bishop-upload",
+    "pinwheel-upload",
+    "rocking-horse-upload",
+    "roller-coaster-upload",
+    "unicycle-upload",
+    "suit-spade-upload",
+    "slingshot-upload",
+    "toy-brick-upload",
+    "knight-helmet-upload",
+    "torch-upload",
+    "message-bottle-upload",
+    "goblet-upload",
+    "jack-o-lantern-upload",
+    "coffin-upload",
+    "watchtower-upload"
   ],
   "byCategory": {
     "accessibility": 53,
@@ -4428,9 +1072,9 @@
     "energy": 941,
     "fashion": 1937,
     "files": 560,
-    "finance": 1849,
-    "food": 4694,
-    "gaming": 1025,
+    "finance": 1663,
+    "food": 5423,
+    "gaming": 1616,
     "health": 1305,
     "home": 2563,
     "interface": 1324,
