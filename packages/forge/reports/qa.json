@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-12T08:20:22.690Z",
-  "icons": 23740,
-  "files": 118700,
+  "generatedAt": "2026-11-12T10:32:11.035Z",
+  "icons": 25223,
+  "files": 126115,
   "errors": [],
   "warnings": [
     "dragonfly-search: grid: outside the 3-21 live area (1.50, 3.00, 21.00, 20.00)",
@@ -26,6 +26,8 @@
     "dragonfly-crown: grid: outside the 3-21 live area (1.50, 3.00, 21.00, 20.00)",
     "dragonfly-hourglass: grid: outside the 3-21 live area (1.50, 3.00, 20.28, 20.50)",
     "dragonfly-trophy: grid: outside the 3-21 live area (1.50, 3.00, 21.00, 20.60)",
+    "dragonfly-music: grid: outside the 3-21 live area (1.50, 3.00, 20.30, 20.80)",
+    "dragonfly-fire: grid: outside the 3-21 live area (1.50, 3.00, 20.60, 21.20)",
     "gavel-search: grid: outside the 3-21 live area (3.00, 1.53, 21.00, 20.00)",
     "gavel-clock: grid: outside the 3-21 live area (3.00, 1.53, 21.00, 20.50)",
     "gavel-shield: grid: outside the 3-21 live area (3.00, 1.53, 20.80, 20.80)",
@@ -49,6 +51,8 @@
     "gavel-leaf: grid: outside the 3-21 live area (3.00, 1.53, 21.02, 20.50)",
     "gavel-hourglass: grid: outside the 3-21 live area (3.00, 1.53, 20.28, 20.50)",
     "gavel-trophy: grid: outside the 3-21 live area (3.00, 1.53, 21.00, 20.60)",
+    "gavel-music: grid: outside the 3-21 live area (3.00, 1.53, 20.30, 20.80)",
+    "gavel-fire: grid: outside the 3-21 live area (3.00, 1.53, 20.60, 21.20)",
     "party-hat-search: grid: outside the 3-21 live area (4.72, 2.10, 21.00, 20.00)",
     "party-hat-clock: grid: outside the 3-21 live area (4.72, 2.10, 21.00, 20.50)",
     "party-hat-shield: grid: outside the 3-21 live area (4.72, 2.10, 20.80, 20.80)",
@@ -72,6 +76,8 @@
     "party-hat-leaf: grid: outside the 3-21 live area (4.72, 2.10, 21.02, 20.50)",
     "party-hat-hourglass: grid: outside the 3-21 live area (4.72, 2.10, 20.28, 20.50)",
     "party-hat-trophy: grid: outside the 3-21 live area (4.72, 2.10, 21.00, 20.60)",
+    "party-hat-music: grid: outside the 3-21 live area (4.72, 2.10, 20.30, 20.80)",
+    "party-hat-fire: grid: outside the 3-21 live area (4.72, 2.10, 20.60, 21.20)",
     "radio-tower-search: grid: outside the 3-21 live area (2.34, 2.80, 21.00, 20.00)",
     "radio-tower-clock: grid: outside the 3-21 live area (2.34, 2.80, 21.00, 20.50)",
     "radio-tower-shield: grid: outside the 3-21 live area (2.34, 2.80, 20.80, 20.80)",
@@ -93,6 +99,7 @@
     "radio-tower-sparkle: grid: outside the 3-21 live area (2.34, 2.80, 21.41, 20.91)",
     "radio-tower-crown: grid: outside the 3-21 live area (2.34, 2.80, 21.00, 20.00)",
     "radio-tower-hourglass: grid: outside the 3-21 live area (2.34, 2.80, 20.28, 20.50)",
+    "radio-tower-music: grid: outside the 3-21 live area (2.34, 2.80, 20.30, 20.80)",
     "bezier-bookmark: grid: outside the 3-21 live area (2.00, 3.50, 19.50, 20.50)",
     "bezier-question: grid: outside the 3-21 live area (2.00, 3.50, 21.00, 20.50)",
     "bezier-calendar: grid: outside the 3-21 live area (2.00, 3.50, 21.00, 20.50)",
@@ -100,6 +107,7 @@
     "bezier-crown: grid: outside the 3-21 live area (2.00, 3.50, 21.00, 20.00)",
     "bezier-pause: grid: outside the 3-21 live area (2.00, 3.50, 20.50, 20.50)",
     "bezier-hourglass: grid: outside the 3-21 live area (2.00, 3.50, 20.28, 20.50)",
+    "bezier-music: grid: outside the 3-21 live area (2.00, 3.50, 20.30, 20.80)",
     "wifi: grid: outside the 3-21 live area (2.10, 5.00, 21.90, 19.00)",
     "wifi-off: grid: outside the 3-21 live area (2.10, 4.50, 21.90, 19.50)",
     "gamepad: grid: outside the 3-21 live area (2.15, 7.00, 21.85, 18.22)",
@@ -126,6 +134,8 @@
     "fried-egg-leaf: grid: outside the 3-21 live area (1.92, 4.06, 21.02, 20.50)",
     "fried-egg-hourglass: grid: outside the 3-21 live area (1.92, 4.06, 20.28, 20.50)",
     "fried-egg-trophy: grid: outside the 3-21 live area (1.92, 4.06, 21.00, 20.60)",
+    "fried-egg-music: grid: outside the 3-21 live area (1.92, 4.06, 20.30, 20.80)",
+    "fried-egg-fire: grid: outside the 3-21 live area (1.92, 4.06, 20.60, 21.20)",
     "ribbon-search: grid: outside the 3-21 live area (5.00, 2.20, 21.00, 20.00)",
     "ribbon-clock: grid: outside the 3-21 live area (5.00, 2.20, 21.00, 20.50)",
     "ribbon-shield: grid: outside the 3-21 live area (5.00, 2.20, 20.80, 20.80)",
@@ -149,6 +159,8 @@
     "ribbon-leaf: grid: outside the 3-21 live area (5.00, 2.20, 21.02, 20.50)",
     "ribbon-hourglass: grid: outside the 3-21 live area (5.00, 2.20, 20.28, 20.50)",
     "ribbon-trophy: grid: outside the 3-21 live area (5.00, 2.20, 21.00, 20.60)",
+    "ribbon-music: grid: outside the 3-21 live area (5.00, 2.20, 20.30, 20.80)",
+    "ribbon-fire: grid: outside the 3-21 live area (5.00, 2.20, 20.60, 21.20)",
     "humidifier-bookmark: grid: outside the 3-21 live area (4.50, 1.70, 19.50, 20.50)",
     "humidifier-question: grid: outside the 3-21 live area (4.50, 1.70, 21.00, 20.50)",
     "humidifier-calendar: grid: outside the 3-21 live area (4.50, 1.70, 21.00, 20.50)",
@@ -156,6 +168,7 @@
     "humidifier-crown: grid: outside the 3-21 live area (4.50, 1.70, 21.00, 20.00)",
     "humidifier-pause: grid: outside the 3-21 live area (4.50, 1.70, 20.50, 20.50)",
     "humidifier-hourglass: grid: outside the 3-21 live area (4.50, 1.70, 20.28, 20.50)",
+    "humidifier-music: grid: outside the 3-21 live area (4.50, 1.70, 20.30, 20.80)",
     "dashboard: accent: no floating accent",
     "sliders: accent: no floating accent",
     "close-circle: accent: no floating accent",
@@ -181,6 +194,8 @@
     "clapperboard-pause: grid: outside the 3-21 live area (3.00, 2.30, 20.50, 20.50)",
     "clapperboard-hourglass: grid: outside the 3-21 live area (3.00, 2.30, 20.28, 20.50)",
     "clapperboard-trophy: grid: outside the 3-21 live area (3.00, 2.30, 21.00, 20.60)",
+    "clapperboard-music: grid: outside the 3-21 live area (3.00, 2.30, 20.30, 20.80)",
+    "clapperboard-fire: grid: outside the 3-21 live area (3.00, 2.30, 20.60, 21.20)",
     "seesaw-search: grid: outside the 3-21 live area (2.70, 2.00, 21.00, 20.00)",
     "seesaw-clock: grid: outside the 3-21 live area (2.70, 2.00, 21.00, 20.50)",
     "seesaw-shield: grid: outside the 3-21 live area (2.70, 2.00, 20.80, 20.80)",
@@ -217,7 +232,11 @@
     "community-hourglass: grid: outside the 3-21 live area (1.80, 3.80, 20.28, 20.50)",
     "person-walking-hourglass: grid: outside the 3-21 live area (6.50, 2.20, 20.28, 20.50)",
     "seesaw-trophy: grid: outside the 3-21 live area (2.70, 2.00, 21.00, 20.60)",
-    "barbell-hourglass: grid: outside the 3-21 live area (1.80, 6.50, 20.28, 20.50)",
+    "seesaw-music: grid: outside the 3-21 live area (2.70, 2.00, 20.30, 20.80)",
+    "community-music: grid: outside the 3-21 live area (1.80, 3.80, 20.30, 20.80)",
+    "person-walking-music: grid: outside the 3-21 live area (6.50, 2.20, 20.30, 20.80)",
+    "seesaw-fire: grid: outside the 3-21 live area (2.70, 2.00, 20.60, 21.20)",
+    "barbell-music: grid: outside the 3-21 live area (1.80, 6.50, 20.30, 20.80)",
     "thunderstorm-bookmark: grid: outside the 3-21 live area (2.15, 3.30, 19.50, 20.50)",
     "thunderstorm-question: grid: outside the 3-21 live area (2.15, 3.30, 21.00, 20.50)",
     "thunderstorm-calendar: grid: outside the 3-21 live area (2.15, 3.30, 21.00, 20.50)",
@@ -225,6 +244,7 @@
     "thunderstorm-crown: grid: outside the 3-21 live area (2.15, 3.30, 21.00, 20.00)",
     "thunderstorm-pause: grid: outside the 3-21 live area (2.15, 3.30, 20.50, 20.50)",
     "thunderstorm-hourglass: grid: outside the 3-21 live area (2.15, 3.30, 20.28, 20.50)",
+    "thunderstorm-music: grid: outside the 3-21 live area (2.15, 3.30, 20.30, 20.80)",
     "duplicate: face-smile ~ face-wink (shape distance 1px)",
     "duplicate: face-neutral ~ face-confused (shape distance 1px)",
     "duplicate: face-surprised ~ face-sleepy (shape distance 1px)",
@@ -234,14 +254,19 @@
   ],
   "duplicates": [
     {
-      "a": "voice-assistant-hourglass",
-      "b": "dollar-coin-hourglass",
+      "a": "voice-assistant-music",
+      "b": "dollar-coin-music",
       "distance": 1
     },
     {
-      "a": "igloo-hourglass",
-      "b": "protractor-hourglass",
+      "a": "igloo-music",
+      "b": "protractor-music",
       "distance": 1.41
+    },
+    {
+      "a": "discount-music",
+      "b": "discount-badge-music",
+      "distance": 1
     },
     {
       "a": "face-smile",
@@ -269,38 +294,28 @@
       "distance": 1
     },
     {
-      "a": "whisk-hourglass",
-      "b": "screwdriver-hourglass",
+      "a": "whisk-music",
+      "b": "screwdriver-music",
       "distance": 1.41
     },
     {
-      "a": "cinnamon-roll-hourglass",
-      "b": "fossil-hourglass",
+      "a": "cinnamon-roll-music",
+      "b": "fossil-music",
       "distance": 0
     },
     {
-      "a": "lamp-hourglass",
-      "b": "floor-lamp-hourglass",
+      "a": "lamp-music",
+      "b": "floor-lamp-music",
       "distance": 1.41
     },
     {
-      "a": "wardrobe-hourglass",
-      "b": "cupboard-hourglass",
+      "a": "wardrobe-music",
+      "b": "cupboard-music",
       "distance": 1.41
     },
     {
-      "a": "video-doorbell-hourglass",
-      "b": "do-not-disturb-hourglass",
-      "distance": 1.41
-    },
-    {
-      "a": "wardrobe-trophy",
-      "b": "cupboard-trophy",
-      "distance": 1.41
-    },
-    {
-      "a": "film-reel-hourglass",
-      "b": "hex-nut-hourglass",
+      "a": "video-doorbell-music",
+      "b": "do-not-disturb-music",
       "distance": 1.41
     },
     {
@@ -309,82 +324,207 @@
       "distance": 1
     },
     {
-      "a": "dumbbell-hourglass",
-      "b": "barbell-hourglass",
+      "a": "dumbbell-music",
+      "b": "barbell-music",
       "distance": 1.41
     },
     {
-      "a": "taco-trophy",
-      "b": "rainbow-trophy",
+      "a": "ram-fire",
+      "b": "container-fire",
       "distance": 1.41
     },
     {
-      "a": "whisk-trophy",
-      "b": "screwdriver-trophy",
+      "a": "whisk-fire",
+      "b": "screwdriver-fire",
+      "distance": 1.41
+    },
+    {
+      "a": "wardrobe-fire",
+      "b": "cupboard-fire",
+      "distance": 1.41
+    },
+    {
+      "a": "ticket-lock",
+      "b": "ticket-fire",
+      "distance": 1.41
+    },
+    {
+      "a": "phone-lock",
+      "b": "phone-fire",
+      "distance": 1.41
+    },
+    {
+      "a": "inbox-lock",
+      "b": "inbox-fire",
+      "distance": 1.41
+    },
+    {
+      "a": "laptop-fire",
+      "b": "laptop-lock",
+      "distance": 1.41
+    },
+    {
+      "a": "wifi-lock",
+      "b": "wifi-fire",
+      "distance": 1.41
+    },
+    {
+      "a": "watch-lock",
+      "b": "watch-fire",
+      "distance": 1.41
+    },
+    {
+      "a": "router-lock",
+      "b": "router-fire",
+      "distance": 1.41
+    },
+    {
+      "a": "book-fire",
+      "b": "book-lock",
+      "distance": 1.41
+    },
+    {
+      "a": "plug-lock",
+      "b": "plug-fire",
+      "distance": 1.41
+    },
+    {
+      "a": "bank-lock",
+      "b": "bank-fire",
+      "distance": 1.41
+    },
+    {
+      "a": "trophy-lock",
+      "b": "trophy-fire",
+      "distance": 1.41
+    },
+    {
+      "a": "gamepad-lock",
+      "b": "gamepad-fire",
+      "distance": 1.41
+    },
+    {
+      "a": "bookmark-lock",
+      "b": "bookmark-fire",
+      "distance": 1.41
+    },
+    {
+      "a": "link-lock",
+      "b": "link-fire",
+      "distance": 1.41
+    },
+    {
+      "a": "edit-lock",
+      "b": "edit-fire",
+      "distance": 1.41
+    },
+    {
+      "a": "users-lock",
+      "b": "users-fire",
+      "distance": 1.41
+    },
+    {
+      "a": "dna-lock",
+      "b": "dna-fire",
+      "distance": 1.41
+    },
+    {
+      "a": "school-lock",
+      "b": "school-fire",
+      "distance": 1.41
+    },
+    {
+      "a": "branch-lock",
+      "b": "branch-fire",
+      "distance": 1.41
+    },
+    {
+      "a": "clipboard-lock",
+      "b": "clipboard-fire",
       "distance": 1.41
     }
   ],
   "dropped": [
-    "cursor-click-hourglass",
-    "moon-hourglass",
-    "moon-trophy",
-    "speaking-head-hourglass",
-    "moon-stars-hourglass",
-    "dollar-coin-hourglass",
-    "protractor-hourglass",
-    "screwdriver-hourglass",
-    "fossil-hourglass",
-    "floor-lamp-hourglass",
-    "cupboard-hourglass",
-    "do-not-disturb-hourglass",
-    "cupboard-trophy",
-    "hex-nut-hourglass",
-    "barbell-hourglass",
-    "rainbow-trophy",
-    "screwdriver-trophy"
+    "cursor-click-music",
+    "moon-music",
+    "moon-fire",
+    "speaking-head-music",
+    "moon-stars-music",
+    "dollar-coin-music",
+    "protractor-music",
+    "discount-badge-music",
+    "screwdriver-music",
+    "fossil-music",
+    "floor-lamp-music",
+    "cupboard-music",
+    "do-not-disturb-music",
+    "barbell-music",
+    "container-fire",
+    "screwdriver-fire",
+    "cupboard-fire",
+    "ticket-fire",
+    "phone-fire",
+    "inbox-fire",
+    "laptop-fire",
+    "wifi-fire",
+    "watch-fire",
+    "router-fire",
+    "book-fire",
+    "plug-fire",
+    "bank-fire",
+    "trophy-fire",
+    "gamepad-fire",
+    "bookmark-fire",
+    "link-fire",
+    "edit-fire",
+    "users-fire",
+    "dna-fire",
+    "school-fire",
+    "branch-fire",
+    "clipboard-fire"
   ],
   "byCategory": {
-    "accessibility": 47,
+    "accessibility": 49,
     "actions": 44,
-    "ai": 209,
-    "animals": 982,
+    "ai": 218,
+    "animals": 1056,
     "arrows": 121,
-    "buildings": 617,
-    "business": 744,
-    "celebration": 593,
-    "commerce": 693,
-    "communication": 718,
-    "data": 268,
-    "design": 540,
-    "development": 391,
-    "devices": 889,
-    "education": 529,
+    "buildings": 661,
+    "business": 790,
+    "celebration": 630,
+    "commerce": 739,
+    "communication": 760,
+    "data": 283,
+    "design": 575,
+    "development": 414,
+    "devices": 941,
+    "education": 557,
     "emoji": 41,
-    "energy": 179,
-    "fashion": 796,
-    "files": 305,
-    "finance": 602,
-    "food": 2625,
-    "gaming": 600,
-    "health": 850,
-    "home": 1560,
-    "interface": 726,
-    "logistics": 270,
-    "maps": 151,
-    "media": 901,
-    "nature": 941,
+    "energy": 189,
+    "fashion": 854,
+    "files": 318,
+    "finance": 638,
+    "food": 2806,
+    "gaming": 640,
+    "health": 901,
+    "home": 1656,
+    "interface": 755,
+    "logistics": 287,
+    "maps": 160,
+    "media": 960,
+    "nature": 999,
     "navigation": 35,
-    "notifications": 45,
-    "people": 492,
-    "science": 463,
-    "security": 295,
-    "social": 122,
-    "sports": 971,
-    "text": 258,
-    "time": 154,
-    "tools": 819,
-    "transport": 920,
-    "travel": 824,
-    "weather": 393
+    "notifications": 47,
+    "people": 520,
+    "science": 493,
+    "security": 311,
+    "social": 127,
+    "sports": 1038,
+    "text": 266,
+    "time": 162,
+    "tools": 872,
+    "transport": 973,
+    "travel": 883,
+    "weather": 417
   }
 }
