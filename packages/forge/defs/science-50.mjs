@@ -1,0 +1,24 @@
+import { icon, body, line, accent } from '../src/dsl.mjs';
+import { R, C, E, L, A, D, poly, star, head, gear, rotateD, translateD, scaleD } from '../src/geo.mjs';
+
+const rot = (els, deg, cx = 12, cy = 12) => els.map((e) => ({ ...e, d: rotateD(e.d, deg, cx, cy) }));
+const spark = (x, y, r) => accent(star(x, y, r, r * 0.32, 4, 0.2));
+
+export default {
+  category: 'science',
+  icons: [
+    icon('dna-helix-fire', 'Trending Dna Helix', ['trending', 'hot', 'popular', 'dna helix', 'dna-helix'], [line('M6 3.5c0 4 7 4 7 7s-7 3-7 7M13 3.5c0 4-7 4-7 7s7 3 7 7'), line('M7.5 6h4M7.5 15h4'), body('M17 12c2 1.8 3.6 3.6 3.6 5.6a3.6 3.6 0 0 1-7.2 0c0-1.4.7-2.5 1.6-3.4.2 1 .7 1.7 1.4 1.9-.3-1.7.1-3 .6-4.1Z', { cover: true })], { noAccent: true }),
+    icon('test-tubes-fire', 'Trending Test Tubes', ['trending', 'hot', 'popular', 'test tubes', 'test-tubes'], [body('M5 3.5h3v11a1.5 1.5 0 0 1-3 0Z'), body('M11 3.5h3v11a1.5 1.5 0 0 1-3 0Z'), line('M5.2 9h2.6M11.2 11h2.6'), line('M3 17.5h13'), body('M17 12c2 1.8 3.6 3.6 3.6 5.6a3.6 3.6 0 0 1-7.2 0c0-1.4.7-2.5 1.6-3.4.2 1 .7 1.7 1.4 1.9-.3-1.7.1-3 .6-4.1Z', { cover: true })], { noAccent: true }),
+    icon('dna-helix-trophy', 'Dna Helix Award', ['award', 'winner', 'achievement', 'dna helix', 'dna-helix'], [line('M6 3.5c0 4 7 4 7 7s-7 3-7 7M13 3.5c0 4-7 4-7 7s7 3 7 7'), line('M7.5 6h4M7.5 15h4'), body('M14 12.8h6v2.7a3 3 0 0 1-6 0Z', { cover: true }), line('M17 18.5v1.7M15 20.6h4M14 13.8h-1v.6a1.6 1.6 0 0 0 1.4 1.6M20 13.8h1v.6a1.6 1.6 0 0 1-1.4 1.6')], { noAccent: true }),
+    icon('test-tubes-trophy', 'Test Tubes Award', ['award', 'winner', 'achievement', 'test tubes', 'test-tubes'], [body('M5 3.5h3v11a1.5 1.5 0 0 1-3 0Z'), body('M11 3.5h3v11a1.5 1.5 0 0 1-3 0Z'), line('M5.2 9h2.6M11.2 11h2.6'), line('M3 17.5h13'), body('M14 12.8h6v2.7a3 3 0 0 1-6 0Z', { cover: true }), line('M17 18.5v1.7M15 20.6h4M14 13.8h-1v.6a1.6 1.6 0 0 0 1.4 1.6M20 13.8h1v.6a1.6 1.6 0 0 1-1.4 1.6')], { noAccent: true }),
+    icon('lab-coat-leaf', 'Eco Lab Coat', ['eco', 'green', 'sustainable', 'lab coat', 'lab-coat'], [body('M6.5 3.5h6L16 6.5V18H3V6.5Z'), line('M9.5 6v12M6.5 3.7l3 3 3-3'), line('M11.5 12.5h2.5'), body('M13 20.5c0-4.5 3-7.5 8-8 .3 5-2.7 8-8 8Z', { cover: true }), line('M13.6 19.9 17.5 16')], { noAccent: true }),
+    icon('molecule-leaf', 'Eco Molecule', ['eco', 'green', 'sustainable', 'molecule', 'molecule'], [line(C(9.5, 10.5, 2.2) + C(4.5, 5, 1.6) + C(14.5, 5, 1.6) + C(9.5, 17, 1.6)), line('M5.6 6.2 8 8.8M13.4 6.2 11 8.8M9.5 12.7v2.7'), body('M13 20.5c0-4.5 3-7.5 8-8 .3 5-2.7 8-8 8Z', { cover: true }), line('M13.6 19.9 17.5 16')], { noAccent: true }),
+    icon('dna-helix-leaf', 'Eco Dna Helix', ['eco', 'green', 'sustainable', 'dna helix', 'dna-helix'], [line('M6 3.5c0 4 7 4 7 7s-7 3-7 7M13 3.5c0 4-7 4-7 7s7 3 7 7'), line('M7.5 6h4M7.5 15h4'), body('M13 20.5c0-4.5 3-7.5 8-8 .3 5-2.7 8-8 8Z', { cover: true }), line('M13.6 19.9 17.5 16')], { noAccent: true }),
+    icon('test-tubes-leaf', 'Eco Test Tubes', ['eco', 'green', 'sustainable', 'test tubes', 'test-tubes'], [body('M5 3.5h3v11a1.5 1.5 0 0 1-3 0Z'), body('M11 3.5h3v11a1.5 1.5 0 0 1-3 0Z'), line('M5.2 9h2.6M11.2 11h2.6'), line('M3 17.5h13'), body('M13 20.5c0-4.5 3-7.5 8-8 .3 5-2.7 8-8 8Z', { cover: true }), line('M13.6 19.9 17.5 16')], { noAccent: true }),
+    icon('lab-coat-moon', 'Lab Coat Night Mode', ['night', 'dark mode', 'sleep', 'lab coat', 'lab-coat'], [body('M6.5 3.5h6L16 6.5V18H3V6.5Z'), line('M9.5 6v12M6.5 3.7l3 3 3-3'), line('M11.5 12.5h2.5'), body('M20.5 18.7A4 4 0 0 1 16 12.6a4.2 4.2 0 1 0 4.5 6.1Z', { cover: true })], { noAccent: true }),
+    icon('molecule-moon', 'Molecule Night Mode', ['night', 'dark mode', 'sleep', 'molecule', 'molecule'], [line(C(9.5, 10.5, 2.2) + C(4.5, 5, 1.6) + C(14.5, 5, 1.6) + C(9.5, 17, 1.6)), line('M5.6 6.2 8 8.8M13.4 6.2 11 8.8M9.5 12.7v2.7'), body('M20.5 18.7A4 4 0 0 1 16 12.6a4.2 4.2 0 1 0 4.5 6.1Z', { cover: true })], { noAccent: true }),
+    icon('astronaut-moon', 'Astronaut Night Mode', ['night', 'dark mode', 'sleep', 'astronaut', 'astronaut'], [body(C(9.5, 7.5, 4.5)), body(R(6.8, 5.8, 5.4, 3.4, 1.4)), body('M4.5 18v-2a3.5 3.5 0 0 1 3.5-3.5h3a3.5 3.5 0 0 1 3.5 3.5v2Z'), body('M20.5 18.7A4 4 0 0 1 16 12.6a4.2 4.2 0 1 0 4.5 6.1Z', { cover: true })], { noAccent: true }),
+    icon('dna-helix-moon', 'Dna Helix Night Mode', ['night', 'dark mode', 'sleep', 'dna helix', 'dna-helix'], [line('M6 3.5c0 4 7 4 7 7s-7 3-7 7M13 3.5c0 4-7 4-7 7s7 3 7 7'), line('M7.5 6h4M7.5 15h4'), body('M20.5 18.7A4 4 0 0 1 16 12.6a4.2 4.2 0 1 0 4.5 6.1Z', { cover: true })], { noAccent: true }),
+    icon('test-tubes-moon', 'Test Tubes Night Mode', ['night', 'dark mode', 'sleep', 'test tubes', 'test-tubes'], [body('M5 3.5h3v11a1.5 1.5 0 0 1-3 0Z'), body('M11 3.5h3v11a1.5 1.5 0 0 1-3 0Z'), line('M5.2 9h2.6M11.2 11h2.6'), line('M3 17.5h13'), body('M20.5 18.7A4 4 0 0 1 16 12.6a4.2 4.2 0 1 0 4.5 6.1Z', { cover: true })], { noAccent: true }),
+  ],
+};

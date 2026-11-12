@@ -42,6 +42,10 @@ Object.assign(M, {
   trophy: `body('M14 12.8h6v2.7a3 3 0 0 1-6 0Z', { cover: true }), line('M17 18.5v1.7M15 20.6h4M14 13.8h-1v.6a1.6 1.6 0 0 0 1.4 1.6M20 13.8h1v.6a1.6 1.6 0 0 1-1.4 1.6')`,
   music_disabled: `body(C(15.2, 19, 1.8), { cover: true }), body(R(16.2, 12.4, 1.5, 6.6, 0.5), { cover: true }), body('M16.5 12.4l3.8 1v2l-3.8-1Z', { cover: true })`,
   fire: `body('M17 12c2 1.8 3.6 3.6 3.6 5.6a3.6 3.6 0 0 1-7.2 0c0-1.4.7-2.5 1.6-3.4.2 1 .7 1.7 1.4 1.9-.3-1.7.1-3 .6-4.1Z', { cover: true })`,
+  cursor: `body(poly([[13.6, 12.6], [20.6, 15.6], [17.6, 16.8], [16.4, 20.2]], 0.5, true), { cover: true })`,
+  key: `body(C(15.2, 15.2, 2.4), { cover: true }), body(poly([[16.6, 16.1], [17.6, 15.1], [21, 18.5], [20.3, 19.2], [19.4, 18.3], [18.7, 19], [17.8, 18.1], [18.5, 17.4], [16.6, 16.1]], 0.3, true), { cover: true }), line(D(14.7, 14.7))`,
+  camera: `body('M13 15.2a1.2 1.2 0 0 1 1.2-1.2h1.2l.8-1.2h2.6l.8 1.2h1.2a1.2 1.2 0 0 1 1.2 1.2v4.1a1.2 1.2 0 0 1-1.2 1.2h-5.6a1.2 1.2 0 0 1-1.2-1.2Z', { cover: true }), line(C(17, 17.2, 1.4))`,
+  filter: `body(poly([[13, 13], [21, 13], [18, 16.8], [18, 20.5], [16, 19.5], [16, 16.8]], 0.5, true), { cover: true })`,
   alert: `body(poly([[17, 11.5], [21.3, 20.5], [12.7, 20.5]], 0.9, true), { cover: true }), line('M17 15v2.3'), line(D(17, 19.1))`,
 });
 
@@ -87,6 +91,10 @@ const T = {
   trophy: (l) => [`${l} Award`, 'award, winner, achievement'],
   music: (l) => [`${l} Audio`, 'audio, music, sound'],
   fire: (l) => [`Trending ${l}`, 'trending, hot, popular'],
+  cursor: (l) => [`Select ${l}`, 'select, click, pointer'],
+  key: (l) => [`${l} Access`, 'access, key, unlock'],
+  camera: (l) => [`${l} Photo`, 'photo, camera, picture'],
+  filter: (l) => [`Filter ${l}`, 'filter, sort, refine'],
   alert: (l) => [`${l} Alert`, 'alert, warning, problem'],
 };
 // category: most common category among existing icons named <base>-*

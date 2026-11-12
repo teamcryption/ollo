@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-12T10:32:11.035Z",
-  "icons": 25223,
-  "files": 126115,
+  "generatedAt": "2026-11-12T10:45:13.484Z",
+  "icons": 25547,
+  "files": 127735,
   "errors": [],
   "warnings": [
     "dragonfly-search: grid: outside the 3-21 live area (1.50, 3.00, 21.00, 20.00)",
@@ -26,8 +26,9 @@
     "dragonfly-crown: grid: outside the 3-21 live area (1.50, 3.00, 21.00, 20.00)",
     "dragonfly-hourglass: grid: outside the 3-21 live area (1.50, 3.00, 20.28, 20.50)",
     "dragonfly-trophy: grid: outside the 3-21 live area (1.50, 3.00, 21.00, 20.60)",
-    "dragonfly-music: grid: outside the 3-21 live area (1.50, 3.00, 20.30, 20.80)",
     "dragonfly-fire: grid: outside the 3-21 live area (1.50, 3.00, 20.60, 21.20)",
+    "dragonfly-leaf: grid: outside the 3-21 live area (1.50, 3.00, 21.02, 20.50)",
+    "dragonfly-moon: grid: outside the 3-21 live area (1.50, 3.00, 20.50, 20.92)",
     "gavel-search: grid: outside the 3-21 live area (3.00, 1.53, 21.00, 20.00)",
     "gavel-clock: grid: outside the 3-21 live area (3.00, 1.53, 21.00, 20.50)",
     "gavel-shield: grid: outside the 3-21 live area (3.00, 1.53, 20.80, 20.80)",
@@ -51,7 +52,6 @@
     "gavel-leaf: grid: outside the 3-21 live area (3.00, 1.53, 21.02, 20.50)",
     "gavel-hourglass: grid: outside the 3-21 live area (3.00, 1.53, 20.28, 20.50)",
     "gavel-trophy: grid: outside the 3-21 live area (3.00, 1.53, 21.00, 20.60)",
-    "gavel-music: grid: outside the 3-21 live area (3.00, 1.53, 20.30, 20.80)",
     "gavel-fire: grid: outside the 3-21 live area (3.00, 1.53, 20.60, 21.20)",
     "party-hat-search: grid: outside the 3-21 live area (4.72, 2.10, 21.00, 20.00)",
     "party-hat-clock: grid: outside the 3-21 live area (4.72, 2.10, 21.00, 20.50)",
@@ -76,7 +76,6 @@
     "party-hat-leaf: grid: outside the 3-21 live area (4.72, 2.10, 21.02, 20.50)",
     "party-hat-hourglass: grid: outside the 3-21 live area (4.72, 2.10, 20.28, 20.50)",
     "party-hat-trophy: grid: outside the 3-21 live area (4.72, 2.10, 21.00, 20.60)",
-    "party-hat-music: grid: outside the 3-21 live area (4.72, 2.10, 20.30, 20.80)",
     "party-hat-fire: grid: outside the 3-21 live area (4.72, 2.10, 20.60, 21.20)",
     "radio-tower-search: grid: outside the 3-21 live area (2.34, 2.80, 21.00, 20.00)",
     "radio-tower-clock: grid: outside the 3-21 live area (2.34, 2.80, 21.00, 20.50)",
@@ -99,7 +98,10 @@
     "radio-tower-sparkle: grid: outside the 3-21 live area (2.34, 2.80, 21.41, 20.91)",
     "radio-tower-crown: grid: outside the 3-21 live area (2.34, 2.80, 21.00, 20.00)",
     "radio-tower-hourglass: grid: outside the 3-21 live area (2.34, 2.80, 20.28, 20.50)",
-    "radio-tower-music: grid: outside the 3-21 live area (2.34, 2.80, 20.30, 20.80)",
+    "radio-tower-fire: grid: outside the 3-21 live area (2.34, 2.80, 20.60, 21.20)",
+    "radio-tower-trophy: grid: outside the 3-21 live area (2.34, 2.80, 21.00, 20.60)",
+    "radio-tower-leaf: grid: outside the 3-21 live area (2.34, 2.80, 21.02, 20.50)",
+    "radio-tower-moon: grid: outside the 3-21 live area (2.34, 2.80, 20.50, 20.92)",
     "bezier-bookmark: grid: outside the 3-21 live area (2.00, 3.50, 19.50, 20.50)",
     "bezier-question: grid: outside the 3-21 live area (2.00, 3.50, 21.00, 20.50)",
     "bezier-calendar: grid: outside the 3-21 live area (2.00, 3.50, 21.00, 20.50)",
@@ -107,7 +109,10 @@
     "bezier-crown: grid: outside the 3-21 live area (2.00, 3.50, 21.00, 20.00)",
     "bezier-pause: grid: outside the 3-21 live area (2.00, 3.50, 20.50, 20.50)",
     "bezier-hourglass: grid: outside the 3-21 live area (2.00, 3.50, 20.28, 20.50)",
-    "bezier-music: grid: outside the 3-21 live area (2.00, 3.50, 20.30, 20.80)",
+    "bezier-fire: grid: outside the 3-21 live area (2.00, 3.50, 20.60, 21.20)",
+    "bezier-trophy: grid: outside the 3-21 live area (2.00, 3.50, 21.00, 20.60)",
+    "bezier-leaf: grid: outside the 3-21 live area (2.00, 3.50, 21.02, 20.50)",
+    "bezier-moon: grid: outside the 3-21 live area (2.00, 3.50, 20.50, 20.92)",
     "wifi: grid: outside the 3-21 live area (2.10, 5.00, 21.90, 19.00)",
     "wifi-off: grid: outside the 3-21 live area (2.10, 4.50, 21.90, 19.50)",
     "gamepad: grid: outside the 3-21 live area (2.15, 7.00, 21.85, 18.22)",
@@ -134,7 +139,6 @@
     "fried-egg-leaf: grid: outside the 3-21 live area (1.92, 4.06, 21.02, 20.50)",
     "fried-egg-hourglass: grid: outside the 3-21 live area (1.92, 4.06, 20.28, 20.50)",
     "fried-egg-trophy: grid: outside the 3-21 live area (1.92, 4.06, 21.00, 20.60)",
-    "fried-egg-music: grid: outside the 3-21 live area (1.92, 4.06, 20.30, 20.80)",
     "fried-egg-fire: grid: outside the 3-21 live area (1.92, 4.06, 20.60, 21.20)",
     "ribbon-search: grid: outside the 3-21 live area (5.00, 2.20, 21.00, 20.00)",
     "ribbon-clock: grid: outside the 3-21 live area (5.00, 2.20, 21.00, 20.50)",
@@ -159,7 +163,6 @@
     "ribbon-leaf: grid: outside the 3-21 live area (5.00, 2.20, 21.02, 20.50)",
     "ribbon-hourglass: grid: outside the 3-21 live area (5.00, 2.20, 20.28, 20.50)",
     "ribbon-trophy: grid: outside the 3-21 live area (5.00, 2.20, 21.00, 20.60)",
-    "ribbon-music: grid: outside the 3-21 live area (5.00, 2.20, 20.30, 20.80)",
     "ribbon-fire: grid: outside the 3-21 live area (5.00, 2.20, 20.60, 21.20)",
     "humidifier-bookmark: grid: outside the 3-21 live area (4.50, 1.70, 19.50, 20.50)",
     "humidifier-question: grid: outside the 3-21 live area (4.50, 1.70, 21.00, 20.50)",
@@ -168,7 +171,10 @@
     "humidifier-crown: grid: outside the 3-21 live area (4.50, 1.70, 21.00, 20.00)",
     "humidifier-pause: grid: outside the 3-21 live area (4.50, 1.70, 20.50, 20.50)",
     "humidifier-hourglass: grid: outside the 3-21 live area (4.50, 1.70, 20.28, 20.50)",
-    "humidifier-music: grid: outside the 3-21 live area (4.50, 1.70, 20.30, 20.80)",
+    "humidifier-fire: grid: outside the 3-21 live area (4.50, 1.70, 20.60, 21.20)",
+    "humidifier-trophy: grid: outside the 3-21 live area (4.50, 1.70, 21.00, 20.60)",
+    "humidifier-leaf: grid: outside the 3-21 live area (4.50, 1.70, 21.02, 20.50)",
+    "humidifier-moon: grid: outside the 3-21 live area (4.50, 1.70, 20.50, 20.92)",
     "dashboard: accent: no floating accent",
     "sliders: accent: no floating accent",
     "close-circle: accent: no floating accent",
@@ -194,7 +200,6 @@
     "clapperboard-pause: grid: outside the 3-21 live area (3.00, 2.30, 20.50, 20.50)",
     "clapperboard-hourglass: grid: outside the 3-21 live area (3.00, 2.30, 20.28, 20.50)",
     "clapperboard-trophy: grid: outside the 3-21 live area (3.00, 2.30, 21.00, 20.60)",
-    "clapperboard-music: grid: outside the 3-21 live area (3.00, 2.30, 20.30, 20.80)",
     "clapperboard-fire: grid: outside the 3-21 live area (3.00, 2.30, 20.60, 21.20)",
     "seesaw-search: grid: outside the 3-21 live area (2.70, 2.00, 21.00, 20.00)",
     "seesaw-clock: grid: outside the 3-21 live area (2.70, 2.00, 21.00, 20.50)",
@@ -232,11 +237,21 @@
     "community-hourglass: grid: outside the 3-21 live area (1.80, 3.80, 20.28, 20.50)",
     "person-walking-hourglass: grid: outside the 3-21 live area (6.50, 2.20, 20.28, 20.50)",
     "seesaw-trophy: grid: outside the 3-21 live area (2.70, 2.00, 21.00, 20.60)",
-    "seesaw-music: grid: outside the 3-21 live area (2.70, 2.00, 20.30, 20.80)",
-    "community-music: grid: outside the 3-21 live area (1.80, 3.80, 20.30, 20.80)",
-    "person-walking-music: grid: outside the 3-21 live area (6.50, 2.20, 20.30, 20.80)",
     "seesaw-fire: grid: outside the 3-21 live area (2.70, 2.00, 20.60, 21.20)",
-    "barbell-music: grid: outside the 3-21 live area (1.80, 6.50, 20.30, 20.80)",
+    "community-fire: grid: outside the 3-21 live area (1.80, 3.80, 20.60, 21.20)",
+    "person-walking-fire: grid: outside the 3-21 live area (6.50, 2.20, 20.60, 21.20)",
+    "community-trophy: grid: outside the 3-21 live area (1.80, 3.80, 21.00, 20.60)",
+    "person-walking-trophy: grid: outside the 3-21 live area (6.50, 2.20, 21.00, 20.60)",
+    "seesaw-leaf: grid: outside the 3-21 live area (2.70, 2.00, 21.02, 20.50)",
+    "community-leaf: grid: outside the 3-21 live area (1.80, 3.80, 21.02, 20.50)",
+    "person-walking-leaf: grid: outside the 3-21 live area (6.50, 2.20, 21.02, 20.50)",
+    "seesaw-moon: grid: outside the 3-21 live area (2.70, 2.00, 20.50, 20.92)",
+    "community-moon: grid: outside the 3-21 live area (1.80, 3.80, 20.50, 20.92)",
+    "person-walking-moon: grid: outside the 3-21 live area (6.50, 2.20, 20.50, 20.92)",
+    "barbell-fire: grid: outside the 3-21 live area (1.80, 6.50, 20.60, 21.20)",
+    "barbell-trophy: grid: outside the 3-21 live area (1.80, 6.50, 21.00, 20.60)",
+    "barbell-leaf: grid: outside the 3-21 live area (1.80, 6.50, 21.02, 20.50)",
+    "barbell-moon: grid: outside the 3-21 live area (1.80, 6.50, 20.50, 20.92)",
     "thunderstorm-bookmark: grid: outside the 3-21 live area (2.15, 3.30, 19.50, 20.50)",
     "thunderstorm-question: grid: outside the 3-21 live area (2.15, 3.30, 21.00, 20.50)",
     "thunderstorm-calendar: grid: outside the 3-21 live area (2.15, 3.30, 21.00, 20.50)",
@@ -244,7 +259,10 @@
     "thunderstorm-crown: grid: outside the 3-21 live area (2.15, 3.30, 21.00, 20.00)",
     "thunderstorm-pause: grid: outside the 3-21 live area (2.15, 3.30, 20.50, 20.50)",
     "thunderstorm-hourglass: grid: outside the 3-21 live area (2.15, 3.30, 20.28, 20.50)",
-    "thunderstorm-music: grid: outside the 3-21 live area (2.15, 3.30, 20.30, 20.80)",
+    "thunderstorm-fire: grid: outside the 3-21 live area (2.15, 3.30, 20.60, 21.20)",
+    "thunderstorm-trophy: grid: outside the 3-21 live area (2.15, 3.30, 21.00, 20.60)",
+    "thunderstorm-leaf: grid: outside the 3-21 live area (2.15, 3.30, 21.02, 20.50)",
+    "thunderstorm-moon: grid: outside the 3-21 live area (2.15, 3.30, 20.50, 20.92)",
     "duplicate: face-smile ~ face-wink (shape distance 1px)",
     "duplicate: face-neutral ~ face-confused (shape distance 1px)",
     "duplicate: face-surprised ~ face-sleepy (shape distance 1px)",
@@ -254,19 +272,284 @@
   ],
   "duplicates": [
     {
-      "a": "voice-assistant-music",
-      "b": "dollar-coin-music",
-      "distance": 1
-    },
-    {
-      "a": "igloo-music",
-      "b": "protractor-music",
+      "a": "astronaut-pencil",
+      "b": "astronaut-leaf",
       "distance": 1.41
     },
     {
-      "a": "discount-music",
-      "b": "discount-badge-music",
+      "a": "brain-circuit-pencil",
+      "b": "brain-circuit-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "neural-net-pencil",
+      "b": "neural-net-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "voice-assistant-trophy",
+      "b": "dollar-coin-trophy",
       "distance": 1
+    },
+    {
+      "a": "voice-assistant-leaf",
+      "b": "dollar-coin-pencil",
+      "distance": 1.41
+    },
+    {
+      "a": "rhino-pencil",
+      "b": "rhino-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "bird-cage-pencil",
+      "b": "bird-cage-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "pagoda-pencil",
+      "b": "pagoda-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "pyramid-pencil",
+      "b": "pyramid-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "garage-pencil",
+      "b": "garage-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "gazebo-pencil",
+      "b": "gazebo-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "exit-sign-pencil",
+      "b": "exit-sign-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "apartment-pencil",
+      "b": "apartment-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "igloo-leaf",
+      "b": "protractor-pencil",
+      "distance": 1.41
+    },
+    {
+      "a": "pencil-cup-pencil",
+      "b": "pencil-cup-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "ballot-box-pencil",
+      "b": "ballot-box-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "paper-shredder-pencil",
+      "b": "paper-shredder-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "binder-pencil",
+      "b": "binder-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "desk-pencil",
+      "b": "desk-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "office-chair-pencil",
+      "b": "office-chair-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "clipboard-list-pencil",
+      "b": "clipboard-list-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "snow-globe-pencil",
+      "b": "snow-globe-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "birthday-cake-pencil",
+      "b": "birthday-cake-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "lantern-chinese-pencil",
+      "b": "lantern-chinese-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "easter-egg-pencil",
+      "b": "easter-egg-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "discount-pencil",
+      "b": "discount-badge-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "hanging-sign-pencil",
+      "b": "hanging-sign-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "gift-card-pencil",
+      "b": "gift-card-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "coupon-pencil",
+      "b": "coupon-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "online-shop-pencil",
+      "b": "online-shop-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "vending-machine-pencil",
+      "b": "vending-machine-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "basket-full-pencil",
+      "b": "basket-full-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "marketplace-pencil",
+      "b": "marketplace-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "telephone-old-pencil",
+      "b": "telephone-old-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "at-sign-pencil",
+      "b": "at-sign-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "rss-pencil",
+      "b": "rss-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "video-call-pencil",
+      "b": "video-call-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "inbox-tray-pencil",
+      "b": "inbox-tray-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "voice-message-pencil",
+      "b": "voice-message-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "contact-book-pencil",
+      "b": "contact-book-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "sitemap-pencil",
+      "b": "sitemap-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "picture-frame-pencil",
+      "b": "picture-frame-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "paint-can-pencil",
+      "b": "paint-can-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "crop-pencil",
+      "b": "crop-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "server-rack-pencil",
+      "b": "server-rack-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "circuit-pencil",
+      "b": "circuit-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "variable-pencil",
+      "b": "variable-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "graphics-card-pencil",
+      "b": "graphics-card-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "nfc-pencil",
+      "b": "nfc-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "e-reader-pencil",
+      "b": "e-reader-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "bookshelf-pencil",
+      "b": "bookshelf-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "test-paper-pencil",
+      "b": "test-paper-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "library-books-pencil",
+      "b": "library-books-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "math-symbols-pencil",
+      "b": "math-symbols-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "language-pencil",
+      "b": "language-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "quiz-pencil",
+      "b": "quiz-leaf",
+      "distance": 1.41
     },
     {
       "a": "face-smile",
@@ -294,28 +577,363 @@
       "distance": 1
     },
     {
-      "a": "whisk-music",
-      "b": "screwdriver-music",
+      "a": "fuse-box-pencil",
+      "b": "fuse-box-leaf",
       "distance": 1.41
     },
     {
-      "a": "cinnamon-roll-music",
-      "b": "fossil-music",
+      "a": "trousers-pencil",
+      "b": "trousers-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "folder-open-pencil",
+      "b": "folder-open-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "file-zip-pencil",
+      "b": "file-zip-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "file-image-pencil",
+      "b": "file-image-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "documents-stack-pencil",
+      "b": "documents-stack-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "gold-bar-pencil",
+      "b": "gold-bar-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "ledger-pencil",
+      "b": "ledger-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "tip-jar-pencil",
+      "b": "tip-jar-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "token-coin-pencil",
+      "b": "token-coin-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "french-press-pencil",
+      "b": "french-press-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "apron-pencil",
+      "b": "apron-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "tomato-pencil",
+      "b": "tomato-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "jam-jar-pencil",
+      "b": "jam-jar-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "chocolate-pencil",
+      "b": "chocolate-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "serving-cloche-pencil",
+      "b": "serving-cloche-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "macaron-pencil",
+      "b": "macaron-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "croissant-pencil",
+      "b": "croissant-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "pancakes-pencil",
+      "b": "pancakes-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "pie-pencil",
+      "b": "pie-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "cinnamon-roll-trophy",
+      "b": "fossil-trophy",
       "distance": 0
     },
     {
-      "a": "lamp-music",
-      "b": "floor-lamp-music",
+      "a": "cinnamon-roll-leaf",
+      "b": "fossil-pencil",
       "distance": 1.41
     },
     {
-      "a": "wardrobe-music",
-      "b": "cupboard-music",
+      "a": "cinnamon-roll-leaf",
+      "b": "fossil-leaf",
+      "distance": 0
+    },
+    {
+      "a": "treasure-map-pencil",
+      "b": "treasure-map-leaf",
       "distance": 1.41
     },
     {
-      "a": "video-doorbell-music",
-      "b": "do-not-disturb-music",
+      "a": "handheld-console-pencil",
+      "b": "handheld-console-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "massage-stone-pencil",
+      "b": "massage-stone-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "bath-salt-pencil",
+      "b": "bath-salt-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "bathroom-scale-pencil",
+      "b": "bathroom-scale-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "pill-blister-pencil",
+      "b": "pill-blister-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "lungs-pencil",
+      "b": "lungs-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "hospital-bed-pencil",
+      "b": "hospital-bed-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "ambulance-pencil",
+      "b": "ambulance-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "intercom-pencil",
+      "b": "intercom-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "sink-pencil",
+      "b": "sink-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "coffee-machine-pencil",
+      "b": "coffee-machine-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "rice-cooker-pencil",
+      "b": "rice-cooker-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "moving-box-pencil",
+      "b": "moving-box-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "nightstand-pencil",
+      "b": "nightstand-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "dresser-pencil",
+      "b": "dresser-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "house-number-pencil",
+      "b": "house-number-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "sponge-pencil",
+      "b": "sponge-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "lamp-leaf",
+      "b": "floor-lamp-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "video-doorbell-trophy",
+      "b": "do-not-disturb-trophy",
+      "distance": 1.41
+    },
+    {
+      "a": "video-doorbell-leaf",
+      "b": "do-not-disturb-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "toggle-switch-pencil",
+      "b": "toggle-switch-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "checkbox-list-pencil",
+      "b": "checkbox-list-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "dropdown-pencil",
+      "b": "dropdown-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "pallet-pencil",
+      "b": "pallet-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "container-pencil",
+      "b": "container-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "cargo-ship-pencil",
+      "b": "cargo-ship-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "return-box-pencil",
+      "b": "return-box-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "route-pencil",
+      "b": "route-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "equalizer-pencil",
+      "b": "equalizer-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "xylophone-pencil",
+      "b": "xylophone-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "cd-pencil",
+      "b": "cd-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "film-reel-pencil",
+      "b": "film-reel-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "camera-action-pencil",
+      "b": "camera-action-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "trumpet-pencil",
+      "b": "trumpet-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "film-reel-trophy",
+      "b": "hex-nut-trophy",
+      "distance": 1.41
+    },
+    {
+      "a": "mountain-flag-pencil",
+      "b": "mountain-flag-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "cherry-blossom-pencil",
+      "b": "cherry-blossom-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "mountain-sun-pencil",
+      "b": "mountain-sun-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "forest-pencil",
+      "b": "forest-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "crib-pencil",
+      "b": "crib-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "diaper-pencil",
+      "b": "diaper-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "bib-pencil",
+      "b": "bib-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "donation-box-pencil",
+      "b": "donation-box-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "user-circle-pencil",
+      "b": "user-circle-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "couple-pencil",
+      "b": "couple-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "fossil-pencil",
+      "b": "fossil-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "siren-pencil",
+      "b": "siren-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "key-card-pencil",
+      "b": "key-card-leaf",
       "distance": 1.41
     },
     {
@@ -324,207 +942,525 @@
       "distance": 1
     },
     {
-      "a": "dumbbell-music",
-      "b": "barbell-music",
+      "a": "thumbs-up-leaf",
+      "b": "thumbs-up-pencil",
       "distance": 1.41
     },
     {
-      "a": "ram-fire",
-      "b": "container-fire",
+      "a": "peace-hand-leaf",
+      "b": "peace-hand-pencil",
       "distance": 1.41
     },
     {
-      "a": "whisk-fire",
-      "b": "screwdriver-fire",
+      "a": "dumbbell-pencil",
+      "b": "barbell-leaf",
       "distance": 1.41
     },
     {
-      "a": "wardrobe-fire",
-      "b": "cupboard-fire",
+      "a": "curling-stone-pencil",
+      "b": "curling-stone-leaf",
       "distance": 1.41
     },
     {
-      "a": "ticket-lock",
-      "b": "ticket-fire",
+      "a": "jet-ski-pencil",
+      "b": "jet-ski-leaf",
       "distance": 1.41
     },
     {
-      "a": "phone-lock",
-      "b": "phone-fire",
+      "a": "scoreboard-pencil",
+      "b": "scoreboard-leaf",
       "distance": 1.41
     },
     {
-      "a": "inbox-lock",
-      "b": "inbox-fire",
+      "a": "volleyball-pencil",
+      "b": "volleyball-leaf",
       "distance": 1.41
     },
     {
-      "a": "laptop-fire",
-      "b": "laptop-lock",
+      "a": "climbing-wall-pencil",
+      "b": "climbing-wall-leaf",
       "distance": 1.41
     },
     {
-      "a": "wifi-lock",
-      "b": "wifi-fire",
+      "a": "stadium-pencil",
+      "b": "stadium-leaf",
       "distance": 1.41
     },
     {
-      "a": "watch-lock",
-      "b": "watch-fire",
+      "a": "swimmer-pencil",
+      "b": "swimmer-leaf",
       "distance": 1.41
     },
     {
-      "a": "router-lock",
-      "b": "router-fire",
+      "a": "bike-helmet-pencil",
+      "b": "bike-helmet-leaf",
       "distance": 1.41
     },
     {
-      "a": "book-fire",
-      "b": "book-lock",
+      "a": "clock-history-pencil",
+      "b": "clock-history-leaf",
       "distance": 1.41
     },
     {
-      "a": "plug-lock",
-      "b": "plug-fire",
+      "a": "snooze-pencil",
+      "b": "snooze-leaf",
       "distance": 1.41
     },
     {
-      "a": "bank-lock",
-      "b": "bank-fire",
+      "a": "valve-pencil",
+      "b": "valve-leaf",
       "distance": 1.41
     },
     {
-      "a": "trophy-lock",
-      "b": "trophy-fire",
+      "a": "safety-vest-pencil",
+      "b": "safety-vest-leaf",
       "distance": 1.41
     },
     {
-      "a": "gamepad-lock",
-      "b": "gamepad-fire",
+      "a": "lawn-mower-pencil",
+      "b": "lawn-mower-leaf",
       "distance": 1.41
     },
     {
-      "a": "bookmark-lock",
-      "b": "bookmark-fire",
+      "a": "sawhorse-pencil",
+      "b": "sawhorse-leaf",
       "distance": 1.41
     },
     {
-      "a": "link-lock",
-      "b": "link-fire",
+      "a": "workbench-pencil",
+      "b": "workbench-leaf",
       "distance": 1.41
     },
     {
-      "a": "edit-lock",
-      "b": "edit-fire",
+      "a": "rv-pencil",
+      "b": "rv-leaf",
       "distance": 1.41
     },
     {
-      "a": "users-lock",
-      "b": "users-fire",
+      "a": "tollbooth-pencil",
+      "b": "tollbooth-leaf",
       "distance": 1.41
     },
     {
-      "a": "dna-lock",
-      "b": "dna-fire",
+      "a": "speedometer-pencil",
+      "b": "speedometer-leaf",
       "distance": 1.41
     },
     {
-      "a": "school-lock",
-      "b": "school-fire",
+      "a": "car-door-pencil",
+      "b": "car-door-leaf",
       "distance": 1.41
     },
     {
-      "a": "branch-lock",
-      "b": "branch-fire",
+      "a": "license-plate-pencil",
+      "b": "license-plate-leaf",
       "distance": 1.41
     },
     {
-      "a": "clipboard-lock",
-      "b": "clipboard-fire",
+      "a": "camper-trailer-pencil",
+      "b": "camper-trailer-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "car-side-pencil",
+      "b": "car-side-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "pickup-truck-pencil",
+      "b": "pickup-truck-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "van-pencil",
+      "b": "van-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "gas-pump-pencil",
+      "b": "gas-pump-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "motorbike-pencil",
+      "b": "motorbike-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "sauna-pencil",
+      "b": "sauna-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "water-canteen-pencil",
+      "b": "water-canteen-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "boarding-pass-pencil",
+      "b": "boarding-pass-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "airplane-seat-pencil",
+      "b": "airplane-seat-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "island-pencil",
+      "b": "island-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "barometer-pencil",
+      "b": "barometer-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "flood-pencil",
+      "b": "flood-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "wildfire-pencil",
+      "b": "wildfire-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "sunset-pencil",
+      "b": "sunset-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "voice-assistant-moon",
+      "b": "dollar-coin-moon",
+      "distance": 1
+    },
+    {
+      "a": "igloo-trophy",
+      "b": "protractor-trophy",
+      "distance": 1.41
+    },
+    {
+      "a": "igloo-moon",
+      "b": "protractor-moon",
+      "distance": 1.41
+    },
+    {
+      "a": "token-coin-moon",
+      "b": "hex-nut-moon",
+      "distance": 1.41
+    },
+    {
+      "a": "cinnamon-roll-moon",
+      "b": "fossil-moon",
+      "distance": 0
+    },
+    {
+      "a": "lamp-moon",
+      "b": "floor-lamp-moon",
+      "distance": 1.41
+    },
+    {
+      "a": "video-doorbell-moon",
+      "b": "do-not-disturb-moon",
+      "distance": 1.41
+    },
+    {
+      "a": "film-reel-moon",
+      "b": "hex-nut-moon",
+      "distance": 1.41
+    },
+    {
+      "a": "dumbbell-moon",
+      "b": "barbell-moon",
+      "distance": 1.41
+    },
+    {
+      "a": "dumbbell-trophy",
+      "b": "barbell-trophy",
+      "distance": 1.41
+    },
+    {
+      "a": "voice-assistant-fire",
+      "b": "dollar-coin-fire",
+      "distance": 1
+    },
+    {
+      "a": "igloo-fire",
+      "b": "protractor-fire",
+      "distance": 1.41
+    },
+    {
+      "a": "discount-fire",
+      "b": "discount-badge-fire",
+      "distance": 1
+    },
+    {
+      "a": "cinnamon-roll-fire",
+      "b": "fossil-fire",
+      "distance": 0
+    },
+    {
+      "a": "lamp-fire",
+      "b": "floor-lamp-fire",
+      "distance": 1.41
+    },
+    {
+      "a": "video-doorbell-fire",
+      "b": "do-not-disturb-fire",
+      "distance": 1.41
+    },
+    {
+      "a": "dumbbell-fire",
+      "b": "barbell-fire",
+      "distance": 1.41
+    },
+    {
+      "a": "lamp-trophy",
+      "b": "floor-lamp-trophy",
       "distance": 1.41
     }
   ],
   "dropped": [
-    "cursor-click-music",
-    "moon-music",
-    "moon-fire",
-    "speaking-head-music",
-    "moon-stars-music",
-    "dollar-coin-music",
-    "protractor-music",
-    "discount-badge-music",
-    "screwdriver-music",
-    "fossil-music",
-    "floor-lamp-music",
-    "cupboard-music",
-    "do-not-disturb-music",
-    "barbell-music",
-    "container-fire",
-    "screwdriver-fire",
-    "cupboard-fire",
-    "ticket-fire",
-    "phone-fire",
-    "inbox-fire",
-    "laptop-fire",
-    "wifi-fire",
-    "watch-fire",
-    "router-fire",
-    "book-fire",
-    "plug-fire",
-    "bank-fire",
-    "trophy-fire",
-    "gamepad-fire",
-    "bookmark-fire",
-    "link-fire",
-    "edit-fire",
-    "users-fire",
-    "dna-fire",
-    "school-fire",
-    "branch-fire",
-    "clipboard-fire"
+    "cursor-click-fire",
+    "cursor-click-trophy",
+    "cursor-click-leaf",
+    "cursor-click-moon",
+    "speaking-head-fire",
+    "speaking-head-trophy",
+    "speaking-head-leaf",
+    "speaking-head-moon",
+    "moon-stars-fire",
+    "moon-stars-trophy",
+    "moon-stars-leaf",
+    "moon-stars-moon",
+    "astronaut-leaf",
+    "brain-circuit-leaf",
+    "neural-net-leaf",
+    "voice-assistant-trophy",
+    "voice-assistant-leaf",
+    "rhino-leaf",
+    "bird-cage-leaf",
+    "pagoda-leaf",
+    "pyramid-leaf",
+    "garage-leaf",
+    "gazebo-leaf",
+    "exit-sign-leaf",
+    "apartment-leaf",
+    "igloo-leaf",
+    "pencil-cup-leaf",
+    "ballot-box-leaf",
+    "paper-shredder-leaf",
+    "binder-leaf",
+    "desk-leaf",
+    "office-chair-leaf",
+    "clipboard-list-leaf",
+    "snow-globe-leaf",
+    "birthday-cake-leaf",
+    "lantern-chinese-leaf",
+    "easter-egg-leaf",
+    "discount-badge-leaf",
+    "hanging-sign-leaf",
+    "gift-card-leaf",
+    "coupon-leaf",
+    "online-shop-leaf",
+    "vending-machine-leaf",
+    "basket-full-leaf",
+    "marketplace-leaf",
+    "telephone-old-leaf",
+    "at-sign-leaf",
+    "rss-leaf",
+    "video-call-leaf",
+    "inbox-tray-leaf",
+    "voice-message-leaf",
+    "contact-book-leaf",
+    "sitemap-leaf",
+    "picture-frame-leaf",
+    "paint-can-leaf",
+    "crop-leaf",
+    "server-rack-leaf",
+    "circuit-leaf",
+    "variable-leaf",
+    "graphics-card-leaf",
+    "nfc-leaf",
+    "e-reader-leaf",
+    "bookshelf-leaf",
+    "test-paper-leaf",
+    "library-books-leaf",
+    "math-symbols-leaf",
+    "language-leaf",
+    "quiz-leaf",
+    "fuse-box-leaf",
+    "trousers-leaf",
+    "folder-open-leaf",
+    "file-zip-leaf",
+    "file-image-leaf",
+    "documents-stack-leaf",
+    "gold-bar-leaf",
+    "ledger-leaf",
+    "tip-jar-leaf",
+    "token-coin-leaf",
+    "french-press-leaf",
+    "apron-leaf",
+    "tomato-leaf",
+    "jam-jar-leaf",
+    "chocolate-leaf",
+    "serving-cloche-leaf",
+    "macaron-leaf",
+    "croissant-leaf",
+    "pancakes-leaf",
+    "pie-leaf",
+    "cinnamon-roll-trophy",
+    "cinnamon-roll-leaf",
+    "treasure-map-leaf",
+    "handheld-console-leaf",
+    "massage-stone-leaf",
+    "bath-salt-leaf",
+    "bathroom-scale-leaf",
+    "pill-blister-leaf",
+    "lungs-leaf",
+    "hospital-bed-leaf",
+    "ambulance-leaf",
+    "intercom-leaf",
+    "sink-leaf",
+    "coffee-machine-leaf",
+    "rice-cooker-leaf",
+    "moving-box-leaf",
+    "nightstand-leaf",
+    "dresser-leaf",
+    "house-number-leaf",
+    "sponge-leaf",
+    "floor-lamp-leaf",
+    "do-not-disturb-trophy",
+    "do-not-disturb-leaf",
+    "toggle-switch-leaf",
+    "checkbox-list-leaf",
+    "dropdown-leaf",
+    "pallet-leaf",
+    "container-leaf",
+    "cargo-ship-leaf",
+    "return-box-leaf",
+    "route-leaf",
+    "equalizer-leaf",
+    "xylophone-leaf",
+    "cd-leaf",
+    "film-reel-leaf",
+    "camera-action-leaf",
+    "trumpet-leaf",
+    "film-reel-trophy",
+    "mountain-flag-leaf",
+    "cherry-blossom-leaf",
+    "mountain-sun-leaf",
+    "forest-leaf",
+    "crib-leaf",
+    "diaper-leaf",
+    "bib-leaf",
+    "donation-box-leaf",
+    "user-circle-leaf",
+    "couple-leaf",
+    "fossil-leaf",
+    "siren-leaf",
+    "key-card-leaf",
+    "thumbs-up-leaf",
+    "peace-hand-leaf",
+    "barbell-leaf",
+    "curling-stone-leaf",
+    "jet-ski-leaf",
+    "scoreboard-leaf",
+    "volleyball-leaf",
+    "climbing-wall-leaf",
+    "stadium-leaf",
+    "swimmer-leaf",
+    "bike-helmet-leaf",
+    "clock-history-leaf",
+    "snooze-leaf",
+    "valve-leaf",
+    "safety-vest-leaf",
+    "lawn-mower-leaf",
+    "sawhorse-leaf",
+    "workbench-leaf",
+    "rv-leaf",
+    "tollbooth-leaf",
+    "speedometer-leaf",
+    "car-door-leaf",
+    "license-plate-leaf",
+    "camper-trailer-leaf",
+    "car-side-leaf",
+    "pickup-truck-leaf",
+    "van-leaf",
+    "gas-pump-leaf",
+    "motorbike-leaf",
+    "sauna-leaf",
+    "water-canteen-leaf",
+    "boarding-pass-leaf",
+    "airplane-seat-leaf",
+    "island-leaf",
+    "barometer-leaf",
+    "flood-leaf",
+    "wildfire-leaf",
+    "sunset-leaf",
+    "voice-assistant-moon",
+    "igloo-trophy",
+    "igloo-moon",
+    "token-coin-moon",
+    "fossil-moon",
+    "floor-lamp-moon",
+    "do-not-disturb-moon",
+    "film-reel-moon",
+    "barbell-moon",
+    "barbell-trophy",
+    "voice-assistant-fire",
+    "igloo-fire",
+    "discount-badge-fire",
+    "cinnamon-roll-fire",
+    "floor-lamp-fire",
+    "do-not-disturb-fire",
+    "barbell-fire",
+    "floor-lamp-trophy"
   ],
   "byCategory": {
-    "accessibility": 49,
+    "accessibility": 48,
     "actions": 44,
-    "ai": 218,
-    "animals": 1056,
+    "ai": 227,
+    "animals": 1027,
     "arrows": 121,
     "buildings": 661,
-    "business": 790,
-    "celebration": 630,
-    "commerce": 739,
-    "communication": 760,
-    "data": 283,
-    "design": 575,
-    "development": 414,
-    "devices": 941,
-    "education": 557,
+    "business": 803,
+    "celebration": 645,
+    "commerce": 745,
+    "communication": 775,
+    "data": 285,
+    "design": 585,
+    "development": 420,
+    "devices": 932,
+    "education": 564,
     "emoji": 41,
-    "energy": 189,
-    "fashion": 854,
-    "files": 318,
-    "finance": 638,
-    "food": 2806,
-    "gaming": 640,
-    "health": 901,
-    "home": 1656,
-    "interface": 755,
-    "logistics": 287,
-    "maps": 160,
-    "media": 960,
-    "nature": 999,
+    "energy": 186,
+    "fashion": 843,
+    "files": 322,
+    "finance": 637,
+    "food": 2794,
+    "gaming": 634,
+    "health": 921,
+    "home": 1685,
+    "interface": 750,
+    "logistics": 293,
+    "maps": 158,
+    "media": 957,
+    "nature": 1026,
     "navigation": 35,
-    "notifications": 47,
-    "people": 520,
-    "science": 493,
-    "security": 311,
-    "social": 127,
-    "sports": 1038,
-    "text": 266,
-    "time": 162,
-    "tools": 872,
-    "transport": 973,
+    "notifications": 46,
+    "people": 549,
+    "science": 490,
+    "security": 307,
+    "social": 133,
+    "sports": 1042,
+    "text": 269,
+    "time": 163,
+    "tools": 878,
+    "transport": 991,
     "travel": 883,
-    "weather": 417
+    "weather": 437
   }
 }

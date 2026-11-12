@@ -1,0 +1,24 @@
+import { icon, body, line, accent } from '../src/dsl.mjs';
+import { R, C, E, L, A, D, poly, star, head, gear, rotateD, translateD, scaleD } from '../src/geo.mjs';
+
+const rot = (els, deg, cx = 12, cy = 12) => els.map((e) => ({ ...e, d: rotateD(e.d, deg, cx, cy) }));
+const spark = (x, y, r) => accent(star(x, y, r, r * 0.32, 4, 0.2));
+
+export default {
+  category: 'interface',
+  icons: [
+    icon('layout-sidebar-fire', 'Trending Layout Sidebar', ['trending', 'hot', 'popular', 'layout sidebar', 'layout-sidebar'], [body(R(3, 4, 13, 12.5, 1.5)), line('M7.5 4.2v12.1M4.7 7h1.5M4.7 9.5h1.5'), body('M17 12c2 1.8 3.6 3.6 3.6 5.6a3.6 3.6 0 0 1-7.2 0c0-1.4.7-2.5 1.6-3.4.2 1 .7 1.7 1.4 1.9-.3-1.7.1-3 .6-4.1Z', { cover: true })], { noAccent: true }),
+    icon('toggle-switch-fire', 'Trending Toggle Switch', ['trending', 'hot', 'popular', 'toggle switch', 'toggle-switch'], [body(R(2.5, 6.5, 14, 7.5, 3.75)), line(C(12.75, 10.25, 2.2)), body('M17 12c2 1.8 3.6 3.6 3.6 5.6a3.6 3.6 0 0 1-7.2 0c0-1.4.7-2.5 1.6-3.4.2 1 .7 1.7 1.4 1.9-.3-1.7.1-3 .6-4.1Z', { cover: true })], { noAccent: true }),
+    icon('checkbox-list-fire', 'Trending Checkbox List', ['trending', 'hot', 'popular', 'checkbox list', 'checkbox-list'], [body(R(3, 4, 4, 4, 0.8)), line('M4 6l.8.8 1.4-1.6'), body(R(3, 12, 4, 4, 0.8)), line('M9.5 6h6.5M9.5 14h6.5'), body('M17 12c2 1.8 3.6 3.6 3.6 5.6a3.6 3.6 0 0 1-7.2 0c0-1.4.7-2.5 1.6-3.4.2 1 .7 1.7 1.4 1.9-.3-1.7.1-3 .6-4.1Z', { cover: true })], { noAccent: true }),
+    icon('dropdown-fire', 'Trending Dropdown', ['trending', 'hot', 'popular', 'dropdown', 'dropdown'], [body(R(3, 6.5, 13, 7, 1.5)), line('M5.5 10h4'), line('M11.5 9l1.5 1.5L14.5 9'), body('M17 12c2 1.8 3.6 3.6 3.6 5.6a3.6 3.6 0 0 1-7.2 0c0-1.4.7-2.5 1.6-3.4.2 1 .7 1.7 1.4 1.9-.3-1.7.1-3 .6-4.1Z', { cover: true })], { noAccent: true }),
+    icon('layout-sidebar-trophy', 'Layout Sidebar Award', ['award', 'winner', 'achievement', 'layout sidebar', 'layout-sidebar'], [body(R(3, 4, 13, 12.5, 1.5)), line('M7.5 4.2v12.1M4.7 7h1.5M4.7 9.5h1.5'), body('M14 12.8h6v2.7a3 3 0 0 1-6 0Z', { cover: true }), line('M17 18.5v1.7M15 20.6h4M14 13.8h-1v.6a1.6 1.6 0 0 0 1.4 1.6M20 13.8h1v.6a1.6 1.6 0 0 1-1.4 1.6')], { noAccent: true }),
+    icon('toggle-switch-trophy', 'Toggle Switch Award', ['award', 'winner', 'achievement', 'toggle switch', 'toggle-switch'], [body(R(2.5, 6.5, 14, 7.5, 3.75)), line(C(12.75, 10.25, 2.2)), body('M14 12.8h6v2.7a3 3 0 0 1-6 0Z', { cover: true }), line('M17 18.5v1.7M15 20.6h4M14 13.8h-1v.6a1.6 1.6 0 0 0 1.4 1.6M20 13.8h1v.6a1.6 1.6 0 0 1-1.4 1.6')], { noAccent: true }),
+    icon('checkbox-list-trophy', 'Checkbox List Award', ['award', 'winner', 'achievement', 'checkbox list', 'checkbox-list'], [body(R(3, 4, 4, 4, 0.8)), line('M4 6l.8.8 1.4-1.6'), body(R(3, 12, 4, 4, 0.8)), line('M9.5 6h6.5M9.5 14h6.5'), body('M14 12.8h6v2.7a3 3 0 0 1-6 0Z', { cover: true }), line('M17 18.5v1.7M15 20.6h4M14 13.8h-1v.6a1.6 1.6 0 0 0 1.4 1.6M20 13.8h1v.6a1.6 1.6 0 0 1-1.4 1.6')], { noAccent: true }),
+    icon('dropdown-trophy', 'Dropdown Award', ['award', 'winner', 'achievement', 'dropdown', 'dropdown'], [body(R(3, 6.5, 13, 7, 1.5)), line('M5.5 10h4'), line('M11.5 9l1.5 1.5L14.5 9'), body('M14 12.8h6v2.7a3 3 0 0 1-6 0Z', { cover: true }), line('M17 18.5v1.7M15 20.6h4M14 13.8h-1v.6a1.6 1.6 0 0 0 1.4 1.6M20 13.8h1v.6a1.6 1.6 0 0 1-1.4 1.6')], { noAccent: true }),
+    icon('layout-sidebar-leaf', 'Eco Layout Sidebar', ['eco', 'green', 'sustainable', 'layout sidebar', 'layout-sidebar'], [body(R(3, 4, 13, 12.5, 1.5)), line('M7.5 4.2v12.1M4.7 7h1.5M4.7 9.5h1.5'), body('M13 20.5c0-4.5 3-7.5 8-8 .3 5-2.7 8-8 8Z', { cover: true }), line('M13.6 19.9 17.5 16')], { noAccent: true }),
+    icon('layout-sidebar-moon', 'Layout Sidebar Night Mode', ['night', 'dark mode', 'sleep', 'layout sidebar', 'layout-sidebar'], [body(R(3, 4, 13, 12.5, 1.5)), line('M7.5 4.2v12.1M4.7 7h1.5M4.7 9.5h1.5'), body('M20.5 18.7A4 4 0 0 1 16 12.6a4.2 4.2 0 1 0 4.5 6.1Z', { cover: true })], { noAccent: true }),
+    icon('toggle-switch-moon', 'Toggle Switch Night Mode', ['night', 'dark mode', 'sleep', 'toggle switch', 'toggle-switch'], [body(R(2.5, 6.5, 14, 7.5, 3.75)), line(C(12.75, 10.25, 2.2)), body('M20.5 18.7A4 4 0 0 1 16 12.6a4.2 4.2 0 1 0 4.5 6.1Z', { cover: true })], { noAccent: true }),
+    icon('checkbox-list-moon', 'Checkbox List Night Mode', ['night', 'dark mode', 'sleep', 'checkbox list', 'checkbox-list'], [body(R(3, 4, 4, 4, 0.8)), line('M4 6l.8.8 1.4-1.6'), body(R(3, 12, 4, 4, 0.8)), line('M9.5 6h6.5M9.5 14h6.5'), body('M20.5 18.7A4 4 0 0 1 16 12.6a4.2 4.2 0 1 0 4.5 6.1Z', { cover: true })], { noAccent: true }),
+    icon('dropdown-moon', 'Dropdown Night Mode', ['night', 'dark mode', 'sleep', 'dropdown', 'dropdown'], [body(R(3, 6.5, 13, 7, 1.5)), line('M5.5 10h4'), line('M11.5 9l1.5 1.5L14.5 9'), body('M20.5 18.7A4 4 0 0 1 16 12.6a4.2 4.2 0 1 0 4.5 6.1Z', { cover: true })], { noAccent: true }),
+  ],
+};
