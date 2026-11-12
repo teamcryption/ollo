@@ -1,0 +1,27 @@
+import { icon, body, line, accent } from '../src/dsl.mjs';
+import { R, C, E, L, A, D, poly, star, head, gear, rotateD, translateD, scaleD } from '../src/geo.mjs';
+
+const rot = (els, deg, cx = 12, cy = 12) => els.map((e) => ({ ...e, d: rotateD(e.d, deg, cx, cy) }));
+const spark = (x, y, r) => accent(star(x, y, r, r * 0.32, 4, 0.2));
+
+export default {
+  category: 'weather',
+  icons: [
+    icon('snowflake-checkbox', 'Approve Snowflake', ['approve', 'check', 'verified', 'snowflake', 'snowflake'], [line('M9.5 3.5v14M3.4 7l12.2 7M3.4 14l12.2-7'), line('M7.8 4.7l1.7 1.6 1.7-1.6M7.8 16.3l1.7-1.6 1.7 1.6'), body(R(13, 12.5, 8, 8, 2), { cover: true }), line('M15.2 16.6l1.3 1.3 2.4-2.6')], { noAccent: true }),
+    icon('sunrise-checkbox', 'Approve Sunrise', ['approve', 'check', 'verified', 'sunrise', 'sunrise'], [line('M9.5 4v2M3.5 8.5l1.4 1M15.5 8.5l-1.4 1'), body('M4.5 13.5a5 5 0 0 1 10 0Z'), line('M2.5 16.5h14'), body(R(13, 12.5, 8, 8, 2), { cover: true }), line('M15.2 16.6l1.3 1.3 2.4-2.6')], { noAccent: true }),
+    icon('wind-checkbox', 'Approve Wind', ['approve', 'check', 'verified', 'wind', 'wind'], [line('M3 8h9a2.5 2.5 0 1 0-2.5-2.5M3 12h11.5a2.5 2.5 0 1 1-2.5 2.5M3 16h5'), body(R(13, 12.5, 8, 8, 2), { cover: true }), line('M15.2 16.6l1.3 1.3 2.4-2.6')], { noAccent: true }),
+    icon('umbrella-closed-checkbox', 'Approve Umbrella', ['approve', 'check', 'verified', 'umbrella', 'umbrella-closed'], [line('M9.5 3v2'), body('M9.5 5 12 13H7Z'), line('M9.5 13.2V16a1.5 1.5 0 0 1-3 0'), body(R(13, 12.5, 8, 8, 2), { cover: true }), line('M15.2 16.6l1.3 1.3 2.4-2.6')], { noAccent: true }),
+    icon('icicles-checkbox', 'Approve Icicles', ['approve', 'check', 'verified', 'icicles', 'icicles'], [line('M3 4.5h13'), line('M4.5 4.7 5.5 11 6.5 4.7M8.5 4.7l1 8.5 1-8.5M12.5 4.7l1 6 1-6'), body(R(13, 12.5, 8, 8, 2), { cover: true }), line('M15.2 16.6l1.3 1.3 2.4-2.6')], { noAccent: true }),
+    icon('rain-gauge-checkbox', 'Approve Rain Gauge', ['approve', 'check', 'verified', 'rain gauge', 'rain-gauge'], [body('M6.5 3.5h6l-1 14.5h-4Z'), line('M7.5 7h2M7.5 10h2M7.5 13h2'), line('M5 18.5h9'), body(R(13, 12.5, 8, 8, 2), { cover: true }), line('M15.2 16.6l1.3 1.3 2.4-2.6')], { noAccent: true }),
+    icon('barometer-checkbox', 'Approve Barometer', ['approve', 'check', 'verified', 'barometer', 'barometer'], [body(C(9.5, 10.5, 6.5)), line('M9.5 10.5l3-3'), line('M5.5 11.5h1M12.5 11.5h1M9.5 6v1'), body(C(9.5, 10.5, 1)), body(R(13, 12.5, 8, 8, 2), { cover: true }), line('M15.2 16.6l1.3 1.3 2.4-2.6')], { noAccent: true }),
+    icon('wind-sock-checkbox', 'Approve Windsock', ['approve', 'check', 'verified', 'windsock', 'wind-sock'], [line('M4 18V3'), body(poly([[4.4, 4], [15, 5.5], [15, 9.5], [4.4, 11]], 0.6, true)), line('M8 4.6v5.8M11.5 5v5'), body(R(13, 12.5, 8, 8, 2), { cover: true }), line('M15.2 16.6l1.3 1.3 2.4-2.6')], { noAccent: true }),
+    icon('fog-checkbox', 'Approve Fog', ['approve', 'check', 'verified', 'fog', 'fog'], [line('M3 7h13M5 10.5h11M3 14h9M7 17.5h9'), body(R(13, 12.5, 8, 8, 2), { cover: true }), line('M15.2 16.6l1.3 1.3 2.4-2.6')], { noAccent: true }),
+    icon('earthquake-checkbox', 'Approve Earthquake', ['approve', 'check', 'verified', 'earthquake', 'earthquake'], [line('M2.5 10.5h3l1.5-4 2 8 2-10 2 9 1.5-3h2.5'), body(R(13, 12.5, 8, 8, 2), { cover: true }), line('M15.2 16.6l1.3 1.3 2.4-2.6')], { noAccent: true }),
+    icon('flood-checkbox', 'Approve Flood', ['approve', 'check', 'verified', 'flood', 'flood'], [body(poly([[4, 9.5], [9.5, 4.5], [15, 9.5], [15, 13], [4, 13]], 0.6, true)), line('M3 15.5c1.3-1 2.7-1 4 0s2.7 1 4 0 2.7-1 4 0M3 18c1.3-1 2.7-1 4 0s2.7 1 4 0 2.7-1 4 0'), body(R(13, 12.5, 8, 8, 2), { cover: true }), line('M15.2 16.6l1.3 1.3 2.4-2.6')], { noAccent: true }),
+    icon('wildfire-checkbox', 'Approve Wildfire', ['approve', 'check', 'verified', 'wildfire', 'wildfire'], [body('M9.5 3c2.5 2.5 4 4.5 4 7a4 4 0 0 1-8 0c0-1.5.6-2.6 1.5-3.6.2 1 .7 1.6 1.3 1.8-.3-1.9.2-3.6 1.2-5.2Z'), line('M3 17.5l2.5-3 2 2 2-3 2 2 2-3 2.5 5'), body(R(13, 12.5, 8, 8, 2), { cover: true }), line('M15.2 16.6l1.3 1.3 2.4-2.6')], { noAccent: true }),
+    icon('sunset-checkbox', 'Approve Sunset', ['approve', 'check', 'verified', 'sunset', 'sunset'], [line('M2.5 15.5h14M5 18h9'), body('M4 13.5a5.5 5.5 0 0 1 11 0Z'), line('M9.5 4v2.5M3.5 6.5l1.5 1.5M15.5 6.5 14 8'), body(R(13, 12.5, 8, 8, 2), { cover: true }), line('M15.2 16.6l1.3 1.3 2.4-2.6')], { noAccent: true }),
+    icon('thunderstorm-checkbox', 'Approve Thunderstorm', ['approve', 'check', 'verified', 'thunderstorm', 'thunderstorm'], [body('M5 12.5a3 3 0 0 1 .3-6 4 4 0 0 1 7.7-.5 3 3 0 0 1 .5 6.5Z'), line('M9 13.5l-1.5 2.5h2.5L8.5 18.5'), body(R(13, 12.5, 8, 8, 2), { cover: true }), line('M15.2 16.6l1.3 1.3 2.4-2.6')], { noAccent: true }),
+    icon('heat-wave-checkbox', 'Approve Heat Wave', ['approve', 'check', 'verified', 'heat wave', 'heat-wave'], [line('M5 5c1.5 1.5 1.5 3 0 4.5s-1.5 3 0 4.5M9.5 5c1.5 1.5 1.5 3 0 4.5s-1.5 3 0 4.5M14 5c1.5 1.5 1.5 3 0 4.5s-1.5 3 0 4.5'), line('M3 17.5h13'), body(R(13, 12.5, 8, 8, 2), { cover: true }), line('M15.2 16.6l1.3 1.3 2.4-2.6')], { noAccent: true }),
+    icon('thunderstorm-addbox', 'New Thunderstorm', ['new', 'add', 'create', 'thunderstorm', 'thunderstorm'], [body('M5 12.5a3 3 0 0 1 .3-6 4 4 0 0 1 7.7-.5 3 3 0 0 1 .5 6.5Z'), line('M9 13.5l-1.5 2.5h2.5L8.5 18.5'), body(R(13, 12.5, 8, 8, 2), { cover: true }), line('M17 14.6v3.8M15.1 16.5h3.8')], { noAccent: true }),
+  ],
+};
