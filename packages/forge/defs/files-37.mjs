@@ -1,0 +1,22 @@
+import { icon, body, line, accent } from '../src/dsl.mjs';
+import { R, C, E, L, A, D, poly, star, head, gear, rotateD, translateD, scaleD } from '../src/geo.mjs';
+
+const rot = (els, deg, cx = 12, cy = 12) => els.map((e) => ({ ...e, d: rotateD(e.d, deg, cx, cy) }));
+const spark = (x, y, r) => accent(star(x, y, r, r * 0.32, 4, 0.2));
+
+export default {
+  category: 'files',
+  icons: [
+    icon('folder-open-trash', 'Delete Folder Open', ['delete', 'remove', 'trash', 'folder open', 'folder-open'], [body('M3 6a1.5 1.5 0 0 1 1.5-1.5h3.5l1.5 2h5A1.5 1.5 0 0 1 16 8v1H6.5L3 16Z'), body('M6 9.3h11l-3 7.2H3Z'), body('M14.6 14.6h4.8l-.5 5.9h-3.8Z', { cover: true }), line('M13.8 14.6h6.4M16 14.4v-1.2h2v1.2')], { noAccent: true }),
+    icon('file-zip-trash', 'Delete File Zip', ['delete', 'remove', 'trash', 'file zip', 'file-zip'], [body('M5 3h6.5L15 6.5V17a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1Z'), line('M8 4v1.5M9.5 5.5V7M8 7v1.5M9.5 8.5V10'), body(R(7.5, 11, 3, 3, 0.6)), body('M14.6 14.6h4.8l-.5 5.9h-3.8Z', { cover: true }), line('M13.8 14.6h6.4M16 14.4v-1.2h2v1.2')], { noAccent: true }),
+    icon('file-image-trash', 'Delete File Image', ['delete', 'remove', 'trash', 'file image', 'file-image'], [body('M5 3h6.5L15 6.5V17a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1Z'), line('M6.5 15.5 9 12.5l1.8 1.8 1.2-1.3 1.5 2.5'), line(C(8, 9, 1)), body('M14.6 14.6h4.8l-.5 5.9h-3.8Z', { cover: true }), line('M13.8 14.6h6.4M16 14.4v-1.2h2v1.2')], { noAccent: true }),
+    icon('documents-stack-trash', 'Delete Documents Stack', ['delete', 'remove', 'trash', 'documents stack', 'documents-stack'], [body('M7 3h6.5L16 5.5V14a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1Z'), line('M4 6v10.5A1.5 1.5 0 0 0 5.5 18H13'), body('M14.6 14.6h4.8l-.5 5.9h-3.8Z', { cover: true }), line('M13.8 14.6h6.4M16 14.4v-1.2h2v1.2')], { noAccent: true }),
+    icon('folder-open-flag', 'Report Folder Open', ['report', 'flag', 'mark', 'folder open', 'folder-open'], [body('M3 6a1.5 1.5 0 0 1 1.5-1.5h3.5l1.5 2h5A1.5 1.5 0 0 1 16 8v1H6.5L3 16Z'), body('M6 9.3h11l-3 7.2H3Z'), body('M14.3 13h6l-1.5 2.2 1.5 2.3h-6Z', { cover: true }), line('M14.3 13v8')], { noAccent: true }),
+    icon('file-zip-flag', 'Report File Zip', ['report', 'flag', 'mark', 'file zip', 'file-zip'], [body('M5 3h6.5L15 6.5V17a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1Z'), line('M8 4v1.5M9.5 5.5V7M8 7v1.5M9.5 8.5V10'), body(R(7.5, 11, 3, 3, 0.6)), body('M14.3 13h6l-1.5 2.2 1.5 2.3h-6Z', { cover: true }), line('M14.3 13v8')], { noAccent: true }),
+    icon('file-image-flag', 'Report File Image', ['report', 'flag', 'mark', 'file image', 'file-image'], [body('M5 3h6.5L15 6.5V17a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1Z'), line('M6.5 15.5 9 12.5l1.8 1.8 1.2-1.3 1.5 2.5'), line(C(8, 9, 1)), body('M14.3 13h6l-1.5 2.2 1.5 2.3h-6Z', { cover: true }), line('M14.3 13v8')], { noAccent: true }),
+    icon('documents-stack-flag', 'Report Documents Stack', ['report', 'flag', 'mark', 'documents stack', 'documents-stack'], [body('M7 3h6.5L16 5.5V14a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1Z'), line('M4 6v10.5A1.5 1.5 0 0 0 5.5 18H13'), body('M14.3 13h6l-1.5 2.2 1.5 2.3h-6Z', { cover: true }), line('M14.3 13v8')], { noAccent: true }),
+    icon('file-zip-upload', 'Upload File Zip', ['upload', 'send', 'export', 'file zip', 'file-zip'], [body('M5 3h6.5L15 6.5V17a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1Z'), line('M8 4v1.5M9.5 5.5V7M8 7v1.5M9.5 8.5V10'), body(R(7.5, 11, 3, 3, 0.6)), body(poly([[17, 12.3], [20.8, 16.3], [18.5, 16.3], [18.5, 20.5], [15.5, 20.5], [15.5, 16.3], [13.2, 16.3]], 0.5, true), { cover: true })], { noAccent: true }),
+    icon('file-image-upload', 'Upload File Image', ['upload', 'send', 'export', 'file image', 'file-image'], [body('M5 3h6.5L15 6.5V17a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1Z'), line('M6.5 15.5 9 12.5l1.8 1.8 1.2-1.3 1.5 2.5'), line(C(8, 9, 1)), body(poly([[17, 12.3], [20.8, 16.3], [18.5, 16.3], [18.5, 20.5], [15.5, 20.5], [15.5, 16.3], [13.2, 16.3]], 0.5, true), { cover: true })], { noAccent: true }),
+    icon('documents-stack-upload', 'Upload Documents Stack', ['upload', 'send', 'export', 'documents stack', 'documents-stack'], [body('M7 3h6.5L16 5.5V14a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1Z'), line('M4 6v10.5A1.5 1.5 0 0 0 5.5 18H13'), body(poly([[17, 12.3], [20.8, 16.3], [18.5, 16.3], [18.5, 20.5], [15.5, 20.5], [15.5, 16.3], [13.2, 16.3]], 0.5, true), { cover: true })], { noAccent: true }),
+  ],
+};
