@@ -88,5 +88,23 @@
     "c": "media",
     "t": "Stage spotlights",
     "g": "spotlight stage lights event show theatre media"
+  },
+  {
+    "file": "testtubes.js",
+    "c": "science",
+    "t": "Test tube rack",
+    "g": "test tube lab laboratory science chemistry research sample"
+  },
+  {
+    "file": "brickwall.js",
+    "c": "construction",
+    "t": "Brick wall",
+    "g": "bricks wall construction building masonry renovation"
+  },
+  {
+    "file": "wrenches.js",
+    "c": "automotive",
+    "t": "Spanner tray",
+    "g": "spanner wrench tools repair mechanic garage service"
   }
 ]
