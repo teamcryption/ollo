@@ -1,840 +1,659 @@
 {
-  "generatedAt": "2026-11-13T04:17:10.057Z",
-  "icons": 55610,
-  "files": 278050,
+  "generatedAt": "2026-11-13T04:21:24.578Z",
+  "icons": 56613,
+  "files": 283065,
   "errors": [],
   "warnings": [
-    "tornado-camera: grid: outside the 3-21 live area (3.36, 4.44, 22.00, 20.50)",
-    "celsius-camera: grid: outside the 3-21 live area (4.08, 4.08, 22.00, 20.50)",
-    "fahrenheit-camera: grid: outside the 3-21 live area (4.08, 4.08, 22.00, 20.50)",
-    "thermometer-sun-camera: grid: outside the 3-21 live area (3.36, 3.00, 22.00, 20.50)",
-    "hurricane-camera: grid: outside the 3-21 live area (6.24, 4.08, 22.00, 20.50)",
-    "sun-dim-camera: grid: outside the 3-21 live area (4.08, 4.08, 22.00, 20.50)",
-    "humidity-camera: grid: outside the 3-21 live area (5.16, 3.36, 22.00, 20.50)",
-    "tide-camera: grid: outside the 3-21 live area (3.36, 11.82, 22.00, 20.50)",
-    "thermometer-snow-camera: grid: outside the 3-21 live area (3.36, 3.00, 22.00, 20.50)",
-    "weather-vane-camera: grid: outside the 3-21 live area (3.51, 4.80, 22.00, 20.50)",
-    "anemometer-camera: grid: outside the 3-21 live area (3.36, 5.52, 22.00, 20.50)",
-    "cloud-sun-camera: grid: outside the 3-21 live area (2.64, 4.01, 22.00, 20.50)",
-    "rain-camera: grid: outside the 3-21 live area (2.96, 3.56, 22.00, 20.50)",
-    "snow-camera: grid: outside the 3-21 live area (2.96, 3.56, 22.00, 20.50)",
-    "storm-camera: grid: outside the 3-21 live area (2.96, 3.56, 22.00, 20.50)",
-    "lightning-camera: grid: outside the 3-21 live area (5.07, 3.32, 22.00, 20.50)",
-    "droplet-camera: grid: outside the 3-21 live area (5.16, 3.36, 22.00, 20.50)"
+    "chart-grouped-camera: grid: outside the 3-21 live area (3.36, 5.88, 22.00, 20.50)",
+    "chart-range-camera: grid: outside the 3-21 live area (3.36, 4.44, 22.00, 20.50)",
+    "chart-slope-camera: grid: outside the 3-21 live area (3.29, 4.73, 22.00, 20.50)",
+    "chart-spline-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
+    "chart-area-stacked-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
+    "chart-growth-camera: grid: outside the 3-21 live area (4.44, 7.68, 22.00, 20.50)",
+    "chart-decline-camera: grid: outside the 3-21 live area (4.44, 7.68, 22.00, 20.50)",
+    "chart-sankey-camera: grid: outside the 3-21 live area (3.36, 4.44, 22.00, 20.50)",
+    "chart-bar-horizontal-camera: grid: outside the 3-21 live area (3.36, 3.00, 22.00, 20.50)",
+    "chart-radar-camera: grid: outside the 3-21 live area (3.80, 3.86, 22.00, 20.50)",
+    "chart-bubble-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
+    "chart-histogram-camera: grid: outside the 3-21 live area (3.72, 4.44, 22.00, 20.50)",
+    "heatmap-camera: grid: outside the 3-21 live area (3.29, 3.29, 22.00, 20.50)",
+    "chart-waterfall-camera: grid: outside the 3-21 live area (3.36, 5.88, 22.00, 20.50)",
+    "chart-gantt-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
+    "chart-mixed-camera: grid: outside the 3-21 live area (3.72, 8.04, 22.00, 20.50)",
+    "chart-pyramid-camera: grid: outside the 3-21 live area (3.44, 8.04, 22.00, 20.50)",
+    "chart-treemap-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
+    "chart-points-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
+    "chart-stacked-camera: grid: outside the 3-21 live area (4.08, 4.44, 22.00, 20.50)",
+    "cloud-sync-camera: grid: outside the 3-21 live area (2.78, 5.63, 22.00, 20.50)",
+    "database-backup-camera: grid: outside the 3-21 live area (4.44, 3.36, 22.00, 20.50)",
+    "box-plot-camera: grid: outside the 3-21 live area (4.80, 3.72, 22.00, 20.50)",
+    "chart-lollipop-camera: grid: outside the 3-21 live area (3.36, 3.50, 22.00, 20.50)",
+    "sparkline-camera: grid: outside the 3-21 live area (3.36, 6.84, 22.00, 20.50)",
+    "chart-forecast-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
+    "chart-step-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
+    "pivot-table-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
+    "chart-polar-camera: grid: outside the 3-21 live area (4.50, 3.41, 22.00, 20.50)",
+    "chart-sunburst-camera: grid: outside the 3-21 live area (3.36, 3.41, 22.00, 20.50)",
+    "network-graph-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
+    "chart-line-multi-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
+    "chart-bar-camera: grid: outside the 3-21 live area (3.72, 3.72, 22.00, 20.50)",
+    "chart-line-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
+    "chart-pie-camera: grid: outside the 3-21 live area (3.69, 3.79, 22.00, 20.50)",
+    "chart-donut-camera: grid: outside the 3-21 live area (3.72, 3.72, 22.00, 20.50)",
+    "chart-area-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)"
   ],
   "duplicates": [
     {
-      "a": "bauble-filter",
-      "b": "humidity-filter",
+      "a": "chart-grouped-pencil",
+      "b": "chart-grouped-leaf",
       "distance": 1.41
     },
     {
-      "a": "bauble-filter",
-      "b": "droplet-filter",
+      "a": "chart-grouped-sparkle",
+      "b": "chart-grouped-upload",
       "distance": 1.41
     },
     {
-      "a": "luggage-search",
-      "b": "humidity-search",
+      "a": "chart-range-sparkle",
+      "b": "chart-range-upload",
       "distance": 1.41
     },
     {
-      "a": "luggage-search",
-      "b": "droplet-search",
+      "a": "chart-sankey-sparkle",
+      "b": "chart-sankey-upload",
       "distance": 1.41
     },
     {
-      "a": "luggage-clock",
-      "b": "humidity-clock",
+      "a": "chart-bar-horizontal-sparkle",
+      "b": "chart-bar-horizontal-upload",
       "distance": 1.41
     },
     {
-      "a": "luggage-clock",
-      "b": "droplet-clock",
+      "a": "chart-radar-sparkle",
+      "b": "chart-radar-upload",
       "distance": 1.41
     },
     {
-      "a": "luggage-gear",
-      "b": "humidity-gear",
+      "a": "chart-histogram-pencil",
+      "b": "chart-histogram-leaf",
       "distance": 1.41
     },
     {
-      "a": "luggage-gear",
-      "b": "droplet-gear",
+      "a": "chart-histogram-sparkle",
+      "b": "chart-histogram-upload",
       "distance": 1.41
     },
     {
-      "a": "luggage-bolt",
-      "b": "humidity-bolt",
+      "a": "heatmap-sparkle",
+      "b": "heatmap-upload",
       "distance": 1.41
     },
     {
-      "a": "luggage-bolt",
-      "b": "droplet-bolt",
+      "a": "chart-waterfall-pencil",
+      "b": "chart-waterfall-leaf",
       "distance": 1.41
     },
     {
-      "a": "luggage-heart",
-      "b": "humidity-heart",
+      "a": "chart-mixed-pencil",
+      "b": "chart-mixed-leaf",
       "distance": 1.41
     },
     {
-      "a": "luggage-heart",
-      "b": "droplet-heart",
+      "a": "chart-pyramid-pencil",
+      "b": "chart-pyramid-leaf",
       "distance": 1.41
     },
     {
-      "a": "luggage-star",
-      "b": "humidity-star",
+      "a": "chart-treemap-sparkle",
+      "b": "chart-treemap-upload",
       "distance": 1.41
     },
     {
-      "a": "luggage-star",
-      "b": "droplet-star",
+      "a": "chart-points-sparkle",
+      "b": "chart-points-upload",
       "distance": 1.41
     },
     {
-      "a": "luggage-alert",
-      "b": "humidity-alert",
+      "a": "chart-stacked-search",
+      "b": "mars-rover-search",
       "distance": 1.41
     },
     {
-      "a": "luggage-alert",
-      "b": "droplet-alert",
+      "a": "chart-stacked-shield",
+      "b": "mars-rover-shield",
       "distance": 1.41
     },
     {
-      "a": "luggage-cloud",
-      "b": "humidity-cloud",
+      "a": "chart-stacked-bolt",
+      "b": "mars-rover-bolt",
       "distance": 1.41
     },
     {
-      "a": "luggage-cloud",
-      "b": "droplet-cloud",
+      "a": "chart-stacked-heart",
+      "b": "mars-rover-heart",
       "distance": 1.41
     },
     {
-      "a": "luggage-chat",
-      "b": "humidity-chat",
+      "a": "chart-stacked-star",
+      "b": "mars-rover-star",
       "distance": 1.41
     },
     {
-      "a": "luggage-chat",
-      "b": "droplet-chat",
+      "a": "chart-stacked-user",
+      "b": "mars-rover-user",
       "distance": 1.41
     },
     {
-      "a": "luggage-download",
-      "b": "humidity-download",
+      "a": "chart-stacked-cloud",
+      "b": "mars-rover-cloud",
       "distance": 1.41
     },
     {
-      "a": "luggage-download",
-      "b": "droplet-download",
+      "a": "chart-stacked-chat",
+      "b": "mars-rover-chat",
       "distance": 1.41
     },
     {
-      "a": "luggage-pencil",
-      "b": "humidity-pencil",
+      "a": "chart-stacked-download",
+      "b": "mars-rover-download",
       "distance": 1.41
     },
     {
-      "a": "luggage-pencil",
-      "b": "droplet-pencil",
+      "a": "chart-stacked-pencil",
+      "b": "chart-stacked-leaf",
       "distance": 1.41
     },
     {
-      "a": "luggage-trash",
-      "b": "humidity-trash",
+      "a": "chart-stacked-pencil",
+      "b": "mars-rover-pencil",
       "distance": 1.41
     },
     {
-      "a": "luggage-trash",
-      "b": "droplet-trash",
+      "a": "chart-stacked-sparkle",
+      "b": "chart-stacked-upload",
       "distance": 1.41
     },
     {
-      "a": "luggage-calendar",
-      "b": "humidity-calendar",
+      "a": "chart-stacked-sparkle",
+      "b": "mars-rover-sparkle",
       "distance": 1.41
     },
     {
-      "a": "luggage-calendar",
-      "b": "droplet-calendar",
+      "a": "chart-stacked-question",
+      "b": "mars-rover-question",
       "distance": 1.41
     },
     {
-      "a": "luggage-question",
-      "b": "humidity-question",
+      "a": "chart-stacked-upload",
+      "b": "mars-rover-sparkle",
       "distance": 1.41
     },
     {
-      "a": "luggage-question",
-      "b": "droplet-question",
+      "a": "chart-stacked-crown",
+      "b": "mars-rover-crown",
       "distance": 1.41
     },
     {
-      "a": "luggage-bookmark",
-      "b": "humidity-bookmark",
+      "a": "chart-stacked-leaf",
+      "b": "mars-rover-pencil",
       "distance": 1.41
     },
     {
-      "a": "luggage-bookmark",
-      "b": "droplet-bookmark",
+      "a": "chart-stacked-trophy",
+      "b": "mars-rover-trophy",
       "distance": 1.41
     },
     {
-      "a": "luggage-crown",
-      "b": "humidity-crown",
+      "a": "chart-stacked-camera",
+      "b": "mars-rover-camera",
       "distance": 1.41
     },
     {
-      "a": "luggage-crown",
-      "b": "droplet-crown",
+      "a": "chart-stacked-filter",
+      "b": "mars-rover-filter",
       "distance": 1.41
     },
     {
-      "a": "luggage-leaf",
-      "b": "humidity-leaf",
+      "a": "chart-stacked-stats",
+      "b": "mars-rover-stats",
       "distance": 1.41
     },
     {
-      "a": "luggage-leaf",
-      "b": "droplet-leaf",
+      "a": "chart-stacked-checkbox",
+      "b": "mars-rover-checkbox",
       "distance": 1.41
     },
     {
-      "a": "luggage-hourglass",
-      "b": "humidity-hourglass",
+      "a": "cloud-sync-pencil",
+      "b": "cloud-sync-leaf",
       "distance": 1.41
     },
     {
-      "a": "luggage-hourglass",
-      "b": "droplet-hourglass",
+      "a": "database-backup-gear",
+      "b": "database-backup-stats",
       "distance": 1.41
     },
     {
-      "a": "luggage-cursor",
-      "b": "humidity-cursor",
+      "a": "database-backup-pencil",
+      "b": "database-backup-leaf",
       "distance": 1.41
     },
     {
-      "a": "luggage-cursor",
-      "b": "droplet-cursor",
+      "a": "database-backup-sparkle",
+      "b": "database-backup-upload",
       "distance": 1.41
     },
     {
-      "a": "luggage-camera",
-      "b": "humidity-camera",
+      "a": "chart-lollipop-sparkle",
+      "b": "chart-lollipop-upload",
       "distance": 1.41
     },
     {
-      "a": "luggage-camera",
-      "b": "droplet-camera",
+      "a": "pivot-table-sparkle",
+      "b": "pivot-table-upload",
       "distance": 1.41
     },
     {
-      "a": "luggage-filter",
-      "b": "humidity-filter",
+      "a": "chart-polar-sparkle",
+      "b": "chart-polar-upload",
       "distance": 1.41
     },
     {
-      "a": "luggage-filter",
-      "b": "droplet-filter",
+      "a": "chart-sunburst-bolt",
+      "b": "poker-chip-bolt",
       "distance": 1.41
     },
     {
-      "a": "luggage-stats",
-      "b": "humidity-stats",
+      "a": "chart-sunburst-pencil",
+      "b": "chart-sunburst-leaf",
       "distance": 1.41
     },
     {
-      "a": "luggage-stats",
-      "b": "droplet-stats",
+      "a": "chart-sunburst-sparkle",
+      "b": "poker-chip-sparkle",
       "distance": 1.41
     },
     {
-      "a": "luggage-checkbox",
-      "b": "humidity-checkbox",
+      "a": "chart-sunburst-upload",
+      "b": "poker-chip-upload",
       "distance": 1.41
     },
     {
-      "a": "luggage-checkbox",
-      "b": "droplet-checkbox",
+      "a": "network-graph-pencil",
+      "b": "network-graph-leaf",
       "distance": 1.41
     },
     {
-      "a": "thermometer-sun-sparkle",
-      "b": "thermometer-sun-upload",
+      "a": "network-graph-sparkle",
+      "b": "network-graph-upload",
       "distance": 1.41
     },
     {
-      "a": "humidity-search",
-      "b": "droplet-search",
-      "distance": 0
+      "a": "chart-bar-pencil",
+      "b": "chart-bar-leaf",
+      "distance": 1.41
     },
     {
-      "a": "humidity-clock",
-      "b": "droplet-clock",
+      "a": "chart-bar-sparkle",
+      "b": "chart-bar-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "chart-donut-search",
+      "b": "shield-search",
       "distance": 1
     },
     {
-      "a": "humidity-gear",
-      "b": "droplet-gear",
+      "a": "chart-donut-clock",
+      "b": "shield-clock",
       "distance": 1
     },
     {
-      "a": "humidity-bolt",
-      "b": "droplet-bolt",
+      "a": "chart-donut-gear",
+      "b": "shield-gear",
       "distance": 1
     },
     {
-      "a": "humidity-heart",
-      "b": "droplet-heart",
+      "a": "chart-donut-heart",
+      "b": "shield-heart",
+      "distance": 1.41
+    },
+    {
+      "a": "chart-donut-cloud",
+      "b": "shield-cloud",
+      "distance": 1.41
+    },
+    {
+      "a": "chart-donut-chat",
+      "b": "shield-chat",
       "distance": 1
     },
     {
-      "a": "humidity-star",
-      "b": "droplet-star",
+      "a": "chart-donut-download",
+      "b": "shield-download",
       "distance": 1
     },
     {
-      "a": "humidity-alert",
-      "b": "droplet-alert",
+      "a": "chart-donut-pencil",
+      "b": "chart-donut-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "chart-donut-pencil",
+      "b": "shield-pencil",
       "distance": 1
     },
     {
-      "a": "humidity-cloud",
-      "b": "droplet-cloud",
+      "a": "chart-donut-pencil",
+      "b": "shield-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "chart-donut-trash",
+      "b": "shield-trash",
+      "distance": 1.41
+    },
+    {
+      "a": "chart-donut-calendar",
+      "b": "shield-calendar",
       "distance": 1
     },
     {
-      "a": "humidity-chat",
-      "b": "droplet-chat",
-      "distance": 0
-    },
-    {
-      "a": "humidity-download",
-      "b": "droplet-download",
-      "distance": 0
-    },
-    {
-      "a": "humidity-pencil",
-      "b": "droplet-pencil",
+      "a": "chart-donut-question",
+      "b": "shield-question",
       "distance": 1
     },
     {
-      "a": "humidity-trash",
-      "b": "droplet-trash",
+      "a": "chart-donut-bookmark",
+      "b": "shield-bookmark",
       "distance": 1
     },
     {
-      "a": "humidity-calendar",
-      "b": "droplet-calendar",
+      "a": "chart-donut-crown",
+      "b": "shield-crown",
       "distance": 1
     },
     {
-      "a": "humidity-question",
-      "b": "droplet-question",
-      "distance": 0
-    },
-    {
-      "a": "humidity-bookmark",
-      "b": "droplet-bookmark",
+      "a": "chart-donut-leaf",
+      "b": "shield-leaf",
       "distance": 1
     },
     {
-      "a": "humidity-upload",
-      "b": "droplet-upload",
+      "a": "chart-donut-hourglass",
+      "b": "shield-hourglass",
       "distance": 1
     },
     {
-      "a": "humidity-crown",
-      "b": "droplet-crown",
+      "a": "chart-donut-cursor",
+      "b": "shield-cursor",
       "distance": 1
     },
     {
-      "a": "humidity-leaf",
-      "b": "droplet-leaf",
+      "a": "chart-donut-camera",
+      "b": "shield-camera",
+      "distance": 1.41
+    },
+    {
+      "a": "chart-donut-filter",
+      "b": "shield-filter",
       "distance": 1
     },
     {
-      "a": "humidity-hourglass",
-      "b": "droplet-hourglass",
+      "a": "chart-donut-stats",
+      "b": "shield-stats",
       "distance": 1
     },
     {
-      "a": "humidity-cursor",
-      "b": "droplet-cursor",
-      "distance": 0
-    },
-    {
-      "a": "humidity-camera",
-      "b": "droplet-camera",
+      "a": "chart-donut-checkbox",
+      "b": "shield-checkbox",
       "distance": 1
     },
     {
-      "a": "humidity-filter",
-      "b": "droplet-filter",
-      "distance": 0
+      "a": "chart-area-pencil",
+      "b": "chart-area-leaf",
+      "distance": 1.41
     },
     {
-      "a": "humidity-stats",
-      "b": "droplet-stats",
+      "a": "chart-area-sparkle",
+      "b": "chart-area-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "chart-stacked-fire",
+      "b": "mars-rover-fire",
+      "distance": 1.41
+    },
+    {
+      "a": "chart-donut-bell",
+      "b": "shield-bell",
+      "distance": 1.41
+    },
+    {
+      "a": "chart-donut-moon",
+      "b": "shield-moon",
+      "distance": 1.41
+    },
+    {
+      "a": "chart-donut-trophy",
+      "b": "shield-trophy",
       "distance": 1
     },
     {
-      "a": "humidity-checkbox",
-      "b": "droplet-checkbox",
-      "distance": 0
-    },
-    {
-      "a": "thermometer-snow-sparkle",
-      "b": "thermometer-snow-upload",
+      "a": "chart-slope-sparkle",
+      "b": "chart-slope-upload",
       "distance": 1.41
     },
     {
-      "a": "cloud-sun-pencil",
-      "b": "cloud-sun-leaf",
+      "a": "chart-spline-sparkle",
+      "b": "chart-spline-upload",
       "distance": 1.41
     },
     {
-      "a": "rain-search",
-      "b": "snow-search",
+      "a": "chart-area-stacked-sparkle",
+      "b": "chart-area-stacked-upload",
       "distance": 1.41
     },
     {
-      "a": "rain-clock",
-      "b": "snow-clock",
+      "a": "chart-growth-sparkle",
+      "b": "chart-growth-upload",
       "distance": 1.41
     },
     {
-      "a": "rain-gear",
-      "b": "snow-gear",
+      "a": "chart-decline-sparkle",
+      "b": "chart-decline-upload",
       "distance": 1.41
     },
     {
-      "a": "rain-heart",
-      "b": "snow-heart",
+      "a": "chart-bubble-sparkle",
+      "b": "chart-bubble-upload",
       "distance": 1.41
     },
     {
-      "a": "rain-star",
-      "b": "snow-star",
+      "a": "chart-waterfall-sparkle",
+      "b": "chart-waterfall-upload",
       "distance": 1.41
     },
     {
-      "a": "rain-cloud",
-      "b": "snow-cloud",
+      "a": "chart-gantt-sparkle",
+      "b": "chart-gantt-upload",
       "distance": 1.41
     },
     {
-      "a": "rain-chat",
-      "b": "snow-chat",
+      "a": "chart-mixed-sparkle",
+      "b": "chart-mixed-upload",
       "distance": 1.41
     },
     {
-      "a": "rain-download",
-      "b": "snow-download",
+      "a": "chart-pyramid-sparkle",
+      "b": "chart-pyramid-upload",
       "distance": 1.41
     },
     {
-      "a": "rain-calendar",
-      "b": "snow-calendar",
+      "a": "cloud-sync-sparkle",
+      "b": "cloud-sync-upload",
       "distance": 1.41
     },
     {
-      "a": "rain-question",
-      "b": "snow-question",
+      "a": "box-plot-sparkle",
+      "b": "box-plot-upload",
       "distance": 1.41
     },
     {
-      "a": "rain-upload",
-      "b": "snow-upload",
+      "a": "sparkline-sparkle",
+      "b": "sparkline-upload",
       "distance": 1.41
     },
     {
-      "a": "rain-crown",
-      "b": "snow-crown",
+      "a": "chart-forecast-sparkle",
+      "b": "chart-forecast-upload",
       "distance": 1.41
     },
     {
-      "a": "rain-camera",
-      "b": "snow-camera",
+      "a": "chart-step-sparkle",
+      "b": "chart-step-upload",
       "distance": 1.41
     },
     {
-      "a": "rain-filter",
-      "b": "snow-filter",
+      "a": "chart-sunburst-fire",
+      "b": "poker-chip-fire",
       "distance": 1.41
     },
     {
-      "a": "rain-checkbox",
-      "b": "snow-checkbox",
+      "a": "chart-line-multi-sparkle",
+      "b": "chart-line-multi-upload",
       "distance": 1.41
     },
     {
-      "a": "luggage-bell",
-      "b": "humidity-bell",
+      "a": "chart-line-sparkle",
+      "b": "chart-line-upload",
       "distance": 1.41
     },
     {
-      "a": "luggage-bell",
-      "b": "droplet-bell",
-      "distance": 1.41
-    },
-    {
-      "a": "luggage-trophy",
-      "b": "humidity-trophy",
-      "distance": 1.41
-    },
-    {
-      "a": "luggage-trophy",
-      "b": "droplet-trophy",
-      "distance": 1.41
-    },
-    {
-      "a": "sleet-moon",
-      "b": "rain-moon",
+      "a": "chart-donut-pin",
+      "b": "shield-pin",
       "distance": 1
     },
     {
-      "a": "humidity-bell",
-      "b": "droplet-bell",
+      "a": "chart-donut-sparkle",
+      "b": "shield-sparkle",
+      "distance": 1.41
+    },
+    {
+      "a": "chart-donut-flag",
+      "b": "shield-flag",
       "distance": 1
-    },
-    {
-      "a": "humidity-trophy",
-      "b": "droplet-trophy",
-      "distance": 0
-    },
-    {
-      "a": "rain-bell",
-      "b": "snow-bell",
-      "distance": 1.41
-    },
-    {
-      "a": "rain-moon",
-      "b": "snow-moon",
-      "distance": 1.41
-    },
-    {
-      "a": "rain-trophy",
-      "b": "snow-trophy",
-      "distance": 1.41
-    },
-    {
-      "a": "bauble-fire",
-      "b": "humidity-fire",
-      "distance": 1.41
-    },
-    {
-      "a": "bauble-fire",
-      "b": "droplet-fire",
-      "distance": 1.41
-    },
-    {
-      "a": "luggage-fire",
-      "b": "humidity-fire",
-      "distance": 1.41
-    },
-    {
-      "a": "luggage-fire",
-      "b": "droplet-fire",
-      "distance": 1.41
-    },
-    {
-      "a": "humidity-moon",
-      "b": "droplet-moon",
-      "distance": 1
-    },
-    {
-      "a": "humidity-fire",
-      "b": "droplet-fire",
-      "distance": 1
-    },
-    {
-      "a": "rain-fire",
-      "b": "snow-fire",
-      "distance": 1.41
-    },
-    {
-      "a": "tornado-sparkle",
-      "b": "tornado-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "fahrenheit-sparkle",
-      "b": "fahrenheit-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "hurricane-sparkle",
-      "b": "hurricane-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "humidity-shield",
-      "b": "droplet-shield",
-      "distance": 0
-    },
-    {
-      "a": "humidity-pin",
-      "b": "droplet-pin",
-      "distance": 0
-    },
-    {
-      "a": "humidity-user",
-      "b": "droplet-user",
-      "distance": 1
-    },
-    {
-      "a": "humidity-sparkle",
-      "b": "humidity-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "humidity-sparkle",
-      "b": "droplet-sparkle",
-      "distance": 1
-    },
-    {
-      "a": "humidity-sparkle",
-      "b": "droplet-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "humidity-flag",
-      "b": "droplet-flag",
-      "distance": 0
-    },
-    {
-      "a": "humidity-upload",
-      "b": "droplet-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "tide-sparkle",
-      "b": "tide-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "weather-vane-sparkle",
-      "b": "weather-vane-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "anemometer-sparkle",
-      "b": "anemometer-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "cloud-sun-sparkle",
-      "b": "cloud-sun-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "rain-shield",
-      "b": "snow-shield",
-      "distance": 1.41
-    },
-    {
-      "a": "rain-pin",
-      "b": "snow-pin",
-      "distance": 1.41
-    },
-    {
-      "a": "rain-sparkle",
-      "b": "rain-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "rain-sparkle",
-      "b": "snow-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "rain-sparkle",
-      "b": "snow-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "rain-upload",
-      "b": "snow-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "snow-sparkle",
-      "b": "snow-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "storm-sparkle",
-      "b": "storm-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "lightning-sparkle",
-      "b": "lightning-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "droplet-sparkle",
-      "b": "droplet-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "luggage-shield",
-      "b": "humidity-shield",
-      "distance": 1.41
-    },
-    {
-      "a": "luggage-shield",
-      "b": "droplet-shield",
-      "distance": 1.41
-    },
-    {
-      "a": "luggage-pin",
-      "b": "humidity-pin",
-      "distance": 1.41
-    },
-    {
-      "a": "luggage-pin",
-      "b": "droplet-pin",
-      "distance": 1.41
-    },
-    {
-      "a": "luggage-sparkle",
-      "b": "humidity-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "luggage-sparkle",
-      "b": "droplet-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "luggage-user",
-      "b": "humidity-user",
-      "distance": 1.41
-    },
-    {
-      "a": "luggage-user",
-      "b": "droplet-user",
-      "distance": 1.41
-    },
-    {
-      "a": "luggage-flag",
-      "b": "humidity-flag",
-      "distance": 1.41
-    },
-    {
-      "a": "luggage-flag",
-      "b": "droplet-flag",
-      "distance": 1.41
     }
   ],
   "dropped": [
-    "humidity-filter",
-    "droplet-filter",
-    "humidity-search",
-    "droplet-search",
-    "humidity-clock",
-    "droplet-clock",
-    "humidity-gear",
-    "droplet-gear",
-    "humidity-bolt",
-    "droplet-bolt",
-    "humidity-heart",
-    "droplet-heart",
-    "humidity-star",
-    "droplet-star",
-    "humidity-alert",
-    "droplet-alert",
-    "humidity-cloud",
-    "droplet-cloud",
-    "humidity-chat",
-    "droplet-chat",
-    "humidity-download",
-    "droplet-download",
-    "humidity-pencil",
-    "droplet-pencil",
-    "humidity-trash",
-    "droplet-trash",
-    "humidity-calendar",
-    "droplet-calendar",
-    "humidity-question",
-    "droplet-question",
-    "humidity-bookmark",
-    "droplet-bookmark",
-    "humidity-crown",
-    "droplet-crown",
-    "humidity-leaf",
-    "droplet-leaf",
-    "humidity-hourglass",
-    "droplet-hourglass",
-    "humidity-cursor",
-    "droplet-cursor",
-    "humidity-camera",
-    "droplet-camera",
-    "humidity-stats",
-    "droplet-stats",
-    "humidity-checkbox",
-    "droplet-checkbox",
-    "thermometer-sun-upload",
-    "droplet-upload",
-    "thermometer-snow-upload",
-    "cloud-sun-leaf",
-    "snow-search",
-    "snow-clock",
-    "snow-gear",
-    "snow-heart",
-    "snow-star",
-    "snow-cloud",
-    "snow-chat",
-    "snow-download",
-    "snow-calendar",
-    "snow-question",
-    "snow-upload",
-    "snow-crown",
-    "snow-camera",
-    "snow-filter",
-    "snow-checkbox",
-    "humidity-bell",
-    "droplet-bell",
-    "humidity-trophy",
-    "droplet-trophy",
-    "rain-moon",
-    "snow-bell",
-    "snow-trophy",
-    "humidity-fire",
-    "droplet-fire",
-    "droplet-moon",
-    "snow-fire",
-    "tornado-upload",
-    "fahrenheit-upload",
-    "hurricane-upload",
-    "droplet-shield",
-    "droplet-pin",
-    "droplet-user",
-    "humidity-upload",
-    "droplet-sparkle",
-    "droplet-flag",
-    "tide-upload",
-    "weather-vane-upload",
-    "anemometer-upload",
-    "cloud-sun-upload",
-    "snow-shield",
-    "snow-pin",
-    "rain-upload",
-    "snow-sparkle",
-    "storm-upload",
-    "lightning-upload",
-    "humidity-shield",
-    "humidity-pin",
-    "humidity-sparkle",
-    "humidity-user",
-    "humidity-flag"
+    "chart-radar-gear",
+    "chart-radar-bolt",
+    "chart-radar-star",
+    "chart-radar-pencil",
+    "chart-radar-sparkle",
+    "chart-radar-flag",
+    "chart-radar-calendar",
+    "chart-radar-upload",
+    "chart-radar-moon",
+    "chart-radar-leaf",
+    "chart-radar-hourglass",
+    "chart-radar-cursor",
+    "chart-radar-filter",
+    "chart-radar-stats",
+    "chart-grouped-leaf",
+    "chart-grouped-upload",
+    "chart-range-upload",
+    "chart-sankey-upload",
+    "chart-bar-horizontal-upload",
+    "chart-histogram-leaf",
+    "chart-histogram-upload",
+    "heatmap-upload",
+    "chart-waterfall-leaf",
+    "chart-mixed-leaf",
+    "chart-pyramid-leaf",
+    "chart-treemap-upload",
+    "chart-points-upload",
+    "chart-stacked-search",
+    "chart-stacked-shield",
+    "chart-stacked-bolt",
+    "chart-stacked-heart",
+    "chart-stacked-star",
+    "chart-stacked-user",
+    "chart-stacked-cloud",
+    "chart-stacked-chat",
+    "chart-stacked-download",
+    "chart-stacked-leaf",
+    "chart-stacked-pencil",
+    "chart-stacked-upload",
+    "chart-stacked-sparkle",
+    "chart-stacked-question",
+    "chart-stacked-crown",
+    "chart-stacked-trophy",
+    "chart-stacked-camera",
+    "chart-stacked-filter",
+    "chart-stacked-stats",
+    "chart-stacked-checkbox",
+    "cloud-sync-leaf",
+    "database-backup-stats",
+    "database-backup-leaf",
+    "database-backup-upload",
+    "chart-lollipop-upload",
+    "pivot-table-upload",
+    "chart-polar-upload",
+    "chart-sunburst-bolt",
+    "chart-sunburst-leaf",
+    "chart-sunburst-sparkle",
+    "chart-sunburst-upload",
+    "network-graph-leaf",
+    "network-graph-upload",
+    "chart-bar-leaf",
+    "chart-bar-upload",
+    "chart-donut-search",
+    "chart-donut-clock",
+    "chart-donut-gear",
+    "chart-donut-heart",
+    "chart-donut-cloud",
+    "chart-donut-chat",
+    "chart-donut-download",
+    "chart-donut-leaf",
+    "chart-donut-pencil",
+    "chart-donut-trash",
+    "chart-donut-calendar",
+    "chart-donut-question",
+    "chart-donut-bookmark",
+    "chart-donut-crown",
+    "chart-donut-hourglass",
+    "chart-donut-cursor",
+    "chart-donut-camera",
+    "chart-donut-filter",
+    "chart-donut-stats",
+    "chart-donut-checkbox",
+    "chart-area-leaf",
+    "chart-area-upload",
+    "chart-stacked-fire",
+    "chart-donut-bell",
+    "chart-donut-moon",
+    "chart-donut-trophy",
+    "chart-slope-upload",
+    "chart-spline-upload",
+    "chart-area-stacked-upload",
+    "chart-growth-upload",
+    "chart-decline-upload",
+    "chart-bubble-upload",
+    "chart-waterfall-upload",
+    "chart-gantt-upload",
+    "chart-mixed-upload",
+    "chart-pyramid-upload",
+    "cloud-sync-upload",
+    "box-plot-upload",
+    "sparkline-upload",
+    "chart-forecast-upload",
+    "chart-step-upload",
+    "chart-sunburst-fire",
+    "chart-line-multi-upload",
+    "chart-line-upload",
+    "chart-donut-pin",
+    "chart-donut-sparkle",
+    "chart-donut-flag"
   ],
   "byCategory": {
     "accessibility": 53,
@@ -847,7 +666,7 @@
     "celebration": 1577,
     "commerce": 1126,
     "communication": 1515,
-    "data": 520,
+    "data": 1611,
     "design": 825,
     "development": 615,
     "devices": 2027,
@@ -878,6 +697,6 @@
     "tools": 1914,
     "transport": 2253,
     "travel": 1803,
-    "weather": 1488
+    "weather": 1391
   }
 }

@@ -593,3 +593,10 @@ storm
 tornado
 humidity
 tide
+chart-donut
+chart-sunburst
+chart-polar
+chart-slope
+chart-sankey
+heatmap
+sparkline
