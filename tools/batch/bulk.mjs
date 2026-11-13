@@ -12,6 +12,20 @@ const tracked = [...new Set(execSync('git ls-files ' + ICONS, { maxBuffer: 1e8 }
 const taken = new Set(tracked.map((n) => n.replace(/-/g, '')));
 
 Object.assign(M, {
+  gem: `body(poly([[14.5, 13], [19.5, 13], [21, 15.3], [17, 20.5], [13, 15.3]], 0.5, true), { cover: true }), line('M13.3 15.3h7.4')`,
+  medal: `line('M15.3 15 14 12.5M18.7 15 20 12.5'), body(C(17, 17.5, 3), { cover: true }), line(D(17, 17.5))`,
+  buy: `body('M13.6 15h6.8l-.6 5.5h-5.6Z', { cover: true }), line('M15.6 15v-.8a1.4 1.4 0 0 1 2.8 0v.8')`,
+  plane: `body('M17 12.4c.4 0 .7.4.7.9v2.3l3.1 1.9v1.1l-3.1-.9v2l1 .8v.9l-1.7-.5-1.7.5v-.9l1-.8v-2l-3.1.9v-1.1l3.1-1.9v-2.3c0-.5.3-.9.7-.9Z', { cover: true })`,
+  box: `body(R(13, 13, 8, 7.5, 1.2), { cover: true }), line('M13.2 15.6h7.6M17 13.2v2.4')`,
+  megaphone: `body('M13 15.5h2l4.5-2.7v7.4L15 17.5h-2Z', { cover: true }), line('M15.5 17.6l.6 2.4')`,
+  battery: `body(R(13, 14, 7, 5, 1), { cover: true }), line('M21 15.7v1.6'), line('M14.8 16.5h2.5')`,
+  bug: `body(E(17, 17, 2.6, 3.3), { cover: true }), line('M17 14v6.3M14.4 16h-1.2M19.6 16h1.2M14.4 18.5h-1.2M19.6 18.5h1.2M15.6 13.8l-.8-1M18.4 13.8l.8-1')`,
+  code: `body(R(13, 12.5, 8, 8, 2), { cover: true }), line('M15.6 15l-1.5 1.5 1.5 1.5M18.4 15l1.5 1.5-1.5 1.5')`,
+  plug: `body('M14.3 14.5h5.4v2.5a2.7 2.7 0 0 1-5.4 0Z', { cover: true }), line('M15.8 14.5v-2M18.2 14.5v-2M17 19.7v1')`,
+  flask: `body('M15.8 12.8h2.4v2.6l2.6 4.4a.8.8 0 0 1-.7 1.2h-6.2a.8.8 0 0 1-.7-1.2l2.6-4.4Z', { cover: true })`,
+  coffee: `body('M13.4 15h5.8v3a2.9 2.9 0 0 1-5.8 0Z', { cover: true }), line('M19.2 15.7h.6a1.2 1.2 0 0 1 0 2.4h-.6M15.2 12.6v1M17.2 12.6v1')`,
+  paw: `body(E(17, 18.3, 2.4, 2), { cover: true }), body(C(14.4, 15.4, 1), { cover: true }), body(C(16.1, 13.8, 1), { cover: true }), body(C(17.9, 13.8, 1), { cover: true }), body(C(19.6, 15.4, 1), { cover: true })`,
+  headset: `line('M13.5 18v-1.5a3.5 3.5 0 0 1 7 0V18'), body(R(13, 17.3, 2.3, 3.4, 1), { cover: true }), body(R(18.7, 17.3, 2.3, 3.4, 1), { cover: true })`,
   sync: `body(C(17, 16.5, 4), { cover: true }), line('M15 16.3a2 2 0 0 1 3.6-1.2M19 16.7a2 2 0 0 1-3.6 1.2'), line('M18.7 13.9v1.3h-1.3M15.3 19.1v-1.3h1.3')`,
   globe: `body(C(17, 16.5, 4), { cover: true }), line(E(17, 16.5, 1.6, 3.9)), line('M13.2 16.5h7.6')`,
   sun: `body(C(17, 16.5, 2.3), { cover: true }), line('M17 12.4v1M17 19.6v1M12.9 16.5h1M20.1 16.5h1M14.1 13.6l.7.7M19.2 18.7l.7.7M14.1 19.4l.7-.7M19.2 14.3l.7-.7')`,
@@ -126,6 +140,20 @@ const T = {
   play: (l) => [`Play ${l}`, 'play, start, video'],
   alert: (l) => [`${l} Alert`, 'alert, warning, problem'],
   sync: (l) => [`Sync ${l}`, 'sync, refresh, update'],
+  gem: (l) => [`${l} Value`, 'value, gem, precious'],
+  medal: (l) => [`${l} Medal`, 'medal, badge, achievement'],
+  buy: (l) => [`Buy ${l}`, 'buy, shopping, purchase'],
+  plane: (l) => [`${l} Travel`, 'travel, flight, trip'],
+  box: (l) => [`${l} Package`, 'package, box, parcel'],
+  megaphone: (l) => [`${l} Announcement`, 'announcement, promote, megaphone'],
+  battery: (l) => [`${l} Power`, 'power, battery, energy'],
+  bug: (l) => [`${l} Bug`, 'bug, issue, debug'],
+  code: (l) => [`${l} Code`, 'code, developer, embed'],
+  plug: (l) => [`${l} Plugin`, 'plugin, connect, power'],
+  flask: (l) => [`${l} Lab`, 'lab, experiment, test'],
+  coffee: (l) => [`${l} Break`, 'break, coffee, cafe'],
+  paw: (l) => [`Pet ${l}`, 'pet, animal, paw'],
+  headset: (l) => [`${l} Listen`, 'audio, listen, headphones'],
   globe: (l) => [`Global ${l}`, 'global, world, international'],
   sun: (l) => [`${l} Day Mode`, 'day, light mode, sunny'],
   drop: (l) => [`${l} Water`, 'water, liquid, drop'],
@@ -156,6 +184,8 @@ const pairs = process.env.BULK_ORDER === 'base' ? Object.keys(B).flatMap((b) => 
 outer: for (const [m, b] of pairs) {
   const name = `${b}-${m}`;
   if (['key', 'coins', 'truck', 'puzzle', 'pill'].includes(b) || b === m || b.split('-').includes(m) || (m === 'home' && /house|home|chalet|mansion|cottage|(^|-)cabin(-|$)|villa|apartment|(^|-)hut(-|$)/.test(b)) || (m === 'drop' && /water|droplet|drip|(^|-)rain(-|$)|shower|faucet|hose|kettle|(^|-)wet(-|$)/.test(b)) || (m === 'smile' && /smile|smiley|(^|-)face(-|$)/.test(b)) || (b === 'users' && m === 'user') || (b === 'message' && m === 'chat')) continue;
+  const SAME = { buy: /bag|cart|basket|shop|store|trolley/, plane: /plane|jet|aircraft|airport|flight|glider/, battery: /batter|charger|power-bank/, bug: /bug|beetle|insect|ant|bee|fly|moth|ladybug|caterpillar|spider/, code: /code|terminal|console|brackets|api|html/, plug: /plug|socket|outlet|adapter|cable|charger/, flask: /flask|beaker|test-tube|lab|potion|vial/, gift: /gift|present/, rocket: /rocket|spaceship|shuttle/, link: /link|chain/ };
+  if (SAME[m]?.test(b)) continue;
   if (taken.has(name.replace(/-/g, '')) || drop.has(name)) continue;
   const [title, tags] = T[m](label(b));
   rows.push([b, m, title, `${tags}, ${label(b).toLowerCase()}`, catOf[b]]);

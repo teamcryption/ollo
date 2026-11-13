@@ -1,1 +1,1 @@
-search,clock,shield,gear,pin,bolt,heart,star,alert,user,bell,cloud,chat,download,pencil,sparkle,trash,flag,calendar,question,bookmark,upload,crown,moon,leaf,fire,trophy,hourglass,cursor,camera,filter,stats,checkbox,drop,rocket,home,gift,smile,link
+search,clock,shield,gear,pin,bolt,heart,star,alert,user,bell,cloud,chat,download,pencil,sparkle,trash,flag,calendar,question,bookmark,upload,crown,moon,leaf,fire,trophy,hourglass,cursor,camera,filter,stats,checkbox,drop,rocket,home,gift,smile,link,buy,plane,battery,bug,code,plug,flask
