@@ -1,242 +1,404 @@
 {
-  "generatedAt": "2026-11-13T09:19:47.113Z",
-  "icons": 67960,
-  "files": 339800,
+  "generatedAt": "2026-11-13T09:24:52.876Z",
+  "icons": 69425,
+  "files": 347125,
   "errors": [],
   "warnings": [
-    "clapperboard-drop: grid: outside the 3-21 live area (3.00, 2.30, 20.30, 21.00)",
-    "clapperboard-rocket: grid: outside the 3-21 live area (3.00, 2.30, 20.30, 19.60)",
-    "clapperboard-home: grid: outside the 3-21 live area (3.00, 2.30, 21.00, 20.50)",
-    "clapperboard-gift: grid: outside the 3-21 live area (3.00, 2.30, 21.00, 20.50)",
-    "clapperboard-smile: grid: outside the 3-21 live area (3.00, 2.30, 21.00, 20.50)",
-    "clapperboard-link: grid: outside the 3-21 live area (3.00, 2.30, 21.00, 20.50)"
+    "gavel-drop: grid: outside the 3-21 live area (3.00, 1.53, 20.30, 21.00)",
+    "gavel-rocket: grid: outside the 3-21 live area (3.00, 1.53, 20.30, 19.60)",
+    "gavel-home: grid: outside the 3-21 live area (3.00, 1.53, 21.00, 20.50)",
+    "gavel-gift: grid: outside the 3-21 live area (3.00, 1.53, 21.00, 20.50)",
+    "gavel-smile: grid: outside the 3-21 live area (3.00, 1.53, 21.00, 20.50)",
+    "gavel-link: grid: outside the 3-21 live area (3.00, 1.53, 21.00, 20.50)",
+    "party-hat-drop: grid: outside the 3-21 live area (4.72, 2.10, 20.30, 21.00)",
+    "party-hat-rocket: grid: outside the 3-21 live area (4.72, 2.10, 20.30, 19.60)",
+    "party-hat-home: grid: outside the 3-21 live area (4.72, 2.10, 21.00, 20.50)",
+    "party-hat-gift: grid: outside the 3-21 live area (4.72, 2.10, 21.00, 20.50)",
+    "party-hat-smile: grid: outside the 3-21 live area (4.72, 2.10, 21.00, 20.50)",
+    "party-hat-link: grid: outside the 3-21 live area (4.72, 2.10, 21.00, 20.50)",
+    "fried-egg-drop: grid: outside the 3-21 live area (1.92, 4.06, 20.30, 21.00)",
+    "fried-egg-rocket: grid: outside the 3-21 live area (1.92, 4.06, 20.30, 19.60)",
+    "fried-egg-home: grid: outside the 3-21 live area (1.92, 4.06, 21.00, 20.50)",
+    "fried-egg-gift: grid: outside the 3-21 live area (1.92, 4.06, 21.00, 20.50)",
+    "fried-egg-smile: grid: outside the 3-21 live area (1.92, 4.06, 21.00, 20.50)",
+    "fried-egg-link: grid: outside the 3-21 live area (1.92, 4.06, 21.00, 20.50)",
+    "ribbon-drop: grid: outside the 3-21 live area (5.00, 2.20, 20.30, 21.00)",
+    "ribbon-rocket: grid: outside the 3-21 live area (5.00, 2.20, 20.30, 19.60)",
+    "ribbon-home: grid: outside the 3-21 live area (5.00, 2.20, 21.00, 20.50)",
+    "ribbon-gift: grid: outside the 3-21 live area (5.00, 2.20, 21.00, 20.50)",
+    "ribbon-smile: grid: outside the 3-21 live area (5.00, 2.20, 21.00, 20.50)",
+    "ribbon-link: grid: outside the 3-21 live area (5.00, 2.20, 21.00, 20.50)"
   ],
   "duplicates": [
     {
-      "a": "basket-pricing",
-      "b": "basket-link",
+      "a": "broccoli-pricing",
+      "b": "broccoli-link",
       "distance": 1.41
     },
     {
-      "a": "inbox-pricing",
-      "b": "inbox-link",
+      "a": "ear-pricing",
+      "b": "ear-link",
       "distance": 1.41
     },
     {
-      "a": "chart-pricing",
-      "b": "chart-link",
+      "a": "fox-pricing",
+      "b": "fox-link",
       "distance": 1.41
     },
     {
-      "a": "bug-pricing",
-      "b": "bug-link",
+      "a": "horseshoe-pricing",
+      "b": "horseshoe-link",
       "distance": 1.41
     },
     {
-      "a": "server-pricing",
-      "b": "server-link",
+      "a": "octopus-pricing",
+      "b": "octopus-link",
       "distance": 1.41
     },
     {
-      "a": "remote-pricing",
-      "b": "remote-link",
+      "a": "giraffe-pricing",
+      "b": "giraffe-link",
       "distance": 1.41
     },
     {
-      "a": "scissors-pricing",
-      "b": "scissors-link",
+      "a": "dolphin-pricing",
+      "b": "dolphin-link",
       "distance": 1.41
     },
     {
-      "a": "paperclip-pricing",
-      "b": "paperclip-link",
+      "a": "igloo-pricing",
+      "b": "protractor-link",
       "distance": 1.41
     },
     {
-      "a": "piggy-pricing",
-      "b": "piggy-link",
+      "a": "skull-pricing",
+      "b": "skull-link",
       "distance": 1.41
     },
     {
-      "a": "pumpkin-stats",
-      "b": "pumpkin-link",
+      "a": "cash-register-pricing",
+      "b": "cash-register-link",
       "distance": 1.41
     },
     {
-      "a": "burger-pricing",
-      "b": "burger-link",
+      "a": "discount-pricing",
+      "b": "discount-link",
       "distance": 1.41
     },
     {
-      "a": "brain-pricing",
-      "b": "brain-link",
+      "a": "receipt-link",
+      "b": "passport-link",
       "distance": 1.41
     },
     {
-      "a": "bathtub-pricing",
-      "b": "bathtub-link",
+      "a": "mail-pricing",
+      "b": "mail-link",
       "distance": 1.41
     },
     {
-      "a": "signpost-gear",
-      "b": "signpost-link",
+      "a": "pie-chart-pricing",
+      "b": "pie-chart-link",
       "distance": 1.41
     },
     {
-      "a": "globe-pricing",
-      "b": "globe-link",
+      "a": "funnel-pricing",
+      "b": "funnel-link",
       "distance": 1.41
     },
     {
-      "a": "camera-pricing",
-      "b": "camera-link",
+      "a": "database-pricing",
+      "b": "database-link",
       "distance": 1.41
     },
     {
-      "a": "music-pricing",
-      "b": "music-link",
+      "a": "skirt-pricing",
+      "b": "skirt-link",
       "distance": 1.41
     },
     {
-      "a": "clapperboard-pricing",
-      "b": "clapperboard-link",
+      "a": "wallet-pricing",
+      "b": "wallet-link",
       "distance": 1.41
     },
     {
-      "a": "sun-pricing",
-      "b": "sun-link",
+      "a": "trend-pricing",
+      "b": "trend-link",
       "distance": 1.41
     },
     {
-      "a": "cactus-pricing",
-      "b": "cactus-link",
+      "a": "grater-pricing",
+      "b": "grater-link",
       "distance": 1.41
     },
     {
-      "a": "mushroom-pricing",
-      "b": "mushroom-link",
+      "a": "onigiri-pricing",
+      "b": "onigiri-link",
       "distance": 1.41
     },
     {
-      "a": "user-pricing",
-      "b": "user-link",
+      "a": "peanut-pricing",
+      "b": "peanut-link",
       "distance": 1.41
     },
     {
-      "a": "user-home",
-      "b": "user-smile",
+      "a": "muffin-pricing",
+      "b": "muffin-link",
       "distance": 1.41
     },
     {
-      "a": "ufo-stats",
-      "b": "ufo-link",
+      "a": "sandwich-pricing",
+      "b": "sandwich-link",
       "distance": 1.41
     },
     {
-      "a": "bike-pricing",
-      "b": "bike-link",
+      "a": "bubble-tea-pricing",
+      "b": "bubble-tea-link",
       "distance": 1.41
     },
     {
-      "a": "whistle-pricing",
-      "b": "whistle-link",
+      "a": "taco-gift",
+      "b": "rainbow-gift",
       "distance": 1.41
     },
     {
-      "a": "toolbox-pricing",
-      "b": "toolbox-link",
+      "a": "taco-smile",
+      "b": "rainbow-smile",
       "distance": 1.41
     },
     {
-      "a": "taxi-pricing",
-      "b": "taxi-link",
+      "a": "taco-link",
+      "b": "rainbow-link",
       "distance": 1.41
     },
     {
-      "a": "backpack-pricing",
-      "b": "backpack-link",
+      "a": "whisk-rocket",
+      "b": "screwdriver-rocket",
+      "distance": 1.41
+    },
+    {
+      "a": "whisk-home",
+      "b": "screwdriver-home",
+      "distance": 1.41
+    },
+    {
+      "a": "whisk-gift",
+      "b": "screwdriver-gift",
+      "distance": 1.41
+    },
+    {
+      "a": "whisk-smile",
+      "b": "screwdriver-smile",
+      "distance": 1.41
+    },
+    {
+      "a": "whisk-link",
+      "b": "screwdriver-link",
+      "distance": 1.41
+    },
+    {
+      "a": "domino-pricing",
+      "b": "domino-link",
+      "distance": 1.41
+    },
+    {
+      "a": "mortar-pricing",
+      "b": "mortar-link",
+      "distance": 1.41
+    },
+    {
+      "a": "curtains-pricing",
+      "b": "curtains-link",
+      "distance": 1.41
+    },
+    {
+      "a": "laundry-basket-pricing",
+      "b": "laundry-basket-link",
+      "distance": 1.41
+    },
+    {
+      "a": "wardrobe-rocket",
+      "b": "cupboard-rocket",
+      "distance": 1.41
+    },
+    {
+      "a": "wardrobe-home",
+      "b": "cupboard-home",
+      "distance": 1.41
+    },
+    {
+      "a": "wardrobe-gift",
+      "b": "cupboard-gift",
+      "distance": 1.41
+    },
+    {
+      "a": "wardrobe-smile",
+      "b": "cupboard-smile",
+      "distance": 1.41
+    },
+    {
+      "a": "wardrobe-link",
+      "b": "cupboard-link",
+      "distance": 1.41
+    },
+    {
+      "a": "list-pricing",
+      "b": "list-link",
+      "distance": 1.41
+    },
+    {
+      "a": "browser-pricing",
+      "b": "browser-link",
+      "distance": 1.41
+    },
+    {
+      "a": "image-pricing",
+      "b": "image-link",
+      "distance": 1.41
+    },
+    {
+      "a": "hashtag-pricing",
+      "b": "hashtag-link",
+      "distance": 1.41
+    },
+    {
+      "a": "basketball-stats",
+      "b": "basketball-link",
+      "distance": 1.41
+    },
+    {
+      "a": "basketball-hoop-pricing",
+      "b": "basketball-hoop-link",
+      "distance": 1.41
+    },
+    {
+      "a": "calendar-pricing",
+      "b": "calendar-link",
+      "distance": 1.41
+    },
+    {
+      "a": "hex-nut-gear",
+      "b": "hex-nut-link",
+      "distance": 1.41
+    },
+    {
+      "a": "flashlight-pricing",
+      "b": "flashlight-link",
+      "distance": 1.41
+    },
+    {
+      "a": "car-pricing",
+      "b": "car-link",
+      "distance": 1.41
+    },
+    {
+      "a": "whisk-drop",
+      "b": "screwdriver-drop",
+      "distance": 1.41
+    },
+    {
+      "a": "wardrobe-drop",
+      "b": "cupboard-drop",
       "distance": 1.41
     }
   ],
   "dropped": [
-    "moon-drop",
-    "moon-rocket",
-    "moon-home",
-    "moon-gift",
-    "moon-smile",
-    "moon-link",
-    "basket-link",
-    "inbox-link",
-    "chart-link",
-    "bug-link",
-    "server-link",
-    "remote-link",
-    "scissors-link",
-    "paperclip-link",
-    "piggy-link",
-    "pumpkin-link",
-    "burger-link",
-    "brain-link",
-    "bathtub-link",
-    "signpost-link",
-    "globe-link",
-    "camera-link",
-    "music-link",
-    "clapperboard-link",
-    "sun-link",
-    "cactus-link",
-    "mushroom-link",
-    "user-link",
-    "user-smile",
-    "ufo-link",
-    "bike-link",
-    "whistle-link",
-    "toolbox-link",
-    "taxi-link",
-    "backpack-link"
+    "broccoli-link",
+    "ear-link",
+    "fox-link",
+    "horseshoe-link",
+    "octopus-link",
+    "giraffe-link",
+    "dolphin-link",
+    "protractor-link",
+    "skull-link",
+    "cash-register-link",
+    "discount-link",
+    "receipt-link",
+    "mail-link",
+    "pie-chart-link",
+    "funnel-link",
+    "database-link",
+    "skirt-link",
+    "wallet-link",
+    "trend-link",
+    "grater-link",
+    "onigiri-link",
+    "peanut-link",
+    "muffin-link",
+    "sandwich-link",
+    "bubble-tea-link",
+    "taco-gift",
+    "taco-smile",
+    "taco-link",
+    "whisk-rocket",
+    "whisk-home",
+    "whisk-gift",
+    "whisk-smile",
+    "whisk-link",
+    "domino-link",
+    "mortar-link",
+    "curtains-link",
+    "laundry-basket-link",
+    "cupboard-rocket",
+    "cupboard-home",
+    "cupboard-gift",
+    "cupboard-smile",
+    "cupboard-link",
+    "list-link",
+    "browser-link",
+    "image-link",
+    "hashtag-link",
+    "basketball-link",
+    "basketball-hoop-link",
+    "calendar-link",
+    "hex-nut-link",
+    "flashlight-link",
+    "car-link",
+    "whisk-drop",
+    "cupboard-drop"
   ],
   "byCategory": {
-    "accessibility": 74,
+    "accessibility": 80,
     "actions": 69,
     "ai": 624,
-    "animals": 2562,
+    "animals": 2664,
     "arrows": 188,
-    "buildings": 2384,
-    "business": 1927,
-    "celebration": 1821,
-    "commerce": 1221,
-    "communication": 1574,
-    "data": 1623,
-    "design": 1081,
-    "development": 681,
-    "devices": 2136,
-    "education": 1443,
+    "buildings": 2432,
+    "business": 1945,
+    "celebration": 1856,
+    "commerce": 1248,
+    "communication": 1627,
+    "data": 1645,
+    "design": 1111,
+    "development": 692,
+    "devices": 2208,
+    "education": 1466,
     "emoji": 73,
     "energy": 1104,
-    "fashion": 2512,
-    "files": 611,
-    "finance": 1720,
-    "food": 6593,
-    "gaming": 2426,
-    "health": 2310,
-    "home": 5170,
-    "interface": 1514,
-    "logistics": 1070,
+    "fashion": 2583,
+    "files": 627,
+    "finance": 1742,
+    "food": 6817,
+    "gaming": 2491,
+    "health": 2368,
+    "home": 5294,
+    "interface": 1542,
+    "logistics": 1076,
     "maps": 689,
-    "media": 2534,
-    "nature": 2561,
+    "media": 2599,
+    "nature": 2585,
     "navigation": 63,
     "notifications": 184,
-    "people": 1150,
-    "science": 1457,
-    "security": 919,
-    "social": 495,
-    "sports": 2877,
-    "text": 391,
-    "time": 605,
-    "tools": 2457,
-    "transport": 3361,
-    "travel": 2160,
-    "weather": 1511
+    "people": 1168,
+    "science": 1478,
+    "security": 943,
+    "social": 500,
+    "sports": 2935,
+    "text": 403,
+    "time": 622,
+    "tools": 2521,
+    "transport": 3402,
+    "travel": 2184,
+    "weather": 1523
   }
 }
