@@ -155,7 +155,7 @@ const rows = [];
 const pairs = process.env.BULK_ORDER === 'base' ? Object.keys(B).flatMap((b) => mods.map((m) => [m, b])) : mods.flatMap((m) => Object.keys(B).map((b) => [m, b]));
 outer: for (const [m, b] of pairs) {
   const name = `${b}-${m}`;
-  if (['key', 'coins', 'truck', 'puzzle', 'pill'].includes(b) || b === m || (b === 'users' && m === 'user') || (b === 'message' && m === 'chat')) continue;
+  if (['key', 'coins', 'truck', 'puzzle', 'pill'].includes(b) || b === m || b.split('-').includes(m) || (m === 'home' && /(^|-)(house|home)(-|$)/.test(b)) || (m === 'drop' && /(^|-)(water|droplet|drip|rain)(-|$)/.test(b)) || (b === 'users' && m === 'user') || (b === 'message' && m === 'chat')) continue;
   if (taken.has(name.replace(/-/g, '')) || drop.has(name)) continue;
   const [title, tags] = T[m](label(b));
   rows.push([b, m, title, `${tags}, ${label(b).toLowerCase()}`, catOf[b]]);
