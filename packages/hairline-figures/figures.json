@@ -106,5 +106,23 @@
     "c": "automotive",
     "t": "Spanner tray",
     "g": "spanner wrench tools repair mechanic garage service"
+  },
+  {
+    "file": "clothesrack.js",
+    "c": "fashion",
+    "t": "Clothes rack",
+    "g": "clothes shirts rack fashion retail store wardrobe"
+  },
+  {
+    "file": "cloches.js",
+    "c": "hospitality",
+    "t": "Room service cloches",
+    "g": "cloche dome plate restaurant hotel room service dinner"
+  },
+  {
+    "file": "mailboxes.js",
+    "c": "marketing",
+    "t": "Mailboxes",
+    "g": "mailbox mail post letters newsletter email campaign"
   }
 ]
