@@ -124,5 +124,41 @@
     "c": "marketing",
     "t": "Mailboxes",
     "g": "mailbox mail post letters newsletter email campaign"
+  },
+  {
+    "file": "filingcabinet.js",
+    "c": "office",
+    "t": "Filing cabinet",
+    "g": "filing cabinet drawers files records archive documents office"
+  },
+  {
+    "file": "containeryard.js",
+    "c": "logistics",
+    "t": "Container yard",
+    "g": "shipping containers port gantry crane cargo terminal"
+  },
+  {
+    "file": "windturbines.js",
+    "c": "energy",
+    "t": "Wind turbines",
+    "g": "wind turbine wind farm renewable energy rotor clean power"
+  },
+  {
+    "file": "evchargers.js",
+    "c": "automotive",
+    "t": "EV chargers",
+    "g": "ev charger electric vehicle charging station plug parking"
+  },
+  {
+    "file": "pianokeys.js",
+    "c": "music",
+    "t": "Piano keys",
+    "g": "piano keyboard keys music instrument chord octave"
+  },
+  {
+    "file": "spicerack.js",
+    "c": "food",
+    "t": "Spice rack",
+    "g": "spice jars rack shelf kitchen seasoning pantry"
   }
 ]
