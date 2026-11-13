@@ -137,5 +137,5 @@ loadIndex()
   })
   .catch(() => {
     status.innerHTML =
-      'Can’t reach the ollo icon data. Start the site first: <code>pnpm --filter @library/web dev</code> (http://localhost:3100), then reopen the plugin.';
+      'Can’t reach the ollo icons. On your PC, double-click <b>Start ollo site</b> in the library-web folder, keep that window open, then reopen this plugin.';
   });
