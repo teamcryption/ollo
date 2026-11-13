@@ -589,3 +589,7 @@ sleep-mask
 oxygen-tank
 moon-phase
 sunscreen
+storm
+tornado
+humidity
+tide

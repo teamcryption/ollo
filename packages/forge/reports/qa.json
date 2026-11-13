@@ -1,2598 +1,840 @@
 {
-  "generatedAt": "2026-11-12T17:23:59.575Z",
-  "icons": 55523,
-  "files": 277615,
+  "generatedAt": "2026-11-13T04:17:10.057Z",
+  "icons": 55610,
+  "files": 278050,
   "errors": [],
   "warnings": [
-    "hairpin-curve-camera: grid: outside the 3-21 live area (3.38, 3.38, 22.00, 20.50)",
-    "flood-zone-camera: grid: outside the 3-21 live area (3.38, 3.38, 22.00, 20.50)",
-    "tunnel-ahead-camera: grid: outside the 3-21 live area (3.38, 3.38, 22.00, 20.50)",
-    "lane-ends-camera: grid: outside the 3-21 live area (3.38, 3.38, 22.00, 20.50)",
-    "parking-ahead-camera: grid: outside the 3-21 live area (3.38, 3.38, 22.00, 20.50)",
-    "hospital-ahead-camera: grid: outside the 3-21 live area (3.38, 3.38, 22.00, 20.50)",
-    "kayak-camera: grid: outside the 3-21 live area (3.16, 3.36, 22.00, 20.50)",
-    "rowboat-camera: grid: outside the 3-21 live area (3.00, 4.08, 22.00, 20.50)",
-    "train-front-camera: grid: outside the 3-21 live area (4.80, 3.36, 22.00, 20.50)",
-    "bicycle-camera: grid: outside the 3-21 live area (2.64, 7.32, 22.00, 20.50)",
-    "oxygen-tank-camera: grid: outside the 3-21 live area (5.88, 3.36, 22.00, 20.50)",
-    "sun-lounger-camera: grid: outside the 3-21 live area (3.36, 6.24, 22.00, 20.50)",
-    "picnic-basket-camera: grid: outside the 3-21 live area (3.36, 4.44, 22.00, 20.50)",
-    "bbq-grill-camera: grid: outside the 3-21 live area (3.00, 7.68, 22.00, 20.50)",
-    "kayak-paddle-camera: grid: outside the 3-21 live area (3.12, 3.12, 22.00, 20.50)",
-    "carabiner-camera: grid: outside the 3-21 live area (4.97, 3.27, 22.00, 20.50)",
-    "spyglass-camera: grid: outside the 3-21 live area (3.23, 6.57, 22.00, 20.50)",
-    "travel-pillow-camera: grid: outside the 3-21 live area (3.28, 3.72, 22.00, 20.50)",
-    "sleep-mask-camera: grid: outside the 3-21 live area (3.36, 5.88, 22.00, 20.50)",
-    "baggage-claim-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
-    "funicular-camera: grid: outside the 3-21 live area (3.36, 5.04, 22.00, 20.50)",
-    "hot-spring-camera: grid: outside the 3-21 live area (3.54, 10.56, 22.00, 20.50)",
-    "camping-stove-camera: grid: outside the 3-21 live area (4.80, 4.08, 22.00, 20.50)",
-    "airplane-takeoff-camera: grid: outside the 3-21 live area (4.98, 4.71, 22.00, 20.50)",
-    "airplane-landing-camera: grid: outside the 3-21 live area (4.98, 3.67, 22.00, 20.50)",
-    "luggage-camera: grid: outside the 3-21 live area (5.88, 3.36, 22.00, 20.50)",
-    "beach-umbrella-camera: grid: outside the 3-21 live area (3.72, 3.36, 22.00, 20.50)",
-    "camper-van-camera: grid: outside the 3-21 live area (3.00, 5.16, 22.00, 20.50)",
-    "hiking-boot-camera: grid: outside the 3-21 live area (4.08, 3.36, 22.00, 20.50)",
-    "caravan-camera: grid: outside the 3-21 live area (3.00, 5.88, 22.00, 20.50)",
-    "diving-mask-camera: grid: outside the 3-21 live area (3.00, 3.36, 22.00, 20.50)",
-    "flip-flops-camera: grid: outside the 3-21 live area (3.72, 3.36, 22.00, 20.50)",
-    "sunscreen-camera: grid: outside the 3-21 live area (5.96, 3.36, 22.00, 20.50)",
-    "bucket-spade-camera: grid: outside the 3-21 live area (3.43, 3.36, 22.00, 20.50)",
-    "sleet-camera: grid: outside the 3-21 live area (2.96, 3.56, 22.00, 20.50)",
-    "drought-camera: grid: outside the 3-21 live area (3.36, 2.86, 22.00, 20.50)",
-    "avalanche-camera: grid: outside the 3-21 live area (3.60, 6.18, 22.00, 20.50)",
-    "haze-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
-    "eclipse-camera: grid: outside the 3-21 live area (3.00, 3.00, 22.00, 20.50)",
-    "icicle-camera: grid: outside the 3-21 live area (3.36, 4.08, 22.00, 20.50)",
-    "dust-storm-camera: grid: outside the 3-21 live area (3.36, 3.00, 22.00, 20.50)",
-    "moon-phase-camera: grid: outside the 3-21 live area (3.00, 7.68, 22.00, 20.50)",
-    "windvane-camera: grid: outside the 3-21 live area (3.36, 3.87, 22.00, 20.50)",
-    "aurora-camera: grid: outside the 3-21 live area (3.36, 5.25, 22.00, 20.50)",
-    "cloud-wind-camera: grid: outside the 3-21 live area (2.96, 3.56, 22.00, 20.50)",
-    "temperature-high-camera: grid: outside the 3-21 live area (6.60, 3.36, 22.00, 20.50)",
-    "temperature-low-camera: grid: outside the 3-21 live area (6.60, 3.36, 22.00, 20.50)",
-    "cloudy-camera: grid: outside the 3-21 live area (2.74, 5.62, 22.00, 20.50)",
-    "hail-camera: grid: outside the 3-21 live area (2.96, 3.56, 22.00, 20.50)",
-    "rain-heavy-camera: grid: outside the 3-21 live area (2.96, 3.56, 22.00, 20.50)"
+    "tornado-camera: grid: outside the 3-21 live area (3.36, 4.44, 22.00, 20.50)",
+    "celsius-camera: grid: outside the 3-21 live area (4.08, 4.08, 22.00, 20.50)",
+    "fahrenheit-camera: grid: outside the 3-21 live area (4.08, 4.08, 22.00, 20.50)",
+    "thermometer-sun-camera: grid: outside the 3-21 live area (3.36, 3.00, 22.00, 20.50)",
+    "hurricane-camera: grid: outside the 3-21 live area (6.24, 4.08, 22.00, 20.50)",
+    "sun-dim-camera: grid: outside the 3-21 live area (4.08, 4.08, 22.00, 20.50)",
+    "humidity-camera: grid: outside the 3-21 live area (5.16, 3.36, 22.00, 20.50)",
+    "tide-camera: grid: outside the 3-21 live area (3.36, 11.82, 22.00, 20.50)",
+    "thermometer-snow-camera: grid: outside the 3-21 live area (3.36, 3.00, 22.00, 20.50)",
+    "weather-vane-camera: grid: outside the 3-21 live area (3.51, 4.80, 22.00, 20.50)",
+    "anemometer-camera: grid: outside the 3-21 live area (3.36, 5.52, 22.00, 20.50)",
+    "cloud-sun-camera: grid: outside the 3-21 live area (2.64, 4.01, 22.00, 20.50)",
+    "rain-camera: grid: outside the 3-21 live area (2.96, 3.56, 22.00, 20.50)",
+    "snow-camera: grid: outside the 3-21 live area (2.96, 3.56, 22.00, 20.50)",
+    "storm-camera: grid: outside the 3-21 live area (2.96, 3.56, 22.00, 20.50)",
+    "lightning-camera: grid: outside the 3-21 live area (5.07, 3.32, 22.00, 20.50)",
+    "droplet-camera: grid: outside the 3-21 live area (5.16, 3.36, 22.00, 20.50)"
   ],
   "duplicates": [
     {
-      "a": "bottle-cap-pencil",
-      "b": "life-buoy-leaf",
+      "a": "bauble-filter",
+      "b": "humidity-filter",
       "distance": 1.41
     },
     {
-      "a": "hairpin-curve-bookmark",
-      "b": "flood-zone-bookmark",
-      "distance": 0
-    },
-    {
-      "a": "hairpin-curve-bookmark",
-      "b": "tunnel-ahead-bookmark",
-      "distance": 0
-    },
-    {
-      "a": "hairpin-curve-bookmark",
-      "b": "lane-ends-bookmark",
-      "distance": 0
-    },
-    {
-      "a": "hairpin-curve-bookmark",
-      "b": "parking-ahead-bookmark",
-      "distance": 0
-    },
-    {
-      "a": "hairpin-curve-bookmark",
-      "b": "hospital-ahead-bookmark",
-      "distance": 0
-    },
-    {
-      "a": "hairpin-curve-upload",
-      "b": "flood-zone-upload",
-      "distance": 0
-    },
-    {
-      "a": "hairpin-curve-upload",
-      "b": "tunnel-ahead-upload",
-      "distance": 0
-    },
-    {
-      "a": "hairpin-curve-upload",
-      "b": "lane-ends-upload",
-      "distance": 0
-    },
-    {
-      "a": "hairpin-curve-upload",
-      "b": "parking-ahead-upload",
-      "distance": 0
-    },
-    {
-      "a": "hairpin-curve-upload",
-      "b": "hospital-ahead-upload",
-      "distance": 0
-    },
-    {
-      "a": "hairpin-curve-crown",
-      "b": "flood-zone-crown",
-      "distance": 0
-    },
-    {
-      "a": "hairpin-curve-crown",
-      "b": "tunnel-ahead-crown",
-      "distance": 0
-    },
-    {
-      "a": "hairpin-curve-crown",
-      "b": "lane-ends-crown",
-      "distance": 0
-    },
-    {
-      "a": "hairpin-curve-crown",
-      "b": "parking-ahead-crown",
-      "distance": 0
-    },
-    {
-      "a": "hairpin-curve-crown",
-      "b": "hospital-ahead-crown",
-      "distance": 0
-    },
-    {
-      "a": "hairpin-curve-leaf",
-      "b": "flood-zone-leaf",
-      "distance": 0
-    },
-    {
-      "a": "hairpin-curve-leaf",
-      "b": "tunnel-ahead-leaf",
-      "distance": 0
-    },
-    {
-      "a": "hairpin-curve-leaf",
-      "b": "lane-ends-leaf",
-      "distance": 0
-    },
-    {
-      "a": "hairpin-curve-leaf",
-      "b": "parking-ahead-leaf",
-      "distance": 0
-    },
-    {
-      "a": "hairpin-curve-leaf",
-      "b": "hospital-ahead-leaf",
-      "distance": 0
-    },
-    {
-      "a": "hairpin-curve-hourglass",
-      "b": "flood-zone-hourglass",
-      "distance": 0
-    },
-    {
-      "a": "hairpin-curve-hourglass",
-      "b": "tunnel-ahead-hourglass",
-      "distance": 0
-    },
-    {
-      "a": "hairpin-curve-hourglass",
-      "b": "lane-ends-hourglass",
-      "distance": 0
-    },
-    {
-      "a": "hairpin-curve-hourglass",
-      "b": "parking-ahead-hourglass",
-      "distance": 0
-    },
-    {
-      "a": "hairpin-curve-hourglass",
-      "b": "hospital-ahead-hourglass",
-      "distance": 0
-    },
-    {
-      "a": "hairpin-curve-cursor",
-      "b": "flood-zone-cursor",
-      "distance": 0
-    },
-    {
-      "a": "hairpin-curve-cursor",
-      "b": "tunnel-ahead-cursor",
-      "distance": 0
-    },
-    {
-      "a": "hairpin-curve-cursor",
-      "b": "lane-ends-cursor",
-      "distance": 0
-    },
-    {
-      "a": "hairpin-curve-cursor",
-      "b": "parking-ahead-cursor",
-      "distance": 0
-    },
-    {
-      "a": "hairpin-curve-cursor",
-      "b": "hospital-ahead-cursor",
-      "distance": 0
-    },
-    {
-      "a": "hairpin-curve-camera",
-      "b": "flood-zone-camera",
-      "distance": 0
-    },
-    {
-      "a": "hairpin-curve-camera",
-      "b": "tunnel-ahead-camera",
-      "distance": 0
-    },
-    {
-      "a": "hairpin-curve-camera",
-      "b": "lane-ends-camera",
-      "distance": 0
-    },
-    {
-      "a": "hairpin-curve-camera",
-      "b": "parking-ahead-camera",
-      "distance": 0
-    },
-    {
-      "a": "hairpin-curve-camera",
-      "b": "hospital-ahead-camera",
-      "distance": 0
-    },
-    {
-      "a": "hairpin-curve-filter",
-      "b": "flood-zone-filter",
-      "distance": 0
-    },
-    {
-      "a": "hairpin-curve-filter",
-      "b": "tunnel-ahead-filter",
-      "distance": 0
-    },
-    {
-      "a": "hairpin-curve-filter",
-      "b": "lane-ends-filter",
-      "distance": 0
-    },
-    {
-      "a": "hairpin-curve-filter",
-      "b": "parking-ahead-filter",
-      "distance": 0
-    },
-    {
-      "a": "hairpin-curve-filter",
-      "b": "hospital-ahead-filter",
-      "distance": 0
-    },
-    {
-      "a": "hairpin-curve-stats",
-      "b": "flood-zone-stats",
-      "distance": 0
-    },
-    {
-      "a": "hairpin-curve-stats",
-      "b": "tunnel-ahead-stats",
-      "distance": 0
-    },
-    {
-      "a": "hairpin-curve-stats",
-      "b": "lane-ends-stats",
-      "distance": 0
-    },
-    {
-      "a": "hairpin-curve-stats",
-      "b": "parking-ahead-stats",
-      "distance": 0
-    },
-    {
-      "a": "hairpin-curve-stats",
-      "b": "hospital-ahead-stats",
-      "distance": 0
-    },
-    {
-      "a": "hairpin-curve-checkbox",
-      "b": "flood-zone-checkbox",
-      "distance": 0
-    },
-    {
-      "a": "hairpin-curve-checkbox",
-      "b": "tunnel-ahead-checkbox",
-      "distance": 0
-    },
-    {
-      "a": "hairpin-curve-checkbox",
-      "b": "lane-ends-checkbox",
-      "distance": 0
-    },
-    {
-      "a": "hairpin-curve-checkbox",
-      "b": "parking-ahead-checkbox",
-      "distance": 0
-    },
-    {
-      "a": "hairpin-curve-checkbox",
-      "b": "hospital-ahead-checkbox",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-search",
-      "b": "tunnel-ahead-search",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-search",
-      "b": "lane-ends-search",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-search",
-      "b": "parking-ahead-search",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-search",
-      "b": "hospital-ahead-search",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-clock",
-      "b": "tunnel-ahead-clock",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-clock",
-      "b": "lane-ends-clock",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-clock",
-      "b": "parking-ahead-clock",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-clock",
-      "b": "hospital-ahead-clock",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-gear",
-      "b": "tunnel-ahead-gear",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-gear",
-      "b": "lane-ends-gear",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-gear",
-      "b": "parking-ahead-gear",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-gear",
-      "b": "hospital-ahead-gear",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-bolt",
-      "b": "tunnel-ahead-bolt",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-bolt",
-      "b": "lane-ends-bolt",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-bolt",
-      "b": "parking-ahead-bolt",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-bolt",
-      "b": "hospital-ahead-bolt",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-heart",
-      "b": "tunnel-ahead-heart",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-heart",
-      "b": "lane-ends-heart",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-heart",
-      "b": "parking-ahead-heart",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-heart",
-      "b": "hospital-ahead-heart",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-star",
-      "b": "tunnel-ahead-star",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-star",
-      "b": "lane-ends-star",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-star",
-      "b": "parking-ahead-star",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-star",
-      "b": "hospital-ahead-star",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-cloud",
-      "b": "tunnel-ahead-cloud",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-cloud",
-      "b": "lane-ends-cloud",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-cloud",
-      "b": "parking-ahead-cloud",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-cloud",
-      "b": "hospital-ahead-cloud",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-chat",
-      "b": "tunnel-ahead-chat",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-chat",
-      "b": "lane-ends-chat",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-chat",
-      "b": "parking-ahead-chat",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-chat",
-      "b": "hospital-ahead-chat",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-download",
-      "b": "tunnel-ahead-download",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-download",
-      "b": "lane-ends-download",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-download",
-      "b": "parking-ahead-download",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-download",
-      "b": "hospital-ahead-download",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-pencil",
-      "b": "tunnel-ahead-pencil",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-pencil",
-      "b": "lane-ends-pencil",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-pencil",
-      "b": "parking-ahead-pencil",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-pencil",
-      "b": "hospital-ahead-pencil",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-trash",
-      "b": "tunnel-ahead-trash",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-trash",
-      "b": "lane-ends-trash",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-trash",
-      "b": "parking-ahead-trash",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-trash",
-      "b": "hospital-ahead-trash",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-calendar",
-      "b": "tunnel-ahead-calendar",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-calendar",
-      "b": "lane-ends-calendar",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-calendar",
-      "b": "parking-ahead-calendar",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-calendar",
-      "b": "hospital-ahead-calendar",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-question",
-      "b": "tunnel-ahead-question",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-question",
-      "b": "lane-ends-question",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-question",
-      "b": "parking-ahead-question",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-question",
-      "b": "hospital-ahead-question",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-bookmark",
-      "b": "tunnel-ahead-bookmark",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-bookmark",
-      "b": "lane-ends-bookmark",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-bookmark",
-      "b": "parking-ahead-bookmark",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-bookmark",
-      "b": "hospital-ahead-bookmark",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-upload",
-      "b": "tunnel-ahead-upload",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-upload",
-      "b": "lane-ends-upload",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-upload",
-      "b": "parking-ahead-upload",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-upload",
-      "b": "hospital-ahead-upload",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-crown",
-      "b": "tunnel-ahead-crown",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-crown",
-      "b": "lane-ends-crown",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-crown",
-      "b": "parking-ahead-crown",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-crown",
-      "b": "hospital-ahead-crown",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-leaf",
-      "b": "tunnel-ahead-leaf",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-leaf",
-      "b": "lane-ends-leaf",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-leaf",
-      "b": "parking-ahead-leaf",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-leaf",
-      "b": "hospital-ahead-leaf",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-hourglass",
-      "b": "tunnel-ahead-hourglass",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-hourglass",
-      "b": "lane-ends-hourglass",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-hourglass",
-      "b": "parking-ahead-hourglass",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-hourglass",
-      "b": "hospital-ahead-hourglass",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-cursor",
-      "b": "tunnel-ahead-cursor",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-cursor",
-      "b": "lane-ends-cursor",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-cursor",
-      "b": "parking-ahead-cursor",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-cursor",
-      "b": "hospital-ahead-cursor",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-camera",
-      "b": "tunnel-ahead-camera",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-camera",
-      "b": "lane-ends-camera",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-camera",
-      "b": "parking-ahead-camera",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-camera",
-      "b": "hospital-ahead-camera",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-filter",
-      "b": "tunnel-ahead-filter",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-filter",
-      "b": "lane-ends-filter",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-filter",
-      "b": "parking-ahead-filter",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-filter",
-      "b": "hospital-ahead-filter",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-stats",
-      "b": "tunnel-ahead-stats",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-stats",
-      "b": "lane-ends-stats",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-stats",
-      "b": "parking-ahead-stats",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-stats",
-      "b": "hospital-ahead-stats",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-checkbox",
-      "b": "tunnel-ahead-checkbox",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-checkbox",
-      "b": "lane-ends-checkbox",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-checkbox",
-      "b": "parking-ahead-checkbox",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-checkbox",
-      "b": "hospital-ahead-checkbox",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-search",
-      "b": "lane-ends-search",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-search",
-      "b": "parking-ahead-search",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-search",
-      "b": "hospital-ahead-search",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-clock",
-      "b": "lane-ends-clock",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-clock",
-      "b": "parking-ahead-clock",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-clock",
-      "b": "hospital-ahead-clock",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-gear",
-      "b": "lane-ends-gear",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-gear",
-      "b": "parking-ahead-gear",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-gear",
-      "b": "hospital-ahead-gear",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-bolt",
-      "b": "lane-ends-bolt",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-bolt",
-      "b": "parking-ahead-bolt",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-bolt",
-      "b": "hospital-ahead-bolt",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-heart",
-      "b": "lane-ends-heart",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-heart",
-      "b": "parking-ahead-heart",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-heart",
-      "b": "hospital-ahead-heart",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-star",
-      "b": "lane-ends-star",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-star",
-      "b": "parking-ahead-star",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-star",
-      "b": "hospital-ahead-star",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-cloud",
-      "b": "lane-ends-cloud",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-cloud",
-      "b": "parking-ahead-cloud",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-cloud",
-      "b": "hospital-ahead-cloud",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-chat",
-      "b": "lane-ends-chat",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-chat",
-      "b": "parking-ahead-chat",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-chat",
-      "b": "hospital-ahead-chat",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-download",
-      "b": "lane-ends-download",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-download",
-      "b": "parking-ahead-download",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-download",
-      "b": "hospital-ahead-download",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-pencil",
-      "b": "lane-ends-pencil",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-pencil",
-      "b": "parking-ahead-pencil",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-pencil",
-      "b": "hospital-ahead-pencil",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-trash",
-      "b": "lane-ends-trash",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-trash",
-      "b": "parking-ahead-trash",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-trash",
-      "b": "hospital-ahead-trash",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-calendar",
-      "b": "lane-ends-calendar",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-calendar",
-      "b": "parking-ahead-calendar",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-calendar",
-      "b": "hospital-ahead-calendar",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-question",
-      "b": "lane-ends-question",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-question",
-      "b": "parking-ahead-question",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-question",
-      "b": "hospital-ahead-question",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-bookmark",
-      "b": "lane-ends-bookmark",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-bookmark",
-      "b": "parking-ahead-bookmark",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-bookmark",
-      "b": "hospital-ahead-bookmark",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-upload",
-      "b": "lane-ends-upload",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-upload",
-      "b": "parking-ahead-upload",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-upload",
-      "b": "hospital-ahead-upload",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-crown",
-      "b": "lane-ends-crown",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-crown",
-      "b": "parking-ahead-crown",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-crown",
-      "b": "hospital-ahead-crown",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-leaf",
-      "b": "lane-ends-leaf",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-leaf",
-      "b": "parking-ahead-leaf",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-leaf",
-      "b": "hospital-ahead-leaf",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-hourglass",
-      "b": "lane-ends-hourglass",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-hourglass",
-      "b": "parking-ahead-hourglass",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-hourglass",
-      "b": "hospital-ahead-hourglass",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-cursor",
-      "b": "lane-ends-cursor",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-cursor",
-      "b": "parking-ahead-cursor",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-cursor",
-      "b": "hospital-ahead-cursor",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-camera",
-      "b": "lane-ends-camera",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-camera",
-      "b": "parking-ahead-camera",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-camera",
-      "b": "hospital-ahead-camera",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-filter",
-      "b": "lane-ends-filter",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-filter",
-      "b": "parking-ahead-filter",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-filter",
-      "b": "hospital-ahead-filter",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-stats",
-      "b": "lane-ends-stats",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-stats",
-      "b": "parking-ahead-stats",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-stats",
-      "b": "hospital-ahead-stats",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-checkbox",
-      "b": "lane-ends-checkbox",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-checkbox",
-      "b": "parking-ahead-checkbox",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-checkbox",
-      "b": "hospital-ahead-checkbox",
-      "distance": 0
-    },
-    {
-      "a": "lane-ends-search",
-      "b": "parking-ahead-search",
-      "distance": 0
-    },
-    {
-      "a": "lane-ends-search",
-      "b": "hospital-ahead-search",
-      "distance": 0
-    },
-    {
-      "a": "lane-ends-clock",
-      "b": "parking-ahead-clock",
-      "distance": 0
-    },
-    {
-      "a": "lane-ends-clock",
-      "b": "hospital-ahead-clock",
-      "distance": 0
-    },
-    {
-      "a": "lane-ends-gear",
-      "b": "parking-ahead-gear",
-      "distance": 0
-    },
-    {
-      "a": "lane-ends-gear",
-      "b": "hospital-ahead-gear",
-      "distance": 0
-    },
-    {
-      "a": "lane-ends-bolt",
-      "b": "parking-ahead-bolt",
-      "distance": 0
-    },
-    {
-      "a": "lane-ends-bolt",
-      "b": "hospital-ahead-bolt",
-      "distance": 0
-    },
-    {
-      "a": "lane-ends-heart",
-      "b": "parking-ahead-heart",
-      "distance": 0
-    },
-    {
-      "a": "lane-ends-heart",
-      "b": "hospital-ahead-heart",
-      "distance": 0
-    },
-    {
-      "a": "lane-ends-star",
-      "b": "parking-ahead-star",
-      "distance": 0
-    },
-    {
-      "a": "lane-ends-star",
-      "b": "hospital-ahead-star",
-      "distance": 0
-    },
-    {
-      "a": "lane-ends-cloud",
-      "b": "parking-ahead-cloud",
-      "distance": 0
-    },
-    {
-      "a": "lane-ends-cloud",
-      "b": "hospital-ahead-cloud",
-      "distance": 0
-    },
-    {
-      "a": "lane-ends-chat",
-      "b": "parking-ahead-chat",
-      "distance": 0
-    },
-    {
-      "a": "lane-ends-chat",
-      "b": "hospital-ahead-chat",
-      "distance": 0
-    },
-    {
-      "a": "lane-ends-download",
-      "b": "parking-ahead-download",
-      "distance": 0
-    },
-    {
-      "a": "lane-ends-download",
-      "b": "hospital-ahead-download",
-      "distance": 0
-    },
-    {
-      "a": "lane-ends-pencil",
-      "b": "parking-ahead-pencil",
-      "distance": 0
-    },
-    {
-      "a": "lane-ends-pencil",
-      "b": "hospital-ahead-pencil",
-      "distance": 0
-    },
-    {
-      "a": "lane-ends-trash",
-      "b": "parking-ahead-trash",
-      "distance": 0
-    },
-    {
-      "a": "lane-ends-trash",
-      "b": "hospital-ahead-trash",
-      "distance": 0
-    },
-    {
-      "a": "lane-ends-calendar",
-      "b": "parking-ahead-calendar",
-      "distance": 0
-    },
-    {
-      "a": "lane-ends-calendar",
-      "b": "hospital-ahead-calendar",
-      "distance": 0
-    },
-    {
-      "a": "lane-ends-question",
-      "b": "parking-ahead-question",
-      "distance": 0
-    },
-    {
-      "a": "lane-ends-question",
-      "b": "hospital-ahead-question",
-      "distance": 0
-    },
-    {
-      "a": "lane-ends-bookmark",
-      "b": "parking-ahead-bookmark",
-      "distance": 0
-    },
-    {
-      "a": "lane-ends-bookmark",
-      "b": "hospital-ahead-bookmark",
-      "distance": 0
-    },
-    {
-      "a": "lane-ends-upload",
-      "b": "parking-ahead-upload",
-      "distance": 0
-    },
-    {
-      "a": "lane-ends-upload",
-      "b": "hospital-ahead-upload",
-      "distance": 0
-    },
-    {
-      "a": "lane-ends-crown",
-      "b": "parking-ahead-crown",
-      "distance": 0
-    },
-    {
-      "a": "lane-ends-crown",
-      "b": "hospital-ahead-crown",
-      "distance": 0
-    },
-    {
-      "a": "lane-ends-leaf",
-      "b": "parking-ahead-leaf",
-      "distance": 0
-    },
-    {
-      "a": "lane-ends-leaf",
-      "b": "hospital-ahead-leaf",
-      "distance": 0
-    },
-    {
-      "a": "lane-ends-hourglass",
-      "b": "parking-ahead-hourglass",
-      "distance": 0
-    },
-    {
-      "a": "lane-ends-hourglass",
-      "b": "hospital-ahead-hourglass",
-      "distance": 0
-    },
-    {
-      "a": "lane-ends-cursor",
-      "b": "parking-ahead-cursor",
-      "distance": 0
-    },
-    {
-      "a": "lane-ends-cursor",
-      "b": "hospital-ahead-cursor",
-      "distance": 0
-    },
-    {
-      "a": "lane-ends-camera",
-      "b": "parking-ahead-camera",
-      "distance": 0
-    },
-    {
-      "a": "lane-ends-camera",
-      "b": "hospital-ahead-camera",
-      "distance": 0
-    },
-    {
-      "a": "lane-ends-filter",
-      "b": "parking-ahead-filter",
-      "distance": 0
-    },
-    {
-      "a": "lane-ends-filter",
-      "b": "hospital-ahead-filter",
-      "distance": 0
-    },
-    {
-      "a": "lane-ends-stats",
-      "b": "parking-ahead-stats",
-      "distance": 0
-    },
-    {
-      "a": "lane-ends-stats",
-      "b": "hospital-ahead-stats",
-      "distance": 0
-    },
-    {
-      "a": "lane-ends-checkbox",
-      "b": "parking-ahead-checkbox",
-      "distance": 0
-    },
-    {
-      "a": "lane-ends-checkbox",
-      "b": "hospital-ahead-checkbox",
-      "distance": 0
-    },
-    {
-      "a": "parking-ahead-search",
-      "b": "hospital-ahead-search",
-      "distance": 0
-    },
-    {
-      "a": "parking-ahead-clock",
-      "b": "hospital-ahead-clock",
-      "distance": 0
-    },
-    {
-      "a": "parking-ahead-gear",
-      "b": "hospital-ahead-gear",
-      "distance": 0
-    },
-    {
-      "a": "parking-ahead-bolt",
-      "b": "hospital-ahead-bolt",
-      "distance": 0
-    },
-    {
-      "a": "parking-ahead-heart",
-      "b": "hospital-ahead-heart",
-      "distance": 0
-    },
-    {
-      "a": "parking-ahead-star",
-      "b": "hospital-ahead-star",
-      "distance": 0
-    },
-    {
-      "a": "parking-ahead-cloud",
-      "b": "hospital-ahead-cloud",
-      "distance": 0
-    },
-    {
-      "a": "parking-ahead-chat",
-      "b": "hospital-ahead-chat",
-      "distance": 0
-    },
-    {
-      "a": "parking-ahead-download",
-      "b": "hospital-ahead-download",
-      "distance": 0
-    },
-    {
-      "a": "parking-ahead-pencil",
-      "b": "hospital-ahead-pencil",
-      "distance": 0
-    },
-    {
-      "a": "parking-ahead-trash",
-      "b": "hospital-ahead-trash",
-      "distance": 0
-    },
-    {
-      "a": "parking-ahead-calendar",
-      "b": "hospital-ahead-calendar",
-      "distance": 0
-    },
-    {
-      "a": "parking-ahead-question",
-      "b": "hospital-ahead-question",
-      "distance": 0
-    },
-    {
-      "a": "parking-ahead-bookmark",
-      "b": "hospital-ahead-bookmark",
-      "distance": 0
-    },
-    {
-      "a": "parking-ahead-upload",
-      "b": "hospital-ahead-upload",
-      "distance": 0
-    },
-    {
-      "a": "parking-ahead-crown",
-      "b": "hospital-ahead-crown",
-      "distance": 0
-    },
-    {
-      "a": "parking-ahead-leaf",
-      "b": "hospital-ahead-leaf",
-      "distance": 0
-    },
-    {
-      "a": "parking-ahead-hourglass",
-      "b": "hospital-ahead-hourglass",
-      "distance": 0
-    },
-    {
-      "a": "parking-ahead-cursor",
-      "b": "hospital-ahead-cursor",
-      "distance": 0
-    },
-    {
-      "a": "parking-ahead-camera",
-      "b": "hospital-ahead-camera",
-      "distance": 0
-    },
-    {
-      "a": "parking-ahead-filter",
-      "b": "hospital-ahead-filter",
-      "distance": 0
-    },
-    {
-      "a": "parking-ahead-stats",
-      "b": "hospital-ahead-stats",
-      "distance": 0
-    },
-    {
-      "a": "parking-ahead-checkbox",
-      "b": "hospital-ahead-checkbox",
-      "distance": 0
-    },
-    {
-      "a": "kayak-sparkle",
-      "b": "kayak-upload",
+      "a": "bauble-filter",
+      "b": "droplet-filter",
       "distance": 1.41
     },
     {
-      "a": "train-front-sparkle",
-      "b": "train-front-upload",
+      "a": "luggage-search",
+      "b": "humidity-search",
       "distance": 1.41
     },
     {
-      "a": "bicycle-gear",
-      "b": "bicycle-stats",
+      "a": "luggage-search",
+      "b": "droplet-search",
       "distance": 1.41
     },
     {
-      "a": "bicycle-pencil",
-      "b": "bicycle-leaf",
+      "a": "luggage-clock",
+      "b": "humidity-clock",
       "distance": 1.41
     },
     {
-      "a": "bicycle-sparkle",
-      "b": "bicycle-upload",
+      "a": "luggage-clock",
+      "b": "droplet-clock",
       "distance": 1.41
     },
     {
-      "a": "picnic-basket-pencil",
-      "b": "picnic-basket-leaf",
+      "a": "luggage-gear",
+      "b": "humidity-gear",
       "distance": 1.41
     },
     {
-      "a": "picnic-basket-sparkle",
-      "b": "picnic-basket-upload",
+      "a": "luggage-gear",
+      "b": "droplet-gear",
       "distance": 1.41
     },
     {
-      "a": "travel-pillow-pencil",
-      "b": "travel-pillow-leaf",
+      "a": "luggage-bolt",
+      "b": "humidity-bolt",
       "distance": 1.41
     },
     {
-      "a": "baggage-claim-pencil",
-      "b": "baggage-claim-leaf",
+      "a": "luggage-bolt",
+      "b": "droplet-bolt",
       "distance": 1.41
     },
     {
-      "a": "camper-van-pencil",
-      "b": "camper-van-leaf",
+      "a": "luggage-heart",
+      "b": "humidity-heart",
       "distance": 1.41
     },
     {
-      "a": "camper-van-sparkle",
-      "b": "camper-van-upload",
+      "a": "luggage-heart",
+      "b": "droplet-heart",
       "distance": 1.41
     },
     {
-      "a": "hiking-boot-pencil",
-      "b": "hiking-boot-leaf",
+      "a": "luggage-star",
+      "b": "humidity-star",
       "distance": 1.41
     },
     {
-      "a": "diving-mask-pencil",
-      "b": "diving-mask-leaf",
+      "a": "luggage-star",
+      "b": "droplet-star",
       "distance": 1.41
     },
     {
-      "a": "flip-flops-pencil",
-      "b": "flip-flops-leaf",
+      "a": "luggage-alert",
+      "b": "humidity-alert",
       "distance": 1.41
     },
     {
-      "a": "flip-flops-sparkle",
-      "b": "flip-flops-upload",
+      "a": "luggage-alert",
+      "b": "droplet-alert",
       "distance": 1.41
     },
     {
-      "a": "bucket-spade-pencil",
-      "b": "bucket-spade-leaf",
+      "a": "luggage-cloud",
+      "b": "humidity-cloud",
       "distance": 1.41
     },
     {
-      "a": "bucket-spade-sparkle",
-      "b": "bucket-spade-upload",
+      "a": "luggage-cloud",
+      "b": "droplet-cloud",
       "distance": 1.41
     },
     {
-      "a": "drought-sparkle",
-      "b": "drought-upload",
+      "a": "luggage-chat",
+      "b": "humidity-chat",
       "distance": 1.41
     },
     {
-      "a": "avalanche-pencil",
-      "b": "avalanche-leaf",
+      "a": "luggage-chat",
+      "b": "droplet-chat",
       "distance": 1.41
     },
     {
-      "a": "haze-pencil",
-      "b": "haze-leaf",
+      "a": "luggage-download",
+      "b": "humidity-download",
       "distance": 1.41
     },
     {
-      "a": "eclipse-sparkle",
-      "b": "eclipse-upload",
+      "a": "luggage-download",
+      "b": "droplet-download",
       "distance": 1.41
     },
     {
-      "a": "icicle-sparkle",
-      "b": "icicle-upload",
+      "a": "luggage-pencil",
+      "b": "humidity-pencil",
       "distance": 1.41
     },
     {
-      "a": "aurora-pencil",
-      "b": "aurora-leaf",
+      "a": "luggage-pencil",
+      "b": "droplet-pencil",
       "distance": 1.41
     },
     {
-      "a": "cloudy-pencil",
-      "b": "cloudy-leaf",
+      "a": "luggage-trash",
+      "b": "humidity-trash",
       "distance": 1.41
     },
     {
-      "a": "hail-sparkle",
-      "b": "hail-upload",
+      "a": "luggage-trash",
+      "b": "droplet-trash",
       "distance": 1.41
-    },
-    {
-      "a": "hairpin-curve-moon",
-      "b": "flood-zone-moon",
-      "distance": 0
-    },
-    {
-      "a": "hairpin-curve-moon",
-      "b": "tunnel-ahead-moon",
-      "distance": 0
-    },
-    {
-      "a": "hairpin-curve-moon",
-      "b": "lane-ends-moon",
-      "distance": 0
-    },
-    {
-      "a": "hairpin-curve-moon",
-      "b": "parking-ahead-moon",
-      "distance": 0
     },
     {
-      "a": "hairpin-curve-moon",
-      "b": "hospital-ahead-moon",
-      "distance": 0
-    },
-    {
-      "a": "hairpin-curve-trophy",
-      "b": "flood-zone-trophy",
-      "distance": 0
-    },
-    {
-      "a": "hairpin-curve-trophy",
-      "b": "tunnel-ahead-trophy",
-      "distance": 0
-    },
-    {
-      "a": "hairpin-curve-trophy",
-      "b": "lane-ends-trophy",
-      "distance": 0
-    },
-    {
-      "a": "hairpin-curve-trophy",
-      "b": "parking-ahead-trophy",
-      "distance": 0
+      "a": "luggage-calendar",
+      "b": "humidity-calendar",
+      "distance": 1.41
     },
     {
-      "a": "hairpin-curve-trophy",
-      "b": "hospital-ahead-trophy",
-      "distance": 0
+      "a": "luggage-calendar",
+      "b": "droplet-calendar",
+      "distance": 1.41
     },
     {
-      "a": "flood-zone-bell",
-      "b": "tunnel-ahead-bell",
-      "distance": 0
+      "a": "luggage-question",
+      "b": "humidity-question",
+      "distance": 1.41
     },
     {
-      "a": "flood-zone-bell",
-      "b": "lane-ends-bell",
-      "distance": 0
+      "a": "luggage-question",
+      "b": "droplet-question",
+      "distance": 1.41
     },
     {
-      "a": "flood-zone-bell",
-      "b": "parking-ahead-bell",
-      "distance": 0
+      "a": "luggage-bookmark",
+      "b": "humidity-bookmark",
+      "distance": 1.41
     },
     {
-      "a": "flood-zone-bell",
-      "b": "hospital-ahead-bell",
-      "distance": 0
+      "a": "luggage-bookmark",
+      "b": "droplet-bookmark",
+      "distance": 1.41
     },
     {
-      "a": "flood-zone-moon",
-      "b": "tunnel-ahead-moon",
-      "distance": 0
+      "a": "luggage-crown",
+      "b": "humidity-crown",
+      "distance": 1.41
     },
     {
-      "a": "flood-zone-moon",
-      "b": "lane-ends-moon",
-      "distance": 0
+      "a": "luggage-crown",
+      "b": "droplet-crown",
+      "distance": 1.41
     },
     {
-      "a": "flood-zone-moon",
-      "b": "parking-ahead-moon",
-      "distance": 0
+      "a": "luggage-leaf",
+      "b": "humidity-leaf",
+      "distance": 1.41
     },
     {
-      "a": "flood-zone-moon",
-      "b": "hospital-ahead-moon",
-      "distance": 0
+      "a": "luggage-leaf",
+      "b": "droplet-leaf",
+      "distance": 1.41
     },
     {
-      "a": "flood-zone-trophy",
-      "b": "tunnel-ahead-trophy",
-      "distance": 0
+      "a": "luggage-hourglass",
+      "b": "humidity-hourglass",
+      "distance": 1.41
     },
     {
-      "a": "flood-zone-trophy",
-      "b": "lane-ends-trophy",
-      "distance": 0
+      "a": "luggage-hourglass",
+      "b": "droplet-hourglass",
+      "distance": 1.41
     },
     {
-      "a": "flood-zone-trophy",
-      "b": "parking-ahead-trophy",
-      "distance": 0
+      "a": "luggage-cursor",
+      "b": "humidity-cursor",
+      "distance": 1.41
     },
     {
-      "a": "flood-zone-trophy",
-      "b": "hospital-ahead-trophy",
-      "distance": 0
+      "a": "luggage-cursor",
+      "b": "droplet-cursor",
+      "distance": 1.41
     },
     {
-      "a": "tunnel-ahead-bell",
-      "b": "lane-ends-bell",
-      "distance": 0
+      "a": "luggage-camera",
+      "b": "humidity-camera",
+      "distance": 1.41
     },
     {
-      "a": "tunnel-ahead-bell",
-      "b": "parking-ahead-bell",
-      "distance": 0
+      "a": "luggage-camera",
+      "b": "droplet-camera",
+      "distance": 1.41
     },
     {
-      "a": "tunnel-ahead-bell",
-      "b": "hospital-ahead-bell",
-      "distance": 0
+      "a": "luggage-filter",
+      "b": "humidity-filter",
+      "distance": 1.41
     },
     {
-      "a": "tunnel-ahead-moon",
-      "b": "lane-ends-moon",
-      "distance": 0
+      "a": "luggage-filter",
+      "b": "droplet-filter",
+      "distance": 1.41
     },
     {
-      "a": "tunnel-ahead-moon",
-      "b": "parking-ahead-moon",
-      "distance": 0
+      "a": "luggage-stats",
+      "b": "humidity-stats",
+      "distance": 1.41
     },
     {
-      "a": "tunnel-ahead-moon",
-      "b": "hospital-ahead-moon",
-      "distance": 0
+      "a": "luggage-stats",
+      "b": "droplet-stats",
+      "distance": 1.41
     },
     {
-      "a": "tunnel-ahead-trophy",
-      "b": "lane-ends-trophy",
-      "distance": 0
+      "a": "luggage-checkbox",
+      "b": "humidity-checkbox",
+      "distance": 1.41
     },
     {
-      "a": "tunnel-ahead-trophy",
-      "b": "parking-ahead-trophy",
-      "distance": 0
+      "a": "luggage-checkbox",
+      "b": "droplet-checkbox",
+      "distance": 1.41
     },
     {
-      "a": "tunnel-ahead-trophy",
-      "b": "hospital-ahead-trophy",
-      "distance": 0
+      "a": "thermometer-sun-sparkle",
+      "b": "thermometer-sun-upload",
+      "distance": 1.41
     },
     {
-      "a": "lane-ends-bell",
-      "b": "parking-ahead-bell",
+      "a": "humidity-search",
+      "b": "droplet-search",
       "distance": 0
     },
     {
-      "a": "lane-ends-bell",
-      "b": "hospital-ahead-bell",
-      "distance": 0
+      "a": "humidity-clock",
+      "b": "droplet-clock",
+      "distance": 1
     },
     {
-      "a": "lane-ends-moon",
-      "b": "parking-ahead-moon",
-      "distance": 0
+      "a": "humidity-gear",
+      "b": "droplet-gear",
+      "distance": 1
     },
     {
-      "a": "lane-ends-moon",
-      "b": "hospital-ahead-moon",
-      "distance": 0
+      "a": "humidity-bolt",
+      "b": "droplet-bolt",
+      "distance": 1
     },
     {
-      "a": "lane-ends-trophy",
-      "b": "parking-ahead-trophy",
-      "distance": 0
+      "a": "humidity-heart",
+      "b": "droplet-heart",
+      "distance": 1
     },
     {
-      "a": "lane-ends-trophy",
-      "b": "hospital-ahead-trophy",
-      "distance": 0
+      "a": "humidity-star",
+      "b": "droplet-star",
+      "distance": 1
     },
     {
-      "a": "parking-ahead-bell",
-      "b": "hospital-ahead-bell",
-      "distance": 0
+      "a": "humidity-alert",
+      "b": "droplet-alert",
+      "distance": 1
     },
     {
-      "a": "parking-ahead-moon",
-      "b": "hospital-ahead-moon",
-      "distance": 0
+      "a": "humidity-cloud",
+      "b": "droplet-cloud",
+      "distance": 1
     },
     {
-      "a": "parking-ahead-trophy",
-      "b": "hospital-ahead-trophy",
+      "a": "humidity-chat",
+      "b": "droplet-chat",
       "distance": 0
     },
     {
-      "a": "hairpin-curve-fire",
-      "b": "flood-zone-fire",
+      "a": "humidity-download",
+      "b": "droplet-download",
       "distance": 0
     },
     {
-      "a": "hairpin-curve-fire",
-      "b": "tunnel-ahead-fire",
-      "distance": 0
+      "a": "humidity-pencil",
+      "b": "droplet-pencil",
+      "distance": 1
     },
     {
-      "a": "hairpin-curve-fire",
-      "b": "lane-ends-fire",
-      "distance": 0
+      "a": "humidity-trash",
+      "b": "droplet-trash",
+      "distance": 1
     },
     {
-      "a": "hairpin-curve-fire",
-      "b": "parking-ahead-fire",
-      "distance": 0
+      "a": "humidity-calendar",
+      "b": "droplet-calendar",
+      "distance": 1
     },
     {
-      "a": "hairpin-curve-fire",
-      "b": "hospital-ahead-fire",
+      "a": "humidity-question",
+      "b": "droplet-question",
       "distance": 0
     },
     {
-      "a": "flood-zone-fire",
-      "b": "tunnel-ahead-fire",
-      "distance": 0
+      "a": "humidity-bookmark",
+      "b": "droplet-bookmark",
+      "distance": 1
     },
     {
-      "a": "flood-zone-fire",
-      "b": "lane-ends-fire",
-      "distance": 0
+      "a": "humidity-upload",
+      "b": "droplet-upload",
+      "distance": 1
     },
     {
-      "a": "flood-zone-fire",
-      "b": "parking-ahead-fire",
-      "distance": 0
+      "a": "humidity-crown",
+      "b": "droplet-crown",
+      "distance": 1
     },
     {
-      "a": "flood-zone-fire",
-      "b": "hospital-ahead-fire",
-      "distance": 0
+      "a": "humidity-leaf",
+      "b": "droplet-leaf",
+      "distance": 1
     },
     {
-      "a": "tunnel-ahead-fire",
-      "b": "lane-ends-fire",
-      "distance": 0
+      "a": "humidity-hourglass",
+      "b": "droplet-hourglass",
+      "distance": 1
     },
     {
-      "a": "tunnel-ahead-fire",
-      "b": "parking-ahead-fire",
+      "a": "humidity-cursor",
+      "b": "droplet-cursor",
       "distance": 0
     },
     {
-      "a": "tunnel-ahead-fire",
-      "b": "hospital-ahead-fire",
-      "distance": 0
+      "a": "humidity-camera",
+      "b": "droplet-camera",
+      "distance": 1
     },
     {
-      "a": "lane-ends-fire",
-      "b": "parking-ahead-fire",
+      "a": "humidity-filter",
+      "b": "droplet-filter",
       "distance": 0
     },
     {
-      "a": "lane-ends-fire",
-      "b": "hospital-ahead-fire",
-      "distance": 0
+      "a": "humidity-stats",
+      "b": "droplet-stats",
+      "distance": 1
     },
     {
-      "a": "parking-ahead-fire",
-      "b": "hospital-ahead-fire",
+      "a": "humidity-checkbox",
+      "b": "droplet-checkbox",
       "distance": 0
     },
     {
-      "a": "hairpin-curve-upload",
-      "b": "flood-zone-sparkle",
+      "a": "thermometer-snow-sparkle",
+      "b": "thermometer-snow-upload",
       "distance": 1.41
     },
     {
-      "a": "hairpin-curve-upload",
-      "b": "tunnel-ahead-sparkle",
+      "a": "cloud-sun-pencil",
+      "b": "cloud-sun-leaf",
       "distance": 1.41
     },
     {
-      "a": "hairpin-curve-upload",
-      "b": "lane-ends-sparkle",
+      "a": "rain-search",
+      "b": "snow-search",
       "distance": 1.41
     },
     {
-      "a": "hairpin-curve-upload",
-      "b": "parking-ahead-sparkle",
+      "a": "rain-clock",
+      "b": "snow-clock",
       "distance": 1.41
     },
     {
-      "a": "hairpin-curve-upload",
-      "b": "hospital-ahead-sparkle",
+      "a": "rain-gear",
+      "b": "snow-gear",
       "distance": 1.41
-    },
-    {
-      "a": "flood-zone-shield",
-      "b": "tunnel-ahead-shield",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-shield",
-      "b": "lane-ends-shield",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-shield",
-      "b": "parking-ahead-shield",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-shield",
-      "b": "hospital-ahead-shield",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-pin",
-      "b": "tunnel-ahead-pin",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-pin",
-      "b": "lane-ends-pin",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-pin",
-      "b": "parking-ahead-pin",
-      "distance": 0
     },
     {
-      "a": "flood-zone-pin",
-      "b": "hospital-ahead-pin",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-user",
-      "b": "tunnel-ahead-user",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-user",
-      "b": "lane-ends-user",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-user",
-      "b": "parking-ahead-user",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-user",
-      "b": "hospital-ahead-user",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-sparkle",
-      "b": "flood-zone-upload",
+      "a": "rain-heart",
+      "b": "snow-heart",
       "distance": 1.41
-    },
-    {
-      "a": "flood-zone-sparkle",
-      "b": "tunnel-ahead-sparkle",
-      "distance": 0
     },
     {
-      "a": "flood-zone-sparkle",
-      "b": "tunnel-ahead-upload",
+      "a": "rain-star",
+      "b": "snow-star",
       "distance": 1.41
-    },
-    {
-      "a": "flood-zone-sparkle",
-      "b": "lane-ends-sparkle",
-      "distance": 0
     },
     {
-      "a": "flood-zone-sparkle",
-      "b": "lane-ends-upload",
+      "a": "rain-cloud",
+      "b": "snow-cloud",
       "distance": 1.41
-    },
-    {
-      "a": "flood-zone-sparkle",
-      "b": "parking-ahead-sparkle",
-      "distance": 0
     },
     {
-      "a": "flood-zone-sparkle",
-      "b": "parking-ahead-upload",
+      "a": "rain-chat",
+      "b": "snow-chat",
       "distance": 1.41
     },
     {
-      "a": "flood-zone-sparkle",
-      "b": "hospital-ahead-sparkle",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-sparkle",
-      "b": "hospital-ahead-upload",
+      "a": "rain-download",
+      "b": "snow-download",
       "distance": 1.41
-    },
-    {
-      "a": "flood-zone-flag",
-      "b": "tunnel-ahead-flag",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-flag",
-      "b": "lane-ends-flag",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-flag",
-      "b": "parking-ahead-flag",
-      "distance": 0
     },
     {
-      "a": "flood-zone-flag",
-      "b": "hospital-ahead-flag",
-      "distance": 0
-    },
-    {
-      "a": "flood-zone-upload",
-      "b": "tunnel-ahead-sparkle",
+      "a": "rain-calendar",
+      "b": "snow-calendar",
       "distance": 1.41
     },
     {
-      "a": "flood-zone-upload",
-      "b": "lane-ends-sparkle",
+      "a": "rain-question",
+      "b": "snow-question",
       "distance": 1.41
     },
     {
-      "a": "flood-zone-upload",
-      "b": "parking-ahead-sparkle",
+      "a": "rain-upload",
+      "b": "snow-upload",
       "distance": 1.41
     },
     {
-      "a": "flood-zone-upload",
-      "b": "hospital-ahead-sparkle",
+      "a": "rain-crown",
+      "b": "snow-crown",
       "distance": 1.41
-    },
-    {
-      "a": "tunnel-ahead-shield",
-      "b": "lane-ends-shield",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-shield",
-      "b": "parking-ahead-shield",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-shield",
-      "b": "hospital-ahead-shield",
-      "distance": 0
     },
     {
-      "a": "tunnel-ahead-pin",
-      "b": "lane-ends-pin",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-pin",
-      "b": "parking-ahead-pin",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-pin",
-      "b": "hospital-ahead-pin",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-user",
-      "b": "lane-ends-user",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-user",
-      "b": "parking-ahead-user",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-user",
-      "b": "hospital-ahead-user",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-sparkle",
-      "b": "tunnel-ahead-upload",
+      "a": "rain-camera",
+      "b": "snow-camera",
       "distance": 1.41
-    },
-    {
-      "a": "tunnel-ahead-sparkle",
-      "b": "lane-ends-sparkle",
-      "distance": 0
     },
     {
-      "a": "tunnel-ahead-sparkle",
-      "b": "lane-ends-upload",
+      "a": "rain-filter",
+      "b": "snow-filter",
       "distance": 1.41
-    },
-    {
-      "a": "tunnel-ahead-sparkle",
-      "b": "parking-ahead-sparkle",
-      "distance": 0
     },
     {
-      "a": "tunnel-ahead-sparkle",
-      "b": "parking-ahead-upload",
+      "a": "rain-checkbox",
+      "b": "snow-checkbox",
       "distance": 1.41
     },
     {
-      "a": "tunnel-ahead-sparkle",
-      "b": "hospital-ahead-sparkle",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-sparkle",
-      "b": "hospital-ahead-upload",
+      "a": "luggage-bell",
+      "b": "humidity-bell",
       "distance": 1.41
-    },
-    {
-      "a": "tunnel-ahead-flag",
-      "b": "lane-ends-flag",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-flag",
-      "b": "parking-ahead-flag",
-      "distance": 0
-    },
-    {
-      "a": "tunnel-ahead-flag",
-      "b": "hospital-ahead-flag",
-      "distance": 0
     },
     {
-      "a": "tunnel-ahead-upload",
-      "b": "lane-ends-sparkle",
+      "a": "luggage-bell",
+      "b": "droplet-bell",
       "distance": 1.41
     },
     {
-      "a": "tunnel-ahead-upload",
-      "b": "parking-ahead-sparkle",
+      "a": "luggage-trophy",
+      "b": "humidity-trophy",
       "distance": 1.41
     },
     {
-      "a": "tunnel-ahead-upload",
-      "b": "hospital-ahead-sparkle",
+      "a": "luggage-trophy",
+      "b": "droplet-trophy",
       "distance": 1.41
     },
     {
-      "a": "lane-ends-shield",
-      "b": "parking-ahead-shield",
-      "distance": 0
-    },
-    {
-      "a": "lane-ends-shield",
-      "b": "hospital-ahead-shield",
-      "distance": 0
+      "a": "sleet-moon",
+      "b": "rain-moon",
+      "distance": 1
     },
     {
-      "a": "lane-ends-pin",
-      "b": "parking-ahead-pin",
-      "distance": 0
+      "a": "humidity-bell",
+      "b": "droplet-bell",
+      "distance": 1
     },
     {
-      "a": "lane-ends-pin",
-      "b": "hospital-ahead-pin",
+      "a": "humidity-trophy",
+      "b": "droplet-trophy",
       "distance": 0
     },
     {
-      "a": "lane-ends-user",
-      "b": "parking-ahead-user",
-      "distance": 0
+      "a": "rain-bell",
+      "b": "snow-bell",
+      "distance": 1.41
     },
     {
-      "a": "lane-ends-user",
-      "b": "hospital-ahead-user",
-      "distance": 0
+      "a": "rain-moon",
+      "b": "snow-moon",
+      "distance": 1.41
     },
     {
-      "a": "lane-ends-sparkle",
-      "b": "lane-ends-upload",
+      "a": "rain-trophy",
+      "b": "snow-trophy",
       "distance": 1.41
     },
     {
-      "a": "lane-ends-sparkle",
-      "b": "parking-ahead-sparkle",
-      "distance": 0
+      "a": "bauble-fire",
+      "b": "humidity-fire",
+      "distance": 1.41
     },
     {
-      "a": "lane-ends-sparkle",
-      "b": "parking-ahead-upload",
+      "a": "bauble-fire",
+      "b": "droplet-fire",
       "distance": 1.41
     },
     {
-      "a": "lane-ends-sparkle",
-      "b": "hospital-ahead-sparkle",
-      "distance": 0
+      "a": "luggage-fire",
+      "b": "humidity-fire",
+      "distance": 1.41
     },
     {
-      "a": "lane-ends-sparkle",
-      "b": "hospital-ahead-upload",
+      "a": "luggage-fire",
+      "b": "droplet-fire",
       "distance": 1.41
     },
     {
-      "a": "lane-ends-flag",
-      "b": "parking-ahead-flag",
-      "distance": 0
+      "a": "humidity-moon",
+      "b": "droplet-moon",
+      "distance": 1
     },
     {
-      "a": "lane-ends-flag",
-      "b": "hospital-ahead-flag",
-      "distance": 0
+      "a": "humidity-fire",
+      "b": "droplet-fire",
+      "distance": 1
     },
     {
-      "a": "lane-ends-upload",
-      "b": "parking-ahead-sparkle",
+      "a": "rain-fire",
+      "b": "snow-fire",
       "distance": 1.41
     },
     {
-      "a": "lane-ends-upload",
-      "b": "hospital-ahead-sparkle",
+      "a": "tornado-sparkle",
+      "b": "tornado-upload",
       "distance": 1.41
-    },
-    {
-      "a": "parking-ahead-shield",
-      "b": "hospital-ahead-shield",
-      "distance": 0
-    },
-    {
-      "a": "parking-ahead-pin",
-      "b": "hospital-ahead-pin",
-      "distance": 0
     },
     {
-      "a": "parking-ahead-user",
-      "b": "hospital-ahead-user",
-      "distance": 0
+      "a": "fahrenheit-sparkle",
+      "b": "fahrenheit-upload",
+      "distance": 1.41
     },
     {
-      "a": "parking-ahead-sparkle",
-      "b": "parking-ahead-upload",
+      "a": "hurricane-sparkle",
+      "b": "hurricane-upload",
       "distance": 1.41
     },
     {
-      "a": "parking-ahead-sparkle",
-      "b": "hospital-ahead-sparkle",
+      "a": "humidity-shield",
+      "b": "droplet-shield",
       "distance": 0
     },
     {
-      "a": "parking-ahead-sparkle",
-      "b": "hospital-ahead-upload",
-      "distance": 1.41
+      "a": "humidity-pin",
+      "b": "droplet-pin",
+      "distance": 0
     },
     {
-      "a": "parking-ahead-flag",
-      "b": "hospital-ahead-flag",
-      "distance": 0
+      "a": "humidity-user",
+      "b": "droplet-user",
+      "distance": 1
     },
     {
-      "a": "parking-ahead-upload",
-      "b": "hospital-ahead-sparkle",
+      "a": "humidity-sparkle",
+      "b": "humidity-upload",
       "distance": 1.41
     },
     {
-      "a": "hospital-ahead-sparkle",
-      "b": "hospital-ahead-upload",
-      "distance": 1.41
+      "a": "humidity-sparkle",
+      "b": "droplet-sparkle",
+      "distance": 1
     },
     {
-      "a": "sun-lounger-sparkle",
-      "b": "sun-lounger-upload",
+      "a": "humidity-sparkle",
+      "b": "droplet-upload",
       "distance": 1.41
     },
     {
-      "a": "bbq-grill-sparkle",
-      "b": "bbq-grill-upload",
-      "distance": 1.41
+      "a": "humidity-flag",
+      "b": "droplet-flag",
+      "distance": 0
     },
     {
-      "a": "spyglass-sparkle",
-      "b": "spyglass-upload",
+      "a": "humidity-upload",
+      "b": "droplet-sparkle",
       "distance": 1.41
     },
     {
-      "a": "sleep-mask-sparkle",
-      "b": "sleep-mask-upload",
+      "a": "tide-sparkle",
+      "b": "tide-upload",
       "distance": 1.41
     },
     {
-      "a": "funicular-sparkle",
-      "b": "funicular-upload",
+      "a": "weather-vane-sparkle",
+      "b": "weather-vane-upload",
       "distance": 1.41
     },
     {
-      "a": "camping-stove-sparkle",
-      "b": "camping-stove-upload",
+      "a": "anemometer-sparkle",
+      "b": "anemometer-upload",
       "distance": 1.41
     },
     {
-      "a": "airplane-takeoff-sparkle",
-      "b": "airplane-takeoff-upload",
+      "a": "cloud-sun-sparkle",
+      "b": "cloud-sun-upload",
       "distance": 1.41
     },
     {
-      "a": "airplane-landing-sparkle",
-      "b": "airplane-landing-upload",
+      "a": "rain-shield",
+      "b": "snow-shield",
       "distance": 1.41
     },
     {
-      "a": "beach-umbrella-sparkle",
-      "b": "beach-umbrella-upload",
+      "a": "rain-pin",
+      "b": "snow-pin",
       "distance": 1.41
     },
     {
-      "a": "sleet-sparkle",
-      "b": "sleet-upload",
+      "a": "rain-sparkle",
+      "b": "rain-upload",
       "distance": 1.41
     },
     {
-      "a": "avalanche-sparkle",
-      "b": "avalanche-upload",
+      "a": "rain-sparkle",
+      "b": "snow-sparkle",
       "distance": 1.41
     },
     {
-      "a": "haze-sparkle",
-      "b": "haze-upload",
+      "a": "rain-sparkle",
+      "b": "snow-upload",
       "distance": 1.41
     },
     {
-      "a": "moon-phase-sparkle",
-      "b": "moon-phase-upload",
+      "a": "rain-upload",
+      "b": "snow-sparkle",
       "distance": 1.41
     },
     {
-      "a": "windvane-sparkle",
-      "b": "windvane-upload",
+      "a": "snow-sparkle",
+      "b": "snow-upload",
       "distance": 1.41
     },
     {
-      "a": "aurora-sparkle",
-      "b": "aurora-upload",
+      "a": "storm-sparkle",
+      "b": "storm-upload",
       "distance": 1.41
     },
     {
-      "a": "cloud-wind-sparkle",
-      "b": "cloud-wind-upload",
+      "a": "lightning-sparkle",
+      "b": "lightning-upload",
       "distance": 1.41
     },
     {
-      "a": "temperature-high-sparkle",
-      "b": "temperature-high-upload",
+      "a": "droplet-sparkle",
+      "b": "droplet-upload",
       "distance": 1.41
     },
     {
-      "a": "temperature-low-sparkle",
-      "b": "temperature-low-upload",
+      "a": "luggage-shield",
+      "b": "humidity-shield",
       "distance": 1.41
     },
     {
-      "a": "cloudy-sparkle",
-      "b": "cloudy-upload",
+      "a": "luggage-shield",
+      "b": "droplet-shield",
       "distance": 1.41
     },
     {
-      "a": "rain-heavy-sparkle",
-      "b": "rain-heavy-upload",
+      "a": "luggage-pin",
+      "b": "humidity-pin",
       "distance": 1.41
     },
     {
-      "a": "oxygen-tank-sparkle",
-      "b": "oxygen-tank-upload",
+      "a": "luggage-pin",
+      "b": "droplet-pin",
       "distance": 1.41
     },
     {
       "a": "luggage-sparkle",
-      "b": "luggage-upload",
+      "b": "humidity-sparkle",
       "distance": 1.41
     },
     {
-      "a": "dust-storm-sparkle",
-      "b": "dust-storm-upload",
+      "a": "luggage-sparkle",
+      "b": "droplet-sparkle",
       "distance": 1.41
     },
     {
-      "a": "carabiner-sparkle",
-      "b": "carabiner-upload",
+      "a": "luggage-user",
+      "b": "humidity-user",
       "distance": 1.41
     },
     {
-      "a": "kayak-paddle-sparkle",
-      "b": "kayak-paddle-upload",
+      "a": "luggage-user",
+      "b": "droplet-user",
       "distance": 1.41
     },
     {
-      "a": "sunscreen-sparkle",
-      "b": "sunscreen-upload",
+      "a": "luggage-flag",
+      "b": "humidity-flag",
       "distance": 1.41
     },
     {
-      "a": "hiking-boot-sparkle",
-      "b": "hiking-boot-upload",
+      "a": "luggage-flag",
+      "b": "droplet-flag",
       "distance": 1.41
     }
   ],
   "dropped": [
-    "life-buoy-leaf",
-    "flood-zone-bookmark",
-    "tunnel-ahead-bookmark",
-    "lane-ends-bookmark",
-    "parking-ahead-bookmark",
-    "hospital-ahead-bookmark",
-    "flood-zone-upload",
-    "tunnel-ahead-upload",
-    "lane-ends-upload",
-    "parking-ahead-upload",
-    "hospital-ahead-upload",
-    "flood-zone-crown",
-    "tunnel-ahead-crown",
-    "lane-ends-crown",
-    "parking-ahead-crown",
-    "hospital-ahead-crown",
-    "flood-zone-leaf",
-    "tunnel-ahead-leaf",
-    "lane-ends-leaf",
-    "parking-ahead-leaf",
-    "hospital-ahead-leaf",
-    "flood-zone-hourglass",
-    "tunnel-ahead-hourglass",
-    "lane-ends-hourglass",
-    "parking-ahead-hourglass",
-    "hospital-ahead-hourglass",
-    "flood-zone-cursor",
-    "tunnel-ahead-cursor",
-    "lane-ends-cursor",
-    "parking-ahead-cursor",
-    "hospital-ahead-cursor",
-    "flood-zone-camera",
-    "tunnel-ahead-camera",
-    "lane-ends-camera",
-    "parking-ahead-camera",
-    "hospital-ahead-camera",
-    "flood-zone-filter",
-    "tunnel-ahead-filter",
-    "lane-ends-filter",
-    "parking-ahead-filter",
-    "hospital-ahead-filter",
-    "flood-zone-stats",
-    "tunnel-ahead-stats",
-    "lane-ends-stats",
-    "parking-ahead-stats",
-    "hospital-ahead-stats",
-    "flood-zone-checkbox",
-    "tunnel-ahead-checkbox",
-    "lane-ends-checkbox",
-    "parking-ahead-checkbox",
-    "hospital-ahead-checkbox",
-    "tunnel-ahead-search",
-    "lane-ends-search",
-    "parking-ahead-search",
-    "hospital-ahead-search",
-    "tunnel-ahead-clock",
-    "lane-ends-clock",
-    "parking-ahead-clock",
-    "hospital-ahead-clock",
-    "tunnel-ahead-gear",
-    "lane-ends-gear",
-    "parking-ahead-gear",
-    "hospital-ahead-gear",
-    "tunnel-ahead-bolt",
-    "lane-ends-bolt",
-    "parking-ahead-bolt",
-    "hospital-ahead-bolt",
-    "tunnel-ahead-heart",
-    "lane-ends-heart",
-    "parking-ahead-heart",
-    "hospital-ahead-heart",
-    "tunnel-ahead-star",
-    "lane-ends-star",
-    "parking-ahead-star",
-    "hospital-ahead-star",
-    "tunnel-ahead-cloud",
-    "lane-ends-cloud",
-    "parking-ahead-cloud",
-    "hospital-ahead-cloud",
-    "tunnel-ahead-chat",
-    "lane-ends-chat",
-    "parking-ahead-chat",
-    "hospital-ahead-chat",
-    "tunnel-ahead-download",
-    "lane-ends-download",
-    "parking-ahead-download",
-    "hospital-ahead-download",
-    "tunnel-ahead-pencil",
-    "lane-ends-pencil",
-    "parking-ahead-pencil",
-    "hospital-ahead-pencil",
-    "tunnel-ahead-trash",
-    "lane-ends-trash",
-    "parking-ahead-trash",
-    "hospital-ahead-trash",
-    "tunnel-ahead-calendar",
-    "lane-ends-calendar",
-    "parking-ahead-calendar",
-    "hospital-ahead-calendar",
-    "tunnel-ahead-question",
-    "lane-ends-question",
-    "parking-ahead-question",
-    "hospital-ahead-question",
-    "kayak-upload",
-    "train-front-upload",
-    "bicycle-stats",
-    "bicycle-leaf",
-    "bicycle-upload",
-    "picnic-basket-leaf",
-    "picnic-basket-upload",
-    "travel-pillow-leaf",
-    "baggage-claim-leaf",
-    "camper-van-leaf",
-    "camper-van-upload",
-    "hiking-boot-leaf",
-    "diving-mask-leaf",
-    "flip-flops-leaf",
-    "flip-flops-upload",
-    "bucket-spade-leaf",
-    "bucket-spade-upload",
-    "drought-upload",
-    "avalanche-leaf",
-    "haze-leaf",
-    "eclipse-upload",
-    "icicle-upload",
-    "aurora-leaf",
-    "cloudy-leaf",
-    "hail-upload",
-    "flood-zone-moon",
-    "tunnel-ahead-moon",
-    "lane-ends-moon",
-    "parking-ahead-moon",
-    "hospital-ahead-moon",
-    "flood-zone-trophy",
-    "tunnel-ahead-trophy",
-    "lane-ends-trophy",
-    "parking-ahead-trophy",
-    "hospital-ahead-trophy",
-    "tunnel-ahead-bell",
-    "lane-ends-bell",
-    "parking-ahead-bell",
-    "hospital-ahead-bell",
-    "flood-zone-fire",
-    "tunnel-ahead-fire",
-    "lane-ends-fire",
-    "parking-ahead-fire",
-    "hospital-ahead-fire",
-    "flood-zone-sparkle",
-    "tunnel-ahead-sparkle",
-    "lane-ends-sparkle",
-    "parking-ahead-sparkle",
-    "hospital-ahead-sparkle",
-    "tunnel-ahead-shield",
-    "lane-ends-shield",
-    "parking-ahead-shield",
-    "hospital-ahead-shield",
-    "tunnel-ahead-pin",
-    "lane-ends-pin",
-    "parking-ahead-pin",
-    "hospital-ahead-pin",
-    "tunnel-ahead-user",
-    "lane-ends-user",
-    "parking-ahead-user",
-    "hospital-ahead-user",
-    "tunnel-ahead-flag",
-    "lane-ends-flag",
-    "parking-ahead-flag",
-    "hospital-ahead-flag",
-    "sun-lounger-upload",
-    "bbq-grill-upload",
-    "spyglass-upload",
-    "sleep-mask-upload",
-    "funicular-upload",
-    "camping-stove-upload",
-    "airplane-takeoff-upload",
-    "airplane-landing-upload",
-    "beach-umbrella-upload",
-    "sleet-upload",
-    "avalanche-upload",
-    "haze-upload",
-    "moon-phase-upload",
-    "windvane-upload",
-    "aurora-upload",
-    "cloud-wind-upload",
-    "temperature-high-upload",
-    "temperature-low-upload",
-    "cloudy-upload",
-    "rain-heavy-upload",
-    "oxygen-tank-upload",
-    "luggage-upload",
-    "dust-storm-upload",
-    "carabiner-upload",
-    "kayak-paddle-upload",
-    "sunscreen-upload",
-    "hiking-boot-upload"
+    "humidity-filter",
+    "droplet-filter",
+    "humidity-search",
+    "droplet-search",
+    "humidity-clock",
+    "droplet-clock",
+    "humidity-gear",
+    "droplet-gear",
+    "humidity-bolt",
+    "droplet-bolt",
+    "humidity-heart",
+    "droplet-heart",
+    "humidity-star",
+    "droplet-star",
+    "humidity-alert",
+    "droplet-alert",
+    "humidity-cloud",
+    "droplet-cloud",
+    "humidity-chat",
+    "droplet-chat",
+    "humidity-download",
+    "droplet-download",
+    "humidity-pencil",
+    "droplet-pencil",
+    "humidity-trash",
+    "droplet-trash",
+    "humidity-calendar",
+    "droplet-calendar",
+    "humidity-question",
+    "droplet-question",
+    "humidity-bookmark",
+    "droplet-bookmark",
+    "humidity-crown",
+    "droplet-crown",
+    "humidity-leaf",
+    "droplet-leaf",
+    "humidity-hourglass",
+    "droplet-hourglass",
+    "humidity-cursor",
+    "droplet-cursor",
+    "humidity-camera",
+    "droplet-camera",
+    "humidity-stats",
+    "droplet-stats",
+    "humidity-checkbox",
+    "droplet-checkbox",
+    "thermometer-sun-upload",
+    "droplet-upload",
+    "thermometer-snow-upload",
+    "cloud-sun-leaf",
+    "snow-search",
+    "snow-clock",
+    "snow-gear",
+    "snow-heart",
+    "snow-star",
+    "snow-cloud",
+    "snow-chat",
+    "snow-download",
+    "snow-calendar",
+    "snow-question",
+    "snow-upload",
+    "snow-crown",
+    "snow-camera",
+    "snow-filter",
+    "snow-checkbox",
+    "humidity-bell",
+    "droplet-bell",
+    "humidity-trophy",
+    "droplet-trophy",
+    "rain-moon",
+    "snow-bell",
+    "snow-trophy",
+    "humidity-fire",
+    "droplet-fire",
+    "droplet-moon",
+    "snow-fire",
+    "tornado-upload",
+    "fahrenheit-upload",
+    "hurricane-upload",
+    "droplet-shield",
+    "droplet-pin",
+    "droplet-user",
+    "humidity-upload",
+    "droplet-sparkle",
+    "droplet-flag",
+    "tide-upload",
+    "weather-vane-upload",
+    "anemometer-upload",
+    "cloud-sun-upload",
+    "snow-shield",
+    "snow-pin",
+    "rain-upload",
+    "snow-sparkle",
+    "storm-upload",
+    "lightning-upload",
+    "humidity-shield",
+    "humidity-pin",
+    "humidity-sparkle",
+    "humidity-user",
+    "humidity-flag"
   ],
   "byCategory": {
     "accessibility": 53,
@@ -2634,8 +876,8 @@
     "text": 334,
     "time": 493,
     "tools": 1914,
-    "transport": 2285,
-    "travel": 2021,
-    "weather": 1056
+    "transport": 2253,
+    "travel": 1803,
+    "weather": 1488
   }
 }
