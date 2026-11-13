@@ -53,6 +53,13 @@ const INDUSTRY: Record<string, string> = {
   fashion: 'Fashion & Retail',
   hospitality: 'Hospitality',
   marketing: 'Marketing',
+  office: 'Office & Legal',
+  gaming: 'Gaming',
+  government: 'Government',
+  home: 'Home & Living',
+  transport: 'Transport',
+  manufacturing: 'Manufacturing',
+  music: 'Music',
 };
 /** Kinds that run the illustration live instead of showing its still. */
 const isLive = (k: Kind): k is 'interactive' | 'scroll' => k === 'interactive' || k === 'scroll';
