@@ -109,7 +109,11 @@ async function onMessage(msg: Msg) {
       clearTimeout(saveTimer);
       saveTimer = setTimeout(() => figma.clientStorage.setAsync('ollo-size', size), 300) as unknown as number;
     } else if (msg.type === 'insert') await insert(msg);
-    else if (msg.type === 'get-plan') figma.ui.postMessage({ type: 'plan', pro: (await figma.clientStorage.getAsync('ollo-pro')) === true });
+    else if (msg.type === 'get-plan') {
+      // Private owner build: Pro is on unless switched off with the test switch. Real plans come with sign-in.
+      const saved = await figma.clientStorage.getAsync('ollo-pro');
+      figma.ui.postMessage({ type: 'plan', pro: saved === undefined ? true : saved === true });
+    }
     else if (msg.type === 'set-plan') await figma.clientStorage.setAsync('ollo-pro', msg.pro);
     else if (msg.type === 'notify') figma.notify(msg.text);
   } catch (e) {

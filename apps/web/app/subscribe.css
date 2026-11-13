@@ -94,3 +94,5 @@
 
 /* Active header link (Pricing on the plans page) */
 .btn-ghost[aria-current='page'] { background: var(--color-bg-hover); }
+/* "Yearly · 2 months free": (36 - 20) / 2 = 8 px inset on the right, same as top and bottom. */
+.sub-billing .seg:has(> .badge-new:last-child) { padding-right: 8px; }

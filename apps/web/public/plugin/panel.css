@@ -444,6 +444,12 @@ ul[role='list'] { list-style: none; margin: 0; padding: 0; }
 /* Pro test switch in the menu sheet when the site runs inside the Figma plugin */
 .figma-plan { padding: 8px 12px 12px; font-size: 13px; }
 
+/* A control that ends in a pill badge: the badge sits the same distance from the right edge as
+   from the top and bottom, so the end looks concentric: (32 - 20) / 2 = 6 px, minus the 1 px border. */
+.chip:has(> .badge-pro:last-child),
+.chip:has(> .badge-new:last-child) { padding-right: 5px; }
+.chip > .badge-pro, .chip > .badge-new { margin-left: 2px; }
+
 /* Illustrations screen (33:4883 / 38:11748 / 36:8623) and Download Modal (32:896, phone sheet 37:9601). */
 
 .kind-tabs { display: flex; align-items: center; gap: 4px; margin-top: -4px; }
@@ -689,3 +695,5 @@ ul[role='list'] { list-style: none; margin: 0; padding: 0; }
 
 /* Active header link (Pricing on the plans page) */
 .btn-ghost[aria-current='page'] { background: var(--color-bg-hover); }
+/* "Yearly · 2 months free": (36 - 20) / 2 = 8 px inset on the right, same as top and bottom. */
+.sub-billing .seg:has(> .badge-new:last-child) { padding-right: 8px; }
