@@ -160,5 +160,101 @@
     "c": "food",
     "t": "Spice rack",
     "g": "spice jars rack shelf kitchen seasoning pantry"
+  },
+  {
+    "file": "arcadebuttons.js",
+    "c": "gaming",
+    "t": "Arcade buttons",
+    "g": "arcade buttons joystick controller gaming panel"
+  },
+  {
+    "file": "officechairs.js",
+    "c": "office",
+    "t": "Office chairs",
+    "g": "office chairs meeting table swivel furniture workspace"
+  },
+  {
+    "file": "toaster.js",
+    "c": "home",
+    "t": "Pop-up toaster",
+    "g": "toaster kitchen bread toast appliance breakfast"
+  },
+  {
+    "file": "knifeblock.js",
+    "c": "food",
+    "t": "Knife block",
+    "g": "knife kitchen cutlery block blade cooking"
+  },
+  {
+    "file": "beehive.js",
+    "c": "agriculture",
+    "t": "Open beehive",
+    "g": "beehive bees honey frames apiary comb farming"
+  },
+  {
+    "file": "abacus.js",
+    "c": "education",
+    "t": "Counting abacus",
+    "g": "abacus counting math beads calculation numbers"
+  },
+  {
+    "file": "gradcaps.js",
+    "c": "education",
+    "t": "Graduation caps",
+    "g": "graduation mortarboard cap tassel school celebration"
+  },
+  {
+    "file": "deskcalendar.js",
+    "c": "office",
+    "t": "Desk calendar",
+    "g": "calendar desk date month schedule planner flip"
+  },
+  {
+    "file": "depositboxes.js",
+    "c": "finance",
+    "t": "Safe deposit boxes",
+    "g": "vault bank safe storage security lockbox deposit"
+  },
+  {
+    "file": "ballotbox.js",
+    "c": "government",
+    "t": "Ballot box",
+    "g": "vote election ballot envelope poll democracy"
+  },
+  {
+    "file": "icecreamtubs.js",
+    "c": "food",
+    "t": "Ice cream tubs",
+    "g": "ice cream tubs freezer dessert scoop parlour"
+  },
+  {
+    "file": "railsignals.js",
+    "c": "transport",
+    "t": "Rail signals",
+    "g": "railway semaphore signal track train sleepers"
+  },
+  {
+    "file": "conveyor.js",
+    "c": "manufacturing",
+    "t": "Conveyor belt",
+    "g": "conveyor factory boxes scanner production warehouse"
+  },
+  {
+    "file": "barrels.js",
+    "c": "manufacturing",
+    "t": "Oil drum stack",
+    "g": "drums barrels oil pallet warehouse storage industrial"
+  },
+  {
+    "file": "telescope.js",
+    "c": "science",
+    "t": "Telescope",
+    "g": "telescope astronomy stars refractor tripod observatory"
+  },
+  {
+    "file": "wifirouter.js",
+    "c": "technology",
+    "t": "Wi-Fi router",
+    "g": "router wifi wireless network internet antenna signal"
   }
 ]
