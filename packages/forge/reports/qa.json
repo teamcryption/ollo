@@ -1,862 +1,742 @@
 {
-  "generatedAt": "2026-11-13T10:18:45.341Z",
-  "icons": 76991,
-  "files": 384955,
+  "generatedAt": "2026-11-13T10:24:53.408Z",
+  "icons": 78363,
+  "files": 391815,
   "errors": [],
   "warnings": [
-    "gavel-buy: grid: outside the 3-21 live area (3.00, 1.53, 20.40, 20.50)",
-    "gavel-plane: grid: outside the 3-21 live area (3.00, 1.53, 20.80, 21.40)",
-    "gavel-battery: grid: outside the 3-21 live area (3.00, 1.53, 21.00, 19.00)",
-    "gavel-bug: grid: outside the 3-21 live area (3.00, 1.53, 20.80, 20.30)",
-    "gavel-code: grid: outside the 3-21 live area (3.00, 1.53, 21.00, 20.50)",
-    "gavel-plug: grid: outside the 3-21 live area (3.00, 1.53, 19.70, 20.70)",
-    "gavel-flask: grid: outside the 3-21 live area (3.00, 1.53, 20.91, 21.00)",
-    "party-hat-buy: grid: outside the 3-21 live area (4.72, 2.10, 20.40, 20.50)",
-    "party-hat-plane: grid: outside the 3-21 live area (4.72, 2.10, 20.80, 21.40)",
-    "party-hat-battery: grid: outside the 3-21 live area (4.72, 2.10, 21.00, 19.00)",
-    "party-hat-bug: grid: outside the 3-21 live area (4.72, 2.10, 20.80, 20.30)",
-    "party-hat-code: grid: outside the 3-21 live area (4.72, 2.10, 21.00, 20.50)",
-    "party-hat-plug: grid: outside the 3-21 live area (4.72, 2.10, 19.70, 20.70)",
-    "party-hat-flask: grid: outside the 3-21 live area (4.72, 2.10, 20.91, 21.00)",
-    "fried-egg-buy: grid: outside the 3-21 live area (1.92, 4.06, 20.40, 20.50)",
-    "fried-egg-plane: grid: outside the 3-21 live area (1.92, 4.06, 20.80, 21.40)",
-    "fried-egg-battery: grid: outside the 3-21 live area (1.92, 4.06, 21.00, 19.00)",
-    "fried-egg-bug: grid: outside the 3-21 live area (1.92, 4.06, 20.80, 20.30)",
-    "fried-egg-code: grid: outside the 3-21 live area (1.92, 4.06, 21.00, 20.50)",
-    "fried-egg-plug: grid: outside the 3-21 live area (1.92, 4.06, 19.70, 20.70)",
-    "fried-egg-flask: grid: outside the 3-21 live area (1.92, 4.06, 20.91, 21.00)",
-    "ribbon-buy: grid: outside the 3-21 live area (5.00, 2.20, 20.40, 20.50)",
-    "ribbon-plane: grid: outside the 3-21 live area (5.00, 2.20, 20.80, 21.40)",
-    "ribbon-battery: grid: outside the 3-21 live area (5.00, 2.20, 21.00, 19.00)",
-    "ribbon-bug: grid: outside the 3-21 live area (5.00, 2.20, 20.80, 20.30)",
-    "ribbon-code: grid: outside the 3-21 live area (5.00, 2.20, 21.00, 20.50)",
-    "ribbon-plug: grid: outside the 3-21 live area (5.00, 2.20, 19.70, 20.70)",
-    "ribbon-flask: grid: outside the 3-21 live area (5.00, 2.20, 20.91, 21.00)"
+    "dragonfly-buy: grid: outside the 3-21 live area (1.50, 3.00, 20.40, 20.50)",
+    "dragonfly-plane: grid: outside the 3-21 live area (1.50, 3.00, 20.80, 21.40)",
+    "dragonfly-battery: grid: outside the 3-21 live area (1.50, 3.00, 21.00, 19.00)",
+    "dragonfly-code: grid: outside the 3-21 live area (1.50, 3.00, 21.00, 20.50)",
+    "dragonfly-plug: grid: outside the 3-21 live area (1.50, 3.00, 19.70, 20.70)",
+    "dragonfly-flask: grid: outside the 3-21 live area (1.50, 3.00, 20.91, 21.00)",
+    "radio-tower-buy: grid: outside the 3-21 live area (2.34, 2.80, 20.40, 20.50)",
+    "radio-tower-plane: grid: outside the 3-21 live area (2.34, 2.80, 20.80, 21.40)",
+    "radio-tower-battery: grid: outside the 3-21 live area (2.34, 2.80, 21.00, 19.00)",
+    "radio-tower-bug: grid: outside the 3-21 live area (2.34, 2.80, 20.80, 20.30)",
+    "radio-tower-code: grid: outside the 3-21 live area (2.34, 2.80, 21.00, 20.50)",
+    "radio-tower-plug: grid: outside the 3-21 live area (2.34, 2.80, 19.70, 20.70)",
+    "radio-tower-flask: grid: outside the 3-21 live area (2.34, 2.80, 20.91, 21.00)",
+    "seesaw-buy: grid: outside the 3-21 live area (2.70, 2.00, 20.40, 20.50)",
+    "seesaw-plane: grid: outside the 3-21 live area (2.70, 2.00, 20.80, 21.40)",
+    "seesaw-battery: grid: outside the 3-21 live area (2.70, 2.00, 21.00, 19.00)",
+    "seesaw-bug: grid: outside the 3-21 live area (2.70, 2.00, 20.80, 20.30)",
+    "seesaw-code: grid: outside the 3-21 live area (2.70, 2.00, 21.00, 20.50)",
+    "seesaw-plug: grid: outside the 3-21 live area (2.70, 2.00, 19.70, 20.70)",
+    "seesaw-flask: grid: outside the 3-21 live area (2.70, 2.00, 20.91, 21.00)"
   ],
   "duplicates": [
     {
-      "a": "turtle-fire",
-      "b": "turtle-buy",
+      "a": "wheelchair-fire",
+      "b": "wheelchair-buy",
       "distance": 1.41
     },
     {
-      "a": "gingerbread-fire",
-      "b": "gingerbread-buy",
+      "a": "hot-sauce-buy",
+      "b": "hot-sauce-fire",
       "distance": 1.41
     },
     {
-      "a": "spray-can-fire",
-      "b": "spray-can-buy",
+      "a": "wine-bottle-buy",
+      "b": "wine-bottle-fire",
       "distance": 1.41
     },
     {
-      "a": "drawing-compass-fire",
-      "b": "drawing-compass-buy",
+      "a": "mic-stand-fire",
+      "b": "mic-stand-buy",
       "distance": 1.41
     },
     {
-      "a": "nail-polish-fire",
-      "b": "nail-polish-buy",
+      "a": "astronaut-fire",
+      "b": "astronaut-buy",
       "distance": 1.41
     },
     {
-      "a": "broccoli-buy",
-      "b": "broccoli-fire",
+      "a": "umbrella-beach-fire",
+      "b": "umbrella-beach-buy",
       "distance": 1.41
     },
     {
-      "a": "ketchup-buy",
-      "b": "ketchup-fire",
+      "a": "birthday-cake-stats",
+      "b": "birthday-cake-code",
       "distance": 1.41
     },
     {
-      "a": "ear-fire",
-      "b": "ear-buy",
+      "a": "ram-bug",
+      "b": "container-bug",
       "distance": 1.41
     },
     {
-      "a": "receipt-battery",
-      "b": "passport-battery",
+      "a": "ram-plug",
+      "b": "container-plug",
       "distance": 1.41
     },
     {
-      "a": "receipt-code",
-      "b": "passport-code",
+      "a": "whiteboard-stats",
+      "b": "whiteboard-code",
       "distance": 1.41
     },
     {
-      "a": "teacup-code",
-      "b": "teacup-stats",
+      "a": "robot-arm-fire",
+      "b": "robot-arm-buy",
       "distance": 1.41
     },
     {
-      "a": "taco-buy",
-      "b": "rainbow-buy",
+      "a": "hedgehog-fire",
+      "b": "hedgehog-buy",
       "distance": 1.41
     },
     {
-      "a": "taco-battery",
-      "b": "rainbow-battery",
+      "a": "koala-fire",
+      "b": "koala-buy",
       "distance": 1.41
     },
     {
-      "a": "taco-code",
-      "b": "rainbow-code",
+      "a": "dolphin-fire",
+      "b": "dolphin-buy",
       "distance": 1.41
     },
     {
-      "a": "taco-plug",
-      "b": "rainbow-plug",
+      "a": "spider-fire",
+      "b": "spider-buy",
       "distance": 1.41
     },
     {
-      "a": "whisk-battery",
-      "b": "screwdriver-battery",
+      "a": "caterpillar-fire",
+      "b": "caterpillar-buy",
       "distance": 1.41
     },
     {
-      "a": "whisk-bug",
-      "b": "screwdriver-bug",
+      "a": "silo-fire",
+      "b": "silo-buy",
       "distance": 1.41
     },
     {
-      "a": "whisk-code",
-      "b": "screwdriver-code",
+      "a": "lighthouse-fire",
+      "b": "lighthouse-buy",
       "distance": 1.41
     },
     {
-      "a": "whisk-plug",
-      "b": "screwdriver-plug",
+      "a": "clock-tower-fire",
+      "b": "clock-tower-buy",
       "distance": 1.41
     },
     {
-      "a": "wardrobe-buy",
-      "b": "cupboard-buy",
+      "a": "id-badge-fire",
+      "b": "id-badge-buy",
       "distance": 1.41
     },
     {
-      "a": "wardrobe-battery",
-      "b": "cupboard-battery",
+      "a": "ferris-wheel-fire",
+      "b": "ferris-wheel-buy",
       "distance": 1.41
     },
     {
-      "a": "wardrobe-bug",
-      "b": "cupboard-bug",
+      "a": "snow-globe-fire",
+      "b": "snow-globe-buy",
       "distance": 1.41
     },
     {
-      "a": "wardrobe-code",
-      "b": "cupboard-code",
+      "a": "birthday-cake-fire",
+      "b": "birthday-cake-buy",
       "distance": 1.41
     },
     {
-      "a": "wardrobe-plug",
-      "b": "cupboard-plug",
+      "a": "garland-fire",
+      "b": "garland-buy",
       "distance": 1.41
     },
     {
-      "a": "basketball-stats",
-      "b": "basketball-code",
+      "a": "gift-card-fire",
+      "b": "gift-card-buy",
       "distance": 1.41
     },
     {
-      "a": "whisk-plane",
-      "b": "screwdriver-plane",
+      "a": "coupon-fire",
+      "b": "coupon-buy",
       "distance": 1.41
     },
     {
-      "a": "wardrobe-plane",
-      "b": "cupboard-plane",
+      "a": "telephone-old-fire",
+      "b": "telephone-old-buy",
       "distance": 1.41
     },
     {
-      "a": "fox-fire",
-      "b": "fox-buy",
+      "a": "paint-tube-fire",
+      "b": "paint-tube-buy",
       "distance": 1.41
     },
     {
-      "a": "jellyfish-fire",
-      "b": "jellyfish-buy",
+      "a": "smart-speaker-fire",
+      "b": "smart-speaker-buy",
       "distance": 1.41
     },
     {
-      "a": "shark-fire",
-      "b": "shark-buy",
+      "a": "ram-flask",
+      "b": "container-flask",
       "distance": 1.41
     },
     {
-      "a": "street-lamp-fire",
-      "b": "street-lamp-buy",
+      "a": "ruler-triangle-fire",
+      "b": "ruler-triangle-buy",
       "distance": 1.41
     },
     {
-      "a": "windmill-fire",
-      "b": "windmill-buy",
+      "a": "eraser-fire",
+      "b": "eraser-buy",
       "distance": 1.41
     },
     {
-      "a": "fire-hydrant-fire",
-      "b": "fire-hydrant-buy",
+      "a": "bookshelf-fire",
+      "b": "bookshelf-buy",
       "distance": 1.41
     },
     {
-      "a": "brick-fire",
-      "b": "brick-buy",
+      "a": "thimble-fire",
+      "b": "thimble-buy",
       "distance": 1.41
     },
     {
-      "a": "party-popper-fire",
-      "b": "party-popper-buy",
+      "a": "raincoat-fire",
+      "b": "raincoat-buy",
       "distance": 1.41
     },
     {
-      "a": "champagne-fire",
-      "b": "champagne-buy",
+      "a": "heels-fire",
+      "b": "heels-buy",
       "distance": 1.41
     },
     {
-      "a": "firework-fire",
-      "b": "firework-buy",
+      "a": "hair-dryer-fire",
+      "b": "hair-dryer-buy",
       "distance": 1.41
     },
     {
-      "a": "witch-hat-fire",
-      "b": "witch-hat-buy",
+      "a": "razor-fire",
+      "b": "razor-buy",
       "distance": 1.41
     },
     {
-      "a": "cash-register-fire",
-      "b": "cash-register-buy",
+      "a": "coffee-bean-buy",
+      "b": "coffee-bean-fire",
       "distance": 1.41
     },
     {
-      "a": "qr-code-fire",
-      "b": "qr-code-buy",
+      "a": "knife-buy",
+      "b": "knife-fire",
       "distance": 1.41
     },
     {
-      "a": "satellite-dish-fire",
-      "b": "satellite-dish-buy",
+      "a": "ice-cream-cone-buy",
+      "b": "ice-cream-cone-fire",
       "distance": 1.41
     },
     {
-      "a": "antenna-fire",
-      "b": "antenna-buy",
+      "a": "spoon-buy",
+      "b": "spoon-fire",
       "distance": 1.41
     },
     {
-      "a": "paper-plane-fire",
-      "b": "paper-plane-buy",
+      "a": "fork-buy",
+      "b": "fork-fire",
       "distance": 1.41
     },
     {
-      "a": "envelope-open-fire",
-      "b": "envelope-open-buy",
+      "a": "chopsticks-buy",
+      "b": "chopsticks-fire",
       "distance": 1.41
     },
     {
-      "a": "gauge-fire",
-      "b": "gauge-buy",
+      "a": "cake-slice-buy",
+      "b": "cake-slice-fire",
       "distance": 1.41
     },
     {
-      "a": "funnel-fire",
-      "b": "funnel-buy",
+      "a": "skewer-buy",
+      "b": "skewer-fire",
       "distance": 1.41
     },
     {
-      "a": "crayon-fire",
-      "b": "crayon-buy",
+      "a": "rook-fire",
+      "b": "rook-buy",
       "distance": 1.41
     },
     {
-      "a": "easel-fire",
-      "b": "easel-buy",
+      "a": "chess-knight-fire",
+      "b": "chess-knight-buy",
       "distance": 1.41
     },
     {
-      "a": "magic-wand-fire",
-      "b": "magic-wand-buy",
+      "a": "building-blocks-fire",
+      "b": "building-blocks-buy",
       "distance": 1.41
     },
     {
-      "a": "database-fire",
-      "b": "database-buy",
+      "a": "crutch-fire",
+      "b": "crutch-buy",
       "distance": 1.41
     },
     {
-      "a": "mouse-fire",
-      "b": "mouse-buy",
+      "a": "massage-stone-fire",
+      "b": "massage-stone-buy",
       "distance": 1.41
     },
     {
-      "a": "cpu-fire",
-      "b": "cpu-buy",
+      "a": "soap-bar-buy",
+      "b": "soap-bar-fire",
       "distance": 1.41
     },
     {
-      "a": "usb-drive-fire",
-      "b": "usb-drive-buy",
+      "a": "desk-lamp-buy",
+      "b": "desk-lamp-fire",
       "distance": 1.41
     },
     {
-      "a": "webcam-fire",
-      "b": "webcam-buy",
+      "a": "coat-rack-buy",
+      "b": "coat-rack-fire",
       "distance": 1.41
     },
     {
-      "a": "books-fire",
-      "b": "books-buy",
+      "a": "spray-bottle-buy",
+      "b": "spray-bottle-fire",
       "distance": 1.41
     },
     {
-      "a": "baseball-cap-fire",
-      "b": "baseball-cap-buy",
+      "a": "conveyor-fire",
+      "b": "conveyor-buy",
       "distance": 1.41
     },
     {
-      "a": "necklace-fire",
-      "b": "necklace-buy",
+      "a": "forklift-fire",
+      "b": "forklift-buy",
       "distance": 1.41
     },
     {
-      "a": "top-hat-fire",
-      "b": "top-hat-buy",
+      "a": "parcel-locker-fire",
+      "b": "parcel-locker-buy",
       "distance": 1.41
     },
     {
-      "a": "boot-fire",
-      "b": "boot-buy",
+      "a": "tripod-fire",
+      "b": "tripod-buy",
       "distance": 1.41
     },
     {
-      "a": "trend-fire",
-      "b": "trend-buy",
+      "a": "harp-fire",
+      "b": "harp-buy",
       "distance": 1.41
     },
     {
-      "a": "avocado-buy",
-      "b": "avocado-fire",
+      "a": "mountain-flag-fire",
+      "b": "mountain-flag-buy",
       "distance": 1.41
     },
     {
-      "a": "chili-buy",
-      "b": "chili-fire",
+      "a": "acorn-fire",
+      "b": "acorn-buy",
       "distance": 1.41
     },
     {
-      "a": "salt-shaker-buy",
-      "b": "salt-shaker-fire",
+      "a": "recycle-bin-fire",
+      "b": "recycle-bin-buy",
       "distance": 1.41
     },
     {
-      "a": "popsicle-buy",
-      "b": "popsicle-fire",
+      "a": "garden-hose-fire",
+      "b": "garden-hose-buy",
       "distance": 1.41
     },
     {
-      "a": "rolling-pin-buy",
-      "b": "rolling-pin-fire",
+      "a": "flower-pot-fire",
+      "b": "flower-pot-buy",
       "distance": 1.41
     },
     {
-      "a": "hotdog-buy",
-      "b": "hotdog-fire",
+      "a": "slide-fire",
+      "b": "slide-buy",
       "distance": 1.41
     },
     {
-      "a": "barbecue-buy",
-      "b": "barbecue-fire",
+      "a": "beaker-fire",
+      "b": "beaker-buy",
       "distance": 1.41
     },
     {
-      "a": "ladle-buy",
-      "b": "ladle-fire",
+      "a": "molecule-fire",
+      "b": "molecule-buy",
       "distance": 1.41
     },
     {
-      "a": "grater-buy",
-      "b": "grater-fire",
+      "a": "fossil-fire",
+      "b": "fossil-buy",
       "distance": 1.41
     },
     {
-      "a": "jar-buy",
-      "b": "jar-fire",
+      "a": "face-id-fire",
+      "b": "face-id-buy",
       "distance": 1.41
     },
     {
-      "a": "taco-buy",
-      "b": "taco-fire",
+      "a": "bow-arrow-fire",
+      "b": "bow-arrow-buy",
       "distance": 1.41
     },
     {
-      "a": "cherry-buy",
-      "b": "cherry-fire",
+      "a": "pool-ladder-fire",
+      "b": "pool-ladder-buy",
       "distance": 1.41
     },
     {
-      "a": "glass-buy",
-      "b": "glass-fire",
+      "a": "ski-fire",
+      "b": "ski-buy",
       "distance": 1.41
     },
     {
-      "a": "whisk-buy",
-      "b": "whisk-fire",
+      "a": "hockey-stick-fire",
+      "b": "hockey-stick-buy",
       "distance": 1.41
     },
     {
-      "a": "whisk-flask",
-      "b": "screwdriver-flask",
+      "a": "jersey-fire",
+      "b": "jersey-buy",
       "distance": 1.41
     },
     {
-      "a": "peanut-buy",
-      "b": "peanut-fire",
+      "a": "jet-ski-fire",
+      "b": "jet-ski-buy",
       "distance": 1.41
     },
     {
-      "a": "taco-fire",
-      "b": "rainbow-buy",
+      "a": "pickaxe-fire",
+      "b": "pickaxe-buy",
       "distance": 1.41
     },
     {
-      "a": "sword-fire",
-      "b": "sword-buy",
+      "a": "nail-fire",
+      "b": "nail-buy",
       "distance": 1.41
     },
     {
-      "a": "treasure-chest-fire",
-      "b": "treasure-chest-buy",
+      "a": "pipe-fire",
+      "b": "pipe-buy",
       "distance": 1.41
     },
     {
-      "a": "potion-fire",
-      "b": "potion-buy",
+      "a": "valve-fire",
+      "b": "valve-buy",
       "distance": 1.41
     },
     {
-      "a": "toothbrush-fire",
-      "b": "toothbrush-buy",
+      "a": "safety-vest-fire",
+      "b": "safety-vest-buy",
       "distance": 1.41
     },
     {
-      "a": "pill-bottle-fire",
-      "b": "pill-bottle-buy",
+      "a": "rv-fire",
+      "b": "rv-buy",
       "distance": 1.41
     },
     {
-      "a": "stethoscope-fire",
-      "b": "stethoscope-buy",
+      "a": "electric-scooter-fire",
+      "b": "electric-scooter-buy",
       "distance": 1.41
     },
     {
-      "a": "vase-buy",
-      "b": "vase-fire",
+      "a": "gear-shift-fire",
+      "b": "gear-shift-buy",
       "distance": 1.41
     },
     {
-      "a": "shower-buy",
-      "b": "shower-fire",
+      "a": "speedometer-fire",
+      "b": "speedometer-buy",
       "distance": 1.41
     },
     {
-      "a": "mop-buy",
-      "b": "mop-fire",
+      "a": "hammock-fire",
+      "b": "hammock-buy",
       "distance": 1.41
     },
     {
-      "a": "soap-dispenser-buy",
-      "b": "soap-dispenser-fire",
+      "a": "sandcastle-fire",
+      "b": "sandcastle-buy",
       "distance": 1.41
     },
     {
-      "a": "wardrobe-flask",
-      "b": "cupboard-flask",
+      "a": "ship-wheel-fire",
+      "b": "ship-wheel-buy",
       "distance": 1.41
     },
     {
-      "a": "toaster-buy",
-      "b": "toaster-fire",
+      "a": "hot-tub-fire",
+      "b": "hot-tub-buy",
       "distance": 1.41
     },
     {
-      "a": "pushpin-fire",
-      "b": "pushpin-buy",
+      "a": "sauna-fire",
+      "b": "sauna-buy",
       "distance": 1.41
     },
     {
-      "a": "list-fire",
-      "b": "list-buy",
+      "a": "icicles-fire",
+      "b": "icicles-buy",
       "distance": 1.41
     },
     {
-      "a": "toggle-fire",
-      "b": "toggle-buy",
+      "a": "sickle-fire",
+      "b": "sickle-buy",
       "distance": 1.41
     },
     {
-      "a": "metronome-fire",
-      "b": "metronome-buy",
+      "a": "pagoda-fire",
+      "b": "pagoda-buy",
       "distance": 1.41
     },
     {
-      "a": "piano-fire",
-      "b": "piano-buy",
+      "a": "pen-tool-fire",
+      "b": "pen-tool-buy",
       "distance": 1.41
     },
     {
-      "a": "tulip-fire",
-      "b": "tulip-buy",
+      "a": "circuit-fire",
+      "b": "circuit-buy",
       "distance": 1.41
     },
     {
-      "a": "sprout-fire",
-      "b": "sprout-buy",
+      "a": "stacking-rings-fire",
+      "b": "stacking-rings-buy",
       "distance": 1.41
     },
     {
-      "a": "waves-fire",
-      "b": "waves-buy",
+      "a": "violin-fire",
+      "b": "violin-buy",
       "distance": 1.41
     },
     {
-      "a": "comet-fire",
-      "b": "comet-buy",
+      "a": "siren-fire",
+      "b": "siren-buy",
       "distance": 1.41
     },
     {
-      "a": "microscope-fire",
-      "b": "microscope-buy",
+      "a": "buoy-fire",
+      "b": "buoy-buy",
       "distance": 1.41
     },
     {
-      "a": "cctv-fire",
-      "b": "cctv-buy",
+      "a": "umbrella-closed-fire",
+      "b": "umbrella-closed-buy",
       "distance": 1.41
     },
     {
-      "a": "surfboard-fire",
-      "b": "surfboard-buy",
+      "a": "satellite-phone-fire",
+      "b": "satellite-phone-buy",
       "distance": 1.41
     },
     {
-      "a": "bowling-pin-fire",
-      "b": "bowling-pin-buy",
+      "a": "skyscraper-fire",
+      "b": "skyscraper-buy",
       "distance": 1.41
     },
     {
-      "a": "fountain-pen-fire",
-      "b": "fountain-pen-buy",
+      "a": "touchscreen-fire",
+      "b": "touchscreen-buy",
       "distance": 1.41
     },
     {
-      "a": "hex-nut-fire",
-      "b": "hex-nut-buy",
+      "a": "deer-fire",
+      "b": "deer-buy",
       "distance": 1.41
     },
     {
-      "a": "stop-sign-fire",
-      "b": "stop-sign-buy",
+      "a": "pennant-fire",
+      "b": "pennant-buy",
       "distance": 1.41
     },
     {
-      "a": "road-fire",
-      "b": "road-buy",
+      "a": "bubble-tea-buy",
+      "b": "bubble-tea-fire",
       "distance": 1.41
     },
     {
-      "a": "traffic-barrier-fire",
-      "b": "traffic-barrier-buy",
+      "a": "match-buy",
+      "b": "match-fire",
       "distance": 1.41
     },
     {
-      "a": "car-fire",
-      "b": "car-buy",
+      "a": "slot-machine-fire",
+      "b": "slot-machine-buy",
       "distance": 1.41
     },
     {
-      "a": "service-bell-fire",
-      "b": "service-bell-buy",
+      "a": "tipi-fire",
+      "b": "tipi-buy",
       "distance": 1.41
     },
     {
-      "a": "rainbow-fire",
-      "b": "rainbow-buy",
+      "a": "spotlight-fire",
+      "b": "spotlight-buy",
       "distance": 1.41
     },
     {
-      "a": "network-fire",
-      "b": "network-buy",
-      "distance": 1.41
-    },
-    {
-      "a": "onion-buy",
-      "b": "onion-fire",
-      "distance": 1.41
-    },
-    {
-      "a": "spinning-top-fire",
-      "b": "spinning-top-buy",
-      "distance": 1.41
-    },
-    {
-      "a": "pie-chart-fire",
-      "b": "pie-chart-buy",
-      "distance": 1.41
-    },
-    {
-      "a": "spatula-buy",
-      "b": "spatula-fire",
-      "distance": 1.41
-    },
-    {
-      "a": "domino-fire",
-      "b": "domino-buy",
-      "distance": 1.41
-    },
-    {
-      "a": "remote-fire",
-      "b": "remote-buy",
-      "distance": 1.41
-    },
-    {
-      "a": "cocktail-buy",
-      "b": "cocktail-fire",
-      "distance": 1.41
-    },
-    {
-      "a": "juice-buy",
-      "b": "juice-fire",
-      "distance": 1.41
-    },
-    {
-      "a": "scroll-fire",
-      "b": "scroll-buy",
-      "distance": 1.41
-    },
-    {
-      "a": "thermos-buy",
-      "b": "thermos-fire",
-      "distance": 1.41
-    },
-    {
-      "a": "party-hat-fire",
-      "b": "party-hat-buy",
-      "distance": 1.41
-    },
-    {
-      "a": "milk-buy",
-      "b": "milk-fire",
-      "distance": 1.41
-    },
-    {
-      "a": "gavel-fire",
-      "b": "gavel-buy",
-      "distance": 1.41
-    },
-    {
-      "a": "water-bottle-buy",
-      "b": "water-bottle-fire",
-      "distance": 1.41
-    },
-    {
-      "a": "ribbon-fire",
-      "b": "ribbon-buy",
-      "distance": 1.41
-    },
-    {
-      "a": "bomb-fire",
-      "b": "bomb-buy",
-      "distance": 1.41
-    },
-    {
-      "a": "hook-fire",
-      "b": "hook-buy",
-      "distance": 1.41
-    },
-    {
-      "a": "walkie-talkie-fire",
-      "b": "walkie-talkie-buy",
-      "distance": 1.41
-    },
-    {
-      "a": "test-tube-fire",
-      "b": "test-tube-buy",
+      "a": "seesaw-fire",
+      "b": "seesaw-buy",
       "distance": 1.41
     }
   ],
   "dropped": [
-    "turtle-buy",
-    "gingerbread-buy",
-    "spray-can-buy",
-    "drawing-compass-buy",
-    "nail-polish-buy",
-    "broccoli-buy",
-    "ketchup-buy",
-    "ear-buy",
-    "receipt-battery",
-    "receipt-code",
-    "teacup-code",
-    "rainbow-buy",
-    "rainbow-battery",
-    "rainbow-code",
-    "rainbow-plug",
-    "whisk-battery",
-    "whisk-bug",
-    "whisk-code",
-    "whisk-plug",
-    "cupboard-buy",
-    "cupboard-battery",
-    "cupboard-bug",
-    "cupboard-code",
-    "cupboard-plug",
-    "basketball-code",
-    "whisk-plane",
-    "cupboard-plane",
-    "fox-buy",
-    "jellyfish-buy",
-    "shark-buy",
-    "street-lamp-buy",
-    "windmill-buy",
-    "fire-hydrant-buy",
-    "brick-buy",
-    "party-popper-buy",
-    "champagne-buy",
-    "firework-buy",
-    "witch-hat-buy",
-    "cash-register-buy",
-    "qr-code-buy",
-    "satellite-dish-buy",
-    "antenna-buy",
-    "paper-plane-buy",
-    "envelope-open-buy",
-    "gauge-buy",
-    "funnel-buy",
-    "crayon-buy",
-    "easel-buy",
-    "magic-wand-buy",
-    "database-buy",
-    "mouse-buy",
-    "cpu-buy",
-    "usb-drive-buy",
-    "webcam-buy",
-    "books-buy",
-    "baseball-cap-buy",
-    "necklace-buy",
-    "top-hat-buy",
-    "boot-buy",
-    "trend-buy",
-    "avocado-buy",
-    "chili-buy",
-    "salt-shaker-buy",
-    "popsicle-buy",
-    "rolling-pin-buy",
-    "hotdog-buy",
-    "barbecue-buy",
-    "ladle-buy",
-    "grater-buy",
-    "jar-buy",
-    "taco-buy",
-    "cherry-buy",
-    "glass-buy",
-    "whisk-buy",
-    "whisk-flask",
-    "peanut-buy",
-    "sword-buy",
-    "treasure-chest-buy",
-    "potion-buy",
-    "toothbrush-buy",
-    "pill-bottle-buy",
-    "stethoscope-buy",
-    "vase-buy",
-    "shower-buy",
-    "mop-buy",
-    "soap-dispenser-buy",
-    "cupboard-flask",
-    "toaster-buy",
-    "pushpin-buy",
-    "list-buy",
-    "toggle-buy",
-    "metronome-buy",
-    "piano-buy",
-    "tulip-buy",
-    "sprout-buy",
-    "waves-buy",
-    "comet-buy",
-    "microscope-buy",
-    "cctv-buy",
-    "surfboard-buy",
-    "bowling-pin-buy",
-    "fountain-pen-buy",
-    "hex-nut-buy",
-    "stop-sign-buy",
-    "road-buy",
-    "traffic-barrier-buy",
-    "car-buy",
-    "service-bell-buy",
-    "network-buy",
-    "onion-buy",
-    "spinning-top-buy",
-    "pie-chart-buy",
-    "spatula-buy",
-    "domino-buy",
-    "remote-buy",
-    "cocktail-buy",
-    "juice-buy",
-    "scroll-buy",
-    "thermos-buy",
-    "party-hat-buy",
-    "milk-buy",
-    "gavel-buy",
-    "water-bottle-buy",
-    "ribbon-buy",
-    "bomb-buy",
-    "hook-buy",
-    "walkie-talkie-buy",
-    "test-tube-buy"
+    "wheelchair-buy",
+    "hot-sauce-buy",
+    "wine-bottle-buy",
+    "mic-stand-buy",
+    "astronaut-buy",
+    "umbrella-beach-buy",
+    "birthday-cake-code",
+    "container-bug",
+    "container-plug",
+    "whiteboard-code",
+    "robot-arm-buy",
+    "hedgehog-buy",
+    "koala-buy",
+    "dolphin-buy",
+    "spider-buy",
+    "caterpillar-buy",
+    "silo-buy",
+    "lighthouse-buy",
+    "clock-tower-buy",
+    "id-badge-buy",
+    "ferris-wheel-buy",
+    "snow-globe-buy",
+    "birthday-cake-buy",
+    "garland-buy",
+    "gift-card-buy",
+    "coupon-buy",
+    "telephone-old-buy",
+    "paint-tube-buy",
+    "smart-speaker-buy",
+    "container-flask",
+    "ruler-triangle-buy",
+    "eraser-buy",
+    "bookshelf-buy",
+    "thimble-buy",
+    "raincoat-buy",
+    "heels-buy",
+    "hair-dryer-buy",
+    "razor-buy",
+    "coffee-bean-buy",
+    "knife-buy",
+    "ice-cream-cone-buy",
+    "spoon-buy",
+    "fork-buy",
+    "chopsticks-buy",
+    "cake-slice-buy",
+    "skewer-buy",
+    "rook-buy",
+    "chess-knight-buy",
+    "building-blocks-buy",
+    "crutch-buy",
+    "massage-stone-buy",
+    "soap-bar-buy",
+    "desk-lamp-buy",
+    "coat-rack-buy",
+    "spray-bottle-buy",
+    "conveyor-buy",
+    "forklift-buy",
+    "parcel-locker-buy",
+    "tripod-buy",
+    "harp-buy",
+    "mountain-flag-buy",
+    "acorn-buy",
+    "recycle-bin-buy",
+    "garden-hose-buy",
+    "flower-pot-buy",
+    "slide-buy",
+    "beaker-buy",
+    "molecule-buy",
+    "fossil-buy",
+    "face-id-buy",
+    "bow-arrow-buy",
+    "pool-ladder-buy",
+    "ski-buy",
+    "hockey-stick-buy",
+    "jersey-buy",
+    "jet-ski-buy",
+    "pickaxe-buy",
+    "nail-buy",
+    "pipe-buy",
+    "valve-buy",
+    "safety-vest-buy",
+    "rv-buy",
+    "electric-scooter-buy",
+    "gear-shift-buy",
+    "speedometer-buy",
+    "hammock-buy",
+    "sandcastle-buy",
+    "ship-wheel-buy",
+    "hot-tub-buy",
+    "sauna-buy",
+    "icicles-buy",
+    "sickle-buy",
+    "pagoda-buy",
+    "pen-tool-buy",
+    "circuit-buy",
+    "stacking-rings-buy",
+    "violin-buy",
+    "siren-buy",
+    "buoy-buy",
+    "umbrella-closed-buy",
+    "satellite-phone-buy",
+    "skyscraper-buy",
+    "touchscreen-buy",
+    "deer-buy",
+    "pennant-buy",
+    "bubble-tea-buy",
+    "match-buy",
+    "slot-machine-buy",
+    "tipi-buy",
+    "spotlight-buy",
+    "seesaw-buy"
   ],
   "byCategory": {
-    "accessibility": 80,
+    "accessibility": 86,
     "actions": 69,
-    "ai": 660,
-    "animals": 3885,
+    "ai": 666,
+    "animals": 4008,
     "arrows": 188,
-    "buildings": 2691,
-    "business": 2130,
-    "celebration": 2042,
-    "commerce": 1409,
-    "communication": 1793,
+    "buildings": 2756,
+    "business": 2192,
+    "celebration": 2086,
+    "commerce": 1440,
+    "communication": 1839,
     "data": 1702,
-    "design": 1232,
-    "development": 783,
-    "devices": 2404,
-    "education": 1582,
+    "design": 1258,
+    "development": 796,
+    "devices": 2423,
+    "education": 1620,
     "emoji": 78,
     "energy": 1178,
-    "fashion": 2839,
+    "fashion": 2897,
     "files": 683,
-    "finance": 1877,
-    "food": 7577,
-    "gaming": 2684,
-    "health": 2592,
-    "home": 5838,
+    "finance": 1911,
+    "food": 7702,
+    "gaming": 2734,
+    "health": 2639,
+    "home": 5916,
     "interface": 1665,
-    "logistics": 1145,
+    "logistics": 1181,
     "maps": 721,
-    "media": 2887,
-    "nature": 2839,
+    "media": 2945,
+    "nature": 2870,
     "navigation": 63,
     "notifications": 184,
-    "people": 1296,
-    "science": 1580,
-    "security": 1016,
+    "people": 1329,
+    "science": 1616,
+    "security": 1035,
     "social": 525,
-    "sports": 3230,
-    "text": 432,
-    "time": 666,
-    "tools": 2781,
-    "transport": 3790,
-    "travel": 2422,
-    "weather": 1625
+    "sports": 3319,
+    "text": 439,
+    "time": 673,
+    "tools": 2831,
+    "transport": 3855,
+    "travel": 2483,
+    "weather": 1651
   }
 }

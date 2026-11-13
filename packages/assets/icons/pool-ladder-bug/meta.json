@@ -1,0 +1,156 @@
+{
+  "name": "pool-ladder-bug",
+  "title": "Pool Ladder Bug",
+  "category": "sports",
+  "tags": [
+    "bug",
+    "issue",
+    "debug",
+    "pool ladder",
+    "pool-ladder"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "forge",
+  "family": "pool-ladder-bug",
+  "animation": {
+    "duration": 3000,
+    "loop": true,
+    "source": "generated",
+    "preset": "pop-draw",
+    "tracks": [
+      {
+        "target": 1,
+        "property": "scale",
+        "origin": [
+          50,
+          50
+        ],
+        "times": [
+          0,
+          0,
+          0.1667,
+          1
+        ],
+        "values": [
+          0.6,
+          0.6,
+          1,
+          1
+        ],
+        "ease": [
+          "linear",
+          [
+            0.45,
+            1.45,
+            0.8,
+            1
+          ],
+          "linear"
+        ]
+      },
+      {
+        "target": 1,
+        "property": "opacity",
+        "times": [
+          0,
+          0,
+          0.1333,
+          0.8,
+          0.9333,
+          1
+        ],
+        "values": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "ease": [
+          "linear",
+          "easeOut",
+          [
+            0.5,
+            0,
+            0.5,
+            1
+          ],
+          "easeIn",
+          "linear"
+        ]
+      },
+      {
+        "target": 0,
+        "property": "draw",
+        "times": [
+          0,
+          0.13,
+          0.33,
+          0.8,
+          0.933,
+          1
+        ],
+        "values": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "ease": [
+          "linear",
+          "easeInOut",
+          [
+            0.5,
+            0,
+            0.5,
+            1
+          ],
+          "easeIn",
+          "linear"
+        ]
+      },
+      {
+        "target": 2,
+        "property": "draw",
+        "times": [
+          0,
+          0.18,
+          0.38,
+          0.8,
+          0.933,
+          1
+        ],
+        "values": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "ease": [
+          "linear",
+          "easeInOut",
+          [
+            0.5,
+            0,
+            0.5,
+            1
+          ],
+          "easeIn",
+          "linear"
+        ]
+      }
+    ]
+  }
+}
