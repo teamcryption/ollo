@@ -335,3 +335,6 @@ ul[role='list'] { list-style: none; margin: 0; padding: 0; }
 
 /* Animated + Autoplay switches side by side in the animated filter bar */
 .switch-pair { display: flex; align-items: center; gap: 12px; }
+
+/* Pro test switch in the menu sheet when the site runs inside the Figma plugin */
+.figma-plan { padding: 8px 12px 12px; font-size: 13px; }

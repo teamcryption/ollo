@@ -3,6 +3,8 @@
 import { useEffect, useMemo, useState } from 'react';
 import { fmt, loadIllustrations, searchIcons, svgDataUrl, type Category, type Illustration } from '@/lib/data';
 import { illustrationSvg, type IllTheme } from '@/lib/illustration';
+import { IN_FIGMA, figmaInsert, figmaPro } from '@/lib/figma';
+import { nameSvg } from '@/lib/data';
 import type { Theme } from '@/lib/hooks';
 import { UiIcon } from './ui-icons';
 import type { DownloadTarget } from './DownloadModal';
@@ -163,6 +165,7 @@ export function Illustrations({
   query,
   searchField,
   openFilters,
+  onToast,
   onOpen,
   theme,
 }: {
@@ -171,6 +174,7 @@ export function Illustrations({
   searchField: React.ReactNode;
   openFilters: () => void;
   onOpen: (t: DownloadTarget) => void;
+  onToast?: (t: string) => void;
   theme: Theme;
 }) {
   const [tile, setTile] = useState<'S' | 'M' | 'L'>('M');
@@ -278,7 +282,22 @@ export function Illustrations({
                 type={s.type}
                 theme={effTheme}
                 colour={hex}
-                onOpen={() => onOpen({ kind: 'illustration', item, list, categories: s.categories })}
+                onOpen={() => {
+                  if (!IN_FIGMA) return onOpen({ kind: 'illustration', item, list, categories: s.categories });
+                  // Figma plugin: insert as a component with a Type variant (Free: Stroke; Pro: + Fill, Duotone).
+                  const types = (['stroke', 'fill', 'duotone'] as IllType[]).filter((t) => item.types[t] && (figmaPro() || t === 'stroke'));
+                  const label = (t: IllType) => t[0].toUpperCase() + t.slice(1);
+                  figmaInsert({
+                    name: item.n,
+                    title: item.t,
+                    prop: 'Type',
+                    variants: types.map((t) => ({ label: label(t), svg: nameSvg(illustrationSvg(item, { type: t, theme: effTheme, colour: hex }), item.n) })),
+                    pick: types.includes(s.type) ? label(s.type) : 'Stroke',
+                    size: 260,
+                    kind: 'illustration',
+                  });
+                  onToast?.(`${item.t} added to Figma`);
+                }}
               />
             </li>
           ))}

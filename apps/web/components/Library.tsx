@@ -23,6 +23,7 @@ import { UiIcon } from './ui-icons';
 import { IllustrationFilters, IllustrationSidebar, Illustrations, useIllustrationState } from './Illustrations';
 import { DownloadModal, type DownloadTarget } from './DownloadModal';
 import { Subscribe } from './Subscribe';
+import { IN_FIGMA, figmaInsert, figmaPro, onFigmaPlan, setFigmaPro } from '@/lib/figma';
 import { ANIM_FORMATS, SWATCHES, Select, copyText, type AnimFormat } from './shared';
 
 type Mode = 'icons' | 'illustrations';
@@ -191,8 +192,27 @@ export function Library() {
     return () => clearTimeout(t);
   }, [copied]);
 
+  // Inside the Figma plugin: plan comes from the plugin; a click inserts a component.
+  const [pro, setPro] = useState(figmaPro());
+  useEffect(() => (IN_FIGMA ? onFigmaPlan(setPro) : undefined), []);
+  const insertIntoFigma = async (icon: IconEntry) => {
+    if (!index) return;
+    const styles = ICON_STYLES.filter((s) => pro || !PRO_STYLES.has(s.id));
+    const variants = [];
+    for (const s of styles) {
+      const svg = (await loadIcons([icon], s.id))[icon.n];
+      if (svg) variants.push({ label: s.label, svg: exportIconSvg(svg, size, copyHex, index.tokens.icon.opticalStroke, icon.n) });
+    }
+    const pick = styles.find((s) => s.id === style)?.label ?? 'Regular';
+    figmaInsert({ name: icon.n, title: icon.t, prop: 'Style', variants, pick, size, kind: 'icon' });
+    setCopied(icon.n);
+    recent.push(icon.n);
+    showToast(`${icon.t} added to Figma`);
+  };
+
   const onTile = async (icon: IconEntry) => {
     if (!svgs || !index) return;
+    if (IN_FIGMA) return insertIntoFigma(icon);
     if (animated && motion?.[icon.n]) {
       setDownload({ kind: 'icon', icon, list, format });
       return;
@@ -306,7 +326,13 @@ export function Library() {
           role="radio"
           aria-checked={style === s.id}
           className="chip"
-          onClick={() => setStyle(s.id)}
+          onClick={() => {
+            if (IN_FIGMA && PRO_STYLES.has(s.id) && !pro) {
+              showToast(`${s.label} is a Pro style. Free includes Light and Regular.`);
+              return;
+            }
+            setStyle(s.id);
+          }}
         >
           {style === s.id && <UiIcon name="check" size={16} />}
           {s.label}
@@ -680,6 +706,7 @@ export function Library() {
               searchField={searchField('search-tablet only-tablet')}
               openFilters={() => setSheet('filters')}
               onOpen={(t) => setDownload(t)}
+              onToast={showToast}
               theme={theme}
             />
           )}
@@ -730,6 +757,14 @@ export function Library() {
             <IllustrationFilters s={ill} site={theme} />
           ) : (
             <div className="sheet-menu">
+              {IN_FIGMA && (
+                <button className="switch figma-plan" role="switch" aria-checked={pro} onClick={() => setFigmaPro(!pro)}>
+                  <span className="track" aria-hidden="true">
+                    <span className="thumb" />
+                  </span>
+                  Pro plan (testing until sign-in exists)
+                </button>
+              )}
               <a className="btn btn-ghost btn-md" href="#subscribe" aria-current={view === 'subscribe' ? 'page' : undefined}>
                 Pricing
               </a>
