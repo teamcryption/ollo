@@ -886,3 +886,7 @@ neck-brace
 nebulizer
 garden-pavilion
 clock-tower
+geodesic-dome
+quarry
+canoe
+bandshell

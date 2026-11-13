@@ -1,132 +1,150 @@
 {
-  "generatedAt": "2026-11-13T08:41:54.245Z",
-  "icons": 65655,
-  "files": 328275,
+  "generatedAt": "2026-11-13T08:51:08.710Z",
+  "icons": 66038,
+  "files": 330190,
   "errors": [],
   "warnings": [
-    "garden-pavilion-camera: grid: outside the 3-21 live area (3.00, 3.50, 22.00, 20.50)",
-    "townhouse-camera: grid: outside the 3-21 live area (3.00, 5.00, 22.00, 20.50)",
-    "chalet-camera: grid: outside the 3-21 live area (3.33, 3.78, 22.00, 20.50)",
-    "mansion-camera: grid: outside the 3-21 live area (3.00, 3.50, 22.00, 20.50)",
-    "palace-camera: grid: outside the 3-21 live area (3.00, 5.50, 22.00, 20.50)",
-    "bunker-camera: grid: outside the 3-21 live area (3.00, 8.50, 22.00, 20.50)",
-    "hangar-camera: grid: outside the 3-21 live area (3.00, 5.50, 22.00, 20.50)",
-    "planetarium-camera: grid: outside the 3-21 live area (3.00, 5.00, 22.00, 20.50)",
-    "cinema-camera: grid: outside the 3-21 live area (3.00, 4.50, 22.00, 20.50)",
-    "treehouse-camera: grid: outside the 3-21 live area (4.50, 3.50, 22.00, 20.50)",
-    "shed-camera: grid: outside the 3-21 live area (3.00, 6.15, 22.00, 20.50)",
-    "outhouse-camera: grid: outside the 3-21 live area (4.50, 3.73, 22.00, 20.50)",
-    "advertising-column-camera: grid: outside the 3-21 live area (5.00, 3.50, 22.00, 20.50)",
-    "boathouse-camera: grid: outside the 3-21 live area (3.00, 4.76, 22.00, 20.50)",
-    "cathedral-camera: grid: outside the 3-21 live area (3.00, 3.50, 22.00, 20.50)",
-    "stilt-house-camera: grid: outside the 3-21 live area (3.00, 3.50, 22.00, 20.50)",
-    "neck-brace-camera: grid: outside the 3-21 live area (3.50, 8.00, 22.00, 20.50)",
-    "nebulizer-camera: grid: outside the 3-21 live area (3.00, 3.50, 22.00, 20.50)",
-    "glucometer-camera: grid: outside the 3-21 live area (4.00, 3.00, 22.00, 20.50)",
-    "guardhouse-camera: grid: outside the 3-21 live area (3.00, 6.50, 22.00, 20.50)",
-    "gas-station-camera: grid: outside the 3-21 live area (3.00, 4.00, 22.00, 20.50)",
-    "subway-entrance-camera: grid: outside the 3-21 live area (3.00, 3.50, 22.00, 20.50)",
-    "houseboat-camera: grid: outside the 3-21 live area (3.00, 6.15, 22.00, 20.50)"
+    "bandshell-camera: grid: outside the 3-21 live area (3.00, 6.50, 22.00, 20.50)",
+    "geodesic-dome-camera: grid: outside the 3-21 live area (3.00, 8.50, 22.00, 20.50)",
+    "smokestack-camera: grid: outside the 3-21 live area (7.50, 3.40, 22.00, 20.50)",
+    "oil-rig-camera: grid: outside the 3-21 live area (3.00, 3.50, 22.00, 20.50)",
+    "pumpjack-camera: grid: outside the 3-21 live area (3.00, 8.00, 22.00, 20.50)",
+    "refinery-camera: grid: outside the 3-21 live area (3.00, 4.00, 22.00, 20.50)",
+    "gantry-crane-camera: grid: outside the 3-21 live area (3.00, 6.00, 22.00, 20.50)",
+    "drive-in-camera: grid: outside the 3-21 live area (3.00, 3.50, 22.00, 20.50)",
+    "quarry-camera: grid: outside the 3-21 live area (3.00, 4.50, 22.00, 20.50)",
+    "mine-cart-camera: grid: outside the 3-21 live area (3.00, 5.38, 22.00, 20.50)",
+    "cruise-ship-camera: grid: outside the 3-21 live area (3.00, 4.50, 22.00, 20.50)",
+    "trawler-camera: grid: outside the 3-21 live area (3.00, 4.50, 22.00, 20.50)",
+    "barge-camera: grid: outside the 3-21 live area (3.00, 9.00, 22.00, 20.50)",
+    "catamaran-camera: grid: outside the 3-21 live area (3.00, 3.50, 22.00, 20.50)",
+    "canoe-camera: grid: outside the 3-21 live area (3.00, 2.50, 22.00, 20.50)",
+    "paddle-steamer-camera: grid: outside the 3-21 live area (3.00, 5.00, 22.00, 20.50)",
+    "junk-boat-camera: grid: outside the 3-21 live area (3.00, 4.50, 22.00, 20.50)"
   ],
   "duplicates": [
     {
-      "a": "garden-pavilion-pencil",
-      "b": "garden-pavilion-leaf",
+      "a": "bandshell-pencil",
+      "b": "bandshell-leaf",
       "distance": 1.41
     },
     {
-      "a": "chalet-pencil",
-      "b": "chalet-leaf",
+      "a": "geodesic-dome-sparkle",
+      "b": "geodesic-dome-upload",
       "distance": 1.41
     },
     {
-      "a": "treehouse-sparkle",
-      "b": "treehouse-upload",
+      "a": "oil-rig-gear",
+      "b": "oil-rig-stats",
       "distance": 1.41
     },
     {
-      "a": "outhouse-pencil",
-      "b": "outhouse-leaf",
+      "a": "oil-rig-pencil",
+      "b": "oil-rig-leaf",
       "distance": 1.41
     },
     {
-      "a": "advertising-column-sparkle",
-      "b": "advertising-column-upload",
+      "a": "oil-rig-sparkle",
+      "b": "oil-rig-upload",
       "distance": 1.41
     },
     {
-      "a": "boathouse-pencil",
-      "b": "boathouse-leaf",
+      "a": "pumpjack-pencil",
+      "b": "pumpjack-leaf",
       "distance": 1.41
     },
     {
-      "a": "boathouse-sparkle",
-      "b": "boathouse-upload",
+      "a": "refinery-sparkle",
+      "b": "refinery-upload",
       "distance": 1.41
     },
     {
-      "a": "stilt-house-sparkle",
-      "b": "stilt-house-upload",
+      "a": "gantry-crane-pencil",
+      "b": "gantry-crane-leaf",
       "distance": 1.41
     },
     {
-      "a": "neck-brace-pencil",
-      "b": "neck-brace-leaf",
+      "a": "gantry-crane-sparkle",
+      "b": "gantry-crane-upload",
       "distance": 1.41
     },
     {
-      "a": "glucometer-sparkle",
-      "b": "glucometer-upload",
+      "a": "drive-in-sparkle",
+      "b": "drive-in-upload",
       "distance": 1.41
     },
     {
-      "a": "guardhouse-sparkle",
-      "b": "guardhouse-upload",
+      "a": "mine-cart-pencil",
+      "b": "mine-cart-leaf",
       "distance": 1.41
     },
     {
-      "a": "gas-station-sparkle",
-      "b": "gas-station-upload",
+      "a": "cruise-ship-sparkle",
+      "b": "cruise-ship-upload",
       "distance": 1.41
     },
     {
-      "a": "subway-entrance-sparkle",
-      "b": "subway-entrance-upload",
+      "a": "trawler-sparkle",
+      "b": "trawler-upload",
       "distance": 1.41
     },
     {
-      "a": "houseboat-pencil",
-      "b": "houseboat-leaf",
+      "a": "catamaran-pencil",
+      "b": "catamaran-leaf",
       "distance": 1.41
     },
     {
-      "a": "houseboat-sparkle",
-      "b": "houseboat-upload",
+      "a": "canoe-pencil",
+      "b": "canoe-leaf",
       "distance": 1.41
     },
     {
-      "a": "neck-brace-sparkle",
-      "b": "neck-brace-upload",
+      "a": "paddle-steamer-sparkle",
+      "b": "paddle-steamer-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "junk-boat-pencil",
+      "b": "junk-boat-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "smokestack-sparkle",
+      "b": "smokestack-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "barge-sparkle",
+      "b": "barge-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "canoe-sparkle",
+      "b": "canoe-upload",
       "distance": 1.41
     }
   ],
   "dropped": [
-    "garden-pavilion-leaf",
-    "chalet-leaf",
-    "treehouse-upload",
-    "outhouse-leaf",
-    "advertising-column-upload",
-    "boathouse-leaf",
-    "boathouse-upload",
-    "stilt-house-upload",
-    "neck-brace-leaf",
-    "glucometer-upload",
-    "guardhouse-upload",
-    "gas-station-upload",
-    "subway-entrance-upload",
-    "houseboat-leaf",
-    "houseboat-upload",
-    "neck-brace-upload"
+    "bandshell-leaf",
+    "geodesic-dome-upload",
+    "oil-rig-stats",
+    "oil-rig-leaf",
+    "oil-rig-upload",
+    "pumpjack-leaf",
+    "refinery-upload",
+    "gantry-crane-leaf",
+    "gantry-crane-upload",
+    "drive-in-upload",
+    "mine-cart-leaf",
+    "cruise-ship-upload",
+    "trawler-upload",
+    "catamaran-leaf",
+    "canoe-leaf",
+    "paddle-steamer-upload",
+    "junk-boat-leaf",
+    "smokestack-upload",
+    "barge-upload",
+    "canoe-upload"
   ],
   "byCategory": {
     "accessibility": 74,
@@ -134,7 +152,7 @@
     "ai": 618,
     "animals": 2489,
     "arrows": 188,
-    "buildings": 2432,
+    "buildings": 2430,
     "business": 1892,
     "celebration": 1786,
     "commerce": 1168,
@@ -145,19 +163,19 @@
     "devices": 2071,
     "education": 1425,
     "emoji": 73,
-    "energy": 968,
+    "energy": 1062,
     "fashion": 2355,
     "files": 600,
     "finance": 1674,
     "food": 6416,
     "gaming": 2396,
-    "health": 2321,
+    "health": 2257,
     "home": 4836,
     "interface": 1461,
-    "logistics": 1033,
+    "logistics": 1064,
     "maps": 667,
-    "media": 2439,
-    "nature": 2480,
+    "media": 2471,
+    "nature": 2513,
     "navigation": 63,
     "notifications": 184,
     "people": 1134,
@@ -168,7 +186,7 @@
     "text": 385,
     "time": 605,
     "tools": 2404,
-    "transport": 2863,
+    "transport": 3118,
     "travel": 2071,
     "weather": 1499
   }
