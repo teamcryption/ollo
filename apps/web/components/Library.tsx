@@ -312,12 +312,12 @@ export function Library() {
   );
 
   // The toggle names where it takes you: "Animated" on the static grid, "Flat icons" on the
-  // animated grid. It sits in its off position on both, so a click always means "switch to this".
+  // animated grid. The switch itself is on (blue) while animated icons show, off for flat icons.
   const animatedSwitch = (
     <button
       className="switch"
       role="switch"
-      aria-checked={false}
+      aria-checked={animated}
       onClick={() => setAnimated((a) => !a)}
       title={animated ? 'Back to flat (static) icons' : 'Show animated icons'}
     >
