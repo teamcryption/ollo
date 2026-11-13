@@ -63,6 +63,8 @@ const INDUSTRY: Record<string, string> = {
   pets: 'Pets',
   sports: 'Sports',
   kids: 'Kids & Toys',
+  space: 'Space',
+  outdoors: 'Outdoors',
 };
 /** Kinds that run the illustration live instead of showing its still. */
 const isLive = (k: Kind): k is 'interactive' | 'scroll' => k === 'interactive' || k === 'scroll';
