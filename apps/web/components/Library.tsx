@@ -40,7 +40,8 @@ const MOTION_KINDS: { id: MotionKind; label: string }[] = [
 
 
 const TILE_ICON: Record<TileSize, number> = { S: 24, M: 32, L: 40 };
-const PAGE = 36;
+const PAGE = 36; // fallback before the grid has measured itself
+const AUTO_LOADS = 4; // pages added by scrolling before "Load more" shows
 
 export function Library() {
   const [theme, toggleTheme] = useTheme();
@@ -65,6 +66,10 @@ export function Library() {
   const [tile, setTile] = useState<TileSize>('M');
   const [sort, setSort] = useState<Sort>('popular');
   const [shown, setShown] = useState(PAGE);
+  const [autoLoads, setAutoLoads] = useState(0);
+  const gridWrap = useRef<HTMLDivElement>(null);
+  const sentinel = useRef<HTMLDivElement>(null);
+  const page = useRef({ size: PAGE, cols: 1 });
   const [copied, setCopied] = useState<string | null>(null);
   const [toast, setToast] = useState<{ id: number; text: string } | null>(null);
   const [sheet, setSheet] = useState<null | 'filters' | 'menu'>(null);
@@ -104,7 +109,32 @@ export function Library() {
   useEffect(() => {
     if (animated && !motion) loadMotion().then(setMotion);
   }, [animated, motion]);
-  useEffect(() => setShown(PAGE), [collection, deferredQuery, sort, mode]);
+  // One "page" = enough whole rows to fill the screen below the grid's top, plus two.
+  const measure = useCallback(() => {
+    const grid = gridWrap.current?.querySelector<HTMLElement>('.icon-grid');
+    if (!grid) return page.current;
+    const cols = Math.max(1, getComputedStyle(grid).gridTemplateColumns.split(' ').length);
+    const gap = parseFloat(getComputedStyle(grid).rowGap) || 12;
+    const tileH = (grid.clientWidth - gap * (cols - 1)) / cols;
+    const top = Math.max(0, grid.getBoundingClientRect().top);
+    const rows = Math.max(3, Math.ceil((window.innerHeight - top) / (tileH + gap)) + 2);
+    page.current = { size: cols * rows, cols };
+    return page.current;
+  }, []);
+  const roundRows = (n: number) => Math.ceil(n / page.current.cols) * page.current.cols;
+  useEffect(() => {
+    setShown(measure().size);
+    setAutoLoads(0);
+  }, [collection, deferredQuery, sort, mode, animated, motionKind, index, measure]);
+  useEffect(() => {
+    const onResize = () => {
+      const p = measure();
+      setShown((v) => Math.max(roundRows(v), p.size));
+    };
+    window.addEventListener('resize', onResize);
+    return () => window.removeEventListener('resize', onResize);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [measure]);
 
   // "/" focuses the visible search field.
   useEffect(() => {
@@ -196,6 +226,23 @@ export function Library() {
               ? 'Recently used'
               : (catTitles.get(collection) ?? '');
   const visible = list.slice(0, shown);
+  const more = visible.length < list.length;
+  // Scrolling near the end adds a page, up to AUTO_LOADS times; then "Load more" takes over.
+  useEffect(() => {
+    const el = sentinel.current;
+    if (!el || !more || autoLoads >= AUTO_LOADS) return;
+    const io = new IntersectionObserver(
+      (entries) => {
+        if (!entries.some((e) => e.isIntersecting)) return;
+        setShown((v) => roundRows(v + page.current.size));
+        setAutoLoads((a) => a + 1);
+      },
+      { rootMargin: '0px 0px 120px 0px' },
+    );
+    io.observe(el);
+    return () => io.disconnect();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [more, autoLoads, shown]);
   const searchPlaceholder =
     mode === 'icons' ? `Search ${total ? fmt(total) : ''} icons` : `Search ${fmt(ill.items?.length ?? 0)} illustrations`;
 
@@ -258,12 +305,20 @@ export function Library() {
     </div>
   );
 
+  // The toggle names where it takes you: "Animated" on the static grid, "Flat icons" on the
+  // animated grid. It sits in its off position on both, so a click always means "switch to this".
   const animatedSwitch = (
-    <button className="switch" role="switch" aria-checked={animated} onClick={() => setAnimated((a) => !a)}>
+    <button
+      className="switch"
+      role="switch"
+      aria-checked={false}
+      onClick={() => setAnimated((a) => !a)}
+      title={animated ? 'Back to flat (static) icons' : 'Show animated icons'}
+    >
       <span className="track" aria-hidden="true">
         <span className="thumb" />
       </span>
-      Animated
+      {animated ? 'Flat icons' : 'Animated'}
     </button>
   );
 
@@ -566,6 +621,7 @@ export function Library() {
               </div>
               )}
 
+              <div ref={gridWrap}>
               <IconGrid
                 icons={visible}
                 svgs={svgs}
@@ -584,14 +640,22 @@ export function Library() {
                       : `No icons match “${deferredQuery}”.`
                 }
               />
+              </div>
+              <div ref={sentinel} aria-hidden="true" />
 
               {list.length > 0 && (
                 <div className="load-more">
                   <span>
                     Showing {fmt(visible.length)} of {fmt(list.length)} {animated ? 'animated icons' : 'icons'}
                   </span>
-                  {visible.length < list.length && (
-                    <button className="btn btn-outline btn-md" onClick={() => setShown((s) => s + PAGE * 2)}>
+                  {more && autoLoads >= AUTO_LOADS && (
+                    <button
+                      className="btn btn-outline btn-md"
+                      onClick={() => {
+                        setShown((v) => roundRows(v + page.current.size));
+                        setAutoLoads(0);
+                      }}
+                    >
                       Load more
                     </button>
                   )}
