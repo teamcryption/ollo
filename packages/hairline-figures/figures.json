@@ -256,5 +256,113 @@
     "c": "technology",
     "t": "Wi-Fi router",
     "g": "router wifi wireless network internet antenna signal"
+  },
+  {
+    "file": "drumkit.js",
+    "c": "music",
+    "t": "Drum kit",
+    "g": "drums music percussion band cymbal rhythm instrument"
+  },
+  {
+    "file": "podcastmics.js",
+    "c": "media",
+    "t": "Podcast mics",
+    "g": "podcast microphone audio recording studio headphones broadcast"
+  },
+  {
+    "file": "cinemaseats.js",
+    "c": "media",
+    "t": "Cinema seats",
+    "g": "cinema theater seats movie auditorium booking rows"
+  },
+  {
+    "file": "cameratripod.js",
+    "c": "media",
+    "t": "Camera tripod",
+    "g": "camera tripod photography zoom lens video"
+  },
+  {
+    "file": "satellitedishes.js",
+    "c": "technology",
+    "t": "Satellite dishes",
+    "g": "satellite dish antenna roof signal broadcast telecom"
+  },
+  {
+    "file": "batterybank.js",
+    "c": "energy",
+    "t": "Battery bank",
+    "g": "battery energy storage power charge cells rack"
+  },
+  {
+    "file": "bowlingpins.js",
+    "c": "sports",
+    "t": "Bowling pins",
+    "g": "bowling pins lane ball sport game"
+  },
+  {
+    "file": "trophyshelf.js",
+    "c": "sports",
+    "t": "Trophy shelf",
+    "g": "trophy award cup star plaque shelf winner"
+  },
+  {
+    "file": "trafficcones.js",
+    "c": "construction",
+    "t": "Traffic cones",
+    "g": "traffic cone roadwork construction barrier road safety"
+  },
+  {
+    "file": "medicinecabinet.js",
+    "c": "health",
+    "t": "Medicine cabinet",
+    "g": "medicine cabinet bathroom pharmacy bottles shelves"
+  },
+  {
+    "file": "aquarium.js",
+    "c": "pets",
+    "t": "Fish tank",
+    "g": "aquarium fish tank pet water plants aquatic"
+  },
+  {
+    "file": "birdcages.js",
+    "c": "pets",
+    "t": "Bird cages",
+    "g": "birdcage bird cage pet hanging stand perch"
+  },
+  {
+    "file": "winerack.js",
+    "c": "food",
+    "t": "Wine rack",
+    "g": "wine bottles rack cellar storage kitchen"
+  },
+  {
+    "file": "paintcans.js",
+    "c": "design",
+    "t": "Paint cans",
+    "g": "paint cans lid brush decorating diy home improvement"
+  },
+  {
+    "file": "plantstand.js",
+    "c": "home",
+    "t": "Plant stand",
+    "g": "plants houseplants pots stand leaves interior"
+  },
+  {
+    "file": "washingmachines.js",
+    "c": "home",
+    "t": "Laundromat washers",
+    "g": "washing machine laundromat laundry front loader appliance"
+  },
+  {
+    "file": "keyrack.js",
+    "c": "hospitality",
+    "t": "Hotel key board",
+    "g": "hotel key board reception room key tag hook"
+  },
+  {
+    "file": "cashregister.js",
+    "c": "commerce",
+    "t": "Cash register",
+    "g": "cash register till keypad cash drawer checkout retail shop"
   }
 ]
