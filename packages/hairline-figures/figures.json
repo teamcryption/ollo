@@ -472,5 +472,113 @@
     "c": "science",
     "t": "Lab flasks",
     "g": "flasks lab chemistry liquid science experiment beaker"
+  },
+  {
+    "file": "piggybanks.js",
+    "c": "finance",
+    "t": "Piggy banks",
+    "g": "piggy bank savings coin money bank finance"
+  },
+  {
+    "file": "vaultdoor.js",
+    "c": "finance",
+    "t": "Vault door",
+    "g": "vault bank safe security door wheel lock"
+  },
+  {
+    "file": "walletcards.js",
+    "c": "finance",
+    "t": "Wallet cards",
+    "g": "wallet cards credit card payment leather pocket"
+  },
+  {
+    "file": "shoewall.js",
+    "c": "fashion",
+    "t": "Shoe wall",
+    "g": "shoes sneakers store retail shelves display fashion"
+  },
+  {
+    "file": "hatstand.js",
+    "c": "fashion",
+    "t": "Hat stand",
+    "g": "hats coat stand fedora cap beanie scarf hallway"
+  },
+  {
+    "file": "perfumebottles.js",
+    "c": "fashion",
+    "t": "Perfume bottles",
+    "g": "perfume fragrance bottles vanity tray cosmetics beauty"
+  },
+  {
+    "file": "potrack.js",
+    "c": "home",
+    "t": "Hanging pot rack",
+    "g": "kitchen cookware pans pot rack hanging cooking"
+  },
+  {
+    "file": "fridge.js",
+    "c": "home",
+    "t": "Open fridge",
+    "g": "kitchen fridge refrigerator jars bottles shelves appliance"
+  },
+  {
+    "file": "dishrack.js",
+    "c": "home",
+    "t": "Dish drying rack",
+    "g": "kitchen dishes plates drying rack cutlery washing up"
+  },
+  {
+    "file": "tents.js",
+    "c": "outdoors",
+    "t": "Campsite tents",
+    "g": "camping tent campfire outdoors campsite nature"
+  },
+  {
+    "file": "kayakrack.js",
+    "c": "outdoors",
+    "t": "Kayak rack",
+    "g": "kayak paddle rack water sports outdoors boating"
+  },
+  {
+    "file": "lighthouse.js",
+    "c": "travel",
+    "t": "Lighthouse",
+    "g": "lighthouse beacon coast sea navigation maritime light"
+  },
+  {
+    "file": "forklift.js",
+    "c": "logistics",
+    "t": "Forklift",
+    "g": "forklift warehouse pallet rack logistics lift"
+  },
+  {
+    "file": "silos.js",
+    "c": "agriculture",
+    "t": "Grain silos",
+    "g": "silo farm grain agriculture storage hatch conveyor"
+  },
+  {
+    "file": "pumpjacks.js",
+    "c": "energy",
+    "t": "Oil pumpjacks",
+    "g": "oil pumpjack energy industry drilling machinery field"
+  },
+  {
+    "file": "rockets.js",
+    "c": "space",
+    "t": "Rocket launch",
+    "g": "rocket launch pad space liftoff tower aerospace"
+  },
+  {
+    "file": "orrery.js",
+    "c": "space",
+    "t": "Brass orrery",
+    "g": "orrery planets solar system astronomy sun model"
+  },
+  {
+    "file": "weatherstation.js",
+    "c": "science",
+    "t": "Weather station",
+    "g": "weather wind vane anemometer rain gauge meteorology"
   }
 ]
