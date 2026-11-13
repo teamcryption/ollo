@@ -62,6 +62,7 @@ try {
     if (m && cur && !(m[1] in batchOf)) batchOf[m[1]] = cur;
   }
 } catch {}
+console.log(`[1/3] Read batch history: ${Object.keys(batchOf).length.toLocaleString('en-US')} icons, latest batch ${Math.max(0, ...Object.values(batchOf))}`);
 
 /** Round every number in path data to 2 decimals (invisible on a 24 px grid) and re-serialise compactly. */
 function roundPath(d) {
@@ -108,7 +109,10 @@ const icons = [];
 const raw = {}; // name -> { style: svg }
 const motionByName = {};
 
+const progress = (step, i, n) => { if (i % 5000 === 0 || i === n) console.log(`${step} ${i.toLocaleString('en-US')} / ${n.toLocaleString('en-US')} icons (${Math.round((i / n) * 100)}%)`); };
+let readCount = 0;
 for (const name of names) {
+  progress('[2/3] Reading SVG files:', ++readCount, names.length);
   const meta = JSON.parse(fs.readFileSync(path.join(iconDir, name, 'meta.json'), 'utf8'));
   const svgs = {};
   let ok = true;
@@ -141,6 +145,7 @@ const motionIndex = new Map();
 const chunkOf = {};
 const miOf = {};
 for (let i = 0; i < byBatch.length; i++) {
+  progress('[3/3] Packing chunks:', i + 1, byBatch.length);
   const ic = byBatch[i];
   const svgs = raw[ic.n];
   const reg = parsePaths(svgs.regular);
