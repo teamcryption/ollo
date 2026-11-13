@@ -902,3 +902,10 @@ cardigan
 beret
 slipper
 monocle
+room-divider
+bar-cart
+wall-sconce
+vanity-table
+desk-fan
+bean-bag
+toilet-paper

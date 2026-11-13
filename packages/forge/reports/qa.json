@@ -1,473 +1,127 @@
 {
-  "generatedAt": "2026-11-13T09:00:42.466Z",
-  "icons": 66486,
-  "files": 332430,
+  "generatedAt": "2026-11-13T09:10:11.028Z",
+  "icons": 66605,
+  "files": 333025,
   "errors": [],
   "warnings": [
-    "poncho-camera: grid: outside the 3-21 live area (3.00, 4.00, 22.00, 20.50)",
-    "overalls-camera: grid: outside the 3-21 live area (5.00, 3.50, 22.00, 20.50)",
-    "cardigan-camera: grid: outside the 3-21 live area (3.00, 4.00, 22.00, 20.50)",
-    "tutu-camera: grid: outside the 3-21 live area (3.00, 3.00, 22.00, 20.50)",
-    "corset-camera: grid: outside the 3-21 live area (6.00, 4.00, 22.00, 20.50)",
-    "suspenders-camera: grid: outside the 3-21 live area (4.00, 3.50, 22.00, 20.50)",
-    "fedora-camera: grid: outside the 3-21 live area (3.00, 5.00, 22.00, 20.50)",
-    "cufflink-camera: grid: outside the 3-21 live area (4.00, 5.00, 22.00, 20.50)",
-    "brooch-camera: grid: outside the 3-21 live area (3.50, 5.50, 22.00, 20.50)",
-    "limousine-camera: grid: outside the 3-21 live area (3.00, 9.00, 22.00, 20.50)",
-    "street-sweeper-camera: grid: outside the 3-21 live area (3.00, 6.00, 22.00, 20.50)",
-    "semi-truck-camera: grid: outside the 3-21 live area (3.00, 6.00, 22.00, 20.50)",
-    "dune-buggy-camera: grid: outside the 3-21 live area (3.00, 6.00, 22.00, 20.50)",
-    "sidecar-camera: grid: outside the 3-21 live area (2.70, 8.00, 22.00, 20.50)",
-    "penny-farthing-camera: grid: outside the 3-21 live area (3.50, 4.50, 22.00, 20.50)",
-    "handcar-camera: grid: outside the 3-21 live area (3.00, 6.00, 22.00, 20.50)",
-    "trolleybus-camera: grid: outside the 3-21 live area (3.00, 4.00, 22.00, 20.50)",
-    "double-decker-camera: grid: outside the 3-21 live area (3.00, 4.00, 22.00, 20.50)"
+    "slow-cooker-camera: grid: outside the 3-21 live area (3.00, 4.50, 22.00, 20.50)",
+    "space-heater-camera: grid: outside the 3-21 live area (4.00, 3.50, 22.00, 20.50)",
+    "tower-fan-camera: grid: outside the 3-21 live area (5.50, 3.50, 22.00, 20.50)",
+    "sideboard-camera: grid: outside the 3-21 live area (3.00, 7.00, 22.00, 20.50)",
+    "coffee-table-camera: grid: outside the 3-21 live area (3.00, 4.50, 22.00, 20.50)",
+    "vanity-table-camera: grid: outside the 3-21 live area (3.00, 3.00, 22.00, 20.50)",
+    "daybed-camera: grid: outside the 3-21 live area (3.00, 8.00, 22.00, 20.50)",
+    "recliner-camera: grid: outside the 3-21 live area (3.50, 4.30, 22.00, 20.50)",
+    "room-divider-camera: grid: outside the 3-21 live area (3.00, 3.50, 22.00, 20.50)",
+    "towel-rail-camera: grid: outside the 3-21 live area (3.00, 4.00, 22.00, 20.50)",
+    "wall-sconce-camera: grid: outside the 3-21 live area (3.50, 4.00, 22.00, 20.50)",
+    "bar-cart-camera: grid: outside the 3-21 live area (3.00, 3.50, 22.00, 20.50)"
   ],
   "duplicates": [
     {
-      "a": "tutu-pencil",
-      "b": "tutu-leaf",
+      "a": "vanity-table-pencil",
+      "b": "vanity-table-leaf",
       "distance": 1.41
     },
     {
-      "a": "tutu-sparkle",
-      "b": "tutu-upload",
+      "a": "vanity-table-sparkle",
+      "b": "vanity-table-upload",
       "distance": 1.41
     },
     {
-      "a": "clam-search",
-      "b": "brooch-search",
+      "a": "slow-cooker-sparkle",
+      "b": "slow-cooker-upload",
       "distance": 1.41
     },
     {
-      "a": "clam-clock",
-      "b": "brooch-clock",
+      "a": "space-heater-pencil",
+      "b": "space-heater-leaf",
       "distance": 1.41
     },
     {
-      "a": "clam-shield",
-      "b": "brooch-shield",
+      "a": "tower-fan-sparkle",
+      "b": "tower-fan-upload",
       "distance": 1.41
     },
     {
-      "a": "clam-gear",
-      "b": "brooch-gear",
+      "a": "sideboard-pencil",
+      "b": "sideboard-leaf",
       "distance": 1.41
     },
     {
-      "a": "clam-user",
-      "b": "brooch-user",
+      "a": "sideboard-sparkle",
+      "b": "sideboard-upload",
       "distance": 1.41
     },
     {
-      "a": "clam-cloud",
-      "b": "brooch-cloud",
+      "a": "coffee-table-pencil",
+      "b": "coffee-table-leaf",
       "distance": 1.41
     },
     {
-      "a": "clam-pencil",
-      "b": "brooch-pencil",
+      "a": "coffee-table-sparkle",
+      "b": "coffee-table-upload",
       "distance": 1.41
     },
     {
-      "a": "clam-trash",
-      "b": "brooch-trash",
+      "a": "daybed-pencil",
+      "b": "daybed-leaf",
       "distance": 1.41
     },
     {
-      "a": "clam-calendar",
-      "b": "brooch-calendar",
+      "a": "daybed-sparkle",
+      "b": "daybed-upload",
       "distance": 1.41
     },
     {
-      "a": "clam-bookmark",
-      "b": "brooch-bookmark",
+      "a": "recliner-pencil",
+      "b": "recliner-leaf",
       "distance": 1.41
     },
     {
-      "a": "clam-trophy",
-      "b": "brooch-trophy",
+      "a": "room-divider-sparkle",
+      "b": "room-divider-upload",
       "distance": 1.41
     },
     {
-      "a": "clam-camera",
-      "b": "brooch-camera",
+      "a": "towel-rail-pencil",
+      "b": "towel-rail-leaf",
       "distance": 1.41
     },
     {
-      "a": "clam-stats",
-      "b": "brooch-stats",
+      "a": "towel-rail-sparkle",
+      "b": "towel-rail-upload",
       "distance": 1.41
     },
     {
-      "a": "raincoat-search",
-      "b": "cardigan-search",
+      "a": "recliner-sparkle",
+      "b": "recliner-upload",
       "distance": 1.41
     },
     {
-      "a": "raincoat-clock",
-      "b": "cardigan-clock",
-      "distance": 1.41
-    },
-    {
-      "a": "raincoat-shield",
-      "b": "cardigan-shield",
-      "distance": 1.41
-    },
-    {
-      "a": "raincoat-gear",
-      "b": "cardigan-gear",
-      "distance": 1.41
-    },
-    {
-      "a": "raincoat-bolt",
-      "b": "cardigan-bolt",
-      "distance": 1.41
-    },
-    {
-      "a": "raincoat-heart",
-      "b": "cardigan-heart",
-      "distance": 1.41
-    },
-    {
-      "a": "raincoat-star",
-      "b": "cardigan-star",
-      "distance": 1.41
-    },
-    {
-      "a": "raincoat-alert",
-      "b": "cardigan-alert",
-      "distance": 1.41
-    },
-    {
-      "a": "raincoat-user",
-      "b": "cardigan-user",
-      "distance": 1.41
-    },
-    {
-      "a": "raincoat-cloud",
-      "b": "cardigan-cloud",
-      "distance": 1.41
-    },
-    {
-      "a": "raincoat-chat",
-      "b": "cardigan-chat",
-      "distance": 1.41
-    },
-    {
-      "a": "raincoat-download",
-      "b": "cardigan-download",
-      "distance": 1.41
-    },
-    {
-      "a": "raincoat-pencil",
-      "b": "cardigan-pencil",
-      "distance": 1.41
-    },
-    {
-      "a": "raincoat-upload",
-      "b": "cardigan-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "raincoat-upload",
-      "b": "cardigan-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "raincoat-bookmark",
-      "b": "cardigan-bookmark",
-      "distance": 1.41
-    },
-    {
-      "a": "raincoat-question",
-      "b": "cardigan-question",
-      "distance": 1.41
-    },
-    {
-      "a": "raincoat-calendar",
-      "b": "cardigan-calendar",
-      "distance": 1.41
-    },
-    {
-      "a": "raincoat-sparkle",
-      "b": "cardigan-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "raincoat-crown",
-      "b": "cardigan-crown",
-      "distance": 1.41
-    },
-    {
-      "a": "raincoat-hourglass",
-      "b": "cardigan-hourglass",
-      "distance": 1.41
-    },
-    {
-      "a": "raincoat-trophy",
-      "b": "cardigan-trophy",
-      "distance": 1.41
-    },
-    {
-      "a": "raincoat-leaf",
-      "b": "cardigan-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "raincoat-cursor",
-      "b": "cardigan-cursor",
-      "distance": 1.41
-    },
-    {
-      "a": "raincoat-camera",
-      "b": "cardigan-camera",
-      "distance": 1.41
-    },
-    {
-      "a": "raincoat-filter",
-      "b": "cardigan-filter",
-      "distance": 1.41
-    },
-    {
-      "a": "raincoat-stats",
-      "b": "cardigan-stats",
-      "distance": 1.41
-    },
-    {
-      "a": "raincoat-checkbox",
-      "b": "cardigan-checkbox",
-      "distance": 1.41
-    },
-    {
-      "a": "raincoat-trash",
-      "b": "cardigan-trash",
-      "distance": 1.41
-    },
-    {
-      "a": "poncho-pencil",
-      "b": "poncho-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "suspenders-pencil",
-      "b": "suspenders-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "fedora-sparkle",
-      "b": "fedora-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "brooch-shield",
-      "b": "stadium-shield",
-      "distance": 1.41
-    },
-    {
-      "a": "limousine-gear",
-      "b": "limousine-stats",
-      "distance": 1.41
-    },
-    {
-      "a": "limousine-pencil",
-      "b": "limousine-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "street-sweeper-gear",
-      "b": "street-sweeper-stats",
-      "distance": 1.41
-    },
-    {
-      "a": "street-sweeper-pencil",
-      "b": "street-sweeper-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "semi-truck-gear",
-      "b": "semi-truck-stats",
-      "distance": 1.41
-    },
-    {
-      "a": "semi-truck-sparkle",
-      "b": "semi-truck-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "dune-buggy-pencil",
-      "b": "dune-buggy-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "sidecar-pencil",
-      "b": "sidecar-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "penny-farthing-pencil",
-      "b": "penny-farthing-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "handcar-sparkle",
-      "b": "handcar-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "trolleybus-sparkle",
-      "b": "trolleybus-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "clam-moon",
-      "b": "brooch-moon",
-      "distance": 1.41
-    },
-    {
-      "a": "raincoat-moon",
-      "b": "cardigan-moon",
-      "distance": 1.41
-    },
-    {
-      "a": "clam-pin",
-      "b": "brooch-pin",
-      "distance": 1.41
-    },
-    {
-      "a": "clam-bell",
-      "b": "brooch-bell",
-      "distance": 1.41
-    },
-    {
-      "a": "clam-flag",
-      "b": "brooch-flag",
-      "distance": 1.41
-    },
-    {
-      "a": "raincoat-pin",
-      "b": "cardigan-pin",
-      "distance": 1.41
-    },
-    {
-      "a": "raincoat-bell",
-      "b": "cardigan-bell",
-      "distance": 1.41
-    },
-    {
-      "a": "raincoat-fire",
-      "b": "cardigan-fire",
-      "distance": 1.41
-    },
-    {
-      "a": "raincoat-flag",
-      "b": "cardigan-flag",
-      "distance": 1.41
-    },
-    {
-      "a": "poncho-sparkle",
-      "b": "poncho-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "suspenders-sparkle",
-      "b": "suspenders-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "cufflink-sparkle",
-      "b": "cufflink-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "brooch-sparkle",
-      "b": "brooch-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "street-sweeper-sparkle",
-      "b": "street-sweeper-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "penny-farthing-sparkle",
-      "b": "penny-farthing-upload",
+      "a": "wall-sconce-sparkle",
+      "b": "wall-sconce-upload",
       "distance": 1.41
     }
   ],
   "dropped": [
-    "tutu-leaf",
-    "tutu-upload",
-    "brooch-search",
-    "brooch-clock",
-    "brooch-shield",
-    "brooch-gear",
-    "brooch-user",
-    "brooch-cloud",
-    "brooch-pencil",
-    "brooch-trash",
-    "brooch-calendar",
-    "brooch-bookmark",
-    "brooch-trophy",
-    "brooch-camera",
-    "brooch-stats",
-    "cardigan-search",
-    "cardigan-clock",
-    "cardigan-shield",
-    "cardigan-gear",
-    "cardigan-bolt",
-    "cardigan-heart",
-    "cardigan-star",
-    "cardigan-alert",
-    "cardigan-user",
-    "cardigan-cloud",
-    "cardigan-chat",
-    "cardigan-download",
-    "cardigan-pencil",
-    "cardigan-sparkle",
-    "cardigan-upload",
-    "cardigan-bookmark",
-    "cardigan-question",
-    "cardigan-calendar",
-    "cardigan-crown",
-    "cardigan-hourglass",
-    "cardigan-trophy",
-    "cardigan-leaf",
-    "cardigan-cursor",
-    "cardigan-camera",
-    "cardigan-filter",
-    "cardigan-stats",
-    "cardigan-checkbox",
-    "cardigan-trash",
-    "poncho-leaf",
-    "suspenders-leaf",
-    "fedora-upload",
-    "limousine-stats",
-    "limousine-leaf",
-    "street-sweeper-stats",
-    "street-sweeper-leaf",
-    "semi-truck-stats",
-    "semi-truck-upload",
-    "dune-buggy-leaf",
-    "sidecar-leaf",
-    "penny-farthing-leaf",
-    "handcar-upload",
-    "trolleybus-upload",
-    "brooch-moon",
-    "cardigan-moon",
-    "brooch-pin",
-    "brooch-bell",
-    "brooch-flag",
-    "cardigan-pin",
-    "cardigan-bell",
-    "cardigan-fire",
-    "cardigan-flag",
-    "poncho-upload",
-    "suspenders-upload",
-    "cufflink-upload",
-    "brooch-upload",
-    "street-sweeper-upload",
-    "penny-farthing-upload"
+    "vanity-table-leaf",
+    "vanity-table-upload",
+    "slow-cooker-upload",
+    "space-heater-leaf",
+    "tower-fan-upload",
+    "sideboard-leaf",
+    "sideboard-upload",
+    "coffee-table-leaf",
+    "coffee-table-upload",
+    "daybed-leaf",
+    "daybed-upload",
+    "recliner-leaf",
+    "room-divider-upload",
+    "towel-rail-leaf",
+    "towel-rail-upload",
+    "recliner-upload",
+    "wall-sconce-upload"
   ],
   "byCategory": {
     "accessibility": 74,
@@ -487,13 +141,13 @@
     "education": 1425,
     "emoji": 73,
     "energy": 1062,
-    "fashion": 2595,
+    "fashion": 2453,
     "files": 600,
     "finance": 1674,
     "food": 6416,
     "gaming": 2396,
     "health": 2257,
-    "home": 4836,
+    "home": 5215,
     "interface": 1461,
     "logistics": 1064,
     "maps": 667,
@@ -509,7 +163,7 @@
     "text": 385,
     "time": 605,
     "tools": 2404,
-    "transport": 3371,
+    "transport": 3308,
     "travel": 2071,
     "weather": 1499
   }
