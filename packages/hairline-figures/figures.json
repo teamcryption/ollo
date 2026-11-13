@@ -1,0 +1,92 @@
+[
+  {
+    "file": "pillbox.js",
+    "c": "health",
+    "t": "Pill organizer",
+    "g": "pills medicine week dose pharmacy reminder"
+  },
+  {
+    "file": "solarfarm.js",
+    "c": "energy",
+    "t": "Solar farm",
+    "g": "solar panels tracker renewable power sun"
+  },
+  {
+    "file": "layercake.js",
+    "c": "food",
+    "t": "Layer cake",
+    "g": "cake slice bakery dessert party sweet"
+  },
+  {
+    "file": "coinstacks.js",
+    "c": "finance",
+    "t": "Coin stacks",
+    "g": "coins savings money growth wealth bank"
+  },
+  {
+    "file": "bookshelf.js",
+    "c": "education",
+    "t": "Bookshelf",
+    "g": "books library reading shelf school study"
+  },
+  {
+    "file": "lockers.js",
+    "c": "logistics",
+    "t": "Parcel lockers",
+    "g": "parcel locker delivery pickup package shipping"
+  },
+  {
+    "file": "serverrack.js",
+    "c": "technology",
+    "t": "Server rack",
+    "g": "server rack blades data center cloud hosting update deploy"
+  },
+  {
+    "file": "suitcases.js",
+    "c": "travel",
+    "t": "Suitcases",
+    "g": "luggage suitcase travel trip airport baggage"
+  },
+  {
+    "file": "giftboxes.js",
+    "c": "commerce",
+    "t": "Gift boxes",
+    "g": "gift box present wrap ribbon shop order"
+  },
+  {
+    "file": "houses.js",
+    "c": "realestate",
+    "t": "Houses",
+    "g": "house home street property real estate roof neighbourhood"
+  },
+  {
+    "file": "padlocks.js",
+    "c": "security",
+    "t": "Padlocks",
+    "g": "padlock lock unlock security access protection"
+  },
+  {
+    "file": "cropfield.js",
+    "c": "agriculture",
+    "t": "Crop field",
+    "g": "crops seedlings farm field plants growth agriculture"
+  },
+  {
+    "file": "dumbbells.js",
+    "c": "fitness",
+    "t": "Dumbbell rack",
+    "g": "dumbbell weights gym fitness workout training"
+  },
+  {
+    "file": "swatchfan.js",
+    "c": "design",
+    "t": "Swatch fan",
+    "g": "colour swatch palette design paint brand cards"
+  },
+  {
+    "file": "spotlights.js",
+    "c": "media",
+    "t": "Stage spotlights",
+    "g": "spotlight stage lights event show theatre media"
+  }
+]
