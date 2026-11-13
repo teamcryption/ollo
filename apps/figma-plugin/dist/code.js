@@ -2,7 +2,7 @@
 (() => {
   // src/code.ts
   var LIBRARY_PAGE = "ollo icons";
-  figma.showUI(__html__, { width: 1200, height: 800, themeColors: true });
+  figma.showUI(__html__, { width: 834, height: 800, themeColors: true });
   async function libraryPage() {
     let page = figma.root.children.find((p) => p.name === LIBRARY_PAGE);
     if (!page) {

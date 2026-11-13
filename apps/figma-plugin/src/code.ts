@@ -16,8 +16,9 @@ type InsertMsg = {
 type Msg = InsertMsg | { type: 'get-plan' } | { type: 'set-plan'; pro: boolean } | { type: 'notify'; text: string };
 
 const LIBRARY_PAGE = 'ollo icons';
-// The panel is the website's full desktop layout (sidebar, filter bar, grid), which needs >= 1024 px.
-figma.showUI(__html__, { width: 1200, height: 800, themeColors: true });
+// The panel is the website's tablet layout (834 px wide, Figma frame 38:10171): logo, Icons/Illustrations,
+// search, category chips, Filters and a 6-column grid.
+figma.showUI(__html__, { width: 834, height: 800, themeColors: true });
 
 async function libraryPage(): Promise<PageNode> {
   let page = figma.root.children.find((p) => p.name === LIBRARY_PAGE);
