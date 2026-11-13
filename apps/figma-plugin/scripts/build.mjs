@@ -58,7 +58,7 @@ const html = `<!doctype html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>ollo Icons</title>
 <link rel="stylesheet" href="${fonts}">
-<style>
+<style data-ollo>
 ${css}
 </style>
 </head>

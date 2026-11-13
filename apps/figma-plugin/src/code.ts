@@ -13,12 +13,18 @@ type InsertMsg = {
   size: number;
   kind: 'icon' | 'illustration';
 };
-type Msg = InsertMsg | { type: 'get-plan' } | { type: 'set-plan'; pro: boolean } | { type: 'notify'; text: string };
+type Msg =
+  | InsertMsg
+  | { type: 'get-plan' }
+  | { type: 'set-plan'; pro: boolean }
+  | { type: 'notify'; text: string }
+  | { type: 'resize'; width: number; height: number };
 
 const LIBRARY_PAGE = 'ollo icons';
 // The panel is the website's tablet layout (834 px wide, Figma frame 38:10171): logo, Icons/Illustrations,
 // search, category chips, Filters and a 6-column grid.
-figma.showUI(__html__, { width: 834, height: 800, themeColors: true });
+// Opens at the size the user last dragged it to (resize corner in the panel), else 834 x 800.
+const DEFAULT_SIZE = { width: 834, height: 800 };
 
 async function libraryPage(): Promise<PageNode> {
   let page = figma.root.children.find((p) => p.name === LIBRARY_PAGE);
@@ -88,13 +94,27 @@ async function insert(msg: InsertMsg) {
   figma.currentPage.selection = [instance];
 }
 
-figma.ui.onmessage = async (msg: Msg) => {
+async function start() {
+  const saved = (await figma.clientStorage.getAsync('ollo-size')) as { width: number; height: number } | undefined;
+  figma.showUI(__html__, { ...(saved ?? DEFAULT_SIZE), themeColors: true });
+  figma.ui.onmessage = onMessage;
+}
+
+let saveTimer = 0;
+async function onMessage(msg: Msg) {
   try {
-    if (msg.type === 'insert') await insert(msg);
+    if (msg.type === 'resize') {
+      const size = { width: Math.max(360, Math.min(1600, msg.width)), height: Math.max(420, Math.min(1200, msg.height)) };
+      figma.ui.resize(size.width, size.height);
+      clearTimeout(saveTimer);
+      saveTimer = setTimeout(() => figma.clientStorage.setAsync('ollo-size', size), 300) as unknown as number;
+    } else if (msg.type === 'insert') await insert(msg);
     else if (msg.type === 'get-plan') figma.ui.postMessage({ type: 'plan', pro: (await figma.clientStorage.getAsync('ollo-pro')) === true });
     else if (msg.type === 'set-plan') await figma.clientStorage.setAsync('ollo-pro', msg.pro);
     else if (msg.type === 'notify') figma.notify(msg.text);
   } catch (e) {
     figma.notify(`ollo: ${(e as Error).message}`, { error: true });
   }
-};
+}
+
+start();

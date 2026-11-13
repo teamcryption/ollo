@@ -1,8 +1,28 @@
 "use strict";
 (() => {
+  var __defProp = Object.defineProperty;
+  var __defProps = Object.defineProperties;
+  var __getOwnPropDescs = Object.getOwnPropertyDescriptors;
+  var __getOwnPropSymbols = Object.getOwnPropertySymbols;
+  var __hasOwnProp = Object.prototype.hasOwnProperty;
+  var __propIsEnum = Object.prototype.propertyIsEnumerable;
+  var __defNormalProp = (obj, key, value) => key in obj ? __defProp(obj, key, { enumerable: true, configurable: true, writable: true, value }) : obj[key] = value;
+  var __spreadValues = (a, b) => {
+    for (var prop in b || (b = {}))
+      if (__hasOwnProp.call(b, prop))
+        __defNormalProp(a, prop, b[prop]);
+    if (__getOwnPropSymbols)
+      for (var prop of __getOwnPropSymbols(b)) {
+        if (__propIsEnum.call(b, prop))
+          __defNormalProp(a, prop, b[prop]);
+      }
+    return a;
+  };
+  var __spreadProps = (a, b) => __defProps(a, __getOwnPropDescs(b));
+
   // src/code.ts
   var LIBRARY_PAGE = "ollo icons";
-  figma.showUI(__html__, { width: 834, height: 800, themeColors: true });
+  var DEFAULT_SIZE = { width: 834, height: 800 };
   async function libraryPage() {
     let page = figma.root.children.find((p) => p.name === LIBRARY_PAGE);
     if (!page) {
@@ -63,14 +83,26 @@
     figma.currentPage.appendChild(instance);
     figma.currentPage.selection = [instance];
   }
-  figma.ui.onmessage = async (msg) => {
+  async function start() {
+    const saved = await figma.clientStorage.getAsync("ollo-size");
+    figma.showUI(__html__, __spreadProps(__spreadValues({}, saved != null ? saved : DEFAULT_SIZE), { themeColors: true }));
+    figma.ui.onmessage = onMessage;
+  }
+  var saveTimer = 0;
+  async function onMessage(msg) {
     try {
-      if (msg.type === "insert") await insert(msg);
+      if (msg.type === "resize") {
+        const size = { width: Math.max(360, Math.min(1600, msg.width)), height: Math.max(420, Math.min(1200, msg.height)) };
+        figma.ui.resize(size.width, size.height);
+        clearTimeout(saveTimer);
+        saveTimer = setTimeout(() => figma.clientStorage.setAsync("ollo-size", size), 300);
+      } else if (msg.type === "insert") await insert(msg);
       else if (msg.type === "get-plan") figma.ui.postMessage({ type: "plan", pro: await figma.clientStorage.getAsync("ollo-pro") === true });
       else if (msg.type === "set-plan") await figma.clientStorage.setAsync("ollo-pro", msg.pro);
       else if (msg.type === "notify") figma.notify(msg.text);
     } catch (e) {
       figma.notify(`ollo: ${e.message}`, { error: true });
     }
-  };
+  }
+  start();
 })();
