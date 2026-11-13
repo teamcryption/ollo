@@ -1,463 +1,817 @@
 {
-  "generatedAt": "2026-11-13T05:17:21.767Z",
-  "icons": 59931,
-  "files": 299655,
+  "generatedAt": "2026-11-13T05:28:45.004Z",
+  "icons": 61201,
+  "files": 306005,
   "errors": [],
   "warnings": [
-    "hole-punch-camera: grid: outside the 3-21 live area (3.00, 9.00, 22.00, 20.50)",
-    "bobby-pin-camera: grid: outside the 3-21 live area (4.00, 8.00, 22.00, 20.50)",
-    "syrup-camera: grid: outside the 3-21 live area (6.00, 6.00, 22.00, 20.50)",
-    "fortune-cookie-camera: grid: outside the 3-21 live area (3.00, 6.50, 22.00, 20.50)",
-    "orange-camera: grid: outside the 3-21 live area (4.00, 3.73, 22.00, 20.50)",
-    "radish-camera: grid: outside the 3-21 live area (5.00, 3.50, 22.00, 20.50)",
-    "pizza-peel-camera: grid: outside the 3-21 live area (3.00, 5.00, 22.00, 20.50)",
-    "salad-spinner-camera: grid: outside the 3-21 live area (3.00, 5.00, 22.00, 20.50)",
-    "block-tower-camera: grid: outside the 3-21 live area (4.00, 3.50, 22.00, 20.50)",
-    "slinky-camera: grid: outside the 3-21 live area (5.00, 4.00, 22.00, 20.50)",
-    "breastplate-camera: grid: outside the 3-21 live area (3.50, 4.00, 22.00, 20.50)",
-    "catapult-camera: grid: outside the 3-21 live area (3.00, 3.50, 22.00, 20.50)",
-    "tobacco-pipe-camera: grid: outside the 3-21 live area (3.00, 8.00, 22.00, 20.50)",
-    "garden-gnome-camera: grid: outside the 3-21 live area (6.00, 3.50, 22.00, 20.50)",
-    "bugle-camera: grid: outside the 3-21 live area (3.00, 5.00, 22.00, 20.50)",
-    "crossbow-camera: grid: outside the 3-21 live area (3.00, 6.75, 22.00, 20.50)",
-    "cuckoo-clock-camera: grid: outside the 3-21 live area (3.26, 3.69, 22.00, 20.50)",
-    "grandfather-clock-camera: grid: outside the 3-21 live area (6.00, 3.50, 22.00, 20.50)",
-    "crowbar-camera: grid: outside the 3-21 live area (5.00, 4.37, 22.00, 20.50)",
-    "race-car-camera: grid: outside the 3-21 live area (3.00, 8.00, 22.00, 20.50)",
-    "beach-chair-camera: grid: outside the 3-21 live area (4.00, 4.00, 22.00, 20.50)",
-    "water-slide-camera: grid: outside the 3-21 live area (4.00, 5.00, 22.00, 20.50)",
-    "snow-shovel-camera: grid: outside the 3-21 live area (5.00, 3.50, 22.00, 20.50)",
-    "ice-scraper-camera: grid: outside the 3-21 live area (4.00, 4.00, 22.00, 20.50)"
+    "chimney-camera: grid: outside the 3-21 live area (3.00, 2.50, 22.00, 20.50)",
+    "carousel-camera: grid: outside the 3-21 live area (3.00, 3.67, 22.00, 20.50)",
+    "hairbrush-camera: grid: outside the 3-21 live area (3.50, 3.00, 22.00, 20.50)",
+    "rain-boots-camera: grid: outside the 3-21 live area (5.00, 3.50, 22.00, 20.50)",
+    "beer-keg-camera: grid: outside the 3-21 live area (4.00, 2.80, 22.00, 20.50)",
+    "bundt-cake-camera: grid: outside the 3-21 live area (3.00, 7.00, 22.00, 20.50)",
+    "cereal-box-camera: grid: outside the 3-21 live area (5.00, 3.50, 22.00, 20.50)",
+    "egg-carton-camera: grid: outside the 3-21 live area (3.00, 9.00, 22.00, 20.50)",
+    "knife-block-camera: grid: outside the 3-21 live area (4.00, 3.00, 22.00, 20.50)",
+    "napkin-holder-camera: grid: outside the 3-21 live area (4.00, 4.50, 22.00, 20.50)",
+    "popcorn-machine-camera: grid: outside the 3-21 live area (4.00, 5.00, 22.00, 20.50)",
+    "pressure-cooker-camera: grid: outside the 3-21 live area (3.00, 4.00, 22.00, 20.50)",
+    "spice-rack-camera: grid: outside the 3-21 live area (3.00, 6.00, 22.00, 20.50)",
+    "tumbler-search: grid: outside the 3-21 live area (5.00, 2.00, 21.00, 20.00)",
+    "tumbler-clock: grid: outside the 3-21 live area (5.00, 2.00, 21.00, 20.50)",
+    "tumbler-shield: grid: outside the 3-21 live area (5.00, 2.00, 20.80, 20.80)",
+    "tumbler-gear: grid: outside the 3-21 live area (5.00, 2.00, 21.27, 20.77)",
+    "tumbler-pin: grid: outside the 3-21 live area (5.00, 2.00, 21.00, 21.00)",
+    "tumbler-bolt: grid: outside the 3-21 live area (5.00, 2.00, 20.31, 20.78)",
+    "tumbler-heart: grid: outside the 3-21 live area (5.00, 2.00, 20.66, 19.74)",
+    "tumbler-star: grid: outside the 3-21 live area (5.00, 2.00, 21.12, 20.02)",
+    "tumbler-alert: grid: outside the 3-21 live area (5.00, 2.00, 21.03, 20.50)",
+    "tumbler-user: grid: outside the 3-21 live area (5.00, 2.00, 20.90, 20.60)",
+    "tumbler-bell: grid: outside the 3-21 live area (5.00, 2.00, 21.00, 20.90)",
+    "tumbler-cloud: grid: outside the 3-21 live area (5.00, 2.00, 21.00, 20.30)",
+    "tumbler-chat: grid: outside the 3-21 live area (5.00, 2.00, 21.00, 20.70)",
+    "tumbler-download: grid: outside the 3-21 live area (5.00, 2.00, 21.00, 20.50)",
+    "tumbler-pencil: grid: outside the 3-21 live area (5.00, 2.00, 20.89, 20.70)",
+    "tumbler-sparkle: grid: outside the 3-21 live area (5.00, 2.00, 21.41, 20.91)",
+    "tumbler-trash: grid: outside the 3-21 live area (5.00, 2.00, 20.20, 20.50)",
+    "tumbler-flag: grid: outside the 3-21 live area (5.00, 2.00, 20.30, 21.00)",
+    "tumbler-calendar: grid: outside the 3-21 live area (5.00, 2.00, 21.00, 20.50)",
+    "tumbler-question: grid: outside the 3-21 live area (5.00, 2.00, 21.00, 20.50)",
+    "tumbler-bookmark: grid: outside the 3-21 live area (5.00, 2.00, 19.50, 20.50)",
+    "tumbler-upload: grid: outside the 3-21 live area (5.00, 2.00, 20.60, 20.50)",
+    "tumbler-crown: grid: outside the 3-21 live area (5.00, 2.00, 21.00, 20.00)",
+    "tumbler-moon: grid: outside the 3-21 live area (5.00, 2.00, 20.50, 20.92)",
+    "tumbler-leaf: grid: outside the 3-21 live area (5.00, 2.00, 21.02, 20.50)",
+    "tumbler-fire: grid: outside the 3-21 live area (5.00, 2.00, 20.60, 21.20)",
+    "tumbler-trophy: grid: outside the 3-21 live area (5.00, 2.00, 21.00, 20.60)",
+    "tumbler-hourglass: grid: outside the 3-21 live area (5.00, 2.00, 20.28, 20.50)",
+    "tumbler-cursor: grid: outside the 3-21 live area (5.00, 2.00, 20.37, 19.97)",
+    "tumbler-camera: grid: outside the 3-21 live area (5.00, 2.00, 22.00, 20.50)",
+    "tumbler-filter: grid: outside the 3-21 live area (5.00, 2.00, 20.81, 20.35)",
+    "tumbler-stats: grid: outside the 3-21 live area (5.00, 2.00, 20.70, 20.50)",
+    "tumbler-checkbox: grid: outside the 3-21 live area (5.00, 2.00, 21.00, 20.50)",
+    "doll-house-camera: grid: outside the 3-21 live area (3.00, 3.69, 22.00, 20.50)",
+    "pool-table-camera: grid: outside the 3-21 live area (3.00, 6.00, 22.00, 20.50)",
+    "sandbox-camera: grid: outside the 3-21 live area (3.00, 8.50, 22.00, 20.50)",
+    "shower-cap-camera: grid: outside the 3-21 live area (3.00, 4.50, 22.00, 20.50)",
+    "amphora-camera: grid: outside the 3-21 live area (3.00, 3.50, 22.00, 20.50)",
+    "ashtray-camera: grid: outside the 3-21 live area (3.00, 3.70, 22.00, 20.50)",
+    "bean-bag-camera: grid: outside the 3-21 live area (3.66, 6.00, 22.00, 20.50)",
+    "drawer-camera: grid: outside the 3-21 live area (3.50, 5.00, 22.00, 20.50)",
+    "dumpster-camera: grid: outside the 3-21 live area (3.00, 6.00, 22.00, 20.50)",
+    "feather-duster-camera: grid: outside the 3-21 live area (3.50, 3.50, 22.00, 20.50)",
+    "fly-swatter-camera: grid: outside the 3-21 live area (3.00, 3.50, 22.00, 20.50)",
+    "footstool-camera: grid: outside the 3-21 live area (3.00, 8.00, 22.00, 20.50)",
+    "incense-search: grid: outside the 3-21 live area (3.00, 2.00, 21.00, 20.00)",
+    "incense-clock: grid: outside the 3-21 live area (3.00, 2.00, 21.00, 20.50)",
+    "incense-shield: grid: outside the 3-21 live area (3.00, 2.00, 20.80, 20.80)",
+    "incense-gear: grid: outside the 3-21 live area (3.00, 2.00, 21.27, 20.77)",
+    "incense-pin: grid: outside the 3-21 live area (3.00, 2.00, 21.00, 21.00)",
+    "incense-bolt: grid: outside the 3-21 live area (3.00, 2.00, 20.31, 20.78)",
+    "incense-heart: grid: outside the 3-21 live area (3.00, 2.00, 20.66, 19.74)",
+    "incense-star: grid: outside the 3-21 live area (3.00, 2.00, 21.12, 20.02)",
+    "incense-alert: grid: outside the 3-21 live area (3.00, 2.00, 21.03, 20.50)",
+    "incense-user: grid: outside the 3-21 live area (3.00, 2.00, 20.90, 20.60)",
+    "incense-bell: grid: outside the 3-21 live area (3.00, 2.00, 21.00, 20.90)",
+    "incense-cloud: grid: outside the 3-21 live area (3.00, 2.00, 21.00, 20.30)",
+    "incense-chat: grid: outside the 3-21 live area (3.00, 2.00, 21.00, 20.70)",
+    "incense-download: grid: outside the 3-21 live area (3.00, 2.00, 21.00, 20.50)",
+    "incense-pencil: grid: outside the 3-21 live area (3.00, 2.00, 20.89, 20.70)",
+    "incense-sparkle: grid: outside the 3-21 live area (3.00, 2.00, 21.41, 20.91)",
+    "incense-trash: grid: outside the 3-21 live area (3.00, 2.00, 20.20, 20.50)",
+    "incense-flag: grid: outside the 3-21 live area (3.00, 2.00, 20.30, 21.00)",
+    "incense-calendar: grid: outside the 3-21 live area (3.00, 2.00, 21.00, 20.50)",
+    "incense-question: grid: outside the 3-21 live area (3.00, 2.00, 21.00, 20.50)",
+    "incense-bookmark: grid: outside the 3-21 live area (3.00, 2.00, 19.50, 20.50)",
+    "incense-upload: grid: outside the 3-21 live area (3.00, 2.00, 20.60, 20.50)",
+    "incense-crown: grid: outside the 3-21 live area (3.00, 2.00, 21.00, 20.00)",
+    "incense-moon: grid: outside the 3-21 live area (3.00, 2.00, 20.50, 20.92)",
+    "incense-leaf: grid: outside the 3-21 live area (3.00, 2.00, 21.02, 20.50)",
+    "incense-fire: grid: outside the 3-21 live area (3.00, 2.00, 20.60, 21.20)",
+    "incense-trophy: grid: outside the 3-21 live area (3.00, 2.00, 21.00, 20.60)",
+    "incense-hourglass: grid: outside the 3-21 live area (3.00, 2.00, 20.28, 20.50)",
+    "incense-cursor: grid: outside the 3-21 live area (3.00, 2.00, 20.37, 19.97)",
+    "incense-camera: grid: outside the 3-21 live area (3.00, 2.00, 22.00, 20.50)",
+    "incense-filter: grid: outside the 3-21 live area (3.00, 2.00, 20.81, 20.35)",
+    "incense-stats: grid: outside the 3-21 live area (3.00, 2.00, 20.70, 20.50)",
+    "incense-checkbox: grid: outside the 3-21 live area (3.00, 2.00, 21.00, 20.50)",
+    "magazine-rack-camera: grid: outside the 3-21 live area (3.00, 3.50, 22.00, 20.50)",
+    "night-light-camera: grid: outside the 3-21 live area (5.00, 5.00, 22.00, 20.50)",
+    "plant-mister-camera: grid: outside the 3-21 live area (6.00, 4.50, 22.00, 20.50)",
+    "shoe-rack-camera: grid: outside the 3-21 live area (3.00, 7.00, 22.00, 20.50)",
+    "side-table-camera: grid: outside the 3-21 live area (3.50, 5.00, 22.00, 20.50)",
+    "towel-rack-camera: grid: outside the 3-21 live area (3.00, 5.00, 22.00, 20.50)",
+    "tv-stand-camera: grid: outside the 3-21 live area (3.00, 4.00, 22.00, 20.50)",
+    "water-filter-camera: grid: outside the 3-21 live area (6.00, 3.50, 22.00, 20.50)",
+    "wine-cooler-camera: grid: outside the 3-21 live area (4.50, 3.50, 22.00, 20.50)",
+    "wood-stove-camera: grid: outside the 3-21 live area (4.00, 4.00, 22.00, 20.50)",
+    "cinema-seat-camera: grid: outside the 3-21 live area (3.50, 4.00, 22.00, 20.50)",
+    "butterfly-net-camera: grid: outside the 3-21 live area (3.00, 4.50, 22.00, 20.50)",
+    "playpen-camera: grid: outside the 3-21 live area (3.00, 7.00, 22.00, 20.50)",
+    "bike-lock-camera: grid: outside the 3-21 live area (4.00, 3.50, 22.00, 20.50)",
+    "diving-board-camera: grid: outside the 3-21 live area (3.00, 9.00, 22.00, 20.50)",
+    "rope-ladder-camera: grid: outside the 3-21 live area (5.00, 3.50, 22.00, 20.50)",
+    "hedge-trimmer-camera: grid: outside the 3-21 live area (3.00, 9.00, 22.00, 20.50)",
+    "car-jack-camera: grid: outside the 3-21 live area (3.00, 7.00, 22.00, 20.50)",
+    "leaf-blower-camera: grid: outside the 3-21 live area (3.00, 5.50, 22.00, 20.50)",
+    "paint-tray-camera: grid: outside the 3-21 live area (3.00, 9.00, 22.00, 20.50)",
+    "bollard-camera: grid: outside the 3-21 live area (5.00, 3.50, 22.00, 20.50)",
+    "fire-truck-camera: grid: outside the 3-21 live area (3.00, 5.00, 22.00, 20.50)",
+    "cooler-box-camera: grid: outside the 3-21 live area (3.00, 5.50, 22.00, 20.50)",
+    "headlamp-camera: grid: outside the 3-21 live area (3.00, 4.50, 22.00, 20.50)"
   ],
   "duplicates": [
     {
-      "a": "baseball-cap-search",
-      "b": "fortune-cookie-search",
+      "a": "carousel-sparkle",
+      "b": "carousel-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "beer-keg-pencil",
+      "b": "beer-keg-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "bundt-cake-sparkle",
+      "b": "bundt-cake-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "cereal-box-search",
+      "b": "pill-bottle-search",
+      "distance": 1.41
+    },
+    {
+      "a": "cereal-box-clock",
+      "b": "pill-bottle-clock",
+      "distance": 1.41
+    },
+    {
+      "a": "cereal-box-shield",
+      "b": "pill-bottle-shield",
+      "distance": 1.41
+    },
+    {
+      "a": "cereal-box-gear",
+      "b": "pill-bottle-gear",
+      "distance": 1.41
+    },
+    {
+      "a": "cereal-box-heart",
+      "b": "pill-bottle-heart",
+      "distance": 1.41
+    },
+    {
+      "a": "cereal-box-star",
+      "b": "pill-bottle-star",
+      "distance": 1.41
+    },
+    {
+      "a": "cereal-box-alert",
+      "b": "seed-packet-alert",
       "distance": 1
     },
     {
-      "a": "baseball-cap-star",
-      "b": "fortune-cookie-star",
+      "a": "cereal-box-user",
+      "b": "pill-bottle-user",
       "distance": 1.41
     },
     {
-      "a": "baseball-cap-chat",
-      "b": "fortune-cookie-chat",
+      "a": "cereal-box-cloud",
+      "b": "pill-bottle-cloud",
+      "distance": 1.41
+    },
+    {
+      "a": "cereal-box-chat",
+      "b": "pill-bottle-chat",
+      "distance": 1.41
+    },
+    {
+      "a": "cereal-box-download",
+      "b": "pill-bottle-download",
+      "distance": 1.41
+    },
+    {
+      "a": "cereal-box-pencil",
+      "b": "pill-bottle-pencil",
+      "distance": 1.41
+    },
+    {
+      "a": "cereal-box-sparkle",
+      "b": "pill-bottle-sparkle",
+      "distance": 1.41
+    },
+    {
+      "a": "cereal-box-sparkle",
+      "b": "pill-bottle-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "cereal-box-trash",
+      "b": "pill-bottle-trash",
+      "distance": 1.41
+    },
+    {
+      "a": "cereal-box-calendar",
+      "b": "pill-bottle-calendar",
+      "distance": 1.41
+    },
+    {
+      "a": "cereal-box-question",
+      "b": "pill-bottle-question",
+      "distance": 1.41
+    },
+    {
+      "a": "cereal-box-bookmark",
+      "b": "pill-bottle-bookmark",
+      "distance": 1.41
+    },
+    {
+      "a": "cereal-box-upload",
+      "b": "pill-bottle-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "cereal-box-crown",
+      "b": "pill-bottle-crown",
+      "distance": 1.41
+    },
+    {
+      "a": "cereal-box-leaf",
+      "b": "pill-bottle-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "cereal-box-trophy",
+      "b": "pill-bottle-trophy",
+      "distance": 1.41
+    },
+    {
+      "a": "cereal-box-hourglass",
+      "b": "seed-packet-hourglass",
       "distance": 1
     },
     {
-      "a": "baseball-cap-download",
-      "b": "fortune-cookie-download",
-      "distance": 1
+      "a": "cereal-box-cursor",
+      "b": "pill-bottle-cursor",
+      "distance": 1.41
+    },
+    {
+      "a": "cereal-box-camera",
+      "b": "pill-bottle-camera",
+      "distance": 1.41
+    },
+    {
+      "a": "cereal-box-filter",
+      "b": "pill-bottle-filter",
+      "distance": 1.41
+    },
+    {
+      "a": "cereal-box-stats",
+      "b": "pill-bottle-stats",
+      "distance": 1.41
+    },
+    {
+      "a": "cereal-box-checkbox",
+      "b": "pill-bottle-checkbox",
+      "distance": 1.41
+    },
+    {
+      "a": "egg-carton-pencil",
+      "b": "egg-carton-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "knife-block-pencil",
+      "b": "knife-block-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "popcorn-machine-pencil",
+      "b": "popcorn-machine-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "popcorn-machine-sparkle",
+      "b": "popcorn-machine-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "spice-rack-sparkle",
+      "b": "spice-rack-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "tumbler-sparkle",
+      "b": "tumbler-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "pool-table-pencil",
+      "b": "pool-table-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "bean-bag-pencil",
+      "b": "bean-bag-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "drawer-pencil",
+      "b": "drawer-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "drawer-sparkle",
+      "b": "drawer-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "dumpster-pencil",
+      "b": "dumpster-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "fly-swatter-sparkle",
+      "b": "fly-swatter-upload",
+      "distance": 1.41
     },
     {
-      "a": "baseball-cap-calendar",
-      "b": "fortune-cookie-calendar",
+      "a": "footstool-gear",
+      "b": "footstool-stats",
       "distance": 1.41
     },
     {
-      "a": "baseball-cap-question",
-      "b": "fortune-cookie-question",
-      "distance": 1
+      "a": "footstool-pencil",
+      "b": "footstool-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "magazine-rack-pencil",
+      "b": "magazine-rack-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "shoe-rack-pencil",
+      "b": "shoe-rack-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "shoe-rack-sparkle",
+      "b": "shoe-rack-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "side-table-search",
+      "b": "birdbath-search",
+      "distance": 1.41
+    },
+    {
+      "a": "side-table-clock",
+      "b": "birdbath-clock",
+      "distance": 1.41
     },
     {
-      "a": "baseball-cap-crown",
-      "b": "fortune-cookie-crown",
+      "a": "side-table-shield",
+      "b": "birdbath-shield",
       "distance": 1.41
     },
     {
-      "a": "baseball-cap-camera",
-      "b": "fortune-cookie-camera",
+      "a": "side-table-gear",
+      "b": "birdbath-gear",
       "distance": 1.41
     },
     {
-      "a": "baseball-cap-checkbox",
-      "b": "fortune-cookie-checkbox",
-      "distance": 1
+      "a": "side-table-bolt",
+      "b": "birdbath-bolt",
+      "distance": 1.41
     },
     {
-      "a": "fortune-cookie-pencil",
-      "b": "fortune-cookie-leaf",
+      "a": "side-table-heart",
+      "b": "birdbath-heart",
       "distance": 1.41
     },
     {
-      "a": "orange-pencil",
-      "b": "orange-leaf",
+      "a": "side-table-star",
+      "b": "birdbath-star",
       "distance": 1.41
     },
     {
-      "a": "salad-spinner-pencil",
-      "b": "salad-spinner-leaf",
+      "a": "side-table-alert",
+      "b": "birdbath-alert",
       "distance": 1.41
     },
     {
-      "a": "block-tower-pencil",
-      "b": "block-tower-leaf",
+      "a": "side-table-cloud",
+      "b": "birdbath-cloud",
       "distance": 1.41
     },
     {
-      "a": "block-tower-sparkle",
-      "b": "block-tower-upload",
+      "a": "side-table-chat",
+      "b": "birdbath-chat",
       "distance": 1.41
     },
     {
-      "a": "slinky-pencil",
-      "b": "slinky-leaf",
+      "a": "side-table-download",
+      "b": "birdbath-download",
       "distance": 1.41
     },
     {
-      "a": "slinky-sparkle",
-      "b": "slinky-upload",
+      "a": "side-table-pencil",
+      "b": "birdbath-pencil",
       "distance": 1.41
     },
     {
-      "a": "breastplate-pencil",
-      "b": "breastplate-leaf",
+      "a": "side-table-trash",
+      "b": "birdbath-trash",
       "distance": 1.41
     },
     {
-      "a": "breastplate-sparkle",
-      "b": "breastplate-upload",
+      "a": "side-table-calendar",
+      "b": "birdbath-calendar",
       "distance": 1.41
     },
     {
-      "a": "tobacco-pipe-pencil",
-      "b": "tobacco-pipe-leaf",
+      "a": "side-table-question",
+      "b": "birdbath-question",
       "distance": 1.41
     },
     {
-      "a": "garden-gnome-search",
-      "b": "baby-bottle-search",
+      "a": "side-table-bookmark",
+      "b": "birdbath-bookmark",
       "distance": 1.41
     },
     {
-      "a": "garden-gnome-clock",
-      "b": "baby-bottle-clock",
+      "a": "side-table-crown",
+      "b": "birdbath-crown",
       "distance": 1.41
     },
     {
-      "a": "garden-gnome-gear",
-      "b": "baby-bottle-gear",
+      "a": "side-table-leaf",
+      "b": "birdbath-leaf",
       "distance": 1.41
     },
     {
-      "a": "garden-gnome-bolt",
-      "b": "baby-bottle-bolt",
+      "a": "side-table-trophy",
+      "b": "birdbath-trophy",
       "distance": 1.41
     },
     {
-      "a": "garden-gnome-heart",
-      "b": "baby-bottle-heart",
+      "a": "side-table-hourglass",
+      "b": "birdbath-hourglass",
       "distance": 1.41
     },
     {
-      "a": "garden-gnome-star",
-      "b": "baby-bottle-star",
+      "a": "side-table-cursor",
+      "b": "birdbath-cursor",
       "distance": 1.41
     },
     {
-      "a": "garden-gnome-alert",
-      "b": "baby-bottle-alert",
+      "a": "side-table-camera",
+      "b": "birdbath-camera",
       "distance": 1.41
     },
     {
-      "a": "garden-gnome-cloud",
-      "b": "baby-bottle-cloud",
+      "a": "side-table-filter",
+      "b": "birdbath-filter",
       "distance": 1.41
     },
     {
-      "a": "garden-gnome-chat",
-      "b": "baby-bottle-chat",
+      "a": "side-table-stats",
+      "b": "birdbath-stats",
       "distance": 1.41
     },
     {
-      "a": "garden-gnome-download",
-      "b": "baby-bottle-download",
+      "a": "side-table-checkbox",
+      "b": "birdbath-checkbox",
       "distance": 1.41
     },
     {
-      "a": "garden-gnome-pencil",
-      "b": "baby-bottle-pencil",
+      "a": "towel-rack-sparkle",
+      "b": "towel-rack-upload",
       "distance": 1.41
     },
     {
-      "a": "garden-gnome-calendar",
-      "b": "baby-bottle-calendar",
+      "a": "tv-stand-pencil",
+      "b": "tv-stand-leaf",
       "distance": 1.41
     },
     {
-      "a": "garden-gnome-question",
-      "b": "baby-bottle-question",
+      "a": "wine-cooler-pencil",
+      "b": "wine-cooler-leaf",
       "distance": 1.41
     },
     {
-      "a": "garden-gnome-crown",
-      "b": "baby-bottle-crown",
+      "a": "wood-stove-pencil",
+      "b": "wood-stove-leaf",
       "distance": 1.41
     },
     {
-      "a": "garden-gnome-hourglass",
-      "b": "baby-bottle-hourglass",
+      "a": "cinema-seat-pencil",
+      "b": "cinema-seat-leaf",
       "distance": 1.41
     },
     {
-      "a": "garden-gnome-cursor",
-      "b": "baby-bottle-cursor",
+      "a": "cinema-seat-sparkle",
+      "b": "cinema-seat-upload",
       "distance": 1.41
     },
     {
-      "a": "garden-gnome-filter",
-      "b": "baby-bottle-filter",
+      "a": "playpen-sparkle",
+      "b": "playpen-upload",
       "distance": 1.41
     },
     {
-      "a": "garden-gnome-checkbox",
-      "b": "baby-bottle-checkbox",
+      "a": "bike-lock-pencil",
+      "b": "bike-lock-leaf",
       "distance": 1.41
     },
     {
-      "a": "bugle-gear",
-      "b": "bugle-stats",
+      "a": "rope-ladder-sparkle",
+      "b": "rope-ladder-upload",
       "distance": 1.41
     },
     {
-      "a": "bugle-pencil",
-      "b": "bugle-leaf",
+      "a": "paint-tray-pencil",
+      "b": "paint-tray-leaf",
       "distance": 1.41
     },
     {
-      "a": "cuckoo-clock-pencil",
-      "b": "cuckoo-clock-leaf",
+      "a": "paint-tray-sparkle",
+      "b": "paint-tray-upload",
       "distance": 1.41
     },
     {
-      "a": "cuckoo-clock-sparkle",
-      "b": "cuckoo-clock-upload",
+      "a": "fire-truck-pencil",
+      "b": "fire-truck-leaf",
       "distance": 1.41
     },
     {
-      "a": "race-car-gear",
-      "b": "race-car-stats",
+      "a": "fire-truck-sparkle",
+      "b": "fire-truck-upload",
       "distance": 1.41
     },
     {
-      "a": "race-car-pencil",
-      "b": "race-car-leaf",
+      "a": "cooler-box-sparkle",
+      "b": "cooler-box-upload",
       "distance": 1.41
     },
     {
-      "a": "beach-chair-pencil",
-      "b": "beach-chair-leaf",
+      "a": "cereal-box-moon",
+      "b": "pill-bottle-moon",
       "distance": 1.41
     },
     {
-      "a": "water-slide-pencil",
-      "b": "water-slide-leaf",
+      "a": "side-table-bell",
+      "b": "birdbath-bell",
       "distance": 1.41
     },
     {
-      "a": "water-slide-sparkle",
-      "b": "water-slide-upload",
+      "a": "side-table-moon",
+      "b": "birdbath-moon",
       "distance": 1.41
     },
     {
-      "a": "ice-scraper-pencil",
-      "b": "ice-scraper-leaf",
+      "a": "cereal-box-fire",
+      "b": "pill-bottle-fire",
       "distance": 1.41
     },
     {
-      "a": "baseball-cap-moon",
-      "b": "fortune-cookie-moon",
+      "a": "side-table-fire",
+      "b": "birdbath-fire",
       "distance": 1.41
     },
     {
-      "a": "garden-gnome-bell",
-      "b": "baby-bottle-bell",
+      "a": "cereal-box-pin",
+      "b": "pill-bottle-pin",
       "distance": 1.41
     },
     {
-      "a": "garden-gnome-moon",
-      "b": "baby-bottle-moon",
+      "a": "cereal-box-bell",
+      "b": "pill-bottle-bell",
       "distance": 1.41
     },
     {
-      "a": "garden-gnome-trophy",
-      "b": "baby-bottle-trophy",
+      "a": "cereal-box-flag",
+      "b": "pill-bottle-flag",
       "distance": 1.41
     },
     {
-      "a": "hole-punch-sparkle",
-      "b": "hole-punch-upload",
+      "a": "egg-carton-sparkle",
+      "b": "egg-carton-upload",
       "distance": 1.41
     },
     {
-      "a": "baseball-cap-shield",
-      "b": "fortune-cookie-shield",
+      "a": "pressure-cooker-sparkle",
+      "b": "pressure-cooker-upload",
       "distance": 1.41
     },
     {
-      "a": "bobby-pin-sparkle",
-      "b": "bobby-pin-upload",
+      "a": "pool-table-sparkle",
+      "b": "pool-table-upload",
       "distance": 1.41
     },
     {
-      "a": "fortune-cookie-sparkle",
-      "b": "fortune-cookie-upload",
+      "a": "sandbox-sparkle",
+      "b": "sandbox-upload",
       "distance": 1.41
     },
     {
-      "a": "orange-sparkle",
-      "b": "orange-upload",
+      "a": "shower-cap-sparkle",
+      "b": "shower-cap-upload",
       "distance": 1.41
     },
     {
-      "a": "radish-sparkle",
-      "b": "radish-upload",
+      "a": "amphora-sparkle",
+      "b": "amphora-upload",
       "distance": 1.41
     },
     {
-      "a": "pizza-peel-sparkle",
-      "b": "pizza-peel-upload",
+      "a": "ashtray-sparkle",
+      "b": "ashtray-upload",
       "distance": 1.41
     },
     {
-      "a": "salad-spinner-sparkle",
-      "b": "salad-spinner-upload",
+      "a": "bean-bag-sparkle",
+      "b": "bean-bag-upload",
       "distance": 1.41
     },
     {
-      "a": "catapult-sparkle",
-      "b": "catapult-upload",
+      "a": "footstool-sparkle",
+      "b": "footstool-upload",
       "distance": 1.41
     },
     {
-      "a": "tobacco-pipe-sparkle",
-      "b": "tobacco-pipe-upload",
+      "a": "side-table-pin",
+      "b": "birdbath-pin",
       "distance": 1.41
     },
     {
-      "a": "garden-gnome-pin",
-      "b": "baby-bottle-pin",
+      "a": "side-table-user",
+      "b": "birdbath-user",
       "distance": 1.41
     },
     {
-      "a": "garden-gnome-user",
-      "b": "baby-bottle-user",
+      "a": "side-table-sparkle",
+      "b": "birdbath-sparkle",
       "distance": 1.41
     },
     {
-      "a": "garden-gnome-sparkle",
-      "b": "garden-gnome-upload",
+      "a": "side-table-flag",
+      "b": "birdbath-flag",
       "distance": 1.41
     },
     {
-      "a": "garden-gnome-sparkle",
-      "b": "baby-bottle-sparkle",
+      "a": "water-filter-sparkle",
+      "b": "water-filter-upload",
       "distance": 1.41
     },
     {
-      "a": "bugle-sparkle",
-      "b": "bugle-upload",
+      "a": "butterfly-net-sparkle",
+      "b": "butterfly-net-upload",
       "distance": 1.41
     },
     {
-      "a": "crossbow-sparkle",
-      "b": "crossbow-upload",
+      "a": "hedge-trimmer-sparkle",
+      "b": "hedge-trimmer-upload",
       "distance": 1.41
     },
     {
-      "a": "crowbar-sparkle",
-      "b": "crowbar-upload",
+      "a": "leaf-blower-sparkle",
+      "b": "leaf-blower-upload",
       "distance": 1.41
     },
     {
-      "a": "race-car-sparkle",
-      "b": "race-car-upload",
+      "a": "headlamp-sparkle",
+      "b": "headlamp-upload",
       "distance": 1.41
     },
     {
-      "a": "beach-chair-sparkle",
-      "b": "beach-chair-upload",
+      "a": "incense-sparkle",
+      "b": "incense-upload",
       "distance": 1.41
     },
     {
-      "a": "ice-scraper-sparkle",
-      "b": "ice-scraper-upload",
+      "a": "hairbrush-sparkle",
+      "b": "hairbrush-upload",
       "distance": 1.41
     }
   ],
   "dropped": [
-    "fortune-cookie-search",
-    "fortune-cookie-star",
-    "fortune-cookie-chat",
-    "fortune-cookie-download",
-    "fortune-cookie-calendar",
-    "fortune-cookie-question",
-    "fortune-cookie-crown",
-    "fortune-cookie-camera",
-    "fortune-cookie-checkbox",
-    "fortune-cookie-leaf",
-    "orange-leaf",
-    "salad-spinner-leaf",
-    "block-tower-leaf",
-    "block-tower-upload",
-    "slinky-leaf",
-    "slinky-upload",
-    "breastplate-leaf",
-    "breastplate-upload",
-    "tobacco-pipe-leaf",
-    "garden-gnome-search",
-    "garden-gnome-clock",
-    "garden-gnome-gear",
-    "garden-gnome-bolt",
-    "garden-gnome-heart",
-    "garden-gnome-star",
-    "garden-gnome-alert",
-    "garden-gnome-cloud",
-    "garden-gnome-chat",
-    "garden-gnome-download",
-    "garden-gnome-pencil",
-    "garden-gnome-calendar",
-    "garden-gnome-question",
-    "garden-gnome-crown",
-    "garden-gnome-hourglass",
-    "garden-gnome-cursor",
-    "garden-gnome-filter",
-    "garden-gnome-checkbox",
-    "bugle-stats",
-    "bugle-leaf",
-    "cuckoo-clock-leaf",
-    "cuckoo-clock-upload",
-    "race-car-stats",
-    "race-car-leaf",
-    "beach-chair-leaf",
-    "water-slide-leaf",
-    "water-slide-upload",
-    "ice-scraper-leaf",
-    "fortune-cookie-moon",
-    "garden-gnome-bell",
-    "garden-gnome-moon",
-    "garden-gnome-trophy",
-    "hole-punch-upload",
-    "fortune-cookie-shield",
-    "bobby-pin-upload",
-    "fortune-cookie-upload",
-    "orange-upload",
-    "radish-upload",
-    "pizza-peel-upload",
-    "salad-spinner-upload",
-    "catapult-upload",
-    "tobacco-pipe-upload",
-    "garden-gnome-pin",
-    "garden-gnome-user",
-    "garden-gnome-upload",
-    "garden-gnome-sparkle",
-    "bugle-upload",
-    "crossbow-upload",
-    "crowbar-upload",
-    "race-car-upload",
-    "beach-chair-upload",
-    "ice-scraper-upload"
+    "carousel-upload",
+    "beer-keg-leaf",
+    "bundt-cake-upload",
+    "cereal-box-search",
+    "cereal-box-clock",
+    "cereal-box-shield",
+    "cereal-box-gear",
+    "cereal-box-heart",
+    "cereal-box-star",
+    "cereal-box-alert",
+    "cereal-box-user",
+    "cereal-box-cloud",
+    "cereal-box-chat",
+    "cereal-box-download",
+    "cereal-box-pencil",
+    "cereal-box-sparkle",
+    "cereal-box-trash",
+    "cereal-box-calendar",
+    "cereal-box-question",
+    "cereal-box-bookmark",
+    "cereal-box-upload",
+    "cereal-box-crown",
+    "cereal-box-leaf",
+    "cereal-box-trophy",
+    "cereal-box-hourglass",
+    "cereal-box-cursor",
+    "cereal-box-camera",
+    "cereal-box-filter",
+    "cereal-box-stats",
+    "cereal-box-checkbox",
+    "egg-carton-leaf",
+    "knife-block-leaf",
+    "popcorn-machine-leaf",
+    "popcorn-machine-upload",
+    "spice-rack-upload",
+    "tumbler-upload",
+    "pool-table-leaf",
+    "bean-bag-leaf",
+    "drawer-leaf",
+    "drawer-upload",
+    "dumpster-leaf",
+    "fly-swatter-upload",
+    "footstool-stats",
+    "footstool-leaf",
+    "magazine-rack-leaf",
+    "shoe-rack-leaf",
+    "shoe-rack-upload",
+    "side-table-search",
+    "side-table-clock",
+    "side-table-shield",
+    "side-table-gear",
+    "side-table-bolt",
+    "side-table-heart",
+    "side-table-star",
+    "side-table-alert",
+    "side-table-cloud",
+    "side-table-chat",
+    "side-table-download",
+    "side-table-pencil",
+    "side-table-trash",
+    "side-table-calendar",
+    "side-table-question",
+    "side-table-bookmark",
+    "side-table-crown",
+    "side-table-leaf",
+    "side-table-trophy",
+    "side-table-hourglass",
+    "side-table-cursor",
+    "side-table-camera",
+    "side-table-filter",
+    "side-table-stats",
+    "side-table-checkbox",
+    "towel-rack-upload",
+    "tv-stand-leaf",
+    "wine-cooler-leaf",
+    "wood-stove-leaf",
+    "cinema-seat-leaf",
+    "cinema-seat-upload",
+    "playpen-upload",
+    "bike-lock-leaf",
+    "rope-ladder-upload",
+    "paint-tray-leaf",
+    "paint-tray-upload",
+    "fire-truck-leaf",
+    "fire-truck-upload",
+    "cooler-box-upload",
+    "cereal-box-moon",
+    "side-table-bell",
+    "side-table-moon",
+    "cereal-box-fire",
+    "side-table-fire",
+    "cereal-box-pin",
+    "cereal-box-bell",
+    "cereal-box-flag",
+    "egg-carton-upload",
+    "pressure-cooker-upload",
+    "pool-table-upload",
+    "sandbox-upload",
+    "shower-cap-upload",
+    "amphora-upload",
+    "ashtray-upload",
+    "bean-bag-upload",
+    "footstool-upload",
+    "side-table-pin",
+    "side-table-user",
+    "side-table-sparkle",
+    "side-table-flag",
+    "water-filter-upload",
+    "butterfly-net-upload",
+    "hedge-trimmer-upload",
+    "leaf-blower-upload",
+    "headlamp-upload",
+    "incense-upload",
+    "hairbrush-upload"
   ],
   "byCategory": {
     "accessibility": 53,
@@ -465,9 +819,9 @@
     "ai": 572,
     "animals": 2001,
     "arrows": 186,
-    "buildings": 1728,
-    "business": 1882,
-    "celebration": 1707,
+    "buildings": 1761,
+    "business": 1850,
+    "celebration": 1738,
     "commerce": 1158,
     "communication": 1517,
     "data": 1535,
@@ -477,30 +831,30 @@
     "education": 1361,
     "emoji": 72,
     "energy": 941,
-    "fashion": 2225,
+    "fashion": 2258,
     "files": 570,
     "finance": 1663,
-    "food": 5803,
-    "gaming": 2191,
-    "health": 2055,
-    "home": 4115,
+    "food": 6008,
+    "gaming": 2256,
+    "health": 2087,
+    "home": 4651,
     "interface": 1336,
     "logistics": 1001,
     "maps": 622,
-    "media": 2227,
-    "nature": 2279,
+    "media": 2228,
+    "nature": 2311,
     "navigation": 62,
     "notifications": 184,
-    "people": 1093,
+    "people": 1125,
     "science": 1349,
-    "security": 817,
+    "security": 849,
     "social": 495,
-    "sports": 2567,
+    "sports": 2632,
     "text": 380,
     "time": 588,
-    "tools": 2041,
-    "transport": 2410,
-    "travel": 1961,
-    "weather": 1455
+    "tools": 2137,
+    "transport": 2474,
+    "travel": 1994,
+    "weather": 1424
   }
 }
