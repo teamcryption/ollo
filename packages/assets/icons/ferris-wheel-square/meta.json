@@ -1,0 +1,66 @@
+{
+  "name": "ferris-wheel-square",
+  "title": "Ferris Wheel Square",
+  "category": "travel",
+  "tags": [
+    "fair",
+    "amusement park",
+    "carnival",
+    "funfair",
+    "ride",
+    "square"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "forge",
+  "family": "ferris-wheel",
+  "variant": {
+    "kind": "container",
+    "of": "ferris-wheel",
+    "value": "square"
+  },
+  "animation": {
+    "duration": 3000,
+    "loop": true,
+    "source": "generated",
+    "preset": "spin",
+    "tracks": [
+      {
+        "target": "root",
+        "property": "rotate",
+        "origin": [
+          50,
+          50
+        ],
+        "times": [
+          0,
+          0.1,
+          0.6,
+          1
+        ],
+        "values": [
+          0,
+          0,
+          360,
+          360
+        ],
+        "ease": [
+          "linear",
+          [
+            0.65,
+            0,
+            0.35,
+            1
+          ],
+          "linear"
+        ]
+      }
+    ]
+  }
+}

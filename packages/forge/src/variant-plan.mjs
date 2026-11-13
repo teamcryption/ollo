@@ -445,217 +445,217 @@ export default {
   'acorn': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'add-circle': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'ai-agent': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'ai-airplane': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'ai-bag': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-airplane': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square'] }, // vbc
+  'ai-bag': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square'] }, // vbc
   'ai-book': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'ai-briefcase': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-briefcase': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square'] }, // vbc
   'ai-browser': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'ai-bug': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-bug': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square'] }, // vbc
   'ai-building': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'ai-calculator': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'ai-car': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'ai-cart': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'ai-chart': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-car': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square'] }, // vbc
+  'ai-cart': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['square'] }, // vbc
+  'ai-chart': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square'] }, // vbc
   'ai-clipboard': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'ai-code': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'ai-contract': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'ai-cube': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-cube': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square'] }, // vbc
   'ai-dashboard': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'ai-database': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'ai-document': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'ai-fine-tune': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'ai-flask': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-flask': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square'] }, // vbc
   'ai-folder': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'ai-form': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'ai-gift': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-gift': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square'] }, // vbc
   'ai-graduation': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'ai-graph': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'ai-home': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-graph': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square'] }, // vbc
+  'ai-home': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square'] }, // vbc
   'ai-id': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'ai-idea': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-idea': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'ai-image': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'ai-inbox': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'ai-laptop': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-laptop': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['square'] }, // vbc
   'ai-mail': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'ai-map': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'ai-model': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-model': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square'] }, // vbc
   'ai-news': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'ai-notes': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'ai-package': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'ai-palette': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'ai-pen': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-palette': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square'] }, // vbc
+  'ai-pen': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square'] }, // vbc
   'ai-phone': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'ai-plant': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-plant': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'ai-presentation': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'ai-receipt': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'ai-scan': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-scan': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square'] }, // vbc
   'ai-server': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'ai-sheet': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'ai-summary': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'ai-support': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'ai-target': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-target': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square'] }, // vbc
   'ai-terminal': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'ai-translate': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-translate': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square'] }, // vbc
   'ai-video': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'ai-vision': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'ai-voice': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'ai-wallet': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ai-voice': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square'] }, // vbc
+  'ai-wallet': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square'] }, // vbc
   'ai-write': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'air-conditioner': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'airplane-landing': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'airplane-takeoff': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'airplane-landing': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['square'] }, // vbc
+  'airplane-takeoff': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['square'] }, // vbc
   'airship': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'alarm-snooze': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'alarm-snooze': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square'] }, // vbc
   'align-object-left': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'ambulance': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'anchor': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'anchor-point': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'ant': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'anchor': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'anchor-point': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'ant': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'antenna': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'anvil': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'anvil': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'aperture': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'api': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'apple': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'apple': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'apron': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'arcade': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'arch': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'area': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'area': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'armchair': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'aspect-ratio': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'aspect-ratio': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'asteroid': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'astronaut': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'astronaut': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle'] }, // vbc
   'at-sign': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'atlas': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'atom': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'atv': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'atv': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'automation': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'avatar-group': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'avocado': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'awareness-ribbon': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'axe': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'awareness-ribbon': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square'] }, // vbc
+  'axe': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'baby': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'baby-bottle': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'baby-monitor': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'bacon': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'baby-monitor': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'bacon': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'hexagon'] }, // vbc
   'bacteria': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'bagel': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'baggage-claim': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'baguette': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'balloon': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'bamboo': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'banana': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'bamboo': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'banana': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'bandage': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'banknotes': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'bao': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'bar-stool': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'bar-stool': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'barbell': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'barber-pole': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'barber-pole': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'barcode-scanner': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'barn': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'baseball': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'baseball-bat': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'basketball': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'basketball-hoop': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'bass-clef': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'bat': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'basketball-hoop': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'bass-clef': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'bat': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'bathroom-scale': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'bathtub': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'battery': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'battery': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'battery-aa': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'bauble': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'bbq-grill': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'beach-ball': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'beach-umbrella': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'beaker': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'beanie': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'bedtime': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'bee': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'beach-ball': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square'] }, // vbc
+  'beach-umbrella': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['square'] }, // vbc
+  'beaker': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'beanie': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['hexagon'] }, // vbc
+  'bedtime': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square'] }, // vbc
+  'bee': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'beehive': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'beer-mug': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'bell-pepper': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'bell-pepper': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'belt': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'bench': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'bench': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'bento': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'beta': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'bezier-curve': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'bib': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'bezier-curve': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'bib': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'bicycle': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'bike-helmet': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'bike-rack': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'billboard': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'bike-helmet': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square'] }, // vbc
+  'bike-rack': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'billboard': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'binary': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'binary-tree': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'binder-clip': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'binary-tree': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'binder-clip': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'binoculars': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'biofuel': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'bird': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'bird-bath': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'bird-feeder': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'birdcage': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'birdcage': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'birdhouse': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'blend': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'blood-bag': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'blood-drop': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'blueprint': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'blueprint': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'bolt': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'bomb': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'bone': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'bongo': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'bonsai': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'bongo': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'bonsai': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'book-open': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'bookend': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'bookend': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'bookshelf': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'boomerang': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'boot': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'boomerang': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'boot': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'bottle': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'bottle-cap': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'bottle-opener': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'bow-arrow': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'bow-arrow': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'bow-tie': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'bowl': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'bowling': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'box-plot': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'boxing-glove': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'boxing-ring': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'braces': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'box-plot': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'hexagon'] }, // vbc
+  'boxing-glove': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'boxing-ring': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['hexagon'] }, // vbc
+  'braces': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'brackets': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'brain': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'branch': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'bread': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'branch': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'bread': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'breadboard': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'breadcrumb': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'breakpoint': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'brick-wall': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'bricks': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'bricks': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'bridge': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'bring-to-front': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'broccoli': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'broom': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'brush': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'bring-to-front': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'broccoli': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'broom': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'brush': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'bubble-tea': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'bubble-wrap': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'bucket': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'bucket-hat': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'bucket-spade': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'bucket-hat': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'bucket-spade': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'building': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'bull': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'bulldozer': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'bunk-bed': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'bull': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'bulldozer': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'bunk-bed': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square'] }, // vbc
   'bunsen-burner': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'bunting': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'bunting': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'buoy': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'burger': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'bus': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'bus-shelter': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'bus-stop': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'butter': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'butterfly': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'bus-shelter': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square'] }, // vbc
+  'bus-stop': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'butter': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'butterfly': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'button': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'c-clamp': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'c-clamp': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'cable': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'cable-car': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'cactus': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'cairn': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'cactus': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'cairn': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'cake': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'cake-slice': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'calculator': { badges: ['add', 'check', 'close', 'remove'] }, // vb
@@ -666,114 +666,114 @@ export default {
   'candelabra': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'candle': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'candle-holder': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'candy': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'candy-cane': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'cannon': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'candy': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square'] }, // vbc
+  'candy-cane': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'cannon': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'cap': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'capacitor': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'captain-hat': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'car': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'car': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'car-door': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'car-seat': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'car-seat': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'car-wash': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'carabiner': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'caravan': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'carousel': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'carabiner': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'caravan': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'carousel': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'carrot': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'cashback': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'cashback': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'cassette': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'castle': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'cat': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'caterpillar': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'cat': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'caterpillar': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'cauldron': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'caution-tape': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'cave': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'ceiling-fan': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'caution-tape': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['hexagon'] }, // vbc
+  'cave': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'ceiling-fan': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'cell': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'cement-bag': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'cement-mixer': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'cement-bag': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'cement-mixer': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'center-object': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'chair': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'chair': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'chalkboard': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'champagne': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'chandelier': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'champagne': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'chandelier': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'chapel': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'chart-area': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'chart-area-stacked': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'chart-area': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'chart-area-stacked': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'chart-bar-horizontal': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'chart-bubble': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'chart-candles': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'chart-bubble': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'chart-candles': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'chart-coin': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'chart-decline': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'chart-dumbbell': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'chart-dumbbell': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'chart-forecast': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'chart-gantt': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'chart-grouped': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'chart-grouped': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'chart-growth': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'chart-histogram': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'chart-histogram': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'chart-line-multi': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'chart-lollipop': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'chart-lollipop': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'chart-mixed': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'chart-points': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'chart-polar': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'chart-points': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'chart-polar': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'chart-pyramid': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'chart-radar': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'chart-range': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'chart-sankey': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'chart-scatter': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'chart-slope': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'chart-spline': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'chart-stacked': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'chart-step': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'chart-radar': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['hexagon'] }, // vbc
+  'chart-range': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'chart-sankey': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'chart-scatter': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'chart-slope': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square'] }, // vbc
+  'chart-spline': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'chart-stacked': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'chart-step': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'chart-sunburst': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'chart-treemap': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'chart-waterfall': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'chart-treemap': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'chart-waterfall': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'check-circle': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'checkbox': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'cheers': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'cheers': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'cheese': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'chef-hat': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'cherries': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'cherry': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'cherries': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'cherry': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'chess-bishop': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'chess-king': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'chess-knight': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'chess-king': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'chess-knight': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'chess-pawn': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'chess-queen': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'chess-rook': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'chili': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'chess-queen': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'chess-rook': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'chili': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'chip': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'chisel': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'chocolate-bar': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'chopsticks': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'christmas-tree': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'church': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'chocolate-bar': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['hexagon'] }, // vbc
+  'chopsticks': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square'] }, // vbc
+  'christmas-tree': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'church': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'cigarette': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'circle-dashed': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'circuit-board': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'circus-tent': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'circus-tent': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'citrus': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'city': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'claw-machine': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'clipboard-list': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'cloche': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'clock-fast': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'clock-tower': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'clipboard-list': { badges: ['add', 'check', 'close', 'remove'], containers: ['hexagon'] }, // vbc
+  'cloche': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square'] }, // vbc
+  'clock-fast': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'clock-tower': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'close-circle': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'clothes-rack': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'clothesline': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'clothes-rack': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'clothesline': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'clothespin': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'cloud-sync': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'cloud-sync': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'clover': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'coal': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'coat-hook': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'coat-rack': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'cocktail': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'cocoon': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'coal': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'coat-hook': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'coat-rack': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'cocktail': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'cocoon': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'code': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'code-window': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'coffee': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'coffee-bean': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'coffee-bean': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'coffee-grinder': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'coffee-machine': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'coffee-to-go': { badges: ['add', 'check', 'close', 'remove'] }, // vb
@@ -782,42 +782,42 @@ export default {
   'color-input': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'color-picker': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'columns': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'comb': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'comb': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'hexagon'] }, // vbc
   'command': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'command-palette': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'command-palette': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'compass-rose': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'compost': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'compost': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'compost-bin': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'confetti': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'constellation': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'contact-lens': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'container-ship': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'context-menu': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'convertible': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'container-ship': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'context-menu': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'convertible': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'conveyor': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'conveyor-belt': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'cookie': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'conveyor-belt': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'cookie': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'cookie-jar': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'cooking-pot': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'cooking-pot': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'cooling-tower': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'coral': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'corkscrew': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'coral': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'corkscrew': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['square', 'hexagon'] }, // vbc
   'corn': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'corner-radius': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'corner-radius': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'corrosive': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'cottage': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'cow': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'cowboy-hat': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'crab': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'cradle': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'cottage': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'hexagon'] }, // vbc
+  'cow': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'cowboy-hat': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'crab': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'cradle': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'crane': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'crane-hook': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'crane-hook': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'crayon': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'crib': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'crib': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square'] }, // vbc
   'crib-mobile': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'cricket-bat': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'croissant': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'crop': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'cricket-bat': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'croissant': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'crop': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'crossroads': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'crown': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'crutch': { badges: ['add', 'check', 'close', 'remove'] }, // vb
@@ -825,102 +825,102 @@ export default {
   'crystal-ball': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'cupcake': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'curling-stone': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'cursor-click': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'cursor-click': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'cursor-col-resize': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'cursor-zoom': { badges: ['check', 'remove', 'alert'] }, // vb
-  'curtains': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'cutting-board': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'cursor-zoom': { badges: ['check', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'curtains': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'cutting-board': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'dagger': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'dam': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'dandelion': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'dart': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'dashboard-gauge': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'dart': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'dashboard-gauge': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'dead-end': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'deep-fryer': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'deep-fryer': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'deep-water': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'defibrillator': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'desert': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'desert': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'desk-globe': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'desk-phone': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'desk-phone': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'diamond': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'dice': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'dice': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square'] }, // vbc
   'dice-d20': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'diff': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'dining-table': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'diff': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'dining-table': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['hexagon'] }, // vbc
   'diode': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'directions-sign': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'disc': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'disco-ball': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'dish-rack': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'dishwasher': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'distance': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'distribute-horizontal': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'dishwasher': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'distance': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'distribute-horizontal': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'diving-mask': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'diya': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'djembe': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'dock': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'dog': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'dog-bowl': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'dock': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'dog': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'dog-bowl': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'doghouse': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'dollar-circle': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'dollar-sign': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'domino': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'dollar-sign': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle'] }, // vbc
+  'domino': { badges: ['add', 'check', 'close', 'remove'], containers: ['hexagon'] }, // vbc
   'donut': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'door': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'download': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'drafting-compass': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'download': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'drafting-compass': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'drag-drop': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'dragonfly': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'drawing-compass': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'dragonfly': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'drawing-compass': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'dreamcatcher': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'dress': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'dress': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'dresser': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'drill': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'drone': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'dropdown': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'dropdown-menu': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'dropdown-menu': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square'] }, // vbc
   'drum': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'drumstick': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'duck': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'dumbbell': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'drumstick': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['hexagon'] }, // vbc
+  'duck': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'dumbbell': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'dumpling': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'dustpan': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'earbuds': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'earring': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'earthquake': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'dustpan': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'earbuds': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'earring': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'earthquake': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'easel': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'easter-egg': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'egg-cracked': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'egg-fried': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'eggplant': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'egg-fried': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square'] }, // vbc
+  'eggplant': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'eject': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'elderly': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'elderly': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'environment-hazard': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'equalizer': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'equalizer': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'eraser': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'escalator': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'escalator': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square'] }, // vbc
   'ethernet': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'euro-circle': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'excavator': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'excavator': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'exchange': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'exclude': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'explosive': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'external-link': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'external-link': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square'] }, // vbc
   'eye-chart': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'eye-drops': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'face-cream': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'face-mask': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'fast-forward': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'faucet': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'feather': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'fence': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'fern': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'ferris-wheel': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'fast-forward': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'faucet': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'feather': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'fence': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'fern': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'ferris-wheel': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'ferry': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'file-audio': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'file-audio': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'file-chart': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'file-diff': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'file-dollar': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'file-dollar': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'file-font': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'file-input': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'file-json': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
@@ -930,632 +930,632 @@ export default {
   'file-signature': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'file-sync': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'file-terminal': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'file-video': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'file-video': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['hexagon'] }, // vbc
   'filing-cabinet': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'fill-stroke': { badges: ['add', 'close', 'remove', 'alert'] }, // vb
+  'fill-stroke': { badges: ['add', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'film-reel': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'film-roll': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'film-strip': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'film-roll': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'film-strip': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'fire-hydrant': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'firecracker': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'fireplace': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'fireworks': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'fish': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'fish-hook': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'fish-hook': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'fishbowl': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'fishing-boat': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'fishing-boat': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'fishing-float': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'fishing-rod': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'fishing-rod': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'fitness-tracker': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'flammable': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'flat-sign': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'flip-flops': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'flip-horizontal': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'flat-sign': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'flip-flops': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'flip-horizontal': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'flipchart': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'flood': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'flood': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'flood-zone': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'flower': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'folder-chart': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'flower': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'folder-chart': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'folder-code': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'folder-dollar': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'folder-globe': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'folder-link': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'folder-link': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'folder-mail': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'folder-open': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'folder-open': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'folder-sync': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'folder-terminal': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'folder-tree': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'folder-video': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'food-processor': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'folder-terminal': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'folder-tree': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'folder-video': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'food-processor': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'football-helmet': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'forest': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'forest': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'forklift': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'fossil': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'fossil': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'fountain': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'fountain-pen': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'fox': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'fountain-pen': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'fox': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'fragile': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'frame': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'french-press': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'frame': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'french-press': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'fries': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'frisbee': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'frog': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'frying-pan': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'frog': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'frying-pan': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'fuel-gauge': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'funicular': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'funnel-chart': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'funicular': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'funnel-chart': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'fuse': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'galaxy': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'galaxy': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'game-cartridge': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'gamepad': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'garlic': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'gas-cylinder': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'gas-flame': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'gate': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'gas-flame': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'gate': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'gavel': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'gazebo': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'gear-shift': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'gender-female': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'gender-male': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'gender-neutral': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'generator': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'gazebo': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'gear-shift': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'gender-female': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'gender-male': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'gender-neutral': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'generator': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'geofence': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'gift-bow': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'gingerbread': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'git-compare': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'git-fork': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'glass-water': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'glasses': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'glove': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'gift-bow': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'gingerbread': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'git-compare': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square'] }, // vbc
+  'git-fork': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'glass-water': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'glasses': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'glove': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'glucose-meter': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'glue': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'glue-gun': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'glue-stick': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'go-kart': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'glue-stick': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'go-kart': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'goal-net': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'goblet': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'goggles': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'gold-bars': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'gold-bars': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'gold-pan': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'golf': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'golf-cart': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'golf-cart': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'golf-tee': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'gong': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'grade': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'gong': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'grade': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'graduated-cylinder': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'grapes': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'grass': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'grater': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'gravy-boat': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'greek-column': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'grapes': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'grass': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'grater': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'gravy-boat': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'greek-column': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['square', 'hexagon'] }, // vbc
   'green-energy': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'greenhouse': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'greenhouse': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'grid-dots': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'grip-vertical': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'grip-vertical': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'group-objects': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'guitar': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'gumball-machine': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'gym-bag': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'gym-rings': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'hammer': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'hammock': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'gumball-machine': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square'] }, // vbc
+  'gym-bag': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'gym-rings': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'hammer': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'hammock': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'hand-blender': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'hand-grab': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'hand-mixer': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'hand-grab': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'hand-mixer': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'hand-raised': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'hand-wave': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'handbag': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'handbag': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'handheld-console': { badges: ['add', 'close'] }, // vb
-  'hang-glider': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'hanger': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'hang-glider': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'hanger': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'harmonica': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'harp': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'harp': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'hay-bale': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'hdmi-cable': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'hdmi-cable': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'health-hazard': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'heatmap': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'hedgehog': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'helicopter': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'hedgehog': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'helicopter': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'herb': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'high-chair': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'high-heel': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'high-chair': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'high-heel': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'high-voltage': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'hiking-boot': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'hills': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'hinge': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'hinge': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square'] }, // vbc
   'hockey-puck': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'hockey-stick': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'home-smart': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'honey-dipper': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'hockey-stick': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square'] }, // vbc
+  'home-smart': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'hexagon'] }, // vbc
+  'honey-dipper': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'honey-jar': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'honeycomb': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'hoodie': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'horseshoe': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'hoodie': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'horseshoe': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'hospital-ahead': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'hot-air-balloon': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'hot-chocolate': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'hot-sauce': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'hot-spring': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'hot-spring': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'hot-water-bottle': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'hotdog': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'hourglass': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'hurdle': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'hurdle': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'hut': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'hydro-power': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'i-beam': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'hydro-power': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'i-beam': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'ice-axe': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'ice-cream': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'ice-cube': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'ice-pack': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'ice-skate': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'ice-tray': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'iceberg': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'igloo': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ice-cream': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'ice-cube': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'ice-pack': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square'] }, // vbc
+  'ice-skate': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'ice-tray': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'iceberg': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square'] }, // vbc
+  'igloo': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'incognito': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'info': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'inhaler': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'inkwell': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'interest-rate': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'intersect': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'ironing-board': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'inkwell': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'interest-rate': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'intersect': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'ironing-board': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'island': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'iv-drip': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'jack-in-box': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'iv-drip': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'jack-in-box': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'jack-o-lantern': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'jacket': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'jackhammer': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'jackhammer': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'jam-jar': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'jellyfish': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'jerrycan': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'jet-ski': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'jerrycan': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'jet-ski': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square'] }, // vbc
   'joystick': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'juice-box': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'juicer': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'jump-rope': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'kayak': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'jump-rope': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'kayak': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'kayak-paddle': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'kebab': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'keep-dry': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'kebab': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'keep-dry': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'kettlebell': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'key-capslock': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'key-option': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'key-ring': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'key-space': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'key-option': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'key-ring': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'key-space': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'keyhole': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'keypad': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'kick-scooter': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'kidney': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'keypad': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square'] }, // vbc
+  'kick-scooter': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'kidney': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'kitchen-scale': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'kite': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'kiwi': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'knife': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'knight-helmet': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'knife': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'knight-helmet': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['hexagon'] }, // vbc
   'knob': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'lab-coat': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'lab-coat': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'label-maker': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'ladder': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'ladle': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'ladybug': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'ladder': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'ladle': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'ladybug': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'lamp': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'lamp-post': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'lantern': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'lantern': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'lanyard': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'laser-hazard': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'lasso': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'lasso': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'laundry-basket': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'laundry-detergent': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'lavender': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'lawn-mower': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'lawn-mower': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'layout-cards': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'layout-carousel': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'layout-centered': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'layout-columns-3': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'layout-feed': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'layout-gallery': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'layout-hero': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'layout-rows-2': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'layout-hero': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'layout-rows-2': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'layout-rows-3': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'leaf': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'lectern': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'lectern': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'led': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'lemon': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'lens': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'letter-block': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'letter-block': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'letter-tray': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'level-up': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'life-jacket': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'life-jacket': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'life-ring': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'lifeboat': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'lightbulb-eco': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'lighthouse': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'lipstick': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'list-tree': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'loader': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'lipstick': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square'] }, // vbc
+  'list-tree': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'loader': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square'] }, // vbc
   'locker': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'log-cabin': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'log-cabin': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'log-pile': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'logic-gate': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'lollipop': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'lotus': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'logic-gate': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'lollipop': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'lotus': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'low-clearance': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'lunar-lander': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'lunch-tray': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'magnet': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'mail-forward': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'makeup-brush': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'mallet': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'lunch-tray': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'magnet': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'mail-forward': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square'] }, // vbc
+  'makeup-brush': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'mallet': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'manhole': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'map-marked': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'map-marked': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'maracas': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'marbles': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'marbles': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'marker': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'market-stall': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'market-stall': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'mars-rover': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'mason-jar': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'masquerade-mask': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'mason-jar': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'masquerade-mask': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'match': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'maximize': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'maximize': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'measuring-cup': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'measuring-wheel': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'measuring-wheel': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'meat-thermometer': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'medical-cross': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'medicine-cup': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'meeting-table': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'mega-menu': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'menu': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'menu-right': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'medicine-cup': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'meeting-table': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['hexagon'] }, // vbc
+  'mega-menu': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'menu': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'menu-right': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'message-bottle': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'message-dots': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'message-dots': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'message-image': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'message-quote': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'message-quote': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'mic': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'mic-stand': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'microscope': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'microscope': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'milk': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'milk-can': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'milk-carton': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'minimize': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'mirror': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'mitten': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'minimize': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'mirror': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'mitten': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'mixer-board': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'modal': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'moka-pot': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'molecule': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'mop': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'moka-pot': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'molecule': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'mop': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'more-horizontal': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'more-vertical': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'mortar-pestle': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'more-vertical': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'mortar-pestle': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'mosque': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'motorcycle': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'mountain': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'mountain': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'mouth': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'mri': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'mri': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['hexagon'] }, // vbc
   'mug': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'multimeter': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'mushroom': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'music-stand': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'mushroom': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'music-stand': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'nachos': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'nail': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'nail': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'nail-polish': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'natural-sign': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'necklace': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'natural-sign': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'necklace': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'necktie': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'needle-thread': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'network-graph': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'neural-network': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'nightstand': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'needle-thread': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'network-graph': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'neural-network': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square'] }, // vbc
+  'nightstand': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'noodles': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'north-arrow': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'notification-dot': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'number-input': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'numpad': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'oar': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'oars': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'numpad': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square'] }, // vbc
+  'oar': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'oars': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'observatory': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'octopus': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'octopus': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'oil-barrel': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'oil-can': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'olive': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'onigiri': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'olive': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'onigiri': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'onion': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'orbit': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'org-chart': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'org-chart': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'ornament': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'oscilloscope': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'otoscope': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'otoscope': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'otp': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'oven-mitt': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'oven-mitt': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'owl': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'oxidizer': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'oxygen-tank': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'pacifier': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'pacifier': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'pager': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'pagination': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'pagoda': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'paint-roller': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'pagination': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'pagoda': { badges: ['add', 'check', 'close', 'remove'], containers: ['hexagon'] }, // vbc
+  'paint-roller': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'paint-scraper': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'pallet-jack': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'palm-tree': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'pallet-jack': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'palm-tree': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'pancakes': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'paper-lantern': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'paper-shredder': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'paper-towel': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'paperclip': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'paper-towel': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'paperclip': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'parachute': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'paraglider': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'paraglider': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['hexagon'] }, // vbc
   'parcel-scale': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'parking-ahead': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'parking-meter': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'party-hat': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'party-popper': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'paw': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'party-hat': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'party-popper': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'paw': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square'] }, // vbc
   'peach': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'peanut': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'pear': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'peanut': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'pear': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'peas': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'peeler': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'pen-holder': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'penalty-cards': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'pencil-case': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'pen-holder': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'penalty-cards': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'pencil-case': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'pendulum': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'penguin': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'pennant': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'penguin': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'pennant': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'percent-circle': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'perfume': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'periodic-table': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'periodic-table': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square'] }, // vbc
   'periscope': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'pet-carrier': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'petri-dish': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'phi': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'phishing': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'pet-carrier': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'petri-dish': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'phi': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'phishing': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'phone-booth': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'phone-call': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'phone-incoming': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'phone-incoming': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square'] }, // vbc
   'piano-keys': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'pickaxe': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'picnic-basket': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'picnic-table': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'picture-frame': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'pickaxe': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'picnic-basket': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'picnic-table': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'picture-frame': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'picture-in-picture': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'pie': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'pier': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'pig': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'pier': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'pig': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'pillow': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'pine-cone': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'pine-tree': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'pineapple': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'pinwheel': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'pipe-elbow': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'pineapple': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'pinwheel': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'pipe-elbow': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'pipette': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'piston': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'pitcher': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'piston': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'pitcher': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'pitchfork': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'pizza': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'pizza-cutter': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'planet': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'pizza-cutter': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'planet': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square'] }, // vbc
   'plant-pot': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'play': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'playback-speed': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'playing-cards': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'playing-cards': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'pliers': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'plumb-bob': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'plunger': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'podium': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'plunger': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'podium': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'poker-chip': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'polaroid': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'police-badge': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'police-car': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'police-car': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'pool': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'pool-ladder': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'popcorn': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'popover': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'popsicle': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'postmark': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'postmark': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'potion': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'potted-plant': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'potted-plant': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'pound-circle': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'power': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'power': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'power-plant': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'power-socket': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'power-socket': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'power-strip': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'printer-3d': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'priority-matrix': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'prism': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'priority-matrix': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'prism': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'progress-bar': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'progress-ring': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'projector-screen': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'progress-ring': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'projector-screen': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'prompt': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'protractor': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'pudding': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'pulley': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'pulse': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'protractor': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'pudding': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'pulley': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'pulse': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'pumpkin': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'punching-bag': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'punching-bag': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'putty-knife': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'pylon': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'pyramid': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'rabbit': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'pyramid': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'rabbit': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'rabbit-hat': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'radar': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'radiation': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'radiator': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'radio-button': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'radiator': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square'] }, // vbc
+  'radio-button': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'rain-gauge': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'rake': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'ramen': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'razor': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'receipt-tax': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'rake': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'ramen': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'razor': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'receipt-tax': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'record': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'recycle': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'recycle': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'red-envelope': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'remove-circle': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'repeat-one': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'restaurant': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'rice-bowl': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'ring': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'restaurant': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'rice-bowl': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'ring': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'road-barrier': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'road-merge': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'road-narrows': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'robot-arm': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'rock': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'robot-arm': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'rock': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'rocket': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'rocking-chair': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'rocking-horse': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'roller-coaster': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'roller-skate': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'rose': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'rocking-chair': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'rocking-horse': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'roller-coaster': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'roller-skate': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'rose': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'rosette': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'rotary-phone': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'rotary-phone': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'round-bottom-flask': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'rowboat': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'rug': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'rugby-ball': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'rowboat': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'rug': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square'] }, // vbc
+  'rugby-ball': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'rupee-circle': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'sailboat': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'salad': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'salad': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'sale-sign': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'salt-shaker': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'sandal': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'sandcastle': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'sandcastle': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'sandwich': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'sanitizer': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'santa-hat': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'santa-hat': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'satellite': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'satellite-phone': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'saturn': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'satellite-phone': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'saturn': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'saucepan': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'saw': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'sawhorse': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'scaffold': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'scaffolding': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'saw': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'sawhorse': { badges: ['add', 'check', 'close', 'remove'], containers: ['hexagon'] }, // vbc
+  'scaffold': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square'] }, // vbc
+  'scaffolding': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square'] }, // vbc
   'scale': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'scale-bar': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'scalpel': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'scalpel': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'scan-barcode': { badges: ['add', 'close', 'remove', 'alert'] }, // vb
   'scan-text': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'scarecrow': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'scarf': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'school': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'scarecrow': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'scarf': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'school': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'scissor-lift': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'scoreboard': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'screw': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'screwdriver': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'scroll': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'scroll': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'scrollbar': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'sd-card': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'seagull': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'seagull': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'search-bar': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'seashell': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'seed-packet': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'seed-packet': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'seedling': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'seesaw': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'seesaw': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'segmented-control': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'serum-bottle': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'serum-bottle': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'set-square': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'sewing-machine': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'shampoo': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'share': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'shark-fin': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'sharp-sign': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'sheep': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'sewing-machine': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'shampoo': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'share': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'shark-fin': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'sharp-sign': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['hexagon'] }, // vbc
+  'sheep': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'ship': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'ship-wheel': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'shorts': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'shovel': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'shovel': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'shuttlecock': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'sidebar-collapse': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'sieve': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'sidebar-collapse': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'sieve': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'signal-ahead': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'silo': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'silo': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'sink': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'sippy-cup': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'sippy-cup': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'skateboard': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'skeleton': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'skeleton': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'skeleton-loader': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'ski-boot': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'ski-lift': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'skip-forward': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'ski-boot': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'ski-lift': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'skip-forward': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'skirt': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'skis': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'skis': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square'] }, // vbc
   'skyscraper': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'sled': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'sledgehammer': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'sledgehammer': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'sleep-mask': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'sleigh': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'slide': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'slider-vertical': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'sliders': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'slingshot': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'slot-machine': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'sleigh': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'slide': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'slider-vertical': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'sliders': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'slingshot': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['hexagon'] }, // vbc
+  'slot-machine': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'slow-motion': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'snail': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'snake': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'sneaker': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'snorkel': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'snail': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'snake': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'sneaker': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'snorkel': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'snowboard': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'snowman': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'snowmobile': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'snowplow': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'snowmobile': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'snowplow': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'soap': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'soap-dispenser': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'soccer-ball': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'sock': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'sock': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'soda-can': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'soda-cup': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'sofa': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'soldering-iron': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'sort-ascending': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'soldering-iron': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'sort-ascending': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'sound-wave': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'soup': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'soup': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'spark-plug': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'sparkle': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'spatula': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'sparkle': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'spatula': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'speed-bump': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'spell-book': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'spice-jar': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'spider': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'spider': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'spider-web': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'spinner': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'spinning-top': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'spinner': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square'] }, // vbc
+  'spinning-top': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'spirit-level': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'split-button': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'split-view': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'sponge': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'spool': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'spoon': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'spoon': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'sports-bottle': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'spray-bottle': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'spring': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'sprout': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'spyglass': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'spray-bottle': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square'] }, // vbc
+  'spring': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['square'] }, // vbc
+  'sprout': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'spyglass': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'squeegee': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'stadium': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'stage-curtain': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'stairs': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'stage-curtain': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'stairs': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'stand-mixer': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'stapler': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'starfish': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'steak': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'stapler': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'starfish': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'steak': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'steamer': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'steering-wheel': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'steering-wheel': { badges: ['add', 'check', 'close', 'remove'], containers: ['hexagon'] }, // vbc
   'stepper': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'stethoscope': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'stocking': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'stomach': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'stethoscope': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'stocking': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'stomach': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'stop': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'stopwatch': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'stopwatch': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square'] }, // vbc
   'strategy': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'strawberry': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'strawberry': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'stretcher': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'stroller': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'submarine': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'succulent': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'stroller': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'submarine': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'succulent': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'suit-club': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'suit-diamond': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'suit-spade': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'summit': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'sun-hat': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'sun-lounger': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'suit-spade': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'summit': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'sun-hat': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'sun-lounger': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'sundae': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'sundial': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'sunflower': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
@@ -1563,170 +1563,170 @@ export default {
   'sunscreen': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'surfboard': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'sushi': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'swimming': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'swimsuit': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'swing': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'swivel-chair': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'swimming': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'swimsuit': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'swing': { badges: ['add', 'check', 'close', 'remove'], containers: ['square'] }, // vbc
+  'swivel-chair': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'sword': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  't-shirt': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  't-shirt': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'table-tennis': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'tablet-landscape': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'tablet-landscape': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'tablet-pen': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'tabs': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'taco': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'takeout-box': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'tabs': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'taco': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'takeout-box': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'tambourine': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'tank-top': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'tape-dispenser': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'tape-roll': { badges: ['check', 'remove', 'alert'] }, // vb
+  'tank-top': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'tape-dispenser': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'tape-roll': { badges: ['check', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'target': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'tea-bag': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'tea-bag': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'tea-cup': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'teapot': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'telegraph': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'telescope': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'tennis-ball': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'tennis-racket': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'terrain': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'telegraph': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'telescope': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square'] }, // vbc
+  'tennis-ball': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'tennis-racket': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square'] }, // vbc
+  'terrain': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'terrarium': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'test-tube': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'test-tube-rack': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'test-tube-rack': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'text-input': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'textarea': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'textarea': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'theater-masks': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'therefore': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'therefore': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'thermos': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'thermostat': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'theta': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'thimble': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'this-side-up': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'thread-spool': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'thread-spool': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'throne': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'tiara': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'tic-tac-toe': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'tic-tac-toe': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'timeline': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'tipi': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'tissue-box': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'toast': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'toggle-group': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'tipi': { badges: ['add', 'check', 'close', 'remove'], containers: ['hexagon'] }, // vbc
+  'tissue-box': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['hexagon'] }, // vbc
+  'toast': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'toggle-group': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['hexagon'] }, // vbc
   'toggle-on': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'toilet': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'toilet-paper': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'toilet-paper': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'tomato': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'toolbox': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'tooltip': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'toolbox': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'tooltip': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'toothbrush': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'toothpaste': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'top-hat': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'top-hat': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'torch': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'towel': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'towel': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'toxic': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'toy-brick': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'trackball': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'tractor': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'trailer': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'toy-brick': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'trackball': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'tractor': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'trailer': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'train': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'train-front': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'tram': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'tram': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square'] }, // vbc
   'trash': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'travel-pillow': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'treadmill': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'treasure-chest': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'treadmill': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'treasure-chest': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'treasure-map': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'tree': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'tree-stump': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'tree': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'tree-stump': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'triangle-instrument': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'tripod': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'trousers': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'tripod': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'trousers': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'trowel': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'trumpet': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'tsunami': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'tulip': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'tuning-fork': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'tunnel': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'trumpet': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'tsunami': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'tulip': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'hexagon'] }, // vbc
+  'tuning-fork': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'tunnel': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'tunnel-ahead': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'turnstile': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'turtle': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'tweezers': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'turnstile': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'turtle': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'tweezers': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'two-factor': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'two-way-traffic': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'ufo': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'ufo': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'umbrella-stand': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'unicycle': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'unicycle': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['square', 'hexagon'] }, // vbc
   'university': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'upload': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'urn': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'upload': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'urn': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'usb-c-port': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'usb-hub': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'user-edit': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'user-headset': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'user-voice': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'usb-hub': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'user-edit': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'user-headset': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'user-voice': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'utility-knife': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'utility-pole': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'van': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'vase': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'vest': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'utility-pole': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'van': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'vase': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'vest': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'vial': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'vise': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'vise': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'volcano': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'volleyball': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'volleyball': { badges: ['add', 'check', 'close', 'remove'], containers: ['hexagon'] }, // vbc
   'volume': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'volume-low': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'volume-low': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'vr-headset': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'waffle': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'walker': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'walking': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'wall-shelf': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'walker': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'walking': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'wall-shelf': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'wardrobe': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'warning': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'watch': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'watchtower': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'water-cooler': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'water-tower': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'slider': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'subset': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'water-valve': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'water-well': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'watering-can': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'watchtower': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'water-cooler': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square'] }, // vbc
+  'water-tower': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'slider': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square'] }, // vbc
+  'subset': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['hexagon'] }, // vbc
+  'water-valve': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'water-well': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'watering-can': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'watermelon': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'waveform': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'waveform': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square'] }, // vbc
   'waves': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'weather-balloon': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'wedding-cake': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'weight': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'well': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'well': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'whale': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'whale-tail': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'whale-tail': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'wheat': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'wheelbarrow': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'wheelbarrow': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'whisk': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'whistle': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'wifi': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'wildfire': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'wind-turbine': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'whistle': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'wifi': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'wildfire': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'wind-turbine': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'windchime': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'windmill': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'window-blinds': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'windmill': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'window-blinds': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'window-maximize': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'window-restore': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'wine-barrel': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'window-restore': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'wine-barrel': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'wine-bottle': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'wine-glass': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'witch-hat': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'wine-glass': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'witch-hat': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'won-circle': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'won-sign': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'won-sign': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle'] }, // vbc
   'wood-log': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'workbench': { badges: ['add', 'check', 'close', 'remove'] }, // vb
-  'wrench': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'workbench': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'wrench': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'xylophone': { badges: ['add', 'check', 'close', 'remove'] }, // vb
   'y-junction': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'yacht': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'yarn': { badges: ['add', 'check', 'close', 'remove'] }, // vb
+  'yarn': { badges: ['add', 'check', 'close', 'remove'], containers: ['circle', 'square'] }, // vbc
   'yarn-ball': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'yen-circle': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'yield-ahead': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'yoga-mat': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
-  'yurt': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'yoga-mat': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
+  'yurt': { badges: ['add', 'check', 'close', 'remove', 'alert'], containers: ['circle', 'square', 'hexagon'] }, // vbc
   'zoom-in': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'alert-octagon': { containers: ['circle', 'square'] }, // vc
   'arrow-arc-right': { containers: ['circle', 'square'] }, // vc

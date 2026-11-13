@@ -1,0 +1,254 @@
+{
+  "name": "chess-queen-square",
+  "title": "Chess Queen Square",
+  "category": "gaming",
+  "tags": [
+    "chess",
+    "queen",
+    "strategy",
+    "board game",
+    "crown",
+    "square"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "forge",
+  "family": "chess-queen",
+  "variant": {
+    "kind": "container",
+    "of": "chess-queen",
+    "value": "square"
+  },
+  "animation": {
+    "duration": 3000,
+    "loop": true,
+    "source": "generated",
+    "preset": "pop-draw",
+    "tracks": [
+      {
+        "target": 0,
+        "property": "scale",
+        "origin": [
+          50,
+          50
+        ],
+        "times": [
+          0,
+          0,
+          0.1667,
+          1
+        ],
+        "values": [
+          0.6,
+          0.6,
+          1,
+          1
+        ],
+        "ease": [
+          "linear",
+          [
+            0.45,
+            1.45,
+            0.8,
+            1
+          ],
+          "linear"
+        ]
+      },
+      {
+        "target": 0,
+        "property": "opacity",
+        "times": [
+          0,
+          0,
+          0.1333,
+          0.8,
+          0.9333,
+          1
+        ],
+        "values": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "ease": [
+          "linear",
+          "easeOut",
+          [
+            0.5,
+            0,
+            0.5,
+            1
+          ],
+          "easeIn",
+          "linear"
+        ]
+      },
+      {
+        "target": 2,
+        "property": "scale",
+        "origin": [
+          50,
+          50
+        ],
+        "times": [
+          0,
+          0.04,
+          0.2067,
+          1
+        ],
+        "values": [
+          0.6,
+          0.6,
+          1,
+          1
+        ],
+        "ease": [
+          "linear",
+          [
+            0.45,
+            1.45,
+            0.8,
+            1
+          ],
+          "linear"
+        ]
+      },
+      {
+        "target": 2,
+        "property": "opacity",
+        "times": [
+          0,
+          0.04,
+          0.1733,
+          0.8,
+          0.9333,
+          1
+        ],
+        "values": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "ease": [
+          "linear",
+          "easeOut",
+          [
+            0.5,
+            0,
+            0.5,
+            1
+          ],
+          "easeIn",
+          "linear"
+        ]
+      },
+      {
+        "target": 3,
+        "property": "scale",
+        "origin": [
+          50,
+          50
+        ],
+        "times": [
+          0,
+          0.08,
+          0.24669999999999997,
+          1
+        ],
+        "values": [
+          0.6,
+          0.6,
+          1,
+          1
+        ],
+        "ease": [
+          "linear",
+          [
+            0.45,
+            1.45,
+            0.8,
+            1
+          ],
+          "linear"
+        ]
+      },
+      {
+        "target": 3,
+        "property": "opacity",
+        "times": [
+          0,
+          0.08,
+          0.2133,
+          0.8,
+          0.9333,
+          1
+        ],
+        "values": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "ease": [
+          "linear",
+          "easeOut",
+          [
+            0.5,
+            0,
+            0.5,
+            1
+          ],
+          "easeIn",
+          "linear"
+        ]
+      },
+      {
+        "target": 1,
+        "property": "draw",
+        "times": [
+          0,
+          0.13,
+          0.33,
+          0.8,
+          0.933,
+          1
+        ],
+        "values": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "ease": [
+          "linear",
+          "easeInOut",
+          [
+            0.5,
+            0,
+            0.5,
+            1
+          ],
+          "easeIn",
+          "linear"
+        ]
+      }
+    ]
+  }
+}

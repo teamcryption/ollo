@@ -1,0 +1,65 @@
+{
+  "name": "tennis-ball-square",
+  "title": "Tennis Ball Square",
+  "category": "sports",
+  "tags": [
+    "tennis",
+    "ball",
+    "court",
+    "padel",
+    "square"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "forge",
+  "family": "tennis-ball",
+  "variant": {
+    "kind": "container",
+    "of": "tennis-ball",
+    "value": "square"
+  },
+  "animation": {
+    "duration": 3000,
+    "loop": true,
+    "source": "generated",
+    "preset": "bounce",
+    "tracks": [
+      {
+        "target": "root",
+        "property": "translateY",
+        "times": [
+          0,
+          0.1,
+          0.22,
+          0.34,
+          0.42,
+          0.5,
+          1
+        ],
+        "values": [
+          0,
+          0,
+          -2,
+          0,
+          -0.7,
+          0,
+          0
+        ],
+        "ease": [
+          "linear",
+          "easeOut",
+          "easeIn",
+          "easeOut",
+          "easeIn",
+          "linear"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "name": "ai-briefcase-circle",
+  "title": "AI Recruiting Circle",
+  "category": "ai",
+  "tags": [
+    "ai hiring",
+    "talent ai",
+    "work assistant",
+    "business ai",
+    "jobs",
+    "circle"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "forge",
+  "family": "ai-briefcase",
+  "variant": {
+    "kind": "container",
+    "of": "ai-briefcase",
+    "value": "circle"
+  },
+  "animation": {
+    "duration": 3000,
+    "loop": true,
+    "source": "generated",
+    "preset": "pulse",
+    "tracks": [
+      {
+        "target": "root",
+        "property": "scale",
+        "origin": [
+          50,
+          50
+        ],
+        "times": [
+          0,
+          0.0667,
+          0.15,
+          0.2333,
+          0.3167,
+          0.4333,
+          1
+        ],
+        "values": [
+          1,
+          1,
+          1.18,
+          1,
+          1.1,
+          1,
+          1
+        ],
+        "ease": [
+          "linear",
+          "easeOut",
+          "easeIn",
+          "easeOut",
+          "easeInOut",
+          "linear"
+        ]
+      }
+    ]
+  }
+}

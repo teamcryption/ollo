@@ -1,0 +1,88 @@
+{
+  "name": "butterfly-circle",
+  "title": "Butterfly Circle",
+  "category": "animals",
+  "tags": [
+    "insect",
+    "moth",
+    "spring",
+    "transform",
+    "wings",
+    "circle"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "forge",
+  "family": "butterfly",
+  "variant": {
+    "kind": "container",
+    "of": "butterfly",
+    "value": "circle"
+  },
+  "animation": {
+    "duration": 3000,
+    "loop": true,
+    "source": "generated",
+    "preset": "wiggle",
+    "tracks": [
+      {
+        "target": "root",
+        "property": "rotate",
+        "origin": [
+          50,
+          50
+        ],
+        "times": [
+          0,
+          0.0667,
+          0.1333,
+          0.2,
+          0.2667,
+          0.3333,
+          0.4,
+          1
+        ],
+        "values": [
+          0,
+          0,
+          -14,
+          12,
+          -8,
+          5,
+          0,
+          0
+        ],
+        "ease": [
+          "linear",
+          "easeOut",
+          [
+            0.5,
+            0,
+            0.5,
+            1
+          ],
+          [
+            0.5,
+            0,
+            0.5,
+            1
+          ],
+          [
+            0.5,
+            0,
+            0.5,
+            1
+          ],
+          "easeOut",
+          "linear"
+        ]
+      }
+    ]
+  }
+}

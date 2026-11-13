@@ -1,0 +1,135 @@
+{
+  "name": "airplane-landing-square",
+  "title": "Landing Square",
+  "category": "travel",
+  "tags": [
+    "arrival",
+    "arriving",
+    "flight",
+    "airport",
+    "square"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "forge",
+  "family": "airplane-landing",
+  "variant": {
+    "kind": "container",
+    "of": "airplane-landing",
+    "value": "square"
+  },
+  "animation": {
+    "duration": 3000,
+    "loop": true,
+    "source": "generated",
+    "preset": "nudge",
+    "tracks": [
+      {
+        "target": "root",
+        "property": "translateX",
+        "times": [
+          0,
+          0.1,
+          0.25,
+          0.4,
+          0.55,
+          0.7,
+          1
+        ],
+        "values": [
+          0,
+          0,
+          1.5,
+          0,
+          1.5,
+          0,
+          0
+        ],
+        "ease": [
+          "linear",
+          [
+            0.5,
+            0,
+            0.5,
+            1
+          ],
+          [
+            0.5,
+            0,
+            0.5,
+            1
+          ],
+          [
+            0.5,
+            0,
+            0.5,
+            1
+          ],
+          [
+            0.5,
+            0,
+            0.5,
+            1
+          ],
+          "linear"
+        ]
+      },
+      {
+        "target": "root",
+        "property": "translateY",
+        "times": [
+          0,
+          0.1,
+          0.25,
+          0.4,
+          0.55,
+          0.7,
+          1
+        ],
+        "values": [
+          0,
+          0,
+          1.5,
+          0,
+          1.5,
+          0,
+          0
+        ],
+        "ease": [
+          "linear",
+          [
+            0.5,
+            0,
+            0.5,
+            1
+          ],
+          [
+            0.5,
+            0,
+            0.5,
+            1
+          ],
+          [
+            0.5,
+            0,
+            0.5,
+            1
+          ],
+          [
+            0.5,
+            0,
+            0.5,
+            1
+          ],
+          "linear"
+        ]
+      }
+    ]
+  }
+}
