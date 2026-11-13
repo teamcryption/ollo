@@ -868,3 +868,15 @@ bobsled
 billiards
 ottoman
 hovercraft
+pet-collar
+skylight
+pergola
+totem-pole
+watermill
+spur
+kaleidoscope
+lyre
+raised-bed
+anthill
+awl
+origami-crane

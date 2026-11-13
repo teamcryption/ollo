@@ -1,350 +1,182 @@
 {
-  "generatedAt": "2026-11-13T08:08:53.907Z",
-  "icons": 64880,
-  "files": 324400,
+  "generatedAt": "2026-11-13T08:21:37.253Z",
+  "icons": 65302,
+  "files": 326510,
   "errors": [],
   "warnings": [
-    "decanter-camera: grid: outside the 3-21 live area (3.00, 3.50, 22.00, 20.50)",
-    "butter-churn-camera: grid: outside the 3-21 live area (5.00, 3.50, 22.00, 20.50)",
-    "potato-masher-camera: grid: outside the 3-21 live area (4.50, 3.50, 22.00, 20.50)",
-    "puzzle-cube-camera: grid: outside the 3-21 live area (3.00, 3.74, 22.00, 20.50)",
-    "matchbox-camera: grid: outside the 3-21 live area (3.00, 3.10, 22.00, 20.50)",
-    "water-jug-camera: grid: outside the 3-21 live area (5.00, 3.50, 22.00, 20.50)",
-    "ottoman-camera: grid: outside the 3-21 live area (3.00, 8.00, 22.00, 20.50)",
-    "window-blind-camera: grid: outside the 3-21 live area (3.00, 3.50, 22.00, 20.50)",
-    "spinning-wheel-camera: grid: outside the 3-21 live area (3.50, 3.50, 22.00, 20.50)",
-    "soap-dish-camera: grid: outside the 3-21 live area (3.00, 3.80, 22.00, 20.50)",
-    "gimbal-camera: grid: outside the 3-21 live area (3.00, 3.50, 22.00, 20.50)",
-    "lute-camera: grid: outside the 3-21 live area (3.00, 4.50, 22.00, 20.50)",
-    "panpipe-camera: grid: outside the 3-21 live area (3.50, 4.00, 22.00, 20.50)",
-    "geiger-counter-camera: grid: outside the 3-21 live area (3.00, 6.50, 22.00, 20.50)",
-    "billiards-camera: grid: outside the 3-21 live area (3.00, 4.00, 22.00, 20.50)",
-    "bobsled-camera: grid: outside the 3-21 live area (3.00, 8.80, 22.00, 20.50)",
-    "bellows-camera: grid: outside the 3-21 live area (3.00, 3.50, 22.00, 20.50)",
-    "winch-camera: grid: outside the 3-21 live area (3.00, 4.00, 22.00, 20.50)",
-    "rickshaw-camera: grid: outside the 3-21 live area (3.00, 3.00, 22.00, 20.50)",
-    "monorail-camera: grid: outside the 3-21 live area (3.00, 5.00, 22.00, 20.50)",
-    "blimp-camera: grid: outside the 3-21 live area (3.00, 5.00, 22.00, 20.50)",
-    "hovercraft-camera: grid: outside the 3-21 live area (3.00, 4.50, 22.00, 20.50)",
-    "tugboat-camera: grid: outside the 3-21 live area (3.00, 5.00, 22.00, 20.50)",
-    "log-raft-camera: grid: outside the 3-21 live area (3.00, 3.50, 22.00, 20.50)",
-    "sextant-camera: grid: outside the 3-21 live area (4.00, 3.00, 22.00, 20.50)"
+    "pet-collar-camera: grid: outside the 3-21 live area (3.00, 4.50, 22.00, 20.50)",
+    "scratching-post-camera: grid: outside the 3-21 live area (3.00, 3.50, 22.00, 20.50)",
+    "skylight-camera: grid: outside the 3-21 live area (3.10, 3.50, 22.00, 20.50)",
+    "pergola-camera: grid: outside the 3-21 live area (3.00, 5.00, 22.00, 20.50)",
+    "obelisk-camera: grid: outside the 3-21 live area (5.00, 3.50, 22.00, 20.50)",
+    "totem-pole-camera: grid: outside the 3-21 live area (3.00, 3.50, 22.00, 20.50)",
+    "watermill-camera: grid: outside the 3-21 live area (3.00, 6.21, 22.00, 20.50)",
+    "aqueduct-camera: grid: outside the 3-21 live area (3.00, 6.00, 22.00, 20.50)",
+    "portcullis-camera: grid: outside the 3-21 live area (3.50, 3.50, 22.00, 20.50)",
+    "bell-tower-camera: grid: outside the 3-21 live area (5.70, 3.69, 22.00, 20.50)",
+    "spur-camera: grid: outside the 3-21 live area (3.00, 7.00, 22.00, 20.50)",
+    "trebuchet-camera: grid: outside the 3-21 live area (3.00, 4.00, 22.00, 20.50)",
+    "jack-in-the-box-camera: grid: outside the 3-21 live area (3.00, 4.00, 22.00, 20.50)",
+    "kaleidoscope-camera: grid: outside the 3-21 live area (3.00, 3.50, 22.00, 20.50)",
+    "origami-crane-camera: grid: outside the 3-21 live area (3.22, 4.20, 22.00, 20.50)",
+    "peephole-camera: grid: outside the 3-21 live area (4.50, 3.50, 22.00, 20.50)",
+    "mail-slot-camera: grid: outside the 3-21 live area (3.00, 6.00, 22.00, 20.50)",
+    "lyre-camera: grid: outside the 3-21 live area (3.68, 4.50, 22.00, 20.50)",
+    "raised-bed-camera: grid: outside the 3-21 live area (3.00, 5.50, 22.00, 20.50)",
+    "anthill-camera: grid: outside the 3-21 live area (3.00, 9.00, 22.00, 20.50)",
+    "scythe-camera: grid: outside the 3-21 live area (3.00, 4.00, 22.00, 20.50)",
+    "awl-camera: grid: outside the 3-21 live area (7.00, 3.50, 22.00, 20.50)",
+    "rasp-camera: grid: outside the 3-21 live area (7.50, 3.50, 22.00, 20.50)"
   ],
   "duplicates": [
     {
-      "a": "sextant-pencil",
-      "b": "sextant-leaf",
+      "a": "pet-collar-sparkle",
+      "b": "pet-collar-upload",
       "distance": 1.41
     },
     {
-      "a": "sextant-sparkle",
-      "b": "sextant-upload",
+      "a": "skylight-sparkle",
+      "b": "skylight-upload",
       "distance": 1.41
     },
     {
-      "a": "puzzle-cube-sparkle",
-      "b": "puzzle-cube-upload",
+      "a": "pergola-sparkle",
+      "b": "pergola-upload",
       "distance": 1.41
     },
     {
-      "a": "blister-pack-search",
-      "b": "window-blind-search",
+      "a": "totem-pole-sparkle",
+      "b": "totem-pole-upload",
       "distance": 1.41
     },
     {
-      "a": "blister-pack-clock",
-      "b": "window-blind-clock",
+      "a": "watermill-sparkle",
+      "b": "watermill-upload",
       "distance": 1.41
     },
     {
-      "a": "blister-pack-heart",
-      "b": "window-blind-heart",
+      "a": "aqueduct-pencil",
+      "b": "aqueduct-leaf",
       "distance": 1.41
     },
     {
-      "a": "blister-pack-alert",
-      "b": "window-blind-alert",
+      "a": "aqueduct-sparkle",
+      "b": "aqueduct-upload",
       "distance": 1.41
     },
     {
-      "a": "blister-pack-user",
-      "b": "window-blind-user",
+      "a": "portcullis-pencil",
+      "b": "portcullis-leaf",
       "distance": 1.41
     },
     {
-      "a": "blister-pack-cloud",
-      "b": "window-blind-cloud",
+      "a": "jack-in-the-box-sparkle",
+      "b": "jack-in-the-box-upload",
       "distance": 1.41
     },
     {
-      "a": "blister-pack-chat",
-      "b": "window-blind-chat",
+      "a": "peephole-pencil",
+      "b": "peephole-leaf",
       "distance": 1.41
     },
     {
-      "a": "blister-pack-download",
-      "b": "window-blind-download",
+      "a": "peephole-sparkle",
+      "b": "peephole-upload",
       "distance": 1.41
     },
     {
-      "a": "blister-pack-pencil",
-      "b": "window-blind-pencil",
+      "a": "mail-slot-sparkle",
+      "b": "mail-slot-upload",
       "distance": 1.41
     },
     {
-      "a": "blister-pack-pencil",
-      "b": "window-blind-leaf",
+      "a": "lyre-pencil",
+      "b": "lyre-leaf",
       "distance": 1.41
     },
     {
-      "a": "blister-pack-sparkle",
-      "b": "window-blind-upload",
+      "a": "raised-bed-pencil",
+      "b": "raised-bed-leaf",
       "distance": 1.41
     },
     {
-      "a": "blister-pack-trash",
-      "b": "window-blind-trash",
+      "a": "anthill-pencil",
+      "b": "anthill-leaf",
       "distance": 1.41
     },
     {
-      "a": "blister-pack-calendar",
-      "b": "window-blind-calendar",
+      "a": "obelisk-sparkle",
+      "b": "obelisk-upload",
       "distance": 1.41
     },
     {
-      "a": "blister-pack-question",
-      "b": "window-blind-question",
+      "a": "spur-sparkle",
+      "b": "spur-upload",
       "distance": 1.41
     },
     {
-      "a": "blister-pack-bookmark",
-      "b": "window-blind-bookmark",
+      "a": "kaleidoscope-sparkle",
+      "b": "kaleidoscope-upload",
       "distance": 1.41
     },
     {
-      "a": "blister-pack-trophy",
-      "b": "window-blind-trophy",
+      "a": "origami-crane-sparkle",
+      "b": "origami-crane-upload",
       "distance": 1.41
     },
     {
-      "a": "blister-pack-hourglass",
-      "b": "window-blind-hourglass",
+      "a": "raised-bed-sparkle",
+      "b": "raised-bed-upload",
       "distance": 1.41
     },
     {
-      "a": "blister-pack-filter",
-      "b": "window-blind-filter",
+      "a": "scythe-sparkle",
+      "b": "scythe-upload",
       "distance": 1.41
     },
     {
-      "a": "blister-pack-stats",
-      "b": "window-blind-stats",
+      "a": "awl-sparkle",
+      "b": "awl-upload",
       "distance": 1.41
     },
     {
-      "a": "blister-pack-checkbox",
-      "b": "window-blind-checkbox",
-      "distance": 1.41
-    },
-    {
-      "a": "matchbox-sparkle",
-      "b": "matchbox-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "ottoman-pencil",
-      "b": "ottoman-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "window-blind-pencil",
-      "b": "window-blind-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "window-blind-sparkle",
-      "b": "window-blind-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "soap-dish-sparkle",
-      "b": "soap-dish-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "gimbal-sparkle",
-      "b": "gimbal-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "panpipe-sparkle",
-      "b": "panpipe-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "geiger-counter-pencil",
-      "b": "geiger-counter-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "bobsled-pencil",
-      "b": "bobsled-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "rickshaw-pencil",
-      "b": "rickshaw-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "rickshaw-sparkle",
-      "b": "rickshaw-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "monorail-pencil",
-      "b": "monorail-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "monorail-sparkle",
-      "b": "monorail-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "hovercraft-sparkle",
-      "b": "hovercraft-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "tugboat-pencil",
-      "b": "tugboat-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "tugboat-sparkle",
-      "b": "tugboat-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "log-raft-sparkle",
-      "b": "log-raft-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "blister-pack-fire",
-      "b": "window-blind-fire",
-      "distance": 1.41
-    },
-    {
-      "a": "blister-pack-pin",
-      "b": "window-blind-pin",
-      "distance": 1.41
-    },
-    {
-      "a": "blister-pack-bell",
-      "b": "window-blind-bell",
-      "distance": 1.41
-    },
-    {
-      "a": "blister-pack-flag",
-      "b": "window-blind-flag",
-      "distance": 1.41
-    },
-    {
-      "a": "blister-pack-moon",
-      "b": "window-blind-moon",
-      "distance": 1.41
-    },
-    {
-      "a": "ottoman-sparkle",
-      "b": "ottoman-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "billiards-sparkle",
-      "b": "billiards-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "bobsled-sparkle",
-      "b": "bobsled-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "bellows-sparkle",
-      "b": "bellows-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "winch-sparkle",
-      "b": "winch-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "blimp-sparkle",
-      "b": "blimp-upload",
+      "a": "rasp-sparkle",
+      "b": "rasp-upload",
       "distance": 1.41
     }
   ],
   "dropped": [
-    "sextant-leaf",
-    "sextant-upload",
-    "puzzle-cube-upload",
-    "window-blind-search",
-    "window-blind-clock",
-    "window-blind-heart",
-    "window-blind-alert",
-    "window-blind-user",
-    "window-blind-cloud",
-    "window-blind-chat",
-    "window-blind-download",
-    "window-blind-pencil",
-    "window-blind-leaf",
-    "window-blind-upload",
-    "window-blind-trash",
-    "window-blind-calendar",
-    "window-blind-question",
-    "window-blind-bookmark",
-    "window-blind-trophy",
-    "window-blind-hourglass",
-    "window-blind-filter",
-    "window-blind-stats",
-    "window-blind-checkbox",
-    "matchbox-upload",
-    "ottoman-leaf",
-    "soap-dish-upload",
-    "gimbal-upload",
-    "panpipe-upload",
-    "geiger-counter-leaf",
-    "bobsled-leaf",
-    "rickshaw-leaf",
-    "rickshaw-upload",
-    "monorail-leaf",
-    "monorail-upload",
-    "hovercraft-upload",
-    "tugboat-leaf",
-    "tugboat-upload",
-    "log-raft-upload",
-    "window-blind-fire",
-    "window-blind-pin",
-    "window-blind-bell",
-    "window-blind-flag",
-    "window-blind-moon",
-    "ottoman-upload",
-    "billiards-upload",
-    "bobsled-upload",
-    "bellows-upload",
-    "winch-upload",
-    "blimp-upload"
+    "pet-collar-upload",
+    "skylight-upload",
+    "pergola-upload",
+    "totem-pole-upload",
+    "watermill-upload",
+    "aqueduct-leaf",
+    "aqueduct-upload",
+    "portcullis-leaf",
+    "jack-in-the-box-upload",
+    "peephole-leaf",
+    "peephole-upload",
+    "mail-slot-upload",
+    "lyre-leaf",
+    "raised-bed-leaf",
+    "anthill-leaf",
+    "obelisk-upload",
+    "spur-upload",
+    "kaleidoscope-upload",
+    "origami-crane-upload",
+    "raised-bed-upload",
+    "scythe-upload",
+    "awl-upload",
+    "rasp-upload"
   ],
   "byCategory": {
     "accessibility": 74,
     "actions": 69,
     "ai": 618,
-    "animals": 2456,
+    "animals": 2521,
     "arrows": 188,
-    "buildings": 1784,
+    "buildings": 2040,
     "business": 1892,
     "celebration": 1786,
     "commerce": 1168,
@@ -356,30 +188,30 @@
     "education": 1425,
     "emoji": 73,
     "energy": 968,
-    "fashion": 2355,
+    "fashion": 2387,
     "files": 600,
     "finance": 1674,
-    "food": 6449,
-    "gaming": 2331,
+    "food": 6416,
+    "gaming": 2460,
     "health": 2225,
-    "home": 4870,
+    "home": 4836,
     "interface": 1461,
     "logistics": 1033,
     "maps": 667,
-    "media": 2439,
-    "nature": 2480,
+    "media": 2471,
+    "nature": 2543,
     "navigation": 63,
     "notifications": 184,
     "people": 1134,
     "science": 1422,
     "security": 887,
     "social": 495,
-    "sports": 2882,
+    "sports": 2819,
     "text": 385,
     "time": 605,
-    "tools": 2404,
-    "transport": 2800,
+    "tools": 2436,
+    "transport": 2768,
     "travel": 2071,
-    "weather": 1498
+    "weather": 1499
   }
 }
