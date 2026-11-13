@@ -244,6 +244,35 @@ for (const name of fs.existsSync(illDir) ? fs.readdirSync(illDir) : []) {
   });
 }
 
+// Hairline figures (packages/hairline-figures, exported by its export.mjs): the rest pose is a
+// stroke template like any illustration; `live` marks the ones the Interactive and Scroll views run.
+const HL_DIR = path.join(ROOT, 'packages/hairline-figures');
+const hlBundle = path.join(HL_DIR, 'dist/hairline.json');
+const hairline = fs.existsSync(hlBundle) ? JSON.parse(fs.readFileSync(hlBundle, 'utf8')) : null;
+/** Fill and Duotone from the Stroke still (the card rect, first, keeps the ground):
+ *  Fill = faces in {{primary}}, lines and dots knocked out in {{background}};
+ *  Duotone = faces tinted {{secondary}}, ink lines kept. */
+function hlStyles(stroke) {
+  const i = stroke.indexOf('/>') + 2, head = stroke.slice(0, i), body = stroke.slice(i);
+  const fill = body
+    .replace(/fill="\{\{ink\}\}"( fill-opacity="[^"]*")?/g, 'fill="@BG@"')
+    .replace(/fill="\{\{background\}\}"/g, 'fill="{{primary}}"')
+    .replace(/fill="@BG@"/g, 'fill="{{background}}"')
+    .replace(/stroke="\{\{ink\}\}"( stroke-opacity="[^"]*")?/g, 'stroke="{{background}}"');
+  const duotone = body.replace(/fill="\{\{background\}\}"/g, 'fill="{{secondary}}"');
+  return { stroke, fill: head + fill, duotone: head + duotone };
+}
+if (hairline) {
+  // The live figures replace the first five samples, which were drawn before the Hairline style.
+  illustrations.length = 0;
+  for (const f of JSON.parse(fs.readFileSync(path.join(HL_DIR, 'figures.json'), 'utf8'))) {
+    const name = f.file.replace(/\.js$/, '');
+    const svgFile = path.join(HL_DIR, 'dist', `${name}.svg`);
+    if (!fs.existsSync(svgFile) || !hairline.figures[name]) continue;
+    illustrations.push({ n: name, t: f.t, c: f.c, g: f.g ?? '', types: hlStyles(fs.readFileSync(svgFile, 'utf8')), motion: null, live: 1 });
+  }
+}
+
 // Approved sample order from the Figma Illustrations board first.
 const ILL_ORDER = ['server-stack', 'analytics', 'mobile-app', 'secure-vault', 'delivery'];
 const illRank = (n) => (ILL_ORDER.includes(n) ? ILL_ORDER.indexOf(n) : 99);
@@ -252,7 +281,7 @@ illustrations.sort((a, b) => illRank(a.n) - illRank(b.n) || a.n.localeCompare(b.
 // Only write files whose content changed, so unchanged chunks keep their timestamps.
 fs.rmSync(path.join(OUT, 'icons'), { recursive: true, force: true });
 fs.mkdirSync(path.join(OUT, 'icons'), { recursive: true });
-for (const f of fs.readdirSync(OUT)) if (/\.json$/.test(f) && !['index.json', 'motion.json', 'illustrations.json'].includes(f)) fs.rmSync(path.join(OUT, f));
+for (const f of fs.readdirSync(OUT)) if (/\.json$/.test(f) && !['index.json', 'motion.json', 'illustrations.json', 'hairline.json'].includes(f)) fs.rmSync(path.join(OUT, f));
 const write = (f, d) => fs.writeFileSync(path.join(OUT, f), JSON.stringify(d));
 write('index.json', {
   total: icons.length,
@@ -269,6 +298,11 @@ outline.forEach((c, k) => write(`icons/o${k}.json`, c));
 fill.forEach((c, k) => write(`icons/f${k}.json`, c));
 write('motion.json', motionTable);
 write('illustrations.json', illustrations);
+// The live views' engine and figure code; rewritten only when it changed, so a republish skips it.
+if (hairline) {
+  const text = JSON.stringify(hairline), f = path.join(OUT, 'hairline.json');
+  if (!fs.existsSync(f) || fs.readFileSync(f, 'utf8') !== text) fs.writeFileSync(f, text);
+}
 
 const mb = (f) => (fs.statSync(path.join(OUT, f)).size / 1048576).toFixed(1);
 const total = fs.readdirSync(OUT, { recursive: true }).filter((f) => f.endsWith('.json')).reduce((t, f) => t + fs.statSync(path.join(OUT, f)).size, 0);

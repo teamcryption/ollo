@@ -50,6 +50,8 @@ export type Illustration = {
   g: string;
   types: Partial<Record<IllustrationType, string>>;
   motion: MotionSpec | null;
+  /** 1 when the illustration also runs live (Interactive and Scroll views). */
+  live?: 1;
 };
 
 /** Where the JSON lives: /data/ on the site, data/ next to the published preview page. */
@@ -130,6 +132,8 @@ export const loadMotion = () =>
     return out;
   }));
 export const loadIllustrations = () => load<Illustration[]>(`${DATA}illustrations.json`);
+/** The live illustrations' engine (the Hairline kernel) and each figure's code. */
+export const loadHairline = () => load<{ kernel: string; figures: Record<string, { code: string }> }>(`${DATA}hairline.json`);
 
 /** Relevance search (lib/search.ts). */
 export { searchIcons } from './search';

@@ -28,6 +28,8 @@ import type { Theme } from '@/lib/hooks';
 import { drawSpec, stillSpec, toDotLottie, toGif, toLottie } from '@/lib/export';
 import { UiIcon } from './ui-icons';
 import { ANIM_FORMATS, SWATCHES, copyText, type AnimFormat } from './shared';
+import { LiveIllustration } from './LiveIllustration';
+import type { LiveMode } from '@/lib/hairline';
 
 export type DownloadTarget =
   | { kind: 'icon'; icon: IconEntry; list: IconEntry[]; format: AnimFormat }
@@ -552,7 +554,11 @@ function IllustrationPanel({
   const [fill, setFill] = useState(defaults.fill);
   const [bg, setBg] = useState<IllBackground>(defaults.bg);
   const [format, setFormat] = useState<'svg' | 'png' | 'lottie'>('svg');
-  const [motion, setMotion] = useState<IllMotion>('still');
+  const [motionPick, setMotion] = useState<IllMotion>('still');
+  // live (Hairline) illustrations run as Animated, Interactive or Scroll; their downloads are the still
+  const [live, setLive] = useState<LiveMode>('animated');
+  const [scrollBox, setScrollBox] = useState<HTMLElement | null>(null);
+  const motion: IllMotion = item.live ? 'still' : motionPick;
 
   const reset = () => {
     setColour(defaults.colour);
@@ -612,10 +618,24 @@ function IllustrationPanel({
           <button className="modal-nav-in modal-prev-in only-phone" aria-label="Previous" onClick={() => go(-1)}>
             <UiIcon name="chevron-left" size={16} />
           </button>
-          <div className="ill-stage">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={svgDataUrl(previewSvg)} alt={item.t} />
-          </div>
+          {item.live && live === 'scroll' ? (
+            <div className="ill-scrollbox" ref={setScrollBox} aria-label="Scroll here to play the illustration">
+              <div className="ill-scroll-pad">Scroll to play</div>
+              <div className="ill-stage is-live">
+                <LiveIllustration key={`${item.n}-scroll`} name={item.n} mode="scroll" root={scrollBox} style={type} theme={theme} colour={hex} />
+              </div>
+              <div className="ill-scroll-pad" />
+            </div>
+          ) : item.live ? (
+            <div className="ill-stage is-live">
+              <LiveIllustration key={`${item.n}-${live}`} name={item.n} mode={live} style={type} theme={theme} colour={hex} />
+            </div>
+          ) : (
+            <div className="ill-stage">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src={svgDataUrl(previewSvg)} alt={item.t} />
+            </div>
+          )}
           <button className="modal-nav-in modal-next-in only-phone" aria-label="Next" onClick={() => go(1)}>
             <UiIcon name="chevron-right" size={16} />
           </button>
@@ -692,16 +712,29 @@ function IllustrationPanel({
             ]}
             onChange={setFormat}
           />
-          <Seg
-            label="Motion"
-            value={motion}
-            options={[
-              { id: 'still', label: 'Still' },
-              { id: 'draw', label: 'Draw' },
-              { id: 'float', label: 'Float' },
-            ]}
-            onChange={setMotion}
-          />
+          {item.live ? (
+            <Seg
+              label="Motion"
+              value={live}
+              options={[
+                { id: 'animated', label: 'Animated' },
+                { id: 'interactive', label: 'Interactive' },
+                { id: 'scroll', label: 'Scroll' },
+              ]}
+              onChange={setLive}
+            />
+          ) : (
+            <Seg
+              label="Motion"
+              value={motionPick}
+              options={[
+                { id: 'still', label: 'Still' },
+                { id: 'draw', label: 'Draw' },
+                { id: 'float', label: 'Float' },
+              ]}
+              onChange={setMotion}
+            />
+          )}
           <div className="modal-actions">
             <button className="btn btn-outline btn-lg" onClick={doCopy}>
               <UiIcon name="copy" size={20} />

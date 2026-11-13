@@ -26,6 +26,18 @@
   border: 1.5px solid var(--color-border-focus); padding: 1.5px; box-shadow: 0 0 0 4px var(--color-effect-focus-ring);
 }
 .ill-tile.is-skeleton { animation: pulse 1.2s ease-in-out infinite alternate; }
+/* live tiles (Interactive, Scroll): the figure's own stage, on the tile's theme ground */
+.ill-tile.is-live { position: relative; }
+.ill-live { width: 100%; height: 100%; border-radius: 14px; display: flex; align-items: center; justify-content: center; }
+.ill-live > [data-hairline] { width: 100%; }
+.ill-tag {
+  position: absolute; top: 12px; z-index: 1; pointer-events: none;
+  font-family: var(--font-jetbrains), ui-monospace, monospace; font-size: 11px; line-height: 16px; letter-spacing: .02em;
+}
+.ill-tag.kind { left: 14px; color: var(--color-text-tertiary, var(--color-text-secondary)); }
+.ill-name-btn { align-self: flex-start; padding: 0; border: 0; background: none; text-align: left; cursor: pointer; }
+.ill-name-btn:hover { text-decoration: underline; text-underline-offset: 3px; }
+.ill-tag.read { right: 14px; color: var(--color-text-secondary); font-variant-numeric: tabular-nums; }
 .ill-name { font-weight: 500; font-size: 14px; line-height: 20px; color: var(--color-text-primary); }
 .ill-type-seg { align-self: flex-start; margin-top: 12px; padding: 3px; border-radius: var(--radius-sm); }
 .ill-type-seg .seg { border-radius: var(--radius-xs); }
@@ -51,6 +63,12 @@
 .stage.bg-transparent { background: none; }
 .ill-stage { width: min(416px, 80%); aspect-ratio: 1; }
 .ill-stage img { width: 100%; height: 100%; border-radius: 25.6px; display: block; }
+.ill-stage.is-live { display: flex; align-items: center; }
+.ill-stage.is-live .ill-live { border-radius: 25.6px; height: auto; aspect-ratio: 1; }
+/* Scroll mode in the popup: the preview is its own scroll box; the figure plays as it passes through */
+.ill-scrollbox { align-self: stretch; width: 100%; height: 100%; overflow-y: auto; display: flex; flex-direction: column; align-items: center; scrollbar-width: thin; }
+.ill-scroll-pad { flex: none; height: 70%; display: flex; align-items: flex-end; justify-content: center; padding-bottom: 16px; color: var(--color-text-secondary); font-size: 13px; }
+.ill-scrollbox .ill-stage { flex: none; }
 .modal-panel { display: flex; flex-direction: column; gap: 12px; padding: 24px; min-height: 0; overflow-y: auto; scrollbar-width: none; }
 .modal-top { display: flex; align-items: center; gap: 4px; min-height: 32px; }
 .crumb { flex: 1; min-width: 0; font: 500 13px/20px var(--font-mono); letter-spacing: .3px; color: var(--color-text-secondary); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }

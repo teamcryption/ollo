@@ -3,6 +3,8 @@
 import { useEffect, useMemo, useState } from 'react';
 import { fmt, loadIllustrations, searchIcons, svgDataUrl, type Category, type Illustration } from '@/lib/data';
 import { illustrationSvg, type IllTheme } from '@/lib/illustration';
+import type { LiveMode } from '@/lib/hairline';
+import { LiveIllustration } from './LiveIllustration';
 import { IN_FIGMA, figmaInsert, figmaPro } from '@/lib/figma';
 import { nameSvg } from '@/lib/data';
 import type { Theme } from '@/lib/hooks';
@@ -39,7 +41,15 @@ const INDUSTRY: Record<string, string> = {
   travel: 'Travel',
   food: 'Food & Delivery',
   logistics: 'Logistics',
+  energy: 'Energy',
+  realestate: 'Real Estate',
+  agriculture: 'Agriculture',
+  fitness: 'Fitness',
+  design: 'Design',
+  media: 'Media & Events',
 };
+/** Kinds that run the illustration live instead of showing its still. */
+const isLive = (k: Kind): k is 'interactive' | 'scroll' => k === 'interactive' || k === 'scroll';
 
 export function useIllustrationState() {
   const [items, setItems] = useState<Illustration[] | null>(null);
@@ -179,11 +189,13 @@ export function Illustrations({
 }) {
   const [tile, setTile] = useState<'S' | 'M' | 'L'>('M');
   const all = s.items ?? [];
-  const kindCount = (k: Kind) => (k === 'all' || k === 'static' ? all.length : 0);
+  const liveCount = all.filter((i) => i.live).length;
+  const kindCount = (k: Kind) => (k === 'all' || k === 'static' ? all.length : isLive(k) ? liveCount : 0);
   const list = useMemo(() => {
     let l = s.items ?? [];
     if (s.collection !== 'all') l = l.filter((i) => i.c === s.collection);
-    if (s.kind !== 'all' && s.kind !== 'static') l = [];
+    if (isLive(s.kind)) l = l.filter((i) => i.live);
+    else if (s.kind !== 'all' && s.kind !== 'static') l = [];
     if (s.animatedOnly) l = l.filter((i) => i.motion);
     // Same relevance search as icons: names, titles, tags, industry, plurals and synonyms.
     if (query.trim()) l = searchIcons(l, query, new Map(s.categories.map((c) => [c.id, c.title])));
@@ -279,6 +291,8 @@ export function Illustrations({
             <li key={item.n}>
               <IllCard
                 item={item}
+                live={isLive(s.kind) && item.live ? s.kind : null}
+                animate={s.kind !== 'static'}
                 type={s.type}
                 theme={effTheme}
                 colour={hex}
@@ -303,7 +317,7 @@ export function Illustrations({
           ))}
         </ul>
       ) : (
-        <p className="empty">{s.kind !== 'all' && s.kind !== 'static' ? 'This kind of illustration is coming soon.' : 'No illustrations match.'}</p>
+        <p className="empty">{s.kind === 'pages' || s.kind === 'empty' ? 'This kind of illustration is coming soon.' : 'No illustrations match.'}</p>
       )}
 
       {list.length > 0 && (
@@ -317,13 +331,32 @@ export function Illustrations({
   );
 }
 
-function IllCard({ item, type, theme, colour, onOpen }: { item: Illustration; type: IllType; theme: IllTheme; colour: string | null; onOpen: () => void }) {
+/** A live tile (Interactive, Scroll): the figure itself, answering the pointer or the page's scroll. */
+function IllCard({ item, live, animate, type, theme, colour, onOpen }: { item: Illustration; live: LiveMode | null; animate: boolean; type: IllType; theme: IllTheme; colour: string | null; onOpen: () => void }) {
+  if (live) {
+    return (
+      <div className="ill-card">
+        <span className="ill-tile is-live" onClick={onOpen}>
+          <LiveIllustration name={item.n} mode={live} style={type} theme={theme} colour={colour} />
+        </span>
+        <button className="ill-name ill-name-btn" onClick={onOpen} aria-label={`${item.t}, open download options`}>
+          {item.t}
+        </button>
+      </div>
+    );
+  }
+  return <StillCard item={item} animate={animate} type={type} theme={theme} colour={colour} onOpen={onOpen} />;
+}
+
+/** A still tile; a live illustration plays its animation while the pointer is over it. */
+function StillCard({ item, animate, type, theme, colour, onOpen }: { item: Illustration; animate: boolean; type: IllType; theme: IllTheme; colour: string | null; onOpen: () => void }) {
   const [hover, setHover] = useState(false);
   const still = useMemo(() => illustrationSvg(item, { type, theme, colour }), [item, type, theme, colour]);
   const moving = useMemo(
-    () => (hover && item.motion ? illustrationSvg(item, { type, theme, colour, motion: 'float' }) : null),
-    [hover, item, type, theme, colour],
+    () => (animate && hover && item.motion ? illustrationSvg(item, { type, theme, colour, motion: 'float' }) : null),
+    [animate, hover, item, type, theme, colour],
   );
+  const playing = animate && hover && !!item.live;
   return (
     <button
       className="ill-card"
@@ -334,9 +367,13 @@ function IllCard({ item, type, theme, colour, onOpen }: { item: Illustration; ty
       onBlur={() => setHover(false)}
       aria-label={`${item.t}, open download options`}
     >
-      <span className={`ill-tile theme-${theme}`}>
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src={svgDataUrl(moving ?? still)} alt="" />
+      <span className={`ill-tile theme-${theme}${playing ? ' is-live' : ''}`}>
+        {playing ? (
+          <LiveIllustration name={item.n} mode="animated" style={type} theme={theme} colour={colour} />
+        ) : (
+          /* eslint-disable-next-line @next/next/no-img-element */
+          <img src={svgDataUrl(moving ?? still)} alt="" />
+        )}
       </span>
       <span className="ill-name">{item.t}</span>
     </button>
