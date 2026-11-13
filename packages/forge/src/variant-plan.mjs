@@ -1865,6 +1865,61 @@ export default {
   'focus-ring': { containers: ['circle', 'square', 'hexagon'] }, // vc
   'for-all': { containers: ['circle', 'square', 'hexagon'] }, // vc
   'function': { containers: ['circle', 'square', 'hexagon'] }, // vc
+  'gradient': { containers: ['circle', 'square', 'hexagon'] }, // vc
+  'haze': { containers: ['circle', 'square', 'hexagon'] }, // vc
+  'heading': { containers: ['hexagon'] }, // vc
+  'hearing-loop': { containers: ['circle', 'square', 'hexagon'] }, // vc
+  'icicle': { containers: ['hexagon'] }, // vc
+  'icicles': { containers: ['circle', 'square'] }, // vc
+  'integral': { containers: ['circle', 'square', 'hexagon'] }, // vc
+  'letter-b': { containers: ['hexagon'] }, // vc
+  'letter-o': { containers: ['hexagon'] }, // vc
+  'lightning': { containers: ['circle', 'square', 'hexagon'] }, // vc
+  'math': { containers: ['circle', 'square', 'hexagon'] }, // vc
+  'moon': { containers: ['circle', 'square', 'hexagon'] }, // vc
+  'moon-phase': { containers: ['circle', 'square', 'hexagon'] }, // vc
+  'moon-stars': { containers: ['circle', 'square'] }, // vc
+  'move': { containers: ['hexagon'] }, // vc
+  'opacity': { containers: ['circle', 'square', 'hexagon'] }, // vc
+  'palette': { containers: ['circle', 'square', 'hexagon'] }, // vc
+  'parallel': { containers: ['circle', 'square', 'hexagon'] }, // vc
+  'pattern': { containers: ['circle', 'square', 'hexagon'] }, // vc
+  'pencil-ruler': { containers: ['circle', 'square', 'hexagon'] }, // vc
+  'perpendicular': { containers: ['circle', 'square', 'hexagon'] }, // vc
+  'perspective': { containers: ['circle', 'square', 'hexagon'] }, // vc
+  'quill': { containers: ['circle', 'square', 'hexagon'] }, // vc
+  'regex': { containers: ['circle', 'square', 'hexagon'] }, // vc
+  'registered': { containers: ['hexagon'] }, // vc
+  'resistor': { containers: ['circle', 'square', 'hexagon'] }, // vc
+  'ruler': { containers: ['circle', 'square', 'hexagon'] }, // vc
+  'selection': { containers: ['circle', 'square'] }, // vc
+  'shadow': { containers: ['circle', 'square', 'hexagon'] }, // vc
+  'shapes': { containers: ['circle', 'square', 'hexagon'] }, // vc
+  'sitemap': { containers: ['circle', 'square', 'hexagon'] }, // vc
+  'snow': { containers: ['circle', 'square', 'hexagon'] }, // vc
+  'snow-globe': { containers: ['circle', 'square', 'hexagon'] }, // vc
+  'snowflake': { containers: ['hexagon'] }, // vc
+  'spacing': { containers: ['circle', 'square', 'hexagon'] }, // vc
+  'spiral': { containers: ['circle', 'square', 'hexagon'] }, // vc
+  'step-over': { containers: ['circle', 'square', 'hexagon'] }, // vc
+  'strikethrough': { containers: ['hexagon'] }, // vc
+  'subtract': { containers: ['circle', 'square', 'hexagon'] }, // vc
+  'suitcase': { containers: ['circle', 'square', 'hexagon'] }, // vc
+  'sun-dim': { containers: ['circle', 'square', 'hexagon'] }, // vc
+  'sunrise': { containers: ['circle', 'square', 'hexagon'] }, // vc
+  'swatch-book': { containers: ['circle', 'square', 'hexagon'] }, // vc
+  'tape-measure': { containers: ['circle', 'square', 'hexagon'] }, // vc
+  'tide': { containers: ['circle', 'square', 'hexagon'] }, // vc
+  'tombstone': { containers: ['circle', 'square', 'hexagon'] }, // vc
+  'tornado': { containers: ['circle', 'square', 'hexagon'] }, // vc
+  'union': { containers: ['circle', 'square', 'hexagon'] }, // vc
+  'user-tie': { containers: ['circle', 'square', 'hexagon'] }, // vc
+  'variable': { containers: ['circle', 'square', 'hexagon'] }, // vc
+  'wheelchair': { containers: ['circle', 'square', 'hexagon'] }, // vc
+  'white-cane': { containers: ['circle', 'square', 'hexagon'] }, // vc
+  'wind': { containers: ['circle', 'square', 'hexagon'] }, // vc
+  'windsock': { containers: ['circle', 'square', 'hexagon'] }, // vc
+  'windvane': { containers: ['circle', 'square', 'hexagon'] }, // vc
 };
 
 export { OBJ, FULL };

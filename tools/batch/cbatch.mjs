@@ -15,10 +15,12 @@ if (cmd === 'pick') {
   const names = fs.readdirSync(ICONS); const has = new Set(names.map((x) => x.replace(/-/g, ''))); const pick = [];
   for (const n of names) {
     if (pick.length >= +arg) break;
-    if (plan[n] || /circle|square/.test(n) || /-(circle|square|off|add|check|close|remove|alert|search|clock|shield|gear|pin|bolt|heart|star|user|bell|cloud|chat|download|pencil|sparkle|trash|flag|calendar|question|bookmark|upload|crown|moon|leaf|fire|trophy|hourglass|cursor|camera|filter|stats|checkbox|lock|notice|pricing|addbox|bulb|wifi|percent|tag|eye|truck|music|key|pause|play)$/.test(n)) continue;
+    if (plan[n] || n.startsWith('no-') || /circle|square/.test(n) || /-(circle|square|off|add|check|close|remove|alert|search|clock|shield|gear|pin|bolt|heart|star|user|bell|cloud|chat|download|pencil|sparkle|trash|flag|calendar|question|bookmark|upload|crown|moon|leaf|fire|trophy|hourglass|cursor|camera|filter|stats|checkbox|lock|notice|pricing|addbox|bulb|wifi|percent|tag|eye|truck|music|key|pause|play)$/.test(n)) continue;
     let meta; try { meta = JSON.parse(fs.readFileSync(`${ICONS}/${n}/meta.json`, 'utf8')); } catch { continue; }
     if (meta.source !== 'forge' || meta.variant || (process.env.CB_ALL ? false : !CATS.has(meta.category))) continue;
-    const kinds = KINDS.filter((k) => !has.has(`${n}${k}`.replace(/-/g, '')));
+    // an icon that already has any container (from its def) is skipped: a plan entry would replace the def's list
+    if (KINDS.some((k) => has.has(`${n}${k}`.replace(/-/g, '')))) continue;
+    const kinds = KINDS;
     if (!kinds.length) continue;
     pick.push([n, kinds]);
   }

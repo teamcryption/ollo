@@ -1,13 +1,23 @@
 {
-  "generatedAt": "2026-11-13T05:34:45.170Z",
-  "icons": 60658,
-  "files": 303290,
+  "generatedAt": "2026-11-13T05:40:38.493Z",
+  "icons": 61099,
+  "files": 305495,
   "errors": [],
   "warnings": [],
   "duplicates": [
     {
-      "a": "accessibility-hexagon",
-      "b": "story-ring",
+      "a": "screen-magnifier-hexagon",
+      "b": "tape-measure-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "focus-ring-hexagon",
+      "b": "nut-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "focus-ring-hexagon",
+      "b": "life-buoy-hexagon",
       "distance": 1.41
     },
     {
@@ -21,13 +31,173 @@
       "distance": 1.41
     },
     {
+      "a": "closed-captions-hexagon",
+      "b": "stencil-hexagon",
+      "distance": 1
+    },
+    {
+      "a": "closed-captions-hexagon",
+      "b": "no-laptops-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "closed-captions-hexagon",
+      "b": "no-drones-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "closed-captions-hexagon",
+      "b": "no-cards-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "closed-captions-hexagon",
+      "b": "no-dairy-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "closed-captions-hexagon",
+      "b": "no-headphones-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "closed-captions-hexagon",
+      "b": "no-photos-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "closed-captions-hexagon",
+      "b": "story-ring-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "closed-captions-hexagon",
+      "b": "no-ball-games-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "closed-captions-hexagon",
+      "b": "no-luggage-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "compare-hexagon",
+      "b": "help-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-pets-hexagon",
+      "b": "no-bags-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-pets-hexagon",
+      "b": "no-laptops-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-pets-hexagon",
+      "b": "no-drones-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-pets-hexagon",
+      "b": "skull-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-pets-hexagon",
+      "b": "no-food-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-pets-hexagon",
+      "b": "no-gluten-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-pets-hexagon",
+      "b": "no-dairy-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-pets-hexagon",
+      "b": "no-headphones-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-pets-hexagon",
+      "b": "no-photos-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-pets-hexagon",
+      "b": "no-littering-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-pets-hexagon",
+      "b": "no-ball-games-hexagon",
+      "distance": 1
+    },
+    {
+      "a": "no-pets-hexagon",
+      "b": "nut-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-pets-hexagon",
+      "b": "no-cars-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-pets-hexagon",
+      "b": "no-fires-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-pets-hexagon",
+      "b": "no-luggage-hexagon",
+      "distance": 1
+    },
+    {
       "a": "arrow-right-short-hexagon",
       "b": "arrow-circle-right",
       "distance": 1
     },
     {
+      "a": "move-hexagon",
+      "b": "divide-hexagon",
+      "distance": 1
+    },
+    {
+      "a": "no-bags-hexagon",
+      "b": "no-phones-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-bags-hexagon",
+      "b": "no-drones-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-bags-hexagon",
+      "b": "no-food-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-bags-hexagon",
+      "b": "nut-hexagon",
+      "distance": 1.41
+    },
+    {
       "a": "basket-hexagon",
       "b": "ghost-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "chart-donut-hexagon",
+      "b": "pixelate-hexagon",
       "distance": 1.41
     },
     {
@@ -41,8 +211,383 @@
       "distance": 1.41
     },
     {
+      "a": "chart-donut-hexagon",
+      "b": "nut-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "stencil-hexagon",
+      "b": "no-strollers-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "perspective-hexagon",
+      "b": "story-ring-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "pattern-hexagon",
+      "b": "no-laptops-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "pattern-hexagon",
+      "b": "no-drones-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "pattern-hexagon",
+      "b": "no-cards-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "pattern-hexagon",
+      "b": "no-dairy-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "pattern-hexagon",
+      "b": "no-headphones-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "pattern-hexagon",
+      "b": "no-photos-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "pattern-hexagon",
+      "b": "story-ring-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "pattern-hexagon",
+      "b": "no-ball-games-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "pattern-hexagon",
+      "b": "no-horn-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "pattern-hexagon",
+      "b": "no-luggage-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "pattern-hexagon",
+      "b": "life-buoy-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "pattern-hexagon",
+      "b": "no-umbrellas-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "pixelate-hexagon",
+      "b": "no-phones-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "pixelate-hexagon",
+      "b": "no-drones-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "pixelate-hexagon",
+      "b": "eye-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "pixelate-hexagon",
+      "b": "target",
+      "distance": 1
+    },
+    {
+      "a": "pixelate-hexagon",
+      "b": "detour-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "pixelate-hexagon",
+      "b": "compass-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "pixelate-hexagon",
+      "b": "crosshair-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "pixelate-hexagon",
+      "b": "no-swimming-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "pixelate-hexagon",
+      "b": "nut-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "pixelate-hexagon",
+      "b": "no-left-turn-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "pixelate-hexagon",
+      "b": "no-right-turn-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "selection-hexagon",
+      "b": "bottle-cap",
+      "distance": 1.41
+    },
+    {
+      "a": "selection-hexagon",
+      "b": "life-buoy",
+      "distance": 1.41
+    },
+    {
+      "a": "variable-hexagon",
+      "b": "letter-m-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-phones-hexagon",
+      "b": "no-drones-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-phones-hexagon",
+      "b": "no-alcohol-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-phones-hexagon",
+      "b": "no-littering-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-phones-hexagon",
+      "b": "alert-diamond-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-phones-hexagon",
+      "b": "no-weapons-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-laptops-hexagon",
+      "b": "no-drones-hexagon",
+      "distance": 1
+    },
+    {
+      "a": "no-laptops-hexagon",
+      "b": "skull-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-laptops-hexagon",
+      "b": "database-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-laptops-hexagon",
+      "b": "no-cash-hexagon",
+      "distance": 1
+    },
+    {
+      "a": "no-laptops-hexagon",
+      "b": "no-cards-hexagon",
+      "distance": 1
+    },
+    {
+      "a": "no-laptops-hexagon",
+      "b": "no-food-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-laptops-hexagon",
+      "b": "no-dairy-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-laptops-hexagon",
+      "b": "no-fish-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-laptops-hexagon",
+      "b": "no-caffeine-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-laptops-hexagon",
+      "b": "no-headphones-hexagon",
+      "distance": 1
+    },
+    {
+      "a": "no-laptops-hexagon",
+      "b": "no-photos-hexagon",
+      "distance": 1
+    },
+    {
+      "a": "no-laptops-hexagon",
+      "b": "story-ring-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-laptops-hexagon",
+      "b": "no-ball-games-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-laptops-hexagon",
+      "b": "nut-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-laptops-hexagon",
+      "b": "no-cars-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-laptops-hexagon",
+      "b": "no-fires-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-laptops-hexagon",
+      "b": "no-luggage-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-flash-hexagon",
+      "b": "no-littering-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-flash-hexagon",
+      "b": "copyright-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-flash-hexagon",
+      "b": "nut-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-flash-hexagon",
+      "b": "no-umbrellas-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-drones-hexagon",
+      "b": "ghost-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-drones-hexagon",
+      "b": "skull-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-drones-hexagon",
+      "b": "alien-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-drones-hexagon",
+      "b": "no-cash-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-drones-hexagon",
+      "b": "no-cards-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-drones-hexagon",
+      "b": "no-food-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-drones-hexagon",
+      "b": "no-dairy-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-drones-hexagon",
+      "b": "no-fish-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-drones-hexagon",
+      "b": "no-caffeine-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-drones-hexagon",
+      "b": "no-smoking-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-drones-hexagon",
+      "b": "no-headphones-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-drones-hexagon",
+      "b": "no-photos-hexagon",
+      "distance": 1
+    },
+    {
+      "a": "no-drones-hexagon",
+      "b": "story-ring-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-drones-hexagon",
+      "b": "no-ball-games-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-drones-hexagon",
+      "b": "nut-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-drones-hexagon",
+      "b": "no-cars-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-drones-hexagon",
+      "b": "no-fires-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-drones-hexagon",
+      "b": "no-luggage-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "integral-hexagon",
+      "b": "italic-hexagon",
+      "distance": 1.41
+    },
+    {
       "a": "divide-hexagon",
       "b": "add-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "divide-hexagon",
+      "b": "lightning-hexagon",
       "distance": 1.41
     },
     {
@@ -52,7 +597,152 @@
     },
     {
       "a": "ghost-hexagon",
+      "b": "no-cash-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "ghost-hexagon",
+      "b": "no-cooking-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "ghost-hexagon",
+      "b": "no-fish-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "ghost-hexagon",
+      "b": "no-caffeine-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "ghost-hexagon",
+      "b": "no-smoking-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "ghost-hexagon",
       "b": "no-photos",
+      "distance": 1.41
+    },
+    {
+      "a": "ghost-hexagon",
+      "b": "no-strollers-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "ghost-hexagon",
+      "b": "no-cycling-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "ghost-hexagon",
+      "b": "nut-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "ghost-hexagon",
+      "b": "no-cars-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "ghost-hexagon",
+      "b": "humidity-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "skull-hexagon",
+      "b": "alien-hexagon",
+      "distance": 1
+    },
+    {
+      "a": "skull-hexagon",
+      "b": "no-cash-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "skull-hexagon",
+      "b": "no-cards-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "skull-hexagon",
+      "b": "no-food-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "skull-hexagon",
+      "b": "no-gluten-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "skull-hexagon",
+      "b": "no-fish-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "skull-hexagon",
+      "b": "no-caffeine-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "skull-hexagon",
+      "b": "no-smoking-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "skull-hexagon",
+      "b": "target",
+      "distance": 1.41
+    },
+    {
+      "a": "skull-hexagon",
+      "b": "no-headphones-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "skull-hexagon",
+      "b": "no-photos-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "skull-hexagon",
+      "b": "no-ball-games-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "skull-hexagon",
+      "b": "no-cycling-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "skull-hexagon",
+      "b": "nut-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "skull-hexagon",
+      "b": "no-horn-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "skull-hexagon",
+      "b": "no-cars-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "skull-hexagon",
+      "b": "no-fires-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "skull-hexagon",
+      "b": "no-luggage-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "skull-hexagon",
+      "b": "no-umbrellas-hexagon",
       "distance": 1.41
     },
     {
@@ -61,8 +751,453 @@
       "distance": 1.41
     },
     {
+      "a": "alien-hexagon",
+      "b": "no-cash-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "alien-hexagon",
+      "b": "no-fish-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "alien-hexagon",
+      "b": "no-caffeine-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "alien-hexagon",
+      "b": "no-smoking-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "alien-hexagon",
+      "b": "nut-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "alien-hexagon",
+      "b": "no-cars-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "database-hexagon",
+      "b": "no-cash-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "database-hexagon",
+      "b": "no-cards-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "database-hexagon",
+      "b": "no-fish-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "database-hexagon",
+      "b": "no-caffeine-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "database-hexagon",
+      "b": "no-photos-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "database-hexagon",
+      "b": "no-ball-games-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "database-hexagon",
+      "b": "no-cars-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "database-hexagon",
+      "b": "life-buoy-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-cash-hexagon",
+      "b": "no-cards-hexagon",
+      "distance": 1
+    },
+    {
+      "a": "no-cash-hexagon",
+      "b": "no-fish-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-cash-hexagon",
+      "b": "no-caffeine-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-cash-hexagon",
+      "b": "no-headphones-hexagon",
+      "distance": 1
+    },
+    {
+      "a": "no-cash-hexagon",
+      "b": "no-photos-hexagon",
+      "distance": 1
+    },
+    {
+      "a": "no-cash-hexagon",
+      "b": "no-ball-games-hexagon",
+      "distance": 1
+    },
+    {
+      "a": "no-cash-hexagon",
+      "b": "nut-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-cash-hexagon",
+      "b": "no-cars-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-cards-hexagon",
+      "b": "no-dairy-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-cards-hexagon",
+      "b": "no-fish-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-cards-hexagon",
+      "b": "no-caffeine-hexagon",
+      "distance": 1
+    },
+    {
+      "a": "no-cards-hexagon",
+      "b": "no-headphones-hexagon",
+      "distance": 1
+    },
+    {
+      "a": "no-cards-hexagon",
+      "b": "no-photos-hexagon",
+      "distance": 1
+    },
+    {
+      "a": "no-cards-hexagon",
+      "b": "story-ring-hexagon",
+      "distance": 1
+    },
+    {
+      "a": "no-cards-hexagon",
+      "b": "no-ball-games-hexagon",
+      "distance": 1
+    },
+    {
+      "a": "no-cards-hexagon",
+      "b": "nut-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-cards-hexagon",
+      "b": "no-cars-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-cards-hexagon",
+      "b": "no-luggage-hexagon",
+      "distance": 1
+    },
+    {
+      "a": "yen-circle",
+      "b": "medal-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-alcohol-hexagon",
+      "b": "no-gluten-hexagon",
+      "distance": 1
+    },
+    {
+      "a": "no-alcohol-hexagon",
+      "b": "no-littering-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-alcohol-hexagon",
+      "b": "no-weapons-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-alcohol-hexagon",
+      "b": "registered-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-cooking-hexagon",
+      "b": "no-strollers-hexagon",
+      "distance": 1
+    },
+    {
+      "a": "no-cooking-hexagon",
+      "b": "no-cycling-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-cooking-hexagon",
+      "b": "nut-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-cooking-hexagon",
+      "b": "no-cars-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-cooking-hexagon",
+      "b": "no-fires-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-food-hexagon",
+      "b": "no-dairy-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-food-hexagon",
+      "b": "no-headphones-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-food-hexagon",
+      "b": "no-photos-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-food-hexagon",
+      "b": "no-littering-hexagon",
+      "distance": 1
+    },
+    {
+      "a": "no-food-hexagon",
+      "b": "no-weapons-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-food-hexagon",
+      "b": "no-fishing-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-food-hexagon",
+      "b": "no-ball-games-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-food-hexagon",
+      "b": "no-swimming-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-food-hexagon",
+      "b": "copyright-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-food-hexagon",
+      "b": "nut-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-food-hexagon",
+      "b": "no-cars-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-food-hexagon",
+      "b": "no-fires-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-food-hexagon",
+      "b": "no-luggage-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-gluten-hexagon",
+      "b": "no-littering-hexagon",
+      "distance": 1
+    },
+    {
+      "a": "no-gluten-hexagon",
+      "b": "no-weapons-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-gluten-hexagon",
+      "b": "copyright-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-gluten-hexagon",
+      "b": "registered-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-gluten-hexagon",
+      "b": "nut-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-gluten-hexagon",
+      "b": "no-fires-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-gluten-hexagon",
+      "b": "no-umbrellas-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-dairy-hexagon",
+      "b": "no-headphones-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-dairy-hexagon",
+      "b": "no-photos-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-dairy-hexagon",
+      "b": "story-ring-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-dairy-hexagon",
+      "b": "no-ball-games-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-dairy-hexagon",
+      "b": "nut-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-dairy-hexagon",
+      "b": "no-camping-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-dairy-hexagon",
+      "b": "no-luggage-hexagon",
+      "distance": 1
+    },
+    {
+      "a": "no-fish-hexagon",
+      "b": "no-caffeine-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-fish-hexagon",
+      "b": "no-headphones-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-fish-hexagon",
+      "b": "no-photos-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-fish-hexagon",
+      "b": "no-ball-games-hexagon",
+      "distance": 1
+    },
+    {
+      "a": "no-fish-hexagon",
+      "b": "no-cycling-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-fish-hexagon",
+      "b": "nut-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-fish-hexagon",
+      "b": "no-horn-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-fish-hexagon",
+      "b": "no-cars-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-caffeine-hexagon",
+      "b": "no-headphones-hexagon",
+      "distance": 1
+    },
+    {
+      "a": "no-caffeine-hexagon",
+      "b": "no-photos-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-caffeine-hexagon",
+      "b": "no-ball-games-hexagon",
+      "distance": 1
+    },
+    {
+      "a": "no-caffeine-hexagon",
+      "b": "no-cycling-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-caffeine-hexagon",
+      "b": "nut-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-caffeine-hexagon",
+      "b": "no-cars-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-caffeine-hexagon",
+      "b": "no-fires-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-caffeine-hexagon",
+      "b": "no-luggage-hexagon",
+      "distance": 1
+    },
+    {
+      "a": "no-smoking-hexagon",
+      "b": "detour-hexagon",
+      "distance": 1.41
+    },
+    {
       "a": "eye-hexagon",
       "b": "detour-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "eye-hexagon",
+      "b": "heart-plus-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "eye-hexagon",
+      "b": "nut-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "target",
+      "b": "no-littering-hexagon",
       "distance": 1.41
     },
     {
@@ -77,7 +1212,107 @@
     },
     {
       "a": "target",
+      "b": "no-fishing-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "target",
       "b": "copyright-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "target",
+      "b": "nut-hexagon",
+      "distance": 1
+    },
+    {
+      "a": "target",
+      "b": "no-right-turn-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-headphones-hexagon",
+      "b": "no-photos-hexagon",
+      "distance": 1
+    },
+    {
+      "a": "no-headphones-hexagon",
+      "b": "story-ring-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-headphones-hexagon",
+      "b": "no-ball-games-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-headphones-hexagon",
+      "b": "nut-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-headphones-hexagon",
+      "b": "no-cars-hexagon",
+      "distance": 1
+    },
+    {
+      "a": "no-headphones-hexagon",
+      "b": "no-fires-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-headphones-hexagon",
+      "b": "no-luggage-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-photos-hexagon",
+      "b": "story-ring-hexagon",
+      "distance": 1
+    },
+    {
+      "a": "no-photos-hexagon",
+      "b": "no-ball-games-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-photos-hexagon",
+      "b": "nut-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-photos-hexagon",
+      "b": "no-cars-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-photos-hexagon",
+      "b": "no-fires-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-photos-hexagon",
+      "b": "no-luggage-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-littering-hexagon",
+      "b": "no-weapons-hexagon",
+      "distance": 1
+    },
+    {
+      "a": "no-littering-hexagon",
+      "b": "registered-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-littering-hexagon",
+      "b": "nut-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-littering-hexagon",
+      "b": "no-fires-hexagon",
       "distance": 1.41
     },
     {
@@ -91,23 +1326,403 @@
       "distance": 1.41
     },
     {
+      "a": "detour-hexagon",
+      "b": "no-right-turn-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "compass-hexagon",
+      "b": "nut-hexagon",
+      "distance": 1.41
+    },
+    {
       "a": "crosshair-hexagon",
       "b": "alert-diamond-hexagon",
       "distance": 1.41
     },
     {
-      "a": "contrast-circle",
-      "b": "compare-circle",
+      "a": "crosshair-hexagon",
+      "b": "nut-hexagon",
       "distance": 1.41
     },
     {
-      "a": "contrast-circle",
-      "b": "alert-octagon-circle",
+      "a": "crosshair-hexagon",
+      "b": "sun-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "alert-diamond-hexagon",
+      "b": "story-ring-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "alert-diamond-hexagon",
+      "b": "heart-plus-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "notification-stack-hexagon",
+      "b": "story-ring-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "bell-plus-hexagon",
+      "b": "humidity-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-strollers-hexagon",
+      "b": "no-cycling-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-strollers-hexagon",
+      "b": "no-camping-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "hot-surface-hexagon",
+      "b": "magnetic-field-hexagon",
       "distance": 1
     },
     {
-      "a": "contrast-circle",
-      "b": "alert-diamond-circle",
+      "a": "no-weapons-hexagon",
+      "b": "nut-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-weapons-hexagon",
+      "b": "no-camping-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "heart-burst-hexagon",
+      "b": "strikethrough-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "story-ring-hexagon",
+      "b": "no-ball-games-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "story-ring-hexagon",
+      "b": "nut-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "story-ring-hexagon",
+      "b": "no-luggage-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "heart-plus-hexagon",
+      "b": "nut-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-fishing-hexagon",
+      "b": "no-swimming-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-fishing-hexagon",
+      "b": "copyright-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-fishing-hexagon",
+      "b": "nut-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-fishing-hexagon",
+      "b": "no-horn-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-fishing-hexagon",
+      "b": "no-camping-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-ball-games-hexagon",
+      "b": "nut-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-ball-games-hexagon",
+      "b": "no-horn-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-ball-games-hexagon",
+      "b": "no-cars-hexagon",
+      "distance": 1
+    },
+    {
+      "a": "no-ball-games-hexagon",
+      "b": "no-fires-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-ball-games-hexagon",
+      "b": "no-luggage-hexagon",
+      "distance": 1
+    },
+    {
+      "a": "no-cycling-hexagon",
+      "b": "nut-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-cycling-hexagon",
+      "b": "no-cars-hexagon",
+      "distance": 1
+    },
+    {
+      "a": "no-swimming-hexagon",
+      "b": "nut-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-swimming-hexagon",
+      "b": "no-cars-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-swimming-hexagon",
+      "b": "no-camping-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-swimming-hexagon",
+      "b": "no-fires-hexagon",
+      "distance": 1
+    },
+    {
+      "a": "copyright-hexagon",
+      "b": "nut-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "copyright-hexagon",
+      "b": "no-horn-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "registered-hexagon",
+      "b": "nut-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "registered-hexagon",
+      "b": "no-parking-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "registered-hexagon",
+      "b": "no-fires-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "nut-hexagon",
+      "b": "no-right-turn-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "nut-hexagon",
+      "b": "no-horn-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "nut-hexagon",
+      "b": "no-cars-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "nut-hexagon",
+      "b": "no-camping-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "nut-hexagon",
+      "b": "no-fires-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "nut-hexagon",
+      "b": "no-luggage-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "nut-hexagon",
+      "b": "life-buoy-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "nut-hexagon",
+      "b": "no-umbrellas-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "nut-hexagon",
+      "b": "snowflake-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-parking-hexagon",
+      "b": "no-right-turn-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-horn-hexagon",
+      "b": "no-umbrellas-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-cars-hexagon",
+      "b": "no-camping-hexagon",
+      "distance": 1
+    },
+    {
+      "a": "no-cars-hexagon",
+      "b": "no-fires-hexagon",
+      "distance": 1
+    },
+    {
+      "a": "no-cars-hexagon",
+      "b": "no-luggage-hexagon",
+      "distance": 1
+    },
+    {
+      "a": "no-camping-hexagon",
+      "b": "no-fires-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "no-fires-hexagon",
+      "b": "no-luggage-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "sleet-hexagon",
+      "b": "rain-heavy-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "sleet-hexagon",
+      "b": "rain-hexagon",
+      "distance": 1
+    },
+    {
+      "a": "icicle-hexagon",
+      "b": "icicles-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "temperature-high-hexagon",
+      "b": "temperature-low-hexagon",
+      "distance": 1
+    },
+    {
+      "a": "hail-hexagon",
+      "b": "rain-heavy-hexagon",
+      "distance": 1
+    },
+    {
+      "a": "hail-hexagon",
+      "b": "rain-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "rain-heavy-hexagon",
+      "b": "rain-hexagon",
+      "distance": 1.41
+    },
+    {
+      "a": "screen-magnifier-circle",
+      "b": "tape-measure-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "focus-ring-circle",
+      "b": "nut-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "focus-ring-circle",
+      "b": "life-buoy-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "closed-captions-circle",
+      "b": "stencil-circle",
+      "distance": 1
+    },
+    {
+      "a": "closed-captions-circle",
+      "b": "no-laptops-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "closed-captions-circle",
+      "b": "no-drones-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "closed-captions-circle",
+      "b": "no-cards-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "closed-captions-circle",
+      "b": "no-dairy-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "closed-captions-circle",
+      "b": "no-headphones-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "closed-captions-circle",
+      "b": "no-photos-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "closed-captions-circle",
+      "b": "story-ring-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "closed-captions-circle",
+      "b": "no-ball-games-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "closed-captions-circle",
+      "b": "no-luggage-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "multi-select-circle",
+      "b": "no-drones-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "multi-select-circle",
+      "b": "no-fires-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "tap-circle",
+      "b": "swipe-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "compare-circle",
+      "b": "help-circle",
       "distance": 1.41
     },
     {
@@ -116,8 +1731,123 @@
       "distance": 1.41
     },
     {
+      "a": "no-pets-circle",
+      "b": "no-bags-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-pets-circle",
+      "b": "no-laptops-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-pets-circle",
+      "b": "no-drones-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-pets-circle",
+      "b": "skull-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-pets-circle",
+      "b": "no-food-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-pets-circle",
+      "b": "no-gluten-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-pets-circle",
+      "b": "no-dairy-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-pets-circle",
+      "b": "settings-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-pets-circle",
+      "b": "no-headphones-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-pets-circle",
+      "b": "no-photos-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-pets-circle",
+      "b": "no-littering-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-pets-circle",
+      "b": "no-ball-games-circle",
+      "distance": 1
+    },
+    {
+      "a": "no-pets-circle",
+      "b": "nut-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-pets-circle",
+      "b": "no-cars-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-pets-circle",
+      "b": "no-fires-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-pets-circle",
+      "b": "no-luggage-circle",
+      "distance": 1
+    },
+    {
+      "a": "arrows-converge-circle",
+      "b": "move-circle",
+      "distance": 1
+    },
+    {
+      "a": "no-bags-circle",
+      "b": "no-phones-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-bags-circle",
+      "b": "no-drones-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-bags-circle",
+      "b": "no-food-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-bags-circle",
+      "b": "settings-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-bags-circle",
+      "b": "nut-circle",
+      "distance": 1.41
+    },
+    {
       "a": "basket-circle",
       "b": "ghost-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "chart-donut-circle",
+      "b": "pixelate-circle",
       "distance": 1.41
     },
     {
@@ -131,8 +1861,328 @@
       "distance": 1.41
     },
     {
+      "a": "chart-donut-circle",
+      "b": "nut-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "stencil-circle",
+      "b": "no-strollers-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "pixelate-circle",
+      "b": "no-phones-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "pixelate-circle",
+      "b": "no-drones-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "pixelate-circle",
+      "b": "settings-circle",
+      "distance": 1
+    },
+    {
+      "a": "pixelate-circle",
+      "b": "detour-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "pixelate-circle",
+      "b": "compass-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "pixelate-circle",
+      "b": "no-swimming-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "pixelate-circle",
+      "b": "nut-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "pixelate-circle",
+      "b": "no-left-turn-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "pixelate-circle",
+      "b": "no-right-turn-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "variable-circle",
+      "b": "letter-m-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-phones-circle",
+      "b": "no-drones-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-phones-circle",
+      "b": "no-alcohol-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-phones-circle",
+      "b": "no-littering-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-phones-circle",
+      "b": "alert-diamond-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-phones-circle",
+      "b": "no-weapons-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-laptops-circle",
+      "b": "no-drones-circle",
+      "distance": 1
+    },
+    {
+      "a": "no-laptops-circle",
+      "b": "skull-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-laptops-circle",
+      "b": "database-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-laptops-circle",
+      "b": "no-cash-circle",
+      "distance": 1
+    },
+    {
+      "a": "no-laptops-circle",
+      "b": "no-cards-circle",
+      "distance": 1
+    },
+    {
+      "a": "no-laptops-circle",
+      "b": "no-food-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-laptops-circle",
+      "b": "no-dairy-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-laptops-circle",
+      "b": "no-fish-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-laptops-circle",
+      "b": "no-caffeine-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-laptops-circle",
+      "b": "settings-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-laptops-circle",
+      "b": "no-headphones-circle",
+      "distance": 1
+    },
+    {
+      "a": "no-laptops-circle",
+      "b": "no-photos-circle",
+      "distance": 1
+    },
+    {
+      "a": "no-laptops-circle",
+      "b": "story-ring-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-laptops-circle",
+      "b": "no-ball-games-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-laptops-circle",
+      "b": "nut-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-laptops-circle",
+      "b": "no-cars-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-laptops-circle",
+      "b": "no-fires-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-laptops-circle",
+      "b": "no-luggage-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-flash-circle",
+      "b": "settings-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-flash-circle",
+      "b": "no-littering-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-flash-circle",
+      "b": "copyright-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-flash-circle",
+      "b": "nut-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-flash-circle",
+      "b": "no-umbrellas-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-drones-circle",
+      "b": "ghost-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-drones-circle",
+      "b": "skull-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-drones-circle",
+      "b": "alien-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-drones-circle",
+      "b": "no-cash-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-drones-circle",
+      "b": "no-cards-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-drones-circle",
+      "b": "no-food-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-drones-circle",
+      "b": "no-dairy-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-drones-circle",
+      "b": "no-fish-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-drones-circle",
+      "b": "no-caffeine-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-drones-circle",
+      "b": "no-smoking-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-drones-circle",
+      "b": "settings-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-drones-circle",
+      "b": "no-headphones-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-drones-circle",
+      "b": "no-photos-circle",
+      "distance": 1
+    },
+    {
+      "a": "no-drones-circle",
+      "b": "story-ring-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-drones-circle",
+      "b": "no-ball-games-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-drones-circle",
+      "b": "nut-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-drones-circle",
+      "b": "no-cars-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-drones-circle",
+      "b": "no-fires-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-drones-circle",
+      "b": "no-luggage-circle",
+      "distance": 1.41
+    },
+    {
       "a": "ghost-circle",
       "b": "clipboard-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "ghost-circle",
+      "b": "no-cash-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "ghost-circle",
+      "b": "no-cooking-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "ghost-circle",
+      "b": "no-fish-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "ghost-circle",
+      "b": "no-caffeine-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "ghost-circle",
+      "b": "no-smoking-circle",
       "distance": 1.41
     },
     {
@@ -141,28 +2191,603 @@
       "distance": 1.41
     },
     {
+      "a": "ghost-circle",
+      "b": "no-strollers-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "ghost-circle",
+      "b": "no-cycling-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "ghost-circle",
+      "b": "no-cars-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "skull-circle",
+      "b": "alien-circle",
+      "distance": 1
+    },
+    {
+      "a": "skull-circle",
+      "b": "no-cash-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "skull-circle",
+      "b": "no-cards-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "skull-circle",
+      "b": "no-food-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "skull-circle",
+      "b": "no-gluten-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "skull-circle",
+      "b": "no-fish-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "skull-circle",
+      "b": "no-caffeine-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "skull-circle",
+      "b": "no-smoking-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "skull-circle",
+      "b": "settings-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "skull-circle",
+      "b": "no-headphones-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "skull-circle",
+      "b": "no-photos-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "skull-circle",
+      "b": "no-ball-games-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "skull-circle",
+      "b": "no-cycling-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "skull-circle",
+      "b": "nut-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "skull-circle",
+      "b": "no-horn-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "skull-circle",
+      "b": "no-cars-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "skull-circle",
+      "b": "no-fires-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "skull-circle",
+      "b": "no-luggage-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "skull-circle",
+      "b": "no-umbrellas-circle",
+      "distance": 1.41
+    },
+    {
       "a": "alien-circle",
       "b": "database-circle",
       "distance": 1.41
     },
     {
-      "a": "medical-cross-circle",
-      "b": "eye-circle",
+      "a": "alien-circle",
+      "b": "no-cash-circle",
       "distance": 1.41
     },
     {
-      "a": "medical-cross-circle",
-      "b": "crosshair-circle",
+      "a": "alien-circle",
+      "b": "no-fish-circle",
       "distance": 1.41
     },
     {
-      "a": "cursor-wait-circle",
-      "b": "cursor-help-circle",
+      "a": "alien-circle",
+      "b": "no-caffeine-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "alien-circle",
+      "b": "no-smoking-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "alien-circle",
+      "b": "nut-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "alien-circle",
+      "b": "no-cars-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "database-circle",
+      "b": "no-cash-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "database-circle",
+      "b": "no-cards-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "database-circle",
+      "b": "no-fish-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "database-circle",
+      "b": "no-caffeine-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "database-circle",
+      "b": "no-photos-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "database-circle",
+      "b": "no-ball-games-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "database-circle",
+      "b": "no-cars-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "database-circle",
+      "b": "life-buoy-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-cash-circle",
+      "b": "no-cards-circle",
       "distance": 1
     },
     {
+      "a": "no-cash-circle",
+      "b": "no-fish-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-cash-circle",
+      "b": "no-caffeine-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-cash-circle",
+      "b": "settings-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-cash-circle",
+      "b": "no-headphones-circle",
+      "distance": 1
+    },
+    {
+      "a": "no-cash-circle",
+      "b": "no-photos-circle",
+      "distance": 1
+    },
+    {
+      "a": "no-cash-circle",
+      "b": "no-ball-games-circle",
+      "distance": 1
+    },
+    {
+      "a": "no-cash-circle",
+      "b": "nut-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-cash-circle",
+      "b": "no-cars-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-cards-circle",
+      "b": "no-dairy-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-cards-circle",
+      "b": "no-fish-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-cards-circle",
+      "b": "no-caffeine-circle",
+      "distance": 1
+    },
+    {
+      "a": "no-cards-circle",
+      "b": "settings-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-cards-circle",
+      "b": "no-headphones-circle",
+      "distance": 1
+    },
+    {
+      "a": "no-cards-circle",
+      "b": "no-photos-circle",
+      "distance": 1
+    },
+    {
+      "a": "no-cards-circle",
+      "b": "story-ring-circle",
+      "distance": 1
+    },
+    {
+      "a": "no-cards-circle",
+      "b": "no-ball-games-circle",
+      "distance": 1
+    },
+    {
+      "a": "no-cards-circle",
+      "b": "nut-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-cards-circle",
+      "b": "no-cars-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-cards-circle",
+      "b": "no-luggage-circle",
+      "distance": 1
+    },
+    {
+      "a": "no-alcohol-circle",
+      "b": "no-gluten-circle",
+      "distance": 1
+    },
+    {
+      "a": "no-alcohol-circle",
+      "b": "settings-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-alcohol-circle",
+      "b": "no-littering-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-alcohol-circle",
+      "b": "no-weapons-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-alcohol-circle",
+      "b": "registered-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-cooking-circle",
+      "b": "settings-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-cooking-circle",
+      "b": "no-strollers-circle",
+      "distance": 1
+    },
+    {
+      "a": "no-cooking-circle",
+      "b": "no-cycling-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-cooking-circle",
+      "b": "nut-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-cooking-circle",
+      "b": "no-cars-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-cooking-circle",
+      "b": "no-fires-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-food-circle",
+      "b": "no-dairy-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-food-circle",
+      "b": "settings-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-food-circle",
+      "b": "no-headphones-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-food-circle",
+      "b": "no-photos-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-food-circle",
+      "b": "no-littering-circle",
+      "distance": 1
+    },
+    {
+      "a": "no-food-circle",
+      "b": "no-weapons-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-food-circle",
+      "b": "no-fishing-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-food-circle",
+      "b": "no-ball-games-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-food-circle",
+      "b": "no-swimming-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-food-circle",
+      "b": "copyright-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-food-circle",
+      "b": "nut-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-food-circle",
+      "b": "no-cars-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-food-circle",
+      "b": "no-fires-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-food-circle",
+      "b": "no-luggage-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-gluten-circle",
+      "b": "settings-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-gluten-circle",
+      "b": "no-littering-circle",
+      "distance": 1
+    },
+    {
+      "a": "no-gluten-circle",
+      "b": "no-weapons-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-gluten-circle",
+      "b": "copyright-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-gluten-circle",
+      "b": "registered-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-gluten-circle",
+      "b": "nut-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-gluten-circle",
+      "b": "no-fires-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-gluten-circle",
+      "b": "no-umbrellas-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-dairy-circle",
+      "b": "settings-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-dairy-circle",
+      "b": "no-headphones-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-dairy-circle",
+      "b": "no-photos-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-dairy-circle",
+      "b": "story-ring-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-dairy-circle",
+      "b": "no-ball-games-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-dairy-circle",
+      "b": "nut-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-dairy-circle",
+      "b": "no-camping-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-dairy-circle",
+      "b": "no-luggage-circle",
+      "distance": 1
+    },
+    {
+      "a": "no-fish-circle",
+      "b": "no-caffeine-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-fish-circle",
+      "b": "settings-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-fish-circle",
+      "b": "no-headphones-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-fish-circle",
+      "b": "no-photos-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-fish-circle",
+      "b": "no-ball-games-circle",
+      "distance": 1
+    },
+    {
+      "a": "no-fish-circle",
+      "b": "no-cycling-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-fish-circle",
+      "b": "nut-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-fish-circle",
+      "b": "no-horn-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-fish-circle",
+      "b": "no-cars-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-caffeine-circle",
+      "b": "settings-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-caffeine-circle",
+      "b": "no-headphones-circle",
+      "distance": 1
+    },
+    {
+      "a": "no-caffeine-circle",
+      "b": "no-photos-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-caffeine-circle",
+      "b": "no-ball-games-circle",
+      "distance": 1
+    },
+    {
+      "a": "no-caffeine-circle",
+      "b": "no-cycling-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-caffeine-circle",
+      "b": "nut-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-caffeine-circle",
+      "b": "no-cars-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-caffeine-circle",
+      "b": "no-fires-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-caffeine-circle",
+      "b": "no-luggage-circle",
+      "distance": 1
+    },
+    {
+      "a": "no-smoking-circle",
+      "b": "detour-circle",
+      "distance": 1.41
+    },
+    {
       "a": "settings-circle",
-      "b": "eye-circle",
+      "b": "no-headphones-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "settings-circle",
+      "b": "no-photos-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "settings-circle",
+      "b": "no-littering-circle",
       "distance": 1.41
     },
     {
@@ -177,7 +2802,37 @@
     },
     {
       "a": "settings-circle",
-      "b": "crosshair-circle",
+      "b": "no-strollers-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "settings-circle",
+      "b": "no-weapons-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "settings-circle",
+      "b": "story-ring-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "settings-circle",
+      "b": "no-fishing-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "settings-circle",
+      "b": "no-ball-games-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "settings-circle",
+      "b": "no-cycling-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "settings-circle",
+      "b": "no-swimming-circle",
       "distance": 1.41
     },
     {
@@ -187,17 +2842,147 @@
     },
     {
       "a": "settings-circle",
-      "b": "eclipse-circle",
+      "b": "registered-circle",
       "distance": 1.41
     },
     {
-      "a": "eye-circle",
-      "b": "detour-circle",
+      "a": "settings-circle",
+      "b": "nut-circle",
+      "distance": 1
+    },
+    {
+      "a": "settings-circle",
+      "b": "no-right-turn-circle",
       "distance": 1.41
     },
     {
-      "a": "eye-circle",
-      "b": "heart-crack-circle",
+      "a": "settings-circle",
+      "b": "no-horn-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "settings-circle",
+      "b": "no-cars-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "settings-circle",
+      "b": "no-camping-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "settings-circle",
+      "b": "no-fires-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "settings-circle",
+      "b": "no-luggage-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "settings-circle",
+      "b": "life-buoy-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "settings-circle",
+      "b": "no-umbrellas-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "settings-circle",
+      "b": "snowflake-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "settings-circle",
+      "b": "sun-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-headphones-circle",
+      "b": "no-photos-circle",
+      "distance": 1
+    },
+    {
+      "a": "no-headphones-circle",
+      "b": "story-ring-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-headphones-circle",
+      "b": "no-ball-games-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-headphones-circle",
+      "b": "nut-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-headphones-circle",
+      "b": "no-cars-circle",
+      "distance": 1
+    },
+    {
+      "a": "no-headphones-circle",
+      "b": "no-fires-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-headphones-circle",
+      "b": "no-luggage-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-photos-circle",
+      "b": "story-ring-circle",
+      "distance": 1
+    },
+    {
+      "a": "no-photos-circle",
+      "b": "no-ball-games-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-photos-circle",
+      "b": "nut-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-photos-circle",
+      "b": "no-cars-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-photos-circle",
+      "b": "no-fires-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-photos-circle",
+      "b": "no-luggage-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-littering-circle",
+      "b": "no-weapons-circle",
+      "distance": 1
+    },
+    {
+      "a": "no-littering-circle",
+      "b": "registered-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-littering-circle",
+      "b": "nut-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-littering-circle",
+      "b": "no-fires-circle",
       "distance": 1.41
     },
     {
@@ -207,12 +2992,17 @@
     },
     {
       "a": "detour-circle",
-      "b": "crosshair-circle",
+      "b": "no-right-turn-circle",
       "distance": 1.41
     },
     {
-      "a": "crosshair-circle",
-      "b": "alert-diamond-circle",
+      "a": "yield-sign-circle",
+      "b": "icicle-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "compass-circle",
+      "b": "nut-circle",
       "distance": 1.41
     },
     {
@@ -226,8 +3016,323 @@
       "distance": 1.41
     },
     {
-      "a": "arrows-left-right-circle",
-      "b": "arrow-wave-right-circle",
+      "a": "alert-diamond-circle",
+      "b": "story-ring-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "alert-diamond-circle",
+      "b": "heart-plus-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "notification-stack-circle",
+      "b": "story-ring-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "bell-plus-circle",
+      "b": "humidity-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-strollers-circle",
+      "b": "no-cycling-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-strollers-circle",
+      "b": "no-camping-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "hot-surface-circle",
+      "b": "magnetic-field-circle",
+      "distance": 1
+    },
+    {
+      "a": "no-weapons-circle",
+      "b": "nut-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-weapons-circle",
+      "b": "no-camping-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "heart-burst-circle",
+      "b": "strikethrough-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "heart-crack-circle",
+      "b": "heart-plus-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "story-ring-circle",
+      "b": "no-ball-games-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "story-ring-circle",
+      "b": "nut-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "story-ring-circle",
+      "b": "no-luggage-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "heart-plus-circle",
+      "b": "nut-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-fishing-circle",
+      "b": "no-swimming-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-fishing-circle",
+      "b": "copyright-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-fishing-circle",
+      "b": "nut-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-fishing-circle",
+      "b": "no-horn-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-fishing-circle",
+      "b": "no-camping-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-ball-games-circle",
+      "b": "nut-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-ball-games-circle",
+      "b": "no-horn-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-ball-games-circle",
+      "b": "no-cars-circle",
+      "distance": 1
+    },
+    {
+      "a": "no-ball-games-circle",
+      "b": "no-fires-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-ball-games-circle",
+      "b": "no-luggage-circle",
+      "distance": 1
+    },
+    {
+      "a": "no-cycling-circle",
+      "b": "nut-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-cycling-circle",
+      "b": "no-cars-circle",
+      "distance": 1
+    },
+    {
+      "a": "no-swimming-circle",
+      "b": "nut-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-swimming-circle",
+      "b": "no-cars-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-swimming-circle",
+      "b": "no-camping-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-swimming-circle",
+      "b": "no-fires-circle",
+      "distance": 1
+    },
+    {
+      "a": "letter-b-circle",
+      "b": "number-eight-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "letter-d-circle",
+      "b": "letter-o-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "letter-h-circle",
+      "b": "letter-m-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "letter-h-circle",
+      "b": "heading-circle",
+      "distance": 1
+    },
+    {
+      "a": "copyright-circle",
+      "b": "nut-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "copyright-circle",
+      "b": "no-horn-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "registered-circle",
+      "b": "nut-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "registered-circle",
+      "b": "no-parking-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "registered-circle",
+      "b": "no-fires-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "bold-circle",
+      "b": "strikethrough-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "nut-circle",
+      "b": "no-right-turn-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "nut-circle",
+      "b": "no-horn-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "nut-circle",
+      "b": "no-cars-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "nut-circle",
+      "b": "no-camping-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "nut-circle",
+      "b": "no-fires-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "nut-circle",
+      "b": "no-luggage-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "nut-circle",
+      "b": "life-buoy-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "nut-circle",
+      "b": "no-umbrellas-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "nut-circle",
+      "b": "snowflake-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-parking-circle",
+      "b": "no-right-turn-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-horn-circle",
+      "b": "no-umbrellas-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-cars-circle",
+      "b": "no-camping-circle",
+      "distance": 1
+    },
+    {
+      "a": "no-cars-circle",
+      "b": "no-fires-circle",
+      "distance": 1
+    },
+    {
+      "a": "no-cars-circle",
+      "b": "no-luggage-circle",
+      "distance": 1
+    },
+    {
+      "a": "no-camping-circle",
+      "b": "no-fires-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "no-fires-circle",
+      "b": "no-luggage-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "sleet-circle",
+      "b": "rain-heavy-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "sleet-circle",
+      "b": "rain-circle",
+      "distance": 1
+    },
+    {
+      "a": "icicle-circle",
+      "b": "icicles-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "temperature-high-circle",
+      "b": "temperature-low-circle",
+      "distance": 1
+    },
+    {
+      "a": "hail-circle",
+      "b": "rain-heavy-circle",
+      "distance": 1
+    },
+    {
+      "a": "hail-circle",
+      "b": "rain-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "rain-heavy-circle",
+      "b": "rain-circle",
       "distance": 1.41
     },
     {
@@ -236,33 +3341,113 @@
       "distance": 1
     },
     {
-      "a": "arrow-wave-right-circle",
-      "b": "arrow-dashed-right-circle",
-      "distance": 1.41
-    },
-    {
       "a": "arrow-right-circle",
       "b": "arrow-right-short-circle",
       "distance": 1
     },
     {
-      "a": "equals-circle",
-      "b": "aquarius-circle",
-      "distance": 1.41
-    },
-    {
-      "a": "contrast-square",
-      "b": "compare-square",
-      "distance": 1.41
-    },
-    {
-      "a": "contrast-square",
-      "b": "alert-octagon-square",
+      "a": "move-circle",
+      "b": "divide-circle",
       "distance": 1
     },
     {
-      "a": "contrast-square",
-      "b": "alert-diamond-square",
+      "a": "integral-circle",
+      "b": "italic-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "divide-circle",
+      "b": "lightning-circle",
+      "distance": 1.41
+    },
+    {
+      "a": "letter-i-circle",
+      "b": "italic-circle",
+      "distance": 1
+    },
+    {
+      "a": "screen-magnifier-square",
+      "b": "tape-measure-square",
+      "distance": 1.41
+    },
+    {
+      "a": "focus-ring-square",
+      "b": "nut-square",
+      "distance": 1.41
+    },
+    {
+      "a": "focus-ring-square",
+      "b": "life-buoy-square",
+      "distance": 1.41
+    },
+    {
+      "a": "closed-captions-square",
+      "b": "stencil-square",
+      "distance": 1
+    },
+    {
+      "a": "closed-captions-square",
+      "b": "no-laptops-square",
+      "distance": 1.41
+    },
+    {
+      "a": "closed-captions-square",
+      "b": "no-drones-square",
+      "distance": 1.41
+    },
+    {
+      "a": "closed-captions-square",
+      "b": "no-cards-square",
+      "distance": 1.41
+    },
+    {
+      "a": "closed-captions-square",
+      "b": "no-dairy-square",
+      "distance": 1.41
+    },
+    {
+      "a": "closed-captions-square",
+      "b": "no-headphones-square",
+      "distance": 1.41
+    },
+    {
+      "a": "closed-captions-square",
+      "b": "no-photos-square",
+      "distance": 1.41
+    },
+    {
+      "a": "closed-captions-square",
+      "b": "story-ring-square",
+      "distance": 1.41
+    },
+    {
+      "a": "closed-captions-square",
+      "b": "no-ball-games-square",
+      "distance": 1.41
+    },
+    {
+      "a": "closed-captions-square",
+      "b": "no-luggage-square",
+      "distance": 1.41
+    },
+    {
+      "a": "multi-select-square",
+      "b": "no-drones-square",
+      "distance": 1.41
+    },
+    {
+      "a": "multi-select-square",
+      "b": "no-fires-square",
+      "distance": 1.41
+    },
+    {
+      "a": "tap-square",
+      "b": "swipe-square",
+      "distance": 1.41
+    },
+    {
+      "a": "compare-square",
+      "b": "help-square",
       "distance": 1.41
     },
     {
@@ -272,18 +3457,98 @@
     },
     {
       "a": "plus-square",
+      "b": "move-square",
+      "distance": 1
+    },
+    {
+      "a": "plus-square",
       "b": "divide-square",
       "distance": 1
     },
     {
-      "a": "arrows-left-right-square",
-      "b": "arrow-wave-right-square",
+      "a": "no-pets-square",
+      "b": "no-bags-square",
       "distance": 1.41
     },
     {
-      "a": "arrow-wave-right-square",
-      "b": "arrow-dashed-right-square",
+      "a": "no-pets-square",
+      "b": "no-laptops-square",
       "distance": 1.41
+    },
+    {
+      "a": "no-pets-square",
+      "b": "no-drones-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-pets-square",
+      "b": "skull-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-pets-square",
+      "b": "no-food-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-pets-square",
+      "b": "no-gluten-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-pets-square",
+      "b": "no-dairy-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-pets-square",
+      "b": "settings-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-pets-square",
+      "b": "no-headphones-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-pets-square",
+      "b": "no-photos-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-pets-square",
+      "b": "no-littering-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-pets-square",
+      "b": "no-ball-games-square",
+      "distance": 1
+    },
+    {
+      "a": "no-pets-square",
+      "b": "nut-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-pets-square",
+      "b": "no-cars-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-pets-square",
+      "b": "no-fires-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-pets-square",
+      "b": "no-luggage-square",
+      "distance": 1
+    },
+    {
+      "a": "arrows-diverge-square",
+      "b": "move-square",
+      "distance": 1
     },
     {
       "a": "arrow-right-square",
@@ -291,8 +3556,43 @@
       "distance": 1
     },
     {
+      "a": "move-square",
+      "b": "divide-square",
+      "distance": 1
+    },
+    {
+      "a": "no-bags-square",
+      "b": "no-phones-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-bags-square",
+      "b": "no-drones-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-bags-square",
+      "b": "no-food-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-bags-square",
+      "b": "settings-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-bags-square",
+      "b": "nut-square",
+      "distance": 1.41
+    },
+    {
       "a": "basket-square",
       "b": "ghost-square",
+      "distance": 1.41
+    },
+    {
+      "a": "chart-donut-square",
+      "b": "pixelate-square",
       "distance": 1.41
     },
     {
@@ -306,8 +3606,308 @@
       "distance": 1.41
     },
     {
-      "a": "equals-square",
-      "b": "aquarius-square",
+      "a": "chart-donut-square",
+      "b": "nut-square",
+      "distance": 1.41
+    },
+    {
+      "a": "stencil-square",
+      "b": "no-strollers-square",
+      "distance": 1.41
+    },
+    {
+      "a": "pixelate-square",
+      "b": "no-phones-square",
+      "distance": 1.41
+    },
+    {
+      "a": "pixelate-square",
+      "b": "no-drones-square",
+      "distance": 1.41
+    },
+    {
+      "a": "pixelate-square",
+      "b": "settings-square",
+      "distance": 1
+    },
+    {
+      "a": "pixelate-square",
+      "b": "detour-square",
+      "distance": 1.41
+    },
+    {
+      "a": "pixelate-square",
+      "b": "compass-square",
+      "distance": 1.41
+    },
+    {
+      "a": "pixelate-square",
+      "b": "no-swimming-square",
+      "distance": 1.41
+    },
+    {
+      "a": "pixelate-square",
+      "b": "nut-square",
+      "distance": 1.41
+    },
+    {
+      "a": "pixelate-square",
+      "b": "no-left-turn-square",
+      "distance": 1.41
+    },
+    {
+      "a": "pixelate-square",
+      "b": "no-right-turn-square",
+      "distance": 1.41
+    },
+    {
+      "a": "variable-square",
+      "b": "letter-m-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-phones-square",
+      "b": "no-drones-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-phones-square",
+      "b": "no-alcohol-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-phones-square",
+      "b": "no-littering-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-phones-square",
+      "b": "alert-diamond-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-phones-square",
+      "b": "no-weapons-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-laptops-square",
+      "b": "no-drones-square",
+      "distance": 1
+    },
+    {
+      "a": "no-laptops-square",
+      "b": "skull-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-laptops-square",
+      "b": "database-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-laptops-square",
+      "b": "no-cash-square",
+      "distance": 1
+    },
+    {
+      "a": "no-laptops-square",
+      "b": "no-cards-square",
+      "distance": 1
+    },
+    {
+      "a": "no-laptops-square",
+      "b": "no-food-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-laptops-square",
+      "b": "no-dairy-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-laptops-square",
+      "b": "no-fish-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-laptops-square",
+      "b": "no-caffeine-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-laptops-square",
+      "b": "settings-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-laptops-square",
+      "b": "no-headphones-square",
+      "distance": 1
+    },
+    {
+      "a": "no-laptops-square",
+      "b": "no-photos-square",
+      "distance": 1
+    },
+    {
+      "a": "no-laptops-square",
+      "b": "story-ring-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-laptops-square",
+      "b": "no-ball-games-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-laptops-square",
+      "b": "nut-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-laptops-square",
+      "b": "no-cars-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-laptops-square",
+      "b": "no-fires-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-laptops-square",
+      "b": "no-luggage-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-flash-square",
+      "b": "settings-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-flash-square",
+      "b": "no-littering-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-flash-square",
+      "b": "copyright-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-flash-square",
+      "b": "nut-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-flash-square",
+      "b": "no-umbrellas-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-drones-square",
+      "b": "ghost-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-drones-square",
+      "b": "skull-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-drones-square",
+      "b": "alien-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-drones-square",
+      "b": "no-cash-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-drones-square",
+      "b": "no-cards-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-drones-square",
+      "b": "no-food-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-drones-square",
+      "b": "no-dairy-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-drones-square",
+      "b": "no-fish-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-drones-square",
+      "b": "no-caffeine-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-drones-square",
+      "b": "no-smoking-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-drones-square",
+      "b": "settings-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-drones-square",
+      "b": "no-headphones-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-drones-square",
+      "b": "no-photos-square",
+      "distance": 1
+    },
+    {
+      "a": "no-drones-square",
+      "b": "story-ring-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-drones-square",
+      "b": "no-ball-games-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-drones-square",
+      "b": "nut-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-drones-square",
+      "b": "no-cars-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-drones-square",
+      "b": "no-fires-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-drones-square",
+      "b": "no-luggage-square",
+      "distance": 1.41
+    },
+    {
+      "a": "integral-square",
+      "b": "italic-square",
+      "distance": 1.41
+    },
+    {
+      "a": "divide-square",
+      "b": "lightning-square",
       "distance": 1.41
     },
     {
@@ -317,7 +3917,142 @@
     },
     {
       "a": "ghost-square",
+      "b": "no-cash-square",
+      "distance": 1.41
+    },
+    {
+      "a": "ghost-square",
+      "b": "no-cooking-square",
+      "distance": 1.41
+    },
+    {
+      "a": "ghost-square",
+      "b": "no-fish-square",
+      "distance": 1.41
+    },
+    {
+      "a": "ghost-square",
+      "b": "no-caffeine-square",
+      "distance": 1.41
+    },
+    {
+      "a": "ghost-square",
+      "b": "no-smoking-square",
+      "distance": 1.41
+    },
+    {
+      "a": "ghost-square",
       "b": "settings-square",
+      "distance": 1.41
+    },
+    {
+      "a": "ghost-square",
+      "b": "no-strollers-square",
+      "distance": 1.41
+    },
+    {
+      "a": "ghost-square",
+      "b": "no-cycling-square",
+      "distance": 1.41
+    },
+    {
+      "a": "ghost-square",
+      "b": "no-cars-square",
+      "distance": 1.41
+    },
+    {
+      "a": "skull-square",
+      "b": "alien-square",
+      "distance": 1
+    },
+    {
+      "a": "skull-square",
+      "b": "no-cash-square",
+      "distance": 1.41
+    },
+    {
+      "a": "skull-square",
+      "b": "no-cards-square",
+      "distance": 1.41
+    },
+    {
+      "a": "skull-square",
+      "b": "no-food-square",
+      "distance": 1.41
+    },
+    {
+      "a": "skull-square",
+      "b": "no-gluten-square",
+      "distance": 1.41
+    },
+    {
+      "a": "skull-square",
+      "b": "no-fish-square",
+      "distance": 1.41
+    },
+    {
+      "a": "skull-square",
+      "b": "no-caffeine-square",
+      "distance": 1.41
+    },
+    {
+      "a": "skull-square",
+      "b": "no-smoking-square",
+      "distance": 1.41
+    },
+    {
+      "a": "skull-square",
+      "b": "settings-square",
+      "distance": 1.41
+    },
+    {
+      "a": "skull-square",
+      "b": "no-headphones-square",
+      "distance": 1.41
+    },
+    {
+      "a": "skull-square",
+      "b": "no-photos-square",
+      "distance": 1.41
+    },
+    {
+      "a": "skull-square",
+      "b": "no-ball-games-square",
+      "distance": 1.41
+    },
+    {
+      "a": "skull-square",
+      "b": "no-cycling-square",
+      "distance": 1.41
+    },
+    {
+      "a": "skull-square",
+      "b": "nut-square",
+      "distance": 1.41
+    },
+    {
+      "a": "skull-square",
+      "b": "no-horn-square",
+      "distance": 1.41
+    },
+    {
+      "a": "skull-square",
+      "b": "no-cars-square",
+      "distance": 1.41
+    },
+    {
+      "a": "skull-square",
+      "b": "no-fires-square",
+      "distance": 1.41
+    },
+    {
+      "a": "skull-square",
+      "b": "no-luggage-square",
+      "distance": 1.41
+    },
+    {
+      "a": "skull-square",
+      "b": "no-umbrellas-square",
       "distance": 1.41
     },
     {
@@ -326,23 +4061,488 @@
       "distance": 1.41
     },
     {
-      "a": "medical-cross-square",
-      "b": "eye-square",
+      "a": "alien-square",
+      "b": "no-cash-square",
       "distance": 1.41
     },
     {
-      "a": "medical-cross-square",
-      "b": "crosshair-square",
+      "a": "alien-square",
+      "b": "no-fish-square",
       "distance": 1.41
     },
     {
-      "a": "cursor-wait-square",
-      "b": "cursor-help-square",
+      "a": "alien-square",
+      "b": "no-caffeine-square",
+      "distance": 1.41
+    },
+    {
+      "a": "alien-square",
+      "b": "no-smoking-square",
+      "distance": 1.41
+    },
+    {
+      "a": "alien-square",
+      "b": "nut-square",
+      "distance": 1.41
+    },
+    {
+      "a": "alien-square",
+      "b": "no-cars-square",
+      "distance": 1.41
+    },
+    {
+      "a": "database-square",
+      "b": "no-cash-square",
+      "distance": 1.41
+    },
+    {
+      "a": "database-square",
+      "b": "no-cards-square",
+      "distance": 1.41
+    },
+    {
+      "a": "database-square",
+      "b": "no-fish-square",
+      "distance": 1.41
+    },
+    {
+      "a": "database-square",
+      "b": "no-caffeine-square",
+      "distance": 1.41
+    },
+    {
+      "a": "database-square",
+      "b": "no-photos-square",
+      "distance": 1.41
+    },
+    {
+      "a": "database-square",
+      "b": "no-ball-games-square",
+      "distance": 1.41
+    },
+    {
+      "a": "database-square",
+      "b": "no-cars-square",
+      "distance": 1.41
+    },
+    {
+      "a": "database-square",
+      "b": "life-buoy-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-cash-square",
+      "b": "no-cards-square",
       "distance": 1
     },
     {
+      "a": "no-cash-square",
+      "b": "no-fish-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-cash-square",
+      "b": "no-caffeine-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-cash-square",
+      "b": "settings-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-cash-square",
+      "b": "no-headphones-square",
+      "distance": 1
+    },
+    {
+      "a": "no-cash-square",
+      "b": "no-photos-square",
+      "distance": 1
+    },
+    {
+      "a": "no-cash-square",
+      "b": "no-ball-games-square",
+      "distance": 1
+    },
+    {
+      "a": "no-cash-square",
+      "b": "nut-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-cash-square",
+      "b": "no-cars-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-cards-square",
+      "b": "no-dairy-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-cards-square",
+      "b": "no-fish-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-cards-square",
+      "b": "no-caffeine-square",
+      "distance": 1
+    },
+    {
+      "a": "no-cards-square",
+      "b": "settings-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-cards-square",
+      "b": "no-headphones-square",
+      "distance": 1
+    },
+    {
+      "a": "no-cards-square",
+      "b": "no-photos-square",
+      "distance": 1
+    },
+    {
+      "a": "no-cards-square",
+      "b": "story-ring-square",
+      "distance": 1
+    },
+    {
+      "a": "no-cards-square",
+      "b": "no-ball-games-square",
+      "distance": 1
+    },
+    {
+      "a": "no-cards-square",
+      "b": "nut-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-cards-square",
+      "b": "no-cars-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-cards-square",
+      "b": "no-luggage-square",
+      "distance": 1
+    },
+    {
+      "a": "no-alcohol-square",
+      "b": "no-gluten-square",
+      "distance": 1
+    },
+    {
+      "a": "no-alcohol-square",
+      "b": "settings-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-alcohol-square",
+      "b": "no-littering-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-alcohol-square",
+      "b": "no-weapons-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-alcohol-square",
+      "b": "registered-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-cooking-square",
+      "b": "settings-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-cooking-square",
+      "b": "no-strollers-square",
+      "distance": 1
+    },
+    {
+      "a": "no-cooking-square",
+      "b": "no-cycling-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-cooking-square",
+      "b": "nut-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-cooking-square",
+      "b": "no-cars-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-cooking-square",
+      "b": "no-fires-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-food-square",
+      "b": "no-dairy-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-food-square",
+      "b": "settings-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-food-square",
+      "b": "no-headphones-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-food-square",
+      "b": "no-photos-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-food-square",
+      "b": "no-littering-square",
+      "distance": 1
+    },
+    {
+      "a": "no-food-square",
+      "b": "no-weapons-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-food-square",
+      "b": "no-fishing-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-food-square",
+      "b": "no-ball-games-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-food-square",
+      "b": "no-swimming-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-food-square",
+      "b": "copyright-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-food-square",
+      "b": "nut-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-food-square",
+      "b": "no-cars-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-food-square",
+      "b": "no-fires-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-food-square",
+      "b": "no-luggage-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-gluten-square",
+      "b": "settings-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-gluten-square",
+      "b": "no-littering-square",
+      "distance": 1
+    },
+    {
+      "a": "no-gluten-square",
+      "b": "no-weapons-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-gluten-square",
+      "b": "copyright-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-gluten-square",
+      "b": "registered-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-gluten-square",
+      "b": "nut-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-gluten-square",
+      "b": "no-fires-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-gluten-square",
+      "b": "no-umbrellas-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-dairy-square",
+      "b": "settings-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-dairy-square",
+      "b": "no-headphones-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-dairy-square",
+      "b": "no-photos-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-dairy-square",
+      "b": "story-ring-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-dairy-square",
+      "b": "no-ball-games-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-dairy-square",
+      "b": "nut-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-dairy-square",
+      "b": "no-camping-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-dairy-square",
+      "b": "no-luggage-square",
+      "distance": 1
+    },
+    {
+      "a": "no-fish-square",
+      "b": "no-caffeine-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-fish-square",
+      "b": "settings-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-fish-square",
+      "b": "no-headphones-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-fish-square",
+      "b": "no-photos-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-fish-square",
+      "b": "no-ball-games-square",
+      "distance": 1
+    },
+    {
+      "a": "no-fish-square",
+      "b": "no-cycling-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-fish-square",
+      "b": "nut-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-fish-square",
+      "b": "no-horn-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-fish-square",
+      "b": "no-cars-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-caffeine-square",
+      "b": "settings-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-caffeine-square",
+      "b": "no-headphones-square",
+      "distance": 1
+    },
+    {
+      "a": "no-caffeine-square",
+      "b": "no-photos-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-caffeine-square",
+      "b": "no-ball-games-square",
+      "distance": 1
+    },
+    {
+      "a": "no-caffeine-square",
+      "b": "no-cycling-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-caffeine-square",
+      "b": "nut-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-caffeine-square",
+      "b": "no-cars-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-caffeine-square",
+      "b": "no-fires-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-caffeine-square",
+      "b": "no-luggage-square",
+      "distance": 1
+    },
+    {
+      "a": "no-smoking-square",
+      "b": "detour-square",
+      "distance": 1.41
+    },
+    {
       "a": "settings-square",
-      "b": "eye-square",
+      "b": "no-headphones-square",
+      "distance": 1.41
+    },
+    {
+      "a": "settings-square",
+      "b": "no-photos-square",
+      "distance": 1.41
+    },
+    {
+      "a": "settings-square",
+      "b": "no-littering-square",
       "distance": 1.41
     },
     {
@@ -357,7 +4557,37 @@
     },
     {
       "a": "settings-square",
-      "b": "crosshair-square",
+      "b": "no-strollers-square",
+      "distance": 1.41
+    },
+    {
+      "a": "settings-square",
+      "b": "no-weapons-square",
+      "distance": 1.41
+    },
+    {
+      "a": "settings-square",
+      "b": "story-ring-square",
+      "distance": 1.41
+    },
+    {
+      "a": "settings-square",
+      "b": "no-fishing-square",
+      "distance": 1.41
+    },
+    {
+      "a": "settings-square",
+      "b": "no-ball-games-square",
+      "distance": 1.41
+    },
+    {
+      "a": "settings-square",
+      "b": "no-cycling-square",
+      "distance": 1.41
+    },
+    {
+      "a": "settings-square",
+      "b": "no-swimming-square",
       "distance": 1.41
     },
     {
@@ -367,17 +4597,147 @@
     },
     {
       "a": "settings-square",
-      "b": "eclipse-square",
+      "b": "registered-square",
       "distance": 1.41
     },
     {
-      "a": "eye-square",
-      "b": "detour-square",
+      "a": "settings-square",
+      "b": "nut-square",
+      "distance": 1
+    },
+    {
+      "a": "settings-square",
+      "b": "no-right-turn-square",
       "distance": 1.41
     },
     {
-      "a": "eye-square",
-      "b": "heart-crack-square",
+      "a": "settings-square",
+      "b": "no-horn-square",
+      "distance": 1.41
+    },
+    {
+      "a": "settings-square",
+      "b": "no-cars-square",
+      "distance": 1.41
+    },
+    {
+      "a": "settings-square",
+      "b": "no-camping-square",
+      "distance": 1.41
+    },
+    {
+      "a": "settings-square",
+      "b": "no-fires-square",
+      "distance": 1.41
+    },
+    {
+      "a": "settings-square",
+      "b": "no-luggage-square",
+      "distance": 1.41
+    },
+    {
+      "a": "settings-square",
+      "b": "life-buoy-square",
+      "distance": 1.41
+    },
+    {
+      "a": "settings-square",
+      "b": "no-umbrellas-square",
+      "distance": 1.41
+    },
+    {
+      "a": "settings-square",
+      "b": "snowflake-square",
+      "distance": 1.41
+    },
+    {
+      "a": "settings-square",
+      "b": "sun-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-headphones-square",
+      "b": "no-photos-square",
+      "distance": 1
+    },
+    {
+      "a": "no-headphones-square",
+      "b": "story-ring-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-headphones-square",
+      "b": "no-ball-games-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-headphones-square",
+      "b": "nut-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-headphones-square",
+      "b": "no-cars-square",
+      "distance": 1
+    },
+    {
+      "a": "no-headphones-square",
+      "b": "no-fires-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-headphones-square",
+      "b": "no-luggage-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-photos-square",
+      "b": "story-ring-square",
+      "distance": 1
+    },
+    {
+      "a": "no-photos-square",
+      "b": "no-ball-games-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-photos-square",
+      "b": "nut-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-photos-square",
+      "b": "no-cars-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-photos-square",
+      "b": "no-fires-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-photos-square",
+      "b": "no-luggage-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-littering-square",
+      "b": "no-weapons-square",
+      "distance": 1
+    },
+    {
+      "a": "no-littering-square",
+      "b": "registered-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-littering-square",
+      "b": "nut-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-littering-square",
+      "b": "no-fires-square",
       "distance": 1.41
     },
     {
@@ -387,12 +4747,17 @@
     },
     {
       "a": "detour-square",
-      "b": "crosshair-square",
+      "b": "no-right-turn-square",
       "distance": 1.41
     },
     {
-      "a": "crosshair-square",
-      "b": "alert-diamond-square",
+      "a": "yield-sign-square",
+      "b": "icicle-square",
+      "distance": 1.41
+    },
+    {
+      "a": "compass-square",
+      "b": "nut-square",
       "distance": 1.41
     },
     {
@@ -404,18 +4769,409 @@
       "a": "alert-diamond-square",
       "b": "heart-crack-square",
       "distance": 1.41
+    },
+    {
+      "a": "alert-diamond-square",
+      "b": "story-ring-square",
+      "distance": 1.41
+    },
+    {
+      "a": "alert-diamond-square",
+      "b": "heart-plus-square",
+      "distance": 1.41
+    },
+    {
+      "a": "notification-stack-square",
+      "b": "story-ring-square",
+      "distance": 1.41
+    },
+    {
+      "a": "bell-plus-square",
+      "b": "humidity-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-strollers-square",
+      "b": "no-cycling-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-strollers-square",
+      "b": "no-camping-square",
+      "distance": 1.41
+    },
+    {
+      "a": "hot-surface-square",
+      "b": "magnetic-field-square",
+      "distance": 1
+    },
+    {
+      "a": "no-weapons-square",
+      "b": "nut-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-weapons-square",
+      "b": "no-camping-square",
+      "distance": 1.41
+    },
+    {
+      "a": "heart-burst-square",
+      "b": "strikethrough-square",
+      "distance": 1.41
+    },
+    {
+      "a": "heart-crack-square",
+      "b": "heart-plus-square",
+      "distance": 1.41
+    },
+    {
+      "a": "story-ring-square",
+      "b": "no-ball-games-square",
+      "distance": 1.41
+    },
+    {
+      "a": "story-ring-square",
+      "b": "nut-square",
+      "distance": 1.41
+    },
+    {
+      "a": "story-ring-square",
+      "b": "no-luggage-square",
+      "distance": 1.41
+    },
+    {
+      "a": "heart-plus-square",
+      "b": "nut-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-fishing-square",
+      "b": "no-swimming-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-fishing-square",
+      "b": "copyright-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-fishing-square",
+      "b": "nut-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-fishing-square",
+      "b": "no-horn-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-fishing-square",
+      "b": "no-camping-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-ball-games-square",
+      "b": "nut-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-ball-games-square",
+      "b": "no-horn-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-ball-games-square",
+      "b": "no-cars-square",
+      "distance": 1
+    },
+    {
+      "a": "no-ball-games-square",
+      "b": "no-fires-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-ball-games-square",
+      "b": "no-luggage-square",
+      "distance": 1
+    },
+    {
+      "a": "no-cycling-square",
+      "b": "nut-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-cycling-square",
+      "b": "no-cars-square",
+      "distance": 1
+    },
+    {
+      "a": "no-swimming-square",
+      "b": "nut-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-swimming-square",
+      "b": "no-cars-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-swimming-square",
+      "b": "no-camping-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-swimming-square",
+      "b": "no-fires-square",
+      "distance": 1
+    },
+    {
+      "a": "letter-b-square",
+      "b": "number-eight-square",
+      "distance": 1.41
+    },
+    {
+      "a": "letter-d-square",
+      "b": "letter-o-square",
+      "distance": 1.41
+    },
+    {
+      "a": "letter-h-square",
+      "b": "letter-m-square",
+      "distance": 1.41
+    },
+    {
+      "a": "letter-h-square",
+      "b": "heading-square",
+      "distance": 1
+    },
+    {
+      "a": "letter-i-square",
+      "b": "italic-square",
+      "distance": 1
+    },
+    {
+      "a": "copyright-square",
+      "b": "nut-square",
+      "distance": 1.41
+    },
+    {
+      "a": "copyright-square",
+      "b": "no-horn-square",
+      "distance": 1.41
+    },
+    {
+      "a": "registered-square",
+      "b": "nut-square",
+      "distance": 1.41
+    },
+    {
+      "a": "registered-square",
+      "b": "no-parking-square",
+      "distance": 1.41
+    },
+    {
+      "a": "registered-square",
+      "b": "no-fires-square",
+      "distance": 1.41
+    },
+    {
+      "a": "bold-square",
+      "b": "strikethrough-square",
+      "distance": 1.41
+    },
+    {
+      "a": "nut-square",
+      "b": "no-right-turn-square",
+      "distance": 1.41
+    },
+    {
+      "a": "nut-square",
+      "b": "no-horn-square",
+      "distance": 1.41
+    },
+    {
+      "a": "nut-square",
+      "b": "no-cars-square",
+      "distance": 1.41
+    },
+    {
+      "a": "nut-square",
+      "b": "no-camping-square",
+      "distance": 1.41
+    },
+    {
+      "a": "nut-square",
+      "b": "no-fires-square",
+      "distance": 1.41
+    },
+    {
+      "a": "nut-square",
+      "b": "no-luggage-square",
+      "distance": 1.41
+    },
+    {
+      "a": "nut-square",
+      "b": "life-buoy-square",
+      "distance": 1.41
+    },
+    {
+      "a": "nut-square",
+      "b": "no-umbrellas-square",
+      "distance": 1.41
+    },
+    {
+      "a": "nut-square",
+      "b": "snowflake-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-parking-square",
+      "b": "no-right-turn-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-horn-square",
+      "b": "no-umbrellas-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-cars-square",
+      "b": "no-camping-square",
+      "distance": 1
+    },
+    {
+      "a": "no-cars-square",
+      "b": "no-fires-square",
+      "distance": 1
+    },
+    {
+      "a": "no-cars-square",
+      "b": "no-luggage-square",
+      "distance": 1
+    },
+    {
+      "a": "no-camping-square",
+      "b": "no-fires-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-fires-square",
+      "b": "no-luggage-square",
+      "distance": 1.41
+    },
+    {
+      "a": "sleet-square",
+      "b": "rain-heavy-square",
+      "distance": 1.41
+    },
+    {
+      "a": "sleet-square",
+      "b": "rain-square",
+      "distance": 1
+    },
+    {
+      "a": "icicle-square",
+      "b": "icicles-square",
+      "distance": 1.41
+    },
+    {
+      "a": "temperature-high-square",
+      "b": "temperature-low-square",
+      "distance": 1
+    },
+    {
+      "a": "hail-square",
+      "b": "rain-heavy-square",
+      "distance": 1
+    },
+    {
+      "a": "hail-square",
+      "b": "rain-square",
+      "distance": 1.41
+    },
+    {
+      "a": "rain-heavy-square",
+      "b": "rain-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-laptops-square",
+      "b": "crosswalk-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-drones-square",
+      "b": "crosswalk-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-cards-square",
+      "b": "crosswalk-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-dairy-square",
+      "b": "crosswalk-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-headphones-square",
+      "b": "crosswalk-square",
+      "distance": 1.41
+    },
+    {
+      "a": "no-photos-square",
+      "b": "crosswalk-square",
+      "distance": 1.41
+    },
+    {
+      "a": "crosswalk-square",
+      "b": "story-ring-square",
+      "distance": 1.41
+    },
+    {
+      "a": "crosswalk-square",
+      "b": "no-ball-games-square",
+      "distance": 1.41
+    },
+    {
+      "a": "crosswalk-square",
+      "b": "no-luggage-square",
+      "distance": 1.41
     }
   ],
   "dropped": [
+    "screen-reader-circle",
+    "screen-reader-square",
+    "screen-reader-hexagon",
     "elevator-circle",
     "elevator-square",
     "elevator-hexagon",
+    "ramp-circle",
+    "ramp-square",
+    "ramp-hexagon",
+    "screen-magnifier-circle",
+    "screen-magnifier-square",
+    "screen-magnifier-hexagon",
     "ear-circle",
     "ear-square",
     "ear-hexagon",
     "duplicate-circle",
     "duplicate-square",
     "duplicate-hexagon",
+    "trash-restore-circle",
+    "trash-restore-square",
+    "trash-restore-hexagon",
+    "multi-select-circle",
+    "multi-select-square",
+    "multi-select-hexagon",
+    "tap-circle",
+    "tap-square",
+    "tap-hexagon",
+    "robot-circle",
+    "robot-square",
+    "robot-hexagon",
     "arrow-right-short-circle",
     "arrow-right-short-square",
     "arrow-right-short-hexagon",
@@ -425,9 +5181,33 @@
     "cart-circle",
     "cart-square",
     "cart-hexagon",
+    "phone-circle",
+    "phone-square",
+    "phone-hexagon",
+    "sparkline-circle",
+    "sparkline-square",
+    "sparkline-hexagon",
+    "pivot-table-circle",
+    "pivot-table-square",
+    "pivot-table-hexagon",
+    "spray-can-circle",
+    "spray-can-square",
+    "spray-can-hexagon",
+    "pen-tool-circle",
+    "pen-tool-square",
+    "pen-tool-hexagon",
+    "paint-bucket-circle",
+    "paint-bucket-square",
+    "paint-bucket-hexagon",
+    "notebook-circle",
+    "notebook-square",
+    "notebook-hexagon",
     "exam-circle",
     "exam-square",
     "exam-hexagon",
+    "skull-circle",
+    "skull-square",
+    "skull-hexagon",
     "folder-shared-circle",
     "folder-shared-square",
     "folder-shared-hexagon",
@@ -437,12 +5217,42 @@
     "database-circle",
     "database-square",
     "database-hexagon",
+    "help-circle",
+    "help-square",
+    "help-hexagon",
     "bookmark-circle",
     "bookmark-square",
     "bookmark-hexagon",
+    "image-circle",
+    "image-square",
+    "image-hexagon",
+    "kelp-circle",
+    "kelp-square",
+    "kelp-hexagon",
+    "river-circle",
+    "river-square",
+    "river-hexagon",
+    "trail-circle",
+    "trail-square",
+    "trail-hexagon",
+    "street-lamp-circle",
+    "street-lamp-square",
+    "street-lamp-hexagon",
+    "pins-circle",
+    "pins-square",
+    "pins-hexagon",
+    "waypoint-circle",
+    "waypoint-square",
+    "waypoint-hexagon",
+    "one-way-circle",
+    "one-way-square",
+    "one-way-hexagon",
     "bell-snooze-circle",
     "bell-snooze-square",
     "bell-snooze-hexagon",
+    "notification-stack-circle",
+    "notification-stack-square",
+    "notification-stack-hexagon",
     "bell-minus-circle",
     "bell-minus-square",
     "bell-minus-hexagon",
@@ -458,85 +5268,285 @@
     "envelope-dot-circle",
     "envelope-dot-square",
     "envelope-dot-hexagon",
+    "users-circle",
+    "users-square",
+    "users-hexagon",
+    "hot-surface-circle",
+    "hot-surface-square",
+    "hot-surface-hexagon",
+    "magnetic-field-circle",
+    "magnetic-field-square",
+    "magnetic-field-hexagon",
+    "live-badge-circle",
+    "live-badge-square",
+    "live-badge-hexagon",
+    "leaderboard-circle",
+    "leaderboard-square",
+    "leaderboard-hexagon",
+    "heart-burst-circle",
+    "heart-burst-square",
+    "heart-burst-hexagon",
+    "star-rating-circle",
+    "star-rating-square",
+    "star-rating-hexagon",
+    "thumbs-up-circle",
+    "thumbs-up-square",
+    "thumbs-up-hexagon",
+    "trophy-circle",
+    "trophy-square",
+    "trophy-hexagon",
+    "medal-circle",
+    "medal-square",
+    "medal-hexagon",
+    "highlighter-circle",
+    "highlighter-square",
+    "highlighter-hexagon",
+    "sleet-circle",
+    "sleet-square",
+    "sleet-hexagon",
     "cloud-wind-circle",
     "cloud-wind-square",
     "cloud-wind-hexagon",
+    "temperature-high-circle",
+    "temperature-high-square",
+    "temperature-high-hexagon",
+    "temperature-low-circle",
+    "temperature-low-square",
+    "temperature-low-hexagon",
     "fog-circle",
     "fog-square",
     "fog-hexagon",
+    "hail-circle",
+    "hail-square",
+    "hail-hexagon",
+    "rain-heavy-circle",
+    "rain-heavy-square",
+    "rain-heavy-hexagon",
+    "moon-stars-hexagon",
+    "sun-rain-circle",
+    "sun-rain-square",
+    "sun-rain-hexagon",
+    "thermometer-sun-circle",
+    "thermometer-sun-square",
+    "thermometer-sun-hexagon",
+    "hurricane-circle",
+    "hurricane-square",
+    "hurricane-hexagon",
+    "humidity-circle",
+    "humidity-square",
+    "humidity-hexagon",
+    "heat-wave-circle",
+    "heat-wave-square",
+    "heat-wave-hexagon",
+    "thermometer-snow-circle",
+    "thermometer-snow-square",
+    "thermometer-snow-hexagon",
+    "weather-vane-circle",
+    "weather-vane-square",
+    "weather-vane-hexagon",
+    "sun-circle",
+    "sun-square",
+    "sun-hexagon",
     "cloud-sun-circle",
     "cloud-sun-square",
     "cloud-sun-hexagon",
+    "rain-circle",
+    "rain-square",
+    "rain-hexagon",
+    "storm-circle",
+    "storm-square",
+    "storm-hexagon",
+    "umbrella-circle",
+    "umbrella-square",
+    "umbrella-hexagon",
     "droplet-circle",
     "droplet-square",
     "droplet-hexagon",
-    "accessibility-hexagon",
+    "rainbow-circle",
+    "rainbow-square",
+    "rainbow-hexagon",
+    "nut-hexagon",
+    "life-buoy-hexagon",
     "compare-hexagon",
     "alert-diamond-hexagon",
+    "stencil-hexagon",
+    "no-laptops-hexagon",
+    "no-drones-hexagon",
+    "no-cards-hexagon",
+    "no-dairy-hexagon",
+    "no-headphones-hexagon",
+    "no-photos-hexagon",
+    "story-ring-hexagon",
+    "no-ball-games-hexagon",
+    "no-luggage-hexagon",
+    "no-bags-hexagon",
+    "no-food-hexagon",
+    "no-gluten-hexagon",
+    "no-littering-hexagon",
+    "no-cars-hexagon",
+    "no-fires-hexagon",
+    "divide-hexagon",
+    "pixelate-hexagon",
     "alien-hexagon",
     "chart-donut-hexagon",
-    "divide-hexagon",
+    "no-horn-hexagon",
+    "no-umbrellas-hexagon",
+    "selection-hexagon",
+    "letter-m-hexagon",
+    "no-alcohol-hexagon",
+    "no-weapons-hexagon",
+    "copyright-hexagon",
+    "italic-hexagon",
+    "no-cash-hexagon",
+    "no-cooking-hexagon",
+    "no-fish-hexagon",
+    "no-caffeine-hexagon",
+    "no-smoking-hexagon",
     "ghost-hexagon",
     "detour-hexagon",
+    "heart-plus-hexagon",
     "compass-hexagon",
-    "copyright-hexagon",
+    "no-fishing-hexagon",
+    "no-right-turn-hexagon",
+    "no-cycling-hexagon",
+    "no-camping-hexagon",
+    "no-parking-hexagon",
+    "icicles-hexagon",
+    "nut-circle",
+    "life-buoy-circle",
+    "stencil-circle",
+    "no-laptops-circle",
+    "no-drones-circle",
+    "no-cards-circle",
+    "no-dairy-circle",
+    "no-headphones-circle",
+    "no-photos-circle",
+    "story-ring-circle",
+    "no-ball-games-circle",
+    "no-luggage-circle",
     "compare-circle",
-    "contrast-circle",
+    "no-bags-circle",
+    "no-food-circle",
+    "no-gluten-circle",
+    "no-pets-circle",
+    "move-circle",
+    "pixelate-circle",
     "alien-circle",
     "chart-donut-circle",
+    "letter-m-circle",
+    "no-alcohol-circle",
+    "no-littering-circle",
+    "alert-diamond-circle",
+    "no-weapons-circle",
+    "no-flash-circle",
     "ghost-circle",
-    "eye-circle",
-    "crosshair-circle",
-    "cursor-help-circle",
+    "no-fish-circle",
+    "no-caffeine-circle",
+    "no-cash-circle",
+    "no-cooking-circle",
     "detour-circle",
     "compass-circle",
+    "no-strollers-circle",
+    "no-fishing-circle",
+    "no-cycling-circle",
+    "no-swimming-circle",
     "copyright-circle",
-    "eclipse-circle",
-    "alert-diamond-circle",
-    "arrow-wave-right-circle",
+    "registered-circle",
+    "no-right-turn-circle",
+    "no-horn-circle",
+    "no-cars-circle",
+    "no-camping-circle",
+    "no-fires-circle",
+    "no-umbrellas-circle",
+    "snowflake-circle",
+    "icicle-circle",
+    "heart-plus-circle",
+    "letter-b-circle",
+    "letter-o-circle",
+    "heading-circle",
+    "strikethrough-circle",
     "divide-circle",
-    "aquarius-circle",
+    "italic-circle",
+    "nut-square",
+    "life-buoy-square",
+    "stencil-square",
+    "no-laptops-square",
+    "no-drones-square",
+    "no-cards-square",
+    "no-dairy-square",
+    "no-headphones-square",
+    "no-photos-square",
+    "story-ring-square",
+    "no-ball-games-square",
+    "no-luggage-square",
     "compare-square",
-    "contrast-square",
+    "move-square",
     "divide-square",
-    "arrow-wave-right-square",
+    "no-bags-square",
+    "no-food-square",
+    "no-gluten-square",
+    "no-pets-square",
+    "pixelate-square",
     "alien-square",
     "chart-donut-square",
-    "aquarius-square",
+    "letter-m-square",
+    "no-alcohol-square",
+    "no-littering-square",
+    "alert-diamond-square",
+    "no-weapons-square",
+    "no-flash-square",
+    "italic-square",
     "ghost-square",
-    "eye-square",
-    "crosshair-square",
-    "cursor-help-square",
+    "no-fish-square",
+    "no-caffeine-square",
+    "no-cash-square",
+    "no-cooking-square",
     "detour-square",
     "compass-square",
+    "no-strollers-square",
+    "no-fishing-square",
+    "no-cycling-square",
+    "no-swimming-square",
     "copyright-square",
-    "eclipse-square",
-    "alert-diamond-square"
+    "registered-square",
+    "no-right-turn-square",
+    "no-horn-square",
+    "no-cars-square",
+    "no-camping-square",
+    "no-fires-square",
+    "no-umbrellas-square",
+    "snowflake-square",
+    "icicle-square",
+    "heart-plus-square",
+    "letter-b-square",
+    "letter-o-square",
+    "heading-square",
+    "strikethrough-square"
   ],
   "byCategory": {
-    "accessibility": 65,
+    "accessibility": 74,
     "actions": 66,
     "ai": 572,
-    "animals": 2001,
-    "arrows": 187,
+    "animals": 2002,
+    "arrows": 188,
     "buildings": 1728,
     "business": 1850,
     "celebration": 1738,
     "commerce": 1158,
     "communication": 1517,
-    "data": 1538,
-    "design": 950,
-    "development": 618,
-    "devices": 2027,
-    "education": 1373,
+    "data": 1541,
+    "design": 997,
+    "development": 630,
+    "devices": 2031,
+    "education": 1385,
     "emoji": 73,
     "energy": 941,
     "fashion": 2226,
     "files": 570,
     "finance": 1663,
     "food": 5975,
-    "gaming": 2227,
-    "health": 2055,
+    "gaming": 2230,
+    "health": 2057,
     "home": 4428,
     "interface": 1338,
     "logistics": 1004,
@@ -545,16 +5555,16 @@
     "nature": 2279,
     "navigation": 63,
     "notifications": 184,
-    "people": 1093,
+    "people": 1097,
     "science": 1349,
     "security": 849,
     "social": 495,
-    "sports": 2599,
-    "text": 380,
+    "sports": 2603,
+    "text": 385,
     "time": 594,
-    "tools": 2073,
-    "transport": 2474,
-    "travel": 1962,
-    "weather": 1452
+    "tools": 2076,
+    "transport": 2482,
+    "travel": 1965,
+    "weather": 1497
   }
 }
