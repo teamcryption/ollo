@@ -1835,6 +1835,36 @@ export default {
   'verified': { containers: ['circle', 'square'] }, // vc
   'window': { containers: ['circle', 'square'] }, // vc
   'yield-sign': { containers: ['circle', 'square'] }, // vc
+  'accessibility': { containers: ['circle', 'square'] }, // vc
+  'anemometer': { containers: ['circle', 'square', 'hexagon'] }, // vc
+  'angle': { containers: ['circle', 'square', 'hexagon'] }, // vc
+  'aquarius': { containers: ['hexagon'] }, // vc
+  'arrow-wave-right': { containers: ['hexagon'] }, // vc
+  'aurora': { containers: ['circle', 'square', 'hexagon'] }, // vc
+  'avalanche': { containers: ['circle', 'square', 'hexagon'] }, // vc
+  'box-open': { containers: ['circle', 'square', 'hexagon'] }, // vc
+  'braille': { containers: ['circle', 'square', 'hexagon'] }, // vc
+  'calendar-plain': { containers: ['circle', 'square', 'hexagon'] }, // vc
+  'celsius': { containers: ['circle', 'square', 'hexagon'] }, // vc
+  'clock': { containers: ['circle', 'square', 'hexagon'] }, // vc
+  'closed-captions': { containers: ['circle', 'square', 'hexagon'] }, // vc
+  'cloudy': { containers: ['circle', 'square', 'hexagon'] }, // vc
+  'comet': { containers: ['circle', 'square', 'hexagon'] }, // vc
+  'contrast': { containers: ['hexagon'] }, // vc
+  'crosshair': { containers: ['hexagon'] }, // vc
+  'cursor-help': { containers: ['hexagon'] }, // vc
+  'database-backup': { containers: ['circle', 'square', 'hexagon'] }, // vc
+  'dice-six': { containers: ['circle', 'square', 'hexagon'] }, // vc
+  'drought': { containers: ['circle', 'square', 'hexagon'] }, // vc
+  'dust-storm': { containers: ['circle', 'square', 'hexagon'] }, // vc
+  'eclipse': { containers: ['hexagon'] }, // vc
+  'element-of': { containers: ['circle', 'square', 'hexagon'] }, // vc
+  'exists': { containers: ['circle', 'square', 'hexagon'] }, // vc
+  'eye': { containers: ['hexagon'] }, // vc
+  'fahrenheit': { containers: ['circle', 'square', 'hexagon'] }, // vc
+  'focus-ring': { containers: ['circle', 'square', 'hexagon'] }, // vc
+  'for-all': { containers: ['circle', 'square', 'hexagon'] }, // vc
+  'function': { containers: ['circle', 'square', 'hexagon'] }, // vc
 };
 
 export { OBJ, FULL };

@@ -1,860 +1,560 @@
 {
-  "generatedAt": "2026-11-13T05:28:45.004Z",
-  "icons": 61201,
-  "files": 306005,
+  "generatedAt": "2026-11-13T05:34:45.170Z",
+  "icons": 60658,
+  "files": 303290,
   "errors": [],
-  "warnings": [
-    "chimney-camera: grid: outside the 3-21 live area (3.00, 2.50, 22.00, 20.50)",
-    "carousel-camera: grid: outside the 3-21 live area (3.00, 3.67, 22.00, 20.50)",
-    "hairbrush-camera: grid: outside the 3-21 live area (3.50, 3.00, 22.00, 20.50)",
-    "rain-boots-camera: grid: outside the 3-21 live area (5.00, 3.50, 22.00, 20.50)",
-    "beer-keg-camera: grid: outside the 3-21 live area (4.00, 2.80, 22.00, 20.50)",
-    "bundt-cake-camera: grid: outside the 3-21 live area (3.00, 7.00, 22.00, 20.50)",
-    "cereal-box-camera: grid: outside the 3-21 live area (5.00, 3.50, 22.00, 20.50)",
-    "egg-carton-camera: grid: outside the 3-21 live area (3.00, 9.00, 22.00, 20.50)",
-    "knife-block-camera: grid: outside the 3-21 live area (4.00, 3.00, 22.00, 20.50)",
-    "napkin-holder-camera: grid: outside the 3-21 live area (4.00, 4.50, 22.00, 20.50)",
-    "popcorn-machine-camera: grid: outside the 3-21 live area (4.00, 5.00, 22.00, 20.50)",
-    "pressure-cooker-camera: grid: outside the 3-21 live area (3.00, 4.00, 22.00, 20.50)",
-    "spice-rack-camera: grid: outside the 3-21 live area (3.00, 6.00, 22.00, 20.50)",
-    "tumbler-search: grid: outside the 3-21 live area (5.00, 2.00, 21.00, 20.00)",
-    "tumbler-clock: grid: outside the 3-21 live area (5.00, 2.00, 21.00, 20.50)",
-    "tumbler-shield: grid: outside the 3-21 live area (5.00, 2.00, 20.80, 20.80)",
-    "tumbler-gear: grid: outside the 3-21 live area (5.00, 2.00, 21.27, 20.77)",
-    "tumbler-pin: grid: outside the 3-21 live area (5.00, 2.00, 21.00, 21.00)",
-    "tumbler-bolt: grid: outside the 3-21 live area (5.00, 2.00, 20.31, 20.78)",
-    "tumbler-heart: grid: outside the 3-21 live area (5.00, 2.00, 20.66, 19.74)",
-    "tumbler-star: grid: outside the 3-21 live area (5.00, 2.00, 21.12, 20.02)",
-    "tumbler-alert: grid: outside the 3-21 live area (5.00, 2.00, 21.03, 20.50)",
-    "tumbler-user: grid: outside the 3-21 live area (5.00, 2.00, 20.90, 20.60)",
-    "tumbler-bell: grid: outside the 3-21 live area (5.00, 2.00, 21.00, 20.90)",
-    "tumbler-cloud: grid: outside the 3-21 live area (5.00, 2.00, 21.00, 20.30)",
-    "tumbler-chat: grid: outside the 3-21 live area (5.00, 2.00, 21.00, 20.70)",
-    "tumbler-download: grid: outside the 3-21 live area (5.00, 2.00, 21.00, 20.50)",
-    "tumbler-pencil: grid: outside the 3-21 live area (5.00, 2.00, 20.89, 20.70)",
-    "tumbler-sparkle: grid: outside the 3-21 live area (5.00, 2.00, 21.41, 20.91)",
-    "tumbler-trash: grid: outside the 3-21 live area (5.00, 2.00, 20.20, 20.50)",
-    "tumbler-flag: grid: outside the 3-21 live area (5.00, 2.00, 20.30, 21.00)",
-    "tumbler-calendar: grid: outside the 3-21 live area (5.00, 2.00, 21.00, 20.50)",
-    "tumbler-question: grid: outside the 3-21 live area (5.00, 2.00, 21.00, 20.50)",
-    "tumbler-bookmark: grid: outside the 3-21 live area (5.00, 2.00, 19.50, 20.50)",
-    "tumbler-upload: grid: outside the 3-21 live area (5.00, 2.00, 20.60, 20.50)",
-    "tumbler-crown: grid: outside the 3-21 live area (5.00, 2.00, 21.00, 20.00)",
-    "tumbler-moon: grid: outside the 3-21 live area (5.00, 2.00, 20.50, 20.92)",
-    "tumbler-leaf: grid: outside the 3-21 live area (5.00, 2.00, 21.02, 20.50)",
-    "tumbler-fire: grid: outside the 3-21 live area (5.00, 2.00, 20.60, 21.20)",
-    "tumbler-trophy: grid: outside the 3-21 live area (5.00, 2.00, 21.00, 20.60)",
-    "tumbler-hourglass: grid: outside the 3-21 live area (5.00, 2.00, 20.28, 20.50)",
-    "tumbler-cursor: grid: outside the 3-21 live area (5.00, 2.00, 20.37, 19.97)",
-    "tumbler-camera: grid: outside the 3-21 live area (5.00, 2.00, 22.00, 20.50)",
-    "tumbler-filter: grid: outside the 3-21 live area (5.00, 2.00, 20.81, 20.35)",
-    "tumbler-stats: grid: outside the 3-21 live area (5.00, 2.00, 20.70, 20.50)",
-    "tumbler-checkbox: grid: outside the 3-21 live area (5.00, 2.00, 21.00, 20.50)",
-    "doll-house-camera: grid: outside the 3-21 live area (3.00, 3.69, 22.00, 20.50)",
-    "pool-table-camera: grid: outside the 3-21 live area (3.00, 6.00, 22.00, 20.50)",
-    "sandbox-camera: grid: outside the 3-21 live area (3.00, 8.50, 22.00, 20.50)",
-    "shower-cap-camera: grid: outside the 3-21 live area (3.00, 4.50, 22.00, 20.50)",
-    "amphora-camera: grid: outside the 3-21 live area (3.00, 3.50, 22.00, 20.50)",
-    "ashtray-camera: grid: outside the 3-21 live area (3.00, 3.70, 22.00, 20.50)",
-    "bean-bag-camera: grid: outside the 3-21 live area (3.66, 6.00, 22.00, 20.50)",
-    "drawer-camera: grid: outside the 3-21 live area (3.50, 5.00, 22.00, 20.50)",
-    "dumpster-camera: grid: outside the 3-21 live area (3.00, 6.00, 22.00, 20.50)",
-    "feather-duster-camera: grid: outside the 3-21 live area (3.50, 3.50, 22.00, 20.50)",
-    "fly-swatter-camera: grid: outside the 3-21 live area (3.00, 3.50, 22.00, 20.50)",
-    "footstool-camera: grid: outside the 3-21 live area (3.00, 8.00, 22.00, 20.50)",
-    "incense-search: grid: outside the 3-21 live area (3.00, 2.00, 21.00, 20.00)",
-    "incense-clock: grid: outside the 3-21 live area (3.00, 2.00, 21.00, 20.50)",
-    "incense-shield: grid: outside the 3-21 live area (3.00, 2.00, 20.80, 20.80)",
-    "incense-gear: grid: outside the 3-21 live area (3.00, 2.00, 21.27, 20.77)",
-    "incense-pin: grid: outside the 3-21 live area (3.00, 2.00, 21.00, 21.00)",
-    "incense-bolt: grid: outside the 3-21 live area (3.00, 2.00, 20.31, 20.78)",
-    "incense-heart: grid: outside the 3-21 live area (3.00, 2.00, 20.66, 19.74)",
-    "incense-star: grid: outside the 3-21 live area (3.00, 2.00, 21.12, 20.02)",
-    "incense-alert: grid: outside the 3-21 live area (3.00, 2.00, 21.03, 20.50)",
-    "incense-user: grid: outside the 3-21 live area (3.00, 2.00, 20.90, 20.60)",
-    "incense-bell: grid: outside the 3-21 live area (3.00, 2.00, 21.00, 20.90)",
-    "incense-cloud: grid: outside the 3-21 live area (3.00, 2.00, 21.00, 20.30)",
-    "incense-chat: grid: outside the 3-21 live area (3.00, 2.00, 21.00, 20.70)",
-    "incense-download: grid: outside the 3-21 live area (3.00, 2.00, 21.00, 20.50)",
-    "incense-pencil: grid: outside the 3-21 live area (3.00, 2.00, 20.89, 20.70)",
-    "incense-sparkle: grid: outside the 3-21 live area (3.00, 2.00, 21.41, 20.91)",
-    "incense-trash: grid: outside the 3-21 live area (3.00, 2.00, 20.20, 20.50)",
-    "incense-flag: grid: outside the 3-21 live area (3.00, 2.00, 20.30, 21.00)",
-    "incense-calendar: grid: outside the 3-21 live area (3.00, 2.00, 21.00, 20.50)",
-    "incense-question: grid: outside the 3-21 live area (3.00, 2.00, 21.00, 20.50)",
-    "incense-bookmark: grid: outside the 3-21 live area (3.00, 2.00, 19.50, 20.50)",
-    "incense-upload: grid: outside the 3-21 live area (3.00, 2.00, 20.60, 20.50)",
-    "incense-crown: grid: outside the 3-21 live area (3.00, 2.00, 21.00, 20.00)",
-    "incense-moon: grid: outside the 3-21 live area (3.00, 2.00, 20.50, 20.92)",
-    "incense-leaf: grid: outside the 3-21 live area (3.00, 2.00, 21.02, 20.50)",
-    "incense-fire: grid: outside the 3-21 live area (3.00, 2.00, 20.60, 21.20)",
-    "incense-trophy: grid: outside the 3-21 live area (3.00, 2.00, 21.00, 20.60)",
-    "incense-hourglass: grid: outside the 3-21 live area (3.00, 2.00, 20.28, 20.50)",
-    "incense-cursor: grid: outside the 3-21 live area (3.00, 2.00, 20.37, 19.97)",
-    "incense-camera: grid: outside the 3-21 live area (3.00, 2.00, 22.00, 20.50)",
-    "incense-filter: grid: outside the 3-21 live area (3.00, 2.00, 20.81, 20.35)",
-    "incense-stats: grid: outside the 3-21 live area (3.00, 2.00, 20.70, 20.50)",
-    "incense-checkbox: grid: outside the 3-21 live area (3.00, 2.00, 21.00, 20.50)",
-    "magazine-rack-camera: grid: outside the 3-21 live area (3.00, 3.50, 22.00, 20.50)",
-    "night-light-camera: grid: outside the 3-21 live area (5.00, 5.00, 22.00, 20.50)",
-    "plant-mister-camera: grid: outside the 3-21 live area (6.00, 4.50, 22.00, 20.50)",
-    "shoe-rack-camera: grid: outside the 3-21 live area (3.00, 7.00, 22.00, 20.50)",
-    "side-table-camera: grid: outside the 3-21 live area (3.50, 5.00, 22.00, 20.50)",
-    "towel-rack-camera: grid: outside the 3-21 live area (3.00, 5.00, 22.00, 20.50)",
-    "tv-stand-camera: grid: outside the 3-21 live area (3.00, 4.00, 22.00, 20.50)",
-    "water-filter-camera: grid: outside the 3-21 live area (6.00, 3.50, 22.00, 20.50)",
-    "wine-cooler-camera: grid: outside the 3-21 live area (4.50, 3.50, 22.00, 20.50)",
-    "wood-stove-camera: grid: outside the 3-21 live area (4.00, 4.00, 22.00, 20.50)",
-    "cinema-seat-camera: grid: outside the 3-21 live area (3.50, 4.00, 22.00, 20.50)",
-    "butterfly-net-camera: grid: outside the 3-21 live area (3.00, 4.50, 22.00, 20.50)",
-    "playpen-camera: grid: outside the 3-21 live area (3.00, 7.00, 22.00, 20.50)",
-    "bike-lock-camera: grid: outside the 3-21 live area (4.00, 3.50, 22.00, 20.50)",
-    "diving-board-camera: grid: outside the 3-21 live area (3.00, 9.00, 22.00, 20.50)",
-    "rope-ladder-camera: grid: outside the 3-21 live area (5.00, 3.50, 22.00, 20.50)",
-    "hedge-trimmer-camera: grid: outside the 3-21 live area (3.00, 9.00, 22.00, 20.50)",
-    "car-jack-camera: grid: outside the 3-21 live area (3.00, 7.00, 22.00, 20.50)",
-    "leaf-blower-camera: grid: outside the 3-21 live area (3.00, 5.50, 22.00, 20.50)",
-    "paint-tray-camera: grid: outside the 3-21 live area (3.00, 9.00, 22.00, 20.50)",
-    "bollard-camera: grid: outside the 3-21 live area (5.00, 3.50, 22.00, 20.50)",
-    "fire-truck-camera: grid: outside the 3-21 live area (3.00, 5.00, 22.00, 20.50)",
-    "cooler-box-camera: grid: outside the 3-21 live area (3.00, 5.50, 22.00, 20.50)",
-    "headlamp-camera: grid: outside the 3-21 live area (3.00, 4.50, 22.00, 20.50)"
-  ],
+  "warnings": [],
   "duplicates": [
     {
-      "a": "carousel-sparkle",
-      "b": "carousel-upload",
+      "a": "accessibility-hexagon",
+      "b": "story-ring",
       "distance": 1.41
     },
     {
-      "a": "beer-keg-pencil",
-      "b": "beer-keg-leaf",
+      "a": "contrast-hexagon",
+      "b": "compare-hexagon",
       "distance": 1.41
     },
     {
-      "a": "bundt-cake-sparkle",
-      "b": "bundt-cake-upload",
+      "a": "contrast-hexagon",
+      "b": "alert-diamond-hexagon",
       "distance": 1.41
     },
     {
-      "a": "cereal-box-search",
-      "b": "pill-bottle-search",
-      "distance": 1.41
-    },
-    {
-      "a": "cereal-box-clock",
-      "b": "pill-bottle-clock",
-      "distance": 1.41
-    },
-    {
-      "a": "cereal-box-shield",
-      "b": "pill-bottle-shield",
-      "distance": 1.41
-    },
-    {
-      "a": "cereal-box-gear",
-      "b": "pill-bottle-gear",
-      "distance": 1.41
-    },
-    {
-      "a": "cereal-box-heart",
-      "b": "pill-bottle-heart",
-      "distance": 1.41
-    },
-    {
-      "a": "cereal-box-star",
-      "b": "pill-bottle-star",
-      "distance": 1.41
-    },
-    {
-      "a": "cereal-box-alert",
-      "b": "seed-packet-alert",
+      "a": "arrow-right-short-hexagon",
+      "b": "arrow-circle-right",
       "distance": 1
     },
     {
-      "a": "cereal-box-user",
-      "b": "pill-bottle-user",
+      "a": "basket-hexagon",
+      "b": "ghost-hexagon",
       "distance": 1.41
     },
     {
-      "a": "cereal-box-cloud",
-      "b": "pill-bottle-cloud",
+      "a": "chart-donut-hexagon",
+      "b": "alien-hexagon",
       "distance": 1.41
     },
     {
-      "a": "cereal-box-chat",
-      "b": "pill-bottle-chat",
+      "a": "chart-donut-hexagon",
+      "b": "target",
       "distance": 1.41
     },
     {
-      "a": "cereal-box-download",
-      "b": "pill-bottle-download",
+      "a": "divide-hexagon",
+      "b": "add-circle",
       "distance": 1.41
     },
     {
-      "a": "cereal-box-pencil",
-      "b": "pill-bottle-pencil",
+      "a": "ghost-hexagon",
+      "b": "alien-hexagon",
       "distance": 1.41
     },
     {
-      "a": "cereal-box-sparkle",
-      "b": "pill-bottle-sparkle",
+      "a": "ghost-hexagon",
+      "b": "no-photos",
       "distance": 1.41
     },
     {
-      "a": "cereal-box-sparkle",
-      "b": "pill-bottle-upload",
+      "a": "alien-hexagon",
+      "b": "database-hexagon",
       "distance": 1.41
     },
     {
-      "a": "cereal-box-trash",
-      "b": "pill-bottle-trash",
+      "a": "eye-hexagon",
+      "b": "detour-hexagon",
       "distance": 1.41
     },
     {
-      "a": "cereal-box-calendar",
-      "b": "pill-bottle-calendar",
+      "a": "target",
+      "b": "detour-hexagon",
       "distance": 1.41
     },
     {
-      "a": "cereal-box-question",
-      "b": "pill-bottle-question",
+      "a": "target",
+      "b": "compass-hexagon",
       "distance": 1.41
     },
     {
-      "a": "cereal-box-bookmark",
-      "b": "pill-bottle-bookmark",
+      "a": "target",
+      "b": "copyright-hexagon",
       "distance": 1.41
     },
     {
-      "a": "cereal-box-upload",
-      "b": "pill-bottle-upload",
+      "a": "detour-hexagon",
+      "b": "compass-hexagon",
       "distance": 1.41
     },
     {
-      "a": "cereal-box-crown",
-      "b": "pill-bottle-crown",
+      "a": "detour-hexagon",
+      "b": "crosshair-hexagon",
       "distance": 1.41
     },
     {
-      "a": "cereal-box-leaf",
-      "b": "pill-bottle-leaf",
+      "a": "crosshair-hexagon",
+      "b": "alert-diamond-hexagon",
       "distance": 1.41
     },
     {
-      "a": "cereal-box-trophy",
-      "b": "pill-bottle-trophy",
+      "a": "contrast-circle",
+      "b": "compare-circle",
       "distance": 1.41
     },
     {
-      "a": "cereal-box-hourglass",
-      "b": "seed-packet-hourglass",
+      "a": "contrast-circle",
+      "b": "alert-octagon-circle",
       "distance": 1
     },
     {
-      "a": "cereal-box-cursor",
-      "b": "pill-bottle-cursor",
+      "a": "contrast-circle",
+      "b": "alert-diamond-circle",
       "distance": 1.41
     },
     {
-      "a": "cereal-box-camera",
-      "b": "pill-bottle-camera",
+      "a": "compare-circle",
+      "b": "alert-octagon-circle",
       "distance": 1.41
     },
     {
-      "a": "cereal-box-filter",
-      "b": "pill-bottle-filter",
+      "a": "basket-circle",
+      "b": "ghost-circle",
       "distance": 1.41
     },
     {
-      "a": "cereal-box-stats",
-      "b": "pill-bottle-stats",
+      "a": "chart-donut-circle",
+      "b": "alien-circle",
       "distance": 1.41
     },
     {
-      "a": "cereal-box-checkbox",
-      "b": "pill-bottle-checkbox",
+      "a": "chart-donut-circle",
+      "b": "settings-circle",
       "distance": 1.41
     },
     {
-      "a": "egg-carton-pencil",
-      "b": "egg-carton-leaf",
+      "a": "ghost-circle",
+      "b": "clipboard-circle",
       "distance": 1.41
     },
     {
-      "a": "knife-block-pencil",
-      "b": "knife-block-leaf",
+      "a": "ghost-circle",
+      "b": "settings-circle",
       "distance": 1.41
     },
     {
-      "a": "popcorn-machine-pencil",
-      "b": "popcorn-machine-leaf",
+      "a": "alien-circle",
+      "b": "database-circle",
       "distance": 1.41
     },
     {
-      "a": "popcorn-machine-sparkle",
-      "b": "popcorn-machine-upload",
+      "a": "medical-cross-circle",
+      "b": "eye-circle",
       "distance": 1.41
     },
     {
-      "a": "spice-rack-sparkle",
-      "b": "spice-rack-upload",
+      "a": "medical-cross-circle",
+      "b": "crosshair-circle",
       "distance": 1.41
     },
     {
-      "a": "tumbler-sparkle",
-      "b": "tumbler-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "pool-table-pencil",
-      "b": "pool-table-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "bean-bag-pencil",
-      "b": "bean-bag-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "drawer-pencil",
-      "b": "drawer-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "drawer-sparkle",
-      "b": "drawer-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "dumpster-pencil",
-      "b": "dumpster-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "fly-swatter-sparkle",
-      "b": "fly-swatter-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "footstool-gear",
-      "b": "footstool-stats",
-      "distance": 1.41
-    },
-    {
-      "a": "footstool-pencil",
-      "b": "footstool-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "magazine-rack-pencil",
-      "b": "magazine-rack-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "shoe-rack-pencil",
-      "b": "shoe-rack-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "shoe-rack-sparkle",
-      "b": "shoe-rack-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "side-table-search",
-      "b": "birdbath-search",
-      "distance": 1.41
-    },
-    {
-      "a": "side-table-clock",
-      "b": "birdbath-clock",
-      "distance": 1.41
-    },
-    {
-      "a": "side-table-shield",
-      "b": "birdbath-shield",
-      "distance": 1.41
-    },
-    {
-      "a": "side-table-gear",
-      "b": "birdbath-gear",
-      "distance": 1.41
-    },
-    {
-      "a": "side-table-bolt",
-      "b": "birdbath-bolt",
-      "distance": 1.41
-    },
-    {
-      "a": "side-table-heart",
-      "b": "birdbath-heart",
-      "distance": 1.41
-    },
-    {
-      "a": "side-table-star",
-      "b": "birdbath-star",
-      "distance": 1.41
-    },
-    {
-      "a": "side-table-alert",
-      "b": "birdbath-alert",
-      "distance": 1.41
-    },
-    {
-      "a": "side-table-cloud",
-      "b": "birdbath-cloud",
-      "distance": 1.41
-    },
-    {
-      "a": "side-table-chat",
-      "b": "birdbath-chat",
-      "distance": 1.41
-    },
-    {
-      "a": "side-table-download",
-      "b": "birdbath-download",
-      "distance": 1.41
-    },
-    {
-      "a": "side-table-pencil",
-      "b": "birdbath-pencil",
-      "distance": 1.41
+      "a": "cursor-wait-circle",
+      "b": "cursor-help-circle",
+      "distance": 1
     },
     {
-      "a": "side-table-trash",
-      "b": "birdbath-trash",
+      "a": "settings-circle",
+      "b": "eye-circle",
       "distance": 1.41
     },
     {
-      "a": "side-table-calendar",
-      "b": "birdbath-calendar",
+      "a": "settings-circle",
+      "b": "detour-circle",
       "distance": 1.41
     },
     {
-      "a": "side-table-question",
-      "b": "birdbath-question",
+      "a": "settings-circle",
+      "b": "compass-circle",
       "distance": 1.41
     },
     {
-      "a": "side-table-bookmark",
-      "b": "birdbath-bookmark",
+      "a": "settings-circle",
+      "b": "crosshair-circle",
       "distance": 1.41
     },
     {
-      "a": "side-table-crown",
-      "b": "birdbath-crown",
+      "a": "settings-circle",
+      "b": "copyright-circle",
       "distance": 1.41
     },
     {
-      "a": "side-table-leaf",
-      "b": "birdbath-leaf",
+      "a": "settings-circle",
+      "b": "eclipse-circle",
       "distance": 1.41
     },
     {
-      "a": "side-table-trophy",
-      "b": "birdbath-trophy",
+      "a": "eye-circle",
+      "b": "detour-circle",
       "distance": 1.41
     },
     {
-      "a": "side-table-hourglass",
-      "b": "birdbath-hourglass",
+      "a": "eye-circle",
+      "b": "heart-crack-circle",
       "distance": 1.41
     },
     {
-      "a": "side-table-cursor",
-      "b": "birdbath-cursor",
+      "a": "detour-circle",
+      "b": "compass-circle",
       "distance": 1.41
     },
     {
-      "a": "side-table-camera",
-      "b": "birdbath-camera",
+      "a": "detour-circle",
+      "b": "crosshair-circle",
       "distance": 1.41
     },
     {
-      "a": "side-table-filter",
-      "b": "birdbath-filter",
+      "a": "crosshair-circle",
+      "b": "alert-diamond-circle",
       "distance": 1.41
     },
     {
-      "a": "side-table-stats",
-      "b": "birdbath-stats",
+      "a": "alert-octagon-circle",
+      "b": "alert-diamond-circle",
       "distance": 1.41
     },
     {
-      "a": "side-table-checkbox",
-      "b": "birdbath-checkbox",
+      "a": "alert-diamond-circle",
+      "b": "heart-crack-circle",
       "distance": 1.41
     },
     {
-      "a": "towel-rack-sparkle",
-      "b": "towel-rack-upload",
+      "a": "arrows-left-right-circle",
+      "b": "arrow-wave-right-circle",
       "distance": 1.41
     },
     {
-      "a": "tv-stand-pencil",
-      "b": "tv-stand-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "wine-cooler-pencil",
-      "b": "wine-cooler-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "wood-stove-pencil",
-      "b": "wood-stove-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "cinema-seat-pencil",
-      "b": "cinema-seat-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "cinema-seat-sparkle",
-      "b": "cinema-seat-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "playpen-sparkle",
-      "b": "playpen-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "bike-lock-pencil",
-      "b": "bike-lock-leaf",
-      "distance": 1.41
+      "a": "arrows-converge-circle",
+      "b": "divide-circle",
+      "distance": 1
     },
     {
-      "a": "rope-ladder-sparkle",
-      "b": "rope-ladder-upload",
+      "a": "arrow-wave-right-circle",
+      "b": "arrow-dashed-right-circle",
       "distance": 1.41
     },
     {
-      "a": "paint-tray-pencil",
-      "b": "paint-tray-leaf",
-      "distance": 1.41
+      "a": "arrow-right-circle",
+      "b": "arrow-right-short-circle",
+      "distance": 1
     },
     {
-      "a": "paint-tray-sparkle",
-      "b": "paint-tray-upload",
+      "a": "equals-circle",
+      "b": "aquarius-circle",
       "distance": 1.41
     },
     {
-      "a": "fire-truck-pencil",
-      "b": "fire-truck-leaf",
+      "a": "contrast-square",
+      "b": "compare-square",
       "distance": 1.41
     },
     {
-      "a": "fire-truck-sparkle",
-      "b": "fire-truck-upload",
-      "distance": 1.41
+      "a": "contrast-square",
+      "b": "alert-octagon-square",
+      "distance": 1
     },
     {
-      "a": "cooler-box-sparkle",
-      "b": "cooler-box-upload",
+      "a": "contrast-square",
+      "b": "alert-diamond-square",
       "distance": 1.41
     },
     {
-      "a": "cereal-box-moon",
-      "b": "pill-bottle-moon",
+      "a": "compare-square",
+      "b": "alert-octagon-square",
       "distance": 1.41
     },
     {
-      "a": "side-table-bell",
-      "b": "birdbath-bell",
-      "distance": 1.41
+      "a": "plus-square",
+      "b": "divide-square",
+      "distance": 1
     },
     {
-      "a": "side-table-moon",
-      "b": "birdbath-moon",
+      "a": "arrows-left-right-square",
+      "b": "arrow-wave-right-square",
       "distance": 1.41
     },
     {
-      "a": "cereal-box-fire",
-      "b": "pill-bottle-fire",
+      "a": "arrow-wave-right-square",
+      "b": "arrow-dashed-right-square",
       "distance": 1.41
     },
     {
-      "a": "side-table-fire",
-      "b": "birdbath-fire",
-      "distance": 1.41
+      "a": "arrow-right-square",
+      "b": "arrow-right-short-square",
+      "distance": 1
     },
     {
-      "a": "cereal-box-pin",
-      "b": "pill-bottle-pin",
+      "a": "basket-square",
+      "b": "ghost-square",
       "distance": 1.41
     },
     {
-      "a": "cereal-box-bell",
-      "b": "pill-bottle-bell",
+      "a": "chart-donut-square",
+      "b": "alien-square",
       "distance": 1.41
     },
     {
-      "a": "cereal-box-flag",
-      "b": "pill-bottle-flag",
+      "a": "chart-donut-square",
+      "b": "settings-square",
       "distance": 1.41
     },
     {
-      "a": "egg-carton-sparkle",
-      "b": "egg-carton-upload",
+      "a": "equals-square",
+      "b": "aquarius-square",
       "distance": 1.41
     },
     {
-      "a": "pressure-cooker-sparkle",
-      "b": "pressure-cooker-upload",
+      "a": "ghost-square",
+      "b": "clipboard-square",
       "distance": 1.41
     },
     {
-      "a": "pool-table-sparkle",
-      "b": "pool-table-upload",
+      "a": "ghost-square",
+      "b": "settings-square",
       "distance": 1.41
     },
     {
-      "a": "sandbox-sparkle",
-      "b": "sandbox-upload",
+      "a": "alien-square",
+      "b": "database-square",
       "distance": 1.41
     },
     {
-      "a": "shower-cap-sparkle",
-      "b": "shower-cap-upload",
+      "a": "medical-cross-square",
+      "b": "eye-square",
       "distance": 1.41
     },
     {
-      "a": "amphora-sparkle",
-      "b": "amphora-upload",
+      "a": "medical-cross-square",
+      "b": "crosshair-square",
       "distance": 1.41
     },
     {
-      "a": "ashtray-sparkle",
-      "b": "ashtray-upload",
-      "distance": 1.41
+      "a": "cursor-wait-square",
+      "b": "cursor-help-square",
+      "distance": 1
     },
     {
-      "a": "bean-bag-sparkle",
-      "b": "bean-bag-upload",
+      "a": "settings-square",
+      "b": "eye-square",
       "distance": 1.41
     },
     {
-      "a": "footstool-sparkle",
-      "b": "footstool-upload",
+      "a": "settings-square",
+      "b": "detour-square",
       "distance": 1.41
     },
     {
-      "a": "side-table-pin",
-      "b": "birdbath-pin",
+      "a": "settings-square",
+      "b": "compass-square",
       "distance": 1.41
     },
     {
-      "a": "side-table-user",
-      "b": "birdbath-user",
+      "a": "settings-square",
+      "b": "crosshair-square",
       "distance": 1.41
     },
     {
-      "a": "side-table-sparkle",
-      "b": "birdbath-sparkle",
+      "a": "settings-square",
+      "b": "copyright-square",
       "distance": 1.41
     },
     {
-      "a": "side-table-flag",
-      "b": "birdbath-flag",
+      "a": "settings-square",
+      "b": "eclipse-square",
       "distance": 1.41
     },
     {
-      "a": "water-filter-sparkle",
-      "b": "water-filter-upload",
+      "a": "eye-square",
+      "b": "detour-square",
       "distance": 1.41
     },
     {
-      "a": "butterfly-net-sparkle",
-      "b": "butterfly-net-upload",
+      "a": "eye-square",
+      "b": "heart-crack-square",
       "distance": 1.41
     },
     {
-      "a": "hedge-trimmer-sparkle",
-      "b": "hedge-trimmer-upload",
+      "a": "detour-square",
+      "b": "compass-square",
       "distance": 1.41
     },
     {
-      "a": "leaf-blower-sparkle",
-      "b": "leaf-blower-upload",
+      "a": "detour-square",
+      "b": "crosshair-square",
       "distance": 1.41
     },
     {
-      "a": "headlamp-sparkle",
-      "b": "headlamp-upload",
+      "a": "crosshair-square",
+      "b": "alert-diamond-square",
       "distance": 1.41
     },
     {
-      "a": "incense-sparkle",
-      "b": "incense-upload",
+      "a": "alert-octagon-square",
+      "b": "alert-diamond-square",
       "distance": 1.41
     },
     {
-      "a": "hairbrush-sparkle",
-      "b": "hairbrush-upload",
+      "a": "alert-diamond-square",
+      "b": "heart-crack-square",
       "distance": 1.41
     }
   ],
   "dropped": [
-    "carousel-upload",
-    "beer-keg-leaf",
-    "bundt-cake-upload",
-    "cereal-box-search",
-    "cereal-box-clock",
-    "cereal-box-shield",
-    "cereal-box-gear",
-    "cereal-box-heart",
-    "cereal-box-star",
-    "cereal-box-alert",
-    "cereal-box-user",
-    "cereal-box-cloud",
-    "cereal-box-chat",
-    "cereal-box-download",
-    "cereal-box-pencil",
-    "cereal-box-sparkle",
-    "cereal-box-trash",
-    "cereal-box-calendar",
-    "cereal-box-question",
-    "cereal-box-bookmark",
-    "cereal-box-upload",
-    "cereal-box-crown",
-    "cereal-box-leaf",
-    "cereal-box-trophy",
-    "cereal-box-hourglass",
-    "cereal-box-cursor",
-    "cereal-box-camera",
-    "cereal-box-filter",
-    "cereal-box-stats",
-    "cereal-box-checkbox",
-    "egg-carton-leaf",
-    "knife-block-leaf",
-    "popcorn-machine-leaf",
-    "popcorn-machine-upload",
-    "spice-rack-upload",
-    "tumbler-upload",
-    "pool-table-leaf",
-    "bean-bag-leaf",
-    "drawer-leaf",
-    "drawer-upload",
-    "dumpster-leaf",
-    "fly-swatter-upload",
-    "footstool-stats",
-    "footstool-leaf",
-    "magazine-rack-leaf",
-    "shoe-rack-leaf",
-    "shoe-rack-upload",
-    "side-table-search",
-    "side-table-clock",
-    "side-table-shield",
-    "side-table-gear",
-    "side-table-bolt",
-    "side-table-heart",
-    "side-table-star",
-    "side-table-alert",
-    "side-table-cloud",
-    "side-table-chat",
-    "side-table-download",
-    "side-table-pencil",
-    "side-table-trash",
-    "side-table-calendar",
-    "side-table-question",
-    "side-table-bookmark",
-    "side-table-crown",
-    "side-table-leaf",
-    "side-table-trophy",
-    "side-table-hourglass",
-    "side-table-cursor",
-    "side-table-camera",
-    "side-table-filter",
-    "side-table-stats",
-    "side-table-checkbox",
-    "towel-rack-upload",
-    "tv-stand-leaf",
-    "wine-cooler-leaf",
-    "wood-stove-leaf",
-    "cinema-seat-leaf",
-    "cinema-seat-upload",
-    "playpen-upload",
-    "bike-lock-leaf",
-    "rope-ladder-upload",
-    "paint-tray-leaf",
-    "paint-tray-upload",
-    "fire-truck-leaf",
-    "fire-truck-upload",
-    "cooler-box-upload",
-    "cereal-box-moon",
-    "side-table-bell",
-    "side-table-moon",
-    "cereal-box-fire",
-    "side-table-fire",
-    "cereal-box-pin",
-    "cereal-box-bell",
-    "cereal-box-flag",
-    "egg-carton-upload",
-    "pressure-cooker-upload",
-    "pool-table-upload",
-    "sandbox-upload",
-    "shower-cap-upload",
-    "amphora-upload",
-    "ashtray-upload",
-    "bean-bag-upload",
-    "footstool-upload",
-    "side-table-pin",
-    "side-table-user",
-    "side-table-sparkle",
-    "side-table-flag",
-    "water-filter-upload",
-    "butterfly-net-upload",
-    "hedge-trimmer-upload",
-    "leaf-blower-upload",
-    "headlamp-upload",
-    "incense-upload",
-    "hairbrush-upload"
+    "elevator-circle",
+    "elevator-square",
+    "elevator-hexagon",
+    "ear-circle",
+    "ear-square",
+    "ear-hexagon",
+    "duplicate-circle",
+    "duplicate-square",
+    "duplicate-hexagon",
+    "arrow-right-short-circle",
+    "arrow-right-short-square",
+    "arrow-right-short-hexagon",
+    "basket-circle",
+    "basket-square",
+    "basket-hexagon",
+    "cart-circle",
+    "cart-square",
+    "cart-hexagon",
+    "exam-circle",
+    "exam-square",
+    "exam-hexagon",
+    "folder-shared-circle",
+    "folder-shared-square",
+    "folder-shared-hexagon",
+    "book-circle",
+    "book-square",
+    "book-hexagon",
+    "database-circle",
+    "database-square",
+    "database-hexagon",
+    "bookmark-circle",
+    "bookmark-square",
+    "bookmark-hexagon",
+    "bell-snooze-circle",
+    "bell-snooze-square",
+    "bell-snooze-hexagon",
+    "bell-minus-circle",
+    "bell-minus-square",
+    "bell-minus-hexagon",
+    "bell-dot-circle",
+    "bell-dot-square",
+    "bell-dot-hexagon",
+    "bell-ring-circle",
+    "bell-ring-square",
+    "bell-ring-hexagon",
+    "bell-plus-circle",
+    "bell-plus-square",
+    "bell-plus-hexagon",
+    "envelope-dot-circle",
+    "envelope-dot-square",
+    "envelope-dot-hexagon",
+    "cloud-wind-circle",
+    "cloud-wind-square",
+    "cloud-wind-hexagon",
+    "fog-circle",
+    "fog-square",
+    "fog-hexagon",
+    "cloud-sun-circle",
+    "cloud-sun-square",
+    "cloud-sun-hexagon",
+    "droplet-circle",
+    "droplet-square",
+    "droplet-hexagon",
+    "accessibility-hexagon",
+    "compare-hexagon",
+    "alert-diamond-hexagon",
+    "alien-hexagon",
+    "chart-donut-hexagon",
+    "divide-hexagon",
+    "ghost-hexagon",
+    "detour-hexagon",
+    "compass-hexagon",
+    "copyright-hexagon",
+    "compare-circle",
+    "contrast-circle",
+    "alien-circle",
+    "chart-donut-circle",
+    "ghost-circle",
+    "eye-circle",
+    "crosshair-circle",
+    "cursor-help-circle",
+    "detour-circle",
+    "compass-circle",
+    "copyright-circle",
+    "eclipse-circle",
+    "alert-diamond-circle",
+    "arrow-wave-right-circle",
+    "divide-circle",
+    "aquarius-circle",
+    "compare-square",
+    "contrast-square",
+    "divide-square",
+    "arrow-wave-right-square",
+    "alien-square",
+    "chart-donut-square",
+    "aquarius-square",
+    "ghost-square",
+    "eye-square",
+    "crosshair-square",
+    "cursor-help-square",
+    "detour-square",
+    "compass-square",
+    "copyright-square",
+    "eclipse-square",
+    "alert-diamond-square"
   ],
   "byCategory": {
-    "accessibility": 53,
+    "accessibility": 65,
     "actions": 66,
     "ai": 572,
     "animals": 2001,
-    "arrows": 186,
-    "buildings": 1761,
+    "arrows": 187,
+    "buildings": 1728,
     "business": 1850,
     "celebration": 1738,
     "commerce": 1158,
     "communication": 1517,
-    "data": 1535,
+    "data": 1538,
     "design": 950,
-    "development": 615,
+    "development": 618,
     "devices": 2027,
-    "education": 1361,
-    "emoji": 72,
+    "education": 1373,
+    "emoji": 73,
     "energy": 941,
-    "fashion": 2258,
+    "fashion": 2226,
     "files": 570,
     "finance": 1663,
-    "food": 6008,
-    "gaming": 2256,
-    "health": 2087,
-    "home": 4651,
-    "interface": 1336,
-    "logistics": 1001,
+    "food": 5975,
+    "gaming": 2227,
+    "health": 2055,
+    "home": 4428,
+    "interface": 1338,
+    "logistics": 1004,
     "maps": 622,
-    "media": 2228,
-    "nature": 2311,
-    "navigation": 62,
+    "media": 2197,
+    "nature": 2279,
+    "navigation": 63,
     "notifications": 184,
-    "people": 1125,
+    "people": 1093,
     "science": 1349,
     "security": 849,
     "social": 495,
-    "sports": 2632,
+    "sports": 2599,
     "text": 380,
-    "time": 588,
-    "tools": 2137,
+    "time": 594,
+    "tools": 2073,
     "transport": 2474,
-    "travel": 1994,
-    "weather": 1424
+    "travel": 1962,
+    "weather": 1452
   }
 }

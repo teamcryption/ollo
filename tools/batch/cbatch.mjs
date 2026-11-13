@@ -8,7 +8,7 @@ const PLAN = ROOT + 'packages/forge/src/variant-plan.mjs';
 const ICONS = ROOT + 'packages/assets/icons';
 const [cmd, arg, outArg] = process.argv.slice(2);
 let s = fs.readFileSync(PLAN, 'utf8'); const nl = s.includes('\r\n') ? '\r\n' : '\n';
-const KINDS = ['circle', 'square'];
+const KINDS = ['circle', 'square', 'hexagon'];
 const CATS = new Set(['arrows', 'actions', 'interface', 'navigation', 'text', 'media', 'social', 'notifications', 'security', 'communication', 'files']);
 if (cmd === 'pick') {
   const plan = (await import(pathToFileURL(PLAN).href + '?t=' + Date.now())).default;
@@ -17,16 +17,16 @@ if (cmd === 'pick') {
     if (pick.length >= +arg) break;
     if (plan[n] || /circle|square/.test(n) || /-(circle|square|off|add|check|close|remove|alert|search|clock|shield|gear|pin|bolt|heart|star|user|bell|cloud|chat|download|pencil|sparkle|trash|flag|calendar|question|bookmark|upload|crown|moon|leaf|fire|trophy|hourglass|cursor|camera|filter|stats|checkbox|lock|notice|pricing|addbox|bulb|wifi|percent|tag|eye|truck|music|key|pause|play)$/.test(n)) continue;
     let meta; try { meta = JSON.parse(fs.readFileSync(`${ICONS}/${n}/meta.json`, 'utf8')); } catch { continue; }
-    if (meta.source !== 'forge' || meta.variant || !CATS.has(meta.category)) continue;
+    if (meta.source !== 'forge' || meta.variant || (process.env.CB_ALL ? false : !CATS.has(meta.category))) continue;
     const kinds = KINDS.filter((k) => !has.has(`${n}${k}`.replace(/-/g, '')));
-    if (kinds.length < 2) continue;
-    pick.push(n);
+    if (!kinds.length) continue;
+    pick.push([n, kinds]);
   }
-  const lines = pick.map((n) => `  '${n}': { containers: ['circle', 'square'] }, // vc`);
+  const lines = pick.map(([n, ks]) => `  '${n}': { containers: [${ks.map((k) => `'${k}'`).join(', ')}] }, // vc`);
   const e = s.indexOf('export { OBJ'); const i = s.lastIndexOf('};', e);
   s = s.slice(0, i) + lines.join(nl) + nl + s.slice(i); fs.writeFileSync(PLAN, s);
-  fs.writeFileSync(outArg, pick.flatMap((n) => KINDS.map((k) => `${n}-${k}`)).join('\n') + '\n');
-  console.log('picked', pick.length, 'icons ->', pick.length * 2, 'variants');
+  fs.writeFileSync(outArg, pick.flatMap(([n, ks]) => ks.map((k) => `${n}-${k}`)).join('\n') + '\n');
+  console.log('picked', pick.length, 'icons ->', pick.reduce((a, [, ks]) => a + ks.length, 0), 'variants');
 } else if (cmd === 'prune') {
   const dropped = fs.existsSync(arg) ? fs.readFileSync(arg, 'utf8').split(/\s+/).filter(Boolean) : [];
   const by = {};

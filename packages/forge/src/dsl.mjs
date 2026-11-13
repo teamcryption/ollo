@@ -67,6 +67,7 @@ export function withSlash(els) {
 export const CONTAINERS = {
   circle: { title: 'Circle', shape: C(12, 12, 9) },
   square: { title: 'Square', shape: R(3, 3, 18, 18, 4.5) },
+  hexagon: { title: 'Hexagon', shape: poly([[12, 3], [19.8, 7.5], [19.8, 16.5], [12, 21], [4.2, 16.5], [4.2, 7.5]], 1.6, true) },
 };
 export function inContainer(els, kind, scale = 0.6) {
   return [body(CONTAINERS[kind].shape), ...els.map((e) => ({ ...e, d: scaleD(e.d, scale) }))];

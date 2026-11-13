@@ -1,5 +1,5 @@
 # Container batch N: bash tools/batch/cgen.sh <N> [iconCount]
-N=$1; CNT=${2:-600}; R=$(cd "$(dirname "$0")/../.." && pwd); W=$(cd "$R/.." && pwd)/.batchwork; mkdir -p "$W"; L=$W/b$N.log; : > "$L"
+N=$1; CNT=${2:-600}; export CB_ALL=${CB_ALL:-1}; R=$(cd "$(dirname "$0")/../.." && pwd); W=$(cd "$R/.." && pwd)/.batchwork; mkdir -p "$W"; L=$W/b$N.log; : > "$L"
 cd "$R" && GIT_TERMINAL_PROMPT=0 timeout 120 git pull -q --ff-only origin icons/batch-1 >> "$L" 2>&1
 cd packages/forge && rm -f "$W/dropped.txt"
 node ../../tools/batch/cbatch.mjs pick $CNT "$W/newnames.txt" >> "$L" 2>&1
