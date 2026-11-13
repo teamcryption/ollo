@@ -2,11 +2,17 @@
 //   packages/assets/icons/<name>/{light,regular,bold,duotone,fill}.svg + meta.json
 //   packages/assets/illustrations/<name>/{stroke,fill,duotone}.svg + meta.json
 //   packages/forge/taxonomy.json (category ids, titles, order)
-// Output (apps/web/public/data, git-ignored):
-//   index.json            names, titles, categories, tags, counts
-//   icons/<style>.json    { name: svg } with #171729 -> currentColor, no width/height
-//   motion.json           { name: motion spec } for animated tiles
+// Output (apps/web/public/data, git-ignored), compact so 60k+ icons stay small and load on demand:
+//   index.json            names, titles, categories, tags, counts; per icon its chunk (k) and
+//                         motion recipe (mi); the shared path-attribute table (attrs)
+//   icons/o<k>.json       outline chunk: { name: { d: [paths], s: { light, regular, bold, duotone } } }
+//                         each style is a list of [path index | new path string, attrs index]
+//                         (light, regular and bold share the same paths, only stroke width differs)
+//   icons/f<k>.json       fill chunk:    { name: [[path string, attrs index], ...] }
+//   motion.json           [unique motion recipes] (59k icons share a few hundred)
 //   illustrations.json    templates ({{primary}} etc.) + motion per illustration
+// Chunks follow batch order and close at ~5 MB, so a new batch only rewrites the last chunk:
+// a republish uploads the changed chunk files plus index.json, not everything.
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -57,32 +63,128 @@ try {
   }
 } catch {}
 
+/** Round every number in path data to 2 decimals (invisible on a 24 px grid) and re-serialise compactly. */
+function roundPath(d) {
+  const toks = d.match(/[a-zA-Z]|-?(?:\d*\.\d+|\d+\.?)(?:e[-+]?\d+)?/gi) ?? [];
+  let out = '';
+  let prev = '';
+  for (const t of toks) {
+    if (/[a-zA-Z]/.test(t)) { out += t; prev = t; continue; }
+    let n = String(Math.round(parseFloat(t) * 100) / 100);
+    if (n === '-0') n = '0';
+    n = n.replace(/^(-?)0\./, '$1.');
+    const prevNum = prev !== '' && !/[a-zA-Z]/.test(prev);
+    if (prevNum && !n.startsWith('-') && !(n.startsWith('.') && prev.includes('.'))) out += ' ';
+    out += n;
+    prev = n;
+  }
+  return out;
+}
+
+const ROOT_SVG = '<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">';
+const attrs = []; // shared table of path attribute strings (everything except d)
+const attrIndex = new Map();
+const attrOf = (a) => {
+  if (!attrIndex.has(a)) { attrIndex.set(a, attrs.length); attrs.push(a); }
+  return attrIndex.get(a);
+};
+/** svg -> [[d, attrs]] or null when it is not the plain <svg><path/>... shape (kept raw then). */
+function parsePaths(svg) {
+  const m = svg.match(/^<svg[^>]*>([\s\S]*)<\/svg>$/);
+  if (!m || !svg.startsWith(ROOT_SVG)) return null;
+  const els = m[1].match(/<path\b[^>]*\/>/g) ?? [];
+  if (els.join('') !== m[1]) return null;
+  return els.map((el) => {
+    const d = el.match(/\sd="([^"]*)"/)[1];
+    const rest = el.slice(5, -2).replace(/\sd="[^"]*"/, '').trim();
+    return [roundPath(d), rest ? ' ' + rest : ''];
+  });
+}
+
 const iconDir = path.join(ASSETS, 'icons');
 const names = fs.readdirSync(iconDir).filter((n) => fs.existsSync(path.join(iconDir, n, 'meta.json')));
 const order = new Map(taxonomy.categories.map((c, i) => [c.id, i]));
 const icons = [];
-const byStyle = Object.fromEntries(STYLES.map((s) => [s, {}]));
-const motion = {};
+const raw = {}; // name -> { style: svg }
+const motionByName = {};
 
 for (const name of names) {
   const meta = JSON.parse(fs.readFileSync(path.join(iconDir, name, 'meta.json'), 'utf8'));
+  const svgs = {};
   let ok = true;
   for (const s of STYLES) {
     const f = path.join(iconDir, name, `${s}.svg`);
     if (!fs.existsSync(f)) { ok = false; break; }
-    byStyle[s][name] = cleanIcon(fs.readFileSync(f, 'utf8'));
+    svgs[s] = cleanIcon(fs.readFileSync(f, 'utf8'));
   }
-  if (!ok) { for (const s of STYLES) delete byStyle[s][name]; continue; }
-  if (meta.animation) motion[name] = meta.animation;
+  if (!ok) continue;
+  raw[name] = svgs;
+  if (meta.animation) motionByName[name] = meta.animation;
   icons.push({
     n: name,
     t: meta.title ?? name,
     c: meta.category,
     g: (meta.tags ?? []).join(' '),
-    a: meta.animation ? 1 : 0,
     m: meta.animation ? motionKind(meta.animation) : undefined,
     b: batchOf[name],
   });
+}
+
+// Chunks in batch order (icons without a batch first), closed at ~5 MB per file.
+const LIMIT = 5 * 1048576;
+const byBatch = [...icons].sort((a, b) => (a.b ?? 0) - (b.b ?? 0) || a.n.localeCompare(b.n));
+const outline = [{}];
+const fill = [{}];
+const size = [{ o: 0, f: 0 }];
+const motionTable = [];
+const motionIndex = new Map();
+const chunkOf = {};
+const miOf = {};
+for (let i = 0; i < byBatch.length; i++) {
+  const ic = byBatch[i];
+  const svgs = raw[ic.n];
+  const reg = parsePaths(svgs.regular);
+  const o = {};
+  if (reg) {
+    o.d = reg.map(([d]) => d);
+    o.s = {};
+    for (const st of ['light', 'regular', 'bold', 'duotone']) {
+      const ps = st === 'regular' ? reg : parsePaths(svgs[st]);
+      if (!ps) { (o.x ??= {})[st] = svgs[st]; continue; }
+      o.s[st] = ps.map(([d, a]) => {
+        const ref = o.d.indexOf(d);
+        return [ref >= 0 ? ref : d, attrOf(a)];
+      });
+    }
+  } else {
+    o.x = { light: svgs.light, regular: svgs.regular, bold: svgs.bold, duotone: svgs.duotone };
+  }
+  const fp = parsePaths(svgs.fill);
+  const f = fp ? fp.map(([d, a]) => [d, attrOf(a)]) : svgs.fill;
+  const oLen = JSON.stringify(o).length + ic.n.length + 6;
+  const fLen = JSON.stringify(f).length + ic.n.length + 6;
+  let k = outline.length - 1;
+  // Close the chunk at a batch boundary once it is full (a batch bigger than a chunk splits).
+  const full = size[k].o + oLen > LIMIT || size[k].f + fLen > LIMIT;
+  const boundary = i > 0 && (byBatch[i - 1].b ?? 0) !== (ic.b ?? 0);
+  if (full && (boundary || size[k].o + oLen > LIMIT * 1.25 || size[k].f + fLen > LIMIT * 1.25)) {
+    outline.push({}); fill.push({}); size.push({ o: 0, f: 0 }); k++;
+  }
+  outline[k][ic.n] = o;
+  fill[k][ic.n] = f;
+  size[k].o += oLen;
+  size[k].f += fLen;
+  chunkOf[ic.n] = k;
+  const spec = motionByName[ic.n];
+  if (spec) {
+    const key = JSON.stringify(spec);
+    if (!motionIndex.has(key)) { motionIndex.set(key, motionTable.length); motionTable.push(spec); }
+    miOf[ic.n] = motionIndex.get(key);
+  }
+}
+for (const ic of icons) {
+  ic.k = chunkOf[ic.n];
+  if (ic.n in miOf) ic.mi = miOf[ic.n];
 }
 
 // Default ("Most popular") order until real usage data exists: the approved Figma sample
@@ -142,7 +244,10 @@ const ILL_ORDER = ['server-stack', 'analytics', 'mobile-app', 'secure-vault', 'd
 const illRank = (n) => (ILL_ORDER.includes(n) ? ILL_ORDER.indexOf(n) : 99);
 illustrations.sort((a, b) => illRank(a.n) - illRank(b.n) || a.n.localeCompare(b.n));
 
+// Only write files whose content changed, so unchanged chunks keep their timestamps.
+fs.rmSync(path.join(OUT, 'icons'), { recursive: true, force: true });
 fs.mkdirSync(path.join(OUT, 'icons'), { recursive: true });
+for (const f of fs.readdirSync(OUT)) if (/\.json$/.test(f) && !['index.json', 'motion.json', 'illustrations.json'].includes(f)) fs.rmSync(path.join(OUT, f));
 const write = (f, d) => fs.writeFileSync(path.join(OUT, f), JSON.stringify(d));
 write('index.json', {
   total: icons.length,
@@ -152,13 +257,17 @@ write('index.json', {
   icons,
   latest: Math.max(0, ...Object.values(batchOf)),
   batchDate,
+  attrs,
+  chunks: outline.length,
 });
-for (const s of STYLES) write(`icons/${s}.json`, byStyle[s]);
-write('motion.json', motion);
+outline.forEach((c, k) => write(`icons/o${k}.json`, c));
+fill.forEach((c, k) => write(`icons/f${k}.json`, c));
+write('motion.json', motionTable);
 write('illustrations.json', illustrations);
 
-const kb = (f) => Math.round(fs.statSync(path.join(OUT, f)).size / 1024);
+const mb = (f) => (fs.statSync(path.join(OUT, f)).size / 1048576).toFixed(1);
+const total = fs.readdirSync(OUT, { recursive: true }).filter((f) => f.endsWith('.json')).reduce((t, f) => t + fs.statSync(path.join(OUT, f)).size, 0);
 console.log(
-  `web data: ${icons.length} icons in ${categories.length} categories, ${Object.keys(motion).length} animated, ` +
-    `${illustrations.length} illustrations (index ${kb('index.json')} KB, regular ${kb('icons/regular.json')} KB, motion ${kb('motion.json')} KB)`,
+  `web data: ${icons.length} icons in ${categories.length} categories, ${Object.keys(miOf).length} animated (${motionTable.length} motion recipes), ` +
+    `${illustrations.length} illustrations; ${outline.length} chunks, index ${mb('index.json')} MB, total ${(total / 1048576).toFixed(0)} MB`,
 );

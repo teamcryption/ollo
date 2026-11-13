@@ -8,7 +8,7 @@ import {
   animatedIconSvg,
   loadIndex,
   loadMotion,
-  loadStyle,
+  loadIcons,
   svgDataUrl,
   type Category,
   type IconEntry,
@@ -344,8 +344,12 @@ function IconPanel({
   const [hovering, setHovering] = useState(false);
 
   useEffect(() => {
-    loadStyle(stroke).then(setSvgs);
-  }, [stroke]);
+    let live = true;
+    loadIcons([icon], stroke).then((d) => live && setSvgs(d));
+    return () => {
+      live = false;
+    };
+  }, [stroke, icon]);
   useEffect(() => {
     loadMotion().then(setMotion);
     loadIndex().then((d) => setCats(new Map(d.categories.map((c) => [c.id, c.title]))));

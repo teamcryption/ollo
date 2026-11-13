@@ -61,14 +61,37 @@ ${css}
 <script>${js}</script>
 `;
 
-fs.rmSync(path.join(out, 'data'), { recursive: true, force: true });
+// Reuse <out-dir> between batches: files whose bytes did not change are reported as unchanged, so
+// a republish only uploads what changed (there is a daily upload limit). Stale files are listed
+// for removal (publish them as null).
 fs.mkdirSync(path.join(out, 'data/icons'), { recursive: true });
-fs.writeFileSync(path.join(out, 'index.html'), html);
 const src = path.join(WEB, 'public/data');
 const files = ['index.json', 'motion.json', 'illustrations.json', ...fs.readdirSync(path.join(src, 'icons')).map((f) => `icons/${f}`)];
-for (const f of files) fs.copyFileSync(path.join(src, f), path.join(out, 'data', f));
+const same = (a, b) => fs.existsSync(b) && fs.statSync(a).size === fs.statSync(b).size && fs.readFileSync(a).equals(fs.readFileSync(b));
+const changed = [];
+const pageChanged = !fs.existsSync(path.join(out, 'index.html')) || fs.readFileSync(path.join(out, 'index.html'), 'utf8') !== html;
+fs.writeFileSync(path.join(out, 'index.html'), html);
+for (const f of files) {
+  const to = path.join(out, 'data', f);
+  if (same(path.join(src, f), to)) continue;
+  fs.copyFileSync(path.join(src, f), to);
+  changed.push(`data/${f}`);
+}
+const keep = new Set(files.map((f) => `data/${f}`));
+const walk = (d) => fs.readdirSync(d, { withFileTypes: true }).flatMap((e) => (e.isDirectory() ? walk(path.join(d, e.name)) : [path.join(d, e.name)]));
+const removed = [];
+for (const f of walk(path.join(out, 'data'))) {
+  const rel = path.relative(out, f).split(path.sep).join('/');
+  if (!keep.has(rel)) {
+    fs.rmSync(f);
+    removed.push(rel);
+  }
+}
 
 const mb = (n) => (n / 1048576).toFixed(1);
 const total = files.reduce((s, f) => s + fs.statSync(path.join(out, 'data', f)).size, 0);
-console.log(`preview: page ${Math.round(html.length / 1024)} KB + ${files.length} data files ${mb(total)} MB -> ${out}`);
-console.log('publish files:', JSON.stringify(Object.fromEntries(files.map((f) => [`data/${f}`, `data/${f}`]))));
+console.log(`preview: page ${Math.round(html.length / 1024)} KB (${pageChanged ? 'changed' : 'unchanged'}) + ${files.length} data files ${mb(total)} MB -> ${out}`);
+console.log(`changed data files: ${changed.length}, removed: ${removed.length}`);
+console.log('publish files (changed only):', JSON.stringify(Object.fromEntries(changed.map((f) => [f, f]))));
+console.log('all data files:', JSON.stringify(files.map((f) => `data/${f}`)));
+if (removed.length) console.log('removed (publish as null):', JSON.stringify(removed));

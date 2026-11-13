@@ -9,7 +9,7 @@ import {
   fmt,
   loadIndex,
   loadMotion,
-  loadStyle,
+  loadIcons,
   searchIcons,
   svgDataUrl,
   type IconEntry,
@@ -99,13 +99,6 @@ export function Library() {
   useEffect(() => {
     loadIndex().then(setIndex);
   }, []);
-  useEffect(() => {
-    let live = true;
-    loadStyle(style).then((d) => live && setSvgs(d));
-    return () => {
-      live = false;
-    };
-  }, [style]);
   useEffect(() => {
     if (animated && !motion) loadMotion().then(setMotion);
   }, [animated, motion]);
@@ -225,7 +218,20 @@ export function Library() {
             : collection === 'recent'
               ? 'Recently used'
               : (catTitles.get(collection) ?? '');
-  const visible = list.slice(0, shown);
+  const visible = useMemo(() => list.slice(0, shown), [list, shown]);
+  // SVGs only for the icons on screen; their chunk files load on demand.
+  const svgStyle = useRef(style);
+  useEffect(() => {
+    let live = true;
+    if (svgStyle.current !== style) {
+      svgStyle.current = style;
+      setSvgs(null);
+    }
+    loadIcons(visible, style).then((d) => live && setSvgs((prev) => ({ ...(prev ?? {}), ...d })));
+    return () => {
+      live = false;
+    };
+  }, [visible, style]);
   const more = visible.length < list.length;
   // Scrolling near the end adds a page, up to AUTO_LOADS times; then "Load more" takes over.
   useEffect(() => {
