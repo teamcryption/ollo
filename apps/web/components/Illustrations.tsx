@@ -47,6 +47,9 @@ const INDUSTRY: Record<string, string> = {
   fitness: 'Fitness',
   design: 'Design',
   media: 'Media & Events',
+  science: 'Science',
+  construction: 'Construction',
+  automotive: 'Automotive',
 };
 /** Kinds that run the illustration live instead of showing its still. */
 const isLive = (k: Kind): k is 'interactive' | 'scroll' => k === 'interactive' || k === 'scroll';
