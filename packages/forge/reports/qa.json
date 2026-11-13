@@ -1,170 +1,242 @@
 {
-  "generatedAt": "2026-11-13T09:10:11.028Z",
-  "icons": 66605,
-  "files": 333025,
+  "generatedAt": "2026-11-13T09:19:47.113Z",
+  "icons": 67960,
+  "files": 339800,
   "errors": [],
   "warnings": [
-    "slow-cooker-camera: grid: outside the 3-21 live area (3.00, 4.50, 22.00, 20.50)",
-    "space-heater-camera: grid: outside the 3-21 live area (4.00, 3.50, 22.00, 20.50)",
-    "tower-fan-camera: grid: outside the 3-21 live area (5.50, 3.50, 22.00, 20.50)",
-    "sideboard-camera: grid: outside the 3-21 live area (3.00, 7.00, 22.00, 20.50)",
-    "coffee-table-camera: grid: outside the 3-21 live area (3.00, 4.50, 22.00, 20.50)",
-    "vanity-table-camera: grid: outside the 3-21 live area (3.00, 3.00, 22.00, 20.50)",
-    "daybed-camera: grid: outside the 3-21 live area (3.00, 8.00, 22.00, 20.50)",
-    "recliner-camera: grid: outside the 3-21 live area (3.50, 4.30, 22.00, 20.50)",
-    "room-divider-camera: grid: outside the 3-21 live area (3.00, 3.50, 22.00, 20.50)",
-    "towel-rail-camera: grid: outside the 3-21 live area (3.00, 4.00, 22.00, 20.50)",
-    "wall-sconce-camera: grid: outside the 3-21 live area (3.50, 4.00, 22.00, 20.50)",
-    "bar-cart-camera: grid: outside the 3-21 live area (3.00, 3.50, 22.00, 20.50)"
+    "clapperboard-drop: grid: outside the 3-21 live area (3.00, 2.30, 20.30, 21.00)",
+    "clapperboard-rocket: grid: outside the 3-21 live area (3.00, 2.30, 20.30, 19.60)",
+    "clapperboard-home: grid: outside the 3-21 live area (3.00, 2.30, 21.00, 20.50)",
+    "clapperboard-gift: grid: outside the 3-21 live area (3.00, 2.30, 21.00, 20.50)",
+    "clapperboard-smile: grid: outside the 3-21 live area (3.00, 2.30, 21.00, 20.50)",
+    "clapperboard-link: grid: outside the 3-21 live area (3.00, 2.30, 21.00, 20.50)"
   ],
   "duplicates": [
     {
-      "a": "vanity-table-pencil",
-      "b": "vanity-table-leaf",
+      "a": "basket-pricing",
+      "b": "basket-link",
       "distance": 1.41
     },
     {
-      "a": "vanity-table-sparkle",
-      "b": "vanity-table-upload",
+      "a": "inbox-pricing",
+      "b": "inbox-link",
       "distance": 1.41
     },
     {
-      "a": "slow-cooker-sparkle",
-      "b": "slow-cooker-upload",
+      "a": "chart-pricing",
+      "b": "chart-link",
       "distance": 1.41
     },
     {
-      "a": "space-heater-pencil",
-      "b": "space-heater-leaf",
+      "a": "bug-pricing",
+      "b": "bug-link",
       "distance": 1.41
     },
     {
-      "a": "tower-fan-sparkle",
-      "b": "tower-fan-upload",
+      "a": "server-pricing",
+      "b": "server-link",
       "distance": 1.41
     },
     {
-      "a": "sideboard-pencil",
-      "b": "sideboard-leaf",
+      "a": "remote-pricing",
+      "b": "remote-link",
       "distance": 1.41
     },
     {
-      "a": "sideboard-sparkle",
-      "b": "sideboard-upload",
+      "a": "scissors-pricing",
+      "b": "scissors-link",
       "distance": 1.41
     },
     {
-      "a": "coffee-table-pencil",
-      "b": "coffee-table-leaf",
+      "a": "paperclip-pricing",
+      "b": "paperclip-link",
       "distance": 1.41
     },
     {
-      "a": "coffee-table-sparkle",
-      "b": "coffee-table-upload",
+      "a": "piggy-pricing",
+      "b": "piggy-link",
       "distance": 1.41
     },
     {
-      "a": "daybed-pencil",
-      "b": "daybed-leaf",
+      "a": "pumpkin-stats",
+      "b": "pumpkin-link",
       "distance": 1.41
     },
     {
-      "a": "daybed-sparkle",
-      "b": "daybed-upload",
+      "a": "burger-pricing",
+      "b": "burger-link",
       "distance": 1.41
     },
     {
-      "a": "recliner-pencil",
-      "b": "recliner-leaf",
+      "a": "brain-pricing",
+      "b": "brain-link",
       "distance": 1.41
     },
     {
-      "a": "room-divider-sparkle",
-      "b": "room-divider-upload",
+      "a": "bathtub-pricing",
+      "b": "bathtub-link",
       "distance": 1.41
     },
     {
-      "a": "towel-rail-pencil",
-      "b": "towel-rail-leaf",
+      "a": "signpost-gear",
+      "b": "signpost-link",
       "distance": 1.41
     },
     {
-      "a": "towel-rail-sparkle",
-      "b": "towel-rail-upload",
+      "a": "globe-pricing",
+      "b": "globe-link",
       "distance": 1.41
     },
     {
-      "a": "recliner-sparkle",
-      "b": "recliner-upload",
+      "a": "camera-pricing",
+      "b": "camera-link",
       "distance": 1.41
     },
     {
-      "a": "wall-sconce-sparkle",
-      "b": "wall-sconce-upload",
+      "a": "music-pricing",
+      "b": "music-link",
+      "distance": 1.41
+    },
+    {
+      "a": "clapperboard-pricing",
+      "b": "clapperboard-link",
+      "distance": 1.41
+    },
+    {
+      "a": "sun-pricing",
+      "b": "sun-link",
+      "distance": 1.41
+    },
+    {
+      "a": "cactus-pricing",
+      "b": "cactus-link",
+      "distance": 1.41
+    },
+    {
+      "a": "mushroom-pricing",
+      "b": "mushroom-link",
+      "distance": 1.41
+    },
+    {
+      "a": "user-pricing",
+      "b": "user-link",
+      "distance": 1.41
+    },
+    {
+      "a": "user-home",
+      "b": "user-smile",
+      "distance": 1.41
+    },
+    {
+      "a": "ufo-stats",
+      "b": "ufo-link",
+      "distance": 1.41
+    },
+    {
+      "a": "bike-pricing",
+      "b": "bike-link",
+      "distance": 1.41
+    },
+    {
+      "a": "whistle-pricing",
+      "b": "whistle-link",
+      "distance": 1.41
+    },
+    {
+      "a": "toolbox-pricing",
+      "b": "toolbox-link",
+      "distance": 1.41
+    },
+    {
+      "a": "taxi-pricing",
+      "b": "taxi-link",
+      "distance": 1.41
+    },
+    {
+      "a": "backpack-pricing",
+      "b": "backpack-link",
       "distance": 1.41
     }
   ],
   "dropped": [
-    "vanity-table-leaf",
-    "vanity-table-upload",
-    "slow-cooker-upload",
-    "space-heater-leaf",
-    "tower-fan-upload",
-    "sideboard-leaf",
-    "sideboard-upload",
-    "coffee-table-leaf",
-    "coffee-table-upload",
-    "daybed-leaf",
-    "daybed-upload",
-    "recliner-leaf",
-    "room-divider-upload",
-    "towel-rail-leaf",
-    "towel-rail-upload",
-    "recliner-upload",
-    "wall-sconce-upload"
+    "moon-drop",
+    "moon-rocket",
+    "moon-home",
+    "moon-gift",
+    "moon-smile",
+    "moon-link",
+    "basket-link",
+    "inbox-link",
+    "chart-link",
+    "bug-link",
+    "server-link",
+    "remote-link",
+    "scissors-link",
+    "paperclip-link",
+    "piggy-link",
+    "pumpkin-link",
+    "burger-link",
+    "brain-link",
+    "bathtub-link",
+    "signpost-link",
+    "globe-link",
+    "camera-link",
+    "music-link",
+    "clapperboard-link",
+    "sun-link",
+    "cactus-link",
+    "mushroom-link",
+    "user-link",
+    "user-smile",
+    "ufo-link",
+    "bike-link",
+    "whistle-link",
+    "toolbox-link",
+    "taxi-link",
+    "backpack-link"
   ],
   "byCategory": {
     "accessibility": 74,
     "actions": 69,
-    "ai": 618,
-    "animals": 2489,
+    "ai": 624,
+    "animals": 2562,
     "arrows": 188,
-    "buildings": 2366,
-    "business": 1892,
-    "celebration": 1786,
-    "commerce": 1168,
-    "communication": 1541,
-    "data": 1612,
-    "design": 1045,
-    "development": 647,
-    "devices": 2071,
-    "education": 1425,
+    "buildings": 2384,
+    "business": 1927,
+    "celebration": 1821,
+    "commerce": 1221,
+    "communication": 1574,
+    "data": 1623,
+    "design": 1081,
+    "development": 681,
+    "devices": 2136,
+    "education": 1443,
     "emoji": 73,
-    "energy": 1062,
-    "fashion": 2453,
-    "files": 600,
-    "finance": 1674,
-    "food": 6416,
-    "gaming": 2396,
-    "health": 2257,
-    "home": 5215,
-    "interface": 1461,
-    "logistics": 1064,
-    "maps": 667,
-    "media": 2471,
-    "nature": 2480,
+    "energy": 1104,
+    "fashion": 2512,
+    "files": 611,
+    "finance": 1720,
+    "food": 6593,
+    "gaming": 2426,
+    "health": 2310,
+    "home": 5170,
+    "interface": 1514,
+    "logistics": 1070,
+    "maps": 689,
+    "media": 2534,
+    "nature": 2561,
     "navigation": 63,
     "notifications": 184,
-    "people": 1134,
-    "science": 1422,
+    "people": 1150,
+    "science": 1457,
     "security": 919,
     "social": 495,
-    "sports": 2819,
-    "text": 385,
+    "sports": 2877,
+    "text": 391,
     "time": 605,
-    "tools": 2404,
-    "transport": 3308,
-    "travel": 2071,
-    "weather": 1499
+    "tools": 2457,
+    "transport": 3361,
+    "travel": 2160,
+    "weather": 1511
   }
 }

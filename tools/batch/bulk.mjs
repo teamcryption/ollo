@@ -12,6 +12,19 @@ const tracked = [...new Set(execSync('git ls-files ' + ICONS, { maxBuffer: 1e8 }
 const taken = new Set(tracked.map((n) => n.replace(/-/g, '')));
 
 Object.assign(M, {
+  sync: `body(C(17, 16.5, 4), { cover: true }), line('M15 16.3a2 2 0 0 1 3.6-1.2M19 16.7a2 2 0 0 1-3.6 1.2'), line('M18.7 13.9v1.3h-1.3M15.3 19.1v-1.3h1.3')`,
+  globe: `body(C(17, 16.5, 4), { cover: true }), line(E(17, 16.5, 1.6, 3.9)), line('M13.2 16.5h7.6')`,
+  sun: `body(C(17, 16.5, 2.3), { cover: true }), line('M17 12.4v1M17 19.6v1M12.9 16.5h1M20.1 16.5h1M14.1 13.6l.7.7M19.2 18.7l.7.7M14.1 19.4l.7-.7M19.2 14.3l.7-.7')`,
+  drop: `body('M17 12.3c2 2.2 3.3 4 3.3 5.4a3.3 3.3 0 0 1-6.6 0c0-1.4 1.3-3.2 3.3-5.4Z', { cover: true })`,
+  snow: `body(poly([[17, 12.3], [20.6, 14.4], [20.6, 18.6], [17, 20.7], [13.4, 18.6], [13.4, 14.4]], 0.8, true), { cover: true }), line('M17 14.2v4.6M15 15.3l4 2.4M15 17.7l4-2.4')`,
+  target: `body(C(17, 16.5, 4), { cover: true }), line(C(17, 16.5, 2)), line(D(17, 16.5))`,
+  rocket: `body('M17 12.3c1.8 1.4 2.5 3.3 2.2 5.8l-1 1.4h-2.4l-1-1.4c-.3-2.5.4-4.4 2.2-5.8Z', { cover: true }), line('M15 18l-1.3 1.6M19 18l1.3 1.6'), line(D(17, 15.6))`,
+  home: `body(poly([[17, 12.5], [21, 16], [21, 20.5], [13, 20.5], [13, 16]], 0.7, true), { cover: true }), line('M16 20.4v-2.2h2v2.2')`,
+  mail: `body(R(13, 13.5, 8, 6.2, 1.2), { cover: true }), line('M13.4 14.2l3.6 2.7 3.6-2.7')`,
+  gift: `body(R(13, 14.8, 8, 5.7, 1), { cover: true }), line('M17 14.8v5.7M13.2 16.8h7.6'), line('M17 14.7c-.9-1.7-2.7-1.9-2.4-.5M17 14.7c.9-1.7 2.7-1.9 2.4-.5')`,
+  smile: `body(C(17, 16.5, 4), { cover: true }), line('M15.4 17.6a2 2 0 0 0 3.2 0'), line(D(15.6, 15.4) + D(18.4, 15.4))`,
+  block: `body(C(17, 16.5, 4), { cover: true }), line('M14.3 19.2l5.4-5.4')`,
+  link: `body(R(13, 12.5, 8, 8, 2), { cover: true }), line('M16 18l2-3'), line('M15.6 17.2l-.5.7a1.2 1.2 0 0 0 2 1.3l.5-.7M18.4 15.8l.5-.7a1.2 1.2 0 0 0-2-1.3l-.5.7')`,
   add: `body(C(17, 16.5, 4), { cover: true }), line('M17 14.6v3.8M15.1 16.5h3.8')`,
   check: `body(C(17, 16.5, 4), { cover: true }), line('M15.2 16.6l1.3 1.3 2.4-2.6')`,
   close: `body(C(17, 16.5, 4), { cover: true }), line('M15.6 15.1l2.8 2.8M18.4 15.1l-2.8 2.8')`,
@@ -112,6 +125,19 @@ const T = {
   pricing: (l) => [`${l} Pricing`, 'pricing, cost, money'],
   play: (l) => [`Play ${l}`, 'play, start, video'],
   alert: (l) => [`${l} Alert`, 'alert, warning, problem'],
+  sync: (l) => [`Sync ${l}`, 'sync, refresh, update'],
+  globe: (l) => [`Global ${l}`, 'global, world, international'],
+  sun: (l) => [`${l} Day Mode`, 'day, light mode, sunny'],
+  drop: (l) => [`${l} Water`, 'water, liquid, drop'],
+  snow: (l) => [`${l} Winter`, 'winter, cold, frozen'],
+  target: (l) => [`${l} Goal`, 'goal, target, focus'],
+  rocket: (l) => [`Launch ${l}`, 'launch, boost, startup'],
+  home: (l) => [`Home ${l}`, 'home, house, domestic'],
+  mail: (l) => [`${l} Email`, 'email, mail, message'],
+  gift: (l) => [`${l} Gift`, 'gift, present, reward'],
+  smile: (l) => [`${l} Feedback`, 'feedback, happy, satisfied'],
+  block: (l) => [`Blocked ${l}`, 'blocked, banned, unavailable'],
+  link: (l) => [`${l} Link`, 'link, url, connect'],
 };
 // category: most common category among existing icons named <base>-*
 const catOf = {};
