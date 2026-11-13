@@ -630,3 +630,17 @@ flip-horizontal
 align-object-left
 distribute-horizontal
 git-commit
+alert-octagon
+alert-diamond
+bell-snooze
+bell-minus
+bell-dot
+bell-ring
+bell-plus
+heart-burst
+live-badge
+snackbar
+story
+verified
+fire
+push-notification
