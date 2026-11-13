@@ -23,6 +23,8 @@ import { UiIcon } from './ui-icons';
 import { IllustrationFilters, IllustrationSidebar, Illustrations, useIllustrationState } from './Illustrations';
 import { DownloadModal, type DownloadTarget } from './DownloadModal';
 import { Subscribe } from './Subscribe';
+import { AccountScreens, isAccountView, type AccountView } from './Account';
+import { initials, useAccount } from '@/lib/account';
 import { IN_FIGMA, figmaInsert, figmaPro, onFigmaPlan, setFigmaPro } from '@/lib/figma';
 import { ANIM_FORMATS, SWATCHES, Select, copyText, type AnimFormat } from './shared';
 
@@ -81,14 +83,16 @@ export function Library() {
   const recent = useLocalList('ollo-recent', 60);
   const favourites = useLocalList('ollo-favourites', 500);
   const deferredQuery = useDeferredValue(query);
-  // Views by URL hash so they also work on the published preview page: #subscribe, #pro.
-  const [view, setView] = useState<'library' | 'subscribe' | 'pro'>('library');
+  // Views by URL hash so they also work on the published preview page and in the Figma plugin:
+  // #subscribe, #pro, and the account screens (#signin, #signup, #welcome, #checkout, #account…).
+  const [view, setView] = useState<'library' | 'subscribe' | 'pro' | AccountView>('library');
+  const acct = useAccount();
   useEffect(() => {
     const read = () => {
-      const h = location.hash.slice(1);
-      setView(h === 'subscribe' ? 'subscribe' : h === 'pro' ? 'pro' : 'library');
+      const h = location.hash.slice(1).split('?')[0];
+      setView(h === 'subscribe' ? 'subscribe' : h === 'pro' ? 'pro' : isAccountView(h) ? h : 'library');
       setSheet(null);
-      if (h === 'subscribe' || h === 'pro') window.scrollTo(0, 0);
+      if (h === 'subscribe' || h === 'pro' || isAccountView(h)) window.scrollTo(0, 0);
     };
     read();
     window.addEventListener('hashchange', read);
@@ -464,6 +468,7 @@ export function Library() {
 
   return (
     <div className="app">
+      {(!isAccountView(view) || view === 'account') && (
       <header className="header">
         <div className="header-left">
           <a href="/" className="logo-link" aria-label="ollo home">
@@ -491,20 +496,37 @@ export function Library() {
             <UiIcon name={theme === 'dark' ? 'sun' : 'moon'} size={20} />
           </button>
           <span className="header-gap only-desktop" />
-          <a className="btn btn-outline btn-md only-desktop" href="#signin">
-            Sign in
-          </a>
-          <a className="btn btn-primary btn-md only-wide" href="#pro" aria-current={view === 'pro' ? 'page' : undefined}>
-            <UiIcon name="sparkle" size={20} />
-            Get Pro
-          </a>
+          {acct ? (
+            <a className="avatar header-avatar" href="#account" aria-label={`Account: ${acct.name}`} title={acct.name}>
+              {initials(acct.name)}
+            </a>
+          ) : (
+            <a className="btn btn-outline btn-md only-desktop" href="#signin">
+              Sign in
+            </a>
+          )}
+          {acct?.plan !== 'pro' && (
+            <a className="btn btn-primary btn-md only-wide" href={acct ? '#setup-plan' : '#pro'} aria-current={view === 'pro' ? 'page' : undefined}>
+              <UiIcon name="sparkle" size={20} />
+              Get Pro
+            </a>
+          )}
           <button className="icon-btn only-compact" aria-label="Menu" onClick={() => setSheet('menu')}>
             <UiIcon name="menu" size={20} />
           </button>
         </nav>
       </header>
+      )}
 
-      {view !== 'library' ? (
+      {isAccountView(view) ? (
+        <AccountScreens
+          view={view}
+          theme={theme}
+          iconCount={total}
+          illustrationCount={ill.items?.length ?? 0}
+          onToast={showToast}
+        />
+      ) : view !== 'library' ? (
         <Subscribe
           initialPlan={view === 'pro' ? 'pro' : 'free'}
           iconCount={total}
@@ -782,13 +804,15 @@ export function Library() {
                 </>
               )}
               <div className="sheet-actions">
-                <a className="btn btn-outline btn-md" href="#signin">
-                  Sign in
+                <a className="btn btn-outline btn-md" href={acct ? '#account' : '#signin'}>
+                  {acct ? 'Account' : 'Sign in'}
                 </a>
-                <a className="btn btn-primary btn-md" href="#pro" aria-current={view === 'pro' ? 'page' : undefined}>
-                  <UiIcon name="sparkle" size={20} />
-                  Get Pro
-                </a>
+                {acct?.plan !== 'pro' && (
+                  <a className="btn btn-primary btn-md" href={acct ? '#setup-plan' : '#pro'} aria-current={view === 'pro' ? 'page' : undefined}>
+                    <UiIcon name="sparkle" size={20} />
+                    Get Pro
+                  </a>
+                )}
               </div>
             </div>
           )}

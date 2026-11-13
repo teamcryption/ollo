@@ -39,6 +39,7 @@ const css = [
   read('globals.css'),
   read('modal.css'),
   read('subscribe.css'),
+  read('account.css'),
 ].join('\n');
 
 const fonts =
@@ -66,7 +67,7 @@ ${css}
 // for removal (publish them as null).
 fs.mkdirSync(path.join(out, 'data/icons'), { recursive: true });
 const src = path.join(WEB, 'public/data');
-const files = ['index.json', 'motion.json', 'illustrations.json', ...fs.readdirSync(path.join(src, 'icons')).map((f) => `icons/${f}`)];
+const files = ['index.json', 'motion.json', 'illustrations.json', ...(fs.existsSync(path.join(src, 'hairline.json')) ? ['hairline.json'] : []), ...fs.readdirSync(path.join(src, 'icons')).map((f) => `icons/${f}`)];
 const same = (a, b) => fs.existsSync(b) && fs.statSync(a).size === fs.statSync(b).size && fs.readFileSync(a).equals(fs.readFileSync(b));
 const changed = [];
 const pageChanged = !fs.existsSync(path.join(out, 'index.html')) || fs.readFileSync(path.join(out, 'index.html'), 'utf8') !== html;

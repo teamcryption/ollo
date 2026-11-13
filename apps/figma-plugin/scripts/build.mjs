@@ -46,6 +46,7 @@ const css = [
   read('globals.css'),
   read('modal.css'),
   read('subscribe.css'),
+  read('account.css'),
 ].join('\n');
 const fonts =
   'https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700' +

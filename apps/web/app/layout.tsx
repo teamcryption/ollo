@@ -4,6 +4,7 @@ import './tokens.css';
 import './globals.css';
 import './modal.css';
 import './subscribe.css';
+import './account.css';
 
 const bricolage = Bricolage_Grotesque({ subsets: ['latin'], variable: '--font-bricolage', display: 'swap' });
 const figtree = Figtree({ subsets: ['latin'], variable: '--font-figtree', display: 'swap' });
