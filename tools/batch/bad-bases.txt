@@ -849,3 +849,12 @@ brownie
 fish-fillet
 maple-leaf
 lily-pad
+barbed-wire
+ice-cream-scoop
+zip-tie
+wine-rack
+mouthguard
+door-latch
+muffler
+sander
+knee-pad
