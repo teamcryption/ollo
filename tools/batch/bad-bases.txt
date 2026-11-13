@@ -720,3 +720,15 @@ veil
 wreath
 lawn-chair
 sewing-kit
+hole-punch
+bobby-pin
+fortune-cookie
+pizza-peel
+salad-spinner
+slinky
+tobacco-pipe
+garden-gnome
+bugle
+crowbar
+beach-chair
+ice-scraper
