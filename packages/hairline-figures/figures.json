@@ -580,5 +580,311 @@
     "c": "science",
     "t": "Weather station",
     "g": "weather wind vane anemometer rain gauge meteorology"
+  },
+  {
+    "file": "dentaltray.js",
+    "c": "health",
+    "t": "Dental tray",
+    "g": "dentist instruments tray mirror probe dental clinic"
+  },
+  {
+    "file": "vialtray.js",
+    "c": "health",
+    "t": "Vial tray",
+    "g": "vaccine vials tray lab pharmacy medicine"
+  },
+  {
+    "file": "pizzaoven.js",
+    "c": "food",
+    "t": "Pizza oven",
+    "g": "pizza oven peel restaurant baking italian"
+  },
+  {
+    "file": "breadloaves.js",
+    "c": "food",
+    "t": "Bread loaves",
+    "g": "bread loaves bakery baguette boule rolls"
+  },
+  {
+    "file": "donutbox.js",
+    "c": "food",
+    "t": "Donut box",
+    "g": "donuts box bakery icing sprinkles dessert"
+  },
+  {
+    "file": "fruitcrates.js",
+    "c": "food",
+    "t": "Fruit crates",
+    "g": "fruit crates market apples oranges pears grocery"
+  },
+  {
+    "file": "cheeseboard.js",
+    "c": "food",
+    "t": "Cheese board",
+    "g": "cheese board wedges knife grapes platter"
+  },
+  {
+    "file": "sushiplatter.js",
+    "c": "food",
+    "t": "Sushi platter",
+    "g": "sushi platter nigiri maki chopsticks japanese"
+  },
+  {
+    "file": "barstools.js",
+    "c": "hospitality",
+    "t": "Bar stools",
+    "g": "bar stools counter pub swivel seating"
+  },
+  {
+    "file": "cocktails.js",
+    "c": "hospitality",
+    "t": "Cocktail glasses",
+    "g": "cocktails glasses bar martini drinks"
+  },
+  {
+    "file": "sofacushions.js",
+    "c": "home",
+    "t": "Sofa cushions",
+    "g": "sofa cushions couch living room furniture"
+  },
+  {
+    "file": "floorlamps.js",
+    "c": "home",
+    "t": "Floor lamps",
+    "g": "floor lamps shades lighting interior"
+  },
+  {
+    "file": "curtains.js",
+    "c": "home",
+    "t": "Window curtains",
+    "g": "curtains window rod drapes interior"
+  },
+  {
+    "file": "candles.js",
+    "c": "home",
+    "t": "Pillar candles",
+    "g": "candles flames tray relax decor"
+  },
+  {
+    "file": "petbowls.js",
+    "c": "pets",
+    "t": "Pet bowls",
+    "g": "pet bowls food water dog cat feeding"
+  },
+  {
+    "file": "monitors.js",
+    "c": "technology",
+    "t": "Desk monitors",
+    "g": "monitors screens desk keyboard workstation"
+  },
+  {
+    "file": "phonedock.js",
+    "c": "technology",
+    "t": "Phone dock",
+    "g": "phones charging dock devices mobile"
+  },
+  {
+    "file": "drone.js",
+    "c": "technology",
+    "t": "Drone",
+    "g": "drone quadcopter rotors landing pad flight"
+  },
+  {
+    "file": "smartspeakers.js",
+    "c": "technology",
+    "t": "Smart speakers",
+    "g": "smart speakers voice assistant home audio"
+  },
+  {
+    "file": "easels.js",
+    "c": "design",
+    "t": "Art easels",
+    "g": "easels canvases art studio painting"
+  },
+  {
+    "file": "crayonbox.js",
+    "c": "kids",
+    "t": "Crayon box",
+    "g": "crayons box drawing kids art colouring"
+  },
+  {
+    "file": "jackinbox.js",
+    "c": "kids",
+    "t": "Jack-in-the-box",
+    "g": "jack in the box toy spring surprise kids"
+  },
+  {
+    "file": "bikerack.js",
+    "c": "transport",
+    "t": "Bike rack",
+    "g": "bicycles bike rack parking cycling city"
+  },
+  {
+    "file": "cablecars.js",
+    "c": "travel",
+    "t": "Cable cars",
+    "g": "cable car gondola mountain towers ropeway"
+  },
+  {
+    "file": "parkingbarriers.js",
+    "c": "transport",
+    "t": "Parking barriers",
+    "g": "parking barrier gate car park entrance"
+  },
+  {
+    "file": "helicopters.js",
+    "c": "transport",
+    "t": "Helipad",
+    "g": "helicopter rotor helipad flight aviation"
+  },
+  {
+    "file": "watertanks.js",
+    "c": "manufacturing",
+    "t": "Water tanks",
+    "g": "water tanks storage utility level industrial"
+  },
+  {
+    "file": "haybales.js",
+    "c": "agriculture",
+    "t": "Hay bales",
+    "g": "hay bales field farm harvest fence"
+  },
+  {
+    "file": "punchingbags.js",
+    "c": "sports",
+    "t": "Punching bags",
+    "g": "punching bags boxing gym training"
+  },
+  {
+    "file": "golfgreen.js",
+    "c": "sports",
+    "t": "Putting green",
+    "g": "golf putting green flag balls hole"
+  },
+  {
+    "file": "basketballs.js",
+    "c": "sports",
+    "t": "Basketball cart",
+    "g": "basketballs cart gym sport balls"
+  },
+  {
+    "file": "guitars.js",
+    "c": "music",
+    "t": "Guitars",
+    "g": "guitars acoustic electric bass stands music"
+  },
+  {
+    "file": "turntables.js",
+    "c": "music",
+    "t": "DJ turntables",
+    "g": "turntables dj records mixer music"
+  },
+  {
+    "file": "loudspeakers.js",
+    "c": "music",
+    "t": "Loudspeakers",
+    "g": "speakers cabinets woofer sound concert"
+  },
+  {
+    "file": "filmreels.js",
+    "c": "media",
+    "t": "Film reels",
+    "g": "film reels editing cinema movie strip"
+  },
+  {
+    "file": "shoppingbags.js",
+    "c": "commerce",
+    "t": "Shopping bags",
+    "g": "shopping bags retail purchase store"
+  },
+  {
+    "file": "mannequins.js",
+    "c": "fashion",
+    "t": "Mannequins",
+    "g": "mannequins dress forms shop window fashion"
+  },
+  {
+    "file": "vendingmachine.js",
+    "c": "commerce",
+    "t": "Vending machine",
+    "g": "vending machine snacks slots retail"
+  },
+  {
+    "file": "towercrane.js",
+    "c": "construction",
+    "t": "Tower crane",
+    "g": "tower crane construction site jib hook"
+  },
+  {
+    "file": "garagedoors.js",
+    "c": "realestate",
+    "t": "Garage doors",
+    "g": "garage doors roll up homes parking"
+  },
+  {
+    "file": "justicescales.js",
+    "c": "government",
+    "t": "Scales of justice",
+    "g": "scales justice law balance legal"
+  },
+  {
+    "file": "flagpoles.js",
+    "c": "government",
+    "t": "Flagpoles",
+    "g": "flags flagpoles plaza ceremony"
+  },
+  {
+    "file": "atms.js",
+    "c": "finance",
+    "t": "Cash machines",
+    "g": "atm cash machine bank withdrawal money"
+  },
+  {
+    "file": "goldbars.js",
+    "c": "finance",
+    "t": "Gold bars",
+    "g": "gold bars ingots vault wealth bullion"
+  },
+  {
+    "file": "sortingcubbies.js",
+    "c": "logistics",
+    "t": "Mail sorting rack",
+    "g": "mail sorting cubbies letters parcels post"
+  },
+  {
+    "file": "chickencoop.js",
+    "c": "agriculture",
+    "t": "Chicken coop",
+    "g": "chicken coop nest eggs farm poultry"
+  },
+  {
+    "file": "windsocks.js",
+    "c": "transport",
+    "t": "Windsocks",
+    "g": "windsock wind airfield weather direction"
+  },
+  {
+    "file": "beachumbrellas.js",
+    "c": "outdoors",
+    "t": "Beach umbrellas",
+    "g": "beach umbrellas loungers sun holiday"
+  },
+  {
+    "file": "dnamodel.js",
+    "c": "science",
+    "t": "DNA model",
+    "g": "dna helix model biology genetics science"
+  },
+  {
+    "file": "pendulums.js",
+    "c": "science",
+    "t": "Pendulum wave",
+    "g": "pendulums physics swing science"
+  },
+  {
+    "file": "newtonscradle.js",
+    "c": "science",
+    "t": "Newton's cradle",
+    "g": "newtons cradle physics balls desk toy"
   }
 ]
