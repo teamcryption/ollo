@@ -364,5 +364,113 @@
     "c": "commerce",
     "t": "Cash register",
     "g": "cash register till keypad cash drawer checkout retail shop"
+  },
+  {
+    "file": "luggagecarousel.js",
+    "c": "travel",
+    "t": "Luggage carousel",
+    "g": "airport baggage carousel suitcase travel belt"
+  },
+  {
+    "file": "hotairballoons.js",
+    "c": "travel",
+    "t": "Hot air balloons",
+    "g": "balloon hot air sky flight travel float"
+  },
+  {
+    "file": "sailboats.js",
+    "c": "travel",
+    "t": "Harbour sailboats",
+    "g": "sailboat harbour sailing boat wind jetty water"
+  },
+  {
+    "file": "laptops.js",
+    "c": "office",
+    "t": "Desk laptops",
+    "g": "laptop desk workspace computer office screen"
+  },
+  {
+    "file": "printer.js",
+    "c": "office",
+    "t": "Office printer",
+    "g": "printer office paper print document tray"
+  },
+  {
+    "file": "pencup.js",
+    "c": "office",
+    "t": "Pen cup",
+    "g": "pen pencil stationery desk cup notepad writing"
+  },
+  {
+    "file": "hospitalbeds.js",
+    "c": "health",
+    "t": "Hospital beds",
+    "g": "hospital bed ward medical patient care"
+  },
+  {
+    "file": "toyblocks.js",
+    "c": "kids",
+    "t": "Toy blocks",
+    "g": "toy blocks play kids cubes nursery game"
+  },
+  {
+    "file": "swingset.js",
+    "c": "kids",
+    "t": "Swing set",
+    "g": "playground swing park kids play outdoor"
+  },
+  {
+    "file": "gardentools.js",
+    "c": "home",
+    "t": "Garden tool rack",
+    "g": "garden tools shed rake spade hanging storage"
+  },
+  {
+    "file": "greenhouse.js",
+    "c": "agriculture",
+    "t": "Glass greenhouse",
+    "g": "greenhouse garden glass vents plants seedlings"
+  },
+  {
+    "file": "windchimes.js",
+    "c": "home",
+    "t": "Wind chime",
+    "g": "wind chime chimes tubes garden porch breeze"
+  },
+  {
+    "file": "espressomachine.js",
+    "c": "food",
+    "t": "Espresso machine",
+    "g": "espresso coffee cafe barista cup brew machine"
+  },
+  {
+    "file": "teaset.js",
+    "c": "food",
+    "t": "Tea set",
+    "g": "tea teapot cups saucers tray pour"
+  },
+  {
+    "file": "cupcakestand.js",
+    "c": "food",
+    "t": "Cupcake stand",
+    "g": "cupcakes cake stand bakery dessert tiers pastry"
+  },
+  {
+    "file": "globe.js",
+    "c": "education",
+    "t": "Desk globe",
+    "g": "globe world map geography earth school desk"
+  },
+  {
+    "file": "microscope.js",
+    "c": "science",
+    "t": "Microscope",
+    "g": "microscope lab science biology slide lens research"
+  },
+  {
+    "file": "flasks.js",
+    "c": "science",
+    "t": "Lab flasks",
+    "g": "flasks lab chemistry liquid science experiment beaker"
   }
 ]
