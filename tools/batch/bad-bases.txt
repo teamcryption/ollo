@@ -890,3 +890,15 @@ geodesic-dome
 quarry
 canoe
 bandshell
+tutu
+suspenders
+earmuffs
+cufflink
+brooch
+penny-farthing
+sidecar
+poncho
+cardigan
+beret
+slipper
+monocle
