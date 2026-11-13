@@ -12,6 +12,18 @@ importers:
         specifier: ^2.5.0
         version: 2.11.10
 
+  apps/figma-plugin:
+    devDependencies:
+      '@figma/plugin-typings':
+        specifier: 1.109.0
+        version: 1.109.0
+      '@library/build':
+        specifier: workspace:*
+        version: link:../../packages/build
+      esbuild:
+        specifier: 0.25.12
+        version: 0.25.12
+
   apps/web:
     dependencies:
       gifenc:
@@ -248,6 +260,9 @@ packages:
     engines: {node: '>=18'}
     cpu: [x64]
     os: [win32]
+
+  '@figma/plugin-typings@1.109.0':
+    resolution: {integrity: sha512-6l628rOQGNd5ZD3Bru36/NK+PSKmHpsrWz0NMwUYZ8AIyfIl6sCJRc8+OhAy9+WkDXq/Dx3BYiBStjmCJ8O3Lw==}
 
   '@img/colour@1.1.0':
     resolution: {integrity: sha512-Td76q7j57o/tLVdgS746cYARfSyxk8iEfRxewL9h4OMzYhbW4TAcppl0mT4eyqXddh6L/jwoM75mo7ixa/pCeQ==}
@@ -852,6 +867,8 @@ snapshots:
 
   '@esbuild/win32-x64@0.25.12':
     optional: true
+
+  '@figma/plugin-typings@1.109.0': {}
 
   '@img/colour@1.1.0':
     optional: true

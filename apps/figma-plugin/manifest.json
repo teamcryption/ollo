@@ -1,0 +1,14 @@
+{
+  "name": "ollo Icons",
+  "id": "ollo-icons-dev",
+  "api": "1.0.0",
+  "main": "dist/code.js",
+  "ui": "dist/ui.html",
+  "editorType": ["figma"],
+  "documentAccess": "dynamic-page",
+  "networkAccess": {
+    "allowedDomains": ["none"],
+    "devAllowedDomains": ["http://localhost:3100"],
+    "reasoning": "Icon data comes from the ollo site. Until the site is hosted, the plugin reads it from the local dev server."
+  }
+}

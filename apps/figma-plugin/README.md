@@ -1,3 +1,26 @@
-# apps/figma-plugin
+# apps/figma-plugin: ollo Icons for Figma
 
-Placeholder. Built in step 4 of the plan in CLAUDE.md. Consumes `packages/build/dist/manifest.json`.
+Search the ollo library inside Figma and insert any icon as a **component named after the icon**,
+with a **Style** variant property:
+
+- Free: Light and Regular variants.
+- Pro: adds Bold, Fill and Duotone variants. Until sign-in exists, the **Pro** switch in the
+  panel footer unlocks them for testing.
+
+Each icon's component set lives on an `ollo icons` page (one set per icon, reused if you insert
+the same icon again). An instance of the chosen style is placed in the middle of your view and
+selected. Layers are named after the icon, so nothing needs renaming.
+
+## Run it
+
+1. Start the site, which serves the icon data: `pnpm --filter @library/web dev` (http://localhost:3100).
+2. In the Figma desktop app: **Plugins > Development > Import plugin from manifest...** and pick
+   `apps/figma-plugin/manifest.json`.
+3. Run **Plugins > Development > ollo Icons**.
+
+`dist/` is committed so the plugin loads without a build. After changing `src/`, run
+`pnpm --filter @library/figma-plugin build`.
+
+The panel uses the site's own data loader and search (`apps/web/lib`), so results match the
+website. When the site is hosted, add its domain to `networkAccess.allowedDomains` in
+`manifest.json` and change the data URL in `src/ui.html`.

@@ -1,0 +1,16 @@
+{
+  "name": "@library/figma-plugin",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "ollo Figma plugin: search the library and insert icons as components with style variants.",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "watch": "node scripts/build.mjs --watch"
+  },
+  "devDependencies": {
+    "@figma/plugin-typings": "1.109.0",
+    "@library/build": "workspace:*",
+    "esbuild": "0.25.12"
+  }
+}
