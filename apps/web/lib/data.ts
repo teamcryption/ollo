@@ -131,15 +131,8 @@ export const loadMotion = () =>
   }));
 export const loadIllustrations = () => load<Illustration[]>(`${DATA}illustrations.json`);
 
-/** Every query word must appear in the name, title, tags or category title. */
-export function searchIcons(icons: IconEntry[], query: string, catTitles: Map<string, string>) {
-  const words = query.toLowerCase().trim().split(/\s+/).filter(Boolean);
-  if (!words.length) return icons;
-  return icons.filter((i) => {
-    const hay = `${i.n} ${i.t} ${i.g} ${catTitles.get(i.c) ?? ''}`.toLowerCase();
-    return words.every((w) => hay.includes(w));
-  });
-}
+/** Relevance search (lib/search.ts). */
+export { searchIcons } from './search';
 
 const round = (n: number) => Math.round(n * 1000) / 1000;
 
@@ -149,10 +142,14 @@ export function opticalMultiplier(size: number, table: Record<string, number | s
   return typeof t === 'number' ? t : Math.min(1.5, Math.max(0.75, Math.pow(24 / size, 0.55)));
 }
 
-/** The SVG a user gets when copying: real size, real colour, optically adjusted stroke. */
-export function exportIconSvg(svg: string, size: number, colour: string, table: Record<string, number | string>) {
+/** Root id = the asset's name, so Figma (and other tools) name the pasted layer after it. */
+export const nameSvg = (svg: string, name: string) =>
+  svg.replace(/<svg([^>]*?)s+id="[^"]*"/, '<svg$1').replace('<svg', `<svg id="${name.replace(/[^a-z0-9-]/gi, '-')}"`);
+
+/** The SVG a user gets when copying: its name, real size, real colour, optically adjusted stroke. */
+export function exportIconSvg(svg: string, size: number, colour: string, table: Record<string, number | string>, name?: string) {
   const mult = opticalMultiplier(size, table);
-  return svg
+  return (name ? nameSvg(svg, name) : svg)
     .replace('<svg', `<svg width="${size}" height="${size}"`)
     .replace(/stroke-width="([\d.]+)"/g, (_, w) => `stroke-width="${round(+w * mult)}"`)
     .replace(/currentColor/g, colour);

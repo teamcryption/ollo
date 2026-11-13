@@ -9,6 +9,7 @@ import {
   loadIndex,
   loadMotion,
   loadIcons,
+  nameSvg,
   svgDataUrl,
   type Category,
   type IconEntry,
@@ -376,7 +377,7 @@ function IconPanel({
 
   const exportSvg = useCallback(() => {
     if (!base || !timed) return '';
-    let svg = animatedIconSvg(base, timed, exportHex, size);
+    let svg = nameSvg(animatedIconSvg(base, timed, exportHex, size), icon.n);
     const bgHex = BACKGROUNDS[bg]?.light;
     if (bgHex) svg = svg.replace(/(<svg[^>]*>(?:<style>[\s\S]*?<\/style>)?)/, `$1<rect width="24" height="24" fill="${bgHex}"/>`);
     if (trigger === 'hover') {
@@ -563,7 +564,7 @@ function IllustrationPanel({
   const hex = colour === 'ink' ? null : colour === 'custom' ? custom : ILL_SWATCHES.find((s) => s.id === colour)!.hex;
   const opts = { type, theme, colour: hex, fill, background: bg };
   const previewSvg = illustrationSvg(item, { ...opts, motion });
-  const exportSvg = () => illustrationSvg(item, { ...opts, motion: format === 'png' ? 'still' : motion });
+  const exportSvg = () => nameSvg(illustrationSvg(item, { ...opts, motion: format === 'png' ? 'still' : motion }), item.n);
   const cat = categories.find((c) => c.id === item.c)?.title ?? item.c;
   const fav = isFavourite(`ill:${item.n}`);
   const comp = `${pascal(item.n)}Illustration`;

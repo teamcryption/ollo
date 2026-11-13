@@ -39,6 +39,9 @@ const MOTION_KINDS: { id: MotionKind; label: string }[] = [
 ];
 
 
+// Free plan: Light and Regular. Bold, Fill and Duotone are Pro (marked in the style chips).
+const PRO_STYLES = new Set<IconStyle>(['bold', 'fill', 'duotone']);
+
 const TILE_ICON: Record<TileSize, number> = { S: 24, M: 32, L: 40 };
 const PAGE = 36; // fallback before the grid has measured itself
 const AUTO_LOADS = 4; // pages added by scrolling before "Load more" shows
@@ -167,7 +170,8 @@ export function Library() {
     }
     if (animated) items = items.filter((i) => i.a && (motionKind === 'all' || i.m === motionKind));
     items = searchIcons(items, deferredQuery, catTitles);
-    if (sort === 'az') items = [...items].sort((a, b) => a.t.localeCompare(b.t));
+    // A search keeps its relevance order; the sort menu applies to browsing.
+    if (sort === 'az' && !deferredQuery.trim()) items = [...items].sort((a, b) => a.t.localeCompare(b.t));
     return items;
   }, [index, collection, deferredQuery, catTitles, sort, animated, motionKind, favourites.items, recent.items]);
 
@@ -193,7 +197,7 @@ export function Library() {
       setDownload({ kind: 'icon', icon, list, format });
       return;
     }
-    const out = exportIconSvg(svgs[icon.n], size, copyHex, index.tokens.icon.opticalStroke);
+    const out = exportIconSvg(svgs[icon.n], size, copyHex, index.tokens.icon.opticalStroke, icon.n);
     if (await copyText(out)) {
       setCopied(icon.n);
       recent.push(icon.n);
@@ -306,6 +310,7 @@ export function Library() {
         >
           {style === s.id && <UiIcon name="check" size={16} />}
           {s.label}
+          {PRO_STYLES.has(s.id) && <span className="badge-pro">PRO</span>}
         </button>
       ))}
     </div>

@@ -1,7 +1,7 @@
 'use client';
 // Illustrations screen (Figma 33:4883 desktop, 38:11748 tablet, 36:8623 phone).
 import { useEffect, useMemo, useState } from 'react';
-import { fmt, loadIllustrations, svgDataUrl, type Category, type Illustration } from '@/lib/data';
+import { fmt, loadIllustrations, searchIcons, svgDataUrl, type Category, type Illustration } from '@/lib/data';
 import { illustrationSvg, type IllTheme } from '@/lib/illustration';
 import type { Theme } from '@/lib/hooks';
 import { UiIcon } from './ui-icons';
@@ -181,9 +181,9 @@ export function Illustrations({
     if (s.collection !== 'all') l = l.filter((i) => i.c === s.collection);
     if (s.kind !== 'all' && s.kind !== 'static') l = [];
     if (s.animatedOnly) l = l.filter((i) => i.motion);
-    const words = query.toLowerCase().split(/\s+/).filter(Boolean);
-    if (words.length) l = l.filter((i) => words.every((w) => `${i.n} ${i.t} ${i.g} ${i.c}`.toLowerCase().includes(w)));
-    if (s.sort === 'az') l = [...l].sort((a, b) => a.t.localeCompare(b.t));
+    // Same relevance search as icons: names, titles, tags, industry, plurals and synonyms.
+    if (query.trim()) l = searchIcons(l, query, new Map(s.categories.map((c) => [c.id, c.title])));
+    else if (s.sort === 'az') l = [...l].sort((a, b) => a.t.localeCompare(b.t));
     return l;
   }, [s.items, s.collection, s.kind, s.animatedOnly, s.sort, query]);
 

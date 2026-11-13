@@ -17,7 +17,8 @@ const COMPARE: { group: string; rows: Row[] }[] = [
   {
     group: 'Icons',
     rows: [
-      { label: 'Every icon in Light, Regular, Bold, Fill and Duotone', free: true, pro: true },
+      { label: 'Every icon in Light and Regular', free: true, pro: true },
+      { label: 'Bold, Fill and Duotone styles', free: false, pro: true },
       { label: 'Copy SVG, copy JSX, React package', free: true, pro: true },
       { label: 'Download SVG and PNG at 16, 20, 24, 32 px', free: true, pro: true },
       { label: 'Recolour', free: '5 brand swatches', pro: 'Any colour' },
@@ -45,7 +46,8 @@ const COMPARE: { group: string; rows: Row[] }[] = [
     rows: [
       { label: 'Personal and commercial projects', free: true, pro: true },
       { label: 'Attribution', free: 'Required', pro: 'Not needed' },
-      { label: 'Figma plugin', free: true, pro: true },
+      { label: 'Paste into Figma, layer named after the icon', free: true, pro: true },
+      { label: 'Figma component with Light, Regular, Bold, Fill and Duotone variants', free: false, pro: true },
     ],
   },
 ];
@@ -79,7 +81,7 @@ export function Subscribe({
         note: 'No card needed',
         lead: 'Everything you need to ship static icons today.',
         points: [
-          `All ${fmt(iconCount)} icons in 5 styles`,
+          `All ${fmt(iconCount)} icons in Light and Regular`,
           'Copy SVG and JSX, download SVG and PNG',
           'Animated SVG and Stroke illustrations',
           'Commercial use with attribution',
@@ -93,7 +95,8 @@ export function Subscribe({
         note: billing === 'yearly' ? `$${pro} billed yearly` : 'Billed monthly, cancel anytime',
         lead: 'Motion, every illustration style and no attribution.',
         points: [
-          'Everything in Free',
+          'Everything in Free, plus Bold, Fill and Duotone',
+          'Figma components with style variants',
           'Lottie, .lottie and GIF for every animated icon',
           `All ${fmt(illustrationCount)} illustrations in Fill and Duotone`,
           'Any colour, bulk .zip downloads, no attribution',
