@@ -1,659 +1,565 @@
 {
-  "generatedAt": "2026-11-13T04:21:24.578Z",
-  "icons": 56613,
-  "files": 283065,
+  "generatedAt": "2026-11-13T04:26:01.573Z",
+  "icons": 57514,
+  "files": 287570,
   "errors": [],
   "warnings": [
-    "chart-grouped-camera: grid: outside the 3-21 live area (3.36, 5.88, 22.00, 20.50)",
-    "chart-range-camera: grid: outside the 3-21 live area (3.36, 4.44, 22.00, 20.50)",
-    "chart-slope-camera: grid: outside the 3-21 live area (3.29, 4.73, 22.00, 20.50)",
-    "chart-spline-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
-    "chart-area-stacked-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
-    "chart-growth-camera: grid: outside the 3-21 live area (4.44, 7.68, 22.00, 20.50)",
-    "chart-decline-camera: grid: outside the 3-21 live area (4.44, 7.68, 22.00, 20.50)",
-    "chart-sankey-camera: grid: outside the 3-21 live area (3.36, 4.44, 22.00, 20.50)",
-    "chart-bar-horizontal-camera: grid: outside the 3-21 live area (3.36, 3.00, 22.00, 20.50)",
-    "chart-radar-camera: grid: outside the 3-21 live area (3.80, 3.86, 22.00, 20.50)",
-    "chart-bubble-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
-    "chart-histogram-camera: grid: outside the 3-21 live area (3.72, 4.44, 22.00, 20.50)",
-    "heatmap-camera: grid: outside the 3-21 live area (3.29, 3.29, 22.00, 20.50)",
-    "chart-waterfall-camera: grid: outside the 3-21 live area (3.36, 5.88, 22.00, 20.50)",
-    "chart-gantt-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
-    "chart-mixed-camera: grid: outside the 3-21 live area (3.72, 8.04, 22.00, 20.50)",
-    "chart-pyramid-camera: grid: outside the 3-21 live area (3.44, 8.04, 22.00, 20.50)",
-    "chart-treemap-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
-    "chart-points-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
-    "chart-stacked-camera: grid: outside the 3-21 live area (4.08, 4.44, 22.00, 20.50)",
-    "cloud-sync-camera: grid: outside the 3-21 live area (2.78, 5.63, 22.00, 20.50)",
-    "database-backup-camera: grid: outside the 3-21 live area (4.44, 3.36, 22.00, 20.50)",
-    "box-plot-camera: grid: outside the 3-21 live area (4.80, 3.72, 22.00, 20.50)",
-    "chart-lollipop-camera: grid: outside the 3-21 live area (3.36, 3.50, 22.00, 20.50)",
-    "sparkline-camera: grid: outside the 3-21 live area (3.36, 6.84, 22.00, 20.50)",
-    "chart-forecast-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
-    "chart-step-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
-    "pivot-table-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
-    "chart-polar-camera: grid: outside the 3-21 live area (4.50, 3.41, 22.00, 20.50)",
-    "chart-sunburst-camera: grid: outside the 3-21 live area (3.36, 3.41, 22.00, 20.50)",
-    "network-graph-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
-    "chart-line-multi-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
-    "chart-bar-camera: grid: outside the 3-21 live area (3.72, 3.72, 22.00, 20.50)",
-    "chart-line-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
-    "chart-pie-camera: grid: outside the 3-21 live area (3.69, 3.79, 22.00, 20.50)",
-    "chart-donut-camera: grid: outside the 3-21 live area (3.72, 3.72, 22.00, 20.50)",
-    "chart-area-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)"
+    "chart-scatter-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
+    "dashboard-gauge-camera: grid: outside the 3-21 live area (3.36, 4.80, 22.00, 20.50)",
+    "funnel-chart-camera: grid: outside the 3-21 live area (3.00, 3.72, 22.00, 20.50)",
+    "kpi-camera: grid: outside the 3-21 live area (3.00, 4.44, 22.00, 20.50)",
+    "wireframe-camera: grid: outside the 3-21 live area (3.36, 3.72, 22.00, 20.50)",
+    "stencil-camera: grid: outside the 3-21 live area (3.36, 4.44, 22.00, 20.50)",
+    "perspective-camera: grid: outside the 3-21 live area (3.16, 4.44, 22.00, 20.50)",
+    "pattern-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
+    "pixelate-camera: grid: outside the 3-21 live area (3.72, 3.72, 22.00, 20.50)",
+    "union-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
+    "subtract-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
+    "intersect-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
+    "exclude-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
+    "opacity-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
+    "shadow-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
+    "center-object-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
+    "corner-radius-camera: grid: outside the 3-21 live area (3.72, 3.72, 22.00, 20.50)",
+    "selection-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
+    "group-objects-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
+    "bring-to-front-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
+    "quill-camera: grid: outside the 3-21 live area (4.08, 3.36, 22.00, 20.50)",
+    "inkwell-camera: grid: outside the 3-21 live area (4.80, 3.36, 22.00, 20.50)",
+    "lasso-camera: grid: outside the 3-21 live area (4.08, 4.08, 22.00, 20.50)",
+    "swatch-book-camera: grid: outside the 3-21 live area (3.46, 3.72, 22.00, 20.50)",
+    "spiral-camera: grid: outside the 3-21 live area (4.08, 4.08, 22.00, 20.50)",
+    "anchor-point-camera: grid: outside the 3-21 live area (3.07, 3.07, 22.00, 20.50)",
+    "gradient-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
+    "fill-stroke-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
+    "spacing-camera: grid: outside the 3-21 live area (3.36, 3.72, 22.00, 20.50)",
+    "color-picker-camera: grid: outside the 3-21 live area (4.87, 3.79, 22.00, 20.50)",
+    "frame-camera: grid: outside the 3-21 live area (3.36, 3.36, 22.00, 20.50)",
+    "bezier-curve-camera: grid: outside the 3-21 live area (3.36, 4.44, 22.00, 20.50)",
+    "blend-camera: grid: outside the 3-21 live area (3.36, 5.52, 22.00, 20.50)",
+    "aspect-ratio-camera: grid: outside the 3-21 live area (3.36, 5.16, 22.00, 20.50)",
+    "flip-horizontal-camera: grid: outside the 3-21 live area (3.54, 3.36, 22.00, 20.50)",
+    "align-object-left-camera: grid: outside the 3-21 live area (3.72, 3.36, 22.00, 20.50)",
+    "distribute-horizontal-camera: grid: outside the 3-21 live area (3.72, 3.36, 22.00, 20.50)"
   ],
   "duplicates": [
     {
-      "a": "chart-grouped-pencil",
-      "b": "chart-grouped-leaf",
+      "a": "funnel-chart-sparkle",
+      "b": "funnel-chart-upload",
       "distance": 1.41
     },
     {
-      "a": "chart-grouped-sparkle",
-      "b": "chart-grouped-upload",
+      "a": "kpi-pencil",
+      "b": "kpi-leaf",
       "distance": 1.41
     },
     {
-      "a": "chart-range-sparkle",
-      "b": "chart-range-upload",
+      "a": "kpi-sparkle",
+      "b": "kpi-upload",
       "distance": 1.41
     },
     {
-      "a": "chart-sankey-sparkle",
-      "b": "chart-sankey-upload",
+      "a": "wireframe-pencil",
+      "b": "wireframe-leaf",
       "distance": 1.41
     },
     {
-      "a": "chart-bar-horizontal-sparkle",
-      "b": "chart-bar-horizontal-upload",
+      "a": "wireframe-sparkle",
+      "b": "wireframe-upload",
       "distance": 1.41
     },
     {
-      "a": "chart-radar-sparkle",
-      "b": "chart-radar-upload",
+      "a": "stencil-pencil",
+      "b": "stencil-leaf",
       "distance": 1.41
     },
     {
-      "a": "chart-histogram-pencil",
-      "b": "chart-histogram-leaf",
+      "a": "stencil-sparkle",
+      "b": "stencil-upload",
       "distance": 1.41
     },
     {
-      "a": "chart-histogram-sparkle",
-      "b": "chart-histogram-upload",
+      "a": "perspective-pencil",
+      "b": "perspective-leaf",
       "distance": 1.41
     },
     {
-      "a": "heatmap-sparkle",
-      "b": "heatmap-upload",
+      "a": "perspective-sparkle",
+      "b": "perspective-upload",
       "distance": 1.41
     },
     {
-      "a": "chart-waterfall-pencil",
-      "b": "chart-waterfall-leaf",
+      "a": "pattern-sparkle",
+      "b": "pattern-upload",
       "distance": 1.41
     },
     {
-      "a": "chart-mixed-pencil",
-      "b": "chart-mixed-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "chart-pyramid-pencil",
-      "b": "chart-pyramid-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "chart-treemap-sparkle",
-      "b": "chart-treemap-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "chart-points-sparkle",
-      "b": "chart-points-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "chart-stacked-search",
-      "b": "mars-rover-search",
-      "distance": 1.41
-    },
-    {
-      "a": "chart-stacked-shield",
-      "b": "mars-rover-shield",
-      "distance": 1.41
-    },
-    {
-      "a": "chart-stacked-bolt",
-      "b": "mars-rover-bolt",
-      "distance": 1.41
-    },
-    {
-      "a": "chart-stacked-heart",
-      "b": "mars-rover-heart",
-      "distance": 1.41
-    },
-    {
-      "a": "chart-stacked-star",
-      "b": "mars-rover-star",
-      "distance": 1.41
-    },
-    {
-      "a": "chart-stacked-user",
-      "b": "mars-rover-user",
-      "distance": 1.41
-    },
-    {
-      "a": "chart-stacked-cloud",
-      "b": "mars-rover-cloud",
-      "distance": 1.41
-    },
-    {
-      "a": "chart-stacked-chat",
-      "b": "mars-rover-chat",
-      "distance": 1.41
-    },
-    {
-      "a": "chart-stacked-download",
-      "b": "mars-rover-download",
-      "distance": 1.41
-    },
-    {
-      "a": "chart-stacked-pencil",
-      "b": "chart-stacked-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "chart-stacked-pencil",
-      "b": "mars-rover-pencil",
-      "distance": 1.41
-    },
-    {
-      "a": "chart-stacked-sparkle",
-      "b": "chart-stacked-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "chart-stacked-sparkle",
-      "b": "mars-rover-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "chart-stacked-question",
-      "b": "mars-rover-question",
-      "distance": 1.41
-    },
-    {
-      "a": "chart-stacked-upload",
-      "b": "mars-rover-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "chart-stacked-crown",
-      "b": "mars-rover-crown",
-      "distance": 1.41
-    },
-    {
-      "a": "chart-stacked-leaf",
-      "b": "mars-rover-pencil",
-      "distance": 1.41
-    },
-    {
-      "a": "chart-stacked-trophy",
-      "b": "mars-rover-trophy",
-      "distance": 1.41
-    },
-    {
-      "a": "chart-stacked-camera",
-      "b": "mars-rover-camera",
-      "distance": 1.41
-    },
-    {
-      "a": "chart-stacked-filter",
-      "b": "mars-rover-filter",
-      "distance": 1.41
-    },
-    {
-      "a": "chart-stacked-stats",
-      "b": "mars-rover-stats",
-      "distance": 1.41
-    },
-    {
-      "a": "chart-stacked-checkbox",
-      "b": "mars-rover-checkbox",
-      "distance": 1.41
-    },
-    {
-      "a": "cloud-sync-pencil",
-      "b": "cloud-sync-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "database-backup-gear",
-      "b": "database-backup-stats",
-      "distance": 1.41
-    },
-    {
-      "a": "database-backup-pencil",
-      "b": "database-backup-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "database-backup-sparkle",
-      "b": "database-backup-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "chart-lollipop-sparkle",
-      "b": "chart-lollipop-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "pivot-table-sparkle",
-      "b": "pivot-table-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "chart-polar-sparkle",
-      "b": "chart-polar-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "chart-sunburst-bolt",
-      "b": "poker-chip-bolt",
-      "distance": 1.41
-    },
-    {
-      "a": "chart-sunburst-pencil",
-      "b": "chart-sunburst-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "chart-sunburst-sparkle",
-      "b": "poker-chip-sparkle",
-      "distance": 1.41
-    },
-    {
-      "a": "chart-sunburst-upload",
-      "b": "poker-chip-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "network-graph-pencil",
-      "b": "network-graph-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "network-graph-sparkle",
-      "b": "network-graph-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "chart-bar-pencil",
-      "b": "chart-bar-leaf",
-      "distance": 1.41
-    },
-    {
-      "a": "chart-bar-sparkle",
-      "b": "chart-bar-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "chart-donut-search",
+      "a": "pixelate-search",
       "b": "shield-search",
-      "distance": 1
+      "distance": 1.41
     },
     {
-      "a": "chart-donut-clock",
-      "b": "shield-clock",
-      "distance": 1
+      "a": "pixelate-bolt",
+      "b": "shield-bolt",
+      "distance": 1.41
     },
     {
-      "a": "chart-donut-gear",
-      "b": "shield-gear",
-      "distance": 1
-    },
-    {
-      "a": "chart-donut-heart",
+      "a": "pixelate-heart",
       "b": "shield-heart",
       "distance": 1.41
     },
     {
-      "a": "chart-donut-cloud",
+      "a": "pixelate-cloud",
       "b": "shield-cloud",
       "distance": 1.41
     },
     {
-      "a": "chart-donut-chat",
+      "a": "pixelate-chat",
       "b": "shield-chat",
-      "distance": 1
+      "distance": 1.41
     },
     {
-      "a": "chart-donut-download",
+      "a": "pixelate-download",
       "b": "shield-download",
-      "distance": 1
-    },
-    {
-      "a": "chart-donut-pencil",
-      "b": "chart-donut-leaf",
       "distance": 1.41
     },
     {
-      "a": "chart-donut-pencil",
+      "a": "pixelate-pencil",
       "b": "shield-pencil",
-      "distance": 1
-    },
-    {
-      "a": "chart-donut-pencil",
-      "b": "shield-leaf",
       "distance": 1.41
     },
     {
-      "a": "chart-donut-trash",
+      "a": "pixelate-trash",
       "b": "shield-trash",
       "distance": 1.41
     },
     {
-      "a": "chart-donut-calendar",
-      "b": "shield-calendar",
-      "distance": 1
-    },
-    {
-      "a": "chart-donut-question",
+      "a": "pixelate-question",
       "b": "shield-question",
-      "distance": 1
+      "distance": 1.41
     },
     {
-      "a": "chart-donut-bookmark",
+      "a": "pixelate-bookmark",
       "b": "shield-bookmark",
-      "distance": 1
+      "distance": 1.41
     },
     {
-      "a": "chart-donut-crown",
+      "a": "pixelate-crown",
       "b": "shield-crown",
-      "distance": 1
+      "distance": 1.41
     },
     {
-      "a": "chart-donut-leaf",
+      "a": "pixelate-leaf",
       "b": "shield-leaf",
-      "distance": 1
+      "distance": 1.41
     },
     {
-      "a": "chart-donut-hourglass",
+      "a": "pixelate-hourglass",
       "b": "shield-hourglass",
-      "distance": 1
+      "distance": 1.41
     },
     {
-      "a": "chart-donut-cursor",
+      "a": "pixelate-cursor",
       "b": "shield-cursor",
-      "distance": 1
+      "distance": 1.41
     },
     {
-      "a": "chart-donut-camera",
+      "a": "pixelate-camera",
       "b": "shield-camera",
       "distance": 1.41
     },
     {
-      "a": "chart-donut-filter",
-      "b": "shield-filter",
-      "distance": 1
-    },
-    {
-      "a": "chart-donut-stats",
+      "a": "pixelate-stats",
       "b": "shield-stats",
-      "distance": 1
+      "distance": 1.41
     },
     {
-      "a": "chart-donut-checkbox",
+      "a": "pixelate-checkbox",
       "b": "shield-checkbox",
-      "distance": 1
-    },
-    {
-      "a": "chart-area-pencil",
-      "b": "chart-area-leaf",
       "distance": 1.41
     },
     {
-      "a": "chart-area-sparkle",
-      "b": "chart-area-upload",
+      "a": "subtract-sparkle",
+      "b": "subtract-upload",
       "distance": 1.41
     },
     {
-      "a": "chart-stacked-fire",
-      "b": "mars-rover-fire",
+      "a": "intersect-sparkle",
+      "b": "intersect-upload",
       "distance": 1.41
     },
     {
-      "a": "chart-donut-bell",
-      "b": "shield-bell",
+      "a": "exclude-sparkle",
+      "b": "exclude-upload",
       "distance": 1.41
     },
     {
-      "a": "chart-donut-moon",
-      "b": "shield-moon",
+      "a": "opacity-pencil",
+      "b": "opacity-leaf",
       "distance": 1.41
     },
     {
-      "a": "chart-donut-trophy",
+      "a": "shadow-pencil",
+      "b": "shadow-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "shadow-sparkle",
+      "b": "shadow-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "center-object-sparkle",
+      "b": "center-object-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "selection-pencil",
+      "b": "selection-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "inkwell-pencil",
+      "b": "inkwell-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "swatch-book-sparkle",
+      "b": "swatch-book-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "spiral-search",
+      "b": "yarn-ball-search",
+      "distance": 1.41
+    },
+    {
+      "a": "spiral-shield",
+      "b": "yarn-ball-shield",
+      "distance": 1.41
+    },
+    {
+      "a": "spiral-chat",
+      "b": "yarn-ball-chat",
+      "distance": 1.41
+    },
+    {
+      "a": "spiral-download",
+      "b": "yarn-ball-download",
+      "distance": 1.41
+    },
+    {
+      "a": "spiral-sparkle",
+      "b": "spiral-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "spiral-calendar",
+      "b": "yarn-ball-calendar",
+      "distance": 1.41
+    },
+    {
+      "a": "spiral-question",
+      "b": "yarn-ball-question",
+      "distance": 1.41
+    },
+    {
+      "a": "spiral-bookmark",
+      "b": "yarn-ball-bookmark",
+      "distance": 1.41
+    },
+    {
+      "a": "spiral-trophy",
+      "b": "yarn-ball-trophy",
+      "distance": 1.41
+    },
+    {
+      "a": "spiral-hourglass",
+      "b": "yarn-ball-hourglass",
+      "distance": 1.41
+    },
+    {
+      "a": "spiral-cursor",
+      "b": "yarn-ball-cursor",
+      "distance": 1.41
+    },
+    {
+      "a": "spiral-filter",
+      "b": "yarn-ball-filter",
+      "distance": 1.41
+    },
+    {
+      "a": "spiral-checkbox",
+      "b": "yarn-ball-checkbox",
+      "distance": 1.41
+    },
+    {
+      "a": "gradient-sparkle",
+      "b": "gradient-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "fill-stroke-sparkle",
+      "b": "fill-stroke-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "spacing-gear",
+      "b": "spacing-stats",
+      "distance": 1.41
+    },
+    {
+      "a": "spacing-pencil",
+      "b": "spacing-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "spacing-sparkle",
+      "b": "spacing-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "frame-sparkle",
+      "b": "frame-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "blend-shield",
+      "b": "wood-log-shield",
+      "distance": 1.41
+    },
+    {
+      "a": "blend-bookmark",
+      "b": "wood-log-bookmark",
+      "distance": 1.41
+    },
+    {
+      "a": "aspect-ratio-pencil",
+      "b": "aspect-ratio-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "flip-horizontal-pencil",
+      "b": "flip-horizontal-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "distribute-horizontal-pencil",
+      "b": "distribute-horizontal-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "pixelate-trophy",
       "b": "shield-trophy",
-      "distance": 1
-    },
-    {
-      "a": "chart-slope-sparkle",
-      "b": "chart-slope-upload",
       "distance": 1.41
     },
     {
-      "a": "chart-spline-sparkle",
-      "b": "chart-spline-upload",
+      "a": "pixelate-fire",
+      "b": "shield-fire",
       "distance": 1.41
     },
     {
-      "a": "chart-area-stacked-sparkle",
-      "b": "chart-area-stacked-upload",
+      "a": "chart-scatter-sparkle",
+      "b": "chart-scatter-upload",
       "distance": 1.41
     },
     {
-      "a": "chart-growth-sparkle",
-      "b": "chart-growth-upload",
+      "a": "dashboard-gauge-sparkle",
+      "b": "dashboard-gauge-upload",
       "distance": 1.41
     },
     {
-      "a": "chart-decline-sparkle",
-      "b": "chart-decline-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "chart-bubble-sparkle",
-      "b": "chart-bubble-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "chart-waterfall-sparkle",
-      "b": "chart-waterfall-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "chart-gantt-sparkle",
-      "b": "chart-gantt-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "chart-mixed-sparkle",
-      "b": "chart-mixed-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "chart-pyramid-sparkle",
-      "b": "chart-pyramid-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "cloud-sync-sparkle",
-      "b": "cloud-sync-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "box-plot-sparkle",
-      "b": "box-plot-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "sparkline-sparkle",
-      "b": "sparkline-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "chart-forecast-sparkle",
-      "b": "chart-forecast-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "chart-step-sparkle",
-      "b": "chart-step-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "chart-sunburst-fire",
-      "b": "poker-chip-fire",
-      "distance": 1.41
-    },
-    {
-      "a": "chart-line-multi-sparkle",
-      "b": "chart-line-multi-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "chart-line-sparkle",
-      "b": "chart-line-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "chart-donut-pin",
+      "a": "pixelate-pin",
       "b": "shield-pin",
-      "distance": 1
+      "distance": 1.41
     },
     {
-      "a": "chart-donut-sparkle",
+      "a": "pixelate-sparkle",
+      "b": "pixelate-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "pixelate-sparkle",
       "b": "shield-sparkle",
       "distance": 1.41
     },
     {
-      "a": "chart-donut-flag",
-      "b": "shield-flag",
-      "distance": 1
+      "a": "pixelate-upload",
+      "b": "shield-sparkle",
+      "distance": 1.41
+    },
+    {
+      "a": "corner-radius-sparkle",
+      "b": "corner-radius-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "quill-sparkle",
+      "b": "quill-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "inkwell-sparkle",
+      "b": "inkwell-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "lasso-sparkle",
+      "b": "lasso-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "spiral-pin",
+      "b": "yarn-ball-pin",
+      "distance": 1.41
+    },
+    {
+      "a": "spiral-flag",
+      "b": "yarn-ball-flag",
+      "distance": 1.41
+    },
+    {
+      "a": "color-picker-sparkle",
+      "b": "color-picker-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "bezier-curve-sparkle",
+      "b": "bezier-curve-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "blend-trophy",
+      "b": "wood-log-trophy",
+      "distance": 1.41
+    },
+    {
+      "a": "aspect-ratio-sparkle",
+      "b": "aspect-ratio-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "flip-horizontal-sparkle",
+      "b": "flip-horizontal-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "align-object-left-sparkle",
+      "b": "align-object-left-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "distribute-horizontal-sparkle",
+      "b": "distribute-horizontal-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "anchor-point-sparkle",
+      "b": "anchor-point-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "union-sparkle",
+      "b": "union-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "bring-to-front-sparkle",
+      "b": "bring-to-front-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "group-objects-sparkle",
+      "b": "group-objects-upload",
+      "distance": 1.41
     }
   ],
   "dropped": [
-    "chart-radar-gear",
-    "chart-radar-bolt",
-    "chart-radar-star",
-    "chart-radar-pencil",
-    "chart-radar-sparkle",
-    "chart-radar-flag",
-    "chart-radar-calendar",
-    "chart-radar-upload",
-    "chart-radar-moon",
-    "chart-radar-leaf",
-    "chart-radar-hourglass",
-    "chart-radar-cursor",
-    "chart-radar-filter",
-    "chart-radar-stats",
-    "chart-grouped-leaf",
-    "chart-grouped-upload",
-    "chart-range-upload",
-    "chart-sankey-upload",
-    "chart-bar-horizontal-upload",
-    "chart-histogram-leaf",
-    "chart-histogram-upload",
-    "heatmap-upload",
-    "chart-waterfall-leaf",
-    "chart-mixed-leaf",
-    "chart-pyramid-leaf",
-    "chart-treemap-upload",
-    "chart-points-upload",
-    "chart-stacked-search",
-    "chart-stacked-shield",
-    "chart-stacked-bolt",
-    "chart-stacked-heart",
-    "chart-stacked-star",
-    "chart-stacked-user",
-    "chart-stacked-cloud",
-    "chart-stacked-chat",
-    "chart-stacked-download",
-    "chart-stacked-leaf",
-    "chart-stacked-pencil",
-    "chart-stacked-upload",
-    "chart-stacked-sparkle",
-    "chart-stacked-question",
-    "chart-stacked-crown",
-    "chart-stacked-trophy",
-    "chart-stacked-camera",
-    "chart-stacked-filter",
-    "chart-stacked-stats",
-    "chart-stacked-checkbox",
-    "cloud-sync-leaf",
-    "database-backup-stats",
-    "database-backup-leaf",
-    "database-backup-upload",
-    "chart-lollipop-upload",
-    "pivot-table-upload",
-    "chart-polar-upload",
-    "chart-sunburst-bolt",
-    "chart-sunburst-leaf",
-    "chart-sunburst-sparkle",
-    "chart-sunburst-upload",
-    "network-graph-leaf",
-    "network-graph-upload",
-    "chart-bar-leaf",
-    "chart-bar-upload",
-    "chart-donut-search",
-    "chart-donut-clock",
-    "chart-donut-gear",
-    "chart-donut-heart",
-    "chart-donut-cloud",
-    "chart-donut-chat",
-    "chart-donut-download",
-    "chart-donut-leaf",
-    "chart-donut-pencil",
-    "chart-donut-trash",
-    "chart-donut-calendar",
-    "chart-donut-question",
-    "chart-donut-bookmark",
-    "chart-donut-crown",
-    "chart-donut-hourglass",
-    "chart-donut-cursor",
-    "chart-donut-camera",
-    "chart-donut-filter",
-    "chart-donut-stats",
-    "chart-donut-checkbox",
-    "chart-area-leaf",
-    "chart-area-upload",
-    "chart-stacked-fire",
-    "chart-donut-bell",
-    "chart-donut-moon",
-    "chart-donut-trophy",
-    "chart-slope-upload",
-    "chart-spline-upload",
-    "chart-area-stacked-upload",
-    "chart-growth-upload",
-    "chart-decline-upload",
-    "chart-bubble-upload",
-    "chart-waterfall-upload",
-    "chart-gantt-upload",
-    "chart-mixed-upload",
-    "chart-pyramid-upload",
-    "cloud-sync-upload",
-    "box-plot-upload",
-    "sparkline-upload",
-    "chart-forecast-upload",
-    "chart-step-upload",
-    "chart-sunburst-fire",
-    "chart-line-multi-upload",
-    "chart-line-upload",
-    "chart-donut-pin",
-    "chart-donut-sparkle",
-    "chart-donut-flag"
+    "funnel-chart-upload",
+    "kpi-leaf",
+    "kpi-upload",
+    "wireframe-leaf",
+    "wireframe-upload",
+    "stencil-leaf",
+    "stencil-upload",
+    "perspective-leaf",
+    "perspective-upload",
+    "pattern-upload",
+    "pixelate-search",
+    "pixelate-bolt",
+    "pixelate-heart",
+    "pixelate-cloud",
+    "pixelate-chat",
+    "pixelate-download",
+    "pixelate-pencil",
+    "pixelate-trash",
+    "pixelate-question",
+    "pixelate-bookmark",
+    "pixelate-crown",
+    "pixelate-leaf",
+    "pixelate-hourglass",
+    "pixelate-cursor",
+    "pixelate-camera",
+    "pixelate-stats",
+    "pixelate-checkbox",
+    "subtract-upload",
+    "intersect-upload",
+    "exclude-upload",
+    "opacity-leaf",
+    "shadow-leaf",
+    "shadow-upload",
+    "center-object-upload",
+    "selection-leaf",
+    "inkwell-leaf",
+    "swatch-book-upload",
+    "spiral-search",
+    "spiral-shield",
+    "spiral-chat",
+    "spiral-download",
+    "spiral-upload",
+    "spiral-calendar",
+    "spiral-question",
+    "spiral-bookmark",
+    "spiral-trophy",
+    "spiral-hourglass",
+    "spiral-cursor",
+    "spiral-filter",
+    "spiral-checkbox",
+    "gradient-upload",
+    "fill-stroke-upload",
+    "spacing-stats",
+    "spacing-leaf",
+    "spacing-upload",
+    "frame-upload",
+    "blend-shield",
+    "blend-bookmark",
+    "aspect-ratio-leaf",
+    "flip-horizontal-leaf",
+    "distribute-horizontal-leaf",
+    "pixelate-trophy",
+    "pixelate-fire",
+    "chart-scatter-upload",
+    "dashboard-gauge-upload",
+    "pixelate-pin",
+    "pixelate-upload",
+    "pixelate-sparkle",
+    "corner-radius-upload",
+    "quill-upload",
+    "inkwell-upload",
+    "lasso-upload",
+    "spiral-pin",
+    "spiral-flag",
+    "color-picker-upload",
+    "bezier-curve-upload",
+    "blend-trophy",
+    "aspect-ratio-upload",
+    "flip-horizontal-upload",
+    "align-object-left-upload",
+    "distribute-horizontal-upload",
+    "anchor-point-upload",
+    "union-upload",
+    "bring-to-front-upload",
+    "group-objects-upload"
   ],
   "byCategory": {
     "accessibility": 53,
@@ -666,9 +572,9 @@
     "celebration": 1577,
     "commerce": 1126,
     "communication": 1515,
-    "data": 1611,
-    "design": 825,
-    "development": 615,
+    "data": 1535,
+    "design": 1816,
+    "development": 625,
     "devices": 2027,
     "education": 1329,
     "emoji": 72,

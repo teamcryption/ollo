@@ -6,7 +6,7 @@ import fs from 'node:fs';
 import { pathToFileURL, fileURLToPath } from 'node:url';
 const ROOT = fileURLToPath(new URL('../../packages/forge/', import.meta.url));
 const { scaleD } = await import(pathToFileURL(ROOT + 'src/geo.mjs').href);
-const SKIP_CATS = new Set(['ai', 'interface', 'arrows', 'text', 'emoji', 'navigation', 'accessibility', 'actions']);
+const SKIP_CATS = new Set(['ai', 'interface', 'arrows', 'text', 'emoji', 'navigation', 'accessibility', 'actions', 'design', 'development']);
 const MODS = 'search clock shield gear pin bolt heart star alert user bell cloud chat download pencil sparkle trash flag calendar question bookmark upload crown moon leaf fire trophy hourglass cursor camera filter stats checkbox lock add check close remove off notice pricing addbox bulb wifi percent tag eye truck music key pause play'.split(' ');
 const BAD = new Set(fs.readFileSync(new URL('./bad-bases.txt', import.meta.url), 'utf8').split(/\s+/).filter(Boolean));
 const cat = {}; const label = {}; let n = 0;
