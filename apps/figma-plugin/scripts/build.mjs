@@ -70,4 +70,10 @@ ${css}
 </html>
 `;
 fs.writeFileSync(path.join(dist, 'ui.html'), html);
+// The same panel served by the site, for plugin shells that load it at run time
+// (the Figma-hosted plugin: its ui.html only points at /plugin/panel.js and /plugin/panel.css).
+const served = path.join(web, 'public/plugin');
+fs.mkdirSync(served, { recursive: true });
+fs.writeFileSync(path.join(served, 'panel.js'), ui.outputFiles[0].text);
+fs.writeFileSync(path.join(served, 'panel.css'), css);
 console.log(`figma plugin: dist/code.js ${Math.round(fs.statSync(path.join(dist, 'code.js')).size / 1024)} KB, dist/ui.html ${Math.round(html.length / 1024)} KB (data: ${DATA})`);

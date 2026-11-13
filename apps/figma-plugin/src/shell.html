@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ollo Icons</title>
+<!-- ui.html of the Figma-hosted plugin (admin@cryptionverse.com, id a5462ac4-5bbc-4c68-82b5-92a24a402d51).
+     The panel is the ollo website itself, served by the site at /plugin/panel.js and /plugin/panel.css
+     (written by scripts/build.mjs). Until the site is hosted it runs at http://localhost:3100. -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=Figtree:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap">
+<link rel="stylesheet" href="http://localhost:3100/plugin/panel.css">
+<style>
+  #offline { display: none; margin: 0; padding: 32px 24px; font: 14px/22px Figtree, Inter, system-ui, sans-serif; color: #4c4c52; background: #fff; min-height: 100vh; }
+  html.figma-dark #offline { color: #bcbcc0; background: #141416; }
+  #offline h1 { margin: 0 0 8px; font: 600 18px/24px 'Bricolage Grotesque', system-ui, sans-serif; color: #0a0a0b; }
+  html.figma-dark #offline h1 { color: #f4f4f5; }
+  #offline b { color: inherit; }
+</style>
+</head>
+<body>
+<div id="root"></div>
+<div id="offline">
+  <h1>Start the ollo site</h1>
+  On your PC, double-click <b>Start ollo site</b> in the <b>library-web</b> folder and keep that window open. Then close and reopen this plugin.
+</div>
+<script>window.__OLLO__ = { data: 'http://localhost:3100/data/', figma: true, start: 'all' };</script>
+<script src="http://localhost:3100/plugin/panel.js" onerror="document.getElementById('offline').style.display='block'"></script>
+</body>
+</html>

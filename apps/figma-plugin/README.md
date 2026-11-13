@@ -24,3 +24,11 @@ selected. Layers are named after the icon, so nothing needs renaming.
 The panel uses the site's own data loader and search (`apps/web/lib`), so results match the
 website. When the site is hosted, add its domain to `networkAccess.allowedDomains` in
 `manifest.json` and change the data URL in `src/ui.html`.
+
+## Figma-hosted copy (official account)
+
+The plugin also lives in the **admin@cryptionverse.com** Figma account, team "admin's team"
+(id `a5462ac4-5bbc-4c68-82b5-92a24a402d51`). Its `ui.html` is `src/shell.html`: a small shell that
+loads the panel from the ollo site (`/plugin/panel.js`, `/plugin/panel.css`, written by
+`scripts/build.mjs`). UI changes therefore reach Figma after `pnpm --filter @library/figma-plugin build`
+without re-uploading the plugin. Only `code.ts` changes need an upload.
