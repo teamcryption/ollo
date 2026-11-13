@@ -1,730 +1,2494 @@
 {
-  "generatedAt": "2026-11-13T09:41:30.966Z",
-  "icons": 72297,
-  "files": 361485,
+  "generatedAt": "2026-11-13T09:47:15.886Z",
+  "icons": 73671,
+  "files": 368355,
   "errors": [],
   "warnings": [
-    "bezier-drop: grid: outside the 3-21 live area (2.00, 3.50, 20.30, 21.00)",
-    "bezier-rocket: grid: outside the 3-21 live area (2.00, 3.50, 20.30, 19.60)",
-    "bezier-home: grid: outside the 3-21 live area (2.00, 3.50, 21.00, 20.50)",
-    "bezier-gift: grid: outside the 3-21 live area (2.00, 3.50, 21.00, 20.50)",
-    "bezier-smile: grid: outside the 3-21 live area (2.00, 3.50, 21.00, 20.50)",
-    "bezier-link: grid: outside the 3-21 live area (2.00, 3.50, 21.00, 20.50)",
-    "community-drop: grid: outside the 3-21 live area (1.80, 3.80, 20.30, 21.00)",
-    "community-rocket: grid: outside the 3-21 live area (1.80, 3.80, 20.30, 19.60)",
-    "community-home: grid: outside the 3-21 live area (1.80, 3.80, 21.00, 20.50)",
-    "community-gift: grid: outside the 3-21 live area (1.80, 3.80, 21.00, 20.50)",
-    "community-smile: grid: outside the 3-21 live area (1.80, 3.80, 21.00, 20.50)",
-    "community-link: grid: outside the 3-21 live area (1.80, 3.80, 21.00, 20.50)",
-    "person-walking-drop: grid: outside the 3-21 live area (6.50, 2.20, 20.30, 21.00)",
-    "person-walking-rocket: grid: outside the 3-21 live area (6.50, 2.20, 20.30, 19.60)",
-    "person-walking-home: grid: outside the 3-21 live area (6.50, 2.20, 21.00, 20.50)",
-    "person-walking-gift: grid: outside the 3-21 live area (6.50, 2.20, 21.00, 20.50)",
-    "person-walking-smile: grid: outside the 3-21 live area (6.50, 2.20, 21.00, 20.50)",
-    "person-walking-link: grid: outside the 3-21 live area (6.50, 2.20, 21.00, 20.50)",
-    "thunderstorm-drop: grid: outside the 3-21 live area (2.15, 3.30, 20.30, 21.00)",
-    "thunderstorm-rocket: grid: outside the 3-21 live area (2.15, 3.30, 20.30, 19.60)",
-    "thunderstorm-home: grid: outside the 3-21 live area (2.15, 3.30, 21.00, 20.50)",
-    "thunderstorm-gift: grid: outside the 3-21 live area (2.15, 3.30, 21.00, 20.50)",
-    "thunderstorm-smile: grid: outside the 3-21 live area (2.15, 3.30, 21.00, 20.50)",
-    "thunderstorm-link: grid: outside the 3-21 live area (2.15, 3.30, 21.00, 20.50)"
+    "flamingo-drop: grid: outside the 3-21 live area (6.13, 2.19, 20.30, 21.00)",
+    "flamingo-rocket: grid: outside the 3-21 live area (6.13, 2.19, 20.30, 19.60)",
+    "flamingo-home: grid: outside the 3-21 live area (6.13, 2.19, 21.00, 20.50)",
+    "flamingo-gift: grid: outside the 3-21 live area (6.13, 2.19, 21.00, 20.50)",
+    "flamingo-smile: grid: outside the 3-21 live area (6.13, 2.19, 21.00, 20.50)",
+    "flamingo-link: grid: outside the 3-21 live area (6.13, 2.19, 21.00, 20.50)",
+    "paw-drop-camera: grid: outside the 3-21 live area (3.86, 4.37, 22.00, 20.50)",
+    "paw-rocket-camera: grid: outside the 3-21 live area (3.86, 4.37, 22.00, 20.50)",
+    "paw-home-camera: grid: outside the 3-21 live area (3.86, 4.37, 22.00, 20.50)",
+    "paw-gift-camera: grid: outside the 3-21 live area (3.86, 4.37, 22.00, 20.50)",
+    "paw-smile-camera: grid: outside the 3-21 live area (3.86, 4.37, 22.00, 20.50)",
+    "paw-link-camera: grid: outside the 3-21 live area (3.86, 4.37, 22.00, 20.50)",
+    "fish-drop-camera: grid: outside the 3-21 live area (3.00, 5.30, 22.00, 20.50)",
+    "fish-rocket-camera: grid: outside the 3-21 live area (3.00, 5.30, 22.00, 20.50)",
+    "fish-home-camera: grid: outside the 3-21 live area (3.00, 5.30, 22.00, 20.50)",
+    "fish-gift-camera: grid: outside the 3-21 live area (3.00, 5.30, 22.00, 20.50)",
+    "tumbler-drop: grid: outside the 3-21 live area (5.00, 2.00, 20.30, 21.00)",
+    "tumbler-rocket: grid: outside the 3-21 live area (5.00, 2.00, 20.30, 19.60)",
+    "tumbler-home: grid: outside the 3-21 live area (5.00, 2.00, 21.00, 20.50)",
+    "tumbler-gift: grid: outside the 3-21 live area (5.00, 2.00, 21.00, 20.50)",
+    "tumbler-smile: grid: outside the 3-21 live area (5.00, 2.00, 21.00, 20.50)",
+    "tumbler-link: grid: outside the 3-21 live area (5.00, 2.00, 21.00, 20.50)"
   ],
   "duplicates": [
     {
-      "a": "doghouse-rocket",
-      "b": "tunnel-rocket",
+      "a": "goldfish-stats",
+      "b": "goldfish-link",
       "distance": 1.41
     },
     {
-      "a": "doghouse-gift",
-      "b": "tunnel-gift",
+      "a": "clam-stats",
+      "b": "clam-link",
       "distance": 1.41
     },
     {
-      "a": "doghouse-smile",
-      "b": "tunnel-smile",
+      "a": "paw-drop-search",
+      "b": "paw-rocket-search",
+      "distance": 1
+    },
+    {
+      "a": "paw-drop-search",
+      "b": "paw-gift-search",
       "distance": 1.41
     },
     {
-      "a": "doghouse-link",
-      "b": "tunnel-link",
+      "a": "paw-drop-search",
+      "b": "paw-smile-search",
       "distance": 1.41
     },
     {
-      "a": "beehive-home",
-      "b": "hex-nut-home",
+      "a": "paw-drop-clock",
+      "b": "paw-rocket-clock",
+      "distance": 1
+    },
+    {
+      "a": "paw-drop-clock",
+      "b": "paw-gift-clock",
       "distance": 1.41
     },
     {
-      "a": "beehive-gift",
+      "a": "paw-drop-clock",
+      "b": "paw-smile-clock",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-drop-clock",
+      "b": "paw-link-clock",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-drop-shield",
+      "b": "paw-smile-shield",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-drop-shield",
+      "b": "paw-link-shield",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-drop-gear",
+      "b": "paw-rocket-gear",
+      "distance": 1
+    },
+    {
+      "a": "paw-drop-gear",
+      "b": "paw-home-gear",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-drop-gear",
+      "b": "paw-gift-gear",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-drop-gear",
+      "b": "paw-smile-gear",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-drop-gear",
+      "b": "paw-link-gear",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-drop-heart",
+      "b": "paw-home-heart",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-drop-star",
+      "b": "paw-home-star",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-drop-star",
+      "b": "paw-smile-star",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-drop-chat",
+      "b": "paw-rocket-chat",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-drop-chat",
+      "b": "paw-gift-chat",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-drop-chat",
+      "b": "paw-smile-chat",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-drop-download",
+      "b": "paw-rocket-download",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-drop-download",
+      "b": "paw-gift-download",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-drop-download",
+      "b": "paw-smile-download",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-drop-pencil",
+      "b": "paw-drop-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-drop-trash",
+      "b": "paw-home-trash",
+      "distance": 1
+    },
+    {
+      "a": "paw-drop-trash",
+      "b": "paw-smile-trash",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-drop-calendar",
+      "b": "paw-rocket-calendar",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-drop-calendar",
+      "b": "paw-gift-calendar",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-drop-calendar",
+      "b": "paw-smile-calendar",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-drop-question",
+      "b": "paw-rocket-question",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-drop-question",
+      "b": "paw-gift-question",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-drop-question",
+      "b": "paw-smile-question",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-drop-bookmark",
+      "b": "paw-rocket-bookmark",
+      "distance": 1
+    },
+    {
+      "a": "paw-drop-bookmark",
+      "b": "paw-home-bookmark",
+      "distance": 1
+    },
+    {
+      "a": "paw-drop-bookmark",
+      "b": "paw-smile-bookmark",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-drop-upload",
+      "b": "paw-home-upload",
+      "distance": 1
+    },
+    {
+      "a": "paw-drop-upload",
+      "b": "paw-smile-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-drop-crown",
+      "b": "paw-rocket-crown",
+      "distance": 1
+    },
+    {
+      "a": "paw-drop-crown",
+      "b": "paw-smile-crown",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-drop-trophy",
+      "b": "paw-rocket-trophy",
+      "distance": 1
+    },
+    {
+      "a": "paw-drop-trophy",
+      "b": "paw-home-trophy",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-drop-trophy",
+      "b": "paw-gift-trophy",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-drop-trophy",
+      "b": "paw-smile-trophy",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-drop-hourglass",
+      "b": "paw-rocket-hourglass",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-drop-hourglass",
+      "b": "paw-home-hourglass",
+      "distance": 1
+    },
+    {
+      "a": "paw-drop-hourglass",
+      "b": "paw-gift-hourglass",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-drop-hourglass",
+      "b": "paw-smile-hourglass",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-drop-cursor",
+      "b": "paw-home-cursor",
+      "distance": 1
+    },
+    {
+      "a": "paw-drop-cursor",
+      "b": "paw-gift-cursor",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-drop-camera",
+      "b": "paw-rocket-camera",
+      "distance": 1
+    },
+    {
+      "a": "paw-drop-camera",
+      "b": "paw-smile-camera",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-drop-camera",
+      "b": "paw-link-camera",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-drop-filter",
+      "b": "paw-home-filter",
+      "distance": 1
+    },
+    {
+      "a": "paw-drop-filter",
+      "b": "paw-gift-filter",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-drop-checkbox",
+      "b": "paw-rocket-checkbox",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-drop-checkbox",
+      "b": "paw-gift-checkbox",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-drop-checkbox",
+      "b": "paw-smile-checkbox",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-drop-gift",
+      "b": "paw-smile-gift",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-drop-smile",
+      "b": "paw-rocket-smile",
+      "distance": 1
+    },
+    {
+      "a": "paw-drop-smile",
+      "b": "paw-gift-smile",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-drop-smile",
+      "b": "paw-link-smile",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-drop-link",
+      "b": "paw-rocket-link",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-drop-link",
+      "b": "paw-gift-link",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-drop-link",
+      "b": "paw-smile-link",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-rocket-clock",
+      "b": "paw-gift-clock",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-rocket-clock",
+      "b": "paw-smile-clock",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-rocket-gear",
+      "b": "paw-home-stats",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-rocket-gear",
+      "b": "paw-gift-gear",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-rocket-gear",
+      "b": "paw-gift-stats",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-rocket-gear",
+      "b": "paw-smile-gear",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-rocket-gear",
+      "b": "paw-smile-stats",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-rocket-bolt",
+      "b": "paw-gift-bolt",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-rocket-bolt",
+      "b": "paw-smile-bolt",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-rocket-bolt",
+      "b": "paw-link-bolt",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-rocket-alert",
+      "b": "paw-gift-alert",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-rocket-alert",
+      "b": "paw-smile-alert",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-rocket-alert",
+      "b": "paw-link-alert",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-rocket-user",
+      "b": "paw-gift-user",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-rocket-user",
+      "b": "paw-smile-user",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-rocket-user",
+      "b": "paw-link-user",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-rocket-pencil",
+      "b": "paw-rocket-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-rocket-bookmark",
+      "b": "paw-smile-bookmark",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-rocket-upload",
+      "b": "paw-gift-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-rocket-upload",
+      "b": "paw-smile-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-rocket-upload",
+      "b": "paw-link-sparkle",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-rocket-trophy",
+      "b": "paw-gift-trophy",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-rocket-trophy",
+      "b": "paw-smile-trophy",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-rocket-hourglass",
+      "b": "paw-home-hourglass",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-rocket-hourglass",
+      "b": "paw-gift-hourglass",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-rocket-hourglass",
+      "b": "paw-smile-hourglass",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-rocket-home",
+      "b": "paw-gift-home",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-rocket-home",
+      "b": "paw-smile-home",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-rocket-smile",
+      "b": "paw-gift-smile",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-home-search",
+      "b": "paw-gift-search",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-home-clock",
+      "b": "paw-gift-clock",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-home-clock",
+      "b": "paw-link-clock",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-home-gear",
+      "b": "paw-gift-gear",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-home-gear",
+      "b": "paw-smile-gear",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-home-gear",
+      "b": "paw-link-gear",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-home-bolt",
+      "b": "paw-smile-bolt",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-home-star",
+      "b": "paw-smile-star",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-home-alert",
+      "b": "paw-smile-alert",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-home-user",
+      "b": "paw-smile-user",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-home-user",
+      "b": "paw-link-user",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-home-chat",
+      "b": "paw-gift-chat",
+      "distance": 1
+    },
+    {
+      "a": "paw-home-download",
+      "b": "paw-gift-download",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-home-pencil",
+      "b": "paw-home-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-home-pencil",
+      "b": "paw-smile-pencil",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-home-pencil",
+      "b": "paw-smile-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-home-sparkle",
+      "b": "paw-smile-sparkle",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-home-sparkle",
+      "b": "paw-smile-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-home-trash",
+      "b": "paw-smile-trash",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-home-calendar",
+      "b": "paw-gift-calendar",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-home-question",
+      "b": "paw-gift-question",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-home-leaf",
+      "b": "paw-smile-pencil",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-home-leaf",
+      "b": "paw-smile-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-home-trophy",
+      "b": "paw-gift-trophy",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-home-trophy",
+      "b": "paw-smile-trophy",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-home-hourglass",
+      "b": "paw-gift-hourglass",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-home-hourglass",
+      "b": "paw-smile-hourglass",
+      "distance": 1
+    },
+    {
+      "a": "paw-home-cursor",
+      "b": "paw-gift-cursor",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-home-camera",
+      "b": "paw-link-camera",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-home-filter",
+      "b": "paw-gift-filter",
+      "distance": 1
+    },
+    {
+      "a": "paw-home-filter",
+      "b": "paw-smile-filter",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-home-stats",
+      "b": "paw-home-link",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-home-stats",
+      "b": "paw-gift-gear",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-home-stats",
+      "b": "paw-smile-stats",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-home-checkbox",
+      "b": "paw-gift-checkbox",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-home-rocket",
+      "b": "paw-smile-rocket",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-home-smile",
+      "b": "paw-gift-smile",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-home-smile",
+      "b": "paw-link-smile",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-home-link",
+      "b": "paw-gift-link",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-gift-clock",
+      "b": "paw-smile-clock",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-gift-gear",
+      "b": "paw-gift-stats",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-gift-gear",
+      "b": "paw-smile-gear",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-gift-gear",
+      "b": "paw-smile-stats",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-gift-bolt",
+      "b": "paw-smile-bolt",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-gift-bolt",
+      "b": "paw-link-bolt",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-gift-heart",
+      "b": "paw-smile-heart",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-gift-heart",
+      "b": "paw-link-heart",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-gift-alert",
+      "b": "paw-smile-alert",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-gift-alert",
+      "b": "paw-link-alert",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-gift-user",
+      "b": "paw-smile-user",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-gift-user",
+      "b": "paw-link-user",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-gift-cloud",
+      "b": "paw-smile-cloud",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-gift-cloud",
+      "b": "paw-link-cloud",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-gift-chat",
+      "b": "paw-link-chat",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-gift-pencil",
+      "b": "paw-smile-pencil",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-gift-pencil",
+      "b": "paw-link-pencil",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-gift-sparkle",
+      "b": "paw-gift-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-gift-sparkle",
+      "b": "paw-smile-sparkle",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-gift-sparkle",
+      "b": "paw-link-sparkle",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-gift-sparkle",
+      "b": "paw-link-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-gift-trash",
+      "b": "paw-smile-trash",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-gift-trash",
+      "b": "paw-link-trash",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-gift-upload",
+      "b": "paw-smile-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-gift-upload",
+      "b": "paw-link-sparkle",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-gift-upload",
+      "b": "paw-link-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-gift-crown",
+      "b": "paw-smile-crown",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-gift-leaf",
+      "b": "paw-smile-pencil",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-gift-leaf",
+      "b": "paw-smile-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-gift-leaf",
+      "b": "paw-link-pencil",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-gift-leaf",
+      "b": "paw-link-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-gift-trophy",
+      "b": "paw-smile-trophy",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-gift-camera",
+      "b": "paw-smile-camera",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-gift-filter",
+      "b": "paw-smile-filter",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-gift-stats",
+      "b": "paw-smile-stats",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-gift-stats",
+      "b": "paw-link-stats",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-gift-rocket",
+      "b": "paw-smile-rocket",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-gift-rocket",
+      "b": "paw-link-rocket",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-gift-home",
+      "b": "paw-link-home",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-smile-search",
+      "b": "paw-link-search",
+      "distance": 1
+    },
+    {
+      "a": "paw-smile-clock",
+      "b": "paw-link-clock",
+      "distance": 1
+    },
+    {
+      "a": "paw-smile-shield",
+      "b": "paw-link-shield",
+      "distance": 1
+    },
+    {
+      "a": "paw-smile-gear",
+      "b": "paw-link-gear",
+      "distance": 1
+    },
+    {
+      "a": "paw-smile-bolt",
+      "b": "paw-link-bolt",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-smile-heart",
+      "b": "paw-link-heart",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-smile-alert",
+      "b": "paw-link-alert",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-smile-user",
+      "b": "paw-link-user",
+      "distance": 1
+    },
+    {
+      "a": "paw-smile-cloud",
+      "b": "paw-link-cloud",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-smile-chat",
+      "b": "paw-link-chat",
+      "distance": 1
+    },
+    {
+      "a": "paw-smile-download",
+      "b": "paw-link-download",
+      "distance": 1
+    },
+    {
+      "a": "paw-smile-pencil",
+      "b": "paw-smile-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-smile-pencil",
+      "b": "paw-link-pencil",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-smile-pencil",
+      "b": "paw-link-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-smile-sparkle",
+      "b": "paw-smile-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-smile-sparkle",
+      "b": "paw-link-sparkle",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-smile-sparkle",
+      "b": "paw-link-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-smile-trash",
+      "b": "paw-link-trash",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-smile-question",
+      "b": "paw-link-question",
+      "distance": 1
+    },
+    {
+      "a": "paw-smile-upload",
+      "b": "paw-link-sparkle",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-smile-upload",
+      "b": "paw-link-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-smile-crown",
+      "b": "paw-link-crown",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-smile-leaf",
+      "b": "paw-link-pencil",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-smile-leaf",
+      "b": "paw-link-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-smile-trophy",
+      "b": "paw-link-trophy",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-smile-hourglass",
+      "b": "paw-link-hourglass",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-smile-cursor",
+      "b": "paw-link-cursor",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-smile-camera",
+      "b": "paw-link-camera",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-smile-filter",
+      "b": "paw-link-filter",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-smile-stats",
+      "b": "paw-link-stats",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-smile-checkbox",
+      "b": "paw-link-checkbox",
+      "distance": 1
+    },
+    {
+      "a": "paw-smile-rocket",
+      "b": "paw-link-rocket",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-smile-home",
+      "b": "paw-link-home",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-link-pencil",
+      "b": "paw-link-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-link-sparkle",
+      "b": "paw-link-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-drop-search",
+      "b": "fish-rocket-search",
+      "distance": 1
+    },
+    {
+      "a": "fish-drop-search",
+      "b": "fish-gift-search",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-drop-search",
+      "b": "fish-smile-search",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-drop-clock",
+      "b": "fish-rocket-clock",
+      "distance": 1
+    },
+    {
+      "a": "fish-drop-clock",
+      "b": "fish-gift-clock",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-drop-clock",
+      "b": "fish-smile-clock",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-drop-gear",
+      "b": "fish-rocket-gear",
+      "distance": 1
+    },
+    {
+      "a": "fish-drop-gear",
+      "b": "fish-home-gear",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-drop-gear",
+      "b": "fish-gift-gear",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-drop-gear",
+      "b": "fish-smile-gear",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-drop-heart",
+      "b": "fish-home-heart",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-drop-star",
+      "b": "fish-home-star",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-drop-star",
+      "b": "fish-smile-star",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-drop-chat",
+      "b": "fish-rocket-chat",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-drop-chat",
+      "b": "fish-gift-chat",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-drop-download",
+      "b": "fish-rocket-download",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-drop-download",
+      "b": "fish-gift-download",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-drop-pencil",
+      "b": "fish-drop-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-drop-trash",
+      "b": "fish-home-trash",
+      "distance": 1
+    },
+    {
+      "a": "fish-drop-calendar",
+      "b": "fish-rocket-calendar",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-drop-calendar",
+      "b": "fish-gift-calendar",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-drop-question",
+      "b": "fish-rocket-question",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-drop-question",
+      "b": "fish-gift-question",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-drop-bookmark",
+      "b": "fish-rocket-bookmark",
+      "distance": 1
+    },
+    {
+      "a": "fish-drop-bookmark",
+      "b": "fish-home-bookmark",
+      "distance": 1
+    },
+    {
+      "a": "fish-drop-upload",
+      "b": "fish-home-upload",
+      "distance": 1
+    },
+    {
+      "a": "fish-drop-crown",
+      "b": "fish-rocket-crown",
+      "distance": 1
+    },
+    {
+      "a": "fish-drop-hourglass",
+      "b": "fish-rocket-hourglass",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-drop-hourglass",
+      "b": "fish-home-hourglass",
+      "distance": 1
+    },
+    {
+      "a": "fish-drop-hourglass",
+      "b": "fish-gift-hourglass",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-drop-cursor",
+      "b": "fish-home-cursor",
+      "distance": 1
+    },
+    {
+      "a": "fish-drop-cursor",
+      "b": "fish-gift-cursor",
+      "distance": 1
+    },
+    {
+      "a": "fish-drop-camera",
+      "b": "fish-rocket-camera",
+      "distance": 1
+    },
+    {
+      "a": "fish-drop-filter",
+      "b": "fish-home-filter",
+      "distance": 1
+    },
+    {
+      "a": "fish-drop-filter",
+      "b": "fish-gift-filter",
+      "distance": 1
+    },
+    {
+      "a": "fish-drop-checkbox",
+      "b": "fish-rocket-checkbox",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-drop-checkbox",
+      "b": "fish-gift-checkbox",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-drop-smile",
+      "b": "fish-rocket-smile",
+      "distance": 1
+    },
+    {
+      "a": "fish-drop-smile",
+      "b": "fish-gift-smile",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-drop-link",
+      "b": "fish-rocket-link",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-drop-link",
+      "b": "fish-gift-link",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-rocket-clock",
+      "b": "fish-gift-clock",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-rocket-clock",
+      "b": "fish-smile-clock",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-rocket-gear",
+      "b": "fish-home-stats",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-rocket-gear",
+      "b": "fish-gift-gear",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-rocket-gear",
+      "b": "fish-gift-stats",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-rocket-gear",
+      "b": "fish-smile-gear",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-rocket-bolt",
+      "b": "fish-gift-bolt",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-rocket-bolt",
+      "b": "fish-smile-bolt",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-rocket-alert",
+      "b": "fish-gift-alert",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-rocket-alert",
+      "b": "fish-smile-alert",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-rocket-pencil",
+      "b": "fish-rocket-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-rocket-upload",
+      "b": "fish-gift-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-rocket-hourglass",
+      "b": "fish-home-hourglass",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-rocket-hourglass",
+      "b": "fish-gift-hourglass",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-rocket-home",
+      "b": "fish-gift-home",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-rocket-smile",
+      "b": "fish-gift-smile",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-home-search",
+      "b": "fish-gift-search",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-home-clock",
+      "b": "fish-gift-clock",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-home-gear",
+      "b": "fish-gift-gear",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-home-gear",
+      "b": "fish-smile-gear",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-home-bolt",
+      "b": "fish-smile-bolt",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-home-star",
+      "b": "fish-smile-star",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-home-alert",
+      "b": "fish-smile-alert",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-home-chat",
+      "b": "fish-gift-chat",
+      "distance": 1
+    },
+    {
+      "a": "fish-home-download",
+      "b": "fish-gift-download",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-home-pencil",
+      "b": "fish-home-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-home-calendar",
+      "b": "fish-gift-calendar",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-home-question",
+      "b": "fish-gift-question",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-home-hourglass",
+      "b": "fish-gift-hourglass",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-home-cursor",
+      "b": "fish-gift-cursor",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-home-filter",
+      "b": "fish-gift-filter",
+      "distance": 1
+    },
+    {
+      "a": "fish-home-stats",
+      "b": "fish-home-link",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-home-stats",
+      "b": "fish-gift-gear",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-home-checkbox",
+      "b": "fish-gift-checkbox",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-home-smile",
+      "b": "fish-gift-smile",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-home-link",
+      "b": "fish-gift-link",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-gift-clock",
+      "b": "fish-smile-clock",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-gift-gear",
+      "b": "fish-gift-stats",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-gift-gear",
+      "b": "fish-smile-gear",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-gift-bolt",
+      "b": "fish-smile-bolt",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-gift-heart",
+      "b": "fish-smile-heart",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-gift-alert",
+      "b": "fish-smile-alert",
+      "distance": 1.41
+    },
+    {
+      "a": "wax-seal-rocket",
+      "b": "film-reel-rocket",
+      "distance": 1.41
+    },
+    {
+      "a": "wax-seal-home",
+      "b": "token-coin-home",
+      "distance": 1.41
+    },
+    {
+      "a": "wax-seal-gift",
+      "b": "donut-gift",
+      "distance": 1.41
+    },
+    {
+      "a": "wax-seal-gift",
       "b": "hex-nut-gift",
+      "distance": 1
+    },
+    {
+      "a": "wax-seal-gift",
+      "b": "lifebuoy-gift",
       "distance": 1.41
     },
     {
-      "a": "beehive-smile",
+      "a": "wax-seal-smile",
+      "b": "token-coin-smile",
+      "distance": 1.41
+    },
+    {
+      "a": "wax-seal-smile",
       "b": "hex-nut-smile",
-      "distance": 1.41
-    },
-    {
-      "a": "igloo-pricing",
-      "b": "igloo-link",
-      "distance": 1.41
-    },
-    {
-      "a": "igloo-rocket",
-      "b": "protractor-rocket",
-      "distance": 1.41
-    },
-    {
-      "a": "igloo-home",
-      "b": "protractor-home",
-      "distance": 1.41
-    },
-    {
-      "a": "igloo-gift",
-      "b": "protractor-gift",
-      "distance": 1.41
-    },
-    {
-      "a": "igloo-smile",
-      "b": "protractor-smile",
-      "distance": 1.41
-    },
-    {
-      "a": "wedding-dress-rocket",
-      "b": "dress-rocket",
-      "distance": 1.41
-    },
-    {
-      "a": "wedding-dress-home",
-      "b": "dress-home",
-      "distance": 1.41
-    },
-    {
-      "a": "wedding-dress-gift",
-      "b": "dress-gift",
-      "distance": 1.41
-    },
-    {
-      "a": "wedding-dress-smile",
-      "b": "dress-smile",
-      "distance": 1.41
-    },
-    {
-      "a": "wedding-dress-link",
-      "b": "dress-link",
-      "distance": 1.41
-    },
-    {
-      "a": "basket-full-pricing",
-      "b": "basket-full-link",
-      "distance": 1.41
-    },
-    {
-      "a": "video-call-stats",
-      "b": "video-call-link",
-      "distance": 1.41
-    },
-    {
-      "a": "layout-grid-pricing",
-      "b": "layout-grid-link",
-      "distance": 1.41
-    },
-    {
-      "a": "bezier-pricing",
-      "b": "bezier-link",
-      "distance": 1.41
-    },
-    {
-      "a": "fuse-box-pricing",
-      "b": "fuse-box-link",
-      "distance": 1.41
-    },
-    {
-      "a": "bowler-hat-stats",
-      "b": "bowler-hat-link",
-      "distance": 1.41
-    },
-    {
-      "a": "bowtie-rocket",
-      "b": "infinity-rocket",
-      "distance": 1.41
-    },
-    {
-      "a": "bowtie-home",
-      "b": "infinity-home",
-      "distance": 1.41
-    },
-    {
-      "a": "bowtie-gift",
-      "b": "infinity-gift",
-      "distance": 1.41
-    },
-    {
-      "a": "bowtie-smile",
-      "b": "infinity-smile",
-      "distance": 1.41
-    },
-    {
-      "a": "bowtie-link",
-      "b": "infinity-link",
-      "distance": 1.41
-    },
-    {
-      "a": "trousers-rocket",
-      "b": "jeans-rocket",
       "distance": 1
     },
     {
-      "a": "trousers-home",
-      "b": "jeans-home",
-      "distance": 1
-    },
-    {
-      "a": "trousers-gift",
-      "b": "jeans-gift",
-      "distance": 1
-    },
-    {
-      "a": "trousers-smile",
-      "b": "jeans-smile",
-      "distance": 1
-    },
-    {
-      "a": "trousers-link",
-      "b": "jeans-link",
-      "distance": 1
-    },
-    {
-      "a": "macaron-pricing",
-      "b": "macaron-link",
+      "a": "wax-seal-link",
+      "b": "token-coin-link",
       "distance": 1.41
     },
     {
-      "a": "macaron-pricing",
-      "b": "thermostat-link",
+      "a": "wax-seal-link",
+      "b": "film-reel-link",
       "distance": 1.41
     },
     {
-      "a": "espresso-stats",
-      "b": "espresso-link",
+      "a": "wax-seal-link",
+      "b": "lifebuoy-link",
       "distance": 1.41
     },
     {
-      "a": "bundt-cake-stats",
-      "b": "bundt-cake-link",
+      "a": "lip-balm-rocket",
+      "b": "glue-stick-rocket",
       "distance": 1.41
     },
     {
-      "a": "glass-rocket",
-      "b": "potato-chips-rocket",
+      "a": "lip-balm-home",
+      "b": "glue-stick-home",
       "distance": 1.41
     },
     {
-      "a": "glass-home",
-      "b": "potato-chips-home",
+      "a": "lip-balm-gift",
+      "b": "glue-stick-gift",
       "distance": 1.41
     },
     {
-      "a": "glass-gift",
-      "b": "potato-chips-gift",
+      "a": "lip-balm-smile",
+      "b": "glue-stick-smile",
       "distance": 1.41
     },
     {
-      "a": "glass-smile",
-      "b": "potato-chips-smile",
+      "a": "lip-balm-link",
+      "b": "glue-stick-link",
       "distance": 1.41
     },
     {
-      "a": "glass-link",
-      "b": "potato-chips-link",
+      "a": "cereal-box-rocket",
+      "b": "pill-bottle-rocket",
       "distance": 1.41
     },
     {
-      "a": "macaron-rocket",
-      "b": "thermostat-rocket",
+      "a": "cereal-box-home",
+      "b": "pill-bottle-home",
       "distance": 1.41
     },
     {
-      "a": "macaron-home",
-      "b": "thermostat-home",
+      "a": "cereal-box-gift",
+      "b": "pill-bottle-gift",
       "distance": 1.41
     },
     {
-      "a": "macaron-gift",
-      "b": "thermostat-gift",
+      "a": "cereal-box-smile",
+      "b": "pill-bottle-smile",
       "distance": 1.41
     },
     {
-      "a": "macaron-smile",
-      "b": "thermostat-smile",
+      "a": "cereal-box-link",
+      "b": "pill-bottle-link",
       "distance": 1.41
     },
     {
-      "a": "macaron-link",
-      "b": "thermostat-link",
+      "a": "artichoke-rocket",
+      "b": "pinecone-rocket",
       "distance": 1.41
     },
     {
-      "a": "cinnamon-roll-rocket",
-      "b": "fossil-rocket",
-      "distance": 0
-    },
-    {
-      "a": "cinnamon-roll-home",
-      "b": "fossil-home",
-      "distance": 0
-    },
-    {
-      "a": "cinnamon-roll-gift",
-      "b": "fossil-gift",
-      "distance": 0
-    },
-    {
-      "a": "cinnamon-roll-smile",
-      "b": "fossil-smile",
-      "distance": 0
-    },
-    {
-      "a": "cinnamon-roll-link",
-      "b": "fossil-link",
-      "distance": 0
-    },
-    {
-      "a": "handheld-console-pricing",
-      "b": "handheld-console-link",
+      "a": "artichoke-home",
+      "b": "pinecone-home",
       "distance": 1.41
     },
     {
-      "a": "glasses-home",
-      "b": "infinity-home",
+      "a": "artichoke-gift",
+      "b": "pinecone-gift",
       "distance": 1.41
     },
     {
-      "a": "glasses-link",
-      "b": "infinity-link",
+      "a": "artichoke-smile",
+      "b": "pinecone-smile",
       "distance": 1.41
     },
     {
-      "a": "pill-bottle-rocket",
-      "b": "seed-packet-rocket",
+      "a": "artichoke-link",
+      "b": "pinecone-link",
       "distance": 1.41
     },
     {
-      "a": "pill-bottle-home",
-      "b": "seed-packet-home",
-      "distance": 1.41
-    },
-    {
-      "a": "pill-bottle-gift",
-      "b": "seed-packet-gift",
-      "distance": 1.41
-    },
-    {
-      "a": "pill-bottle-smile",
-      "b": "seed-packet-smile",
-      "distance": 1.41
-    },
-    {
-      "a": "pill-bottle-link",
-      "b": "seed-packet-link",
-      "distance": 1.41
-    },
-    {
-      "a": "floor-lamp-rocket",
-      "b": "lamp-rocket",
-      "distance": 1.41
-    },
-    {
-      "a": "floor-lamp-home",
-      "b": "lamp-home",
-      "distance": 1.41
-    },
-    {
-      "a": "floor-lamp-gift",
-      "b": "lamp-gift",
-      "distance": 1.41
-    },
-    {
-      "a": "floor-lamp-smile",
-      "b": "lamp-smile",
-      "distance": 1.41
-    },
-    {
-      "a": "floor-lamp-link",
-      "b": "lamp-link",
-      "distance": 1.41
-    },
-    {
-      "a": "shower-head-link",
-      "b": "shower-head-pricing",
-      "distance": 1.41
-    },
-    {
-      "a": "picket-fence-link",
-      "b": "picket-fence-pricing",
-      "distance": 1.41
-    },
-    {
-      "a": "hat-stand-rocket",
-      "b": "coat-rack-rocket",
-      "distance": 1.41
-    },
-    {
-      "a": "hat-stand-home",
-      "b": "coat-rack-home",
-      "distance": 1.41
-    },
-    {
-      "a": "hat-stand-gift",
-      "b": "coat-rack-gift",
-      "distance": 1.41
-    },
-    {
-      "a": "hat-stand-smile",
-      "b": "coat-rack-smile",
-      "distance": 1.41
-    },
-    {
-      "a": "hat-stand-link",
-      "b": "coat-rack-link",
-      "distance": 1.41
-    },
-    {
-      "a": "camera-action-stats",
-      "b": "camera-action-link",
-      "distance": 1.41
-    },
-    {
-      "a": "film-reel-home",
-      "b": "hex-nut-home",
-      "distance": 1.41
-    },
-    {
-      "a": "film-reel-gift",
-      "b": "hex-nut-gift",
-      "distance": 1.41
-    },
-    {
-      "a": "film-reel-smile",
-      "b": "hex-nut-smile",
-      "distance": 1.41
-    },
-    {
-      "a": "harmonica-rocket",
+      "a": "wafer-rocket",
       "b": "spirit-level-rocket",
       "distance": 1
     },
     {
-      "a": "harmonica-home",
+      "a": "wafer-home",
       "b": "spirit-level-home",
-      "distance": 1
+      "distance": 1.41
     },
     {
-      "a": "harmonica-gift",
-      "b": "spirit-level-gift",
-      "distance": 1
-    },
-    {
-      "a": "harmonica-smile",
+      "a": "wafer-smile",
       "b": "spirit-level-smile",
       "distance": 1
     },
     {
-      "a": "harmonica-link",
+      "a": "wafer-link",
       "b": "spirit-level-link",
       "distance": 1
     },
     {
-      "a": "community-stats",
-      "b": "community-link",
+      "a": "pool-table-stats",
+      "b": "pool-table-link",
       "distance": 1.41
     },
     {
-      "a": "person-walking-pricing",
-      "b": "person-walking-link",
+      "a": "side-table-rocket",
+      "b": "birdbath-rocket",
       "distance": 1.41
     },
     {
-      "a": "test-tubes-pricing",
-      "b": "test-tubes-link",
+      "a": "side-table-home",
+      "b": "birdbath-home",
       "distance": 1.41
     },
     {
-      "a": "typography-pricing",
-      "b": "typography-link",
+      "a": "side-table-gift",
+      "b": "birdbath-gift",
       "distance": 1.41
     },
     {
-      "a": "bulldozer-stats",
-      "b": "bulldozer-link",
+      "a": "side-table-smile",
+      "b": "birdbath-smile",
       "distance": 1.41
     },
     {
-      "a": "ship-rocket",
-      "b": "raft-rocket",
+      "a": "side-table-link",
+      "b": "birdbath-link",
       "distance": 1.41
     },
     {
-      "a": "ship-home",
-      "b": "raft-home",
+      "a": "propane-tank-rocket",
+      "b": "water-canteen-rocket",
       "distance": 1.41
     },
     {
-      "a": "ship-gift",
-      "b": "raft-gift",
+      "a": "propane-tank-home",
+      "b": "water-canteen-home",
       "distance": 1.41
     },
     {
-      "a": "ship-smile",
-      "b": "raft-smile",
+      "a": "propane-tank-gift",
+      "b": "water-canteen-gift",
       "distance": 1.41
     },
     {
-      "a": "ship-link",
-      "b": "raft-link",
+      "a": "propane-tank-smile",
+      "b": "water-canteen-smile",
       "distance": 1.41
     },
     {
-      "a": "thunderstorm-pricing",
-      "b": "thunderstorm-link",
+      "a": "propane-tank-link",
+      "b": "water-canteen-link",
       "distance": 1.41
     },
     {
-      "a": "doghouse-drop",
-      "b": "tunnel-drop",
+      "a": "log-raft-stats",
+      "b": "log-raft-link",
       "distance": 1.41
     },
     {
-      "a": "igloo-drop",
-      "b": "protractor-drop",
+      "a": "handcar-stats",
+      "b": "handcar-link",
       "distance": 1.41
     },
     {
-      "a": "wedding-dress-drop",
-      "b": "dress-drop",
+      "a": "paw-drop-bell",
+      "b": "paw-rocket-bell",
+      "distance": 1
+    },
+    {
+      "a": "paw-drop-bell",
+      "b": "paw-home-bell",
       "distance": 1.41
     },
     {
-      "a": "bowtie-drop",
-      "b": "infinity-drop",
+      "a": "paw-drop-bell",
+      "b": "paw-gift-bell",
       "distance": 1.41
     },
     {
-      "a": "glass-drop",
-      "b": "potato-chips-drop",
+      "a": "paw-drop-bell",
+      "b": "paw-smile-bell",
       "distance": 1.41
     },
     {
-      "a": "cinnamon-roll-drop",
-      "b": "fossil-drop",
-      "distance": 0
-    },
-    {
-      "a": "glasses-drop",
-      "b": "infinity-drop",
+      "a": "paw-drop-bell",
+      "b": "paw-link-bell",
       "distance": 1.41
     },
     {
-      "a": "floor-lamp-drop",
-      "b": "lamp-drop",
+      "a": "paw-drop-moon",
+      "b": "paw-home-moon",
       "distance": 1.41
     },
     {
-      "a": "hat-stand-drop",
-      "b": "coat-rack-drop",
+      "a": "paw-drop-moon",
+      "b": "paw-gift-moon",
       "distance": 1.41
     },
     {
-      "a": "harmonica-drop",
+      "a": "paw-drop-moon",
+      "b": "paw-smile-moon",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-drop-moon",
+      "b": "paw-link-moon",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-rocket-bell",
+      "b": "paw-gift-bell",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-rocket-bell",
+      "b": "paw-smile-bell",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-rocket-bell",
+      "b": "paw-link-bell",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-rocket-drop",
+      "b": "paw-gift-drop",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-rocket-drop",
+      "b": "paw-smile-drop",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-rocket-drop",
+      "b": "paw-link-drop",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-home-moon",
+      "b": "paw-gift-moon",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-home-moon",
+      "b": "paw-smile-moon",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-home-moon",
+      "b": "paw-link-moon",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-home-drop",
+      "b": "paw-smile-drop",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-gift-bell",
+      "b": "paw-smile-bell",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-gift-bell",
+      "b": "paw-link-bell",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-gift-moon",
+      "b": "paw-smile-moon",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-gift-drop",
+      "b": "paw-smile-drop",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-gift-drop",
+      "b": "paw-link-drop",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-smile-bell",
+      "b": "paw-link-bell",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-smile-moon",
+      "b": "paw-link-moon",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-smile-drop",
+      "b": "paw-link-drop",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-drop-bell",
+      "b": "fish-rocket-bell",
+      "distance": 1
+    },
+    {
+      "a": "fish-drop-bell",
+      "b": "fish-home-bell",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-drop-bell",
+      "b": "fish-gift-bell",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-drop-bell",
+      "b": "fish-smile-bell",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-drop-moon",
+      "b": "fish-home-moon",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-drop-moon",
+      "b": "fish-gift-moon",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-drop-trophy",
+      "b": "fish-rocket-trophy",
+      "distance": 1
+    },
+    {
+      "a": "fish-drop-trophy",
+      "b": "fish-home-trophy",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-drop-trophy",
+      "b": "fish-gift-trophy",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-rocket-bell",
+      "b": "fish-gift-bell",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-rocket-bell",
+      "b": "fish-smile-bell",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-rocket-trophy",
+      "b": "fish-gift-trophy",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-rocket-drop",
+      "b": "fish-gift-drop",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-home-moon",
+      "b": "fish-gift-moon",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-home-trophy",
+      "b": "fish-gift-trophy",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-gift-bell",
+      "b": "fish-smile-bell",
+      "distance": 1.41
+    },
+    {
+      "a": "lip-balm-drop",
+      "b": "glue-stick-drop",
+      "distance": 1.41
+    },
+    {
+      "a": "artichoke-drop",
+      "b": "pinecone-drop",
+      "distance": 1.41
+    },
+    {
+      "a": "wafer-drop",
       "b": "spirit-level-drop",
       "distance": 1
     },
     {
-      "a": "ship-drop",
-      "b": "raft-drop",
+      "a": "side-table-drop",
+      "b": "birdbath-drop",
       "distance": 1.41
     },
     {
-      "a": "trousers-drop",
-      "b": "jeans-drop",
+      "a": "paw-drop-fire",
+      "b": "paw-home-fire",
       "distance": 1
     },
     {
-      "a": "macaron-drop",
-      "b": "thermostat-drop",
+      "a": "paw-drop-fire",
+      "b": "paw-smile-fire",
       "distance": 1.41
     },
     {
-      "a": "pill-bottle-drop",
-      "b": "seed-packet-drop",
+      "a": "paw-rocket-fire",
+      "b": "paw-gift-fire",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-rocket-fire",
+      "b": "paw-smile-fire",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-rocket-fire",
+      "b": "paw-link-fire",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-gift-fire",
+      "b": "paw-smile-fire",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-gift-fire",
+      "b": "paw-link-fire",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-drop-fire",
+      "b": "fish-home-fire",
+      "distance": 1
+    },
+    {
+      "a": "fish-rocket-fire",
+      "b": "fish-gift-fire",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-drop-pin",
+      "b": "paw-rocket-pin",
+      "distance": 1
+    },
+    {
+      "a": "paw-drop-pin",
+      "b": "paw-home-pin",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-drop-pin",
+      "b": "paw-gift-pin",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-drop-pin",
+      "b": "paw-smile-pin",
+      "distance": 1
+    },
+    {
+      "a": "paw-drop-pin",
+      "b": "paw-link-pin",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-drop-sparkle",
+      "b": "paw-drop-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-drop-flag",
+      "b": "paw-rocket-flag",
+      "distance": 1
+    },
+    {
+      "a": "paw-drop-flag",
+      "b": "paw-home-flag",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-drop-flag",
+      "b": "paw-gift-flag",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-rocket-pin",
+      "b": "paw-gift-pin",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-rocket-pin",
+      "b": "paw-smile-pin",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-rocket-pin",
+      "b": "paw-link-pin",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-rocket-sparkle",
+      "b": "paw-rocket-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-rocket-sparkle",
+      "b": "paw-gift-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-rocket-sparkle",
+      "b": "paw-smile-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-rocket-sparkle",
+      "b": "paw-link-sparkle",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-rocket-sparkle",
+      "b": "paw-link-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-rocket-flag",
+      "b": "paw-gift-flag",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-gift-pin",
+      "b": "paw-smile-pin",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-gift-pin",
+      "b": "paw-link-pin",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-smile-pin",
+      "b": "paw-link-pin",
+      "distance": 1.41
+    },
+    {
+      "a": "paw-smile-flag",
+      "b": "paw-link-flag",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-drop-shield",
+      "b": "fish-smile-shield",
+      "distance": 1
+    },
+    {
+      "a": "fish-drop-pin",
+      "b": "fish-rocket-pin",
+      "distance": 1
+    },
+    {
+      "a": "fish-drop-pin",
+      "b": "fish-home-pin",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-drop-pin",
+      "b": "fish-gift-pin",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-drop-pin",
+      "b": "fish-smile-pin",
+      "distance": 1
+    },
+    {
+      "a": "fish-drop-sparkle",
+      "b": "fish-drop-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-drop-flag",
+      "b": "fish-rocket-flag",
+      "distance": 1
+    },
+    {
+      "a": "fish-drop-flag",
+      "b": "fish-home-flag",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-drop-flag",
+      "b": "fish-gift-flag",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-rocket-pin",
+      "b": "fish-gift-pin",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-rocket-pin",
+      "b": "fish-smile-pin",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-rocket-user",
+      "b": "fish-gift-user",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-rocket-user",
+      "b": "fish-smile-user",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-rocket-sparkle",
+      "b": "fish-rocket-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-rocket-sparkle",
+      "b": "fish-gift-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-rocket-flag",
+      "b": "fish-gift-flag",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-home-shield",
+      "b": "fish-gift-shield",
+      "distance": 1
+    },
+    {
+      "a": "fish-home-user",
+      "b": "fish-smile-user",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-gift-pin",
+      "b": "fish-smile-pin",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-gift-user",
+      "b": "fish-smile-user",
+      "distance": 1.41
+    },
+    {
+      "a": "fish-gift-sparkle",
+      "b": "fish-gift-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "wax-seal-drop",
+      "b": "film-reel-drop",
+      "distance": 1.41
+    },
+    {
+      "a": "cereal-box-drop",
+      "b": "pill-bottle-drop",
       "distance": 1.41
     }
   ],
   "dropped": [
-    "cursor-click-drop",
-    "cursor-click-rocket",
-    "cursor-click-home",
-    "cursor-click-gift",
-    "cursor-click-smile",
-    "cursor-click-link",
-    "speaking-head-drop",
-    "speaking-head-rocket",
-    "speaking-head-home",
-    "speaking-head-gift",
-    "speaking-head-smile",
-    "speaking-head-link",
-    "moon-stars-drop",
-    "moon-stars-rocket",
-    "moon-stars-home",
-    "moon-stars-gift",
-    "moon-stars-smile",
-    "moon-stars-link",
-    "tunnel-rocket",
-    "tunnel-gift",
-    "tunnel-smile",
-    "tunnel-link",
-    "beehive-home",
-    "beehive-gift",
-    "beehive-smile",
-    "igloo-link",
-    "igloo-rocket",
-    "igloo-home",
-    "igloo-gift",
-    "igloo-smile",
-    "wedding-dress-rocket",
-    "wedding-dress-home",
-    "wedding-dress-gift",
-    "wedding-dress-smile",
-    "wedding-dress-link",
-    "basket-full-link",
-    "video-call-link",
-    "layout-grid-link",
-    "bezier-link",
-    "fuse-box-link",
-    "bowler-hat-link",
-    "infinity-rocket",
-    "infinity-home",
-    "infinity-gift",
-    "infinity-smile",
-    "infinity-link",
-    "jeans-rocket",
-    "jeans-home",
-    "jeans-gift",
-    "jeans-smile",
-    "jeans-link",
-    "macaron-link",
-    "thermostat-link",
-    "espresso-link",
-    "bundt-cake-link",
-    "potato-chips-rocket",
-    "potato-chips-home",
-    "potato-chips-gift",
-    "potato-chips-smile",
-    "potato-chips-link",
-    "thermostat-rocket",
-    "thermostat-home",
-    "thermostat-gift",
-    "thermostat-smile",
-    "cinnamon-roll-rocket",
-    "cinnamon-roll-home",
-    "cinnamon-roll-gift",
-    "cinnamon-roll-smile",
-    "cinnamon-roll-link",
-    "handheld-console-link",
-    "seed-packet-rocket",
-    "seed-packet-home",
-    "seed-packet-gift",
-    "seed-packet-smile",
-    "seed-packet-link",
-    "floor-lamp-rocket",
-    "floor-lamp-home",
-    "floor-lamp-gift",
-    "floor-lamp-smile",
-    "floor-lamp-link",
-    "shower-head-link",
-    "picket-fence-link",
-    "hat-stand-rocket",
-    "hat-stand-home",
-    "hat-stand-gift",
-    "hat-stand-smile",
-    "hat-stand-link",
-    "camera-action-link",
-    "film-reel-home",
-    "film-reel-gift",
-    "film-reel-smile",
-    "harmonica-rocket",
-    "harmonica-home",
-    "harmonica-gift",
-    "harmonica-smile",
-    "harmonica-link",
-    "community-link",
-    "person-walking-link",
-    "test-tubes-link",
-    "typography-link",
-    "bulldozer-link",
-    "raft-rocket",
-    "raft-home",
-    "raft-gift",
-    "raft-smile",
-    "raft-link",
-    "thunderstorm-link",
-    "tunnel-drop",
-    "igloo-drop",
-    "wedding-dress-drop",
-    "infinity-drop",
-    "potato-chips-drop",
-    "cinnamon-roll-drop",
-    "floor-lamp-drop",
-    "hat-stand-drop",
-    "harmonica-drop",
-    "raft-drop",
-    "jeans-drop",
-    "thermostat-drop",
-    "seed-packet-drop"
+    "insulin-pen-gift",
+    "goldfish-link",
+    "clam-link",
+    "paw-rocket-search",
+    "paw-gift-search",
+    "paw-smile-search",
+    "paw-rocket-clock",
+    "paw-gift-clock",
+    "paw-smile-clock",
+    "paw-link-clock",
+    "paw-smile-shield",
+    "paw-link-shield",
+    "paw-rocket-gear",
+    "paw-home-gear",
+    "paw-gift-gear",
+    "paw-smile-gear",
+    "paw-link-gear",
+    "paw-home-heart",
+    "paw-home-star",
+    "paw-smile-star",
+    "paw-rocket-chat",
+    "paw-gift-chat",
+    "paw-smile-chat",
+    "paw-rocket-download",
+    "paw-gift-download",
+    "paw-smile-download",
+    "paw-drop-leaf",
+    "paw-home-trash",
+    "paw-smile-trash",
+    "paw-rocket-calendar",
+    "paw-gift-calendar",
+    "paw-smile-calendar",
+    "paw-rocket-question",
+    "paw-gift-question",
+    "paw-smile-question",
+    "paw-rocket-bookmark",
+    "paw-home-bookmark",
+    "paw-smile-bookmark",
+    "paw-home-upload",
+    "paw-smile-upload",
+    "paw-rocket-crown",
+    "paw-smile-crown",
+    "paw-rocket-trophy",
+    "paw-home-trophy",
+    "paw-gift-trophy",
+    "paw-smile-trophy",
+    "paw-rocket-hourglass",
+    "paw-home-hourglass",
+    "paw-gift-hourglass",
+    "paw-smile-hourglass",
+    "paw-home-cursor",
+    "paw-gift-cursor",
+    "paw-rocket-camera",
+    "paw-smile-camera",
+    "paw-link-camera",
+    "paw-home-filter",
+    "paw-gift-filter",
+    "paw-rocket-checkbox",
+    "paw-gift-checkbox",
+    "paw-smile-checkbox",
+    "paw-smile-gift",
+    "paw-rocket-smile",
+    "paw-gift-smile",
+    "paw-link-smile",
+    "paw-rocket-link",
+    "paw-gift-link",
+    "paw-smile-link",
+    "paw-gift-bolt",
+    "paw-smile-bolt",
+    "paw-link-bolt",
+    "paw-gift-alert",
+    "paw-smile-alert",
+    "paw-link-alert",
+    "paw-gift-user",
+    "paw-smile-user",
+    "paw-link-user",
+    "paw-rocket-leaf",
+    "paw-gift-upload",
+    "paw-link-sparkle",
+    "paw-gift-home",
+    "paw-smile-home",
+    "paw-home-leaf",
+    "paw-smile-pencil",
+    "paw-smile-leaf",
+    "paw-smile-sparkle",
+    "paw-home-link",
+    "paw-smile-stats",
+    "paw-smile-rocket",
+    "paw-smile-heart",
+    "paw-link-heart",
+    "paw-smile-cloud",
+    "paw-link-cloud",
+    "paw-link-pencil",
+    "paw-link-upload",
+    "paw-link-trash",
+    "paw-link-leaf",
+    "paw-link-stats",
+    "paw-link-rocket",
+    "paw-link-cursor",
+    "paw-link-filter",
+    "fish-rocket-search",
+    "fish-gift-search",
+    "fish-smile-search",
+    "fish-rocket-clock",
+    "fish-gift-clock",
+    "fish-smile-clock",
+    "fish-rocket-gear",
+    "fish-home-gear",
+    "fish-gift-gear",
+    "fish-smile-gear",
+    "fish-home-heart",
+    "fish-home-star",
+    "fish-smile-star",
+    "fish-rocket-chat",
+    "fish-gift-chat",
+    "fish-rocket-download",
+    "fish-gift-download",
+    "fish-drop-leaf",
+    "fish-home-trash",
+    "fish-rocket-calendar",
+    "fish-gift-calendar",
+    "fish-rocket-question",
+    "fish-gift-question",
+    "fish-rocket-bookmark",
+    "fish-home-bookmark",
+    "fish-home-upload",
+    "fish-rocket-crown",
+    "fish-rocket-hourglass",
+    "fish-home-hourglass",
+    "fish-gift-hourglass",
+    "fish-home-cursor",
+    "fish-gift-cursor",
+    "fish-rocket-camera",
+    "fish-home-filter",
+    "fish-gift-filter",
+    "fish-rocket-checkbox",
+    "fish-gift-checkbox",
+    "fish-rocket-smile",
+    "fish-gift-smile",
+    "fish-rocket-link",
+    "fish-gift-link",
+    "fish-gift-bolt",
+    "fish-smile-bolt",
+    "fish-gift-alert",
+    "fish-smile-alert",
+    "fish-rocket-leaf",
+    "fish-gift-upload",
+    "fish-gift-home",
+    "fish-home-leaf",
+    "fish-home-link",
+    "fish-smile-heart",
+    "wax-seal-rocket",
+    "wax-seal-home",
+    "wax-seal-gift",
+    "wax-seal-smile",
+    "wax-seal-link",
+    "lip-balm-rocket",
+    "lip-balm-home",
+    "lip-balm-gift",
+    "lip-balm-smile",
+    "lip-balm-link",
+    "cereal-box-rocket",
+    "cereal-box-home",
+    "cereal-box-gift",
+    "cereal-box-smile",
+    "cereal-box-link",
+    "artichoke-rocket",
+    "artichoke-home",
+    "artichoke-gift",
+    "artichoke-smile",
+    "artichoke-link",
+    "wafer-rocket",
+    "wafer-home",
+    "wafer-smile",
+    "wafer-link",
+    "pool-table-link",
+    "side-table-rocket",
+    "side-table-home",
+    "side-table-gift",
+    "side-table-smile",
+    "side-table-link",
+    "propane-tank-rocket",
+    "propane-tank-home",
+    "propane-tank-gift",
+    "propane-tank-smile",
+    "propane-tank-link",
+    "log-raft-link",
+    "handcar-link",
+    "paw-rocket-bell",
+    "paw-home-bell",
+    "paw-gift-bell",
+    "paw-smile-bell",
+    "paw-link-bell",
+    "paw-home-moon",
+    "paw-gift-moon",
+    "paw-smile-moon",
+    "paw-link-moon",
+    "paw-gift-drop",
+    "paw-smile-drop",
+    "paw-link-drop",
+    "fish-rocket-bell",
+    "fish-home-bell",
+    "fish-gift-bell",
+    "fish-smile-bell",
+    "fish-home-moon",
+    "fish-gift-moon",
+    "fish-rocket-trophy",
+    "fish-home-trophy",
+    "fish-gift-trophy",
+    "fish-gift-drop",
+    "lip-balm-drop",
+    "artichoke-drop",
+    "wafer-drop",
+    "side-table-drop",
+    "paw-home-fire",
+    "paw-smile-fire",
+    "paw-gift-fire",
+    "paw-link-fire",
+    "fish-home-fire",
+    "fish-gift-fire",
+    "paw-rocket-pin",
+    "paw-home-pin",
+    "paw-gift-pin",
+    "paw-smile-pin",
+    "paw-link-pin",
+    "paw-drop-upload",
+    "paw-rocket-flag",
+    "paw-home-flag",
+    "paw-gift-flag",
+    "paw-rocket-upload",
+    "paw-link-flag",
+    "fish-smile-shield",
+    "fish-rocket-pin",
+    "fish-home-pin",
+    "fish-gift-pin",
+    "fish-smile-pin",
+    "fish-drop-upload",
+    "fish-rocket-flag",
+    "fish-home-flag",
+    "fish-gift-flag",
+    "fish-gift-user",
+    "fish-smile-user",
+    "fish-rocket-upload",
+    "fish-gift-shield",
+    "wax-seal-drop",
+    "cereal-box-drop"
   ],
   "byCategory": {
     "accessibility": 80,
     "actions": 69,
     "ai": 653,
-    "animals": 2732,
+    "animals": 3095,
     "arrows": 188,
-    "buildings": 2519,
-    "business": 2064,
-    "celebration": 1964,
+    "buildings": 2631,
+    "business": 2070,
+    "celebration": 1967,
     "commerce": 1323,
     "communication": 1703,
     "data": 1663,
-    "design": 1169,
+    "design": 1168,
     "development": 734,
     "devices": 2256,
     "education": 1535,
-    "emoji": 79,
-    "energy": 1115,
-    "fashion": 2674,
+    "emoji": 78,
+    "energy": 1133,
+    "fashion": 2715,
     "files": 651,
     "finance": 1794,
-    "food": 7111,
-    "gaming": 2573,
-    "health": 2465,
-    "home": 5494,
+    "food": 7219,
+    "gaming": 2601,
+    "health": 2494,
+    "home": 5655,
     "interface": 1572,
-    "logistics": 1126,
+    "logistics": 1132,
     "maps": 695,
-    "media": 2720,
-    "nature": 2708,
+    "media": 2774,
+    "nature": 2731,
     "navigation": 63,
     "notifications": 184,
     "people": 1256,
-    "science": 1521,
-    "security": 978,
+    "science": 1527,
+    "security": 990,
     "social": 518,
-    "sports": 3085,
+    "sports": 3127,
     "text": 420,
     "time": 652,
-    "tools": 2626,
-    "transport": 3553,
-    "travel": 2296,
-    "weather": 1596
+    "tools": 2686,
+    "transport": 3701,
+    "travel": 2320,
+    "weather": 1602
   }
 }
