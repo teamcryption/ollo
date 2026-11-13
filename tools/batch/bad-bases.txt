@@ -858,3 +858,13 @@ door-latch
 muffler
 sander
 knee-pad
+potato-masher
+highchair
+spinning-wheel
+bellows
+winch
+matchbox
+bobsled
+billiards
+ottoman
+hovercraft
