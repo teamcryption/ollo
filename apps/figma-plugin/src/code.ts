@@ -56,6 +56,7 @@ async function insert(msg: InsertMsg) {
     const frame = figma.createNodeFromSvg(msg.svgs[s]);
     frame.resize(msg.size, msg.size);
     const comp = figma.createComponentFromNode(frame);
+    comp.fills = []; // createNodeFromSvg leaves a hidden white fill; keep icons transparent
     comp.name = `Style=${STYLE_LABEL[s]}`;
     comp.description = `${msg.title} icon, ${STYLE_LABEL[s]} style. ollo icon library.`;
     for (const v of comp.findAll((n) => n.type === 'VECTOR')) v.name = msg.name;
