@@ -1,648 +1,1983 @@
 {
-  "generatedAt": "2026-11-13T04:40:14.820Z",
-  "icons": 57323,
-  "files": 286615,
+  "generatedAt": "2026-11-13T04:53:03.323Z",
+  "icons": 60015,
+  "files": 300075,
   "errors": [],
-  "warnings": [],
+  "warnings": [
+    "aquarium-camera: grid: outside the 3-21 live area (3.00, 5.00, 22.00, 20.50)",
+    "dog-tag-camera: grid: outside the 3-21 live area (5.50, 3.50, 22.00, 20.50)",
+    "lobster-camera: grid: outside the 3-21 live area (4.00, 5.00, 22.00, 20.50)",
+    "punch-card-camera: grid: outside the 3-21 live area (4.00, 4.00, 22.00, 20.50)",
+    "rubber-stamp-camera: grid: outside the 3-21 live area (4.00, 4.00, 22.00, 20.50)",
+    "dreidel-camera: grid: outside the 3-21 live area (6.00, 3.50, 22.00, 20.50)",
+    "gift-bag-camera: grid: outside the 3-21 live area (3.50, 3.50, 22.00, 20.50)",
+    "wedding-dress-camera: grid: outside the 3-21 live area (3.50, 3.50, 22.00, 20.50)",
+    "origami-camera: grid: outside the 3-21 live area (3.24, 6.22, 22.00, 20.50)",
+    "chalk-camera: grid: outside the 3-21 live area (4.28, 6.28, 22.00, 20.50)",
+    "pencil-sharpener-camera: grid: outside the 3-21 live area (4.00, 8.00, 22.00, 20.50)",
+    "beret-camera: grid: outside the 3-21 live area (3.50, 5.00, 22.00, 20.50)",
+    "buckle-camera: grid: outside the 3-21 live area (3.50, 6.00, 22.00, 20.50)",
+    "ear-muffs-camera: grid: outside the 3-21 live area (3.00, 6.00, 22.00, 20.50)",
+    "hand-fan-camera: grid: outside the 3-21 live area (3.50, 7.02, 22.00, 20.50)",
+    "hair-clip-camera: grid: outside the 3-21 live area (3.50, 8.00, 22.00, 20.50)",
+    "kimono-camera: grid: outside the 3-21 live area (3.00, 4.00, 22.00, 20.50)",
+    "monocle-camera: grid: outside the 3-21 live area (3.50, 4.50, 22.00, 20.50)",
+    "robe-camera: grid: outside the 3-21 live area (4.00, 4.00, 22.00, 20.50)",
+    "slipper-camera: grid: outside the 3-21 live area (3.00, 8.00, 22.00, 20.50)",
+    "sombrero-camera: grid: outside the 3-21 live area (2.80, 5.00, 22.00, 20.50)",
+    "visor-camera: grid: outside the 3-21 live area (4.00, 5.50, 22.00, 20.50)",
+    "wig-camera: grid: outside the 3-21 live area (4.00, 3.50, 22.00, 20.50)",
+    "zipper-camera: grid: outside the 3-21 live area (7.50, 3.50, 22.00, 20.50)",
+    "cake-pop-camera: grid: outside the 3-21 live area (5.50, 3.50, 22.00, 20.50)",
+    "cleaver-camera: grid: outside the 3-21 live area (4.00, 5.00, 22.00, 20.50)",
+    "coffee-pot-camera: grid: outside the 3-21 live area (4.00, 5.00, 22.00, 20.50)",
+    "corn-dog-camera: grid: outside the 3-21 live area (6.50, 3.50, 22.00, 20.50)",
+    "lemon-squeezer-camera: grid: outside the 3-21 live area (3.50, 6.00, 22.00, 20.50)",
+    "measuring-spoon-camera: grid: outside the 3-21 live area (3.00, 8.50, 22.00, 20.50)",
+    "milk-bottle-camera: grid: outside the 3-21 live area (5.50, 3.50, 22.00, 20.50)",
+    "pickle-camera: grid: outside the 3-21 live area (6.50, 3.50, 22.00, 20.50)",
+    "potato-chips-camera: grid: outside the 3-21 live area (5.00, 4.00, 22.00, 20.50)",
+    "pretzel-camera: grid: outside the 3-21 live area (3.50, 5.60, 22.00, 20.50)",
+    "soup-can-camera: grid: outside the 3-21 live area (5.00, 4.00, 22.00, 20.50)",
+    "waffle-iron-camera: grid: outside the 3-21 live area (3.00, 7.00, 22.00, 20.50)",
+    "walnut-camera: grid: outside the 3-21 live area (4.00, 4.00, 22.00, 20.50)",
+    "wok-camera: grid: outside the 3-21 live area (3.00, 8.50, 22.00, 20.50)",
+    "chess-clock-camera: grid: outside the 3-21 live area (3.00, 6.50, 22.00, 20.50)",
+    "nesting-doll-camera: grid: outside the 3-21 live area (3.50, 3.50, 22.00, 20.50)",
+    "squirt-gun-camera: grid: outside the 3-21 live area (3.00, 8.00, 22.00, 20.50)",
+    "nail-clipper-camera: grid: outside the 3-21 live area (3.00, 7.50, 22.00, 20.50)",
+    "razor-blade-camera: grid: outside the 3-21 live area (3.00, 7.00, 22.00, 20.50)",
+    "shaving-brush-camera: grid: outside the 3-21 live area (6.00, 3.50, 22.00, 20.50)",
+    "walking-stick-camera: grid: outside the 3-21 live area (9.00, 4.00, 22.00, 20.50)",
+    "hose-reel-camera: grid: outside the 3-21 live area (4.00, 5.50, 22.00, 20.50)",
+    "match-box-camera: grid: outside the 3-21 live area (3.00, 5.00, 22.00, 20.50)",
+    "mouse-trap-camera: grid: outside the 3-21 live area (3.00, 3.50, 22.00, 20.50)",
+    "oil-lamp-camera: grid: outside the 3-21 live area (4.00, 3.50, 22.00, 20.50)",
+    "pottery-camera: grid: outside the 3-21 live area (4.50, 4.00, 22.00, 20.50)",
+    "toilet-brush-camera: grid: outside the 3-21 live area (6.50, 3.50, 22.00, 20.50)",
+    "washboard-camera: grid: outside the 3-21 live area (5.00, 3.50, 22.00, 20.50)",
+    "banjo-camera: grid: outside the 3-21 live area (3.50, 4.00, 22.00, 20.50)",
+    "clarinet-camera: grid: outside the 3-21 live area (5.00, 3.50, 22.00, 20.50)",
+    "flute-camera: grid: outside the 3-21 live area (3.00, 6.00, 22.00, 20.50)",
+    "gramophone-camera: grid: outside the 3-21 live area (4.00, 4.50, 22.00, 20.50)",
+    "guitar-pick-camera: grid: outside the 3-21 live area (4.00, 4.00, 22.00, 20.50)",
+    "jukebox-camera: grid: outside the 3-21 live area (4.00, 3.50, 22.00, 20.50)",
+    "music-box-camera: grid: outside the 3-21 live area (3.50, 5.00, 22.00, 20.50)",
+    "pan-flute-camera: grid: outside the 3-21 live area (4.00, 4.00, 22.00, 20.50)",
+    "saxophone-camera: grid: outside the 3-21 live area (7.00, 3.50, 22.00, 20.50)",
+    "eye-patch-camera: grid: outside the 3-21 live area (3.00, 7.50, 22.00, 20.50)",
+    "mustache-camera: grid: outside the 3-21 live area (3.68, 7.56, 22.00, 20.50)",
+    "gas-mask-camera: grid: outside the 3-21 live area (5.00, 6.50, 22.00, 20.50)",
+    "handcuffs-camera: grid: outside the 3-21 live area (3.00, 5.50, 22.00, 20.50)",
+    "hockey-mask-camera: grid: outside the 3-21 live area (5.00, 3.50, 22.00, 20.50)",
+    "quiver-camera: grid: outside the 3-21 live area (6.00, 3.00, 22.00, 20.50)",
+    "saddle-camera: grid: outside the 3-21 live area (3.00, 8.00, 22.00, 20.50)",
+    "trampoline-camera: grid: outside the 3-21 live area (3.00, 7.50, 22.00, 20.50)",
+    "pocket-watch-camera: grid: outside the 3-21 live area (4.00, 3.30, 22.00, 20.50)",
+    "blowtorch-camera: grid: outside the 3-21 live area (4.00, 7.50, 22.00, 20.50)",
+    "chainsaw-camera: grid: outside the 3-21 live area (3.00, 6.50, 22.00, 20.50)",
+    "hacksaw-camera: grid: outside the 3-21 live area (4.00, 8.00, 22.00, 20.50)",
+    "lighter-camera: grid: outside the 3-21 live area (6.00, 3.00, 22.00, 20.50)",
+    "swiss-knife-camera: grid: outside the 3-21 live area (3.00, 5.50, 22.00, 20.50)",
+    "toolbelt-camera: grid: outside the 3-21 live area (3.00, 7.00, 22.00, 20.50)",
+    "key-fob-camera: grid: outside the 3-21 live area (5.50, 3.00, 22.00, 20.50)",
+    "propeller-camera: grid: outside the 3-21 live area (3.50, 3.50, 22.00, 20.50)",
+    "tricycle-camera: grid: outside the 3-21 live area (3.20, 7.00, 22.00, 20.50)",
+    "wagon-camera: grid: outside the 3-21 live area (3.00, 6.00, 22.00, 20.50)",
+    "deck-chair-camera: grid: outside the 3-21 live area (4.00, 7.00, 22.00, 20.50)",
+    "duffel-bag-camera: grid: outside the 3-21 live area (3.00, 6.50, 22.00, 20.50)",
+    "lifeguard-tower-camera: grid: outside the 3-21 live area (5.00, 5.20, 22.00, 20.50)",
+    "raft-camera: grid: outside the 3-21 live area (3.00, 4.50, 22.00, 20.50)",
+    "trunk-camera: grid: outside the 3-21 live area (3.00, 6.00, 22.00, 20.50)"
+  ],
   "duplicates": [
     {
-      "a": "tap-circle",
-      "b": "swipe-circle",
+      "a": "aquarium-sparkle",
+      "b": "aquarium-upload",
       "distance": 1.41
     },
     {
-      "a": "compare-circle",
-      "b": "help-circle",
+      "a": "punch-card-pencil",
+      "b": "punch-card-leaf",
       "distance": 1.41
     },
     {
-      "a": "compare-circle",
-      "b": "alert-octagon-circle",
+      "a": "rubber-stamp-pencil",
+      "b": "rubber-stamp-leaf",
       "distance": 1.41
     },
     {
-      "a": "arrows-converge-circle",
-      "b": "move-circle",
-      "distance": 1
+      "a": "gift-bag-pencil",
+      "b": "gift-bag-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "wedding-dress-search",
+      "b": "dress-search",
+      "distance": 1.41
+    },
+    {
+      "a": "wedding-dress-clock",
+      "b": "dress-clock",
+      "distance": 1.41
+    },
+    {
+      "a": "wedding-dress-gear",
+      "b": "dress-gear",
+      "distance": 1.41
+    },
+    {
+      "a": "wedding-dress-bolt",
+      "b": "dress-bolt",
+      "distance": 1.41
+    },
+    {
+      "a": "wedding-dress-heart",
+      "b": "dress-heart",
+      "distance": 1.41
+    },
+    {
+      "a": "wedding-dress-star",
+      "b": "dress-star",
+      "distance": 1.41
+    },
+    {
+      "a": "wedding-dress-alert",
+      "b": "dress-alert",
+      "distance": 1.41
+    },
+    {
+      "a": "wedding-dress-cloud",
+      "b": "dress-cloud",
+      "distance": 1.41
+    },
+    {
+      "a": "wedding-dress-chat",
+      "b": "dress-chat",
+      "distance": 1.41
+    },
+    {
+      "a": "wedding-dress-download",
+      "b": "dress-download",
+      "distance": 1.41
+    },
+    {
+      "a": "wedding-dress-pencil",
+      "b": "wedding-dress-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "wedding-dress-pencil",
+      "b": "dress-pencil",
+      "distance": 1.41
+    },
+    {
+      "a": "wedding-dress-pencil",
+      "b": "dress-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "wedding-dress-trash",
+      "b": "dress-trash",
+      "distance": 1.41
+    },
+    {
+      "a": "wedding-dress-calendar",
+      "b": "dress-calendar",
+      "distance": 1.41
+    },
+    {
+      "a": "wedding-dress-question",
+      "b": "dress-question",
+      "distance": 1.41
+    },
+    {
+      "a": "wedding-dress-bookmark",
+      "b": "dress-bookmark",
+      "distance": 1.41
+    },
+    {
+      "a": "wedding-dress-crown",
+      "b": "dress-crown",
+      "distance": 1.41
+    },
+    {
+      "a": "wedding-dress-leaf",
+      "b": "dress-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "wedding-dress-hourglass",
+      "b": "dress-hourglass",
+      "distance": 1.41
+    },
+    {
+      "a": "wedding-dress-cursor",
+      "b": "dress-cursor",
+      "distance": 1.41
+    },
+    {
+      "a": "wedding-dress-camera",
+      "b": "dress-camera",
+      "distance": 1.41
+    },
+    {
+      "a": "wedding-dress-filter",
+      "b": "dress-filter",
+      "distance": 1.41
+    },
+    {
+      "a": "wedding-dress-stats",
+      "b": "dress-stats",
+      "distance": 1.41
+    },
+    {
+      "a": "wedding-dress-checkbox",
+      "b": "dress-checkbox",
+      "distance": 1.41
+    },
+    {
+      "a": "buckle-search",
+      "b": "container-search",
+      "distance": 1.41
+    },
+    {
+      "a": "buckle-clock",
+      "b": "container-clock",
+      "distance": 1.41
+    },
+    {
+      "a": "buckle-shield",
+      "b": "stadium-shield",
+      "distance": 1.41
+    },
+    {
+      "a": "buckle-gear",
+      "b": "container-gear",
+      "distance": 1.41
+    },
+    {
+      "a": "buckle-star",
+      "b": "container-star",
+      "distance": 1.41
+    },
+    {
+      "a": "buckle-cloud",
+      "b": "container-cloud",
+      "distance": 1.41
+    },
+    {
+      "a": "buckle-chat",
+      "b": "container-chat",
+      "distance": 1.41
+    },
+    {
+      "a": "buckle-download",
+      "b": "container-download",
+      "distance": 1.41
+    },
+    {
+      "a": "buckle-pencil",
+      "b": "buckle-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "buckle-pencil",
+      "b": "container-pencil",
+      "distance": 1.41
+    },
+    {
+      "a": "buckle-sparkle",
+      "b": "buckle-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "buckle-sparkle",
+      "b": "container-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "buckle-calendar",
+      "b": "container-calendar",
+      "distance": 1.41
+    },
+    {
+      "a": "buckle-question",
+      "b": "container-question",
+      "distance": 1.41
+    },
+    {
+      "a": "buckle-upload",
+      "b": "container-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "buckle-crown",
+      "b": "container-crown",
+      "distance": 1.41
+    },
+    {
+      "a": "buckle-leaf",
+      "b": "container-pencil",
+      "distance": 1.41
+    },
+    {
+      "a": "buckle-trophy",
+      "b": "container-bulb",
+      "distance": 1.41
+    },
+    {
+      "a": "buckle-cursor",
+      "b": "container-cursor",
+      "distance": 1.41
+    },
+    {
+      "a": "buckle-camera",
+      "b": "container-camera",
+      "distance": 1.41
+    },
+    {
+      "a": "buckle-stats",
+      "b": "container-stats",
+      "distance": 1.41
+    },
+    {
+      "a": "buckle-checkbox",
+      "b": "container-checkbox",
+      "distance": 1.41
+    },
+    {
+      "a": "ear-muffs-pencil",
+      "b": "ear-muffs-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "slipper-gear",
+      "b": "slipper-stats",
+      "distance": 1.41
+    },
+    {
+      "a": "slipper-pencil",
+      "b": "slipper-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "sombrero-gear",
+      "b": "sombrero-stats",
+      "distance": 1.41
+    },
+    {
+      "a": "sombrero-pencil",
+      "b": "sombrero-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "wig-pencil",
+      "b": "wig-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "glass-search",
+      "b": "potato-chips-search",
+      "distance": 1.41
+    },
+    {
+      "a": "glass-clock",
+      "b": "potato-chips-clock",
+      "distance": 1.41
+    },
+    {
+      "a": "glass-shield",
+      "b": "potato-chips-shield",
+      "distance": 1.41
+    },
+    {
+      "a": "glass-gear",
+      "b": "potato-chips-gear",
+      "distance": 1.41
+    },
+    {
+      "a": "glass-bolt",
+      "b": "potato-chips-bolt",
+      "distance": 1.41
+    },
+    {
+      "a": "glass-heart",
+      "b": "potato-chips-heart",
+      "distance": 1.41
+    },
+    {
+      "a": "glass-star",
+      "b": "potato-chips-star",
+      "distance": 1.41
+    },
+    {
+      "a": "glass-alert",
+      "b": "potato-chips-alert",
+      "distance": 1.41
+    },
+    {
+      "a": "glass-cloud",
+      "b": "potato-chips-cloud",
+      "distance": 1.41
+    },
+    {
+      "a": "glass-chat",
+      "b": "potato-chips-chat",
+      "distance": 1.41
+    },
+    {
+      "a": "glass-download",
+      "b": "potato-chips-download",
+      "distance": 1.41
+    },
+    {
+      "a": "glass-trash",
+      "b": "potato-chips-trash",
+      "distance": 1.41
+    },
+    {
+      "a": "glass-calendar",
+      "b": "potato-chips-calendar",
+      "distance": 1.41
+    },
+    {
+      "a": "glass-bookmark",
+      "b": "potato-chips-bookmark",
+      "distance": 1.41
+    },
+    {
+      "a": "glass-question",
+      "b": "potato-chips-question",
+      "distance": 1.41
+    },
+    {
+      "a": "glass-crown",
+      "b": "potato-chips-crown",
+      "distance": 1.41
+    },
+    {
+      "a": "glass-leaf",
+      "b": "potato-chips-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "glass-trophy",
+      "b": "potato-chips-trophy",
+      "distance": 1.41
+    },
+    {
+      "a": "glass-cursor",
+      "b": "potato-chips-cursor",
+      "distance": 1.41
+    },
+    {
+      "a": "glass-camera",
+      "b": "potato-chips-camera",
+      "distance": 1.41
+    },
+    {
+      "a": "glass-stats",
+      "b": "potato-chips-stats",
+      "distance": 1.41
+    },
+    {
+      "a": "glass-checkbox",
+      "b": "potato-chips-checkbox",
+      "distance": 1.41
+    },
+    {
+      "a": "coffee-pot-pencil",
+      "b": "coffee-pot-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "lemon-squeezer-pencil",
+      "b": "lemon-squeezer-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "waffle-iron-gear",
+      "b": "waffle-iron-stats",
+      "distance": 1.41
+    },
+    {
+      "a": "waffle-iron-pencil",
+      "b": "waffle-iron-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "chess-clock-pencil",
+      "b": "chess-clock-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "nesting-doll-pencil",
+      "b": "nesting-doll-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "nail-clipper-pencil",
+      "b": "nail-clipper-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "razor-blade-clock",
+      "b": "spirit-level-clock",
+      "distance": 1.41
+    },
+    {
+      "a": "razor-blade-shield",
+      "b": "harmonica-shield",
+      "distance": 1.41
+    },
+    {
+      "a": "razor-blade-shield",
+      "b": "spirit-level-shield",
+      "distance": 1.41
+    },
+    {
+      "a": "razor-blade-gear",
+      "b": "spirit-level-gear",
+      "distance": 1.41
+    },
+    {
+      "a": "razor-blade-bolt",
+      "b": "spirit-level-bolt",
+      "distance": 1.41
+    },
+    {
+      "a": "razor-blade-heart",
+      "b": "spirit-level-heart",
+      "distance": 1.41
+    },
+    {
+      "a": "razor-blade-star",
+      "b": "spirit-level-star",
+      "distance": 1.41
+    },
+    {
+      "a": "razor-blade-alert",
+      "b": "spirit-level-alert",
+      "distance": 1.41
+    },
+    {
+      "a": "razor-blade-user",
+      "b": "spirit-level-user",
+      "distance": 1.41
+    },
+    {
+      "a": "razor-blade-cloud",
+      "b": "spirit-level-cloud",
+      "distance": 1.41
+    },
+    {
+      "a": "razor-blade-chat",
+      "b": "spirit-level-chat",
+      "distance": 1.41
+    },
+    {
+      "a": "razor-blade-pencil",
+      "b": "razor-blade-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "razor-blade-pencil",
+      "b": "spirit-level-pencil",
+      "distance": 1.41
+    },
+    {
+      "a": "razor-blade-sparkle",
+      "b": "razor-blade-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "razor-blade-sparkle",
+      "b": "spirit-level-sparkle",
+      "distance": 1.41
+    },
+    {
+      "a": "razor-blade-sparkle",
+      "b": "spirit-level-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "razor-blade-trash",
+      "b": "spirit-level-trash",
+      "distance": 1.41
+    },
+    {
+      "a": "razor-blade-calendar",
+      "b": "spirit-level-calendar",
+      "distance": 1.41
+    },
+    {
+      "a": "razor-blade-bookmark",
+      "b": "spirit-level-bookmark",
+      "distance": 1.41
+    },
+    {
+      "a": "razor-blade-upload",
+      "b": "spirit-level-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "razor-blade-crown",
+      "b": "spirit-level-crown",
+      "distance": 1.41
+    },
+    {
+      "a": "razor-blade-leaf",
+      "b": "spirit-level-pencil",
+      "distance": 1.41
+    },
+    {
+      "a": "razor-blade-trophy",
+      "b": "spirit-level-trophy",
+      "distance": 1.41
+    },
+    {
+      "a": "razor-blade-hourglass",
+      "b": "spirit-level-hourglass",
+      "distance": 1.41
+    },
+    {
+      "a": "razor-blade-camera",
+      "b": "spirit-level-camera",
+      "distance": 1.41
+    },
+    {
+      "a": "razor-blade-filter",
+      "b": "spirit-level-filter",
+      "distance": 1.41
+    },
+    {
+      "a": "razor-blade-stats",
+      "b": "spirit-level-stats",
+      "distance": 1.41
+    },
+    {
+      "a": "match-box-pencil",
+      "b": "match-box-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "pottery-pencil",
+      "b": "pottery-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "ship-search",
+      "b": "raft-search",
+      "distance": 1.41
+    },
+    {
+      "a": "ship-shield",
+      "b": "raft-shield",
+      "distance": 1.41
+    },
+    {
+      "a": "gramophone-sparkle",
+      "b": "gramophone-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "guitar-pick-search",
+      "b": "shield-search",
+      "distance": 1.41
+    },
+    {
+      "a": "guitar-pick-clock",
+      "b": "shield-clock",
+      "distance": 1.41
+    },
+    {
+      "a": "guitar-pick-bolt",
+      "b": "shield-bolt",
+      "distance": 1.41
+    },
+    {
+      "a": "guitar-pick-heart",
+      "b": "shield-heart",
+      "distance": 1.41
+    },
+    {
+      "a": "guitar-pick-star",
+      "b": "shield-star",
+      "distance": 1.41
+    },
+    {
+      "a": "guitar-pick-chat",
+      "b": "shield-chat",
+      "distance": 1.41
+    },
+    {
+      "a": "guitar-pick-download",
+      "b": "shield-download",
+      "distance": 1.41
+    },
+    {
+      "a": "guitar-pick-pencil",
+      "b": "shield-pencil",
+      "distance": 1.41
+    },
+    {
+      "a": "guitar-pick-trash",
+      "b": "shield-trash",
+      "distance": 1.41
+    },
+    {
+      "a": "guitar-pick-calendar",
+      "b": "shield-calendar",
+      "distance": 1.41
+    },
+    {
+      "a": "guitar-pick-question",
+      "b": "shield-question",
+      "distance": 1.41
+    },
+    {
+      "a": "guitar-pick-bookmark",
+      "b": "shield-bookmark",
+      "distance": 1.41
+    },
+    {
+      "a": "guitar-pick-upload",
+      "b": "shield-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "guitar-pick-crown",
+      "b": "shield-crown",
+      "distance": 1.41
+    },
+    {
+      "a": "guitar-pick-leaf",
+      "b": "shield-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "guitar-pick-hourglass",
+      "b": "shield-hourglass",
+      "distance": 1.41
+    },
+    {
+      "a": "guitar-pick-cursor",
+      "b": "shield-cursor",
+      "distance": 1.41
+    },
+    {
+      "a": "guitar-pick-camera",
+      "b": "shield-camera",
+      "distance": 1.41
+    },
+    {
+      "a": "guitar-pick-filter",
+      "b": "shield-filter",
+      "distance": 1.41
+    },
+    {
+      "a": "guitar-pick-stats",
+      "b": "shield-stats",
+      "distance": 1.41
+    },
+    {
+      "a": "guitar-pick-checkbox",
+      "b": "shield-checkbox",
+      "distance": 1.41
+    },
+    {
+      "a": "jukebox-pencil",
+      "b": "jukebox-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "music-box-pencil",
+      "b": "music-box-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "music-box-sparkle",
+      "b": "music-box-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "pan-flute-sparkle",
+      "b": "pan-flute-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "saxophone-pencil",
+      "b": "saxophone-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "petri-dish-search",
+      "b": "duffel-bag-search",
+      "distance": 1.41
+    },
+    {
+      "a": "petri-dish-clock",
+      "b": "duffel-bag-clock",
+      "distance": 1.41
+    },
+    {
+      "a": "petri-dish-shield",
+      "b": "duffel-bag-shield",
+      "distance": 1.41
+    },
+    {
+      "a": "petri-dish-gear",
+      "b": "duffel-bag-gear",
+      "distance": 1.41
+    },
+    {
+      "a": "petri-dish-bolt",
+      "b": "duffel-bag-bolt",
+      "distance": 1.41
+    },
+    {
+      "a": "petri-dish-heart",
+      "b": "duffel-bag-heart",
+      "distance": 1.41
+    },
+    {
+      "a": "petri-dish-star",
+      "b": "duffel-bag-star",
+      "distance": 1.41
+    },
+    {
+      "a": "petri-dish-alert",
+      "b": "duffel-bag-alert",
+      "distance": 1.41
+    },
+    {
+      "a": "petri-dish-user",
+      "b": "duffel-bag-user",
+      "distance": 1.41
+    },
+    {
+      "a": "petri-dish-cloud",
+      "b": "duffel-bag-cloud",
+      "distance": 1.41
+    },
+    {
+      "a": "petri-dish-chat",
+      "b": "duffel-bag-chat",
+      "distance": 1.41
+    },
+    {
+      "a": "petri-dish-download",
+      "b": "duffel-bag-download",
+      "distance": 1.41
+    },
+    {
+      "a": "petri-dish-pencil",
+      "b": "duffel-bag-pencil",
+      "distance": 1.41
+    },
+    {
+      "a": "petri-dish-pencil",
+      "b": "duffel-bag-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "petri-dish-calendar",
+      "b": "duffel-bag-calendar",
+      "distance": 1.41
+    },
+    {
+      "a": "petri-dish-upload",
+      "b": "duffel-bag-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "petri-dish-bookmark",
+      "b": "duffel-bag-bookmark",
+      "distance": 1.41
+    },
+    {
+      "a": "petri-dish-question",
+      "b": "duffel-bag-question",
+      "distance": 1.41
+    },
+    {
+      "a": "petri-dish-trash",
+      "b": "duffel-bag-trash",
+      "distance": 1.41
+    },
+    {
+      "a": "petri-dish-hourglass",
+      "b": "duffel-bag-hourglass",
+      "distance": 1.41
+    },
+    {
+      "a": "petri-dish-trophy",
+      "b": "duffel-bag-trophy",
+      "distance": 1.41
+    },
+    {
+      "a": "petri-dish-cursor",
+      "b": "duffel-bag-cursor",
+      "distance": 1.41
+    },
+    {
+      "a": "petri-dish-filter",
+      "b": "duffel-bag-filter",
+      "distance": 1.41
+    },
+    {
+      "a": "petri-dish-stats",
+      "b": "duffel-bag-stats",
+      "distance": 1.41
+    },
+    {
+      "a": "petri-dish-checkbox",
+      "b": "duffel-bag-checkbox",
+      "distance": 1.41
+    },
+    {
+      "a": "handcuffs-pencil",
+      "b": "handcuffs-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "saddle-pencil",
+      "b": "saddle-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "trampoline-pencil",
+      "b": "trampoline-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "pocket-watch-pencil",
+      "b": "pocket-watch-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "hacksaw-pencil",
+      "b": "hacksaw-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "swiss-knife-pencil",
+      "b": "swiss-knife-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "toolbelt-pencil",
+      "b": "toolbelt-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "toolbelt-sparkle",
+      "b": "toolbelt-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "ship-clock",
+      "b": "raft-clock",
+      "distance": 1.41
+    },
+    {
+      "a": "ship-bolt",
+      "b": "raft-bolt",
+      "distance": 1.41
+    },
+    {
+      "a": "ship-gear",
+      "b": "raft-gear",
+      "distance": 1.41
+    },
+    {
+      "a": "ship-heart",
+      "b": "raft-heart",
+      "distance": 1.41
+    },
+    {
+      "a": "ship-star",
+      "b": "raft-star",
+      "distance": 1.41
+    },
+    {
+      "a": "ship-alert",
+      "b": "raft-alert",
+      "distance": 1.41
+    },
+    {
+      "a": "ship-cloud",
+      "b": "raft-cloud",
+      "distance": 1.41
+    },
+    {
+      "a": "ship-chat",
+      "b": "raft-chat",
+      "distance": 1.41
+    },
+    {
+      "a": "ship-download",
+      "b": "raft-download",
+      "distance": 1.41
+    },
+    {
+      "a": "ship-pencil",
+      "b": "raft-pencil",
+      "distance": 1.41
+    },
+    {
+      "a": "ship-pencil",
+      "b": "raft-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "propeller-pencil",
+      "b": "propeller-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "tricycle-pencil",
+      "b": "tricycle-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "wagon-sparkle",
+      "b": "wagon-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "ship-trash",
+      "b": "raft-trash",
+      "distance": 1.41
+    },
+    {
+      "a": "ship-calendar",
+      "b": "raft-calendar",
+      "distance": 1.41
+    },
+    {
+      "a": "ship-bookmark",
+      "b": "raft-bookmark",
+      "distance": 1.41
+    },
+    {
+      "a": "ship-question",
+      "b": "raft-question",
+      "distance": 1.41
+    },
+    {
+      "a": "ship-crown",
+      "b": "raft-crown",
+      "distance": 1.41
+    },
+    {
+      "a": "ship-hourglass",
+      "b": "raft-hourglass",
+      "distance": 1.41
+    },
+    {
+      "a": "ship-cursor",
+      "b": "raft-cursor",
+      "distance": 1.41
+    },
+    {
+      "a": "ship-camera",
+      "b": "raft-camera",
+      "distance": 1.41
+    },
+    {
+      "a": "ship-filter",
+      "b": "raft-filter",
+      "distance": 1.41
+    },
+    {
+      "a": "ship-stats",
+      "b": "raft-stats",
+      "distance": 1.41
+    },
+    {
+      "a": "ship-checkbox",
+      "b": "raft-checkbox",
+      "distance": 1.41
+    },
+    {
+      "a": "deck-chair-pencil",
+      "b": "deck-chair-leaf",
+      "distance": 1.41
+    },
+    {
+      "a": "trunk-sparkle",
+      "b": "trunk-upload",
+      "distance": 1.41
+    },
+    {
+      "a": "wedding-dress-bell",
+      "b": "dress-bell",
+      "distance": 1.41
+    },
+    {
+      "a": "wedding-dress-moon",
+      "b": "dress-moon",
+      "distance": 1.41
+    },
+    {
+      "a": "wedding-dress-trophy",
+      "b": "dress-trophy",
+      "distance": 1.41
+    },
+    {
+      "a": "buckle-moon",
+      "b": "container-moon",
+      "distance": 1.41
+    },
+    {
+      "a": "glass-bell",
+      "b": "potato-chips-bell",
+      "distance": 1.41
+    },
+    {
+      "a": "glass-moon",
+      "b": "potato-chips-moon",
+      "distance": 1.41
+    },
+    {
+      "a": "toothpaste-trophy",
+      "b": "hacksaw-trophy",
+      "distance": 1.41
+    },
+    {
+      "a": "razor-blade-bell",
+      "b": "spirit-level-bell",
+      "distance": 1.41
+    },
+    {
+      "a": "razor-blade-moon",
+      "b": "spirit-level-moon",
+      "distance": 1.41
+    },
+    {
+      "a": "guitar-pick-bell",
+      "b": "shield-bell",
+      "distance": 1.41
+    },
+    {
+      "a": "guitar-pick-moon",
+      "b": "shield-moon",
+      "distance": 1.41
+    },
+    {
+      "a": "guitar-pick-trophy",
+      "b": "shield-trophy",
+      "distance": 1.41
+    },
+    {
+      "a": "petri-dish-bell",
+      "b": "duffel-bag-bell",
+      "distance": 1.41
     },
     {
-      "a": "database-circle",
-      "b": "no-photos-circle",
+      "a": "petri-dish-moon",
+      "b": "duffel-bag-moon",
       "distance": 1.41
     },
     {
-      "a": "medical-cross-circle",
-      "b": "eye-circle",
+      "a": "ship-bell",
+      "b": "raft-bell",
       "distance": 1.41
     },
     {
-      "a": "medical-cross-circle",
-      "b": "crosshair-circle",
+      "a": "ship-moon",
+      "b": "raft-moon",
       "distance": 1.41
     },
     {
-      "a": "cursor-wait-circle",
-      "b": "cursor-help-circle",
-      "distance": 1
+      "a": "ship-trophy",
+      "b": "raft-trophy",
+      "distance": 1.41
     },
     {
-      "a": "settings-circle",
-      "b": "eye-circle",
+      "a": "wedding-dress-fire",
+      "b": "dress-fire",
       "distance": 1.41
     },
     {
-      "a": "settings-circle",
-      "b": "no-headphones-circle",
+      "a": "glass-fire",
+      "b": "potato-chips-fire",
       "distance": 1.41
     },
     {
-      "a": "settings-circle",
-      "b": "no-photos-circle",
+      "a": "razor-blade-fire",
+      "b": "spirit-level-fire",
       "distance": 1.41
     },
     {
-      "a": "settings-circle",
-      "b": "crosswalk-circle",
+      "a": "guitar-pick-fire",
+      "b": "shield-fire",
       "distance": 1.41
     },
     {
-      "a": "settings-circle",
-      "b": "detour-circle",
+      "a": "petri-dish-fire",
+      "b": "duffel-bag-fire",
       "distance": 1.41
     },
     {
-      "a": "settings-circle",
-      "b": "compass-circle",
+      "a": "ship-fire",
+      "b": "raft-fire",
       "distance": 1.41
     },
     {
-      "a": "settings-circle",
-      "b": "crosshair-circle",
+      "a": "lobster-sparkle",
+      "b": "lobster-upload",
       "distance": 1.41
     },
     {
-      "a": "settings-circle",
-      "b": "no-weapons-circle",
+      "a": "rubber-stamp-sparkle",
+      "b": "rubber-stamp-upload",
       "distance": 1.41
     },
     {
-      "a": "settings-circle",
-      "b": "story-ring-circle",
+      "a": "dreidel-sparkle",
+      "b": "dreidel-upload",
       "distance": 1.41
     },
     {
-      "a": "settings-circle",
-      "b": "copyright-circle",
+      "a": "wedding-dress-shield",
+      "b": "dress-shield",
       "distance": 1.41
     },
     {
-      "a": "settings-circle",
-      "b": "registered-circle",
+      "a": "wedding-dress-pin",
+      "b": "dress-pin",
       "distance": 1.41
     },
     {
-      "a": "eye-circle",
-      "b": "detour-circle",
+      "a": "wedding-dress-user",
+      "b": "dress-user",
       "distance": 1.41
     },
     {
-      "a": "eye-circle",
-      "b": "heart-crack-circle",
+      "a": "wedding-dress-sparkle",
+      "b": "dress-sparkle",
       "distance": 1.41
     },
     {
-      "a": "eye-circle",
-      "b": "heart-plus-circle",
+      "a": "wedding-dress-flag",
+      "b": "dress-flag",
       "distance": 1.41
     },
     {
-      "a": "no-headphones-circle",
-      "b": "no-photos-circle",
-      "distance": 1
+      "a": "origami-sparkle",
+      "b": "origami-upload",
+      "distance": 1.41
     },
     {
-      "a": "no-headphones-circle",
-      "b": "crosswalk-circle",
+      "a": "chalk-sparkle",
+      "b": "chalk-upload",
       "distance": 1.41
     },
     {
-      "a": "no-headphones-circle",
-      "b": "story-ring-circle",
+      "a": "pencil-sharpener-sparkle",
+      "b": "pencil-sharpener-upload",
       "distance": 1.41
     },
     {
-      "a": "no-photos-circle",
-      "b": "crosswalk-circle",
+      "a": "beret-sparkle",
+      "b": "beret-upload",
       "distance": 1.41
     },
     {
-      "a": "no-photos-circle",
-      "b": "story-ring-circle",
-      "distance": 1
+      "a": "buckle-pin",
+      "b": "container-pin",
+      "distance": 1.41
     },
     {
-      "a": "crosswalk-circle",
-      "b": "story-ring-circle",
+      "a": "buckle-bell",
+      "b": "container-bell",
       "distance": 1.41
     },
     {
-      "a": "detour-circle",
-      "b": "compass-circle",
+      "a": "ear-muffs-sparkle",
+      "b": "ear-muffs-upload",
       "distance": 1.41
     },
     {
-      "a": "detour-circle",
-      "b": "crosshair-circle",
+      "a": "hand-fan-sparkle",
+      "b": "hand-fan-upload",
       "distance": 1.41
     },
     {
-      "a": "crosshair-circle",
-      "b": "alert-diamond-circle",
+      "a": "hair-clip-sparkle",
+      "b": "hair-clip-upload",
       "distance": 1.41
     },
     {
-      "a": "alert-octagon-circle",
-      "b": "alert-diamond-circle",
+      "a": "monocle-sparkle",
+      "b": "monocle-upload",
       "distance": 1.41
     },
     {
-      "a": "alert-diamond-circle",
-      "b": "heart-crack-circle",
+      "a": "slipper-sparkle",
+      "b": "slipper-upload",
       "distance": 1.41
     },
     {
-      "a": "alert-diamond-circle",
-      "b": "story-ring-circle",
+      "a": "sombrero-sparkle",
+      "b": "sombrero-upload",
       "distance": 1.41
     },
     {
-      "a": "alert-diamond-circle",
-      "b": "heart-plus-circle",
+      "a": "visor-sparkle",
+      "b": "visor-upload",
       "distance": 1.41
     },
     {
-      "a": "notification-stack-circle",
-      "b": "story-ring-circle",
+      "a": "wig-sparkle",
+      "b": "wig-upload",
       "distance": 1.41
     },
     {
-      "a": "hot-surface-circle",
-      "b": "magnetic-field-circle",
-      "distance": 1
+      "a": "zipper-sparkle",
+      "b": "zipper-upload",
+      "distance": 1.41
     },
     {
-      "a": "heart-burst-circle",
-      "b": "strikethrough-circle",
+      "a": "glass-pin",
+      "b": "potato-chips-pin",
       "distance": 1.41
     },
     {
-      "a": "heart-crack-circle",
-      "b": "heart-plus-circle",
+      "a": "glass-sparkle",
+      "b": "potato-chips-sparkle",
       "distance": 1.41
     },
     {
-      "a": "letter-b-circle",
-      "b": "number-eight-circle",
+      "a": "glass-flag",
+      "b": "potato-chips-flag",
       "distance": 1.41
     },
     {
-      "a": "letter-d-circle",
-      "b": "letter-o-circle",
+      "a": "cake-pop-sparkle",
+      "b": "cake-pop-upload",
       "distance": 1.41
     },
     {
-      "a": "letter-h-circle",
-      "b": "letter-m-circle",
+      "a": "cleaver-sparkle",
+      "b": "cleaver-upload",
       "distance": 1.41
     },
     {
-      "a": "letter-h-circle",
-      "b": "heading-circle",
-      "distance": 1
+      "a": "corn-dog-sparkle",
+      "b": "corn-dog-upload",
+      "distance": 1.41
     },
     {
-      "a": "bold-circle",
-      "b": "strikethrough-circle",
+      "a": "lemon-squeezer-sparkle",
+      "b": "lemon-squeezer-upload",
       "distance": 1.41
     },
     {
-      "a": "arrows-left-right-square",
-      "b": "arrow-wave-right-square",
+      "a": "measuring-spoon-sparkle",
+      "b": "measuring-spoon-upload",
       "distance": 1.41
     },
     {
-      "a": "arrow-wave-right-square",
-      "b": "arrow-dashed-right-square",
+      "a": "pickle-sparkle",
+      "b": "pickle-upload",
       "distance": 1.41
     },
     {
-      "a": "arrow-right-square",
-      "b": "arrow-right-short-square",
-      "distance": 1
+      "a": "pretzel-sparkle",
+      "b": "pretzel-upload",
+      "distance": 1.41
     },
     {
-      "a": "arrows-left-right-circle",
-      "b": "arrow-wave-right-circle",
+      "a": "walnut-sparkle",
+      "b": "walnut-upload",
       "distance": 1.41
     },
     {
-      "a": "arrow-wave-right-circle",
-      "b": "arrow-dashed-right-circle",
+      "a": "wok-sparkle",
+      "b": "wok-upload",
       "distance": 1.41
     },
     {
-      "a": "arrow-right-circle",
-      "b": "arrow-right-short-circle",
-      "distance": 1
+      "a": "nesting-doll-sparkle",
+      "b": "nesting-doll-upload",
+      "distance": 1.41
     },
     {
-      "a": "letter-i-circle",
-      "b": "italic-circle",
-      "distance": 1
+      "a": "squirt-gun-sparkle",
+      "b": "squirt-gun-upload",
+      "distance": 1.41
     },
     {
-      "a": "tap-square",
-      "b": "swipe-square",
+      "a": "toothpaste-shield",
+      "b": "hacksaw-shield",
       "distance": 1.41
     },
     {
-      "a": "compare-square",
-      "b": "help-square",
+      "a": "nail-clipper-sparkle",
+      "b": "nail-clipper-upload",
       "distance": 1.41
     },
     {
-      "a": "compare-square",
-      "b": "alert-octagon-square",
+      "a": "razor-blade-flag",
+      "b": "spirit-level-flag",
       "distance": 1.41
     },
     {
-      "a": "plus-square",
-      "b": "move-square",
-      "distance": 1
+      "a": "shaving-brush-sparkle",
+      "b": "shaving-brush-upload",
+      "distance": 1.41
     },
     {
-      "a": "arrows-diverge-square",
-      "b": "move-square",
-      "distance": 1
+      "a": "walking-stick-sparkle",
+      "b": "walking-stick-upload",
+      "distance": 1.41
     },
     {
-      "a": "database-square",
-      "b": "no-photos-square",
+      "a": "hose-reel-sparkle",
+      "b": "hose-reel-upload",
       "distance": 1.41
     },
     {
-      "a": "medical-cross-square",
-      "b": "eye-square",
+      "a": "match-box-sparkle",
+      "b": "match-box-upload",
       "distance": 1.41
     },
     {
-      "a": "medical-cross-square",
-      "b": "crosshair-square",
+      "a": "mouse-trap-sparkle",
+      "b": "mouse-trap-upload",
       "distance": 1.41
     },
     {
-      "a": "cursor-wait-square",
-      "b": "cursor-help-square",
-      "distance": 1
+      "a": "oil-lamp-sparkle",
+      "b": "oil-lamp-upload",
+      "distance": 1.41
     },
     {
-      "a": "settings-square",
-      "b": "eye-square",
+      "a": "pottery-sparkle",
+      "b": "pottery-upload",
       "distance": 1.41
     },
     {
-      "a": "settings-square",
-      "b": "no-headphones-square",
+      "a": "toilet-brush-sparkle",
+      "b": "toilet-brush-upload",
       "distance": 1.41
     },
     {
-      "a": "settings-square",
-      "b": "no-photos-square",
+      "a": "banjo-sparkle",
+      "b": "banjo-upload",
       "distance": 1.41
     },
     {
-      "a": "settings-square",
-      "b": "detour-square",
+      "a": "clarinet-sparkle",
+      "b": "clarinet-upload",
       "distance": 1.41
     },
     {
-      "a": "settings-square",
-      "b": "compass-square",
+      "a": "flute-sparkle",
+      "b": "flute-upload",
       "distance": 1.41
     },
     {
-      "a": "settings-square",
-      "b": "crosshair-square",
+      "a": "guitar-pick-pin",
+      "b": "shield-pin",
       "distance": 1.41
     },
     {
-      "a": "settings-square",
-      "b": "no-weapons-square",
+      "a": "guitar-pick-sparkle",
+      "b": "guitar-pick-upload",
       "distance": 1.41
     },
     {
-      "a": "settings-square",
-      "b": "story-ring-square",
+      "a": "guitar-pick-flag",
+      "b": "shield-flag",
       "distance": 1.41
     },
     {
-      "a": "settings-square",
-      "b": "copyright-square",
+      "a": "guitar-pick-upload",
+      "b": "shield-sparkle",
       "distance": 1.41
     },
     {
-      "a": "settings-square",
-      "b": "registered-square",
+      "a": "saxophone-sparkle",
+      "b": "saxophone-upload",
       "distance": 1.41
     },
     {
-      "a": "eye-square",
-      "b": "detour-square",
+      "a": "eye-patch-sparkle",
+      "b": "eye-patch-upload",
       "distance": 1.41
     },
     {
-      "a": "eye-square",
-      "b": "heart-crack-square",
+      "a": "mustache-sparkle",
+      "b": "mustache-upload",
       "distance": 1.41
     },
     {
-      "a": "eye-square",
-      "b": "heart-plus-square",
+      "a": "petri-dish-pin",
+      "b": "duffel-bag-pin",
       "distance": 1.41
     },
     {
-      "a": "no-headphones-square",
-      "b": "no-photos-square",
-      "distance": 1
+      "a": "petri-dish-flag",
+      "b": "duffel-bag-flag",
+      "distance": 1.41
     },
     {
-      "a": "no-headphones-square",
-      "b": "story-ring-square",
+      "a": "petri-dish-upload",
+      "b": "duffel-bag-sparkle",
       "distance": 1.41
     },
     {
-      "a": "no-photos-square",
-      "b": "story-ring-square",
-      "distance": 1
+      "a": "handcuffs-sparkle",
+      "b": "handcuffs-upload",
+      "distance": 1.41
     },
     {
-      "a": "detour-square",
-      "b": "compass-square",
+      "a": "hockey-mask-sparkle",
+      "b": "hockey-mask-upload",
       "distance": 1.41
     },
     {
-      "a": "detour-square",
-      "b": "crosshair-square",
+      "a": "saddle-sparkle",
+      "b": "saddle-upload",
       "distance": 1.41
     },
     {
-      "a": "crosshair-square",
-      "b": "alert-diamond-square",
+      "a": "trampoline-sparkle",
+      "b": "trampoline-upload",
       "distance": 1.41
     },
     {
-      "a": "alert-octagon-square",
-      "b": "alert-diamond-square",
+      "a": "pocket-watch-sparkle",
+      "b": "pocket-watch-upload",
       "distance": 1.41
     },
     {
-      "a": "alert-diamond-square",
-      "b": "heart-crack-square",
+      "a": "blowtorch-sparkle",
+      "b": "blowtorch-upload",
       "distance": 1.41
     },
     {
-      "a": "alert-diamond-square",
-      "b": "story-ring-square",
+      "a": "chainsaw-sparkle",
+      "b": "chainsaw-upload",
       "distance": 1.41
     },
     {
-      "a": "alert-diamond-square",
-      "b": "heart-plus-square",
+      "a": "hacksaw-sparkle",
+      "b": "hacksaw-upload",
       "distance": 1.41
     },
     {
-      "a": "notification-stack-square",
-      "b": "story-ring-square",
+      "a": "swiss-knife-sparkle",
+      "b": "swiss-knife-upload",
       "distance": 1.41
     },
     {
-      "a": "hot-surface-square",
-      "b": "magnetic-field-square",
-      "distance": 1
+      "a": "ship-pin",
+      "b": "raft-pin",
+      "distance": 1.41
     },
     {
-      "a": "heart-burst-square",
-      "b": "strikethrough-square",
+      "a": "ship-user",
+      "b": "raft-user",
       "distance": 1.41
     },
     {
-      "a": "heart-crack-square",
-      "b": "heart-plus-square",
+      "a": "propeller-sparkle",
+      "b": "propeller-upload",
       "distance": 1.41
     },
     {
-      "a": "letter-b-square",
-      "b": "number-eight-square",
+      "a": "tricycle-sparkle",
+      "b": "tricycle-upload",
       "distance": 1.41
     },
     {
-      "a": "letter-d-square",
-      "b": "letter-o-square",
+      "a": "ship-sparkle",
+      "b": "raft-sparkle",
       "distance": 1.41
     },
     {
-      "a": "letter-h-square",
-      "b": "letter-m-square",
+      "a": "ship-sparkle",
+      "b": "raft-upload",
       "distance": 1.41
     },
     {
-      "a": "letter-h-square",
-      "b": "heading-square",
-      "distance": 1
+      "a": "ship-flag",
+      "b": "raft-flag",
+      "distance": 1.41
     },
     {
-      "a": "letter-i-square",
-      "b": "italic-square",
-      "distance": 1
+      "a": "duffel-bag-sparkle",
+      "b": "duffel-bag-upload",
+      "distance": 1.41
     },
     {
-      "a": "bold-square",
-      "b": "strikethrough-square",
+      "a": "lifeguard-tower-sparkle",
+      "b": "lifeguard-tower-upload",
       "distance": 1.41
     },
     {
-      "a": "no-headphones-square",
-      "b": "crosswalk-square",
+      "a": "raft-sparkle",
+      "b": "raft-upload",
       "distance": 1.41
     },
     {
-      "a": "no-photos-square",
-      "b": "crosswalk-square",
+      "a": "quiver-sparkle",
+      "b": "quiver-upload",
       "distance": 1.41
     },
     {
-      "a": "crosswalk-square",
-      "b": "story-ring-square",
+      "a": "lighter-sparkle",
+      "b": "lighter-upload",
       "distance": 1.41
     }
   ],
   "dropped": [
-    "duplicate-circle",
-    "duplicate-square",
-    "trash-restore-circle",
-    "trash-restore-square",
-    "multi-select-circle",
-    "multi-select-square",
-    "tap-circle",
-    "tap-square",
-    "arrow-right-short-circle",
-    "arrow-right-short-square",
-    "phone-circle",
-    "phone-square",
-    "folder-shared-circle",
-    "folder-shared-square",
-    "book-circle",
-    "book-square",
-    "database-circle",
-    "database-square",
-    "help-circle",
-    "help-square",
-    "bookmark-circle",
-    "bookmark-square",
-    "image-circle",
-    "image-square",
-    "trail-circle",
-    "trail-square",
-    "street-lamp-circle",
-    "street-lamp-square",
-    "pins-circle",
-    "pins-square",
-    "waypoint-circle",
-    "waypoint-square",
-    "one-way-circle",
-    "one-way-square",
-    "bell-snooze-circle",
-    "bell-snooze-square",
-    "notification-stack-circle",
-    "notification-stack-square",
-    "bell-minus-circle",
-    "bell-minus-square",
-    "bell-dot-circle",
-    "bell-dot-square",
-    "bell-ring-circle",
-    "bell-ring-square",
-    "bell-plus-circle",
-    "bell-plus-square",
-    "envelope-dot-circle",
-    "envelope-dot-square",
-    "hot-surface-circle",
-    "hot-surface-square",
-    "magnetic-field-circle",
-    "magnetic-field-square",
-    "live-badge-circle",
-    "live-badge-square",
-    "leaderboard-circle",
-    "leaderboard-square",
-    "heart-burst-circle",
-    "heart-burst-square",
-    "star-rating-circle",
-    "star-rating-square",
-    "thumbs-up-circle",
-    "thumbs-up-square",
-    "trophy-circle",
-    "trophy-square",
-    "medal-circle",
-    "medal-square",
-    "highlighter-circle",
-    "highlighter-square",
-    "compare-circle",
-    "move-circle",
-    "eye-circle",
-    "crosshair-circle",
-    "cursor-help-circle",
-    "no-headphones-circle",
-    "no-photos-circle",
-    "crosswalk-circle",
-    "detour-circle",
-    "compass-circle",
-    "no-weapons-circle",
-    "story-ring-circle",
-    "copyright-circle",
-    "registered-circle",
-    "alert-diamond-circle",
-    "heart-plus-circle",
-    "letter-b-circle",
-    "letter-o-circle",
-    "letter-m-circle",
-    "heading-circle",
-    "strikethrough-circle",
-    "arrow-wave-right-square",
-    "arrow-wave-right-circle",
-    "italic-circle",
-    "compare-square",
-    "move-square",
-    "eye-square",
-    "crosshair-square",
-    "cursor-help-square",
-    "no-headphones-square",
-    "no-photos-square",
-    "detour-square",
-    "compass-square",
-    "no-weapons-square",
-    "story-ring-square",
-    "copyright-square",
-    "registered-square",
-    "alert-diamond-square",
-    "heart-plus-square",
-    "letter-b-square",
-    "letter-o-square",
-    "letter-m-square",
-    "heading-square",
-    "italic-square",
-    "strikethrough-square"
+    "aquarium-upload",
+    "punch-card-leaf",
+    "rubber-stamp-leaf",
+    "gift-bag-leaf",
+    "wedding-dress-search",
+    "wedding-dress-clock",
+    "wedding-dress-gear",
+    "wedding-dress-bolt",
+    "wedding-dress-heart",
+    "wedding-dress-star",
+    "wedding-dress-alert",
+    "wedding-dress-cloud",
+    "wedding-dress-chat",
+    "wedding-dress-download",
+    "wedding-dress-leaf",
+    "wedding-dress-pencil",
+    "wedding-dress-trash",
+    "wedding-dress-calendar",
+    "wedding-dress-question",
+    "wedding-dress-bookmark",
+    "wedding-dress-crown",
+    "wedding-dress-hourglass",
+    "wedding-dress-cursor",
+    "wedding-dress-camera",
+    "wedding-dress-filter",
+    "wedding-dress-stats",
+    "wedding-dress-checkbox",
+    "buckle-search",
+    "buckle-clock",
+    "buckle-shield",
+    "buckle-gear",
+    "buckle-star",
+    "buckle-cloud",
+    "buckle-chat",
+    "buckle-download",
+    "buckle-leaf",
+    "buckle-pencil",
+    "buckle-upload",
+    "buckle-sparkle",
+    "buckle-calendar",
+    "buckle-question",
+    "buckle-crown",
+    "buckle-trophy",
+    "buckle-cursor",
+    "buckle-camera",
+    "buckle-stats",
+    "buckle-checkbox",
+    "ear-muffs-leaf",
+    "slipper-stats",
+    "slipper-leaf",
+    "sombrero-stats",
+    "sombrero-leaf",
+    "wig-leaf",
+    "potato-chips-search",
+    "potato-chips-clock",
+    "potato-chips-shield",
+    "potato-chips-gear",
+    "potato-chips-bolt",
+    "potato-chips-heart",
+    "potato-chips-star",
+    "potato-chips-alert",
+    "potato-chips-cloud",
+    "potato-chips-chat",
+    "potato-chips-download",
+    "potato-chips-trash",
+    "potato-chips-calendar",
+    "potato-chips-bookmark",
+    "potato-chips-question",
+    "potato-chips-crown",
+    "potato-chips-leaf",
+    "potato-chips-trophy",
+    "potato-chips-cursor",
+    "potato-chips-camera",
+    "potato-chips-stats",
+    "potato-chips-checkbox",
+    "coffee-pot-leaf",
+    "lemon-squeezer-leaf",
+    "waffle-iron-stats",
+    "waffle-iron-leaf",
+    "chess-clock-leaf",
+    "nesting-doll-leaf",
+    "nail-clipper-leaf",
+    "razor-blade-clock",
+    "razor-blade-shield",
+    "razor-blade-gear",
+    "razor-blade-bolt",
+    "razor-blade-heart",
+    "razor-blade-star",
+    "razor-blade-alert",
+    "razor-blade-user",
+    "razor-blade-cloud",
+    "razor-blade-chat",
+    "razor-blade-leaf",
+    "razor-blade-pencil",
+    "razor-blade-upload",
+    "razor-blade-sparkle",
+    "razor-blade-trash",
+    "razor-blade-calendar",
+    "razor-blade-bookmark",
+    "razor-blade-crown",
+    "razor-blade-trophy",
+    "razor-blade-hourglass",
+    "razor-blade-camera",
+    "razor-blade-filter",
+    "razor-blade-stats",
+    "match-box-leaf",
+    "pottery-leaf",
+    "raft-search",
+    "raft-shield",
+    "gramophone-upload",
+    "guitar-pick-search",
+    "guitar-pick-clock",
+    "guitar-pick-bolt",
+    "guitar-pick-heart",
+    "guitar-pick-star",
+    "guitar-pick-chat",
+    "guitar-pick-download",
+    "guitar-pick-pencil",
+    "guitar-pick-trash",
+    "guitar-pick-calendar",
+    "guitar-pick-question",
+    "guitar-pick-bookmark",
+    "guitar-pick-upload",
+    "guitar-pick-crown",
+    "guitar-pick-leaf",
+    "guitar-pick-hourglass",
+    "guitar-pick-cursor",
+    "guitar-pick-camera",
+    "guitar-pick-filter",
+    "guitar-pick-stats",
+    "guitar-pick-checkbox",
+    "jukebox-leaf",
+    "music-box-leaf",
+    "music-box-upload",
+    "pan-flute-upload",
+    "saxophone-leaf",
+    "duffel-bag-search",
+    "duffel-bag-clock",
+    "duffel-bag-shield",
+    "duffel-bag-gear",
+    "duffel-bag-bolt",
+    "duffel-bag-heart",
+    "duffel-bag-star",
+    "duffel-bag-alert",
+    "duffel-bag-user",
+    "duffel-bag-cloud",
+    "duffel-bag-chat",
+    "duffel-bag-download",
+    "duffel-bag-pencil",
+    "duffel-bag-leaf",
+    "duffel-bag-calendar",
+    "duffel-bag-upload",
+    "duffel-bag-bookmark",
+    "duffel-bag-question",
+    "duffel-bag-trash",
+    "duffel-bag-hourglass",
+    "duffel-bag-trophy",
+    "duffel-bag-cursor",
+    "duffel-bag-filter",
+    "duffel-bag-stats",
+    "duffel-bag-checkbox",
+    "handcuffs-leaf",
+    "saddle-leaf",
+    "trampoline-leaf",
+    "pocket-watch-leaf",
+    "hacksaw-leaf",
+    "swiss-knife-leaf",
+    "toolbelt-leaf",
+    "toolbelt-upload",
+    "raft-clock",
+    "raft-bolt",
+    "raft-gear",
+    "raft-heart",
+    "raft-star",
+    "raft-alert",
+    "raft-cloud",
+    "raft-chat",
+    "raft-download",
+    "raft-pencil",
+    "raft-leaf",
+    "propeller-leaf",
+    "tricycle-leaf",
+    "wagon-upload",
+    "raft-trash",
+    "raft-calendar",
+    "raft-bookmark",
+    "raft-question",
+    "raft-crown",
+    "raft-hourglass",
+    "raft-cursor",
+    "raft-camera",
+    "raft-filter",
+    "raft-stats",
+    "raft-checkbox",
+    "deck-chair-leaf",
+    "trunk-upload",
+    "wedding-dress-bell",
+    "wedding-dress-moon",
+    "wedding-dress-trophy",
+    "buckle-moon",
+    "potato-chips-bell",
+    "potato-chips-moon",
+    "hacksaw-trophy",
+    "razor-blade-bell",
+    "razor-blade-moon",
+    "guitar-pick-bell",
+    "guitar-pick-moon",
+    "guitar-pick-trophy",
+    "duffel-bag-bell",
+    "duffel-bag-moon",
+    "raft-bell",
+    "raft-moon",
+    "raft-trophy",
+    "wedding-dress-fire",
+    "potato-chips-fire",
+    "razor-blade-fire",
+    "guitar-pick-fire",
+    "duffel-bag-fire",
+    "raft-fire",
+    "lobster-upload",
+    "rubber-stamp-upload",
+    "dreidel-upload",
+    "wedding-dress-shield",
+    "wedding-dress-pin",
+    "wedding-dress-user",
+    "wedding-dress-sparkle",
+    "wedding-dress-flag",
+    "origami-upload",
+    "chalk-upload",
+    "pencil-sharpener-upload",
+    "beret-upload",
+    "buckle-pin",
+    "buckle-bell",
+    "ear-muffs-upload",
+    "hand-fan-upload",
+    "hair-clip-upload",
+    "monocle-upload",
+    "slipper-upload",
+    "sombrero-upload",
+    "visor-upload",
+    "wig-upload",
+    "zipper-upload",
+    "potato-chips-pin",
+    "potato-chips-sparkle",
+    "potato-chips-flag",
+    "cake-pop-upload",
+    "cleaver-upload",
+    "corn-dog-upload",
+    "lemon-squeezer-upload",
+    "measuring-spoon-upload",
+    "pickle-upload",
+    "pretzel-upload",
+    "walnut-upload",
+    "wok-upload",
+    "nesting-doll-upload",
+    "squirt-gun-upload",
+    "hacksaw-shield",
+    "nail-clipper-upload",
+    "razor-blade-flag",
+    "shaving-brush-upload",
+    "walking-stick-upload",
+    "hose-reel-upload",
+    "match-box-upload",
+    "mouse-trap-upload",
+    "oil-lamp-upload",
+    "pottery-upload",
+    "toilet-brush-upload",
+    "banjo-upload",
+    "clarinet-upload",
+    "flute-upload",
+    "guitar-pick-pin",
+    "guitar-pick-flag",
+    "saxophone-upload",
+    "eye-patch-upload",
+    "mustache-upload",
+    "duffel-bag-pin",
+    "duffel-bag-flag",
+    "duffel-bag-sparkle",
+    "handcuffs-upload",
+    "hockey-mask-upload",
+    "saddle-upload",
+    "trampoline-upload",
+    "pocket-watch-upload",
+    "blowtorch-upload",
+    "chainsaw-upload",
+    "hacksaw-upload",
+    "swiss-knife-upload",
+    "raft-pin",
+    "raft-user",
+    "propeller-upload",
+    "tricycle-upload",
+    "raft-sparkle",
+    "raft-upload",
+    "raft-flag",
+    "lifeguard-tower-upload",
+    "quiver-upload",
+    "lighter-upload"
   ],
   "byCategory": {
     "accessibility": 53,
     "actions": 66,
     "ai": 572,
-    "animals": 1968,
+    "animals": 2065,
     "arrows": 186,
     "buildings": 1728,
-    "business": 1787,
-    "celebration": 1577,
+    "business": 1850,
+    "celebration": 1642,
     "commerce": 1126,
     "communication": 1517,
     "data": 1535,
-    "design": 950,
+    "design": 982,
     "development": 615,
     "devices": 2027,
-    "education": 1329,
+    "education": 1393,
     "emoji": 72,
     "energy": 941,
-    "fashion": 1937,
+    "fashion": 2327,
     "files": 570,
     "finance": 1663,
-    "food": 5298,
-    "gaming": 1939,
-    "health": 1991,
-    "home": 3981,
+    "food": 5719,
+    "gaming": 2034,
+    "health": 2092,
+    "home": 4204,
     "interface": 1336,
     "logistics": 1001,
     "maps": 622,
-    "media": 1967,
+    "media": 2227,
     "nature": 2279,
     "navigation": 62,
     "notifications": 184,
-    "people": 1093,
+    "people": 1157,
     "science": 1349,
-    "security": 753,
+    "security": 817,
     "social": 495,
-    "sports": 2407,
+    "sports": 2533,
     "text": 380,
-    "time": 493,
-    "tools": 1914,
-    "transport": 2253,
-    "travel": 1803,
+    "time": 524,
+    "tools": 2101,
+    "transport": 2380,
+    "travel": 1901,
     "weather": 1391
   }
 }
