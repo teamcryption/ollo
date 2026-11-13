@@ -880,3 +880,9 @@ raised-bed
 anthill
 awl
 origami-crane
+townhouse
+bunker
+neck-brace
+nebulizer
+garden-pavilion
+clock-tower

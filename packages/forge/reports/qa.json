@@ -1,182 +1,140 @@
 {
-  "generatedAt": "2026-11-13T08:21:37.253Z",
-  "icons": 65302,
-  "files": 326510,
+  "generatedAt": "2026-11-13T08:41:54.245Z",
+  "icons": 65655,
+  "files": 328275,
   "errors": [],
   "warnings": [
-    "pet-collar-camera: grid: outside the 3-21 live area (3.00, 4.50, 22.00, 20.50)",
-    "scratching-post-camera: grid: outside the 3-21 live area (3.00, 3.50, 22.00, 20.50)",
-    "skylight-camera: grid: outside the 3-21 live area (3.10, 3.50, 22.00, 20.50)",
-    "pergola-camera: grid: outside the 3-21 live area (3.00, 5.00, 22.00, 20.50)",
-    "obelisk-camera: grid: outside the 3-21 live area (5.00, 3.50, 22.00, 20.50)",
-    "totem-pole-camera: grid: outside the 3-21 live area (3.00, 3.50, 22.00, 20.50)",
-    "watermill-camera: grid: outside the 3-21 live area (3.00, 6.21, 22.00, 20.50)",
-    "aqueduct-camera: grid: outside the 3-21 live area (3.00, 6.00, 22.00, 20.50)",
-    "portcullis-camera: grid: outside the 3-21 live area (3.50, 3.50, 22.00, 20.50)",
-    "bell-tower-camera: grid: outside the 3-21 live area (5.70, 3.69, 22.00, 20.50)",
-    "spur-camera: grid: outside the 3-21 live area (3.00, 7.00, 22.00, 20.50)",
-    "trebuchet-camera: grid: outside the 3-21 live area (3.00, 4.00, 22.00, 20.50)",
-    "jack-in-the-box-camera: grid: outside the 3-21 live area (3.00, 4.00, 22.00, 20.50)",
-    "kaleidoscope-camera: grid: outside the 3-21 live area (3.00, 3.50, 22.00, 20.50)",
-    "origami-crane-camera: grid: outside the 3-21 live area (3.22, 4.20, 22.00, 20.50)",
-    "peephole-camera: grid: outside the 3-21 live area (4.50, 3.50, 22.00, 20.50)",
-    "mail-slot-camera: grid: outside the 3-21 live area (3.00, 6.00, 22.00, 20.50)",
-    "lyre-camera: grid: outside the 3-21 live area (3.68, 4.50, 22.00, 20.50)",
-    "raised-bed-camera: grid: outside the 3-21 live area (3.00, 5.50, 22.00, 20.50)",
-    "anthill-camera: grid: outside the 3-21 live area (3.00, 9.00, 22.00, 20.50)",
-    "scythe-camera: grid: outside the 3-21 live area (3.00, 4.00, 22.00, 20.50)",
-    "awl-camera: grid: outside the 3-21 live area (7.00, 3.50, 22.00, 20.50)",
-    "rasp-camera: grid: outside the 3-21 live area (7.50, 3.50, 22.00, 20.50)"
+    "garden-pavilion-camera: grid: outside the 3-21 live area (3.00, 3.50, 22.00, 20.50)",
+    "townhouse-camera: grid: outside the 3-21 live area (3.00, 5.00, 22.00, 20.50)",
+    "chalet-camera: grid: outside the 3-21 live area (3.33, 3.78, 22.00, 20.50)",
+    "mansion-camera: grid: outside the 3-21 live area (3.00, 3.50, 22.00, 20.50)",
+    "palace-camera: grid: outside the 3-21 live area (3.00, 5.50, 22.00, 20.50)",
+    "bunker-camera: grid: outside the 3-21 live area (3.00, 8.50, 22.00, 20.50)",
+    "hangar-camera: grid: outside the 3-21 live area (3.00, 5.50, 22.00, 20.50)",
+    "planetarium-camera: grid: outside the 3-21 live area (3.00, 5.00, 22.00, 20.50)",
+    "cinema-camera: grid: outside the 3-21 live area (3.00, 4.50, 22.00, 20.50)",
+    "treehouse-camera: grid: outside the 3-21 live area (4.50, 3.50, 22.00, 20.50)",
+    "shed-camera: grid: outside the 3-21 live area (3.00, 6.15, 22.00, 20.50)",
+    "outhouse-camera: grid: outside the 3-21 live area (4.50, 3.73, 22.00, 20.50)",
+    "advertising-column-camera: grid: outside the 3-21 live area (5.00, 3.50, 22.00, 20.50)",
+    "boathouse-camera: grid: outside the 3-21 live area (3.00, 4.76, 22.00, 20.50)",
+    "cathedral-camera: grid: outside the 3-21 live area (3.00, 3.50, 22.00, 20.50)",
+    "stilt-house-camera: grid: outside the 3-21 live area (3.00, 3.50, 22.00, 20.50)",
+    "neck-brace-camera: grid: outside the 3-21 live area (3.50, 8.00, 22.00, 20.50)",
+    "nebulizer-camera: grid: outside the 3-21 live area (3.00, 3.50, 22.00, 20.50)",
+    "glucometer-camera: grid: outside the 3-21 live area (4.00, 3.00, 22.00, 20.50)",
+    "guardhouse-camera: grid: outside the 3-21 live area (3.00, 6.50, 22.00, 20.50)",
+    "gas-station-camera: grid: outside the 3-21 live area (3.00, 4.00, 22.00, 20.50)",
+    "subway-entrance-camera: grid: outside the 3-21 live area (3.00, 3.50, 22.00, 20.50)",
+    "houseboat-camera: grid: outside the 3-21 live area (3.00, 6.15, 22.00, 20.50)"
   ],
   "duplicates": [
     {
-      "a": "pet-collar-sparkle",
-      "b": "pet-collar-upload",
+      "a": "garden-pavilion-pencil",
+      "b": "garden-pavilion-leaf",
       "distance": 1.41
     },
     {
-      "a": "skylight-sparkle",
-      "b": "skylight-upload",
+      "a": "chalet-pencil",
+      "b": "chalet-leaf",
       "distance": 1.41
     },
     {
-      "a": "pergola-sparkle",
-      "b": "pergola-upload",
+      "a": "treehouse-sparkle",
+      "b": "treehouse-upload",
       "distance": 1.41
     },
     {
-      "a": "totem-pole-sparkle",
-      "b": "totem-pole-upload",
+      "a": "outhouse-pencil",
+      "b": "outhouse-leaf",
       "distance": 1.41
     },
     {
-      "a": "watermill-sparkle",
-      "b": "watermill-upload",
+      "a": "advertising-column-sparkle",
+      "b": "advertising-column-upload",
       "distance": 1.41
     },
     {
-      "a": "aqueduct-pencil",
-      "b": "aqueduct-leaf",
+      "a": "boathouse-pencil",
+      "b": "boathouse-leaf",
       "distance": 1.41
     },
     {
-      "a": "aqueduct-sparkle",
-      "b": "aqueduct-upload",
+      "a": "boathouse-sparkle",
+      "b": "boathouse-upload",
       "distance": 1.41
     },
     {
-      "a": "portcullis-pencil",
-      "b": "portcullis-leaf",
+      "a": "stilt-house-sparkle",
+      "b": "stilt-house-upload",
       "distance": 1.41
     },
     {
-      "a": "jack-in-the-box-sparkle",
-      "b": "jack-in-the-box-upload",
+      "a": "neck-brace-pencil",
+      "b": "neck-brace-leaf",
       "distance": 1.41
     },
     {
-      "a": "peephole-pencil",
-      "b": "peephole-leaf",
+      "a": "glucometer-sparkle",
+      "b": "glucometer-upload",
       "distance": 1.41
     },
     {
-      "a": "peephole-sparkle",
-      "b": "peephole-upload",
+      "a": "guardhouse-sparkle",
+      "b": "guardhouse-upload",
       "distance": 1.41
     },
     {
-      "a": "mail-slot-sparkle",
-      "b": "mail-slot-upload",
+      "a": "gas-station-sparkle",
+      "b": "gas-station-upload",
       "distance": 1.41
     },
     {
-      "a": "lyre-pencil",
-      "b": "lyre-leaf",
+      "a": "subway-entrance-sparkle",
+      "b": "subway-entrance-upload",
       "distance": 1.41
     },
     {
-      "a": "raised-bed-pencil",
-      "b": "raised-bed-leaf",
+      "a": "houseboat-pencil",
+      "b": "houseboat-leaf",
       "distance": 1.41
     },
     {
-      "a": "anthill-pencil",
-      "b": "anthill-leaf",
+      "a": "houseboat-sparkle",
+      "b": "houseboat-upload",
       "distance": 1.41
     },
     {
-      "a": "obelisk-sparkle",
-      "b": "obelisk-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "spur-sparkle",
-      "b": "spur-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "kaleidoscope-sparkle",
-      "b": "kaleidoscope-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "origami-crane-sparkle",
-      "b": "origami-crane-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "raised-bed-sparkle",
-      "b": "raised-bed-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "scythe-sparkle",
-      "b": "scythe-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "awl-sparkle",
-      "b": "awl-upload",
-      "distance": 1.41
-    },
-    {
-      "a": "rasp-sparkle",
-      "b": "rasp-upload",
+      "a": "neck-brace-sparkle",
+      "b": "neck-brace-upload",
       "distance": 1.41
     }
   ],
   "dropped": [
-    "pet-collar-upload",
-    "skylight-upload",
-    "pergola-upload",
-    "totem-pole-upload",
-    "watermill-upload",
-    "aqueduct-leaf",
-    "aqueduct-upload",
-    "portcullis-leaf",
-    "jack-in-the-box-upload",
-    "peephole-leaf",
-    "peephole-upload",
-    "mail-slot-upload",
-    "lyre-leaf",
-    "raised-bed-leaf",
-    "anthill-leaf",
-    "obelisk-upload",
-    "spur-upload",
-    "kaleidoscope-upload",
-    "origami-crane-upload",
-    "raised-bed-upload",
-    "scythe-upload",
-    "awl-upload",
-    "rasp-upload"
+    "garden-pavilion-leaf",
+    "chalet-leaf",
+    "treehouse-upload",
+    "outhouse-leaf",
+    "advertising-column-upload",
+    "boathouse-leaf",
+    "boathouse-upload",
+    "stilt-house-upload",
+    "neck-brace-leaf",
+    "glucometer-upload",
+    "guardhouse-upload",
+    "gas-station-upload",
+    "subway-entrance-upload",
+    "houseboat-leaf",
+    "houseboat-upload",
+    "neck-brace-upload"
   ],
   "byCategory": {
     "accessibility": 74,
     "actions": 69,
     "ai": 618,
-    "animals": 2521,
+    "animals": 2489,
     "arrows": 188,
-    "buildings": 2040,
+    "buildings": 2432,
     "business": 1892,
     "celebration": 1786,
     "commerce": 1168,
@@ -188,29 +146,29 @@
     "education": 1425,
     "emoji": 73,
     "energy": 968,
-    "fashion": 2387,
+    "fashion": 2355,
     "files": 600,
     "finance": 1674,
     "food": 6416,
-    "gaming": 2460,
-    "health": 2225,
+    "gaming": 2396,
+    "health": 2321,
     "home": 4836,
     "interface": 1461,
     "logistics": 1033,
     "maps": 667,
-    "media": 2471,
-    "nature": 2543,
+    "media": 2439,
+    "nature": 2480,
     "navigation": 63,
     "notifications": 184,
     "people": 1134,
     "science": 1422,
-    "security": 887,
+    "security": 919,
     "social": 495,
     "sports": 2819,
     "text": 385,
     "time": 605,
-    "tools": 2436,
-    "transport": 2768,
+    "tools": 2404,
+    "transport": 2863,
     "travel": 2071,
     "weather": 1499
   }
