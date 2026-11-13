@@ -1728,6 +1728,113 @@ export default {
   'yoga-mat': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'yurt': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
   'zoom-in': { badges: ['add', 'check', 'close', 'remove', 'alert'] }, // vb
+  'alert-octagon': { containers: ['circle', 'square'] }, // vc
+  'arrow-arc-right': { containers: ['circle', 'square'] }, // vc
+  'arrow-bar-right': { containers: ['circle', 'square'] }, // vc
+  'arrow-big-right': { containers: ['circle', 'square'] }, // vc
+  'arrow-dashed-right': { containers: ['circle', 'square'] }, // vc
+  'arrow-from-bar-right': { containers: ['circle', 'square'] }, // vc
+  'arrow-from-dot-right': { containers: ['circle', 'square'] }, // vc
+  'arrow-loop': { containers: ['circle', 'square'] }, // vc
+  'arrow-right': { containers: ['circle', 'square'] }, // vc
+  'arrow-step-right': { containers: ['circle', 'square'] }, // vc
+  'arrow-to-dot-right': { containers: ['circle', 'square'] }, // vc
+  'arrow-turn-right': { containers: ['circle', 'square'] }, // vc
+  'arrow-up-right': { containers: ['circle', 'square'] }, // vc
+  'arrow-uturn-left': { containers: ['circle', 'square'] }, // vc
+  'arrow-zigzag-right': { containers: ['circle', 'square'] }, // vc
+  'arrows-converge': { containers: ['circle'] }, // vc
+  'arrows-diagonal': { containers: ['circle', 'square'] }, // vc
+  'arrows-diverge': { containers: ['square'] }, // vc
+  'arrows-double-right': { containers: ['circle', 'square'] }, // vc
+  'arrows-left-right': { containers: ['circle', 'square'] }, // vc
+  'arrows-merge': { containers: ['circle', 'square'] }, // vc
+  'arrows-split-right': { containers: ['circle', 'square'] }, // vc
+  'backspace': { containers: ['circle', 'square'] }, // vc
+  'barrier': { containers: ['circle', 'square'] }, // vc
+  'bold': { containers: ['circle', 'square'] }, // vc
+  'caret-right': { containers: ['circle', 'square'] }, // vc
+  'caret-up-down': { containers: ['circle'] }, // vc
+  'chevron-right': { containers: ['circle', 'square'] }, // vc
+  'chevrons-right': { containers: ['circle', 'square'] }, // vc
+  'chevrons-up-down': { containers: ['circle', 'square'] }, // vc
+  'clear-format': { containers: ['circle', 'square'] }, // vc
+  'clipboard': { containers: ['circle', 'square'] }, // vc
+  'comment-mention': { containers: ['circle', 'square'] }, // vc
+  'comment-smile': { containers: ['circle', 'square'] }, // vc
+  'corner-down-right': { containers: ['circle', 'square'] }, // vc
+  'crosswalk': { containers: ['square'] }, // vc
+  'cursor-wait': { containers: ['circle', 'square'] }, // vc
+  'drop-cap': { containers: ['circle', 'square'] }, // vc
+  'elevation': { containers: ['circle', 'square'] }, // vc
+  'event-reminder': { containers: ['circle', 'square'] }, // vc
+  'expand': { containers: ['circle', 'square'] }, // vc
+  'file': { containers: ['circle', 'square'] }, // vc
+  'file-text': { containers: ['circle', 'square'] }, // vc
+  'find-replace': { containers: ['circle', 'square'] }, // vc
+  'fit-screen': { containers: ['circle', 'square'] }, // vc
+  'flag-finish': { containers: ['circle', 'square'] }, // vc
+  'folder-plain': { containers: ['circle', 'square'] }, // vc
+  'font': { containers: ['circle', 'square'] }, // vc
+  'hashtag': { containers: ['circle', 'square'] }, // vc
+  'heart-crack': { containers: ['circle', 'square'] }, // vc
+  'highlight-text': { containers: ['circle', 'square'] }, // vc
+  'inbox-badge': { containers: ['circle', 'square'] }, // vc
+  'indent': { containers: ['circle', 'square'] }, // vc
+  'infinity': { containers: ['circle', 'square'] }, // vc
+  'letter-spacing': { containers: ['circle', 'square'] }, // vc
+  'line-height': { containers: ['circle', 'square'] }, // vc
+  'list': { containers: ['circle', 'square'] }, // vc
+  'list-numbered': { containers: ['circle', 'square'] }, // vc
+  'location-radius': { containers: ['circle', 'square'] }, // vc
+  'lock': { containers: ['circle', 'square'] }, // vc
+  'logout': { containers: ['circle', 'square'] }, // vc
+  'magic-wand': { containers: ['circle', 'square'] }, // vc
+  'mail-open': { containers: ['circle', 'square'] }, // vc
+  'map': { containers: ['circle', 'square'] }, // vc
+  'note': { containers: ['circle', 'square'] }, // vc
+  'paragraph': { containers: ['circle', 'square'] }, // vc
+  'pilcrow': { containers: ['circle', 'square'] }, // vc
+  'push-notification': { containers: ['circle', 'square'] }, // vc
+  'quote': { containers: ['circle', 'square'] }, // vc
+  'railway-crossing': { containers: ['circle', 'square'] }, // vc
+  'reorder': { containers: ['circle', 'square'] }, // vc
+  'repeat': { containers: ['circle', 'square'] }, // vc
+  'reply': { containers: ['circle', 'square'] }, // vc
+  'repost': { containers: ['circle', 'square'] }, // vc
+  'resize-corner': { containers: ['circle', 'square'] }, // vc
+  'road': { containers: ['circle', 'square'] }, // vc
+  'rotate-cw': { containers: ['circle', 'square'] }, // vc
+  'roundabout': { containers: ['circle', 'square'] }, // vc
+  'scissors': { containers: ['circle', 'square'] }, // vc
+  'select-all': { containers: ['circle', 'square'] }, // vc
+  'select-area': { containers: ['circle', 'square'] }, // vc
+  'sentence-case': { containers: ['circle', 'square'] }, // vc
+  'settings': { containers: ['circle', 'square'] }, // vc
+  'shield': { containers: ['circle', 'square'] }, // vc
+  'shuffle': { containers: ['circle', 'square'] }, // vc
+  'signpost': { containers: ['circle', 'square'] }, // vc
+  'snackbar': { containers: ['circle', 'square'] }, // vc
+  'stop-sign': { containers: ['circle', 'square'] }, // vc
+  'superscript': { containers: ['circle', 'square'] }, // vc
+  'swap-horizontal': { containers: ['circle', 'square'] }, // vc
+  'swipe': { containers: ['circle', 'square'] }, // vc
+  'text-align-left': { containers: ['circle', 'square'] }, // vc
+  'text-box': { containers: ['circle', 'square'] }, // vc
+  'text-color': { containers: ['circle', 'square'] }, // vc
+  'text-rtl': { containers: ['circle', 'square'] }, // vc
+  'text-size': { containers: ['circle', 'square'] }, // vc
+  'text-wrap': { containers: ['circle', 'square'] }, // vc
+  'toll-booth': { containers: ['circle', 'square'] }, // vc
+  'traffic-cone': { containers: ['circle', 'square'] }, // vc
+  'translate': { containers: ['circle', 'square'] }, // vc
+  'trend-up': { containers: ['circle', 'square'] }, // vc
+  'underline': { containers: ['circle', 'square'] }, // vc
+  'undo': { containers: ['circle', 'square'] }, // vc
+  'uppercase': { containers: ['circle', 'square'] }, // vc
+  'verified': { containers: ['circle', 'square'] }, // vc
+  'window': { containers: ['circle', 'square'] }, // vc
+  'yield-sign': { containers: ['circle', 'square'] }, // vc
 };
 
 export { OBJ, FULL };
