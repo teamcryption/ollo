@@ -252,7 +252,9 @@ const hairline = fs.existsSync(hlBundle) ? JSON.parse(fs.readFileSync(hlBundle, 
 /** Fill and Duotone from the Stroke still (the card rect, first, keeps the ground):
  *  Fill = faces in {{primary}}, lines and dots knocked out in {{background}};
  *  Duotone = faces tinted {{secondary}}, ink lines kept. */
-function hlStyles(stroke) {
+function hlStyles(raw) {
+  // Geometry at 1 decimal (invisible at 400×320) keeps illustrations.json small; opacities stay exact.
+  const stroke = raw.replace(/ (d|points|cx|cy|rx|ry)="([^"]*)"/g, (_, a, v) => ` ${a}="${v.replace(/-?\d+\.\d+/g, (n) => String(Math.round(n * 10) / 10))}"`);
   const i = stroke.indexOf('/>') + 2, head = stroke.slice(0, i), body = stroke.slice(i);
   const fill = body
     .replace(/fill="\{\{ink\}\}"( fill-opacity="[^"]*")?/g, 'fill="@BG@"')
@@ -269,7 +271,9 @@ if (hairline) {
     const name = f.file.replace(/\.js$/, '');
     const svgFile = path.join(HL_DIR, 'dist', `${name}.svg`);
     if (!fs.existsSync(svgFile) || !hairline.figures[name]) continue;
-    illustrations.push({ n: name, t: f.t, c: f.c, g: f.g ?? '', types: hlStyles(fs.readFileSync(svgFile, 'utf8')), motion: null, live: 1 });
+    // Stroke only: the site derives Fill and Duotone in the browser (lib/data.ts hairlineStyles), which keeps
+    // illustrations.json to a third of the size.
+    illustrations.push({ n: name, t: f.t, c: f.c, g: f.g ?? '', types: { stroke: hlStyles(fs.readFileSync(svgFile, 'utf8')).stroke }, motion: null, live: 1 });
   }
 }
 

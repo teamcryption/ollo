@@ -131,7 +131,26 @@ export const loadMotion = () =>
     for (const i of index.icons) if (i.mi !== undefined) out[i.n] = table[i.mi];
     return out;
   }));
-export const loadIllustrations = () => load<Illustration[]>(`${DATA}illustrations.json`);
+/** Fill and Duotone of a live (Hairline) illustration, derived from its Stroke still — the data
+ *  ships Stroke only to keep illustrations.json small. Mirrors hlStyles in scripts/build-data.mjs:
+ *  Fill = faces in {{primary}}, lines and dots knocked out in {{background}};
+ *  Duotone = faces tinted {{secondary}}, ink lines kept. The card rect (first element) keeps the ground. */
+export function hairlineStyles(stroke: string): { fill: string; duotone: string } {
+  const i = stroke.indexOf('/>') + 2, head = stroke.slice(0, i), body = stroke.slice(i);
+  const fill = body
+    .replace(/fill="\{\{ink\}\}"( fill-opacity="[^"]*")?/g, 'fill="@BG@"')
+    .replace(/fill="\{\{background\}\}"/g, 'fill="{{primary}}"')
+    .replace(/fill="@BG@"/g, 'fill="{{background}}"')
+    .replace(/stroke="\{\{ink\}\}"( stroke-opacity="[^"]*")?/g, 'stroke="{{background}}"');
+  const duotone = body.replace(/fill="\{\{background\}\}"/g, 'fill="{{secondary}}"');
+  return { fill: head + fill, duotone: head + duotone };
+}
+let illPromise: Promise<Illustration[]> | null = null;
+export const loadIllustrations = () =>
+  (illPromise ??= load<Illustration[]>(`${DATA}illustrations.json`).then((items) => {
+    for (const it of items) if (it.live && it.types.stroke && !it.types.fill) Object.assign(it.types, hairlineStyles(it.types.stroke));
+    return items;
+  }));
 /** The live illustrations' engine (the Hairline kernel) and each figure's code. */
 export const loadHairline = () => load<{ kernel: string; figures: Record<string, { code: string }> }>(`${DATA}hairline.json`);
 
