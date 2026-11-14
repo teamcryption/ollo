@@ -3868,5 +3868,239 @@
     "c": "fitness",
     "t": "Parallel bars",
     "g": "parallel bars dip gym"
+  },
+  {
+    "file": "megaphone.js",
+    "c": "marketing",
+    "t": "Megaphone",
+    "g": "megaphone announce campaign loud"
+  },
+  {
+    "file": "hospitalscreen.js",
+    "c": "health",
+    "t": "Ward screen",
+    "g": "ward screen folding privacy panels"
+  },
+  {
+    "file": "crashcart.js",
+    "c": "health",
+    "t": "Crash cart",
+    "g": "crash cart drawers emergency"
+  },
+  {
+    "file": "spinbike.js",
+    "c": "fitness",
+    "t": "Spin bike",
+    "g": "spin bike studio cycle"
+  },
+  {
+    "file": "protractor.js",
+    "c": "education",
+    "t": "Geometry set",
+    "g": "geometry set compass protractor"
+  },
+  {
+    "file": "dicecup.js",
+    "c": "gaming",
+    "t": "Dice cup",
+    "g": "dice cup shake table game"
+  },
+  {
+    "file": "trophycase.js",
+    "c": "sports",
+    "t": "Medal stand",
+    "g": "medal stand podium winners"
+  },
+  {
+    "file": "tealights.js",
+    "c": "home",
+    "t": "Candle tray",
+    "g": "candle tray tealights"
+  },
+  {
+    "file": "pressbrake.js",
+    "c": "manufacturing",
+    "t": "Press brake",
+    "g": "press brake sheet metal bend"
+  },
+  {
+    "file": "spoolwinder.js",
+    "c": "manufacturing",
+    "t": "Cable drums",
+    "g": "cable drums reels yard"
+  },
+  {
+    "file": "moldtray.js",
+    "c": "manufacturing",
+    "t": "Mould tray",
+    "g": "mould tray casting parts"
+  },
+  {
+    "file": "softbox.js",
+    "c": "media",
+    "t": "Softbox light",
+    "g": "softbox studio light photo"
+  },
+  {
+    "file": "greenscreen.js",
+    "c": "media",
+    "t": "Backdrop stand",
+    "g": "backdrop stand roll paper studio"
+  },
+  {
+    "file": "ledger.js",
+    "c": "finance",
+    "t": "Ledger book",
+    "g": "ledger book accounts pages"
+  },
+  {
+    "file": "enginehoist.js",
+    "c": "automotive",
+    "t": "Engine hoist",
+    "g": "engine hoist crane workshop"
+  },
+  {
+    "file": "laundrycart.js",
+    "c": "hospitality",
+    "t": "Linen cart",
+    "g": "linen cart towels housekeeping"
+  },
+  {
+    "file": "handtruck.js",
+    "c": "logistics",
+    "t": "Hand truck",
+    "g": "hand truck dolly boxes moving"
+  },
+  {
+    "file": "draftingtable.js",
+    "c": "design",
+    "t": "Drafting table",
+    "g": "drafting table drawing board tilt"
+  },
+  {
+    "file": "pricegun.js",
+    "c": "commerce",
+    "t": "Price labeller",
+    "g": "price labeller tags shop"
+  },
+  {
+    "file": "pianobench.js",
+    "c": "music",
+    "t": "Sheet music stand",
+    "g": "sheet music stand pages"
+  },
+  {
+    "file": "inkroller.js",
+    "c": "design",
+    "t": "Ink brayer",
+    "g": "ink brayer roller printmaking"
+  },
+  {
+    "file": "typecase.js",
+    "c": "design",
+    "t": "Type case",
+    "g": "type case drawer letters printing"
+  },
+  {
+    "file": "lightbox.js",
+    "c": "design",
+    "t": "Light table",
+    "g": "light table tracing designer"
+  },
+  {
+    "file": "mooddboard.js",
+    "c": "design",
+    "t": "Pin board",
+    "g": "mood board pins swatches studio"
+  },
+  {
+    "file": "tillroll.js",
+    "c": "commerce",
+    "t": "Barcode scanner",
+    "g": "barcode scanner checkout counter"
+  },
+  {
+    "file": "giftcards.js",
+    "c": "commerce",
+    "t": "Card rack",
+    "g": "gift card rack shop display"
+  },
+  {
+    "file": "basketstack.js",
+    "c": "commerce",
+    "t": "Shop baskets",
+    "g": "shopping baskets stack store"
+  },
+  {
+    "file": "beecrates.js",
+    "c": "agriculture",
+    "t": "Hive frames",
+    "g": "hive frames honeycomb rack"
+  },
+  {
+    "file": "grainauger.js",
+    "c": "agriculture",
+    "t": "Grain auger",
+    "g": "grain auger conveyor silo"
+  },
+  {
+    "file": "pallettruck.js",
+    "c": "logistics",
+    "t": "Pallet racking",
+    "g": "pallet racking warehouse shelves"
+  },
+  {
+    "file": "strapping.js",
+    "c": "logistics",
+    "t": "Ratchet straps",
+    "g": "ratchet straps cargo load"
+  },
+  {
+    "file": "bubblewrap.js",
+    "c": "logistics",
+    "t": "Packing bench",
+    "g": "packing bench boxes tape"
+  },
+  {
+    "file": "visa.js",
+    "c": "travel",
+    "t": "Travel adapter",
+    "g": "travel adapter plug socket"
+  },
+  {
+    "file": "neckpillow.js",
+    "c": "travel",
+    "t": "Seat row",
+    "g": "airport seat row gate"
+  },
+  {
+    "file": "departures.js",
+    "c": "travel",
+    "t": "Flip board",
+    "g": "departure board flaps airport"
+  },
+  {
+    "file": "carryon.js",
+    "c": "travel",
+    "t": "Cabin bag sizer",
+    "g": "cabin bag sizer frame airport"
+  },
+  {
+    "file": "billboard2.js",
+    "c": "marketing",
+    "t": "Pop-up banner",
+    "g": "pop-up banner stand roll-up"
+  },
+  {
+    "file": "signspinner.js",
+    "c": "marketing",
+    "t": "Arrow sign",
+    "g": "arrow sign board pointing"
+  },
+  {
+    "file": "flagbanner.js",
+    "c": "marketing",
+    "t": "Bunting",
+    "g": "bunting flags string"
   }
 ]
