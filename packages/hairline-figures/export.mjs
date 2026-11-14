@@ -28,6 +28,12 @@ const page = await browser.newPage({ viewport: { width: 900, height: 900 } });
 const bundle = { kernel, figures: {} };
 for (const f of figs) {
   const name = f.file.replace(/\.js$/, '');
+  const svgOut = path.join(DIST, `${name}.svg`);
+  // incremental: an SVG newer than its figure source is already current (pass --all to redo every one)
+  if (!process.argv.includes('--all') && fs.existsSync(svgOut) && fs.statSync(svgOut).mtimeMs > fs.statSync(path.join(here, f.file)).mtimeMs) {
+    bundle.figures[name] = { code: fs.readFileSync(path.join(here, f.file), 'utf8') };
+    continue;
+  }
   execFileSync(process.execPath, [path.join(SKILL, 'build.mjs'), f.file], { cwd: here, stdio: 'ignore' });
   await page.goto(pathToFileURL(path.join(here, `hairline-${name}.html`)).href + '?theme=light');
   await page.waitForTimeout(2200);

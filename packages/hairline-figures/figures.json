@@ -1318,5 +1318,665 @@
     "c": "home",
     "t": "Window blinds",
     "g": "window blinds slats room light"
+  },
+  {
+    "file": "wheelchairs.js",
+    "c": "health",
+    "t": "Wheelchairs",
+    "g": "wheelchairs mobility hospital access care"
+  },
+  {
+    "file": "stethoscopes.js",
+    "c": "health",
+    "t": "Stethoscope hooks",
+    "g": "stethoscopes doctor clinic hooks medical"
+  },
+  {
+    "file": "waffleiron.js",
+    "c": "food",
+    "t": "Waffle iron",
+    "g": "waffle iron breakfast plates kitchen"
+  },
+  {
+    "file": "juicer.js",
+    "c": "food",
+    "t": "Juicer",
+    "g": "juicer citrus press fresh juice glass"
+  },
+  {
+    "file": "bathtub.js",
+    "c": "home",
+    "t": "Bathtub",
+    "g": "bathtub bathroom tap bath relax"
+  },
+  {
+    "file": "bookends.js",
+    "c": "home",
+    "t": "Bookends",
+    "g": "bookends books shelf reading home decor"
+  },
+  {
+    "file": "circuitboard.js",
+    "c": "technology",
+    "t": "Circuit board",
+    "g": "circuit board chips components electronics"
+  },
+  {
+    "file": "dartboard.js",
+    "c": "gaming",
+    "t": "Dartboard",
+    "g": "dartboard darts aim pub game"
+  },
+  {
+    "file": "sandbox.js",
+    "c": "kids",
+    "t": "Sandbox",
+    "g": "sandbox bucket spade playground kids"
+  },
+  {
+    "file": "puppettheatre.js",
+    "c": "kids",
+    "t": "Puppet theatre",
+    "g": "puppet theatre curtains show kids"
+  },
+  {
+    "file": "tirestack.js",
+    "c": "automotive",
+    "t": "Tyre stack",
+    "g": "tyres stack garage wheels automotive"
+  },
+  {
+    "file": "carlift.js",
+    "c": "automotive",
+    "t": "Car lift",
+    "g": "car lift garage service mechanic"
+  },
+  {
+    "file": "fuelpump.js",
+    "c": "automotive",
+    "t": "Fuel pump",
+    "g": "fuel pump nozzle petrol station"
+  },
+  {
+    "file": "ladders.js",
+    "c": "construction",
+    "t": "Ladders",
+    "g": "ladders steps climbing site work"
+  },
+  {
+    "file": "seedtrays.js",
+    "c": "agriculture",
+    "t": "Seed trays",
+    "g": "seed trays seedlings sprouts nursery"
+  },
+  {
+    "file": "calculator.js",
+    "c": "finance",
+    "t": "Calculator",
+    "g": "calculator keys accounting finance"
+  },
+  {
+    "file": "launchpad.js",
+    "c": "space",
+    "t": "Launch tower",
+    "g": "launch tower gantry rocket pad"
+  },
+  {
+    "file": "skis.js",
+    "c": "sports",
+    "t": "Skis",
+    "g": "skis rack snow winter sport"
+  },
+  {
+    "file": "footballgoal.js",
+    "c": "sports",
+    "t": "Football goal",
+    "g": "football goal net ball soccer"
+  },
+  {
+    "file": "pingpong.js",
+    "c": "sports",
+    "t": "Ping pong",
+    "g": "ping pong table tennis paddles net"
+  },
+  {
+    "file": "crutches.js",
+    "c": "health",
+    "t": "Crutches",
+    "g": "crutches injury recovery mobility support"
+  },
+  {
+    "file": "dentalchair.js",
+    "c": "health",
+    "t": "Dental chair",
+    "g": "dental chair dentist lamp clinic teeth"
+  },
+  {
+    "file": "pillbottles.js",
+    "c": "health",
+    "t": "Pill bottles",
+    "g": "pill bottles pharmacy medicine caps shelf"
+  },
+  {
+    "file": "wardrobe.js",
+    "c": "home",
+    "t": "Wardrobe",
+    "g": "wardrobe doors clothes bedroom closet"
+  },
+  {
+    "file": "whiteboard.js",
+    "c": "office",
+    "t": "Whiteboard",
+    "g": "whiteboard meeting markers planning office"
+  },
+  {
+    "file": "mailtray.js",
+    "c": "office",
+    "t": "Letter trays",
+    "g": "letter trays inbox documents desk office"
+  },
+  {
+    "file": "watercooler.js",
+    "c": "office",
+    "t": "Water cooler",
+    "g": "water cooler bottle cups office break"
+  },
+  {
+    "file": "tablets.js",
+    "c": "technology",
+    "t": "Tablets",
+    "g": "tablets devices stand screen technology"
+  },
+  {
+    "file": "headphones.js",
+    "c": "technology",
+    "t": "Headphones",
+    "g": "headphones audio stand music listening"
+  },
+  {
+    "file": "clawmachine.js",
+    "c": "gaming",
+    "t": "Claw machine",
+    "g": "claw machine prizes arcade grabber"
+  },
+  {
+    "file": "rockinghorse.js",
+    "c": "kids",
+    "t": "Rocking horse",
+    "g": "rocking horse toy nursery kids"
+  },
+  {
+    "file": "tricycles.js",
+    "c": "kids",
+    "t": "Tricycles",
+    "g": "tricycles kids ride wheels play"
+  },
+  {
+    "file": "dogkennel.js",
+    "c": "pets",
+    "t": "Dog kennel",
+    "g": "dog kennel house pet garden"
+  },
+  {
+    "file": "dogleashes.js",
+    "c": "pets",
+    "t": "Dog leashes",
+    "g": "dog leashes hooks collars walk pets"
+  },
+  {
+    "file": "busstop.js",
+    "c": "transport",
+    "t": "Bus stop",
+    "g": "bus stop shelter bench city transit"
+  },
+  {
+    "file": "hydraulicpress.js",
+    "c": "manufacturing",
+    "t": "Hydraulic press",
+    "g": "hydraulic press factory metal forming"
+  },
+  {
+    "file": "palletjack.js",
+    "c": "manufacturing",
+    "t": "Pallet jack",
+    "g": "pallet jack warehouse boxes logistics"
+  },
+  {
+    "file": "drillpress.js",
+    "c": "manufacturing",
+    "t": "Drill press",
+    "g": "drill press workshop bench tool"
+  },
+  {
+    "file": "bunsenburner.js",
+    "c": "science",
+    "t": "Bunsen burner",
+    "g": "bunsen burner flame lab chemistry"
+  },
+  {
+    "file": "centrifuge.js",
+    "c": "science",
+    "t": "Centrifuge",
+    "g": "centrifuge lab tubes spin science"
+  },
+  {
+    "file": "magnifier.js",
+    "c": "science",
+    "t": "Magnifier",
+    "g": "magnifying glass lens inspect science"
+  },
+  {
+    "file": "musicstands.js",
+    "c": "music",
+    "t": "Music stands",
+    "g": "music stands sheets orchestra rehearsal"
+  },
+  {
+    "file": "vintagetv.js",
+    "c": "media",
+    "t": "Vintage TV",
+    "g": "vintage tv antenna dials broadcast"
+  },
+  {
+    "file": "hatboxes.js",
+    "c": "fashion",
+    "t": "Hat boxes",
+    "g": "hat boxes lids millinery boutique"
+  },
+  {
+    "file": "roomservice.js",
+    "c": "hospitality",
+    "t": "Room service cart",
+    "g": "room service cart cloche hotel tray"
+  },
+  {
+    "file": "skylights.js",
+    "c": "realestate",
+    "t": "Roof skylights",
+    "g": "roof skylights windows attic house"
+  },
+  {
+    "file": "forsalesigns.js",
+    "c": "realestate",
+    "t": "Property signs",
+    "g": "property signs posts real estate listing"
+  },
+  {
+    "file": "lanterns.js",
+    "c": "outdoors",
+    "t": "Lanterns",
+    "g": "lanterns camping lights hanging"
+  },
+  {
+    "file": "picnictable.js",
+    "c": "outdoors",
+    "t": "Picnic table",
+    "g": "picnic table basket park outdoors"
+  },
+  {
+    "file": "columns.js",
+    "c": "government",
+    "t": "Columns",
+    "g": "columns portico civic building classical"
+  },
+  {
+    "file": "cuttingboard.js",
+    "c": "food",
+    "t": "Cutting board",
+    "g": "cutting board knife vegetables kitchen prep"
+  },
+  {
+    "file": "noodlebowls.js",
+    "c": "food",
+    "t": "Noodle bowls",
+    "g": "noodle bowls chopsticks ramen asian food"
+  },
+  {
+    "file": "milkshakes.js",
+    "c": "food",
+    "t": "Milkshakes",
+    "g": "milkshakes glasses straws diner dessert"
+  },
+  {
+    "file": "slide.js",
+    "c": "kids",
+    "t": "Playground slide",
+    "g": "playground slide ladder kids park"
+  },
+  {
+    "file": "teddybears.js",
+    "c": "kids",
+    "t": "Teddy bears",
+    "g": "teddy bears toys shelf soft kids"
+  },
+  {
+    "file": "tramcar.js",
+    "c": "transport",
+    "t": "Tram",
+    "g": "tram streetcar rails city transit"
+  },
+  {
+    "file": "bulldozer.js",
+    "c": "construction",
+    "t": "Bulldozer",
+    "g": "bulldozer blade tracks earthmoving"
+  },
+  {
+    "file": "windpump.js",
+    "c": "agriculture",
+    "t": "Farm windpump",
+    "g": "windpump windmill farm water well"
+  },
+  {
+    "file": "powerlines.js",
+    "c": "energy",
+    "t": "Power lines",
+    "g": "power lines pylons grid electricity"
+  },
+  {
+    "file": "transformer.js",
+    "c": "energy",
+    "t": "Transformer",
+    "g": "transformer substation grid electricity"
+  },
+  {
+    "file": "cardterminal.js",
+    "c": "finance",
+    "t": "Card terminal",
+    "g": "card terminal payment contactless shop"
+  },
+  {
+    "file": "coinsorter.js",
+    "c": "finance",
+    "t": "Coin sorter",
+    "g": "coin sorter coins bank counting"
+  },
+  {
+    "file": "turnstiles.js",
+    "c": "security",
+    "t": "Turnstiles",
+    "g": "turnstiles gates entry access station"
+  },
+  {
+    "file": "metaldetector.js",
+    "c": "security",
+    "t": "Security gate",
+    "g": "metal detector gate airport screening"
+  },
+  {
+    "file": "observatory.js",
+    "c": "space",
+    "t": "Observatory",
+    "g": "observatory dome telescope stars"
+  },
+  {
+    "file": "marsbase.js",
+    "c": "space",
+    "t": "Mars base",
+    "g": "mars base habitat domes colony space"
+  },
+  {
+    "file": "baseballbats.js",
+    "c": "sports",
+    "t": "Baseball bats",
+    "g": "baseball bats rack glove sport"
+  },
+  {
+    "file": "saxophones.js",
+    "c": "music",
+    "t": "Saxophones",
+    "g": "saxophones stands jazz brass music"
+  },
+  {
+    "file": "sunglasses.js",
+    "c": "fashion",
+    "t": "Sunglasses stand",
+    "g": "sunglasses rack eyewear shop"
+  },
+  {
+    "file": "tierack.js",
+    "c": "fashion",
+    "t": "Tie rack",
+    "g": "ties rack menswear wardrobe"
+  },
+  {
+    "file": "scarves.js",
+    "c": "fashion",
+    "t": "Scarves",
+    "g": "scarves rail boutique winter fashion"
+  },
+  {
+    "file": "bellcounter.js",
+    "c": "hospitality",
+    "t": "Reception bell",
+    "g": "reception bell desk hotel check-in"
+  },
+  {
+    "file": "minibar.js",
+    "c": "hospitality",
+    "t": "Minibar",
+    "g": "minibar fridge bottles hotel room"
+  },
+  {
+    "file": "apartmentblock.js",
+    "c": "realestate",
+    "t": "Apartment block",
+    "g": "apartment block balconies building flats"
+  },
+  {
+    "file": "porchlights.js",
+    "c": "realestate",
+    "t": "Porch lights",
+    "g": "porch lights house entrance lamps"
+  },
+  {
+    "file": "campfire.js",
+    "c": "outdoors",
+    "t": "Campfire",
+    "g": "campfire logs flames camping night"
+  },
+  {
+    "file": "gavel.js",
+    "c": "government",
+    "t": "Gavel",
+    "g": "gavel judge court block law"
+  },
+  {
+    "file": "schoolbus.js",
+    "c": "education",
+    "t": "School bus",
+    "g": "school bus stop sign kids education"
+  },
+  {
+    "file": "pencilcase.js",
+    "c": "education",
+    "t": "Pencil case",
+    "g": "pencil case zip pens school stationery"
+  },
+  {
+    "file": "massagetable.js",
+    "c": "health",
+    "t": "Massage table",
+    "g": "massage table therapy spa physio"
+  },
+  {
+    "file": "oxygentanks.js",
+    "c": "health",
+    "t": "Oxygen tanks",
+    "g": "oxygen tanks cylinders gauges hospital"
+  },
+  {
+    "file": "eyedrops.js",
+    "c": "health",
+    "t": "Eye drop bottles",
+    "g": "eye drops bottles pharmacy care"
+  },
+  {
+    "file": "pancakestack.js",
+    "c": "food",
+    "t": "Pancake stack",
+    "g": "pancakes stack syrup breakfast plate"
+  },
+  {
+    "file": "burgerstack.js",
+    "c": "food",
+    "t": "Burger",
+    "g": "burger layers bun patty fast food"
+  },
+  {
+    "file": "souppots.js",
+    "c": "food",
+    "t": "Soup pots",
+    "g": "soup pots lids stove kitchen cooking"
+  },
+  {
+    "file": "mixerbowl.js",
+    "c": "food",
+    "t": "Stand mixer",
+    "g": "stand mixer bowl whisk baking"
+  },
+  {
+    "file": "sodafountain.js",
+    "c": "food",
+    "t": "Soda fountain",
+    "g": "soda fountain taps drinks diner"
+  },
+  {
+    "file": "bedsidetable.js",
+    "c": "home",
+    "t": "Bedside table",
+    "g": "bedside table drawer lamp bedroom"
+  },
+  {
+    "file": "fireplace.js",
+    "c": "home",
+    "t": "Fireplace",
+    "g": "fireplace logs mantel cosy home"
+  },
+  {
+    "file": "shoecabinet.js",
+    "c": "home",
+    "t": "Shoe cabinet",
+    "g": "shoe cabinet flaps hallway storage"
+  },
+  {
+    "file": "armchair.js",
+    "c": "home",
+    "t": "Armchair",
+    "g": "armchair cushion living room seat"
+  },
+  {
+    "file": "mirrorstand.js",
+    "c": "home",
+    "t": "Floor mirror",
+    "g": "floor mirror tilt dressing bedroom"
+  },
+  {
+    "file": "deskorganizer.js",
+    "c": "office",
+    "t": "Desk organiser",
+    "g": "desk organiser trays pens office"
+  },
+  {
+    "file": "networkswitch.js",
+    "c": "technology",
+    "t": "Network switch",
+    "g": "network switch ports lights cables"
+  },
+  {
+    "file": "gpus.js",
+    "c": "technology",
+    "t": "Graphics cards",
+    "g": "graphics cards fans pc hardware"
+  },
+  {
+    "file": "smartbulbs.js",
+    "c": "technology",
+    "t": "Smart bulbs",
+    "g": "smart bulbs lamps connected home"
+  },
+  {
+    "file": "webcams.js",
+    "c": "technology",
+    "t": "Webcams",
+    "g": "webcams camera video call desk"
+  },
+  {
+    "file": "joysticks.js",
+    "c": "gaming",
+    "t": "Joysticks",
+    "g": "joysticks arcade sticks game"
+  },
+  {
+    "file": "ballpit.js",
+    "c": "kids",
+    "t": "Ball pit",
+    "g": "ball pit balls playroom kids"
+  },
+  {
+    "file": "dollhouse.js",
+    "c": "kids",
+    "t": "Dollhouse",
+    "g": "dollhouse rooms toy kids play"
+  },
+  {
+    "file": "kidstable.js",
+    "c": "kids",
+    "t": "Kids table",
+    "g": "kids table chairs crayons play"
+  },
+  {
+    "file": "birdbath.js",
+    "c": "pets",
+    "t": "Bird bath",
+    "g": "bird bath garden water birds"
+  },
+  {
+    "file": "horsestable.js",
+    "c": "pets",
+    "t": "Horse stable",
+    "g": "horse stable doors barn"
+  },
+  {
+    "file": "catflap.js",
+    "c": "pets",
+    "t": "Cat flap",
+    "g": "cat flap door pet entry"
+  },
+  {
+    "file": "trainplatform.js",
+    "c": "transport",
+    "t": "Train platform",
+    "g": "train platform canopy station rail"
+  },
+  {
+    "file": "cargoship.js",
+    "c": "transport",
+    "t": "Cargo ship",
+    "g": "cargo ship containers port freight"
+  },
+  {
+    "file": "carbattery.js",
+    "c": "automotive",
+    "t": "Car battery",
+    "g": "car battery terminals cables garage"
+  },
+  {
+    "file": "bottlingline.js",
+    "c": "manufacturing",
+    "t": "Bottling line",
+    "g": "bottling line bottles caps factory"
+  },
+  {
+    "file": "roller.js",
+    "c": "construction",
+    "t": "Road roller",
+    "g": "road roller drum paving construction"
+  },
+  {
+    "file": "sitecabin.js",
+    "c": "construction",
+    "t": "Site cabin",
+    "g": "site cabin office container construction"
   }
 ]
