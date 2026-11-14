@@ -4288,5 +4288,131 @@
     "c": "energy",
     "t": "Gas cylinders",
     "g": "gas cylinders cage storage"
+  },
+  {
+    "file": "tentpoles.js",
+    "c": "outdoors",
+    "t": "Camp chairs",
+    "g": "folding camp chairs row"
+  },
+  {
+    "file": "skateramp.js",
+    "c": "sports",
+    "t": "Skate ramp",
+    "g": "skate ramp quarter pipe"
+  },
+  {
+    "file": "returnsbin.js",
+    "c": "commerce",
+    "t": "Returns desk",
+    "g": "returns desk counter parcels"
+  },
+  {
+    "file": "rebar.js",
+    "c": "construction",
+    "t": "Rebar bundle",
+    "g": "rebar bundle steel bars"
+  },
+  {
+    "file": "plumbline.js",
+    "c": "construction",
+    "t": "Spirit level",
+    "g": "spirit level bubble beam"
+  },
+  {
+    "file": "buttonbox.js",
+    "c": "fashion",
+    "t": "Button tin",
+    "g": "button tin sewing buttons"
+  },
+  {
+    "file": "tieclip.js",
+    "c": "fashion",
+    "t": "Cufflink box",
+    "g": "cufflink box velvet"
+  },
+  {
+    "file": "marsdome.js",
+    "c": "space",
+    "t": "Habitat dome",
+    "g": "habitat dome mars airlock"
+  },
+  {
+    "file": "dockingport.js",
+    "c": "space",
+    "t": "Docking port",
+    "g": "docking port ring hatch"
+  },
+  {
+    "file": "petridish2.js",
+    "c": "science",
+    "t": "Sample rack",
+    "g": "sample tubes rack lab"
+  },
+  {
+    "file": "sieve.js",
+    "c": "science",
+    "t": "Sieve stack",
+    "g": "sieve stack soil lab"
+  },
+  {
+    "file": "openhouse.js",
+    "c": "realestate",
+    "t": "Open house sign",
+    "g": "open house sign stake lawn"
+  },
+  {
+    "file": "blindsample.js",
+    "c": "realestate",
+    "t": "Window samples",
+    "g": "window frame samples showroom"
+  },
+  {
+    "file": "vaultbars.js",
+    "c": "finance",
+    "t": "Gold bar stack",
+    "g": "gold bars pyramid vault"
+  },
+  {
+    "file": "passbook.js",
+    "c": "finance",
+    "t": "Night safe",
+    "g": "bank night safe chute"
+  },
+  {
+    "file": "moneybag.js",
+    "c": "finance",
+    "t": "Cash bags",
+    "g": "cash bags sealed courier"
+  },
+  {
+    "file": "interestdial.js",
+    "c": "finance",
+    "t": "Dial safe",
+    "g": "dial safe combination"
+  },
+  {
+    "file": "bikeshare.js",
+    "c": "transport",
+    "t": "Bike share dock",
+    "g": "bike share dock bikes rack"
+  },
+  {
+    "file": "tramstop.js",
+    "c": "transport",
+    "t": "Tram stop",
+    "g": "tram stop shelter sign"
+  },
+  {
+    "file": "luggagerack.js",
+    "c": "transport",
+    "t": "Overhead rack",
+    "g": "overhead luggage rack train"
+  },
+  {
+    "file": "cablecarcabin.js",
+    "c": "transport",
+    "t": "Funicular",
+    "g": "funicular car rails slope"
   }
 ]
