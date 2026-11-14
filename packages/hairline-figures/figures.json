@@ -4102,5 +4102,191 @@
     "c": "marketing",
     "t": "Bunting",
     "g": "bunting flags string"
+  },
+  {
+    "file": "tapestand.js",
+    "c": "music",
+    "t": "Guitar stand",
+    "g": "guitar stand rack instruments"
+  },
+  {
+    "file": "ovenmitt.js",
+    "c": "home",
+    "t": "Oven door",
+    "g": "oven door trays baking"
+  },
+  {
+    "file": "bloodpressure.js",
+    "c": "health",
+    "t": "Pill organiser",
+    "g": "weekly pill organiser lids days"
+  },
+  {
+    "file": "walkersticks.js",
+    "c": "health",
+    "t": "Cane stand",
+    "g": "walking canes stand rack"
+  },
+  {
+    "file": "earthermometer.js",
+    "c": "health",
+    "t": "Thermometer case",
+    "g": "digital thermometer case clinic"
+  },
+  {
+    "file": "oscilloscope.js",
+    "c": "technology",
+    "t": "Oscilloscope",
+    "g": "oscilloscope wave screen knobs"
+  },
+  {
+    "file": "ssdbay.js",
+    "c": "technology",
+    "t": "Drive bays",
+    "g": "drive bays caddies server storage"
+  },
+  {
+    "file": "vrstation.js",
+    "c": "technology",
+    "t": "Charging dock",
+    "g": "charging dock tablets cart"
+  },
+  {
+    "file": "cablereel.js",
+    "c": "technology",
+    "t": "Cable tray",
+    "g": "cable tray ladder rack"
+  },
+  {
+    "file": "lunchcounter.js",
+    "c": "food",
+    "t": "Lunch counter",
+    "g": "lunch counter stools diner"
+  },
+  {
+    "file": "breadslicer.js",
+    "c": "food",
+    "t": "Bread slicer",
+    "g": "bread slicer blades bakery"
+  },
+  {
+    "file": "icecubes.js",
+    "c": "food",
+    "t": "Ice tray",
+    "g": "ice cube tray twist"
+  },
+  {
+    "file": "flashcards.js",
+    "c": "education",
+    "t": "Flash cards",
+    "g": "flash cards stack box study"
+  },
+  {
+    "file": "waterpump.js",
+    "c": "outdoors",
+    "t": "Hand pump",
+    "g": "hand water pump well"
+  },
+  {
+    "file": "studybooth.js",
+    "c": "education",
+    "t": "Study carrels",
+    "g": "study carrels library desks"
+  },
+  {
+    "file": "firewood.js",
+    "c": "outdoors",
+    "t": "Log store",
+    "g": "log store firewood shelter"
+  },
+  {
+    "file": "coffeecups.js",
+    "c": "food",
+    "t": "Cup stack",
+    "g": "takeaway cups lids stack cafe"
+  },
+  {
+    "file": "cerealdispenser.js",
+    "c": "food",
+    "t": "Cereal dispenser",
+    "g": "cereal dispensers twist hotel"
+  },
+  {
+    "file": "beerkeg.js",
+    "c": "food",
+    "t": "Beer kegs",
+    "g": "beer kegs stack cellar"
+  },
+  {
+    "file": "fishnet.js",
+    "c": "pets",
+    "t": "Fish net",
+    "g": "aquarium fish net tank"
+  },
+  {
+    "file": "litterbox.js",
+    "c": "pets",
+    "t": "Litter tray",
+    "g": "cat litter tray hood"
+  },
+  {
+    "file": "bowlingreturn.js",
+    "c": "sports",
+    "t": "Ball return",
+    "g": "bowling ball return rack"
+  },
+  {
+    "file": "curlingstones.js",
+    "c": "sports",
+    "t": "Curling stones",
+    "g": "curling stones ice sheet"
+  },
+  {
+    "file": "feedbins.js",
+    "c": "agriculture",
+    "t": "Feed bins",
+    "g": "feed bins lids barn grain"
+  },
+  {
+    "file": "egglamp.js",
+    "c": "agriculture",
+    "t": "Egg candler",
+    "g": "egg candler lamp eggs"
+  },
+  {
+    "file": "fencepost.js",
+    "c": "agriculture",
+    "t": "Gate latch",
+    "g": "farm gate latch swing"
+  },
+  {
+    "file": "ballot2.js",
+    "c": "government",
+    "t": "Petition box",
+    "g": "petition box slot sign"
+  },
+  {
+    "file": "podium2.js",
+    "c": "government",
+    "t": "Lectern",
+    "g": "lectern speech microphone"
+  },
+  {
+    "file": "passportbook.js",
+    "c": "government",
+    "t": "Stamp desk",
+    "g": "official stamp desk document"
+  },
+  {
+    "file": "heatpump.js",
+    "c": "energy",
+    "t": "Heat pump",
+    "g": "heat pump fan unit outdoor"
+  },
+  {
+    "file": "gasbottles.js",
+    "c": "energy",
+    "t": "Gas cylinders",
+    "g": "gas cylinders cage storage"
   }
 ]
