@@ -1978,5 +1978,443 @@
     "c": "construction",
     "t": "Site cabin",
     "g": "site cabin office container construction"
+  },
+  {
+    "file": "thermometers.js",
+    "c": "health",
+    "t": "Thermometers",
+    "g": "thermometers temperature fever health check"
+  },
+  {
+    "file": "ricecooker.js",
+    "c": "food",
+    "t": "Rice cooker",
+    "g": "rice cooker steam lid kitchen appliance"
+  },
+  {
+    "file": "pooltable.js",
+    "c": "gaming",
+    "t": "Pool table",
+    "g": "pool table billiards cue balls game"
+  },
+  {
+    "file": "petcarrier.js",
+    "c": "pets",
+    "t": "Pet carrier",
+    "g": "pet carrier travel cat dog crate"
+  },
+  {
+    "file": "theodolite.js",
+    "c": "construction",
+    "t": "Surveyor level",
+    "g": "theodolite surveyor tripod measure site"
+  },
+  {
+    "file": "newsstand.js",
+    "c": "media",
+    "t": "Newsstand",
+    "g": "newsstand magazines papers kiosk press"
+  },
+  {
+    "file": "poolladder.js",
+    "c": "hospitality",
+    "t": "Pool ladder",
+    "g": "pool ladder swimming water resort"
+  },
+  {
+    "file": "cardtable.js",
+    "c": "gaming",
+    "t": "Card table",
+    "g": "playing cards table chips deal"
+  },
+  {
+    "file": "boardinggate.js",
+    "c": "transport",
+    "t": "Boarding gate",
+    "g": "boarding gate airport bridge travel"
+  },
+  {
+    "file": "carjack.js",
+    "c": "automotive",
+    "t": "Car jack",
+    "g": "car jack lift tyre change"
+  },
+  {
+    "file": "gasmeter.js",
+    "c": "energy",
+    "t": "Gas meter",
+    "g": "gas meter dials utility home"
+  },
+  {
+    "file": "chartboard.js",
+    "c": "finance",
+    "t": "Bar chart",
+    "g": "bar chart growth finance report"
+  },
+  {
+    "file": "coinjar.js",
+    "c": "finance",
+    "t": "Savings jars",
+    "g": "savings jars coins money finance"
+  },
+  {
+    "file": "alarmpanel.js",
+    "c": "security",
+    "t": "Alarm sirens",
+    "g": "alarm sirens wall security warning"
+  },
+  {
+    "file": "petri.js",
+    "c": "science",
+    "t": "Petri dishes",
+    "g": "petri dishes lab samples culture"
+  },
+  {
+    "file": "moonphases.js",
+    "c": "space",
+    "t": "Moon phases",
+    "g": "moon phases crescent lunar sky"
+  },
+  {
+    "file": "meteor.js",
+    "c": "space",
+    "t": "Meteor",
+    "g": "meteor crater impact space rock"
+  },
+  {
+    "file": "benchpress.js",
+    "c": "fitness",
+    "t": "Bench press",
+    "g": "bench press barbell gym weights"
+  },
+  {
+    "file": "organpipes.js",
+    "c": "music",
+    "t": "Organ pipes",
+    "g": "organ pipes church music instrument"
+  },
+  {
+    "file": "boommic.js",
+    "c": "media",
+    "t": "Boom mic",
+    "g": "boom microphone pole film sound"
+  },
+  {
+    "file": "beltrack.js",
+    "c": "fashion",
+    "t": "Belt rack",
+    "g": "belts rack accessories boutique"
+  },
+  {
+    "file": "buttonjars.js",
+    "c": "fashion",
+    "t": "Button tins",
+    "g": "buttons tins sewing haberdashery"
+  },
+  {
+    "file": "breakfastbuffet.js",
+    "c": "hospitality",
+    "t": "Buffet",
+    "g": "buffet trays chafing dishes hotel"
+  },
+  {
+    "file": "hotelbed.js",
+    "c": "hospitality",
+    "t": "Hotel bed",
+    "g": "hotel bed pillows room"
+  },
+  {
+    "file": "balconies.js",
+    "c": "realestate",
+    "t": "Balconies",
+    "g": "balconies apartment facade doors"
+  },
+  {
+    "file": "carport.js",
+    "c": "realestate",
+    "t": "Carport",
+    "g": "carport roof car shelter house"
+  },
+  {
+    "file": "campingstove.js",
+    "c": "outdoors",
+    "t": "Camping stove",
+    "g": "camping stove pot burner outdoors"
+  },
+  {
+    "file": "podiumflags.js",
+    "c": "government",
+    "t": "Flag stands",
+    "g": "flag stands office ceremony"
+  },
+  {
+    "file": "lunchtrays.js",
+    "c": "education",
+    "t": "Lunch trays",
+    "g": "lunch trays cafeteria school"
+  },
+  {
+    "file": "easelboard.js",
+    "c": "education",
+    "t": "Flip chart",
+    "g": "flip chart pages easel teaching"
+  },
+  {
+    "file": "ambulance.js",
+    "c": "health",
+    "t": "Ambulance",
+    "g": "ambulance emergency vehicle hospital"
+  },
+  {
+    "file": "mriscanner.js",
+    "c": "health",
+    "t": "Scanner",
+    "g": "scanner bed ring hospital imaging"
+  },
+  {
+    "file": "peppermills.js",
+    "c": "food",
+    "t": "Pepper mills",
+    "g": "pepper mills grind kitchen"
+  },
+  {
+    "file": "hangingfiles.js",
+    "c": "office",
+    "t": "Hanging files",
+    "g": "hanging files drawer office"
+  },
+  {
+    "file": "airhockey.js",
+    "c": "gaming",
+    "t": "Air hockey",
+    "g": "air hockey table puck mallets"
+  },
+  {
+    "file": "laundrybasket.js",
+    "c": "home",
+    "t": "Laundry baskets",
+    "g": "laundry baskets clothes wash household"
+  },
+  {
+    "file": "lathe.js",
+    "c": "manufacturing",
+    "t": "Lathe",
+    "g": "lathe workshop machining spindle"
+  },
+  {
+    "file": "scarecrow.js",
+    "c": "agriculture",
+    "t": "Scarecrow",
+    "g": "scarecrow field crows farm"
+  },
+  {
+    "file": "votingbooths.js",
+    "c": "government",
+    "t": "Voting booths",
+    "g": "voting booths election curtains vote"
+  },
+  {
+    "file": "kitchensink.js",
+    "c": "home",
+    "t": "Kitchen sink",
+    "g": "kitchen sink tap basin dishes"
+  },
+  {
+    "file": "kilns.js",
+    "c": "manufacturing",
+    "t": "Kiln",
+    "g": "kiln oven ceramics fire factory"
+  },
+  {
+    "file": "looms.js",
+    "c": "manufacturing",
+    "t": "Loom",
+    "g": "loom weaving threads textile"
+  },
+  {
+    "file": "batterywall.js",
+    "c": "energy",
+    "t": "Home battery",
+    "g": "home battery wall storage energy"
+  },
+  {
+    "file": "safebox.js",
+    "c": "security",
+    "t": "Wall safe",
+    "g": "wall safe dial door security"
+  },
+  {
+    "file": "guardbooth.js",
+    "c": "security",
+    "t": "Guard booth",
+    "g": "guard booth barrier security entrance"
+  },
+  {
+    "file": "missioncontrol.js",
+    "c": "space",
+    "t": "Mission control",
+    "g": "mission control desks screens space"
+  },
+  {
+    "file": "treadmill.js",
+    "c": "fitness",
+    "t": "Treadmill",
+    "g": "treadmill belt run gym cardio"
+  },
+  {
+    "file": "eggcartons.js",
+    "c": "food",
+    "t": "Egg cartons",
+    "g": "eggs carton lid kitchen farm"
+  },
+  {
+    "file": "pendantlamps.js",
+    "c": "home",
+    "t": "Pendant lamps",
+    "g": "pendant lamps ceiling light home"
+  },
+  {
+    "file": "videowall.js",
+    "c": "technology",
+    "t": "Video wall",
+    "g": "video wall screens display"
+  },
+  {
+    "file": "slotmachine.js",
+    "c": "gaming",
+    "t": "Slot machine",
+    "g": "slot machine reels lever arcade"
+  },
+  {
+    "file": "beadmaze.js",
+    "c": "kids",
+    "t": "Bead maze",
+    "g": "bead maze toy kids"
+  },
+  {
+    "file": "parrotperch.js",
+    "c": "pets",
+    "t": "Parrot perch",
+    "g": "parrot perch stand bird"
+  },
+  {
+    "file": "helipad.js",
+    "c": "transport",
+    "t": "Helipad",
+    "g": "helipad landing pad helicopter"
+  },
+  {
+    "file": "gondolalift.js",
+    "c": "transport",
+    "t": "Gondola lift",
+    "g": "gondola lift cabins ski"
+  },
+  {
+    "file": "tyrechanger.js",
+    "c": "automotive",
+    "t": "Tyre changer",
+    "g": "tyre changer garage wheel"
+  },
+  {
+    "file": "oilcans.js",
+    "c": "automotive",
+    "t": "Oil cans",
+    "g": "oil cans garage motor"
+  },
+  {
+    "file": "weldingbench.js",
+    "c": "manufacturing",
+    "t": "Welding bench",
+    "g": "welding bench torch workshop"
+  },
+  {
+    "file": "tilestacks.js",
+    "c": "construction",
+    "t": "Tile stacks",
+    "g": "tiles stack floor builder"
+  },
+  {
+    "file": "barn.js",
+    "c": "agriculture",
+    "t": "Barn",
+    "g": "barn doors hayloft farm"
+  },
+  {
+    "file": "wallet.js",
+    "c": "finance",
+    "t": "Wallet",
+    "g": "wallet cards cash finance"
+  },
+  {
+    "file": "keycabinet.js",
+    "c": "security",
+    "t": "Key cabinet",
+    "g": "key cabinet locks security"
+  },
+  {
+    "file": "bollards.js",
+    "c": "security",
+    "t": "Bollards",
+    "g": "bollards street security posts"
+  },
+  {
+    "file": "teslacoil.js",
+    "c": "science",
+    "t": "Tesla coil",
+    "g": "tesla coil sparks physics"
+  },
+  {
+    "file": "radiotelescope.js",
+    "c": "space",
+    "t": "Radio telescope",
+    "g": "radio telescope dish array"
+  },
+  {
+    "file": "tenniscourt.js",
+    "c": "sports",
+    "t": "Tennis court",
+    "g": "tennis court net balls"
+  },
+  {
+    "file": "grandpiano.js",
+    "c": "music",
+    "t": "Grand piano",
+    "g": "grand piano lid music"
+  },
+  {
+    "file": "filmcamera.js",
+    "c": "media",
+    "t": "Film camera",
+    "g": "film camera reels cinema"
+  },
+  {
+    "file": "jewellerybox.js",
+    "c": "fashion",
+    "t": "Jewellery box",
+    "g": "jewellery box drawers rings"
+  },
+  {
+    "file": "housekeeping.js",
+    "c": "hospitality",
+    "t": "Housekeeping cart",
+    "g": "housekeeping cart hotel"
+  },
+  {
+    "file": "canoe.js",
+    "c": "outdoors",
+    "t": "Canoe",
+    "g": "canoe paddle lake"
+  },
+  {
+    "file": "ballotcount.js",
+    "c": "government",
+    "t": "Ballot count",
+    "g": "ballot boxes count election"
+  },
+  {
+    "file": "bookstacks.js",
+    "c": "education",
+    "t": "Book stacks",
+    "g": "book stacks library reading"
   }
 ]
