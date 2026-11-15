@@ -4606,5 +4606,83 @@
     "c": "gaming",
     "t": "Jigsaw puzzle",
     "g": "jigsaw puzzle pieces board"
+  },
+  {
+    "file": "sentrybox.js",
+    "c": "security",
+    "t": "Sentry box",
+    "g": "sentry box guard hut"
+  },
+  {
+    "file": "pottery.js",
+    "c": "design",
+    "t": "Potter wheel",
+    "g": "potter wheel clay spin"
+  },
+  {
+    "file": "penholder.js",
+    "c": "design",
+    "t": "Brush jar",
+    "g": "brush jar paint brushes"
+  },
+  {
+    "file": "wardrobe2.js",
+    "c": "home",
+    "t": "Sliding wardrobe",
+    "g": "sliding wardrobe doors"
+  },
+  {
+    "file": "bedframe.js",
+    "c": "home",
+    "t": "Storage bed",
+    "g": "storage bed lift up base"
+  },
+  {
+    "file": "mailslot.js",
+    "c": "home",
+    "t": "Letterbox flap",
+    "g": "door letterbox flap post"
+  },
+  {
+    "file": "sheetrack.js",
+    "c": "manufacturing",
+    "t": "Sheet rack",
+    "g": "sheet metal rack"
+  },
+  {
+    "file": "robotgripper.js",
+    "c": "manufacturing",
+    "t": "Gripper",
+    "g": "robot gripper jaws"
+  },
+  {
+    "file": "valvewheel.js",
+    "c": "manufacturing",
+    "t": "Valve wheel",
+    "g": "gate valve hand wheel"
+  },
+  {
+    "file": "stagelight.js",
+    "c": "music",
+    "t": "Stage lights",
+    "g": "stage lights truss"
+  },
+  {
+    "file": "micstand2.js",
+    "c": "music",
+    "t": "Drum stool",
+    "g": "drum stool throne"
+  },
+  {
+    "file": "cdrack.js",
+    "c": "music",
+    "t": "Record crate",
+    "g": "vinyl record crate"
+  },
+  {
+    "file": "pianolid.js",
+    "c": "music",
+    "t": "Upright piano",
+    "g": "upright piano lid keys"
   }
 ]
