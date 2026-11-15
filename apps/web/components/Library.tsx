@@ -157,8 +157,13 @@ export function Library() {
 
   const catTitles = useMemo(() => new Map(index?.categories.map((c) => [c.id, c.title]) ?? []), [index]);
 
-  const list = useMemo(() => {
-    if (!index) return [] as IconEntry[];
+  // A search runs in the selected collection first. When nothing there matches, it falls back to the
+  // whole library (each result keeps its real category); otherwise it reports matches elsewhere.
+  const searched = useMemo(() => {
+    const none = { items: [] as IconEntry[], fallback: false, elsewhere: [] as IconEntry[] };
+    if (!index) return none;
+    const scoped = collection !== 'all' && collection !== 'favourites' && collection !== 'recent';
+    const q = deferredQuery.trim();
     let items = index.icons;
     if (collection === 'favourites') {
       const set = new Set(favourites.items);
@@ -176,9 +181,22 @@ export function Library() {
     if (animated) items = items.filter((i) => i.a && (motionKind === 'all' || i.m === motionKind));
     items = searchIcons(items, deferredQuery, catTitles);
     // A search keeps its relevance order; the sort menu applies to browsing.
-    if (sort === 'az' && !deferredQuery.trim()) items = [...items].sort((a, b) => a.t.localeCompare(b.t));
-    return items;
+    if (sort === 'az' && !q) items = [...items].sort((a, b) => a.t.localeCompare(b.t));
+    if (!q || !scoped) return { items, fallback: false, elsewhere: [] };
+    let all = index.icons;
+    if (animated) all = all.filter((i) => i.a && (motionKind === 'all' || i.m === motionKind));
+    const global = searchIcons(all, deferredQuery, catTitles);
+    if (!items.length) return { items: global, fallback: global.length > 0, elsewhere: [] };
+    const here = new Set(items.map((i) => i.n));
+    return { items, fallback: false, elsewhere: global.filter((i) => !here.has(i.n)) };
   }, [index, collection, deferredQuery, catTitles, sort, animated, motionKind, favourites.items, recent.items]);
+  const list = searched.items;
+  // Category counts for a search note: "Brands & Platforms (3), Social (1)".
+  const topCats = (items: IconEntry[]) => {
+    const m = new Map<string, number>();
+    for (const i of items) m.set(i.c, (m.get(i.c) ?? 0) + 1);
+    return [...m].sort((a, b) => b[1] - a[1]).slice(0, 4);
+  };
 
   const inkHex = theme === 'dark' ? '#F4F4F5' : '#171729';
   const colourHex = colour === 'ink' ? inkHex : colour === 'custom' ? custom : SWATCHES.find((s) => s.id === colour)!.hex;
@@ -613,7 +631,7 @@ export function Library() {
                   <p className="only-desktop">
                     {animated
                       ? `${batchNote}${fmt(list.length)} icons with motion. Download as Lottie, .lottie, GIF or animated SVG`
-                      : `${batchNote}${fmt(list.length)} icons${deferredQuery ? ` for “${deferredQuery}”` : ''}, every one in Light, Regular, Bold, Fill and Duotone`}
+                      : `${batchNote}${fmt(list.length)} ${list.length === 1 ? 'icon' : 'icons'}${deferredQuery ? ` for “${deferredQuery}”` : ''}, every one in Light, Regular, Bold, Fill and Duotone`}
                   </p>
                   <p className="only-tablet">{batchNote}{fmt(list.length)} icons · 5 styles each</p>
                   <p className="only-phone result-count">{fmt(list.length)} icons · 5 styles</p>
@@ -680,6 +698,32 @@ export function Library() {
               </div>
               )}
 
+              {deferredQuery.trim() && (searched.fallback || searched.elsewhere.length > 0) && (
+                <div className="search-note" role="status">
+                  <UiIcon name="search" size={16} />
+                  <span>
+                    {searched.fallback ? (
+                      <>
+                        Nothing for “{deferredQuery.trim()}” in {current}. Showing {fmt(list.length)} from all categories:
+                      </>
+                    ) : (
+                      <>
+                        {fmt(searched.elsewhere.length)} more {searched.elsewhere.length === 1 ? 'match' : 'matches'} in other categories:
+                      </>
+                    )}
+                  </span>
+                  {topCats(searched.fallback ? list : searched.elsewhere).map(([c, n]) => (
+                    <button key={c} className="chip chip-sm" onClick={() => setCollection(c)}>
+                      {catTitles.get(c) ?? c} <span className="coll-count">{fmt(n)}</span>
+                    </button>
+                  ))}
+                  {!searched.fallback && (
+                    <button className="text-link" onClick={() => setCollection('all')}>
+                      Search all icons
+                    </button>
+                  )}
+                </div>
+              )}
               <div ref={gridWrap}>
               <IconGrid
                 icons={visible}
@@ -690,6 +734,7 @@ export function Library() {
                 tile={tile}
                 copied={copied}
                 onTile={onTile}
+                catTitle={(c) => catTitles.get(c) ?? c}
                 loading={!index || !svgs}
                 emptyLabel={
                   collection === 'favourites'
@@ -854,6 +899,7 @@ function IconGrid({
   tile,
   copied,
   onTile,
+  catTitle,
   loading,
   emptyLabel,
 }: {
@@ -865,6 +911,7 @@ function IconGrid({
   tile: TileSize;
   copied: string | null;
   onTile: (i: IconEntry) => void;
+  catTitle?: (c: string) => string;
   loading: boolean;
   emptyLabel: string;
 }) {
@@ -891,7 +938,7 @@ function IconGrid({
             <button
               className={`icon-tile${copied === i.n ? ' is-copied' : ''}`}
               onClick={() => onTile(i)}
-              title={i.t}
+              title={catTitle ? `${i.t} · ${catTitle(i.c)}` : i.t}
               aria-label={spec ? `${i.t}, open download options` : `Copy ${i.t} SVG`}
               style={{ color: colourHex, ['--px' as string]: `${px}px` }}
               onMouseEnter={spec ? () => setHover(i.n) : undefined}

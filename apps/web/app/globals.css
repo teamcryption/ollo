@@ -344,3 +344,14 @@ ul[role='list'] { list-style: none; margin: 0; padding: 0; }
 .chip:has(> .badge-pro:last-child),
 .chip:has(> .badge-new:last-child) { padding-right: 5px; }
 .chip > .badge-pro, .chip > .badge-new { margin-left: 2px; }
+
+/* Search note: matches outside the selected collection (or a fallback to the whole library) */
+.search-note {
+  display: flex; align-items: center; flex-wrap: wrap; gap: 8px; padding: 10px 14px;
+  border-radius: var(--radius-md); background: var(--color-brand-primary-subtle); color: var(--color-text-primary);
+  font-size: 14px; line-height: 20px;
+}
+.search-note > svg { color: var(--color-text-brand); }
+.search-note .chip-sm { height: 28px; padding: 0 10px; background: var(--color-bg-surface); gap: 6px; }
+.search-note .text-link { font-weight: 500; color: var(--color-text-brand); }
+.search-note .text-link:hover { text-decoration: underline; text-underline-offset: 3px; }

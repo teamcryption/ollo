@@ -74,7 +74,6 @@ export function useIllustrationState() {
   const [collection, setCollection] = useState('all');
   const [kind, setKind] = useState<Kind>('all');
   const [type, setType] = useState<IllType>('stroke');
-  const [animatedOnly, setAnimatedOnly] = useState(false);
   const [colour, setColour] = useState('ink');
   const [custom, setCustom] = useState('#3A57FF');
   const [theme, setTheme] = useState<'auto' | IllTheme>('auto');
@@ -88,7 +87,7 @@ export function useIllustrationState() {
     return [...c].map(([id, count]) => ({ id, title: INDUSTRY[id] ?? id[0].toUpperCase() + id.slice(1), count }));
   }, [items]);
   return {
-    items, collection, setCollection, kind, setKind, type, setType, animatedOnly, setAnimatedOnly,
+    items, collection, setCollection, kind, setKind, type, setType,
     colour, setColour, custom, setCustom, theme, setTheme, sort, setSort, categories,
   };
 }
@@ -146,17 +145,6 @@ function Colours({ s }: { s: IllState }) {
   );
 }
 
-function AnimatedOnly({ s }: { s: IllState }) {
-  return (
-    <button className="switch" role="switch" aria-checked={s.animatedOnly} onClick={() => s.setAnimatedOnly(!s.animatedOnly)}>
-      <span className="track" aria-hidden="true">
-        <span className="thumb" />
-      </span>
-      Animated only
-    </button>
-  );
-}
-
 function ThemeSelect({ s, site }: { s: IllState; site: Theme }) {
   return (
     <Select label="Theme" small value={s.theme === 'auto' ? site : s.theme} onChange={(v) => s.setTheme(v as IllState['theme'])}>
@@ -172,9 +160,6 @@ export function IllustrationFilters({ s, site }: { s: IllState; site: Theme }) {
       <div className="sheet-group">
         <span className="filter-label">Style</span>
         <StyleChips s={s} />
-      </div>
-      <div className="sheet-group">
-        <AnimatedOnly s={s} />
       </div>
       <div className="sheet-group">
         <span className="filter-label">Colours</span>
@@ -209,17 +194,26 @@ export function Illustrations({
   const all = s.items ?? [];
   const liveCount = all.filter((i) => i.live).length;
   const kindCount = (k: Kind) => (k === 'all' || k === 'static' ? all.length : isLive(k) ? liveCount : 0);
-  const list = useMemo(() => {
-    let l = s.items ?? [];
-    if (s.collection !== 'all') l = l.filter((i) => i.c === s.collection);
-    if (isLive(s.kind)) l = l.filter((i) => i.live);
-    else if (s.kind !== 'all' && s.kind !== 'static') l = [];
-    if (s.animatedOnly) l = l.filter((i) => i.motion);
-    // Same relevance search as icons: names, titles, tags, industry, plurals and synonyms.
-    if (query.trim()) l = searchIcons(l, query, new Map(s.categories.map((c) => [c.id, c.title])));
-    else if (s.sort === 'az') l = [...l].sort((a, b) => a.t.localeCompare(b.t));
-    return l;
-  }, [s.items, s.collection, s.kind, s.animatedOnly, s.sort, query]);
+  // A search in one industry with no hits falls back to every industry, like icons do.
+  const searched = useMemo(() => {
+    const titles = new Map(s.categories.map((c) => [c.id, c.title]));
+    const pick = (inIndustry: boolean) => {
+      let l = s.items ?? [];
+      if (inIndustry && s.collection !== 'all') l = l.filter((i) => i.c === s.collection);
+      if (isLive(s.kind)) l = l.filter((i) => i.live);
+      else if (s.kind !== 'all' && s.kind !== 'static') l = [];
+      // Same relevance search as icons: names, titles, tags, industry, plurals and synonyms.
+      if (query.trim()) l = searchIcons(l, query, titles);
+      else if (s.sort === 'az') l = [...l].sort((a, b) => a.t.localeCompare(b.t));
+      return l;
+    };
+    const here = pick(true);
+    if (!query.trim() || s.collection === 'all') return { list: here, fallback: false, elsewhere: 0 };
+    const everywhere = pick(false);
+    if (!here.length) return { list: everywhere, fallback: everywhere.length > 0, elsewhere: 0 };
+    return { list: here, fallback: false, elsewhere: everywhere.length - here.length };
+  }, [s.items, s.collection, s.kind, s.sort, s.categories, query]);
+  const list = searched.list;
 
   const effTheme: IllTheme = s.theme === 'auto' ? theme : s.theme;
   const hex = s.colour === 'ink' ? null : s.colour === 'custom' ? s.custom : COLOURS.find((c) => c.id === s.colour)!.hex;
@@ -282,11 +276,25 @@ export function Illustrations({
         ))}
       </div>
 
+      {query.trim() && (searched.fallback || searched.elsewhere > 0) && (
+        <div className="search-note" role="status">
+          <UiIcon name="search" size={16} />
+          <span>
+            {searched.fallback
+              ? `Nothing for “${query.trim()}” in ${title}. Showing ${fmt(list.length)} from all industries.`
+              : `${fmt(searched.elsewhere)} more in other industries.`}
+          </span>
+          {!searched.fallback && (
+            <button className="text-link" onClick={() => s.setCollection('all')}>
+              Search all illustrations
+            </button>
+          )}
+        </div>
+      )}
+
       <div className="filter-bar only-desktop">
         <span className="filter-label">Style</span>
         <StyleChips s={s} />
-        <span className="divider" />
-        <AnimatedOnly s={s} />
         <span className="divider" />
         <span className="filter-label">Colours</span>
         <Colours s={s} />
