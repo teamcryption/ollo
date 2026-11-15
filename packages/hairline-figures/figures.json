@@ -5230,5 +5230,149 @@
     "c": "finance",
     "t": "Card wallet",
     "g": "card wallet slots"
+  },
+  {
+    "file": "abacus2.js",
+    "c": "finance",
+    "t": "Check stamp",
+    "g": "check endorsement stamp"
+  },
+  {
+    "file": "petbath2.js",
+    "c": "pets",
+    "t": "Pet stairs",
+    "g": "pet stairs steps sofa"
+  },
+  {
+    "file": "waffleiron2.js",
+    "c": "food",
+    "t": "Panini press",
+    "g": "panini press lid grill"
+  },
+  {
+    "file": "spicegrinder.js",
+    "c": "food",
+    "t": "Pepper mill",
+    "g": "tall pepper mill twist"
+  },
+  {
+    "file": "saladspinner.js",
+    "c": "food",
+    "t": "Salad spinner",
+    "g": "salad spinner pump"
+  },
+  {
+    "file": "podium3.js",
+    "c": "government",
+    "t": "Voting booth curtain",
+    "g": "voting booth curtain rail"
+  },
+  {
+    "file": "flagstand.js",
+    "c": "government",
+    "t": "Flag stand",
+    "g": "indoor flag stand pole"
+  },
+  {
+    "file": "courtbench.js",
+    "c": "government",
+    "t": "Witness stand",
+    "g": "witness stand box rail"
+  },
+  {
+    "file": "permitwindow.js",
+    "c": "government",
+    "t": "Service counter",
+    "g": "service counter hatch"
+  },
+  {
+    "file": "drill2.js",
+    "c": "construction",
+    "t": "Cordless drill",
+    "g": "cordless drill chuck"
+  },
+  {
+    "file": "circularsaw.js",
+    "c": "construction",
+    "t": "Mitre saw",
+    "g": "mitre saw arm blade"
+  },
+  {
+    "file": "vise.js",
+    "c": "construction",
+    "t": "Bench vise",
+    "g": "bench vise jaws"
+  },
+  {
+    "file": "sawhorse.js",
+    "c": "construction",
+    "t": "Sawhorse",
+    "g": "folding sawhorse"
+  },
+  {
+    "file": "wagon2.js",
+    "c": "kids",
+    "t": "Pull wagon",
+    "g": "pull wagon handle"
+  },
+  {
+    "file": "gpsunit.js",
+    "c": "travel",
+    "t": "Car GPS",
+    "g": "car gps mount screen"
+  },
+  {
+    "file": "luggagetag.js",
+    "c": "travel",
+    "t": "Luggage lock",
+    "g": "luggage combination lock"
+  },
+  {
+    "file": "travelpillow.js",
+    "c": "travel",
+    "t": "Seat recline",
+    "g": "airplane seat recline"
+  },
+  {
+    "file": "jukebox.js",
+    "c": "music",
+    "t": "Jukebox",
+    "g": "jukebox records arm"
+  },
+  {
+    "file": "metronome2.js",
+    "c": "music",
+    "t": "Music box",
+    "g": "music box crank lid"
+  },
+  {
+    "file": "guitarpedal.js",
+    "c": "music",
+    "t": "Effects pedal",
+    "g": "guitar effects pedal switch"
+  },
+  {
+    "file": "lunchbag.js",
+    "c": "education",
+    "t": "School locker",
+    "g": "school locker door"
+  },
+  {
+    "file": "scissors.js",
+    "c": "education",
+    "t": "Scissors",
+    "g": "safety scissors blades"
+  },
+  {
+    "file": "rulerset.js",
+    "c": "education",
+    "t": "Stapler",
+    "g": "stapler press"
+  },
+  {
+    "file": "beanbag.js",
+    "c": "education",
+    "t": "Book cart",
+    "g": "book cart wheels shelves"
   }
 ]
