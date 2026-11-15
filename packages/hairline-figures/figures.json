@@ -4834,5 +4834,401 @@
     "c": "technology",
     "t": "Label printer",
     "g": "label printer tape"
+  },
+  {
+    "file": "petfountain.js",
+    "c": "pets",
+    "t": "Water fountain",
+    "g": "pet water fountain"
+  },
+  {
+    "file": "catcarrier.js",
+    "c": "pets",
+    "t": "Pet ramp",
+    "g": "pet ramp steps"
+  },
+  {
+    "file": "dogcrate.js",
+    "c": "pets",
+    "t": "Dog crate",
+    "g": "dog crate door wire"
+  },
+  {
+    "file": "mixertap.js",
+    "c": "realestate",
+    "t": "Show kitchen",
+    "g": "show kitchen island"
+  },
+  {
+    "file": "inboxrack.js",
+    "c": "office",
+    "t": "Letter rack",
+    "g": "letter rack sorter mail"
+  },
+  {
+    "file": "sailboat2.js",
+    "c": "travel",
+    "t": "Sun lounger",
+    "g": "pool sun lounger recline"
+  },
+  {
+    "file": "camper.js",
+    "c": "travel",
+    "t": "Camper van",
+    "g": "camper van pop top roof"
+  },
+  {
+    "file": "tentdome.js",
+    "c": "outdoors",
+    "t": "Dome tent",
+    "g": "dome tent door zip"
+  },
+  {
+    "file": "filmprojector.js",
+    "c": "media",
+    "t": "Film projector",
+    "g": "film projector reels"
+  },
+  {
+    "file": "windsock2.js",
+    "c": "energy",
+    "t": "Wind vane",
+    "g": "wind vane arrow"
+  },
+  {
+    "file": "batterycart.js",
+    "c": "energy",
+    "t": "Battery swap",
+    "g": "battery swap station"
+  },
+  {
+    "file": "coathook2.js",
+    "c": "home",
+    "t": "Shoe rack spinner",
+    "g": "rotating shoe rack"
+  },
+  {
+    "file": "blender2.js",
+    "c": "food",
+    "t": "Juice press",
+    "g": "citrus juice press lever"
+  },
+  {
+    "file": "toaster2.js",
+    "c": "food",
+    "t": "Toaster oven",
+    "g": "toaster oven door tray"
+  },
+  {
+    "file": "ricebin.js",
+    "c": "food",
+    "t": "Rice dispenser",
+    "g": "rice dispenser bin"
+  },
+  {
+    "file": "tractor2.js",
+    "c": "agriculture",
+    "t": "Hay baler",
+    "g": "hay baler bale chute"
+  },
+  {
+    "file": "sprinkler.js",
+    "c": "agriculture",
+    "t": "Sprinkler",
+    "g": "garden sprinkler arm"
+  },
+  {
+    "file": "beehive2.js",
+    "c": "agriculture",
+    "t": "Bee smoker",
+    "g": "bee smoker bellows"
+  },
+  {
+    "file": "chessclock.js",
+    "c": "gaming",
+    "t": "Chess clock",
+    "g": "chess clock buttons"
+  },
+  {
+    "file": "pinballflip.js",
+    "c": "gaming",
+    "t": "Flipper",
+    "g": "pinball flipper ball"
+  },
+  {
+    "file": "arcadestick.js",
+    "c": "gaming",
+    "t": "Arcade cabinet",
+    "g": "arcade cabinet stick"
+  },
+  {
+    "file": "sewingdummy.js",
+    "c": "fashion",
+    "t": "Mannequin bust",
+    "g": "mannequin bust stand"
+  },
+  {
+    "file": "zipper.js",
+    "c": "fashion",
+    "t": "Zip pull",
+    "g": "zip pull fabric"
+  },
+  {
+    "file": "towelwarmer.js",
+    "c": "hospitality",
+    "t": "Towel warmer",
+    "g": "towel warmer cabinet spa"
+  },
+  {
+    "file": "traycart.js",
+    "c": "hospitality",
+    "t": "Ice machine",
+    "g": "hotel ice machine scoop"
+  },
+  {
+    "file": "wineopener.js",
+    "c": "hospitality",
+    "t": "Wine opener",
+    "g": "lever corkscrew bottle"
+  },
+  {
+    "file": "concretemix.js",
+    "c": "construction",
+    "t": "Wheel mixer",
+    "g": "mortar mixer drum tilt"
+  },
+  {
+    "file": "ladderext.js",
+    "c": "construction",
+    "t": "Extension ladder",
+    "g": "extension ladder slide"
+  },
+  {
+    "file": "nailgun.js",
+    "c": "construction",
+    "t": "Tool chest",
+    "g": "rolling tool chest drawers"
+  },
+  {
+    "file": "rovercam.js",
+    "c": "space",
+    "t": "Rover mast",
+    "g": "rover camera mast"
+  },
+  {
+    "file": "astronautseat.js",
+    "c": "space",
+    "t": "Launch couch",
+    "g": "launch couch seat capsule"
+  },
+  {
+    "file": "satdish2.js",
+    "c": "space",
+    "t": "Ground antenna",
+    "g": "ground station antenna dish"
+  },
+  {
+    "file": "aquariumlid.js",
+    "c": "pets",
+    "t": "Tank hood",
+    "g": "aquarium hood lid light"
+  },
+  {
+    "file": "hamsterball.js",
+    "c": "pets",
+    "t": "Exercise ball",
+    "g": "hamster exercise ball"
+  },
+  {
+    "file": "dogdoor.js",
+    "c": "pets",
+    "t": "Dog door",
+    "g": "dog flap door"
+  },
+  {
+    "file": "xraylight.js",
+    "c": "health",
+    "t": "X-ray viewer",
+    "g": "x-ray light box viewer"
+  },
+  {
+    "file": "robotarm2.js",
+    "c": "technology",
+    "t": "Robot arm",
+    "g": "robot arm joints"
+  },
+  {
+    "file": "pitchingmachine.js",
+    "c": "sports",
+    "t": "Batting cage",
+    "g": "batting cage net ball"
+  },
+  {
+    "file": "trampoline.js",
+    "c": "sports",
+    "t": "Trampoline",
+    "g": "trampoline springs mat"
+  },
+  {
+    "file": "skirack.js",
+    "c": "sports",
+    "t": "Ski rack",
+    "g": "ski rack wall skis"
+  },
+  {
+    "file": "playhouse.js",
+    "c": "kids",
+    "t": "Play house",
+    "g": "kids play house door"
+  },
+  {
+    "file": "slide2.js",
+    "c": "kids",
+    "t": "Spring rider",
+    "g": "playground spring rider"
+  },
+  {
+    "file": "sandtable.js",
+    "c": "kids",
+    "t": "Water table",
+    "g": "kids water table"
+  },
+  {
+    "file": "scanner.js",
+    "c": "office",
+    "t": "Flatbed scanner",
+    "g": "flatbed scanner lid"
+  },
+  {
+    "file": "monitorarm2.js",
+    "c": "office",
+    "t": "Desk riser",
+    "g": "sit stand desk riser"
+  },
+  {
+    "file": "phonebooth2.js",
+    "c": "office",
+    "t": "Phone pod",
+    "g": "office phone pod booth"
+  },
+  {
+    "file": "cardtower.js",
+    "c": "gaming",
+    "t": "Sand timer",
+    "g": "sand timer hourglass game"
+  },
+  {
+    "file": "bowlingpinset.js",
+    "c": "sports",
+    "t": "Golf flag",
+    "g": "golf hole flag pin cup"
+  },
+  {
+    "file": "hairdryer.js",
+    "c": "fashion",
+    "t": "Salon dryer",
+    "g": "salon hood dryer chair"
+  },
+  {
+    "file": "nailpolish.js",
+    "c": "fashion",
+    "t": "Nail polish rack",
+    "g": "nail polish rack bottles"
+  },
+  {
+    "file": "lipstick.js",
+    "c": "fashion",
+    "t": "Lipstick",
+    "g": "lipstick twist case"
+  },
+  {
+    "file": "compact.js",
+    "c": "fashion",
+    "t": "Powder compact",
+    "g": "powder compact mirror"
+  },
+  {
+    "file": "bunkbed2.js",
+    "c": "home",
+    "t": "Murphy bed",
+    "g": "murphy wall bed fold"
+  },
+  {
+    "file": "ironing2.js",
+    "c": "home",
+    "t": "Steam iron",
+    "g": "steam iron soleplate"
+  },
+  {
+    "file": "ceilingrack.js",
+    "c": "home",
+    "t": "Ceiling airer",
+    "g": "ceiling clothes airer pulley"
+  },
+  {
+    "file": "pantry.js",
+    "c": "home",
+    "t": "Pull-out pantry",
+    "g": "pull out pantry shelves"
+  },
+  {
+    "file": "labcoat.js",
+    "c": "science",
+    "t": "Fume hood",
+    "g": "fume hood sash lab"
+  },
+  {
+    "file": "tongs.js",
+    "c": "science",
+    "t": "Bunsen tripod",
+    "g": "tripod gauze burner"
+  },
+  {
+    "file": "funnelrack.js",
+    "c": "science",
+    "t": "Separating funnel",
+    "g": "separating funnel stand tap"
+  },
+  {
+    "file": "microtome.js",
+    "c": "science",
+    "t": "Spectroscope",
+    "g": "spectroscope prism eyepiece"
+  },
+  {
+    "file": "parkingticket.js",
+    "c": "transport",
+    "t": "Ticket barrier",
+    "g": "car park ticket barrier"
+  },
+  {
+    "file": "meterbox.js",
+    "c": "energy",
+    "t": "Meter cabinet",
+    "g": "meter cabinet door"
+  },
+  {
+    "file": "windup.js",
+    "c": "energy",
+    "t": "Water wheel",
+    "g": "water wheel paddles"
+  },
+  {
+    "file": "bankvault2.js",
+    "c": "finance",
+    "t": "Bank teller window",
+    "g": "teller window drawer"
+  },
+  {
+    "file": "ledgerlamp.js",
+    "c": "finance",
+    "t": "Banker lamp",
+    "g": "banker desk lamp"
+  },
+  {
+    "file": "moneyclip2.js",
+    "c": "finance",
+    "t": "Card wallet",
+    "g": "card wallet slots"
   }
 ]
