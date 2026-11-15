@@ -5968,5 +5968,131 @@
     "c": "design",
     "t": "Screen print press",
     "g": "screen printing press frame"
+  },
+  {
+    "file": "laserlevel.js",
+    "c": "construction",
+    "t": "Laser level",
+    "g": "tripod laser level"
+  },
+  {
+    "file": "tilecutter.js",
+    "c": "construction",
+    "t": "Tile cutter",
+    "g": "manual tile cutter"
+  },
+  {
+    "file": "lockbox.js",
+    "c": "realestate",
+    "t": "Lockbox",
+    "g": "realtor lockbox shackle"
+  },
+  {
+    "file": "blueprintrack.js",
+    "c": "realestate",
+    "t": "Plan chest",
+    "g": "plan chest drawers"
+  },
+  {
+    "file": "doorbell2.js",
+    "c": "realestate",
+    "t": "Video doorbell",
+    "g": "video doorbell press"
+  },
+  {
+    "file": "keypad2.js",
+    "c": "security",
+    "t": "Door keypad",
+    "g": "door keypad lock"
+  },
+  {
+    "file": "cctvdome.js",
+    "c": "security",
+    "t": "Bullet camera",
+    "g": "bullet camera bracket"
+  },
+  {
+    "file": "safebox2.js",
+    "c": "security",
+    "t": "Key safe",
+    "g": "wall key safe lid"
+  },
+  {
+    "file": "campstove.js",
+    "c": "outdoors",
+    "t": "Camp stove",
+    "g": "camp stove lid"
+  },
+  {
+    "file": "hammockstand.js",
+    "c": "outdoors",
+    "t": "Hammock stand",
+    "g": "hammock stand sway"
+  },
+  {
+    "file": "roverarm.js",
+    "c": "space",
+    "t": "Rover arm",
+    "g": "mars rover arm"
+  },
+  {
+    "file": "spacesuit2.js",
+    "c": "space",
+    "t": "Airlock",
+    "g": "airlock door wheel"
+  },
+  {
+    "file": "capsulehatch.js",
+    "c": "space",
+    "t": "Capsule hatch",
+    "g": "space capsule hatch"
+  },
+  {
+    "file": "starcamera.js",
+    "c": "space",
+    "t": "Star tracker",
+    "g": "star tracker camera"
+  },
+  {
+    "file": "groomtable.js",
+    "c": "pets",
+    "t": "Grooming table",
+    "g": "grooming table arm"
+  },
+  {
+    "file": "hamsterwheel2.js",
+    "c": "pets",
+    "t": "Pet stroller",
+    "g": "pet stroller canopy"
+  },
+  {
+    "file": "treatjar.js",
+    "c": "pets",
+    "t": "Treat dispenser",
+    "g": "treat dispenser lever"
+  },
+  {
+    "file": "drillpress2.js",
+    "c": "manufacturing",
+    "t": "Arbor press",
+    "g": "arbor press lever"
+  },
+  {
+    "file": "benchgrinder.js",
+    "c": "manufacturing",
+    "t": "Bench grinder",
+    "g": "bench grinder guard"
+  },
+  {
+    "file": "courtgavel.js",
+    "c": "government",
+    "t": "Podium",
+    "g": "speaker podium lectern"
+  },
+  {
+    "file": "flagstaff2.js",
+    "c": "government",
+    "t": "Stamp rack",
+    "g": "rubber stamp rack"
   }
 ]
