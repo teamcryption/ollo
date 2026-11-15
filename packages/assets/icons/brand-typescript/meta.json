@@ -1,0 +1,28 @@
+{
+  "name": "brand-typescript",
+  "title": "TypeScript",
+  "category": "brands",
+  "tags": [
+    "typescript",
+    "programming language",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#3178C6",
+    "source": "https://www.typescriptlang.org/branding",
+    "guidelines": "https://www.typescriptlang.org/branding",
+    "pathLicense": "not stated (Simple Icons CC0 collection)"
+  },
+  "animation": null,
+  "notes": "TypeScript is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

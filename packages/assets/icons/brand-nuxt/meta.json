@@ -1,0 +1,29 @@
+{
+  "name": "brand-nuxt",
+  "title": "Nuxt",
+  "category": "brands",
+  "tags": [
+    "nuxt",
+    "nuxt.js",
+    "framework",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#00DC82",
+    "source": "https://nuxt.com/design-kit",
+    "guidelines": "https://nuxt.com/design-kit",
+    "pathLicense": "not stated (Simple Icons CC0 collection)"
+  },
+  "animation": null,
+  "notes": "Nuxt is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

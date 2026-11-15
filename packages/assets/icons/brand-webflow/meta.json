@@ -1,0 +1,28 @@
+{
+  "name": "brand-webflow",
+  "title": "Webflow",
+  "category": "brands",
+  "tags": [
+    "webflow",
+    "design",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#146EF5",
+    "source": "https://brand-at.webflow.io/resources#logos",
+    "guidelines": "https://brand-at.webflow.io",
+    "pathLicense": "not stated (Simple Icons CC0 collection)"
+  },
+  "animation": null,
+  "notes": "Webflow is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

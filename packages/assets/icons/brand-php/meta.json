@@ -1,0 +1,27 @@
+{
+  "name": "brand-php",
+  "title": "PHP",
+  "category": "brands",
+  "tags": [
+    "php",
+    "programming language",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#777BB4",
+    "source": "https://php.net/download-logos.php",
+    "pathLicense": "CC-BY-SA-4.0"
+  },
+  "animation": null,
+  "notes": "PHP is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

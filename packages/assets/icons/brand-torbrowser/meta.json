@@ -1,0 +1,28 @@
+{
+  "name": "brand-torbrowser",
+  "title": "Tor Browser",
+  "category": "brands",
+  "tags": [
+    "tor browser",
+    "torbrowser",
+    "browser",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#7D4698",
+    "source": "https://styleguide.torproject.org/brand-assets",
+    "pathLicense": "not stated (Simple Icons CC0 collection)"
+  },
+  "animation": null,
+  "notes": "Tor Browser is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

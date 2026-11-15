@@ -1,0 +1,28 @@
+{
+  "name": "brand-gimp",
+  "title": "GIMP",
+  "category": "brands",
+  "tags": [
+    "gimp",
+    "gnu image manipulation program",
+    "design",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#8C8073",
+    "source": "https://gitlab.gnome.org/GNOME/gimp-data/-/blob/e62f1905dcef7ec831ea6c052bb035eb37eaa69e/images/logo/gimp-logo-unicolor.svg",
+    "pathLicense": "CC-BY-SA-4.0"
+  },
+  "animation": null,
+  "notes": "GIMP is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

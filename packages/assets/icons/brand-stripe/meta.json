@@ -1,0 +1,27 @@
+{
+  "name": "brand-stripe",
+  "title": "Stripe",
+  "category": "brands",
+  "tags": [
+    "stripe",
+    "payments",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#635BFF",
+    "source": "https://stripe.com/newsroom/information",
+    "pathLicense": "not stated (Simple Icons CC0 collection)"
+  },
+  "animation": null,
+  "notes": "Stripe is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

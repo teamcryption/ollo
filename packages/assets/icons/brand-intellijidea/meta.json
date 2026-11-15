@@ -1,0 +1,29 @@
+{
+  "name": "brand-intellijidea",
+  "title": "IntelliJ IDEA",
+  "category": "brands",
+  "tags": [
+    "intellij idea",
+    "intellijidea",
+    "developer tools",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#000000",
+    "source": "https://www.jetbrains.com/idea/",
+    "guidelines": "https://www.jetbrains.com/company/brand/",
+    "pathLicense": "not stated (Simple Icons CC0 collection)"
+  },
+  "animation": null,
+  "notes": "IntelliJ IDEA is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

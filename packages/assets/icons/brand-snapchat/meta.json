@@ -1,0 +1,28 @@
+{
+  "name": "brand-snapchat",
+  "title": "Snapchat",
+  "category": "brands",
+  "tags": [
+    "snapchat",
+    "social media",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#FFFC00",
+    "source": "https://www.snapchat.com/brand-guidelines",
+    "guidelines": "https://www.snapchat.com/brand-guidelines",
+    "pathLicense": "not stated (Simple Icons CC0 collection)"
+  },
+  "animation": null,
+  "notes": "Snapchat is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

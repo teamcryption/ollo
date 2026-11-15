@@ -1,0 +1,28 @@
+{
+  "name": "brand-rust",
+  "title": "Rust",
+  "category": "brands",
+  "tags": [
+    "rust",
+    "programming language",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#000000",
+    "source": "https://www.rust-lang.org",
+    "guidelines": "https://www.rust-lang.org/policies/media-guide",
+    "pathLicense": "CC-BY-SA-4.0"
+  },
+  "animation": null,
+  "notes": "Rust is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

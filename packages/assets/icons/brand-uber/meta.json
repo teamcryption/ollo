@@ -1,0 +1,28 @@
+{
+  "name": "brand-uber",
+  "title": "Uber",
+  "category": "brands",
+  "tags": [
+    "uber",
+    "travel",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#000000",
+    "source": "https://assets.uber.com/d/k4nuxdZ8MC7E/logos/collection/151",
+    "guidelines": "https://assets.uber.com/d/k4nuxdZ8MC7E/user-guide#/user-guide/terms-of-use",
+    "pathLicense": "not stated (Simple Icons CC0 collection)"
+  },
+  "animation": null,
+  "notes": "Uber is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

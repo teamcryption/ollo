@@ -1,0 +1,27 @@
+{
+  "name": "brand-safari",
+  "title": "Safari",
+  "category": "brands",
+  "tags": [
+    "safari",
+    "browser",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#006CFF",
+    "source": "https://apps.apple.com/us/app/safari/id1146562112",
+    "pathLicense": "not stated (Simple Icons CC0 collection)"
+  },
+  "animation": null,
+  "notes": "Safari is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

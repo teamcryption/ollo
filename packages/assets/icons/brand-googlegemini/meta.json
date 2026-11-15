@@ -1,0 +1,28 @@
+{
+  "name": "brand-googlegemini",
+  "title": "Google Gemini",
+  "category": "brands",
+  "tags": [
+    "google gemini",
+    "googlegemini",
+    "ai",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#8E75B2",
+    "source": "https://gemini.google.com",
+    "pathLicense": "not stated (Simple Icons CC0 collection)"
+  },
+  "animation": null,
+  "notes": "Google Gemini is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

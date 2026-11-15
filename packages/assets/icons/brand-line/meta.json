@@ -1,0 +1,30 @@
+{
+  "name": "brand-line",
+  "title": "LINE",
+  "category": "brands",
+  "tags": [
+    "line",
+    "ライン",
+    "라인",
+    "messaging",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#00C300",
+    "source": "https://line.me/en/logo",
+    "guidelines": "https://line.me/en/logo",
+    "pathLicense": "not stated (Simple Icons CC0 collection)"
+  },
+  "animation": null,
+  "notes": "LINE is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

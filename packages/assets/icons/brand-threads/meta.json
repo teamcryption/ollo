@@ -1,0 +1,28 @@
+{
+  "name": "brand-threads",
+  "title": "Threads",
+  "category": "brands",
+  "tags": [
+    "threads",
+    "social media",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#000000",
+    "source": "https://www.meta.com/brand/resources/instagram/threads",
+    "guidelines": "https://www.meta.com/brand/resources/instagram/threads",
+    "pathLicense": "not stated (Simple Icons CC0 collection)"
+  },
+  "animation": null,
+  "notes": "Threads is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

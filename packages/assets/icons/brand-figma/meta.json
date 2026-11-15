@@ -1,0 +1,28 @@
+{
+  "name": "brand-figma",
+  "title": "Figma",
+  "category": "brands",
+  "tags": [
+    "figma",
+    "design",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#F24E1E",
+    "source": "https://www.figma.com/using-the-figma-brand/",
+    "guidelines": "https://www.figma.com/using-the-figma-brand/",
+    "pathLicense": "not stated (Simple Icons CC0 collection)"
+  },
+  "animation": null,
+  "notes": "Figma is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

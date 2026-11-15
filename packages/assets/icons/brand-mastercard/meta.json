@@ -1,0 +1,28 @@
+{
+  "name": "brand-mastercard",
+  "title": "MasterCard",
+  "category": "brands",
+  "tags": [
+    "mastercard",
+    "payments",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#EB001B",
+    "source": "https://www.mastercard.com/brandcenter/us/en/download-artwork.html",
+    "guidelines": "https://www.mastercard.com/brandcenter/us/en/brand-requirements/mastercard.html",
+    "pathLicense": "not stated (Simple Icons CC0 collection)"
+  },
+  "animation": null,
+  "notes": "MasterCard is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

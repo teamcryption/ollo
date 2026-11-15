@@ -1,0 +1,28 @@
+{
+  "name": "brand-venmo",
+  "title": "Venmo",
+  "category": "brands",
+  "tags": [
+    "venmo",
+    "payments",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#008CFF",
+    "source": "https://venmo.com/about/brand",
+    "guidelines": "https://venmo.com/about/brand",
+    "pathLicense": "not stated (Simple Icons CC0 collection)"
+  },
+  "animation": null,
+  "notes": "Venmo is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

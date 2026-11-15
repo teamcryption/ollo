@@ -1,0 +1,27 @@
+{
+  "name": "brand-ebay",
+  "title": "eBay",
+  "category": "brands",
+  "tags": [
+    "ebay",
+    "ecommerce",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#E53238",
+    "source": "https://go.developer.ebay.com/logos",
+    "pathLicense": "not stated (Simple Icons CC0 collection)"
+  },
+  "animation": null,
+  "notes": "eBay is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

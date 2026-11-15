@@ -1,0 +1,28 @@
+{
+  "name": "brand-whatsapp",
+  "title": "WhatsApp",
+  "category": "brands",
+  "tags": [
+    "whatsapp",
+    "messaging",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#25D366",
+    "source": "https://about.meta.com/brand/resources/whatsapp/whatsapp-brand",
+    "guidelines": "https://about.meta.com/brand/resources/whatsapp/whatsapp-brand",
+    "pathLicense": "not stated (Simple Icons CC0 collection)"
+  },
+  "animation": null,
+  "notes": "WhatsApp is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

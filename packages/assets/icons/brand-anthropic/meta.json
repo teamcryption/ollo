@@ -1,0 +1,27 @@
+{
+  "name": "brand-anthropic",
+  "title": "Anthropic",
+  "category": "brands",
+  "tags": [
+    "anthropic",
+    "ai",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#191919",
+    "source": "https://www.anthropic.com",
+    "pathLicense": "not stated (Simple Icons CC0 collection)"
+  },
+  "animation": null,
+  "notes": "Anthropic is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

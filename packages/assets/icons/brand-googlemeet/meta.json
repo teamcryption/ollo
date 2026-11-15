@@ -1,0 +1,28 @@
+{
+  "name": "brand-googlemeet",
+  "title": "Google Meet",
+  "category": "brands",
+  "tags": [
+    "google meet",
+    "googlemeet",
+    "messaging",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#00897B",
+    "source": "https://about.google/brand-resource-center/logos-list/",
+    "pathLicense": "not stated (Simple Icons CC0 collection)"
+  },
+  "animation": null,
+  "notes": "Google Meet is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

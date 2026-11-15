@@ -1,0 +1,27 @@
+{
+  "name": "brand-neovim",
+  "title": "Neovim",
+  "category": "brands",
+  "tags": [
+    "neovim",
+    "developer tools",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#57A143",
+    "source": "https://neovim.io",
+    "pathLicense": "CC-BY-SA-3.0"
+  },
+  "animation": null,
+  "notes": "Neovim is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

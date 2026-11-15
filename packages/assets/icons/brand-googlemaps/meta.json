@@ -1,0 +1,28 @@
+{
+  "name": "brand-googlemaps",
+  "title": "Google Maps",
+  "category": "brands",
+  "tags": [
+    "google maps",
+    "googlemaps",
+    "travel",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#4285F4",
+    "source": "https://commons.wikimedia.org/wiki/File:Google_Maps_icon.svg",
+    "pathLicense": "not stated (Simple Icons CC0 collection)"
+  },
+  "animation": null,
+  "notes": "Google Maps is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

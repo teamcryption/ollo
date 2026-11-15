@@ -1,0 +1,27 @@
+{
+  "name": "brand-quora",
+  "title": "Quora",
+  "category": "brands",
+  "tags": [
+    "quora",
+    "social media",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#B92B27",
+    "source": "https://www.quora.com",
+    "pathLicense": "not stated (Simple Icons CC0 collection)"
+  },
+  "animation": null,
+  "notes": "Quora is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

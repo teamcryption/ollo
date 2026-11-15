@@ -1,0 +1,28 @@
+{
+  "name": "brand-swift",
+  "title": "Swift",
+  "category": "brands",
+  "tags": [
+    "swift",
+    "programming language",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#F05138",
+    "source": "https://developer.apple.com/swift/resources/",
+    "guidelines": "https://developer.apple.com/swift/resources/",
+    "pathLicense": "not stated (Simple Icons CC0 collection)"
+  },
+  "animation": null,
+  "notes": "Swift is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

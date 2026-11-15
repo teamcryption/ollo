@@ -1,0 +1,29 @@
+{
+  "name": "brand-bookingdotcom",
+  "title": "Booking.com",
+  "category": "brands",
+  "tags": [
+    "booking.com",
+    "bookingdotcom",
+    "travel",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#003A9A",
+    "source": "https://www.bookingholdings.com/media-room",
+    "guidelines": "https://www.bookingholdings.com/media-room",
+    "pathLicense": "not stated (Simple Icons CC0 collection)"
+  },
+  "animation": null,
+  "notes": "Booking.com is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

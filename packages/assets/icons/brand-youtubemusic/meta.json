@@ -1,0 +1,28 @@
+{
+  "name": "brand-youtubemusic",
+  "title": "YouTube Music",
+  "category": "brands",
+  "tags": [
+    "youtube music",
+    "youtubemusic",
+    "music and video",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#FF0000",
+    "source": "https://partnermarketinghub.withgoogle.com/#/brands",
+    "pathLicense": "not stated (Simple Icons CC0 collection)"
+  },
+  "animation": null,
+  "notes": "YouTube Music is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

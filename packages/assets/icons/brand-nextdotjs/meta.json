@@ -1,0 +1,29 @@
+{
+  "name": "brand-nextdotjs",
+  "title": "Next.js",
+  "category": "brands",
+  "tags": [
+    "next.js",
+    "nextdotjs",
+    "framework",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#000000",
+    "source": "https://vercel.com/design/brands#next-js",
+    "guidelines": "https://vercel.com/design/brands#next-js",
+    "pathLicense": "not stated (Simple Icons CC0 collection)"
+  },
+  "animation": null,
+  "notes": "Next.js is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

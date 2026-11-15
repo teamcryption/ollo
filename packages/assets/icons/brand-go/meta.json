@@ -1,0 +1,28 @@
+{
+  "name": "brand-go",
+  "title": "Go",
+  "category": "brands",
+  "tags": [
+    "go",
+    "programming language",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#00ADD8",
+    "source": "https://blog.golang.org/go-brand",
+    "guidelines": "https://blog.golang.org/go-brand",
+    "pathLicense": "not stated (Simple Icons CC0 collection)"
+  },
+  "animation": null,
+  "notes": "Go is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

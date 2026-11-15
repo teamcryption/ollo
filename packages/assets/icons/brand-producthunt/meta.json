@@ -1,0 +1,29 @@
+{
+  "name": "brand-producthunt",
+  "title": "Product Hunt",
+  "category": "brands",
+  "tags": [
+    "product hunt",
+    "producthunt",
+    "social media",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#DA552F",
+    "source": "https://www.producthunt.com/branding",
+    "guidelines": "https://www.producthunt.com/branding",
+    "pathLicense": "not stated (Simple Icons CC0 collection)"
+  },
+  "animation": null,
+  "notes": "Product Hunt is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

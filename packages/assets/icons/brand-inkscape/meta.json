@@ -1,0 +1,27 @@
+{
+  "name": "brand-inkscape",
+  "title": "Inkscape",
+  "category": "brands",
+  "tags": [
+    "inkscape",
+    "design",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#000000",
+    "source": "https://inkscape.org/gallery/=inkscape-branding/inkscape-brand-assets/",
+    "pathLicense": "CC-BY-SA-3.0"
+  },
+  "animation": null,
+  "notes": "Inkscape is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

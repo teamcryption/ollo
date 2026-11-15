@@ -1,0 +1,28 @@
+{
+  "name": "brand-debian",
+  "title": "Debian",
+  "category": "brands",
+  "tags": [
+    "debian",
+    "operating system",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#A81D33",
+    "source": "https://www.debian.org/logos",
+    "guidelines": "https://www.debian.org/logos/",
+    "pathLicense": "CC-BY-SA-3.0"
+  },
+  "animation": null,
+  "notes": "Debian is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

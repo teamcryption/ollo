@@ -1,0 +1,28 @@
+{
+  "name": "brand-facebook",
+  "title": "Facebook",
+  "category": "brands",
+  "tags": [
+    "facebook",
+    "social media",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#0866FF",
+    "source": "https://about.meta.com/brand/resources/facebook/logo",
+    "guidelines": "https://about.meta.com/brand/resources/facebook/logo",
+    "pathLicense": "not stated (Simple Icons CC0 collection)"
+  },
+  "animation": null,
+  "notes": "Facebook is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

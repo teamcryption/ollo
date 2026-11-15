@@ -1,0 +1,28 @@
+{
+  "name": "brand-kakaotalk",
+  "title": "KakaoTalk",
+  "category": "brands",
+  "tags": [
+    "kakaotalk",
+    "카카오톡",
+    "messaging",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#FFCD00",
+    "source": "https://commons.wikimedia.org/wiki/File:KakaoTalk_logo.svg",
+    "pathLicense": "not stated (Simple Icons CC0 collection)"
+  },
+  "animation": null,
+  "notes": "KakaoTalk is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

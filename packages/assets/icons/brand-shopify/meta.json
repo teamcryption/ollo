@@ -1,0 +1,28 @@
+{
+  "name": "brand-shopify",
+  "title": "Shopify",
+  "category": "brands",
+  "tags": [
+    "shopify",
+    "ecommerce",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#7AB55C",
+    "source": "https://www.shopify.com/brand-assets",
+    "guidelines": "https://www.shopify.com/brand-assets",
+    "pathLicense": "not stated (Simple Icons CC0 collection)"
+  },
+  "animation": null,
+  "notes": "Shopify is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

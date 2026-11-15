@@ -1,0 +1,29 @@
+{
+  "name": "brand-archlinux",
+  "title": "Arch Linux",
+  "category": "brands",
+  "tags": [
+    "arch linux",
+    "archlinux",
+    "operating system",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#1793D1",
+    "source": "https://www.archlinux.org/art",
+    "guidelines": "https://wiki.archlinux.org/index.php/DeveloperWiki:TrademarkPolicy#Logo_Usage_Guidelines",
+    "pathLicense": "not stated (Simple Icons CC0 collection)"
+  },
+  "animation": null,
+  "notes": "Arch Linux is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

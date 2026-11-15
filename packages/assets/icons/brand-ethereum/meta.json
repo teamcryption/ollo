@@ -1,0 +1,27 @@
+{
+  "name": "brand-ethereum",
+  "title": "Ethereum",
+  "category": "brands",
+  "tags": [
+    "ethereum",
+    "payments",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#3C3C3D",
+    "source": "https://ethereum.org/en/assets/",
+    "pathLicense": "not stated (Simple Icons CC0 collection)"
+  },
+  "animation": null,
+  "notes": "Ethereum is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

@@ -1,0 +1,27 @@
+{
+  "name": "brand-claude",
+  "title": "Claude",
+  "category": "brands",
+  "tags": [
+    "claude",
+    "ai",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#D97757",
+    "source": "https://claude.ai",
+    "pathLicense": "not stated (Simple Icons CC0 collection)"
+  },
+  "animation": null,
+  "notes": "Claude is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

@@ -1,0 +1,28 @@
+{
+  "name": "brand-firefox",
+  "title": "Firefox",
+  "category": "brands",
+  "tags": [
+    "firefox",
+    "browser",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#FF7139",
+    "source": "https://mozilla.design/firefox/logos-usage/",
+    "guidelines": "https://mozilla.design/firefox/logos-usage/",
+    "pathLicense": "not stated (Simple Icons CC0 collection)"
+  },
+  "animation": null,
+  "notes": "Firefox is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

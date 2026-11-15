@@ -1,0 +1,27 @@
+{
+  "name": "brand-doordash",
+  "title": "DoorDash",
+  "category": "brands",
+  "tags": [
+    "doordash",
+    "travel",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#FF3008",
+    "source": "https://www.doordash.com/about/",
+    "pathLicense": "not stated (Simple Icons CC0 collection)"
+  },
+  "animation": null,
+  "notes": "DoorDash is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

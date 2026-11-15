@@ -1,0 +1,27 @@
+{
+  "name": "brand-airbnb",
+  "title": "Airbnb",
+  "category": "brands",
+  "tags": [
+    "airbnb",
+    "travel",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#FF5A5F",
+    "source": "https://www.airbnb.com",
+    "pathLicense": "not stated (Simple Icons CC0 collection)"
+  },
+  "animation": null,
+  "notes": "Airbnb is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

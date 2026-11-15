@@ -1,0 +1,28 @@
+{
+  "name": "brand-deezer",
+  "title": "Deezer",
+  "category": "brands",
+  "tags": [
+    "deezer",
+    "music and video",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#A238FF",
+    "source": "https://deezerbrand.com/document/37#/-/logo",
+    "guidelines": "https://deezerbrand.com/document/37#/-/logo",
+    "pathLicense": "not stated (Simple Icons CC0 collection)"
+  },
+  "animation": null,
+  "notes": "Deezer is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

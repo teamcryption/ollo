@@ -1,0 +1,28 @@
+{
+  "name": "brand-devdotto",
+  "title": "dev.to",
+  "category": "brands",
+  "tags": [
+    "dev.to",
+    "devdotto",
+    "social media",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#0A0A0A",
+    "source": "https://dev.to",
+    "pathLicense": "not stated (Simple Icons CC0 collection)"
+  },
+  "animation": null,
+  "notes": "dev.to is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

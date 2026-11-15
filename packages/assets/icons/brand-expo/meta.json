@@ -1,0 +1,28 @@
+{
+  "name": "brand-expo",
+  "title": "Expo",
+  "category": "brands",
+  "tags": [
+    "expo",
+    "framework",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#1C2024",
+    "source": "https://expo.dev/brand/",
+    "guidelines": "https://expo.dev/brand/",
+    "pathLicense": "not stated (Simple Icons CC0 collection)"
+  },
+  "animation": null,
+  "notes": "Expo is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

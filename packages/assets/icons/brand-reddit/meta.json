@@ -1,0 +1,28 @@
+{
+  "name": "brand-reddit",
+  "title": "Reddit",
+  "category": "brands",
+  "tags": [
+    "reddit",
+    "social media",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#FF4500",
+    "source": "https://www.redditinc.com/brand",
+    "guidelines": "https://www.redditinc.com/brand",
+    "pathLicense": "not stated (Simple Icons CC0 collection)"
+  },
+  "animation": null,
+  "notes": "Reddit is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

@@ -1,0 +1,27 @@
+{
+  "name": "brand-javascript",
+  "title": "JavaScript",
+  "category": "brands",
+  "tags": [
+    "javascript",
+    "programming language",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#F7DF1E",
+    "source": "https://github.com/voodootikigod/logo.js/blob/1544bdeed6d618a6cfe4f0650d04ab8d9cfa76d9/js.svg",
+    "pathLicense": "MIT"
+  },
+  "animation": null,
+  "notes": "JavaScript is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

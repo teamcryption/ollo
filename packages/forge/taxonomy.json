@@ -49,6 +49,7 @@
     { "id": "fashion", "title": "Clothing & Beauty", "target": 225, "batch": 5 },
     { "id": "ai", "title": "AI & Automation", "target": 225, "batch": 5 },
     { "id": "emoji", "title": "Faces & Emotions", "target": 200, "batch": 5 },
-    { "id": "accessibility", "title": "Accessibility", "target": 75, "batch": 5 }
+    { "id": "accessibility", "title": "Accessibility", "target": 75, "batch": 5 },
+    { "id": "brands", "title": "Brands & Platforms", "accent": false, "target": 250, "batch": 6 }
   ]
 }

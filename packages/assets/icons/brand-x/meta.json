@@ -1,0 +1,29 @@
+{
+  "name": "brand-x",
+  "title": "X",
+  "category": "brands",
+  "tags": [
+    "x",
+    "twitter",
+    "social media",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#000000",
+    "source": "https://x.com",
+    "guidelines": "https://about.x.com/en/who-we-are/brand-toolkit",
+    "pathLicense": "not stated (Simple Icons CC0 collection)"
+  },
+  "animation": null,
+  "notes": "X is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

@@ -1,0 +1,28 @@
+{
+  "name": "brand-paypal",
+  "title": "PayPal",
+  "category": "brands",
+  "tags": [
+    "paypal",
+    "payments",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#002991",
+    "source": "https://www.paypal.com/us",
+    "guidelines": "https://newsroom.paypal-corp.com/media-resources",
+    "pathLicense": "not stated (Simple Icons CC0 collection)"
+  },
+  "animation": null,
+  "notes": "PayPal is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

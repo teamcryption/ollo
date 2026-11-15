@@ -1,0 +1,28 @@
+{
+  "name": "brand-githubcopilot",
+  "title": "GitHub Copilot",
+  "category": "brands",
+  "tags": [
+    "github copilot",
+    "githubcopilot",
+    "developer tools",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#000000",
+    "source": "https://primer.style/foundations/icons/copilot-24",
+    "pathLicense": "MIT"
+  },
+  "animation": null,
+  "notes": "GitHub Copilot is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

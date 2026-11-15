@@ -1,0 +1,28 @@
+{
+  "name": "brand-deno",
+  "title": "Deno",
+  "category": "brands",
+  "tags": [
+    "deno",
+    "framework",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#000000",
+    "source": "https://github.com/denoland/docs/blob/5dee713844c7447f80acd4093caa9d350d80bf36/static/img/logo.svg",
+    "guidelines": "https://deno.com/brand",
+    "pathLicense": "MIT"
+  },
+  "animation": null,
+  "notes": "Deno is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

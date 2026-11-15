@@ -1,0 +1,27 @@
+{
+  "name": "brand-sentry",
+  "title": "Sentry",
+  "category": "brands",
+  "tags": [
+    "sentry",
+    "developer tools",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#362D59",
+    "source": "https://sentry.io/branding/",
+    "pathLicense": "not stated (Simple Icons CC0 collection)"
+  },
+  "animation": null,
+  "notes": "Sentry is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

@@ -1,0 +1,27 @@
+{
+  "name": "brand-c",
+  "title": "C",
+  "category": "brands",
+  "tags": [
+    "c",
+    "programming language",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#A8B9CC",
+    "source": "https://commons.wikimedia.org/wiki/File:The_C_Programming_Language_logo.svg",
+    "pathLicense": "not stated (Simple Icons CC0 collection)"
+  },
+  "animation": null,
+  "notes": "C is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

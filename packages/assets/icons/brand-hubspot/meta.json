@@ -1,0 +1,28 @@
+{
+  "name": "brand-hubspot",
+  "title": "HubSpot",
+  "category": "brands",
+  "tags": [
+    "hubspot",
+    "productivity",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#FF7A59",
+    "source": "https://www.hubspot.com/style-guide",
+    "guidelines": "https://www.hubspot.com/style-guide",
+    "pathLicense": "not stated (Simple Icons CC0 collection)"
+  },
+  "animation": null,
+  "notes": "HubSpot is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

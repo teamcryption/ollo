@@ -1,0 +1,28 @@
+{
+  "name": "brand-bootstrap",
+  "title": "Bootstrap",
+  "category": "brands",
+  "tags": [
+    "bootstrap",
+    "framework",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#7952B3",
+    "source": "https://getbootstrap.com/docs/5.3/about/brand",
+    "guidelines": "https://getbootstrap.com/docs/5.3/about/brand",
+    "pathLicense": "MIT"
+  },
+  "animation": null,
+  "notes": "Bootstrap is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

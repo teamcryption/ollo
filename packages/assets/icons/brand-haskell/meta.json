@@ -1,0 +1,27 @@
+{
+  "name": "brand-haskell",
+  "title": "Haskell",
+  "category": "brands",
+  "tags": [
+    "haskell",
+    "programming language",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#5D4F85",
+    "source": "https://wiki.haskell.org/Thompson-Wheeler_logo",
+    "pathLicense": "not stated (Simple Icons CC0 collection)"
+  },
+  "animation": null,
+  "notes": "Haskell is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

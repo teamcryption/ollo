@@ -1,0 +1,28 @@
+{
+  "name": "brand-medium",
+  "title": "Medium",
+  "category": "brands",
+  "tags": [
+    "medium",
+    "social media",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#000000",
+    "source": "https://medium.design/logos-and-brand-guidelines-f1a01a733592",
+    "guidelines": "https://medium.design/logos-and-brand-guidelines-f1a01a733592",
+    "pathLicense": "not stated (Simple Icons CC0 collection)"
+  },
+  "animation": null,
+  "notes": "Medium is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

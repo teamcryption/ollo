@@ -1,0 +1,27 @@
+{
+  "name": "brand-confluence",
+  "title": "Confluence",
+  "category": "brands",
+  "tags": [
+    "confluence",
+    "productivity",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#172B4D",
+    "source": "https://www.atlassian.com/company/news/press-kit",
+    "pathLicense": "not stated (Simple Icons CC0 collection)"
+  },
+  "animation": null,
+  "notes": "Confluence is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

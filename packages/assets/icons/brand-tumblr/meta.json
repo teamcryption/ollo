@@ -1,0 +1,28 @@
+{
+  "name": "brand-tumblr",
+  "title": "Tumblr",
+  "category": "brands",
+  "tags": [
+    "tumblr",
+    "social media",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#36465D",
+    "source": "https://www.tumblr.com/logo",
+    "guidelines": "https://www.tumblr.com/logo",
+    "pathLicense": "not stated (Simple Icons CC0 collection)"
+  },
+  "animation": null,
+  "notes": "Tumblr is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

@@ -1,0 +1,28 @@
+{
+  "name": "brand-vivaldi",
+  "title": "Vivaldi",
+  "category": "brands",
+  "tags": [
+    "vivaldi",
+    "browser",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#EF3939",
+    "source": "https://vivaldi.com/press",
+    "guidelines": "https://vivaldi.com/press",
+    "pathLicense": "CC-BY-4.0"
+  },
+  "animation": null,
+  "notes": "Vivaldi is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

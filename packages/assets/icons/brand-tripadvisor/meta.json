@@ -1,0 +1,28 @@
+{
+  "name": "brand-tripadvisor",
+  "title": "Tripadvisor",
+  "category": "brands",
+  "tags": [
+    "tripadvisor",
+    "travel",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#34E0A1",
+    "source": "https://tripadvisor.mediaroom.com/logo-guidelines",
+    "guidelines": "https://tripadvisor.mediaroom.com/logo-guidelines",
+    "pathLicense": "not stated (Simple Icons CC0 collection)"
+  },
+  "animation": null,
+  "notes": "Tripadvisor is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

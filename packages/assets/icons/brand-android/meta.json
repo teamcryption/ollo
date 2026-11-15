@@ -1,0 +1,28 @@
+{
+  "name": "brand-android",
+  "title": "Android",
+  "category": "brands",
+  "tags": [
+    "android",
+    "operating system",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#3DDC84",
+    "source": "https://partnermarketinghub.withgoogle.com/brands/android/visual-identity/visual-identity/logo-lock-ups",
+    "guidelines": "https://developer.android.com/distribute/marketing-tools/brand-guidelines#brand-android",
+    "pathLicense": "CC-BY-3.0"
+  },
+  "animation": null,
+  "notes": "Android is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

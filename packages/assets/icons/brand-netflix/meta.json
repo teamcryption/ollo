@@ -1,0 +1,28 @@
+{
+  "name": "brand-netflix",
+  "title": "Netflix",
+  "category": "brands",
+  "tags": [
+    "netflix",
+    "music and video",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#E50914",
+    "source": "https://brand.netflix.com/en/assets/logos",
+    "guidelines": "https://brand.netflix.com/en/assets/logos",
+    "pathLicense": "not stated (Simple Icons CC0 collection)"
+  },
+  "animation": null,
+  "notes": "Netflix is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

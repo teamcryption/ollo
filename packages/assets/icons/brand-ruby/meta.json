@@ -1,0 +1,27 @@
+{
+  "name": "brand-ruby",
+  "title": "Ruby",
+  "category": "brands",
+  "tags": [
+    "ruby",
+    "programming language",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#CC342D",
+    "source": "https://www.ruby-lang.org/en/about/logo/",
+    "pathLicense": "CC-BY-SA-2.5"
+  },
+  "animation": null,
+  "notes": "Ruby is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

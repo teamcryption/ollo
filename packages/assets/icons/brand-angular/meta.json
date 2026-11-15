@@ -1,0 +1,28 @@
+{
+  "name": "brand-angular",
+  "title": "Angular",
+  "category": "brands",
+  "tags": [
+    "angular",
+    "framework",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#0F0F11",
+    "source": "https://angular.dev/press-kit",
+    "guidelines": "https://angular.dev/press-kit",
+    "pathLicense": "CC-BY-4.0"
+  },
+  "animation": null,
+  "notes": "Angular is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

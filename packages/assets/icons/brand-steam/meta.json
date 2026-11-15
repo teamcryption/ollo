@@ -1,0 +1,28 @@
+{
+  "name": "brand-steam",
+  "title": "Steam",
+  "category": "brands",
+  "tags": [
+    "steam",
+    "operating system",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#000000",
+    "source": "https://partner.steamgames.com/doc/marketing/branding",
+    "guidelines": "https://partner.steamgames.com/doc/marketing/branding",
+    "pathLicense": "not stated (Simple Icons CC0 collection)"
+  },
+  "animation": null,
+  "notes": "Steam is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

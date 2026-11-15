@@ -1,0 +1,28 @@
+{
+  "name": "brand-python",
+  "title": "Python",
+  "category": "brands",
+  "tags": [
+    "python",
+    "programming language",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#3776AB",
+    "source": "https://www.python.org/community/logos/",
+    "guidelines": "https://www.python.org/community/logos/",
+    "pathLicense": "not stated (Simple Icons CC0 collection)"
+  },
+  "animation": null,
+  "notes": "Python is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

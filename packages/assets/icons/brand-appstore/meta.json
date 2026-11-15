@@ -1,0 +1,28 @@
+{
+  "name": "brand-appstore",
+  "title": "App Store",
+  "category": "brands",
+  "tags": [
+    "app store",
+    "appstore",
+    "operating system",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#0D96F6",
+    "source": "https://developer.apple.com/app-store",
+    "pathLicense": "not stated (Simple Icons CC0 collection)"
+  },
+  "animation": null,
+  "notes": "App Store is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

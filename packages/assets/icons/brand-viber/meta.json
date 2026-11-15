@@ -1,0 +1,28 @@
+{
+  "name": "brand-viber",
+  "title": "Viber",
+  "category": "brands",
+  "tags": [
+    "viber",
+    "messaging",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#7360F2",
+    "source": "https://www.viber.com/brand-center",
+    "guidelines": "https://www.viber.com/brand-center",
+    "pathLicense": "not stated (Simple Icons CC0 collection)"
+  },
+  "animation": null,
+  "notes": "Viber is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

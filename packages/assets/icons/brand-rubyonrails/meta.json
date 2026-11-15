@@ -1,0 +1,29 @@
+{
+  "name": "brand-rubyonrails",
+  "title": "Ruby on Rails",
+  "category": "brands",
+  "tags": [
+    "ruby on rails",
+    "rubyonrails",
+    "framework",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#D30001",
+    "source": "https://github.com/simple-icons/simple-icons/issues/9619#issuecomment-1735150580",
+    "guidelines": "https://rubyonrails.org/trademarks/",
+    "pathLicense": "not stated (Simple Icons CC0 collection)"
+  },
+  "animation": null,
+  "notes": "Ruby on Rails is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

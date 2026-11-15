@@ -1,0 +1,29 @@
+{
+  "name": "brand-nodedotjs",
+  "title": "Node.js",
+  "category": "brands",
+  "tags": [
+    "node.js",
+    "nodedotjs",
+    "framework",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#5FA04E",
+    "source": "https://nodejs.org/en/about/branding",
+    "guidelines": "https://nodejs.org/en/about/branding",
+    "pathLicense": "not stated (Simple Icons CC0 collection)"
+  },
+  "animation": null,
+  "notes": "Node.js is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

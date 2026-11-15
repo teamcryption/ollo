@@ -1,0 +1,27 @@
+{
+  "name": "brand-loom",
+  "title": "Loom",
+  "category": "brands",
+  "tags": [
+    "loom",
+    "productivity",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#625DF5",
+    "source": "https://www.loom.com/press",
+    "pathLicense": "not stated (Simple Icons CC0 collection)"
+  },
+  "animation": null,
+  "notes": "Loom is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

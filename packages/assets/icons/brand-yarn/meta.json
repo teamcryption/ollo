@@ -1,0 +1,28 @@
+{
+  "name": "brand-yarn",
+  "title": "Yarn",
+  "category": "brands",
+  "tags": [
+    "yarn",
+    "developer tools",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#2C8EBB",
+    "source": "https://github.com/yarnpkg/assets/blob/76d30ca2aebed5b73ea8131d972218fb860bd32d/yarn-kitten-circle.svg",
+    "guidelines": "https://github.com/yarnpkg/assets/tree/76d30ca2aebed5b73ea8131d972218fb860bd32d",
+    "pathLicense": "CC-BY-4.0"
+  },
+  "animation": null,
+  "notes": "Yarn is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

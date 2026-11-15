@@ -1,0 +1,29 @@
+{
+  "name": "brand-kotlin",
+  "title": "Kotlin",
+  "category": "brands",
+  "tags": [
+    "kotlin",
+    "코틀린",
+    "programming language",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#7F52FF",
+    "source": "https://www.jetbrains.com/company/brand/logos/",
+    "guidelines": "https://www.jetbrains.com/company/brand/",
+    "pathLicense": "not stated (Simple Icons CC0 collection)"
+  },
+  "animation": null,
+  "notes": "Kotlin is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

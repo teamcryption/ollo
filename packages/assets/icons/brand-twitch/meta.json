@@ -1,0 +1,28 @@
+{
+  "name": "brand-twitch",
+  "title": "Twitch",
+  "category": "brands",
+  "tags": [
+    "twitch",
+    "social media",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#9146FF",
+    "source": "https://brand.twitch.tv",
+    "guidelines": "https://brand.twitch.tv",
+    "pathLicense": "not stated (Simple Icons CC0 collection)"
+  },
+  "animation": null,
+  "notes": "Twitch is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

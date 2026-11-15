@@ -1,0 +1,28 @@
+{
+  "name": "brand-cashapp",
+  "title": "Cash App",
+  "category": "brands",
+  "tags": [
+    "cash app",
+    "cashapp",
+    "payments",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#00C244",
+    "source": "https://cash.app/press",
+    "pathLicense": "not stated (Simple Icons CC0 collection)"
+  },
+  "animation": null,
+  "notes": "Cash App is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}

@@ -1,0 +1,27 @@
+{
+  "name": "brand-krita",
+  "title": "Krita",
+  "category": "brands",
+  "tags": [
+    "krita",
+    "design",
+    "brand",
+    "logo"
+  ],
+  "styles": [
+    "light",
+    "regular",
+    "bold",
+    "duotone",
+    "fill"
+  ],
+  "status": "review",
+  "source": "simple-icons",
+  "brand": {
+    "hex": "#3BABFF",
+    "source": "https://krita.org/en/about/press/",
+    "pathLicense": "not stated (Simple Icons CC0 collection)"
+  },
+  "animation": null,
+  "notes": "Krita is a trademark of its owner, shown only to identify the brand. Solid mark, identical in every style. Path from Simple Icons 16.38.0."
+}
