@@ -1,88 +1,72 @@
 /**
- * Battle ropes: two heavy ropes run from a floor anchor to their grips, each
- * lying in a low wave. The pointer picks a rope by where it falls on the
- * floor, and a crest travels along that rope to sit under the pointer; the
- * other rope settles. At rest the near rope holds one crest, bright. The
- * slider is the crest's height.
+ * Dip station: two parallel bars, each on a pair of posts, standing on two
+ * floor rails. The pointer sets the grip: both bars slide along the rails to
+ * sit as far apart as the pointer is from the middle, and the bar on its side
+ * is bright. At rest the bars stand a little off-centre, the near one bright.
+ * The slider is how quickly the bars follow.
  */
-const {
-  Cam, clamp, fit, prism, proj, facing, rings, poly, unproj, spring, stepS,
-  disposer, mk, pointer, put, register, solid,
-} = HL;
+const { Cam, fit, proj, facing, rings, prism, unproj, spring, stepS, clamp, disposer, mk, pointer, put, register, solid } = HL;
 
-const L = 100, YS = [0, 16], RT = 2.4, N = 48, FAV = 1, REST = [[38, 3], [64, 7]];
+const PX = 18, HT = 40, REST = [-10, 14];
 
 function mount({ stage, svg, read }, value) {
   const bag = disposer();
-  let amp = value;
-  const C = Cam(45, 0.5, 2.45);
-  fit(C, [[-10, -6, 0], [L + 8, YS[1] + 6, 0], [-10, -6, 16], [60, YS[1], 20]], 200, 168);
+  const C = Cam(45, 0.5, 2.9);
+  fit(C, [[-30, -30, 0], [30, 30, 0], [-28, -28, 43], [28, 28, 43]], 200, 160);
   const P = proj(C), front = facing(C);
   const g = mk("g", {}, svg);
-
-  { const [r, i] = rings(-10, -6, 0, YS[1] + 6, 2.5, 1.2); put(solid(g), prism(P, front, r, i, 0, 16)); }
-
-  const ropes = YS.map((y, k) => {
-    const el = mk("path", { class: "sil" }, g), grip = solid(g);
-    const [r, i] = rings(L, y - 2, L + 8, y + 2, 1.8, 0.7);
-    put(grip, prism(P, front, r, i, 0.4, 4.4));
-    return { k, y, el, grip, c: spring(REST[k][0]), a: spring(REST[k][1]), last: "" };
+  const R = (x0, y0, x1, y1) => rings(x0, y0, x1, y1, 0.8, Math.min(1, 0.25 * Math.min(x1 - x0, y1 - y0)));
+  const box = (s, x0, y0, x1, y1, z0, z1) => { const r = R(x0, y0, x1, y1); put(s, prism(P, front, r[0], r[1], z0, z1)); };
+  box(solid(g), -PX - 4, -28, -PX + 4, 28, 0, 2.5);
+  box(solid(g), PX - 4, -28, PX + 4, 28, 0, 2.5);
+  const sides = REST.map((y, i) => {
+    const sg = mk("g", {}, g);
+    return { i, a: solid(sg), b: solid(sg), bar: solid(sg), sp: spring(y, { k: 100 * value, c: 18 * Math.sqrt(value) }), drawn: NaN };
   });
 
-  function draw(r) {
-    const c = r.c.x, a = r.a.x, key = c.toFixed(2) + "," + a.toFixed(2);
-    if (key === r.last) return;
-    r.last = key;
-    const top = [], bot = [];
-    for (let j = 0; j <= N; j++) {
-      const x = (L * j) / N, u = (x - c) / 12;
-      const z = clamp(8 - (6 * x) / L + a * Math.exp(-u * u) * Math.cos(u * 1.6), RT, 40);
-      const [sx, sy] = P(x, r.y, z);
-      top.push([sx, sy - RT * C.S * 0.9]); bot.push([sx, sy + RT * C.S * 0.9]);
-    }
-    r.el.setAttribute("d", poly(top.concat(bot.reverse())));
+  function draw(s) {
+    const y = s.sp.x;
+    if (Math.abs(y - s.drawn) < 1e-3) return;
+    s.drawn = y;
+    box(s.a, -PX - 1.6, y - 1.6, -PX + 1.6, y + 1.6, 2.5, HT);
+    box(s.b, PX - 1.6, y - 1.6, PX + 1.6, y + 1.6, 2.5, HT);
+    box(s.bar, -28, y - 1.8, 28, y + 1.8, HT, HT + 3);
   }
 
   const B = register(stage, (dt) => {
-    let moving = false;
-    for (const r of ropes) { if (stepS(r.c, dt)) moving = true; if (stepS(r.a, dt)) moving = true; draw(r); }
-    return moving;
+    let m = false;
+    for (const s of sides) { if (stepS(s.sp, dt)) m = true; draw(s); }
+    return m;
   });
   bag.add(B.unregister);
 
-  let act = -2;
-  function aim(a, wx) {
-    ropes.forEach((r, k) => {
-      if (a < 0) { r.c.t = REST[k][0]; r.a.t = REST[k][1]; }
-      else if (k === a) { r.c.t = clamp(wx, 14, L - 12); r.a.t = clamp(amp, 0, 12); }
-      else { r.a.t = 1.5; }
+  function aim(y) {
+    const w = y == null ? null : clamp(Math.abs(y), 7, 26);
+    sides.forEach((s) => {
+      s.sp.t = w == null ? REST[s.i] : s.i ? w : -w;
+      s.bar.sil.classList.toggle("hi", y == null ? s.i === 1 : (y < 0) === (s.i === 0));
     });
-    if (a !== act) {
-      act = a;
-      ropes.forEach((r, k) => r.el.classList.toggle("hi", k === (a < 0 ? FAV : a)));
-      read.textContent = a < 0 ? "rest" : a === 0 ? "rope L" : "rope R";
-    }
+    read.textContent = w == null ? "rest" : "w " + Math.round(w * 2);
     B.wake();
   }
-  /** The rope nearest the pointer's spot on the floor, which never moves. */
-  function move([sx, sy]) {
-    const [wx, wy] = unproj(C, sx, sy, 0);
-    let best = -1, bd = Infinity;
-    ropes.forEach((r, k) => { const d = Math.abs(wy - r.y); if (d < bd) { bd = d; best = k; } });
-    aim(bd < 10 && wx > 0 && wx < L + 8 ? best : -1, wx);
-  }
-  aim(-1, 0);
-  ropes.forEach(draw);
-  bag.add(pointer(stage, { move, leave: () => aim(-1, 0) }));
+
+  bag.add(pointer(stage, {
+    move: (q) => {
+      const [x, y] = unproj(C, q[0], q[1], 20);
+      aim(Math.abs(x) > 40 || Math.abs(y) > 40 ? null : y);
+    },
+    leave: () => aim(null),
+  }));
   bag.add(() => svg.replaceChildren());
-  return { set: (v) => { amp = v; }, destroy: bag.dispose };
+  aim(null);
+  return { set: (v) => sides.forEach((s) => { s.sp.k = 100 * v; s.sp.c = 18 * Math.sqrt(v); }), destroy: bag.dispose };
 }
 
 hairline({
   name: "battlerope",
-  means: "Two battle ropes from a floor anchor: a crest runs along the rope under the pointer to sit beneath it, the other settles.",
+  means: "A dip station: both parallel bars slide apart or together to the pointer's grip width, and the bar on its side is bright.",
   rules: [1, 3, 5, 8],
-  range: [4, 9, 12],
-  tour: [[146, 172], [205, 201], [278, 248], null],
+  range: [0.5, 1, 1.6],
+  tour: [[147, 188], [216, 154], [253, 135], null],
   mount,
 });

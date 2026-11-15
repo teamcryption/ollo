@@ -14,7 +14,7 @@ const X0 = 0, X1 = 52, Y0 = 0, Y1 = 40, Z1 = 22, DZ0 = 3, DZ1 = 12, OUT = 28, RE
 function mount({ stage, svg, read }, value) {
   const bag = disposer();
   let delay = value;
-  const C = Cam(45, 0.5, 2.7);
+  const C = Cam(45, 0.5, 3.4);
   fit(C, [[X0, Y0, 0], [X1, Y1 + OUT, 0], [X1, Y0, 0], [X0, Y1 + OUT, 0], [X0, Y0, Z1], [X1, Y0, Z1]], 200, 168);
   const P = proj(C), front = facing(C);
   const g = mk("g", {}, svg);
@@ -71,6 +71,6 @@ hairline({
   means: "A till's cash drawer: over the till, the drawer slides out and shows its trays of coins and notes.",
   rules: [1, 4, 5, 8],
   range: [0, 100, 300],
-  tour: [[227, 129], [215, 120], [238, 195], null],
+  tour: [[186, 184], [219, 63], [248, 239], null],
   mount,
 });

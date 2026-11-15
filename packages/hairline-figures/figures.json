@@ -5374,5 +5374,461 @@
     "c": "education",
     "t": "Book cart",
     "g": "book cart wheels shelves"
+  },
+  {
+    "file": "kidsbike.js",
+    "c": "kids",
+    "t": "Balance bike",
+    "g": "balance bike wheels"
+  },
+  {
+    "file": "puzzlecube.js",
+    "c": "kids",
+    "t": "Shape cube",
+    "g": "activity cube shapes"
+  },
+  {
+    "file": "nightlight2.js",
+    "c": "kids",
+    "t": "Projector lamp",
+    "g": "star projector lamp"
+  },
+  {
+    "file": "hotelsafe.js",
+    "c": "hospitality",
+    "t": "Luggage rack",
+    "g": "folding luggage rack"
+  },
+  {
+    "file": "doorhanger2.js",
+    "c": "hospitality",
+    "t": "Mini bar fridge",
+    "g": "mini bar door bottles"
+  },
+  {
+    "file": "buffet2.js",
+    "c": "hospitality",
+    "t": "Drink dispenser",
+    "g": "drink dispenser tap"
+  },
+  {
+    "file": "bellstand.js",
+    "c": "hospitality",
+    "t": "Concierge desk",
+    "g": "concierge desk lamp"
+  },
+  {
+    "file": "spotlight3.js",
+    "c": "media",
+    "t": "Light stand",
+    "g": "light stand umbrella"
+  },
+  {
+    "file": "tapemachine.js",
+    "c": "media",
+    "t": "Cassette deck",
+    "g": "cassette deck door"
+  },
+  {
+    "file": "satbox.js",
+    "c": "media",
+    "t": "TV wall mount",
+    "g": "tv wall mount arm"
+  },
+  {
+    "file": "stethoscope2.js",
+    "c": "science",
+    "t": "Lab balance",
+    "g": "analytical balance doors"
+  },
+  {
+    "file": "dropper.js",
+    "c": "science",
+    "t": "Pipette",
+    "g": "pipette plunger"
+  },
+  {
+    "file": "ovenlab.js",
+    "c": "science",
+    "t": "Incubator shaker",
+    "g": "orbital shaker platform"
+  },
+  {
+    "file": "vacuumpump.js",
+    "c": "science",
+    "t": "Vacuum bell jar",
+    "g": "bell jar vacuum plate"
+  },
+  {
+    "file": "mortarpestle.js",
+    "c": "health",
+    "t": "Mortar and pestle",
+    "g": "mortar pestle grind"
+  },
+  {
+    "file": "otoscope.js",
+    "c": "health",
+    "t": "Otoscope",
+    "g": "otoscope ear light"
+  },
+  {
+    "file": "bloodtube.js",
+    "c": "health",
+    "t": "Sample centrifuge",
+    "g": "tube centrifuge lid"
+  },
+  {
+    "file": "physioball.js",
+    "c": "health",
+    "t": "Exam lamp",
+    "g": "exam room lamp"
+  },
+  {
+    "file": "shopsign.js",
+    "c": "commerce",
+    "t": "Hanging shop sign",
+    "g": "hanging shop sign bracket"
+  },
+  {
+    "file": "displaycase.js",
+    "c": "commerce",
+    "t": "Glass counter",
+    "g": "glass display counter"
+  },
+  {
+    "file": "bagstand.js",
+    "c": "commerce",
+    "t": "Bag dispenser",
+    "g": "paper bag dispenser"
+  },
+  {
+    "file": "tillstand.js",
+    "c": "commerce",
+    "t": "Tablet POS",
+    "g": "tablet pos stand swivel"
+  },
+  {
+    "file": "grillgrate.js",
+    "c": "food",
+    "t": "Grill grate",
+    "g": "bbq grill lid grate"
+  },
+  {
+    "file": "dutchoven.js",
+    "c": "food",
+    "t": "Dutch oven",
+    "g": "dutch oven lid pot"
+  },
+  {
+    "file": "teakettle2.js",
+    "c": "food",
+    "t": "Gooseneck kettle",
+    "g": "gooseneck kettle pour"
+  },
+  {
+    "file": "breadbox.js",
+    "c": "food",
+    "t": "Bread bin",
+    "g": "bread bin roll top"
+  },
+  {
+    "file": "gearshift.js",
+    "c": "automotive",
+    "t": "Gear stick",
+    "g": "gear stick shift gate"
+  },
+  {
+    "file": "fuelpump2.js",
+    "c": "automotive",
+    "t": "Jerry can",
+    "g": "jerry can cap"
+  },
+  {
+    "file": "toolchest.js",
+    "c": "automotive",
+    "t": "Rolling tool chest",
+    "g": "rolling tool chest drawers"
+  },
+  {
+    "file": "scale3.js",
+    "c": "commerce",
+    "t": "Deli scale",
+    "g": "deli counter scale"
+  },
+  {
+    "file": "cartstack.js",
+    "c": "commerce",
+    "t": "Shopping basket",
+    "g": "shopping basket handles"
+  },
+  {
+    "file": "cashdrawer.js",
+    "c": "commerce",
+    "t": "Cash drawer",
+    "g": "cash drawer tray"
+  },
+  {
+    "file": "stepper.js",
+    "c": "fitness",
+    "t": "Stair stepper",
+    "g": "stair stepper pedals"
+  },
+  {
+    "file": "battlerope.js",
+    "c": "fitness",
+    "t": "Dip station",
+    "g": "parallel dip station"
+  },
+  {
+    "file": "kettlebell2.js",
+    "c": "fitness",
+    "t": "Kettlebell rack",
+    "g": "kettlebell rack"
+  },
+  {
+    "file": "cutmat.js",
+    "c": "design",
+    "t": "Paper trimmer",
+    "g": "guillotine paper trimmer"
+  },
+  {
+    "file": "pantone2.js",
+    "c": "design",
+    "t": "Drawing tablet",
+    "g": "pen tablet stylus"
+  },
+  {
+    "file": "easel3.js",
+    "c": "design",
+    "t": "Paint easel",
+    "g": "studio easel canvas"
+  },
+  {
+    "file": "stretchwrap.js",
+    "c": "logistics",
+    "t": "Stretch wrapper",
+    "g": "pallet stretch wrapper turntable"
+  },
+  {
+    "file": "conveyor3.js",
+    "c": "logistics",
+    "t": "Roller conveyor",
+    "g": "roller conveyor box"
+  },
+  {
+    "file": "shippingbox.js",
+    "c": "logistics",
+    "t": "Parcel locker",
+    "g": "parcel locker door"
+  },
+  {
+    "file": "tapegun.js",
+    "c": "logistics",
+    "t": "Tape dispenser gun",
+    "g": "packing tape gun"
+  },
+  {
+    "file": "evcharger.js",
+    "c": "energy",
+    "t": "EV charger",
+    "g": "ev charger plug cable"
+  },
+  {
+    "file": "solarlamp.js",
+    "c": "energy",
+    "t": "Solar street light",
+    "g": "solar street light panel"
+  },
+  {
+    "file": "batterypack.js",
+    "c": "energy",
+    "t": "Power station",
+    "g": "portable power station"
+  },
+  {
+    "file": "flagpole2.js",
+    "c": "marketing",
+    "t": "Feather flag",
+    "g": "feather flag banner base"
+  },
+  {
+    "file": "rollupbanner.js",
+    "c": "marketing",
+    "t": "Roll-up banner",
+    "g": "roll up banner stand"
+  },
+  {
+    "file": "billboard3.js",
+    "c": "marketing",
+    "t": "Rotating sign",
+    "g": "spinning pole sign"
+  },
+  {
+    "file": "suitcase3.js",
+    "c": "travel",
+    "t": "Carry-on case",
+    "g": "carry on suitcase handle"
+  },
+  {
+    "file": "beltstanchion.js",
+    "c": "travel",
+    "t": "Queue barrier",
+    "g": "retractable belt stanchion"
+  },
+  {
+    "file": "currencybooth.js",
+    "c": "travel",
+    "t": "Currency exchange",
+    "g": "currency exchange booth window"
+  },
+  {
+    "file": "colorwheel2.js",
+    "c": "design",
+    "t": "Color wheel",
+    "g": "spinning color wheel"
+  },
+  {
+    "file": "foamcutter.js",
+    "c": "design",
+    "t": "Foam cutter",
+    "g": "hot wire foam cutter"
+  },
+  {
+    "file": "ribbonspool.js",
+    "c": "commerce",
+    "t": "Ribbon rack",
+    "g": "ribbon spool rack"
+  },
+  {
+    "file": "bagsealer.js",
+    "c": "commerce",
+    "t": "Bag sealer",
+    "g": "heat bag sealer jaw"
+  },
+  {
+    "file": "hangerrack.js",
+    "c": "commerce",
+    "t": "Clothes rail",
+    "g": "clothing rail hangers"
+  },
+  {
+    "file": "vendlocker.js",
+    "c": "commerce",
+    "t": "Key cutter",
+    "g": "key cutting machine"
+  },
+  {
+    "file": "transformer2.js",
+    "c": "energy",
+    "t": "Pole transformer",
+    "g": "pole transformer"
+  },
+  {
+    "file": "switchgear.js",
+    "c": "energy",
+    "t": "Knife switch",
+    "g": "knife switch lever"
+  },
+  {
+    "file": "pushsled.js",
+    "c": "fitness",
+    "t": "Push sled",
+    "g": "weight push sled"
+  },
+  {
+    "file": "gymrings.js",
+    "c": "fitness",
+    "t": "Gym rings",
+    "g": "hanging gym rings"
+  },
+  {
+    "file": "foamroller.js",
+    "c": "fitness",
+    "t": "Squat rack",
+    "g": "squat rack barbell"
+  },
+  {
+    "file": "popupstand.js",
+    "c": "marketing",
+    "t": "Pop-up stand",
+    "g": "pop up promo counter"
+  },
+  {
+    "file": "posterframe.js",
+    "c": "marketing",
+    "t": "Snap frame",
+    "g": "snap poster frame"
+  },
+  {
+    "file": "sampletable.js",
+    "c": "marketing",
+    "t": "Sample tray",
+    "g": "tasting sample tray"
+  },
+  {
+    "file": "acrylicstand.js",
+    "c": "marketing",
+    "t": "Menu holder",
+    "g": "acrylic menu holder"
+  },
+  {
+    "file": "cagecart.js",
+    "c": "logistics",
+    "t": "Roll cage",
+    "g": "roll cage trolley gate"
+  },
+  {
+    "file": "creeper.js",
+    "c": "automotive",
+    "t": "Mechanic creeper",
+    "g": "mechanic creeper board"
+  },
+  {
+    "file": "tirerack.js",
+    "c": "automotive",
+    "t": "Tire rack",
+    "g": "tire storage rack"
+  },
+  {
+    "file": "cabinbunk.js",
+    "c": "travel",
+    "t": "Overhead bin",
+    "g": "overhead luggage bin"
+  },
+  {
+    "file": "deckchair2.js",
+    "c": "travel",
+    "t": "Deck chair",
+    "g": "folding deck chair"
+  },
+  {
+    "file": "phrasebook.js",
+    "c": "travel",
+    "t": "Ticket gate",
+    "g": "ticket barrier gate"
+  },
+  {
+    "file": "visastamp.js",
+    "c": "travel",
+    "t": "Passport stamp",
+    "g": "rubber passport stamp"
+  },
+  {
+    "file": "weightbench.js",
+    "c": "fitness",
+    "t": "Weight bench",
+    "g": "adjustable weight bench"
+  },
+  {
+    "file": "fusepanel.js",
+    "c": "energy",
+    "t": "Fuse box",
+    "g": "fuse box door breakers"
+  },
+  {
+    "file": "bagscale.js",
+    "c": "travel",
+    "t": "Luggage scale",
+    "g": "hanging luggage scale"
   }
 ]
