@@ -4414,5 +4414,197 @@
     "c": "transport",
     "t": "Funicular",
     "g": "funicular car rails slope"
+  },
+  {
+    "file": "seismograph.js",
+    "c": "science",
+    "t": "Seismograph",
+    "g": "seismograph drum pen"
+  },
+  {
+    "file": "crib.js",
+    "c": "kids",
+    "t": "Baby cot",
+    "g": "baby cot rails mobile"
+  },
+  {
+    "file": "highchair.js",
+    "c": "kids",
+    "t": "High chair",
+    "g": "high chair tray baby"
+  },
+  {
+    "file": "pushchair.js",
+    "c": "kids",
+    "t": "Pushchair",
+    "g": "pushchair stroller hood"
+  },
+  {
+    "file": "cameraslider.js",
+    "c": "media",
+    "t": "Camera slider",
+    "g": "camera slider rail dolly"
+  },
+  {
+    "file": "vinylshelf.js",
+    "c": "media",
+    "t": "Record player",
+    "g": "record player lid tonearm"
+  },
+  {
+    "file": "bikelock.js",
+    "c": "security",
+    "t": "Bike lock",
+    "g": "u-lock bike rack"
+  },
+  {
+    "file": "shutterdoor.js",
+    "c": "security",
+    "t": "Roller shutter",
+    "g": "roller shutter shop front"
+  },
+  {
+    "file": "servercool.js",
+    "c": "technology",
+    "t": "Rack fans",
+    "g": "rack cooling fans tray"
+  },
+  {
+    "file": "tabletstand.js",
+    "c": "technology",
+    "t": "Tablet stand",
+    "g": "tablet stand hinge desk"
+  },
+  {
+    "file": "lockerroom.js",
+    "c": "fitness",
+    "t": "Locker bench",
+    "g": "locker room bench"
+  },
+  {
+    "file": "yogamats.js",
+    "c": "fitness",
+    "t": "Yoga mats",
+    "g": "yoga mats rolls rack"
+  },
+  {
+    "file": "abwheel.js",
+    "c": "fitness",
+    "t": "Ab roller",
+    "g": "ab roller wheel mat"
+  },
+  {
+    "file": "ibeam.js",
+    "c": "construction",
+    "t": "Steel beams",
+    "g": "steel i-beams stack crane"
+  },
+  {
+    "file": "pegboardkids.js",
+    "c": "kids",
+    "t": "Peg board",
+    "g": "peg board pegs kids toy"
+  },
+  {
+    "file": "paperfolder.js",
+    "c": "office",
+    "t": "Paper tray",
+    "g": "paper tray stack desk"
+  },
+  {
+    "file": "dumpling.js",
+    "c": "food",
+    "t": "Steamer baskets",
+    "g": "bamboo steamer baskets stack"
+  },
+  {
+    "file": "pastamaker.js",
+    "c": "food",
+    "t": "Pasta machine",
+    "g": "pasta machine crank rollers"
+  },
+  {
+    "file": "teapot.js",
+    "c": "food",
+    "t": "Teapot",
+    "g": "teapot pour lid tea"
+  },
+  {
+    "file": "wallsafe.js",
+    "c": "security",
+    "t": "Floor safe",
+    "g": "floor safe hatch hidden"
+  },
+  {
+    "file": "bollardpost.js",
+    "c": "security",
+    "t": "Rising bollard",
+    "g": "rising bollard road security"
+  },
+  {
+    "file": "containerdoor.js",
+    "c": "logistics",
+    "t": "Container doors",
+    "g": "shipping container doors"
+  },
+  {
+    "file": "gondola.js",
+    "c": "travel",
+    "t": "Gondola boat",
+    "g": "gondola boat canal oar"
+  },
+  {
+    "file": "tourbus.js",
+    "c": "travel",
+    "t": "Tour bus",
+    "g": "open top tour bus"
+  },
+  {
+    "file": "passportscan.js",
+    "c": "travel",
+    "t": "Kiosk check-in",
+    "g": "self check-in kiosk airport"
+  },
+  {
+    "file": "beachhut.js",
+    "c": "travel",
+    "t": "Beach hut",
+    "g": "beach hut doors seaside"
+  },
+  {
+    "file": "clotheshanger.js",
+    "c": "fashion",
+    "t": "Hanger rail",
+    "g": "hanger rail clothes shop"
+  },
+  {
+    "file": "hospitalcurtain.js",
+    "c": "health",
+    "t": "Bed screen rail",
+    "g": "bed curtain rail hospital"
+  },
+  {
+    "file": "dartboard2.js",
+    "c": "gaming",
+    "t": "Air hockey table",
+    "g": "air hockey puck table"
+  },
+  {
+    "file": "pokerchips.js",
+    "c": "gaming",
+    "t": "Chip tray",
+    "g": "poker chip tray stacks"
+  },
+  {
+    "file": "roulette.js",
+    "c": "gaming",
+    "t": "Spinner wheel",
+    "g": "spinner wheel game arrow"
+  },
+  {
+    "file": "jigsaw.js",
+    "c": "gaming",
+    "t": "Jigsaw puzzle",
+    "g": "jigsaw puzzle pieces board"
   }
 ]
