@@ -5830,5 +5830,143 @@
     "c": "travel",
     "t": "Luggage scale",
     "g": "hanging luggage scale"
+  },
+  {
+    "file": "counterbell.js",
+    "c": "commerce",
+    "t": "Queue ticket",
+    "g": "take a number dispenser"
+  },
+  {
+    "file": "fittingroom.js",
+    "c": "commerce",
+    "t": "Fitting room",
+    "g": "fitting room curtain"
+  },
+  {
+    "file": "mannequin3.js",
+    "c": "commerce",
+    "t": "Shelf talker",
+    "g": "shelf price flag"
+  },
+  {
+    "file": "sleepingpod.js",
+    "c": "travel",
+    "t": "Sleeping pod",
+    "g": "airport sleeping pod hood"
+  },
+  {
+    "file": "boardingstairs.js",
+    "c": "travel",
+    "t": "Boarding stairs",
+    "g": "airstairs truck"
+  },
+  {
+    "file": "infodesk2.js",
+    "c": "travel",
+    "t": "Departure board",
+    "g": "split flap board"
+  },
+  {
+    "file": "foldbike.js",
+    "c": "travel",
+    "t": "Folding scooter",
+    "g": "folding kick scooter"
+  },
+  {
+    "file": "trapbar.js",
+    "c": "fitness",
+    "t": "Hex bar",
+    "g": "hex trap bar"
+  },
+  {
+    "file": "skiergym.js",
+    "c": "fitness",
+    "t": "Ski erg",
+    "g": "ski erg handles"
+  },
+  {
+    "file": "bannerstand2.js",
+    "c": "marketing",
+    "t": "A-frame chalkboard",
+    "g": "chalkboard a-frame easel"
+  },
+  {
+    "file": "kioskscreen.js",
+    "c": "marketing",
+    "t": "Digital totem",
+    "g": "digital signage totem"
+  },
+  {
+    "file": "damgate.js",
+    "c": "energy",
+    "t": "Sluice gate",
+    "g": "sluice gate wheel"
+  },
+  {
+    "file": "pvinverter.js",
+    "c": "energy",
+    "t": "Inverter",
+    "g": "solar inverter cover"
+  },
+  {
+    "file": "coalcart.js",
+    "c": "energy",
+    "t": "Mine cart",
+    "g": "mine cart rails"
+  },
+  {
+    "file": "drumcart.js",
+    "c": "logistics",
+    "t": "Drum trolley",
+    "g": "barrel drum trolley tilt"
+  },
+  {
+    "file": "ibctank.js",
+    "c": "logistics",
+    "t": "IBC tote",
+    "g": "ibc tank valve"
+  },
+  {
+    "file": "mailsorter.js",
+    "c": "logistics",
+    "t": "Mail sorter",
+    "g": "pigeonhole mail sorter"
+  },
+  {
+    "file": "dockdoor.js",
+    "c": "logistics",
+    "t": "Dock door",
+    "g": "roll-up dock door"
+  },
+  {
+    "file": "axlestand.js",
+    "c": "automotive",
+    "t": "Axle stand",
+    "g": "axle stand ratchet"
+  },
+  {
+    "file": "transjack.js",
+    "c": "automotive",
+    "t": "Transmission jack",
+    "g": "transmission jack saddle"
+  },
+  {
+    "file": "brakebleeder.js",
+    "c": "automotive",
+    "t": "Brake caliper",
+    "g": "disc brake caliper pads"
+  },
+  {
+    "file": "cuttingplotter.js",
+    "c": "design",
+    "t": "Vinyl cutter",
+    "g": "vinyl cutter plotter"
+  },
+  {
+    "file": "inkjar.js",
+    "c": "design",
+    "t": "Screen print press",
+    "g": "screen printing press frame"
   }
 ]
