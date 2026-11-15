@@ -4684,5 +4684,155 @@
     "c": "music",
     "t": "Upright piano",
     "g": "upright piano lid keys"
+  },
+  {
+    "file": "scales2.js",
+    "c": "food",
+    "t": "Kitchen scale",
+    "g": "kitchen scale bowl dial"
+  },
+  {
+    "file": "cakestand2.js",
+    "c": "food",
+    "t": "Cake dome",
+    "g": "cake dome stand glass lid"
+  },
+  {
+    "file": "garageopener.js",
+    "c": "realestate",
+    "t": "Garage door",
+    "g": "up and over garage door"
+  },
+  {
+    "file": "skylightwin.js",
+    "c": "realestate",
+    "t": "Roof window",
+    "g": "roof window pivot"
+  },
+  {
+    "file": "gatepost.js",
+    "c": "realestate",
+    "t": "Driveway gate",
+    "g": "sliding driveway gate"
+  },
+  {
+    "file": "busstop2.js",
+    "c": "transport",
+    "t": "Bus shelter",
+    "g": "bus shelter bench"
+  },
+  {
+    "file": "trainhorn.js",
+    "c": "transport",
+    "t": "Level crossing",
+    "g": "level crossing barrier lights"
+  },
+  {
+    "file": "cablecar2.js",
+    "c": "transport",
+    "t": "Chairlift",
+    "g": "chairlift chair cable"
+  },
+  {
+    "file": "divingboard.js",
+    "c": "sports",
+    "t": "Diving board",
+    "g": "diving board spring pool"
+  },
+  {
+    "file": "microwave.js",
+    "c": "home",
+    "t": "Microwave",
+    "g": "microwave door turntable"
+  },
+  {
+    "file": "bathmirror.js",
+    "c": "home",
+    "t": "Mirror cabinet",
+    "g": "bathroom mirror cabinet"
+  },
+  {
+    "file": "dishwasher.js",
+    "c": "home",
+    "t": "Dishwasher",
+    "g": "dishwasher door rack"
+  },
+  {
+    "file": "globe2.js",
+    "c": "education",
+    "t": "Map roll",
+    "g": "pull-down map roll"
+  },
+  {
+    "file": "lockerkey.js",
+    "c": "education",
+    "t": "Book stand",
+    "g": "book stand reading"
+  },
+  {
+    "file": "ventilator.js",
+    "c": "health",
+    "t": "Wheel stretcher",
+    "g": "wheeled stretcher trolley"
+  },
+  {
+    "file": "dentalmirror.js",
+    "c": "health",
+    "t": "Dental lamp",
+    "g": "dental lamp arm"
+  },
+  {
+    "file": "wheelchair2.js",
+    "c": "health",
+    "t": "Commode chair",
+    "g": "bedside commode chair"
+  },
+  {
+    "file": "cashbox.js",
+    "c": "finance",
+    "t": "Cash box",
+    "g": "cash box tray lid"
+  },
+  {
+    "file": "atmcard.js",
+    "c": "finance",
+    "t": "Card reader",
+    "g": "chip card reader"
+  },
+  {
+    "file": "hydrant.js",
+    "c": "government",
+    "t": "Fire hydrant",
+    "g": "fire hydrant cap"
+  },
+  {
+    "file": "streetlamp.js",
+    "c": "government",
+    "t": "Street lamp",
+    "g": "street lamp post"
+  },
+  {
+    "file": "postbox2.js",
+    "c": "government",
+    "t": "Mail drop box",
+    "g": "blue mail drop box"
+  },
+  {
+    "file": "benchpark.js",
+    "c": "government",
+    "t": "Park bench",
+    "g": "park bench slats"
+  },
+  {
+    "file": "vrheadset2.js",
+    "c": "technology",
+    "t": "Laptop stand",
+    "g": "laptop stand riser"
+  },
+  {
+    "file": "printer2.js",
+    "c": "technology",
+    "t": "Label printer",
+    "g": "label printer tape"
   }
 ]
