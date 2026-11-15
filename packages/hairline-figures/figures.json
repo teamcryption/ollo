@@ -6094,5 +6094,161 @@
     "c": "government",
     "t": "Stamp rack",
     "g": "rubber stamp rack"
+  },
+  {
+    "file": "bearcan.js",
+    "c": "outdoors",
+    "t": "Bear canister",
+    "g": "bear canister lid"
+  },
+  {
+    "file": "campchair2.js",
+    "c": "outdoors",
+    "t": "Camp chair",
+    "g": "folding camp chair"
+  },
+  {
+    "file": "wateroiler.js",
+    "c": "outdoors",
+    "t": "Water jug",
+    "g": "water jug spigot"
+  },
+  {
+    "file": "swatchbook.js",
+    "c": "design",
+    "t": "Swatch book",
+    "g": "fabric swatch book"
+  },
+  {
+    "file": "marbletray.js",
+    "c": "design",
+    "t": "Marbling tray",
+    "g": "paper marbling tray"
+  },
+  {
+    "file": "brushpot.js",
+    "c": "design",
+    "t": "Brush washer",
+    "g": "brush washer tub"
+  },
+  {
+    "file": "promocube.js",
+    "c": "marketing",
+    "t": "Promo cube",
+    "g": "rotating promo cube"
+  },
+  {
+    "file": "tabletent.js",
+    "c": "marketing",
+    "t": "Table tent",
+    "g": "table tent card"
+  },
+  {
+    "file": "demostand.js",
+    "c": "marketing",
+    "t": "Demo counter",
+    "g": "product demo counter"
+  },
+  {
+    "file": "samplebag.js",
+    "c": "marketing",
+    "t": "Tote bag",
+    "g": "branded tote bag handles"
+  },
+  {
+    "file": "shelftruck.js",
+    "c": "logistics",
+    "t": "Shelf truck",
+    "g": "shelf trolley push"
+  },
+  {
+    "file": "drumpump.js",
+    "c": "logistics",
+    "t": "Drum pump",
+    "g": "barrel hand pump"
+  },
+  {
+    "file": "toteboxes.js",
+    "c": "logistics",
+    "t": "Tote crates",
+    "g": "stacked tote crates lid"
+  },
+  {
+    "file": "gavelblock.js",
+    "c": "government",
+    "t": "Ballot scanner",
+    "g": "ballot scanner slot"
+  },
+  {
+    "file": "seallamp.js",
+    "c": "government",
+    "t": "Wax seal",
+    "g": "wax seal stamp"
+  },
+  {
+    "file": "permitkiosk.js",
+    "c": "government",
+    "t": "Parking meter",
+    "g": "parking meter coin"
+  },
+  {
+    "file": "jurybox.js",
+    "c": "government",
+    "t": "Ballot drop box",
+    "g": "ballot drop box slot"
+  },
+  {
+    "file": "shopcounter.js",
+    "c": "commerce",
+    "t": "Shop counter",
+    "g": "shop counter flap"
+  },
+  {
+    "file": "slatwall.js",
+    "c": "commerce",
+    "t": "Slatwall hooks",
+    "g": "slatwall hook display"
+  },
+  {
+    "file": "ticketroll.js",
+    "c": "commerce",
+    "t": "Ticket roll",
+    "g": "raffle ticket roll dispenser"
+  },
+  {
+    "file": "lockpad.js",
+    "c": "security",
+    "t": "Padlock hasp",
+    "g": "padlock hasp staple"
+  },
+  {
+    "file": "walkthrough.js",
+    "c": "security",
+    "t": "Metal detector",
+    "g": "walk through detector arch"
+  },
+  {
+    "file": "vaultdoor2.js",
+    "c": "security",
+    "t": "Gun safe",
+    "g": "gun safe door handle"
+  },
+  {
+    "file": "reactionwheel.js",
+    "c": "space",
+    "t": "Reaction wheel",
+    "g": "reaction wheel spin"
+  },
+  {
+    "file": "gimbalthruster.js",
+    "c": "space",
+    "t": "Gimbal engine",
+    "g": "gimbal rocket engine"
+  },
+  {
+    "file": "sampledrill.js",
+    "c": "space",
+    "t": "Core drill",
+    "g": "planetary core drill"
   }
 ]
