@@ -7450,5 +7450,311 @@
     "c": "office",
     "t": "Desk divider",
     "g": "desk divider panel"
+  },
+  {
+    "file": "mancala.js",
+    "c": "gaming",
+    "t": "Mancala board",
+    "g": "mancala board lid"
+  },
+  {
+    "file": "dartcase.js",
+    "c": "gaming",
+    "t": "Dart case",
+    "g": "dart case lid"
+  },
+  {
+    "file": "chipcase.js",
+    "c": "gaming",
+    "t": "Poker case",
+    "g": "poker chip case"
+  },
+  {
+    "file": "fencegate2.js",
+    "c": "agriculture",
+    "t": "Field gate",
+    "g": "five bar field gate"
+  },
+  {
+    "file": "cowbell.js",
+    "c": "agriculture",
+    "t": "Cow bell",
+    "g": "cow bell clapper"
+  },
+  {
+    "file": "dunghook.js",
+    "c": "agriculture",
+    "t": "Compost tumbler",
+    "g": "compost tumbler drum"
+  },
+  {
+    "file": "sousvide.js",
+    "c": "food",
+    "t": "Sous vide stick",
+    "g": "sous vide clip"
+  },
+  {
+    "file": "cocktailshaker.js",
+    "c": "food",
+    "t": "Cocktail shaker",
+    "g": "cocktail shaker cap"
+  },
+  {
+    "file": "butterdish.js",
+    "c": "food",
+    "t": "Butter dish",
+    "g": "butter dish lid"
+  },
+  {
+    "file": "thinclient.js",
+    "c": "technology",
+    "t": "Mini PC",
+    "g": "mini pc lid"
+  },
+  {
+    "file": "tapedrive.js",
+    "c": "technology",
+    "t": "Tape drive",
+    "g": "tape cartridge slot"
+  },
+  {
+    "file": "kalimba.js",
+    "c": "music",
+    "t": "Kalimba",
+    "g": "kalimba tines"
+  },
+  {
+    "file": "shaker.js",
+    "c": "music",
+    "t": "Egg shakers",
+    "g": "egg shaker stand"
+  },
+  {
+    "file": "golfputt.js",
+    "c": "sports",
+    "t": "Putting cup",
+    "g": "putting green cup flag"
+  },
+  {
+    "file": "batrack.js",
+    "c": "sports",
+    "t": "Bat rack",
+    "g": "baseball bat rack"
+  },
+  {
+    "file": "paddlerack.js",
+    "c": "sports",
+    "t": "Paddle rack",
+    "g": "canoe paddle rack"
+  },
+  {
+    "file": "divebrick.js",
+    "c": "sports",
+    "t": "Diving board stand",
+    "g": "springboard fulcrum"
+  },
+  {
+    "file": "memoholder.js",
+    "c": "office",
+    "t": "Memo clip",
+    "g": "memo clip stand"
+  },
+  {
+    "file": "ringbinder.js",
+    "c": "office",
+    "t": "Ring binder",
+    "g": "ring binder rings"
+  },
+  {
+    "file": "veilbox.js",
+    "c": "fashion",
+    "t": "Bow tie box",
+    "g": "bow tie box"
+  },
+  {
+    "file": "corset.js",
+    "c": "fashion",
+    "t": "Dress form wheel",
+    "g": "adjustable dress form dial"
+  },
+  {
+    "file": "bootjack.js",
+    "c": "fashion",
+    "t": "Boot jack",
+    "g": "boot jack heel"
+  },
+  {
+    "file": "pestlebowl.js",
+    "c": "home",
+    "t": "Herb keeper",
+    "g": "herb keeper lid"
+  },
+  {
+    "file": "trivet.js",
+    "c": "home",
+    "t": "Kettle stand",
+    "g": "kettle trivet"
+  },
+  {
+    "file": "washboard.js",
+    "c": "home",
+    "t": "Washboard",
+    "g": "washboard tub"
+  },
+  {
+    "file": "dustpan.js",
+    "c": "home",
+    "t": "Dustpan",
+    "g": "lobby dustpan lid"
+  },
+  {
+    "file": "kettlerack.js",
+    "c": "sports",
+    "t": "Plate tree",
+    "g": "weight plate tree"
+  },
+  {
+    "file": "boxingring.js",
+    "c": "sports",
+    "t": "Ring bell",
+    "g": "boxing ring bell"
+  },
+  {
+    "file": "snookercue.js",
+    "c": "sports",
+    "t": "Cue rack",
+    "g": "snooker cue rack"
+  },
+  {
+    "file": "tensunit.js",
+    "c": "health",
+    "t": "TENS unit",
+    "g": "tens unit pads"
+  },
+  {
+    "file": "bloodbag.js",
+    "c": "health",
+    "t": "Blood bag rack",
+    "g": "blood bag hanger"
+  },
+  {
+    "file": "specula.js",
+    "c": "health",
+    "t": "Speculum tray",
+    "g": "instrument tray lid"
+  },
+  {
+    "file": "chequestamp2.js",
+    "c": "finance",
+    "t": "Endorsement stamp",
+    "g": "self inking stamp"
+  },
+  {
+    "file": "vaultcart.js",
+    "c": "finance",
+    "t": "Coin bag trolley",
+    "g": "coin bag cart"
+  },
+  {
+    "file": "tipbox.js",
+    "c": "finance",
+    "t": "Tip box",
+    "g": "tip box slot"
+  },
+  {
+    "file": "safeclock.js",
+    "c": "finance",
+    "t": "Time lock",
+    "g": "vault time lock dials"
+  },
+  {
+    "file": "dissecttray.js",
+    "c": "education",
+    "t": "Dissection tray",
+    "g": "dissection tray pins"
+  },
+  {
+    "file": "periscope2.js",
+    "c": "education",
+    "t": "Periscope",
+    "g": "toy periscope mirror"
+  },
+  {
+    "file": "geoboard.js",
+    "c": "education",
+    "t": "Geoboard",
+    "g": "geoboard bands"
+  },
+  {
+    "file": "pulleykit.js",
+    "c": "education",
+    "t": "Pulley kit",
+    "g": "pulley block weight"
+  },
+  {
+    "file": "pettrough.js",
+    "c": "pets",
+    "t": "Pet water bottle",
+    "g": "hamster water bottle"
+  },
+  {
+    "file": "catlitter2.js",
+    "c": "pets",
+    "t": "Litter scoop",
+    "g": "litter scoop sift"
+  },
+  {
+    "file": "dogcrate2.js",
+    "c": "pets",
+    "t": "Pet ramp car",
+    "g": "car pet ramp"
+  },
+  {
+    "file": "birdswing.js",
+    "c": "pets",
+    "t": "Bird swing",
+    "g": "bird swing perch"
+  },
+  {
+    "file": "pethammock.js",
+    "c": "pets",
+    "t": "Pet hammock",
+    "g": "cat window hammock"
+  },
+  {
+    "file": "kidstool.js",
+    "c": "kids",
+    "t": "Step stool",
+    "g": "folding step stool"
+  },
+  {
+    "file": "nightpotty.js",
+    "c": "kids",
+    "t": "Potty",
+    "g": "potty lid"
+  },
+  {
+    "file": "sidecar.js",
+    "c": "transport",
+    "t": "Sidecar",
+    "g": "motorcycle sidecar hood"
+  },
+  {
+    "file": "pushbar.js",
+    "c": "transport",
+    "t": "Bus handle",
+    "g": "bus grab handle"
+  },
+  {
+    "file": "chockblock.js",
+    "c": "transport",
+    "t": "Wheel chock",
+    "g": "wheel chock wedge"
+  },
+  {
+    "file": "semaphore2.js",
+    "c": "transport",
+    "t": "Traffic light",
+    "g": "traffic light hood"
   }
 ]
