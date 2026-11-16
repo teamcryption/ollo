@@ -6874,5 +6874,305 @@
     "c": "fashion",
     "t": "Shoe box",
     "g": "shoe box lid"
+  },
+  {
+    "file": "signalgen.js",
+    "c": "technology",
+    "t": "Logic analyser",
+    "g": "probe clip box"
+  },
+  {
+    "file": "kvm.js",
+    "c": "technology",
+    "t": "KVM switch",
+    "g": "kvm switch button"
+  },
+  {
+    "file": "bladefan.js",
+    "c": "technology",
+    "t": "Cooling fan",
+    "g": "pc cooling fan"
+  },
+  {
+    "file": "usbhub.js",
+    "c": "technology",
+    "t": "USB hub",
+    "g": "usb hub ports"
+  },
+  {
+    "file": "rowingseat.js",
+    "c": "sports",
+    "t": "Sliding seat",
+    "g": "rowing sliding seat"
+  },
+  {
+    "file": "darts2.js",
+    "c": "sports",
+    "t": "Dart cabinet",
+    "g": "dart board cabinet"
+  },
+  {
+    "file": "dogstairs.js",
+    "c": "pets",
+    "t": "Pet steps",
+    "g": "pet steps"
+  },
+  {
+    "file": "kittyshelf.js",
+    "c": "pets",
+    "t": "Cat shelf",
+    "g": "wall cat shelf"
+  },
+  {
+    "file": "leashhook.js",
+    "c": "pets",
+    "t": "Leash hook",
+    "g": "leash wall hook"
+  },
+  {
+    "file": "shapesorter2.js",
+    "c": "kids",
+    "t": "Shape sorter",
+    "g": "shape sorter lid"
+  },
+  {
+    "file": "toyhouse.js",
+    "c": "kids",
+    "t": "Doll house",
+    "g": "doll house front"
+  },
+  {
+    "file": "babywalker.js",
+    "c": "kids",
+    "t": "Baby walker",
+    "g": "baby walker toy"
+  },
+  {
+    "file": "sinkcaddy.js",
+    "c": "home",
+    "t": "Dish rack",
+    "g": "dish drying rack"
+  },
+  {
+    "file": "firescreen.js",
+    "c": "home",
+    "t": "Fire screen",
+    "g": "folding fire screen"
+  },
+  {
+    "file": "picturehook.js",
+    "c": "home",
+    "t": "Picture rail",
+    "g": "picture rail hook"
+  },
+  {
+    "file": "pendulum.js",
+    "c": "education",
+    "t": "Newton cradle",
+    "g": "newtons cradle"
+  },
+  {
+    "file": "tellurion.js",
+    "c": "education",
+    "t": "Tellurion",
+    "g": "sun earth moon model"
+  },
+  {
+    "file": "beakerstand.js",
+    "c": "education",
+    "t": "Retort stand",
+    "g": "retort stand clamp"
+  },
+  {
+    "file": "mapstand.js",
+    "c": "education",
+    "t": "Wall map",
+    "g": "pull down wall map"
+  },
+  {
+    "file": "tennisnet.js",
+    "c": "sports",
+    "t": "Tennis net crank",
+    "g": "net winder crank"
+  },
+  {
+    "file": "squashracket.js",
+    "c": "sports",
+    "t": "Racket press",
+    "g": "racket press frame"
+  },
+  {
+    "file": "lacrosse.js",
+    "c": "sports",
+    "t": "Lacrosse goal",
+    "g": "lacrosse goal net"
+  },
+  {
+    "file": "raclette.js",
+    "c": "food",
+    "t": "Raclette grill",
+    "g": "raclette pans"
+  },
+  {
+    "file": "piperbag.js",
+    "c": "food",
+    "t": "Cake turntable",
+    "g": "cake decorating turntable"
+  },
+  {
+    "file": "eggboiler.js",
+    "c": "food",
+    "t": "Egg cooker",
+    "g": "egg cooker dome"
+  },
+  {
+    "file": "mooringpost.js",
+    "c": "transport",
+    "t": "Mooring bollard",
+    "g": "mooring bollard rope"
+  },
+  {
+    "file": "lifebuoy.js",
+    "c": "transport",
+    "t": "Life ring",
+    "g": "life ring holder"
+  },
+  {
+    "file": "parkingstop.js",
+    "c": "transport",
+    "t": "Parking barrier",
+    "g": "fold down parking post"
+  },
+  {
+    "file": "coinstack.js",
+    "c": "finance",
+    "t": "Coin tray",
+    "g": "bank coin tray"
+  },
+  {
+    "file": "chequescan.js",
+    "c": "finance",
+    "t": "Cheque scanner",
+    "g": "cheque scanner slot"
+  },
+  {
+    "file": "strongroomgate.js",
+    "c": "finance",
+    "t": "Vault grille",
+    "g": "vault grille gate"
+  },
+  {
+    "file": "pigfeeder.js",
+    "c": "agriculture",
+    "t": "Pig trough",
+    "g": "pig trough lid"
+  },
+  {
+    "file": "mistnozzle.js",
+    "c": "agriculture",
+    "t": "Mist sprinkler",
+    "g": "mist sprinkler head"
+  },
+  {
+    "file": "rootcellar.js",
+    "c": "agriculture",
+    "t": "Root cellar door",
+    "g": "root cellar hatch"
+  },
+  {
+    "file": "oxygenconc.js",
+    "c": "health",
+    "t": "Oxygen concentrator",
+    "g": "oxygen concentrator cart"
+  },
+  {
+    "file": "cpap.js",
+    "c": "health",
+    "t": "CPAP machine",
+    "g": "cpap mask hose"
+  },
+  {
+    "file": "handrail2.js",
+    "c": "health",
+    "t": "Grab rail",
+    "g": "fold down grab rail"
+  },
+  {
+    "file": "slingscale.js",
+    "c": "health",
+    "t": "Baby scale",
+    "g": "baby weighing scale tray"
+  },
+  {
+    "file": "tiddly.js",
+    "c": "gaming",
+    "t": "Tiddlywinks cup",
+    "g": "tiddlywinks cup"
+  },
+  {
+    "file": "capsuletoy.js",
+    "c": "gaming",
+    "t": "Capsule toy",
+    "g": "gacha capsule machine"
+  },
+  {
+    "file": "tokentray.js",
+    "c": "gaming",
+    "t": "Token box",
+    "g": "game token box"
+  },
+  {
+    "file": "pigeonholes.js",
+    "c": "office",
+    "t": "Letter tray",
+    "g": "stacking letter tray"
+  },
+  {
+    "file": "booklamp.js",
+    "c": "office",
+    "t": "Document camera",
+    "g": "document camera arm"
+  },
+  {
+    "file": "inkstamp.js",
+    "c": "office",
+    "t": "Date stamp",
+    "g": "rotary date stamp"
+  },
+  {
+    "file": "clipboard2.js",
+    "c": "office",
+    "t": "Clipboard",
+    "g": "clipboard clip"
+  },
+  {
+    "file": "mannequinleg.js",
+    "c": "fashion",
+    "t": "Hosiery form",
+    "g": "hosiery leg form"
+  },
+  {
+    "file": "lintroller.js",
+    "c": "fashion",
+    "t": "Lint roller",
+    "g": "lint roller sheet"
+  },
+  {
+    "file": "eyelettool.js",
+    "c": "fashion",
+    "t": "Eyelet press",
+    "g": "eyelet press lever"
+  },
+  {
+    "file": "didgeridoo.js",
+    "c": "music",
+    "t": "Rain stick",
+    "g": "rain stick tilt"
+  },
+  {
+    "file": "kazoo.js",
+    "c": "music",
+    "t": "Xylophone mallets",
+    "g": "mallet stand"
   }
 ]
