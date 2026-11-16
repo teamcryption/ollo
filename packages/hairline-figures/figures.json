@@ -8290,5 +8290,179 @@
     "c": "office",
     "t": "Note spike",
     "g": "note spike"
+  },
+  {
+    "file": "guiro.js",
+    "c": "music",
+    "t": "Guiro",
+    "g": "guiro scraper"
+  },
+  {
+    "file": "fluteholder.js",
+    "c": "music",
+    "t": "Flute stand",
+    "g": "flute stand peg"
+  },
+  {
+    "file": "recorderbag.js",
+    "c": "music",
+    "t": "Cymbal stand",
+    "g": "cymbal stand tilt"
+  },
+  {
+    "file": "ricepaddle.js",
+    "c": "food",
+    "t": "Rice cooker lid",
+    "g": "rice warmer lid"
+  },
+  {
+    "file": "deepfryer.js",
+    "c": "food",
+    "t": "Deep fryer",
+    "g": "deep fryer basket"
+  },
+  {
+    "file": "finishline.js",
+    "c": "sports",
+    "t": "Finish tape",
+    "g": "finish line tape posts"
+  },
+  {
+    "file": "lenskit.js",
+    "c": "education",
+    "t": "Lens kit",
+    "g": "optics lens bench"
+  },
+  {
+    "file": "coinvault.js",
+    "c": "finance",
+    "t": "Coin cabinet",
+    "g": "coin drawer cabinet"
+  },
+  {
+    "file": "ticketstub.js",
+    "c": "finance",
+    "t": "Ticket validator",
+    "g": "ticket validator stamp"
+  },
+  {
+    "file": "bankcounter.js",
+    "c": "finance",
+    "t": "Teller window",
+    "g": "teller window slide"
+  },
+  {
+    "file": "vialrack.js",
+    "c": "health",
+    "t": "Vial rack",
+    "g": "medicine vial rack"
+  },
+  {
+    "file": "gauzebox.js",
+    "c": "health",
+    "t": "Gauze dispenser",
+    "g": "gauze dispenser lid"
+  },
+  {
+    "file": "urinecup.js",
+    "c": "health",
+    "t": "Specimen box",
+    "g": "specimen pass box"
+  },
+  {
+    "file": "casttable.js",
+    "c": "health",
+    "t": "Exam stool",
+    "g": "exam stool spin"
+  },
+  {
+    "file": "vrcontroller.js",
+    "c": "technology",
+    "t": "Joystick",
+    "g": "flight joystick"
+  },
+  {
+    "file": "fibercab.js",
+    "c": "technology",
+    "t": "Fiber box",
+    "g": "fiber splice box lid"
+  },
+  {
+    "file": "bowtie.js",
+    "c": "fashion",
+    "t": "Tie press",
+    "g": "tie press board"
+  },
+  {
+    "file": "shoepolisher.js",
+    "c": "fashion",
+    "t": "Shoe buffer",
+    "g": "shoe buffer brush"
+  },
+  {
+    "file": "deskhutch.js",
+    "c": "office",
+    "t": "Desk hutch",
+    "g": "desk hutch door"
+  },
+  {
+    "file": "chairmat.js",
+    "c": "office",
+    "t": "Footrest",
+    "g": "adjustable footrest"
+  },
+  {
+    "file": "glockenspiel.js",
+    "c": "music",
+    "t": "Glockenspiel",
+    "g": "glockenspiel bars"
+  },
+  {
+    "file": "rackunit.js",
+    "c": "music",
+    "t": "Effects rack",
+    "g": "effects rack drawer"
+  },
+  {
+    "file": "kidscar.js",
+    "c": "kids",
+    "t": "Ride on toy",
+    "g": "ride on push toy"
+  },
+  {
+    "file": "babymonitor.js",
+    "c": "kids",
+    "t": "Baby monitor",
+    "g": "baby monitor antenna"
+  },
+  {
+    "file": "boulecase.js",
+    "c": "gaming",
+    "t": "Marble tray",
+    "g": "marble solitaire board"
+  },
+  {
+    "file": "pinwheel.js",
+    "c": "gaming",
+    "t": "Pinwheel",
+    "g": "toy pinwheel"
+  },
+  {
+    "file": "tiddlybox.js",
+    "c": "gaming",
+    "t": "Game timer",
+    "g": "sand game timer"
+  },
+  {
+    "file": "corner.js",
+    "c": "sports",
+    "t": "Corner flag",
+    "g": "corner flag spring"
+  },
+  {
+    "file": "paddletennis.js",
+    "c": "sports",
+    "t": "Racket stand",
+    "g": "racket display stand"
   }
 ]
