@@ -8464,5 +8464,311 @@
     "c": "sports",
     "t": "Racket stand",
     "g": "racket display stand"
+  },
+  {
+    "file": "mulcher.js",
+    "c": "agriculture",
+    "t": "Chipper",
+    "g": "wood chipper chute"
+  },
+  {
+    "file": "coldframe.js",
+    "c": "agriculture",
+    "t": "Cold frame",
+    "g": "cold frame lid"
+  },
+  {
+    "file": "poultryramp.js",
+    "c": "agriculture",
+    "t": "Coop ramp",
+    "g": "chicken coop ramp door"
+  },
+  {
+    "file": "dripline.js",
+    "c": "agriculture",
+    "t": "Drip timer",
+    "g": "drip irrigation timer"
+  },
+  {
+    "file": "bikebasket.js",
+    "c": "transport",
+    "t": "Bike basket",
+    "g": "bike basket lid"
+  },
+  {
+    "file": "salttub.js",
+    "c": "food",
+    "t": "Salt pig",
+    "g": "salt pig lid"
+  },
+  {
+    "file": "teacaddy.js",
+    "c": "food",
+    "t": "Tea caddy",
+    "g": "tea caddy lid"
+  },
+  {
+    "file": "honeydipper.js",
+    "c": "food",
+    "t": "Honey pot",
+    "g": "honey pot dipper"
+  },
+  {
+    "file": "handbag3.js",
+    "c": "fashion",
+    "t": "Tote bag stand",
+    "g": "bag stand"
+  },
+  {
+    "file": "jewelrytree.js",
+    "c": "fashion",
+    "t": "Ring holder",
+    "g": "ring cone holder"
+  },
+  {
+    "file": "wristwatch.js",
+    "c": "fashion",
+    "t": "Watch box",
+    "g": "watch box lid"
+  },
+  {
+    "file": "mannequinhand.js",
+    "c": "fashion",
+    "t": "Glove form",
+    "g": "glove display hand"
+  },
+  {
+    "file": "tabletarm.js",
+    "c": "technology",
+    "t": "Tablet arm",
+    "g": "tablet arm clamp"
+  },
+  {
+    "file": "phonestand.js",
+    "c": "technology",
+    "t": "Phone stand",
+    "g": "phone stand fold"
+  },
+  {
+    "file": "kbdlight.js",
+    "c": "technology",
+    "t": "Monitor lamp",
+    "g": "monitor light bar"
+  },
+  {
+    "file": "consoledock.js",
+    "c": "technology",
+    "t": "Console dock",
+    "g": "console dock tilt"
+  },
+  {
+    "file": "drumstool2.js",
+    "c": "music",
+    "t": "Cowbell",
+    "g": "cowbell clamp"
+  },
+  {
+    "file": "bassamp.js",
+    "c": "music",
+    "t": "Bass cabinet",
+    "g": "bass cabinet tilt"
+  },
+  {
+    "file": "bandstand.js",
+    "c": "music",
+    "t": "Band stand",
+    "g": "band music stand"
+  },
+  {
+    "file": "ocarina.js",
+    "c": "music",
+    "t": "Ocarina",
+    "g": "ocarina holes"
+  },
+  {
+    "file": "deskdrawer.js",
+    "c": "office",
+    "t": "Pedestal",
+    "g": "office pedestal drawer"
+  },
+  {
+    "file": "labeltape.js",
+    "c": "office",
+    "t": "Tape gun",
+    "g": "label tape gun"
+  },
+  {
+    "file": "pencilsharp2.js",
+    "c": "office",
+    "t": "Eraser",
+    "g": "electric eraser"
+  },
+  {
+    "file": "tabletennis3.js",
+    "c": "sports",
+    "t": "Table tennis net",
+    "g": "net clamp post"
+  },
+  {
+    "file": "discgolf.js",
+    "c": "sports",
+    "t": "Disc golf basket",
+    "g": "disc golf basket chains"
+  },
+  {
+    "file": "jumprope.js",
+    "c": "sports",
+    "t": "Jump rope",
+    "g": "jump rope handles"
+  },
+  {
+    "file": "glovedispenser.js",
+    "c": "health",
+    "t": "Glove dispenser",
+    "g": "glove box holder"
+  },
+  {
+    "file": "otoscopewall.js",
+    "c": "health",
+    "t": "Wall diagnostic",
+    "g": "wall otoscope handle"
+  },
+  {
+    "file": "tonguejar.js",
+    "c": "health",
+    "t": "Swab jar",
+    "g": "swab jar lid"
+  },
+  {
+    "file": "pillboxweek.js",
+    "c": "health",
+    "t": "Pill reminder",
+    "g": "pill reminder lid flip"
+  },
+  {
+    "file": "slingstand.js",
+    "c": "health",
+    "t": "Patient lift",
+    "g": "patient lift sling arm"
+  },
+  {
+    "file": "readingtray.js",
+    "c": "education",
+    "t": "Reading tray",
+    "g": "reading tray tilt"
+  },
+  {
+    "file": "mapcase.js",
+    "c": "education",
+    "t": "Map tube",
+    "g": "map tube cap"
+  },
+  {
+    "file": "slideruler.js",
+    "c": "education",
+    "t": "Slide rule",
+    "g": "slide rule cursor"
+  },
+  {
+    "file": "magnifier2.js",
+    "c": "education",
+    "t": "Hand lens",
+    "g": "folding hand lens"
+  },
+  {
+    "file": "wheelbarrow2.js",
+    "c": "agriculture",
+    "t": "Garden cart",
+    "g": "garden cart tip"
+  },
+  {
+    "file": "raisedbed.js",
+    "c": "agriculture",
+    "t": "Raised bed",
+    "g": "raised bed cover"
+  },
+  {
+    "file": "hosereel2.js",
+    "c": "agriculture",
+    "t": "Hose cart",
+    "g": "hose cart crank"
+  },
+  {
+    "file": "bugtrap.js",
+    "c": "agriculture",
+    "t": "Bird scarer",
+    "g": "bird scarer spin"
+  },
+  {
+    "file": "compostbin.js",
+    "c": "agriculture",
+    "t": "Compost bin",
+    "g": "compost bin hatch"
+  },
+  {
+    "file": "safehinge.js",
+    "c": "finance",
+    "t": "Wall safe dial",
+    "g": "safe door dial turn"
+  },
+  {
+    "file": "cashbox2.js",
+    "c": "finance",
+    "t": "Coin scoop",
+    "g": "coin scoop tray"
+  },
+  {
+    "file": "envelopeslot.js",
+    "c": "finance",
+    "t": "Deposit slot",
+    "g": "deposit envelope slot"
+  },
+  {
+    "file": "chequepen.js",
+    "c": "finance",
+    "t": "Pen stand",
+    "g": "bank pen stand"
+  },
+  {
+    "file": "coinroller.js",
+    "c": "finance",
+    "t": "Coin roller",
+    "g": "coin roller crank"
+  },
+  {
+    "file": "boardpieces2.js",
+    "c": "gaming",
+    "t": "Draughts box",
+    "g": "draughts box lid"
+  },
+  {
+    "file": "skiball2.js",
+    "c": "gaming",
+    "t": "Ball maze",
+    "g": "tilt ball maze"
+  },
+  {
+    "file": "minipool.js",
+    "c": "gaming",
+    "t": "Mini pool",
+    "g": "mini pool cue"
+  },
+  {
+    "file": "kettle3.js",
+    "c": "home",
+    "t": "Stovetop kettle",
+    "g": "whistling kettle"
+  },
+  {
+    "file": "linenchest.js",
+    "c": "home",
+    "t": "Blanket box",
+    "g": "blanket box lid"
+  },
+  {
+    "file": "rugroll.js",
+    "c": "home",
+    "t": "Rug",
+    "g": "rolled rug"
   }
 ]
