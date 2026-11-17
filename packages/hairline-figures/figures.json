@@ -9358,5 +9358,257 @@
     "c": "farm",
     "t": "Cheese press",
     "g": "cheese press screw"
+  },
+  {
+    "file": "clapperboard2.js",
+    "c": "cinema",
+    "t": "Film splicer",
+    "g": "film splicer press"
+  },
+  {
+    "file": "reelcan.js",
+    "c": "cinema",
+    "t": "Reel can",
+    "g": "film reel can lid"
+  },
+  {
+    "file": "usherlight.js",
+    "c": "cinema",
+    "t": "Usher torch",
+    "g": "usher torch beam"
+  },
+  {
+    "file": "unicycle.js",
+    "c": "circus",
+    "t": "Unicycle",
+    "g": "unicycle wheel"
+  },
+  {
+    "file": "thimble.js",
+    "c": "sewing",
+    "t": "Thimble box",
+    "g": "thimble box lid"
+  },
+  {
+    "file": "trekpole.js",
+    "c": "hiking",
+    "t": "Trail marker",
+    "g": "trail marker post"
+  },
+  {
+    "file": "canteen.js",
+    "c": "hiking",
+    "t": "Canteen",
+    "g": "canteen cap"
+  },
+  {
+    "file": "gaiter.js",
+    "c": "hiking",
+    "t": "Map case",
+    "g": "map case flap"
+  },
+  {
+    "file": "bearbell.js",
+    "c": "hiking",
+    "t": "Bear bell",
+    "g": "bear bell"
+  },
+  {
+    "file": "skiboot.js",
+    "c": "ski",
+    "t": "Ski boot",
+    "g": "ski boot buckle"
+  },
+  {
+    "file": "skilift.js",
+    "c": "ski",
+    "t": "T-bar lift",
+    "g": "t-bar lift"
+  },
+  {
+    "file": "avalanche.js",
+    "c": "ski",
+    "t": "Avalanche probe",
+    "g": "avalanche probe"
+  },
+  {
+    "file": "sandsieve.js",
+    "c": "beach",
+    "t": "Sand sieve",
+    "g": "sand sieve"
+  },
+  {
+    "file": "frenchpress.js",
+    "c": "cafe",
+    "t": "Cafetiere",
+    "g": "cafetiere plunger"
+  },
+  {
+    "file": "milkjug.js",
+    "c": "cafe",
+    "t": "Milk jug",
+    "g": "milk jug pour"
+  },
+  {
+    "file": "tamper.js",
+    "c": "cafe",
+    "t": "Coffee tamper",
+    "g": "coffee tamper"
+  },
+  {
+    "file": "knockbox.js",
+    "c": "cafe",
+    "t": "Knock box",
+    "g": "knock box bar"
+  },
+  {
+    "file": "beertap.js",
+    "c": "bar",
+    "t": "Beer tap",
+    "g": "beer tap handle"
+  },
+  {
+    "file": "icetongs.js",
+    "c": "bar",
+    "t": "Ice tongs",
+    "g": "ice tongs"
+  },
+  {
+    "file": "mouthmodel.js",
+    "c": "dentist",
+    "t": "Jaw model",
+    "g": "jaw model hinge"
+  },
+  {
+    "file": "plunger.js",
+    "c": "plumbing",
+    "t": "Plunger",
+    "g": "sink plunger"
+  },
+  {
+    "file": "ballvalve.js",
+    "c": "plumbing",
+    "t": "Ball valve",
+    "g": "ball valve lever"
+  },
+  {
+    "file": "wirestripper.js",
+    "c": "electric",
+    "t": "Wire stripper",
+    "g": "wire stripper"
+  },
+  {
+    "file": "junctionbox.js",
+    "c": "electric",
+    "t": "Junction box",
+    "g": "junction box lid"
+  },
+  {
+    "file": "breakerpanel.js",
+    "c": "electric",
+    "t": "Breaker switch",
+    "g": "breaker switch flip"
+  },
+  {
+    "file": "trowelsift.js",
+    "c": "archaeology",
+    "t": "Finds tray",
+    "g": "finds tray"
+  },
+  {
+    "file": "pickaxe.js",
+    "c": "mining",
+    "t": "Pickaxe",
+    "g": "pickaxe swing"
+  },
+  {
+    "file": "peavey.js",
+    "c": "forestry",
+    "t": "Cant hook",
+    "g": "cant hook log"
+  },
+  {
+    "file": "treeclimb.js",
+    "c": "forestry",
+    "t": "Tree stand",
+    "g": "tree stand"
+  },
+  {
+    "file": "brewkettle.js",
+    "c": "brewing",
+    "t": "Mash tun",
+    "g": "mash tun lid"
+  },
+  {
+    "file": "bottlecapper.js",
+    "c": "brewing",
+    "t": "Bottle capper",
+    "g": "bottle capper lever"
+  },
+  {
+    "file": "winepress2.js",
+    "c": "winery",
+    "t": "Wine thief",
+    "g": "wine thief"
+  },
+  {
+    "file": "barrelrack.js",
+    "c": "winery",
+    "t": "Barrel rack",
+    "g": "barrel cradle roll"
+  },
+  {
+    "file": "teawhisk.js",
+    "c": "tea",
+    "t": "Matcha whisk",
+    "g": "matcha whisk stand"
+  },
+  {
+    "file": "teakettle.js",
+    "c": "tea",
+    "t": "Iron kettle",
+    "g": "cast iron kettle lid"
+  },
+  {
+    "file": "inkstone.js",
+    "c": "calligraphy",
+    "t": "Ink stone",
+    "g": "ink stone stick"
+  },
+  {
+    "file": "brushrest.js",
+    "c": "calligraphy",
+    "t": "Brush rest",
+    "g": "brush rest mountain"
+  },
+  {
+    "file": "origamicrane.js",
+    "c": "paper",
+    "t": "Paper crane",
+    "g": "paper crane wings"
+  },
+  {
+    "file": "lazysusan.js",
+    "c": "home",
+    "t": "Lazy Susan",
+    "g": "lazy susan turn"
+  },
+  {
+    "file": "tinderbox.js",
+    "c": "outdoors",
+    "t": "Tinder box",
+    "g": "tinder box lid"
+  },
+  {
+    "file": "boxkite.js",
+    "c": "outdoors",
+    "t": "Box kite",
+    "g": "box kite"
+  },
+  {
+    "file": "scrollcase.js",
+    "c": "library",
+    "t": "Scroll case",
+    "g": "scroll case cap"
   }
 ]
