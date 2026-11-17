@@ -11920,5 +11920,119 @@
     "c": "baby",
     "t": "Changing table",
     "g": "changing unit flap top baby"
+  },
+  {
+    "file": "roundabout.js",
+    "c": "play",
+    "t": "Playground roundabout",
+    "g": "roundabout merry-go-round spin playground"
+  },
+  {
+    "file": "tetherball.js",
+    "c": "play",
+    "t": "Tetherball",
+    "g": "tetherball pole ball rope swing"
+  },
+  {
+    "file": "zipline.js",
+    "c": "play",
+    "t": "Zip line",
+    "g": "zip line trolley cable seat"
+  },
+  {
+    "file": "gumball.js",
+    "c": "retail",
+    "t": "Gumball machine",
+    "g": "gumball machine crank globe coin"
+  },
+  {
+    "file": "vandegraaff.js",
+    "c": "science",
+    "t": "Van de Graaff generator",
+    "g": "dome belt static generator"
+  },
+  {
+    "file": "stirrer.js",
+    "c": "science",
+    "t": "Magnetic stirrer",
+    "g": "stir plate flask stir bar"
+  },
+  {
+    "file": "lawnmower2.js",
+    "c": "garden",
+    "t": "Lawn mower",
+    "g": "push mower grass box handle"
+  },
+  {
+    "file": "chainsaw.js",
+    "c": "tools",
+    "t": "Chainsaw",
+    "g": "chainsaw chain bar guard"
+  },
+  {
+    "file": "hedgetrimmer.js",
+    "c": "garden",
+    "t": "Hedge trimmer",
+    "g": "electric hedge trimmer blade"
+  },
+  {
+    "file": "airlinecart.js",
+    "c": "travel",
+    "t": "Drinks trolley",
+    "g": "airline trolley drawers aisle"
+  },
+  {
+    "file": "clockpost.js",
+    "c": "city",
+    "t": "Street clock",
+    "g": "street clock post dial"
+  },
+  {
+    "file": "swingdoor.js",
+    "c": "home",
+    "t": "Saloon doors",
+    "g": "saloon swing doors bar"
+  },
+  {
+    "file": "revolving.js",
+    "c": "home",
+    "t": "Revolving door",
+    "g": "revolving door wings glass"
+  },
+  {
+    "file": "pocketdoor.js",
+    "c": "home",
+    "t": "Pocket door",
+    "g": "pocket sliding door wall"
+  },
+  {
+    "file": "rolltop.js",
+    "c": "office",
+    "t": "Roll-top desk",
+    "g": "roll top desk tambour slide"
+  },
+  {
+    "file": "bureau.js",
+    "c": "office",
+    "t": "Writing bureau",
+    "g": "bureau fall front flap desk"
+  },
+  {
+    "file": "awning3.js",
+    "c": "outdoor",
+    "t": "Retractable awning",
+    "g": "awning arm extend canopy"
+  },
+  {
+    "file": "sofabed.js",
+    "c": "home",
+    "t": "Sofa bed",
+    "g": "sofa bed unfold mattress"
+  },
+  {
+    "file": "recliner.js",
+    "c": "home",
+    "t": "Recliner",
+    "g": "recliner armchair footrest backrest"
   }
 ]
