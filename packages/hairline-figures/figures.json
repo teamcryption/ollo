@@ -11884,5 +11884,41 @@
     "c": "craft",
     "t": "Heat press",
     "g": "tshirt press clamshell"
+  },
+  {
+    "file": "platecompactor.js",
+    "c": "construction",
+    "t": "Plate compactor",
+    "g": "plate compactor handle vibrate"
+  },
+  {
+    "file": "camcorder.js",
+    "c": "av",
+    "t": "Camcorder",
+    "g": "video camera flip screen"
+  },
+  {
+    "file": "recyclebank.js",
+    "c": "city",
+    "t": "Bottle bank",
+    "g": "recycling bottle bank flap glass"
+  },
+  {
+    "file": "rowboat.js",
+    "c": "marine",
+    "t": "Rowing boat",
+    "g": "rowing boat oars stroke"
+  },
+  {
+    "file": "clampbench.js",
+    "c": "tools",
+    "t": "Folding workbench",
+    "g": "portable workbench fold legs clamp"
+  },
+  {
+    "file": "changingtable.js",
+    "c": "baby",
+    "t": "Changing table",
+    "g": "changing unit flap top baby"
   }
 ]
