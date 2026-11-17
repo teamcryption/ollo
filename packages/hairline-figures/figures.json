@@ -11428,5 +11428,101 @@
     "c": "tech",
     "t": "Contactless reader",
     "g": "contactless reader tilt"
+  },
+  {
+    "file": "airfryer.js",
+    "c": "appliance",
+    "t": "Air fryer",
+    "g": "air fryer basket drawer"
+  },
+  {
+    "file": "icemaker.js",
+    "c": "appliance",
+    "t": "Ice maker",
+    "g": "ice maker lid"
+  },
+  {
+    "file": "milkfrother2.js",
+    "c": "appliance",
+    "t": "Frother jug",
+    "g": "frother lid"
+  },
+  {
+    "file": "handmixer.js",
+    "c": "appliance",
+    "t": "Hand mixer",
+    "g": "hand mixer beaters"
+  },
+  {
+    "file": "dehydrator.js",
+    "c": "appliance",
+    "t": "Dehydrator",
+    "g": "dehydrator trays"
+  },
+  {
+    "file": "dryerlint.js",
+    "c": "appliance",
+    "t": "Lint filter",
+    "g": "dryer lint filter"
+  },
+  {
+    "file": "fridgehandle.js",
+    "c": "appliance",
+    "t": "Fridge drawer",
+    "g": "fridge crisper drawer"
+  },
+  {
+    "file": "humidifier.js",
+    "c": "appliance",
+    "t": "Humidifier",
+    "g": "humidifier tank lift"
+  },
+  {
+    "file": "heater.js",
+    "c": "appliance",
+    "t": "Fan heater",
+    "g": "fan heater tilt"
+  },
+  {
+    "file": "vacuumhead.js",
+    "c": "appliance",
+    "t": "Vacuum nozzle",
+    "g": "vacuum floor head swivel"
+  },
+  {
+    "file": "showerchair.js",
+    "c": "bathroom",
+    "t": "Shower seat",
+    "g": "fold down shower seat"
+  },
+  {
+    "file": "grabbar.js",
+    "c": "bathroom",
+    "t": "Toilet lid",
+    "g": "toilet seat lid"
+  },
+  {
+    "file": "bathplug2.js",
+    "c": "bathroom",
+    "t": "Bath tap",
+    "g": "bath mixer lever"
+  },
+  {
+    "file": "nailclip.js",
+    "c": "bathroom",
+    "t": "Nail clippers",
+    "g": "nail clipper lever"
+  },
+  {
+    "file": "hairstraight.js",
+    "c": "bathroom",
+    "t": "Hair straightener",
+    "g": "straightener plates"
+  },
+  {
+    "file": "toothbrushe.js",
+    "c": "bathroom",
+    "t": "Electric toothbrush",
+    "g": "toothbrush charger"
   }
 ]
