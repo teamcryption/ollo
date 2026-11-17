@@ -11590,5 +11590,149 @@
     "c": "tools",
     "t": "Putty knife",
     "g": "putty knife scrape"
+  },
+  {
+    "file": "cupholder2.js",
+    "c": "car",
+    "t": "Car cup holder",
+    "g": "pop out cup holder"
+  },
+  {
+    "file": "gloveboxcar.js",
+    "c": "car",
+    "t": "Car glovebox",
+    "g": "glovebox door drop"
+  },
+  {
+    "file": "armrest.js",
+    "c": "car",
+    "t": "Armrest console",
+    "g": "armrest lid"
+  },
+  {
+    "file": "phonemount.js",
+    "c": "car",
+    "t": "Phone mount",
+    "g": "car phone mount clamp"
+  },
+  {
+    "file": "gearlever.js",
+    "c": "car",
+    "t": "Parking brake",
+    "g": "handbrake lever"
+  },
+  {
+    "file": "fuelflap.js",
+    "c": "car",
+    "t": "Charge port",
+    "g": "ev charge port flap"
+  },
+  {
+    "file": "dashcam.js",
+    "c": "car",
+    "t": "Dash cam",
+    "g": "dash cam swivel"
+  },
+  {
+    "file": "pulseoxi.js",
+    "c": "medical",
+    "t": "Fingertip oximeter",
+    "g": "fingertip oximeter clip"
+  },
+  {
+    "file": "inhaler2.js",
+    "c": "medical",
+    "t": "Spacer inhaler",
+    "g": "inhaler spacer"
+  },
+  {
+    "file": "cdtray.js",
+    "c": "audio",
+    "t": "CD tray",
+    "g": "cd tray slide"
+  },
+  {
+    "file": "boombox.js",
+    "c": "audio",
+    "t": "Boombox",
+    "g": "boombox handle"
+  },
+  {
+    "file": "speakergrille.js",
+    "c": "audio",
+    "t": "Bookshelf speaker",
+    "g": "speaker grille off"
+  },
+  {
+    "file": "radio2.js",
+    "c": "audio",
+    "t": "Transistor radio",
+    "g": "radio antenna extend"
+  },
+  {
+    "file": "reelmic.js",
+    "c": "audio",
+    "t": "Studio monitor",
+    "g": "studio monitor speaker yoke tilt audio"
+  },
+  {
+    "file": "keytar.js",
+    "c": "audio",
+    "t": "Keyboard stand",
+    "g": "keyboard synth stand x stand scissor audio"
+  },
+  {
+    "file": "lifebuoy2.js",
+    "c": "civic",
+    "t": "Throw bag",
+    "g": "rescue throw bag rope post water safety"
+  },
+  {
+    "file": "firealarm2.js",
+    "c": "civic",
+    "t": "Fire alarm call point",
+    "g": "fire alarm call point pull handle"
+  },
+  {
+    "file": "defib.js",
+    "c": "civic",
+    "t": "AED cabinet",
+    "g": "aed cabinet door defibrillator first aid civic"
+  },
+  {
+    "file": "streetsweep.js",
+    "c": "civic",
+    "t": "Litter cart",
+    "g": "street litter cart lid bin sweeper civic"
+  },
+  {
+    "file": "icepick.js",
+    "c": "winter",
+    "t": "Ice axe",
+    "g": "ice axe adze pick mountaineering winter climbing"
+  },
+  {
+    "file": "toiletrybottle.js",
+    "c": "travel",
+    "t": "Travel bottle",
+    "g": "travel bottle flip cap squeeze toiletry"
+  },
+  {
+    "file": "passportcover.js",
+    "c": "travel",
+    "t": "Ticket holder",
+    "g": "travel lanyard badge holder ticket card"
+  },
+  {
+    "file": "beachspade.js",
+    "c": "summer",
+    "t": "Bucket and spade",
+    "g": "sand bucket tip spade beach summer"
+  },
+  {
+    "file": "pooltoy.js",
+    "c": "summer",
+    "t": "Pool skimmer",
+    "g": "pool skimmer net pole leaves summer"
   }
 ]
