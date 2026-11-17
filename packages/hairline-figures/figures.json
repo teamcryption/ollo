@@ -11524,5 +11524,71 @@
     "c": "bathroom",
     "t": "Electric toothbrush",
     "g": "toothbrush charger"
+  },
+  {
+    "file": "lightswitch.js",
+    "c": "home",
+    "t": "Light switch",
+    "g": "toggle light switch"
+  },
+  {
+    "file": "dimmer.js",
+    "c": "home",
+    "t": "Dimmer knob",
+    "g": "dimmer knob turn"
+  },
+  {
+    "file": "socketcover.js",
+    "c": "home",
+    "t": "Floor socket",
+    "g": "floor socket lid"
+  },
+  {
+    "file": "intercom2.js",
+    "c": "home",
+    "t": "Door phone",
+    "g": "door phone handset"
+  },
+  {
+    "file": "meatthermo.js",
+    "c": "kitchen",
+    "t": "Meat thermometer",
+    "g": "meat thermometer probe fold"
+  },
+  {
+    "file": "kitchenscale2.js",
+    "c": "kitchen",
+    "t": "Kitchen timer cube",
+    "g": "flip timer cube"
+  },
+  {
+    "file": "multitool.js",
+    "c": "tools",
+    "t": "Multi-tool",
+    "g": "oscillating multitool head"
+  },
+  {
+    "file": "stud.js",
+    "c": "tools",
+    "t": "Stud finder",
+    "g": "stud finder slide"
+  },
+  {
+    "file": "multimeter.js",
+    "c": "tools",
+    "t": "Multimeter",
+    "g": "multimeter dial probe"
+  },
+  {
+    "file": "tilesaw.js",
+    "c": "tools",
+    "t": "Tile nipper",
+    "g": "tile nipper jaws"
+  },
+  {
+    "file": "caulkknife.js",
+    "c": "tools",
+    "t": "Putty knife",
+    "g": "putty knife scrape"
   }
 ]
