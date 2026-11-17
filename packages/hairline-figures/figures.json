@@ -11140,5 +11140,53 @@
     "c": "gym",
     "t": "Climbing hold board",
     "g": "hangboard"
+  },
+  {
+    "file": "cartridge.js",
+    "c": "retro tech",
+    "t": "Game cartridge",
+    "g": "game cartridge slot"
+  },
+  {
+    "file": "crtmonitor.js",
+    "c": "retro tech",
+    "t": "CRT monitor",
+    "g": "crt monitor tilt"
+  },
+  {
+    "file": "viewfinder.js",
+    "c": "camera",
+    "t": "Viewfinder hood",
+    "g": "waist level viewfinder"
+  },
+  {
+    "file": "diffuser.js",
+    "c": "camera",
+    "t": "Beauty dish",
+    "g": "beauty dish"
+  },
+  {
+    "file": "bicyclebell.js",
+    "c": "transport",
+    "t": "Bicycle bell",
+    "g": "bicycle bell lever"
+  },
+  {
+    "file": "pannier.js",
+    "c": "transport",
+    "t": "Pannier",
+    "g": "bike pannier flap"
+  },
+  {
+    "file": "bikelight.js",
+    "c": "transport",
+    "t": "Bike light",
+    "g": "bike light clip"
+  },
+  {
+    "file": "handlebar.js",
+    "c": "transport",
+    "t": "Handlebar bag",
+    "g": "handlebar bag lid"
   }
 ]
