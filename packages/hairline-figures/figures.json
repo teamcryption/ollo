@@ -11086,5 +11086,59 @@
     "c": "gym",
     "t": "Slam ball",
     "g": "slam ball drop"
+  },
+  {
+    "file": "greenhousevent.js",
+    "c": "garden",
+    "t": "Vent opener",
+    "g": "greenhouse vent opener"
+  },
+  {
+    "file": "logsplitter2.js",
+    "c": "garden",
+    "t": "Leaf grabber",
+    "g": "leaf grabbers"
+  },
+  {
+    "file": "gluegun.js",
+    "c": "craft",
+    "t": "Glue gun",
+    "g": "hot glue gun trigger"
+  },
+  {
+    "file": "stampblock.js",
+    "c": "craft",
+    "t": "Clay stamp",
+    "g": "block print stamp"
+  },
+  {
+    "file": "cuttingmat.js",
+    "c": "craft",
+    "t": "Craft knife",
+    "g": "craft knife blade"
+  },
+  {
+    "file": "knittingneedle.js",
+    "c": "craft",
+    "t": "Yarn bowl",
+    "g": "yarn bowl"
+  },
+  {
+    "file": "embossing.js",
+    "c": "craft",
+    "t": "Heat tool",
+    "g": "embossing heat tool"
+  },
+  {
+    "file": "horsetrough.js",
+    "c": "street",
+    "t": "Horse trough",
+    "g": "horse trough pump"
+  },
+  {
+    "file": "rowmachine.js",
+    "c": "gym",
+    "t": "Climbing hold board",
+    "g": "hangboard"
   }
 ]
