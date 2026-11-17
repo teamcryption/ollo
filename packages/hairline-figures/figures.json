@@ -9112,5 +9112,251 @@
     "c": "gaming",
     "t": "Slide puzzle",
     "g": "sliding tile puzzle"
+  },
+  {
+    "file": "doorhanger.js",
+    "c": "hospitality",
+    "t": "Door hanger",
+    "g": "do not disturb hanger"
+  },
+  {
+    "file": "spotlightrig.js",
+    "c": "theatre",
+    "t": "Follow spot",
+    "g": "follow spot lamp"
+  },
+  {
+    "file": "curtainrope.js",
+    "c": "theatre",
+    "t": "Stage curtain",
+    "g": "stage curtain pull"
+  },
+  {
+    "file": "trapdoor.js",
+    "c": "theatre",
+    "t": "Stage trapdoor",
+    "g": "stage trap door"
+  },
+  {
+    "file": "filmcanister.js",
+    "c": "photo",
+    "t": "Film canister",
+    "g": "film canister lid"
+  },
+  {
+    "file": "reflector.js",
+    "c": "photo",
+    "t": "Reflector disc",
+    "g": "photo reflector fold"
+  },
+  {
+    "file": "cablerelease.js",
+    "c": "photo",
+    "t": "Bellows camera",
+    "g": "bellows camera"
+  },
+  {
+    "file": "proofbasket.js",
+    "c": "bakery",
+    "t": "Proofing basket",
+    "g": "banneton basket"
+  },
+  {
+    "file": "doughscraper.js",
+    "c": "bakery",
+    "t": "Dough divider",
+    "g": "dough divider press"
+  },
+  {
+    "file": "bakerypeel.js",
+    "c": "bakery",
+    "t": "Cooling rack",
+    "g": "tiered cooling rack"
+  },
+  {
+    "file": "flourbin.js",
+    "c": "bakery",
+    "t": "Flour bin",
+    "g": "flour bin lid"
+  },
+  {
+    "file": "cakestencil.js",
+    "c": "bakery",
+    "t": "Piping bag",
+    "g": "piping bag nozzle"
+  },
+  {
+    "file": "lobsterpot.js",
+    "c": "marine",
+    "t": "Lobster pot",
+    "g": "lobster pot door"
+  },
+  {
+    "file": "cleat.js",
+    "c": "marine",
+    "t": "Boat cleat",
+    "g": "boat cleat rope"
+  },
+  {
+    "file": "anchorwinch.js",
+    "c": "marine",
+    "t": "Windlass",
+    "g": "anchor windlass"
+  },
+  {
+    "file": "signallamp.js",
+    "c": "railway",
+    "t": "Signal lamp",
+    "g": "railway signal lamp"
+  },
+  {
+    "file": "ticketpunch.js",
+    "c": "railway",
+    "t": "Ticket punch",
+    "g": "ticket punch"
+  },
+  {
+    "file": "propellerhub.js",
+    "c": "aviation",
+    "t": "Propeller",
+    "g": "propeller spin"
+  },
+  {
+    "file": "cockpitswitch.js",
+    "c": "aviation",
+    "t": "Throttle",
+    "g": "throttle lever"
+  },
+  {
+    "file": "embroideryhoop.js",
+    "c": "craft",
+    "t": "Embroidery hoop",
+    "g": "embroidery hoop screw"
+  },
+  {
+    "file": "yarnswift.js",
+    "c": "craft",
+    "t": "Yarn swift",
+    "g": "yarn swift spin"
+  },
+  {
+    "file": "loupe.js",
+    "c": "jewellery",
+    "t": "Jeweller loupe",
+    "g": "loupe fold"
+  },
+  {
+    "file": "cardcatalog.js",
+    "c": "library",
+    "t": "Catalogue drawer",
+    "g": "card catalogue drawer"
+  },
+  {
+    "file": "bookpress.js",
+    "c": "library",
+    "t": "Book press",
+    "g": "book press screw"
+  },
+  {
+    "file": "anemometer.js",
+    "c": "weather",
+    "t": "Anemometer",
+    "g": "anemometer cups"
+  },
+  {
+    "file": "barometer.js",
+    "c": "weather",
+    "t": "Barometer",
+    "g": "barometer needle"
+  },
+  {
+    "file": "stevenson.js",
+    "c": "weather",
+    "t": "Weather screen",
+    "g": "stevenson screen door"
+  },
+  {
+    "file": "barberpole.js",
+    "c": "barber",
+    "t": "Barber pole",
+    "g": "barber pole spin"
+  },
+  {
+    "file": "barberchair.js",
+    "c": "barber",
+    "t": "Barber chair",
+    "g": "barber chair recline"
+  },
+  {
+    "file": "sockdryer.js",
+    "c": "laundry",
+    "t": "Peg basket",
+    "g": "peg basket"
+  },
+  {
+    "file": "woodplane.js",
+    "c": "wood",
+    "t": "Hand plane",
+    "g": "hand plane"
+  },
+  {
+    "file": "spokeshave.js",
+    "c": "wood",
+    "t": "Spokeshave",
+    "g": "spokeshave"
+  },
+  {
+    "file": "benchvice.js",
+    "c": "wood",
+    "t": "Woodwork vice",
+    "g": "woodwork vice screw"
+  },
+  {
+    "file": "sextant.js",
+    "c": "marine",
+    "t": "Sextant",
+    "g": "sextant arm"
+  },
+  {
+    "file": "hourglass.js",
+    "c": "office",
+    "t": "Hourglass",
+    "g": "hourglass flip"
+  },
+  {
+    "file": "planisphere.js",
+    "c": "science",
+    "t": "Star wheel",
+    "g": "planisphere turn"
+  },
+  {
+    "file": "foghorn.js",
+    "c": "marine",
+    "t": "Foghorn",
+    "g": "foghorn"
+  },
+  {
+    "file": "divinghelmet.js",
+    "c": "marine",
+    "t": "Diving helmet",
+    "g": "diving helmet porthole"
+  },
+  {
+    "file": "lanterncarriage.js",
+    "c": "railway",
+    "t": "Coal tender",
+    "g": "coal tender hatch"
+  },
+  {
+    "file": "spurwheel.js",
+    "c": "farm",
+    "t": "Butter press",
+    "g": "butter press mould"
+  },
+  {
+    "file": "cheesepress.js",
+    "c": "farm",
+    "t": "Cheese press",
+    "g": "cheese press screw"
   }
 ]
