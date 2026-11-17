@@ -22,7 +22,8 @@ import { Logo } from './Logo';
 import { UiIcon } from './ui-icons';
 import { IllustrationFilters, IllustrationSidebar, Illustrations, useIllustrationState } from './Illustrations';
 import { DownloadModal, type DownloadTarget } from './DownloadModal';
-import { Subscribe } from './Subscribe';
+import { Landing } from './Landing';
+import { PricingBlock } from './Pricing';
 import { AccountScreens, isAccountView, type AccountView } from './Account';
 import { initials, useAccount } from '@/lib/account';
 import { IN_FIGMA, figmaInsert, figmaPro, onFigmaPlan, setFigmaPro } from '@/lib/figma';
@@ -84,22 +85,42 @@ export function Library() {
   const favourites = useLocalList('ollo-favourites', 500);
   const deferredQuery = useDeferredValue(query);
   // Views by URL hash so they also work on the published preview page and in the Figma plugin:
-  // #subscribe, #pro, and the account screens (#signin, #signup, #welcome, #checkout, #account…).
-  const [view, setView] = useState<'library' | 'subscribe' | 'pro' | AccountView>('library');
+  // #home (landing), #library (?q=…&mode=icons|illustrations|animated), #subscribe / #pro (pricing),
+  // and the account screens (#signin, #signup, #welcome, #checkout, #account…).
+  // With no hash the site opens on the landing page; the batch preview and the Figma plugin open on the library.
+  const [view, setView] = useState<'home' | 'library' | 'subscribe' | 'pro' | AccountView>('library');
   const acct = useAccount();
   useEffect(() => {
+    const ollo = (window as unknown as { __OLLO__?: { preview?: boolean; figma?: boolean } }).__OLLO__;
     const read = () => {
-      const h = location.hash.slice(1).split('?')[0];
-      setView(h === 'subscribe' ? 'subscribe' : h === 'pro' ? 'pro' : isAccountView(h) ? h : 'library');
+      const [h, qs] = location.hash.slice(1).split('?');
+      const params = new URLSearchParams(qs ?? '');
+      const next =
+        h === 'home' || (!h && !ollo?.preview && !ollo?.figma)
+          ? 'home'
+          : h === 'subscribe' || h === 'pro'
+            ? h
+            : isAccountView(h)
+              ? h
+              : 'library';
+      setView(next);
       setSheet(null);
-      if (h === 'subscribe' || h === 'pro' || isAccountView(h)) window.scrollTo(0, 0);
+      if (next === 'library') {
+        const m = params.get('mode');
+        if (m === 'illustrations') (setMode('illustrations'), setAnimated(false));
+        else if (m === 'animated') (setMode('icons'), setAnimated(true));
+        else if (m === 'icons') (setMode('icons'), setAnimated(false));
+        const q = params.get('q');
+        if (q !== null) setQuery(q);
+      }
+      if (next !== 'library' || h === 'library') window.scrollTo(0, 0);
     };
     read();
     window.addEventListener('hashchange', read);
     return () => window.removeEventListener('hashchange', read);
   }, []);
   const toLibrary = () => {
-    if (location.hash) history.replaceState(null, '', location.pathname + location.search);
+    history.replaceState(null, '', location.pathname + location.search + '#library');
     setView('library');
   };
   const ill = useIllustrationState();
@@ -486,10 +507,23 @@ export function Library() {
 
   return (
     <div className="app">
-      {(!isAccountView(view) || view === 'account') && (
+      {view === 'home' && (
+        <Landing
+          theme={theme}
+          toggleTheme={toggleTheme}
+          index={index}
+          illustrations={ill.items}
+          industries={ill.categories}
+          onToast={showToast}
+          onSearch={(q, m) => {
+            location.hash = `library?mode=${m}${q ? `&q=${encodeURIComponent(q)}` : ''}`;
+          }}
+        />
+      )}
+      {view !== 'home' && (!isAccountView(view) || view === 'account') && (
       <header className="header">
         <div className="header-left">
-          <a href="/" className="logo-link" aria-label="ollo home">
+          <a href="#home" className="logo-link" aria-label="ollo home">
             <Logo />
           </a>
           {modeSwitch('only-wide')}
@@ -523,8 +557,8 @@ export function Library() {
               Sign in
             </a>
           )}
-          {acct?.plan !== 'pro' && (
-            <a className="btn btn-primary btn-md only-wide" href={acct ? '#setup-plan' : '#pro'} aria-current={view === 'pro' ? 'page' : undefined}>
+          {acct?.plan !== 'lifetime' && (
+            <a className="btn btn-primary btn-md only-wide" href="#subscribe" aria-current={view === 'pro' || view === 'subscribe' ? 'page' : undefined}>
               <UiIcon name="sparkle" size={20} />
               Get Pro
             </a>
@@ -536,7 +570,7 @@ export function Library() {
       </header>
       )}
 
-      {isAccountView(view) ? (
+      {view === 'home' ? null : isAccountView(view) ? (
         <AccountScreens
           view={view}
           theme={theme}
@@ -545,12 +579,16 @@ export function Library() {
           onToast={showToast}
         />
       ) : view !== 'library' ? (
-        <Subscribe
-          initialPlan={view === 'pro' ? 'pro' : 'free'}
-          iconCount={total}
-          illustrationCount={ill.items?.length ?? 0}
-          onToast={showToast}
-        />
+        <main className="pricing-page" id="main">
+          <PricingBlock
+            as="h1"
+            actions={{
+              free: { onClick: () => (location.hash = 'library'), current: acct?.plan === 'free' },
+              pro: { onClick: () => (location.hash = acct ? 'checkout?plan=pro' : 'signup'), current: acct?.plan === 'pro' || acct?.plan === 'lifetime' },
+              lifetime: { onClick: () => (location.hash = acct ? 'checkout?plan=lifetime' : 'signup'), current: acct?.plan === 'lifetime' },
+            }}
+          />
+        </main>
       ) : (
       <>
       <div className="top-controls only-phone">
@@ -852,8 +890,8 @@ export function Library() {
                 <a className="btn btn-outline btn-md" href={acct ? '#account' : '#signin'}>
                   {acct ? 'Account' : 'Sign in'}
                 </a>
-                {acct?.plan !== 'pro' && (
-                  <a className="btn btn-primary btn-md" href={acct ? '#setup-plan' : '#pro'} aria-current={view === 'pro' ? 'page' : undefined}>
+                {acct?.plan !== 'lifetime' && (
+                  <a className="btn btn-primary btn-md" href="#subscribe" aria-current={view === 'pro' ? 'page' : undefined}>
                     <UiIcon name="sparkle" size={20} />
                     Get Pro
                   </a>

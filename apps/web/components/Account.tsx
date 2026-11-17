@@ -11,19 +11,25 @@ import {
   account,
   firstName,
   initials,
+  lifetimeUpgrade,
   longDate,
+  offPercent,
+  PLAN_NAME,
   PRICE,
+  proBatchesEnd,
   useAccount,
-  type Billing,
+  type PaidPlan,
   type Plan,
   type Role,
   type Use,
 } from '@/lib/account';
+import { PriceCards, type PlanAction } from './Pricing';
 import { fmt, loadIcons, loadIllustrations, loadIndex, type IconStyle } from '@/lib/data';
 import { IN_FIGMA } from '@/lib/figma';
 import { illustrationSvg } from '@/lib/illustration';
 import type { Theme } from '@/lib/hooks';
 import { Logo } from './Logo';
+import { LibIcon, useLibraryIcons } from '@/lib/libraryIcons';
 import { UiIcon, type UiIconName } from './ui-icons';
 
 export const ACCOUNT_VIEWS = [
@@ -45,13 +51,8 @@ export type AccountView = (typeof ACCOUNT_VIEWS)[number];
 export const isAccountView = (h: string): h is AccountView => (ACCOUNT_VIEWS as readonly string[]).includes(h);
 
 /** Go to a view (#hash) or back to the library (''). */
-export function go(view: AccountView | '') {
-  if (view) {
-    location.hash = view;
-  } else {
-    history.pushState(null, '', location.pathname + location.search);
-    window.dispatchEvent(new HashChangeEvent('hashchange'));
-  }
+export function go(view: AccountView | 'library' | 'home') {
+  location.hash = view;
 }
 const hashParam = (k: string) => new URLSearchParams(location.hash.split('?')[1] ?? '').get(k);
 
@@ -211,30 +212,6 @@ const Tile = ({ children, brand }: { children: ReactNode; brand?: boolean }) => 
 );
 const Ic = ({ name, size = 20 }: { name: UiIconName; size?: number }) => <UiIcon name={name} size={size} />;
 
-/** Real library icons in different styles (home Light, bell Regular…), for the auth panel and welcome. */
-function useLibraryIcons(want: [string, IconStyle][]) {
-  const key = want.map((w) => w.join(':')).join(',');
-  const [svgs, setSvgs] = useState<Record<string, string>>({});
-  useEffect(() => {
-    let live = true;
-    loadIndex().then(async (index) => {
-      const out: Record<string, string> = {};
-      for (const [n, s] of want) {
-        const e = index.icons.find((i) => i.n === n);
-        if (e) out[`${n}:${s}`] = (await loadIcons([e], s))[n] ?? '';
-      }
-      if (live) setSvgs(out);
-    });
-    return () => {
-      live = false;
-    };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [key]);
-  return svgs;
-}
-const LibIcon = ({ svg }: { svg?: string }) =>
-  svg ? <span className="lib-icon" dangerouslySetInnerHTML={{ __html: svg }} /> : <span className="lib-icon" />;
-
 /* ------------------------------------------------------------------ layouts */
 
 function AuthShowcase({ theme, iconCount, illustrationCount }: Pick<Props, 'theme' | 'iconCount' | 'illustrationCount'>) {
@@ -314,7 +291,7 @@ function AuthLayout({
     <div className="auth">
       <div className="auth-col">
         <div className="auth-top">
-          <a href="#" className="logo-link" aria-label="ollo home" onClick={(e) => (e.preventDefault(), go(''))}>
+          <a href="#" className="logo-link" aria-label="ollo home" onClick={(e) => (e.preventDefault(), go('library'))}>
             <Logo />
           </a>
           <div className="auth-switch">
@@ -349,13 +326,13 @@ function FlowLayout({
 }: {
   children: ReactNode;
   right?: ReactNode;
-  wide?: 'plan' | 'checkout';
+  wide?: 'plan' | 'checkout' | 'pricing';
   center?: boolean;
 }) {
   return (
     <div className="flow">
       <div className="flow-top">
-        <a href="#" className="logo-link" aria-label="ollo home" onClick={(e) => (e.preventDefault(), go(''))}>
+        <a href="#" className="logo-link" aria-label="ollo home" onClick={(e) => (e.preventDefault(), go('library'))}>
           <Logo />
         </a>
         <div className="flow-actions">{right}</div>
@@ -375,7 +352,7 @@ const Heading = ({ title, sub, center }: { title: string; sub?: ReactNode; cente
 );
 
 const Skip = () => (
-  <button className="btn btn-ghost btn-sm" onClick={() => (account.finishOnboarding(), go(''))}>
+  <button className="btn btn-ghost btn-sm" onClick={() => (account.finishOnboarding(), go('library'))}>
     Skip for now
   </button>
 );
@@ -409,7 +386,7 @@ function SignIn(p: Props) {
     setTried(true);
     if (!validEmail(email) || !password) return;
     account.signIn(email.trim());
-    go('');
+    go('library');
     p.onToast('Signed in');
   };
   return (
@@ -567,7 +544,7 @@ function Verify(p: Props & { email?: string }) {
     go('welcome');
   };
   return (
-    <AuthLayout {...p} switchLabel="Sign out" onSwitch={() => (account.signOut(), go(''))}>
+    <AuthLayout {...p} switchLabel="Sign out" onSwitch={() => (account.signOut(), go('library'))}>
       <button className="btn btn-ghost btn-sm back-btn" onClick={() => go('signup')}>
         <UiIcon name="chevron-left" size={18} />
         Back
@@ -678,7 +655,7 @@ function Reset(p: Props) {
         onSubmit={(e) => {
           e.preventDefault();
           if (!ok) return;
-          go('');
+          go('library');
           p.onToast('Password updated');
         }}
       >
@@ -726,7 +703,7 @@ function Welcome(p: Props) {
     <FlowLayout
       center
       right={
-        <button className="btn btn-ghost btn-sm" onClick={() => (account.signOut(), go(''))}>
+        <button className="btn btn-ghost btn-sm" onClick={() => (account.signOut(), go('library'))}>
           Sign out
         </button>
       }
@@ -766,7 +743,7 @@ function Welcome(p: Props) {
           <button className="btn btn-primary btn-lg" onClick={() => go('setup-role')}>
             Set up my library
           </button>
-          <button className="btn btn-ghost btn-lg" onClick={() => (account.finishOnboarding(), go(''))}>
+          <button className="btn btn-ghost btn-lg" onClick={() => (account.finishOnboarding(), go('library'))}>
             Skip to the library
           </button>
         </div>
@@ -844,148 +821,71 @@ function SetupUse() {
   );
 }
 
-function BillingSwitch({ billing, onChange, full }: { billing: Billing; onChange: (b: Billing) => void; full?: boolean }) {
-  return (
-    <div className={`mode-switch billing-switch${full ? ' is-full' : ''}`} role="radiogroup" aria-label="Billing">
-      {(['monthly', 'yearly'] as Billing[]).map((b) => (
-        <button key={b} role="radio" aria-checked={billing === b} aria-selected={billing === b} className="seg seg-md" onClick={() => onChange(b)}>
-          {b === 'monthly' ? 'Monthly' : 'Yearly'}
-        </button>
-      ))}
-    </div>
-  );
-}
+const money = (n: number) => `$${n.toFixed(2)}`;
+const planParam = (): PaidPlan => (hashParam('plan') === 'lifetime' ? 'lifetime' : 'pro');
 
-const PLAN_POINTS: Record<Plan, { lead: string; points: string[] }> = {
-  free: {
-    lead: 'Everything to get started',
-    points: ['Every icon in Light and Regular', 'Illustrations in Stroke', 'Copy SVG and React, download SVG and PNG', 'Figma plugin with Free styles'],
-  },
-  pro: {
-    lead: 'Everything in Free, plus',
-    points: [
-      'Bold, Fill and Duotone icon styles',
-      'Animated icons: Lottie, .lottie and GIF',
-      'Every illustration type, still or animated',
-      'Figma components with every variant',
-      'Commercial licence and weekly new batches',
-    ],
-  },
-};
-
-function PlanCard({ id, selected, billing, onSelect }: { id: Plan; selected: boolean; billing: Billing; onSelect: () => void }) {
-  const pro = id === 'pro';
-  const perMonth = billing === 'yearly' ? PRICE.yearly / 12 : PRICE.monthly;
-  const d = PLAN_POINTS[id];
+/** Plan step: the three pay-once cards; on phones, tabs show one card at a time. */
+function SetupPlan() {
+  const [tab, setTab] = useState<Plan>('pro');
+  const free = () => (account.finishOnboarding(), go('library'));
+  const buy = (plan: PaidPlan) => (location.hash = `checkout?plan=${plan}`);
+  const actions: Record<Plan, PlanAction> = {
+    free: { label: 'Continue with Free', onClick: free },
+    pro: { label: 'Continue with Pro', onClick: () => buy('pro') },
+    lifetime: { label: 'Continue with Lifetime', onClick: () => buy('lifetime') },
+  };
   return (
-    <div
-      className="plan"
-      role="radio"
-      tabIndex={0}
-      aria-checked={selected}
-      onClick={onSelect}
-      onKeyDown={(e) => (e.key === ' ' || e.key === 'Enter') && (e.preventDefault(), onSelect())}
-    >
-      <div className="plan-top">
-        <span className="plan-radio" aria-hidden="true" />
-        <span className="plan-name">{pro ? 'Pro' : 'Free'}</span>
-        {pro && <span className="badge-pro">PRO</span>}
-        {!pro && <span className="plan-default">Default</span>}
+    <FlowLayout wide="pricing" right={<Skip />}>
+      <Steps step={3} />
+      <Heading title="Choose your plan" sub="Pay once and keep it forever. No subscription, no renewals. You can upgrade to Lifetime any time." />
+      <div className="mode-switch is-full only-phone" role="tablist" aria-label="Plan">
+        {(['free', 'pro', 'lifetime'] as Plan[]).map((p) => (
+          <button key={p} role="tab" aria-selected={tab === p} className="seg seg-md" onClick={() => setTab(p)}>
+            {PLAN_NAME[p]}
+          </button>
+        ))}
       </div>
-      <div className="plan-price">
-        <span className="plan-amount">{pro ? `$${perMonth}` : '$0'}</span>
-        <span className="plan-unit">{pro ? '/ month' : 'forever'}</span>
+      <div className="only-phone">
+        <PriceCards actions={actions} only={tab} />
       </div>
-      <p className="plan-note">
-        {!pro ? 'No card needed.' : billing === 'yearly' ? `Billed $${PRICE.yearly} a year (2 months free). Cancel anytime.` : 'Billed monthly. Cancel anytime.'}
-      </p>
-      <p className="plan-lead">{d.lead}</p>
-      <ul className="plan-points">
-        {d.points.map((x) => (
-          <li key={x}>
+      <div className="not-phone">
+        <PriceCards actions={actions} />
+      </div>
+      <ul className="trust-row" role="list">
+        {['14-day refund if you haven’t downloaded any files', 'Secure checkout · card, PayPal or Apple Pay'].map((t) => (
+          <li key={t}>
             <UiIcon name="check" size={16} strokeWidth={2} />
-            {x}
+            {t}
           </li>
         ))}
       </ul>
-    </div>
-  );
-}
-
-const renewalDate = (billing: Billing) => {
-  const d = new Date();
-  if (billing === 'yearly') d.setFullYear(d.getFullYear() + 1);
-  else d.setMonth(d.getMonth() + 1);
-  return d.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
-};
-
-function SetupPlan() {
-  const a = useAccount();
-  const [plan, setPlan] = useState<Plan>('pro');
-  const [billing, setBilling] = useState<Billing>('yearly');
-  useEffect(() => {
-    if (a?.billing) setBilling(a.billing);
-  }, [a?.billing]);
-  const toCheckout = () => {
-    account.switchBilling(billing);
-    location.hash = `checkout?billing=${billing}`;
-  };
-  return (
-    <FlowLayout wide="plan" right={<Skip />}>
-      <Steps step={3} />
-      <div className="plan-head">
-        <Heading title="Choose your plan" sub="Start free. Upgrade any time for every style, animation and Figma variant." />
-        <div className="plan-billing">
-          <BillingSwitch billing={billing} onChange={setBilling} />
-          <span className="badge-new">2 months free</span>
-        </div>
-      </div>
-      <div className="plans" role="radiogroup" aria-label="Plan">
-        <PlanCard id="free" selected={plan === 'free'} billing={billing} onSelect={() => setPlan('free')} />
-        <PlanCard id="pro" selected={plan === 'pro'} billing={billing} onSelect={() => setPlan('pro')} />
-      </div>
-      <div className="sub-bar">
-        <div className="sub-bar-text">
-          <span className="sub-bar-plan">{plan === 'pro' ? `Pro · ${billing === 'yearly' ? 'Yearly' : 'Monthly'}` : 'Free plan'}</span>
-          <span className="sub-bar-note">
-            {plan === 'pro' ? `$${PRICE[billing]} today, renews ${renewalDate(billing)}. Cancel any time.` : '$0 · no card needed'}
-          </span>
-        </div>
-        <button className="btn btn-ghost btn-lg only-wide" onClick={() => (account.finishOnboarding(), go(''))}>
-          Continue with Free
-        </button>
-        <button
-          className="btn btn-primary btn-lg"
-          onClick={plan === 'pro' ? toCheckout : () => (account.finishOnboarding(), go(''))}
-        >
-          {plan === 'pro' ? 'Continue to checkout' : 'Continue with Free'}
-        </button>
-      </div>
     </FlowLayout>
   );
 }
 
 /* ------------------------------------------------------------------ checkout */
 
-const money = (n: number) => `$${n.toFixed(2)}`;
-
 function Checkout(p: Props) {
   const a = useAccount();
-  const [billing, setBilling] = useState<Billing>(() => (hashParam('billing') === 'monthly' ? 'monthly' : 'yearly'));
+  const [plan, setPlan] = useState<PaidPlan>(planParam);
   const [method, setMethod] = useState<'card' | 'paypal' | 'apple'>('card');
-  const [save, setSave] = useState(true);
+  const [receipt, setReceipt] = useState(true);
   const [promo, setPromo] = useState('');
   const [paying, setPaying] = useState(false);
-  const full = billing === 'yearly' ? PRICE.monthly * 12 : PRICE.monthly;
-  const due = PRICE[billing];
+  const upgrade = a?.plan === 'pro' && plan === 'lifetime';
+  const list = upgrade ? PRICE.lifetime.now : PRICE[plan].was;
+  const discount = upgrade ? PRICE.pro.now : PRICE[plan].was - PRICE[plan].now;
+  const due = list - discount;
+  const owned = a?.plan === plan || a?.plan === 'lifetime';
   const pay = (e: React.FormEvent) => {
     e.preventDefault();
     if (!a) return go('signin');
+    if (owned) return;
     // Real payments open the payment provider's secure checkout here; this preview only
     // records the plan in this browser. Card fields below are never read or stored.
     setPaying(true);
     setTimeout(() => {
-      account.upgrade(billing);
+      account.buy(plan);
       go('done');
     }, 900);
   };
@@ -1007,11 +907,11 @@ function Checkout(p: Props) {
     >
       <form className="checkout" onSubmit={pay}>
         <div className="checkout-main">
-          <Heading title="Checkout" sub="Upgrade your ollo account to Pro. You can cancel any time from Account." />
+          <Heading title="Checkout" sub="Upgrade your ollo account. Pay once, keep it forever. No subscription." />
           <section className="card">
             <h2 className="card-title">Account</h2>
             {a ? (
-              <Field label="Email" value={a.email} disabled readOnly helper="Pro is added to this account. Receipts go here too." />
+              <Field label="Email" value={a.email} disabled readOnly helper={`${PLAN_NAME[plan]} is added to this account. Receipts go here too.`} />
             ) : (
               <p className="card-text">
                 <a className="text-link" href="#signin">
@@ -1069,7 +969,7 @@ function Checkout(p: Props) {
                     <UiIcon name="chevron-down" size={16} />
                   </span>
                 </label>
-                <Checkbox label="Save this card for renewals" checked={save} onChange={setSave} />
+                <Checkbox label="Email me the receipt" checked={receipt} onChange={setReceipt} />
               </div>
             ) : (
               <p className="card-text">
@@ -1078,8 +978,8 @@ function Checkout(p: Props) {
               </p>
             )}
           </section>
-          <button className="btn btn-primary btn-lg btn-block" type="submit" disabled={paying || !a}>
-            {paying ? 'Processing…' : `Pay ${money(due)} and upgrade`}
+          <button className="btn btn-primary btn-lg btn-block" type="submit" disabled={paying || !a || owned}>
+            {owned ? `You already have ${PLAN_NAME[a!.plan]}` : paying ? 'Processing…' : `Pay ${money(due)} once`}
           </button>
           <p className="form-note">
             Payments are processed securely by our payment partner, who also handles tax and receipts. Card details never touch
@@ -1095,24 +995,28 @@ function Checkout(p: Props) {
               </Tile>
               <span className="product-text">
                 <span className="product-name">
-                  ollo Pro <span className="badge-pro">PRO</span>
+                  ollo {PLAN_NAME[plan]} <span className="badge-pro">{plan === 'lifetime' ? 'LIFETIME' : 'PRO'}</span>
                 </span>
-                <span>{billing === 'yearly' ? 'Yearly, billed every 12 months' : 'Monthly, billed every month'}</span>
+                <span>{plan === 'lifetime' ? 'One-time payment · every weekly batch, forever' : 'One-time payment · 3 months of new batches'}</span>
               </span>
             </div>
-            <BillingSwitch billing={billing} onChange={setBilling} full />
+            <div className="mode-switch is-full" role="radiogroup" aria-label="Plan">
+              {(['pro', 'lifetime'] as PaidPlan[]).map((id) => (
+                <button type="button" key={id} role="radio" aria-checked={plan === id} aria-selected={plan === id} className="seg seg-md" onClick={() => setPlan(id)}>
+                  {PLAN_NAME[id]} · ${PRICE[id].now}
+                </button>
+              ))}
+            </div>
             <hr />
             <dl className="lines">
               <div>
-                <dt>Pro, {billing === 'yearly' ? '12 months' : '1 month'}</dt>
-                <dd>{money(full)}</dd>
+                <dt>{upgrade ? 'Lifetime' : `${PLAN_NAME[plan]}, one-time`}</dt>
+                <dd>{money(list)}</dd>
               </div>
-              {billing === 'yearly' && (
-                <div>
-                  <dt>2 months free</dt>
-                  <dd className="is-brand">−{money(full - due)}</dd>
-                </div>
-              )}
+              <div>
+                <dt>{upgrade ? 'Pro you already own' : `Launch offer, ${offPercent(plan)}% off`}</dt>
+                <dd className="is-brand">−{money(discount)}</dd>
+              </div>
               <div>
                 <dt>Tax</dt>
                 <dd>{money(0)}</dd>
@@ -1124,7 +1028,9 @@ function Checkout(p: Props) {
               <b>{money(due)}</b>
             </div>
             <p className="form-note">
-              Renews on {renewalDate(billing)} at ${PRICE[billing]}. We’ll email you 7 days before.
+              {plan === 'lifetime'
+                ? 'No subscription. Every weekly batch is included, forever.'
+                : `No subscription. New weekly batches included until ${longDate(proBatchesEnd().toISOString().slice(0, 10))}. Upgrade to Lifetime any time for the difference.`}
             </p>
             <div className="promo-row">
               <Field label="Promo code" placeholder="Enter code" value={promo} onChange={(e) => setPromo(e.target.value)} />
@@ -1134,9 +1040,12 @@ function Checkout(p: Props) {
             </div>
           </section>
           <div className="included">
-            <span className="eyebrow is-muted">INCLUDED IN PRO</span>
+            <span className="eyebrow is-muted">INCLUDED IN {plan === 'lifetime' ? 'LIFETIME' : 'PRO'}</span>
             <ul className="plan-points">
-              {PLAN_POINTS.pro.points.map((x) => (
+              {(plan === 'lifetime'
+                ? ['Everything in Pro', 'Up to 5 people', 'Every new icon and illustration, forever', 'Early access to new styles and packs']
+                : ['Bold, Fill and Duotone icon styles', 'Animated icons: Lottie, .lottie and GIF', 'Every illustration type, still or animated', 'Figma components with every variant', 'Commercial licence']
+              ).map((x) => (
                 <li key={x}>
                   <UiIcon name="check" size={16} strokeWidth={2} />
                   {x}
@@ -1152,7 +1061,8 @@ function Checkout(p: Props) {
 
 function Done() {
   const a = useAccount();
-  const billing = a?.billing ?? 'yearly';
+  const plan: PaidPlan = a?.plan === 'lifetime' ? 'lifetime' : 'pro';
+  const paid = a?.invoices[0]?.amount ?? PRICE[plan].now;
   return (
     <FlowLayout
       center
@@ -1170,25 +1080,29 @@ function Done() {
         <div className="welcome-head">
           <span className="eyebrow">PAYMENT CONFIRMED</span>
           <h1>You’re all set, {firstName(a)}</h1>
-          <p>Pro is active. Every style, animation and Figma variant is unlocked, and your receipt is on its way.</p>
+          <p>
+            {plan === 'lifetime'
+              ? 'Lifetime is yours: every style, animation and Figma variant, plus every weekly batch, forever. Your receipt is on its way.'
+              : `Pro is yours for good: every style, animation and Figma variant. New batches arrive weekly until ${a?.batchesUntil ? longDate(a.batchesUntil) : 'the end of month 3'}, and your receipt is on its way.`}
+          </p>
         </div>
         <dl className="done-summary">
           <div>
             <dt>Plan</dt>
-            <dd>Pro · {billing === 'yearly' ? 'Yearly' : 'Monthly'}</dd>
+            <dd>{PLAN_NAME[plan]} · one-time</dd>
           </div>
           <div>
             <dt>Paid today</dt>
-            <dd>{money(PRICE[billing])}</dd>
+            <dd>{money(paid)}</dd>
           </div>
           <div>
-            <dt>Next renewal</dt>
-            <dd>{a?.renews ? longDate(a.renews) : renewalDate(billing)}</dd>
+            <dt>New batches until</dt>
+            <dd>{plan === 'lifetime' ? 'Forever' : a?.batchesUntil ? longDate(a.batchesUntil) : '3 months'}</dd>
           </div>
         </dl>
         <div className="next-steps">
           {[
-            [<Ic key="g" name="grid" />, 'Browse Pro styles', 'Bold, Fill and Duotone are now live across the library.', 'Open library', ''],
+            [<Ic key="g" name="grid" />, 'Browse Pro styles', 'Bold, Fill and Duotone are now live across the library.', 'Open library', 'library'],
             [<FigmaMark key="f" />, 'Connect the Figma plugin', 'Sign in from the plugin to insert every variant.', 'Get the plugin', 'figma'],
             [<Ic key="c" name="code" />, 'Use ollo in code', 'Install the React package and import any icon.', 'Read the docs', 'docs'],
           ].map(([icon, t, d, cta, href]) => (
@@ -1196,15 +1110,15 @@ function Done() {
               <Tile>{icon}</Tile>
               <b>{t}</b>
               <p>{d}</p>
-              <a className="btn btn-outline btn-sm" href={`#${href}`} onClick={href ? undefined : (e) => (e.preventDefault(), go(''))}>
+              <a className="btn btn-outline btn-sm" href={`#${href}`}>
                 {cta}
               </a>
             </div>
           ))}
         </div>
-        <button className="btn btn-primary btn-lg" onClick={() => go('')}>
+        <a className="btn btn-primary btn-lg" href="#library">
           Go to the library
-        </button>
+        </a>
       </div>
     </FlowLayout>
   );
@@ -1232,8 +1146,7 @@ function AccountBilling(p: Props) {
       </main>
     );
   }
-  const pro = a.plan === 'pro';
-  const other: Billing = a.billing === 'yearly' ? 'monthly' : 'yearly';
+  const paid = a.plan !== 'free';
   return (
     <div className="account-shell">
       <nav className="sidebar only-desktop account-nav" aria-label="Account">
@@ -1241,7 +1154,7 @@ function AccountBilling(p: Props) {
         {(
           [
             ['user', 'Profile', ''],
-            ['sparkle', 'Plan and billing', pro ? 'Pro' : 'Free'],
+            ['sparkle', 'Plan and billing', PLAN_NAME[a.plan]],
             ['figma', 'Figma plugin', ''],
             ['sliders', 'Preferences', ''],
             ['heart', 'Favourites', ''],
@@ -1254,7 +1167,7 @@ function AccountBilling(p: Props) {
           </button>
         ))}
         <span className="side-fill" />
-        <button className="btn btn-ghost btn-md account-signout" onClick={() => (account.signOut(), go(''), p.onToast('Signed out'))}>
+        <button className="btn btn-ghost btn-md account-signout" onClick={() => (account.signOut(), go('library'), p.onToast('Signed out'))}>
           Sign out
         </button>
       </nav>
@@ -1262,7 +1175,7 @@ function AccountBilling(p: Props) {
         <div className="account-col">
           <div className="flow-heading">
             <h1>Plan and billing</h1>
-            <p>Manage your subscription, payment method and invoices.</p>
+            <p>Your plan, new batches and invoices. No subscription to manage.</p>
           </div>
           <section className="card">
             <div className="plan-row">
@@ -1271,50 +1184,41 @@ function AccountBilling(p: Props) {
               </Tile>
               <div className="plan-row-text">
                 <span className="plan-row-name">
-                  {pro ? `Pro · ${a.billing === 'yearly' ? 'Yearly' : 'Monthly'}` : 'Free'}
-                  <span className={pro ? 'badge-pro' : 'badge-neutral'}>{pro ? 'PRO' : 'FREE'}</span>
+                  {paid ? `${PLAN_NAME[a.plan]} · one-time` : 'Free'}
+                  <span className={paid ? 'badge-pro' : 'badge-neutral'}>{PLAN_NAME[a.plan].toUpperCase()}</span>
                 </span>
                 <span>
-                  {pro
-                    ? `Renews on ${a.renews ? longDate(a.renews) : '—'} for ${money(PRICE[a.billing])}. Every style, animation and Figma variant included.`
-                    : 'Light and Regular icons, Stroke illustrations and the Figma plugin with Free styles.'}
+                  {a.plan === 'lifetime'
+                    ? `Paid once${a.purchased ? ` on ${longDate(a.purchased)}` : ''}. Every style, animation and Figma variant, plus every weekly batch, forever.`
+                    : a.plan === 'pro'
+                      ? `Paid once${a.purchased ? ` on ${longDate(a.purchased)}` : ''}. Every style, animation and Figma variant is yours to keep. New weekly batches included until ${a.batchesUntil ? longDate(a.batchesUntil) : 'month 3'}.`
+                      : 'Light and Regular icons, some Stroke illustrations and the Figma plugin with Free styles.'}
                 </span>
               </div>
               <div className="plan-row-price">
-                <b>{pro ? `$${PRICE[a.billing]}` : '$0'}</b>
-                <span>{pro ? (a.billing === 'yearly' ? 'per year' : 'per month') : 'forever'}</span>
+                <b>{paid ? `$${PRICE[a.plan as PaidPlan].now}` : '$0'}</b>
+                <span>{paid ? 'paid once' : 'forever'}</span>
               </div>
             </div>
             <div className="card-actions">
-              {pro ? (
+              {a.plan === 'lifetime' ? (
+                <span className="card-text">You own everything, including every future batch.</span>
+              ) : a.plan === 'pro' ? (
                 <>
-                  <button
-                    className="btn btn-outline btn-md"
-                    onClick={() => (account.switchBilling(other), p.onToast(`Switches to ${other} at your next renewal`))}
-                  >
-                    Switch to {other}
-                  </button>
+                  <a className="btn btn-outline btn-md" href="#checkout?plan=lifetime">
+                    Upgrade to Lifetime · ${lifetimeUpgrade()}
+                  </a>
                   <a className="btn btn-ghost btn-md" href="#subscribe">
                     Compare plans
                   </a>
                   <span className="grow" />
-                  <button
-                    className="text-link is-danger"
-                    onClick={() => {
-                      if (confirm('Cancel Pro? You keep Pro until the end of this billing period.')) {
-                        account.cancel();
-                        p.onToast('Pro cancelled');
-                      }
-                    }}
-                  >
-                    Cancel plan
-                  </button>
+                  <span className="card-sub">No renewals, nothing to cancel</span>
                 </>
               ) : (
                 <>
                   <a className="btn btn-primary btn-md" href="#setup-plan">
                     <UiIcon name="sparkle" size={20} />
-                    Upgrade to Pro
+                    Get Pro or Lifetime
                   </a>
                   <a className="btn btn-ghost btn-md" href="#subscribe">
                     Compare plans
@@ -1326,18 +1230,18 @@ function AccountBilling(p: Props) {
           <div className="card-pair">
             <section className="card">
               <h2 className="card-title">Payment method</h2>
-              {pro ? (
+              {paid ? (
                 <div className="product">
                   <span className="card-brand">CARD</span>
                   <span className="product-text">
                     <b>Saved with our payment partner</b>
-                    <span>Update it on the secure billing page.</span>
+                    <span>Used only if you upgrade again.</span>
                   </span>
                 </div>
               ) : (
                 <p className="card-text">No card on file. You only add one when you upgrade.</p>
               )}
-              <button className="btn btn-outline btn-sm" disabled={!pro} onClick={() => p.onToast('Opens the secure billing page when payments go live')}>
+              <button className="btn btn-outline btn-sm" disabled={!paid} onClick={() => p.onToast('Opens the secure billing page when payments go live')}>
                 Update card
               </button>
             </section>
@@ -1406,15 +1310,14 @@ function AccountBilling(p: Props) {
           <section className="danger">
             <span>
               <b>Delete account</b>
-              Removes your favourites, collections and plugin connection.{pro ? ' Cancel Pro first.' : ''}
+              Removes your favourites, collections and plugin connection. Your downloads stay yours.
             </span>
             <button
               className="btn btn-outline btn-sm is-danger"
-              disabled={pro}
               onClick={() => {
                 if (confirm('Delete your ollo account? This can’t be undone.')) {
                   account.signOut();
-                  go('');
+                  go('library');
                   p.onToast('Account deleted');
                 }
               }}
@@ -1473,10 +1376,10 @@ function PluginSignIn() {
   return (
     <div className="plugin-auth">
       <div className="plugin-auth-top">
-        <a href="#" className="logo-link" aria-label="Back to the library" onClick={(e) => (e.preventDefault(), go(''))}>
+        <a href="#" className="logo-link" aria-label="Back to the library" onClick={(e) => (e.preventDefault(), go('library'))}>
           <Logo />
         </a>
-        <button className="btn btn-ghost btn-sm" onClick={() => go('')}>
+        <button className="btn btn-ghost btn-sm" onClick={() => go('library')}>
           {state === 'connected' ? 'Close' : 'Back'}
         </button>
       </div>
@@ -1494,7 +1397,7 @@ function PluginSignIn() {
                 Create a free account
               </button>
             </div>
-            <button className="btn btn-ghost btn-md" onClick={() => go('')}>
+            <button className="btn btn-ghost btn-md" onClick={() => go('library')}>
               Continue with Free styles
             </button>
           </>
@@ -1531,17 +1434,17 @@ function PluginSignIn() {
             <Heading
               center
               title="You’re connected"
-              sub={`Signed in as ${a?.name ?? 'you'}. ${a?.plan === 'pro' ? 'Pro is active, so every style, animation and variant inserts straight into this file.' : 'You’re on Free: Light and Regular insert into this file.'}`}
+              sub={`Signed in as ${a?.name ?? 'you'}. ${a && a.plan !== 'free' ? `You own ${PLAN_NAME[a.plan]}, so every style, animation and variant inserts straight into this file.` : 'You’re on Free: Light and Regular insert into this file.'}`}
             />
             <div className="who">
               <span className="avatar">{initials(a?.name ?? '')}</span>
               <span className="product-text">
                 <b>{a?.name ?? 'You'}</b>
-                <span>{a?.plan === 'pro' ? `Pro · ${a.billing === 'yearly' ? 'Yearly' : 'Monthly'}` : 'Free'}</span>
+                <span>{a ? (a.plan === 'free' ? 'Free' : `${PLAN_NAME[a.plan]} · one-time`) : 'Free'}</span>
               </span>
-              {a?.plan === 'pro' && <span className="badge-pro">PRO</span>}
+              {a && a.plan !== 'free' && <span className="badge-pro">{PLAN_NAME[a.plan].toUpperCase()}</span>}
             </div>
-            <button className="btn btn-primary btn-lg btn-block" onClick={() => go('')}>
+            <button className="btn btn-primary btn-lg btn-block" onClick={() => go('library')}>
               Start browsing
             </button>
           </>
@@ -1565,7 +1468,7 @@ function ConnectFigma(p: Props) {
               <UiIcon name="check" size={28} strokeWidth={1.75} />
             </span>
             <Heading center title="Figma is connected" sub="Go back to Figma. The plugin is signed in and uses your plan." />
-            <button className="btn btn-outline btn-lg btn-block" onClick={() => go('')}>
+            <button className="btn btn-outline btn-lg btn-block" onClick={() => go('library')}>
               Back to the library
             </button>
           </>
@@ -1601,7 +1504,7 @@ function ConnectFigma(p: Props) {
                   </ul>
                 </div>
                 <div className="row-gap is-fill">
-                  <button className="btn btn-outline btn-lg" onClick={() => go('')}>
+                  <button className="btn btn-outline btn-lg" onClick={() => go('library')}>
                     Cancel
                   </button>
                   <button className="btn btn-primary btn-lg" onClick={() => (account.connectFigma(), setDone(true), p.onToast('Figma connected'))}>

@@ -147,7 +147,11 @@ export function hairlineStyles(stroke: string): { fill: string; duotone: string 
 }
 let illPromise: Promise<Illustration[]> | null = null;
 export const loadIllustrations = () =>
-  (illPromise ??= load<Illustration[]>(`${DATA}illustrations.json`).then((items) => {
+  (illPromise ??= load<Illustration[] | { parts: number }>(`${DATA}illustrations.json`).then(async (d) => {
+    // The preview build splits the list into ill/i<k>.json parts (each upload has a size cap).
+    const items = Array.isArray(d)
+      ? d
+      : (await Promise.all(Array.from({ length: d.parts }, (_, k) => load<Illustration[]>(`${DATA}ill/i${k}.json`)))).flat();
     for (const it of items) if (it.live && it.types.stroke && !it.types.fill) Object.assign(it.types, hairlineStyles(it.types.stroke));
     return items;
   }));

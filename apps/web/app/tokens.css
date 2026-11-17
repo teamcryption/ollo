@@ -63,7 +63,8 @@
 }
 
 /* DS Color · Dark */
-:root[data-theme='dark'] {
+:root[data-theme='dark'],
+.force-dark {
   color-scheme: dark;
   --color-bg-canvas: #0a0a0b;
   --color-bg-surface: #141416;
