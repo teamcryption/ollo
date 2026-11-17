@@ -10912,5 +10912,101 @@
     "c": "bedroom",
     "t": "Key ring",
     "g": "key ring swing"
+  },
+  {
+    "file": "envelopemoist.js",
+    "c": "office",
+    "t": "Envelope moistener",
+    "g": "envelope moistener sponge"
+  },
+  {
+    "file": "thermos.js",
+    "c": "outdoor",
+    "t": "Flask",
+    "g": "vacuum flask cup"
+  },
+  {
+    "file": "walkingstick.js",
+    "c": "outdoor",
+    "t": "Shooting stick",
+    "g": "shooting stick seat"
+  },
+  {
+    "file": "compass3.js",
+    "c": "outdoor",
+    "t": "Map measurer",
+    "g": "map measurer wheel"
+  },
+  {
+    "file": "hipflask.js",
+    "c": "outdoor",
+    "t": "Hip flask",
+    "g": "hip flask cap"
+  },
+  {
+    "file": "bellows3.js",
+    "c": "fireside",
+    "t": "Toasting fork",
+    "g": "toasting fork"
+  },
+  {
+    "file": "coalscuttle.js",
+    "c": "fireside",
+    "t": "Coal scuttle",
+    "g": "coal scuttle lid"
+  },
+  {
+    "file": "kindling.js",
+    "c": "fireside",
+    "t": "Log carrier",
+    "g": "log carrier"
+  },
+  {
+    "file": "spark.js",
+    "c": "fireside",
+    "t": "Fireside tongs",
+    "g": "fireside tongs"
+  },
+  {
+    "file": "lampwick.js",
+    "c": "fireside",
+    "t": "Oil lamp",
+    "g": "oil lamp chimney"
+  },
+  {
+    "file": "printtongs.js",
+    "c": "darkroom",
+    "t": "Print washer",
+    "g": "print washer tray rock"
+  },
+  {
+    "file": "filmclip.js",
+    "c": "darkroom",
+    "t": "Film dryer",
+    "g": "film drying clip line"
+  },
+  {
+    "file": "controlknob.js",
+    "c": "broadcast",
+    "t": "Vision mixer lever",
+    "g": "t-bar lever"
+  },
+  {
+    "file": "punchpress.js",
+    "c": "factory",
+    "t": "Punch press",
+    "g": "punch press ram"
+  },
+  {
+    "file": "tablettoken.js",
+    "c": "railway",
+    "t": "Token machine",
+    "g": "single line token instrument"
+  },
+  {
+    "file": "cooperhoop.js",
+    "c": "cooper",
+    "t": "Barrel hoop",
+    "g": "barrel hoop driver"
   }
 ]
