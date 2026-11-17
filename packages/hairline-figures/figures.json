@@ -9610,5 +9610,269 @@
     "c": "library",
     "t": "Scroll case",
     "g": "scroll case cap"
+  },
+  {
+    "file": "rotaryphone.js",
+    "c": "retro",
+    "t": "Rotary dial",
+    "g": "rotary dial phone"
+  },
+  {
+    "file": "drawbridge.js",
+    "c": "medieval",
+    "t": "Drawbridge",
+    "g": "drawbridge chains"
+  },
+  {
+    "file": "portcullis.js",
+    "c": "medieval",
+    "t": "Portcullis",
+    "g": "portcullis gate"
+  },
+  {
+    "file": "trebuchet.js",
+    "c": "medieval",
+    "t": "Trebuchet",
+    "g": "trebuchet arm"
+  },
+  {
+    "file": "shieldrack.js",
+    "c": "medieval",
+    "t": "Shield",
+    "g": "kite shield strap"
+  },
+  {
+    "file": "gauntlet.js",
+    "c": "medieval",
+    "t": "Helm visor",
+    "g": "knight helm visor"
+  },
+  {
+    "file": "stocks.js",
+    "c": "medieval",
+    "t": "Pillory",
+    "g": "pillory boards"
+  },
+  {
+    "file": "keepnet.js",
+    "c": "fishing",
+    "t": "Landing net",
+    "g": "landing net"
+  },
+  {
+    "file": "crabtrap.js",
+    "c": "fishing",
+    "t": "Crab pot",
+    "g": "crab pot lid"
+  },
+  {
+    "file": "sundae.js",
+    "c": "dessert",
+    "t": "Sundae glass",
+    "g": "sundae glass spoon"
+  },
+  {
+    "file": "candyjar.js",
+    "c": "dessert",
+    "t": "Candy jar",
+    "g": "candy jar lid"
+  },
+  {
+    "file": "cottoncandy.js",
+    "c": "dessert",
+    "t": "Candy floss",
+    "g": "candy floss machine"
+  },
+  {
+    "file": "saltbox.js",
+    "c": "kitchen",
+    "t": "Salt box",
+    "g": "salt box lid"
+  },
+  {
+    "file": "spatula.js",
+    "c": "kitchen",
+    "t": "Fish slice",
+    "g": "fish slice"
+  },
+  {
+    "file": "cleaver.js",
+    "c": "kitchen",
+    "t": "Cleaver",
+    "g": "cleaver block"
+  },
+  {
+    "file": "egguard.js",
+    "c": "kitchen",
+    "t": "Egg cup",
+    "g": "egg cup topper"
+  },
+  {
+    "file": "jampot.js",
+    "c": "kitchen",
+    "t": "Jam pot",
+    "g": "jam pot spoon"
+  },
+  {
+    "file": "snowglobe.js",
+    "c": "gift",
+    "t": "Snow globe",
+    "g": "snow globe shake"
+  },
+  {
+    "file": "musicboxballerina.js",
+    "c": "gift",
+    "t": "Locket",
+    "g": "locket hinge"
+  },
+  {
+    "file": "trophy.js",
+    "c": "awards",
+    "t": "Trophy cup",
+    "g": "trophy cup lid"
+  },
+  {
+    "file": "medalbox.js",
+    "c": "awards",
+    "t": "Medal case",
+    "g": "medal case lid"
+  },
+  {
+    "file": "rosette.js",
+    "c": "awards",
+    "t": "Rosette",
+    "g": "prize rosette"
+  },
+  {
+    "file": "plaque.js",
+    "c": "awards",
+    "t": "Plaque stand",
+    "g": "plaque stand"
+  },
+  {
+    "file": "wateringcan.js",
+    "c": "garden",
+    "t": "Watering can",
+    "g": "watering can rose"
+  },
+  {
+    "file": "shears.js",
+    "c": "garden",
+    "t": "Hedge shears",
+    "g": "hedge shears"
+  },
+  {
+    "file": "gazebo.js",
+    "c": "garden",
+    "t": "Garden arch",
+    "g": "rose arch"
+  },
+  {
+    "file": "syringe.js",
+    "c": "medicine",
+    "t": "Syringe",
+    "g": "syringe plunger"
+  },
+  {
+    "file": "tabletpress.js",
+    "c": "medicine",
+    "t": "Pill press",
+    "g": "pill press lever"
+  },
+  {
+    "file": "manhole.js",
+    "c": "road",
+    "t": "Manhole cover",
+    "g": "manhole cover lift"
+  },
+  {
+    "file": "mailbox.js",
+    "c": "road",
+    "t": "Rural mailbox",
+    "g": "rural mailbox flag"
+  },
+  {
+    "file": "gramophone.js",
+    "c": "retro",
+    "t": "Gramophone",
+    "g": "gramophone horn crank"
+  },
+  {
+    "file": "polaroid.js",
+    "c": "retro",
+    "t": "Instant camera",
+    "g": "instant camera print"
+  },
+  {
+    "file": "lavalamp.js",
+    "c": "retro",
+    "t": "Lava lamp",
+    "g": "lava lamp"
+  },
+  {
+    "file": "crossbow.js",
+    "c": "medieval",
+    "t": "Crossbow",
+    "g": "crossbow string"
+  },
+  {
+    "file": "catapultsling.js",
+    "c": "medieval",
+    "t": "Siege tower",
+    "g": "siege tower ramp"
+  },
+  {
+    "file": "chainmail.js",
+    "c": "medieval",
+    "t": "Banner pole",
+    "g": "heraldic banner"
+  },
+  {
+    "file": "tackle.js",
+    "c": "fishing",
+    "t": "Fly box",
+    "g": "fly box lid"
+  },
+  {
+    "file": "harpoon.js",
+    "c": "fishing",
+    "t": "Fish trap",
+    "g": "wicker fish trap"
+  },
+  {
+    "file": "connectfour.js",
+    "c": "games",
+    "t": "Drop grid",
+    "g": "drop disc grid"
+  },
+  {
+    "file": "gelato.js",
+    "c": "dessert",
+    "t": "Popsicle mould",
+    "g": "ice pop mould"
+  },
+  {
+    "file": "gravyboat.js",
+    "c": "kitchen",
+    "t": "Gravy boat",
+    "g": "gravy boat pour"
+  },
+  {
+    "file": "teastrainer.js",
+    "c": "kitchen",
+    "t": "Tea strainer",
+    "g": "tea strainer swing"
+  },
+  {
+    "file": "breadboard.js",
+    "c": "kitchen",
+    "t": "Bread board",
+    "g": "bread board knife"
+  },
+  {
+    "file": "oyster.js",
+    "c": "kitchen",
+    "t": "Oyster knife",
+    "g": "oyster shuck"
   }
 ]
