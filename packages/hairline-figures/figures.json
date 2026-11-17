@@ -11734,5 +11734,155 @@
     "c": "summer",
     "t": "Pool skimmer",
     "g": "pool skimmer net pole leaves summer"
+  },
+  {
+    "file": "gameconsole.js",
+    "c": "devices",
+    "t": "Game console",
+    "g": "console disc lid hinge game devices"
+  },
+  {
+    "file": "wiperblade.js",
+    "c": "vehicle",
+    "t": "Windscreen wiper",
+    "g": "wiper blade arm sweep car"
+  },
+  {
+    "file": "trunklid.js",
+    "c": "vehicle",
+    "t": "Car boot lid",
+    "g": "boot trunk lid hatch open car"
+  },
+  {
+    "file": "sunroof.js",
+    "c": "vehicle",
+    "t": "Sunroof",
+    "g": "sunroof slide panel car roof"
+  },
+  {
+    "file": "carbonnet.js",
+    "c": "vehicle",
+    "t": "Car bonnet",
+    "g": "hood bonnet engine prop car"
+  },
+  {
+    "file": "slidingvan.js",
+    "c": "vehicle",
+    "t": "Van sliding door",
+    "g": "van sliding door side"
+  },
+  {
+    "file": "tailgate.js",
+    "c": "vehicle",
+    "t": "Pickup tailgate",
+    "g": "pickup truck tailgate drop"
+  },
+  {
+    "file": "dumptruck.js",
+    "c": "vehicle",
+    "t": "Dump truck",
+    "g": "tipper bed raise truck"
+  },
+  {
+    "file": "sodamaker.js",
+    "c": "kitchen",
+    "t": "Soda maker",
+    "g": "sparkling water carbonator press"
+  },
+  {
+    "file": "icecreammaker.js",
+    "c": "kitchen",
+    "t": "Ice cream maker",
+    "g": "ice cream churn paddle lid"
+  },
+  {
+    "file": "windowlatch.js",
+    "c": "home",
+    "t": "Casement window",
+    "g": "casement window crank open sash"
+  },
+  {
+    "file": "dumbwaiter.js",
+    "c": "home",
+    "t": "Dumbwaiter",
+    "g": "service lift hatch shaft food"
+  },
+  {
+    "file": "shoppingcart.js",
+    "c": "retail",
+    "t": "Shopping trolley",
+    "g": "supermarket trolley child seat flap"
+  },
+  {
+    "file": "windmill2.js",
+    "c": "farm",
+    "t": "Tower windmill",
+    "g": "windmill sails cap turn mill"
+  },
+  {
+    "file": "chestfreezer.js",
+    "c": "appliance",
+    "t": "Chest freezer",
+    "g": "freezer lid lift"
+  },
+  {
+    "file": "rangehood.js",
+    "c": "appliance",
+    "t": "Cooker hood",
+    "g": "extractor hood visor tilt"
+  },
+  {
+    "file": "stovetop.js",
+    "c": "appliance",
+    "t": "Gas hob",
+    "g": "hob burner knob flame"
+  },
+  {
+    "file": "mopedseat.js",
+    "c": "vehicle",
+    "t": "Scooter seat",
+    "g": "moped scooter seat lift under-seat storage"
+  },
+  {
+    "file": "truckramp.js",
+    "c": "vehicle",
+    "t": "Van loading ramp",
+    "g": "van rear ramp fold load"
+  },
+  {
+    "file": "firepit.js",
+    "c": "outdoor",
+    "t": "Fire pit",
+    "g": "fire pit spark screen lid"
+  },
+  {
+    "file": "scissorlift.js",
+    "c": "construction",
+    "t": "Scissor lift",
+    "g": "scissor lift platform raise"
+  },
+  {
+    "file": "cherrypicker.js",
+    "c": "construction",
+    "t": "Cherry picker",
+    "g": "boom lift bucket arm raise"
+  },
+  {
+    "file": "airpurifier.js",
+    "c": "appliance",
+    "t": "Air purifier",
+    "g": "purifier filter panel"
+  },
+  {
+    "file": "heater2.js",
+    "c": "appliance",
+    "t": "Oil heater",
+    "g": "radiator heater fins dial"
+  },
+  {
+    "file": "heatpress.js",
+    "c": "craft",
+    "t": "Heat press",
+    "g": "tshirt press clamshell"
   }
 ]
