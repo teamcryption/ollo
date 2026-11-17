@@ -10204,5 +10204,107 @@
     "c": "work",
     "t": "Hand riveter",
     "g": "hand riveter handles"
+  },
+  {
+    "file": "greasegun.js",
+    "c": "garage",
+    "t": "Grease gun",
+    "g": "grease gun lever"
+  },
+  {
+    "file": "filterwrench.js",
+    "c": "garage",
+    "t": "Oil filter wrench",
+    "g": "oil filter wrench strap"
+  },
+  {
+    "file": "enginecrane.js",
+    "c": "garage",
+    "t": "Engine stand",
+    "g": "engine stand rotate"
+  },
+  {
+    "file": "partswasher.js",
+    "c": "garage",
+    "t": "Parts washer",
+    "g": "parts washer lid"
+  },
+  {
+    "file": "timinglight.js",
+    "c": "garage",
+    "t": "Timing light",
+    "g": "timing light trigger"
+  },
+  {
+    "file": "rocketnozzle.js",
+    "c": "space",
+    "t": "Rocket nozzle",
+    "g": "rocket nozzle gimbal"
+  },
+  {
+    "file": "flipbook.js",
+    "c": "toys",
+    "t": "Flip book",
+    "g": "flip book pages"
+  },
+  {
+    "file": "zoetrope.js",
+    "c": "toys",
+    "t": "Zoetrope",
+    "g": "zoetrope spin"
+  },
+  {
+    "file": "bilboquet.js",
+    "c": "toys",
+    "t": "Cup and ball",
+    "g": "cup and ball catch"
+  },
+  {
+    "file": "etchsketch.js",
+    "c": "toys",
+    "t": "Drawing toy",
+    "g": "drawing toy knobs"
+  },
+  {
+    "file": "magicslate.js",
+    "c": "toys",
+    "t": "Magic slate",
+    "g": "magic slate lift"
+  },
+  {
+    "file": "pinwheel2.js",
+    "c": "toys",
+    "t": "Pogo stick",
+    "g": "pogo stick bounce"
+  },
+  {
+    "file": "snowplow.js",
+    "c": "winter",
+    "t": "Snow pusher",
+    "g": "snow pusher blade"
+  },
+  {
+    "file": "hotwater.js",
+    "c": "winter",
+    "t": "Hand warmer",
+    "g": "hand warmer lid"
+  },
+  {
+    "file": "mess.js",
+    "c": "camping",
+    "t": "Mess tin",
+    "g": "mess tin handle"
+  },
+  {
+    "file": "sleepmat.js",
+    "c": "camping",
+    "t": "Sleeping mat",
+    "g": "sleeping mat unroll"
+  },
+  {
+    "file": "leafblower.js",
+    "c": "garden",
+    "t": "Leaf blower",
+    "g": "leaf blower nozzle"
   }
 ]
