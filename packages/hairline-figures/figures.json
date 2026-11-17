@@ -9874,5 +9874,179 @@
     "c": "kitchen",
     "t": "Oyster knife",
     "g": "oyster shuck"
+  },
+  {
+    "file": "squeegee.js",
+    "c": "cleaning",
+    "t": "Squeegee",
+    "g": "window squeegee"
+  },
+  {
+    "file": "carpetbeater.js",
+    "c": "cleaning",
+    "t": "Carpet sweeper",
+    "g": "carpet sweeper lid"
+  },
+  {
+    "file": "toiletbrush.js",
+    "c": "bathroom",
+    "t": "Toilet brush",
+    "g": "toilet brush holder"
+  },
+  {
+    "file": "plungercup.js",
+    "c": "bathroom",
+    "t": "Shower head",
+    "g": "shower head swivel"
+  },
+  {
+    "file": "bedwarmer.js",
+    "c": "bedroom",
+    "t": "Bed warmer",
+    "g": "bed warming pan lid"
+  },
+  {
+    "file": "radiatorkey.js",
+    "c": "home",
+    "t": "Radiator valve",
+    "g": "radiator valve turn"
+  },
+  {
+    "file": "smokealarm.js",
+    "c": "home",
+    "t": "Smoke alarm",
+    "g": "smoke alarm test"
+  },
+  {
+    "file": "potatomasher.js",
+    "c": "kitchen",
+    "t": "Masher",
+    "g": "potato masher"
+  },
+  {
+    "file": "pizzawheel.js",
+    "c": "kitchen",
+    "t": "Pizza wheel",
+    "g": "pizza cutter wheel"
+  },
+  {
+    "file": "rollingpin.js",
+    "c": "kitchen",
+    "t": "Rolling pin",
+    "g": "rolling pin roll"
+  },
+  {
+    "file": "mincer.js",
+    "c": "kitchen",
+    "t": "Meat mincer",
+    "g": "meat mincer crank"
+  },
+  {
+    "file": "oilcruet.js",
+    "c": "kitchen",
+    "t": "Oil cruet",
+    "g": "oil cruet stopper"
+  },
+  {
+    "file": "tagine.js",
+    "c": "kitchen",
+    "t": "Tagine",
+    "g": "tagine lid"
+  },
+  {
+    "file": "wok.js",
+    "c": "kitchen",
+    "t": "Wok",
+    "g": "wok toss"
+  },
+  {
+    "file": "vortexmixer.js",
+    "c": "lab",
+    "t": "Vortex mixer",
+    "g": "vortex mixer cup"
+  },
+  {
+    "file": "gelbox.js",
+    "c": "lab",
+    "t": "Gel tank",
+    "g": "electrophoresis tank lid"
+  },
+  {
+    "file": "spectro.js",
+    "c": "lab",
+    "t": "Spectrometer",
+    "g": "spectrometer lid"
+  },
+  {
+    "file": "glovebag.js",
+    "c": "lab",
+    "t": "Sample cooler",
+    "g": "sample cooler lid"
+  },
+  {
+    "file": "carder.js",
+    "c": "textile",
+    "t": "Wool carder",
+    "g": "wool carder brush"
+  },
+  {
+    "file": "horseshoe.js",
+    "c": "equestrian",
+    "t": "Hoof stand",
+    "g": "farrier hoof stand"
+  },
+  {
+    "file": "bridle.js",
+    "c": "equestrian",
+    "t": "Grooming box",
+    "g": "horse grooming box lid"
+  },
+  {
+    "file": "eggbasket.js",
+    "c": "farm",
+    "t": "Egg basket",
+    "g": "wire egg basket"
+  },
+  {
+    "file": "ploughshare.js",
+    "c": "farm",
+    "t": "Plough",
+    "g": "hand plough"
+  },
+  {
+    "file": "grainmill.js",
+    "c": "farm",
+    "t": "Hand mill",
+    "g": "hand grain mill crank"
+  },
+  {
+    "file": "sawhorse2.js",
+    "c": "wood",
+    "t": "Log splitter",
+    "g": "log splitter lever"
+  },
+  {
+    "file": "froe.js",
+    "c": "wood",
+    "t": "Froe",
+    "g": "froe mallet"
+  },
+  {
+    "file": "drawknife.js",
+    "c": "wood",
+    "t": "Drawknife",
+    "g": "drawknife"
+  },
+  {
+    "file": "clampbar.js",
+    "c": "wood",
+    "t": "Bar clamp",
+    "g": "bar clamp slide"
+  },
+  {
+    "file": "neon.js",
+    "c": "signage",
+    "t": "Neon sign",
+    "g": "neon sign flicker"
   }
 ]
