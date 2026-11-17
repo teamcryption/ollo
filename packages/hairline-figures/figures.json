@@ -11008,5 +11008,83 @@
     "c": "cooper",
     "t": "Barrel hoop",
     "g": "barrel hoop driver"
+  },
+  {
+    "file": "litterpick.js",
+    "c": "street",
+    "t": "Litter picker",
+    "g": "litter picker jaws"
+  },
+  {
+    "file": "grit.js",
+    "c": "street",
+    "t": "Grit bin",
+    "g": "grit bin lid"
+  },
+  {
+    "file": "bandstand2.js",
+    "c": "street",
+    "t": "Lamp bracket",
+    "g": "wall lamp bracket swing"
+  },
+  {
+    "file": "bottlewarmer.js",
+    "c": "baby",
+    "t": "Bottle warmer",
+    "g": "bottle warmer lid"
+  },
+  {
+    "file": "rattle.js",
+    "c": "baby",
+    "t": "Rattle",
+    "g": "baby rattle shake"
+  },
+  {
+    "file": "stairgate.js",
+    "c": "baby",
+    "t": "Stair gate",
+    "g": "stair gate swing"
+  },
+  {
+    "file": "sippycup.js",
+    "c": "baby",
+    "t": "Sippy cup",
+    "g": "sippy cup lid"
+  },
+  {
+    "file": "coffeecan.js",
+    "c": "cafe",
+    "t": "Coffee canister",
+    "g": "coffee canister clamp lid"
+  },
+  {
+    "file": "strawjar.js",
+    "c": "cafe",
+    "t": "Straw dispenser",
+    "g": "straw dispenser push"
+  },
+  {
+    "file": "sugarshaker.js",
+    "c": "cafe",
+    "t": "Sugar pourer",
+    "g": "sugar pourer flap"
+  },
+  {
+    "file": "napkindisp.js",
+    "c": "cafe",
+    "t": "Napkin holder",
+    "g": "napkin holder spring"
+  },
+  {
+    "file": "tipjar.js",
+    "c": "cafe",
+    "t": "Tip jar",
+    "g": "tip jar lid coin"
+  },
+  {
+    "file": "sandbag.js",
+    "c": "gym",
+    "t": "Slam ball",
+    "g": "slam ball drop"
   }
 ]
