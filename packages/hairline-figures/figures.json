@@ -10576,5 +10576,149 @@
     "c": "diving",
     "t": "Dive flag",
     "g": "dive flag buoy"
+  },
+  {
+    "file": "burner2.js",
+    "c": "science",
+    "t": "Spirit lamp",
+    "g": "spirit lamp cap"
+  },
+  {
+    "file": "balanceweights.js",
+    "c": "science",
+    "t": "Weight set",
+    "g": "calibration weight box lid"
+  },
+  {
+    "file": "carriageclock.js",
+    "c": "clock",
+    "t": "Carriage clock",
+    "g": "carriage clock handle"
+  },
+  {
+    "file": "mantelclock.js",
+    "c": "clock",
+    "t": "Mantel clock",
+    "g": "mantel clock face door"
+  },
+  {
+    "file": "sundial2.js",
+    "c": "clock",
+    "t": "Pocket sundial",
+    "g": "pocket sundial gnomon fold"
+  },
+  {
+    "file": "stopwatch2.js",
+    "c": "clock",
+    "t": "Pocket watch",
+    "g": "pocket watch lid"
+  },
+  {
+    "file": "bagpipe2.js",
+    "c": "music",
+    "t": "Bellows accordion",
+    "g": "accordion bellows"
+  },
+  {
+    "file": "ocarina2.js",
+    "c": "music",
+    "t": "Pan pipes",
+    "g": "pan pipes tilt"
+  },
+  {
+    "file": "gongmallet.js",
+    "c": "music",
+    "t": "Singing bowl",
+    "g": "singing bowl mallet"
+  },
+  {
+    "file": "zither.js",
+    "c": "music",
+    "t": "Thumb drum",
+    "g": "steel tongue drum"
+  },
+  {
+    "file": "cymbal.js",
+    "c": "music",
+    "t": "Hi-hat",
+    "g": "hi-hat pedal cymbals"
+  },
+  {
+    "file": "tuningpeg.js",
+    "c": "music",
+    "t": "Ukulele",
+    "g": "ukulele tuning peg"
+  },
+  {
+    "file": "hoofpick.js",
+    "c": "farm",
+    "t": "Branding iron",
+    "g": "branding iron stand"
+  },
+  {
+    "file": "beehood.js",
+    "c": "farm",
+    "t": "Swarm box",
+    "g": "swarm box lid"
+  },
+  {
+    "file": "chickfeeder.js",
+    "c": "farm",
+    "t": "Chick drinker",
+    "g": "chick drinker base"
+  },
+  {
+    "file": "scythestone.js",
+    "c": "farm",
+    "t": "Whetstone",
+    "g": "whetstone holder"
+  },
+  {
+    "file": "goatbell.js",
+    "c": "farm",
+    "t": "Hay net",
+    "g": "hay net hang"
+  },
+  {
+    "file": "pumpjack2.js",
+    "c": "farm",
+    "t": "Cattle grid",
+    "g": "cattle grid"
+  },
+  {
+    "file": "dovecote.js",
+    "c": "garden",
+    "t": "Dovecote",
+    "g": "dovecote door"
+  },
+  {
+    "file": "gardenkneeler.js",
+    "c": "garden",
+    "t": "Kneeler",
+    "g": "garden kneeler flip"
+  },
+  {
+    "file": "trellis.js",
+    "c": "garden",
+    "t": "Trellis",
+    "g": "fan trellis"
+  },
+  {
+    "file": "birdtable.js",
+    "c": "garden",
+    "t": "Bird table",
+    "g": "bird table roof"
+  },
+  {
+    "file": "hedgehog.js",
+    "c": "garden",
+    "t": "Hedgehog house",
+    "g": "hedgehog house roof"
+  },
+  {
+    "file": "compostbin2.js",
+    "c": "garden",
+    "t": "Wormery",
+    "g": "wormery tray lift"
   }
 ]
