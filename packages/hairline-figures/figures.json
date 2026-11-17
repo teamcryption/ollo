@@ -10306,5 +10306,131 @@
     "c": "garden",
     "t": "Leaf blower",
     "g": "leaf blower nozzle"
+  },
+  {
+    "file": "lensmeter.js",
+    "c": "optician",
+    "t": "Lens meter",
+    "g": "lens meter"
+  },
+  {
+    "file": "mortarpharm.js",
+    "c": "pharmacy",
+    "t": "Pill tin",
+    "g": "pill tin lid"
+  },
+  {
+    "file": "florist.js",
+    "c": "florist",
+    "t": "Flower bucket",
+    "g": "flower bucket stand"
+  },
+  {
+    "file": "meatslicer.js",
+    "c": "butcher",
+    "t": "Meat slicer",
+    "g": "deli meat slicer"
+  },
+  {
+    "file": "lasthammer.js",
+    "c": "cobbler",
+    "t": "Cobbler last",
+    "g": "cobbler shoe last"
+  },
+  {
+    "file": "tailorchalk.js",
+    "c": "tailor",
+    "t": "Tailor shears",
+    "g": "tailor shears"
+  },
+  {
+    "file": "pinwheelmeasure.js",
+    "c": "tailor",
+    "t": "Pattern wheel",
+    "g": "tracing wheel"
+  },
+  {
+    "file": "lockpin.js",
+    "c": "locksmith",
+    "t": "Lock cylinder",
+    "g": "lock cylinder turn"
+  },
+  {
+    "file": "glasscutter.js",
+    "c": "glazier",
+    "t": "Glass cutter",
+    "g": "glass cutter wheel"
+  },
+  {
+    "file": "suctionlifter.js",
+    "c": "glazier",
+    "t": "Suction lifter",
+    "g": "glass suction lifter"
+  },
+  {
+    "file": "slateripper.js",
+    "c": "roofer",
+    "t": "Roof ladder",
+    "g": "roof ladder hook"
+  },
+  {
+    "file": "tilecutter2.js",
+    "c": "mason",
+    "t": "Brick tongs",
+    "g": "brick tongs"
+  },
+  {
+    "file": "truffletray.js",
+    "c": "chocolatier",
+    "t": "Truffle box",
+    "g": "truffle box lid"
+  },
+  {
+    "file": "winedecanter.js",
+    "c": "sommelier",
+    "t": "Decanter",
+    "g": "wine decanter stopper"
+  },
+  {
+    "file": "tastevin.js",
+    "c": "sommelier",
+    "t": "Wine cradle",
+    "g": "wine pouring cradle"
+  },
+  {
+    "file": "hatpress.js",
+    "c": "milliner",
+    "t": "Hat block",
+    "g": "hat block brim"
+  },
+  {
+    "file": "banknote.js",
+    "c": "bank",
+    "t": "Note counter tray",
+    "g": "banknote tray"
+  },
+  {
+    "file": "quillknife.js",
+    "c": "scribe",
+    "t": "Pen knife",
+    "g": "folding pen knife"
+  },
+  {
+    "file": "sealingwax.js",
+    "c": "scribe",
+    "t": "Seal press",
+    "g": "embossing seal press"
+  },
+  {
+    "file": "blottingrock.js",
+    "c": "scribe",
+    "t": "Sand shaker",
+    "g": "pounce pot"
+  },
+  {
+    "file": "penwiper.js",
+    "c": "scribe",
+    "t": "Pen rack",
+    "g": "dip pen rack"
   }
 ]
