@@ -10432,5 +10432,149 @@
     "c": "scribe",
     "t": "Pen rack",
     "g": "dip pen rack"
+  },
+  {
+    "file": "spicetin.js",
+    "c": "kitchen",
+    "t": "Spice tin",
+    "g": "spice tin hinged lid"
+  },
+  {
+    "file": "cakepop.js",
+    "c": "kitchen",
+    "t": "Pie bird",
+    "g": "pie bird funnel"
+  },
+  {
+    "file": "noodlemaker.js",
+    "c": "kitchen",
+    "t": "Noodle press",
+    "g": "noodle press lever"
+  },
+  {
+    "file": "nailstand.js",
+    "c": "salon",
+    "t": "Nail lamp",
+    "g": "nail lamp tilt"
+  },
+  {
+    "file": "mirrorlight.js",
+    "c": "salon",
+    "t": "Vanity mirror",
+    "g": "tri fold vanity mirror"
+  },
+  {
+    "file": "chessbox.js",
+    "c": "games",
+    "t": "Chess box",
+    "g": "folding chess box"
+  },
+  {
+    "file": "scoreboardpeg.js",
+    "c": "games",
+    "t": "Score dial",
+    "g": "score dial counter"
+  },
+  {
+    "file": "gobowl.js",
+    "c": "games",
+    "t": "Go bowl",
+    "g": "go stone bowl lid"
+  },
+  {
+    "file": "backgammon.js",
+    "c": "games",
+    "t": "Backgammon case",
+    "g": "backgammon case opens"
+  },
+  {
+    "file": "wheelbalancer.js",
+    "c": "garage",
+    "t": "Wheel balancer",
+    "g": "wheel balancer spin"
+  },
+  {
+    "file": "bearingpuller.js",
+    "c": "garage",
+    "t": "Gear puller",
+    "g": "gear puller screw"
+  },
+  {
+    "file": "snowmaker.js",
+    "c": "winter",
+    "t": "Snow cannon",
+    "g": "snow cannon tilt"
+  },
+  {
+    "file": "curlbroom.js",
+    "c": "winter",
+    "t": "Ice scraper",
+    "g": "windscreen ice scraper"
+  },
+  {
+    "file": "skijump.js",
+    "c": "winter",
+    "t": "Ski binding",
+    "g": "ski binding toe"
+  },
+  {
+    "file": "rainchain.js",
+    "c": "garden",
+    "t": "Rain chain",
+    "g": "rain chain cups"
+  },
+  {
+    "file": "thermostat.js",
+    "c": "home",
+    "t": "Dial thermostat",
+    "g": "dial thermostat"
+  },
+  {
+    "file": "cookiecutter.js",
+    "c": "kitchen",
+    "t": "Cookie press",
+    "g": "cookie press trigger"
+  },
+  {
+    "file": "valet.js",
+    "c": "bedroom",
+    "t": "Valet stand",
+    "g": "clothes valet stand"
+  },
+  {
+    "file": "warper.js",
+    "c": "textile",
+    "t": "Warping board",
+    "g": "warping board pegs"
+  },
+  {
+    "file": "glue.js",
+    "c": "wood",
+    "t": "Glue pot",
+    "g": "glue pot brush"
+  },
+  {
+    "file": "hygrometer.js",
+    "c": "instrument",
+    "t": "Hair hygrometer",
+    "g": "hygrometer dial"
+  },
+  {
+    "file": "leadline.js",
+    "c": "marine",
+    "t": "Sounding lead",
+    "g": "sounding lead line"
+  },
+  {
+    "file": "snorkel.js",
+    "c": "diving",
+    "t": "Snorkel mask",
+    "g": "snorkel mask"
+  },
+  {
+    "file": "flippers.js",
+    "c": "diving",
+    "t": "Dive flag",
+    "g": "dive flag buoy"
   }
 ]
