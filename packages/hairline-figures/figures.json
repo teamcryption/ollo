@@ -11188,5 +11188,65 @@
     "c": "transport",
     "t": "Handlebar bag",
     "g": "handlebar bag lid"
+  },
+  {
+    "file": "stampvending.js",
+    "c": "post office",
+    "t": "Stamp roll",
+    "g": "stamp roll dispenser"
+  },
+  {
+    "file": "sealtapegun.js",
+    "c": "post office",
+    "t": "Gummed tape",
+    "g": "gummed tape dispenser"
+  },
+  {
+    "file": "hotelbell.js",
+    "c": "hotel",
+    "t": "Key drop",
+    "g": "key drop slot"
+  },
+  {
+    "file": "roomsign.js",
+    "c": "hotel",
+    "t": "Valet tag",
+    "g": "valet key tag"
+  },
+  {
+    "file": "whistle.js",
+    "c": "sport",
+    "t": "Whistle",
+    "g": "whistle lanyard"
+  },
+  {
+    "file": "cheesewire.js",
+    "c": "deli",
+    "t": "Cheese wire",
+    "g": "cheese wire cutter arm"
+  },
+  {
+    "file": "oliveboat.js",
+    "c": "deli",
+    "t": "Olive dish",
+    "g": "olive dish lid"
+  },
+  {
+    "file": "tongs2.js",
+    "c": "deli",
+    "t": "Salad tongs",
+    "g": "salad tongs"
+  },
+  {
+    "file": "pastrybag.js",
+    "c": "deli",
+    "t": "Pastry brush",
+    "g": "pastry brush"
+  },
+  {
+    "file": "picklejar.js",
+    "c": "farmshop",
+    "t": "Pickle crock",
+    "g": "fermenting crock lid"
   }
 ]
