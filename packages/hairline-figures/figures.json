@@ -8770,5 +8770,347 @@
     "c": "home",
     "t": "Rug",
     "g": "rolled rug"
+  },
+  {
+    "file": "nutmeggrater.js",
+    "c": "kitchen",
+    "t": "Nutmeg grater",
+    "g": "nutmeg grater crank"
+  },
+  {
+    "file": "garlicpress.js",
+    "c": "kitchen",
+    "t": "Garlic press",
+    "g": "garlic press squeeze"
+  },
+  {
+    "file": "cherrypitter.js",
+    "c": "kitchen",
+    "t": "Cherry pitter",
+    "g": "cherry pitter plunger"
+  },
+  {
+    "file": "butterbell.js",
+    "c": "kitchen",
+    "t": "Butter bell",
+    "g": "butter crock bell"
+  },
+  {
+    "file": "pietin.js",
+    "c": "kitchen",
+    "t": "Pie keeper",
+    "g": "pie carrier lid"
+  },
+  {
+    "file": "cakelifter.js",
+    "c": "kitchen",
+    "t": "Cake leveler",
+    "g": "cake leveller wire"
+  },
+  {
+    "file": "sugartongs.js",
+    "c": "kitchen",
+    "t": "Sugar bowl",
+    "g": "sugar bowl tongs lid"
+  },
+  {
+    "file": "toothmug.js",
+    "c": "bathroom",
+    "t": "Toothbrush cup",
+    "g": "toothbrush cup"
+  },
+  {
+    "file": "loofahhook.js",
+    "c": "bathroom",
+    "t": "Shower caddy",
+    "g": "shower caddy shelf"
+  },
+  {
+    "file": "bathrack.js",
+    "c": "bathroom",
+    "t": "Bath rack",
+    "g": "bath tray across tub"
+  },
+  {
+    "file": "cottonjar.js",
+    "c": "bathroom",
+    "t": "Cotton jar",
+    "g": "cotton pad jar lid"
+  },
+  {
+    "file": "towelring.js",
+    "c": "bathroom",
+    "t": "Towel ring",
+    "g": "towel ring swing"
+  },
+  {
+    "file": "bathplug.js",
+    "c": "bathroom",
+    "t": "Bath plug",
+    "g": "bath plug chain"
+  },
+  {
+    "file": "shavebrush.js",
+    "c": "bathroom",
+    "t": "Shaving set",
+    "g": "shaving brush stand"
+  },
+  {
+    "file": "mirrorarm.js",
+    "c": "bathroom",
+    "t": "Extending mirror",
+    "g": "wall mirror arm"
+  },
+  {
+    "file": "handbell.js",
+    "c": "music",
+    "t": "Hand bell",
+    "g": "hand bell swing"
+  },
+  {
+    "file": "pucktray.js",
+    "c": "sports",
+    "t": "Puck",
+    "g": "hockey puck stick"
+  },
+  {
+    "file": "shotput.js",
+    "c": "sports",
+    "t": "Starting block",
+    "g": "starting blocks pedals"
+  },
+  {
+    "file": "earthermo.js",
+    "c": "medicine",
+    "t": "Ear thermometer",
+    "g": "ear thermometer"
+  },
+  {
+    "file": "springscale.js",
+    "c": "science",
+    "t": "Spring balance",
+    "g": "spring balance hook"
+  },
+  {
+    "file": "gyroscope.js",
+    "c": "science",
+    "t": "Gyroscope",
+    "g": "gyroscope spin"
+  },
+  {
+    "file": "hydrometer.js",
+    "c": "science",
+    "t": "Hydrometer",
+    "g": "hydrometer jar"
+  },
+  {
+    "file": "radiometer.js",
+    "c": "science",
+    "t": "Radiometer",
+    "g": "crookes radiometer vanes"
+  },
+  {
+    "file": "desiccator.js",
+    "c": "science",
+    "t": "Desiccator",
+    "g": "desiccator lid"
+  },
+  {
+    "file": "crucible.js",
+    "c": "science",
+    "t": "Crucible",
+    "g": "crucible tongs"
+  },
+  {
+    "file": "cloche.js",
+    "c": "garden",
+    "t": "Cloche",
+    "g": "bell cloche"
+  },
+  {
+    "file": "watercan2.js",
+    "c": "garden",
+    "t": "Rain gauge",
+    "g": "rain gauge tube"
+  },
+  {
+    "file": "trugbasket.js",
+    "c": "garden",
+    "t": "Trug",
+    "g": "garden trug"
+  },
+  {
+    "file": "twinedispenser.js",
+    "c": "garden",
+    "t": "Twine dispenser",
+    "g": "twine tin"
+  },
+  {
+    "file": "dutchhoe.js",
+    "c": "garden",
+    "t": "Edging iron",
+    "g": "half moon edger"
+  },
+  {
+    "file": "weatherhouse.js",
+    "c": "garden",
+    "t": "Weather house",
+    "g": "weather house figures"
+  },
+  {
+    "file": "hosereel.js",
+    "c": "garden",
+    "t": "Hose reel",
+    "g": "hose reel crank"
+  },
+  {
+    "file": "hole2punch.js",
+    "c": "office",
+    "t": "Hole punch",
+    "g": "two hole punch lever"
+  },
+  {
+    "file": "letteropener.js",
+    "c": "office",
+    "t": "Letter opener",
+    "g": "letter opener blade"
+  },
+  {
+    "file": "packcube.js",
+    "c": "travel",
+    "t": "Packing cube",
+    "g": "packing cube zip"
+  },
+  {
+    "file": "neckwallet.js",
+    "c": "travel",
+    "t": "Passport holder",
+    "g": "passport holder flap"
+  },
+  {
+    "file": "eyemask.js",
+    "c": "travel",
+    "t": "Sleep mask",
+    "g": "sleep mask strap"
+  },
+  {
+    "file": "toiletrybag.js",
+    "c": "travel",
+    "t": "Wash bag",
+    "g": "hanging wash bag"
+  },
+  {
+    "file": "groombrush.js",
+    "c": "pets",
+    "t": "Grooming brush",
+    "g": "slicker brush"
+  },
+  {
+    "file": "waterfountain.js",
+    "c": "pets",
+    "t": "Pet fountain",
+    "g": "pet water fountain"
+  },
+  {
+    "file": "spinningtop.js",
+    "c": "kids",
+    "t": "Spinning top",
+    "g": "spinning top"
+  },
+  {
+    "file": "jackstand.js",
+    "c": "automotive",
+    "t": "Jack stand",
+    "g": "jack stand ratchet"
+  },
+  {
+    "file": "hubcap.js",
+    "c": "automotive",
+    "t": "Hubcap",
+    "g": "hubcap wheel"
+  },
+  {
+    "file": "sparkplug2.js",
+    "c": "automotive",
+    "t": "Torque wrench",
+    "g": "torque wrench click"
+  },
+  {
+    "file": "tirechanger.js",
+    "c": "automotive",
+    "t": "Lug wrench",
+    "g": "cross lug wrench"
+  },
+  {
+    "file": "warningtri.js",
+    "c": "automotive",
+    "t": "Warning triangle",
+    "g": "warning triangle fold"
+  },
+  {
+    "file": "sketchbox.js",
+    "c": "design",
+    "t": "Sketch box",
+    "g": "french easel box"
+  },
+  {
+    "file": "securitybox.js",
+    "c": "security",
+    "t": "Fireproof box",
+    "g": "fireproof box handle"
+  },
+  {
+    "file": "chainlatch.js",
+    "c": "security",
+    "t": "Chain latch",
+    "g": "door chain latch"
+  },
+  {
+    "file": "ballotbox2.js",
+    "c": "government",
+    "t": "Voting urn",
+    "g": "voting urn lid"
+  },
+  {
+    "file": "probelaunch.js",
+    "c": "space",
+    "t": "Probe dish",
+    "g": "probe antenna dish"
+  },
+  {
+    "file": "airlock2.js",
+    "c": "space",
+    "t": "Hatch wheel",
+    "g": "hatch wheel spin"
+  },
+  {
+    "file": "anvil.js",
+    "c": "manufacturing",
+    "t": "Anvil",
+    "g": "anvil hammer"
+  },
+  {
+    "file": "dieset.js",
+    "c": "manufacturing",
+    "t": "Die press",
+    "g": "die press ram"
+  },
+  {
+    "file": "signpost.js",
+    "c": "realestate",
+    "t": "Rent sign",
+    "g": "for rent sign swing"
+  },
+  {
+    "file": "catapult.js",
+    "c": "gaming",
+    "t": "Catapult",
+    "g": "toy catapult arm"
+  },
+  {
+    "file": "slidepuzzle.js",
+    "c": "gaming",
+    "t": "Slide puzzle",
+    "g": "sliding tile puzzle"
   }
 ]
