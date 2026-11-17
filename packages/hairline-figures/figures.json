@@ -11248,5 +11248,77 @@
     "c": "farmshop",
     "t": "Pickle crock",
     "g": "fermenting crock lid"
+  },
+  {
+    "file": "robovac.js",
+    "c": "tech",
+    "t": "Robot vacuum",
+    "g": "robot vacuum lid"
+  },
+  {
+    "file": "stylus.js",
+    "c": "tech",
+    "t": "Stylus holder",
+    "g": "stylus dock"
+  },
+  {
+    "file": "smartlock.js",
+    "c": "tech",
+    "t": "Smart lock",
+    "g": "smart lock thumb turn"
+  },
+  {
+    "file": "earbuds.js",
+    "c": "tech",
+    "t": "Earbud case",
+    "g": "earbud case lid"
+  },
+  {
+    "file": "cableorg.js",
+    "c": "tech",
+    "t": "Cable box",
+    "g": "cable box lid"
+  },
+  {
+    "file": "fitband.js",
+    "c": "tech",
+    "t": "Fitness band",
+    "g": "fitness band clasp"
+  },
+  {
+    "file": "dronecontroller.js",
+    "c": "tech",
+    "t": "Drone remote",
+    "g": "drone remote antennas"
+  },
+  {
+    "file": "cameradoor.js",
+    "c": "tech",
+    "t": "Action camera",
+    "g": "action camera door"
+  },
+  {
+    "file": "servomotor.js",
+    "c": "robotics",
+    "t": "Servo",
+    "g": "servo horn turn"
+  },
+  {
+    "file": "linearrail.js",
+    "c": "robotics",
+    "t": "Linear actuator",
+    "g": "linear actuator rod"
+  },
+  {
+    "file": "pantilt.js",
+    "c": "robotics",
+    "t": "Pan tilt head",
+    "g": "pan tilt bracket"
+  },
+  {
+    "file": "breadboard2.js",
+    "c": "robotics",
+    "t": "Breadboard",
+    "g": "breadboard jumper"
   }
 ]
