@@ -10048,5 +10048,161 @@
     "c": "signage",
     "t": "Neon sign",
     "g": "neon sign flicker"
+  },
+  {
+    "file": "hardy.js",
+    "c": "smithing",
+    "t": "Hardy tool",
+    "g": "anvil hardy cutter"
+  },
+  {
+    "file": "leatherpunch.js",
+    "c": "crafts",
+    "t": "Leather punch",
+    "g": "rotary leather punch"
+  },
+  {
+    "file": "bookbind.js",
+    "c": "crafts",
+    "t": "Sewing frame",
+    "g": "book sewing frame"
+  },
+  {
+    "file": "candlemould.js",
+    "c": "crafts",
+    "t": "Candle mould",
+    "g": "candle mould lift"
+  },
+  {
+    "file": "tapestry.js",
+    "c": "crafts",
+    "t": "Rug hook",
+    "g": "rug hooking frame"
+  },
+  {
+    "file": "drumpedal.js",
+    "c": "music",
+    "t": "Bass pedal",
+    "g": "bass drum pedal"
+  },
+  {
+    "file": "organstop.js",
+    "c": "music",
+    "t": "Organ stop",
+    "g": "organ stop pull"
+  },
+  {
+    "file": "lyre.js",
+    "c": "music",
+    "t": "Lyre",
+    "g": "lyre strings"
+  },
+  {
+    "file": "djembe.js",
+    "c": "music",
+    "t": "Djembe",
+    "g": "djembe"
+  },
+  {
+    "file": "woodblock.js",
+    "c": "music",
+    "t": "Temple block",
+    "g": "temple block mallet"
+  },
+  {
+    "file": "astrolabe.js",
+    "c": "instrument",
+    "t": "Astrolabe",
+    "g": "astrolabe rete turn"
+  },
+  {
+    "file": "odometerwheel.js",
+    "c": "instrument",
+    "t": "Measuring wheel",
+    "g": "measuring wheel roll"
+  },
+  {
+    "file": "clinometer.js",
+    "c": "instrument",
+    "t": "Clinometer",
+    "g": "clinometer needle"
+  },
+  {
+    "file": "heliograph.js",
+    "c": "instrument",
+    "t": "Heliograph",
+    "g": "heliograph mirror"
+  },
+  {
+    "file": "chronometer.js",
+    "c": "instrument",
+    "t": "Chronometer box",
+    "g": "marine chronometer lid"
+  },
+  {
+    "file": "capstan.js",
+    "c": "marine",
+    "t": "Capstan",
+    "g": "capstan bars turn"
+  },
+  {
+    "file": "telegraph.js",
+    "c": "marine",
+    "t": "Engine telegraph",
+    "g": "engine telegraph lever"
+  },
+  {
+    "file": "binnacle.js",
+    "c": "marine",
+    "t": "Binnacle",
+    "g": "binnacle hood"
+  },
+  {
+    "file": "oarlock.js",
+    "c": "marine",
+    "t": "Oarlock",
+    "g": "rowlock oar swivel"
+  },
+  {
+    "file": "traytable.js",
+    "c": "airport",
+    "t": "Tray table",
+    "g": "seat tray table fold"
+  },
+  {
+    "file": "oxygenmask.js",
+    "c": "airport",
+    "t": "Oxygen mask",
+    "g": "oxygen mask drop"
+  },
+  {
+    "file": "clocking.js",
+    "c": "work",
+    "t": "Time clock",
+    "g": "punch time clock card"
+  },
+  {
+    "file": "tapemeasure.js",
+    "c": "work",
+    "t": "Tape measure",
+    "g": "tape measure pull"
+  },
+  {
+    "file": "staplegun.js",
+    "c": "work",
+    "t": "Staple gun",
+    "g": "staple gun lever"
+  },
+  {
+    "file": "caulkgun.js",
+    "c": "work",
+    "t": "Caulk gun",
+    "g": "caulk gun trigger"
+  },
+  {
+    "file": "riveter.js",
+    "c": "work",
+    "t": "Hand riveter",
+    "g": "hand riveter handles"
   }
 ]
