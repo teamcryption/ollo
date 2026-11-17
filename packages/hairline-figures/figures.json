@@ -11320,5 +11320,113 @@
     "c": "robotics",
     "t": "Breadboard",
     "g": "breadboard jumper"
+  },
+  {
+    "file": "archivebox.js",
+    "c": "archive",
+    "t": "Archive box",
+    "g": "archive box lid"
+  },
+  {
+    "file": "deedbox.js",
+    "c": "archive",
+    "t": "Deed box",
+    "g": "deed box lid"
+  },
+  {
+    "file": "bookcradle.js",
+    "c": "archive",
+    "t": "Book cradle",
+    "g": "foam book cradle"
+  },
+  {
+    "file": "cat6.js",
+    "c": "home",
+    "t": "Sash window",
+    "g": "sash window slide"
+  },
+  {
+    "file": "iceshovel.js",
+    "c": "hotel",
+    "t": "Ice scoop",
+    "g": "ice scoop"
+  },
+  {
+    "file": "filmloader.js",
+    "c": "camera",
+    "t": "Film back",
+    "g": "medium format film back"
+  },
+  {
+    "file": "dripper.js",
+    "c": "garden",
+    "t": "Watering spike",
+    "g": "terracotta watering spike"
+  },
+  {
+    "file": "bedpanwarm.js",
+    "c": "fireside",
+    "t": "Footwarmer",
+    "g": "foot warmer box"
+  },
+  {
+    "file": "sdcard.js",
+    "c": "tech",
+    "t": "SD card slot",
+    "g": "sd card eject"
+  },
+  {
+    "file": "simtray.js",
+    "c": "tech",
+    "t": "SIM tray",
+    "g": "sim tray eject pin"
+  },
+  {
+    "file": "foldphone.js",
+    "c": "tech",
+    "t": "Folding phone",
+    "g": "folding phone hinge"
+  },
+  {
+    "file": "ssdslot.js",
+    "c": "tech",
+    "t": "M.2 drive",
+    "g": "m.2 drive screw tilt"
+  },
+  {
+    "file": "cpucooler.js",
+    "c": "tech",
+    "t": "CPU socket",
+    "g": "cpu socket lever"
+  },
+  {
+    "file": "ramstick.js",
+    "c": "tech",
+    "t": "RAM slot",
+    "g": "ram slot clips"
+  },
+  {
+    "file": "pcside.js",
+    "c": "tech",
+    "t": "PC case",
+    "g": "pc case side panel"
+  },
+  {
+    "file": "trackpad.js",
+    "c": "tech",
+    "t": "Keyboard tray",
+    "g": "keyboard tray slide"
+  },
+  {
+    "file": "penplotter.js",
+    "c": "tech",
+    "t": "Pen plotter",
+    "g": "pen plotter arm"
+  },
+  {
+    "file": "tickettap.js",
+    "c": "tech",
+    "t": "Contactless reader",
+    "g": "contactless reader tilt"
   }
 ]
