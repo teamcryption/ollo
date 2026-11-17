@@ -10720,5 +10720,197 @@
     "c": "garden",
     "t": "Wormery",
     "g": "wormery tray lift"
+  },
+  {
+    "file": "enlarger.js",
+    "c": "darkroom",
+    "t": "Photo enlarger",
+    "g": "photo enlarger head"
+  },
+  {
+    "file": "devtank.js",
+    "c": "darkroom",
+    "t": "Developing tank",
+    "g": "developing tank lid"
+  },
+  {
+    "file": "safelight.js",
+    "c": "darkroom",
+    "t": "Safelight",
+    "g": "darkroom safelight"
+  },
+  {
+    "file": "onairlight.js",
+    "c": "broadcast",
+    "t": "On air light",
+    "g": "on air sign light"
+  },
+  {
+    "file": "clapper.js",
+    "c": "broadcast",
+    "t": "Slate board",
+    "g": "camera slate clap"
+  },
+  {
+    "file": "cuecard.js",
+    "c": "broadcast",
+    "t": "Cue card stand",
+    "g": "cue card flip"
+  },
+  {
+    "file": "gantry.js",
+    "c": "factory",
+    "t": "Gantry hoist",
+    "g": "gantry hoist trolley"
+  },
+  {
+    "file": "hoistchain.js",
+    "c": "factory",
+    "t": "Chain hoist",
+    "g": "chain hoist pull"
+  },
+  {
+    "file": "postbike.js",
+    "c": "post",
+    "t": "Post trolley",
+    "g": "post trolley lid"
+  },
+  {
+    "file": "papermould.js",
+    "c": "papermaker",
+    "t": "Paper mould",
+    "g": "paper mould deckle"
+  },
+  {
+    "file": "signalbox.js",
+    "c": "railway",
+    "t": "Signal lever frame",
+    "g": "signal box levers"
+  },
+  {
+    "file": "foggong.js",
+    "c": "lighthouse",
+    "t": "Fog bell",
+    "g": "fog bell striker"
+  },
+  {
+    "file": "watchopener.js",
+    "c": "watchmaker",
+    "t": "Watch press",
+    "g": "watch case press"
+  },
+  {
+    "file": "loupe2.js",
+    "c": "watchmaker",
+    "t": "Watch stand",
+    "g": "watch movement holder"
+  },
+  {
+    "file": "pestleboard.js",
+    "c": "kitchen",
+    "t": "Mezzaluna",
+    "g": "mezzaluna rocking blade"
+  },
+  {
+    "file": "butterchurn2.js",
+    "c": "kitchen",
+    "t": "Butter curler",
+    "g": "butter curler"
+  },
+  {
+    "file": "sushimould.js",
+    "c": "kitchen",
+    "t": "Rice mould",
+    "g": "onigiri mould press"
+  },
+  {
+    "file": "appleslicer.js",
+    "c": "kitchen",
+    "t": "Apple corer",
+    "g": "apple corer slicer press"
+  },
+  {
+    "file": "mandolin2.js",
+    "c": "kitchen",
+    "t": "Box grater",
+    "g": "box grater tilt"
+  },
+  {
+    "file": "gnocchi.js",
+    "c": "kitchen",
+    "t": "Gnocchi board",
+    "g": "gnocchi board paddle"
+  },
+  {
+    "file": "shoehorn4.js",
+    "c": "bedroom",
+    "t": "Boot tree",
+    "g": "boot tree"
+  },
+  {
+    "file": "collarbox.js",
+    "c": "bedroom",
+    "t": "Collar box",
+    "g": "collar box lid"
+  },
+  {
+    "file": "cufflinkbox.js",
+    "c": "bedroom",
+    "t": "Watch roll",
+    "g": "watch roll unroll"
+  },
+  {
+    "file": "travelalarm.js",
+    "c": "bedroom",
+    "t": "Travel clock",
+    "g": "folding travel clock"
+  },
+  {
+    "file": "lintbrush.js",
+    "c": "bedroom",
+    "t": "Clothes brush",
+    "g": "clothes brush"
+  },
+  {
+    "file": "shawlpin.js",
+    "c": "bedroom",
+    "t": "Brooch",
+    "g": "brooch pin clasp"
+  },
+  {
+    "file": "fanfold.js",
+    "c": "bedroom",
+    "t": "Hand fan",
+    "g": "folding hand fan"
+  },
+  {
+    "file": "paraso.js",
+    "c": "bedroom",
+    "t": "Parasol",
+    "g": "lace parasol"
+  },
+  {
+    "file": "snuffbox.js",
+    "c": "bedroom",
+    "t": "Snuff box",
+    "g": "snuff box lid"
+  },
+  {
+    "file": "spectacles.js",
+    "c": "bedroom",
+    "t": "Spectacle case",
+    "g": "spectacle case clam"
+  },
+  {
+    "file": "pocketknife.js",
+    "c": "bedroom",
+    "t": "Corkscrew knife",
+    "g": "waiter knife"
+  },
+  {
+    "file": "keyring.js",
+    "c": "bedroom",
+    "t": "Key ring",
+    "g": "key ring swing"
   }
 ]
