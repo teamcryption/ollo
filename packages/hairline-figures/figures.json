@@ -13432,5 +13432,71 @@
     "c": "outdoor",
     "t": "Land yacht",
     "g": "land yacht sail mast boom three wheels"
+  },
+  {
+    "file": "canallock.js",
+    "c": "marine",
+    "t": "Canal lock gates",
+    "g": "canal lock mitre gates balance beam"
+  },
+  {
+    "file": "barge.js",
+    "c": "marine",
+    "t": "Canal barge",
+    "g": "canal barge hold hatch covers wheelhouse"
+  },
+  {
+    "file": "loftladder.js",
+    "c": "home",
+    "t": "Loft ladder",
+    "g": "loft ladder attic hatch fold"
+  },
+  {
+    "file": "pergola.js",
+    "c": "garden",
+    "t": "Louvred pergola",
+    "g": "pergola louvres roof tilt"
+  },
+  {
+    "file": "gateleg.js",
+    "c": "home",
+    "t": "Gateleg table",
+    "g": "gateleg table drop leaf swing leg"
+  },
+  {
+    "file": "weatherballoon.js",
+    "c": "weather",
+    "t": "Weather balloon",
+    "g": "weather balloon radiosonde launch"
+  },
+  {
+    "file": "barrelorgan.js",
+    "c": "music",
+    "t": "Barrel organ",
+    "g": "barrel organ crank pipes street"
+  },
+  {
+    "file": "magiclantern.js",
+    "c": "retro",
+    "t": "Magic lantern",
+    "g": "magic lantern slide carrier lens chimney"
+  },
+  {
+    "file": "stereoscope.js",
+    "c": "retro",
+    "t": "Stereoscope",
+    "g": "stereoscope card holder slide viewer"
+  },
+  {
+    "file": "mutoscope.js",
+    "c": "retro",
+    "t": "Mutoscope",
+    "g": "mutoscope crank flip cards viewer"
+  },
+  {
+    "file": "differenceengine.js",
+    "c": "science",
+    "t": "Difference engine",
+    "g": "difference engine crank columns gears"
   }
 ]
