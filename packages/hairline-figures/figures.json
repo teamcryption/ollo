@@ -12688,5 +12688,95 @@
     "c": "city",
     "t": "Swing bridge",
     "g": "swing bridge deck pivot rotate"
+  },
+  {
+    "file": "steeldrum.js",
+    "c": "music",
+    "t": "Steel drum",
+    "g": "steel pan drum stand mallets"
+  },
+  {
+    "file": "frenchhorn.js",
+    "c": "music",
+    "t": "French horn",
+    "g": "french horn rotary valve lever coiled"
+  },
+  {
+    "file": "timpani.js",
+    "c": "music",
+    "t": "Timpani",
+    "g": "timpani kettle drum pedal head"
+  },
+  {
+    "file": "doublebass.js",
+    "c": "music",
+    "t": "Double bass",
+    "g": "double bass bow strings endpin"
+  },
+  {
+    "file": "clarinet.js",
+    "c": "music",
+    "t": "Clarinet",
+    "g": "clarinet keys rings bell reed"
+  },
+  {
+    "file": "trumpet.js",
+    "c": "music",
+    "t": "Trumpet",
+    "g": "trumpet valves pistons press bell"
+  },
+  {
+    "file": "trolleybus.js",
+    "c": "vehicle",
+    "t": "Trolleybus",
+    "g": "trolleybus poles raise wires"
+  },
+  {
+    "file": "articulated.js",
+    "c": "vehicle",
+    "t": "Articulated lorry",
+    "g": "articulated lorry trailer swing kingpin"
+  },
+  {
+    "file": "monstertruck.js",
+    "c": "vehicle",
+    "t": "Monster truck",
+    "g": "monster truck suspension big wheels bounce"
+  },
+  {
+    "file": "dunebuggy.js",
+    "c": "vehicle",
+    "t": "Dune buggy",
+    "g": "dune buggy roll cage steer wheels"
+  },
+  {
+    "file": "pennyfarthing.js",
+    "c": "vehicle",
+    "t": "Penny-farthing",
+    "g": "penny farthing big wheel pedals"
+  },
+  {
+    "file": "cargobike.js",
+    "c": "vehicle",
+    "t": "Cargo bike",
+    "g": "cargo bike front box lid"
+  },
+  {
+    "file": "pedicab.js",
+    "c": "vehicle",
+    "t": "Cycle rickshaw",
+    "g": "cycle rickshaw hood fold pedal"
+  },
+  {
+    "file": "sleigh.js",
+    "c": "vehicle",
+    "t": "Sleigh",
+    "g": "sleigh runners curl seat"
+  },
+  {
+    "file": "dogsled.js",
+    "c": "vehicle",
+    "t": "Dog sled",
+    "g": "dog sled handlebar brake runners"
   }
 ]
