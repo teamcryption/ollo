@@ -12964,5 +12964,35 @@
     "c": "vehicle",
     "t": "Dirt bike",
     "g": "dirt bike suspension forks compress wheelie"
+  },
+  {
+    "file": "manurespreader.js",
+    "c": "farm",
+    "t": "Manure spreader",
+    "g": "manure spreader beaters rotate trailer"
+  },
+  {
+    "file": "balewrapper.js",
+    "c": "farm",
+    "t": "Bale wrapper",
+    "g": "bale wrapper arm rotate film"
+  },
+  {
+    "file": "tippertrailer.js",
+    "c": "farm",
+    "t": "Tipping trailer",
+    "g": "tipping trailer body raise tailgate"
+  },
+  {
+    "file": "cementsilo.js",
+    "c": "construction",
+    "t": "Cement silo",
+    "g": "cement silo legs hopper valve"
+  },
+  {
+    "file": "lighttower.js",
+    "c": "construction",
+    "t": "Light tower",
+    "g": "mobile light tower mast extend lamps"
   }
 ]
