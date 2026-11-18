@@ -12628,5 +12628,65 @@
     "c": "vehicle",
     "t": "Railway turntable",
     "g": "railway turntable locomotive pit rotate"
+  },
+  {
+    "file": "jackhammer.js",
+    "c": "tools",
+    "t": "Jackhammer",
+    "g": "jackhammer pneumatic drill chisel"
+  },
+  {
+    "file": "scaffoldtower.js",
+    "c": "construction",
+    "t": "Scaffold tower",
+    "g": "mobile scaffold tower platform wheels"
+  },
+  {
+    "file": "skiplorry.js",
+    "c": "vehicle",
+    "t": "Skip lorry",
+    "g": "skip lorry arms lift skip"
+  },
+  {
+    "file": "watertower.js",
+    "c": "city",
+    "t": "Water tower",
+    "g": "water tower tank legs hatch"
+  },
+  {
+    "file": "dredger.js",
+    "c": "marine",
+    "t": "Dredger",
+    "g": "dredger bucket ladder chain"
+  },
+  {
+    "file": "liftbridge.js",
+    "c": "city",
+    "t": "Vertical lift bridge",
+    "g": "vertical lift bridge towers deck rise"
+  },
+  {
+    "file": "heliostat.js",
+    "c": "science",
+    "t": "Heliostat mirror",
+    "g": "heliostat solar mirror tracking tilt"
+  },
+  {
+    "file": "tunnelboring.js",
+    "c": "construction",
+    "t": "Tunnel boring machine",
+    "g": "tunnel boring machine cutter head rotate"
+  },
+  {
+    "file": "radarmast.js",
+    "c": "air",
+    "t": "Radar antenna",
+    "g": "radar antenna dish rotate sweep mast"
+  },
+  {
+    "file": "swingbridge.js",
+    "c": "city",
+    "t": "Swing bridge",
+    "g": "swing bridge deck pivot rotate"
   }
 ]
