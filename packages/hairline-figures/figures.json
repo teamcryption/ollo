@@ -12346,5 +12346,71 @@
     "c": "vehicle",
     "t": "Ice cream van",
     "g": "ice cream van serving hatch awning"
+  },
+  {
+    "file": "fueltanker.js",
+    "c": "vehicle",
+    "t": "Fuel tanker",
+    "g": "fuel tanker hose reel tank"
+  },
+  {
+    "file": "cartransporter.js",
+    "c": "vehicle",
+    "t": "Car transporter",
+    "g": "car transporter upper deck tilt ramp"
+  },
+  {
+    "file": "horsebox.js",
+    "c": "vehicle",
+    "t": "Horse box",
+    "g": "horse box ramp door trailer"
+  },
+  {
+    "file": "snowplough.js",
+    "c": "vehicle",
+    "t": "Snow plough",
+    "g": "snow plough blade angle truck"
+  },
+  {
+    "file": "gritter.js",
+    "c": "vehicle",
+    "t": "Gritter lorry",
+    "g": "gritter spinner spread salt"
+  },
+  {
+    "file": "jeep.js",
+    "c": "vehicle",
+    "t": "Off-road jeep",
+    "g": "off road jeep spare wheel tailgate"
+  },
+  {
+    "file": "steamtrain.js",
+    "c": "vehicle",
+    "t": "Steam locomotive",
+    "g": "steam locomotive driving wheels coupling rods"
+  },
+  {
+    "file": "handcar.js",
+    "c": "vehicle",
+    "t": "Railway handcar",
+    "g": "railway handcar pump lever"
+  },
+  {
+    "file": "convertible.js",
+    "c": "vehicle",
+    "t": "Convertible car",
+    "g": "convertible soft top roof fold"
+  },
+  {
+    "file": "vintagecar.js",
+    "c": "vehicle",
+    "t": "Vintage car",
+    "g": "vintage car crank start bonnet"
+  },
+  {
+    "file": "racecar.js",
+    "c": "vehicle",
+    "t": "Race car",
+    "g": "race car rear wing drs"
   }
 ]
