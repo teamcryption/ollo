@@ -13552,5 +13552,53 @@
     "c": "medieval",
     "t": "Treadwheel crane",
     "g": "treadwheel crane wheel jib rope"
+  },
+  {
+    "file": "salamander.js",
+    "c": "kitchen",
+    "t": "Salamander grill",
+    "g": "salamander grill head lift rack"
+  },
+  {
+    "file": "ropemaker.js",
+    "c": "craft",
+    "t": "Rope-making machine",
+    "g": "rope maker hooks crank twist strands"
+  },
+  {
+    "file": "linotype.js",
+    "c": "retro",
+    "t": "Linotype machine",
+    "g": "linotype keyboard elevator matrix magazine"
+  },
+  {
+    "file": "cottongin.js",
+    "c": "farm",
+    "t": "Cotton gin",
+    "g": "cotton gin crank roller saws lint"
+  },
+  {
+    "file": "spinningjenny.js",
+    "c": "textile",
+    "t": "Spinning jenny",
+    "g": "spinning jenny wheel carriage spindles"
+  },
+  {
+    "file": "doughsheeter.js",
+    "c": "bakery",
+    "t": "Dough sheeter",
+    "g": "dough sheeter rollers belts wings fold"
+  },
+  {
+    "file": "sausagefiller.js",
+    "c": "kitchen",
+    "t": "Sausage stuffer",
+    "g": "sausage stuffer crank plunger cylinder nozzle"
+  },
+  {
+    "file": "softserve.js",
+    "c": "dessert",
+    "t": "Soft-serve machine",
+    "g": "soft serve machine lever nozzle cone"
   }
 ]
