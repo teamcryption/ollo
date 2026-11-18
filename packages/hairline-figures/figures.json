@@ -13498,5 +13498,59 @@
     "c": "science",
     "t": "Difference engine",
     "g": "difference engine crank columns gears"
+  },
+  {
+    "file": "pantograph.js",
+    "c": "design",
+    "t": "Drawing pantograph",
+    "g": "pantograph linkage arms stylus pen copy"
+  },
+  {
+    "file": "planimeter.js",
+    "c": "science",
+    "t": "Planimeter",
+    "g": "planimeter tracer arm pole wheel area"
+  },
+  {
+    "file": "watercrane.js",
+    "c": "railway",
+    "t": "Water crane",
+    "g": "railway water crane column arm swing"
+  },
+  {
+    "file": "wagontippler.js",
+    "c": "railway",
+    "t": "Wagon tippler",
+    "g": "wagon tippler rotary dumper rings wagon"
+  },
+  {
+    "file": "stampmill.js",
+    "c": "industry",
+    "t": "Stamp mill",
+    "g": "stamp mill cams stems stamps ore"
+  },
+  {
+    "file": "railcrane.js",
+    "c": "railway",
+    "t": "Railway crane",
+    "g": "railway breakdown crane jib wagon"
+  },
+  {
+    "file": "coalingtower.js",
+    "c": "railway",
+    "t": "Coaling tower",
+    "g": "coaling tower chute apron coal"
+  },
+  {
+    "file": "derrick.js",
+    "c": "industry",
+    "t": "Guy derrick",
+    "g": "guy derrick mast boom hoist"
+  },
+  {
+    "file": "treadwheel.js",
+    "c": "medieval",
+    "t": "Treadwheel crane",
+    "g": "treadwheel crane wheel jib rope"
   }
 ]
