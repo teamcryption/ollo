@@ -12130,5 +12130,77 @@
     "c": "vehicle",
     "t": "Tandem bike",
     "g": "tandem bicycle two seats pedals"
+  },
+  {
+    "file": "gimbal.js",
+    "c": "av",
+    "t": "Phone gimbal",
+    "g": "phone gimbal stabiliser arm fold"
+  },
+  {
+    "file": "slideviewer.js",
+    "c": "av",
+    "t": "Slide projector",
+    "g": "carousel slide projector tray"
+  },
+  {
+    "file": "cassette2.js",
+    "c": "av",
+    "t": "Personal cassette player",
+    "g": "walkman cassette lid headphones"
+  },
+  {
+    "file": "maracas.js",
+    "c": "music",
+    "t": "Maracas",
+    "g": "maraca shake handle"
+  },
+  {
+    "file": "triangle3.js",
+    "c": "music",
+    "t": "Triangle",
+    "g": "triangle instrument beater ring"
+  },
+  {
+    "file": "nutcracker.js",
+    "c": "kitchen",
+    "t": "Nutcracker",
+    "g": "nutcracker lever jaw walnut"
+  },
+  {
+    "file": "alarmclock2.js",
+    "c": "home",
+    "t": "Twin bell alarm clock",
+    "g": "alarm clock bells hammer ring"
+  },
+  {
+    "file": "skateboard.js",
+    "c": "sports",
+    "t": "Skateboard",
+    "g": "skateboard deck trucks wheels kick"
+  },
+  {
+    "file": "windsurf.js",
+    "c": "sports",
+    "t": "Windsurf board",
+    "g": "windsurf sail mast tilt"
+  },
+  {
+    "file": "toboggan.js",
+    "c": "sports",
+    "t": "Toboggan",
+    "g": "toboggan sled curl front rope"
+  },
+  {
+    "file": "photocopier.js",
+    "c": "office",
+    "t": "Photocopier",
+    "g": "copier lid scan glass"
+  },
+  {
+    "file": "carwash.js",
+    "c": "vehicle",
+    "t": "Car wash",
+    "g": "car wash brushes arch rotate"
   }
 ]

@@ -1,112 +1,108 @@
 /**
- * Car wash: a wash bay with a car body parked in the middle and two tall
- * rotating brushes, each hanging from a carriage on its own overhead gantry
- * rail, one on either side of the car. The pointer sets where along the car
- * the wash is: both brushes travel toward its x on springs, the brush on the
- * pointer's side further, and they spin only while they travel, the near one
- * faster. At rest the brushes stand apart, the far one bright. The slider is
- * the spring's stiffness.
+ * Car wash: a car parked on a wash bay, and over it a gantry arch on two
+ * legs carrying a pair of tall side brushes and one long top brush. The
+ * pointer over the bay sends the arch rolling along the car, its brushes
+ * spinning as it goes; leaving rolls it back to its rest at the car's nose,
+ * its beam bright. The slider is how far the arch travels.
  *
- * The pattern: a continuous aim (one spring per brush); the side is picked on
- * the bay floor's plane, which never moves.
+ * The pattern: one part answering the whole figure (hover in a fixed box).
  */
 const {
-  Cam, circ, clamp, facing, fit, prism, proj, rings, seg, unproj, spring, stepS,
+  Cam, circ, facing, fit, hull, poly, prism, proj, rings, seg, tdone, tset, tval, tween,
   disposer, mk, pointer, put, register, solid,
 } = HL;
 
-const LX = 44, SIDE = 21, BR = 5, TOP = 40, REST = [-24, 18], FAV = 0;
-const disc = (x, y, r, n = 28) => circ(r, n).map((q) => ({ ...q, u: q.u + x, v: q.v + y }));
+const FX = 52, FY = 30, LY = 25, TOP = 38, REST = -34;
+const disc = (x, y, r, n = 24) => circ(r, n).map((q) => ({ ...q, u: q.u + x, v: q.v + y }));
 
 function mount({ stage, svg, read }, value) {
   const bag = disposer();
-  const C = Cam(45, 0.5, 2.15);
-  fit(C, [[-LX - 4, -SIDE - 8, 0], [LX + 4, SIDE + 8, 0], [-LX - 4, SIDE + 8, 0], [LX + 4, -SIDE - 8, 0], [-LX, -SIDE, TOP + 4], [LX, SIDE, TOP + 4]], 200, 170);
+  let reach = value;
+  const C = Cam(45, 0.5, 2.25);
+  const ext = [[-FX, -FY, 0], [FX, FY, 0], [-FX, FY, 0], [FX, -FY, 0], [REST, -LY, TOP + 4], [REST + 80, LY, TOP + 4], [REST, LY, TOP + 4]];
+  fit(C, ext, 200, 168);
   const P = proj(C), front = facing(C);
   const g = mk("g", {}, svg);
-  const [fr, fi] = rings(-LX - 4, -SIDE - 8, LX + 4, SIDE + 8, 4, 1.4);
-  put(solid(g), prism(P, front, fr, fi, -2, 0));
+  const blk = (par, x0, y0, x1, y1, r, b, z0, z1) => { const [o, i] = rings(x0, y0, x1, y1, r, b); put(solid(par), prism(P, front, o, i, z0, z1)); };
+  blk(g, -FX, -FY, FX, FY, 5, 1.6, -2.5, 0);                     // bay floor
+  mk("path", { class: "nf dash", d: seg(P(-FX + 6, -LY, 0), P(FX - 6, -LY, 0)) + seg(P(-FX + 6, LY, 0), P(FX - 6, LY, 0)) }, g);
+  const far = mk("g", {}, svg);
+  const car = mk("g", {}, svg);
+  for (const x of [-16, 16]) for (const y of [-11.4, 11.4]) put(solid(car), prism(P, front, disc(x, y, 3, 16), null, 0, 3));
+  blk(car, -27, -11, 27, 11, 6, 1.6, 3, 13);                     // car body
+  blk(car, -12, -9, 12, 9, 5, 1.4, 13, 21);                      // cabin
+  const near = mk("g", {}, svg), topg = mk("g", {}, svg);
+  const S = (par) => solid(par);
+  const legF = S(far), brF = S(far), legN = S(near), brN = S(near), tbr = S(topg), beam = S(topg);
+  beam.sil.classList.add("hi");
+  const marks = [brF, brN, tbr].map((s) => mk("path", { class: "nf lo" }, s.g));
 
-  const rail = (y, parent) => {
-    for (const x of [-LX, LX]) put(solid(parent), prism(P, front, disc(x, y, 1.4, 16), null, 0, TOP));
-    const [r, i] = rings(-LX - 2, y - 2, LX + 2, y + 2, 1.2, 0.6);
-    put(solid(parent), prism(P, front, r, i, TOP, TOP + 3));
-  };
-  const brushes = [-SIDE + 2, SIDE - 2].map((y, k) => ({ k, y, sp: spring(REST[k], { k: 100 * value, c: 18 * Math.sqrt(value) }), phase: k * 0.7, drawn: "" }));
-  const mkBrush = (b) => {
-    b.grp = mk("g", {}, g);
-    b.car = solid(b.grp); b.body = solid(b.grp);
-    b.bristles = mk("path", { class: "nf lo" }, b.grp);
-  };
-  // far rail and brush, the car, then the near brush and rail
-  rail(-SIDE - 2, g);
-  mkBrush(brushes[0]);
-  const [lr, li] = rings(-26, -11, 26, 11, 6, 1.6);
-  put(solid(g), prism(P, front, lr, li, 2.5, 13));
-  const [cr, ci] = rings(-12, -9, 12, 9, 5, 1.4);
-  put(solid(g), prism(P, front, cr, ci, 13, 21));
-  for (const x of [-16, 16]) for (const y of [-11.2, 11.2]) put(solid(g), prism(P, front, disc(x, y, 0.9, 12).map((q) => q), null, 0, 2.5));
-  mkBrush(brushes[1]);
-  rail(SIDE + 2, g);
-
-  function draw(b) {
-    const x = b.sp.x, key = x.toFixed(2) + "," + b.phase.toFixed(3);
-    if (key === b.drawn) return;
-    b.drawn = key;
-    const sy = b.k === 0 ? -SIDE - 2 : SIDE + 2;
-    const [r, i] = rings(x - 3, sy - 3, x + 3, sy + 3, 1.2, 0.6);
-    put(b.car, prism(P, front, r, i, TOP - 4, TOP));
-    put(b.body, prism(P, front, disc(x, b.y, BR), disc(x, b.y, BR - 1.2), 3, TOP - 5));
+  const a = tween(REST);
+  let last = NaN;
+  function vbrush(s, m, x, y, ph) {
+    put(s, prism(P, front, disc(x, y, 4.8), disc(x, y, 3.8), 4, TOP - 1));
     let d = "";
-    for (let j = 0; j < 8; j++) {
-      const a = b.phase + (j / 8) * Math.PI * 2, nx = Math.cos(a), ny = Math.sin(a);
-      if (nx + ny < 0.3) continue;
-      d += seg(P(x + BR * nx, b.y + BR * ny, 5), P(x + BR * nx, b.y + BR * ny, TOP - 7));
+    for (let k = 0; k < 6; k++) {
+      const q = ph + (k * Math.PI) / 3, nx = Math.cos(q), ny = Math.sin(q);
+      if (nx + ny > 0.2) d += seg(P(x + 4.8 * nx, y + 4.8 * ny, 7), P(x + 4.8 * nx, y + 4.8 * ny, TOP - 4));
     }
-    b.bristles.setAttribute("d", d);
+    m.setAttribute("d", d);
   }
-  let side = -1;
-  const B = register(stage, (dt) => {
-    let m = false;
-    for (const b of brushes) {
-      if (stepS(b.sp, dt)) { m = true; b.phase += dt * Math.abs(b.sp.v) * (b.k === side ? 0.5 : 0.25); }
-      draw(b);
+  function draw(x) {
+    if (x === last) return;
+    last = x;
+    const ph = x * 0.18;
+    for (const [leg, y] of [[legF, -LY], [legN, LY]]) {
+      const [o, i] = rings(x - 3, y - 3, x + 3, y + 3, 1.4, 0.7);
+      put(leg, prism(P, front, o, i, 0, TOP));
     }
-    return m;
+    vbrush(brF, marks[0], x, -LY + 8, ph);
+    vbrush(brN, marks[1], x, LY - 8, -ph);
+    const [o, i] = rings(x - 4, -LY - 4, x + 4, LY + 4, 2, 1);
+    put(beam, prism(P, front, o, i, TOP, TOP + 4));
+    const pts = [];
+    for (const y of [-13, 13]) for (let k = 0; k < 16; k++) { const q = (k / 16) * Math.PI * 2; pts.push(P(x + 5 * Math.cos(q), y, 31 + 5 * Math.sin(q))); }
+    tbr.sil.setAttribute("d", poly(hull(pts)));
+    tbr.cr.setAttribute("d", "");
+    let d = "";
+    for (let k = 0; k < 6; k++) {
+      const q = ph + (k * Math.PI) / 3, nx = Math.cos(q), nz = Math.sin(q);
+      if (nx + nz > 0.1) d += seg(P(x + 5 * nx, -11, 31 + 5 * nz), P(x + 5 * nx, 11, 31 + 5 * nz));
+    }
+    marks[2].setAttribute("d", d);
+  }
+
+  const B = register(stage, (_dt, now) => {
+    const x = tval(a, now);
+    draw(x);
+    return !tdone(a, now);
   });
   bag.add(B.unregister);
 
-  function setPointer(w) {
-    side = w ? (w[1] < 0 ? 0 : 1) : -1;
-    for (const b of brushes) {
-      const lo = b.k === 0 ? -LX + 6 : -LX + 14, hi = b.k === 0 ? LX - 14 : LX - 6;
-      b.sp.t = w ? clamp(w[0] + (b.k === side ? 0 : (b.k === 0 ? -8 : 8)), lo, hi) : REST[b.k];
-      b.body.sil.classList.toggle("hi", b.k === (w ? side : FAV));
-    }
-    read.textContent = w ? "brush " + (side + 1) : "rest";
+  // the hit: a fixed screen box around the bay and the arch at rest
+  const sp = ext.map((q) => P(...q));
+  const xs = sp.map((q) => q[0]), ys = sp.map((q) => q[1]);
+  const inBox = ([sx, sy]) => sx > Math.min(...xs) && sx < Math.max(...xs) && sy > Math.min(...ys) && sy < Math.max(...ys);
+
+  let on = null;
+  function setOn(v) {
+    if (v === on) return;
+    on = v;
+    tset(a, v ? REST + reach : REST, performance.now(), 0);
+    read.textContent = v ? "wash" : "rest";
     B.wake();
   }
-  bag.add(pointer(stage, {
-    move: (p) => {
-      const w = unproj(C, p[0], p[1], 0);
-      setPointer(Math.abs(w[0]) > LX + 10 || Math.abs(w[1]) > SIDE + 14 ? null : w);
-    },
-    leave: () => setPointer(null),
-  }));
+  setOn(false);
+  bag.add(pointer(stage, { move: (p) => setOn(inBox(p)), leave: () => setOn(false) }));
   bag.add(() => svg.replaceChildren());
-  setPointer(null);
-  for (const b of brushes) draw(b);
-  return {
-    set: (v) => { for (const b of brushes) { b.sp.k = 100 * v; b.sp.c = 18 * Math.sqrt(v); } },
-    destroy: bag.dispose,
-  };
+  return { set: (v) => { reach = v; if (on) { tset(a, REST + v, performance.now(), 0); B.wake(); } }, destroy: bag.dispose };
 }
 
 hairline({
   name: "carwash",
-  means: "A car wash bay: two tall brushes travel along the car toward the pointer and spin while they move, the near one faster.",
-  rules: [1, 3, 5, 8],
-  range: [0.5, 1, 1.6],
-  tour: [[150, 150], [240, 190], [200, 230], null],
+  means: "A car wash: the gantry arch with its spinning brushes rolls along the parked car under the pointer, and back on leaving.",
+  rules: [1, 3, 5, 6, 8],
+  range: [30, 55, 80],
+  tour: [[200, 170], [230, 190], [170, 150], null],
   mount,
 });
