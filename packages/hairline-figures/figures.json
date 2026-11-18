@@ -13600,5 +13600,59 @@
     "c": "dessert",
     "t": "Soft-serve machine",
     "g": "soft serve machine lever nozzle cone"
+  },
+  {
+    "file": "slitlamp.js",
+    "c": "medical",
+    "t": "Slit lamp",
+    "g": "slit lamp microscope arm chin rest swing"
+  },
+  {
+    "file": "rollator.js",
+    "c": "medical",
+    "t": "Rollator",
+    "g": "rollator walker seat fold wheels brakes"
+  },
+  {
+    "file": "tractionframe.js",
+    "c": "medical",
+    "t": "Traction frame",
+    "g": "traction frame pulley weight cord bed"
+  },
+  {
+    "file": "mammography.js",
+    "c": "medical",
+    "t": "Mammography unit",
+    "g": "mammography compression paddle column"
+  },
+  {
+    "file": "treespade.js",
+    "c": "forestry",
+    "t": "Tree spade",
+    "g": "tree spade blades plunge root ball"
+  },
+  {
+    "file": "tedder.js",
+    "c": "farm",
+    "t": "Hay tedder",
+    "g": "hay tedder rotors tines fold wings"
+  },
+  {
+    "file": "harrow.js",
+    "c": "farm",
+    "t": "Folding harrow",
+    "g": "harrow wings fold tines frame"
+  },
+  {
+    "file": "postholedigger.js",
+    "c": "garden",
+    "t": "Post hole digger",
+    "g": "post hole digger clamshell handles blades"
+  },
+  {
+    "file": "milkingrobot.js",
+    "c": "farm",
+    "t": "Milking robot",
+    "g": "milking robot arm cups stall"
   }
 ]
