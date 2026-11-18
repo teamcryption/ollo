@@ -12514,5 +12514,59 @@
     "c": "air",
     "t": "Business jet",
     "g": "business jet airstair door fold"
+  },
+  {
+    "file": "bumpercar.js",
+    "c": "fairground",
+    "t": "Bumper car",
+    "g": "bumper car pole steer"
+  },
+  {
+    "file": "teacups.js",
+    "c": "fairground",
+    "t": "Teacup ride",
+    "g": "teacup ride spin cup"
+  },
+  {
+    "file": "droptower.js",
+    "c": "fairground",
+    "t": "Drop tower",
+    "g": "drop tower seats ring rise fall"
+  },
+  {
+    "file": "ferriswheel.js",
+    "c": "fairground",
+    "t": "Ferris wheel",
+    "g": "ferris wheel gondolas rotate"
+  },
+  {
+    "file": "carousel3.js",
+    "c": "fairground",
+    "t": "Carousel",
+    "g": "carousel horses canopy rotate"
+  },
+  {
+    "file": "rollercoaster.js",
+    "c": "fairground",
+    "t": "Roller coaster car",
+    "g": "roller coaster car lift hill track"
+  },
+  {
+    "file": "pendulumride.js",
+    "c": "fairground",
+    "t": "Pendulum ride",
+    "g": "pendulum ride arm swing gondola"
+  },
+  {
+    "file": "swingride.js",
+    "c": "fairground",
+    "t": "Chair swing ride",
+    "g": "chair swing ride tilt rotate"
+  },
+  {
+    "file": "helterskelter.js",
+    "c": "fairground",
+    "t": "Helter skelter",
+    "g": "helter skelter spiral slide tower"
   }
 ]
