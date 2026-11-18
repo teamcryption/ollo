@@ -267,13 +267,14 @@ function hlStyles(raw) {
 if (hairline) {
   // The live figures replace the first five samples, which were drawn before the Hairline style.
   illustrations.length = 0;
-  for (const f of JSON.parse(fs.readFileSync(path.join(HL_DIR, 'figures.json'), 'utf8'))) {
+  // figures.json is in creation order (addbatch.mjs appends), so its position is 'added': higher = newer.
+  for (const [added, f] of JSON.parse(fs.readFileSync(path.join(HL_DIR, 'figures.json'), 'utf8')).entries()) {
     const name = f.file.replace(/\.js$/, '');
     const svgFile = path.join(HL_DIR, 'dist', `${name}.svg`);
     if (!fs.existsSync(svgFile) || !hairline.figures[name]) continue;
     // Stroke only: the site derives Fill and Duotone in the browser (lib/data.ts hairlineStyles), which keeps
     // illustrations.json to a third of the size.
-    illustrations.push({ n: name, t: f.t, c: f.c, g: f.g ?? '', types: { stroke: hlStyles(fs.readFileSync(svgFile, 'utf8')).stroke }, motion: null, live: 1 });
+    illustrations.push({ n: name, t: f.t, c: f.c, g: f.g ?? '', types: { stroke: hlStyles(fs.readFileSync(svgFile, 'utf8')).stroke }, motion: null, live: 1, a: added });
   }
 }
 

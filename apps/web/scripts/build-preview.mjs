@@ -41,6 +41,7 @@ const css = [
   read('subscribe.css'),
   read('account.css'),
   read('landing.css'),
+  read('motion.css'),
 ].join('\n');
 
 const fonts =

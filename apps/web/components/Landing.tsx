@@ -2,7 +2,8 @@
 // Landing page, built from Figma landing v1 (file NqyRMhIekr7P5eCV0kvX4m, "Desktop · Landing · Light"
 // 149:9888 and "iPhone 14 · Landing · Light" 156:11302) as tweaked by Abdur. Every visual uses the
 // real library: icons in each style, illustrations, motion and live figures. Counts come from the data.
-import { useEffect, useMemo, useState, type FormEvent, type ReactNode } from 'react';
+import { useEffect, useMemo, useRef, useState, type FormEvent, type ReactNode } from 'react';
+import { CountUp, Roll, useInView, useReveal, useSmoothScroll, Words } from '@/lib/motion';
 import { initials, PRO_BATCHES, useAccount, type Plan } from '@/lib/account';
 import {
   animatedIconSvg,
@@ -65,8 +66,12 @@ export function Landing(p: Props) {
           current: a?.plan === id || (id === 'pro' && a?.plan === 'lifetime'),
         };
 
+  const root = useRef<HTMLDivElement>(null);
+  useReveal(root, [p.index, p.illustrations, a]);
+  useSmoothScroll();
+
   return (
-    <div className="landing">
+    <div className="landing" ref={root}>
       <a className="lp-bar" href="#library">
         {latest > 0 && <span className="badge-new">BATCH {latest}</span>}
         <span>
@@ -84,16 +89,16 @@ export function Landing(p: Props) {
         </a>
         <div className="lp-links only-desktop">
           {[
-            ['Icons', 'library'],
-            ['Illustrations', 'library?mode=illustrations'],
-            ['Animated', 'library?mode=animated'],
-            ['Figma plugin', 'figma'],
-            ['Developers', 'docs'],
-            ['Pricing', 'subscribe'],
-            ['Changelog', 'library'],
-          ].map(([l, h]) => (
-            <a key={l} className="btn btn-ghost btn-sm" href={`#${h}`}>
-              {l}
+            ['Icons', 'icons'],
+            ['Illustrations', 'illustrations'],
+            ['Animated', 'animated'],
+            ['Figma plugin', 'figma-plugin'],
+            ['Developers', 'developers'],
+            ['Pricing', 'pricing'],
+            ['FAQ', 'faq'],
+          ].map(([l, id]) => (
+            <a key={l} className="btn btn-ghost btn-sm" href={`#home`} onClick={(e) => (e.preventDefault(), toSection(id))}>
+              <Roll text={l} />
             </a>
           ))}
         </div>
@@ -112,7 +117,9 @@ export function Landing(p: Props) {
           )}
           <a className="btn btn-primary btn-md" href="#library">
             <UiIcon name="arrow-up-right" size={18} />
-            <span className="only-wide">Browse library</span>
+            <span className="only-wide">
+              <Roll text="Browse library" />
+            </span>
             <span className="only-phone">Browse</span>
           </a>
         </div>
@@ -128,16 +135,22 @@ export function Landing(p: Props) {
           ['5', 'icon styles, one system'],
           ['3', 'illustration types'],
           ['Weekly', 'new batches, free updates'],
-        ].map(([n, l]) => (
-          <div key={l}>
-            <b>{n}</b>
+        ].map(([n, l], i) => (
+          <div key={l} className="rv" data-reveal="" style={{ ['--i' as string]: i }}>
+            <b>
+              <CountUp value={n} />
+            </b>
             <span>{l}</span>
           </div>
         ))}
       </section>
 
       <section className="lp-works" aria-label="Works with">
-        <span className="eyebrow is-muted">WORKS WITH</span>
+        <span className="lp-works-label">WORKS WITH</span>
+        <div className="lp-marquee">
+          <div className="lp-marquee-track">
+        {[0, 1].map((copy) => (
+          <span key={copy} className="lp-marquee-set" aria-hidden={copy === 1 || undefined}>
         {(
           [
             [['figma'], 'Figma'],
@@ -151,12 +164,18 @@ export function Landing(p: Props) {
           ] as [BrandId[], string][]
         ).map(([marks, l]) => (
           <span key={l} className="lp-pill">
-            {marks.map((m) => (
-              <BrandMark key={m} id={m} />
-            ))}
+            <span className="lp-pill-marks">
+              {marks.map((m) => (
+                <BrandMark key={m} id={m} />
+              ))}
+            </span>
             {l}
           </span>
         ))}
+          </span>
+        ))}
+          </div>
+        </div>
       </section>
 
       <IconsSection svgs={allSvgs} icons={icons} />
@@ -173,35 +192,7 @@ export function Landing(p: Props) {
       <Faq />
 
       <section className="lp-section lp-final">
-        <div className="lp-final-card">
-          <div className="lp-final-icons" aria-hidden="true">
-            {(
-              [
-                ['home', 'light'],
-                ['bell', 'regular'],
-                ['heart', 'fill'],
-                ['folder', 'bold'],
-                ['chat', 'duotone'],
-              ] as [string, IconStyle][]
-            ).map(([n, s]) => (
-              <span key={n} className={n === 'heart' ? 'is-brand' : undefined}>
-                <LibIcon svg={allSvgs[`${n}:${s}`]} />
-              </span>
-            ))}
-          </div>
-          <h2>Ship screens that look finished.</h2>
-          <p>Start with every icon in Light and Regular, free forever. Upgrade for motion, every style and every illustration type.</p>
-          <div className="lp-ctas">
-            <a className="btn btn-primary btn-lg" href="#library">
-              <UiIcon name="arrow-up-right" size={18} />
-              Browse the library
-            </a>
-            <a className="btn btn-outline btn-lg" href="#pricing" onClick={(e) => (e.preventDefault(), document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' }))}>
-              See pricing
-            </a>
-          </div>
-          <Ticks items={['Commercial licence', 'Pay once, keep it forever', 'New batches every week']} />
-        </div>
+        <FinalCta theme={p.theme} />
       </section>
 
       <footer className="lp-footer">
@@ -254,9 +245,15 @@ const Ticks = ({ items }: { items: string[] }) => (
 function Head({ eyebrow, title, sub, center }: { eyebrow: string; title: string; sub?: ReactNode; center?: boolean }) {
   return (
     <div className={`lp-head${center ? ' is-center' : ''}`}>
-      <span className="eyebrow">{eyebrow}</span>
-      <h2>{title}</h2>
-      {sub && <p>{sub}</p>}
+      <span className="eyebrow rv" data-reveal="">
+        {eyebrow}
+      </span>
+      <Words text={title} />
+      {sub && (
+        <p className="rv" data-reveal="" style={{ ['--i' as string]: 2 }}>
+          {sub}
+        </p>
+      )}
     </div>
   );
 }
@@ -264,8 +261,8 @@ function Head({ eyebrow, title, sub, center }: { eyebrow: string; title: string;
 function Points({ items }: { items: [string, string][] }) {
   return (
     <ul className="lp-points" role="list">
-      {items.map(([t, d]) => (
-        <li key={t}>
+      {items.map(([t, d], i) => (
+        <li key={t} className="rv" data-reveal="" style={{ ['--i' as string]: i + 1 }}>
           <span className="lp-check" aria-hidden="true">
             <UiIcon name="check" size={16} strokeWidth={2} />
           </span>
@@ -288,17 +285,17 @@ function Hero({ icons, ills, onSearch }: { icons: number; ills: number; onSearch
   };
   return (
     <section className="lp-hero">
-      <a className="lp-pill-new" href="#library?mode=illustrations">
+      <a className="lp-pill-new rv" data-reveal="" href="#library?mode=illustrations">
         <span className="badge-new">NEW</span>
         Live illustrations that follow the pointer and play as you scroll
         <UiIcon name="chevron-right" size={16} />
       </a>
-      <h1>Every icon and illustration your product needs.</h1>
-      <p className="lp-sub">
+      <Words as="h1" text="Every icon and illustration your product needs." delay={80} />
+      <p className="lp-sub rv" data-reveal="" style={{ ['--i' as string]: 4 }}>
         {fmt(Math.floor(icons / 1000) * 1000)}+ icons in five styles and {fmt(ills)} isometric illustrations, still, animated or
         interactive. One hand-drawn system, ready for Figma, React and your AI builder.
       </p>
-      <form className="lp-search" onSubmit={submit} role="search">
+      <form className="lp-search rv" data-reveal="" style={{ ['--i' as string]: 5 }} onSubmit={submit} role="search">
         <label className="search search-tablet">
           <UiIcon name="search" size={20} />
           <input
@@ -325,7 +322,7 @@ function Hero({ icons, ills, onSearch }: { icons: number; ills: number; onSearch
           ))}
         </div>
       </form>
-      <div className="lp-try">
+      <div className="lp-try rv" data-reveal="" style={{ ['--i' as string]: 6 }}>
         <span>Try</span>
         {['home', 'payment', 'empty state', 'onboarding', 'analytics', 'notification', 'dark mode'].map((t) => (
           <button key={t} className="chip" onClick={() => onSearch(t, mode)}>
@@ -333,16 +330,18 @@ function Hero({ icons, ills, onSearch }: { icons: number; ills: number; onSearch
           </button>
         ))}
       </div>
-      <div className="lp-ctas">
-        <a className="btn btn-primary btn-lg" href="#library">
+      <div className="lp-ctas rv" data-reveal="" style={{ ['--i' as string]: 7 }}>
+        <a className="btn btn-primary btn-lg btn-shine" href="#library">
           <UiIcon name="arrow-up-right" size={18} />
-          Browse {fmt(Math.floor(icons / 1000) * 1000)}+ free icons
+          <Roll text={`Browse ${fmt(Math.floor(icons / 1000) * 1000)}+ free icons`} />
         </a>
-        <a className="btn btn-outline btn-lg" href="#pricing" onClick={(e) => (e.preventDefault(), document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' }))}>
-          See plans · pay once from $49
+        <a className="btn btn-outline btn-lg" href="#home" onClick={(e) => (e.preventDefault(), toSection('pricing'))}>
+          <Roll text="See plans · pay once from $49" />
         </a>
       </div>
-      <Ticks items={['Light and Regular free forever', 'Commercial licence', '14-day refund']} />
+      <div className="rv" data-reveal="" style={{ ['--i' as string]: 8 }}>
+        <Ticks items={['Light and Regular free forever', 'Commercial licence', '14-day refund']} />
+      </div>
     </section>
   );
 }
@@ -368,7 +367,9 @@ function useShowcaseIllustrations(list: Illustration[] | null, n: number) {
     if (!list?.length) return [] as Illustration[];
     const seen = new Set<string>();
     const out: Illustration[] = [];
-    for (const it of list) {
+    // Newest first, so every new batch shows up on the landing page; one per category for variety.
+    const newest = [...list].sort((x, y) => (y.a ?? -1) - (x.a ?? -1));
+    for (const it of newest) {
       if (seen.has(it.c)) continue;
       seen.add(it.c);
       out.push(it);
@@ -402,6 +403,7 @@ function Showcase({
   const [size, setSize] = useState(24);
   const [copied, setCopied] = useState<string | null>('lock');
   const [type, setType] = useState<IllustrationType>('stroke');
+  const [hover, setHover] = useState<string | null>(null);
   const motion = useMotion();
   const [ill] = useShowcaseIllustrations(illustrations, 1);
   const copy = async (n: string) => {
@@ -414,7 +416,7 @@ function Showcase({
   return (
     <section className="lp-showcase" aria-label="What’s in ollo">
       <div className="lp-bento">
-        <div className="lp-card lp-icons-card">
+        <div className="lp-card lp-icons-card rv" data-reveal="">
           <div className="lp-card-head">
             <span>
               <b>Icons</b>
@@ -430,8 +432,20 @@ function Showcase({
           </div>
           <div className="lp-icon-grid">
             {SHOW.map((n) => (
-              <button key={n} className={`lp-tile${copied === n ? ' is-copied' : ''}`} onClick={() => copy(n)} aria-label={`Copy ${n} SVG`} style={{ ['--px' as string]: `${size + 8}px` }}>
-                <LibIcon svg={svgs[`${n}:${style}`]} />
+              <button
+                key={n}
+                className={`lp-tile${copied === n ? ' is-copied' : ''}`}
+                onClick={() => copy(n)}
+                onMouseEnter={() => setHover(n)}
+                onMouseLeave={() => setHover(null)}
+                aria-label={`Copy ${n} SVG`}
+                style={{ ['--px' as string]: `${size + 8}px` }}
+              >
+                {hover === n && motion?.[n] ? (
+                  <Animated svg={svgs[`${n}:${style}`]} spec={motion[n]} size={size + 8} colour={copied === n ? '#3A57FF' : theme === 'dark' ? '#F4F4F5' : '#171729'} />
+                ) : (
+                  <LibIcon svg={svgs[`${n}:${style}`]} />
+                )}
                 {copied === n && (
                   <span className="tile-check" aria-hidden="true">
                     <UiIcon name="check" size={14} strokeWidth={2} />
@@ -452,7 +466,7 @@ function Showcase({
           </div>
         </div>
 
-        <div className="lp-card lp-ill-card">
+        <div className="lp-card lp-ill-card rv" data-reveal="" style={{ ['--i' as string]: 1 }}>
           <div className="lp-card-head">
             <span>
               <b>Illustrations</b>
@@ -467,11 +481,15 @@ function Showcase({
             ))}
           </div>
           <div className="lp-ill-stage">
-            <IllView item={ill} type={type} theme={theme} />
+            {ill?.live ? (
+              <LiveIllustration key={ill.n + type} name={ill.n} mode="interactive" style={type} theme={theme} colour={null} tags={false} />
+            ) : (
+              <IllView item={ill} type={type} theme={theme} />
+            )}
           </div>
         </div>
 
-        <div className="lp-card lp-anim-card">
+        <div className="lp-card lp-anim-card rv" data-reveal="" style={{ ['--i' as string]: 2 }}>
           <div className="lp-card-head">
             <span>
               <b>Animated icons</b>
@@ -495,7 +513,7 @@ function Showcase({
           </div>
         </div>
 
-        <div className="lp-card lp-figma-card">
+        <div className="lp-card lp-figma-card rv" data-reveal="" style={{ ['--i' as string]: 3 }}>
           <div className="lp-figma-text">
             <span className="icon-chip">
               <FigmaMark />
@@ -535,7 +553,7 @@ function Showcase({
 
 function IconsSection({ svgs, icons }: { svgs: Record<string, string>; icons: number }) {
   return (
-    <section className="lp-section lp-split">
+    <section className="lp-section lp-split" id="icons">
       <div className="lp-copy">
         <Head
           eyebrow="ICONS"
@@ -551,10 +569,10 @@ function IconsSection({ svgs, icons }: { svgs: Record<string, string>; icons: nu
         />
         <a className="btn btn-outline btn-lg" href="#library">
           <UiIcon name="arrow-up-right" size={18} />
-          Browse all {fmt(icons)} icons
+          <Roll text={`Browse all ${fmt(icons)} icons`} />
         </a>
       </div>
-      <div className="lp-card lp-matrix">
+      <div className="lp-card lp-matrix rv" data-reveal="" style={{ ['--i' as string]: 1 }}>
         <div className="lp-matrix-row is-head">
           {STYLES.map(([s, l]) => (
             <span key={s}>
@@ -563,10 +581,10 @@ function IconsSection({ svgs, icons }: { svgs: Record<string, string>; icons: nu
             </span>
           ))}
         </div>
-        {['home', 'bell', 'heart', 'calendar', 'chat'].map((n) => (
+        {['home', 'bell', 'heart', 'calendar', 'chat'].map((n, r) => (
           <div key={n} className="lp-matrix-row">
-            {STYLES.map(([s]) => (
-              <span key={s}>
+            {STYLES.map(([s], c) => (
+              <span key={s} className="lp-cell" style={{ ['--r' as string]: r, ['--c' as string]: c }}>
                 <LibIcon svg={svgs[`${n}:${s}`]} />
               </span>
             ))}
@@ -591,12 +609,13 @@ function IllustrationsSection({ illustrations, industries, theme, ills }: { illu
   const picks = useShowcaseIllustrations(illustrations, 6).slice(1, 5);
   const types: [IllustrationType | 'animated', string][] = [
     ['stroke', 'STROKE'],
-    ['fill', 'FILL'],
-    ['duotone', 'DUOTONE'],
+    ['stroke', 'STROKE'],
+    ['stroke', 'STROKE'],
     ['animated', 'STROKE'],
   ];
+  // Cards 1–3 play as you scroll (the Scroll mode of the live figures); card 4 loops.
   return (
-    <section className="lp-section is-surface">
+    <section className="lp-section is-surface" id="illustrations">
       <Head
         center
         eyebrow="ILLUSTRATIONS"
@@ -605,14 +624,21 @@ function IllustrationsSection({ illustrations, industries, theme, ills }: { illu
       />
       <div className="lp-ill-cards">
         {picks.map((it, i) => (
-          <a key={it.n} className="lp-ill-item" href="#library?mode=illustrations">
+          <a key={it.n} className="lp-ill-item rv" data-reveal="" style={{ ['--i' as string]: i }} href="#library?mode=illustrations">
             <span className="lp-ill-frame">
-              {types[i][0] === 'animated' && it.live ? (
-                <LiveIllustration name={it.n} mode="animated" style="stroke" theme={theme} colour={null} tags={false} />
+              {it.live ? (
+                <LiveIllustration
+                  name={it.n}
+                  mode={types[i][0] === 'animated' ? 'animated' : 'scroll'}
+                  style={types[i][0] === 'animated' ? 'stroke' : (types[i][0] as IllustrationType)}
+                  theme={theme}
+                  colour={null}
+                  tags={false}
+                />
               ) : (
                 <IllView item={it} type={types[i][0] === 'animated' ? 'stroke' : (types[i][0] as IllustrationType)} theme={theme} />
               )}
-              {types[i][0] === 'animated' && <span className="badge-new lp-ill-tag">ANIMATED</span>}
+              <span className="badge-new lp-ill-tag">{types[i][0] === 'animated' ? 'ANIMATED' : 'SCROLL TO PLAY'}</span>
             </span>
             <span className="lp-ill-meta">
               <b>{it.t}</b>
@@ -621,7 +647,7 @@ function IllustrationsSection({ illustrations, industries, theme, ills }: { illu
           </a>
         ))}
       </div>
-      <div className="lp-industries">
+      <div className="lp-industries rv" data-reveal="">
         {[...industries].sort((x, y) => y.count - x.count).slice(0, 16).map((c) => (
           <a key={c.id} className="chip" href="#library?mode=illustrations">
             {c.title}
@@ -630,7 +656,7 @@ function IllustrationsSection({ illustrations, industries, theme, ills }: { illu
       </div>
       <a className="btn btn-primary btn-lg" href="#library?mode=illustrations">
         <UiIcon name="arrow-up-right" size={18} />
-        Browse {fmt(ills)} illustrations
+        <Roll text={`Browse ${fmt(ills)} illustrations`} />
       </a>
     </section>
   );
@@ -647,7 +673,7 @@ function MotionSection({ svgs, illustrations }: { svgs: Record<string, string>; 
       <div key="a" className="lp-motion-icons">
         {['bell', 'heart'].map((n) => (
           <span key={n} className="lp-tile is-static">
-            <Animated svg={svgs[`${n}:regular`]} spec={motion?.[n]} size={40} colour="#F4F4F5" />
+            <Animated svg={svgs[`${n}:regular`]} spec={motion?.[n]} size={32} colour="#171729" />
           </span>
         ))}
       </div>,
@@ -669,7 +695,7 @@ function MotionSection({ svgs, illustrations }: { svgs: Record<string, string>; 
     ],
   ];
   return (
-    <section className="lp-section lp-motion force-dark">
+    <section className="lp-section lp-motion force-dark" id="animated">
       <Head
         center
         eyebrow="MOTION"
@@ -677,8 +703,8 @@ function MotionSection({ svgs, illustrations }: { svgs: Record<string, string>; 
         sub="Motion is built into the library, not added later. Hover, follow the pointer or scroll, with exports for every tool."
       />
       <div className="lp-motion-cards">
-        {cards.map(([ic, t, d, visual, tag]) => (
-          <div key={t} className="lp-motion-card">
+        {cards.map(([ic, t, d, visual, tag], i) => (
+          <div key={t} className="lp-motion-card rv" data-reveal="" style={{ ['--i' as string]: i }}>
             <div className="lp-motion-visual">
               {visual}
               {tag && <span className="badge-new lp-ill-tag">{tag}</span>}
@@ -693,16 +719,24 @@ function MotionSection({ svgs, illustrations }: { svgs: Record<string, string>; 
       </div>
       <a className="btn btn-outline btn-lg" href="#library?mode=animated">
         <UiIcon name="arrow-up-right" size={18} />
-        See motion in the library
+        <Roll text="See motion in the library" />
       </a>
     </section>
   );
 }
 
 function PluginSection({ svgs, icons }: { svgs: Record<string, string>; icons: number }) {
+  // A little demo loop: a tile gets "inserted" every 1.8 s and the toast names it.
+  const [ref, inView] = useInView<HTMLDivElement>();
+  const [pick, setPick] = useState(2);
+  useEffect(() => {
+    if (!inView) return;
+    const t = setInterval(() => setPick((p) => (p + 3) % SHOW.length), 1800);
+    return () => clearInterval(t);
+  }, [inView]);
   return (
-    <section className="lp-section lp-split is-reverse">
-      <div className="lp-plugin" aria-hidden="true">
+    <section className="lp-section lp-split is-reverse" id="figma-plugin">
+      <div className="lp-plugin rv" data-reveal="" ref={ref} aria-hidden="true">
         <div className="lp-plugin-head">
           <FigmaMark />
           <b>ollo</b>
@@ -733,17 +767,17 @@ function PluginSection({ svgs, icons }: { svgs: Record<string, string>; icons: n
             ))}
           </div>
           <div className="lp-plugin-grid">
-            {SHOW.map((n) => (
-              <span key={n} className={`lp-tile is-static${n === 'bell' ? ' is-copied' : ''}`}>
+            {SHOW.map((n, i) => (
+              <span key={n} className={`lp-tile is-static${i === pick ? ' is-copied' : ''}`}>
                 <LibIcon svg={svgs[`${n}:regular`]} />
               </span>
             ))}
           </div>
-          <span className="toast lp-plugin-toast">
+          <span className="toast lp-plugin-toast" key={pick}>
             <span className="toast-ok">
               <UiIcon name="check" size={16} strokeWidth={2} />
             </span>
-            bell added to Figma as a component
+            {SHOW[pick]} added to Figma as a component
           </span>
         </div>
       </div>
@@ -763,7 +797,7 @@ function PluginSection({ svgs, icons }: { svgs: Record<string, string>; icons: n
         <div className="lp-inline">
           <a className="btn btn-primary btn-lg" href="#figma">
             <FigmaMark size={18} />
-            Get the Figma plugin
+            <Roll text="Get the Figma plugin" />
           </a>
           <span>Free on Figma Community</span>
         </div>
@@ -812,7 +846,7 @@ const CODE: [string, string][][] = [
 function DevelopersSection({ svgs }: { svgs: Record<string, string> }) {
   const [tab, setTab] = useState('React');
   return (
-    <section className="lp-section lp-split is-surface">
+    <section className="lp-section lp-split is-surface" id="developers">
       <div className="lp-copy">
         <Head
           eyebrow="DEVELOPERS"
@@ -828,10 +862,10 @@ function DevelopersSection({ svgs }: { svgs: Record<string, string> }) {
         />
         <a className="btn btn-outline btn-lg" href="#docs">
           <UiIcon name="arrow-up-right" size={18} />
-          Read the docs
+          <Roll text="Read the docs" />
         </a>
       </div>
-      <div className="lp-code force-dark">
+      <div className="lp-code force-dark rv" data-reveal="">
         <div className="lp-code-tabs">
           {['React', 'SVG', 'CDN'].map((t) => (
             <button key={t} className={tab === t ? 'is-on' : undefined} onClick={() => setTab(t)}>
@@ -843,7 +877,7 @@ function DevelopersSection({ svgs }: { svgs: Record<string, string> }) {
         </div>
         <pre>
           {CODE.map((ln, i) => (
-            <code key={i}>
+            <code key={i} style={{ ['--l' as string]: i }}>
               {ln.length ? ln.map(([s, c], j) => <span key={j} className={`c-${c}`}>{s}</span>) : ' '}
             </code>
           ))}
@@ -860,7 +894,7 @@ function DevelopersSection({ svgs }: { svgs: Record<string, string> }) {
 
 function HowSection({ icons, ills }: { icons: number; ills: number }) {
   return (
-    <section className="lp-section">
+    <section className="lp-section" id="how">
       <Head center eyebrow="HOW IT WORKS" title="From search to shipped in three clicks." />
       <div className="lp-steps">
         {(
@@ -869,8 +903,8 @@ function HowSection({ icons, ills }: { icons: number; ills: number }) {
             ['02', 'palette', 'Customise', 'Pick a style, colour and size, light or dark. Duotone tints follow your colour.'],
             ['03', 'download', 'Ship', 'Copy SVG or JSX, download PNG, Lottie, .lottie or GIF, or insert into Figma.'],
           ] as [string, UiIconName, string, string][]
-        ).map(([n, ic, t, d]) => (
-          <div key={n} className="lp-step">
+        ).map(([n, ic, t, d], i) => (
+          <div key={n} className="lp-step rv" data-reveal="" style={{ ['--i' as string]: i }}>
             <div className="lp-step-head">
               <span className="icon-chip">
                 <UiIcon name={ic} size={20} />
@@ -898,24 +932,111 @@ const QA: [string, string][] = [
 function Faq() {
   const [open, setOpen] = useState(0);
   return (
-    <section className="lp-section lp-faq">
+    <section className="lp-section lp-faq" id="faq">
       <div className="lp-copy">
         <Head eyebrow="FAQ" title="Questions, answered." sub="Something else? Write to us and a real person replies within a day." />
         <a className="btn btn-outline btn-md" href="#contact">
-          Contact support
+          <Roll text="Contact support" />
         </a>
       </div>
       <div className="lp-faq-list">
         {QA.map(([q, ans], i) => (
-          <div key={q} className={`lp-qa${open === i ? ' is-open' : ''}`}>
+          <div key={q} className={`lp-qa rv${open === i ? ' is-open' : ''}`} data-reveal="" style={{ ['--i' as string]: i }}>
             <button aria-expanded={open === i} onClick={() => setOpen(open === i ? -1 : i)}>
               <span>{q}</span>
-              <UiIcon name={open === i ? 'close' : 'plus'} size={20} />
+              <UiIcon name="plus" size={20} />
             </button>
-            {open === i && <p>{ans}</p>}
+            <div className="lp-qa-a">
+              <p>{ans}</p>
+            </div>
           </div>
         ))}
       </div>
     </section>
+  );
+}
+
+/** Smooth-scrolls to a section of this page (the nav sits on top, see scroll-margin in motion.css). */
+function toSection(id: string) {
+  document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+const CTA_ROW: [string, IconStyle][] = [
+  ['home', 'regular'],
+  ['bell', 'regular'],
+  ['heart', 'fill'],
+  ['folder', 'regular'],
+  ['chat', 'fill'],
+];
+const FIELD_NAMES = ['home', 'user', 'bell', 'search', 'heart', 'mail', 'lock', 'folder', 'calendar', 'chat'];
+const FIELD_STYLES: IconStyle[] = ['light', 'regular', 'bold'];
+
+/**
+ * Final CTA (Figma 153:10616): a faint field of library icons behind the card that drifts
+ * sideways and brightens under the pointer; the icon row takes turns playing its animation.
+ */
+function FinalCta({ theme }: { theme: Theme }) {
+  const field = useLibraryIcons([...CTA_ROW, ...FIELD_NAMES.flatMap((n) => FIELD_STYLES.map((st) => [n, st] as [string, IconStyle]))]);
+  const motion = useMotion();
+  const [ref, inView] = useInView<HTMLDivElement>();
+  const [active, setActive] = useState(2);
+  const [hover, setHover] = useState<number | null>(null);
+  useEffect(() => {
+    if (!inView || hover !== null) return;
+    const t = setInterval(() => setActive((a) => (a + 1) % CTA_ROW.length), 1600);
+    return () => clearInterval(t);
+  }, [inView, hover]);
+  const on = hover ?? active;
+  const move = (e: React.PointerEvent<HTMLDivElement>) => {
+    const box = e.currentTarget.querySelector<HTMLElement>('.lp-field');
+    if (!box) return;
+    const r = box.getBoundingClientRect();
+    e.currentTarget.style.setProperty('--fx', `${Math.round(e.clientX - r.left)}px`);
+    e.currentTarget.style.setProperty('--fy', `${Math.round(e.clientY - r.top)}px`);
+  };
+  // 6 rows x 27 columns: rows alternate a 36 px offset, every column 72 px apart (as in Figma).
+  const cells = (row: number) =>
+    Array.from({ length: 27 }, (_, c) => {
+      const n = FIELD_NAMES[c % 10];
+      const st = FIELD_STYLES[(row + Math.floor(c / 10)) % 3];
+      return (
+        <span key={c} style={{ left: (row % 2 ? 60 : 24) + c * 72, top: 20 + row * 76 }}>
+          <LibIcon svg={field[`${n}:${st}`]} />
+        </span>
+      );
+    });
+  const grid = Array.from({ length: 6 }, (_, r) => cells(r));
+  return (
+    <div className="lp-final-card rv" data-reveal="" ref={ref} onPointerMove={move}>
+      <div className="lp-field" aria-hidden="true">
+        <div className="lp-field-track">{grid}</div>
+      </div>
+      <div className="lp-field is-lit" aria-hidden="true">
+        <div className="lp-field-track">{grid}</div>
+      </div>
+      <div className="lp-final-icons" aria-hidden="true" onMouseLeave={() => setHover(null)}>
+        {CTA_ROW.map(([n, st], i) => (
+          <span key={n} className={i === on ? 'is-on' : undefined} style={{ ['--i' as string]: i }} onMouseEnter={() => setHover(i)}>
+            {i === on && motion?.[n] ? (
+              <Animated key={`${n}${on}`} svg={field[`${n}:${st}`]} spec={motion[n]} size={28} colour={theme === 'dark' ? '#8EA0FF' : '#3A57FF'} />
+            ) : (
+              <LibIcon svg={field[`${n}:${st}`]} />
+            )}
+          </span>
+        ))}
+      </div>
+      <Words text="Ship screens that look finished." />
+      <p>Start with every icon in Light and Regular, free forever. Upgrade for motion, every style and every illustration type.</p>
+      <div className="lp-ctas">
+        <a className="btn btn-primary btn-lg lp-final-btn" href="#library">
+          <UiIcon name="arrow-up-right" size={20} />
+          <Roll text="Browse the library" />
+        </a>
+        <a className="btn btn-muted btn-lg lp-final-btn" href="#home" onClick={(e) => (e.preventDefault(), toSection('pricing'))}>
+          <Roll text="See pricing" />
+        </a>
+      </div>
+      <Ticks items={['Commercial licence', '14-day refund', 'New batches every week']} />
+    </div>
   );
 }

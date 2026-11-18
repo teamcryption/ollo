@@ -52,6 +52,8 @@ export type Illustration = {
   motion: MotionSpec | null;
   /** 1 when the illustration also runs live (Interactive and Scroll views). */
   live?: 1;
+  /** Creation order of the live figures (higher = newer); absent on the older samples. */
+  a?: number;
 };
 
 /** Where the JSON lives: /data/ on the site, data/ next to the published preview page. */

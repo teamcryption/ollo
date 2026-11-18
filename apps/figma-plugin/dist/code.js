@@ -20,7 +20,7 @@
   };
   var __spreadProps = (a, b) => __defProps(a, __getOwnPropDescs(b));
 
-  // src/code.ts
+  // apps/figma-plugin/src/code.ts
   var LIBRARY_PAGE = "ollo icons";
   var DEFAULT_SIZE = { width: 834, height: 800 };
   async function libraryPage() {

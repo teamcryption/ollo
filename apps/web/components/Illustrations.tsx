@@ -11,6 +11,8 @@ import type { Theme } from '@/lib/hooks';
 import { UiIcon } from './ui-icons';
 import type { DownloadTarget } from './DownloadModal';
 import { Select } from './shared';
+import { CreateConcept } from './CreateConcept';
+import { Roll } from '@/lib/motion';
 
 type IllType = 'stroke' | 'fill' | 'duotone';
 type Kind = 'all' | 'static' | 'interactive' | 'scroll' | 'pages' | 'empty';
@@ -78,6 +80,7 @@ export function useIllustrationState() {
   const [custom, setCustom] = useState('#3A57FF');
   const [theme, setTheme] = useState<'auto' | IllTheme>('auto');
   const [sort, setSort] = useState<'popular' | 'az'>('popular');
+  const [creating, setCreating] = useState(false);
   useEffect(() => {
     loadIllustrations().then(setItems);
   }, []);
@@ -88,7 +91,7 @@ export function useIllustrationState() {
   }, [items]);
   return {
     items, collection, setCollection, kind, setKind, type, setType,
-    colour, setColour, custom, setCustom, theme, setTheme, sort, setSort, categories,
+    colour, setColour, custom, setCustom, theme, setTheme, sort, setSort, categories, creating, setCreating,
   };
 }
 export type IllState = ReturnType<typeof useIllustrationState>;
@@ -145,12 +148,13 @@ function Colours({ s }: { s: IllState }) {
   );
 }
 
-function ThemeSelect({ s, site }: { s: IllState; site: Theme }) {
+/** Opens the Create panel: users describe a scene the library doesn't have yet. */
+function CreateButton({ s, block }: { s: IllState; block?: boolean }) {
   return (
-    <Select label="Theme" small value={s.theme === 'auto' ? site : s.theme} onChange={(v) => s.setTheme(v as IllState['theme'])}>
-      <option value="light">Light</option>
-      <option value="dark">Dark</option>
-    </Select>
+    <button className={`btn btn-primary btn-sm create-btn${block ? ' btn-block' : ''}`} onClick={() => s.setCreating(true)}>
+      <UiIcon name="sparkle" size={16} />
+      <Roll text="Create your own" />
+    </button>
   );
 }
 
@@ -165,9 +169,9 @@ export function IllustrationFilters({ s, site }: { s: IllState; site: Theme }) {
         <span className="filter-label">Colours</span>
         <Colours s={s} />
       </div>
-      <div className="sheet-group sheet-row">
-        <span className="filter-label">Theme</span>
-        <ThemeSelect s={s} site={site} />
+      <div className="sheet-group">
+        <span className="filter-label">Can’t find it?</span>
+        <CreateButton s={s} block />
       </div>
     </div>
   );
@@ -299,9 +303,17 @@ export function Illustrations({
         <span className="filter-label">Colours</span>
         <Colours s={s} />
         <span className="grow" />
-        <span className="filter-label">Theme</span>
-        <ThemeSelect s={s} site={theme} />
+        <CreateButton s={s} />
       </div>
+      {s.creating && s.items && (
+        <CreateConcept
+          items={s.items}
+          categories={s.categories}
+          theme={effTheme}
+          onClose={() => s.setCreating(false)}
+          onPick={(item) => (s.setCreating(false), onOpen({ kind: 'illustration', item, list: s.items ?? [], categories: s.categories }))}
+        />
+      )}
 
       {!s.items ? (
         <div className={`ill-grid tile-${tile}`} aria-busy="true">

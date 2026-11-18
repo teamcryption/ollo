@@ -7,6 +7,7 @@ import type { ReactNode } from 'react';
 import { offPercent, PRICE, PRO_BATCHES, type Plan } from '@/lib/account';
 import { LibIcon, useLibraryIcons } from '@/lib/libraryIcons';
 import { UiIcon } from './ui-icons';
+import { Roll } from '@/lib/motion';
 
 const STRIP = ['home', 'bell', 'heart', 'folder', 'chat', 'calendar', 'mail', 'user', 'search', 'lock'];
 const STRIP_SLOTS = 16;
@@ -127,7 +128,7 @@ export function PriceCards({ actions, only }: { actions: Record<Plan, PlanAction
               disabled={a.current}
             >
               {!a.current && <UiIcon name="arrow-up-right" size={18} />}
-              {a.current ? 'Your plan' : (a.label ?? c.cta)}
+              {a.current ? 'Your plan' : <Roll text={a.label ?? c.cta} />}
             </button>
             <ul className="pc-points">
               {c.points.map(([t, ok]) => (
