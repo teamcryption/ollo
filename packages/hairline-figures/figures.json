@@ -13180,5 +13180,83 @@
     "c": "kitchen",
     "t": "Burr coffee grinder",
     "g": "burr coffee grinder hopper lid dial"
+  },
+  {
+    "file": "fogmachine.js",
+    "c": "av",
+    "t": "Fog machine",
+    "g": "fog machine nozzle puff cloud"
+  },
+  {
+    "file": "movinghead.js",
+    "c": "av",
+    "t": "Moving head light",
+    "g": "moving head light yoke pan tilt beam"
+  },
+  {
+    "file": "milkshakemixer.js",
+    "c": "kitchen",
+    "t": "Milkshake mixer",
+    "g": "milkshake spindle mixer cup tilt"
+  },
+  {
+    "file": "confetti.js",
+    "c": "av",
+    "t": "Confetti cannon",
+    "g": "confetti cannon tilt burst"
+  },
+  {
+    "file": "rotarycutter.js",
+    "c": "craft",
+    "t": "Rotary cutter",
+    "g": "rotary cutter blade guard retract handle"
+  },
+  {
+    "file": "bobbinwinder.js",
+    "c": "craft",
+    "t": "Bobbin winder",
+    "g": "bobbin winder spool spin arm"
+  },
+  {
+    "file": "croquet.js",
+    "c": "sports",
+    "t": "Croquet set",
+    "g": "croquet mallet hoop ball strike"
+  },
+  {
+    "file": "shuffleboard.js",
+    "c": "sports",
+    "t": "Shuffleboard",
+    "g": "shuffleboard cue disc slide"
+  },
+  {
+    "file": "buttonpress.js",
+    "c": "craft",
+    "t": "Button badge press",
+    "g": "badge button press lever die"
+  },
+  {
+    "file": "garmentsteamer.js",
+    "c": "home",
+    "t": "Garment steamer",
+    "g": "garment steamer pole head hose tank"
+  },
+  {
+    "file": "golfballwasher.js",
+    "c": "sports",
+    "t": "Golf ball washer",
+    "g": "golf ball washer paddle plunger"
+  },
+  {
+    "file": "foosball2.js",
+    "c": "sports",
+    "t": "Table football",
+    "g": "table football rods players spin"
+  },
+  {
+    "file": "davit.js",
+    "c": "marine",
+    "t": "Boat davit",
+    "g": "davit arm swing hoist boat"
   }
 ]
