@@ -12826,5 +12826,47 @@
     "c": "air",
     "t": "Jet engine",
     "g": "jet engine fan blades nacelle cowl"
+  },
+  {
+    "file": "beltloader.js",
+    "c": "air",
+    "t": "Belt loader",
+    "g": "airport belt loader conveyor ramp raise"
+  },
+  {
+    "file": "concretepump.js",
+    "c": "construction",
+    "t": "Concrete pump",
+    "g": "concrete pump boom unfold truck"
+  },
+  {
+    "file": "logloader.js",
+    "c": "construction",
+    "t": "Log loader",
+    "g": "log loader grapple claw boom"
+  },
+  {
+    "file": "wheelloader.js",
+    "c": "construction",
+    "t": "Wheel loader",
+    "g": "wheel loader bucket lift tip"
+  },
+  {
+    "file": "ridemower.js",
+    "c": "garden",
+    "t": "Ride-on mower",
+    "g": "ride on mower deck seat steering"
+  },
+  {
+    "file": "telehandler.js",
+    "c": "construction",
+    "t": "Telehandler",
+    "g": "telehandler telescopic boom forks extend"
+  },
+  {
+    "file": "cateringtruck.js",
+    "c": "air",
+    "t": "Catering truck",
+    "g": "airport catering truck scissor body rise"
   }
 ]
