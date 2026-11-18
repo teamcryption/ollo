@@ -12202,5 +12202,89 @@
     "c": "vehicle",
     "t": "Car wash",
     "g": "car wash brushes arch rotate"
+  },
+  {
+    "file": "bowsaw.js",
+    "c": "tools",
+    "t": "Bow saw",
+    "g": "bow saw blade frame cut"
+  },
+  {
+    "file": "plumbbob.js",
+    "c": "tools",
+    "t": "Plumb bob",
+    "g": "plumb bob string swing point"
+  },
+  {
+    "file": "brace.js",
+    "c": "tools",
+    "t": "Brace and bit",
+    "g": "brace crank bit drill"
+  },
+  {
+    "file": "knitting.js",
+    "c": "craft",
+    "t": "Knitting needles",
+    "g": "knitting needles yarn ball stitch"
+  },
+  {
+    "file": "toydrum.js",
+    "c": "toys",
+    "t": "Toy drum",
+    "g": "toy drum sticks strap"
+  },
+  {
+    "file": "cancrusher.js",
+    "c": "home",
+    "t": "Can crusher",
+    "g": "can crusher lever wall"
+  },
+  {
+    "file": "woodstove.js",
+    "c": "home",
+    "t": "Wood stove",
+    "g": "wood burning stove door flue"
+  },
+  {
+    "file": "eggchair.js",
+    "c": "garden",
+    "t": "Hanging egg chair",
+    "g": "egg chair swing stand cushion"
+  },
+  {
+    "file": "dentaldrill.js",
+    "c": "medical",
+    "t": "Dental drill",
+    "g": "dental handpiece arm hose unit"
+  },
+  {
+    "file": "xrayarm.js",
+    "c": "medical",
+    "t": "X-ray machine",
+    "g": "x ray tube arm swing ceiling"
+  },
+  {
+    "file": "hamradio.js",
+    "c": "comms",
+    "t": "Ham radio",
+    "g": "ham radio transceiver tuning dial knob"
+  },
+  {
+    "file": "payphone.js",
+    "c": "comms",
+    "t": "Payphone",
+    "g": "payphone handset coin cord"
+  },
+  {
+    "file": "mokapot.js",
+    "c": "kitchen",
+    "t": "Moka pot",
+    "g": "moka pot lid spout stovetop coffee"
+  },
+  {
+    "file": "cardshuffler.js",
+    "c": "games",
+    "t": "Card shuffler",
+    "g": "card shuffler crank deck"
   }
 ]
