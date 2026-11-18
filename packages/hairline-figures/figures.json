@@ -12286,5 +12286,65 @@
     "c": "games",
     "t": "Card shuffler",
     "g": "card shuffler crank deck"
+  },
+  {
+    "file": "dumper.js",
+    "c": "construction",
+    "t": "Site dumper",
+    "g": "site dumper skip tip front"
+  },
+  {
+    "file": "trencher.js",
+    "c": "construction",
+    "t": "Trencher",
+    "g": "trencher chain boom dig"
+  },
+  {
+    "file": "drillrig.js",
+    "c": "construction",
+    "t": "Drilling rig",
+    "g": "drilling rig mast auger tracked"
+  },
+  {
+    "file": "combine.js",
+    "c": "farm",
+    "t": "Combine harvester",
+    "g": "combine harvester reel header unloader"
+  },
+  {
+    "file": "cropsprayer.js",
+    "c": "farm",
+    "t": "Crop sprayer",
+    "g": "crop sprayer boom arms fold"
+  },
+  {
+    "file": "towtruck.js",
+    "c": "vehicle",
+    "t": "Tow truck",
+    "g": "tow truck boom winch hook"
+  },
+  {
+    "file": "mixertruck.js",
+    "c": "vehicle",
+    "t": "Cement mixer truck",
+    "g": "cement mixer truck drum rotate chute"
+  },
+  {
+    "file": "milktank.js",
+    "c": "farm",
+    "t": "Bulk milk tank",
+    "g": "milk tank lid paddle stirrer"
+  },
+  {
+    "file": "firetruck.js",
+    "c": "vehicle",
+    "t": "Fire engine",
+    "g": "fire engine ladder turntable raise"
+  },
+  {
+    "file": "icecreamvan.js",
+    "c": "vehicle",
+    "t": "Ice cream van",
+    "g": "ice cream van serving hatch awning"
   }
 ]
