@@ -13138,5 +13138,47 @@
     "c": "tools",
     "t": "Bench shear",
     "g": "bench shear lever blade cut"
+  },
+  {
+    "file": "dustextractor.js",
+    "c": "tools",
+    "t": "Dust extractor",
+    "g": "dust extractor bag hose lid"
+  },
+  {
+    "file": "jointer.js",
+    "c": "tools",
+    "t": "Jointer",
+    "g": "jointer fence tables guard"
+  },
+  {
+    "file": "beltsander.js",
+    "c": "tools",
+    "t": "Belt sander",
+    "g": "bench belt sander belt table tilt"
+  },
+  {
+    "file": "pressurecooker.js",
+    "c": "kitchen",
+    "t": "Pressure cooker",
+    "g": "pressure cooker lid lock handle valve"
+  },
+  {
+    "file": "foodprocessor2.js",
+    "c": "kitchen",
+    "t": "Food processor",
+    "g": "food processor lid chute pusher"
+  },
+  {
+    "file": "yogurtmaker.js",
+    "c": "kitchen",
+    "t": "Yogurt maker",
+    "g": "yogurt maker dome lid jars"
+  },
+  {
+    "file": "coffeegrinder2.js",
+    "c": "kitchen",
+    "t": "Burr coffee grinder",
+    "g": "burr coffee grinder hopper lid dial"
   }
 ]
