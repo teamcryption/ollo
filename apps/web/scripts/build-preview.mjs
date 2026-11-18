@@ -49,7 +49,7 @@ const fonts =
   '&family=Figtree:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap';
 
 // Respect a theme the viewer already chose (data-theme on <html>); otherwise the OS setting.
-const boot = `window.__OLLO__={data:'data/',preview:true,start:'latest'};try{var d=document.documentElement;if(d.dataset.theme!=='light'&&d.dataset.theme!=='dark'){d.dataset.theme=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'}}catch(e){}`;
+const boot = `window.__OLLO__={data:'data/',preview:true};try{var d=document.documentElement;if(d.dataset.theme!=='light'&&d.dataset.theme!=='dark'){d.dataset.theme=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'}}catch(e){}`;
 
 const html = `<title>Library Icons</title>
 <meta name="description" content="Every icon in the library, in the real site UI, opening on the newest batch.">
