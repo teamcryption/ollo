@@ -12868,5 +12868,29 @@
     "c": "air",
     "t": "Catering truck",
     "g": "airport catering truck scissor body rise"
+  },
+  {
+    "file": "legcurl.js",
+    "c": "sports",
+    "t": "Leg curl machine",
+    "g": "leg curl pad lever weight"
+  },
+  {
+    "file": "pecdeck.js",
+    "c": "sports",
+    "t": "Chest fly machine",
+    "g": "pec deck arms swing chest fly"
+  },
+  {
+    "file": "latpulldown.js",
+    "c": "sports",
+    "t": "Lat pulldown",
+    "g": "lat pulldown bar cable weight stack"
+  },
+  {
+    "file": "speedbag.js",
+    "c": "sports",
+    "t": "Speed bag",
+    "g": "speed bag platform swivel punch"
   }
 ]
