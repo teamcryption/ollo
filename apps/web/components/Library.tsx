@@ -56,10 +56,8 @@ export function Library() {
   const [index, setIndex] = useState<Index | null>(null);
   const [svgs, setSvgs] = useState<Record<string, string> | null>(null);
   const [motion, setMotion] = useState<Record<string, MotionSpec> | null>(null);
-  // The published preview opens on the newest batch (window.__OLLO__.start = 'latest').
-  const [collection, setCollection] = useState<string>(
-    () => (typeof window !== 'undefined' && (window as unknown as { __OLLO__?: { start?: string } }).__OLLO__?.start) || 'all',
-  );
+  // The library always opens on All icons.
+  const [collection, setCollection] = useState<string>('all');
   const [query, setQuery] = useState('');
   const [style, setStyle] = useState<IconStyle>('regular');
   const [animated, setAnimated] = useState(false);
@@ -479,8 +477,6 @@ export function Library() {
   );
 
   const latest = index?.latest ?? 0;
-  const latestCount = useMemo(() => index?.icons.filter((i) => i.b === latest).length ?? 0, [index, latest]);
-  const last5Count = useMemo(() => index?.icons.filter((i) => i.b && i.b > latest - 5).length ?? 0, [index, latest]);
   const batchNote =
     collection === 'latest'
       ? `Batch ${latest}${index?.batchDate[latest] ? ` · ${index.batchDate[latest]}` : ''} · `
@@ -601,13 +597,6 @@ export function Library() {
           <div className="side-scroll">
           {mode === 'icons' ? (
             <>
-              {latest > 0 && (
-                <>
-                  <p className="side-label">WHAT’S NEW</p>
-                  {collectionRow('latest', `Batch ${latest}`, latestCount, 'sparkle', 'NEW')}
-                  {collectionRow('last5', 'Last 5 batches', last5Count, 'clock')}
-                </>
-              )}
               <p className="side-label">COLLECTIONS</p>
               {collectionRow('all', 'All icons', total, 'grid')}
               {index?.categories.map((c) => collectionRow(c.id, c.title, c.count))}
@@ -645,11 +634,6 @@ export function Library() {
                   <button className="chip" aria-pressed={collection === 'all'} onClick={() => setCollection('all')}>
                     All icons · {fmt(total)}
                   </button>
-                  {latest > 0 && (
-                    <button className="chip" aria-pressed={collection === 'latest'} onClick={() => setCollection('latest')}>
-                      Batch {latest} · {fmt(latestCount)}
-                    </button>
-                  )}
                   {index?.categories.map((c) => (
                     <button
                       key={c.id}
