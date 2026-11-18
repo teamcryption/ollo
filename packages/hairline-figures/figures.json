@@ -12916,5 +12916,53 @@
     "c": "science",
     "t": "Lab water bath",
     "g": "water bath gabled lid lift"
+  },
+  {
+    "file": "policecar.js",
+    "c": "vehicle",
+    "t": "Police car",
+    "g": "police car light bar rotate"
+  },
+  {
+    "file": "limousine.js",
+    "c": "vehicle",
+    "t": "Limousine",
+    "g": "stretch limousine door open"
+  },
+  {
+    "file": "rallycar.js",
+    "c": "vehicle",
+    "t": "Rally car",
+    "g": "rally car roof scoop suspension jump"
+  },
+  {
+    "file": "deliveryvan.js",
+    "c": "vehicle",
+    "t": "Delivery van",
+    "g": "delivery van rear roller shutter"
+  },
+  {
+    "file": "motortrike.js",
+    "c": "vehicle",
+    "t": "Motor trike",
+    "g": "motor trike three wheels handlebars"
+  },
+  {
+    "file": "hoverboard.js",
+    "c": "vehicle",
+    "t": "Hoverboard",
+    "g": "hoverboard two wheel tilt platform"
+  },
+  {
+    "file": "chopper.js",
+    "c": "vehicle",
+    "t": "Chopper motorbike",
+    "g": "chopper motorbike long forks handlebars steer"
+  },
+  {
+    "file": "dirtbike.js",
+    "c": "vehicle",
+    "t": "Dirt bike",
+    "g": "dirt bike suspension forks compress wheelie"
   }
 ]
