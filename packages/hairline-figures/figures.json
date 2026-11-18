@@ -13336,5 +13336,101 @@
     "c": "forestry",
     "t": "Log skidder",
     "g": "log skidder grapple arm logs"
+  },
+  {
+    "file": "scrollsaw.js",
+    "c": "wood",
+    "t": "Scroll saw",
+    "g": "scroll saw arm blade table"
+  },
+  {
+    "file": "plungerouter.js",
+    "c": "wood",
+    "t": "Plunge router",
+    "g": "plunge router base posts bit plunge"
+  },
+  {
+    "file": "pressurewasher.js",
+    "c": "home",
+    "t": "Pressure washer",
+    "g": "pressure washer wand hose trigger"
+  },
+  {
+    "file": "tiltrotor.js",
+    "c": "air",
+    "t": "Tiltrotor aircraft",
+    "g": "tiltrotor nacelles tilt rotors wing"
+  },
+  {
+    "file": "lowloader.js",
+    "c": "vehicle",
+    "t": "Low loader trailer",
+    "g": "low loader trailer ramps deck gooseneck"
+  },
+  {
+    "file": "paraglider.js",
+    "c": "air",
+    "t": "Paraglider",
+    "g": "paraglider canopy lines harness"
+  },
+  {
+    "file": "dragster.js",
+    "c": "vehicle",
+    "t": "Dragster",
+    "g": "dragster parachute rear wing slicks"
+  },
+  {
+    "file": "airboat.js",
+    "c": "marine",
+    "t": "Airboat",
+    "g": "airboat fan cage rudders swamp"
+  },
+  {
+    "file": "amphibian.js",
+    "c": "vehicle",
+    "t": "Amphibious car",
+    "g": "amphibious car wheels retract hull"
+  },
+  {
+    "file": "utv.js",
+    "c": "vehicle",
+    "t": "Side-by-side UTV",
+    "g": "utv side by side dump bed roll cage"
+  },
+  {
+    "file": "gullwing.js",
+    "c": "vehicle",
+    "t": "Gullwing coupe",
+    "g": "gullwing coupe doors lift sports car"
+  },
+  {
+    "file": "kitesurf.js",
+    "c": "beach",
+    "t": "Kitesurf rig",
+    "g": "kitesurf kite bar lines board"
+  },
+  {
+    "file": "junkship.js",
+    "c": "marine",
+    "t": "Junk ship",
+    "g": "junk ship battened sails fold hull"
+  },
+  {
+    "file": "coracle.js",
+    "c": "marine",
+    "t": "Coracle",
+    "g": "coracle round boat paddle"
+  },
+  {
+    "file": "velomobile.js",
+    "c": "vehicle",
+    "t": "Velomobile",
+    "g": "velomobile shell canopy recumbent pedal"
+  },
+  {
+    "file": "landyacht.js",
+    "c": "outdoor",
+    "t": "Land yacht",
+    "g": "land yacht sail mast boom three wheels"
   }
 ]
