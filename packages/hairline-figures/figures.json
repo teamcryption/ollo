@@ -12892,5 +12892,29 @@
     "c": "sports",
     "t": "Speed bag",
     "g": "speed bag platform swivel punch"
+  },
+  {
+    "file": "mufflefurnace.js",
+    "c": "science",
+    "t": "Muffle furnace",
+    "g": "muffle furnace door drop"
+  },
+  {
+    "file": "rotavap.js",
+    "c": "science",
+    "t": "Rotary evaporator",
+    "g": "rotary evaporator flask tilt rotate condenser"
+  },
+  {
+    "file": "tuberocker.js",
+    "c": "science",
+    "t": "Tube rocker",
+    "g": "lab tube rocker platform tilt"
+  },
+  {
+    "file": "waterbath.js",
+    "c": "science",
+    "t": "Lab water bath",
+    "g": "water bath gabled lid lift"
   }
 ]
