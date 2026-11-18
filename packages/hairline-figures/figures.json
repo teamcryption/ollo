@@ -13654,5 +13654,41 @@
     "c": "farm",
     "t": "Milking robot",
     "g": "milking robot arm cups stall"
+  },
+  {
+    "file": "pinsetter.js",
+    "c": "games",
+    "t": "Bowling pinsetter",
+    "g": "bowling pinsetter deck sweep bar pins"
+  },
+  {
+    "file": "startinggate.js",
+    "c": "equestrian",
+    "t": "Starting gate",
+    "g": "horse racing starting gate stalls doors open"
+  },
+  {
+    "file": "racketstringer.js",
+    "c": "sports",
+    "t": "Racket stringer",
+    "g": "racket stringing machine turntable clamps tension"
+  },
+  {
+    "file": "flysystem.js",
+    "c": "theatre",
+    "t": "Fly system",
+    "g": "theatre fly system counterweight arbor batten rope"
+  },
+  {
+    "file": "revolvingstage.js",
+    "c": "theatre",
+    "t": "Revolving stage",
+    "g": "revolving stage turntable set wall"
+  },
+  {
+    "file": "pitlift.js",
+    "c": "theatre",
+    "t": "Orchestra pit lift",
+    "g": "orchestra pit lift platform scissor stage"
   }
 ]
