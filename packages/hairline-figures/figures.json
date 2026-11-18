@@ -12412,5 +12412,59 @@
     "c": "vehicle",
     "t": "Race car",
     "g": "race car rear wing drs"
+  },
+  {
+    "file": "blimp.js",
+    "c": "air",
+    "t": "Airship",
+    "g": "airship envelope fins gondola"
+  },
+  {
+    "file": "cargoplane.js",
+    "c": "air",
+    "t": "Cargo plane",
+    "g": "cargo plane nose door swing open"
+  },
+  {
+    "file": "speedboat.js",
+    "c": "marine",
+    "t": "Speedboat",
+    "g": "speedboat outboard tilt windscreen"
+  },
+  {
+    "file": "paddlesteamer.js",
+    "c": "marine",
+    "t": "Paddle steamer",
+    "g": "paddle steamer wheel funnel"
+  },
+  {
+    "file": "pedalo.js",
+    "c": "marine",
+    "t": "Pedalo",
+    "g": "pedalo pedal boat paddle wheel"
+  },
+  {
+    "file": "seaplane.js",
+    "c": "air",
+    "t": "Seaplane",
+    "g": "seaplane floats propeller spin"
+  },
+  {
+    "file": "gyrocopter.js",
+    "c": "air",
+    "t": "Gyrocopter",
+    "g": "gyrocopter rotor spin pusher prop"
+  },
+  {
+    "file": "biplane.js",
+    "c": "air",
+    "t": "Biplane",
+    "g": "biplane propeller wings struts"
+  },
+  {
+    "file": "glider.js",
+    "c": "air",
+    "t": "Glider",
+    "g": "glider long wings aileron bank"
   }
 ]
