@@ -13258,5 +13258,83 @@
     "c": "marine",
     "t": "Boat davit",
     "g": "davit arm swing hoist boat"
+  },
+  {
+    "file": "shadoof.js",
+    "c": "farm",
+    "t": "Shadoof",
+    "g": "shadoof lever bucket counterweight well"
+  },
+  {
+    "file": "ballista.js",
+    "c": "medieval",
+    "t": "Ballista",
+    "g": "ballista bolt winch arms siege"
+  },
+  {
+    "file": "lifeboat.js",
+    "c": "marine",
+    "t": "Lifeboat",
+    "g": "lifeboat hull oars canopy"
+  },
+  {
+    "file": "garbagetruck.js",
+    "c": "vehicle",
+    "t": "Garbage truck",
+    "g": "garbage truck bin lift arm hopper"
+  },
+  {
+    "file": "piledriver.js",
+    "c": "construction",
+    "t": "Pile driver",
+    "g": "pile driver hammer mast pile"
+  },
+  {
+    "file": "snowcat.js",
+    "c": "vehicle",
+    "t": "Snowcat groomer",
+    "g": "snowcat tracks blade cab groomer"
+  },
+  {
+    "file": "typewriter.js",
+    "c": "office",
+    "t": "Typewriter",
+    "g": "typewriter carriage keys typebar"
+  },
+  {
+    "file": "reachstacker.js",
+    "c": "logistics",
+    "t": "Reach stacker",
+    "g": "reach stacker boom spreader container"
+  },
+  {
+    "file": "straddlecarrier.js",
+    "c": "logistics",
+    "t": "Straddle carrier",
+    "g": "straddle carrier legs spreader container lift"
+  },
+  {
+    "file": "stumpgrinder.js",
+    "c": "forestry",
+    "t": "Stump grinder",
+    "g": "stump grinder wheel arm swing teeth"
+  },
+  {
+    "file": "teleprompter.js",
+    "c": "media",
+    "t": "Teleprompter",
+    "g": "teleprompter glass hood camera tilt"
+  },
+  {
+    "file": "bandsaw.js",
+    "c": "wood",
+    "t": "Band saw",
+    "g": "band saw blade guide table wheel"
+  },
+  {
+    "file": "logskidder.js",
+    "c": "forestry",
+    "t": "Log skidder",
+    "g": "log skidder grapple arm logs"
   }
 ]
