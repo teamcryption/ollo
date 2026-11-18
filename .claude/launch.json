@@ -1,6 +1,11 @@
 {
   "version": "0.0.1",
   "configurations": [
-    { "name": "icon-preview", "runtimeExecutable": "node", "runtimeArgs": ["C:/Users/USER/Documents/Library/library/tools/batch/serve.mjs", "C:/Users/USER/Documents/Library/.batchwork/review-ui", "4173"], "port": 4173 }
+    {
+      "name": "web",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["apps/web/scripts/dev.mjs"],
+      "port": 3100
+    }
   ]
 }

@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "lib": ["dom", "es2020"],
+    "strict": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "module": "esnext",
+    "typeRoots": ["./node_modules/@figma", "./node_modules/@types"]
+  },
+  "include": ["src/code.ts"]
+}
