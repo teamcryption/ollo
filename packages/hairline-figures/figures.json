@@ -13096,5 +13096,47 @@
     "c": "home",
     "t": "High-level cistern",
     "g": "high level toilet cistern pull chain flush"
+  },
+  {
+    "file": "marblerun.js",
+    "c": "toys",
+    "t": "Marble run",
+    "g": "marble run track zigzag marble"
+  },
+  {
+    "file": "hammerbench.js",
+    "c": "toys",
+    "t": "Hammer bench",
+    "g": "hammer bench pegs pound"
+  },
+  {
+    "file": "slinky.js",
+    "c": "toys",
+    "t": "Coil spring toy",
+    "g": "coil spring toy step stairs stretch"
+  },
+  {
+    "file": "windupmouse.js",
+    "c": "toys",
+    "t": "Wind-up mouse",
+    "g": "wind up mouse key turn tail"
+  },
+  {
+    "file": "pullduck.js",
+    "c": "toys",
+    "t": "Pull-along duck",
+    "g": "pull along duck wheels feet flap"
+  },
+  {
+    "file": "stereoviewer.js",
+    "c": "toys",
+    "t": "Stereo viewer",
+    "g": "stereo viewer reel lever click"
+  },
+  {
+    "file": "metalshear.js",
+    "c": "tools",
+    "t": "Bench shear",
+    "g": "bench shear lever blade cut"
   }
 ]
