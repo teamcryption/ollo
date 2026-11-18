@@ -13030,5 +13030,71 @@
     "c": "devices",
     "t": "Delivery robot",
     "g": "sidewalk delivery robot lid flag"
+  },
+  {
+    "file": "babyincubator.js",
+    "c": "medical",
+    "t": "Baby incubator",
+    "g": "infant incubator hood lift portholes"
+  },
+  {
+    "file": "stairlift.js",
+    "c": "home",
+    "t": "Stairlift",
+    "g": "stairlift seat rail fold arm"
+  },
+  {
+    "file": "bathlift.js",
+    "c": "home",
+    "t": "Bath lift",
+    "g": "bath lift seat raise lower"
+  },
+  {
+    "file": "examcouch.js",
+    "c": "medical",
+    "t": "Examination couch",
+    "g": "examination couch backrest raise"
+  },
+  {
+    "file": "surgicallamp.js",
+    "c": "medical",
+    "t": "Surgical lamp",
+    "g": "surgical lamp arm swing head"
+  },
+  {
+    "file": "operatingtable.js",
+    "c": "medical",
+    "t": "Operating table",
+    "g": "operating table tilt column top"
+  },
+  {
+    "file": "shaver.js",
+    "c": "home",
+    "t": "Electric shaver",
+    "g": "electric shaver trimmer pop up head"
+  },
+  {
+    "file": "hairdryer2.js",
+    "c": "home",
+    "t": "Hair dryer",
+    "g": "handheld hair dryer fold handle nozzle"
+  },
+  {
+    "file": "bathscale.js",
+    "c": "home",
+    "t": "Bathroom scale",
+    "g": "bathroom scale dial platform press"
+  },
+  {
+    "file": "showerenclosure.js",
+    "c": "home",
+    "t": "Shower enclosure",
+    "g": "shower enclosure glass door pivot"
+  },
+  {
+    "file": "flushcistern.js",
+    "c": "home",
+    "t": "High-level cistern",
+    "g": "high level toilet cistern pull chain flush"
   }
 ]
