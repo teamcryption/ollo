@@ -12568,5 +12568,65 @@
     "c": "fairground",
     "t": "Helter skelter",
     "g": "helter skelter spiral slide tower"
+  },
+  {
+    "file": "ticketbooth.js",
+    "c": "fairground",
+    "t": "Ticket booth",
+    "g": "ticket booth window shutter kiosk"
+  },
+  {
+    "file": "fortuneteller.js",
+    "c": "fairground",
+    "t": "Fortune teller machine",
+    "g": "fortune teller machine cabinet card slot"
+  },
+  {
+    "file": "highstriker.js",
+    "c": "fairground",
+    "t": "High striker",
+    "g": "high striker mallet puck bell strength test"
+  },
+  {
+    "file": "ropebridge.js",
+    "c": "play",
+    "t": "Rope bridge",
+    "g": "rope bridge planks sway"
+  },
+  {
+    "file": "logflume.js",
+    "c": "fairground",
+    "t": "Log flume",
+    "g": "log flume boat drop chute"
+  },
+  {
+    "file": "bouncycastle.js",
+    "c": "play",
+    "t": "Bouncy castle",
+    "g": "bouncy castle inflatable turrets bounce"
+  },
+  {
+    "file": "gokart.js",
+    "c": "play",
+    "t": "Go-kart",
+    "g": "go kart steering wheel front wheels"
+  },
+  {
+    "file": "minigolf.js",
+    "c": "play",
+    "t": "Mini golf windmill",
+    "g": "mini golf windmill hole sails putt"
+  },
+  {
+    "file": "irrigationpivot.js",
+    "c": "farm",
+    "t": "Irrigation pivot",
+    "g": "centre pivot irrigation span towers sprinklers"
+  },
+  {
+    "file": "railturntable.js",
+    "c": "vehicle",
+    "t": "Railway turntable",
+    "g": "railway turntable locomotive pit rotate"
   }
 ]
