@@ -12466,5 +12466,53 @@
     "c": "air",
     "t": "Glider",
     "g": "glider long wings aileron bank"
+  },
+  {
+    "file": "catamaran.js",
+    "c": "marine",
+    "t": "Catamaran",
+    "g": "catamaran twin hulls sail trampoline"
+  },
+  {
+    "file": "pirateship.js",
+    "c": "marine",
+    "t": "Pirate ship",
+    "g": "pirate ship sails masts flag"
+  },
+  {
+    "file": "hydrofoil.js",
+    "c": "marine",
+    "t": "Hydrofoil",
+    "g": "hydrofoil foils lift hull"
+  },
+  {
+    "file": "paramotor.js",
+    "c": "air",
+    "t": "Paramotor",
+    "g": "paramotor prop cage wing"
+  },
+  {
+    "file": "spaceshuttle.js",
+    "c": "air",
+    "t": "Space shuttle",
+    "g": "space shuttle payload bay doors open"
+  },
+  {
+    "file": "cropduster.js",
+    "c": "air",
+    "t": "Crop duster",
+    "g": "crop duster biplane spray boom"
+  },
+  {
+    "file": "fighterjet.js",
+    "c": "air",
+    "t": "Fighter jet",
+    "g": "fighter jet canopy open cockpit"
+  },
+  {
+    "file": "privatejet.js",
+    "c": "air",
+    "t": "Business jet",
+    "g": "business jet airstair door fold"
   }
 ]
