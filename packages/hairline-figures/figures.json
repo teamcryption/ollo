@@ -12778,5 +12778,53 @@
     "c": "vehicle",
     "t": "Dog sled",
     "g": "dog sled handlebar brake runners"
+  },
+  {
+    "file": "planetarium.js",
+    "c": "science",
+    "t": "Planetarium projector",
+    "g": "planetarium projector star ball rotate"
+  },
+  {
+    "file": "steamengine.js",
+    "c": "industry",
+    "t": "Steam engine",
+    "g": "steam engine flywheel piston crank"
+  },
+  {
+    "file": "beamengine.js",
+    "c": "industry",
+    "t": "Beam engine",
+    "g": "beam engine rocking beam flywheel"
+  },
+  {
+    "file": "stirling.js",
+    "c": "science",
+    "t": "Stirling engine",
+    "g": "stirling engine flywheel cylinder"
+  },
+  {
+    "file": "sawmill.js",
+    "c": "industry",
+    "t": "Sawmill",
+    "g": "sawmill log carriage blade"
+  },
+  {
+    "file": "printingpress.js",
+    "c": "office",
+    "t": "Printing press",
+    "g": "printing press screw platen bar"
+  },
+  {
+    "file": "mangle.js",
+    "c": "home",
+    "t": "Mangle",
+    "g": "mangle rollers crank wringer"
+  },
+  {
+    "file": "jetengine.js",
+    "c": "air",
+    "t": "Jet engine",
+    "g": "jet engine fan blades nacelle cowl"
   }
 ]
