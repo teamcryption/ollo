@@ -12034,5 +12034,101 @@
     "c": "home",
     "t": "Recliner",
     "g": "recliner armchair footrest backrest"
+  },
+  {
+    "file": "slotcar.js",
+    "c": "toys",
+    "t": "Slot car",
+    "g": "slot car track lane guide racing"
+  },
+  {
+    "file": "puppetstage.js",
+    "c": "toys",
+    "t": "Marionette",
+    "g": "marionette puppet strings control bar"
+  },
+  {
+    "file": "rcar.js",
+    "c": "toys",
+    "t": "RC car",
+    "g": "remote control car wheels steer"
+  },
+  {
+    "file": "outdoorshower.js",
+    "c": "outdoor",
+    "t": "Outdoor shower",
+    "g": "outdoor shower head post tap"
+  },
+  {
+    "file": "cello.js",
+    "c": "music",
+    "t": "Cello",
+    "g": "cello bow strings endpin"
+  },
+  {
+    "file": "trombone.js",
+    "c": "music",
+    "t": "Trombone",
+    "g": "slide trombone bell"
+  },
+  {
+    "file": "sundial3.js",
+    "c": "outdoor",
+    "t": "Garden sundial",
+    "g": "sundial gnomon shadow pedestal"
+  },
+  {
+    "file": "faxmachine.js",
+    "c": "office",
+    "t": "Fax machine",
+    "g": "fax paper feed handset"
+  },
+  {
+    "file": "hovercraft.js",
+    "c": "vehicle",
+    "t": "Hovercraft",
+    "g": "hovercraft skirt fan rudder"
+  },
+  {
+    "file": "snowmobile.js",
+    "c": "vehicle",
+    "t": "Snowmobile",
+    "g": "snowmobile ski track handlebars"
+  },
+  {
+    "file": "quadbike.js",
+    "c": "vehicle",
+    "t": "Quad bike",
+    "g": "atv quad handlebars steer"
+  },
+  {
+    "file": "golfcart.js",
+    "c": "vehicle",
+    "t": "Golf buggy",
+    "g": "golf buggy roof seat wheel"
+  },
+  {
+    "file": "sidecar2.js",
+    "c": "vehicle",
+    "t": "Tuk-tuk",
+    "g": "auto rickshaw three wheeler canopy"
+  },
+  {
+    "file": "campervan2.js",
+    "c": "vehicle",
+    "t": "Caravan",
+    "g": "caravan door step towing"
+  },
+  {
+    "file": "segway.js",
+    "c": "vehicle",
+    "t": "Self-balancing scooter",
+    "g": "self balancing scooter tilt handle"
+  },
+  {
+    "file": "tandem.js",
+    "c": "vehicle",
+    "t": "Tandem bike",
+    "g": "tandem bicycle two seats pedals"
   }
 ]
