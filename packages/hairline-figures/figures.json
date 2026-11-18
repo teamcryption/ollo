@@ -12994,5 +12994,41 @@
     "c": "construction",
     "t": "Light tower",
     "g": "mobile light tower mast extend lamps"
+  },
+  {
+    "file": "windowrobot.js",
+    "c": "devices",
+    "t": "Window cleaning robot",
+    "g": "window cleaning robot pad glass slide"
+  },
+  {
+    "file": "poolrobot.js",
+    "c": "devices",
+    "t": "Pool cleaning robot",
+    "g": "pool cleaner robot brush tracks climb"
+  },
+  {
+    "file": "robotmower.js",
+    "c": "garden",
+    "t": "Robot lawnmower",
+    "g": "robot lawnmower lid stop button"
+  },
+  {
+    "file": "robotdog.js",
+    "c": "devices",
+    "t": "Robot dog",
+    "g": "quadruped robot dog legs head tilt"
+  },
+  {
+    "file": "telepresence.js",
+    "c": "devices",
+    "t": "Telepresence robot",
+    "g": "telepresence robot screen mast rise"
+  },
+  {
+    "file": "deliverybot.js",
+    "c": "devices",
+    "t": "Delivery robot",
+    "g": "sidewalk delivery robot lid flag"
   }
 ]
