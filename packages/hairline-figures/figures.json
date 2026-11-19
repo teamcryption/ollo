@@ -14008,5 +14008,35 @@
     "c": "cafe",
     "t": "Coffee bean roaster",
     "g": "coffee roaster drum cooling tray stirring arm"
+  },
+  {
+    "file": "drilljumbo.js",
+    "c": "mining",
+    "t": "Drilling jumbo",
+    "g": "drilling jumbo boom drill feed tunnel"
+  },
+  {
+    "file": "rockbreaker.js",
+    "c": "mining",
+    "t": "Pedestal rock breaker",
+    "g": "rock breaker pedestal boom hammer grizzly"
+  },
+  {
+    "file": "dragline.js",
+    "c": "mining",
+    "t": "Dragline excavator",
+    "g": "dragline boom bucket drag rope swing"
+  },
+  {
+    "file": "bucketwheel.js",
+    "c": "mining",
+    "t": "Bucket wheel excavator",
+    "g": "bucket wheel excavator boom wheel buckets"
+  },
+  {
+    "file": "firemonitor.js",
+    "c": "security",
+    "t": "Fire monitor",
+    "g": "fire monitor water cannon nozzle swivel"
   }
 ]
