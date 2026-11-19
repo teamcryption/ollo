@@ -13690,5 +13690,53 @@
     "c": "theatre",
     "t": "Orchestra pit lift",
     "g": "orchestra pit lift platform scissor stage"
+  },
+  {
+    "file": "automaton.js",
+    "c": "toys",
+    "t": "Pecking bird automaton",
+    "g": "automaton cam crank bird peck box"
+  },
+  {
+    "file": "cameraobscura.js",
+    "c": "retro",
+    "t": "Camera obscura",
+    "g": "camera obscura box lens tube slide screen"
+  },
+  {
+    "file": "clepsydra.js",
+    "c": "clock",
+    "t": "Water clock",
+    "g": "water clock clepsydra float pointer vessel"
+  },
+  {
+    "file": "escapement.js",
+    "c": "clock",
+    "t": "Clock escapement",
+    "g": "clock escapement anchor pallet wheel pendulum"
+  },
+  {
+    "file": "triphammer.js",
+    "c": "smithing",
+    "t": "Trip hammer",
+    "g": "trip hammer helve cam anvil water wheel"
+  },
+  {
+    "file": "pipebender.js",
+    "c": "tools",
+    "t": "Pipe bender",
+    "g": "pipe bender lever former die tube"
+  },
+  {
+    "file": "cncrouter.js",
+    "c": "tools",
+    "t": "CNC router",
+    "g": "cnc router gantry spindle bed"
+  },
+  {
+    "file": "fairing.js",
+    "c": "space",
+    "t": "Rocket fairing",
+    "g": "rocket payload fairing halves open satellite"
   }
 ]
