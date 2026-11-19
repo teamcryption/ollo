@@ -14038,5 +14038,35 @@
     "c": "security",
     "t": "Fire monitor",
     "g": "fire monitor water cannon nozzle swivel"
+  },
+  {
+    "file": "airbrake.js",
+    "c": "air",
+    "t": "Glider airbrakes",
+    "g": "glider wing airbrakes spoilers rise panel"
+  },
+  {
+    "file": "sleeperberth.js",
+    "c": "railway",
+    "t": "Sleeper berth",
+    "g": "sleeper car berth fold down bunk compartment"
+  },
+  {
+    "file": "platformdoors.js",
+    "c": "railway",
+    "t": "Platform screen doors",
+    "g": "platform screen doors slide open glass panel"
+  },
+  {
+    "file": "landinggear.js",
+    "c": "air",
+    "t": "Landing gear",
+    "g": "landing gear strut wheels retract bay doors"
+  },
+  {
+    "file": "thrustreverser.js",
+    "c": "air",
+    "t": "Thrust reverser",
+    "g": "jet engine thrust reverser cowl slides cascade"
   }
 ]
