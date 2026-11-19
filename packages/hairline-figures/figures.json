@@ -13918,5 +13918,59 @@
     "c": "lab",
     "t": "Autosampler",
     "g": "autosampler carousel vials needle arm"
+  },
+  {
+    "file": "libraryladder.js",
+    "c": "library",
+    "t": "Library rolling ladder",
+    "g": "library rolling ladder rail slide shelves"
+  },
+  {
+    "file": "compactshelving.js",
+    "c": "library",
+    "t": "Mobile shelving",
+    "g": "mobile compact shelving units roll apart handwheel"
+  },
+  {
+    "file": "liferaft.js",
+    "c": "marine",
+    "t": "Life raft canister",
+    "g": "life raft canister open inflate canopy cradle"
+  },
+  {
+    "file": "watertightdoor.js",
+    "c": "marine",
+    "t": "Watertight door",
+    "g": "watertight door dogs handwheel hinge swing"
+  },
+  {
+    "file": "escalator.js",
+    "c": "city",
+    "t": "Escalator",
+    "g": "escalator steps handrail truss move"
+  },
+  {
+    "file": "paternoster.js",
+    "c": "city",
+    "t": "Paternoster lift",
+    "g": "paternoster lift open cabins loop shaft"
+  },
+  {
+    "file": "tidegauge.js",
+    "c": "marine",
+    "t": "Tide gauge",
+    "g": "tide gauge float well pointer drum stilling"
+  },
+  {
+    "file": "parallelrule.js",
+    "c": "marine",
+    "t": "Parallel rule",
+    "g": "parallel rule rulers brass links walk chart"
+  },
+  {
+    "file": "dividers.js",
+    "c": "marine",
+    "t": "Chart dividers",
+    "g": "chart dividers legs spread hinge points"
   }
 ]
