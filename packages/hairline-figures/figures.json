@@ -14068,5 +14068,47 @@
     "c": "air",
     "t": "Thrust reverser",
     "g": "jet engine thrust reverser cowl slides cascade"
+  },
+  {
+    "file": "trampanto.js",
+    "c": "railway",
+    "t": "Tram pantograph",
+    "g": "tram pantograph arms raise overhead wire roof"
+  },
+  {
+    "file": "hopperwagon.js",
+    "c": "railway",
+    "t": "Hopper wagon",
+    "g": "hopper wagon bottom doors open chute rails"
+  },
+  {
+    "file": "bifolddoor.js",
+    "c": "home",
+    "t": "Bifold door",
+    "g": "bifold door panels fold track hinge"
+  },
+  {
+    "file": "secretbookcase.js",
+    "c": "home",
+    "t": "Secret bookcase door",
+    "g": "secret bookcase door swing pivot hidden room"
+  },
+  {
+    "file": "panicbar.js",
+    "c": "security",
+    "t": "Panic bar door",
+    "g": "panic bar push door latch exit"
+  },
+  {
+    "file": "murphydesk.js",
+    "c": "office",
+    "t": "Fold-down wall desk",
+    "g": "fold down wall desk flap cabinet stays"
+  },
+  {
+    "file": "ironingcupboard.js",
+    "c": "laundry",
+    "t": "Ironing board cupboard",
+    "g": "ironing board cupboard fold down wall"
   }
 ]
