@@ -1,62 +1,65 @@
 /**
- * Jackhammer: a breaker standing on a square of road, its chisel on the
- * surface, a T-handle on top. The nearer the pointer comes to the tool, the
- * harder it is pressed: the body drives down on its chisel and chips fly up
- * round the bit. At rest it leans its weight a little, handle bright. The
- * slider is how far the pointer reaches.
- *
- * The pattern: one object answering distance (terrain falloff).
+ * Jackhammer: a pneumatic breaker standing on its chisel in a slab of road,
+ * a fat cylinder body, an air hose stub and a wide T-handle. The nearer the
+ * pointer comes, the further the whole body drives down its chisel into the
+ * slab and the grips spread. At rest it is half pressed, handle bright. The
+ * slider sets how far the stroke goes.
  */
 const {
-  Cam, circ, clamp, fit, facing, hull, poly, prism, proj, rings, ringAt, seg, spring, stepS, unproj,
+  Cam, circ, clamp, fit, facing, hull, poly, prism, proj, rings, ringAt, seg, spring, stepS,
   disposer, flatDot, mk, place, pointer, put, register, solid,
 } = HL;
 
-const SZ = 10, BIT = 16, BODY = 34, DROP = 10, REST = 0.25;
+const SZ = 6, BIT = 30, BODY = 44, REST = 0.3;
 const disc = (x, y, r, n = 20) => circ(r, n).map((q) => ({ ...q, u: q.u + x, v: q.v + y }));
 
 function mount({ stage, svg, read }, value) {
   const bag = disposer();
-  let reach = value;
-  const C = Cam(45, 0.5, 2.05);
-  fit(C, [[-40, -40, 0], [40, 40, 0], [40, -40, 0], [-40, 40, 0], [-20, 0, SZ + BIT + BODY + 10], [20, 0, SZ + BIT + BODY + 10]], 200, 170);
+  let stroke = value;
+  const C = Cam(45, 0.5, 2.2);
+  const TOP = SZ + BIT + BODY + 14;
+  fit(C, [[-26, -26, 0], [26, 26, 0], [26, -26, 0], [-26, 26, 0], [-24, 0, TOP], [24, 0, TOP]], 200, 166);
   const P = proj(C), front = facing(C);
   const g = mk("g", {}, svg);
-  const [sr, si] = rings(-40, -40, 40, 40, 6, 2);
+  const [sr, si] = rings(-26, -26, 26, 26, 5, 1.6);
   put(solid(g), prism(P, front, sr, si, 0, SZ));
-  // cracks on the road round the bit
-  mk("path", { class: "nf lo", d: seg(P(3, 2, SZ), P(16, 9, SZ)) + seg(P(16, 9, SZ), P(24, 7, SZ)) + seg(P(-2, 4, SZ), P(-6, 18, SZ)) + seg(P(-3, -3, SZ), P(-15, -10, SZ)) }, g);
-  const chips = [[9, -4], [-8, 6], [6, 9], [-6, -8], [12, 3]].map(([x, y]) => ({ x, y, el: flatDot(g, C, 1.6, "dot off") }));
-  const bit = mk("path", { class: "sil" }, g), body = solid(g), neck = solid(g), handle = solid(g);
+  mk("path", { class: "nf lo", d: seg(P(3, 2, SZ), P(14, 9, SZ)) + seg(P(14, 9, SZ), P(21, 6, SZ)) + seg(P(-3, 4, SZ), P(-6, 17, SZ)) + seg(P(-3, -3, SZ), P(-14, -10, SZ)) }, g);
+  const chips = [[8, -4], [-7, 6], [6, 8], [-6, -7]].map(([x, y]) => ({ x, y, el: flatDot(g, C, 1.6, "dot off") }));
+  const bit = mk("path", { class: "sil" }, g), collar = solid(g), body = solid(g), neck = solid(g), handle = solid(g);
+  const hose = mk("path", { class: "nf lo" }, g);
   handle.sil.classList.add("hi");
-  const [br, bi] = rings(-8, -7, 8, 7, 5, 1.4), [nr, ni] = rings(-3, -3, 3, 3, 2, 0.6), [hr, hi] = rings(-20, -2, 20, 2, 2, 0.6);
+  const [cr, ci] = rings(-6, -6, 6, 6, 5, 1), [br, bi] = rings(-10, -10, 10, 10, 9, 1.6), [nr, ni] = rings(-3.5, -3.5, 3.5, 3.5, 3, 0.8);
 
   let last = NaN;
   function draw(p) {
     if (p === last) return;
     last = p;
-    const zb = SZ + BIT - DROP * p, top = zb + BODY;
-    bit.setAttribute("d", poly(hull(ringAt(P, disc(0, 0, 2.2), SZ).concat(ringAt(P, disc(0, 0, 2.2), zb)))));
-    put(body, prism(P, front, br, bi, zb, top));
+    const drop = BIT * 0.7 * p, zb = SZ + BIT - drop, top = zb + 6 + BODY;
+    bit.setAttribute("d", poly(hull(ringAt(P, disc(0, 0, 2.6), SZ).concat(ringAt(P, disc(0, 0, 2.6), zb)))));
+    put(collar, prism(P, front, cr, ci, zb, zb + 6));
+    put(body, prism(P, front, br, bi, zb + 6, top));
     put(neck, prism(P, front, nr, ni, top, top + 6));
-    put(handle, prism(P, front, hr, hi, top + 6, top + 9));
+    const w = 18 + 4 * p, [hr, hh] = rings(-w, -2.5, w, 2.5, 2.4, 0.7);
+    put(handle, prism(P, front, hr, hh, top + 6, top + 10));
+    hose.setAttribute("d", seg(P(8, 6, top - 8), P(18, 14, top - 12)) + seg(P(18, 14, top - 12), P(22, 20, SZ + 2)));
     chips.forEach((c, i) => {
-      const up = p * (4 + i * 1.5);
-      place(c.el, P(c.x * (0.6 + p * 0.6), c.y * (0.6 + p * 0.6), SZ + up));
-      c.el.setAttribute("class", p > 0.5 ? (i === 0 ? "dot m" : "dot off") : "dot off");
+      const up = p * (5 + i * 3);
+      place(c.el, P(c.x * (0.6 + p), c.y * (0.6 + p), SZ + up));
+      c.el.setAttribute("class", p > 0.6 && i === 0 ? "dot m" : "dot off");
     });
   }
 
   const press = spring(REST);
   const B = register(stage, (dt) => { const m = stepS(press, dt); draw(press.x); return m; });
   bag.add(B.unregister);
+  const ax = P(0, 0, SZ + 40);
 
   function aim(pt) {
-    const [x, y] = unproj(C, pt[0], pt[1], SZ), R = 20 + reach * 0.5, d = Math.hypot(x, y);
-    if (Math.abs(x) > 44 || Math.abs(y) > 44) return leave();
-    const f = clamp(1 - d / R, 0.15, 1);
-    press.t = f;
-    read.textContent = Math.round(f * DROP) + " mm";
+    const d = Math.hypot(pt[0] - ax[0], (pt[1] - ax[1]) * 0.5);
+    if (d > 110) return leave();
+    const f = clamp(1 - d / 110, 0.1, 1) * (0.35 + 0.65 * stroke / 100);
+    press.t = clamp(f * 1.3, REST * 0.5, 1);
+    read.textContent = Math.round(press.t * BIT * 0.7) + " mm";
     B.wake();
   }
   function leave() { press.t = REST; read.textContent = "rest"; B.wake(); }
@@ -64,14 +67,14 @@ function mount({ stage, svg, read }, value) {
   read.textContent = "rest";
   bag.add(pointer(stage, { move: aim, leave }));
   bag.add(() => svg.replaceChildren());
-  return { set: (v) => { reach = v; }, destroy: bag.dispose };
+  return { set: (v) => { stroke = v; }, destroy: bag.dispose };
 }
 
 hairline({
   name: "jackhammer",
-  means: "A breaker on a square of road: the nearer the pointer comes, the harder it drives down on its chisel and the chips fly.",
+  means: "A breaker on its chisel in a slab of road: the nearer the pointer, the further the body drives down the chisel and chips fly.",
   rules: [1, 3, 5, 8],
-  range: [0, 45, 90],
-  tour: [[200, 193], [236, 204], [168, 176], null],
+  range: [0, 60, 100],
+  tour: [[200, 130], [200, 204], [214, 170], null],
   mount,
 });

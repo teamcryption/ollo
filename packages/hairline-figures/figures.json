@@ -12034,5 +12034,2123 @@
     "c": "home",
     "t": "Recliner",
     "g": "recliner armchair footrest backrest"
+  },
+  {
+    "file": "slotcar.js",
+    "c": "toys",
+    "t": "Slot car",
+    "g": "slot car track lane guide racing"
+  },
+  {
+    "file": "puppetstage.js",
+    "c": "toys",
+    "t": "Marionette",
+    "g": "marionette puppet strings control bar"
+  },
+  {
+    "file": "rcar.js",
+    "c": "toys",
+    "t": "RC car",
+    "g": "remote control car wheels steer"
+  },
+  {
+    "file": "outdoorshower.js",
+    "c": "outdoor",
+    "t": "Outdoor shower",
+    "g": "outdoor shower head post tap"
+  },
+  {
+    "file": "cello.js",
+    "c": "music",
+    "t": "Cello",
+    "g": "cello bow strings endpin"
+  },
+  {
+    "file": "trombone.js",
+    "c": "music",
+    "t": "Trombone",
+    "g": "slide trombone bell"
+  },
+  {
+    "file": "sundial3.js",
+    "c": "outdoor",
+    "t": "Garden sundial",
+    "g": "sundial gnomon shadow pedestal"
+  },
+  {
+    "file": "faxmachine.js",
+    "c": "office",
+    "t": "Fax machine",
+    "g": "fax paper feed handset"
+  },
+  {
+    "file": "hovercraft.js",
+    "c": "vehicle",
+    "t": "Hovercraft",
+    "g": "hovercraft skirt fan rudder"
+  },
+  {
+    "file": "snowmobile.js",
+    "c": "vehicle",
+    "t": "Snowmobile",
+    "g": "snowmobile ski track handlebars"
+  },
+  {
+    "file": "quadbike.js",
+    "c": "vehicle",
+    "t": "Quad bike",
+    "g": "atv quad handlebars steer"
+  },
+  {
+    "file": "golfcart.js",
+    "c": "vehicle",
+    "t": "Golf buggy",
+    "g": "golf buggy roof seat wheel"
+  },
+  {
+    "file": "sidecar2.js",
+    "c": "vehicle",
+    "t": "Tuk-tuk",
+    "g": "auto rickshaw three wheeler canopy"
+  },
+  {
+    "file": "campervan2.js",
+    "c": "vehicle",
+    "t": "Caravan",
+    "g": "caravan door step towing"
+  },
+  {
+    "file": "segway.js",
+    "c": "vehicle",
+    "t": "Self-balancing scooter",
+    "g": "self balancing scooter tilt handle"
+  },
+  {
+    "file": "tandem.js",
+    "c": "vehicle",
+    "t": "Tandem bike",
+    "g": "tandem bicycle two seats pedals"
+  },
+  {
+    "file": "gimbal.js",
+    "c": "av",
+    "t": "Phone gimbal",
+    "g": "phone gimbal stabiliser arm fold"
+  },
+  {
+    "file": "slideviewer.js",
+    "c": "av",
+    "t": "Slide projector",
+    "g": "carousel slide projector tray"
+  },
+  {
+    "file": "cassette2.js",
+    "c": "av",
+    "t": "Personal cassette player",
+    "g": "walkman cassette lid headphones"
+  },
+  {
+    "file": "maracas.js",
+    "c": "music",
+    "t": "Maracas",
+    "g": "maraca shake handle"
+  },
+  {
+    "file": "triangle3.js",
+    "c": "music",
+    "t": "Triangle",
+    "g": "triangle instrument beater ring"
+  },
+  {
+    "file": "nutcracker.js",
+    "c": "kitchen",
+    "t": "Nutcracker",
+    "g": "nutcracker lever jaw walnut"
+  },
+  {
+    "file": "alarmclock2.js",
+    "c": "home",
+    "t": "Twin bell alarm clock",
+    "g": "alarm clock bells hammer ring"
+  },
+  {
+    "file": "skateboard.js",
+    "c": "sports",
+    "t": "Skateboard",
+    "g": "skateboard deck trucks wheels kick"
+  },
+  {
+    "file": "windsurf.js",
+    "c": "sports",
+    "t": "Windsurf board",
+    "g": "windsurf sail mast tilt"
+  },
+  {
+    "file": "toboggan.js",
+    "c": "sports",
+    "t": "Toboggan",
+    "g": "toboggan sled curl front rope"
+  },
+  {
+    "file": "photocopier.js",
+    "c": "office",
+    "t": "Photocopier",
+    "g": "copier lid scan glass"
+  },
+  {
+    "file": "carwash.js",
+    "c": "vehicle",
+    "t": "Car wash",
+    "g": "car wash brushes arch rotate"
+  },
+  {
+    "file": "bowsaw.js",
+    "c": "tools",
+    "t": "Bow saw",
+    "g": "bow saw blade frame cut"
+  },
+  {
+    "file": "plumbbob.js",
+    "c": "tools",
+    "t": "Plumb bob",
+    "g": "plumb bob string swing point"
+  },
+  {
+    "file": "brace.js",
+    "c": "tools",
+    "t": "Brace and bit",
+    "g": "brace crank bit drill"
+  },
+  {
+    "file": "knitting.js",
+    "c": "craft",
+    "t": "Knitting needles",
+    "g": "knitting needles yarn ball stitch"
+  },
+  {
+    "file": "toydrum.js",
+    "c": "toys",
+    "t": "Toy drum",
+    "g": "toy drum sticks strap"
+  },
+  {
+    "file": "cancrusher.js",
+    "c": "home",
+    "t": "Can crusher",
+    "g": "can crusher lever wall"
+  },
+  {
+    "file": "woodstove.js",
+    "c": "home",
+    "t": "Wood stove",
+    "g": "wood burning stove door flue"
+  },
+  {
+    "file": "eggchair.js",
+    "c": "garden",
+    "t": "Hanging egg chair",
+    "g": "egg chair swing stand cushion"
+  },
+  {
+    "file": "dentaldrill.js",
+    "c": "medical",
+    "t": "Dental drill",
+    "g": "dental handpiece arm hose unit"
+  },
+  {
+    "file": "xrayarm.js",
+    "c": "medical",
+    "t": "X-ray machine",
+    "g": "x ray tube arm swing ceiling"
+  },
+  {
+    "file": "hamradio.js",
+    "c": "comms",
+    "t": "Ham radio",
+    "g": "ham radio transceiver tuning dial knob"
+  },
+  {
+    "file": "payphone.js",
+    "c": "comms",
+    "t": "Payphone",
+    "g": "payphone handset coin cord"
+  },
+  {
+    "file": "mokapot.js",
+    "c": "kitchen",
+    "t": "Moka pot",
+    "g": "moka pot lid spout stovetop coffee"
+  },
+  {
+    "file": "cardshuffler.js",
+    "c": "games",
+    "t": "Card shuffler",
+    "g": "card shuffler crank deck"
+  },
+  {
+    "file": "dumper.js",
+    "c": "construction",
+    "t": "Site dumper",
+    "g": "site dumper skip tip front"
+  },
+  {
+    "file": "trencher.js",
+    "c": "construction",
+    "t": "Trencher",
+    "g": "trencher chain boom dig"
+  },
+  {
+    "file": "drillrig.js",
+    "c": "construction",
+    "t": "Drilling rig",
+    "g": "drilling rig mast auger tracked"
+  },
+  {
+    "file": "combine.js",
+    "c": "farm",
+    "t": "Combine harvester",
+    "g": "combine harvester reel header unloader"
+  },
+  {
+    "file": "cropsprayer.js",
+    "c": "farm",
+    "t": "Crop sprayer",
+    "g": "crop sprayer boom arms fold"
+  },
+  {
+    "file": "towtruck.js",
+    "c": "vehicle",
+    "t": "Tow truck",
+    "g": "tow truck boom winch hook"
+  },
+  {
+    "file": "mixertruck.js",
+    "c": "vehicle",
+    "t": "Cement mixer truck",
+    "g": "cement mixer truck drum rotate chute"
+  },
+  {
+    "file": "milktank.js",
+    "c": "farm",
+    "t": "Bulk milk tank",
+    "g": "milk tank lid paddle stirrer"
+  },
+  {
+    "file": "firetruck.js",
+    "c": "vehicle",
+    "t": "Fire engine",
+    "g": "fire engine ladder turntable raise"
+  },
+  {
+    "file": "icecreamvan.js",
+    "c": "vehicle",
+    "t": "Ice cream van",
+    "g": "ice cream van serving hatch awning"
+  },
+  {
+    "file": "fueltanker.js",
+    "c": "vehicle",
+    "t": "Fuel tanker",
+    "g": "fuel tanker hose reel tank"
+  },
+  {
+    "file": "cartransporter.js",
+    "c": "vehicle",
+    "t": "Car transporter",
+    "g": "car transporter upper deck tilt ramp"
+  },
+  {
+    "file": "horsebox.js",
+    "c": "vehicle",
+    "t": "Horse box",
+    "g": "horse box ramp door trailer"
+  },
+  {
+    "file": "snowplough.js",
+    "c": "vehicle",
+    "t": "Snow plough",
+    "g": "snow plough blade angle truck"
+  },
+  {
+    "file": "gritter.js",
+    "c": "vehicle",
+    "t": "Gritter lorry",
+    "g": "gritter spinner spread salt"
+  },
+  {
+    "file": "jeep.js",
+    "c": "vehicle",
+    "t": "Off-road jeep",
+    "g": "off road jeep spare wheel tailgate"
+  },
+  {
+    "file": "steamtrain.js",
+    "c": "vehicle",
+    "t": "Steam locomotive",
+    "g": "steam locomotive driving wheels coupling rods"
+  },
+  {
+    "file": "handcar.js",
+    "c": "vehicle",
+    "t": "Railway handcar",
+    "g": "railway handcar pump lever"
+  },
+  {
+    "file": "convertible.js",
+    "c": "vehicle",
+    "t": "Convertible car",
+    "g": "convertible soft top roof fold"
+  },
+  {
+    "file": "vintagecar.js",
+    "c": "vehicle",
+    "t": "Vintage car",
+    "g": "vintage car crank start bonnet"
+  },
+  {
+    "file": "racecar.js",
+    "c": "vehicle",
+    "t": "Race car",
+    "g": "race car rear wing drs"
+  },
+  {
+    "file": "blimp.js",
+    "c": "air",
+    "t": "Airship",
+    "g": "airship envelope fins gondola"
+  },
+  {
+    "file": "cargoplane.js",
+    "c": "air",
+    "t": "Cargo plane",
+    "g": "cargo plane nose door swing open"
+  },
+  {
+    "file": "speedboat.js",
+    "c": "marine",
+    "t": "Speedboat",
+    "g": "speedboat outboard tilt windscreen"
+  },
+  {
+    "file": "paddlesteamer.js",
+    "c": "marine",
+    "t": "Paddle steamer",
+    "g": "paddle steamer wheel funnel"
+  },
+  {
+    "file": "pedalo.js",
+    "c": "marine",
+    "t": "Pedalo",
+    "g": "pedalo pedal boat paddle wheel"
+  },
+  {
+    "file": "seaplane.js",
+    "c": "air",
+    "t": "Seaplane",
+    "g": "seaplane floats propeller spin"
+  },
+  {
+    "file": "gyrocopter.js",
+    "c": "air",
+    "t": "Gyrocopter",
+    "g": "gyrocopter rotor spin pusher prop"
+  },
+  {
+    "file": "biplane.js",
+    "c": "air",
+    "t": "Biplane",
+    "g": "biplane propeller wings struts"
+  },
+  {
+    "file": "glider.js",
+    "c": "air",
+    "t": "Glider",
+    "g": "glider long wings aileron bank"
+  },
+  {
+    "file": "catamaran.js",
+    "c": "marine",
+    "t": "Catamaran",
+    "g": "catamaran twin hulls sail trampoline"
+  },
+  {
+    "file": "pirateship.js",
+    "c": "marine",
+    "t": "Pirate ship",
+    "g": "pirate ship sails masts flag"
+  },
+  {
+    "file": "hydrofoil.js",
+    "c": "marine",
+    "t": "Hydrofoil",
+    "g": "hydrofoil foils lift hull"
+  },
+  {
+    "file": "paramotor.js",
+    "c": "air",
+    "t": "Paramotor",
+    "g": "paramotor prop cage wing"
+  },
+  {
+    "file": "spaceshuttle.js",
+    "c": "air",
+    "t": "Space shuttle",
+    "g": "space shuttle payload bay doors open"
+  },
+  {
+    "file": "cropduster.js",
+    "c": "air",
+    "t": "Crop duster",
+    "g": "crop duster biplane spray boom"
+  },
+  {
+    "file": "fighterjet.js",
+    "c": "air",
+    "t": "Fighter jet",
+    "g": "fighter jet canopy open cockpit"
+  },
+  {
+    "file": "privatejet.js",
+    "c": "air",
+    "t": "Business jet",
+    "g": "business jet airstair door fold"
+  },
+  {
+    "file": "bumpercar.js",
+    "c": "fairground",
+    "t": "Bumper car",
+    "g": "bumper car pole steer"
+  },
+  {
+    "file": "teacups.js",
+    "c": "fairground",
+    "t": "Teacup ride",
+    "g": "teacup ride spin cup"
+  },
+  {
+    "file": "droptower.js",
+    "c": "fairground",
+    "t": "Drop tower",
+    "g": "drop tower seats ring rise fall"
+  },
+  {
+    "file": "ferriswheel.js",
+    "c": "fairground",
+    "t": "Ferris wheel",
+    "g": "ferris wheel gondolas rotate"
+  },
+  {
+    "file": "carousel3.js",
+    "c": "fairground",
+    "t": "Carousel",
+    "g": "carousel horses canopy rotate"
+  },
+  {
+    "file": "rollercoaster.js",
+    "c": "fairground",
+    "t": "Roller coaster car",
+    "g": "roller coaster car lift hill track"
+  },
+  {
+    "file": "pendulumride.js",
+    "c": "fairground",
+    "t": "Pendulum ride",
+    "g": "pendulum ride arm swing gondola"
+  },
+  {
+    "file": "swingride.js",
+    "c": "fairground",
+    "t": "Chair swing ride",
+    "g": "chair swing ride tilt rotate"
+  },
+  {
+    "file": "helterskelter.js",
+    "c": "fairground",
+    "t": "Helter skelter",
+    "g": "helter skelter spiral slide tower"
+  },
+  {
+    "file": "ticketbooth.js",
+    "c": "fairground",
+    "t": "Ticket booth",
+    "g": "ticket booth window shutter kiosk"
+  },
+  {
+    "file": "fortuneteller.js",
+    "c": "fairground",
+    "t": "Fortune teller machine",
+    "g": "fortune teller machine cabinet card slot"
+  },
+  {
+    "file": "highstriker.js",
+    "c": "fairground",
+    "t": "High striker",
+    "g": "high striker mallet puck bell strength test"
+  },
+  {
+    "file": "ropebridge.js",
+    "c": "play",
+    "t": "Rope bridge",
+    "g": "rope bridge planks sway"
+  },
+  {
+    "file": "logflume.js",
+    "c": "fairground",
+    "t": "Log flume",
+    "g": "log flume boat drop chute"
+  },
+  {
+    "file": "bouncycastle.js",
+    "c": "play",
+    "t": "Bouncy castle",
+    "g": "bouncy castle inflatable turrets bounce"
+  },
+  {
+    "file": "gokart.js",
+    "c": "play",
+    "t": "Go-kart",
+    "g": "go kart steering wheel front wheels"
+  },
+  {
+    "file": "minigolf.js",
+    "c": "play",
+    "t": "Mini golf windmill",
+    "g": "mini golf windmill hole sails putt"
+  },
+  {
+    "file": "irrigationpivot.js",
+    "c": "farm",
+    "t": "Irrigation pivot",
+    "g": "centre pivot irrigation span towers sprinklers"
+  },
+  {
+    "file": "railturntable.js",
+    "c": "vehicle",
+    "t": "Railway turntable",
+    "g": "railway turntable locomotive pit rotate"
+  },
+  {
+    "file": "jackhammer.js",
+    "c": "tools",
+    "t": "Jackhammer",
+    "g": "jackhammer pneumatic drill chisel"
+  },
+  {
+    "file": "scaffoldtower.js",
+    "c": "construction",
+    "t": "Scaffold tower",
+    "g": "mobile scaffold tower platform wheels"
+  },
+  {
+    "file": "skiplorry.js",
+    "c": "vehicle",
+    "t": "Skip lorry",
+    "g": "skip lorry arms lift skip"
+  },
+  {
+    "file": "watertower.js",
+    "c": "city",
+    "t": "Water tower",
+    "g": "water tower tank legs hatch"
+  },
+  {
+    "file": "dredger.js",
+    "c": "marine",
+    "t": "Dredger",
+    "g": "dredger bucket ladder chain"
+  },
+  {
+    "file": "liftbridge.js",
+    "c": "city",
+    "t": "Vertical lift bridge",
+    "g": "vertical lift bridge towers deck rise"
+  },
+  {
+    "file": "heliostat.js",
+    "c": "science",
+    "t": "Heliostat mirror",
+    "g": "heliostat solar mirror tracking tilt"
+  },
+  {
+    "file": "tunnelboring.js",
+    "c": "construction",
+    "t": "Tunnel boring machine",
+    "g": "tunnel boring machine cutter head rotate"
+  },
+  {
+    "file": "radarmast.js",
+    "c": "air",
+    "t": "Radar antenna",
+    "g": "radar antenna dish rotate sweep mast"
+  },
+  {
+    "file": "swingbridge.js",
+    "c": "city",
+    "t": "Swing bridge",
+    "g": "swing bridge deck pivot rotate"
+  },
+  {
+    "file": "steeldrum.js",
+    "c": "music",
+    "t": "Steel drum",
+    "g": "steel pan drum stand mallets"
+  },
+  {
+    "file": "frenchhorn.js",
+    "c": "music",
+    "t": "French horn",
+    "g": "french horn rotary valve lever coiled"
+  },
+  {
+    "file": "timpani.js",
+    "c": "music",
+    "t": "Timpani",
+    "g": "timpani kettle drum pedal head"
+  },
+  {
+    "file": "doublebass.js",
+    "c": "music",
+    "t": "Double bass",
+    "g": "double bass bow strings endpin"
+  },
+  {
+    "file": "clarinet.js",
+    "c": "music",
+    "t": "Clarinet",
+    "g": "clarinet keys rings bell reed"
+  },
+  {
+    "file": "trumpet.js",
+    "c": "music",
+    "t": "Trumpet",
+    "g": "trumpet valves pistons press bell"
+  },
+  {
+    "file": "trolleybus.js",
+    "c": "vehicle",
+    "t": "Trolleybus",
+    "g": "trolleybus poles raise wires"
+  },
+  {
+    "file": "articulated.js",
+    "c": "vehicle",
+    "t": "Articulated lorry",
+    "g": "articulated lorry trailer swing kingpin"
+  },
+  {
+    "file": "monstertruck.js",
+    "c": "vehicle",
+    "t": "Monster truck",
+    "g": "monster truck suspension big wheels bounce"
+  },
+  {
+    "file": "dunebuggy.js",
+    "c": "vehicle",
+    "t": "Dune buggy",
+    "g": "dune buggy roll cage steer wheels"
+  },
+  {
+    "file": "pennyfarthing.js",
+    "c": "vehicle",
+    "t": "Penny-farthing",
+    "g": "penny farthing big wheel pedals"
+  },
+  {
+    "file": "cargobike.js",
+    "c": "vehicle",
+    "t": "Cargo bike",
+    "g": "cargo bike front box lid"
+  },
+  {
+    "file": "pedicab.js",
+    "c": "vehicle",
+    "t": "Cycle rickshaw",
+    "g": "cycle rickshaw hood fold pedal"
+  },
+  {
+    "file": "sleigh.js",
+    "c": "vehicle",
+    "t": "Sleigh",
+    "g": "sleigh runners curl seat"
+  },
+  {
+    "file": "dogsled.js",
+    "c": "vehicle",
+    "t": "Dog sled",
+    "g": "dog sled handlebar brake runners"
+  },
+  {
+    "file": "planetarium.js",
+    "c": "science",
+    "t": "Planetarium projector",
+    "g": "planetarium projector star ball rotate"
+  },
+  {
+    "file": "steamengine.js",
+    "c": "industry",
+    "t": "Steam engine",
+    "g": "steam engine flywheel piston crank"
+  },
+  {
+    "file": "beamengine.js",
+    "c": "industry",
+    "t": "Beam engine",
+    "g": "beam engine rocking beam flywheel"
+  },
+  {
+    "file": "stirling.js",
+    "c": "science",
+    "t": "Stirling engine",
+    "g": "stirling engine flywheel cylinder"
+  },
+  {
+    "file": "sawmill.js",
+    "c": "industry",
+    "t": "Sawmill",
+    "g": "sawmill log carriage blade"
+  },
+  {
+    "file": "printingpress.js",
+    "c": "office",
+    "t": "Printing press",
+    "g": "printing press screw platen bar"
+  },
+  {
+    "file": "mangle.js",
+    "c": "home",
+    "t": "Mangle",
+    "g": "mangle rollers crank wringer"
+  },
+  {
+    "file": "jetengine.js",
+    "c": "air",
+    "t": "Jet engine",
+    "g": "jet engine fan blades nacelle cowl"
+  },
+  {
+    "file": "beltloader.js",
+    "c": "air",
+    "t": "Belt loader",
+    "g": "airport belt loader conveyor ramp raise"
+  },
+  {
+    "file": "concretepump.js",
+    "c": "construction",
+    "t": "Concrete pump",
+    "g": "concrete pump boom unfold truck"
+  },
+  {
+    "file": "logloader.js",
+    "c": "construction",
+    "t": "Log loader",
+    "g": "log loader grapple claw boom"
+  },
+  {
+    "file": "wheelloader.js",
+    "c": "construction",
+    "t": "Wheel loader",
+    "g": "wheel loader bucket lift tip"
+  },
+  {
+    "file": "ridemower.js",
+    "c": "garden",
+    "t": "Ride-on mower",
+    "g": "ride on mower deck seat steering"
+  },
+  {
+    "file": "telehandler.js",
+    "c": "construction",
+    "t": "Telehandler",
+    "g": "telehandler telescopic boom forks extend"
+  },
+  {
+    "file": "cateringtruck.js",
+    "c": "air",
+    "t": "Catering truck",
+    "g": "airport catering truck scissor body rise"
+  },
+  {
+    "file": "legcurl.js",
+    "c": "sports",
+    "t": "Leg curl machine",
+    "g": "leg curl pad lever weight"
+  },
+  {
+    "file": "pecdeck.js",
+    "c": "sports",
+    "t": "Chest fly machine",
+    "g": "pec deck arms swing chest fly"
+  },
+  {
+    "file": "latpulldown.js",
+    "c": "sports",
+    "t": "Lat pulldown",
+    "g": "lat pulldown bar cable weight stack"
+  },
+  {
+    "file": "speedbag.js",
+    "c": "sports",
+    "t": "Speed bag",
+    "g": "speed bag platform swivel punch"
+  },
+  {
+    "file": "mufflefurnace.js",
+    "c": "science",
+    "t": "Muffle furnace",
+    "g": "muffle furnace door drop"
+  },
+  {
+    "file": "rotavap.js",
+    "c": "science",
+    "t": "Rotary evaporator",
+    "g": "rotary evaporator flask tilt rotate condenser"
+  },
+  {
+    "file": "tuberocker.js",
+    "c": "science",
+    "t": "Tube rocker",
+    "g": "lab tube rocker platform tilt"
+  },
+  {
+    "file": "waterbath.js",
+    "c": "science",
+    "t": "Lab water bath",
+    "g": "water bath gabled lid lift"
+  },
+  {
+    "file": "policecar.js",
+    "c": "vehicle",
+    "t": "Police car",
+    "g": "police car light bar rotate"
+  },
+  {
+    "file": "limousine.js",
+    "c": "vehicle",
+    "t": "Limousine",
+    "g": "stretch limousine door open"
+  },
+  {
+    "file": "rallycar.js",
+    "c": "vehicle",
+    "t": "Rally car",
+    "g": "rally car roof scoop suspension jump"
+  },
+  {
+    "file": "deliveryvan.js",
+    "c": "vehicle",
+    "t": "Delivery van",
+    "g": "delivery van rear roller shutter"
+  },
+  {
+    "file": "motortrike.js",
+    "c": "vehicle",
+    "t": "Motor trike",
+    "g": "motor trike three wheels handlebars"
+  },
+  {
+    "file": "hoverboard.js",
+    "c": "vehicle",
+    "t": "Hoverboard",
+    "g": "hoverboard two wheel tilt platform"
+  },
+  {
+    "file": "chopper.js",
+    "c": "vehicle",
+    "t": "Chopper motorbike",
+    "g": "chopper motorbike long forks handlebars steer"
+  },
+  {
+    "file": "dirtbike.js",
+    "c": "vehicle",
+    "t": "Dirt bike",
+    "g": "dirt bike suspension forks compress wheelie"
+  },
+  {
+    "file": "manurespreader.js",
+    "c": "farm",
+    "t": "Manure spreader",
+    "g": "manure spreader beaters rotate trailer"
+  },
+  {
+    "file": "balewrapper.js",
+    "c": "farm",
+    "t": "Bale wrapper",
+    "g": "bale wrapper arm rotate film"
+  },
+  {
+    "file": "tippertrailer.js",
+    "c": "farm",
+    "t": "Tipping trailer",
+    "g": "tipping trailer body raise tailgate"
+  },
+  {
+    "file": "cementsilo.js",
+    "c": "construction",
+    "t": "Cement silo",
+    "g": "cement silo legs hopper valve"
+  },
+  {
+    "file": "lighttower.js",
+    "c": "construction",
+    "t": "Light tower",
+    "g": "mobile light tower mast extend lamps"
+  },
+  {
+    "file": "windowrobot.js",
+    "c": "devices",
+    "t": "Window cleaning robot",
+    "g": "window cleaning robot pad glass slide"
+  },
+  {
+    "file": "poolrobot.js",
+    "c": "devices",
+    "t": "Pool cleaning robot",
+    "g": "pool cleaner robot brush tracks climb"
+  },
+  {
+    "file": "robotmower.js",
+    "c": "garden",
+    "t": "Robot lawnmower",
+    "g": "robot lawnmower lid stop button"
+  },
+  {
+    "file": "robotdog.js",
+    "c": "devices",
+    "t": "Robot dog",
+    "g": "quadruped robot dog legs head tilt"
+  },
+  {
+    "file": "telepresence.js",
+    "c": "devices",
+    "t": "Telepresence robot",
+    "g": "telepresence robot screen mast rise"
+  },
+  {
+    "file": "deliverybot.js",
+    "c": "devices",
+    "t": "Delivery robot",
+    "g": "sidewalk delivery robot lid flag"
+  },
+  {
+    "file": "babyincubator.js",
+    "c": "medical",
+    "t": "Baby incubator",
+    "g": "infant incubator hood lift portholes"
+  },
+  {
+    "file": "stairlift.js",
+    "c": "home",
+    "t": "Stairlift",
+    "g": "stairlift seat rail fold arm"
+  },
+  {
+    "file": "bathlift.js",
+    "c": "home",
+    "t": "Bath lift",
+    "g": "bath lift seat raise lower"
+  },
+  {
+    "file": "examcouch.js",
+    "c": "medical",
+    "t": "Examination couch",
+    "g": "examination couch backrest raise"
+  },
+  {
+    "file": "surgicallamp.js",
+    "c": "medical",
+    "t": "Surgical lamp",
+    "g": "surgical lamp arm swing head"
+  },
+  {
+    "file": "operatingtable.js",
+    "c": "medical",
+    "t": "Operating table",
+    "g": "operating table tilt column top"
+  },
+  {
+    "file": "shaver.js",
+    "c": "home",
+    "t": "Electric shaver",
+    "g": "electric shaver trimmer pop up head"
+  },
+  {
+    "file": "hairdryer2.js",
+    "c": "home",
+    "t": "Hair dryer",
+    "g": "handheld hair dryer fold handle nozzle"
+  },
+  {
+    "file": "bathscale.js",
+    "c": "home",
+    "t": "Bathroom scale",
+    "g": "bathroom scale dial platform press"
+  },
+  {
+    "file": "showerenclosure.js",
+    "c": "home",
+    "t": "Shower enclosure",
+    "g": "shower enclosure glass door pivot"
+  },
+  {
+    "file": "flushcistern.js",
+    "c": "home",
+    "t": "High-level cistern",
+    "g": "high level toilet cistern pull chain flush"
+  },
+  {
+    "file": "marblerun.js",
+    "c": "toys",
+    "t": "Marble run",
+    "g": "marble run track zigzag marble"
+  },
+  {
+    "file": "hammerbench.js",
+    "c": "toys",
+    "t": "Hammer bench",
+    "g": "hammer bench pegs pound"
+  },
+  {
+    "file": "slinky.js",
+    "c": "toys",
+    "t": "Coil spring toy",
+    "g": "coil spring toy step stairs stretch"
+  },
+  {
+    "file": "windupmouse.js",
+    "c": "toys",
+    "t": "Wind-up mouse",
+    "g": "wind up mouse key turn tail"
+  },
+  {
+    "file": "pullduck.js",
+    "c": "toys",
+    "t": "Pull-along duck",
+    "g": "pull along duck wheels feet flap"
+  },
+  {
+    "file": "stereoviewer.js",
+    "c": "toys",
+    "t": "Stereo viewer",
+    "g": "stereo viewer reel lever click"
+  },
+  {
+    "file": "metalshear.js",
+    "c": "tools",
+    "t": "Bench shear",
+    "g": "bench shear lever blade cut"
+  },
+  {
+    "file": "dustextractor.js",
+    "c": "tools",
+    "t": "Dust extractor",
+    "g": "dust extractor bag hose lid"
+  },
+  {
+    "file": "jointer.js",
+    "c": "tools",
+    "t": "Jointer",
+    "g": "jointer fence tables guard"
+  },
+  {
+    "file": "beltsander.js",
+    "c": "tools",
+    "t": "Belt sander",
+    "g": "bench belt sander belt table tilt"
+  },
+  {
+    "file": "pressurecooker.js",
+    "c": "kitchen",
+    "t": "Pressure cooker",
+    "g": "pressure cooker lid lock handle valve"
+  },
+  {
+    "file": "foodprocessor2.js",
+    "c": "kitchen",
+    "t": "Food processor",
+    "g": "food processor lid chute pusher"
+  },
+  {
+    "file": "yogurtmaker.js",
+    "c": "kitchen",
+    "t": "Yogurt maker",
+    "g": "yogurt maker dome lid jars"
+  },
+  {
+    "file": "coffeegrinder2.js",
+    "c": "kitchen",
+    "t": "Burr coffee grinder",
+    "g": "burr coffee grinder hopper lid dial"
+  },
+  {
+    "file": "fogmachine.js",
+    "c": "av",
+    "t": "Fog machine",
+    "g": "fog machine nozzle puff cloud"
+  },
+  {
+    "file": "movinghead.js",
+    "c": "av",
+    "t": "Moving head light",
+    "g": "moving head light yoke pan tilt beam"
+  },
+  {
+    "file": "milkshakemixer.js",
+    "c": "kitchen",
+    "t": "Milkshake mixer",
+    "g": "milkshake spindle mixer cup tilt"
+  },
+  {
+    "file": "confetti.js",
+    "c": "av",
+    "t": "Confetti cannon",
+    "g": "confetti cannon tilt burst"
+  },
+  {
+    "file": "rotarycutter.js",
+    "c": "craft",
+    "t": "Rotary cutter",
+    "g": "rotary cutter blade guard retract handle"
+  },
+  {
+    "file": "bobbinwinder.js",
+    "c": "craft",
+    "t": "Bobbin winder",
+    "g": "bobbin winder spool spin arm"
+  },
+  {
+    "file": "croquet.js",
+    "c": "sports",
+    "t": "Croquet set",
+    "g": "croquet mallet hoop ball strike"
+  },
+  {
+    "file": "shuffleboard.js",
+    "c": "sports",
+    "t": "Shuffleboard",
+    "g": "shuffleboard cue disc slide"
+  },
+  {
+    "file": "buttonpress.js",
+    "c": "craft",
+    "t": "Button badge press",
+    "g": "badge button press lever die"
+  },
+  {
+    "file": "garmentsteamer.js",
+    "c": "home",
+    "t": "Garment steamer",
+    "g": "garment steamer pole head hose tank"
+  },
+  {
+    "file": "golfballwasher.js",
+    "c": "sports",
+    "t": "Golf ball washer",
+    "g": "golf ball washer paddle plunger"
+  },
+  {
+    "file": "foosball2.js",
+    "c": "sports",
+    "t": "Table football",
+    "g": "table football rods players spin"
+  },
+  {
+    "file": "davit.js",
+    "c": "marine",
+    "t": "Boat davit",
+    "g": "davit arm swing hoist boat"
+  },
+  {
+    "file": "shadoof.js",
+    "c": "farm",
+    "t": "Shadoof",
+    "g": "shadoof lever bucket counterweight well"
+  },
+  {
+    "file": "ballista.js",
+    "c": "medieval",
+    "t": "Ballista",
+    "g": "ballista bolt winch arms siege"
+  },
+  {
+    "file": "lifeboat.js",
+    "c": "marine",
+    "t": "Lifeboat",
+    "g": "lifeboat hull oars canopy"
+  },
+  {
+    "file": "garbagetruck.js",
+    "c": "vehicle",
+    "t": "Garbage truck",
+    "g": "garbage truck bin lift arm hopper"
+  },
+  {
+    "file": "piledriver.js",
+    "c": "construction",
+    "t": "Pile driver",
+    "g": "pile driver hammer mast pile"
+  },
+  {
+    "file": "snowcat.js",
+    "c": "vehicle",
+    "t": "Snowcat groomer",
+    "g": "snowcat tracks blade cab groomer"
+  },
+  {
+    "file": "typewriter.js",
+    "c": "office",
+    "t": "Typewriter",
+    "g": "typewriter carriage keys typebar"
+  },
+  {
+    "file": "reachstacker.js",
+    "c": "logistics",
+    "t": "Reach stacker",
+    "g": "reach stacker boom spreader container"
+  },
+  {
+    "file": "straddlecarrier.js",
+    "c": "logistics",
+    "t": "Straddle carrier",
+    "g": "straddle carrier legs spreader container lift"
+  },
+  {
+    "file": "stumpgrinder.js",
+    "c": "forestry",
+    "t": "Stump grinder",
+    "g": "stump grinder wheel arm swing teeth"
+  },
+  {
+    "file": "teleprompter.js",
+    "c": "media",
+    "t": "Teleprompter",
+    "g": "teleprompter glass hood camera tilt"
+  },
+  {
+    "file": "bandsaw.js",
+    "c": "wood",
+    "t": "Band saw",
+    "g": "band saw blade guide table wheel"
+  },
+  {
+    "file": "logskidder.js",
+    "c": "forestry",
+    "t": "Log skidder",
+    "g": "log skidder grapple arm logs"
+  },
+  {
+    "file": "scrollsaw.js",
+    "c": "wood",
+    "t": "Scroll saw",
+    "g": "scroll saw arm blade table"
+  },
+  {
+    "file": "plungerouter.js",
+    "c": "wood",
+    "t": "Plunge router",
+    "g": "plunge router base posts bit plunge"
+  },
+  {
+    "file": "pressurewasher.js",
+    "c": "home",
+    "t": "Pressure washer",
+    "g": "pressure washer wand hose trigger"
+  },
+  {
+    "file": "tiltrotor.js",
+    "c": "air",
+    "t": "Tiltrotor aircraft",
+    "g": "tiltrotor nacelles tilt rotors wing"
+  },
+  {
+    "file": "lowloader.js",
+    "c": "vehicle",
+    "t": "Low loader trailer",
+    "g": "low loader trailer ramps deck gooseneck"
+  },
+  {
+    "file": "paraglider.js",
+    "c": "air",
+    "t": "Paraglider",
+    "g": "paraglider canopy lines harness"
+  },
+  {
+    "file": "dragster.js",
+    "c": "vehicle",
+    "t": "Dragster",
+    "g": "dragster parachute rear wing slicks"
+  },
+  {
+    "file": "airboat.js",
+    "c": "marine",
+    "t": "Airboat",
+    "g": "airboat fan cage rudders swamp"
+  },
+  {
+    "file": "amphibian.js",
+    "c": "vehicle",
+    "t": "Amphibious car",
+    "g": "amphibious car wheels retract hull"
+  },
+  {
+    "file": "utv.js",
+    "c": "vehicle",
+    "t": "Side-by-side UTV",
+    "g": "utv side by side dump bed roll cage"
+  },
+  {
+    "file": "gullwing.js",
+    "c": "vehicle",
+    "t": "Gullwing coupe",
+    "g": "gullwing coupe doors lift sports car"
+  },
+  {
+    "file": "kitesurf.js",
+    "c": "beach",
+    "t": "Kitesurf rig",
+    "g": "kitesurf kite bar lines board"
+  },
+  {
+    "file": "junkship.js",
+    "c": "marine",
+    "t": "Junk ship",
+    "g": "junk ship battened sails fold hull"
+  },
+  {
+    "file": "coracle.js",
+    "c": "marine",
+    "t": "Coracle",
+    "g": "coracle round boat paddle"
+  },
+  {
+    "file": "velomobile.js",
+    "c": "vehicle",
+    "t": "Velomobile",
+    "g": "velomobile shell canopy recumbent pedal"
+  },
+  {
+    "file": "landyacht.js",
+    "c": "outdoor",
+    "t": "Land yacht",
+    "g": "land yacht sail mast boom three wheels"
+  },
+  {
+    "file": "canallock.js",
+    "c": "marine",
+    "t": "Canal lock gates",
+    "g": "canal lock mitre gates balance beam"
+  },
+  {
+    "file": "barge.js",
+    "c": "marine",
+    "t": "Canal barge",
+    "g": "canal barge hold hatch covers wheelhouse"
+  },
+  {
+    "file": "loftladder.js",
+    "c": "home",
+    "t": "Loft ladder",
+    "g": "loft ladder attic hatch fold"
+  },
+  {
+    "file": "pergola.js",
+    "c": "garden",
+    "t": "Louvred pergola",
+    "g": "pergola louvres roof tilt"
+  },
+  {
+    "file": "gateleg.js",
+    "c": "home",
+    "t": "Gateleg table",
+    "g": "gateleg table drop leaf swing leg"
+  },
+  {
+    "file": "weatherballoon.js",
+    "c": "weather",
+    "t": "Weather balloon",
+    "g": "weather balloon radiosonde launch"
+  },
+  {
+    "file": "barrelorgan.js",
+    "c": "music",
+    "t": "Barrel organ",
+    "g": "barrel organ crank pipes street"
+  },
+  {
+    "file": "magiclantern.js",
+    "c": "retro",
+    "t": "Magic lantern",
+    "g": "magic lantern slide carrier lens chimney"
+  },
+  {
+    "file": "stereoscope.js",
+    "c": "retro",
+    "t": "Stereoscope",
+    "g": "stereoscope card holder slide viewer"
+  },
+  {
+    "file": "mutoscope.js",
+    "c": "retro",
+    "t": "Mutoscope",
+    "g": "mutoscope crank flip cards viewer"
+  },
+  {
+    "file": "differenceengine.js",
+    "c": "science",
+    "t": "Difference engine",
+    "g": "difference engine crank columns gears"
+  },
+  {
+    "file": "pantograph.js",
+    "c": "design",
+    "t": "Drawing pantograph",
+    "g": "pantograph linkage arms stylus pen copy"
+  },
+  {
+    "file": "planimeter.js",
+    "c": "science",
+    "t": "Planimeter",
+    "g": "planimeter tracer arm pole wheel area"
+  },
+  {
+    "file": "watercrane.js",
+    "c": "railway",
+    "t": "Water crane",
+    "g": "railway water crane column arm swing"
+  },
+  {
+    "file": "wagontippler.js",
+    "c": "railway",
+    "t": "Wagon tippler",
+    "g": "wagon tippler rotary dumper rings wagon"
+  },
+  {
+    "file": "stampmill.js",
+    "c": "industry",
+    "t": "Stamp mill",
+    "g": "stamp mill cams stems stamps ore"
+  },
+  {
+    "file": "railcrane.js",
+    "c": "railway",
+    "t": "Railway crane",
+    "g": "railway breakdown crane jib wagon"
+  },
+  {
+    "file": "coalingtower.js",
+    "c": "railway",
+    "t": "Coaling tower",
+    "g": "coaling tower chute apron coal"
+  },
+  {
+    "file": "derrick.js",
+    "c": "industry",
+    "t": "Guy derrick",
+    "g": "guy derrick mast boom hoist"
+  },
+  {
+    "file": "treadwheel.js",
+    "c": "medieval",
+    "t": "Treadwheel crane",
+    "g": "treadwheel crane wheel jib rope"
+  },
+  {
+    "file": "salamander.js",
+    "c": "kitchen",
+    "t": "Salamander grill",
+    "g": "salamander grill head lift rack"
+  },
+  {
+    "file": "ropemaker.js",
+    "c": "craft",
+    "t": "Rope-making machine",
+    "g": "rope maker hooks crank twist strands"
+  },
+  {
+    "file": "linotype.js",
+    "c": "retro",
+    "t": "Linotype machine",
+    "g": "linotype keyboard elevator matrix magazine"
+  },
+  {
+    "file": "cottongin.js",
+    "c": "farm",
+    "t": "Cotton gin",
+    "g": "cotton gin crank roller saws lint"
+  },
+  {
+    "file": "spinningjenny.js",
+    "c": "textile",
+    "t": "Spinning jenny",
+    "g": "spinning jenny wheel carriage spindles"
+  },
+  {
+    "file": "doughsheeter.js",
+    "c": "bakery",
+    "t": "Dough sheeter",
+    "g": "dough sheeter rollers belts wings fold"
+  },
+  {
+    "file": "sausagefiller.js",
+    "c": "kitchen",
+    "t": "Sausage stuffer",
+    "g": "sausage stuffer crank plunger cylinder nozzle"
+  },
+  {
+    "file": "softserve.js",
+    "c": "dessert",
+    "t": "Soft-serve machine",
+    "g": "soft serve machine lever nozzle cone"
+  },
+  {
+    "file": "slitlamp.js",
+    "c": "medical",
+    "t": "Slit lamp",
+    "g": "slit lamp microscope arm chin rest swing"
+  },
+  {
+    "file": "rollator.js",
+    "c": "medical",
+    "t": "Rollator",
+    "g": "rollator walker seat fold wheels brakes"
+  },
+  {
+    "file": "tractionframe.js",
+    "c": "medical",
+    "t": "Traction frame",
+    "g": "traction frame pulley weight cord bed"
+  },
+  {
+    "file": "mammography.js",
+    "c": "medical",
+    "t": "Mammography unit",
+    "g": "mammography compression paddle column"
+  },
+  {
+    "file": "treespade.js",
+    "c": "forestry",
+    "t": "Tree spade",
+    "g": "tree spade blades plunge root ball"
+  },
+  {
+    "file": "tedder.js",
+    "c": "farm",
+    "t": "Hay tedder",
+    "g": "hay tedder rotors tines fold wings"
+  },
+  {
+    "file": "harrow.js",
+    "c": "farm",
+    "t": "Folding harrow",
+    "g": "harrow wings fold tines frame"
+  },
+  {
+    "file": "postholedigger.js",
+    "c": "garden",
+    "t": "Post hole digger",
+    "g": "post hole digger clamshell handles blades"
+  },
+  {
+    "file": "milkingrobot.js",
+    "c": "farm",
+    "t": "Milking robot",
+    "g": "milking robot arm cups stall"
+  },
+  {
+    "file": "pinsetter.js",
+    "c": "games",
+    "t": "Bowling pinsetter",
+    "g": "bowling pinsetter deck sweep bar pins"
+  },
+  {
+    "file": "startinggate.js",
+    "c": "equestrian",
+    "t": "Starting gate",
+    "g": "horse racing starting gate stalls doors open"
+  },
+  {
+    "file": "racketstringer.js",
+    "c": "sports",
+    "t": "Racket stringer",
+    "g": "racket stringing machine turntable clamps tension"
+  },
+  {
+    "file": "flysystem.js",
+    "c": "theatre",
+    "t": "Fly system",
+    "g": "theatre fly system counterweight arbor batten rope"
+  },
+  {
+    "file": "revolvingstage.js",
+    "c": "theatre",
+    "t": "Revolving stage",
+    "g": "revolving stage turntable set wall"
+  },
+  {
+    "file": "pitlift.js",
+    "c": "theatre",
+    "t": "Orchestra pit lift",
+    "g": "orchestra pit lift platform scissor stage"
+  },
+  {
+    "file": "automaton.js",
+    "c": "toys",
+    "t": "Pecking bird automaton",
+    "g": "automaton cam crank bird peck box"
+  },
+  {
+    "file": "cameraobscura.js",
+    "c": "retro",
+    "t": "Camera obscura",
+    "g": "camera obscura box lens tube slide screen"
+  },
+  {
+    "file": "clepsydra.js",
+    "c": "clock",
+    "t": "Water clock",
+    "g": "water clock clepsydra float pointer vessel"
+  },
+  {
+    "file": "escapement.js",
+    "c": "clock",
+    "t": "Clock escapement",
+    "g": "clock escapement anchor pallet wheel pendulum"
+  },
+  {
+    "file": "triphammer.js",
+    "c": "smithing",
+    "t": "Trip hammer",
+    "g": "trip hammer helve cam anvil water wheel"
+  },
+  {
+    "file": "pipebender.js",
+    "c": "tools",
+    "t": "Pipe bender",
+    "g": "pipe bender lever former die tube"
+  },
+  {
+    "file": "cncrouter.js",
+    "c": "tools",
+    "t": "CNC router",
+    "g": "cnc router gantry spindle bed"
+  },
+  {
+    "file": "fairing.js",
+    "c": "space",
+    "t": "Rocket fairing",
+    "g": "rocket payload fairing halves open satellite"
+  },
+  {
+    "file": "gangway.js",
+    "c": "marine",
+    "t": "Ship gangway",
+    "g": "ship gangway ramp handrails swing tilt"
+  },
+  {
+    "file": "grabunloader.js",
+    "c": "marine",
+    "t": "Grab unloader",
+    "g": "grab unloader clamshell bucket jaws crane"
+  },
+  {
+    "file": "roadblocker.js",
+    "c": "security",
+    "t": "Road blocker",
+    "g": "road blocker wedge plate rise barrier"
+  },
+  {
+    "file": "shiploader.js",
+    "c": "marine",
+    "t": "Ship loader",
+    "g": "ship loader boom conveyor slew spout"
+  },
+  {
+    "file": "shootinggallery.js",
+    "c": "fairground",
+    "t": "Shooting gallery",
+    "g": "shooting gallery targets flip rail booth"
+  },
+  {
+    "file": "hookaduck.js",
+    "c": "fairground",
+    "t": "Hook-a-duck",
+    "g": "hook a duck pole hook duck lift trough"
+  },
+  {
+    "file": "mandoline.js",
+    "c": "kitchen",
+    "t": "Mandoline slicer",
+    "g": "mandoline slicer blade guard pusher slide"
+  },
+  {
+    "file": "siphoncoffee.js",
+    "c": "cafe",
+    "t": "Siphon coffee maker",
+    "g": "siphon coffee vacuum upper globe stand burner"
+  },
+  {
+    "file": "waltzer.js",
+    "c": "fairground",
+    "t": "Waltzer",
+    "g": "waltzer car spin platform tub"
+  },
+  {
+    "file": "coconutshy.js",
+    "c": "fairground",
+    "t": "Coconut shy",
+    "g": "coconut shy post ball knock cup"
+  },
+  {
+    "file": "canopener.js",
+    "c": "kitchen",
+    "t": "Can opener",
+    "g": "can opener butterfly handles key wheel"
+  },
+  {
+    "file": "potatoricer.js",
+    "c": "kitchen",
+    "t": "Potato ricer",
+    "g": "potato ricer handles press basket"
+  },
+  {
+    "file": "speargun.js",
+    "c": "diving",
+    "t": "Speargun",
+    "g": "speargun spear bands trigger shaft"
+  },
+  {
+    "file": "jacobsladder.js",
+    "c": "toys",
+    "t": "Jacob's ladder toy",
+    "g": "jacob ladder toy blocks ribbons flip cascade"
+  },
+  {
+    "file": "kendama.js",
+    "c": "toys",
+    "t": "Kendama",
+    "g": "kendama ball string cup spike swing"
+  },
+  {
+    "file": "jumpingjack.js",
+    "c": "toys",
+    "t": "Jumping jack toy",
+    "g": "jumping jack toy pull string arms legs"
+  },
+  {
+    "file": "binoculars.js",
+    "c": "outdoors",
+    "t": "Binoculars",
+    "g": "binoculars hinge fold barrels focus"
+  },
+  {
+    "file": "popupcamper.js",
+    "c": "camping",
+    "t": "Pop-up camper",
+    "g": "pop up camper roof lift canvas trailer"
+  },
+  {
+    "file": "radialarmsaw.js",
+    "c": "wood",
+    "t": "Radial arm saw",
+    "g": "radial arm saw head slide arm blade"
+  },
+  {
+    "file": "panelsaw.js",
+    "c": "wood",
+    "t": "Vertical panel saw",
+    "g": "vertical panel saw carriage frame sheet"
+  },
+  {
+    "file": "etchingpress.js",
+    "c": "craft",
+    "t": "Etching press",
+    "g": "etching press star wheel roller bed blankets"
+  },
+  {
+    "file": "letterpress.js",
+    "c": "craft",
+    "t": "Platen letterpress",
+    "g": "platen letterpress press platen lever ink disc"
+  },
+  {
+    "file": "draftingmachine.js",
+    "c": "design",
+    "t": "Drafting machine",
+    "g": "drafting machine arm protractor head rulers board"
+  },
+  {
+    "file": "diabolo.js",
+    "c": "toys",
+    "t": "Diabolo",
+    "g": "diabolo spool sticks string toss"
+  },
+  {
+    "file": "candledipping.js",
+    "c": "craft",
+    "t": "Candle dipping rack",
+    "g": "candle dipping rack wicks vat lower"
+  },
+  {
+    "file": "pcrmachine.js",
+    "c": "lab",
+    "t": "PCR machine",
+    "g": "pcr thermal cycler heated lid block wells"
+  },
+  {
+    "file": "platereader.js",
+    "c": "lab",
+    "t": "Microplate reader",
+    "g": "microplate reader tray slide plate drawer"
+  },
+  {
+    "file": "sonicator.js",
+    "c": "lab",
+    "t": "Probe sonicator",
+    "g": "sonicator probe horn lower beaker stand"
+  },
+  {
+    "file": "cryotank.js",
+    "c": "lab",
+    "t": "Cryogenic dewar",
+    "g": "cryogenic dewar lid lift canister rack nitrogen"
+  },
+  {
+    "file": "autosampler.js",
+    "c": "lab",
+    "t": "Autosampler",
+    "g": "autosampler carousel vials needle arm"
+  },
+  {
+    "file": "libraryladder.js",
+    "c": "library",
+    "t": "Library rolling ladder",
+    "g": "library rolling ladder rail slide shelves"
+  },
+  {
+    "file": "compactshelving.js",
+    "c": "library",
+    "t": "Mobile shelving",
+    "g": "mobile compact shelving units roll apart handwheel"
+  },
+  {
+    "file": "liferaft.js",
+    "c": "marine",
+    "t": "Life raft canister",
+    "g": "life raft canister open inflate canopy cradle"
+  },
+  {
+    "file": "watertightdoor.js",
+    "c": "marine",
+    "t": "Watertight door",
+    "g": "watertight door dogs handwheel hinge swing"
+  },
+  {
+    "file": "escalator.js",
+    "c": "city",
+    "t": "Escalator",
+    "g": "escalator steps handrail truss move"
+  },
+  {
+    "file": "paternoster.js",
+    "c": "city",
+    "t": "Paternoster lift",
+    "g": "paternoster lift open cabins loop shaft"
+  },
+  {
+    "file": "tidegauge.js",
+    "c": "marine",
+    "t": "Tide gauge",
+    "g": "tide gauge float well pointer drum stilling"
+  },
+  {
+    "file": "parallelrule.js",
+    "c": "marine",
+    "t": "Parallel rule",
+    "g": "parallel rule rulers brass links walk chart"
+  },
+  {
+    "file": "dividers.js",
+    "c": "marine",
+    "t": "Chart dividers",
+    "g": "chart dividers legs spread hinge points"
+  },
+  {
+    "file": "hooklift.js",
+    "c": "vehicle",
+    "t": "Hook lift truck",
+    "g": "hook lift truck arm hook container roll off"
+  },
+  {
+    "file": "bookmobile.js",
+    "c": "vehicle",
+    "t": "Mobile library van",
+    "g": "mobile library van side panel awning shelves"
+  },
+  {
+    "file": "vacuumtruck.js",
+    "c": "vehicle",
+    "t": "Vacuum truck",
+    "g": "vacuum truck boom hose tank swing"
+  },
+  {
+    "file": "orderpicker.js",
+    "c": "logistics",
+    "t": "Order picker",
+    "g": "order picker mast platform operator rise"
+  },
+  {
+    "file": "corker.js",
+    "c": "winery",
+    "t": "Bottle corker",
+    "g": "bottle corker lever plunger cork bottle"
+  },
+  {
+    "file": "beanroaster.js",
+    "c": "cafe",
+    "t": "Coffee bean roaster",
+    "g": "coffee roaster drum cooling tray stirring arm"
+  },
+  {
+    "file": "drilljumbo.js",
+    "c": "mining",
+    "t": "Drilling jumbo",
+    "g": "drilling jumbo boom drill feed tunnel"
+  },
+  {
+    "file": "rockbreaker.js",
+    "c": "mining",
+    "t": "Pedestal rock breaker",
+    "g": "rock breaker pedestal boom hammer grizzly"
+  },
+  {
+    "file": "dragline.js",
+    "c": "mining",
+    "t": "Dragline excavator",
+    "g": "dragline boom bucket drag rope swing"
+  },
+  {
+    "file": "bucketwheel.js",
+    "c": "mining",
+    "t": "Bucket wheel excavator",
+    "g": "bucket wheel excavator boom wheel buckets"
+  },
+  {
+    "file": "firemonitor.js",
+    "c": "security",
+    "t": "Fire monitor",
+    "g": "fire monitor water cannon nozzle swivel"
+  },
+  {
+    "file": "airbrake.js",
+    "c": "air",
+    "t": "Glider airbrakes",
+    "g": "glider wing airbrakes spoilers rise panel"
+  },
+  {
+    "file": "sleeperberth.js",
+    "c": "railway",
+    "t": "Sleeper berth",
+    "g": "sleeper car berth fold down bunk compartment"
+  },
+  {
+    "file": "platformdoors.js",
+    "c": "railway",
+    "t": "Platform screen doors",
+    "g": "platform screen doors slide open glass panel"
+  },
+  {
+    "file": "landinggear.js",
+    "c": "air",
+    "t": "Landing gear",
+    "g": "landing gear strut wheels retract bay doors"
+  },
+  {
+    "file": "thrustreverser.js",
+    "c": "air",
+    "t": "Thrust reverser",
+    "g": "jet engine thrust reverser cowl slides cascade"
+  },
+  {
+    "file": "trampanto.js",
+    "c": "railway",
+    "t": "Tram pantograph",
+    "g": "tram pantograph arms raise overhead wire roof"
+  },
+  {
+    "file": "hopperwagon.js",
+    "c": "railway",
+    "t": "Hopper wagon",
+    "g": "hopper wagon bottom doors open chute rails"
+  },
+  {
+    "file": "bifolddoor.js",
+    "c": "home",
+    "t": "Bifold door",
+    "g": "bifold door panels fold track hinge"
+  },
+  {
+    "file": "secretbookcase.js",
+    "c": "home",
+    "t": "Secret bookcase door",
+    "g": "secret bookcase door swing pivot hidden room"
+  },
+  {
+    "file": "panicbar.js",
+    "c": "security",
+    "t": "Panic bar door",
+    "g": "panic bar push door latch exit"
+  },
+  {
+    "file": "murphydesk.js",
+    "c": "office",
+    "t": "Fold-down wall desk",
+    "g": "fold down wall desk flap cabinet stays"
+  },
+  {
+    "file": "ironingcupboard.js",
+    "c": "laundry",
+    "t": "Ironing board cupboard",
+    "g": "ironing board cupboard fold down wall"
+  },
+  {
+    "file": "forageharvester.js",
+    "c": "farm",
+    "t": "Forage harvester",
+    "g": "forage harvester spout swing chute header"
+  },
+  {
+    "file": "plugdoor.js",
+    "c": "railway",
+    "t": "Train plug door",
+    "g": "train plug door slide out swing carriage"
+  },
+  {
+    "file": "loppers.js",
+    "c": "garden",
+    "t": "Pruning loppers",
+    "g": "pruning loppers long handles blades close"
+  },
+  {
+    "file": "tyreswing.js",
+    "c": "play",
+    "t": "Tyre swing",
+    "g": "tyre swing ropes branch frame"
+  },
+  {
+    "file": "slurrytanker.js",
+    "c": "farm",
+    "t": "Slurry tanker",
+    "g": "slurry tanker dribble bar boom fold spread"
+  },
+  {
+    "file": "mobilecrane.js",
+    "c": "construction",
+    "t": "Mobile crane",
+    "g": "mobile crane telescopic boom extend outriggers truck"
+  },
+  {
+    "file": "knuckleboom.js",
+    "c": "vehicle",
+    "t": "Knuckle boom crane truck",
+    "g": "knuckle boom loader crane truck fold unfold"
   }
 ]
