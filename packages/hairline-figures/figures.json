@@ -13972,5 +13972,41 @@
     "c": "marine",
     "t": "Chart dividers",
     "g": "chart dividers legs spread hinge points"
+  },
+  {
+    "file": "hooklift.js",
+    "c": "vehicle",
+    "t": "Hook lift truck",
+    "g": "hook lift truck arm hook container roll off"
+  },
+  {
+    "file": "bookmobile.js",
+    "c": "vehicle",
+    "t": "Mobile library van",
+    "g": "mobile library van side panel awning shelves"
+  },
+  {
+    "file": "vacuumtruck.js",
+    "c": "vehicle",
+    "t": "Vacuum truck",
+    "g": "vacuum truck boom hose tank swing"
+  },
+  {
+    "file": "orderpicker.js",
+    "c": "logistics",
+    "t": "Order picker",
+    "g": "order picker mast platform operator rise"
+  },
+  {
+    "file": "corker.js",
+    "c": "winery",
+    "t": "Bottle corker",
+    "g": "bottle corker lever plunger cork bottle"
+  },
+  {
+    "file": "beanroaster.js",
+    "c": "cafe",
+    "t": "Coffee bean roaster",
+    "g": "coffee roaster drum cooling tray stirring arm"
   }
 ]
