@@ -13810,5 +13810,77 @@
     "c": "kitchen",
     "t": "Potato ricer",
     "g": "potato ricer handles press basket"
+  },
+  {
+    "file": "speargun.js",
+    "c": "diving",
+    "t": "Speargun",
+    "g": "speargun spear bands trigger shaft"
+  },
+  {
+    "file": "jacobsladder.js",
+    "c": "toys",
+    "t": "Jacob's ladder toy",
+    "g": "jacob ladder toy blocks ribbons flip cascade"
+  },
+  {
+    "file": "kendama.js",
+    "c": "toys",
+    "t": "Kendama",
+    "g": "kendama ball string cup spike swing"
+  },
+  {
+    "file": "jumpingjack.js",
+    "c": "toys",
+    "t": "Jumping jack toy",
+    "g": "jumping jack toy pull string arms legs"
+  },
+  {
+    "file": "binoculars.js",
+    "c": "outdoors",
+    "t": "Binoculars",
+    "g": "binoculars hinge fold barrels focus"
+  },
+  {
+    "file": "popupcamper.js",
+    "c": "camping",
+    "t": "Pop-up camper",
+    "g": "pop up camper roof lift canvas trailer"
+  },
+  {
+    "file": "radialarmsaw.js",
+    "c": "wood",
+    "t": "Radial arm saw",
+    "g": "radial arm saw head slide arm blade"
+  },
+  {
+    "file": "panelsaw.js",
+    "c": "wood",
+    "t": "Vertical panel saw",
+    "g": "vertical panel saw carriage frame sheet"
+  },
+  {
+    "file": "etchingpress.js",
+    "c": "craft",
+    "t": "Etching press",
+    "g": "etching press star wheel roller bed blankets"
+  },
+  {
+    "file": "letterpress.js",
+    "c": "craft",
+    "t": "Platen letterpress",
+    "g": "platen letterpress press platen lever ink disc"
+  },
+  {
+    "file": "draftingmachine.js",
+    "c": "design",
+    "t": "Drafting machine",
+    "g": "drafting machine arm protractor head rulers board"
+  },
+  {
+    "file": "diabolo.js",
+    "c": "toys",
+    "t": "Diabolo",
+    "g": "diabolo spool sticks string toss"
   }
 ]
