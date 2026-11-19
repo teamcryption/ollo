@@ -13738,5 +13738,77 @@
     "c": "space",
     "t": "Rocket fairing",
     "g": "rocket payload fairing halves open satellite"
+  },
+  {
+    "file": "gangway.js",
+    "c": "marine",
+    "t": "Ship gangway",
+    "g": "ship gangway ramp handrails swing tilt"
+  },
+  {
+    "file": "grabunloader.js",
+    "c": "marine",
+    "t": "Grab unloader",
+    "g": "grab unloader clamshell bucket jaws crane"
+  },
+  {
+    "file": "roadblocker.js",
+    "c": "security",
+    "t": "Road blocker",
+    "g": "road blocker wedge plate rise barrier"
+  },
+  {
+    "file": "shiploader.js",
+    "c": "marine",
+    "t": "Ship loader",
+    "g": "ship loader boom conveyor slew spout"
+  },
+  {
+    "file": "shootinggallery.js",
+    "c": "fairground",
+    "t": "Shooting gallery",
+    "g": "shooting gallery targets flip rail booth"
+  },
+  {
+    "file": "hookaduck.js",
+    "c": "fairground",
+    "t": "Hook-a-duck",
+    "g": "hook a duck pole hook duck lift trough"
+  },
+  {
+    "file": "mandoline.js",
+    "c": "kitchen",
+    "t": "Mandoline slicer",
+    "g": "mandoline slicer blade guard pusher slide"
+  },
+  {
+    "file": "siphoncoffee.js",
+    "c": "cafe",
+    "t": "Siphon coffee maker",
+    "g": "siphon coffee vacuum upper globe stand burner"
+  },
+  {
+    "file": "waltzer.js",
+    "c": "fairground",
+    "t": "Waltzer",
+    "g": "waltzer car spin platform tub"
+  },
+  {
+    "file": "coconutshy.js",
+    "c": "fairground",
+    "t": "Coconut shy",
+    "g": "coconut shy post ball knock cup"
+  },
+  {
+    "file": "canopener.js",
+    "c": "kitchen",
+    "t": "Can opener",
+    "g": "can opener butterfly handles key wheel"
+  },
+  {
+    "file": "potatoricer.js",
+    "c": "kitchen",
+    "t": "Potato ricer",
+    "g": "potato ricer handles press basket"
   }
 ]
