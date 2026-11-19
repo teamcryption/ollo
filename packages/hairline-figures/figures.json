@@ -14110,5 +14110,47 @@
     "c": "laundry",
     "t": "Ironing board cupboard",
     "g": "ironing board cupboard fold down wall"
+  },
+  {
+    "file": "forageharvester.js",
+    "c": "farm",
+    "t": "Forage harvester",
+    "g": "forage harvester spout swing chute header"
+  },
+  {
+    "file": "plugdoor.js",
+    "c": "railway",
+    "t": "Train plug door",
+    "g": "train plug door slide out swing carriage"
+  },
+  {
+    "file": "loppers.js",
+    "c": "garden",
+    "t": "Pruning loppers",
+    "g": "pruning loppers long handles blades close"
+  },
+  {
+    "file": "tyreswing.js",
+    "c": "play",
+    "t": "Tyre swing",
+    "g": "tyre swing ropes branch frame"
+  },
+  {
+    "file": "slurrytanker.js",
+    "c": "farm",
+    "t": "Slurry tanker",
+    "g": "slurry tanker dribble bar boom fold spread"
+  },
+  {
+    "file": "mobilecrane.js",
+    "c": "construction",
+    "t": "Mobile crane",
+    "g": "mobile crane telescopic boom extend outriggers truck"
+  },
+  {
+    "file": "knuckleboom.js",
+    "c": "vehicle",
+    "t": "Knuckle boom crane truck",
+    "g": "knuckle boom loader crane truck fold unfold"
   }
 ]
