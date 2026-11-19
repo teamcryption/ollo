@@ -13882,5 +13882,41 @@
     "c": "toys",
     "t": "Diabolo",
     "g": "diabolo spool sticks string toss"
+  },
+  {
+    "file": "candledipping.js",
+    "c": "craft",
+    "t": "Candle dipping rack",
+    "g": "candle dipping rack wicks vat lower"
+  },
+  {
+    "file": "pcrmachine.js",
+    "c": "lab",
+    "t": "PCR machine",
+    "g": "pcr thermal cycler heated lid block wells"
+  },
+  {
+    "file": "platereader.js",
+    "c": "lab",
+    "t": "Microplate reader",
+    "g": "microplate reader tray slide plate drawer"
+  },
+  {
+    "file": "sonicator.js",
+    "c": "lab",
+    "t": "Probe sonicator",
+    "g": "sonicator probe horn lower beaker stand"
+  },
+  {
+    "file": "cryotank.js",
+    "c": "lab",
+    "t": "Cryogenic dewar",
+    "g": "cryogenic dewar lid lift canister rack nitrogen"
+  },
+  {
+    "file": "autosampler.js",
+    "c": "lab",
+    "t": "Autosampler",
+    "g": "autosampler carousel vials needle arm"
   }
 ]
