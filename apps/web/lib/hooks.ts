@@ -1,6 +1,6 @@
 'use client';
 
-import { useCallback, useEffect, useState } from 'react';
+import { useCallback, useEffect, useState, useSyncExternalStore } from 'react';
 
 export type Theme = 'light' | 'dark';
 
@@ -49,4 +49,18 @@ export function useLocalList(key: string, max: number) {
     [key, max],
   );
   return { items, push, toggle };
+}
+
+/** True on phones (< 600 px, the breakpoint the CSS uses). The landing page renders the
+ *  iPhone layout from Figma (156:11302) when this is true; false during server render. */
+export function usePhone() {
+  return useSyncExternalStore(
+    (cb) => {
+      const m = window.matchMedia('(max-width: 599.98px)');
+      m.addEventListener('change', cb);
+      return () => m.removeEventListener('change', cb);
+    },
+    () => window.matchMedia('(max-width: 599.98px)').matches,
+    () => false,
+  );
 }

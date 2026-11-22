@@ -3,8 +3,9 @@
 // "Pricing Banner"): Free / Pro / Lifetime cards with a plan token (heart in Light, Bold, Fill),
 // "was" + launch pills, and a Batch pass: one tiny ollo icon per weekly batch.
 // Used by the landing page, the pricing page (#subscribe) and onboarding step 3.
-import type { ReactNode } from 'react';
+import { useState, type ReactNode } from 'react';
 import { offPercent, PRICE, PRO_BATCHES, type Plan } from '@/lib/account';
+import { usePhone } from '@/lib/hooks';
 import { LibIcon, useLibraryIcons } from '@/lib/libraryIcons';
 import { UiIcon } from './ui-icons';
 import { Roll } from '@/lib/motion';
@@ -284,20 +285,44 @@ export function CompareTable() {
 /** The whole pricing block: heading, weekly-batches card, cards, trust row and compare table. */
 export function PricingBlock({ actions, as = 'h2', id }: { actions: Record<Plan, PlanAction>; as?: 'h1' | 'h2'; id?: string }) {
   const H = as;
+  // Phones (Figma 157:11642): left-aligned head, Free / Pro / Lifetime tabs over one card, trust line scrolls.
+  const phone = usePhone();
+  const [tab, setTab] = useState<Plan>('lifetime');
   return (
-    <section className="pricing-block" id={id} aria-labelledby="pricing-h">
-      <div className="lp-head is-center">
+    <section className={`pricing-block${phone ? ' is-phone' : ''}`} id={id} aria-labelledby="pricing-h">
+      <div className={`lp-head${phone ? '' : ' is-center'}`}>
         <span className="eyebrow">PRICING</span>
         <H id="pricing-h">Pay once. Keep it forever.</H>
         <p>
-          No subscription. One price for every icon and illustration, plus a new batch every week. Pro includes the next 3 months
-          of batches; Lifetime includes every batch, forever.
+          {phone
+            ? 'No subscription. Pro includes 3 months of new batches; Lifetime, every batch forever.'
+            : 'No subscription. One price for every icon and illustration, plus a new batch every week. Pro includes the next 3 months of batches; Lifetime includes every batch, forever.'}
         </p>
       </div>
       <DropsCard />
-      <PriceCards actions={actions} />
-      <TrustRow />
-      <CompareTable />
+      {phone && (
+        <div className="mode-switch plan-tabs" role="tablist" aria-label="Plan">
+          {(['free', 'pro', 'lifetime'] as Plan[]).map((pl) => (
+            <button key={pl} role="tab" aria-selected={tab === pl} className="seg seg-md" onClick={() => setTab(pl)}>
+              {pl === 'free' ? 'Free' : pl === 'pro' ? 'Pro' : 'Lifetime'}
+            </button>
+          ))}
+        </div>
+      )}
+      <PriceCards actions={actions} only={phone ? tab : undefined} />
+      {phone ? (
+        <div className="lp-marquee trust-marquee">
+          <div className="lp-marquee-track">
+            <TrustRow />
+            <span aria-hidden="true">
+              <TrustRow />
+            </span>
+          </div>
+        </div>
+      ) : (
+        <TrustRow />
+      )}
+      {!phone && <CompareTable />}
     </section>
   );
 }

@@ -42,6 +42,7 @@ const css = [
   read('account.css'),
   read('landing.css'),
   read('motion.css'),
+  read('landing-phone.css'),
 ].join('\n');
 
 const fonts =
