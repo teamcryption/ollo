@@ -18,7 +18,7 @@ import {
   type Index,
   type MotionSpec,
 } from '@/lib/data';
-import type { Theme } from '@/lib/hooks';
+import { usePhone, type Theme } from '@/lib/hooks';
 import { illustrationSvg } from '@/lib/illustration';
 import { LibIcon, useLibraryIcons } from '@/lib/libraryIcons';
 import { BrandMark, type BrandId } from './BrandMarks';
@@ -69,17 +69,25 @@ export function Landing(p: Props) {
   const root = useRef<HTMLDivElement>(null);
   useReveal(root, [p.index, p.illustrations, a]);
   useSmoothScroll();
+  // Phones get the iPhone layout from Figma (156:11302): fewer, stacked sections.
+  const phone = usePhone();
+  const [menu, setMenu] = useState(false);
 
   return (
     <div className="landing" ref={root}>
       <a className="lp-bar" href="#library">
         {latest > 0 && <span className="badge-new">BATCH {latest}</span>}
-        <span>
-          {latestCount ? `${fmt(latestCount)} new icons this week. ` : ''}
-          {fmt(icons)} icons and {fmt(ills)} illustrations in the library now.
-        </span>
+        {phone ? (
+          <span className="lp-bar-short">{latestCount ? `${fmt(latestCount)} new icons this week` : `${fmt(icons)} icons in the library`}</span>
+        ) : (
+          <span>
+            {latestCount ? `${fmt(latestCount)} new icons this week. ` : ''}
+            {fmt(icons)} icons and {fmt(ills)} illustrations in the library now.
+          </span>
+        )}
         <span className="lp-bar-link">
-          See what’s new <UiIcon name="chevron-right" size={16} />
+          {!phone && 'See what’s new '}
+          <UiIcon name="chevron-right" size={16} />
         </span>
       </a>
 
@@ -102,6 +110,16 @@ export function Landing(p: Props) {
             </a>
           ))}
         </div>
+        {phone ? (
+          <div className="lp-actions">
+            <a className="btn btn-primary btn-sm" href="#library">
+              Browse
+            </a>
+            <button className="icon-btn" aria-label={menu ? 'Close menu' : 'Open menu'} aria-expanded={menu} onClick={() => setMenu((m) => !m)}>
+              <UiIcon name={menu ? 'close' : 'menu'} size={20} />
+            </button>
+          </div>
+        ) : (
         <div className="lp-actions">
           <button className="icon-btn" onClick={p.toggleTheme} aria-label={p.theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode'}>
             <UiIcon name={p.theme === 'dark' ? 'sun' : 'moon'} size={20} />
@@ -123,19 +141,60 @@ export function Landing(p: Props) {
             <span className="only-phone">Browse</span>
           </a>
         </div>
+        )}
       </nav>
+      {phone && menu && (
+        <div className="lp-menu" role="menu">
+          {[
+            ['Icons', 'icons'],
+            ['Illustrations', 'illustrations'],
+            ['Animated', 'animated'],
+            ['Figma plugin', 'figma-plugin'],
+            ['Pricing', 'pricing'],
+            ['FAQ', 'faq'],
+          ].map(([l, id]) => (
+            <a key={id} role="menuitem" href="#home" onClick={(e) => (e.preventDefault(), setMenu(false), requestAnimationFrame(() => requestAnimationFrame(() => toSection(id))))}>
+              {l}
+              <UiIcon name="chevron-right" size={16} />
+            </a>
+          ))}
+          <div className="lp-menu-foot">
+            <button className="btn btn-outline btn-md" onClick={p.toggleTheme}>
+              <UiIcon name={p.theme === 'dark' ? 'sun' : 'moon'} size={18} />
+              {p.theme === 'dark' ? 'Light mode' : 'Dark mode'}
+            </button>
+            {a ? (
+              <a className="btn btn-primary btn-md" href="#account">
+                Account
+              </a>
+            ) : (
+              <a className="btn btn-primary btn-md" href="#signin">
+                Sign in
+              </a>
+            )}
+          </div>
+        </div>
+      )}
 
-      <Hero icons={icons} ills={ills} onSearch={p.onSearch} />
-      <Showcase svgs={allSvgs} theme={p.theme} illustrations={p.illustrations} icons={icons} ills={ills} onToast={p.onToast} />
+      <Hero icons={icons} ills={ills} onSearch={p.onSearch} phone={phone} />
+      <Showcase phone={phone} svgs={allSvgs} theme={p.theme} illustrations={p.illustrations} icons={icons} ills={ills} onToast={p.onToast} />
 
       <section className="lp-stats" aria-label="The library in numbers">
-        {[
-          [fmt(icons), 'icons, drawn from scratch'],
-          [fmt(ills), 'isometric illustrations'],
-          ['5', 'icon styles, one system'],
-          ['3', 'illustration types'],
-          ['Weekly', 'new batches, free updates'],
-        ].map(([n, l], i) => (
+        {(phone
+          ? [
+              [fmt(icons), 'icons'],
+              [fmt(ills), 'illustrations'],
+              ['5', 'icon styles'],
+              ['Weekly', 'new batches'],
+            ]
+          : [
+              [fmt(icons), 'icons, drawn from scratch'],
+              [fmt(ills), 'isometric illustrations'],
+              ['5', 'icon styles, one system'],
+              ['3', 'illustration types'],
+              ['Weekly', 'new batches, free updates'],
+            ]
+        ).map(([n, l], i) => (
           <div key={l} className="rv" data-reveal="" style={{ ['--i' as string]: i }}>
             <b>
               <CountUp value={n} />
@@ -145,6 +204,7 @@ export function Landing(p: Props) {
         ))}
       </section>
 
+      {!phone && (
       <section className="lp-works" aria-label="Works with">
         <span className="lp-works-label">WORKS WITH</span>
         <div className="lp-marquee">
@@ -177,24 +237,47 @@ export function Landing(p: Props) {
           </div>
         </div>
       </section>
+      )}
 
-      <IconsSection svgs={allSvgs} icons={icons} />
-      <IllustrationsSection illustrations={p.illustrations} industries={p.industries} theme={p.theme} ills={ills} />
-      <MotionSection svgs={allSvgs} illustrations={p.illustrations} />
-      <PluginSection svgs={allSvgs} icons={icons} />
-      <DevelopersSection svgs={allSvgs} />
-      <HowSection icons={icons} ills={ills} />
+      <IconsSection phone={phone} svgs={allSvgs} icons={icons} />
+      <IllustrationsSection phone={phone} illustrations={p.illustrations} industries={p.industries} theme={p.theme} ills={ills} />
+      <MotionSection phone={phone} svgs={allSvgs} illustrations={p.illustrations} />
+      <PluginSection phone={phone} svgs={allSvgs} icons={icons} />
+      {!phone && <DevelopersSection svgs={allSvgs} />}
+      {!phone && <HowSection icons={icons} ills={ills} />}
 
       <div className="lp-section is-surface">
         <PricingBlock id="pricing" actions={{ free: plan('free'), pro: plan('pro'), lifetime: plan('lifetime') }} />
       </div>
 
-      <Faq />
+      <Faq phone={phone} />
 
       <section className="lp-section lp-final">
-        <FinalCta theme={p.theme} />
+        <FinalCta theme={p.theme} phone={phone} />
       </section>
 
+      {phone ? (
+        <footer className="lp-footer lp-pfooter">
+          <Logo />
+          <p>Hand-drawn icons and isometric illustrations for Figma, code and every screen in between.</p>
+          <div className="lp-pfooter-cols">
+            {[
+              ['PRODUCT', [['Icons', 'library'], ['Illustrations', 'library?mode=illustrations'], ['Figma plugin', 'figma'], ['Pricing', 'subscribe']]],
+              ['COMPANY', [['About', 'about'], ['Contact', 'contact'], ['Terms', 'terms'], ['Privacy', 'privacy']]],
+            ].map(([h, items]) => (
+              <div key={h as string} className="lp-footer-col">
+                <span>{h as string}</span>
+                {(items as string[][]).map(([l, href]) => (
+                  <a key={l} href={`#${href}`}>
+                    {l}
+                  </a>
+                ))}
+              </div>
+            ))}
+          </div>
+          <span className="lp-pfooter-copy">© {new Date().getFullYear()} ollo. Every asset drawn from scratch.</span>
+        </footer>
+      ) : (
       <footer className="lp-footer">
         <div className="lp-footer-cols">
           <div className="lp-footer-brand">
@@ -225,6 +308,7 @@ export function Landing(p: Props) {
           </button>
         </div>
       </footer>
+      )}
     </div>
   );
 }
@@ -276,7 +360,7 @@ function Points({ items }: { items: [string, string][] }) {
   );
 }
 
-function Hero({ icons, ills, onSearch }: { icons: number; ills: number; onSearch: Props['onSearch'] }) {
+function Hero({ icons, ills, onSearch, phone }: { icons: number; ills: number; onSearch: Props['onSearch']; phone: boolean }) {
   const [q, setQ] = useState('');
   const [mode, setMode] = useState<'icons' | 'illustrations' | 'animated'>('icons');
   const submit = (e?: FormEvent) => {
@@ -287,13 +371,13 @@ function Hero({ icons, ills, onSearch }: { icons: number; ills: number; onSearch
     <section className="lp-hero">
       <a className="lp-pill-new rv" data-reveal="" href="#library?mode=illustrations">
         <span className="badge-new">NEW</span>
-        Live illustrations that follow the pointer and play as you scroll
+        {phone ? 'Live illustrations' : 'Live illustrations that follow the pointer and play as you scroll'}
         <UiIcon name="chevron-right" size={16} />
       </a>
       <Words as="h1" text="Every icon and illustration your product needs." delay={80} />
       <p className="lp-sub rv" data-reveal="" style={{ ['--i' as string]: 4 }}>
         {fmt(Math.floor(icons / 1000) * 1000)}+ icons in five styles and {fmt(ills)} isometric illustrations, still, animated or
-        interactive. One hand-drawn system, ready for Figma, React and your AI builder.
+        interactive. {phone ? 'Ready for Figma, React and your AI builder.' : 'One hand-drawn system, ready for Figma, React and your AI builder.'}
       </p>
       <form className="lp-search rv" data-reveal="" style={{ ['--i' as string]: 5 }} onSubmit={submit} role="search">
         <label className="search search-tablet">
@@ -302,7 +386,7 @@ function Hero({ icons, ills, onSearch }: { icons: number; ills: number; onSearch
             type="search"
             value={q}
             onChange={(e) => setQ(e.target.value)}
-            placeholder="Search icons and illustrations, e.g. empty inbox"
+            placeholder={phone ? 'Search icons and illustrations' : 'Search icons and illustrations, e.g. empty inbox'}
             aria-label="Search the library"
           />
           <kbd>/</kbd>
@@ -340,7 +424,7 @@ function Hero({ icons, ills, onSearch }: { icons: number; ills: number; onSearch
         </a>
       </div>
       <div className="rv" data-reveal="" style={{ ['--i' as string]: 8 }}>
-        <Ticks items={['Light and Regular free forever', 'Commercial licence', '14-day refund']} />
+        <Ticks items={phone ? ['Light and Regular free forever', 'Commercial licence · 14-day refund'] : ['Light and Regular free forever', 'Commercial licence', '14-day refund']} />
       </div>
     </section>
   );
@@ -385,6 +469,7 @@ function IllView({ item, type, theme, className }: { item?: Illustration; type: 
 }
 
 function Showcase({
+  phone,
   svgs,
   theme,
   illustrations,
@@ -392,6 +477,7 @@ function Showcase({
   ills,
   onToast,
 }: {
+  phone: boolean;
   svgs: Record<string, string>;
   theme: Theme;
   illustrations: Illustration[] | null;
@@ -420,18 +506,18 @@ function Showcase({
           <div className="lp-card-head">
             <span>
               <b>Icons</b>
-              {fmt(icons)} icons · one 24 px grid · five styles
+              {phone ? `${fmt(icons)} · 5 styles` : `${fmt(icons)} icons · one 24 px grid · five styles`}
             </span>
             <div className="segmented" role="radiogroup" aria-label="Style">
               {STYLES.map(([id, l]) => (
                 <button key={id} role="radio" aria-checked={style === id} aria-selected={style === id} className="seg seg-sm" onClick={() => setStyle(id)}>
-                  {l}
+                  {phone && id === 'duotone' ? 'Duo' : l}
                 </button>
               ))}
             </div>
           </div>
           <div className="lp-icon-grid">
-            {SHOW.map((n) => (
+            {(phone ? SHOW.slice(0, 8) : SHOW).map((n) => (
               <button
                 key={n}
                 className={`lp-tile${copied === n ? ' is-copied' : ''}`}
@@ -454,6 +540,7 @@ function Showcase({
               </button>
             ))}
           </div>
+          {!phone && (
           <div className="lp-card-foot">
             <span>Click to copy SVG, JSX or paste straight into Figma. Recolour and resize before you copy.</span>
             <div className="segmented" role="radiogroup" aria-label="Size">
@@ -464,13 +551,14 @@ function Showcase({
               ))}
             </div>
           </div>
+          )}
         </div>
 
         <div className="lp-card lp-ill-card rv" data-reveal="" style={{ ['--i' as string]: 1 }}>
           <div className="lp-card-head">
             <span>
               <b>Illustrations</b>
-              {fmt(ills)} isometric scenes, still, animated or live
+              {phone ? `${fmt(ills)} scenes` : `${fmt(ills)} isometric scenes, still, animated or live`}
             </span>
           </div>
           <div className="chip-group" role="radiogroup" aria-label="Type">
@@ -489,6 +577,7 @@ function Showcase({
           </div>
         </div>
 
+        {!phone && (
         <div className="lp-card lp-anim-card rv" data-reveal="" style={{ ['--i' as string]: 2 }}>
           <div className="lp-card-head">
             <span>
@@ -513,6 +602,8 @@ function Showcase({
           </div>
         </div>
 
+        )}
+        {!phone && (
         <div className="lp-card lp-figma-card rv" data-reveal="" style={{ ['--i' as string]: 3 }}>
           <div className="lp-figma-text">
             <span className="icon-chip">
@@ -546,12 +637,39 @@ function Showcase({
             </div>
           </div>
         </div>
+        )}
       </div>
     </section>
   );
 }
 
-function IconsSection({ svgs, icons }: { svgs: Record<string, string>; icons: number }) {
+function IconsSection({ svgs, icons, phone }: { svgs: Record<string, string>; icons: number; phone: boolean }) {
+  if (phone)
+    return (
+      <section className="lp-section lp-split lp-pstack" id="icons">
+        <Head eyebrow="ICONS" title="One icon, five styles, every size." sub="Soft, continuous strokes on one 24 px grid, with an optical stroke for 16, 20, 24 and 32 px." />
+        <div className="lp-card lp-matrix rv" data-reveal="">
+          <div className="lp-matrix-row is-head">
+            {STYLES.map(([s, l]) => (
+              <span key={s}>{s === 'duotone' ? 'Duo' : l}</span>
+            ))}
+          </div>
+          {['home', 'bell', 'heart', 'chat'].map((n, r) => (
+            <div key={n} className="lp-matrix-row">
+              {STYLES.map(([s], c) => (
+                <span key={s} className="lp-cell" style={{ ['--r' as string]: r, ['--c' as string]: c }}>
+                  <LibIcon svg={svgs[`${n}:${s}`]} />
+                </span>
+              ))}
+            </div>
+          ))}
+        </div>
+        <a className="btn btn-outline btn-lg btn-block" href="#library">
+          <UiIcon name="arrow-up-right" size={18} />
+          <Roll text="Browse all icons" />
+        </a>
+      </section>
+    );
   return (
     <section className="lp-section lp-split" id="icons">
       <div className="lp-copy">
@@ -605,8 +723,45 @@ function IconsSection({ svgs, icons }: { svgs: Record<string, string>; icons: nu
   );
 }
 
-function IllustrationsSection({ illustrations, industries, theme, ills }: { illustrations: Illustration[] | null; industries: Category[]; theme: Theme; ills: number }) {
+function IllustrationsSection({ illustrations, industries, theme, ills, phone }: { illustrations: Illustration[] | null; industries: Category[]; theme: Theme; ills: number; phone: boolean }) {
   const picks = useShowcaseIllustrations(illustrations, 6).slice(1, 5);
+  if (phone)
+    return (
+      <section className="lp-section lp-split lp-pstack is-surface" id="illustrations">
+        <Head eyebrow="ILLUSTRATIONS" title="Isometric scenes that explain your product." sub="Stroke, Fill or Duotone, in your brand colour, light or dark." />
+        <div className="lp-pcards">
+          {picks.slice(0, 2).map((it, i) => {
+            const t: IllustrationType = i ? 'duotone' : 'fill';
+            return (
+              <a key={it.n} className="lp-pcard rv" data-reveal="" style={{ ['--i' as string]: i }} href="#library?mode=illustrations">
+                <span className="lp-pcard-preview">
+                  {it.live ? (
+                    <LiveIllustration name={it.n} mode="scroll" style={t} theme={theme} colour={null} tags={false} />
+                  ) : (
+                    <IllView item={it} type={t} theme={theme} />
+                  )}
+                </span>
+                <span className="lp-pcard-meta">
+                  <b>{it.t}</b>
+                  <span className="badge-neutral">{t.toUpperCase()}</span>
+                </span>
+              </a>
+            );
+          })}
+        </div>
+        <div className="lp-industries rv" data-reveal="">
+          {[...industries].sort((x, y) => y.count - x.count).slice(0, 8).map((c) => (
+            <a key={c.id} className="chip" href="#library?mode=illustrations">
+              {c.title}
+            </a>
+          ))}
+        </div>
+        <a className="btn btn-primary btn-lg btn-block" href="#library?mode=illustrations">
+          <UiIcon name="arrow-up-right" size={18} />
+          <Roll text={`Browse ${fmt(ills)} illustrations`} />
+        </a>
+      </section>
+    );
   const types: [IllustrationType | 'animated', string][] = [
     ['stroke', 'STROKE'],
     ['stroke', 'STROKE'],
@@ -662,9 +817,50 @@ function IllustrationsSection({ illustrations, industries, theme, ills }: { illu
   );
 }
 
-function MotionSection({ svgs, illustrations }: { svgs: Record<string, string>; illustrations: Illustration[] | null }) {
+function MotionSection({ svgs, illustrations, phone }: { svgs: Record<string, string>; illustrations: Illustration[] | null; phone: boolean }) {
   const motion = useMotion();
   const live = useMemo(() => (illustrations ?? []).filter((i) => i.live), [illustrations]);
+  if (phone)
+    return (
+      <section className="lp-section lp-motion lp-pstack force-dark" id="animated">
+        <Head eyebrow="MOTION" title="Icons that move. Illustrations that react." sub="Hover, follow the pointer or scroll. Export Lottie, .lottie or GIF." />
+        {(
+          [
+            [
+              'play',
+              'Animated icons',
+              'Pop-in, draw-on, wiggle and pulse.',
+              <span key="a" className="lp-mrow-tile">
+                <Animated svg={svgs['bell:regular']} spec={motion?.bell} size={28} colour="#171729" />
+              </span>,
+            ],
+            [
+              'sparkle',
+              'Interactive illustrations',
+              'Figures that follow the pointer.',
+              live[2] ? <LiveIllustration key="i" name={live[2].n} mode="interactive" style="stroke" theme="dark" colour={null} tags={false} /> : null,
+            ],
+            [
+              'layers',
+              'Scroll illustrations',
+              'Scenes that play as you scroll.',
+              live[7] ? <LiveIllustration key="s" name={live[7].n} mode="scroll" style="stroke" theme="dark" colour={null} tags={false} /> : null,
+            ],
+          ] as [UiIconName, string, string, ReactNode][]
+        ).map(([ic, t, d, visual], i) => (
+          <div key={t} className="lp-mrow rv" data-reveal="" style={{ ['--i' as string]: i }}>
+            <span className="lp-mrow-visual">{visual}</span>
+            <span className="lp-mrow-text">
+              <b>
+                <UiIcon name={ic} size={18} />
+                {t}
+              </b>
+              <span>{d}</span>
+            </span>
+          </div>
+        ))}
+      </section>
+    );
   const cards: [UiIconName, string, string, ReactNode, string | null][] = [
     [
       'play',
@@ -725,7 +921,7 @@ function MotionSection({ svgs, illustrations }: { svgs: Record<string, string>; 
   );
 }
 
-function PluginSection({ svgs, icons }: { svgs: Record<string, string>; icons: number }) {
+function PluginSection({ svgs, icons, phone }: { svgs: Record<string, string>; icons: number; phone: boolean }) {
   // A little demo loop: a tile gets "inserted" every 1.8 s and the toast names it.
   const [ref, inView] = useInView<HTMLDivElement>();
   const [pick, setPick] = useState(2);
@@ -734,6 +930,30 @@ function PluginSection({ svgs, icons }: { svgs: Record<string, string>; icons: n
     const t = setInterval(() => setPick((p) => (p + 3) % SHOW.length), 1800);
     return () => clearInterval(t);
   }, [inView]);
+  if (phone)
+    return (
+      <section className="lp-section lp-split lp-pstack lp-pplugin" id="figma-plugin">
+        <Head eyebrow="FIGMA PLUGIN" title="Drop components, not pictures." sub="Click an icon and it lands on your canvas as a component, with every style as a variant." />
+        <ul className="lp-ppoints" role="list">
+          {[
+            ['Every style is a variant', 'Swap Regular for Fill in the properties panel.'],
+            ['Named for search', 'Assets search finds every icon by name.'],
+          ].map(([t, d], i) => (
+            <li key={t} className="rv" data-reveal="" style={{ ['--i' as string]: i }}>
+              <UiIcon name="check" size={18} />
+              <span>
+                <b>{t}</b>
+                {d}
+              </span>
+            </li>
+          ))}
+        </ul>
+        <a className="btn btn-primary btn-lg btn-block" href="#figma">
+          <FigmaMark size={18} />
+          <Roll text="Get the Figma plugin" />
+        </a>
+      </section>
+    );
   return (
     <section className="lp-section lp-split is-reverse" id="figma-plugin">
       <div className="lp-plugin rv" data-reveal="" ref={ref} aria-hidden="true">
@@ -929,8 +1149,27 @@ const QA: [string, string][] = [
   ['Were these icons drawn from scratch?', 'Yes. Every icon and illustration is drawn by hand on our own grid. Nothing is traced or copied from another library.'],
 ];
 
-function Faq() {
+function Faq({ phone }: { phone: boolean }) {
   const [open, setOpen] = useState(0);
+  if (phone)
+    return (
+      <section className="lp-section lp-faq lp-pstack" id="faq">
+        <Head eyebrow="FAQ" title="Questions, answered." />
+        <div className="lp-faq-list">
+          {QA.filter((_, i) => i !== 3 && i !== 5).map(([q, ans], i) => (
+            <div key={q} className={`lp-qa rv${open === i ? ' is-open' : ''}`} data-reveal="" style={{ ['--i' as string]: i }}>
+              <button aria-expanded={open === i} onClick={() => setOpen(open === i ? -1 : i)}>
+                <span>{q}</span>
+                <UiIcon name="plus" size={24} />
+              </button>
+              <div className="lp-qa-a">
+                <p>{ans}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+    );
   return (
     <section className="lp-section lp-faq" id="faq">
       <div className="lp-copy">
@@ -975,7 +1214,7 @@ const FIELD_STYLES: IconStyle[] = ['light', 'regular', 'bold'];
  * Final CTA (Figma 153:10616): a faint field of library icons behind the card that drifts
  * sideways and brightens under the pointer; the icon row takes turns playing its animation.
  */
-function FinalCta({ theme }: { theme: Theme }) {
+function FinalCta({ theme, phone }: { theme: Theme; phone: boolean }) {
   const field = useLibraryIcons([...CTA_ROW, ...FIELD_NAMES.flatMap((n) => FIELD_STYLES.map((st) => [n, st] as [string, IconStyle]))]);
   const motion = useMotion();
   const [ref, inView] = useInView<HTMLDivElement>();
@@ -1014,6 +1253,7 @@ function FinalCta({ theme }: { theme: Theme }) {
       <div className="lp-field is-lit" aria-hidden="true">
         <div className="lp-field-track">{grid}</div>
       </div>
+      {!phone && (
       <div className="lp-final-icons" aria-hidden="true" onMouseLeave={() => setHover(null)}>
         {CTA_ROW.map(([n, st], i) => (
           <span key={n} className={i === on ? 'is-on' : undefined} style={{ ['--i' as string]: i }} onMouseEnter={() => setHover(i)}>
@@ -1025,18 +1265,19 @@ function FinalCta({ theme }: { theme: Theme }) {
           </span>
         ))}
       </div>
+      )}
       <Words text="Ship screens that look finished." />
-      <p>Start with every icon in Light and Regular, free forever. Upgrade for motion, every style and every illustration type.</p>
+      <p>{phone ? 'Every icon in Light and Regular, free forever.' : 'Start with every icon in Light and Regular, free forever. Upgrade for motion, every style and every illustration type.'}</p>
       <div className="lp-ctas">
         <a className="btn btn-primary btn-lg lp-final-btn" href="#library">
           <UiIcon name="arrow-up-right" size={20} />
           <Roll text="Browse the library" />
         </a>
-        <a className="btn btn-muted btn-lg lp-final-btn" href="#home" onClick={(e) => (e.preventDefault(), toSection('pricing'))}>
+        <a className={`btn ${phone ? 'btn-outline' : 'btn-muted'} btn-lg lp-final-btn`} href="#home" onClick={(e) => (e.preventDefault(), toSection('pricing'))}>
           <Roll text="See pricing" />
         </a>
       </div>
-      <Ticks items={['Commercial licence', '14-day refund', 'New batches every week']} />
+      {!phone && <Ticks items={['Commercial licence', '14-day refund', 'New batches every week']} />}
     </div>
   );
 }
